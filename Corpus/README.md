@@ -6,10 +6,10 @@ mingqiang
 ici desc :
 
 agathe
-ici desc :
+ici desc : médecine, hopital, justice
 
 andrea
-ici desc :
+ici desc : Pays-Bas concert camionnette
 
 audrey
 ici desc :
@@ -30,7 +30,7 @@ guanhua
 ici desc : benevoles???
 
 jielei
-ici desc :
+ici desc : anti-dollar
 
 nico
 ici desc :
@@ -47,6 +47,9 @@ ici desc :
 yunbei
 ici desc :
 
+arthur
+ici desc : chine accro internet dépendance
+
 ## RI (réseau itnernational)
 
 mingqiang
@@ -56,7 +59,7 @@ agathe
 ici desc :
 
 andrea
-ici desc :
+ici desc : Pays-Bas abandonner euro
 
 audrey
 ici desc :
@@ -93,4 +96,7 @@ ici desc :
 
 yunbei
 ici desc :
+
+arthur
+ici desc : espagnole catalogne indépendance vote
 
