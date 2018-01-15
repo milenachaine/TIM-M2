@@ -1,10 +1,6 @@
 # Décrivez ici votre fichier
 
-benevoles???
-
 ## 20min (20 minutes)
-
-benevoles ???
 
 mingqiang
 ici desc :
