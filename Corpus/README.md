@@ -9,7 +9,7 @@ agathe
 ici desc : médecine, hopital, justice
 
 andrea
-ici desc :
+ici desc : Pays-Bas concert camionnette
 
 audrey
 ici desc :
@@ -36,7 +36,7 @@ nico
 ici desc :
 
 sandra
-ici desc :
+ici desc : indépendance, Catalogne
 
 sotiria
 ici desc :
@@ -56,7 +56,7 @@ agathe
 ici desc :
 
 andrea
-ici desc :
+ici desc : Pays-Bas abandonner euro
 
 audrey
 ici desc :
@@ -83,7 +83,7 @@ nico
 ici desc :
 
 sandra
-ici desc :
+ici desc : Amerique, terrorisme
 
 sotiria
 ici desc :
