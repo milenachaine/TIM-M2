@@ -18,7 +18,7 @@ chloe
 ici desc :
 
 damien
-ici desc :
+ici desc : Palestine États-Unis
 
 damien2
 ici desc :
