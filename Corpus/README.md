@@ -15,7 +15,7 @@ audrey
 ici desc :
 
 chloe
-ici desc :
+ici desc : fichier TES
 
 damien
 ici desc : Palestine États-Unis annexion
@@ -62,7 +62,7 @@ audrey
 ici desc :
 
 chloe
-ici desc :
+ici desc : cyberattaque
 
 damien
 ici desc :
