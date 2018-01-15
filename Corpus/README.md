@@ -12,7 +12,7 @@ andrea
 ici desc : Pays-Bas concert camionnette
 
 audrey
-ici desc :
+ici desc : système artificiel intelligent
 
 chloe
 ici desc :
@@ -62,7 +62,7 @@ andrea
 ici desc : Pays-Bas abandonner euro
 
 audrey
-ici desc :
+ici desc : membranes implant pancréas
 
 chloe
 ici desc :
