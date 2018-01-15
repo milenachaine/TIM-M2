@@ -9,10 +9,10 @@ agathe
 ici desc :
 
 andrea
-ici desc : Pays-Bas concert camionnette
+ici desc :
 
 audrey
-ici desc :
+ici desc : système artificiel intelligent
 
 chloe
 ici desc :
@@ -27,7 +27,7 @@ giovanna
 ici desc :
 
 guanhua
-ici desc : benevoles???
+ici desc : Corée
 
 jielei
 ici desc :
@@ -39,7 +39,7 @@ sandra
 ici desc : indépendance, Catalogne
 
 sotiria
-ici desc :
+ici desc : planet accord de Paris climat
 
 xi
 ici desc :
@@ -59,10 +59,10 @@ agathe
 ici desc :
 
 andrea
-ici desc : Pays-Bas abandonner euro
+ici desc :
 
 audrey
-ici desc :
+ici desc : membranes implant pancréas
 
 chloe
 ici desc :
@@ -89,7 +89,7 @@ sandra
 ici desc : Amerique, terrorisme
 
 sotiria
-ici desc :
+ici desc : discours Prix Nobel
 
 xi
 ici desc :
