@@ -12,7 +12,7 @@ andrea
 ici desc :
 
 audrey
-ici desc :
+ici desc : système artificiel intelligent
 
 chloe
 ici desc :
@@ -59,7 +59,7 @@ andrea
 ici desc :
 
 audrey
-ici desc :
+ici desc : membranes implant pancréas
 
 chloe
 ici desc :
