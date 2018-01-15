@@ -42,7 +42,7 @@ sotiria
 ici desc : planet accord de Paris climat
 
 xi
-ici desc :
+ici desc : Lyon police
 
 yunbei
 ici desc :
@@ -92,7 +92,7 @@ sotiria
 ici desc : discours Prix Nobel
 
 xi
-ici desc :
+ici desc : Russie nucléaire
 
 yunbei
 ici desc :
