@@ -67,12 +67,15 @@ ici desc : planet accord de Paris climat
 >>>>>>> 6faab6303bc63ffebf8b43c0575725751b003a99
 
 xi
-ici desc :
+ici desc : Lyon police
 
 yunbei
 ici desc :
 
-## RI (réseau itnernational)
+morgane
+ici desc: journeé sans voiture
+
+## RI (réseau international)
 
 mingqiang
 <<<<<<< HEAD
@@ -132,8 +135,10 @@ ici desc : discours Prix Nobel
 >>>>>>> 6faab6303bc63ffebf8b43c0575725751b003a99
 
 xi
-ici desc :
+ici desc : Russie nucléaire
 
 yunbei
 ici desc :
 
+morgane
+ici desc : procès Nouvel-An Cologne
