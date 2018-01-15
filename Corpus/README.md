@@ -36,7 +36,7 @@ nico
 ici desc :
 
 sandra
-ici desc :
+ici desc : indépendance, Catalogne
 
 sotiria
 ici desc :
@@ -83,7 +83,7 @@ nico
 ici desc :
 
 sandra
-ici desc :
+ici desc : Amerique, terrorisme
 
 sotiria
 ici desc :
