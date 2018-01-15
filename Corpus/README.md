@@ -13,7 +13,7 @@ agathe
 ici desc :
 
 andrea
-ici desc :
+ici desc : Pays-Bas concert camionnette
 
 audrey
 ici desc :
@@ -60,7 +60,7 @@ agathe
 ici desc :
 
 andrea
-ici desc :
+ici desc : Pays-Bas abandonner euro
 
 audrey
 ici desc :
