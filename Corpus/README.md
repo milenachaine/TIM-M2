@@ -18,7 +18,7 @@ chloe
 ici desc :
 
 damien
-ici desc : Palestine États-Unis
+ici desc : Palestine États-Unis annexion
 
 damien2
 ici desc :
