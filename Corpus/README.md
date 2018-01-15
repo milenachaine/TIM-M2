@@ -12,7 +12,7 @@ andrea
 ici desc :
 
 audrey
-ici desc :
+ici desc : système artificiel intelligent
 
 chloe
 ici desc : fichier TES
@@ -27,7 +27,7 @@ giovanna
 ici desc :
 
 guanhua
-ici desc : benevoles???
+ici desc : Corée
 
 jielei
 ici desc :
@@ -36,10 +36,10 @@ nico
 ici desc :
 
 sandra
-ici desc :
+ici desc : indépendance, Catalogne
 
 sotiria
-ici desc :
+ici desc : planet accord de Paris climat
 
 xi
 ici desc :
@@ -59,7 +59,7 @@ andrea
 ici desc :
 
 audrey
-ici desc :
+ici desc : membranes implant pancréas
 
 chloe
 ici desc : cyberattaque
@@ -83,10 +83,10 @@ nico
 ici desc :
 
 sandra
-ici desc :
+ici desc : Amerique, terrorisme
 
 sotiria
-ici desc :
+ici desc : discours Prix Nobel
 
 xi
 ici desc :
