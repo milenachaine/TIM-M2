@@ -47,6 +47,9 @@ ici desc :
 yunbei
 ici desc :
 
+arthur
+ici desc : chine accro internet dépendance
+
 ## RI (réseau itnernational)
 
 mingqiang
@@ -93,4 +96,7 @@ ici desc :
 
 yunbei
 ici desc :
+
+arthur
+ici desc : espagnole catalogne indépendance vote
 
