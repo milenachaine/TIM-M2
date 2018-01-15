@@ -3,19 +3,19 @@
 ## 20min (20 minutes)
 
 mingqiang
-ici desc :
+ici desc : attentat technique terroriste
 
 agathe
-ici desc : médecine, hopital, justice
+ici desc :
 
 andrea
-ici desc : Pays-Bas concert camionnette
+ici desc :
 
 audrey
 ici desc : système artificiel intelligent
 
 chloe
-ici desc :
+ici desc : fichier TES
 
 damien
 ici desc : Palestine États-Unis annexion
@@ -27,10 +27,10 @@ giovanna
 ici desc :
 
 guanhua
-ici desc : benevoles???
+ici desc : Corée
 
 jielei
-ici desc : anti-dollar
+ici desc :
 
 nico
 ici desc :
@@ -39,7 +39,7 @@ sandra
 ici desc : indépendance, Catalogne
 
 sotiria
-ici desc :
+ici desc : planet accord de Paris climat
 
 xi
 ici desc :
@@ -47,25 +47,25 @@ ici desc :
 yunbei
 ici desc :
 
-arthur
-ici desc : chine accro internet dépendance
+morgane
+ici desc: journeé sans voiture
 
 ## RI (réseau international)
 
 mingqiang
-ici desc :
+ici desc : Chine Etats-Unis voiture
 
 agathe
 ici desc :
 
 andrea
-ici desc : Pays-Bas abandonner euro
+ici desc :
 
 audrey
 ici desc : membranes implant pancréas
 
 chloe
-ici desc :
+ici desc : cyberattaque
 
 damien
 ici desc :
@@ -89,7 +89,7 @@ sandra
 ici desc : Amerique, terrorisme
 
 sotiria
-ici desc :
+ici desc : discours Prix Nobel
 
 xi
 ici desc :
@@ -97,6 +97,5 @@ ici desc :
 yunbei
 ici desc :
 
-arthur
-ici desc : espagnole catalogne indépendance vote
-
+morgane
+ici desc : procès Nouvel-An Cologne
