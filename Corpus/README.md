@@ -30,7 +30,7 @@ guanhua
 ici desc : benevoles???
 
 jielei
-ici desc :
+ici desc : anti-dollar
 
 nico
 ici desc :
