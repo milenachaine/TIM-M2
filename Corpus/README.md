@@ -6,10 +6,10 @@ mingqiang
 ici desc :
 
 agathe
-ici desc : médecine, hopital, justice
+ici desc :
 
 andrea
-ici desc : Pays-Bas concert camionnette
+ici desc :
 
 audrey
 ici desc : système artificiel intelligent
@@ -30,7 +30,7 @@ guanhua
 ici desc : benevoles???
 
 jielei
-ici desc : anti-dollar
+ici desc :
 
 nico
 ici desc :
@@ -39,16 +39,13 @@ sandra
 ici desc : indépendance, Catalogne
 
 sotiria
-ici desc : Plus de 250 climatologues ont postulé au "Make our planet great again". Emmanuel Macron avait proposé en juin d'accueillir une cinquantaine de projets de recherche dans le cadre de l'accord de Paris sur le climat.
+ici desc : planet accord de Paris climat
 
 xi
 ici desc :
 
 yunbei
 ici desc :
-
-arthur
-ici desc : chine accro internet dépendance
 
 ## RI (réseau itnernational)
 
@@ -59,7 +56,7 @@ agathe
 ici desc :
 
 andrea
-ici desc : Pays-Bas abandonner euro
+ici desc :
 
 audrey
 ici desc : membranes implant pancréas
@@ -89,14 +86,11 @@ sandra
 ici desc : Amerique, terrorisme
 
 sotiria
-ici desc : "Qu'est devenue notre sensibilité morale? En avons-nous jamais eu une? Que signifient ces mots? Renvoient-ils à un terme très rarement employé ces temps-ci, la conscience?" Harold Pinter dans son discours d’acceptation du Prix Nobel.
+ici desc : discours Prix Nobel
 
 xi
 ici desc :
 
 yunbei
 ici desc :
-
-arthur
-ici desc : espagnole catalogne indépendance vote
 
