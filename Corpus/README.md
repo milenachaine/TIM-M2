@@ -27,7 +27,7 @@ giovanna
 ici desc :
 
 guanhua
-ici desc : benevoles???
+ici desc : Corée
 
 jielei
 ici desc :
