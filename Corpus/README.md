@@ -6,7 +6,7 @@ mingqiang
 ici desc :
 
 agathe
-ici desc :
+ici desc : médecine, hopital, justice
 
 andrea
 ici desc :
