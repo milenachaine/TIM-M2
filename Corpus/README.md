@@ -3,7 +3,7 @@
 ## 20min (20 minutes)
 
 mingqiang
-ici desc : attentat, technique, terroriste
+ici desc : attentat technique terroriste
 
 agathe
 ici desc :
@@ -50,7 +50,7 @@ ici desc :
 ## RI (réseau itnernational)
 
 mingqiang
-ici desc :
+ici desc : Chine Etats-Unis voiture
 
 agathe
 ici desc :
