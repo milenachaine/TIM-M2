@@ -18,7 +18,7 @@ chloe
 ici desc :
 
 damien
-ici desc :
+ici desc : Palestine États-Unis annexion
 
 damien2
 ici desc :
@@ -27,7 +27,7 @@ giovanna
 ici desc :
 
 guanhua
-ici desc :
+ici desc : benevoles???
 
 jielei
 ici desc :
