@@ -50,7 +50,7 @@ ici desc :
 arthur
 ici desc : chine accro internet dépendance
 
-## RI (réseau itnernational)
+## RI (réseau national)
 
 mingqiang
 ici desc :
