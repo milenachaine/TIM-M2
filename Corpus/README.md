@@ -3,7 +3,7 @@
 ## 20min (20 minutes)
 
 mingqiang
-ici desc : attentat, technique, terroriste
+ici desc : attentat technique terroriste
 
 agathe
 ici desc :
@@ -15,7 +15,7 @@ audrey
 ici desc : système artificiel intelligent
 
 chloe
-ici desc :
+ici desc : fichier TES
 
 damien
 ici desc : Palestine États-Unis annexion
@@ -53,7 +53,7 @@ ici desc: journeé sans voiture
 ## RI (réseau itnernational)
 
 mingqiang
-ici desc :
+ici desc : Chine Etats-Unis voiture
 
 agathe
 ici desc :
@@ -65,7 +65,7 @@ audrey
 ici desc : membranes implant pancréas
 
 chloe
-ici desc :
+ici desc : cyberattaque
 
 damien
 ici desc :
