@@ -6,10 +6,10 @@ mingqiang
 ici desc :
 
 agathe
-ici desc :
+ici desc : médecine, hopital, justice
 
 andrea
-ici desc :
+ici desc : Pays-Bas concert camionnette
 
 audrey
 ici desc : système artificiel intelligent
@@ -30,13 +30,13 @@ guanhua
 ici desc : benevoles???
 
 jielei
-ici desc :
+ici desc : anti-dollar
 
 nico
 ici desc :
 
 sandra
-ici desc :
+ici desc : indépendance, Catalogne
 
 sotiria
 ici desc :
@@ -47,6 +47,9 @@ ici desc :
 yunbei
 ici desc :
 
+arthur
+ici desc : chine accro internet dépendance
+
 ## RI (réseau itnernational)
 
 mingqiang
@@ -56,7 +59,7 @@ agathe
 ici desc :
 
 andrea
-ici desc :
+ici desc : Pays-Bas abandonner euro
 
 audrey
 ici desc : membranes implant pancréas
@@ -83,7 +86,7 @@ nico
 ici desc :
 
 sandra
-ici desc :
+ici desc : Amerique, terrorisme
 
 sotiria
 ici desc :
@@ -93,4 +96,7 @@ ici desc :
 
 yunbei
 ici desc :
+
+arthur
+ici desc : espagnole catalogne indépendance vote
 
