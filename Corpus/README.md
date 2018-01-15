@@ -3,7 +3,7 @@
 ## 20min (20 minutes)
 
 mingqiang
-ici desc :
+ici desc : attentat, technique, terroriste
 
 agathe
 ici desc :
