@@ -1,10 +1,6 @@
 # Décrivez ici votre fichier
 
-benevoles???
-
 ## 20min (20 minutes)
-
-benevoles ???
 
 mingqiang
 ici desc :
@@ -40,7 +36,7 @@ nico
 ici desc :
 
 sandra
-ici desc :
+ici desc : indépendance, Catalogne
 
 sotiria
 ici desc :
@@ -87,7 +83,7 @@ nico
 ici desc :
 
 sandra
-ici desc :
+ici desc : Amerique, terrorisme
 
 sotiria
 ici desc :
