@@ -3,11 +3,11 @@
 import glob, xml.etree.ElementTree as ET
 
 alldocs = ET.Element('corpus')
-for xmlfile in glob.glob('../Corpus/*.xml'):
+for xmlfile in glob.glob('../Corpus/Etudiants/*.xml'):
 	print('Opening', xmlfile)
 	xmlcorpus = ET.parse(xmlfile)
 	for doc in xmlcorpus.getroot():
 		alldocs.append(doc)
 
 print('Output file')
-ET.ElementTree(alldocs).write('all.xml', encoding="UTF-8")
+ET.ElementTree(alldocs).write('../Corpus/all.xml', encoding="UTF-8")
