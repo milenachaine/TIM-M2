@@ -48,7 +48,7 @@ ici desc : Corée
 >>>>>>> 6faab6303bc63ffebf8b43c0575725751b003a99
 
 jielei
-ici desc :
+ici desc :anti-dollar
 
 nico
 ici desc :
