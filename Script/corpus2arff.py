@@ -23,12 +23,12 @@ for doc in xmlcorpus.getroot():
 	# text = text.replace("\n", " ")
 	# text = text.replace("'", "\\'")
 	# arfffiletrain.write("'"+text+"'")
-	if 'dollar' in text:
+	if 'Améri' in text:
 		monattribut = 1
 	else:
 		monattribut = 0
 	docattr = str(monattribut)+','+doc.get('class')+'\n'
-	if nodoc%2 == 0:
+	if nodoc%3 == 0:
 		arfffiletest.write(docattr)
 	else:
 		arfffiletrain.write(docattr)
