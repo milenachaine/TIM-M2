@@ -22,7 +22,6 @@ features = {
 	# nico
 	# sotiria
 	'onu': 'numeric',
-	'ponctuation': 'numeric',
 	# xi
 	# yousef
 	# yunbei
