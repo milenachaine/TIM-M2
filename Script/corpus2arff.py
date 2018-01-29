@@ -14,6 +14,8 @@ features = {
 	'ameri': 'numeric',
 	'impers': 'numeric',
 	# giovanna
+	# guanhua
+	'Corée': 'numeric',
 	# jielei
 	# mingqiang
 	# morgane
@@ -43,6 +45,12 @@ def getfeature(text, name):
 		nbimpers += text.count('nous')
 		return nbimpers
 	# giovanna
+	# guanhua
+	if name == 'Corée':
+		nbcoree = 0
+		nbcoree += text.count('Corée')
+		nbcoree += text.count('coréen')
+		return nbcoree
 	# jielei
 	# mingqiang
 	# morgane
