@@ -20,6 +20,9 @@ features = {
 	# mingqiang
 	# morgane
 	# nico
+	# sotiria
+	'onu': 'numeric',
+	'ponctuation': 'numeric',
 	# xi
 	# yousef
 	# yunbei
@@ -55,6 +58,17 @@ def getfeature(text, name):
 	# mingqiang
 	# morgane
 	# nico
+	# sotiria
+	if name == 'onu':
+		if 'ONU' in text:
+			return 1
+		return 0
+	if name == 'ponctuation':
+		nbponct = 0
+		nbponct += text.count('.')
+		nbponct += text.count(',')
+		nbponct += text.count('!')
+		return nbponct
 	# xi
 	# yousef
 	# yunbei
