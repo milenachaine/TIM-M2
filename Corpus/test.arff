@@ -1,17 +1,20 @@
 @relation fakevstrusted
-@attribute ponctuation {True,False}
 @attribute impers {True,False}
+@attribute onu numeric
+@attribute ponctuation {True,False}
+@attribute Corée numeric
+@attribute ameri numeric
 @attribute class {fake,trusted}
 @data
-False,False,fake
-False,False,trusted
-True,True,fake
-False,False,trusted
-True,True,fake
-False,False,trusted
-True,True,fake
-True,False,trusted
-True,True,fake
-False,False,trusted
-True,True,fake
-False,False,trusted
+23,0,12,0,0,fake
+37,0,14,0,0,trusted
+80,0,49,0,0,fake
+34,0,13,0,0,trusted
+236,1,87,35,0,fake
+26,0,14,0,0,trusted
+84,0,33,0,0,fake
+50,0,48,0,0,trusted
+99,0,52,0,0,fake
+32,0,15,0,0,trusted
+65,0,38,0,1,fake
+15,0,10,0,0,trusted

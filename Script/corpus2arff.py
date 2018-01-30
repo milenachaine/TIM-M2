@@ -15,10 +15,14 @@ features = {
 	'impers': '{True,False}',
 	'ponctuation' : '{True,False}',
 	# giovanna
+	# guanhua
+	'Corée': 'numeric',
 	# jielei
 	# mingqiang
 	# morgane
 	# nico
+	# sotiria
+	'onu': 'numeric',
 	# xi
 	# yousef
 	# yunbei
@@ -42,18 +46,35 @@ def getfeature(text, name):
 		nbimpers = 0
 		nbimpers += text.count('on')
 		nbimpers += text.count('nous')
-		return nbimpers > 50
+		return nbimpers
 	if name == 'ponctuation':
 		nbponct = 0
 		nbponct += text.count('.')
 		nbponct += text.count('!')
 		nbponct += text.count('?')
-		return nbponct > 30
+		return nbponct
 	# giovanna
+	# guanhua
+	if name == 'Corée':
+		nbcoree = 0
+		nbcoree += text.count('Corée')
+		nbcoree += text.count('coréen')
+		return nbcoree
 	# jielei
 	# mingqiang
 	# morgane
 	# nico
+	# sotiria
+	if name == 'onu':
+		if 'ONU' in text:
+			return 1
+		return 0
+	if name == 'ponctuation':
+		nbponct = 0
+		nbponct += text.count('.')
+		nbponct += text.count(',')
+		nbponct += text.count('!')
+		return nbponct
 	# xi
 	# yousef
 	# yunbei
