@@ -12,7 +12,8 @@ features = {
 	# chloe
 	# damien
 	'ameri': 'numeric',
-	'impers': 'numeric',
+	'impers': '{True,False}',
+	'ponctuation' : '{True,False}',
 	# giovanna
 	# jielei
 	# mingqiang
@@ -41,7 +42,13 @@ def getfeature(text, name):
 		nbimpers = 0
 		nbimpers += text.count('on')
 		nbimpers += text.count('nous')
-		return nbimpers
+		return nbimpers > 50
+	if name == 'ponctuation':
+		nbponct = 0
+		nbponct += text.count('.')
+		nbponct += text.count('!')
+		nbponct += text.count('?')
+		return nbponct > 30
 	# giovanna
 	# jielei
 	# mingqiang
