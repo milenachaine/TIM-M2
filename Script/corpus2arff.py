@@ -22,6 +22,7 @@ features = {
 	# mingqiang
 	# morgane
 	# nico
+	'référendum': 'numeric',
 	# sotiria
 	'onu': 'numeric',
 	# xi
