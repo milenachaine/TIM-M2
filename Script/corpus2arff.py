@@ -94,7 +94,8 @@ def getfeature(text, name):
 print('Initialize arff files')
 header = ''
 header += '@relation fakevstrusted\n'
-for f in features:
+featurekeys = sorted(features.keys())
+for f in featurekeys:
 	header += '@attribute '+f+' '+features[f]+'\n'
 header += '@attribute class {fake,trusted}\n'
 header += '@data\n'
@@ -109,7 +110,7 @@ xmlcorpus = ET.parse('../Corpus/all.xml')
 nodoc = 0
 for doc in xmlcorpus.getroot():
 	text = doc.text.strip()
-	attrs = ','.join(str(getfeature(text, f)) for f in features)+','+doc.get('class')
+	attrs = ','.join(str(getfeature(text, f)) for f in featurekeys)+','+doc.get('class')
 	if nodoc%3:
 		arfffiletrain.write(attrs+'\n')
 	else:
