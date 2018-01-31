@@ -4,6 +4,7 @@ import xml.etree.ElementTree as ET
 
 features = {
 	# sandra
+	#'presse': '{True,False}',
 	# abdenour
 	# agathe
 	# andrea
@@ -31,6 +32,11 @@ features = {
 
 def getfeature(text, name):
 	# sandra
+	if name == 'presse':
+		nbpresse = 0
+		nbpresse += text.count('presse')
+		nbpresse += text.count('presses')
+		return nbpresse
 	# abdenour
 	# agathe
 	# andrea
