@@ -13,8 +13,8 @@ features = {
 	# chloe
 	# damien
 	'ameri': 'numeric',
-	'impers': '{True,False}',
-	'ponctuation' : '{True,False}',
+	'impers': 'numeric',
+	'ponctuation' : 'numeric',
 	# giovanna
 	# guanhua
 	'Corée': 'numeric',
