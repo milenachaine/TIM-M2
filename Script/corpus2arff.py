@@ -20,6 +20,7 @@ features = {
 	'Corée': 'numeric',
 	# jielei
 	# mingqiang
+	'poisson': 'numeric',
 	# morgane
 	# nico
 	'référendum': 'numeric',
