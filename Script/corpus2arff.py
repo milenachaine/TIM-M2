@@ -70,6 +70,10 @@ def getfeature(text, name):
 	# mingqiang
 	# morgane
 	# nico
+	if name == 'référendum':
+		if 'ONU' in text:
+			return 1
+		return 0
 	# sotiria
 	if name == 'onu':
 		if 'ONU' in text:
