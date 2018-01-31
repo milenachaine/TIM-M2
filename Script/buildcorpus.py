@@ -3,7 +3,7 @@
 import glob, xml.etree.ElementTree as ET
 
 alldocs = ET.Element('corpus')
-for xmlfile in glob.glob('../Corpus/Etudiants/*.xml'):
+for xmlfile in sorted(glob.glob('../Corpus/Etudiants/*.xml')):
 	print('Opening', xmlfile)
 	xmlcorpus = ET.parse(xmlfile)
 	for doc in xmlcorpus.getroot():
