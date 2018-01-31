@@ -20,7 +20,7 @@ features = {
 	'Corée': 'numeric',
 	# jielei
 	# mingqiang
-	'poisson': 'numeric',
+	'Chine': 'numeric',
 	# morgane
 	# nico
 	'référendum': 'numeric',
@@ -70,8 +70,8 @@ def getfeature(text, name):
 		return nbcoree
 	# jielei
 	# mingqiang
-	if name == 'poisson':
-		if 'poisson' in text:
+	if name == 'Chine':
+		if 'Chine' in text:
 			return 1
 		return 0
 	# morgane
