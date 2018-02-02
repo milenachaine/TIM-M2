@@ -19,6 +19,7 @@ features = {
 	# guanhua
 	'Corée': 'numeric',
 	# jielei
+	'bande':'numeric',
 	# mingqiang
 	'Chine': 'numeric',
 	# morgane
@@ -69,6 +70,10 @@ def getfeature(text, name):
 		nbcoree += text.count('coréen')
 		return nbcoree
 	# jielei
+	if name == 'bande':
+		if 'bande' in text:
+			return 1
+		return 0
 	# mingqiang
 	if name == 'Chine':
 		if 'Chine' in text:
