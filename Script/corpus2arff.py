@@ -8,6 +8,8 @@ features = {
 	# abdenour
 	# agathe
 	# andrea
+	'vous': 'numeric',
+	'suspen': 'numeric',
 	# arthur
 	# audrey
 	# chloe
@@ -43,6 +45,16 @@ def getfeature(text, name):
 	# abdenour
 	# agathe
 	# andrea
+	if name == 'vous':
+		nbvous = 0
+		nbvous += text.count(' vous ')
+		nbvous += text.count('Vous ')
+		return nbvous
+	if name == 'suspen':
+		nbsuspen = 0
+		nbsuspen += text.count('...')
+		nbsuspen += text.count('…')
+		return nbsuspen
 	# arthur
 	# audrey
 	# chloe
