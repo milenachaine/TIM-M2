@@ -1,6 +1,7 @@
 #!/bin/env python3
 
 import xml.etree.ElementTree as ET
+import re
 
 features = {
 	# sandra
@@ -32,6 +33,7 @@ features = {
 	# xi
 	# yousef
 	# yunbei
+	'russe':'numeric',
 	# yuran
 }
 
@@ -111,6 +113,11 @@ def getfeature(text, name):
 	# xi
 	# yousef
 	# yunbei
+	if name =='russe':
+		nbrusse = 0
+		path = re.compile(r'(R|r)usse(s)?')
+		match = path.findall(text)
+		return(len(match))
 	# yuran
 	return None
 
