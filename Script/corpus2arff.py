@@ -63,6 +63,7 @@ def getfeature(text, name):
 	if name == 'vs':
 		vs = 0
 		vs += text.count('vous')
+		vs += text.count('Vous')
 		return vs
 	if name == 'selon':
 		nbselon = 0
