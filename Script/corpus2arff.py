@@ -13,7 +13,7 @@ features = {
 	'suspen': 'numeric',
 	# arthur
 	'vs': 'numeric',
-	'selon': 'nbselon',
+	'selon': 'numeric',
 	# audrey
 	# chloe
 	# damien
