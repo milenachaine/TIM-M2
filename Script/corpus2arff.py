@@ -26,6 +26,7 @@ features = {
 	# mingqiang
 	'Chine': 'numeric',
 	# morgane
+	'adv' : 'numeric',
 	# nico
 	'référendum': 'numeric',
 	# sotiria
@@ -94,6 +95,10 @@ def getfeature(text, name):
 			return 1
 		return 0
 	# morgane
+	if name == 'adv':
+		pattern = re.compile(r'.ment\b')
+		nbadv = len(pattern.findall(text))
+		return nbadv
 	# nico
 	if name == 'référendum':
 		if 'ONU' in text:
