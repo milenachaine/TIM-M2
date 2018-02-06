@@ -27,10 +27,19 @@ for i in range(len(docs)):
 		y[i,0] = fake
 
 # Créer le w
+w = numpy.array([[0], [0.003], [0.001]])
 
 # Calcul x*y-w puis numpy.linalg.norm 
+res = x.dot(w)
+err = y - res
 
 print('Dimensions de la matrice des features: '+str(x.shape))
-# print(numpy.hstack((x,y)))
 
+numpy.set_printoptions(precision=1, threshold=1000, suppress=True)
+print(numpy.hstack((x, y, res, err)))
 
+print(err.sum())
+# norme 1 : somme des différences
+print(abs(err).sum())
+# norme euclidienne
+print(numpy.linalg.norm(err))
