@@ -10,16 +10,17 @@ nodoc = 0
 
 # nouvelle matrice numpy bonnes dimensions
 docs = xmlcorpus.getroot().getchildren()
-features = ['ameri', 'impers', 'ponctuation']
-x = numpy.zeros((len(docs), len(features)))
+featurekeys = [f for f in features]
+print(featurekeys)
+x = numpy.zeros((len(docs), len(featurekeys)))
 y = numpy.zeros((len(docs), 1))
 
 # Remplir la matrice
 for i in range(len(docs)):
-	for j in range(len(features)):
+	for j in range(len(featurekeys)):
 		doc = docs[i]
 		text = doc.text.strip()
-		featurename = features[j]
+		featurename = featurekeys[j]
 		x[i,j] = getfeature(text, featurename)
 		fake = 0
 		if doc.get('class') == 'fake':
@@ -28,16 +29,19 @@ for i in range(len(docs)):
 
 print('Dimensions de la matrice des features: '+str(x.shape))
 
-# Créer le w
-w = numpy.array([[0.01],[0.01],[0.01]])
+w = numpy.linalg.lstsq(x,y)[0]
+print(w)
+
+#w = numpy.array([[-0.04589241],[0.00238882],[0.00417351]])
 
 # Calcul x dot w - y puis numpy.linalg.norm
 res = x.dot(w)
 err = y - res
 
 numpy.set_printoptions(precision=1,threshold=1000,suppress=True)
-print(numpy.hstack((x,y,res, err)))
+#print(numpy.hstack((x,y,res, err)))
 
 print(err.sum())
 print(abs(err).sum())
-print(numpy.linalg.norm(err))
+print('ERR', numpy.linalg.norm(err))
+
