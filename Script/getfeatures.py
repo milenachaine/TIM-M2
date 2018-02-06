@@ -15,6 +15,7 @@ features = {
 	'selon': 'numeric',
 	# audrey
 	# chloe
+	'superlatif':'numeric',
 	# damien
 	'ameri': 'numeric',
 	'impers': 'numeric',
@@ -71,6 +72,12 @@ def getfeature(text, name):
 		return nbselon
 	# audrey
 	# chloe
+	if name == 'superlatif':
+		nbsuper = 0
+		nbsuper += text.count('énorme')
+		nbsuper += text.count('géant')
+		nbsuper += text.count('grand')
+		return nbsuper
 	# damien
 	if name == 'ameri':
 		if 'Améri' in text:
