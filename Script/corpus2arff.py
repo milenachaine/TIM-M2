@@ -12,6 +12,8 @@ features = {
 	'vous': 'numeric',
 	'suspen': 'numeric',
 	# arthur
+	'vs': 'numeric',
+	'selon': 'numeric',
 	# audrey
 	# chloe
 	# damien
@@ -59,6 +61,16 @@ def getfeature(text, name):
 		nbsuspen += text.count('…')
 		return nbsuspen
 	# arthur
+	if name == 'vs':
+		vs = 0
+		vs += text.count('vous')
+		vs += text.count('Vous')
+		return vs
+	if name == 'selon':
+		nbselon = 0
+		nbselon += text.count('Selon')
+		nbselon += text.count('selon')
+		return nbselon
 	# audrey
 	# chloe
 	# damien
