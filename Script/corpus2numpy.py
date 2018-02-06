@@ -27,6 +27,7 @@ for i in range(len(docs)):
 		y[i,0] = fake
 
 # Créer le w
+
 # Calcul x*y-w puis numpy.linalg.norm 
 
 print('Dimensions de la matrice des features: '+str(x.shape))
