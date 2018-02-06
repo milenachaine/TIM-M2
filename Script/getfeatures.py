@@ -1,7 +1,6 @@
 #!/bin/env python3
 
-import xml.etree.ElementTree as ET
-from getfeatures import features, getfeature
+import re
 
 features = {
 	# sandra
@@ -28,7 +27,6 @@ features = {
 	# mingqiang
 	'Chine': 'numeric',
 	# morgane
-	'adv' : 'numeric',
 	# nico
 	'référendum': 'numeric',
 	# sotiria
@@ -107,10 +105,6 @@ def getfeature(text, name):
 			return 1
 		return 0
 	# morgane
-	if name == 'adv':
-		pattern = re.compile(r'.ment\b')
-		nbadv = len(pattern.findall(text))
-		return nbadv
 	# nico
 	if name == 'référendum':
 		if 'ONU' in text:
@@ -137,29 +131,3 @@ def getfeature(text, name):
 		return(len(match))
 	# yuran
 	return None
-
-print('Initialize arff files')
-header = ''
-header += '@relation fakevstrusted\n'
-featurekeys = sorted(features.keys())
-for f in featurekeys:
-	header += '@attribute '+f+' '+features[f]+'\n'
-header += '@attribute class {fake,trusted}\n'
-header += '@data\n'
-
-arfffiletrain = open('../Corpus/train.arff', 'w')
-arfffiletrain.write(header)
-arfffiletest = open('../Corpus/test.arff', 'w')
-arfffiletest.write(header)
-
-print('Reading corpus and finding attributes')
-xmlcorpus = ET.parse('../Corpus/all.xml')
-nodoc = 0
-for doc in xmlcorpus.getroot():
-	text = doc.text.strip()
-	attrs = ','.join(str(getfeature(text, f)) for f in featurekeys)+','+doc.get('class')
-	if nodoc%3:
-		arfffiletrain.write(attrs+'\n')
-	else:
-		arfffiletest.write(attrs+'\n')
-	nodoc += 1
