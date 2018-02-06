@@ -4,7 +4,7 @@ import xml.etree.ElementTree as ET
 import numpy
 from getfeatures import features, getfeature
 
-print('Reading corpus and finding attributes')
+print('Reading corpus and finding features')
 xmlcorpus = ET.parse('../Corpus/all.xml')
 nodoc = 0
 
@@ -12,8 +12,7 @@ nodoc = 0
 docs = xmlcorpus.getroot().getchildren()
 features = ['ameri', 'impers', 'ponctuation']
 x = numpy.zeros((len(docs), len(features)))
-
-# faire les y
+y = numpy.zeros((len(docs), 1))
 
 # Remplir la matrice
 for i in range(len(docs)):
@@ -22,8 +21,15 @@ for i in range(len(docs)):
 		text = doc.text.strip()
 		featurename = features[j]
 		x[i,j] = getfeature(text, featurename)
+		fake = 0
+		if doc.get('class') == 'fake':
+			fake = 1
+		y[i,0] = fake
 
 # Créer le w
 # Calcul x*y-w puis numpy.linalg.norm 
 
-print(x)
+print('Dimensions de la matrice des features: '+str(x.shape))
+# print(numpy.hstack((x,y)))
+
+
