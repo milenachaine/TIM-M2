@@ -26,10 +26,18 @@ for i in range(len(docs)):
 			fake = 1
 		y[i,0] = fake
 
-# Créer le w
-# Calcul x*y-w puis numpy.linalg.norm 
-
 print('Dimensions de la matrice des features: '+str(x.shape))
-# print(numpy.hstack((x,y)))
 
+# Créer le w
+w = numpy.array([[0.01],[0.01],[0.01]])
 
+# Calcul x dot w - y puis numpy.linalg.norm
+res = x.dot(w)
+err = y - res
+
+numpy.set_printoptions(precision=1,threshold=1000,suppress=True)
+print(numpy.hstack((x,y,res, err)))
+
+print(err.sum())
+print(abs(err).sum())
+print(numpy.linalg.norm(err))
