@@ -27,3 +27,12 @@ import treetaggerwrapper
 tagger = treetaggerwrapper.TreeTagger(TAGLANG='fr')
 tags = tagger.tag_text(text)
 pprint.pprint(tags)
+
+print('PREPROC TreeTagger.py')
+#Il faut télécharcher "treetagger.py" from https://github.com/miotto/treetagger-python
+#Il faut avoir TreeTagger sur l'ordinateur
+#Merci à Arthur
+text = "le chat mange la souris"
+from treetagger import TreeTagger
+tt = TreeTagger(language='french')
+print(tt.tag(text))
