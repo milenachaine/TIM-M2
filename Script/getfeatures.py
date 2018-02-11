@@ -7,6 +7,7 @@ features = {
 	#'presse': '{True,False}',
 	# abdenour
 	# agathe
+	'On' : 'numeric',
 	# andrea
 	'vous': 'numeric',
 	'suspen': 'numeric',
@@ -49,6 +50,11 @@ def getfeature(text, name):
 		return nbpresse
 	# abdenour
 	# agathe
+	if name == 'On':
+		nbon = 0
+		nbon += text.count(' on ')
+		nbon += text.count('On ')
+		return nbon
 	# andrea
 	if name == 'vous':
 		nbvous = 0
