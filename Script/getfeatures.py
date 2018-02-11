@@ -4,7 +4,7 @@ import re
 
 features = {
 	# sandra
-	#'presse': '{True,False}',
+	'presse': 'numeric',
 	# abdenour
 	# agathe
 	'On' : 'numeric',
