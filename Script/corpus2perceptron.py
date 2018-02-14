@@ -2,7 +2,7 @@
 
 import xml.etree.ElementTree as ET
 import numpy
-numpy.set_printoptions(precision=1,threshold=1000,suppress=True)
+numpy.set_printoptions(precision=2,threshold=1000,suppress=True)
 from getfeatures import features, getfeature
 
 print('Reading corpus and finding features')
@@ -29,13 +29,30 @@ for i in range(len(docs)):
 
 print('Dimensions de la matrice des features: '+str(x.shape))
 print('Recherche des poids optimaux par le perceptron')
-alpha = 0.1 # pas
-w = numpy.zeros((len(featurekeys), 1)) # les poids ) initialiser
-for i in range(len(docs)):
-	print('Vecteur en entrée', x[i])
-	print('Calcul de l\'erreur pour l\'exemple et mise à jour des poids........')
-	### A vous de jouer
-	print('Calcul de l\'erreur sur tout le jeu de données')
-	res = x.dot(w)
-	err = y - res
-	print('Erreur quadratique: ', numpy.linalg.norm(err))
+epoch = 100000
+alpha = 0.01 # pas
+w = numpy.ones((len(featurekeys), 1))
+for n in range(epoch):
+	for i in range(len(docs)):
+		# print('Vecteur en entrée', x[i,:])
+		# print('Poids            ', w[:,0])
+		# print(w[:,0])
+		# print('Calcul de l\'erreur pour l\'exemple et mise à jour des poids........')
+		resxi = x[i,:].dot(w)
+		### A vous de jouer
+		# print('Somme pondérée pour ce x:', resxi[0])
+		act = 0
+		if resxi[0] >= 0:
+			act = 1
+		# print('Activation:', act)
+		# print('Résultat attendu pour ce x:', y[i,0])
+		delta = y[i,0] - act
+		# print('Delta', delta)
+		if delta != 0:
+			w[:,0] += delta*alpha*x[i,:]
+			# print('Nouveaux poids            ', w[:,0])
+
+		# print('Calcul de l\'erreur sur tout le jeu de données')
+		res = x.dot(w)
+		err = y - res
+		print('Erreur quadratique: ', numpy.linalg.norm(err))
