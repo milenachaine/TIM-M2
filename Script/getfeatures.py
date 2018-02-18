@@ -41,7 +41,10 @@ features = {
 	# yuran
 }
 
-def getfeature(text, name):
+def getfeature(doc, name):
+	text = doc.find('text').text
+	tt = doc.find('treetagger').text
+	tokenlst = [tok.split('/') for tok in tt.split(' ')]
 	# sandra
 	if name == 'presse':
 		nbpresse = 0
@@ -87,19 +90,22 @@ def getfeature(text, name):
 		return nbsuper
 	# damien
 	if name == 'ameri':
-		if 'Améri' in text:
-			return 1
-		return 0
+		nbameri = 0
+		for token in tokenlst:
+			if token[0].lower().startswith('améri'):
+				nbameri += 1
+		return nbameri
 	if name == 'impers':
 		nbimpers = 0
-		nbimpers += text.count('on')
-		nbimpers += text.count('nous')
+		for token in tokenlst:
+			if token[2] in ['on', 'nous']:
+				nbimpers += 1
 		return nbimpers
 	if name == 'ponctuation':
 		nbponct = 0
-		nbponct += text.count('.')
-		nbponct += text.count('!')
-		nbponct += text.count('?')
+		for token in tokenlst:
+			if token[1] == 'PUN':
+				nbponct += 1
 		return nbponct
 	# giovanna
 	# guanhua

@@ -19,9 +19,8 @@ print('Insertion des données dans la matrice')
 for i in range(len(docs)):
 	for j in range(len(featurekeys)):
 		doc = docs[i]
-		text = doc.text.strip()
 		featurename = featurekeys[j]
-		x[i,j] = getfeature(text, featurename)
+		x[i,j] = getfeature(doc, featurename)
 		fake = 0
 		if doc.get('class') == 'fake':
 			fake = 1
