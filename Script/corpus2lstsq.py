@@ -12,7 +12,7 @@ nodoc = 0
 print('Création de la matrice numpy pour x et y')
 docs = xmlcorpus.getroot().getchildren()
 featurekeys = sorted(list(features.keys()))
-x = numpy.zeros((len(docs), len(featurekeys)))
+x = numpy.zeros((len(docs), len(featurekeys)+1))
 y = numpy.zeros((len(docs), 1))
 
 print('Insertion des données dans la matrice')
@@ -25,6 +25,7 @@ for i in range(len(docs)):
 		if doc.get('class') == 'fake':
 			fake = 1
 		y[i,0] = fake
+x[:,-1] = 1
 
 print('Dimensions de la matrice des features: '+str(x.shape))
 print('Recherche des poids optimaux par les moindres carrés')
@@ -36,4 +37,5 @@ err = y - res
 # print(numpy.hstack((x,y,res, err)))
 # print(err.sum())
 # print(abs(err).sum())
-print('Erreur quadratique: ', numpy.linalg.norm(err))
+print('Erreur quadratique : ', numpy.linalg.norm(err))
+print('Taux d\'erreur : ',  (abs(y - res.astype('int'))).sum()/len(docs))
