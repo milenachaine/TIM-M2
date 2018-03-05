@@ -1,5 +1,5 @@
-# Groupe 1 pour le projet 
-## Sujet: Tensorflow
+# Groupe TF1
+## Sujet du projet: Tensorflow
 ## Membres: Xi, Yunbei, Guanhua, Abdenour
 
 
