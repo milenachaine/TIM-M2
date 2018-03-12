@@ -10,7 +10,7 @@ for xmlfile in sorted(glob.glob('../Corpus/Etudiants/*.xml')):
 	xmlcorpus = ET.parse(xmlfile)
 	for doc in xmlcorpus.getroot():
 		# print (doc.text)
-		text = doc.text
+		text = doc.text      
 		doc.text = ''
 		textnode = ET.Element('text')
 		textnode.text = text
