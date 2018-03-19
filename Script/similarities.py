@@ -29,12 +29,25 @@ for i in range(len(docs)):
 			lemmaarray = numpy.array(model[lemma])
 			docsrepr[i] += lemmaarray
 			nblemma += 1
-		else:
-			print('NOT FOUND', lemma)
+		# else:
+		# 	print('NOT FOUND', lemma)
 	docsrepr[i] /= nblemma
-	print(docsrepr[i])
+	# print(docsrepr[i])
 
 print('Calcul des similarités')
-# for i in range(len(docs)):
-# 	for j in range(len(docs)):
-# 		CALCUL DE SIMILARITE
+dists = []
+for i in range(len(docs)):
+	for j in range(len(docs)):
+		if i > j:
+			dist = cosine(docsrepr[i], docsrepr[j])
+			# print(dist, docs[i].get('title', 'notitle'), docs[j].get('title', 'notitle'))
+			dists.append([dist, docs[i].get('title', 'notitle'), docs[j].get('title', 'notitle')])
+
+print('Affichage des distances les plus petites')
+for d in sorted(dists, key=lambda d: d[0]):
+	print(d)
+
+
+
+
+
