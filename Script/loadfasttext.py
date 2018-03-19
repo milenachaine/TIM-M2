@@ -1,4 +1,3 @@
-# FASTTEXT
 #!/bin/env python3
 
 import fasttext
