@@ -5,7 +5,8 @@ from treetagger import TreeTagger
 tt = TreeTagger(language='french')
 
 alldocs = ET.Element('corpus')
-for xmlfile in sorted(glob.glob('../Corpus/Etudiants/*.xml')):
+for etudiant in open('../Corpus/etudiants.lst').readlines():
+	xmlfile = '../Corpus/Etudiants/'+etudiant.strip()+'.xml'
 	print('Processing', xmlfile)
 	xmlcorpus = ET.parse(xmlfile)
 	for doc in xmlcorpus.getroot():
