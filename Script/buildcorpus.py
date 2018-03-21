@@ -16,7 +16,9 @@ for xmlfile in sorted(glob.glob('../Corpus/Etudiants/*.xml')):
 		textnode.text = text
 		doc.append(textnode)
 		ttnode = ET.Element('treetagger')
-		ttnode.text = ' '.join(['/'.join(ttline) for ttline in tt.tag(text.replace('/', ' '))])
+		text = text.replace('/', ' ')
+		text = text.replace('’', '\'')
+		ttnode.text = ' '.join(['/'.join(ttline) for ttline in tt.tag(text)])
 		doc.append(ttnode)
 		alldocs.append(doc)
 
