@@ -21,9 +21,10 @@ print('Reading corpus and finding attributes')
 xmlcorpus = ET.parse('../Corpus/all.xml')
 nodoc = 0
 for doc in xmlcorpus.getroot():
-	attrs = ','.join(str(getfeature(doc, f)) for f in featurekeys)+','+doc.get('class')
-	if nodoc%3:
-		arfffiletrain.write(attrs+'\n')
-	else:
-		arfffiletest.write(attrs+'\n')
-	nodoc += 1
+	if doc.get('split') != 'test':
+		attrs = ','.join(str(getfeature(doc, f)) for f in featurekeys)+','+doc.get('class')
+		if nodoc%3:
+			arfffiletrain.write(attrs+'\n')
+		else:
+			arfffiletest.write(attrs+'\n')
+		nodoc += 1

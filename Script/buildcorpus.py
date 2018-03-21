@@ -1,6 +1,6 @@
 #!/bin/env python3
 
-import glob, xml.etree.ElementTree as ET
+import xml.etree.ElementTree as ET
 from treetagger import TreeTagger
 tt = TreeTagger(language='french')
 
