@@ -15,24 +15,26 @@ print('Création de la matrice numpy pour x et y')
 docs = xmlcorpus.getroot().getchildren()
 featurekeys = sorted(list(features.keys()))
 trainX = np.zeros((len(docs), len(featurekeys)))
-trainY = np.zeros((len(docs), 1))
+trainY = np.zeros((len(docs), 2))
 
 print('Insertion des données dans la matrice')
 for i in range(len(docs)):
-	for j in range(len(featurekeys)):
-		doc = docs[i]
-		featurename = featurekeys[j]
-		trainX[i,j] = getfeature(doc, featurename)
-		fake = 0
-		if doc.get('class') == 'fake':
-			fake = 1
-		trainY[i,0] = fake
+
+    if docs[i].get('split') != 'test':
+        for j in range(len(featurekeys)):
+            doc = docs[i]
+            featurename = featurekeys[j]
+            trainX[i,j] = getfeature(doc, featurename)
+            if doc.get('class') == 'fake':
+                trainY[i,0] = 1
+            else:
+                trainY[i,1] = 1
 
 print('Dimensions de la matrice des features: '+str(trainX.shape))
 
 numFeatures = trainX.shape[1]
 numLabels = trainY.shape[1]
-numEpochs = 100
+numEpochs = 10000
 learningRate = tf.train.exponential_decay(learning_rate=0.0001, global_step= 1, decay_steps=trainX.shape[0], decay_rate= 0.95)
 X = tf.placeholder(tf.float32, [None, numFeatures])
 yGold = tf.placeholder(tf.float32, [None, numLabels])

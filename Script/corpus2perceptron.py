@@ -18,14 +18,15 @@ y = numpy.zeros((len(docs), 1))
 
 print('Insertion des données dans la matrice')
 for i in range(len(docs)):
-	for j in range(len(featurekeys)):
-		doc = docs[i]
-		featurename = featurekeys[j]
-		x[i,j] = getfeature(doc, featurename)
-		fake = 0
-		if doc.get('class') == 'fake':
-			fake = 1
-		y[i,0] = fake
+	if docs[i].get('split') != 'test':
+		for j in range(len(featurekeys)):
+			doc = docs[i]
+			featurename = featurekeys[j]
+			x[i,j] = getfeature(doc, featurename)
+			fake = 0
+			if doc.get('class') == 'fake':
+				fake = 1
+			y[i,0] = fake
 x /= x.sum(axis=0)
 x[:,-1] = 1
 
