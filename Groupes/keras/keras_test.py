@@ -10,6 +10,7 @@ import xml.etree.ElementTree as ET
 import argparse
 from getfeatures import features, getfeature
 from keras.models import Sequential # 用来一层一层一层的去建立神经层
+from keras.layers import Input # 意思是这个神经层是全连接层
 from keras.layers import Dense # 意思是这个神经层是全连接层
 import matplotlib.pyplot as plt # 可视化模块
 
@@ -25,41 +26,61 @@ nodoc = 0
 # create some data
 docs = xmlcorpus.getroot().getchildren()
 featurekeys = sorted(list(features.keys()))
-#x = np.zeros((len(docs), len(featurekeys)+1))
-#y = np.zeros((len(docs), 1))
-X = np.linspace(len(docs), len(featurekeys)+1, (130))
+X = np.zeros((len(docs), len(featurekeys)))
+Y = np.zeros((len(docs), 1))
+#X = np.linspace(len(docs), len(featurekeys)+1, (130))
+
+print('Insertion des données dans la matrice')
+for i in range(len(docs)):
+	for j in range(len(featurekeys)):
+		doc = docs[i]
+		featurename = featurekeys[j]
+		X[i,j] = getfeature(doc, featurename)
+		fake = 0
+		if doc.get('class') == 'fake':
+			fake = 1
+		Y[i,0] = fake
+X[:,-1] = 1
+
 np.random.shuffle(X)    # randomize the data
 #print("SIZE", x.shape)
-Y = 100 * X + 2 + np.random.normal(len(docs), 1, (130, ))
+# Y = 100 * X + 2 + np.random.normal(len(docs), 1, (130, ))
 
 # plot data
-plt.scatter(X, Y)
-plt.show()
+# plt.scatter(X,Y)
+# plt.show()
 
-X_train, Y_train = X[:160], Y[:160]     # train 前 160 data points
-X_test, Y_test = X[160:], Y[160:]       # test 后 40 data points
+X_train, Y_train = X[:70], Y[:70]     # train 前 160 data points
+X_test, Y_test = X[70:], Y[70:]       # test 后 40 data points
 
-model = Sequential() 
-model.add(Dense(output_dim=1, input_dim=1)) # 在这个例子里只有一层
+model = Sequential()
+model.add(Dense(len(featurekeys), input_dim=len(featurekeys), kernel_initializer='normal', activation='relu'))
+model.add(Dense(1, kernel_initializer='normal'))
+# Compile model
+model.compile(loss='mean_squared_error', optimizer='adam')
 
-model.compile(loss='mse', optimizer='sgd') # optimizer : 优化器
+# model = Sequential() 
+# model.add(Dense(units=1, input_dim=len(featurekeys))) # 在这个例子里只有一层
+# model.compile(loss='mse', optimizer='sgd') # optimizer : 优化器
 
 # train
 print('Training -----------')
-for step in range(301):
-    cost = model.train_on_batch(X_train, Y_train)
-    if step % 100 == 0:
-        print('train cost: ', cost)
+for step in range(100):
+	cost = model.train_on_batch(X_train, Y_train)
+	if step%10 == 0:
+		print('train cost: ', cost)
 
 # test
 print('\nTesting ------------')
-cost = model.evaluate(X_test, Y_test, batch_size=40)
+cost = model.evaluate(X_test, Y_test, batch_size=10)
 print('test cost:', cost)
 W, b = model.layers[0].get_weights()
 print('Weights=', W, '\nbiases=', b)
 
 #prediction
+print(X_test)
 Y_pred = model.predict(X_test)
-plt.scatter(X_test, Y_test)
-plt.plot(X_test, Y_pred)
-plt.show()
+print(Y_pred)
+# plt.scatter(X_test, Y_test)
+# plt.plot(X_test, Y_pred)
+# plt.show()
