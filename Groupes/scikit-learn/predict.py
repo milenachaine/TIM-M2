@@ -33,6 +33,8 @@ for i in range(len(docs)):
 		fake = 0
 		if doc.get('class') == 'fake':
 			fake = 1
+		if doc.get('class') == 'parodic':
+			fake = 2
 		y[i] = fake
 		
 	
@@ -51,5 +53,7 @@ for i in range(len(docs)):
 	classpredict = 'trusted'
 	if res[i] == 1:
 		classpredict = 'fake'
+	if res[i] == 2:
+		classpredict = 'parodic'
 	docs[i].set('classpredict', classpredict)
 xmlcorpus.write(open(fichier_output, 'w'), encoding='unicode')
