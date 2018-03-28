@@ -37,17 +37,15 @@ for i in range(len(docs)):
 			fake = 2
 		y[i] = fake
 		
-	
+print('Prédiction des classes')
+		
 model = joblib.load(fichier_model) 
 res = model.predict(x)
 
-#err = y - res
-#print (err)
-#print ('Score : ', accuracy_score(y, res))
+err = y - res
+print ('Score : ', accuracy_score(y, res))
 #print ('Score de bonnes réponses : ', accuracy_score(y, res, normalize=False))
 #print('Erreur quadratique : ', numpy.linalg.norm(err))
-
-print('Prédiction des classes')
 
 for i in range(len(docs)):
 	classpredict = 'trusted'
