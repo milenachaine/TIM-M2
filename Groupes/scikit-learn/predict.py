@@ -10,12 +10,12 @@ from sklearn.model_selection  import train_test_split
 from sklearn.metrics import accuracy_score
 from sklearn.externals import joblib
 
-fichier_train = sys.argv[1]
+fichier_test = sys.argv[1]
 fichier_model = sys.argv[2]
 fichier_output = sys.argv[3]
 
 print('Reading corpus and finding features')
-xmlcorpus = ET.parse('../../Corpus/all.xml')
+xmlcorpus = ET.parse(fichier_test)
 nodoc = 0
 
 print('Création de la matrice numpy pour x et y')
@@ -39,10 +39,17 @@ for i in range(len(docs)):
 model = joblib.load(fichier_model) 
 res = model.predict(x)
 
-print (y)
-print (res)
-err = y - res
-print (err)
-print ('Score : ', accuracy_score(y, res))
-print ('Score de bonnes réponses : ', accuracy_score(y, res, normalize=False))
-print('Erreur quadratique : ', numpy.linalg.norm(err))
+#err = y - res
+#print (err)
+#print ('Score : ', accuracy_score(y, res))
+#print ('Score de bonnes réponses : ', accuracy_score(y, res, normalize=False))
+#print('Erreur quadratique : ', numpy.linalg.norm(err))
+
+print('Prédiction des classes')
+
+for i in range(len(docs)):
+	classpredict = 'trusted'
+	if res[i] == 1:
+		classpredict = 'fake'
+	docs[i].set('classpredict', classpredict)
+xmlcorpus.write(open(fichier_output, 'w'), encoding='unicode')
