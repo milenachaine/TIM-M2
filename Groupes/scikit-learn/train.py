@@ -34,6 +34,8 @@ for i in range(len(docs)):
 		fake = 0
 		if doc.get('class') == 'fake':
 			fake = 1
+		if doc.get('class') == 'parodic':
+			fake = 2
 		y[i] = fake
 
 print('Dimensions de la matrice des features: '+str(x.shape))
