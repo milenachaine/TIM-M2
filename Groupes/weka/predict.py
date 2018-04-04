@@ -1,8 +1,12 @@
 #!/bin/env python3
 
-import numpy, argparse, pickle
+import argparse
 import xml.etree.ElementTree as ET
 from getfeatures import features, getfeature
+import weka.core.jvm as jvm
+from weka.core.converters import Loader
+from weka.classifiers import Classifier
+import weka.core.serialization as serialization
 
 aparser = argparse.ArgumentParser(description='Test model')
 aparser.add_argument('input', help='Input file')
@@ -31,16 +35,12 @@ for i in range(len(docs)):
 arffile.close()
 
 print('Démarrage de la jvm et chargement des données dans weka')
-import weka.core.jvm as jvm
 jvm.start()
-from weka.core.converters import Loader
 loader = Loader(classname="weka.core.converters.ArffLoader")
 data = loader.load_file("test.arff")
 data.class_is_last()
 
 print('Chargement du modèle')
-from weka.classifiers import Classifier
-import weka.core.serialization as serialization
 classifier = Classifier(jobject=serialization.read(args.model))
 classifier.build_classifier(data)
 
