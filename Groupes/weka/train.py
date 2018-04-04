@@ -1,8 +1,12 @@
 #!/bin/env python3
 
-import numpy, argparse, pickle
+import argparse
 import xml.etree.ElementTree as ET
 from getfeatures import features, getfeature
+import weka.core.jvm as jvm
+from weka.core.converters import Loader
+from weka.classifiers import Classifier
+import weka.core.serialization as serialization
 
 aparser = argparse.ArgumentParser(description='Train model')
 aparser.add_argument('input', help='Input file')
@@ -30,30 +34,17 @@ for i in range(len(docs)):
 arffile.close()
 
 print('Démarrage de la jvm et chargement des données dans weka')
-import weka.core.jvm as jvm
 jvm.start()
-from weka.core.converters import Loader
 loader = Loader(classname="weka.core.converters.ArffLoader")
 data = loader.load_file("train.arff")
 data.class_is_last()
 
 print('Apprentissage du modèle')
-from weka.classifiers import Classifier, Evaluation
-from weka.core.classes import Random
 classifier = Classifier(classname="weka.classifiers.bayes.NaiveBayesMultinomial")
 classifier.build_classifier(data)
 
 ### Ici enregistrer le modèle dans le fichier dont le chemin est fourni par args.model
-import weka.core.serialization as serialization
 serialization.write(args.model, classifier)
-
-"""
-### Plutôt pour la prédiction (predict.py) mais on teste ici sur le jeu de train
-for index, inst in enumerate(data):
-    pred = classifier.classify_instance(inst)
-    dist = classifier.distribution_for_instance(inst)
-    print(str(index+1) + ": label index=" + str(pred) + ", class distribution=" + str(dist))
-"""
 
 print('Extinction de la jvm')
 jvm.stop()
