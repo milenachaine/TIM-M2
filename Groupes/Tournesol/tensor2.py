@@ -13,7 +13,7 @@ import tflearn
 import tensorflow as tf
 
 # Modifier le chemin si nécessaire
-corpus_train = pc.PreparationCorpus("../Corpus/all-train.xml")
+corpus_train = pc.PreparationCorpus("all-train.xml")
 
 #documents_class = corp.getDocumentsType()
 documents = corpus_train.getDocuments()
@@ -62,7 +62,7 @@ model.fit(training, labels, n_epoch=epochs, batch_size=8, show_metric=True)
 ##################
 ## TEST
 ##################
-corpus_test = pc.PreparationCorpus("../Corpus/all-test.xml")
+corpus_test = pc.PreparationCorpus("all-test.xml")
 documents_test = corpus_test.getDocuments()
 documents_test_class = corpus_test.getDocumentsType()
 
