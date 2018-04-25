@@ -8,3 +8,9 @@ def usa_count(text):
 
 def russia_count(text):
     return 1 if re.search(r"\bRussie\b", text) is not None else 0
+	
+def korea_count(text):
+    return 1 if re.search(r"\b[Cc]orée\b", text) is not None else 0
+	
+def disease_count(text):
+    return 1 if re.search(r"\btumeur|cancer\b", text) is not None else 0
