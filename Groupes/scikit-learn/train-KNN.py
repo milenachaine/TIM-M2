@@ -6,14 +6,11 @@ numpy.set_printoptions(precision=2,threshold=1000,suppress=True)
 import sys
 from getfeatures import features, getfeature
 from sklearn.neighbors import KNeighborsClassifier
-from sklearn.model_selection  import train_test_split
 from sklearn.metrics import accuracy_score
 from sklearn.externals import joblib
 
 fichier_train = sys.argv[1]
 fichier_model = sys.argv[2]
-
-print (fichier_train)
 
 print('Reading corpus and finding features')
 xmlcorpus = ET.parse(fichier_train)
