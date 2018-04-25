@@ -4,6 +4,9 @@
 import sys
 import xml.etree.ElementTree as ET
 
+reload(sys)
+sys.setdefaultencoding('utf8')
+
 if len(sys.argv) < 2:
     print("usage: {} INPUT".format(sys.argv[0]))
     sys.exit()
