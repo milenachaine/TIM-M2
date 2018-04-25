@@ -18,7 +18,7 @@ def main(args):
     arff.write("@RELATION fakenews" + '\n')
     functions = [func[1] for func in inspect.getmembers(getfeatures, inspect.isfunction)]
     for func in functions:
-        arff.write("@ATTRIBUTE {} numeric".format(str(func.__name__)) + '\n')
+        arff.write("@ATTRIBUTE {} NUMERIC".format(str(func.__name__)) + '\n')
     arff.write("@ATTRIBUTE CLASS {fake, trusted, parodic}" + '\n')
     arff.write("@DATA" + '\n')
     for doc in docs:
