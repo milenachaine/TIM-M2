@@ -1,34 +1,20 @@
-
-# coding: utf-8
-
-# In[62]:
-
-
 #!/bin/env python3
+# -*- coding: utf8 -*-
 
+import sys
 import xml.etree.ElementTree as ET
 
-file = open("all_lexico_appr.txt", "w", encoding="UTF-8")
-alldocs = ET.Element('corpus')
-i = 0
+if len(sys.argv) < 2:
+    print("usage: {} INPUT".format(sys.argv[0]))
+    sys.exit()
 
-for etudiant in open('../../Corpus/etudiants.lst').readlines():
-	xmlfile = '../../Corpus/Etudiants/' + etudiant.strip() + '.xml'
-	#print('Processing', xmlfile)
-	xmlcorpus = ET.parse(xmlfile)
-    
-	for doc in xmlcorpus.findall('doc'):
-		partie = doc.get('class')
-		i += 1        
-		if partie == "fake":
-			partie1 = doc.text   
-			fake = "{}{}{}{}".format("<fake=", i, ">", partie1)
-			file.write(fake)
-		elif partie == "trusted":
-			partie2 = doc.text
-			trusted = "{}{}{}{}".format("<trusted=", i, ">", partie2)
-			file.write(trusted)
-		else:
-			partie3 = doc.text
-			parodic = "{}{}{}{}".format("<parodic=", i, ">", partie3)
-			file.write(parodic)
+xml_corpus = ET.parse(sys.argv[1])
+root = xml_corpus.getroot()
+i = 1
+
+with open("all_lexico.txt", 'w') as f:
+	for doc in root.findall("doc"):
+		f.write("<category={}><article={}>\r\n".format(doc.get("class"), str(i)))
+		text = doc.find("text").text.splitlines()
+		f.write("\r\n".join([line.strip() for line in text if line]))
+		i += 1
