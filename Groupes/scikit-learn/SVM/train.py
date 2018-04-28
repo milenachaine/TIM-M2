@@ -1,0 +1,48 @@
+#!/bin/env python3
+
+import xml.etree.ElementTree as ET
+import numpy as np
+np.set_printoptions(precision=2,threshold=1000,suppress=True)
+import sys
+from getfeatures import features, getfeature
+from sklearn import svm
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+from sklearn.externals import joblib
+
+fichier_train = sys.argv[1]
+fichier_model = sys.argv[2]
+
+print('Reading corpus and finding features')
+xmlcorpus = ET.parse(fichier_train)
+nodoc = 0
+
+print('Création de la matrice numpy pour x et y')
+docs = xmlcorpus.getroot().getchildren()
+featurekeys = sorted(list(features.keys()))
+x = np.zeros((len(docs), len(featurekeys)))
+y = np.zeros((len(docs)))
+
+print('Insertion des données dans la matrice')
+for i in range(len(docs)):
+	for j in range(len(featurekeys)):
+		doc = docs[i]
+		featurename = featurekeys[j]
+		x[i,j] = getfeature(doc, featurename)
+		fake = 0
+		if doc.get('class') == 'fake':
+			fake = 1
+		if doc.get('class') == 'parodic':
+			fake = 2
+		y[i] = fake
+
+print('Dimensions de la matrice des features: '+str(x.shape))
+
+# gamma : plus c'est élevé, plus il va essayer de matcher les données (problème de surapprentissage)
+# C : taux d'erreur
+classifier = svm.SVC(kernel='rbf', gamma=0.5, C=10)
+classifier.fit(x, y)
+
+classifier.score(x, y)
+
+joblib.dump(classifier, fichier_model)
