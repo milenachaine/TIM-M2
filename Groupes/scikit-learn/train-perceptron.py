@@ -38,7 +38,7 @@ for i in range(len(docs)):
 
 print('Dimensions de la matrice des features: '+str(x.shape))
 
-model = Perceptron()
+model = Perceptron(penalty='elasticnet', alpha=0.0001, fit_intercept=True, max_iter=None, tol=0.19, shuffle=True, verbose=0, eta0=1.0, n_jobs=1, random_state=0, class_weight=None, warm_start=False, n_iter=None)
 model.fit(x, y)
 
 joblib.dump(model, fichier_model) 
