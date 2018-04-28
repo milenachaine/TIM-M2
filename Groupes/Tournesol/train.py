@@ -20,6 +20,7 @@ from get_tfidf import get_tfidf
 
 parser = argparse.ArgumentParser()
 parser.add_argument("input", help="Le jeu de données d'entrainement")
+parser.add_argument("model", help="Le nom du modele")
 args = parser.parse_args()
 
 # Les mots avec avec le tf-idf le plus élevé (à l'exception de 'de')
@@ -167,7 +168,7 @@ print("[Train] Précision sur le jeu de test : {}".format(sess.run(accuracy_OP,
 '''
 
 # Save variables to .ckpt file
-saver.save(sess, "./model")
+saver.save(sess, args.model)
 
 # Close tensorflow session
 sess.close()
