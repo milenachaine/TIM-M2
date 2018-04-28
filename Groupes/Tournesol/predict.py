@@ -136,8 +136,8 @@ if __name__ == "__main__":
 
     with open(args.test, 'r', encoding="utf-8") as f:
         tree = etree.parse(f)
-        for doc in tree.xpath("//doc"):
-            doc.set('classpredict', labelToString(testY[i]))
+        for i, doc in enumerate(tree.xpath("//doc")):
+            doc.set('classpredict', y_pred[i])
         tree.write(open(args.output, 'wb'), encoding="utf-8", xml_declaration=True)
 
 
