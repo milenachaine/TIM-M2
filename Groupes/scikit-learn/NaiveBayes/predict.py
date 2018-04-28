@@ -5,11 +5,7 @@ import numpy
 numpy.set_printoptions(precision=2,threshold=1000,suppress=True)
 import sys
 from getfeatures import features, getfeature
-
 from sklearn.naive_bayes import MultinomialNB
-from sklearn.naive_bayes import GaussianNB
-from sklearn.naive_bayes import BernoulliNB
-
 from sklearn.model_selection  import train_test_split
 from sklearn.metrics import accuracy_score
 from sklearn.externals import joblib
