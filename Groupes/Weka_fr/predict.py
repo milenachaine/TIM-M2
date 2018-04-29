@@ -44,6 +44,7 @@ def main(args):
     evaluation = Evaluation(test)
     evaluation.test_model(classifier, test)
     print(evaluation.summary())
+    print(evaluation.class_details())
     print(evaluation.matrix())
 
     # output predictions
