@@ -25,7 +25,7 @@ args = parser.parse_args()
 
 
 # Les mots avec avec le tf-idf le plus élevé (à l'exception de 'de')
-features = {f : 'numeric' for f in get_tfidf('../Corpus//all.xml')}
+features = {f : 'numeric' for f in get_tfidf('../Corpus/all.xml')}
 
 # Features perso
 features.update({
