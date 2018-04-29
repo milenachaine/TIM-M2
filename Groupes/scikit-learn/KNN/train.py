@@ -37,7 +37,7 @@ for i in range(len(docs)):
 
 print('Dimensions de la matrice des features: '+str(x.shape))
 
-model = KNeighborsClassifier(n_neighbors=4)
+model = KNeighborsClassifier(n_neighbors=4, weights='uniform', algorithm='auto', leaf_size=30, p=2, metric='minkowski', metric_params=None, n_jobs=1)
 model.fit(x, y)
 
 joblib.dump(model, fichier_model) 
