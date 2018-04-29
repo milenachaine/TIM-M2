@@ -13,8 +13,9 @@ from sklearn.metrics import classification_report
 
 testFile = sys.argv[1]
 pickleObject = sys.argv[2]
+outputFile = sys.argv[3]
 # à décommenter pour la visualisation de l'arbre de décision
-# dtGraph = sys.argv[3]
+# dtGraph = sys.argv[4]
 
 print("Lecture du corpus de test " + testFile)
 xmlcorpus = ET.parse(testFile)
@@ -56,8 +57,20 @@ res = model.predict(x)
 # graph = graphviz.Source(dot_data)
 # graph.render(dtGraph)
 
-print ('Score : ', round(accuracy_score(y, res), 2))
-print('Matrice de confusion : ')
-print(confusion_matrix(y, res))
-print("Résultats : ")
-print(classification_report(y, res, target_names=classNames))
+with open('resultsTFP.txt', 'w', encoding='UTF-8') as r:
+    r.write('Accuracy : ')
+    r.write(str(round(accuracy_score(y, res), 2)))
+    r.write('\nConfusion matrix : \n')
+    r.write(str(confusion_matrix(y, res)))
+    r.write('\nResults : \n')
+    r.write(classification_report(y, res, target_names=classNames))
+
+for i in range(len(docs)):
+    if res[i] == 0:
+        predict = classNames[0]
+    if res[i] == 1:
+        predict = classNames[1]
+    if res[i] == 2:
+        predict = classNames[2]
+    docs[i].set('classpredict', predict)
+xmlcorpus.write(open(outputFile, "wb"), encoding='UTF-8')
