@@ -13,8 +13,8 @@ def main(args):
     arff = open("train.arff", 'w')
 
     # read dataset and generate train arff
-    xmlcorpus = ET.parse(args.input)
-    docs = xmlcorpus.getroot().getchildren()
+    xml_corpus = ET.parse(args.input)
+    docs = xml_corpus.getroot().getchildren()
     arff.write("@RELATION fakenews" + '\n')
     functions = [func[1] for func in inspect.getmembers(getfeatures, inspect.isfunction)]
     for func in functions:
@@ -22,7 +22,9 @@ def main(args):
     arff.write("@ATTRIBUTE CLASS {fake, trusted, parodic}" + '\n')
     arff.write("@DATA" + '\n')
     for doc in docs:
-        feats = [str(func(doc.find("text").text)) for func in functions]
+        text = doc.find("text").text
+        lemmas = [tok.split('/')[2] for tok in doc.find("treetagger").text.split(' ')]
+        feats = [str(func(text, lemmas)) for func in functions]
         feats.append(doc.get("class"))
         arff.write(','.join(feats) + '\n')
 
@@ -34,7 +36,7 @@ def main(args):
     train.class_is_last()
 
     # build classifier
-    classifier = Classifier(classname="weka.classifiers.trees.J48")
+    classifier = Classifier(classname="weka.classifiers.bayes.NaiveBayesMultinomial")
     classifier.build_classifier(train)
 
     # save classifier
