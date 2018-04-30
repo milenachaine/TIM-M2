@@ -1,157 +1,88 @@
 #!/bin/env python3
+# -*- coding: utf8 -*-
 
 import re
 
-features = {
-	# sandra
-	'presse': 'numeric',
-	# abdenour
-	# agathe
-	'On' : 'numeric',
-	# andrea
-	'vous': 'numeric',
-	'suspen': 'numeric',
-	# arthur
-	'vs': 'numeric',
-	'selon': 'numeric',
-	# audrey
-	# chloe
-	'superlatif':'numeric',
-	# damien
-	'ameri': 'numeric',
-	'impers': 'numeric',
-	'ponctuation' : 'numeric',
-	# giovanna
-	# guanhua
-	'Corée': 'numeric',
-	# jielei
-	'bande':'numeric',
-	# mingqiang
-	'Chine': 'numeric',
-	# morgane
-	'adv' : 'numeric',
-	# nico
-	'référendum': 'numeric',
-	# sotiria
-	'onu': 'numeric',
-	# xi
-	# yousef
-	# yunbei
-	'russe':'numeric',
-	# yuran
-}
+def russia_count(text, lemmas):
+    # return 1 if "Russie" in lemmas else 0
+    return lemmas.count("Russie")
 
-def getfeature(doc, name):
-	text = doc.find('text').text
-	tt = doc.find('treetagger').text
-	tokenlst = [tok.split('/') for tok in tt.split(' ')]
-	# sandra
-	if name == 'presse':
-		nbpresse = 0
-		nbpresse += text.count('presse')
-		nbpresse += text.count('presses')
-		return nbpresse
-	# abdenour
-	# agathe
-	if name == 'On':
-		nbon = 0
-		nbon += text.count(' on ')
-		nbon += text.count('On ')
-		return nbon
-	# andrea
-	if name == 'vous':
-		nbvous = 0
-		nbvous += text.count(' vous ')
-		nbvous += text.count('Vous ')
-		return nbvous
-	if name == 'suspen':
-		nbsuspen = 0
-		nbsuspen += text.count('...')
-		nbsuspen += text.count('…')
-		return nbsuspen
-	# arthur
-	if name == 'vs':
-		vs = 0
-		vs += text.count('vous')
-		vs += text.count('Vous')
-		return vs
-	if name == 'selon':
-		nbselon = 0
-		nbselon += text.count('Selon')
-		nbselon += text.count('selon')
-		return nbselon
-	# audrey
-	# chloe
-	if name == 'superlatif':
-		nbsuper = 0
-		nbsuper += text.count('énorme')
-		nbsuper += text.count('géant')
-		nbsuper += text.count('grand')
-		return nbsuper
-	# damien
-	if name == 'ameri':
-		nbameri = 0
-		for token in tokenlst:
-			if token[0].lower().startswith('améri'):
-				nbameri += 1
-		return nbameri
-	if name == 'impers':
-		nbimpers = 0
-		for token in tokenlst:
-			if token[2] in ['on', 'nous']:
-				nbimpers += 1
-		return nbimpers
-	if name == 'ponctuation':
-		nbponct = 0
-		for token in tokenlst:
-			if token[1] == 'PUN':
-				nbponct += 1
-		return nbponct
-	# giovanna
-	# guanhua
-	if name == 'Corée':
-		nbcoree = 0
-		nbcoree += text.count('Corée')
-		nbcoree += text.count('coréen')
-		return nbcoree
-	# jielei
-	if name == 'bande':
-		if 'bande' in text:
-			return 1
-		return 0
-	# mingqiang
-	if name == 'Chine':
-		if 'Chine' in text:
-			return 1
-		return 0
-	# morgane
-	if name == 'adv':
-		pattern = re.compile(r'.ment\b')
-		nbadv = len(pattern.findall(text))
-		return nbadv
-	# nico
-	if name == 'référendum':
-		if 'ONU' in text:
-			return 1
-		return 0
-	# sotiria
-	if name == 'onu':
-		if 'ONU' in text:
-			return 1
-		return 0
-	if name == 'ponctuation':
-		nbponct = 0
-		nbponct += text.count('.')
-		nbponct += text.count(',')
-		nbponct += text.count('!')
-		return nbponct
-	# xi
-	# yousef
-	# yunbei
-	if name =='russe':
-		nbrusse = 0
-		path = re.compile(r'(R|r)usse(s)?')
-		match = path.findall(text)
-		return(len(match))
-	# yuran
-	return None
+def china_count(text, lemmas):
+    # return 1 if "Chine" in lemmas else 0
+    return lemmas.count("Chine")
+
+def usa_count(text, lemmas):
+    # return 1 if re.search(r"\bUSA?\b", text) is not None else 0
+    return len(re.findall(r"\bUSA?\b", text))
+
+def i_count(text, lemmas):
+    # return 1 if "je" in lemmas else 0
+    return lemmas.count("je")
+
+def nice_count(text, lemmas):
+    # return 1 if re.search(r"\bsympas?\b", text) is not None else 0
+    return len(re.findall(r"\bsympas?\b", text))
+
+def disease_count(text, lemmas):
+    # return 1 if any(word in lemmas for word in ["tumeur", "cancer"]) else 0
+    return sum(word in lemmas for word in ["tumeur", "cancer"])
+
+def seine_count(text, lemmas):
+    # return 1 if re.search(r"\bSeine\b", text) is not None else 0
+    return len(re.findall(r"\bSeine\b", text))
+
+
+
+# def korea_count(text, lemmas):
+#     return 1 if "Corée" in lemmas else 0
+
+# def not_usa_count(text, lemmas):
+#     return 1 if not any(re.match("[EÉ]tats-Unis", lemma) for lemma in lemmas) else 0
+
+# def seine_count(text, lemmas):
+#     return 1 if re.search(r"\bSeine\b", text) is not None else 0
+
+# def not_trump_count(text, lemmas):
+#     return 1 if re.search(r"\bTRUMP\b", text) is None else 0
+
+# def not_russia_count(text, lemmas):
+#     return 1 if "Russie" not in lemmas else 0
+
+# def russia_count(text, lemmas):
+#     return 1 if "Russie" in lemmas else 0
+
+# def korea_count(text, lemmas):
+#     return 1 if "Corée" in lemmas else 0
+
+# def china_count(text, lemmas):
+#     return 1 if "Chine" in lemmas else 0
+
+# def war_count(text, lemmas):
+#     return 1 if "guerre" in lemmas else 0
+
+# def washington_count(text, lemmas):
+#     return 1 if "Washington" in lemmas else 0
+
+# def not_war_count(text, lemmas):
+#     return 1 if "guerre" not in lemmas else 0
+
+# def ordonnance_count(text, lemmas):
+#     return 1 if "ordonnance" in lemmas else 0
+
+# def parliament_count(text, lemmas):
+#     return 1 if re.search(r"\bParlement\b", text) is not None else 0
+
+# def law_count(text, lemmas):
+#     return 1 if "loi" in lemmas else 0
+
+# def research_count(text, lemmas):
+#     return 1 if "recherche" in lemmas else 0
+
+# def regression_count(text, lemmas):
+#     return 1 if any(re.match("r[eé]gression", lemma) for lemma in lemmas) else 0
+
+# def police_count(text, lemmas):
+#     return 1 if "police" in lemmas else 0
+
+# def sunday_count(text, lemmas):
+#     return 1 if "dimanche" in lemmas else 0
