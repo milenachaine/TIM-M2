@@ -10,6 +10,15 @@ from sklearn.model_selection  import train_test_split
 from sklearn.metrics import accuracy_score
 from sklearn.externals import joblib
 
+# call example for predict.py
+# python predict.py /Users/YOSS/Desktop/all.xml models/LogisticRegression /tmp/out.txt
+
+# this assumes we already executed train_compare_models.py
+# train_compare_models.py is going to save the models inside the 'models' directory'
+# for example, the LogisticRegression model will be saved in
+# models/LogisticRegression
+# the already trained models are then loaded inside of predict.py
+
 fichier_test = sys.argv[1]
 fichier_model = sys.argv[2]
 fichier_output = sys.argv[3]
@@ -33,6 +42,8 @@ for i in range(len(docs)):
 		fake = 0
 		if doc.get('class') == 'fake':
 			fake = 1
+		# TODO: to go back to binary classification
+		# just comment out the two following lines
 		if doc.get('class') == 'parodic':
 			fake = 2
 		y[i] = fake
