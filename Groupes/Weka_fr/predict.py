@@ -23,8 +23,9 @@ def main(args):
     arff.write("@DATA" + '\n')
     for doc in docs:
         text = doc.find("text").text
+        pos = [tok.split('/')[1] for tok in doc.find("treetagger").text.split(' ')]
         lemmas = [tok.split('/')[2] for tok in doc.find("treetagger").text.split(' ')]
-        feats = [str(func(text, lemmas)) for func in functions]
+        feats = [str(func(text, pos,lemmas)) for func in functions]
         feats.append(doc.get("class"))
         arff.write(','.join(feats) + '\n')
 
