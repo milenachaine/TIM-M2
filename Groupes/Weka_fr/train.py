@@ -23,8 +23,9 @@ def main(args):
     arff.write("@DATA" + '\n')
     for doc in docs:
         text = doc.find("text").text
+        pos = [tok.split('/')[1] for tok in doc.find("treetagger").text.split(' ')]
         lemmas = [tok.split('/')[2] for tok in doc.find("treetagger").text.split(' ')]
-        feats = [str(func(text, lemmas)) for func in functions]
+        feats = [str(func(text, pos,lemmas)) for func in functions]
         feats.append(doc.get("class"))
         arff.write(','.join(feats) + '\n')
 
@@ -36,7 +37,7 @@ def main(args):
     train.class_is_last()
 
     # build classifier
-    classifier = Classifier(classname="weka.classifiers.bayes.NaiveBayesMultinomial")
+    classifier = Classifier(classname="weka.classifiers.trees.J48")
     classifier.build_classifier(train)
 
     # save classifier

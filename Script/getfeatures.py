@@ -15,6 +15,7 @@ features = {
 	'vs': 'numeric',
 	'selon': 'numeric',
 	# audrey
+	'monde' : 'numeric',
 	# chloe
 	'superlatif':'numeric',
 	# damien
@@ -81,6 +82,13 @@ def getfeature(doc, name):
 		nbselon += text.count('selon')
 		return nbselon
 	# audrey
+	if name == 'monde':
+		nbmonde = 0
+		nbmonde += text.count('monde')
+		nbmonde += text.count('Monde')
+		nbmonde += text.count('mondes')
+		nbmonde += text.count('Mondes')
+		return nbmonde
 	# chloe
 	if name == 'superlatif':
 		nbsuper = 0
