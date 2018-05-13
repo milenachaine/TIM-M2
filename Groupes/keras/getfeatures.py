@@ -3,48 +3,50 @@
 import re
 
 features = {
-	# sandra
 	'presse': 'numeric',
-	# abdenour
-	# agathe
+	'presses': 'numeric',
 	'On' : 'numeric',
-	# andrea
+	'on' : 'numeric',
 	'vous': 'numeric',
-	'suspen': 'numeric',
-	# arthur
+	'Vous': 'numeric',
+	#'suspen': 'numeric',
 	'vs': 'numeric',
 	'selon': 'numeric',
-	# audrey
-	# chloe
-	'superlatif':'numeric',
-	# damien
+	'Selon': 'numeric',
+	#'superlatif':'numeric',
+	'énorme':'numeric',
+	'géant':'numeric',
+	'grand':'numeric',
 	'ameri': 'numeric',
-	'impers': 'numeric',
-	'ponctuation' : 'numeric',
-	# giovanna
-	# guanhua
+	'American': 'numeric',
+	'Americans': 'numeric',
+	'nous': 'numeric',
+	'Nous': 'numeric',
+	#'ponctuation' : 'numeric',
+	',':'numeric',
+	'?':'numeric',
+	'!':'numeric',
+	'.':'numeric',
+	#'.':'numeric',
 	'Corée': 'numeric',
-	# jielei
+	'coréen':'numeric',
 	'bande':'numeric',
-	# mingqiang
 	'Chine': 'numeric',
-	# morgane
 	'adv' : 'numeric',
-	# nico
-	'référendum': 'numeric',
-	# sotiria
+#	'référendum': 'numeric',
 	'onu': 'numeric',
-	# xi
-	# yousef
-	# yunbei
+	'ONU':'numeric',
 	'russe':'numeric',
-	# yuran
+	'Russe':'numeric',
+	'Russes':'numeric',
+	'russes':'numeric',
 }
 
 def getfeature(doc, name):
 	text = doc.find('text').text
 	tt = doc.find('treetagger').text
-	tokenlst = [tok.split('/') for tok in tt.split(' ')]
+	#tokenlst = [tok.split('/') for tok in tt.split(' ')]
+	text = re.split(r'[;.?]',txt)
 	# sandra
 	if name == 'presse':
 		nbpresse = 0
