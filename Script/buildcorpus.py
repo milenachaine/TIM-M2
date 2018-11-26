@@ -1,8 +1,8 @@
 #!/bin/env python3
 
 import xml.etree.ElementTree as ET
-from treetagger import TreeTagger
-tt = TreeTagger(language='french')
+# from treetagger import TreeTagger
+# tt = TreeTagger(language='french')
 
 alldocs = ET.Element('corpus')
 for etudiant in open('../Corpus/etudiants.lst').readlines():
