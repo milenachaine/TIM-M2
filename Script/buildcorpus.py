@@ -16,11 +16,11 @@ for etudiant in open('../Corpus/etudiants.lst').readlines():
 		textnode = ET.Element('text')
 		textnode.text = text
 		doc.append(textnode)
-		ttnode = ET.Element('treetagger')
-		text = text.replace('/', ' ')
-		text = text.replace('’', '\'')
-		ttnode.text = ' '.join(['/'.join(ttline) for ttline in tt.tag(text)])
-		doc.append(ttnode)
+		# ttnode = ET.Element('treetagger')
+		# text = text.replace('/', ' ')
+		# text = text.replace('’', '\'')
+		# ttnode.text = ' '.join(['/'.join(ttline) for ttline in tt.tag(text)])
+		# doc.append(ttnode)
 		alldocs.append(doc)
 
 print('Output file')
