@@ -23,5 +23,3 @@ for doc in corpus:
 			arff.write(',')
 			arff.write(doc.attrib['class'])
 			arff.write('\n')
-			print(doc.attrib['class'])
-
