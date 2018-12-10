@@ -5,8 +5,9 @@ import xml.etree.ElementTree as ET
 arff = open('../Corpus/all.arff', 'w')
 
 arff.write('@RELATION juricat\n')
-arff.write('@ATTRIBUTE text STRING\n')
-arff.write('@ATTRIBUTE cat {assurance,auteur,consommation,divorce,enfants,entreprise,etranger,famille,penal,sante,transport,travail}\n')
+arff.write('@ATTRIBUTE taille NUMERIC\n')
+arff.write('@ATTRIBUTE travail NUMERIC\n')
+arff.write('@ATTRIBUTE cat {assurance,auteur,consommation,entreprise,etranger,famille,penal,travail}\n')
 
 arff.write('@DATA\n')
 
@@ -19,7 +20,12 @@ for doc in corpus:
 			text = doctext.text
 			text = text.replace('\'', '\\\'')
 			text = text.replace('\n', '')
-			arff.write('\''+text+'\'')
+			arff.write(str(len(text)))
+			arff.write(',')
+			if 'travail' in text:
+				arff.write('1')
+			else:
+				arff.write('0')
 			arff.write(',')
 			arff.write(doc.attrib['class'])
 			arff.write('\n')
