@@ -2,18 +2,16 @@
 
 import xml.etree.ElementTree as ET
 
-# /Users/damien/Desktop
-
 arff = open('../Corpus/all.arff', 'w')
 
 arff.write('@RELATION juricat\n')
 arff.write('@ATTRIBUTE taille NUMERIC\n')
+arff.write('@ATTRIBUTE text STRING\n')
 arff.write('@ATTRIBUTE travail NUMERIC\n')
 arff.write('@ATTRIBUTE entreprise NUMERIC\n')
 arff.write('@ATTRIBUTE cat {assurance,consommation,entreprise,etranger,famille,penal,travail}\n')
 
 arff.write('@DATA\n')
-
 tree = ET.parse('../Corpus/all.xml')
 corpus = tree.getroot()
 for doc in corpus:
@@ -24,6 +22,7 @@ for doc in corpus:
 			text = text.replace('\'', '\\\'')
 			text = text.replace('\n', '')
 			arff.write(str(len(text)))
+			arff.write('\''+text+'\'')
 			arff.write(',')
 			if 'travail' in text or 'salaire' in text or 'salarié' in text or 'Smic' in text:
 				arff.write('1')
@@ -37,6 +36,3 @@ for doc in corpus:
 			arff.write(',')
 			arff.write(doc.attrib['class'])
 			arff.write('\n')
-
-
-

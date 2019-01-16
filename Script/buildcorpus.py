@@ -4,18 +4,23 @@ import xml.etree.ElementTree as ET
 # from treetagger import TreeTagger
 # tt = TreeTagger(language='french')
 
+docids = {}
 alldocs = ET.Element('corpus')
 for etudiant in open('../Corpus/etudiants.lst').readlines():
-	xmlfile = '../Corpus/Etudiants/'+etudiant.strip()+'.xml'
+	etudiantid = etudiant.strip()
+	xmlfile = '../Corpus/Etudiants/'+etudiantid+'.xml'
 	print('Processing', xmlfile)
 	xmlcorpus = ET.parse(xmlfile)
+	etudiantdoc = 0
 	for doc in xmlcorpus.getroot():
-		# print (doc.text)
-		text = doc.text      
-		doc.text = ''
+		etudiantdoc += 1
+		docid = etudiantid+str(etudiantdoc)
+		doc.attrib['id'] = docid
+		text = doc.text
 		textnode = ET.Element('text')
 		textnode.text = text
 		doc.append(textnode)
+		doc.text = ''
 		# ttnode = ET.Element('treetagger')
 		# text = text.replace('/', ' ')
 		# text = text.replace('’', '\'')
