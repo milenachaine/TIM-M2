@@ -2,7 +2,7 @@
 
 import xml.etree.ElementTree as ET
 
-arff = open('../Corpus/all.arff', 'w')
+arff = open('../Corpus/categorisation.arff', 'w')
 
 arff.write('@RELATION juricat\n')
 arff.write('@ATTRIBUTE text STRING\n')
@@ -12,7 +12,7 @@ arff.write('@ATTRIBUTE precomp_entreprise NUMERIC\n')
 arff.write('@ATTRIBUTE precomp_cat {assurance,consommation,entreprise,etranger,famille,penal,travail}\n')
 
 arff.write('@DATA\n')
-tree = ET.parse('../Corpus/all.xml')
+tree = ET.parse('../Corpus/categorisation.xml')
 corpus = tree.getroot()
 for doc in corpus:
 	if 'class' in doc.attrib:
