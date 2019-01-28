@@ -8,7 +8,7 @@ docids = {}
 alldocs = ET.Element('corpus')
 for etudiant in open('../Corpus/etudiants.lst').readlines():
 	etudiantid = etudiant.strip()
-	xmlfile = '../Corpus/Etudiants/'+etudiantid+'.xml'
+	xmlfile = '../Corpus/Etudiants/Categorisation/'+etudiantid+'.xml'
 	print('Processing', xmlfile)
 	xmlcorpus = ET.parse(xmlfile)
 	etudiantdoc = 0
@@ -29,4 +29,4 @@ for etudiant in open('../Corpus/etudiants.lst').readlines():
 		alldocs.append(doc)
 
 print('Output file')
-ET.ElementTree(alldocs).write('../Corpus/all.xml', encoding="UTF-8")
+ET.ElementTree(alldocs).write('../Corpus/categorisation.xml', encoding="UTF-8")
