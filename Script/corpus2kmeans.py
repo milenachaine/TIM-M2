@@ -1,7 +1,7 @@
 #!/bin/env python3
 
 import xml.etree.ElementTree as ET
-tree = ET.parse('../Corpus/all.xml')
+tree = ET.parse('../Corpus/categorisation.xml')
 corpus = tree.getroot()
 texts = []
 ids = []
