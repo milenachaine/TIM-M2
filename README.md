@@ -16,12 +16,13 @@ Fabriquer un chatbot dans le domaine du juridique, capable de :
 
 - collecte d'un corpus de questions / réponses dans le juridique (forums, FAQ)
 - prétraitement TAL du corpus, questions et réponses
+	- lemmatisation
+	- morpho-syntaxe / syntaxe
 	- entités nommées
-	- intentions / entités
-	- repérage de références juridiques
+	- (intentions / entités)
+	- (repérage de références juridiques)
 - catégorisation des questions / réponses (sous-domaines du droit)
 - modules d'interaction
-	- traitement de la question
-	- recherche de réponses par similarité
-	- recherche de textes de loi par similarité
+	- traitement de la question (cf prétraitements)
+	- recherche de réponses et/ou textes de loi par similarité
 	- génération de réponses
