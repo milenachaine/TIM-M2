@@ -6,7 +6,7 @@ import xml.etree.ElementTree as ET
 
 docids = {}
 alldocs = ET.Element('corpus')
-for etudiant in open('../Corpus/etudiants.lst').readlines():
+for etudiant in open('../Corpus/categorisation.lst').readlines():
 	etudiantid = etudiant.strip()
 	xmlfile = '../Corpus/Etudiants/Categorisation/'+etudiantid+'.xml'
 	print('Processing', xmlfile)
