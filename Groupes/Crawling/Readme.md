@@ -4,7 +4,7 @@ Dossier contenant les scripts utilisés pour la collecte du corpus
 
 ## Objectif et tâches
 
-Créer un petit crawler comme vu en cours de technique sur le site Juritravail
+Créer un petit crawler comme vu en cours de technique web sur le site Juritravail
 Obtenir en sortie un fichier XML global reprenant la structure des fichiers du dossier "QuestionAnswering" :
 
 - pour chaque doc, une suite de questions-réponses
