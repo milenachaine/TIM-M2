@@ -60,7 +60,29 @@ try:
 				url = driver.current_url
 				cat = str(elem)
 				id = str(elem[0])+str(elem[1])+str(elem[2])+str(i)
-				print(id, cat, site, titre, url)
+				print("<doc class=\"{cat}\" id=\"{id}\" source=\"{site}\" titre=\"{titre}\" url=\"{url}\">".format(id=id, cat=cat, site=site, titre=titre, url=url))
+				
+				# Récupération de la question
+				
+				questions = driver.find_elements_by_xpath("//div[contains(@class, 'floatLeft commentContainer')]//div")
+				question = questions[0].text	
+				paragraphs = driver.find_elements_by_xpath("//div[contains(@class, 'floatLeft commentContainer')]//p[2]")
+				if paragraphs:
+					paragraph = paragraphs[0].text
+					print("<question>{question}\n{paragraph}</question>".format(question=question, paragraph=paragraph))
+				else:
+					print(question)
+					
+				# Récupération des réponses
+				
+				reponses = driver.find_elements_by_xpath("//span[contains(@class, 'grade stars-10')]/../../div[1]/div/div[contains(@class, 'msg')]//div")
+				#/../..//div[contains(@class, 'msg')]//div")
+				if reponses:
+					for reponse in reponses:
+						reponse = reponse.text
+						print("<answer>{reponse}</answer>".format(reponse=reponse))
+				
+				print("</doc>")
 				i += 1
 				driver.back()
 			
