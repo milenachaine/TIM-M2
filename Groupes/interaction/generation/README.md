@@ -12,3 +12,9 @@ Proposition schéma type interaction
 		Reponse négative -> retour à la ligne 5
 	
 	
+Méthodes Symbolique ou apprentissage ? N-grams
+Génération de texte, ou juste proposition des réponses ?
+
+Quelles entitées ?
+
+Quelle interface ? bot discord/slack/fb, fenetre de commande, web ?
