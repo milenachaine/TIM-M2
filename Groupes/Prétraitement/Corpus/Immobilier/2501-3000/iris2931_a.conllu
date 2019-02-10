@@ -1,0 +1,213 @@
+#Bonjour,
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Si c'est une copropriété, chaque place de parking a un numéro de lot et donc sa propre référence de taxation.
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	c'	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+5	copropriété	copropriété	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	advcl	_	_
+6	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+7	chaque	chaque	DET	_	DET__Number=Sing	13	det	_	_
+8	place	placer	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nsubj	_	_
+9	de	de	ADP	_	ADP___	10	case	_	_
+10	parking	parking	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+11	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+12	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+13	numéro	numéro	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+14	de	de	ADP	_	ADP___	15	case	_	_
+15	lot	lot	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+16	et	et	CCONJ	_	CCONJ___	17	cc	_	_
+17	donc	donc	ADV	_	ADV___	15	advmod	_	_
+18	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	22	nmod:poss	_	_
+19	propre	propre	ADJ	_	ADJ__Number=Sing	18	amod	_	_
+20	référence	référence	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	conj	_	_
+21	de	de	ADP	_	ADP___	22	case	_	_
+22	taxation	taxation	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	nmod	_	_
+23	.	.	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#Si c'est une monopropriété, c'est plus délicat : interrogez le centre des impôts.
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	c'	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+5	monopropriété	monopropriété	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	advcl	_	_
+6	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+7	c'	ce	PRON	_	PRON__Number=Sing|Person=3	13	nsubj	_	_
+8	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+9	plus	plaire	ADV	_	ADV___	10	advmod	_	_
+10	délicat	délicat	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+11	:	:	PUNCT	_	PUNCT___	12	punct	_	_
+12	interrogez	interroger	ADJ	_	ADJ__Gender=Masc|Number=Sing	10	amod	_	_
+13	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+14	centre	centrer	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obj	_	_
+15	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	13	det	_	_
+16	impôts	impôt	NOUN	_	NOUN__Gender=Masc|Number=Plur	17	nmod	_	_
+17	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Bonjour,Demander à votre propriétaire la copie de cette taxe d'habitation!
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	Demander	Demander	VERB	_	VERB__VerbForm=Inf	1	conj	_	_
+4	à	à	ADP	_	ADP___	6	case	_	_
+5	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+6	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	3	obl	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	copie	copier	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obj	_	_
+9	de	de	ADP	_	ADP___	11	case	_	_
+10	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
+11	taxe	taxer	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+12	d'	de	ADP	_	ADP___	13	case	_	_
+13	habitation	habitation	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+14	!	!	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Puis aller au service des impôts fonciers pour avoir plus de détail sur la valeur locative de cette taxe.
+1	Puis	Puis	CCONJ	_	CCONJ___	1	cc	_	_
+2	aller	aller	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+3	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	1	det	_	_
+4	service	service	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	obl	_	_
+5	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
+6	impôts	impôt	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	obj	_	_
+7	fonciers	foncier	ADJ	_	ADJ__Gender=Masc|Number=Plur	8	amod	_	_
+8	pour	pour	ADP	_	ADP___	3	mark	_	_
+9	avoir	avoir	VERB	_	VERB__VerbForm=Inf	11	advcl	_	_
+10	plus	plaire	ADV	_	ADV___	11	det	_	_
+11	de	de	ADP	_	ADP___	8	fixed	_	_
+12	détail	détail	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+13	sur	sur	ADP	_	ADP___	11	case	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+15	valeur	valeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nmod	_	_
+16	locative	locatif	ADJ	_	ADJ__Gender=Fem|Number=Sing	16	amod	_	_
+17	de	de	ADP	_	ADP___	18	case	_	_
+18	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	16	det	_	_
+19	taxe	taxer	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	nmod	_	_
+20	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#La propriétaire peut demander la "fragmentation" de cette taxe.
+1	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	propriétaire	propriétaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+3	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+4	demander	demander	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	"	"	PUNCT	_	PUNCT___	3	punct	_	_
+7	fragmentation	fragmentation	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+8	"	"	PUNCT	_	PUNCT___	3	punct	_	_
+9	de	de	ADP	_	ADP___	11	case	_	_
+10	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
+11	taxe	taxer	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+12	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#D'autre part, la propriétaire, dans son impôt foncier paye la taxe d’enlèvement des ordures ménagères qu'elle est en droit de vous demander le remboursement.
+1	D'	D'	ADP	_	ADP___	1	advmod	_	_
+2	autre	autre	ADJ	_	ADJ__Number=Sing	3	fixed	_	_
+3	part	partir	NOUN	_	NOUN__Number=Sing	1	fixed	_	_
+4	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	propriétaire	propriétaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+7	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+8	dans	dan	ADP	_	ADP___	3	case	_	_
+9	son	son	DET	_	DET__Number=Sing|Poss=Yes	11	nmod:poss	_	_
+10	impôt	impôt	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obl	_	_
+11	foncier	foncier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	8	amod	_	_
+12	paye	payer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+14	taxe	taxer	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+15	d’	d’	PUNCT	_	PUNCT___	16	amod	_	_
+16	enlèvement	enlèvement	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+17	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	18	det	_	_
+18	ordures	ordure	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	obj	_	_
+19	ménagères	ménager	NOUN	_	NOUN__Gender=Masc|Number=Plur	20	amod	_	_
+20	qu'	que	PRON	_	PRON__PronType=Rel	16	mark	_	_
+21	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	20	nsubj	_	_
+22	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+23	en	en	ADP	_	ADP___	16	case	_	_
+24	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	acl:relcl	_	_
+25	de	de	ADP	_	ADP___	24	mark	_	_
+26	vous	se	PRON	_	PRON__Number=Plur|Person=2|Reflex=Yes	23	iobj	_	_
+27	demander	demander	VERB	_	VERB__VerbForm=Inf	29	nmod	_	_
+28	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	remboursement	remboursement	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	obj	_	_
+30	.	.	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#Là encore, que pour la surface du parking!Cordialement
+1	Là	Là	ADV	_	ADV___	1	advmod	_	_
+2	encore	encore	ADV	_	ADV___	3	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	0	ROOT	_	_
+4	que	que	SCONJ	_	SCONJ___	6	mark	_	_
+5	pour	pour	ADP	_	ADP___	6	case	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+7	surface	surface	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+8	du	du	DET	_	DET__Gender=Masc|Number=Sing	3	det	_	_
+9	parking!Cordialement	parking!Cordialement	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	fixed	_	_
+
+
+#Pourquoi la TH ,  le locataire  la paye en direct !
+1	Pourquoi	Pourquoi	ADV	_	ADV__PronType=Int	3	advmod	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	TH	TH	PROPN	_	PROPN__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+5	 	 	SPACE	_		4		_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	locataire	locataire	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nsubj	_	_
+8	 	 	SPACE	_		7		_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	obj	_	_
+10	paye	payer	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	cop	_	_
+11	en	en	ADP	_	ADP___	12	case	_	_
+12	direct	direct	ADJ	_	ADJ__Gender=Masc|Number=Sing	3	conj	_	_
+13	!	!	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Ou vous voulez parler de ladu parking ?
+1	Ou	Ou	CCONJ	_	CCONJ___	3	cc	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	3	nsubj	_	_
+3	voulez	vouloir	AUX	_	AUX__Mood=Cnd|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	parler	parler	VERB	_	VERB__VerbForm=Inf	12	xcomp	_	_
+5	de	de	ADP	_	ADP___	4	det	_	_
+6	ladu	ladu	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	amod	_	_
+7	parking	parking	ADJ	_	ADJ__Gender=Masc|Number=Sing	12	obj	_	_
+8	?	?	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Je répondais à RobertMichel qui vous disait de demander la TH au propriétaireLe plus simple est de voir avec votre Centre des Impôts si c'est bien la TH pour votre parking
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	2	nsubj	_	_
+2	répondais	répondre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+3	à	à	ADP	_	ADP___	4	case	_	_
+4	RobertMichel	RobertMichel	PROPN	_	PROPN__Gender=Masc|Number=Sing	2	obl	_	_
+5	qui	qui	PRON	_	PRON__PronType=Rel	7	nsubj	_	_
+6	vous	se	PRON	_	PRON__Number=Plur|Person=2	7	iobj	_	_
+7	disait	dire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	acl:relcl	_	_
+8	de	de	ADP	_	ADP___	9	mark	_	_
+9	demander	demander	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	TH	TH	PROPN	_	PROPN__Number=Sing	9	obj	_	_
+12	au	au	PROPN	_	PROPN__Gender=Fem|Number=Sing	18	expl	_	_
+13	propriétaireLe	propriétaireLe	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	fixed	_	_
+14	plus	plaire	ADV	_	ADV___	15	advmod	_	_
+15	simple	simple	ADJ	_	ADJ__Number=Sing	16	amod	_	_
+16	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	fixed	_	_
+17	de	de	ADP	_	ADP___	18	mark	_	_
+18	voir	voir	VERB	_	VERB__VerbForm=Inf	9	advcl	_	_
+19	avec	avec	ADP	_	ADP___	21	case	_	_
+20	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	21	nmod:poss	_	_
+21	Centre	Centre	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obl	_	_
+22	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	23	det	_	_
+23	Impôts	Impôts	NOUN	_	NOUN__Gender=Masc|Number=Plur	21	nmod	_	_
+24	si	si	SCONJ	_	SCONJ___	29	mark	_	_
+25	c'	ce	PRON	_	PRON__Number=Sing|Person=3	29	nsubj	_	_
+26	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
+27	bien	bien	ADV	_	ADV___	29	advmod	_	_
+28	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	TH	TH	PROPN	_	PROPN__Gender=Fem|Number=Sing	18	obl	_	_
+30	pour	pour	ADP	_	ADP___	32	case	_	_
+31	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	32	nmod:poss	_	_
+32	parking	parking	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	nmod	_	_
+
+
