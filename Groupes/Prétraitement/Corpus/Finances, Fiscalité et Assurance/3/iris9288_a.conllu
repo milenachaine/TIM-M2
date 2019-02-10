@@ -1,0 +1,206 @@
+#BonjourTant que l'assureur n'a pas reçu de devis en retour, et maximum 2 ans.
+1	BonjourTant	BonjourTant	VERB	_	VERB__Tense=Pres|VerbForm=Part	0	ROOT	_	_
+2	que	que	SCONJ	_	SCONJ___	8	mark	_	_
+3	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	assureur	assureur	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nsubj	_	_
+5	n'	ne	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+6	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+8	reçu	recevoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+9	de	de	ADP	_	ADP___	10	case	_	_
+10	devis	devis	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+11	en	en	ADP	_	ADP___	12	case	_	_
+12	retour	retour	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+13	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+14	et	et	CCONJ	_	CCONJ___	15	cc	_	_
+15	maximum	maximum	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	conj	_	_
+16	2	2	NUM	_	NUM__NumType=Card	17	nummod	_	_
+17	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	obj	_	_
+18	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Oui.
+1	Oui	Oui	PROPN	_	PROPN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Surtout de n'avoir aucun écrit.
+1	Surtout	Surtout	ADV	_	ADV___	1	advmod	_	_
+2	de	de	ADP	_	ADP___	8	fixed	_	_
+3	n'	ne	ADV	_	ADV___	4	advmod	_	_
+4	avoir	avoir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	aucun	aucun	DET	_	DET__Gender=Masc|Number=Sing	8	det	_	_
+6	écrit	écrire	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+7	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Imputation du sinistre, et/ou de ses aggravations.
+1	Imputation	Imputation	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	du	du	DET	_	DET__Gender=Masc|Number=Sing	3	det	_	_
+3	sinistre	sinistre	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	amod	_	_
+4	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+5	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+6	/	/	PUNCT	_	PUNCT___	5	fixed	_	_
+7	ou	ou	CCONJ	_	CCONJ___	5	fixed	_	_
+8	de	de	ADP	_	ADP___	10	case	_	_
+9	ses	son	DET	_	DET__Number=Plur|Poss=Yes	10	nmod:poss	_	_
+10	aggravations	aggravation	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	conj	_	_
+11	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Normalement, votre responsabilité est limitée
+1	Normalement	Normalement	ADV	_	ADV___	6	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+3	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+4	responsabilité	responsabilité	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nsubj	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	limitée	limiter	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+
+
+#aux locaux loués;
+1	aux	aux	ADP	_	ADP___	0	ROOT	_	_
+2	locaux	local	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	amod	_	_
+3	loués	louer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	4	acl	_	_
+4	;	;	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#si vous n'avez pas d'accès possible à la chambre inoccupée, rien ne vous empêche à priori de l'exclure de la surface assurée.
+1	si	si	SCONJ	_	SCONJ___	6	mark	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	6	nsubj	_	_
+3	n'	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+4	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+6	d'	de	ADP	_	ADP___	6	det	_	_
+7	accès	accès	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+8	possible	possible	ADJ	_	ADJ__Number=Sing	7	amod	_	_
+9	à	à	ADP	_	ADP___	8	case	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+11	chambre	chambrer	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nmod	_	_
+12	inoccupée	inoccupé	ADJ	_	ADJ__Gender=Fem|Number=Sing	14	amod	_	_
+13	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+14	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	27	nsubj	_	_
+15	ne	ne	ADV	_	ADV___	14	advmod	_	_
+16	vous	se	PRON	_	PRON__Number=Plur|Person=2	17	iobj	_	_
+17	empêche	empêcher	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+18	à	à	ADP	_	ADP___	17	case	_	_
+19	priori	priori	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	fixed	_	_
+20	de	de	ADP	_	ADP___	21	fixed	_	_
+21	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+22	exclure	exclure	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	obl	_	_
+23	de	de	ADP	_	ADP___	14	case	_	_
+24	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+25	surface	surface	NOUN	_	NOUN__Gender=Fem|Number=Sing	27	nmod	_	_
+26	assurée	assurer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	27	acl	_	_
+27	.	.	PUNCT	_	PUNCT___	27	punct	_	_
+
+
+#Je doute neanmoins que cela ait une grosse incidence sur la prime... le jeu n'en vaut probablement pas la chandelle.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+2	doute	douter	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	advmod	_	_
+3	neanmoins	neanmoins	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	que	que	SCONJ	_	SCONJ___	6	mark	_	_
+5	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	6	nsubj	_	_
+6	ait	avoir	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+7	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+8	grosse	gros	ADJ	_	ADJ__Gender=Fem|Number=Sing	7	amod	_	_
+9	incidence	incidence	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	ccomp	_	_
+10	sur	sur	ADP	_	ADP___	7	case	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+12	prime	primer	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nmod	_	_
+13	...	...	PUNCT	_	PUNCT___	14	punct	_	_
+14	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+15	jeu	jeu	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nsubj	_	_
+16	n'	ne	ADV	_	ADV___	17	advmod	_	_
+17	en	en	PRON	_	PRON__Person=3	14	expl	_	_
+18	vaut	valoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	ccomp	_	_
+19	probablement	probablement	ADV	_	ADV___	21	advmod	_	_
+20	pas	pas	ADV	_	ADV__Polarity=Neg	21	advmod	_	_
+21	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+22	chandelle	chandelle	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	obj	_	_
+23	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Je ne pense pas que ce soit dans des proportions considerables, non;
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+2	ne	ne	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+3	pense	penser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+5	que	que	SCONJ	_	SCONJ___	6	mark	_	_
+6	ce	ce	PRON	_	PRON__Number=Sing|Person=3	3	ccomp	_	_
+7	soit	être	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cc	_	_
+8	dans	dan	ADP	_	ADP___	10	case	_	_
+9	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
+10	proportions	proportion	NOUN	_	NOUN__Gender=Fem|Number=Plur	6	conj	_	_
+11	considerables	considerables	ADJ	_	ADJ__Gender=Fem|Number=Plur	10	amod	_	_
+12	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+13	non	non	ADV	_	ADV___	6	advmod	_	_
+14	;	;	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#mais seul votre assureur peut vous donner l'incidence exacte...
+1	mais	mai	CCONJ	_	CCONJ___	3	cc	_	_
+2	seul	seul	ADJ	_	ADJ__Gender=Masc|Number=Sing	3	amod	_	_
+3	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	3	nmod:poss	_	_
+4	assureur	assureur	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+5	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	vous	se	PRON	_	PRON__Number=Plur|Person=2	3	iobj	_	_
+7	donner	donner	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+8	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+9	incidence	incidence	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obj	_	_
+10	exacte	exact	ADJ	_	ADJ__Gender=Fem|Number=Sing	6	amod	_	_
+11	...	...	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Ben
+1	Ben	Ben	PROPN	_	PROPN___	0	ROOT	_	_
+
+
+#.... consultez
+1	....	....	PUNCT	_	PUNCT___	0	ROOT	_	_
+2	consultez	consulter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	amod	_	_
+
+
+#-en d'autres...
+1	-	-	PUNCT	_	PUNCT___	3	punct	_	_
+2	en	en	ADP	_	ADP___	0	ROOT	_	_
+3	d'	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	3	fixed	_	_
+4	autres	autre	ADJ	_	ADJ__Number=Plur	3	fixed	_	_
+5	...	...	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#La loi modestement consommation vous permettra en plus de résilier sans difficulté.
+1	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	loi	loi	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+3	modestement	modestement	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advmod	_	_
+4	consommation	consommation	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	acl	_	_
+5	vous	se	PRON	_	PRON__Number=Plur|Person=2	6	obj	_	_
+6	permettra	permettre	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+7	en	en	ADP	_	ADP___	10	advmod	_	_
+8	plus	plaire	ADV	_	ADV___	10	fixed	_	_
+9	de	de	ADP	_	ADP___	10	det	_	_
+10	résilier	résilier	VERB	_	VERB__VerbForm=Inf	6	obl	_	_
+11	sans	sans	ADP	_	ADP___	10	case	_	_
+12	difficulté	difficulté	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Rel	10	obl	_	_
+13	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Faudrait peut-être en dire un peu plus pour ne pas avoir une réponse au doigt mouillé.
+1	Faudrait	Faudrait	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	nsubj	_	_
+2	peut-être	peut-être	ADV	_	ADV___	3	advmod	_	_
+3	en	en	ADP	_	ADP___	3	mark	_	_
+4	dire	dire	VERB	_	VERB__VerbForm=Inf	3	advcl	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	peu	peu	ADV	_	ADV___	3	advmod	_	_
+7	plus	plaire	ADV	_	ADV___	10	fixed	_	_
+8	pour	pour	ADP	_	ADP___	10	mark	_	_
+9	ne	ne	ADV	_	ADV___	10	advmod	_	_
+10	pas	pas	ADV	_	ADV___	6	fixed	_	_
+11	avoir	avoir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+12	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+13	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obj	_	_
+14	au	au	PRON	_	PRON__PronType=Rel	3	case	_	_
+15	doigt	doigt	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	nmod	_	_
+16	mouillé	mouiller	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	amod	_	_
+17	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+

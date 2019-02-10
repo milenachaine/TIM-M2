@@ -1,0 +1,108 @@
+#Bonjour.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Voilà mon problème
+1	Voilà	Voilà	ADP	_	ADP___	0	ROOT	_	_
+2	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+3	problème	problème	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obj	_	_
+
+
+#nous avons retrouvé notre voiture sur cale un matin vitre cassé roue retiré nous avons contacté l'assurance.
+1	nous	se	PRON	_	PRON__Number=Plur|Person=1	1	iobj	_	_
+2	avons	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	retrouvé	retrouver	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	notre	notre	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+5	voiture	voiturer	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obj	_	_
+6	sur	sur	ADP	_	ADP___	8	case	_	_
+7	cale	caler	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+8	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+9	matin	matin	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+10	vitre	vitrer	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	amod	_	_
+11	cassé	casser	ADJ	_	ADJ__Gender=Masc|Number=Sing	12	amod	_	_
+12	roue	rouer	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	amod	_	_
+13	retiré	retirer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
+14	nous	se	PRON	_	PRON__Number=Plur|Person=1	8	nsubj	_	_
+15	avons	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+16	contacté	contacter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	xcomp	_	_
+17	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+18	assurance	assurance	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obj	_	_
+19	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#La voiture a était expertise les réparations faite.
+1	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	voiture	voiturer	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+4	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	expertise	expertiser	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+6	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+7	réparations	réparation	NOUN	_	NOUN__Gender=Fem|Number=Plur	8	obj	_	_
+8	faite	fait	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
+9	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Il y en avait pour 2569 nous avions une franchise de 500 la pas de soucis.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	y	yu	PRON	_	PRON__Person=3	1	expl	_	_
+3	en	en	PRON	_	PRON__Person=3	3	expl	_	_
+4	avait	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+5	pour	pour	ADP	_	ADP___	3	case	_	_
+6	2569	2569	NUM	_	NUM__NumType=Card	8	nummod	_	_
+7	nous	se	PRON	_	PRON__Number=Plur|Person=1	8	nsubj	_	_
+8	avions	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	8	ccomp	_	_
+9	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	franchise	franchise	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+11	de	de	ADP	_	ADP___	12	case	_	_
+12	500	500	NUM	_	NUM__NumType=Card	8	nummod	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	pas	pas	ADV	_	ADV__Polarity=Neg	8	nmod	_	_
+15	de	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	14	case	_	_
+16	soucis	souci	NOUN	_	NOUN__Gender=Fem|Number=Plur	14	nmod	_	_
+17	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Mais l assurance nous rembourse que 1660 euros il nous manque la tva.
+1	Mais	Mais	CCONJ	_	CCONJ___	1	cc	_	_
+2	l	l	ADP	_	ADP___	1	nsubj	_	_
+3	assurance	assurance	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	nous	se	PRON	_	PRON__Number=Plur|Person=1	5	iobj	_	_
+5	rembourse	rembourser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	xcomp	_	_
+6	que	que	SCONJ	_	SCONJ___	8	mark	_	_
+7	1660	1660	NUM	_	NUM__NumType=Card	8	nummod	_	_
+8	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	nsubj	_	_
+9	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
+10	nous	se	PRON	_	PRON__Number=Plur|Person=1	8	iobj	_	_
+11	manque	manquer	VERB	_	VERB__VerbForm=Inf	12	ccomp	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+13	tva	tva	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obj	_	_
+14	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#L assurance nous a dis que la tva étais à notre charge.
+1	L	L	NOUN	_	NOUN___	1	nsubj	_	_
+2	assurance	assurance	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	amod	_	_
+3	nous	se	PRON	_	PRON__Number=Plur|Person=1	3	nsubj	_	_
+4	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	dis	dire	ADV	_	ADV___	0	ROOT	_	_
+6	que	que	SCONJ	_	SCONJ___	8	mark	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	tva	tva	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nsubj	_	_
+9	étais	être	ADJ	_	ADJ___	10	ccomp	_	_
+10	à	à	ADP	_	ADP___	8	case	_	_
+11	notre	notre	DET	_	DET__Number=Sing|Poss=Yes	12	nmod:poss	_	_
+12	charge	charger	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+13	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Est ce que c est légale ?
+1	Est	Est	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	1	cop	_	_
+2	ce	ce	PRON	_	PRON__PronType=Rel	0	ROOT	_	_
+3	que	que	PRON	_	PRON__PronType=Rel	3	mark	_	_
+4	c	c	PRON	_	PRON__Person=3	5	nsubj	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+6	légale	légal	ADJ	_	ADJ__Gender=Fem|Number=Sing	8	acl:relcl	_	_
+7	?	?	PUNCT	_	PUNCT___	8	punct	_	_
+
+
