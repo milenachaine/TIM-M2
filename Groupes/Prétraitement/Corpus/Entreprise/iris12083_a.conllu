@@ -1,0 +1,111 @@
+#Bonjour,Non.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Non	Non	ADV	_	ADV___	1	nmod	_	_
+4	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Technique d'arnaque d'une banalité écoeurante.
+1	Technique	Technique	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+2	d'	de	ADP	_	ADP___	1	case	_	_
+3	arnaque	arnaquer	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+4	d'	de	ADP	_	ADP___	1	case	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+6	banalité	banalité	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+7	écoeurante	écoeurant	ADJ	_	ADJ__Gender=Fem|Number=Sing	5	amod	_	_
+8	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Souvent il vaut mieux ne pas payer et attendre ;
+1	Souvent	Souvent	ADV	_	ADV___	1	advmod	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+3	vaut	valoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	mieux	mieux	ADV	_	ADV___	1	advmod	_	_
+5	ne	ne	ADV	_	ADV___	5	advmod	_	_
+6	pas	pas	ADV	_	ADV___	7	fixed	_	_
+7	payer	payer	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+8	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+9	attendre	attendre	VERB	_	VERB__VerbForm=Inf	10	conj	_	_
+10	;	;	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#mais on a davantage de risque d'être attaqués qu'avec les faux annuaires.
+1	mais	mai	CCONJ	_	CCONJ___	1	cc	_	_
+2	on	on	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+3	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	davantage	davantage	ADV	_	ADV___	1	det	_	_
+5	de	de	ADP	_	ADP___	5	fixed	_	_
+6	risque	risquer	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+7	d'	de	ADP	_	ADP___	5	mark	_	_
+8	être	être	AUX	_	AUX__VerbForm=Inf	10	aux:pass	_	_
+9	attaqués	attaquer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	10	acl	_	_
+10	qu'	que	SCONJ	_	SCONJ___	5	advmod	_	_
+11	avec	avec	ADP	_	ADP___	10	case	_	_
+12	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+13	faux	faillir	ADJ	_	ADJ__Gender=Masc	15	amod	_	_
+14	annuaires	annuaire	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	obj	_	_
+15	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Cette boîte de com' est localisée où ?
+1	Cette	Cette	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	1	det	_	_
+2	boîte	boîte	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj:pass	_	_
+3	de	de	ADP	_	ADP___	1	case	_	_
+4	com	com	SCONJ	_	SCONJ___	1	nmod	_	_
+5	'	'	PUNCT	_	PUNCT___	5	punct	_	_
+6	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	localisée	localiser	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+8	où	où	PRON	_	PRON__PronType=Rel	10	obl	_	_
+9	?	?	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Vous êtes assigné ?
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	3	nsubj:pass	_	_
+2	êtes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	assigné	assigner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+4	?	?	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Le Var, cette zone de non
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Var	Var	PROPN	_	PROPN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+4	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	zone	zone	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	conj	_	_
+6	de	de	ADP	_	ADP___	7	case	_	_
+7	non	non	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+
+
+#-droit.
+1	-	-	PUNCT	_	PUNCT___	2	punct	_	_
+2	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Il est un peu tard pour poser votre question initiale.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+3	un	un	DET	_	DET__Gender=Masc|Number=Sing	5	det	_	_
+4	peu	peu	ADV	_	ADV___	0	ROOT	_	_
+5	tard	tard	ADV	_	ADV___	2	fixed	_	_
+6	pour	pour	ADP	_	ADP___	7	mark	_	_
+7	poser	poser	VERB	_	VERB__VerbForm=Inf	5	advcl	_	_
+8	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	9	nmod:poss	_	_
+9	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obj	_	_
+10	initiale	initial	ADJ	_	ADJ__Gender=Fem|Number=Sing	9	amod	_	_
+11	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Il est désormais temps d'aller voir un confrère...
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+3	désormais	désormais	ADV	_	ADV___	5	advmod	_	_
+4	temps	temps	NOUN	_	NOUN__Gender=Masc	0	ROOT	_	_
+5	d'	de	ADP	_	ADP___	2	mark	_	_
+6	aller	aller	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+7	voir	voir	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+8	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	confrère	confrère	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+10	...	...	PUNCT	_	PUNCT___	9	punct	_	_
+
+

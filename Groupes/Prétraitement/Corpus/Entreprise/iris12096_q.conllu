@@ -1,0 +1,443 @@
+#Bonjour,Je vous écris pour un de mes clients :
+1	Bonjour	Bonjour	PROPN	_	PROPN___	5	acl	_	_
+2	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+3	Je	Je	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+4	vous	se	PRON	_	PRON__Number=Plur|Person=2	5	iobj	_	_
+5	écris	écrire	VERB	_	VERB__Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+6	pour	pour	ADP	_	ADP___	7	case	_	_
+7	un	un	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	5	obl	_	_
+8	de	de	ADP	_	ADP___	10	case	_	_
+9	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	10	nmod:poss	_	_
+10	clients	client	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	nmod	_	_
+11	:	:	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Depuis juillet 2016, ce client a des problèmes de communication avec le cabinet qui gère sa comptabilité.
+1	Depuis	Depuis	ADP	_	ADP___	5	case	_	_
+2	juillet	juillet	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+3	2016	2016	NUM	_	NUM__NumType=Card	5	nummod	_	_
+4	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+5	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+6	client	client	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nsubj	_	_
+7	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
+9	problèmes	problème	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	obj	_	_
+10	de	de	ADP	_	ADP___	7	case	_	_
+11	communication	communication	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+12	avec	avec	ADP	_	ADP___	13	case	_	_
+13	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+14	cabinet	cabinet	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+15	qui	qui	PRON	_	PRON__PronType=Rel	18	nsubj	_	_
+16	gère	gérer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+17	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	18	nmod:poss	_	_
+18	comptabilité	comptabilité	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	obj	_	_
+19	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#La société est suivie comptablement par une de ses assistantes.
+1	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+2	société	société	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+4	suivie	suivre	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	comptablement	comptablement	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advmod	_	_
+6	par	par	ADP	_	ADP___	7	case	_	_
+7	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+8	de	de	ADP	_	ADP___	10	case	_	_
+9	ses	son	DET	_	DET__Number=Plur|Poss=Yes	10	nmod:poss	_	_
+10	assistantes	assistant	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	obl	_	_
+11	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Au début de la collaboration, son assistante se déplaçait au bureau pour la saisie des éléments comptables.
+1	Au	Au	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+2	début	début	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+3	de	de	ADP	_	ADP___	5	case	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	collaboration	collaboration	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+6	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+7	son	son	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+8	assistante	assistant	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nsubj	_	_
+9	se	se	PRON	_	PRON__Person=3|Reflex=Yes	10	expl	_	_
+10	déplaçait	déplacer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+11	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	5	amod	_	_
+12	bureau	bureau	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+13	pour	pour	ADP	_	ADP___	18	case	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+15	saisie	saisir	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	obl	_	_
+16	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	17	det	_	_
+17	éléments	élément	NOUN	_	NOUN__Gender=Masc|Number=Plur	18	nmod	_	_
+18	comptables	comptable	ADJ	_	ADJ__Gender=Fem|Number=Plur	18	amod	_	_
+19	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Puis le mode de collaboration a changé et il fallait envoyer les éléments par mail.
+1	Puis	Puis	CCONJ	_	CCONJ___	5	cc	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+3	mode	mode	NOUN	_	NOUN__Number=Sing	5	nsubj	_	_
+4	de	de	ADP	_	ADP___	5	case	_	_
+5	collaboration	collaboration	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+6	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	changé	changer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+8	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+9	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
+10	fallait	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	conj	_	_
+11	envoyer	envoyer	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+12	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	13	det	_	_
+13	éléments	élément	NOUN	_	NOUN__Gender=Masc|Number=Plur	18	obj	_	_
+14	par	par	ADP	_	ADP___	13	case	_	_
+15	mail	mail	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nmod	_	_
+16	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Du coup, le chef d'entreprise m'a confiée la mission pour faire la liaison entre le cabinet comptable et la société.
+1	Du	Du	DET	_	DET__Gender=Masc|Number=Sing	5	det	_	_
+2	coup	coup	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+3	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	chef	chef	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+6	d'	de	ADP	_	ADP___	7	case	_	_
+7	entreprise	entreprendre	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+8	m'	se	PRON	_	PRON__Number=Sing|Person=1	10	iobj	_	_
+9	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	confiée	confier	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+12	mission	mission	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obj	_	_
+13	pour	pour	ADP	_	ADP___	18	mark	_	_
+14	faire	faire	VERB	_	VERB__VerbForm=Inf	13	advcl	_	_
+15	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+16	liaison	liaison	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	obj	_	_
+17	entre	entrer	ADP	_	ADP___	18	case	_	_
+18	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+19	cabinet	cabinet	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	nmod	_	_
+20	comptable	comptable	ADJ	_	ADJ__Number=Sing	18	amod	_	_
+21	et	et	CCONJ	_	CCONJ___	22	cc	_	_
+22	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+23	société	société	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	conj	_	_
+24	.	.	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#(je travaille avec depuis 10 ans)Lassistante comptable qui gérait le dossier au cabinet avait souvent des problèmes : perte de documents, perte de données sur ordinateur, panne dordinateur problème de boite mail (On a gardé de nombreux échanges par mail et courriers).Le client a repris contact avec l'expert comptable pour faire un point sur ces problèmes de communication.
+1	(	(	PUNCT	_	PUNCT___	5	punct	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+3	travaille	travailler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	avec	avec	ADP	_	ADP___	5	case	_	_
+5	depuis	depuis	ADP	_	ADP___	5	case	_	_
+6	10	10	NUM	_	NUM__NumType=Card	7	obl	_	_
+7	ans)Lassistante	ans)Lassistante	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	amod	_	_
+8	comptable	comptable	ADJ	_	ADJ__Number=Sing	10	obj	_	_
+9	qui	qui	PRON	_	PRON__PronType=Rel	10	nsubj	_	_
+10	gérait	gérer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	acl:relcl	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+12	dossier	dossier	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+13	au	au	PRON	_	PRON__PronType=Rel	18	case	_	_
+14	cabinet	cabinet	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+15	avait	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	conj	_	_
+16	souvent	souvent	ADV	_	ADV___	17	advmod	_	_
+17	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	18	det	_	_
+18	problèmes	problème	NOUN	_	NOUN__Gender=Masc|Number=Plur	18	obj	_	_
+19	:	:	PUNCT	_	PUNCT___	20	punct	_	_
+20	perte	perte	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	appos	_	_
+21	de	de	ADP	_	ADP___	22	case	_	_
+22	documents	document	NOUN	_	NOUN__Gender=Masc|Number=Plur	20	nmod	_	_
+23	,	,	PUNCT	_	PUNCT___	25	punct	_	_
+24	perte	perte	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	conj	_	_
+25	de	de	ADP	_	ADP___	20	case	_	_
+26	données	donner	NOUN	_	NOUN__Gender=Fem|Number=Plur	27	nmod	_	_
+27	sur	sur	ADP	_	ADP___	25	case	_	_
+28	ordinateur	ordinateur	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	nmod	_	_
+29	,	,	PUNCT	_	PUNCT___	27	punct	_	_
+30	panne	panne	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	amod	_	_
+31	dordinateur	dordinateur	NOUN	_	NOUN__Gender=Masc|Number=Sing	32	conj	_	_
+32	 	 	SPACE	_	_SP	34		_	_
+33	problème	problème	NOUN	_	NOUN__Gender=Masc|Number=Sing	34	amod	_	_
+34	de	de	ADP	_	ADP___	34	case	_	_
+35	boite	boiter	NOUN	_	NOUN__Gender=Fem|Number=Sing	34	nummod	_	_
+36	mail	mail	ADJ	_	ADJ__Gender=Masc|Number=Sing	40	nmod	_	_
+37	 	 	SPACE	_	_SP	40		_	_
+38	(	(	PUNCT	_	PUNCT___	40	punct	_	_
+39	On	On	PRON	_	PRON__Number=Sing|Person=3	40	nsubj	_	_
+40	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
+41	gardé	garder	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	34	parataxis	_	_
+42	de	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	43	det	_	_
+43	nombreux	nombreux	ADJ	_	ADJ__Gender=Masc	51	amod	_	_
+44	échanges	échanger	NOUN	_	NOUN__Gender=Masc|Number=Plur	46	obj	_	_
+45	par	par	ADP	_	ADP___	46	case	_	_
+46	mail	mail	NOUN	_	NOUN__Gender=Masc|Number=Sing	43	obl	_	_
+47	et	et	CCONJ	_	CCONJ___	51	cc	_	_
+48	courriers).Le	courriers).Le	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	49	conj	_	_
+49	client	client	ADV	_	ADV___	51	advmod	_	_
+50	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	51	aux	_	_
+51	repris	reprendre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	51	xcomp	_	_
+52	contact	contact	NOUN	_	NOUN__Gender=Masc|Number=Sing	53	advmod	_	_
+53	avec	avec	ADP	_	ADP___	51	case	_	_
+54	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	56	det	_	_
+55	expert	expert	NOUN	_	NOUN__Gender=Masc|Number=Sing	56	obl	_	_
+56	comptable	comptable	ADJ	_	ADJ__Number=Sing	51	amod	_	_
+57	pour	pour	ADP	_	ADP___	58	mark	_	_
+58	faire	faire	VERB	_	VERB__VerbForm=Inf	56	advcl	_	_
+59	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	58	det	_	_
+60	point	poindre	NOUN	_	NOUN__Gender=Masc|Number=Sing	51	obj	_	_
+61	sur	sur	ADP	_	ADP___	67	case	_	_
+62	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	63	det	_	_
+63	problèmes	problème	NOUN	_	NOUN__Gender=Masc|Number=Plur	67	nmod	_	_
+64	de	de	ADP	_	ADP___	65	case	_	_
+65	communication	communication	NOUN	_	NOUN__Gender=Fem|Number=Sing	63	nmod	_	_
+66	.	.	PUNCT	_	PUNCT___	67	punct	_	_
+
+
+#Il aurait trouvé judicieux de changer dinterlocuteur, mais l'expert comptable na pas répondu à notre demande.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+2	aurait	avoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	trouvé	trouver	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	judicieux	judicieux	ADJ	_	ADJ__Gender=Masc	5	obj	_	_
+5	de	de	ADP	_	ADP___	5	mark	_	_
+6	changer	changer	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+7	dinterlocuteur	dinterlocuteur	PROPN	_	PROPN__Gender=Masc|Number=Sing	5	obj	_	_
+8	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+9	mais	mai	CCONJ	_	CCONJ___	10	cc	_	_
+10	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	obj	_	_
+11	expert	expert	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	aux	_	_
+12	comptable	comptable	ADJ	_	ADJ__Number=Sing	13	conj	_	_
+13	na	na	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	advmod	_	_
+14	pas	pas	ADV	_	ADV__Polarity=Neg	13	advmod	_	_
+15	répondu	répondre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	xcomp	_	_
+16	à	à	ADP	_	ADP___	17	case	_	_
+17	notre	notre	DET	_	DET__Number=Sing|Poss=Yes	18	nmod:poss	_	_
+18	demande	demander	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	obl	_	_
+19	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Il y a eu des problèmes au niveau des dépôts de TVA, car nétant pas à jour des honoraires suite à ces différents problèmes avec son assistante, ce dernier a bloqué les envoies auprès du TRESOR PUBLIC.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+2	y	yu	PRON	_	PRON__Person=3	5	iobj	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
+6	problèmes	problème	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	obj	_	_
+7	au	au	PRON	_	PRON__PronType=Rel	5	case	_	_
+8	niveau	niveau	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	xcomp	_	_
+9	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
+10	dépôts	dépôt	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	obj	_	_
+11	de	de	ADP	_	ADP___	5	case	_	_
+12	TVA	TVA	PROPN	_	PROPN__Gender=Masc|Number=Sing	13	nmod	_	_
+13	,	,	PUNCT	_	PUNCT___	18	punct	_	_
+14	car	car	CCONJ	_	CCONJ___	13	cc	_	_
+15	nétant	nétant	VERB	_	VERB__Tense=Pres|VerbForm=Part	18	conj	_	_
+16	pas	pas	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+17	à	à	ADP	_	ADP___	18	case	_	_
+18	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obl	_	_
+19	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	20	det	_	_
+20	honoraires	honoraire	NOUN	_	NOUN__Gender=Fem|Number=Plur	18	obj	_	_
+21	suite	suite	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	case	_	_
+22	à	à	ADP	_	ADP___	20	fixed	_	_
+23	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	25	det	_	_
+24	différents	différent	ADJ	_	ADJ__Gender=Masc|Number=Plur	25	amod	_	_
+25	problèmes	problème	NOUN	_	NOUN__Gender=Masc|Number=Plur	20	obl	_	_
+26	avec	avec	ADP	_	ADP___	27	case	_	_
+27	son	son	DET	_	DET__Number=Sing|Poss=Yes	25	nmod:poss	_	_
+28	assistante	assistant	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	nmod	_	_
+29	,	,	PUNCT	_	PUNCT___	27	punct	_	_
+30	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
+31	dernier	dernier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	32	nsubj	_	_
+32	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
+33	bloqué	bloquer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	34	ccomp	_	_
+34	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	34	det	_	_
+35	envoies	envoyer	NOUN	_	NOUN__Gender=Fem|Number=Plur	34	obj	_	_
+36	auprès	auprès	ADP	_	ADP___	40	case	_	_
+37	du	du	DET	_	DET__Gender=Masc|Number=Sing	40	det	_	_
+38	TRESOR	TRESOR	NOUN	_	NOUN__Gender=Masc|Number=Sing	40	obl	_	_
+39	PUBLIC	PUBLIC	ADJ	_	ADJ__Gender=Masc|Number=Sing	40	amod	_	_
+40	.	.	PUNCT	_	PUNCT___	34	punct	_	_
+
+
+#Dautre part, les comptes de bilan ont été déposés en retard plusieurs fois, ce qui a infligé à la société des amendes qu'il a du payer.
+1	Dautre	Dautre	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	advmod	_	_
+2	part	partir	NOUN	_	NOUN__Number=Sing	5	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+4	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+5	comptes	compter	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	nsubj:pass	_	_
+6	de	de	ADP	_	ADP___	7	case	_	_
+7	bilan	bilan	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+8	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	10	aux:pass	_	_
+10	déposés	déposer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+11	en	en	ADP	_	ADP___	5	case	_	_
+12	retard	retard	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+13	plusieurs	plusieurs	DET	_	DET__Number=Plur	18	det	_	_
+14	fois	foi	NOUN	_	NOUN__Gender=Fem|Number=Plur	13	obl	_	_
+15	,	,	PUNCT	_	PUNCT___	18	punct	_	_
+16	ce	ce	PRON	_	PRON__PronType=Rel	17	iobj	_	_
+17	qui	qui	PRON	_	PRON__PronType=Rel	18	nsubj	_	_
+18	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+19	infligé	infliger	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	acl:relcl	_	_
+20	à	à	ADP	_	ADP___	18	case	_	_
+21	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	société	société	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obl	_	_
+23	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	25	det	_	_
+24	amendes	amender	NOUN	_	NOUN__Gender=Fem|Number=Plur	25	obj	_	_
+25	qu'	que	PRON	_	PRON__PronType=Rel	20	obj	_	_
+26	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	27	nsubj	_	_
+27	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+28	du	du	AUX	_	AUX__Tense=Past|VerbForm=Part	29	obj	_	_
+29	payer	payer	VERB	_	VERB__VerbForm=Inf	27	ccomp	_	_
+30	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Ensuite le comptable a confié lentier dossier à son avocat pour récupérer ses factures, et le chef d'entreprise sest donc défendu par lintermédiaire de son avocat.
+1	Ensuite	Ensuite	ADV	_	ADV___	5	advmod	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+3	comptable	comptable	ADJ	_	ADJ__Number=Sing	5	nsubj	_	_
+4	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	confié	confier	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+6	lentier	lentier	VERB	_	VERB__VerbForm=Inf	7	det	_	_
+7	dossier	dossier	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+8	à	à	ADP	_	ADP___	10	case	_	_
+9	son	son	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+10	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+11	pour	pour	ADP	_	ADP___	5	mark	_	_
+12	récupérer	récupérer	VERB	_	VERB__VerbForm=Inf	13	advcl	_	_
+13	ses	son	DET	_	DET__Number=Plur|Poss=Yes	18	nmod:poss	_	_
+14	factures	facturer	NOUN	_	NOUN__Gender=Fem|Number=Plur	13	obj	_	_
+15	,	,	PUNCT	_	PUNCT___	18	punct	_	_
+16	et	et	CCONJ	_	CCONJ___	17	cc	_	_
+17	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	chef	chef	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	conj	_	_
+19	d'	de	ADP	_	ADP___	20	case	_	_
+20	entreprise	entreprendre	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	nmod	_	_
+21	sest	sest	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	donc	donc	ADV	_	ADV___	20	advmod	_	_
+23	défendu	défendre	ADV	_	ADV___	25	acl	_	_
+24	par	par	ADP	_	ADP___	25	case	_	_
+25	lintermédiaire	lintermédiaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obl	_	_
+26	de	de	ADP	_	ADP___	27	case	_	_
+27	son	son	DET	_	DET__Number=Sing|Poss=Yes	25	nmod:poss	_	_
+28	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	nmod	_	_
+29	.	.	PUNCT	_	PUNCT___	27	punct	_	_
+
+
+#Il en résulte que le chef d'entreprise a été condamné à payer environ 3000  + déclenchement de larticle 700, mais le comptable a été débouté pour le fait davoir surfacturées ses prestations.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+2	en	en	PRON	_	PRON__Person=3	5	iobj	_	_
+3	résulte	résulter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	que	que	SCONJ	_	SCONJ___	5	mark	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+6	chef	chef	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+7	d'	de	ADP	_	ADP___	5	case	_	_
+8	entreprise	entreprendre	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+9	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	7	aux:pass	_	_
+11	condamné	condamner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	ccomp	_	_
+12	à	à	ADP	_	ADP___	13	mark	_	_
+13	payer	payer	VERB	_	VERB__VerbForm=Inf	18	xcomp	_	_
+14	environ	environ	ADV	_	ADV___	13	advmod	_	_
+15	3000	3000	NUM	_	NUM__NumType=Card	18	nummod	_	_
+16			ADJ	_	ADJ__Gender=Masc|Number=Plur|NumType=Ord	17	obj	_	_
+17	+	+	ADP	_	ADP___	18	case	_	_
+18	déclenchement	déclenchement	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nmod	_	_
+19	de	de	ADP	_	ADP___	20	case	_	_
+20	larticle	larticle	ADV	_	ADV___	18	nmod	_	_
+21	700	700	NUM	_	NUM__NumType=Card	22	nummod	_	_
+22	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+23	mais	mai	CCONJ	_	CCONJ___	25	cc	_	_
+24	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	comptable	comptable	ADJ	_	ADJ__Number=Sing	20	nsubj:pass	_	_
+26	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	25	aux:pass	_	_
+28	débouté	débouter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	29	conj	_	_
+29	pour	pour	ADP	_	ADP___	27	case	_	_
+30	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+31	fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	32	obl	_	_
+32	davoir	davoir	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	34	amod	_	_
+33	surfacturées	surfacturé	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	34	obj	_	_
+34	ses	son	DET	_	DET__Number=Plur|Poss=Yes	34	nmod:poss	_	_
+35	prestations	prestation	NOUN	_	NOUN__Gender=Fem|Number=Plur	34	obj	_	_
+36	.	.	PUNCT	_	PUNCT___	40	punct	_	_
+
+
+#A présent, aucun comptable ne veut reprendre le dossier et le chef d'entreprise se heurte à des refus.
+1	A	A	NOUN	_	NOUN___	5	nsubj	_	_
+2	présent	présent	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+4	aucun	aucun	DET	_	DET__Gender=Masc|Number=Sing	5	det	_	_
+5	comptable	comptable	ADJ	_	ADJ__Number=Sing	5	nsubj	_	_
+6	ne	ne	ADV	_	ADV___	7	advmod	_	_
+7	veut	vouloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+8	reprendre	reprendre	VERB	_	VERB__VerbForm=Inf	10	xcomp	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	dossier	dossier	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+11	et	et	CCONJ	_	CCONJ___	5	cc	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	chef	chef	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nsubj	_	_
+14	d'	de	ADP	_	ADP___	13	case	_	_
+15	entreprise	entreprendre	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	nmod	_	_
+16	se	se	PRON	_	PRON__Person=3|Reflex=Yes	17	expl	_	_
+17	heurte	heurter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	_
+18	à	à	ADP	_	ADP___	18	case	_	_
+19	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	20	det	_	_
+20	refus	refus	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obl	_	_
+21	.	.	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#4 comptables contactés, 4 refus.
+1	4	4	NUM	_	NUM__NumType=Card	5	nummod	_	_
+2	comptables	comptable	ADJ	_	ADJ__Gender=Fem|Number=Plur	0	ROOT	_	_
+3	contactés	contacter	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	acl	_	_
+4	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+5	4	4	NUM	_	NUM__NumType=Card	5	nummod	_	_
+6	refus	refus	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	conj	_	_
+7	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Le délai est dépassé et les comptes de 2017 non déposés.
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+2	délai	délai	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	dépassé	dépasser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+5	et	et	CCONJ	_	CCONJ___	5	cc	_	_
+6	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+7	comptes	compter	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	conj	_	_
+8	de	de	ADP	_	ADP___	10	case	_	_
+9	2017	2017	NUM	_	NUM__NumType=Card	10	nmod	_	_
+10	non	non	ADV	_	ADV___	7	advmod	_	_
+11	déposés	déposer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	acl	_	_
+12	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Il risque d'avoir des problèmes.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+2	risque	risquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	d'	de	ADP	_	ADP___	5	mark	_	_
+4	avoir	avoir	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+5	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
+6	problèmes	problème	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	obj	_	_
+7	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Que doit-il faire ?
+1	Que	Que	PRON	_	PRON__PronType=Int	5	obj	_	_
+2	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	-	-	PUNCT	_	PUNCT___	5	punct	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+5	faire	faire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+6	?	?	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Demander un arbitrage auprès de l'ordre ?
+1	Demander	Demander	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+2	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+3	arbitrage	arbitrage	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+4	auprès	auprès	ADP	_	ADP___	5	case	_	_
+5	de	de	ADP	_	ADP___	5	fixed	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	ordre	ordre	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+8	?	?	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Merci de votre réponse,
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	de	de	ADP	_	ADP___	5	case	_	_
+3	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+4	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+5	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+
+
