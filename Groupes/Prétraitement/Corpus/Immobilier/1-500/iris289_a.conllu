@@ -1,0 +1,554 @@
+#Bonjour,1/ Pour moi il y a une petite erreur, car 1/3+1/3=2/3 et non 1.
+1	Bonjour,1/	Bonjour,1/	PROPN	_	PROPN___	0	ROOT	_	_
+2	Pour	Pour	ADP	_	ADP___	3	case	_	_
+3	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	1	nmod	_	_
+4	il	il	PRON	_	PRON__Number=Sing|Person=3	3	amod	_	_
+5	y	yu	PRON	_	PRON__Person=3	4	fixed	_	_
+6	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	fixed	_	_
+7	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	petite	petit	ADJ	_	ADJ__Gender=Fem|Number=Sing	9	amod	_	_
+9	erreur	erreur	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obj	_	_
+10	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+11	car	car	CCONJ	_	CCONJ___	12	cc	_	_
+12	1/3	1/3	NOUN	_	NOUN__NumType=Card	1	conj	_	_
+13	+	+	ADP	_	ADP___	14	case	_	_
+14	1/3=2/3	1/3=2/3	NOUN	_	NOUN__NumType=Card	12	nmod	_	_
+15	et	et	CCONJ	_	CCONJ___	16	cc	_	_
+16	non	non	ADV	_	ADV___	14	conj	_	_
+17	1	1	NUM	_	NUM__NumType=Card	12	nummod	_	_
+18	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Ce doit être 1/3 pour les 2 maisons individuelles et 2/3 pour la copropriété!2/ 7 propriétaires riverains sur les 3 parcelles?
+1	Ce	Ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+2	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	être	être	AUX	_	AUX__VerbForm=Inf	1	cop	_	_
+4	1/3	1/3	NOUN	_	NOUN__NumType=Card	3	nummod	_	_
+5	pour	pour	ADP	_	ADP___	4	case	_	_
+6	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+7	2	2	NUM	_	NUM__NumType=Card	9	nummod	_	_
+8	maisons	maison	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	nmod	_	_
+9	individuelles	individuel	ADJ	_	ADJ__Gender=Fem|Number=Plur	4	amod	_	_
+10	et	et	CCONJ	_	CCONJ___	1	cc	_	_
+11	2/3	2/3	PRON	_	PRON__NumType=Card|PronType=Rel	12	conj	_	_
+12	pour	pour	ADP	_	ADP___	1	case	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	copropriété!2/	copropriété!2/	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obl	_	_
+15	7	7	NUM	_	NUM__NumType=Card	16	nummod	_	_
+16	propriétaires	propriétaire	NOUN	_	NOUN__Number=Plur	14	obj	_	_
+17	riverains	riverain	ADJ	_	ADJ__Gender=Masc|Number=Plur	12	amod	_	_
+18	sur	sur	ADP	_	ADP___	1	case	_	_
+19	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	20	det	_	_
+20	3	3	NUM	_	NUM__NumType=Card	20	nummod	_	_
+21	parcelles	parcelle	NOUN	_	NOUN__Gender=Fem|Number=Plur	22	nmod	_	_
+22	?	?	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#2 pour les 2 maisons individuelles et 5 pour le copropriété?
+1	2	2	NUM	_	NUM__NumType=Card	0	ROOT	_	_
+2	pour	pour	ADP	_	ADP___	3	case	_	_
+3	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+4	2	2	NUM	_	NUM__NumType=Card	3	nummod	_	_
+5	maisons	maison	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	obl	_	_
+6	individuelles	individuel	ADJ	_	ADJ__Gender=Fem|Number=Plur	4	amod	_	_
+7	et	et	CCONJ	_	CCONJ___	9	cc	_	_
+8	5	5	NUM	_	NUM__NumType=Card	9	conj	_	_
+9	pour	pour	ADP	_	ADP___	4	case	_	_
+10	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+11	copropriété	copropriété	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nmod	_	_
+12	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Normalement la répartition
+1	Normalement	Normalement	ADV	_	ADV___	0	ROOT	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	répartition	répartition	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+
+
+#des frais d'entretien se fait par parcelles et pas par nombre d'occupants.3/
+1	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	1	det	_	_
+2	frais	frai	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	nsubj	_	_
+3	d'	de	ADP	_	ADP___	1	case	_	_
+4	entretien	entretien	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nmod	_	_
+5	se	se	PRON	_	PRON__Person=3|Reflex=Yes	4	expl	_	_
+6	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	par	par	ADP	_	ADP___	9	case	_	_
+8	parcelles	parcelle	NOUN	_	NOUN__Gender=Fem|Number=Plur	9	obl	_	_
+9	et	et	CCONJ	_	CCONJ___	4	cc	_	_
+10	pas	pas	ADV	_	ADV___	1	advmod	_	_
+11	par	par	ADP	_	ADP___	12	case	_	_
+12	nombre	nombre	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	conj	_	_
+13	d'	de	ADP	_	ADP___	14	case	_	_
+14	occupants.3/	occupants.3/	PRON	_	PRON__PronType=Rel	12	nmod	_	_
+
+
+#De plus, en principe cela se fait par "l'usage".
+1	De	De	ADP	_	ADP___	1	advmod	_	_
+2	plus	plaire	ADV	_	ADV___	3	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	en	en	ADP	_	ADP___	3	mark	_	_
+5	principe	principe	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	fixed	_	_
+6	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	4	nsubj	_	_
+7	se	se	PRON	_	PRON__Person=3|Reflex=Yes	9	expl	_	_
+8	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+9	par	par	ADP	_	ADP___	4	case	_	_
+10	"	"	PUNCT	_	PUNCT___	1	punct	_	_
+11	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	usage	usage	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+13	"	"	PUNCT	_	PUNCT___	14	punct	_	_
+14	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Les parcelles situées à l'entrée de l'impasse paye moins que la (les) parcelles en fond de l'impasse!Il serait utile de retrouver tous les actes de chaque parcelle et de voir avec un notaire les incohérences.
+1	Les	Les	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+2	parcelles	parcelle	NOUN	_	NOUN__Gender=Fem|Number=Plur	3	nsubj	_	_
+3	situées	situer	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	1	acl	_	_
+4	à	à	ADP	_	ADP___	3	case	_	_
+5	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+6	entrée	entrer	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obl	_	_
+7	de	de	ADP	_	ADP___	9	case	_	_
+8	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	impasse	impasse	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+10	paye	payer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+11	moins	moins	ADV	_	ADV___	0	ROOT	_	_
+12	que	que	SCONJ	_	SCONJ___	1	mark	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	(	(	PUNCT	_	PUNCT___	12	punct	_	_
+15	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	16	det	_	_
+16	)	)	PUNCT	_	PUNCT___	14	nsubj	_	_
+17	parcelles	parcelle	NOUN	_	NOUN__Gender=Fem|Number=Plur	12	amod	_	_
+18	en	en	ADP	_	ADP___	1	case	_	_
+19	fond	fondre	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obl	_	_
+20	de	de	ADP	_	ADP___	20	case	_	_
+21	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+22	impasse!Il	impasse!Il	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	nmod	_	_
+23	serait	être	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+24	utile	utile	ADJ	_	ADJ__Number=Sing	26	ccomp	_	_
+25	de	de	ADP	_	ADP___	26	mark	_	_
+26	retrouver	retrouver	VERB	_	VERB__VerbForm=Inf	22	xcomp	_	_
+27	tous	tout	ADJ	_	ADJ__Gender=Masc|Number=Plur	26	amod	_	_
+28	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	29	det	_	_
+29	actes	acte	NOUN	_	NOUN__Gender=Masc|Number=Plur	27	obj	_	_
+30	de	de	ADP	_	ADP___	32	case	_	_
+31	chaque	chaque	DET	_	DET__Number=Sing	32	det	_	_
+32	parcelle	parcelle	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	nmod	_	_
+33	et	et	CCONJ	_	CCONJ___	34	cc	_	_
+34	de	de	ADP	_	ADP___	32	mark	_	_
+35	voir	voir	VERB	_	VERB__VerbForm=Inf	34	conj	_	_
+36	avec	avec	ADP	_	ADP___	39	case	_	_
+37	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+38	notaire	notaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	39	obl	_	_
+39	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	32	det	_	_
+40	incohérences	incohérence	NOUN	_	NOUN__Gender=Fem|Number=Plur	20	amod	_	_
+41	.	.	PUNCT	_	PUNCT___	41	punct	_	_
+
+
+#Cordialement
+1	Cordialement	Cordialement	ADV	_	ADV___	0	ROOT	_	_
+
+
+#Bonsoir
+1	Bonsoir	Bonsoir	PROPN	_	PROPN___	0	ROOT	_	_
+
+
+#,Votre acte est donc sous seing privé.
+1	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+2	Votre	Votre	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+3	acte	acte	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	punct	_	_
+5	donc	donc	ADV	_	ADV___	4	advmod	_	_
+6	sous	sou	ADP	_	ADP___	4	case	_	_
+7	seing	seing	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+8	privé	priver	ADJ	_	ADJ__Gender=Masc|Number=Sing	4	amod	_	_
+9	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Il est tout à fait valable mais n'a pas la porté ou la force d'un acte authentique.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	tout	tout	ADV	_	ADV___	4	advmod	_	_
+4	à	à	ADP	_	ADP___	4	fixed	_	_
+5	fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	fixed	_	_
+6	valable	valable	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+7	mais	mai	CCONJ	_	CCONJ___	8	cc	_	_
+8	n'	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+9	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+10	pas	pas	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+11	la	le	DET	_	DET__Gender=Fem|Number=Sing	16	det	_	_
+12	porté	porter	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	conj	_	_
+13	ou	ou	CCONJ	_	CCONJ___	16	cc	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+15	force	forcer	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	conj	_	_
+16	d'	de	ADP	_	ADP___	16	case	_	_
+17	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+18	acte	acte	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	nmod	_	_
+19	authentique	authentiquer	ADJ	_	ADJ__Number=Sing	22	amod	_	_
+20	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Afin d'être opposable il doit être fait en autant d'exemplaires que de personnes concernées;
+1	Afin	Afin	ADP	_	ADP___	1	mark	_	_
+2	d'	de	ADP	_	ADP___	4	fixed	_	_
+3	être	être	AUX	_	AUX__VerbForm=Inf	4	cop	_	_
+4	opposable	opposable	ADJ	_	ADJ__Number=Sing	4	advcl	_	_
+5	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+6	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	être	être	AUX	_	AUX__VerbForm=Inf	8	aux:pass	_	_
+8	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	xcomp	_	_
+9	en	en	ADP	_	ADP___	8	mark	_	_
+10	autant	autant	ADV	_	ADV___	4	fixed	_	_
+11	d'	de	ADP	_	ADP___	16	fixed	_	_
+12	exemplaires	exemplaire	ADJ	_	ADJ__Number=Plur	16	obl	_	_
+13	que	que	SCONJ	_	SCONJ___	16	mark	_	_
+14	de	de	ADP	_	ADP___	13	case	_	_
+15	personnes	personne	NOUN	_	NOUN__Gender=Fem|Number=Plur	13	dep	_	_
+16	concernées	concerner	ADJ	_	ADJ__Gender=Fem|Number=Plur	16	acl	_	_
+17	;	;	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#paraphés, datés et signés par tous.
+1	paraphés	parapher	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	datés	dater	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	conj	_	_
+4	et	et	CCONJ	_	CCONJ___	4	cc	_	_
+5	signés	signer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	conj	_	_
+6	par	par	ADP	_	ADP___	4	case	_	_
+7	tous	tout	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Rel	8	obl	_	_
+8	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Lors d'une vente, il doit être communiqué afin que l'acheteur s'engage à en prendre connaissance.
+1	Lors	Lors	ADV	_	ADV___	1	case	_	_
+2	d'	de	ADP	_	ADP___	4	fixed	_	_
+3	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	vente	venter	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obl	_	_
+5	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+6	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+7	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	être	être	AUX	_	AUX__VerbForm=Inf	4	aux:pass	_	_
+9	communiqué	communiquer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	xcomp	_	_
+10	afin	afin	ADP	_	ADP___	4	mark	_	_
+11	que	que	SCONJ	_	SCONJ___	16	fixed	_	_
+12	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+13	acheteur	acheteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	nsubj	_	_
+14	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	13	expl	_	_
+15	engage	engager	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+16	à	à	ADP	_	ADP___	16	mark	_	_
+17	en	en	PRON	_	PRON__Person=3	22	iobj	_	_
+18	prendre	prendre	VERB	_	VERB__VerbForm=Inf	19	xcomp	_	_
+19	connaissance	connaissance	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	obj	_	_
+20	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Pour autant, le mieux dans tous ça serait quand même de faire modifier l'EDD devant notaire, et fin de l'histoire.
+1	Pour	Pour	ADP	_	ADP___	1	advmod	_	_
+2	autant	autant	ADV	_	ADV___	4	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+5	mieux	mieux	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	advmod	_	_
+6	dans	dan	ADP	_	ADP___	4	case	_	_
+7	tous	tout	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Rel	8	amod	_	_
+8	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	_
+9	serait	être	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+10	quand	quand	ADV	_	ADV___	4	advmod	_	_
+11	même	même	ADV	_	ADV___	16	fixed	_	_
+12	de	de	ADP	_	ADP___	16	mark	_	_
+13	faire	faire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+14	modifier	modifier	VERB	_	VERB__VerbForm=Inf	13	xcomp	_	_
+15	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+16	EDD	EDD	PROPN	_	PROPN__Number=Sing	16	obj	_	_
+17	devant	devoir	ADP	_	ADP___	22	case	_	_
+18	notaire	notaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obl	_	_
+19	,	,	PUNCT	_	PUNCT___	22	punct	_	_
+20	et	et	CCONJ	_	CCONJ___	19	cc	_	_
+21	fin	fin	NOUN	_	NOUN__Number=Sing	22	conj	_	_
+22	de	de	ADP	_	ADP___	16	case	_	_
+23	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+24	histoire	histoire	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	nmod	_	_
+25	.	.	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#Cordialement,
+1	Cordialement	Cordialement	ADV	_	ADV___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#BonjourJe penche même pour son opposabilité aux tiers pour une publication au bureau d e publicité foncière en document lié au passage lui-même.
+1	BonjourJe	BonjourJe	ADJ	_	ADJ__Gender=Masc|Number=Sing	2	det	_	_
+2	penche	pencher	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	nsubj:pass	_	_
+3	même	même	ADV	_	ADV___	2	advmod	_	_
+4	pour	pour	ADP	_	ADP___	6	case	_	_
+5	son	son	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+6	opposabilité	opposabilité	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	nmod	_	_
+7	aux	aux	ADP	_	ADP___	6	amod	_	_
+8	tiers	tiers	ADJ	_	ADJ___	7	obj	_	_
+9	pour	pour	ADP	_	ADP___	11	case	_	_
+10	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	publication	publication	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	nmod	_	_
+12	au	au	PRON	_	PRON__PronType=Rel	13	case	_	_
+13	bureau	bureau	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+14	d	d	NOUN	_	NOUN___	13	nmod	_	_
+15	e	7e	ADP	_	ADP___	20	aux	_	_
+16	publicité	publicité	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obj	_	_
+17	foncière	foncier	ADJ	_	ADJ__Gender=Fem|Number=Sing	16	amod	_	_
+18	en	en	ADP	_	ADP___	19	case	_	_
+19	document	document	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obl	_	_
+20	lié	lier	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+21	au	au	PRON	_	PRON__PronType=Rel	22	case	_	_
+22	passage	passage	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obl	_	_
+23	lui-même	lui-même	PRON	_	PRON__PronType=Rel	22	nummod	_	_
+24	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Le cout est minime vis a vis de l'avantage et de la certitude de validité en tous cas, cas quid d'une vente dans cent ans avec un notaire qui aura perdu le fil de la nécessité de transmettre en année la copie de l'accord (ou qui même, sans oubli, n'a aucun moyen de connaitre son existence).
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cout	cout	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	nsubj:pass	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
+4	minime	minime	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+5	vis	voir	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	6	case	_	_
+6	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	fixed	_	_
+7	vis	voir	NOUN	_	NOUN__Gender=Fem	6	fixed	_	_
+8	de	de	ADP	_	ADP___	7	fixed	_	_
+9	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+10	avantage	avantager	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obl	_	_
+11	et	et	CCONJ	_	CCONJ___	2	cc	_	_
+12	de	de	ADP	_	ADP___	13	case	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+14	certitude	certitude	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	conj	_	_
+15	de	de	ADP	_	ADP___	20	case	_	_
+16	validité	validité	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	nmod	_	_
+17	en	en	ADP	_	ADP___	16	case	_	_
+18	tous	tout	ADJ	_	ADJ__Gender=Masc|Number=Plur	19	amod	_	_
+19	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Plur	17	obl	_	_
+20	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+21	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Plur	22	conj	_	_
+22	quid	quid	NOUN	_	NOUN__Gender=Fem|Number=Plur	20	obj	_	_
+23	d'	de	ADP	_	ADP___	22	case	_	_
+24	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+25	vente	venter	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	nmod	_	_
+26	dans	dan	ADP	_	ADP___	28	case	_	_
+27	cent	cent	NUM	_	NUM__NumType=Card	28	nummod	_	_
+28	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	28	nmod	_	_
+29	avec	avec	ADP	_	ADP___	34	case	_	_
+30	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+31	notaire	notaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	nmod	_	_
+32	qui	qui	PRON	_	PRON__PronType=Rel	31	nsubj	_	_
+33	aura	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	34	acl:relcl	_	_
+34	perdu	perdre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	advmod	_	_
+35	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+36	fil	fil	NOUN	_	NOUN__Gender=Masc|Number=Sing	38	obj	_	_
+37	de	de	ADP	_	ADP___	38	case	_	_
+38	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+39	nécessité	nécessiter	NOUN	_	NOUN__Gender=Fem|Number=Sing	40	nmod	_	_
+40	de	de	ADP	_	ADP___	38	mark	_	_
+41	transmettre	transmettre	VERB	_	VERB__VerbForm=Inf	43	acl	_	_
+42	en	en	ADP	_	ADP___	43	case	_	_
+43	année	année	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	obl	_	_
+44	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+45	copie	copier	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	obj	_	_
+46	de	de	ADP	_	ADP___	45	case	_	_
+47	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	49	det	_	_
+48	accord	accord	NOUN	_	NOUN__Gender=Masc|Number=Sing	49	nmod	_	_
+49	(	(	PUNCT	_	PUNCT___	46	punct	_	_
+50	ou	ou	CCONJ	_	CCONJ___	52	cc	_	_
+51	qui	qui	PRON	_	PRON__PronType=Rel	52	advmod	_	_
+52	même	même	ADV	_	ADV___	49	advmod	_	_
+53	,	,	PUNCT	_	PUNCT___	55	punct	_	_
+54	sans	sans	ADP	_	ADP___	55	case	_	_
+55	oubli	oubli	NOUN	_	NOUN__Gender=Masc|Number=Sing	49	conj	_	_
+56	,	,	PUNCT	_	PUNCT___	57	punct	_	_
+57	n'	ne	ADV	_	ADV___	55	advmod	_	_
+58	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	57	conj	_	_
+59	aucun	aucun	DET	_	DET__Gender=Masc|Number=Sing	60	det	_	_
+60	moyen	moyen	NOUN	_	NOUN__Gender=Masc|Number=Sing	57	obj	_	_
+61	de	de	ADP	_	ADP___	63	case	_	_
+62	connaitre	connaitre	VERB	_	VERB__VerbForm=Inf	63	amod	_	_
+63	son	son	DET	_	DET__Number=Sing|Poss=Yes	60	nmod:poss	_	_
+64	existence	existence	NOUN	_	NOUN__Gender=Fem|Number=Sing	65	nmod	_	_
+65	)	)	PUNCT	_	PUNCT___	63	punct	_	_
+66	.	.	PUNCT	_	PUNCT___	67	punct	_	_
+
+
+#En clair:
+1	En	En	ADP	_	ADP___	2	mark	_	_
+2	clair	clair	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	:	:	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#Publiez au bureau des hypothèques;
+1	Publiez	Publiez	ADJ	_	ADJ__Gender=Fem|Number=Sing|NumType=Ord	0	ROOT	_	_
+2	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	2	case	_	_
+3	bureau	bureau	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	nmod	_	_
+4	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
+5	hypothèques	hypothéquer	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	nmod	_	_
+6	;	;	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Demadez a votre notaire, ca tourne en général autour de 800 euros plus quelque chose;
+1	Demadez	Demadez	PROPN	_	PROPN__Gender=Masc|Number=Sing	2	nsubj	_	_
+2	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+4	notaire	notaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	obj	_	_
+5	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+6	ca	ca	CCONJ	_	CCONJ___	7	det	_	_
+7	tourne	tourner	ADJ	_	ADJ__Number=Sing	2	conj	_	_
+8	en	en	ADP	_	ADP___	9	case	_	_
+9	général	général	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+10	autour	autour	ADV	_	ADV___	13	case	_	_
+11	de	de	ADP	_	ADP___	10	fixed	_	_
+12	800	800	NUM	_	NUM__NumType=Card	13	nummod	_	_
+13	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	nmod	_	_
+14	plus	plaire	ADV	_	ADV___	15	advmod	_	_
+15	quelque	quelque	DET	_	DET__Number=Sing	7	advmod	_	_
+16	chose	chose	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	fixed	_	_
+17	;	;	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#Bonjour,Veuillez m'excuser...
+1	Bonjour	Bonjour	PROPN	_	PROPN___	5	mark	_	_
+2	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+3	Veuillez	Veuillez	AUX	_	AUX__Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	5	expl	_	_
+5	excuser	excuser	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+6	...	...	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#l'EDD est l'Etat Descriptif de Division.
+1	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+2	EDD	EDD	PROPN	_	PROPN__Number=Sing	5	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	Etat	Etat	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+6	Descriptif	Descriptif	PROPN	_	PROPN___	5	flat:name	_	_
+7	de	de	ADP	_	ADP___	8	case	_	_
+8	Division	Division	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+9	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#C'est habituellement le document qui prévoit la répartition tantièmes et incidemment, des charges ()L'ensemble coûte un peu comme vous l'exposait Ribould, mais partagé entre vous, la somme ne devrait être énorme et semble en valoir la chandelle .Cordialement,
+1	C'	C'	PRON	_	PRON__Number=Sing|Person=3	5	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	habituellement	habituellement	ADV	_	ADV___	5	advmod	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	document	document	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+6	qui	qui	PRON	_	PRON__PronType=Rel	5	nsubj	_	_
+7	prévoit	prévoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+9	répartition	répartition	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obj	_	_
+10	tantièmes	tantième	ADJ	_	ADJ__Number=Plur	11	amod	_	_
+11	et	et	CCONJ	_	CCONJ___	11	cc	_	_
+12	incidemment	incidemment	ADV	_	ADV___	11	conj	_	_
+13	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+14	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
+15	charges	charger	NOUN	_	NOUN__Gender=Fem|Number=Plur	11	obj	_	_
+16	(	(	PUNCT	_	PUNCT___	20	punct	_	_
+17	)	)	PUNCT	_	PUNCT___	20	punct	_	_
+18	L'	L'	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+19	ensemble	ensemble	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	nsubj	_	_
+20	coûte	coûter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+21	un	un	DET	_	DET__Gender=Masc|Number=Sing	22	advmod	_	_
+22	peu	peu	ADV	_	ADV___	20	fixed	_	_
+23	comme	comme	SCONJ	_	SCONJ___	24	mark	_	_
+24	vous	se	PRON	_	PRON__Number=Plur|Person=2	22	nsubj	_	_
+25	l'	le	PRON	_	PRON__Number=Sing|Person=3	24	obj	_	_
+26	exposait	exposer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	obj	_	_
+27	Ribould	Ribould	PROPN	_	PROPN___	25	obj	_	_
+28	,	,	PUNCT	_	PUNCT___	22	punct	_	_
+29	mais	mai	CCONJ	_	CCONJ___	30	cc	_	_
+30	partagé	partager	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	conj	_	_
+31	entre	entrer	ADP	_	ADP___	20	case	_	_
+32	vous	se	PRON	_	PRON__Number=Plur|Person=2|PronType=Prs	35	obl	_	_
+33	,	,	PUNCT	_	PUNCT___	34	punct	_	_
+34	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	somme	sommer	NOUN	_	NOUN__Gender=Fem|Number=Sing	35	nsubj	_	_
+36	ne	ne	ADV	_	ADV___	41	advmod	_	_
+37	devrait	devoir	VERB	_	VERB__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	ccomp	_	_
+38	être	être	AUX	_	AUX__VerbForm=Inf	41	cop	_	_
+39	énorme	énorme	ADJ	_	ADJ__Number=Sing	41	xcomp	_	_
+40	et	et	CCONJ	_	CCONJ___	41	cc	_	_
+41	semble	sembler	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	cop	_	_
+42	en	en	ADP	_	ADP___	41	mark	_	_
+43	valoir	valoir	VERB	_	VERB__VerbForm=Inf	41	conj	_	_
+44	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	chandelle	chandelle	NOUN	_	NOUN__Gender=Fem|Number=Sing	41	obj	_	_
+46	.Cordialement	.Cordialement	PUNCT	_	PUNCT___	47	nmod	_	_
+47	,	,	PUNCT	_	PUNCT___	52	punct	_	_
+
+
+#Bonjour,Je ma répète, pour l'entretient d'un passage en indivision
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Je	Je	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+4	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	5	nmod:poss	_	_
+5	répète	répéter	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+6	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+7	pour	pour	ADP	_	ADP___	9	case	_	_
+8	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	entretient	entretenir	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+10	d'	de	ADP	_	ADP___	12	case	_	_
+11	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	passage	passage	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nmod	_	_
+13	en	en	ADP	_	ADP___	14	case	_	_
+14	indivision	indivision	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+
+
+#, l'usage veut que la clé de répartition soit fonction du service rendu.
+1	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+2	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+3	usage	usage	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+4	veut	vouloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	que	que	SCONJ	_	SCONJ___	1	mark	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+7	clé	clé	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nsubj	_	_
+8	de	de	ADP	_	ADP___	9	case	_	_
+9	répartition	répartition	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+10	soit	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cc	_	_
+11	fonction	fonction	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	ccomp	_	_
+12	du	du	DET	_	DET__Gender=Masc|Number=Sing	9	det	_	_
+13	service	service	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obj	_	_
+14	rendu	rendre	ADJ	_	ADJ__Gender=Masc|Number=Sing	12	amod	_	_
+15	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Un usagé en fond de passage doit avoir une clé de répartition supérieur à un usagé en début de passage.
+1	Un	Un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	usagé	usagé	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	en	en	ADP	_	ADP___	5	case	_	_
+4	fond	fondre	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+5	de	de	ADP	_	ADP___	1	case	_	_
+6	passage	passage	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+7	doit	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	avoir	avoir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+9	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+10	clé	clé	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obj	_	_
+11	de	de	ADP	_	ADP___	12	case	_	_
+12	répartition	répartition	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nmod	_	_
+13	supérieur	supérieur	ADJ	_	ADJ__Gender=Masc|Number=Sing	14	amod	_	_
+14	à	à	ADP	_	ADP___	12	case	_	_
+15	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+16	usagé	usagé	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	nmod	_	_
+17	en	en	ADP	_	ADP___	18	case	_	_
+18	début	début	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nmod	_	_
+19	de	de	ADP	_	ADP___	25	case	_	_
+20	passage	passage	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	nmod	_	_
+21	.	.	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#Je vous invite à consulter votre notaire à ce sujet.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	1	iobj	_	_
+3	invite	inviter	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	à	à	ADP	_	ADP___	5	mark	_	_
+5	consulter	consulter	VERB	_	VERB__VerbForm=Inf	1	xcomp	_	_
+6	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+7	notaire	notaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obj	_	_
+8	à	à	ADP	_	ADP___	9	advmod	_	_
+9	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	1	fixed	_	_
+10	sujet	sujet	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	fixed	_	_
+11	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Cordialement
+1	Cordialement	Cordialement	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+
+

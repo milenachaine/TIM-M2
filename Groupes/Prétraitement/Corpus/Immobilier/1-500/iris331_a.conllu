@@ -1,0 +1,344 @@
+#Bonjour,L'agent immobilier est le vôtre ou celui du vendeur ?
+1	Bonjour	Bonjour	PROPN	_	PROPN___	12	case	_	_
+2	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+3	L'	L'	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	agent	agent	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nsubj	_	_
+5	immobilier	immobilier	ADJ	_	ADJ__Gender=Masc|Number=Sing	4	amod	_	_
+6	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	vôtre	vôtre	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	fixed	_	_
+9	ou	ou	CCONJ	_	CCONJ___	10	cc	_	_
+10	celui	celui	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Dem	8	conj	_	_
+11	du	du	DET	_	DET__Gender=Masc|Number=Sing	12	det	_	_
+12	vendeur	vendeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+13	?	?	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Bonjour,Et quid du (des ?
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Et	Et	CCONJ	_	CCONJ___	4	cc	_	_
+4	quid	quid	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	conj	_	_
+5	du	du	DET	_	DET__Gender=Masc|Number=Sing	4	amod	_	_
+6	(	(	PUNCT	_	PUNCT___	4	punct	_	_
+7	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	1	nmod	_	_
+8	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#) notaires ?
+1	)	)	PUNCT	_	PUNCT___	1	punct	_	_
+2	notaires	notaire	PRON	_	PRON__PronType=Rel	0	ROOT	_	_
+3	?	?	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Qu'est ce que vous voulez ?
+1	Qu'	Qu'	PRON	_	PRON__PronType=Int	0	ROOT	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	ce	ce	PRON	_	PRON__PronType=Rel	1	nsubj	_	_
+4	que	que	PRON	_	PRON__PronType=Rel	6	obj	_	_
+5	vous	se	PRON	_	PRON__Number=Plur|Person=2	6	nsubj	_	_
+6	voulez	vouloir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#?vous avez fait une offre pour un bien à un prix X dans une ville A avec un montant de charges CLe vendeur accepte le prix X, sauf que l'adresse est dans la ville B, et le montant des charges est bien plus élevé : D.les charges ne dépendant pas du vendeur.
+1	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+3	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	aux	_	_
+4	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	offre	offrir	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obj	_	_
+7	pour	pour	ADP	_	ADP___	1	case	_	_
+8	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+9	bien	bien	ADV	_	ADV___	11	nmod	_	_
+10	à	à	ADP	_	ADP___	11	case	_	_
+11	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+12	prix	prix	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+13	X	X	NOUN	_	NOUN___	11	amod	_	_
+14	dans	dan	ADP	_	ADP___	16	case	_	_
+15	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	ville	ville	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obl	_	_
+17	A	A	NOUN	_	NOUN___	19	nmod	_	_
+18	avec	avec	ADP	_	ADP___	19	case	_	_
+19	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+20	montant	monter	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	nmod	_	_
+21	de	de	ADP	_	ADP___	23	case	_	_
+22	charges	charger	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	nmod	_	_
+23	CLe	CLe	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	11	case	_	_
+24	vendeur	vendeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	nmod	_	_
+25	accepte	accepter	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	xcomp	_	_
+26	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	prix	prix	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	obj	_	_
+28	X	X	NOUN	_	NOUN___	29	amod	_	_
+29	,	,	PUNCT	_	PUNCT___	27	punct	_	_
+30	sauf	sauf	ADP	_	ADP___	31	mark	_	_
+31	que	que	SCONJ	_	SCONJ___	27	fixed	_	_
+32	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+33	adresse	adresser	NOUN	_	NOUN__Gender=Fem|Number=Sing	34	advcl	_	_
+34	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	cop	_	_
+35	dans	dan	ADP	_	ADP___	34	case	_	_
+36	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+37	ville	ville	NOUN	_	NOUN__Gender=Fem|Number=Sing	40	obl	_	_
+38	B	B	NOUN	_	NOUN___	37	nmod	_	_
+39	,	,	PUNCT	_	PUNCT___	40	punct	_	_
+40	et	et	CCONJ	_	CCONJ___	32	cc	_	_
+41	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+42	montant	monter	NOUN	_	NOUN__Gender=Masc|Number=Sing	44	conj	_	_
+43	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	44	det	_	_
+44	charges	charger	NOUN	_	NOUN__Gender=Fem|Number=Plur	32	nsubj	_	_
+45	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	cop	_	_
+46	bien	bien	ADV	_	ADV___	32	advmod	_	_
+47	plus	plaire	ADV	_	ADV___	49	advmod	_	_
+48	élevé	élever	ADJ	_	ADJ__Gender=Masc|Number=Sing	49	amod	_	_
+49	:	:	PUNCT	_	PUNCT___	32	punct	_	_
+50	D.les	D.les	NOUN	_	NOUN__Gender=Fem|Number=Plur	51	amod	_	_
+51	charges	charger	NOUN	_	NOUN__Gender=Fem|Number=Plur	55	appos	_	_
+52	ne	ne	ADV	_	ADV__Polarity=Neg	55	advmod	_	_
+53	dépendant	dépendre	VERB	_	VERB__Tense=Pres|VerbForm=Part	54	acl	_	_
+54	pas	pas	ADV	_	ADV__Polarity=Neg	55	advmod	_	_
+55	du	du	DET	_	DET__Gender=Masc|Number=Sing	49	det	_	_
+56	vendeur	vendeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	49	obj	_	_
+57	.	.	PUNCT	_	PUNCT___	58	punct	_	_
+
+
+#Vous n'y pourrez rien, ni le vendeur, ni l'agence.
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+3	y	yu	PRON	_	PRON__Person=3	1	iobj	_	_
+4	pourrez	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	6	obj	_	_
+6	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+7	ni	ni	CCONJ	_	CCONJ___	1	cc	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+9	vendeur	vendeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	conj	_	_
+10	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+11	ni	ni	CCONJ	_	CCONJ___	11	cc	_	_
+12	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	agence	agencer	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	conj	_	_
+14	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Si ce montant ne vous convient pas et que vous vous sentez trompé, vous pourrez vous rétracter de cette vente (au pire après avoir signé le compromis...
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	1	det	_	_
+3	montant	monter	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+4	ne	ne	ADV	_	ADV___	6	advmod	_	_
+5	vous	se	PRON	_	PRON__Number=Plur|Person=2	6	iobj	_	_
+6	convient	convier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+7	pas	pas	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+8	et	et	CCONJ	_	CCONJ___	11	cc	_	_
+9	que	que	SCONJ	_	SCONJ___	11	mark	_	_
+10	vous	se	PRON	_	PRON__Number=Plur|Person=2	11	nsubj	_	_
+11	vous	se	PRON	_	PRON__Number=Plur|Person=2	11	obj	_	_
+12	sentez	sentir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	13	conj	_	_
+13	trompé	tromper	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	obj	_	_
+14	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+15	vous	se	PRON	_	PRON__Number=Plur|Person=2	16	nsubj	_	_
+16	pourrez	pouvoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+17	vous	se	PRON	_	PRON__Number=Plur|Person=2	19	nsubj	_	_
+18	rétracter	rétracter	VERB	_	VERB__VerbForm=Inf	19	xcomp	_	_
+19	de	de	ADP	_	ADP___	13	case	_	_
+20	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	19	det	_	_
+21	vente	venter	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	obl	_	_
+22	(	(	PUNCT	_	PUNCT___	23	punct	_	_
+23	au	au	NOUN	_	NOUN___	11	nsubj	_	_
+24	pire	pire	ADJ	_	ADJ__Number=Sing	23	amod	_	_
+25	après	après	ADP	_	ADP___	27	mark	_	_
+26	avoir	avoir	AUX	_	AUX__VerbForm=Inf	27	aux	_	_
+27	signé	signer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	xcomp	_	_
+28	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	compromis	compromettre	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	obj	_	_
+30	...	...	PUNCT	_	PUNCT___	31	punct	_	_
+
+
+#).Vous n'avez rien d'autre à faire.
+1	).Vous	).Vous	PRON	_	PRON__Number=Plur|Person=1	1	nsubj	_	_
+2	n'	ne	ADV	_	ADV___	1	advmod	_	_
+3	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	6	obj	_	_
+5	d'	de	ADP	_	ADP___	6	mark	_	_
+6	autre	autre	PRON	_	PRON__Number=Sing|PronType=Rel	3	fixed	_	_
+7	à	à	ADP	_	ADP___	1	mark	_	_
+8	faire	faire	VERB	_	VERB__VerbForm=Inf	11	xcomp	_	_
+9	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Donc1- avertissez le vendeur que l'agence, c'est des incompétents (en même temps, le vendeur en est un aussi puisqu'il n'est pas fichu de communiquer la bonne adresse à l'agence)2- et informez le vendeur de votre souhait de tout stopper si c'est ce que vous souhaitez.
+1	Donc1-	Donc1-	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	nsubj	_	_
+2	avertissez	avertir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+4	vendeur	vendeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+5	que	que	SCONJ	_	SCONJ___	6	mark	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+7	agence	agencer	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	dep	_	_
+8	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+9	c'	ce	PRON	_	PRON__Number=Sing|Person=3	11	nsubj	_	_
+10	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
+12	incompétents	incompétent	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	nmod	_	_
+13	(	(	PUNCT	_	PUNCT___	11	punct	_	_
+14	en	en	ADP	_	ADP___	16	advmod	_	_
+15	même	même	ADJ	_	ADJ__Number=Sing	16	fixed	_	_
+16	temps	temps	NOUN	_	NOUN__Gender=Masc	13	fixed	_	_
+17	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+18	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	vendeur	vendeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nsubj	_	_
+20	en	en	ADP	_	ADP___	19	case	_	_
+21	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+22	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	aussi	aussi	ADV	_	ADV___	11	advcl	_	_
+24	puisqu'	puisque	SCONJ	_	SCONJ___	23	mark	_	_
+25	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	27	nsubj	_	_
+26	n'	ne	ADV	_	ADV__Polarity=Neg	27	advmod	_	_
+27	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+28	pas	pas	ADV	_	ADV__Polarity=Neg	29	advmod	_	_
+29	fichu	ficher	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	27	advcl	_	_
+30	de	de	ADP	_	ADP___	31	mark	_	_
+31	communiquer	communiquer	VERB	_	VERB__VerbForm=Inf	27	xcomp	_	_
+32	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+33	bonne	bon	ADJ	_	ADJ__Gender=Fem|Number=Sing	34	amod	_	_
+34	adresse	adresser	NOUN	_	NOUN__Gender=Fem|Number=Sing	32	obj	_	_
+35	à	à	ADP	_	ADP___	34	case	_	_
+36	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	32	det	_	_
+37	agence)2-	agence)2-	NOUN	_	NOUN__Gender=Masc|Number=Sing	40	obl	_	_
+38	et	et	CCONJ	_	CCONJ___	37	cc	_	_
+39	informez	informer	VERB	_	VERB__Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	40	conj	_	_
+40	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+41	vendeur	vendeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	44	obj	_	_
+42	de	de	ADP	_	ADP___	44	case	_	_
+43	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	44	nmod:poss	_	_
+44	souhait	souhait	NOUN	_	NOUN__Gender=Masc|Number=Sing	32	nmod	_	_
+45	de	de	ADP	_	ADP___	44	case	_	_
+46	tout	tout	ADV	_	ADV___	32	advmod	_	_
+47	stopper	stopper	VERB	_	VERB__VerbForm=Inf	49	nmod	_	_
+48	si	si	SCONJ	_	SCONJ___	49	mark	_	_
+49	c'	ce	PRON	_	PRON__Number=Sing|Person=3	32	nsubj	_	_
+50	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	51	cop	_	_
+51	ce	ce	PRON	_	PRON__PronType=Rel	55	ccomp	_	_
+52	que	que	PRON	_	PRON__PronType=Rel	55	obj	_	_
+53	vous	se	PRON	_	PRON__Number=Plur|Person=2	54	nsubj	_	_
+54	souhaitez	souhaiter	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	55	acl:relcl	_	_
+55	.	.	PUNCT	_	PUNCT___	49	punct	_	_
+
+
+#Que voulez vous d'autre, vous n'avez subi aucun préjudice (vous n'avez encore payé aucune charge, vous n'avez pas non plus payé de taxe d'habitation qui varie énormément d'une commune à l'autre) !
+1	Que	Que	PRON	_	PRON__PronType=Int	1	obj	_	_
+2	voulez	vouloir	ADJ	_	ADJ__Gender=Fem|Number=Sing|NumType=Ord	1	advcl	_	_
+3	vous	se	PRON	_	PRON__Number=Plur|Person=2|Reflex=Yes	1	obj	_	_
+4	d'	de	ADP	_	ADP___	6	case	_	_
+5	autre	autre	ADJ	_	ADJ__Number=Sing	6	fixed	_	_
+6	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+7	vous	se	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+8	n'	ne	ADV	_	ADV___	11	advmod	_	_
+9	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	subi	subir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+11	aucun	aucun	DET	_	DET__Gender=Masc|Number=Sing	11	det	_	_
+12	préjudice	préjudice	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+13	(	(	PUNCT	_	PUNCT___	11	punct	_	_
+14	vous	se	PRON	_	PRON__Number=Plur|Person=2	16	nsubj	_	_
+15	n'	ne	ADV	_	ADV___	16	advmod	_	_
+16	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	13	aux	_	_
+17	encore	encore	ADV	_	ADV___	19	advmod	_	_
+18	payé	payer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	parataxis	_	_
+19	aucune	aucun	DET	_	DET__Gender=Fem|Number=Sing	13	det	_	_
+20	charge	charger	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obj	_	_
+21	,	,	PUNCT	_	PUNCT___	23	punct	_	_
+22	vous	se	PRON	_	PRON__Number=Plur|Person=2	23	nsubj	_	_
+23	n'	ne	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+24	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	23	conj	_	_
+25	pas	pas	ADV	_	ADV__Polarity=Neg	27	advmod	_	_
+26	non	non	ADV	_	ADV___	27	advmod	_	_
+27	plus	plaire	ADV	_	ADV___	23	advmod	_	_
+28	payé	payer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	xcomp	_	_
+29	de	de	ADP	_	ADP___	27	case	_	_
+30	taxe	taxer	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	obl	_	_
+31	d'	de	ADP	_	ADP___	27	case	_	_
+32	habitation	habitation	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+33	qui	qui	PRON	_	PRON__PronType=Rel	34	nsubj	_	_
+34	varie	varier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	obj	_	_
+35	énormément	énormément	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	34	advmod	_	_
+36	d'	de	ADP	_	ADP___	32	case	_	_
+37	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+38	commune	commun	NOUN	_	NOUN__Gender=Fem|Number=Sing	37	nmod	_	_
+39	à	à	ADP	_	ADP___	40	case	_	_
+40	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	32	det	_	_
+41	autre	autre	PRON	_	PRON__Number=Sing|PronType=Rel	44	nmod	_	_
+42	)	)	PUNCT	_	PUNCT___	44	punct	_	_
+43	!	!	PUNCT	_	PUNCT___	44	punct	_	_
+
+
+#A quoi servirait-il d'ouvrir un litige ?
+1	A	A	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	case	_	_
+2	quoi	quoi	PRON	_	PRON__PronType=Int	1	obl	_	_
+3	servirait	servir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+4	-	-	PUNCT	_	PUNCT___	6	punct	_	_
+5	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	6	obj	_	_
+6	d'	de	ADP	_	ADP___	3	fixed	_	_
+7	ouvrir	ouvrir	VERB	_	VERB__VerbForm=Inf	1	acl	_	_
+8	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+9	litige	litige	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+10	?	?	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Avez vous un litige commercial avec l'agence ?
+1	Avez	Avez	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	aux	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+3	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+4	litige	litige	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	commercial	commercial	ADJ	_	ADJ__Gender=Masc|Number=Sing	6	amod	_	_
+6	avec	avec	ADP	_	ADP___	3	case	_	_
+7	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+8	agence	agencer	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+9	?	?	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Quelle indemnité voulez vous obtenir et de qui ?
+1	Quelle	Quelle	ADJ	_	ADJ__Gender=Fem|Number=Sing	1	det	_	_
+2	indemnité	indemnité	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	voulez	vouloir	AUX	_	AUX__Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	acl	_	_
+4	vous	se	PRON	_	PRON__Number=Plur|Person=2	6	expl	_	_
+5	obtenir	obtenir	VERB	_	VERB__VerbForm=Part	6	xcomp	_	_
+6	et	et	CCONJ	_	CCONJ___	3	cc	_	_
+7	de	de	ADP	_	ADP___	1	case	_	_
+8	qui	qui	PRON	_	PRON__PronType=Rel	11	conj	_	_
+9	?	?	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Rien qu'avec ce qui se passe l'agence perdra  son éventuelle bonne réputation, au moins auprès du vendeur, et de vous.
+1	Rien	Rien	PRON	_	PRON__Number=Sing|PronType=Rel	1	mark	_	_
+2	qu'	que	SCONJ	_	SCONJ___	1	fixed	_	_
+3	avec	avec	ADP	_	ADP___	1	case	_	_
+4	ce	ce	PRON	_	PRON__PronType=Rel	6	obl	_	_
+5	qui	qui	PRON	_	PRON__PronType=Rel	6	nsubj	_	_
+6	se	se	PRON	_	PRON__Person=3|Reflex=Yes	3	expl	_	_
+7	passe	passer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+8	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+9	agence	agencer	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obj	_	_
+10	perdra	perdre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	amod	_	_
+11	 	 	SPACE	_		11		_	_
+12	son	son	DET	_	DET__Number=Sing|Poss=Yes	13	nmod:poss	_	_
+13	éventuelle	éventuel	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	amod	_	_
+14	bonne	bon	ADJ	_	ADJ__Gender=Fem|Number=Sing	16	amod	_	_
+15	réputation	réputation	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+16	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+17	au	au	PRON	_	PRON__PronType=Rel	19	advmod	_	_
+18	moins	moins	ADV	_	ADV___	19	fixed	_	_
+19	auprès	auprès	ADP	_	ADP___	13	case	_	_
+20	du	du	DET	_	DET__Gender=Masc|Number=Sing	19	det	_	_
+21	vendeur	vendeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	nmod	_	_
+22	,	,	PUNCT	_	PUNCT___	23	punct	_	_
+23	et	et	CCONJ	_	CCONJ___	11	cc	_	_
+24	de	de	ADP	_	ADP___	23	case	_	_
+25	vous	se	PRON	_	PRON__Number=Plur|Person=2|PronType=Prs	27	conj	_	_
+26	.	.	PUNCT	_	PUNCT___	27	punct	_	_
+
+
+#+ le bouche à oreille.
+1	+	+	ADP	_	ADP___	1	case	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+3	bouche	boucher	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	à	à	ADP	_	ADP___	6	case	_	_
+5	oreille	oreille	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+6	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+

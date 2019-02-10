@@ -1,0 +1,732 @@
+#Bonjour,un peu de vocabulaire :
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	un	un	DET	_	DET__Gender=Masc|Number=Sing	4	det	_	_
+4	peu	peu	ADV	_	ADV___	2	fixed	_	_
+5	de	de	ADP	_	ADP___	6	case	_	_
+6	vocabulaire	vocabulaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+7	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Quand c'est "privatif", ce n'est pas à "jouissance exclusive".et votre RdC n'est pas plus performant :donc vous êtes excusableDonc dites nous : ce jardin, est-ce "privatif" ou "commun à jouissance privative".
+1	Quand	Quand	SCONJ	_	SCONJ___	1	mark	_	_
+2	c'	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	"	"	PUNCT	_	PUNCT___	2	punct	_	_
+5	privatif	privatif	ADJ	_	ADJ__Gender=Masc|Number=Sing	6	advcl	_	_
+6	"	"	PUNCT	_	PUNCT___	4	punct	_	_
+7	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+8	ce	ce	PRON	_	PRON__PronType=Rel	12	det	_	_
+9	n'	ne	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+10	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	pas	pas	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+12	à	à	ADP	_	ADP___	44	case	_	_
+13	"	"	PUNCT	_	PUNCT___	12	punct	_	_
+14	jouissance	jouissance	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nsubj	_	_
+15	exclusive".et	exclusive".et	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	parataxis	_	_
+16	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	21	nmod:poss	_	_
+17	RdC	RdC	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obj	_	_
+18	n'	ne	ADV	_	ADV__Polarity=Neg	21	advmod	_	_
+19	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+20	pas	pas	ADV	_	ADV__Polarity=Neg	21	advmod	_	_
+21	plus	plaire	ADV	_	ADV___	22	advmod	_	_
+22	performant	performant	ADJ	_	ADJ__Gender=Masc|Number=Sing	12	xcomp	_	_
+23	:	:	PUNCT	_	PUNCT___	24	punct	_	_
+24	donc	donc	ADV	_	ADV___	22	advmod	_	_
+25	vous	se	PRON	_	PRON__Number=Plur|Person=2	29	nsubj	_	_
+26	êtes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	29	parataxis	_	_
+27	excusableDonc	excusableDonc	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	28	advmod	_	_
+28	dites	dit	AUX	_	AUX__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	29	cop	_	_
+29	nous	se	PRON	_	PRON__Number=Plur|Person=1	22	obl	_	_
+30	:	:	PUNCT	_	PUNCT___	29	punct	_	_
+31	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	29	det	_	_
+32	jardin	jardin	NOUN	_	NOUN__Gender=Masc|Number=Sing	33	obl	_	_
+33	,	,	PUNCT	_	PUNCT___	29	punct	_	_
+34	est	être		_	VERB	33	cop	_	_
+35	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	36	nsubj	_	_
+36	"	"	PUNCT	_	PUNCT___	12	punct	_	_
+37	privatif	privatif	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+38	"	"	PUNCT	_	PUNCT___	39	punct	_	_
+39	ou	ou	CCONJ	_	CCONJ___	12	cc	_	_
+40	"	"	PUNCT	_	PUNCT___	44	punct	_	_
+41	commun	commun	ADJ	_	ADJ__Gender=Masc|Number=Sing	44	conj	_	_
+42	à	à	ADP	_	ADP___	44	case	_	_
+43	jouissance	jouissance	NOUN	_	NOUN__Gender=Fem|Number=Sing	44	obl	_	_
+44	privative	privatif	ADJ	_	ADJ__Gender=Fem|Number=Sing	44	amod	_	_
+45	"	"	PUNCT	_	PUNCT___	44	punct	_	_
+46	.	.	PUNCT	_	PUNCT___	48	punct	_	_
+
+
+#(voir l'EDD, mais il est possible qu'il soit aussi avec cette erreur>....)Dans le premier cas (privatif), le copro a tout à faire, mais il peut aussi supprimer ces arbresDans le second cas (jouissance exclusive), il n'a que l'entretien de ces arbres et ne peut supprimer des éléments communs que sont ces arbres, mais par contre il doit les entretenir et l'élagage fait partie de cet entretien, comme le dit le RdC...
+1	(	(	PUNCT	_	PUNCT___	1	punct	_	_
+2	voir	voir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+3	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	EDD	EDD	PROPN	_	PROPN__Number=Sing	2	obj	_	_
+5	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+6	mais	mai	CCONJ	_	CCONJ___	4	cc	_	_
+7	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+8	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+9	possible	possible	ADJ	_	ADJ__Number=Sing	12	conj	_	_
+10	qu'	que	SCONJ	_	SCONJ___	12	mark	_	_
+11	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
+12	soit	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	fixed	_	_
+13	aussi	aussi	ADV	_	ADV___	12	advmod	_	_
+14	avec	avec	ADP	_	ADP___	12	case	_	_
+15	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	21	det	_	_
+16	erreur>	erreur>	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	nmod	_	_
+17	....	....	PUNCT	_	PUNCT___	21	ccomp	_	_
+18	)Dans	)Dans	ADP	_	ADP___	21	punct	_	_
+19	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	premier	premier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	21	amod	_	_
+21	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	obj	_	_
+22	(	(	PUNCT	_	PUNCT___	12	punct	_	_
+23	privatif	privatif	ADJ	_	ADJ__Gender=Masc|Number=Sing	24	appos	_	_
+24	)	)	PUNCT	_	PUNCT___	22	punct	_	_
+25	,	,	PUNCT	_	PUNCT___	29	punct	_	_
+26	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+27	copro	copro	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	nsubj	_	_
+28	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	tout	tout	ADV	_	ADV___	22	advmod	_	_
+30	à	à	ADP	_	ADP___	29	mark	_	_
+31	faire	faire	VERB	_	VERB__VerbForm=Inf	29	xcomp	_	_
+32	,	,	PUNCT	_	PUNCT___	33	punct	_	_
+33	mais	mai	CCONJ	_	CCONJ___	29	cc	_	_
+34	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	33	nsubj	_	_
+35	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
+36	aussi	aussi	ADV	_	ADV___	12	advmod	_	_
+37	supprimer	supprimer	VERB	_	VERB__VerbForm=Inf	12	advcl	_	_
+38	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	39	det	_	_
+39	arbresDans	arbresDans	ADP	_	ADP___	12	obj	_	_
+40	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+41	second	second	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	44	amod	_	_
+42	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	44	obj	_	_
+43	(	(	PUNCT	_	PUNCT___	44	punct	_	_
+44	jouissance	jouissance	NOUN	_	NOUN__Gender=Fem|Number=Sing	44	appos	_	_
+45	exclusive	exclusif	ADJ	_	ADJ__Gender=Fem|Number=Sing	44	amod	_	_
+46	)	)	PUNCT	_	PUNCT___	48	punct	_	_
+47	,	,	PUNCT	_	PUNCT___	48	punct	_	_
+48	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	44	nsubj	_	_
+49	n'	ne	ADV	_	ADV___	50	advmod	_	_
+50	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	48	obl	_	_
+51	que	que	SCONJ	_	SCONJ___	50	fixed	_	_
+52	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	44	det	_	_
+53	entretien	entretien	NOUN	_	NOUN__Gender=Masc|Number=Sing	44	obj	_	_
+54	de	de	ADP	_	ADP___	55	case	_	_
+55	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	55	det	_	_
+56	arbres	arbre	NOUN	_	NOUN__Gender=Fem|Number=Plur	57	nmod	_	_
+57	et	et	CCONJ	_	CCONJ___	55	cc	_	_
+58	ne	ne	ADV	_	ADV___	55	advmod	_	_
+59	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	62	aux	_	_
+60	supprimer	supprimer	VERB	_	VERB__VerbForm=Inf	62	conj	_	_
+61	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	62	det	_	_
+62	éléments	élément	NOUN	_	NOUN__Gender=Masc|Number=Plur	55	obj	_	_
+63	communs	commun	ADJ	_	ADJ__Gender=Masc|Number=Plur	70	amod	_	_
+64	que	que	SCONJ	_	SCONJ___	70	mark	_	_
+65	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	64	cop	_	_
+66	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	65	det	_	_
+67	arbres	arbre	NOUN	_	NOUN__Gender=Fem|Number=Plur	69	acl:relcl	_	_
+68	,	,	PUNCT	_	PUNCT___	69	punct	_	_
+69	mais	mai	CCONJ	_	CCONJ___	64	cc	_	_
+70	par	par	ADP	_	ADP___	62	mark	_	_
+71	contre	contrer	ADP	_	ADP___	55	fixed	_	_
+72	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	74	nsubj	_	_
+73	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	74	conj	_	_
+74	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	55	det	_	_
+75	entretenir	entretenir	NOUN	_	NOUN__Gender=Masc|Number=Plur	74	obj	_	_
+76	et	et	CCONJ	_	CCONJ___	74	cc	_	_
+77	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	74	det	_	_
+78	élagage	élagage	NOUN	_	NOUN__Gender=Masc|Number=Sing	84	conj	_	_
+79	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	80	amod	_	_
+80	partie	partir	NOUN	_	NOUN__Gender=Fem|Number=Sing	84	amod	_	_
+81	de	de	ADP	_	ADP___	84	case	_	_
+82	cet	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	84	det	_	_
+83	entretien	entretien	NOUN	_	NOUN__Gender=Masc|Number=Sing	84	nmod	_	_
+84	,	,	PUNCT	_	PUNCT___	55	punct	_	_
+85	comme	comme	SCONJ	_	SCONJ___	55	mark	_	_
+86	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	90	obj	_	_
+87	dit	dire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	90	advcl	_	_
+88	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	90	det	_	_
+89	RdC	RdC	NOUN	_	NOUN__Gender=Masc|Number=Sing	90	nsubj	_	_
+90	...	...	PUNCT	_	PUNCT___	103	punct	_	_
+
+
+#où est-ce inscrit ?
+1	où	où	PRON	_	PRON__PronType=Rel	4	iobj	_	_
+2	est	être		_	VERB	4	cop	_	_
+3	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	4	nsubj	_	_
+4	inscrit	inscrire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	?	?	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#pour être aussi affirmatif ?
+1	pour	pour	ADP	_	ADP___	4	mark	_	_
+2	être	être	AUX	_	AUX__VerbForm=Inf	4	aux:pass	_	_
+3	aussi	aussi	ADV	_	ADV___	4	advmod	_	_
+4	affirmatif	affirmatif	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	?	?	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#méfiez-
+1	méfiez	méfier	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#vous................
+1	vous	se	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+2	................	................	PUNCT	_	PUNCT___	0	ROOT	_	_
+
+
+#bonjour,en principe une partie privative est à jouissance exclusive de son propriétaire ou de son usager, l'expression " jardin privatif avec jouissance exclusive " est un pléonasme.en copropriété, quand on mentionne une jouissance exclusive, c'est pour l'associer à l'expression parties communes.je suis curieux de savoir d'ou votre syndic tire son affirmation, parce que l'expression mentionnée dans votre RC ne permet pas d'en tirer cette conclusion.salutations
+1	bonjour	bonjour	NOUN	_	NOUN___	36	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	en	en	ADP	_	ADP___	4	case	_	_
+4	principe	principe	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	fixed	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	partie	partir	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obj	_	_
+7	privative	privatif	ADJ	_	ADJ__Gender=Fem|Number=Sing	6	amod	_	_
+8	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	punct	_	_
+9	à	à	ADP	_	ADP___	10	case	_	_
+10	jouissance	jouissance	NOUN	_	NOUN__Gender=Fem|Number=Sing	36	obl	_	_
+11	exclusive	exclusif	ADJ	_	ADJ__Gender=Fem|Number=Sing	10	amod	_	_
+12	de	de	ADP	_	ADP___	14	case	_	_
+13	son	son	DET	_	DET__Number=Sing|Poss=Yes	14	nmod:poss	_	_
+14	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	10	nmod	_	_
+15	ou	ou	CCONJ	_	CCONJ___	18	cc	_	_
+16	de	de	ADP	_	ADP___	18	case	_	_
+17	son	son	DET	_	DET__Number=Sing|Poss=Yes	18	nmod:poss	_	_
+18	usager	usager	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	conj	_	_
+19	,	,	PUNCT	_	PUNCT___	36	punct	_	_
+20	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	expression	expression	NOUN	_	NOUN__Gender=Fem|Number=Sing	36	nsubj	_	_
+22	"	"	PUNCT	_	PUNCT___	21	punct	_	_
+23	jardin	jardin	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	appos	_	_
+24	privatif	privatif	ADJ	_	ADJ__Gender=Masc|Number=Sing	23	amod	_	_
+25	avec	avec	ADP	_	ADP___	26	case	_	_
+26	jouissance	jouissance	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	obl	_	_
+27	exclusive	exclusif	ADJ	_	ADJ__Gender=Fem|Number=Sing	26	amod	_	_
+28	"	"	PUNCT	_	PUNCT___	31	punct	_	_
+29	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
+30	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	pléonasme.en	pléonasme.en	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	nmod	_	_
+32	copropriété	copropriété	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	31	amod	_	_
+33	,	,	PUNCT	_	PUNCT___	21	punct	_	_
+34	quand	quand	SCONJ	_	SCONJ___	36	mark	_	_
+35	on	on	PRON	_	PRON__Number=Sing|Person=3	36	nsubj	_	_
+36	mentionne	mentionner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+37	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	jouissance	jouissance	NOUN	_	NOUN__Gender=Fem|Number=Sing	36	obj	_	_
+39	exclusive	exclusif	ADJ	_	ADJ__Gender=Fem|Number=Sing	38	amod	_	_
+40	,	,	PUNCT	_	PUNCT___	45	punct	_	_
+41	c'	ce	PRON	_	PRON__Number=Sing|Person=3	45	nsubj	_	_
+42	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	cop	_	_
+43	pour	pour	ADP	_	ADP___	45	case	_	_
+44	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	45	det	_	_
+45	associer	associer	NOUN	_	NOUN__Gender=Masc|Number=Sing	36	obl	_	_
+46	à	à	ADP	_	ADP___	48	case	_	_
+47	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	48	det	_	_
+48	expression	expression	NOUN	_	NOUN__Gender=Fem|Number=Sing	45	nmod	_	_
+49	parties	partir	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	48	amod	_	_
+50	communes.je	communes.je	VERB	_	VERB__VerbForm=Inf	48	amod	_	_
+51	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	52	cop	_	_
+52	curieux	curieux	ADJ	_	ADJ__Gender=Masc	36	xcomp	_	_
+53	de	de	ADP	_	ADP___	54	mark	_	_
+54	savoir	savoir	VERB	_	VERB__VerbForm=Inf	52	xcomp	_	_
+55	d'	de	ADP	_	ADP___	54	fixed	_	_
+56	ou	ou	CCONJ	_	CCONJ___	58	cc	_	_
+57	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	58	nmod:poss	_	_
+58	syndic	syndic	NOUN	_	NOUN__Gender=Masc|Number=Sing	36	conj	_	_
+59	tire	tirer	ADJ	_	ADJ__Number=Sing	58	amod	_	_
+60	son	son	DET	_	DET__Number=Sing|Poss=Yes	61	nmod:poss	_	_
+61	affirmation	affirmation	NOUN	_	NOUN__Gender=Fem|Number=Sing	58	obj	_	_
+62	,	,	PUNCT	_	PUNCT___	36	punct	_	_
+63	parce	parce	SCONJ	_	SCONJ___	72	mark	_	_
+64	que	que	SCONJ	_	SCONJ___	63	fixed	_	_
+65	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	66	det	_	_
+66	expression	expression	NOUN	_	NOUN__Gender=Fem|Number=Sing	72	nsubj	_	_
+67	mentionnée	mentionner	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	66	acl	_	_
+68	dans	dan	ADP	_	ADP___	70	case	_	_
+69	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	70	nmod:poss	_	_
+70	RC	RC	PROPN	_	PROPN__Gender=Masc|Number=Sing	67	obl	_	_
+71	ne	ne	ADV	_	ADV__Polarity=Neg	72	advmod	_	_
+72	permet	permettre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	advcl	_	_
+73	pas	pas	ADV	_	ADV__Polarity=Neg	72	advmod	_	_
+74	d'	de	ADP	_	ADP___	76	mark	_	_
+75	en	en	PRON	_	PRON__Person=3	76	iobj	_	_
+76	tirer	tirer	VERB	_	VERB__VerbForm=Inf	72	xcomp	_	_
+77	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	78	det	_	_
+78	conclusion.salutations	conclusion.salutations	NOUN	_	NOUN__Gender=Fem|Number=Plur	76	obj	_	_
+
+
+#vous n'avez pas de besoin de questionner le syndic: il vous suffit de lire le réglement de copropriété!
+1	vous	se	PRON	_	PRON__Number=Plur|Person=2	3	nsubj	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+3	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+5	de	de	ADP	_	ADP___	6	det	_	_
+6	besoin	besoin	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obj	_	_
+7	de	de	ADP	_	ADP___	8	mark	_	_
+8	questionner	questionner	VERB	_	VERB__VerbForm=Inf	3	xcomp	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	syndic	syndic	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+11	:	:	PUNCT	_	PUNCT___	3	punct	_	_
+12	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
+13	vous	se	PRON	_	PRON__Number=Plur|Person=2	14	iobj	_	_
+14	suffit	suffire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+15	de	de	ADP	_	ADP___	16	mark	_	_
+16	lire	lire	VERB	_	VERB__VerbForm=Inf	14	xcomp	_	_
+17	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	réglement	réglement	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obj	_	_
+19	de	de	ADP	_	ADP___	20	case	_	_
+20	copropriété	copropriété	VERB	_	VERB__VerbForm=Inf	18	nmod	_	_
+21	!	!	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Bonsoir,Votre copropriétaire veut le beurre et l'argent du beurre.
+1	Bonsoir	Bonsoir	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+3	Votre	Votre	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+4	copropriétaire	copropriétaire	ADJ	_	ADJ__Number=Sing	5	nsubj	_	_
+5	veut	vouloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	beurre	beurrer	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+8	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+9	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	argent	argent	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	conj	_	_
+11	du	du	DET	_	DET__Gender=Masc|Number=Sing	12	det	_	_
+12	beurre	beurrer	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+13	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#C'est à lui d'entretenir le jardin d'ailleurs vous indiquez que c'est dans le règlement :
+1	C'	C'	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	à	à	ADP	_	ADP___	4	case	_	_
+4	lui	luire	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	ROOT	_	_
+5	d'	de	ADP	_	ADP___	1	mark	_	_
+6	entretenir	entretenir	VERB	_	VERB__VerbForm=Inf	7	acl	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+8	jardin	jardin	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+9	d'	de	ADP	_	ADP___	10	advmod	_	_
+10	ailleurs	ailleurs	NOUN	_	NOUN__Gender=Masc	5	fixed	_	_
+11	vous	se	PRON	_	PRON__Number=Plur|Person=2	12	iobj	_	_
+12	indiquez	indiquer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	10	nmod	_	_
+13	que	que	SCONJ	_	SCONJ___	1	mark	_	_
+14	c'	ce	PRON	_	PRON__Number=Sing|Person=3	17	nsubj	_	_
+15	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	dans	dan	ADP	_	ADP___	17	case	_	_
+17	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+18	règlement	règlement	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	ccomp	_	_
+19	:	:	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Vous dites aussi qu'il "construit dur" dans le jardin.
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+2	dites	dit	VERB	_	VERB__Mood=Imp|VerbForm=Fin	0	ROOT	_	_
+3	aussi	aussi	ADV	_	ADV___	4	advmod	_	_
+4	qu'	que	SCONJ	_	SCONJ___	5	mark	_	_
+5	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+6	"	"	PUNCT	_	PUNCT___	7	punct	_	_
+7	construit	construire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+8	dur	dur	ADJ	_	ADJ__Gender=Masc|Number=Sing	10	advmod	_	_
+9	"	"	PUNCT	_	PUNCT___	10	punct	_	_
+10	dans	dan	ADP	_	ADP___	5	case	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	jardin	jardin	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obl	_	_
+13	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Vous a-t-il demandé au moins l'accord en AG ?
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+2	a	avoir		_	VERB	5	aux	_	_
+3	-t	t	PART	_	PART___	4	expl	_	_
+4	-il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	expl	_	_
+5	demandé	demander	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+6	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	7	det	_	_
+7	moins	moins	ADV	_	ADV___	5	fixed	_	_
+8	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+9	accord	accord	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+10	en	en	ADP	_	ADP___	5	case	_	_
+11	AG	AG	PROPN	_	PROPN___	12	nmod	_	_
+12	?	?	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Bonjour,Worry vous a dit qu'il n'avait pas le RP.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	6	nsubj	_	_
+2	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+3	Worry	Worry	PROPN	_	PROPN__Gender=Masc|Number=Sing	6	nsubj	_	_
+4	vous	se	PRON	_	PRON__Number=Plur|Person=2	6	nsubj	_	_
+5	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	dit	dire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+7	qu'	que	SCONJ	_	SCONJ___	10	mark	_	_
+8	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
+9	n'	ne	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+10	avait	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	ccomp	_	_
+11	pas	pas	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	RP	RP	PROPN	_	PROPN___	10	obj	_	_
+14	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Comment interpréter ses affirmations
+1	Comment	Comment	ADV	_	ADV__PronType=Int	6	advmod	_	_
+2	interpréter	interpréter	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+3	ses	son	DET	_	DET__Number=Plur|Poss=Yes	6	nmod:poss	_	_
+4	affirmations	affirmation	NOUN	_	NOUN__Gender=Fem|Number=Plur	6	obj	_	_
+
+
+#BonjourJai bien lu quil indique au premier post:
+1	BonjourJai	BonjourJai	PROPN	_	PROPN___	5	nsubj	_	_
+2	bien	bien	ADV	_	ADV___	1	advmod	_	_
+3	lu	lire	PROPN	_	PROPN___	1	punct	_	_
+4	quil	quil	PRON	_	PRON__PronType=Rel	1	dep	_	_
+5	indique	indiquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	8	det	_	_
+7	premier	premier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	8	amod	_	_
+8	post	post	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+9	:	:	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Et ailleurs que les informations il les tient du syndic.
+1	Et	Et	CCONJ	_	CCONJ___	0	ROOT	_	_
+2	ailleurs	ailleurs	NOUN	_	NOUN__Gender=Masc	1	fixed	_	_
+3	que	que	SCONJ	_	SCONJ___	1	mark	_	_
+4	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+5	informations	information	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	nsubj	_	_
+6	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	8	case	_	_
+7	les	le	PRON	_	PRON__Number=Plur|Person=3	8	det	_	_
+8	tient	tenir	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	dep	_	_
+9	du	du	DET	_	DET__Gender=Masc|Number=Sing	5	det	_	_
+10	syndic	syndic	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+11	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Mais attendons donc son retour pour plus de clarté.
+1	Mais	Mais	CCONJ	_	CCONJ___	5	cc	_	_
+2	attendons	attendre	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+3	donc	donc	ADV	_	ADV___	1	advmod	_	_
+4	son	son	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+5	retour	retour	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+6	pour	pour	ADP	_	ADP___	8	case	_	_
+7	plus	plaire	ADV	_	ADV___	8	advmod	_	_
+8	de	de	ADP	_	ADP___	5	dep	_	_
+9	clarté	clarté	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+10	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Bonsoir,Il ne vous reste plus qu'à faire vous aussi la sourde oreille.
+1	Bonsoir	Bonsoir	PROPN	_	PROPN___	6	acl	_	_
+2	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+3	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+4	ne	ne	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+5	vous	se	PRON	_	PRON__Number=Plur|Person=2	6	iobj	_	_
+6	reste	rester	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	plus	plaire	ADV	_	ADV___	6	advmod	_	_
+8	qu'	que	SCONJ	_	SCONJ___	10	mark	_	_
+9	à	à	ADP	_	ADP___	10	mark	_	_
+10	faire	faire	VERB	_	VERB__VerbForm=Inf	6	ccomp	_	_
+11	vous	se	PRON	_	PRON__Number=Plur|Person=2	10	obj	_	_
+12	aussi	aussi	ADV	_	ADV___	11	advmod	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	sourde	sourdre	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obj	_	_
+15	oreille	oreille	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	amod	_	_
+16	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Vous n'avez pas répondu à la question : a-t-il obtenu l'accord de l'AG pour la construction de son garage ?
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	6	nsubj	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+3	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+5	répondu	répondre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+6	à	à	ADP	_	ADP___	6	case	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+8	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obl	_	_
+9	:	:	PUNCT	_	PUNCT___	10	punct	_	_
+10	a	avoir		_	VERB	6	aux	_	_
+11	-t	t	PART	_	PART___	10	expl	_	_
+12	-il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	11	nsubj	_	_
+13	obtenu	obtenir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	parataxis	_	_
+14	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+15	accord	accord	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obj	_	_
+16	de	de	ADP	_	ADP___	6	case	_	_
+17	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+18	AG	AG	PROPN	_	PROPN__Number=Sing	21	nmod	_	_
+19	pour	pour	ADP	_	ADP___	21	case	_	_
+20	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	construction	construction	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	obl	_	_
+22	de	de	ADP	_	ADP___	24	case	_	_
+23	son	son	DET	_	DET__Number=Sing|Poss=Yes	24	nmod:poss	_	_
+24	garage	garage	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	nmod	_	_
+25	?	?	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#pourquoi demandez vous à chaque fois au syndic des documents que vous devez avoir ?
+1	pourquoi	pourquoi	ADV	_	ADV___	2	advmod	_	_
+2	demandez	demander	VERB	_	VERB__Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	vous	se	PRON	_	PRON__Number=Plur|Person=2|Reflex=Yes	8	nsubj	_	_
+4	à	à	ADP	_	ADP___	3	fixed	_	_
+5	chaque	chaque	DET	_	DET__Number=Sing	3	fixed	_	_
+6	fois	foi	NOUN	_	NOUN__Gender=Fem	3	fixed	_	_
+7	au	au	PRON	_	PRON__PronType=Rel	8	iobj	_	_
+8	syndic	syndic	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	xcomp	_	_
+9	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
+10	documents	document	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obj	_	_
+11	que	que	PRON	_	PRON__PronType=Rel	14	obj	_	_
+12	vous	se	PRON	_	PRON__Number=Plur|Person=2	14	nsubj	_	_
+13	devez	devoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	avoir	avoir	VERB	_	VERB__VerbForm=Inf	10	acl:relcl	_	_
+15	?	?	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#La phrase que vous citez mot à mot au #1 et que vous confirmez au #14 est pour l'instant secondaire, ou plus exactement n'aide pas à la détermination du statut réel du jardin.
+1	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	phrase	phraser	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nsubj	_	_
+3	que	que	SCONJ	_	SCONJ___	5	obj	_	_
+4	vous	se	PRON	_	PRON__Number=Plur|Person=2	5	nsubj	_	_
+5	citez	citer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	mot	mot	SCONJ	_	SCONJ___	0	ROOT	_	_
+7	à	à	ADP	_	ADP___	8	mark	_	_
+8	mot	mot	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	xcomp	_	_
+9	au	au	ADJ	_	ADJ__NumType=Ord	10	det	_	_
+10	#	#	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+11	1	1	NUM	_	NUM__NumType=Card	10	nummod	_	_
+12	et	et	CCONJ	_	CCONJ___	15	cc	_	_
+13	que	que	SCONJ	_	SCONJ___	15	mark	_	_
+14	vous	se	PRON	_	PRON__Number=Plur|Person=2	15	nsubj	_	_
+15	confirmez	confirmer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	conj	_	_
+16	au	au	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	18	expl	_	_
+17	#	#	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	fixed	_	_
+18	14	14	NUM	_	NUM__NumType=Card	15	obj	_	_
+19	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+20	pour	pour	ADP	_	ADP___	22	case	_	_
+21	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+22	instant	instant	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	fixed	_	_
+23	secondaire	secondaire	ADJ	_	ADJ__Number=Sing	22	amod	_	_
+24	,	,	PUNCT	_	PUNCT___	22	punct	_	_
+25	ou	ou	CCONJ	_	CCONJ___	27	cc	_	_
+26	plus	plaire	ADV	_	ADV___	27	advmod	_	_
+27	exactement	exactement	ADV	_	ADV___	29	nsubj	_	_
+28	n'	ne	ADV	_	ADV__Polarity=Neg	29	advmod	_	_
+29	aide	aider	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+30	pas	pas	ADV	_	ADV__Polarity=Neg	29	advmod	_	_
+31	à	à	ADP	_	ADP___	33	case	_	_
+32	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	détermination	détermination	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	obl	_	_
+34	du	du	DET	_	DET__Gender=Masc|Number=Sing	35	det	_	_
+35	statut	statut	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	obj	_	_
+36	réel	réel	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	35	amod	_	_
+37	du	du	DET	_	DET__Gender=Masc|Number=Sing	38	det	_	_
+38	jardin	jardin	NOUN	_	NOUN__Gender=Masc|Number=Sing	35	nmod	_	_
+39	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Car il reste à déterminer si ce jardin fait partie de son lot privatif (et donc avec jouissance exclusive) ou bien fait partie des parties communes, mais est à jouissance exclusive de ce copropriétaire.
+1	Car	Car	PROPN	_	PROPN__Gender=Fem|Number=Sing	2	cc	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+3	reste	rester	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	à	à	ADP	_	ADP___	5	mark	_	_
+5	déterminer	déterminer	VERB	_	VERB__VerbForm=Inf	2	xcomp	_	_
+6	si	si	SCONJ	_	SCONJ___	6	mark	_	_
+7	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	jardin	jardin	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nsubj	_	_
+9	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+10	partie	partir	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+11	de	de	ADP	_	ADP___	10	case	_	_
+12	son	son	DET	_	DET__Number=Sing|Poss=Yes	15	nmod:poss	_	_
+13	lot	lot	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obl	_	_
+14	privatif	privatif	ADJ	_	ADJ__Gender=Masc|Number=Sing	15	amod	_	_
+15	(	(	PUNCT	_	PUNCT___	6	punct	_	_
+16	et	et	CCONJ	_	CCONJ___	18	cc	_	_
+17	donc	donc	ADV	_	ADV___	16	advmod	_	_
+18	avec	avec	ADP	_	ADP___	15	case	_	_
+19	jouissance	jouissance	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	conj	_	_
+20	exclusive	exclusif	ADJ	_	ADJ__Gender=Fem|Number=Sing	22	amod	_	_
+21	)	)	PUNCT	_	PUNCT___	22	punct	_	_
+22	ou	ou	CCONJ	_	CCONJ___	6	cc	_	_
+23	bien	bien	ADV	_	ADV___	22	advmod	_	_
+24	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	conj	_	_
+25	partie	partir	NOUN	_	NOUN__Gender=Fem|Number=Sing	27	xcomp	_	_
+26	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	27	det	_	_
+27	parties	partir	NOUN	_	NOUN__Gender=Fem|Number=Plur	29	obj	_	_
+28	communes	commune	ADJ	_	ADJ__Gender=Fem|Number=Plur	29	amod	_	_
+29	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+30	mais	mai	CCONJ	_	CCONJ___	29	cc	_	_
+31	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	_
+32	à	à	ADP	_	ADP___	33	case	_	_
+33	jouissance	jouissance	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	conj	_	_
+34	exclusive	exclusif	ADJ	_	ADJ__Gender=Fem|Number=Sing	35	amod	_	_
+35	de	de	ADP	_	ADP___	29	case	_	_
+36	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	35	det	_	_
+37	copropriétaire	copropriétaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	38	nmod	_	_
+38	.	.	PUNCT	_	PUNCT___	35	punct	_	_
+
+
+#(Vous avez certes donné une réponse au #3 et #5, mais je suis d'accord avec #6)Ceci est décrit dans l'état descriptif de division en lots, au sein du règlement de copropriété, qu'il est anormal que vous ne l'ayez pas en main, en tant que copropriétaire.
+1	(	(	PUNCT	_	PUNCT___	2	punct	_	_
+2	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	6	nsubj	_	_
+3	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	certes	certes	ADJ	_	ADJ__Gender=Fem|Number=Plur	5	nsubj:pass	_	_
+5	donné	donner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	xcomp	_	_
+6	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+7	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+8	au	au	PRON	_	PRON__PronType=Rel	6	case	_	_
+9	#	#	ADJ	_	ADJ__Gender=Masc|Number=Plur	10	nmod	_	_
+10	3	3	NUM	_	NUM__NumType=Card	8	nummod	_	_
+11	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+12	#	#	ADJ	_	ADJ__Gender=Masc|Number=Plur	15	conj	_	_
+13	5	5	NUM	_	NUM__NumType=Card	15	nummod	_	_
+14	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+15	mais	mai	CCONJ	_	CCONJ___	6	cc	_	_
+16	je	il	PRON	_	PRON__Number=Sing|Person=1	18	nsubj	_	_
+17	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	cop	_	_
+18	d'	de	ADP	_	ADP___	15	conj	_	_
+19	accord	accord	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	fixed	_	_
+20	avec	avec	ADP	_	ADP___	22	case	_	_
+21	#	#	NOUN	_	NOUN__Number=Sing	22	obl	_	_
+22	6)Ceci	6)Ceci	PRON	_	PRON__Number=Sing|PronType=Dem	6	nsubj:pass	_	_
+23	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux:pass	_	_
+24	décrit	décrire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+25	dans	dan	ADP	_	ADP___	27	case	_	_
+26	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	27	det	_	_
+27	état	état	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	obl	_	_
+28	descriptif	descriptif	ADJ	_	ADJ__Gender=Masc|Number=Sing	29	amod	_	_
+29	de	de	ADP	_	ADP___	6	case	_	_
+30	division	division	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	nmod	_	_
+31	en	en	ADP	_	ADP___	33	case	_	_
+32	lots	lot	NOUN	_	NOUN__Gender=Masc|Number=Plur	33	nmod	_	_
+33	,	,	PUNCT	_	PUNCT___	29	punct	_	_
+34	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	35	case	_	_
+35	sein	sein	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	fixed	_	_
+36	du	du	DET	_	DET__Gender=Masc|Number=Sing	35	det	_	_
+37	règlement	règlement	NOUN	_	NOUN__Gender=Masc|Number=Sing	38	obl	_	_
+38	de	de	ADP	_	ADP___	35	case	_	_
+39	copropriété	copropriété	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+40	,	,	PUNCT	_	PUNCT___	42	punct	_	_
+41	qu'	que	PRON	_	PRON__PronType=Rel	42	mark	_	_
+42	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	42	nsubj	_	_
+43	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	cop	_	_
+44	anormal	anormal	ADJ	_	ADJ__Gender=Masc|Number=Sing	42	ccomp	_	_
+45	que	que	SCONJ	_	SCONJ___	48	mark	_	_
+46	vous	se	PRON	_	PRON__Number=Plur|Person=2	47	nsubj	_	_
+47	ne	ne	ADV	_	ADV__Polarity=Neg	48	advmod	_	_
+48	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	44	obj	_	_
+49	ayez	avoir	NOUN	_	NOUN__Gender=Masc|Number=Sing	48	ccomp	_	_
+50	pas	pas	ADV	_	ADV__Polarity=Neg	52	advmod	_	_
+51	en	en	ADP	_	ADP___	52	case	_	_
+52	main	main	NOUN	_	NOUN__Gender=Fem|Number=Sing	48	obj	_	_
+53	,	,	PUNCT	_	PUNCT___	52	punct	_	_
+54	en	en	ADP	_	ADP___	48	mark	_	_
+55	tant	tant	ADV	_	ADV___	58	fixed	_	_
+56	que	que	SCONJ	_	SCONJ___	55	fixed	_	_
+57	copropriétaire	copropriétaire	ADJ	_	ADJ__Number=Sing	58	obl	_	_
+58	.	.	PUNCT	_	PUNCT___	48	punct	_	_
+
+
+#Et si c'est une partie commune à jouissance exclusive, la phrase citée ne s'y applique pas.
+1	Et	Et	CCONJ	_	CCONJ___	2	cc	_	_
+2	si	si	SCONJ	_	SCONJ___	6	mark	_	_
+3	c'	ce	PRON	_	PRON__Number=Sing|Person=3	5	nsubj	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+6	partie	partir	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obl	_	_
+7	commune	commun	ADJ	_	ADJ__Gender=Fem|Number=Sing	8	amod	_	_
+8	à	à	ADP	_	ADP___	6	case	_	_
+9	jouissance	jouissance	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obl	_	_
+10	exclusive	exclusif	ADJ	_	ADJ__Gender=Fem|Number=Sing	8	amod	_	_
+11	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+13	phrase	phraser	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	nsubj	_	_
+14	citée	citer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	acl	_	_
+15	ne	ne	ADV	_	ADV___	6	advmod	_	_
+16	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	18	expl	_	_
+17	y	yu	PRON	_	PRON__Person=3	16	iobj	_	_
+18	applique	appliquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+19	pas	pas	ADV	_	ADV__Polarity=Neg	22	advmod	_	_
+20	.	.	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#J'ai lu rapidement que ces arbres se trouvaient apparemment et avant découpage par lots dans un parc d'un château (n'est-il pas ?
+1	J'	J'	PRON	_	PRON__Number=Sing|Person=1	2	nsubj	_	_
+2	ai	avoir	PROPN	_	PROPN___	0	ROOT	_	_
+3	lu	lire	PROPN	_	PROPN___	4	det	_	_
+4	rapidement	rapidement	ADV	_	ADV___	2	obj	_	_
+5	que	que	SCONJ	_	SCONJ___	9	mark	_	_
+6	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	7	det	_	_
+7	arbres	arbre	NOUN	_	NOUN__Gender=Fem|Number=Plur	9	nsubj	_	_
+8	se	se	PRON	_	PRON__Person=3|Reflex=Yes	9	expl	_	_
+9	trouvaient	trouver	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+10	apparemment	apparemment	ADV	_	ADV___	9	advmod	_	_
+11	et	et	CCONJ	_	CCONJ___	13	cc	_	_
+12	avant	avant	ADP	_	ADP___	13	case	_	_
+13	découpage	découpage	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	conj	_	_
+14	par	par	ADP	_	ADP___	15	case	_	_
+15	lots	lot	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	nmod	_	_
+16	dans	dan	ADP	_	ADP___	18	case	_	_
+17	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	parc	parc	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obl	_	_
+19	d'	de	ADP	_	ADP___	21	case	_	_
+20	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	château	château	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nmod	_	_
+22	(	(	PUNCT	_	PUNCT___	21	punct	_	_
+23	n'	ne	ADV	_	ADV___	26	advmod	_	_
+24	est	être	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	fixed	_	_
+25	-	-	PUNCT	_	PUNCT___	26	punct	_	_
+26	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	9	conj	_	_
+27	pas	pas	ADV	_	ADV__Polarity=Neg	26	advmod	_	_
+28	?	?	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#).Dans ce cas, ces arbres étant présents avant la découpe alors ils sont effectivement communs ce qui n'enlève rien à l'entretien privatif.
+1	)	)	PUNCT	_	PUNCT___	2	punct	_	_
+2	.Dans	.Dans	PUNCT	_	PUNCT___	0	ROOT	_	_
+3	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	obj	_	_
+5	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+6	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	7	det	_	_
+7	arbres	arbre	NOUN	_	NOUN__Gender=Fem|Number=Plur	9	nsubj	_	_
+8	étant	être	AUX	_	AUX__Tense=Pres|VerbForm=Part	9	cop	_	_
+9	présents	présent	ADJ	_	ADJ__Gender=Masc|Number=Plur	2	advcl	_	_
+10	avant	avant	ADP	_	ADP___	9	case	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	découpe	découper	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obl	_	_
+13	alors	alors	ADV	_	ADV___	9	advmod	_	_
+14	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	15	nsubj	_	_
+15	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+16	effectivement	effectivement	ADV	_	ADV___	18	advmod	_	_
+17	communs	commun	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	acl:relcl	_	_
+18	ce	ce	PRON	_	PRON__PronType=Rel	9	amod	_	_
+19	qui	qui	PRON	_	PRON__PronType=Rel	21	nsubj	_	_
+20	n'	ne	ADV	_	ADV___	21	advmod	_	_
+21	enlève	enlever	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+22	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	21	obj	_	_
+23	à	à	ADP	_	ADP___	26	case	_	_
+24	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+25	entretien	entretien	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	obl	_	_
+26	privatif	privatif	ADJ	_	ADJ__Gender=Masc|Number=Sing	9	amod	_	_
+27	.	.	PUNCT	_	PUNCT___	26	punct	_	_
+
+
+#Et certainement ils ne peuvent pas être coupés (sauf à l'unanimité) sans être remplacés par le syndicat :
+1	Et	Et	CCONJ	_	CCONJ___	2	cc	_	_
+2	certainement	certainement	ADV	_	ADV___	2	advmod	_	_
+3	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	4	nsubj	_	_
+4	ne	ne	ADV	_	ADV__Polarity=Neg	2	advmod	_	_
+5	peuvent	pouvoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	pas	pas	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+7	être	être	AUX	_	AUX__VerbForm=Inf	9	aux:pass	_	_
+8	coupés	couper	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	9	xcomp	_	_
+9	(	(	PUNCT	_	PUNCT___	2	punct	_	_
+10	sauf	sauf	ADP	_	ADP___	9	case	_	_
+11	à	à	ADP	_	ADP___	13	case	_	_
+12	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	unanimité	unanimité	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obl	_	_
+14	)	)	PUNCT	_	PUNCT___	15	punct	_	_
+15	sans	sans	ADP	_	ADP___	13	mark	_	_
+16	être	être	AUX	_	AUX__VerbForm=Inf	18	aux:pass	_	_
+17	remplacés	remplacer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	18	advcl	_	_
+18	par	par	ADP	_	ADP___	9	case	_	_
+19	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	syndicat	syndicat	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obl	_	_
+21	:	:	PUNCT	_	PUNCT___	18	punct	_	_
+
+

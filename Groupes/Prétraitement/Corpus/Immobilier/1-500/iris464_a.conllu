@@ -1,0 +1,955 @@
+#Bonjour,En quoi
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	En	En	ADP	_	ADP___	4	case	_	_
+4	quoi	quoi	PRON	_	PRON__PronType=Rel	1	nmod	_	_
+
+
+#, si je peux me permettre?
+1	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+2	si	si	SCONJ	_	SCONJ___	1	mark	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+4	peux	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
+5	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	10	expl	_	_
+6	permettre	permettre	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+7	?	?	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#est-ce la question des équipements?Je ferais surtout attention à une copropriété à deux, où toutes les décisions sont bloquées en cas d'un copropriétaire récalcitrant.
+1	est	être		_	VERB	1	cop	_	_
+2	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+5	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
+6	équipements?Je	équipements?Je	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	obj	_	_
+7	ferais	faire	ADJ	_	ADJ__Gender=Masc	10	amod	_	_
+8	surtout	surtout	ADV	_	ADV___	10	advmod	_	_
+9	attention	attention	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obj	_	_
+10	à	à	ADP	_	ADP___	10	case	_	_
+11	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+12	copropriété	copropriété	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obl	_	_
+13	à	à	ADP	_	ADP___	15	case	_	_
+14	deux	deux	NUM	_	NUM__NumType=Card	15	nmod	_	_
+15	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+16	où	où	PRON	_	PRON__PronType=Rel	17	iobj	_	_
+17	toutes	toute	ADJ	_	ADJ__Gender=Fem|Number=Plur	15	amod	_	_
+18	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	17	det	_	_
+19	décisions	décision	NOUN	_	NOUN__Gender=Fem|Number=Plur	18	nsubj:pass	_	_
+20	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux:pass	_	_
+21	bloquées	bloquer	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	23	acl:relcl	_	_
+22	en	en	ADP	_	ADP___	23	case	_	_
+23	cas	cas	NOUN	_	NOUN__Gender=Masc	18	fixed	_	_
+24	d'	de	ADP	_	ADP___	25	fixed	_	_
+25	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+26	copropriétaire	copropriétaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obl	_	_
+27	récalcitrant	récalcitrant	VERB	_	VERB__Tense=Pres|VerbForm=Part	32	acl	_	_
+28	.	.	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#De même, ça va certainement compter en cas dune éventuelle vente.
+1	De	De	ADP	_	ADP___	1	advmod	_	_
+2	même	même	ADV	_	ADV___	1	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	1	nsubj	_	_
+5	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+6	certainement	certainement	ADV	_	ADV___	10	advmod	_	_
+7	compter	compter	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+8	en	en	ADP	_	ADP___	10	case	_	_
+9	cas	cas	NOUN	_	NOUN__Gender=Masc	10	obl	_	_
+10	dune	dune	ADJ	_	ADJ__Number=Sing	10	det	_	_
+11	éventuelle	éventuel	ADJ	_	ADJ__Gender=Fem|Number=Sing	10	obj	_	_
+12	vente	venter	ADJ	_	ADJ__Gender=Fem|Number=Sing	15	amod	_	_
+13	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#BonjourRéponse peu juridique pour l'instant mais qui peut avoir tout son sens plus tard: Chacun chez soi !
+1	BonjourRéponse	BonjourRéponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	peu	peu	ADV	_	ADV___	3	advmod	_	_
+3	juridique	juridique	ADJ	_	ADJ__Number=Sing	1	amod	_	_
+4	pour	pour	ADP	_	ADP___	6	mark	_	_
+5	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	instant	instant	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+7	mais	mai	CCONJ	_	CCONJ___	10	cc	_	_
+8	qui	qui	PRON	_	PRON__PronType=Rel	10	nsubj	_	_
+9	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	avoir	avoir	VERB	_	VERB__VerbForm=Inf	1	conj	_	_
+11	tout	tout	ADV	_	ADV___	13	amod	_	_
+12	son	son	DET	_	DET__Number=Sing|Poss=Yes	13	nmod:poss	_	_
+13	sens	sentir	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obl	_	_
+14	plus	plaire	ADV	_	ADV___	10	advmod	_	_
+15	tard	tard	ADV	_	ADV___	14	fixed	_	_
+16	:	:	PUNCT	_	PUNCT___	10	punct	_	_
+17	Chacun	Chacun	PROPN	_	PROPN___	10	obj	_	_
+18	chez	chez	ADP	_	ADP___	19	case	_	_
+19	soi	soi	ADJ	_	ADJ__Gender=Fem|Number=Sing	17	nmod	_	_
+20	!	!	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Pour le moment, vous voulez vous séparer en bons termes et c'est tout à votre honneur.
+1	Pour	Pour	ADP	_	ADP___	1	case	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	moment	moment	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+4	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+5	vous	se	PRON	_	PRON__Number=Plur|Person=2	6	nsubj	_	_
+6	voulez	vouloir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	vous	se	PRON	_	PRON__Number=Plur|Person=2	10	expl	_	_
+8	séparer	séparer	VERB	_	VERB__VerbForm=Inf	10	xcomp	_	_
+9	en	en	ADP	_	ADP___	10	det	_	_
+10	bons	bon	ADJ	_	ADJ__Gender=Masc|Number=Plur	1	amod	_	_
+11	termes	terme	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	obj	_	_
+12	et	et	CCONJ	_	CCONJ___	13	cc	_	_
+13	c'	ce	PRON	_	PRON__Number=Sing|Person=3	14	advmod	_	_
+14	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	fixed	_	_
+15	tout	tout	ADV	_	ADV___	14	fixed	_	_
+16	à	à	ADP	_	ADP___	10	case	_	_
+17	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+18	honneur	honneur	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	conj	_	_
+19	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Mais nous ne savons pas comment la vie va nous faire évoluer et parfois, les bonnes résolutions du départ se heurtent à la nouvelle réalité, avec leur lot de problèmes juridiques.
+1	Mais	Mais	CCONJ	_	CCONJ___	1	cc	_	_
+2	nous	se	PRON	_	PRON__Number=Plur|Person=1	3	nsubj	_	_
+3	ne	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+4	savons	savon	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+6	comment	comment	ADV	_	ADV__PronType=Int	1	advmod	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+8	vie	vie	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nsubj	_	_
+9	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	nous	se	PRON	_	PRON__Number=Plur|Person=1	1	obj	_	_
+11	faire	faire	VERB	_	VERB__VerbForm=Inf	13	ccomp	_	_
+12	évoluer	évoluer	VERB	_	VERB__VerbForm=Inf	13	xcomp	_	_
+13	et	et	CCONJ	_	CCONJ___	14	cc	_	_
+14	parfois	parfois	ADV	_	ADV___	10	conj	_	_
+15	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+16	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	10	det	_	_
+17	bonnes	bonne	ADJ	_	ADJ__Gender=Fem|Number=Plur	10	amod	_	_
+18	résolutions	résolution	NOUN	_	NOUN__Gender=Fem|Number=Plur	19	nsubj	_	_
+19	du	du	DET	_	DET__Gender=Masc|Number=Sing	17	det	_	_
+20	départ	départir	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+21	se	se	PRON	_	PRON__Person=3|Reflex=Yes	23	expl	_	_
+22	heurtent	heurter	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+23	à	à	ADP	_	ADP___	26	case	_	_
+24	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	nouvelle	nouveau	ADJ	_	ADJ__Gender=Fem|Number=Sing	26	amod	_	_
+26	réalité	réalité	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	obl	_	_
+27	,	,	PUNCT	_	PUNCT___	28	punct	_	_
+28	avec	avec	ADP	_	ADP___	26	case	_	_
+29	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	31	nmod:poss	_	_
+30	lot	lot	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	obl	_	_
+31	de	de	ADP	_	ADP___	28	case	_	_
+32	problèmes	problème	NOUN	_	NOUN__Gender=Masc|Number=Plur	38	nmod	_	_
+33	juridiques	juridique	ADJ	_	ADJ__Number=Plur	38	amod	_	_
+34	.	.	PUNCT	_	PUNCT___	33	punct	_	_
+
+
+#Maintenant, pour le prêt, chacun le sien, cela vous évitera de devoir le purger lors du divorce et surtout cela vous évite d'être garant de l'autre.
+1	Maintenant	Maintenant	ADV	_	ADV___	1	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	pour	pour	ADP	_	ADP___	1	case	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	prêt	prêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obl	_	_
+6	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+7	chacun	chacun	PRON	_	PRON__Gender=Masc|PronType=Rel	10	appos	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	sien	sien	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+10	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+11	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	13	nsubj	_	_
+12	vous	se	PRON	_	PRON__Number=Plur|Person=2	13	iobj	_	_
+13	évitera	éviter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+14	de	de	ADP	_	ADP___	10	mark	_	_
+15	devoir	devoir	AUX	_	AUX__VerbForm=Inf	14	xcomp	_	_
+16	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	obj	_	_
+17	purger	purger	VERB	_	VERB__VerbForm=Inf	10	xcomp	_	_
+18	lors	lors	ADV	_	ADV___	19	case	_	_
+19	du	du	DET	_	DET__Gender=Masc|Number=Sing	17	det	_	_
+20	divorce	divorcer	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obl	_	_
+21	et	et	CCONJ	_	CCONJ___	23	cc	_	_
+22	surtout	surtout	ADV	_	ADV___	23	advmod	_	_
+23	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	26	nsubj	_	_
+24	vous	se	PRON	_	PRON__Number=Plur|Person=2	26	iobj	_	_
+25	évite	éviter	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	26	conj	_	_
+26	d'	de	ADP	_	ADP___	26	mark	_	_
+27	être	être	AUX	_	AUX__VerbForm=Inf	28	aux:pass	_	_
+28	garant	garer	ADV	_	ADV___	26	acl	_	_
+29	de	de	ADP	_	ADP___	31	case	_	_
+30	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	31	det	_	_
+31	autre	autre	PRON	_	PRON__Number=Sing|PronType=Rel	28	obl	_	_
+32	.	.	PUNCT	_	PUNCT___	38	punct	_	_
+
+
+#Bonjour,Voyez les autres posts sur la copropriété à 2...
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	Voyez	Voyez	PROPN	_	PROPN__Gender=Masc|Number=Sing	1	conj	_	_
+4	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	6	det	_	_
+5	autres	autre	ADJ	_	ADJ__Number=Plur	6	amod	_	_
+6	posts	posts	NOUN	_	NOUN__Gender=Fem|Number=Plur	3	obj	_	_
+7	sur	sur	ADP	_	ADP___	9	case	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	copropriété	copropriété	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+10	à	à	ADP	_	ADP___	11	case	_	_
+11	2	2	NUM	_	NUM__NumType=Card	6	nmod	_	_
+12	...	...	PUNCT	_	PUNCT___	1	punct	_	_
+13	 	 	SPACE	_		12		_	_
+
+
+#c'est souvent l'enfer ou le blocage.c'est peut être moins cher au départ ... mais sur le long terme n'est pas une solution facile à gérer.
+1	c'	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	souvent	souvent	ADV	_	ADV___	1	advmod	_	_
+4	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+5	enfer	enfer	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nsubj	_	_
+6	ou	ou	CCONJ	_	CCONJ___	3	cc	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	blocage.c'	blocage.c'	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	conj	_	_
+9	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+10	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+11	être	être	AUX	_	AUX__VerbForm=Inf	6	det	_	_
+12	moins	moins	ADV	_	ADV___	1	advmod	_	_
+13	cher	cher	ADJ	_	ADJ__Gender=Masc|Number=Sing	12	amod	_	_
+14	au	au	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	18	det	_	_
+15	départ	départir	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obl	_	_
+16	...	...	PUNCT	_	PUNCT___	18	punct	_	_
+17	mais	mai	CCONJ	_	CCONJ___	18	cc	_	_
+18	sur	sur	ADP	_	ADP___	23	case	_	_
+19	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	long	long	ADJ	_	ADJ__Gender=Masc|Number=Sing	21	amod	_	_
+21	terme	terme	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	fixed	_	_
+22	n'	ne	ADV	_	ADV__Polarity=Neg	23	advmod	_	_
+23	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+24	pas	pas	ADV	_	ADV__Polarity=Neg	28	advmod	_	_
+25	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	solution	solution	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	conj	_	_
+27	facile	facile	ADJ	_	ADJ__Gender=Fem|Number=Sing	28	amod	_	_
+28	à	à	ADP	_	ADP___	23	mark	_	_
+29	gérer	gérer	VERB	_	VERB__VerbForm=Inf	23	acl	_	_
+30	.	.	PUNCT	_	PUNCT___	39	punct	_	_
+
+
+#Projetez vous dans 10 ans / 15 ans ...
+1	Projetez	Projetez	VERB	_	VERB__Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2|Reflex=Yes	3	obj	_	_
+3	dans	dan	ADP	_	ADP___	1	case	_	_
+4	10	10	NUM	_	NUM__NumType=Card	6	nummod	_	_
+5	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	obl	_	_
+6	/	/	ADP	_	ADP___	3	case	_	_
+7	15	15	NUM	_	NUM__NumType=Card	9	nummod	_	_
+8	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	conj	_	_
+9	...	...	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Bonjour,Je confirme.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	4	obl	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	Je	Je	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+4	confirme	confirmer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Pour l'instant, l'entente est bonne, mais que va-t-il se passer dans les années à venir ?
+1	Pour	Pour	ADP	_	ADP___	4	advmod	_	_
+2	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	4	fixed	_	_
+3	instant	instant	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	fixed	_	_
+4	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+5	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+6	entente	entente	ADJ	_	ADJ__Gender=Fem|Number=Sing	13	nsubj	_	_
+7	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+8	bonne	bon	ADJ	_	ADJ__Gender=Fem|Number=Sing	6	advcl	_	_
+9	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+10	mais	mai	CCONJ	_	CCONJ___	11	cc	_	_
+11	que	que	SCONJ	_	SCONJ___	13	mark	_	_
+12	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+13	-	-	PUNCT	_	PUNCT___	23	punct	_	_
+14	t	t	NOUN	_	NOUN__Gender=Fem|Number=Plur	13	obl	_	_
+15	-	-	PUNCT	_	PUNCT___	17	punct	_	_
+16	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	17	nsubj	_	_
+17	se	se	PRON	_	PRON__Person=3|Reflex=Yes	13	expl	_	_
+18	passer	prendre	VERB	_	VERB__VerbForm=Part	0	ROOT	_	_
+19	dans	dan	ADP	_	ADP___	17	case	_	_
+20	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	13	det	_	_
+21	années	année	NOUN	_	NOUN__Gender=Fem|Number=Plur	23	obl	_	_
+22	à	à	ADP	_	ADP___	23	mark	_	_
+23	venir	venir	VERB	_	VERB__VerbForm=Inf	23	acl	_	_
+24	?	?	PUNCT	_	PUNCT___	26	punct	_	_
+
+
+#L'un de vous deux (ou les deux) peut très bien se remarier et avoir de nouveaux enfants : pensez vous que le nouveau conjoint acceptera cette situation ?
+1	L'	L'	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+2	un	un	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	4	nsubj	_	_
+3	de	de	ADP	_	ADP___	4	case	_	_
+4	vous	se	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+5	deux	deux	NUM	_	NUM__NumType=Card	4	nummod	_	_
+6	(	(	PUNCT	_	PUNCT___	13	punct	_	_
+7	ou	ou	CCONJ	_	CCONJ___	6	cc	_	_
+8	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	6	det	_	_
+9	deux	deux	PRON	_	PRON__NumType=Card|PronType=Rel	13	conj	_	_
+10	)	)	PUNCT	_	PUNCT___	11	punct	_	_
+11	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	très	très	ADV	_	ADV___	13	advmod	_	_
+13	bien	bien	ADV	_	ADV___	23	advmod	_	_
+14	se	se	PRON	_	PRON__Person=3|Reflex=Yes	13	expl	_	_
+15	remarier	remarier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
+16	et	et	CCONJ	_	CCONJ___	17	cc	_	_
+17	avoir	avoir	VERB	_	VERB__VerbForm=Inf	13	conj	_	_
+18	de	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	17	det	_	_
+19	nouveaux	nouveau	ADJ	_	ADJ__Gender=Masc|Number=Plur	17	amod	_	_
+20	enfants	enfant	NOUN	_	NOUN__Number=Plur	13	obj	_	_
+21	:	:	PUNCT	_	PUNCT___	23	punct	_	_
+22	pensez	penser	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	vous	se	PRON	_	PRON__Number=Plur|Person=2	23	parataxis	_	_
+24	que	que	SCONJ	_	SCONJ___	26	mark	_	_
+25	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	nouveau	nouveau	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	amod	_	_
+27	conjoint	conjoindre	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	nsubj	_	_
+28	acceptera	accepter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	26	ccomp	_	_
+29	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	23	det	_	_
+30	situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	obj	_	_
+31	?	?	PUNCT	_	PUNCT___	44	punct	_	_
+
+
+#Et puis, il peut arriver également un accident de la vie pour l'un ou l'autre (décès, chômage, accident provoquant une invalidité, ou simplement une mutation entraînant un déménagement...) qui conduira à la vente de la moitié de la maison … et là, ce sera le début des problèmes de copropriété à deux.
+1	Et	Et	CCONJ	_	CCONJ___	4	cc	_	_
+2	puis	pouvoir	CCONJ	_	CCONJ___	4	cc	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+5	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+6	arriver	avoir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+7	également	également	ADV	_	ADV___	6	advmod	_	_
+8	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+9	accident	accident	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+10	de	de	ADP	_	ADP___	11	case	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	vie	vie	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nmod	_	_
+13	pour	pour	ADP	_	ADP___	23	case	_	_
+14	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+15	un	un	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	17	obl	_	_
+16	ou	ou	CCONJ	_	CCONJ___	17	cc	_	_
+17	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+18	autre	autre	PRON	_	PRON__Number=Sing|PronType=Rel	17	conj	_	_
+19	(	(	PUNCT	_	PUNCT___	17	punct	_	_
+20	décès	décès	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	obl	_	_
+21	,	,	PUNCT	_	PUNCT___	23	punct	_	_
+22	chômage	chômage	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	conj	_	_
+23	,	,	PUNCT	_	PUNCT___	23	punct	_	_
+24	accident	accident	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	advmod	_	_
+25	provoquant	provoquer	VERB	_	VERB__Tense=Pres|VerbForm=Part	26	acl	_	_
+26	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+27	invalidité	invalidité	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	obj	_	_
+28	,	,	PUNCT	_	PUNCT___	26	punct	_	_
+29	ou	ou	CCONJ	_	CCONJ___	23	cc	_	_
+30	simplement	simplement	ADV	_	ADV___	31	conj	_	_
+31	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+32	mutation	mutation	NOUN	_	NOUN__Gender=Fem|Number=Sing	33	obj	_	_
+33	entraînant	entraîner	VERB	_	VERB__Tense=Pres|VerbForm=Part	31	acl	_	_
+34	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+35	déménagement	déménagement	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	obj	_	_
+36	...	...	PUNCT	_	PUNCT___	38	punct	_	_
+37	)	)	PUNCT	_	PUNCT___	38	punct	_	_
+38	qui	qui	PRON	_	PRON__PronType=Rel	31	nsubj	_	_
+39	conduira	conduire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	31	ccomp	_	_
+40	à	à	ADP	_	ADP___	44	case	_	_
+41	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	vente	venter	NOUN	_	NOUN__Gender=Fem|Number=Sing	44	obl	_	_
+43	de	de	ADP	_	ADP___	44	case	_	_
+44	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+45	moitié	moitié	NOUN	_	NOUN__Gender=Fem|Number=Sing	46	nmod	_	_
+46	de	de	ADP	_	ADP___	44	case	_	_
+47	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
+48	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	49	nmod	_	_
+49	…	…	PUNCT	_	PUNCT___	46	amod	_	_
+50	et	et	CCONJ	_	CCONJ___	44	cc	_	_
+51	là	là	ADV	_	ADV___	52	conj	_	_
+52	,	,	PUNCT	_	PUNCT___	44	punct	_	_
+53	ce	ce	PRON	_	PRON__Number=Sing|Person=3	57	nsubj	_	_
+54	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	56	cop	_	_
+55	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
+56	début	début	NOUN	_	NOUN__Gender=Masc|Number=Sing	57	conj	_	_
+57	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	52	det	_	_
+58	problèmes	problème	NOUN	_	NOUN__Gender=Masc|Number=Plur	59	nmod	_	_
+59	de	de	ADP	_	ADP___	57	case	_	_
+60	copropriété	copropriété	NOUN	_	NOUN__Gender=Fem|Number=Sing	44	nmod	_	_
+61	à	à	ADP	_	ADP___	66	case	_	_
+62	deux	deux	PRON	_	PRON__NumType=Card|PronType=Rel	66	nmod	_	_
+63	.	.	PUNCT	_	PUNCT___	66	punct	_	_
+
+
+#Même si vous envisagez de rester proches l'un de l'autre pour le bien des enfants, chacun achète son propre terrain, chacun fait sa propre construction avec ses propres réseaux d'alimentation,  d'évacuation des eaux usées, sa propre chaudière, son propre financement sans avoir obligatoirement la caution de l'autre.
+1	Même	Même	ADV	_	ADV___	4	mark	_	_
+2	si	si	SCONJ	_	SCONJ___	4	fixed	_	_
+3	vous	se	PRON	_	PRON__Number=Plur|Person=2	4	nsubj	_	_
+4	envisagez	envisager	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+5	de	de	ADP	_	ADP___	4	mark	_	_
+6	rester	rester	AUX	_	AUX__VerbForm=Inf	13	cop	_	_
+7	proches	proche	ADJ	_	ADJ__Number=Plur	6	xcomp	_	_
+8	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+9	un	un	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	13	obj	_	_
+10	de	de	ADP	_	ADP___	11	case	_	_
+11	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+12	autre	autre	PRON	_	PRON__Number=Sing|PronType=Rel	13	nmod	_	_
+13	pour	pour	ADP	_	ADP___	23	case	_	_
+14	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	fixed	_	_
+15	bien	bien	ADV	_	ADV___	17	fixed	_	_
+16	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	17	det	_	_
+17	enfants	enfant	NOUN	_	NOUN__Number=Plur	13	nmod	_	_
+18	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+19	chacun	chacun	PRON	_	PRON__Gender=Masc|PronType=Rel	17	nsubj	_	_
+20	achète	acheter	ADJ	_	ADJ__Gender=Fem|Number=Sing	13	advcl	_	_
+21	son	son	DET	_	DET__Number=Sing|Poss=Yes	23	nmod:poss	_	_
+22	propre	propre	ADJ	_	ADJ__Number=Sing	23	amod	_	_
+23	terrain	terrain	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	obj	_	_
+24	,	,	PUNCT	_	PUNCT___	26	punct	_	_
+25	chacun	chacun	PRON	_	PRON__Gender=Masc|PronType=Rel	26	nsubj	_	_
+26	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+27	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	28	nmod:poss	_	_
+28	propre	propre	ADJ	_	ADJ__Number=Sing	26	amod	_	_
+29	construction	construction	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	obj	_	_
+30	avec	avec	ADP	_	ADP___	31	case	_	_
+31	ses	son	DET	_	DET__Number=Plur|Poss=Yes	44	nmod:poss	_	_
+32	propres	propre	ADJ	_	ADJ__Number=Plur	33	amod	_	_
+33	réseaux	réseau	NOUN	_	NOUN__Gender=Masc|Number=Plur	31	nmod	_	_
+34	d'	de	ADP	_	ADP___	33	case	_	_
+35	alimentation	alimentation	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	nmod	_	_
+36	,	,	PUNCT	_	PUNCT___	38	punct	_	_
+37	 	 	SPACE	_		38		_	_
+38	d'	de	ADP	_	ADP___	31	case	_	_
+39	évacuation	évacuation	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	nmod	_	_
+40	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	44	det	_	_
+41	eaux	eau	NOUN	_	NOUN__Gender=Fem|Number=Plur	42	obj	_	_
+42	usées	user	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	44	amod	_	_
+43	,	,	PUNCT	_	PUNCT___	44	punct	_	_
+44	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	44	nmod:poss	_	_
+45	propre	propre	ADJ	_	ADJ__Number=Sing	46	amod	_	_
+46	chaudière	chaudière	ADJ	_	ADJ__Gender=Fem|Number=Sing	44	appos	_	_
+47	,	,	PUNCT	_	PUNCT___	49	punct	_	_
+48	son	son	DET	_	DET__Number=Sing|Poss=Yes	49	nmod:poss	_	_
+49	propre	propre	ADJ	_	ADJ__Number=Sing	46	amod	_	_
+50	financement	financement	NOUN	_	NOUN__Gender=Masc|Number=Sing	44	obl	_	_
+51	sans	sans	ADP	_	ADP___	52	mark	_	_
+52	avoir	avoir	VERB	_	VERB__VerbForm=Inf	44	advcl	_	_
+53	obligatoirement	obligatoirement	ADV	_	ADV___	57	advmod	_	_
+54	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	56	det	_	_
+55	caution	caution	NOUN	_	NOUN__Gender=Fem|Number=Sing	56	obj	_	_
+56	de	de	ADP	_	ADP___	57	case	_	_
+57	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	52	det	_	_
+58	autre	autre	PRON	_	PRON__Number=Sing|PronType=Rel	59	nmod	_	_
+59	.	.	PUNCT	_	PUNCT___	57	punct	_	_
+
+
+#Les enfants pourront vadrouiller de l'un à l'autre, mais en cas de revente de l'un des biens, cela n'impactera pas la vie de l'autre.
+1	Les	Les	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+2	enfants	enfant	NOUN	_	NOUN__Number=Plur	4	nsubj	_	_
+3	pourront	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	4	aux	_	_
+4	vadrouiller	vadrouiller	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	de	de	ADP	_	ADP___	4	case	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+7	un	un	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	6	obl	_	_
+8	à	à	ADP	_	ADP___	6	case	_	_
+9	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+10	autre	autre	PRON	_	PRON__Number=Sing|PronType=Rel	11	nmod	_	_
+11	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+12	mais	mai	CCONJ	_	CCONJ___	13	cc	_	_
+13	en	en	ADP	_	ADP___	23	case	_	_
+14	cas	cas	NOUN	_	NOUN__Gender=Masc	13	fixed	_	_
+15	de	de	ADP	_	ADP___	17	fixed	_	_
+16	revente	revente	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	conj	_	_
+17	de	de	ADP	_	ADP___	13	case	_	_
+18	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+19	un	un	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	17	nmod	_	_
+20	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	13	det	_	_
+21	biens	bien	NOUN	_	NOUN__Gender=Masc|Number=Plur	23	nmod	_	_
+22	,	,	PUNCT	_	PUNCT___	23	punct	_	_
+23	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	23	nsubj	_	_
+24	n'	ne	ADV	_	ADV__Polarity=Neg	26	advmod	_	_
+25	impactera	impactera	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	26	parataxis	_	_
+26	pas	pas	ADV	_	ADV__Polarity=Neg	23	advmod	_	_
+27	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	vie	vie	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	obj	_	_
+29	de	de	ADP	_	ADP___	23	case	_	_
+30	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	31	det	_	_
+31	autre	autre	PRON	_	PRON__Number=Sing|PronType=Rel	44	nmod	_	_
+32	.	.	PUNCT	_	PUNCT___	33	punct	_	_
+
+
+#Cela sera peut-être un peu plus cher au départ (et encore, ce n'est pas certain) mais évitera tous les conflits à venir.
+1	Cela	Cela	PRON	_	PRON__Number=Sing|PronType=Dem	4	nsubj	_	_
+2	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	cop	_	_
+3	peut-être	peut-être	ADV	_	ADV___	4	advmod	_	_
+4	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+5	peu	peu	ADV	_	ADV___	4	fixed	_	_
+6	plus	plaire	ADV	_	ADV___	13	advmod	_	_
+7	cher	cher	ADJ	_	ADJ__Gender=Masc|Number=Sing	6	amod	_	_
+8	au	au	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	6	det	_	_
+9	départ	départir	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+10	(	(	PUNCT	_	PUNCT___	11	punct	_	_
+11	et	et	CCONJ	_	CCONJ___	13	cc	_	_
+12	encore	encore	ADV	_	ADV___	13	advmod	_	_
+13	,	,	PUNCT	_	PUNCT___	23	punct	_	_
+14	ce	ce	PRON	_	PRON__PronType=Rel	13	nsubj	_	_
+15	n'	ne	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+16	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	pas	pas	ADV	_	ADV__Polarity=Neg	13	advmod	_	_
+18	certain	certain	ADJ	_	ADJ__Gender=Masc|Number=Sing	17	conj	_	_
+19	)	)	PUNCT	_	PUNCT___	17	punct	_	_
+20	mais	mai	CCONJ	_	CCONJ___	13	cc	_	_
+21	évitera	éviter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	23	conj	_	_
+22	tous	tout	ADJ	_	ADJ__Gender=Masc|Number=Plur	23	amod	_	_
+23	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	23	det	_	_
+24	conflits	conflit	NOUN	_	NOUN__Gender=Masc|Number=Plur	26	obj	_	_
+25	à	à	ADP	_	ADP___	26	mark	_	_
+26	venir	venir	VERB	_	VERB__VerbForm=Inf	23	acl	_	_
+27	.	.	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#BonjourJ'
+1	BonjourJ'	BonjourJ'	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+
+
+#ajoute mon grain de poivre:1/
+1	ajoute	ajouter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+2	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	2	nmod:poss	_	_
+3	grain	grain	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+4	de	de	ADP	_	ADP___	2	case	_	_
+5	poivre:1/	poivre:1/	PRON	_	PRON__PronType=Rel	6	nmod	_	_
+
+
+#La propriété à deux, c'est l'enfer sauf quand on s'entend vraiment très très très bien....
+1	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	propriété	propriété	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	nsubj	_	_
+3	à	à	ADP	_	ADP___	4	case	_	_
+4	deux	deux	NUM	_	NUM__NumType=Card	2	nmod	_	_
+5	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+6	c'	ce	PRON	_	PRON__Number=Sing|Person=3	2	nsubj	_	_
+7	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+9	enfer	enfer	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+10	sauf	sauf	ADP	_	ADP___	8	case	_	_
+11	quand	quand	SCONJ	_	SCONJ___	15	mark	_	_
+12	on	on	PRON	_	PRON__Number=Sing|Person=3	15	nsubj	_	_
+13	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	15	expl	_	_
+14	entend	entendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+15	vraiment	vraiment	ADV	_	ADV___	15	advmod	_	_
+16	très	très	ADV	_	ADV___	17	advmod	_	_
+17	très	très	ADV	_	ADV___	20	advmod	_	_
+18	très	très	ADV	_	ADV___	20	advmod	_	_
+19	bien	bien	ADV	_	ADV___	20	advmod	_	_
+20	....	....	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Donc...2/ UN tel bien est invendable.
+1	Donc	Donc	ADV	_	ADV___	1	advmod	_	_
+2	...	...	PUNCT	_	PUNCT___	2	punct	_	_
+3	2/	2/	NUM	_	NUM__NumType=Card	4	obl	_	_
+4	UN	UN	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+5	tel	tel	ADJ	_	ADJ__Gender=Masc|Number=Sing	6	dep	_	_
+6	bien	bien	ADV	_	ADV___	2	advmod	_	_
+7	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	invendable	invendable	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+9	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Il n'y a pas d'acheteur sur le marché.3/ Vos êtes en train d'inventer la ... séparation avec chaine....
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	2	advmod	_	_
+3	y	yu	PRON	_	PRON__Person=3	4	expl	_	_
+4	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+6	d'	de	DET	_	DET__Definite=Ind|Number=Sing|PronType=Art	2	det	_	_
+7	acheteur	acheteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+8	sur	sur	ADP	_	ADP___	15	case	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	marché.3/	marché.3/	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+11	Vos	Vos	PROPN	_	PROPN__Gender=Masc|Number=Sing	15	flat:name	_	_
+12	êtes	être	ADJ	_	ADJ__Number=Plur	15	cop	_	_
+13	en	en	ADP	_	ADP___	15	mark	_	_
+14	train	train	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	fixed	_	_
+15	d'	de	ADP	_	ADP___	15	fixed	_	_
+16	inventer	inventer	VERB	_	VERB__VerbForm=Inf	17	xcomp	_	_
+17	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+18	...	...	PUNCT	_	PUNCT___	20	punct	_	_
+19	séparation	séparation	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obj	_	_
+20	avec	avec	ADP	_	ADP___	15	case	_	_
+21	chaine	chaine	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	nmod	_	_
+22	....	....	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#S'il y a deux logements, il y aura deux taxes foncières et deux taxes d'habitation, ou alors vous ne construisez pas en copropriété, mais en indivision (l'un et l'autre propriétaire de l'ensemble de la maison) et alors là, vous restez enchaînés même après le divorce.
+1	S'	S'	SCONJ	_	SCONJ___	2	expl	_	_
+2	il	il	PRON	_	PRON__Number=Sing|Person=3	10	obl	_	_
+3	y	yu	PRON	_	PRON__Person=3	2	fixed	_	_
+4	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	fixed	_	_
+5	deux	deux	NUM	_	NUM__NumType=Card	6	nummod	_	_
+6	logements	logement	NOUN	_	NOUN__Gender=Masc|Number=Plur	2	obj	_	_
+7	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+8	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
+9	y	yu	PRON	_	PRON__Person=3	10	iobj	_	_
+10	aura	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+11	deux	deux	NUM	_	NUM__NumType=Card	12	nummod	_	_
+12	taxes	taxer	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	obj	_	_
+13	foncières	foncier	ADJ	_	ADJ__Number=Plur	12	amod	_	_
+14	et	et	CCONJ	_	CCONJ___	16	cc	_	_
+15	deux	deux	NUM	_	NUM__NumType=Card	16	nummod	_	_
+16	taxes	taxer	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	conj	_	_
+17	d'	de	ADP	_	ADP___	18	case	_	_
+18	habitation	habitation	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nmod	_	_
+19	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+20	ou	ou	CCONJ	_	CCONJ___	24	cc	_	_
+21	alors	alors	ADV	_	ADV___	24	advmod	_	_
+22	vous	se	PRON	_	PRON__Number=Plur|Person=2	24	nsubj	_	_
+23	ne	ne	ADV	_	ADV__Polarity=Neg	24	advmod	_	_
+24	construisez	construire	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+25	pas	pas	ADV	_	ADV__Polarity=Neg	24	advmod	_	_
+26	en	en	ADP	_	ADP___	27	case	_	_
+27	copropriété	copropriété	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	obj	_	_
+28	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+29	mais	mai	CCONJ	_	CCONJ___	31	cc	_	_
+30	en	en	ADP	_	ADP___	31	case	_	_
+31	indivision	indivision	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	conj	_	_
+32	(	(	PUNCT	_	PUNCT___	31	punct	_	_
+33	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	34	det	_	_
+34	un	un	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	31	appos	_	_
+35	et	et	CCONJ	_	CCONJ___	38	cc	_	_
+36	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	38	det	_	_
+37	autre	autre	ADJ	_	ADJ__Number=Sing	38	amod	_	_
+38	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	34	conj	_	_
+39	de	de	ADP	_	ADP___	41	case	_	_
+40	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	41	det	_	_
+41	ensemble	ensemble	NOUN	_	NOUN__Gender=Masc|Number=Sing	38	nmod	_	_
+42	de	de	ADP	_	ADP___	44	case	_	_
+43	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+44	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	41	nmod	_	_
+45	)	)	PUNCT	_	PUNCT___	10	punct	_	_
+46	et	et	CCONJ	_	CCONJ___	51	cc	_	_
+47	alors	alors	ADV	_	ADV___	48	advmod	_	_
+48	là	là	ADV	_	ADV___	51	obl	_	_
+49	,	,	PUNCT	_	PUNCT___	51	punct	_	_
+50	vous	se	PRON	_	PRON__Number=Plur|Person=2	51	nsubj	_	_
+51	restez	rester	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	10	conj	_	_
+52	enchaînés	enchaîner	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	51	xcomp	_	_
+53	même	même	ADV	_	ADV___	51	advmod	_	_
+54	après	après	ADP	_	ADP___	56	case	_	_
+55	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
+56	divorce	divorcer	NOUN	_	NOUN__Gender=Masc|Number=Sing	51	obl	_	_
+57	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Envisagez vous au minimum des compteurs séparés ou vous envisagez un seul abonnement (pour faire des économies) en partageant les factures 50/50 ?
+1	Envisagez	Envisagez	PROPN	_	PROPN___	2	nsubj	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	10	nsubj	_	_
+3	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	2	iobj	_	_
+4	minimum	minimum	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
+6	compteurs	compteur	NOUN	_	NOUN__Gender=Masc|Number=Plur	2	obj	_	_
+7	séparés	séparer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	10	amod	_	_
+8	ou	ou	CCONJ	_	CCONJ___	10	cc	_	_
+9	vous	se	PRON	_	PRON__Number=Plur|Person=2	10	nsubj	_	_
+10	envisagez	envisager	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	10	conj	_	_
+11	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	seul	seul	ADJ	_	ADJ__Gender=Masc|Number=Sing	10	amod	_	_
+13	abonnement	abonnement	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+14	(	(	PUNCT	_	PUNCT___	16	punct	_	_
+15	pour	pour	ADP	_	ADP___	16	mark	_	_
+16	faire	faire	VERB	_	VERB__VerbForm=Inf	12	advcl	_	_
+17	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	18	det	_	_
+18	économies	économie	NOUN	_	NOUN__Gender=Fem|Number=Plur	16	obj	_	_
+19	)	)	PUNCT	_	PUNCT___	16	punct	_	_
+20	en	en	ADP	_	ADP___	24	mark	_	_
+21	partageant	partager	VERB	_	VERB__Tense=Pres|VerbForm=Part	24	advcl	_	_
+22	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	24	det	_	_
+23	factures	facturer	NOUN	_	NOUN__Gender=Fem|Number=Plur	24	obj	_	_
+24	50/50	50/50	NUM	_	NUM__NumType=Card	10	nmod	_	_
+25	?	?	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#Donc un seul garage pour les deux maisons ?
+1	Donc	Donc	ADV	_	ADV___	2	advmod	_	_
+2	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+3	seul	seul	ADJ	_	ADJ__Gender=Masc|Number=Sing	2	amod	_	_
+4	garage	garage	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	pour	pour	ADP	_	ADP___	6	case	_	_
+6	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	2	det	_	_
+7	deux	deux	NUM	_	NUM__NumType=Card	10	nummod	_	_
+8	maisons	maison	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	nmod	_	_
+9	?	?	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#C'est de l'indivision.
+1	C'	C'	PRON	_	PRON__Number=Sing|Person=3	2	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+3	de	de	ADP	_	ADP___	2	case	_	_
+4	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	2	det	_	_
+5	indivision	indivision	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+6	.	.	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#Si vous voulez une seule taxe foncière et une seule taxe d'habitation, et si vous souhaitez avoir un sous-sol commun, il vous faut une maison en indivision et non en copropriété.
+1	Si	Si	SCONJ	_	SCONJ___	3	mark	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	3	nsubj	_	_
+3	voulez	vouloir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	26	advcl	_	_
+4	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	seule	seul	ADJ	_	ADJ__Gender=Fem|Number=Sing	6	amod	_	_
+6	taxe	taxer	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obj	_	_
+7	foncière	foncier	ADJ	_	ADJ__Gender=Fem|Number=Sing	6	amod	_	_
+8	et	et	CCONJ	_	CCONJ___	11	cc	_	_
+9	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	seule	seul	ADJ	_	ADJ__Gender=Fem|Number=Sing	11	amod	_	_
+11	taxe	taxer	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	conj	_	_
+12	d'	de	ADP	_	ADP___	13	case	_	_
+13	habitation	habitation	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+14	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+15	et	et	CCONJ	_	CCONJ___	19	cc	_	_
+16	si	si	SCONJ	_	SCONJ___	18	mark	_	_
+17	vous	se	PRON	_	PRON__Number=Plur|Person=2	18	nsubj	_	_
+18	souhaitez	souhaiter	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	avoir	avoir	VERB	_	VERB__VerbForm=Inf	26	advcl	_	_
+20	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	sous-sol	sous-sol	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obj	_	_
+22	commun	commun	ADJ	_	ADJ__Gender=Masc|Number=Sing	21	amod	_	_
+23	,	,	PUNCT	_	PUNCT___	26	punct	_	_
+24	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	26	nsubj	_	_
+25	vous	se	PRON	_	PRON__Number=Plur|Person=2	26	iobj	_	_
+26	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+27	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	obj	_	_
+29	en	en	ADP	_	ADP___	30	case	_	_
+30	indivision	indivision	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	nmod	_	_
+31	et	et	CCONJ	_	CCONJ___	32	cc	_	_
+32	non	non	ADV	_	ADV___	34	advmod	_	_
+33	en	en	ADP	_	ADP___	34	case	_	_
+34	copropriété	copropriété	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	obl	_	_
+35	.	.	PUNCT	_	PUNCT___	26	punct	_	_
+
+
+#Dans ce cas, vous n'avez qu'une seule maison que vous vous répartissez comme vous le souhaitez à l'intérieur mais ce n'est plus de la copropriété : chacun ne dispose pas de son lot qu'il peut revendre quand il le souhaite.
+1	Dans	Dans	ADP	_	ADP___	3	case	_	_
+2	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	obl	_	_
+4	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+5	vous	se	PRON	_	PRON__Number=Plur|Person=2	6	nsubj	_	_
+6	n'	ne	ADV	_	ADV___	3	advmod	_	_
+7	avez	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	qu'	que	ADV	_	ADV___	11	advmod	_	_
+9	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	seule	seul	ADJ	_	ADJ__Gender=Fem|Number=Sing	11	amod	_	_
+11	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	ccomp	_	_
+12	que	que	PRON	_	PRON__PronType=Rel	13	obj	_	_
+13	vous	se	PRON	_	PRON__Number=Plur|Person=2	11	nsubj	_	_
+14	vous	se	PRON	_	PRON__Number=Plur|Person=2	3	iobj	_	_
+15	répartissez	répartir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+16	comme	comme	ADP	_	ADP___	18	mark	_	_
+17	vous	se	PRON	_	PRON__Number=Plur|Person=2	18	nsubj	_	_
+18	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	19	obj	_	_
+19	souhaitez	souhaiter	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	obl	_	_
+20	à	à	ADP	_	ADP___	21	case	_	_
+21	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+22	intérieur	intérieur	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obl	_	_
+23	mais	mai	CCONJ	_	CCONJ___	26	cc	_	_
+24	ce	ce	PRON	_	PRON__PronType=Rel	26	det	_	_
+25	n'	ne	ADV	_	ADV__Polarity=Neg	26	advmod	_	_
+26	est	être	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+27	plus	plaire	ADV	_	ADV__Polarity=Neg	28	advmod	_	_
+28	de	de	ADP	_	ADP___	26	case	_	_
+29	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	copropriété	copropriété	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	nsubj	_	_
+31	:	:	PUNCT	_	PUNCT___	32	punct	_	_
+32	chacun	chacun	PRON	_	PRON__Gender=Masc|PronType=Rel	34	nsubj	_	_
+33	ne	ne	ADV	_	ADV__Polarity=Neg	34	advmod	_	_
+34	dispose	disposer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	conj	_	_
+35	pas	pas	ADV	_	ADV__Polarity=Neg	26	advmod	_	_
+36	de	de	ADP	_	ADP___	38	case	_	_
+37	son	son	DET	_	DET__Number=Sing|Poss=Yes	38	nmod:poss	_	_
+38	lot	lot	NOUN	_	NOUN__Gender=Masc|Number=Sing	42	obl	_	_
+39	qu'	que	PRON	_	PRON__PronType=Rel	42	obj	_	_
+40	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	42	nsubj	_	_
+41	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	aux	_	_
+42	revendre	revendre	VERB	_	VERB__VerbForm=Inf	42	acl:relcl	_	_
+43	quand	quand	SCONJ	_	SCONJ___	46	mark	_	_
+44	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	46	nsubj	_	_
+45	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	46	det	_	_
+46	souhaite	souhaiter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	obl	_	_
+47	.	.	PUNCT	_	PUNCT___	50	punct	_	_
+
+
+#Bonjour.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Et l'option sci ?
+1	Et	Et	CCONJ	_	CCONJ___	1	cc	_	_
+2	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+3	option	option	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	sci	sci	ADJ	_	ADJ__Gender=Masc|Number=Sing	5	advmod	_	_
+5	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+6	 	 	SPACE	_		5		_	_
+
+
+#Avec 50% chacun.
+1	Avec	Avec	ADP	_	ADP___	1	case	_	_
+2	50	50	NUM	_	NUM__NumType=Card	1	nummod	_	_
+3	%	%	NOUN	_	NOUN__Gender=Masc	0	ROOT	_	_
+4	chacun	chacun	PRON	_	PRON__Gender=Masc|PronType=Rel	5	amod	_	_
+5	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+6	 	 	SPACE	_		5		_	_
+
+
+#Une seul taxe.
+1	Une	Une	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	seul	seul	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	amod	_	_
+3	taxe	taxer	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Une seul construction.
+1	Une	Une	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	seul	seul	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	amod	_	_
+3	construction	construction	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Que des parts.
+1	Que	Que	SCONJ	_	SCONJ___	1	advmod	_	_
+2	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	1	det	_	_
+3	parts	part	NOUN	_	NOUN__Number=Plur	0	ROOT	_	_
+4	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#La coporpriété a 50-50 ou a deux on peut en sortir en vendant.
+1	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	coporpriété	coporpriété	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+3	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+4	50	50	NUM	_	NUM__NumType=Card	9	nummod	_	_
+5	-	-	PUNCT	_	PUNCT___	6	punct	_	_
+6	50	50	NUM	_	NUM__NumType=Card	4	fixed	_	_
+7	ou	ou	CCONJ	_	CCONJ___	8	cc	_	_
+8	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+9	deux	deux	NUM	_	NUM__NumType=Card	3	obj	_	_
+10	on	on	PRON	_	PRON__Number=Sing|Person=3	13	nsubj	_	_
+11	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	en	en	PRON	_	PRON__Person=3	13	expl	_	_
+13	sortir	sortir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+14	en	en	ADP	_	ADP___	15	mark	_	_
+15	vendant	vendre	VERB	_	VERB__Tense=Pres|VerbForm=Part	13	advcl	_	_
+16	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#La copro à deux a égalité avec deux cogérants, comment dire..... c'est encore pire...
+1	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	copro	copro	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+3	à	à	ADP	_	ADP___	13	case	_	_
+4	deux	deux	PRON	_	PRON__NumType=Card|PronType=Rel	9	nummod	_	_
+5	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	égalité	égalité	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+7	avec	avec	ADP	_	ADP___	8	case	_	_
+8	deux	deux	NUM	_	NUM__NumType=Card	6	nummod	_	_
+9	cogérants	cogérants	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	obl	_	_
+10	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+11	comment	comment	ADV	_	ADV__PronType=Int	13	advmod	_	_
+12	dire	dire	VERB	_	VERB__VerbForm=Inf	13	parataxis	_	_
+13	.....	.....	PUNCT	_	PUNCT___	13	mark	_	_
+14	c'	ce	PRON	_	PRON__Number=Sing|Person=3	15	nsubj	_	_
+15	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+16	encore	encore	ADV	_	ADV___	13	advmod	_	_
+17	pire	pire	ADJ	_	ADJ__Number=Sing	18	ccomp	_	_
+18	...	...	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#La SCI est peut-être une solution pour éviter la double taxe foncière mais cela ne simplifierait pas la situation en cas de revente partielle du bien : aucun acheteur n'acceptera d'acheter les parts d'une SCI et de ne pas être totalement chez lui.
+1	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	SCI	SCI	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	peut-être	peut-être	ADV	_	ADV___	6	advmod	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	solution	solution	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+7	pour	pour	ADP	_	ADP___	8	mark	_	_
+8	éviter	éviter	VERB	_	VERB__VerbForm=Inf	6	acl	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	double	doubler	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	amod	_	_
+11	taxe	taxer	ADJ	_	ADJ__Gender=Fem|Number=Sing	8	obj	_	_
+12	foncière	foncier	ADJ	_	ADJ__Gender=Fem|Number=Sing	11	amod	_	_
+13	mais	mai	CCONJ	_	CCONJ___	16	cc	_	_
+14	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	16	nsubj	_	_
+15	ne	ne	ADV	_	ADV__Polarity=Neg	16	advmod	_	_
+16	simplifierait	simplifier	VERB	_	VERB__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+17	pas	pas	ADV	_	ADV__Polarity=Neg	16	advmod	_	_
+18	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obj	_	_
+20	en	en	ADP	_	ADP___	23	case	_	_
+21	cas	cas	NOUN	_	NOUN__Gender=Masc	20	fixed	_	_
+22	de	de	ADP	_	ADP___	20	fixed	_	_
+23	revente	revente	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	nmod	_	_
+24	partielle	partiel	ADJ	_	ADJ__Gender=Fem|Number=Sing	23	amod	_	_
+25	du	du	DET	_	DET__Gender=Masc|Number=Sing	16	advmod	_	_
+26	bien	bien	ADV	_	ADV___	25	fixed	_	_
+27	:	:	PUNCT	_	PUNCT___	16	punct	_	_
+28	aucun	aucun	DET	_	DET__Gender=Masc|Number=Sing	29	det	_	_
+29	acheteur	acheteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	nsubj	_	_
+30	n'	ne	ADV	_	ADV___	31	advmod	_	_
+31	acceptera	accepter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	acl:relcl	_	_
+32	d'	de	ADP	_	ADP___	33	mark	_	_
+33	acheter	acheter	VERB	_	VERB__VerbForm=Inf	31	xcomp	_	_
+34	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	35	det	_	_
+35	parts	part	NOUN	_	NOUN__Number=Plur	33	obj	_	_
+36	d'	de	ADP	_	ADP___	38	case	_	_
+37	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	SCI	SCI	NOUN	_	NOUN__Gender=Fem|Number=Sing	35	nmod	_	_
+39	et	et	CCONJ	_	CCONJ___	43	cc	_	_
+40	de	de	ADP	_	ADP___	43	det	_	_
+41	ne	ne	ADV	_	ADV___	43	advmod	_	_
+42	pas	pas	ADV	_	ADV___	41	fixed	_	_
+43	être	être	AUX	_	AUX__VerbForm=Inf	46	cop	_	_
+44	totalement	totalement	ADV	_	ADV___	46	advmod	_	_
+45	chez	chez	ADP	_	ADP___	46	case	_	_
+46	lui	luire	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	obl	_	_
+47	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#De plus, pour la SCI, le financement devra être fait en commun par les deux co-gérants : ils resteront donc financièrement dépendant l'un de l'autre : si l'un ne paie pas, les créanciers se retourneront contre l'autre.
+1	De	De	ADP	_	ADP___	2	advmod	_	_
+2	plus	plaire	ADV	_	ADV___	6	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+4	pour	pour	ADP	_	ADP___	6	case	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	SCI	SCI	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obl	_	_
+7	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+9	financement	financement	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nsubj	_	_
+10	devra	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+11	être	être	AUX	_	AUX__VerbForm=Inf	8	aux:pass	_	_
+12	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	xcomp	_	_
+13	en	en	ADP	_	ADP___	16	case	_	_
+14	commun	commun	ADJ	_	ADJ__Gender=Masc|Number=Sing	16	obl	_	_
+15	par	par	ADP	_	ADP___	16	case	_	_
+16	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	6	det	_	_
+17	deux	deux	NUM	_	NUM__NumType=Card	16	nummod	_	_
+18	co-gérants	co-gérants	NOUN	_	NOUN__Gender=Masc|Number=Plur	19	obl	_	_
+19	:	:	PUNCT	_	PUNCT___	16	punct	_	_
+20	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	23	nsubj	_	_
+21	resteront	rester	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	parataxis	_	_
+22	donc	donc	ADV	_	ADV___	20	advmod	_	_
+23	financièrement	financièrement	ADV	_	ADV___	19	advmod	_	_
+24	dépendant	dépendre	VERB	_	VERB__Tense=Pres|VerbForm=Part	23	conj	_	_
+25	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+26	un	un	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	25	obj	_	_
+27	de	de	ADP	_	ADP___	16	case	_	_
+28	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	29	det	_	_
+29	autre	autre	PRON	_	PRON__Number=Sing|PronType=Rel	31	nmod	_	_
+30	:	:	PUNCT	_	PUNCT___	31	punct	_	_
+31	si	si	SCONJ	_	SCONJ___	6	mark	_	_
+32	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	33	det	_	_
+33	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	nsubj	_	_
+34	ne	ne	ADV	_	ADV__Polarity=Neg	35	advmod	_	_
+35	paie	payer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	advcl	_	_
+36	pas	pas	ADV	_	ADV__Polarity=Neg	38	advmod	_	_
+37	,	,	PUNCT	_	PUNCT___	38	punct	_	_
+38	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	35	det	_	_
+39	créanciers	créancier	NOUN	_	NOUN__Gender=Masc|Number=Plur	43	nsubj	_	_
+40	se	se	PRON	_	PRON__Person=3|Reflex=Yes	43	expl	_	_
+41	retourneront	retourner	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	43	parataxis	_	_
+42	contre	contrer	ADP	_	ADP___	41	case	_	_
+43	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	46	det	_	_
+44	autre	autre	PRON	_	PRON__Number=Sing|PronType=Rel	46	obl	_	_
+45	.	.	PUNCT	_	PUNCT___	46	punct	_	_
+
+
