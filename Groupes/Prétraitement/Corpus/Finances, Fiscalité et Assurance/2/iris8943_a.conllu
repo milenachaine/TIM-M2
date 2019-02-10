@@ -1,0 +1,280 @@
+#BonjourSi le logement est utilisé, il est taxable.
+1	BonjourSi	BonjourSi	SCONJ	_	SCONJ___	5	nsubj:pass	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	logement	logement	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	1	obj	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	utilisé	utiliser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+6	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+7	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
+8	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	taxable	taxable	ADJ	_	ADJ__Number=Sing	5	parataxis	_	_
+10	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#S'il ne l'es tpas il l'est aussi d'ailleurs, avec quelques rares exceptions.
+1	S'	S'	SCONJ	_	SCONJ___	5	mark	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+3	ne	ne	ADV	_	ADV___	1	advmod	_	_
+4	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	es	être	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	fixed	_	_
+6	tpas	tpas	NOUN	_	NOUN__Gender=Masc	5	fixed	_	_
+7	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
+8	l'	le	PRON	_	PRON__Number=Sing|Person=3	0	ROOT	_	_
+9	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+10	aussi	aussi	ADV	_	ADV___	5	advmod	_	_
+11	d'	de	ADP	_	ADP___	18	advmod	_	_
+12	ailleurs	ailleurs	NOUN	_	NOUN__Gender=Masc	18	fixed	_	_
+13	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+14	avec	avec	ADP	_	ADP___	16	case	_	_
+15	quelques	quelque	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
+16	rares	rare	ADJ	_	ADJ__Number=Plur	12	amod	_	_
+17	exceptions	exception	NOUN	_	NOUN__Gender=Fem|Number=Plur	18	obl	_	_
+18	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Dans votre cas, soit vous déclarez les occupants, ils doivent la TH, mais faute d'avoir déclaré leur départ (et du fait du droit de suite), les impots peuvent vous la demander a vous, soit c'est vous directement qui devez la TF du fait que vous utilisez ce logement pour y héberger qui que ce soit.
+1	Dans	Dans	ADP	_	ADP___	5	case	_	_
+2	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	3	nmod:poss	_	_
+3	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+4	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+5	soit	être	CCONJ	_	CCONJ___	5	cc	_	_
+6	vous	se	PRON	_	PRON__Number=Plur|Person=2	5	nsubj	_	_
+7	déclarez	déclarer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+8	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+9	occupants	occupant	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	obj	_	_
+10	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+11	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	18	nsubj	_	_
+12	doivent	devoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+14	TH	TH	PROPN	_	PROPN__Gender=Fem|Number=Sing	16	obj	_	_
+15	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+16	mais	mai	CCONJ	_	CCONJ___	12	cc	_	_
+17	faute	fauter	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	conj	_	_
+18	d'	de	ADP	_	ADP___	18	mark	_	_
+19	avoir	avoir	AUX	_	AUX__VerbForm=Inf	18	aux	_	_
+20	déclaré	déclarer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	xcomp	_	_
+21	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	18	nmod:poss	_	_
+22	départ	départir	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obj	_	_
+23	(	(	PUNCT	_	PUNCT___	18	punct	_	_
+24	et	et	CCONJ	_	CCONJ___	27	cc	_	_
+25	du	du	DET	_	DET__Gender=Masc|Number=Sing	27	det	_	_
+26	fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	conj	_	_
+27	du	du	DET	_	DET__Gender=Masc|Number=Sing	18	det	_	_
+28	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obj	_	_
+29	de	de	ADP	_	ADP___	31	case	_	_
+30	suite	suite	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	nmod	_	_
+31	)	)	PUNCT	_	PUNCT___	35	punct	_	_
+32	,	,	PUNCT	_	PUNCT___	35	punct	_	_
+33	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	35	det	_	_
+34	impots	impots	NOUN	_	NOUN__Gender=Masc|Number=Plur	35	nsubj	_	_
+35	peuvent	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	40	aux	_	_
+36	vous	se	PRON	_	PRON__Number=Plur|Person=2	37	expl	_	_
+37	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	obj	_	_
+38	demander	demander	VERB	_	VERB__VerbForm=Inf	40	parataxis	_	_
+39	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	advmod	_	_
+40	vous	se	PRON	_	PRON__Number=Plur|Person=2	40	nsubj	_	_
+41	,	,	PUNCT	_	PUNCT___	42	punct	_	_
+42	soit	être	CCONJ	_	CCONJ___	40	cc	_	_
+43	c'	ce	PRON	_	PRON__Number=Sing|Person=3	40	nsubj	_	_
+44	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	cop	_	_
+45	vous	se	PRON	_	PRON__Number=Plur|Person=2	40	dep	_	_
+46	directement	directement	ADV	_	ADV___	48	advmod	_	_
+47	qui	qui	PRON	_	PRON__PronType=Rel	48	nsubj	_	_
+48	devez	devoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	45	dep	_	_
+49	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
+50	TF	TF	PRON	_	PRON__Person=3	48	conj	_	_
+51	du	du	DET	_	DET__Gender=Masc|Number=Sing	45	det	_	_
+52	fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	54	nsubj	_	_
+53	que	que	SCONJ	_	SCONJ___	54	mark	_	_
+54	vous	se	PRON	_	PRON__Number=Plur|Person=2	45	nsubj	_	_
+55	utilisez	utiliser	ADV	_	ADV___	56	acl:relcl	_	_
+56	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	54	det	_	_
+57	logement	logement	NOUN	_	NOUN__Gender=Masc|Number=Sing	58	obj	_	_
+58	pour	pour	ADP	_	ADP___	56	mark	_	_
+59	y	yu	PRON	_	PRON__Person=3	45	iobj	_	_
+60	héberger	héberger	VERB	_	VERB__VerbForm=Inf	66	advcl	_	_
+61	qui	qui	PRON	_	PRON__PronType=Rel	62	obj	_	_
+62	que	que	SCONJ	_	SCONJ___	66	mark	_	_
+63	ce	ce	PRON	_	PRON__Number=Sing|Person=3	66	acl:relcl	_	_
+64	soit	être	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	66	fixed	_	_
+65	.	.	PUNCT	_	PUNCT___	66	punct	_	_
+
+
+#Il n'y a aucun raison de déclarer ce logement vacant.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+3	y	yu	PRON	_	PRON__Person=3	1	expl	_	_
+4	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	aucun	aucun	DET	_	DET__Gender=Masc|Number=Sing	5	det	_	_
+6	raison	raison	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obj	_	_
+7	de	de	ADP	_	ADP___	9	mark	_	_
+8	déclarer	déclarer	VERB	_	VERB__VerbForm=Inf	9	xcomp	_	_
+9	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+10	logement	logement	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+11	vacant	vacant	ADJ	_	ADJ__Gender=Masc|Number=Sing	18	amod	_	_
+12	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Pour que la TH soit nulle sur la base des ressources, il faut que ces personnes aient présentées quelque document au impots et leurs coordonnées.
+1	Pour	Pour	ADP	_	ADP___	6	mark	_	_
+2	que	que	SCONJ	_	SCONJ___	1	fixed	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	TH	TH	PROPN	_	PROPN__Gender=Fem|Number=Sing	6	nsubj	_	_
+5	soit	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	nulle	nul	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	14	obl	_	_
+7	sur	sur	ADP	_	ADP___	9	case	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	base	baser	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+10	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
+11	ressources	ressource	NOUN	_	NOUN__Gender=Fem|Number=Plur	9	nmod	_	_
+12	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+13	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
+14	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+15	que	que	SCONJ	_	SCONJ___	19	mark	_	_
+16	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	17	det	_	_
+17	personnes	personne	NOUN	_	NOUN__Gender=Fem|Number=Plur	19	nsubj	_	_
+18	aient	avoir	AUX	_	AUX__Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	présentées	présenter	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	14	ccomp	_	_
+20	quelque	quelque	DET	_	DET__Number=Sing	21	case	_	_
+21	document	document	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obl	_	_
+22	au	au	PRON	_	PRON__PronType=Rel	23	case	_	_
+23	impots	impots	NOUN	_	NOUN__Gender=Masc|Number=Plur	19	obl	_	_
+24	et	et	CCONJ	_	CCONJ___	26	cc	_	_
+25	leurs	leur	DET	_	DET__Number=Plur|Poss=Yes	26	nmod:poss	_	_
+26	coordonnées	coordonner	NOUN	_	NOUN__Gender=Fem|Number=Plur	23	conj	_	_
+27	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Il sembel que personne ne l'ai fait.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+2	sembel	sembel	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	que	que	SCONJ	_	SCONJ___	4	mark	_	_
+4	personne	personne	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+5	ne	ne	ADV	_	ADV___	6	advmod	_	_
+6	l'	le	PRON	_	PRON__Number=Sing|Person=3	14	obj	_	_
+7	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	ccomp	_	_
+9	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Il faut en outre une déclaration sur les revenus de manière à calculer le revenu de référence, certes nul.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+2	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	en	en	ADP	_	ADP___	4	advmod	_	_
+4	outre	outrer	ADV	_	ADV___	6	fixed	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	déclaration	déclaration	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obj	_	_
+7	sur	sur	ADP	_	ADP___	9	case	_	_
+8	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+9	revenus	revenu	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	nmod	_	_
+10	de	de	ADP	_	ADP___	11	case	_	_
+11	manière	manière	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nmod	_	_
+12	à	à	ADP	_	ADP___	14	mark	_	_
+13	calculer	calculer	VERB	_	VERB__VerbForm=Inf	14	acl	_	_
+14	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+15	revenu	revenir	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obj	_	_
+16	de	de	ADP	_	ADP___	17	case	_	_
+17	référence	référence	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	nmod	_	_
+18	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+19	certes	certes	ADV	_	ADV___	14	conj	_	_
+20	nul	nul	ADJ	_	ADJ__Gender=Masc|Number=Sing	21	amod	_	_
+21	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Enfin, ceci vaut pour la TH, mais pas poru la TLV ni la THLV.Ici, faute de déclarer les occupants, vous pourriez devenir redevable de la TH à leur place, et mettre quelque temps à convaincre les impots que les revenus sont nuls, temps d'autant plus long qu'ils auraient à nouveau quitté la France;
+1	Enfin	Enfin	ADV	_	ADV___	6	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	ceci	ceci	PRON	_	PRON__Number=Sing|PronType=Dem	4	nsubj	_	_
+4	vaut	valoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	pour	pour	ADP	_	ADP___	6	case	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+7	TH	TH	PROPN	_	PROPN__Gender=Fem|Number=Sing	9	obl	_	_
+8	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+9	mais	mai	CCONJ	_	CCONJ___	6	cc	_	_
+10	pas	pas	ADV	_	ADV___	11	advmod	_	_
+11	poru	poru	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	conj	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	TLV	TLV	PROPN	_	PROPN__Gender=Fem|Number=Sing	14	obj	_	_
+14	ni	ni	CCONJ	_	CCONJ___	14	cc	_	_
+15	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+16	THLV.Ici	THLV.Ici	PROPN	_	PROPN__Gender=Fem|Number=Sing	17	conj	_	_
+17	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+18	faute	fauter	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obl	_	_
+19	de	de	ADP	_	ADP___	14	mark	_	_
+20	déclarer	déclarer	VERB	_	VERB__VerbForm=Inf	21	acl	_	_
+21	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	19	det	_	_
+22	occupants	occupant	NOUN	_	NOUN__Gender=Masc|Number=Plur	23	obj	_	_
+23	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+24	vous	se	PRON	_	PRON__Number=Plur|Person=2	26	nsubj	_	_
+25	pourriez	pouvoir	AUX	_	AUX__Mood=Cnd|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	devenir	devenir	VERB	_	VERB__VerbForm=Inf	23	parataxis	_	_
+27	redevable	redevable	ADJ	_	ADJ__Number=Sing	14	obj	_	_
+28	de	de	ADP	_	ADP___	29	case	_	_
+29	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+30	TH	TH	PROPN	_	PROPN__Gender=Fem|Number=Sing	31	obl	_	_
+31	à	à	ADP	_	ADP___	29	case	_	_
+32	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	35	nmod:poss	_	_
+33	place	placer	NOUN	_	NOUN__Gender=Fem|Number=Sing	35	nmod	_	_
+34	,	,	PUNCT	_	PUNCT___	35	punct	_	_
+35	et	et	CCONJ	_	CCONJ___	29	cc	_	_
+36	mettre	mettre	VERB	_	VERB__VerbForm=Inf	29	conj	_	_
+37	quelque	quelque	DET	_	DET__Number=Sing	38	det	_	_
+38	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	38	obj	_	_
+39	à	à	ADP	_	ADP___	38	case	_	_
+40	convaincre	convaincre	NOUN	_	NOUN__Gender=Fem|Number=Sing	39	xcomp	_	_
+41	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	42	det	_	_
+42	impots	impots	NOUN	_	NOUN__Gender=Masc|Number=Plur	38	obj	_	_
+43	que	que	SCONJ	_	SCONJ___	45	mark	_	_
+44	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	45	det	_	_
+45	revenus	revenu	NOUN	_	NOUN__Gender=Masc|Number=Plur	42	nsubj	_	_
+46	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	47	cop	_	_
+47	nuls	nul	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	45	acl:relcl	_	_
+48	,	,	PUNCT	_	PUNCT___	49	punct	_	_
+49	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Plur	42	conj	_	_
+50	d'	de	ADP	_	ADP___	51	mark	_	_
+51	autant	autant	ADV	_	ADV___	49	fixed	_	_
+52	plus	plaire	ADV	_	ADV___	53	fixed	_	_
+53	long	long	ADJ	_	ADJ__Gender=Masc|Number=Sing	51	fixed	_	_
+54	qu'	que	SCONJ	_	SCONJ___	55	fixed	_	_
+55	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	38	nsubj	_	_
+56	auraient	avoir	AUX	_	AUX__Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	55	aux	_	_
+57	à	à	ADP	_	ADP___	38	advmod	_	_
+58	nouveau	nouveau	NOUN	_	NOUN__Gender=Masc|Number=Sing	61	fixed	_	_
+59	quitté	quitter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	61	acl	_	_
+60	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	61	det	_	_
+61	France	France	PROPN	_	PROPN__Gender=Fem|Number=Sing	61	obj	_	_
+62	;	;	PUNCT	_	PUNCT___	64	punct	_	_
+
+
+#C'est surtout cela qu'il faut : la déclaration de revenus.
+1	C'	C'	PRON	_	PRON__Number=Sing|Person=3	4	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	surtout	surtout	ADV	_	ADV___	4	advmod	_	_
+4	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	0	ROOT	_	_
+5	qu'	que	SCONJ	_	SCONJ___	7	obj	_	_
+6	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+7	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+8	:	:	PUNCT	_	PUNCT___	4	punct	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	déclaration	déclaration	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	appos	_	_
+11	de	de	ADP	_	ADP___	12	case	_	_
+12	revenus	revenu	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	nmod	_	_
+13	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#La carte de séjour n'est pas nécessaire pour déclarer ses revenus;
+1	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	carte	carte	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nsubj	_	_
+3	de	de	ADP	_	ADP___	4	case	_	_
+4	séjour	séjour	PROPN	_	PROPN__Gender=Masc|Number=Sing	2	nmod	_	_
+5	n'	ne	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+6	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+8	nécessaire	nécessaire	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+9	pour	pour	ADP	_	ADP___	10	mark	_	_
+10	déclarer	déclarer	VERB	_	VERB__VerbForm=Inf	8	advcl	_	_
+11	ses	son	DET	_	DET__Number=Plur|Poss=Yes	12	nmod:poss	_	_
+12	revenus	revenu	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	obj	_	_
+13	;	;	PUNCT	_	PUNCT___	8	punct	_	_
+
+

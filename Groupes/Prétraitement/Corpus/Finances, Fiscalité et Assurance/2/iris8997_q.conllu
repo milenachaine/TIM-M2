@@ -1,0 +1,154 @@
+#Bonsoir,Voici la question de ma soeur
+1	Bonsoir	Bonsoir	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	Voici	Voici	VERB	_	VERB__Mood=Ind|VerbForm=Fin	1	conj	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obj	_	_
+6	de	de	ADP	_	ADP___	8	case	_	_
+7	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	8	nmod:poss	_	_
+8	soeur	soeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+
+
+#..«  je suis en cours de divorce.
+1	..	..	PUNCT	_	PUNCT___	0	ROOT	_	_
+2	«	«	PUNCT	_	PUNCT___	3	punct	_	_
+3	  	  	SPACE	_	_SP	1		_	_
+4	je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+5	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+6	en	en	ADP	_	ADP___	8	case	_	_
+7	cours	courir	NOUN	_	NOUN__Gender=Masc	8	fixed	_	_
+8	de	de	ADP	_	ADP___	5	fixed	_	_
+9	divorce	divorcer	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obl	_	_
+10	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Jai 3 enfants.
+1	Jai	Jai	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+2	3	3	NUM	_	NUM__NumType=Card	3	nummod	_	_
+3	enfants	enfant	NOUN	_	NOUN__Number=Plur	1	nmod	_	_
+4	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Jai quitté maMaison avec mes 3 enfans suite aux violences conjugales.
+1	Jai	Jai	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+2	quitté	quitter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+3	maMaison	maMaison	ADJ	_	ADJ__Gender=Fem|Number=Sing	1	obj	_	_
+4	avec	avec	ADP	_	ADP___	5	case	_	_
+5	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	3	nmod:poss	_	_
+6	3	3	NUM	_	NUM__NumType=Card	8	nummod	_	_
+7	enfans	enfans	ADP	_	ADP___	8	obl	_	_
+8	suite	suite	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	case	_	_
+9	aux	aux	ADP	_	ADP___	9	fixed	_	_
+10	violences	violence	NOUN	_	NOUN__Gender=Fem|Number=Plur	9	obl	_	_
+11	conjugales	conjugal	ADJ	_	ADJ__Number=Plur	10	amod	_	_
+12	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Il reste 60 milles euros à rembourser à la banque..
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	reste	rester	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	60	60	NUM	_	NUM__NumType=Card	1	nummod	_	_
+4	milles	mille	ADJ	_	ADJ__Number=Plur	0	ROOT	_	_
+5	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	obj	_	_
+6	à	à	ADP	_	ADP___	8	mark	_	_
+7	rembourser	rembourser	VERB	_	VERB__VerbForm=Inf	8	xcomp	_	_
+8	à	à	ADP	_	ADP___	5	case	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+10	banque	banque	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obl	_	_
+11	..	..	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Mon mari vit depuis plus dun an dans cette maison.
+1	Mon	Mon	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	mari	mari	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	vit	voir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl	_	_
+4	depuis	depuis	ADP	_	ADP___	5	case	_	_
+5	plus	plaire	ADV	_	ADV___	3	det	_	_
+6	dun	dun	ADP	_	ADP___	8	fixed	_	_
+7	an	an	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+8	dans	dan	ADP	_	ADP___	5	case	_	_
+9	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+10	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nmod	_	_
+11	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Le juge a prononcé en urgence une ordonnance pour interdire à mon mari de sapprocher de moi, qui lautorise à vivre dans cette maison et ordonne le remboursemebt du pret par mon mari..
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	juge	juger	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+4	prononcé	prononcer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	en	en	ADP	_	ADP___	3	case	_	_
+6	urgence	urgence	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+7	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	ordonnance	ordonnancer	NOUN	_	NOUN__Number=Sing	5	obj	_	_
+9	pour	pour	ADP	_	ADP___	9	case	_	_
+10	interdire	interdire	VERB	_	VERB__VerbForm=Inf	9	nmod	_	_
+11	à	à	ADP	_	ADP___	10	case	_	_
+12	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	17	nmod:poss	_	_
+13	mari	mari	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obl	_	_
+14	de	de	ADP	_	ADP___	17	mark	_	_
+15	sapprocher	sapprocher	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nmod	_	_
+16	de	de	ADP	_	ADP___	14	case	_	_
+17	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	9	nmod	_	_
+18	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+19	qui	qui	PRON	_	PRON__PronType=Rel	19	nsubj	_	_
+20	lautorise	lautorise	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+21	à	à	ADP	_	ADP___	19	case	_	_
+22	vivre	vivre	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obl	_	_
+23	dans	dan	ADP	_	ADP___	24	case	_	_
+24	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	24	det	_	_
+25	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	obl	_	_
+26	et	et	CCONJ	_	CCONJ___	29	cc	_	_
+27	ordonne	ordonner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	conj	_	_
+28	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	remboursemebt	remboursemebt	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	obj	_	_
+30	du	du	DET	_	DET__Gender=Masc|Number=Sing	32	det	_	_
+31	pret	pret	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	nsubj	_	_
+32	par	par	ADP	_	ADP___	24	case	_	_
+33	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	32	nmod:poss	_	_
+34	mari	mari	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	obl	_	_
+35	..	..	PUNCT	_	PUNCT___	38	punct	_	_
+
+
+#Or ce dernier a arreté le remboursement depuis 3 mois, la banque me menace personnelement de minscrire à la banque de france..
+1	Or	Or	CCONJ	_	CCONJ___	1	cc	_	_
+2	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	dernier	dernier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	1	nsubj	_	_
+4	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	arreté	arreté	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	remboursement	remboursement	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+8	depuis	depuis	ADP	_	ADP___	5	case	_	_
+9	3	3	NUM	_	NUM__NumType=Card	9	nummod	_	_
+10	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	obl	_	_
+11	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+13	banque	banque	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	nsubj	_	_
+14	me	se	PRON	_	PRON__Number=Sing|Person=1	17	iobj	_	_
+15	menace	menacer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+16	personnelement	personnelement	ADV	_	ADV___	14	advmod	_	_
+17	de	de	ADP	_	ADP___	9	case	_	_
+18	minscrire	minscrire	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obl	_	_
+19	à	à	ADP	_	ADP___	19	case	_	_
+20	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	banque	banque	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obl	_	_
+22	de	de	ADP	_	ADP___	19	case	_	_
+23	france	france	PROPN	_	PROPN__Gender=Fem|Number=Sing	24	nmod	_	_
+24	..	..	PUNCT	_	PUNCT___	24	parataxis	_	_
+
+
+#je ne sais plus quoi faire.. aidez moi svp »
+1	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ne	ne	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+3	sais	savoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	plus	plaire	ADV	_	ADV___	5	advmod	_	_
+5	quoi	quoi	PRON	_	PRON__PronType=Int	3	obj	_	_
+6	faire	faire	VERB	_	VERB__VerbForm=Inf	8	xcomp	_	_
+7	..	..	PUNCT	_	PUNCT___	8	punct	_	_
+8	aidez	aider	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	amod	_	_
+9	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	9	amod	_	_
+10	svp	svp	ADP	_	ADP___	9	advmod	_	_
+11	 	  	SPACE	_		10		_	_
+12	»	»	PUNCT	_	PUNCT___	17	punct	_	_
+
+

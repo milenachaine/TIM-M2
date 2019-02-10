@@ -1,0 +1,341 @@
+#Bonjour,
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Pourquoi vous posez la question dans fiscalité ?
+1	Pourquoi	Pourquoi	ADV	_	ADV__PronType=Int	1	advmod	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+3	posez	poser	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obj	_	_
+6	dans	dan	ADP	_	ADP___	7	case	_	_
+7	fiscalité	fiscalité	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obl	_	_
+8	?	?	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#c'est plutôt consommation, non ?
+1	c'	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	plutôt	plutôt	ADV	_	ADV___	5	advmod	_	_
+4	consommation	consommation	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+5	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+6	non	non	ADV	_	ADV___	7	advmod	_	_
+7	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Un bon de livraison n'est pas une facture.
+1	Un	Un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	bon	bon	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	de	de	ADP	_	ADP___	5	case	_	_
+4	livraison	livraison	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+5	n'	ne	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+6	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	pas	pas	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+8	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	facture	facturer	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+10	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Il faut payer selon la facture.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	payer	payer	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+4	selon	selon	ADP	_	ADP___	5	case	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+6	facture	facturer	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obl	_	_
+7	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Vous pensiez profiter de l'erreur du livreur pour vous défausser de vos dettes ?
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+2	pensiez	penser	AUX	_	AUX__Mood=Cnd|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	profiter	profiter	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	de	de	ADP	_	ADP___	5	case	_	_
+5	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+6	erreur	erreur	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+7	du	du	DET	_	DET__Gender=Masc|Number=Sing	5	det	_	_
+8	livreur	livreur	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	amod	_	_
+9	pour	pour	ADP	_	ADP___	5	mark	_	_
+10	vous	se	PRON	_	PRON__Number=Plur|Person=2	5	iobj	_	_
+11	défausser	défausser	VERB	_	VERB__VerbForm=Inf	14	advcl	_	_
+12	de	de	ADP	_	ADP___	14	case	_	_
+13	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	14	nmod:poss	_	_
+14	dettes	dette	NOUN	_	NOUN__Gender=Fem|Number=Plur	14	obl	_	_
+15	?	?	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#ça ne passera pas et vous coûtera nettement plus cher au final.il y a un autre cas qui ressemble : ici :
+1	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	1	nsubj	_	_
+2	ne	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+3	passera	passer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+5	et	et	CCONJ	_	CCONJ___	5	cc	_	_
+6	vous	se	PRON	_	PRON__Number=Plur|Person=2	7	nsubj	_	_
+7	coûtera	coûter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	conj	_	_
+8	nettement	nettement	ADV	_	ADV___	9	advmod	_	_
+9	plus	plaire	ADV	_	ADV___	5	advmod	_	_
+10	cher	cher	ADJ	_	ADJ__Gender=Masc|Number=Sing	5	amod	_	_
+11	au	au	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	14	det	_	_
+12	final.il	final.il	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	obj	_	_
+13	y	yu	PRON	_	PRON__Person=3	14	fixed	_	_
+14	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+15	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+16	autre	autre	ADJ	_	ADJ__Number=Sing	14	amod	_	_
+17	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obj	_	_
+18	qui	qui	PRON	_	PRON__PronType=Rel	19	nsubj	_	_
+19	ressemble	ressembler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	_
+20	:	:	PUNCT	_	PUNCT___	21	punct	_	_
+21	ici	ici	ADV	_	ADV___	19	iobj	_	_
+22	:	:	PUNCT	_	PUNCT___	26	punct	_	_
+
+
+#BonjourPOurquoi avez-vous payé 380 €?
+1	BonjourPOurquoi	BonjourPOurquoi	ADV	_	ADV__PronType=Int	5	nsubj	_	_
+2	avez	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	-	-	PUNCT	_	PUNCT___	2	punct	_	_
+4	vous	se	PRON	_	PRON__Number=Plur|Person=2	5	iobj	_	_
+5	payé	payer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+6	380	380	NUM	_	NUM__NumType=Card	7	nummod	_	_
+7	€	€	NOUN	_	NOUN__Gender=Masc	5	obj	_	_
+8	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Je ne comprends rien.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+2	ne	ne	ADV	_	ADV___	5	advmod	_	_
+3	comprends	comprendre	ADJ	_	ADJ__Gender=Masc|Number=Plur	0	ROOT	_	_
+4	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	5	obj	_	_
+5	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Je comprends pour ma part qu'il a payé 320 pour le premier camion et 60 seulement our le 2eme camion.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	2	nsubj	_	_
+2	comprends	comprendre	ADJ	_	ADJ__Gender=Masc|Number=Plur	0	ROOT	_	_
+3	pour	pour	ADP	_	ADP___	5	case	_	_
+4	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	5	nmod:poss	_	_
+5	part	partir	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	obl	_	_
+6	qu'	que	SCONJ	_	SCONJ___	9	mark	_	_
+7	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
+8	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	payé	payer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
+10	320	320	NUM	_	NUM__NumType=Card	9	iobj	_	_
+11	pour	pour	ADP	_	ADP___	14	case	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	premier	premier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	14	amod	_	_
+14	camion	camion	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obl	_	_
+15	et	et	CCONJ	_	CCONJ___	18	cc	_	_
+16	60	60	NUM	_	NUM__NumType=Card	18	nummod	_	_
+17	seulement	seulement	ADV	_	ADV___	18	advmod	_	_
+18	our	our	SCONJ	_	SCONJ___	9	conj	_	_
+19	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	2eme	2eme	NUM	_	NUM__NumType=Card	21	amod	_	_
+21	camion	camion	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	obj	_	_
+22	.	.	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#Il y a apparemment une erreur de montant pour le 2eme camion.(60 euros ou 320 euros de gravillons ce n'est pas la même quantité ou bien ce n'est pas le même produit)
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	y	yu	PRON	_	PRON__Person=3	2	fixed	_	_
+3	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	fixed	_	_
+4	apparemment	apparemment	ADV	_	ADV___	5	advmod	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+6	erreur	erreur	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obj	_	_
+7	de	de	ADP	_	ADP___	9	case	_	_
+8	montant	monter	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nmod	_	_
+9	pour	pour	ADP	_	ADP___	2	case	_	_
+10	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+11	2eme	2eme	NUM	_	NUM__NumType=Card	14	nmod	_	_
+12	camion.(60	camion.(60	ADJ	_	ADJ__Number=Sing	14	nmod	_	_
+13	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	nmod	_	_
+14	ou	ou	CCONJ	_	CCONJ___	9	cc	_	_
+15	320	320	NUM	_	NUM__NumType=Card	18	nummod	_	_
+16	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	18	conj	_	_
+17	de	de	ADP	_	ADP___	18	case	_	_
+18	gravillons	gravillon	NOUN	_	NOUN__Gender=Fem|Number=Plur	9	nmod	_	_
+19	ce	ce	PRON	_	PRON__PronType=Rel	21	nmod	_	_
+20	n'	ne	ADV	_	ADV__Polarity=Neg	21	advmod	_	_
+21	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+22	pas	pas	ADV	_	ADV__Polarity=Neg	2	advmod	_	_
+23	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	56	det	_	_
+24	même	même	ADJ	_	ADJ__Number=Sing	23	amod	_	_
+25	quantité	quantité	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	nsubj	_	_
+26	ou	ou	CCONJ	_	CCONJ___	23	cc	_	_
+27	bien	bien	ADV	_	ADV___	28	advmod	_	_
+28	ce	ce	PRON	_	PRON__PronType=Rel	23	conj	_	_
+29	n'	ne	ADV	_	ADV__Polarity=Neg	30	advmod	_	_
+30	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+31	pas	pas	ADV	_	ADV__Polarity=Neg	33	advmod	_	_
+32	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	même	même	ADJ	_	ADJ__Number=Sing	28	amod	_	_
+34	produit	produire	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+35	)	)	PUNCT	_	PUNCT___	33	punct	_	_
+
+
+#Ah
+1	Ah	Ah	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+
+
+#Ok, c'est le camionneur qui encaisse donc....
+1	Ok	Ok	PRON	_	PRON__Number=Sing|Person=1	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	2	punct	_	_
+3	c'	ce	PRON	_	PRON__Number=Sing|Person=3	7	nsubj	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	camionneur	camionneur	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	conj	_	_
+7	qui	qui	PRON	_	PRON__PronType=Rel	2	nsubj	_	_
+8	encaisse	encaisser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+9	donc	donc	ADV	_	ADV___	7	advmod	_	_
+10	....	....	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Oui, dans ce cas, il est normal que l'erreur manifeste induise une demande de complément de 320-60 = 260 euros.
+1	Oui	Oui	PROPN	_	PROPN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	2	punct	_	_
+3	dans	dan	ADP	_	ADP___	7	case	_	_
+4	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+5	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+6	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+7	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+8	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	normal	normal	ADJ	_	ADJ__Gender=Masc|Number=Sing	7	conj	_	_
+10	que	que	SCONJ	_	SCONJ___	9	mark	_	_
+11	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	2	det	_	_
+12	erreur	erreur	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nsubj	_	_
+13	manifeste	manifester	ADJ	_	ADJ__Number=Sing	20	amod	_	_
+14	induise	induire	ADJ	_	ADJ__Gender=Fem|Number=Sing	16	amod	_	_
+15	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	demande	demander	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	nmod	_	_
+17	de	de	ADP	_	ADP___	20	case	_	_
+18	complément	complément	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	nmod	_	_
+19	de	de	ADP	_	ADP___	20	case	_	_
+20	320	320	NUM	_	NUM__NumType=Card	12	nmod	_	_
+21	-	-	PUNCT	_	PUNCT___	23	punct	_	_
+22	60	60	NUM	_	NUM__NumType=Card	23	nsubj	_	_
+23	=	=	VERB	_	VERB__Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	34	acl:relcl	_	_
+24	260	260	NUM	_	NUM__NumType=Card	23	nummod	_	_
+25	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	23	obj	_	_
+26	.	.	PUNCT	_	PUNCT___	27	punct	_	_
+
+
+#Bah c'est comme quand la caissière vous rend la monnaie sur 50 euros au lieu de 20 euros...
+1	Bah	Bah	PROPN	_	PROPN___	9	nsubj	_	_
+2	c'	ce	PRON	_	PRON__Number=Sing|Person=3	9	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+4	comme	comme	ADV	_	ADV___	9	mark	_	_
+5	quand	quand	SCONJ	_	SCONJ___	9	mark	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	caissière	caissier	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nsubj	_	_
+8	vous	se	PRON	_	PRON__Number=Plur|Person=2	9	iobj	_	_
+9	rend	rendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	monnaie	monnayer	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obj	_	_
+12	sur	sur	ADP	_	ADP___	14	case	_	_
+13	50	50	NUM	_	NUM__NumType=Card	14	nummod	_	_
+14	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	obl	_	_
+15	au	au	PRON	_	PRON__PronType=Rel	19	case	_	_
+16	lieu	lieu	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	fixed	_	_
+17	de	de	ADP	_	ADP___	19	case	_	_
+18	20	20	NUM	_	NUM__NumType=Card	19	nummod	_	_
+19	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	obl	_	_
+20	...	...	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#pas vu pas pris.... ?
+1	pas	pas	ADV	_	ADV__Polarity=Neg	2	advmod	_	_
+2	vu	voir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+3	pas	pas	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+4	pris	prendre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	2	xcomp	_	_
+5	....	....	PUNCT	_	PUNCT___	2	punct	_	_
+6	?	?	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#ne vous étonnez pas d'avoir des relances !
+1	ne	ne	ADV	_	ADV___	2	advmod	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	2	nsubj	_	_
+3	étonnez	étonner	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	2	advmod	_	_
+5	d'	de	ADP	_	ADP___	2	mark	_	_
+6	avoir	avoir	VERB	_	VERB__VerbForm=Inf	2	xcomp	_	_
+7	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	9	det	_	_
+8	relances	relancer	NOUN	_	NOUN__Gender=Fem|Number=Plur	9	obj	_	_
+9	!	!	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Jamais vuVous êtes en train de nous faire croire que vous auriez pris lepour une.
+1	Jamais	Jamais	ADV	_	ADV___	8	mark	_	_
+2	vuVous	vuVous	PRON	_	PRON__Number=Plur|Person=2	8	obj	_	_
+3	êtes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	8	aux	_	_
+4	en	en	ADP	_	ADP___	8	mark	_	_
+5	train	train	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	fixed	_	_
+6	de	de	ADP	_	ADP___	4	fixed	_	_
+7	nous	se	PRON	_	PRON__Number=Plur|Person=1	8	iobj	_	_
+8	faire	faire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+9	croire	croire	VERB	_	VERB__VerbForm=Inf	8	xcomp	_	_
+10	que	que	SCONJ	_	SCONJ___	13	mark	_	_
+11	vous	se	PRON	_	PRON__Number=Plur|Person=2	13	nsubj	_	_
+12	auriez	avoir	AUX	_	AUX__Mood=Cnd|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	pris	prendre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	9	ccomp	_	_
+14	lepour	lepour	ADV	_	ADV___	13	xcomp	_	_
+15	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	obj	_	_
+16	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Mais vous ne voulez pas tout dire, alors vous parlez de bon à payer;Avez vous recu un bon à payer?
+1	Mais	Mais	CCONJ	_	CCONJ___	8	cc	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	8	nsubj	_	_
+3	ne	ne	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+4	voulez	vouloir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+6	tout	tout	ADV	_	ADV___	4	advmod	_	_
+7	dire	dire	VERB	_	VERB__VerbForm=Inf	8	obj	_	_
+8	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+9	alors	alors	ADV	_	ADV___	8	advmod	_	_
+10	vous	se	PRON	_	PRON__Number=Plur|Person=2	13	nsubj	_	_
+11	parlez	parler	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+12	de	de	ADP	_	ADP___	13	mark	_	_
+13	bon	bon	ADJ	_	ADJ__Gender=Masc|Number=Sing	9	xcomp	_	_
+14	à	à	ADP	_	ADP___	13	mark	_	_
+15	payer;Avez	payer;Avez	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	aux	_	_
+16	vous	se	PRON	_	PRON__Number=Plur|Person=2	8	iobj	_	_
+17	recu	recu	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	xcomp	_	_
+18	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	bon	bon	ADJ	_	ADJ__Gender=Masc|Number=Sing	20	obj	_	_
+20	à	à	ADP	_	ADP___	27	mark	_	_
+21	payer	payer	VERB	_	VERB__VerbForm=Inf	20	xcomp	_	_
+22	?	?	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Donc le livreur vous a donné un bon de livraison erronné.
+1	Donc	Donc	ADV	_	ADV___	6	advmod	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	livreur	livreur	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nsubj	_	_
+4	vous	se	PRON	_	PRON__Number=Plur|Person=2	6	iobj	_	_
+5	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	donné	donner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	bon	bon	ADJ	_	ADJ__Gender=Masc|Number=Sing	6	obj	_	_
+9	de	de	ADP	_	ADP___	10	case	_	_
+10	livraison	livraison	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+11	erronné	erronné	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	amod	_	_
+12	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Sauf si vous dites qu'il a bien livré le matériau a 60 euros...
+1	Sauf	Sauf	ADP	_	ADP___	6	mark	_	_
+2	si	si	SCONJ	_	SCONJ___	3	mark	_	_
+3	vous	se	PRON	_	PRON__Number=Plur|Person=2	6	nsubj	_	_
+4	dites	dit	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	qu'	que	SCONJ	_	SCONJ___	6	mark	_	_
+6	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+7	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	bien	bien	ADV	_	ADV___	6	advmod	_	_
+9	livré	livrer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	ccomp	_	_
+10	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+11	matériau	matériau	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+12	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+13	60	60	NUM	_	NUM__NumType=Card	16	nummod	_	_
+14	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	obl	_	_
+15	...	...	PUNCT	_	PUNCT___	16	punct	_	_
+
+
