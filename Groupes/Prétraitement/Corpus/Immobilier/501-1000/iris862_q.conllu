@@ -1,0 +1,243 @@
+#Bonjour.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Je vous explique ma situation...
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	1	iobj	_	_
+3	explique	expliquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	5	nmod:poss	_	_
+5	situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obj	_	_
+6	...	...	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Je suis co-propriétaire d'une maison avec mon ex-concubine.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj:pass	_	_
+2	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
+3	co-propriétaire	co-propriétaire	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+4	d'	de	ADP	_	ADP___	5	case	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+6	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obl	_	_
+7	avec	avec	ADP	_	ADP___	5	case	_	_
+8	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+9	ex	ex	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+10	-	-	PUNCT	_	PUNCT___	11	punct	_	_
+11	concubine	concubin	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obl	_	_
+12	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Lors de l'achat de la maison en 2008, nous avons versé un apport personnel de 10.000 chacun.
+1	Lors	Lors	ADV	_	ADV___	1	case	_	_
+2	de	de	ADP	_	ADP___	1	fixed	_	_
+3	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+4	achat	achat	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+5	de	de	ADP	_	ADP___	5	case	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+8	en	en	ADP	_	ADP___	5	case	_	_
+9	2008	2008	NUM	_	NUM__NumType=Card	11	nmod	_	_
+10	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+11	nous	se	PRON	_	PRON__Number=Plur|Person=1	11	nsubj	_	_
+12	avons	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	versé	verser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+14	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+15	apport	apport	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obj	_	_
+16	personnel	personnel	ADJ	_	ADJ__Gender=Masc|Number=Sing	17	amod	_	_
+17	de	de	ADP	_	ADP___	14	case	_	_
+18	10.000	10.000	NUM	_	NUM__NumType=Card	11	nummod	_	_
+19	chacun	chacun	PRON	_	PRON__Gender=Masc|PronType=Rel	11	nmod	_	_
+20	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#En 2011, j'ai fait un remboursement anticipé de 10.000 avec mon argent personnel.
+1	En	En	ADP	_	ADP___	1	case	_	_
+2	2011	2011	NUM	_	NUM__NumType=Card	1	nummod	_	_
+3	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+4	j'	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+5	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+6	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+8	remboursement	remboursement	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+9	anticipé	anticiper	ADJ	_	ADJ__Gender=Masc|Number=Sing	11	amod	_	_
+10	de	de	ADP	_	ADP___	11	case	_	_
+11	10.000	10.000	PRON	_	PRON__NumType=Card|PronType=Rel	11	nmod	_	_
+12	avec	avec	ADP	_	ADP___	14	case	_	_
+13	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	14	nmod:poss	_	_
+14	argent	argent	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obl	_	_
+15	personnel	personnel	ADJ	_	ADJ__Gender=Masc|Number=Sing	17	amod	_	_
+16	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Nous sommes maintenant séparés et elle va rester dans la maison et me racheter ma part.
+1	Nous	Nous	PRON	_	PRON__Number=Plur|Person=1	1	nsubj	_	_
+2	sommes	sommer	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
+3	maintenant	maintenir	ADV	_	ADV___	5	advmod	_	_
+4	séparés	séparer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+5	et	et	CCONJ	_	CCONJ___	5	cc	_	_
+6	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	7	nsubj	_	_
+7	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+8	rester	rester	AUX	_	AUX__VerbForm=Inf	5	xcomp	_	_
+9	dans	dan	ADP	_	ADP___	11	case	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obl	_	_
+12	et	et	CCONJ	_	CCONJ___	14	cc	_	_
+13	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	14	iobj	_	_
+14	racheter	racheter	VERB	_	VERB__VerbForm=Inf	11	conj	_	_
+15	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	17	nmod:poss	_	_
+16	part	partir	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	obj	_	_
+17	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Le notaire calcule la soulte sans tenir compte des 20.000 que j'ai versé.
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	notaire	notaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	calcule	calculer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	soulte	soulte	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obj	_	_
+6	sans	sans	ADP	_	ADP___	7	mark	_	_
+7	tenir	tenir	VERB	_	VERB__VerbForm=Inf	5	advcl	_	_
+8	compte	compter	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+9	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
+10	20.000	20.000	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	obj	_	_
+11	que	que	PRON	_	PRON__PronType=Rel	11	obj	_	_
+12	j'	il	PRON	_	PRON__Number=Sing|Person=1	14	nsubj	_	_
+13	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	versé	verser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+15	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Je trouve ça très surprenant.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	trouve	trouver	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	obj	_	_
+4	très	très	ADV	_	ADV___	5	advmod	_	_
+5	surprenant	surprendre	ADJ	_	ADJ__Gender=Masc|Number=Sing	5	acl	_	_
+6	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Est-ce normal ?
+1	Est	être		_	VERB	0	ROOT	_	_
+2	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+3	normal	normal	ADJ	_	ADJ__Gender=Masc|Number=Sing	5	amod	_	_
+4	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#J'ai fait des recherches sur internet mais je n'arrive pas à trouver la réponse.
+1	J'	J'	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
+5	recherches	rechercher	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	obj	_	_
+6	sur	sur	ADP	_	ADP___	7	case	_	_
+7	internet	internet	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+8	mais	mai	CCONJ	_	CCONJ___	5	cc	_	_
+9	je	il	PRON	_	PRON__Number=Sing|Person=1	11	nsubj	_	_
+10	n'	ne	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+11	arrive	arriver	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+12	pas	pas	ADV	_	ADV__Polarity=Neg	14	advmod	_	_
+13	à	à	ADP	_	ADP___	14	mark	_	_
+14	trouver	trouver	VERB	_	VERB__VerbForm=Inf	11	xcomp	_	_
+15	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	obj	_	_
+17	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Je vous remercie d'avance pour vos éclaircissements.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	1	obj	_	_
+3	remercie	remercier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	d'	de	ADP	_	ADP___	5	case	_	_
+5	avance	avancer	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obl	_	_
+6	pour	pour	ADP	_	ADP___	7	case	_	_
+7	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	5	nmod:poss	_	_
+8	éclaircissements	éclaircissement	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	obl	_	_
+9	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Merci pour votre réponse.
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	pour	pour	ADP	_	ADP___	4	case	_	_
+3	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+4	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+5	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Mais si j'ai bien compris, ça veut dire que je récupère seulement la moitié du remboursement anticipé que j'ai pourtant payé en totalité ?
+1	Mais	Mais	CCONJ	_	CCONJ___	1	cc	_	_
+2	si	si	SCONJ	_	SCONJ___	4	mark	_	_
+3	j'	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+4	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+5	bien	bien	ADV	_	ADV___	1	advmod	_	_
+6	compris	comprendre	ADJ	_	ADJ__Gender=Masc	15	obj	_	_
+7	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+8	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	nsubj	_	_
+9	veut	vouloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+10	dire	dire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+11	que	que	SCONJ	_	SCONJ___	9	mark	_	_
+12	je	il	PRON	_	PRON__Number=Sing|Person=1	15	nsubj	_	_
+13	récupère	récupérer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	ccomp	_	_
+14	seulement	seulement	ADV	_	ADV___	15	advmod	_	_
+15	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+16	moitié	moitié	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	obj	_	_
+17	du	du	DET	_	DET__Gender=Masc|Number=Sing	18	det	_	_
+18	remboursement	remboursement	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obj	_	_
+19	anticipé	anticiper	ADJ	_	ADJ__Gender=Masc|Number=Sing	18	amod	_	_
+20	que	que	PRON	_	PRON__PronType=Rel	21	mark	_	_
+21	j'	il	PRON	_	PRON__Number=Sing|Person=1	18	nsubj	_	_
+22	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	pourtant	pourtant	ADV	_	ADV___	18	advmod	_	_
+24	payé	payer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	acl	_	_
+25	en	en	ADP	_	ADP___	29	case	_	_
+26	totalité	totalité	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	obl	_	_
+27	?	?	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#Exemple sans remboursement anticipéMaison = 150 000€Capital restant dû = 100 000€150 000
+1	Exemple	Exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+2	sans	sans	ADP	_	ADP___	4	case	_	_
+3	remboursement	remboursement	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+4	anticipéMaison	anticipéMaison	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	amod	_	_
+5	=	=	VERB	_	VERB__Mood=Ind|Person=3|VerbForm=Fin	1	cc	_	_
+6	150	150	NUM	_	NUM__NumType=Card	15	obj	_	_
+7	000€Capital	000€Capital	NUM	_	NUM__NumType=Card	9	nsubj	_	_
+8	restant	rester	VERB	_	VERB__Tense=Pres|VerbForm=Part	9	aux	_	_
+9	dû	devoir	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	aux	_	_
+10	=	=	VERB	_	VERB__Mood=Ind|Person=3|VerbForm=Fin	0	ROOT	_	_
+11	100	100	NUM	_	NUM__NumType=Card	9	obj	_	_
+12	000€150	000€150	NUM	_	NUM__NumType=Card	15	punct	_	_
+13	000	000	NUM	_	NUM__NumType=Card	15	nummod	_	_
+
+
+#- 100 000 = 50 000 / 2 =Exemple avec remboursement anticipé150 000
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	100	100	NUM	_	NUM__NumType=Card	4	nummod	_	_
+3	000	000	NUM	_	NUM__NumType=Card	4	nsubj	_	_
+4	=	=	VERB	_	VERB__Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	1	advmod	_	_
+5	50	50	NUM	_	NUM__NumType=Card	1	nummod	_	_
+6	000	000	PRON	_	PRON__NumType=Card|PronType=Rel	15	nummod	_	_
+7	/	/	ADP	_	ADP___	9	case	_	_
+8	2	2	NUM	_	NUM__NumType=Card	9	nmod	_	_
+9	=	=	VERB	_	VERB__Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+10	Exemple	Exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+11	avec	avec	ADP	_	ADP___	9	case	_	_
+12	remboursement	remboursement	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obl	_	_
+13	anticipé150	anticipé150	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	advmod	_	_
+14	000	000	NUM	_	NUM__NumType=Card	15	nummod	_	_
+
+
+#- 10 000 - 100 000 = 40 000 / 2 =
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	10	10	NUM	_	NUM__NumType=Card	4	nummod	_	_
+3	000	000	NUM	_	NUM__NumType=Card	0	ROOT	_	_
+4	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+5	100	100	NUM	_	NUM__NumType=Card	1	nmod	_	_
+6	000	000	NUM	_	NUM__NumType=Card	15	nsubj	_	_
+7	=	=	VERB	_	VERB__Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	9	nmod	_	_
+8	40	40	NUM	_	NUM__NumType=Card	9	iobj	_	_
+9	000	000	NUM	_	NUM__NumType=Card	15	nummod	_	_
+10	/	/	ADP	_	ADP___	11	case	_	_
+11	2	2	NUM	_	NUM__NumType=Card	9	nmod	_	_
+12	=	=	VERB	_	VERB__Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	15	amod	_	_
+
+

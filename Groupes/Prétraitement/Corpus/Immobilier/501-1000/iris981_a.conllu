@@ -1,0 +1,650 @@
+#Y-a
+1	Y	Y	NOUN	_	NOUN___	0	ROOT	_	_
+2	-	-	PUNCT	_	PUNCT___	1	fixed	_	_
+3	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	fixed	_	_
+
+
+#-t-il eu EDL en entrée et en sortie ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	t	t	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	advmod	_	_
+3	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+5	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+6	EDL	EDL	NOUN	_	NOUN___	5	obj	_	_
+7	en	en	ADP	_	ADP___	8	case	_	_
+8	entrée	entrer	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+9	et	et	CCONJ	_	CCONJ___	8	cc	_	_
+10	en	en	ADP	_	ADP___	11	case	_	_
+11	sortie	sortir	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	conj	_	_
+12	?	?	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#C'est la comparaison des deux qui permet de retenir des sommes au titre des dégradations et/ou pertes.
+1	C'	C'	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+4	comparaison	comparaison	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+5	des	un	ADP	_	ADP___	8	det	_	_
+6	deux	deux	NUM	_	NUM__NumType=Card	5	nmod	_	_
+7	qui	qui	PRON	_	PRON__PronType=Rel	8	nsubj	_	_
+8	permet	permettre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+9	de	de	ADP	_	ADP___	8	mark	_	_
+10	retenir	retenir	VERB	_	VERB__VerbForm=Inf	11	xcomp	_	_
+11	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
+12	sommes	sommer	NOUN	_	NOUN__Number=Plur	14	obj	_	_
+13	au	au	PRON	_	PRON__Number=Sing|Person=3	14	iobj	_	_
+14	titre	titrer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+15	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
+16	dégradations	dégradation	NOUN	_	NOUN__Gender=Fem|Number=Plur	19	obj	_	_
+17	et	et	CCONJ	_	CCONJ___	19	cc	_	_
+18	/	/	PUNCT	_	PUNCT___	19	fixed	_	_
+19	ou	ou	CCONJ	_	CCONJ___	19	cc	_	_
+20	pertes	perte	NOUN	_	NOUN__Gender=Fem|Number=Plur	21	conj	_	_
+21	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Vos télécommandes doivent être mentionnées en entrée, et mentionnées manquantes en sortie.
+1	Vos	Vos	DET	_	DET__Number=Plur|Poss=Yes	1	nmod:poss	_	_
+2	télécommandes	télécommander	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	nsubj	_	_
+3	doivent	devoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	être	être	AUX	_	AUX__VerbForm=Inf	8	aux:pass	_	_
+5	mentionnées	mentionner	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	xcomp	_	_
+6	en	en	ADP	_	ADP___	5	case	_	_
+7	entrée	entrer	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+8	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+9	et	et	CCONJ	_	CCONJ___	8	cc	_	_
+10	mentionnées	mentionner	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	11	conj	_	_
+11	manquantes	manquant	ADJ	_	ADJ__Number=Plur	8	amod	_	_
+12	en	en	ADP	_	ADP___	14	case	_	_
+13	sortie	sortir	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obl	_	_
+14	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Sinon, aucune retenue possible.
+1	Sinon	Sinon	ADV	_	ADV___	1	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	aucune	aucun	DET	_	DET__Gender=Fem|Number=Sing	1	det	_	_
+4	retenue	retenu	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+5	possible	possible	ADJ	_	ADJ__Number=Sing	8	amod	_	_
+6	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Trous rebouchés ?
+1	Trous	Trous	DET	_	DET__Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	1	nsubj	_	_
+2	rebouchés	reboucher	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+3	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Si je ne m'abuse (on me corrigera si je me trompe), les trous rebouchés ne sont pas une dégradation.
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+3	ne	ne	ADV	_	ADV___	1	advmod	_	_
+4	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	8	expl	_	_
+5	abuse	abuser	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	advcl	_	_
+6	(	(	PUNCT	_	PUNCT___	5	punct	_	_
+7	on	on	PRON	_	PRON__Number=Sing|Person=3	8	nsubj	_	_
+8	me	se	PRON	_	PRON__Number=Sing|Person=1	8	expl	_	_
+9	corrigera	corriger	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+10	si	si	SCONJ	_	SCONJ___	11	mark	_	_
+11	je	il	PRON	_	PRON__Number=Sing|Person=1	8	nsubj	_	_
+12	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	14	expl	_	_
+13	trompe	tromper	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	ccomp	_	_
+14	)	)	PUNCT	_	PUNCT___	11	punct	_	_
+15	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+16	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	19	det	_	_
+17	trous	trou	ADJ	_	ADJ__Gender=Masc|Number=Plur	19	nsubj	_	_
+18	rebouchés	reboucher	NOUN	_	NOUN__Gender=Masc|Number=Plur	19	nsubj	_	_
+19	ne	ne	ADV	_	ADV__Polarity=Neg	19	advmod	_	_
+20	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	pas	pas	ADV	_	ADV__Polarity=Neg	19	advmod	_	_
+22	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	dégradation	dégradation	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	obl	_	_
+24	.	.	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#Vous ne pouvez rien retenir à ce titre.
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+2	ne	ne	ADV	_	ADV___	1	advmod	_	_
+3	pouvez	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	aux	_	_
+4	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	8	nsubj	_	_
+5	retenir	retenir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+6	à	à	ADP	_	ADP___	5	case	_	_
+7	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	titre	titrer	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+9	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Ben vous chiffrez et vous ne rendez que la portion de la "caution" (on dit dépôt de garantie en fait) qui surpasse les travaux ;
+1	Ben	Ben	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	nsubj	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	1	iobj	_	_
+3	chiffrez	chiffrer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	et	et	CCONJ	_	CCONJ___	8	cc	_	_
+5	vous	se	PRON	_	PRON__Number=Plur|Person=2	8	nsubj	_	_
+6	ne	ne	ADV	_	ADV___	5	advmod	_	_
+7	rendez	rendre	VERB	_	VERB__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+8	que	que	SCONJ	_	SCONJ___	8	fixed	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+10	portion	portion	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obj	_	_
+11	de	de	ADP	_	ADP___	8	case	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	"	"	PUNCT	_	PUNCT___	14	punct	_	_
+14	caution	caution	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+15	"	"	PUNCT	_	PUNCT___	8	punct	_	_
+16	(	(	PUNCT	_	PUNCT___	19	punct	_	_
+17	on	on	PRON	_	PRON__Number=Sing|Person=3	19	nsubj	_	_
+18	dit	dire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	parataxis	_	_
+19	dépôt	dépôt	ADJ	_	ADJ__Gender=Masc|Number=Sing	19	obj	_	_
+20	de	de	ADP	_	ADP___	21	case	_	_
+21	garantie	garantir	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obl	_	_
+22	en	en	ADP	_	ADP___	23	mark	_	_
+23	fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	advcl	_	_
+24	)	)	PUNCT	_	PUNCT___	25	punct	_	_
+25	qui	qui	PRON	_	PRON__PronType=Rel	23	nsubj	_	_
+26	surpasse	surpasser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	acl:relcl	_	_
+27	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	25	det	_	_
+28	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	29	obj	_	_
+29	;	;	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#si la caution est mangée en totalité, vous pouvez exiger le reste par courrier au locataire.
+1	si	si	SCONJ	_	SCONJ___	1	mark	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+3	caution	caution	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj:pass	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+5	mangée	manger	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	advcl	_	_
+6	en	en	ADP	_	ADP___	5	case	_	_
+7	totalité	totalité	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+8	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+9	vous	se	PRON	_	PRON__Number=Plur|Person=2	8	nsubj	_	_
+10	pouvez	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	exiger	exiger	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	reste	rester	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obj	_	_
+14	par	par	ADP	_	ADP___	11	case	_	_
+15	courrier	courrier	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+16	au	au	PRON	_	PRON__PronType=Rel	19	mark	_	_
+17	locataire	locataire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	amod	_	_
+18	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Je n'y connais pas grand-chose, mais des trous, ça vous coûte le prix d'un pot d'enduit de rebouchage à 10, donc sauf à avoir lardé le mur façon emmental...
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+3	y	yu	PRON	_	PRON__Person=3	1	iobj	_	_
+4	connais	connaître	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+6	grand-chose	grand-chose	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obj	_	_
+7	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+8	mais	mai	CCONJ	_	CCONJ___	8	cc	_	_
+9	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
+10	trous	trou	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	conj	_	_
+11	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+12	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	14	nsubj	_	_
+13	vous	se	PRON	_	PRON__Number=Plur|Person=2	14	iobj	_	_
+14	coûte	coûter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+15	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+16	prix	prix	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obj	_	_
+17	d'	de	ADP	_	ADP___	19	case	_	_
+18	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	pot	pot	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obl	_	_
+20	d'	de	ADP	_	ADP___	21	case	_	_
+21	enduit	enduire	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	nmod	_	_
+22	de	de	ADP	_	ADP___	23	case	_	_
+23	rebouchage	rebouchage	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	nmod	_	_
+24	à	à	ADP	_	ADP___	25	case	_	_
+25	10	10	NOUN	_	NOUN__NumType=Card	23	nmod	_	_
+26	,	,	PUNCT	_	PUNCT___	27	punct	_	_
+27	donc	donc	ADV	_	ADV___	25	advmod	_	_
+28	sauf	sauf	ADP	_	ADP___	29	mark	_	_
+29	à	à	ADP	_	ADP___	25	mark	_	_
+30	avoir	avoir	AUX	_	AUX__VerbForm=Inf	31	aux	_	_
+31	lardé	larder	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	acl	_	_
+32	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+33	mur	mur	NOUN	_	NOUN__Gender=Masc|Number=Sing	32	obj	_	_
+34	façon	façon	NOUN	_	NOUN__Gender=Fem|Number=Sing	35	obl	_	_
+35	emmental	emmental	ADJ	_	ADJ__Gender=Masc|Number=Sing	31	amod	_	_
+36	...	...	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Il me semble que vous êtes tenu à un devis, et à une facture acquittée si vous (ou le locataire) allez en justice pour, vous faire payer, ou la locataire annuler la facture.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	me	se	PRON	_	PRON__Number=Sing|Person=1	1	iobj	_	_
+3	semble	sembler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	que	que	SCONJ	_	SCONJ___	8	mark	_	_
+5	vous	se	PRON	_	PRON__Number=Plur|Person=2	8	nsubj	_	_
+6	êtes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	_
+7	tenu	tenir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	ccomp	_	_
+8	à	à	ADP	_	ADP___	8	case	_	_
+9	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+10	devis	devis	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obl	_	_
+11	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+12	et	et	CCONJ	_	CCONJ___	14	cc	_	_
+13	à	à	ADP	_	ADP___	14	case	_	_
+14	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+15	facture	facturer	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	conj	_	_
+16	acquittée	acquitter	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	19	acl	_	_
+17	si	si	SCONJ	_	SCONJ___	19	mark	_	_
+18	vous	se	PRON	_	PRON__Number=Plur|Person=2	19	nsubj	_	_
+19	(	(	PUNCT	_	PUNCT___	19	punct	_	_
+20	ou	ou	CCONJ	_	CCONJ___	21	cc	_	_
+21	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+22	locataire	locataire	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	conj	_	_
+23	)	)	PUNCT	_	PUNCT___	21	punct	_	_
+24	allez	aller	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	25	advcl	_	_
+25	en	en	ADP	_	ADP___	23	case	_	_
+26	justice	justice	NOUN	_	NOUN__Gender=Fem|Number=Sing	27	obl	_	_
+27	pour	pour	ADP	_	ADP___	25	mark	_	_
+28	,	,	PUNCT	_	PUNCT___	29	punct	_	_
+29	vous	se	PRON	_	PRON__Number=Plur|Person=2	25	nsubj	_	_
+30	faire	faire	VERB	_	VERB__VerbForm=Inf	31	advcl	_	_
+31	payer	payer	VERB	_	VERB__VerbForm=Inf	29	xcomp	_	_
+32	,	,	PUNCT	_	PUNCT___	35	punct	_	_
+33	ou	ou	CCONJ	_	CCONJ___	32	cc	_	_
+34	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	locataire	locataire	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	conj	_	_
+36	annuler	annuler	VERB	_	VERB__VerbForm=Inf	19	acl	_	_
+37	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	facture	facturer	NOUN	_	NOUN__Gender=Fem|Number=Sing	39	obj	_	_
+39	.	.	PUNCT	_	PUNCT___	39	punct	_	_
+
+
+#Si la locataire paye sans broncher, un devis suffira.
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+3	locataire	locataire	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+4	paye	payer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	cop	_	_
+5	sans	sans	ADP	_	ADP___	8	case	_	_
+6	broncher	broncher	VERB	_	VERB__VerbForm=Inf	5	advcl	_	_
+7	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+8	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+9	devis	devis	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nsubj	_	_
+10	suffira	suffire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+11	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Si ça vous chante, mais ça ne concerne pas l'ancien locataire et cette somme ne peut lui être retenue sur sa caution.
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	1	nsubj	_	_
+3	vous	se	PRON	_	PRON__Number=Plur|Person=2	1	obj	_	_
+4	chante	chanter	ADJ	_	ADJ__Gender=Fem|Number=Sing	8	advcl	_	_
+5	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+6	mais	mai	CCONJ	_	CCONJ___	5	cc	_	_
+7	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	nsubj	_	_
+8	ne	ne	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+9	concerne	concerner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+10	pas	pas	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+11	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+12	ancien	ancien	ADJ	_	ADJ__Gender=Masc|Number=Sing	14	amod	_	_
+13	locataire	locataire	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nsubj	_	_
+14	et	et	CCONJ	_	CCONJ___	11	cc	_	_
+15	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+16	somme	sommer	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	conj	_	_
+17	ne	ne	ADV	_	ADV___	19	advmod	_	_
+18	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	lui	luire	PRON	_	PRON__Number=Sing|Person=3	0	ROOT	_	_
+20	être	être	AUX	_	AUX__VerbForm=Inf	21	aux:pass	_	_
+21	retenue	retenu	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	19	xcomp	_	_
+22	sur	sur	ADP	_	ADP___	23	case	_	_
+23	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	21	nmod:poss	_	_
+24	caution	caution	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	obl	_	_
+25	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#De plus n'essayez même pas de justifier le ménage fait par le chèque versé au locataire suivant, ça pourrait être considéré comme du travail au noir.
+1	De	De	ADP	_	ADP___	1	advmod	_	_
+2	plus	plaire	ADV	_	ADV___	1	fixed	_	_
+3	n'	ne	ADV	_	ADV___	1	advmod	_	_
+4	essayez	essayer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+5	même	même	ADV	_	ADV___	8	advmod	_	_
+6	pas	pas	ADV	_	ADV__Polarity=Neg	5	fixed	_	_
+7	de	de	ADP	_	ADP___	8	mark	_	_
+8	justifier	justifier	VERB	_	VERB__VerbForm=Inf	8	xcomp	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+10	ménage	ménager	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+11	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+12	par	par	ADP	_	ADP___	14	case	_	_
+13	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	chèque	chèque	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obl	_	_
+15	versé	verser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
+16	au	au	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	19	dep	_	_
+17	locataire	locataire	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obj	_	_
+18	suivant	suivre	ADJ	_	ADJ__Gender=Masc|Number=Sing	19	acl	_	_
+19	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+20	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	21	nsubj	_	_
+21	pourrait	pouvoir	VERB	_	VERB__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+22	être	être	AUX	_	AUX__VerbForm=Inf	23	aux:pass	_	_
+23	considéré	considérer	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	21	cop	_	_
+24	comme	comme	ADP	_	ADP___	25	case	_	_
+25	du	du	DET	_	DET__Gender=Masc|Number=Sing	23	det	_	_
+26	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	xcomp	_	_
+27	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	25	obj	_	_
+28	noir	noir	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	nmod	_	_
+29	.	.	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#Idem, rien ne l'interdit ; mais idem, rien qui concerne l'ancien locataire.
+1	Idem	Idem	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	1	nsubj	_	_
+4	ne	ne	ADV	_	ADV___	8	advmod	_	_
+5	l'	le	PRON	_	PRON__Number=Sing|Person=3	8	obj	_	_
+6	interdit	interdire	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+7	;	;	PUNCT	_	PUNCT___	8	punct	_	_
+8	mais	mai	CCONJ	_	CCONJ___	8	cc	_	_
+9	idem	idem	VERB	_	VERB__VerbForm=Inf	8	conj	_	_
+10	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+11	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	8	appos	_	_
+12	qui	qui	PRON	_	PRON__PronType=Rel	14	nsubj	_	_
+13	concerne	concerner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+14	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+15	ancien	ancien	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	amod	_	_
+16	locataire	locataire	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obj	_	_
+17	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Qui a changé l'interphone : une entreprise mandatée par le syndic bénévole, ou une personne de la copropriété qui s'est dévouée et qui n'a pas réussi à régler le problème ?
+1	Qui	Qui	PRON	_	PRON__PronType=Int	1	nsubj	_	_
+2	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	changé	changer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+5	interphone	interphone	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+6	:	:	PUNCT	_	PUNCT___	5	punct	_	_
+7	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	entreprise	entreprendre	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+9	mandatée	mandater	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
+10	par	par	ADP	_	ADP___	11	case	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+12	syndic	syndic	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nmod	_	_
+13	bénévole	bénévole	ADJ	_	ADJ__Number=Sing	14	amod	_	_
+14	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+15	ou	ou	CCONJ	_	CCONJ___	8	cc	_	_
+16	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+17	personne	personne	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	conj	_	_
+18	de	de	ADP	_	ADP___	19	case	_	_
+19	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+20	copropriété	copropriété	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	nmod	_	_
+21	qui	qui	PRON	_	PRON__PronType=Rel	19	nsubj:pass	_	_
+22	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	23	expl	_	_
+23	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+24	dévouée	dévouer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	25	acl:relcl	_	_
+25	et	et	CCONJ	_	CCONJ___	23	advmod	_	_
+26	qui	qui	PRON	_	PRON__PronType=Rel	27	nsubj	_	_
+27	n'	ne	ADV	_	ADV__Polarity=Neg	25	advmod	_	_
+28	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	pas	pas	ADV	_	ADV__Polarity=Neg	25	advmod	_	_
+30	réussi	réussir	ADV	_	ADV___	31	advmod	_	_
+31	à	à	ADP	_	ADP___	29	mark	_	_
+32	régler	régler	VERB	_	VERB__VerbForm=Inf	35	xcomp	_	_
+33	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+34	problème	problème	NOUN	_	NOUN__Gender=Masc|Number=Sing	35	obj	_	_
+35	?	?	PUNCT	_	PUNCT___	31	punct	_	_
+
+
+#Par ailleurs, parlez-vous de l'interphoneou de la partie "publique" ?
+1	Par	Par	ADP	_	ADP___	1	advmod	_	_
+2	ailleurs	ailleurs	ADV	_	ADV___	1	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	parlez	parler	VERB	_	VERB__Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	-	-	PUNCT	_	PUNCT___	8	punct	_	_
+6	vous	se	PRON	_	PRON__Number=Plur|Person=2	5	obj	_	_
+7	de	de	ADP	_	ADP___	8	case	_	_
+8	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+9	interphoneou	interphoneou	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+10	de	de	ADP	_	ADP___	11	case	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+12	partie	partir	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nmod	_	_
+13	"	"	PUNCT	_	PUNCT___	14	punct	_	_
+14	publique	public	ADJ	_	ADJ__Gender=Fem|Number=Sing	11	amod	_	_
+15	"	"	PUNCT	_	PUNCT___	8	punct	_	_
+16	?	?	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#BonjourDe tête si la prestation dépasse 150 €SI la question est de retenir sur le dépot de garnatie, oui.
+1	BonjourDe	BonjourDe	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	nsubj	_	_
+2	tête	tête	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	amod	_	_
+3	si	si	SCONJ	_	SCONJ___	5	mark	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	prestation	prestation	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nsubj	_	_
+6	dépasse	dépasser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	150	150	NUM	_	NUM__NumType=Card	8	nummod	_	_
+8	€	€	NOUN	_	NOUN__Gender=Masc	6	obj	_	_
+9	SI	SI	SCONJ	_	SCONJ___	14	mark	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nsubj:pass	_	_
+12	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
+13	de	de	ADP	_	ADP___	14	mark	_	_
+14	retenir	retenir	VERB	_	VERB__VerbForm=Inf	6	advcl	_	_
+15	sur	sur	ADP	_	ADP___	17	case	_	_
+16	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	dépot	dépot	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obl	_	_
+18	de	de	ADP	_	ADP___	19	case	_	_
+19	garnatie	garnatie	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	nmod	_	_
+20	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+21	oui	oui	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	iobj	_	_
+22	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Si les notices sont notées à l'état des lieux, et si vous avez des devis ou des factres des notices, sinon ca a de fortes chances d'etre pour votre pomme.
+1	Si	Si	SCONJ	_	SCONJ___	6	mark	_	_
+2	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+3	notices	notice	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	nsubj:pass	_	_
+4	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	notées	noter	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+6	à	à	ADP	_	ADP___	6	case	_	_
+7	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	état	état	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obl	_	_
+9	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
+10	lieux	lieu	ADJ	_	ADJ__Gender=Masc	11	obj	_	_
+11	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+12	et	et	CCONJ	_	CCONJ___	14	cc	_	_
+13	si	si	SCONJ	_	SCONJ___	14	mark	_	_
+14	vous	se	PRON	_	PRON__Number=Plur|Person=2	6	nsubj	_	_
+15	avez	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	17	conj	_	_
+16	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	17	det	_	_
+17	devis	devis	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	obj	_	_
+18	ou	ou	CCONJ	_	CCONJ___	19	cc	_	_
+19	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	17	det	_	_
+20	factres	factres	NOUN	_	NOUN__Gender=Fem|Number=Plur	6	conj	_	_
+21	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
+22	notices	notice	NOUN	_	NOUN__Gender=Fem|Number=Plur	6	obj	_	_
+23	,	,	PUNCT	_	PUNCT___	27	punct	_	_
+24	sinon	sinon	ADV	_	ADV___	25	advmod	_	_
+25	ca	ca	NOUN	_	NOUN___	27	case	_	_
+26	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	fixed	_	_
+27	de	de	ADP	_	ADP___	27	case	_	_
+28	fortes	fort	NOUN	_	NOUN__Gender=Masc|Number=Plur	30	obl	_	_
+29	chances	chance	NOUN	_	NOUN__Gender=Fem|Number=Plur	30	amod	_	_
+30	d'	de	ADP	_	ADP___	27	case	_	_
+31	etre	etre	VERB	_	VERB__VerbForm=Inf	32	nmod	_	_
+32	pour	pour	ADP	_	ADP___	30	case	_	_
+33	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	27	nmod:poss	_	_
+34	pomme	pommer	NOUN	_	NOUN__Gender=Masc|Number=Sing	37	obl	_	_
+35	.	.	PUNCT	_	PUNCT___	37	punct	_	_
+
+
+#toute retenue effectuée sur le dépôt de garantie doit être justifiée par un devis...
+1	toute	tout	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	retenue	retenu	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nsubj	_	_
+3	effectuée	effectuer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4	sur	sur	ADP	_	ADP___	6	case	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	dépôt	dépôt	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obl	_	_
+7	de	de	ADP	_	ADP___	8	case	_	_
+8	garantie	garantir	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+9	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+10	être	être	AUX	_	AUX__VerbForm=Inf	11	aux:pass	_	_
+11	justifiée	justifier	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	xcomp	_	_
+12	par	par	ADP	_	ADP___	14	case	_	_
+13	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	devis	devis	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obl	_	_
+15	...	...	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#qui est fait à partie de la comparaison entre l'EDL d'entrée et celui de sortiesi vous souhaitez rembourser au nouveau locataire les fournitures de peinture, il faut:- qu'il vous transmettre les factures d'achat- faire un nouvel EDL d'entrée après que les travaux de peinture seront terminésà moins que votre locataire soit un excellent peintre, je ne recommande pas l'exécution des travaux par le locataire...car vous pouvez retrouver un appartement "barbouillé"...
+1	qui	qui	PRON	_	PRON__PronType=Rel	2	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+3	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	à	à	ADP	_	ADP___	6	advmod	_	_
+5	partie	partir	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	fixed	_	_
+6	de	de	ADP	_	ADP___	3	case	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	comparaison	comparaison	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obl	_	_
+9	entre	entrer	ADP	_	ADP___	9	case	_	_
+10	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	EDL	EDL	NOUN	_	NOUN__Number=Sing	9	nmod	_	_
+12	d'	de	ADP	_	ADP___	14	case	_	_
+13	entrée	entrer	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nmod	_	_
+14	et	et	CCONJ	_	CCONJ___	11	cc	_	_
+15	celui	celui	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Dem	9	conj	_	_
+16	de	de	ADP	_	ADP___	18	case	_	_
+17	sortiesi	sortiesi	VERB	_	VERB__VerbForm=Inf	18	nmod	_	_
+18	vous	se	PRON	_	PRON__Number=Plur|Person=2	18	iobj	_	_
+19	souhaitez	souhaiter	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	18	aux	_	_
+20	rembourser	rembourser	VERB	_	VERB__VerbForm=Inf	19	xcomp	_	_
+21	au	au	PRON	_	PRON___	23	advmod	_	_
+22	nouveau	nouveau	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	fixed	_	_
+23	locataire	locataire	VERB	_	VERB__VerbForm=Inf	18	obj	_	_
+24	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	26	det	_	_
+25	fournitures	fourniture	NOUN	_	NOUN__Gender=Fem|Number=Plur	26	obj	_	_
+26	de	de	ADP	_	ADP___	23	case	_	_
+27	peinture	peinture	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	nmod	_	_
+28	,	,	PUNCT	_	PUNCT___	26	punct	_	_
+29	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	30	nsubj	_	_
+30	faut:-	faut:-	ADV	_	ADV___	26	parataxis	_	_
+31	qu'	que	SCONJ	_	SCONJ___	32	mark	_	_
+32	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	30	nsubj	_	_
+33	vous	se	PRON	_	PRON__Number=Plur|Person=2	35	iobj	_	_
+34	transmettre	transmettre	VERB	_	VERB__VerbForm=Inf	35	ccomp	_	_
+35	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	18	det	_	_
+36	factures	facturer	NOUN	_	NOUN__Gender=Fem|Number=Plur	38	obj	_	_
+37	d'	de	ADP	_	ADP___	36	case	_	_
+38	achat-	achat-	NOUN	_	NOUN__Gender=Fem|Number=Plur	35	nmod	_	_
+39	faire	faire	VERB	_	VERB__VerbForm=Inf	40	xcomp	_	_
+40	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+41	nouvel	nouveau	ADJ	_	ADJ__Gender=Masc|Number=Sing	42	amod	_	_
+42	EDL	EDL	NOUN	_	NOUN___	40	obj	_	_
+43	d'	de	ADP	_	ADP___	45	case	_	_
+44	entrée	entrer	NOUN	_	NOUN__Gender=Fem|Number=Sing	45	nmod	_	_
+45	après	après	ADP	_	ADP___	18	mark	_	_
+46	que	que	SCONJ	_	SCONJ___	49	fixed	_	_
+47	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	49	det	_	_
+48	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	49	nsubj	_	_
+49	de	de	ADP	_	ADP___	45	case	_	_
+50	peinture	peinture	VERB	_	VERB__VerbForm=Inf	51	nmod	_	_
+51	seront	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	49	cop	_	_
+52	terminésà	terminésà	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	53	advcl	_	_
+53	moins	moins	ADV	_	ADV___	51	advmod	_	_
+54	que	que	SCONJ	_	SCONJ___	49	mark	_	_
+55	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	57	nmod:poss	_	_
+56	locataire	locataire	NOUN	_	NOUN__Gender=Masc|Number=Sing	57	nsubj	_	_
+57	soit	être	CCONJ	_	CCONJ___	54	cop	_	_
+58	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	59	det	_	_
+59	excellent	exceller	NOUN	_	NOUN__Gender=Masc|Number=Sing	57	amod	_	_
+60	peintre	peintre	ADJ	_	ADJ__Number=Sing	67	obl	_	_
+61	,	,	PUNCT	_	PUNCT___	60	punct	_	_
+62	je	il	PRON	_	PRON__Number=Sing|Person=1	63	nsubj	_	_
+63	ne	ne	ADV	_	ADV__Polarity=Neg	67	advmod	_	_
+64	recommande	recommander	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	65	advcl	_	_
+65	pas	pas	ADV	_	ADV__Polarity=Neg	63	advmod	_	_
+66	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	67	det	_	_
+67	exécution	exécution	NOUN	_	NOUN__Gender=Fem|Number=Sing	54	obj	_	_
+68	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	67	det	_	_
+69	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	75	obj	_	_
+70	par	par	ADP	_	ADP___	71	case	_	_
+71	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	75	det	_	_
+72	locataire	locataire	NOUN	_	NOUN__Gender=Masc|Number=Sing	75	obl	_	_
+73	...	...	PUNCT	_	PUNCT___	75	punct	_	_
+74	car	car	CCONJ	_	CCONJ___	75	cc	_	_
+75	vous	se	PRON	_	PRON__Number=Plur|Person=2	79	nsubj	_	_
+76	pouvez	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	79	aux	_	_
+77	retrouver	retrouver	VERB	_	VERB__VerbForm=Inf	79	conj	_	_
+78	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	79	det	_	_
+79	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	67	obj	_	_
+80	"	"	PUNCT	_	PUNCT___	79	punct	_	_
+81	barbouillé	barbouiller	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	82	amod	_	_
+82	"	"	PUNCT	_	PUNCT___	79	punct	_	_
+83	...	...	PUNCT	_	PUNCT___	84	punct	_	_
+
+
+#Bonjour,Tapez "notice (+ la marque et le nom de votre appareil)"
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	Tapez	Tapez	PROPN	_	PROPN___	1	conj	_	_
+4	"	"	PUNCT	_	PUNCT___	5	punct	_	_
+5	notice	notice	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+6	(	(	PUNCT	_	PUNCT___	5	punct	_	_
+7	+	+	ADP	_	ADP___	9	case	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	marque	marquer	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+10	et	et	CCONJ	_	CCONJ___	12	cc	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	nom	nom	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	conj	_	_
+13	de	de	ADP	_	ADP___	15	case	_	_
+14	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	15	nmod:poss	_	_
+15	appareil	appareil	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nmod	_	_
+16	)	)	PUNCT	_	PUNCT___	5	punct	_	_
+17	"	"	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#dans un moteur de recherche, plusieurs sites gratuits vous permettent de les télécharger...
+1	dans	dan	ADP	_	ADP___	1	case	_	_
+2	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	moteur	moteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+4	de	de	ADP	_	ADP___	5	case	_	_
+5	recherche	rechercher	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+6	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+7	plusieurs	plusieurs	DET	_	DET__Number=Plur	9	det	_	_
+8	sites	site	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	nsubj	_	_
+9	gratuits	gratuit	ADJ	_	ADJ__Gender=Masc|Number=Plur	5	amod	_	_
+10	vous	se	PRON	_	PRON__Number=Plur|Person=2	12	nsubj	_	_
+11	permettent	permettre	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+12	de	de	ADP	_	ADP___	9	case	_	_
+13	les	le	PRON	_	PRON__Number=Plur|Person=3	15	det	_	_
+14	télécharger	télécharger	VERB	_	VERB__VerbForm=Inf	15	obl	_	_
+15	...	...	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#et fournissez des photocopies !!!
+1	et	et	CCONJ	_	CCONJ___	2	cc	_	_
+2	fournissez	fournir	ADV	_	ADV___	0	ROOT	_	_
+3	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
+4	photocopies	photocopier	NOUN	_	NOUN__Gender=Fem|Number=Plur	2	obj	_	_
+5	!	!	PUNCT	_	PUNCT___	2	punct	_	_
+6	!	!	PUNCT	_	PUNCT___	2	punct	_	_
+7	!	!	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#Ici vous faites juste payer le cout des copies, au titre de la dégradation, seulement si il y a preuve que vous es avez fourni, sinon adios...
+1	Ici	Ici	ADV	_	ADV___	3	nsubj	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	3	iobj	_	_
+3	faites	fait	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	juste	juste	ADV	_	ADV___	5	advmod	_	_
+5	payer	payer	VERB	_	VERB__VerbForm=Inf	3	xcomp	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	cout	cout	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+8	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	9	det	_	_
+9	copies	copier	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	obj	_	_
+10	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+11	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	12	case	_	_
+12	titre	titrer	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	conj	_	_
+13	de	de	ADP	_	ADP___	15	case	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	dégradation	dégradation	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+16	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+17	seulement	seulement	ADV	_	ADV___	22	advmod	_	_
+18	si	si	SCONJ	_	SCONJ___	22	mark	_	_
+19	il	il	PRON	_	PRON__Number=Sing|Person=3	22	nsubj	_	_
+20	y	yu	PRON	_	PRON__Person=3	19	fixed	_	_
+21	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	fixed	_	_
+22	preuve	preuve	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obl	_	_
+23	que	que	SCONJ	_	SCONJ___	27	mark	_	_
+24	vous	se	PRON	_	PRON__Number=Plur|Person=2	27	nsubj	_	_
+25	es	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	27	obj	_	_
+26	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	fourni	fournir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	ccomp	_	_
+28	,	,	PUNCT	_	PUNCT___	27	punct	_	_
+29	sinon	sinon	ADV	_	ADV___	30	advmod	_	_
+30	adios	adios	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	obl	_	_
+31	...	...	PUNCT	_	PUNCT___	3	punct	_	_
+
+

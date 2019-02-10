@@ -1,0 +1,86 @@
+#Bonjour,Il faut prendre l'estimation du logement à ce jour, déduire les 10 000 € de remboursement anticipé et le montant du capital restant dû, puis diviser le montant obtenu par deux.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	4	obl	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+4	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	prendre	prendre	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	estimation	estimation	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obj	_	_
+8	du	du	DET	_	DET__Gender=Masc|Number=Sing	9	det	_	_
+9	logement	logement	ADV	_	ADV___	7	nmod	_	_
+10	à	à	ADP	_	ADP___	12	case	_	_
+11	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
+12	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nmod	_	_
+13	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+14	déduire	déduire	ADJ	_	ADJ__Number=Sing	7	conj	_	_
+15	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	18	det	_	_
+16	10	10	NUM	_	NUM__NumType=Card	18	nummod	_	_
+17	000	000	NUM	_	NUM__NumType=Card	18	nummod	_	_
+18	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	obj	_	_
+19	de	de	ADP	_	ADP___	20	case	_	_
+20	remboursement	remboursement	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nmod	_	_
+21	anticipé	anticiper	ADJ	_	ADJ__Gender=Masc|Number=Sing	20	amod	_	_
+22	et	et	CCONJ	_	CCONJ___	24	cc	_	_
+23	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	montant	monter	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	conj	_	_
+25	du	du	DET	_	DET__Gender=Masc|Number=Sing	26	det	_	_
+26	capital	capital	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	nsubj	_	_
+27	restant	rester	VERB	_	VERB__Tense=Pres|VerbForm=Part	28	cop	_	_
+28	dû	devoir	ADJ	_	ADJ__Gender=Masc|Number=Sing	18	acl:relcl	_	_
+29	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+30	puis	pouvoir	CCONJ	_	CCONJ___	31	aux	_	_
+31	diviser	diviser	VERB	_	VERB__VerbForm=Inf	4	conj	_	_
+32	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	montant	monter	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	obj	_	_
+34	obtenu	obtenir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	acl	_	_
+35	par	par	ADP	_	ADP___	36	case	_	_
+36	deux	deux	NUM	_	NUM__NumType=Card	34	obl	_	_
+37	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Sur votre part, vous rajoutez sur votre part les 10 000 € de remboursement anticipé.
+1	Sur	Sur	ADP	_	ADP___	4	case	_	_
+2	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+3	part	partir	NOUN	_	NOUN__Number=Sing	4	obl	_	_
+4	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+5	vous	se	PRON	_	PRON__Number=Plur|Person=2	4	nsubj	_	_
+6	rajoutez	rajouter	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	sur	sur	ADP	_	ADP___	5	case	_	_
+8	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	9	nmod:poss	_	_
+9	part	partir	NOUN	_	NOUN__Number=Sing	7	obl	_	_
+10	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	12	det	_	_
+11	10	10	NUM	_	NUM__NumType=Card	12	nummod	_	_
+12	000	000	NUM	_	NUM__NumType=Card	9	nummod	_	_
+13	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	obj	_	_
+14	de	de	ADP	_	ADP___	7	case	_	_
+15	remboursement	remboursement	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nmod	_	_
+16	anticipé	anticiper	ADJ	_	ADJ__Gender=Masc|Number=Sing	18	amod	_	_
+17	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Les montants de l'apport ne sont pas à prendre en compte puisque vous avez effectué le même apport tous les deux.
+1	Les	Les	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+2	montants	montant	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	nsubj	_	_
+3	de	de	ADP	_	ADP___	4	case	_	_
+4	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+5	apport	apport	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+6	ne	ne	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+7	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+8	pas	pas	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+9	à	à	ADP	_	ADP___	7	mark	_	_
+10	prendre	prendre	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+11	en	en	ADP	_	ADP___	12	case	_	_
+12	compte	compter	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obl	_	_
+13	puisque	puisque	SCONJ	_	SCONJ___	14	mark	_	_
+14	vous	se	PRON	_	PRON__Number=Plur|Person=2	7	nsubj	_	_
+15	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	18	aux	_	_
+16	effectué	effectuer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	advcl	_	_
+17	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	même	même	ADJ	_	ADJ__Number=Sing	14	amod	_	_
+19	apport	apport	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obj	_	_
+20	tous	tout	ADJ	_	ADJ__Gender=Masc|Number=Plur	18	amod	_	_
+21	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	20	det	_	_
+22	deux	deux	PRON	_	PRON__NumType=Card|PronType=Rel	24	obj	_	_
+23	.	.	PUNCT	_	PUNCT___	24	punct	_	_
+
+

@@ -1,0 +1,530 @@
+#Bonjour,j'ai un souci concernant la régularisation de charge et je ne trouve pas la règle de calculs.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	4	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	j'	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+4	ai	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	souci	souci	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obj	_	_
+7	concernant	concerner	VERB	_	VERB__Tense=Pres|VerbForm=Part	6	acl	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	régularisation	régularisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+10	de	de	ADP	_	ADP___	11	case	_	_
+11	charge	charger	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nmod	_	_
+12	et	et	CCONJ	_	CCONJ___	15	cc	_	_
+13	je	il	PRON	_	PRON__Number=Sing|Person=1	15	nsubj	_	_
+14	ne	ne	ADV	_	ADV__Polarity=Neg	15	advmod	_	_
+15	trouve	trouver	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+16	pas	pas	ADV	_	ADV__Polarity=Neg	15	advmod	_	_
+17	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	règle	régler	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obj	_	_
+19	de	de	ADP	_	ADP___	20	case	_	_
+20	calculs	calcul	NOUN	_	NOUN__Gender=Masc|Number=Plur	18	nmod	_	_
+21	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#J'ai un locataire qui est arrivé au 1er juin 2016.
+1	J'	J'	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+2	ai	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	locataire	locataire	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obj	_	_
+5	qui	qui	PRON	_	PRON__PronType=Rel	6	nsubj:pass	_	_
+6	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+7	arrivé	arriver	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	cop	_	_
+8	au	au	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	det	_	_
+9	1er	1er	ADJ	_	ADJ__NumType=Ord	7	amod	_	_
+10	juin	juin	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	acl:relcl	_	_
+11	2016	2016	NUM	_	NUM__NumType=Card	9	nummod	_	_
+12	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Mon décompte de charge est du 1er janvier au 31 décembre.
+1	Mon	Mon	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+2	décompte	décompter	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	amod	_	_
+3	de	de	ADP	_	ADP___	4	fixed	_	_
+4	charge	charger	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nsubj	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	du	du	ADJ	_	ADJ__Gender=Masc|Number=Sing	4	det	_	_
+7	1er	1er	ADJ	_	ADJ__NumType=Ord	6	amod	_	_
+8	janvier	janvier	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+9	au	au	PRON	_	PRON__PronType=Rel	7	case	_	_
+10	31	31	NUM	_	NUM__NumType=Card	11	nummod	_	_
+11	décembre	décembre	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nmod	_	_
+12	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Est-ce que sa part est bien au prorata soit 7/12ème des charges ?
+1	Est	être		_	VERB	0	ROOT	_	_
+2	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	4	amod	_	_
+3	que	que	ADV	_	ADV___	4	mark	_	_
+4	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	4	nmod:poss	_	_
+5	part	partir	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nsubj	_	_
+6	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+7	bien	bien	ADV	_	ADV___	6	advmod	_	_
+8	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	9	fixed	_	_
+9	prorata	prorata	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	acl	_	_
+10	soit	être	CCONJ	_	CCONJ___	11	cc	_	_
+11	7/12ème	7/12ème	PRON	_	PRON__Gender=Fem|Number=Sing|PronType=Rel	9	conj	_	_
+12	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	15	det	_	_
+13	charges	charger	NOUN	_	NOUN__Gender=Fem|Number=Plur	15	obj	_	_
+14	?	?	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Dans le cas d'une arrivée en milieu de mois, on fait un prorata sur 365 jours ?
+1	Dans	Dans	ADP	_	ADP___	4	case	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+4	d'	de	ADP	_	ADP___	4	case	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	arrivée	arriver	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+7	en	en	ADP	_	ADP___	6	case	_	_
+8	milieu	milieu	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nmod	_	_
+9	de	de	ADP	_	ADP___	7	case	_	_
+10	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	nmod	_	_
+11	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+12	on	on	PRON	_	PRON__Number=Sing|Person=3	15	nsubj	_	_
+13	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+14	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	prorata	prorata	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obj	_	_
+16	sur	sur	ADP	_	ADP___	15	case	_	_
+17	365	365	NUM	_	NUM__NumType=Card	18	nummod	_	_
+18	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	obl	_	_
+19	?	?	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Enfin, ce qui l'ennuie, c'est que ce nouveau locataire consomme bien plus que l'ancien.
+1	Enfin	Enfin	ADV	_	ADV___	4	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	ce	ce	PRON	_	PRON__PronType=Rel	0	ROOT	_	_
+4	qui	qui	PRON	_	PRON__PronType=Rel	4	nsubj	_	_
+5	l'	le	PRON	_	PRON__Number=Sing|Person=3	6	det	_	_
+6	ennuie	ennuyer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+8	c'	ce	PRON	_	PRON__Number=Sing|Person=3	9	advmod	_	_
+9	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	fixed	_	_
+10	que	que	SCONJ	_	SCONJ___	11	fixed	_	_
+11	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+12	nouveau	nouveau	ADJ	_	ADJ__Gender=Masc|Number=Sing	15	fixed	_	_
+13	locataire	locataire	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	amod	_	_
+14	consomme	consommer	ADV	_	ADV___	15	amod	_	_
+15	bien	bien	ADV	_	ADV___	4	advmod	_	_
+16	plus	plaire	ADV	_	ADV___	15	advmod	_	_
+17	que	que	SCONJ	_	SCONJ___	18	mark	_	_
+18	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+19	ancien	ancien	ADJ	_	ADJ__Gender=Masc|Number=Sing	20	dep	_	_
+20	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Du coup, il paiera moins de charges mensuelles en 2016 qu'en 2017.
+1	Du	Du	DET	_	DET__Gender=Masc|Number=Sing	4	det	_	_
+2	coup	coup	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+5	paiera	payer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+6	moins	moins	ADV	_	ADV___	4	advmod	_	_
+7	de	de	ADP	_	ADP___	6	det	_	_
+8	charges	charger	NOUN	_	NOUN__Gender=Fem|Number=Plur	9	obl	_	_
+9	mensuelles	mensuel	ADJ	_	ADJ__Number=Plur	7	amod	_	_
+10	en	en	ADP	_	ADP___	11	case	_	_
+11	2016	2016	NUM	_	NUM__NumType=Card	9	obl	_	_
+12	qu'	que	SCONJ	_	SCONJ___	15	advmod	_	_
+13	en	en	ADP	_	ADP___	15	case	_	_
+14	2017	2017	NUM	_	NUM__NumType=Card	15	nummod	_	_
+15	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Le locataire précédent lui paiera plus cher "à cause" du nouveau locataire.
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+2	locataire	locataire	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+3	précédent	précédent	ADJ	_	ADJ__Gender=Masc|Number=Sing	4	amod	_	_
+4	lui	luire	PRON	_	PRON__Number=Sing|Person=3	4	obj	_	_
+5	paiera	payer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+6	plus	plaire	ADV	_	ADV___	4	advmod	_	_
+7	cher	cher	ADJ	_	ADJ__Gender=Masc|Number=Sing	6	xcomp	_	_
+8	"	"	PUNCT	_	PUNCT___	9	punct	_	_
+9	à	à	ADP	_	ADP___	7	advmod	_	_
+10	cause	causer	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	fixed	_	_
+11	"	"	PUNCT	_	PUNCT___	9	punct	_	_
+12	du	du	DET	_	DET__Gender=Masc|Number=Sing	15	det	_	_
+13	nouveau	nouveau	ADJ	_	ADJ__Gender=Masc|Number=Sing	15	fixed	_	_
+14	locataire	locataire	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obj	_	_
+15	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Merci d'avance
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	d'	de	ADP	_	ADP___	4	case	_	_
+3	avance	avancer	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+
+
+#Je parle bien des charges collectives (chauffage et eau chaude chaudière principalement).Ce que je veux dire, c'est que ce locataire a en moyenne 130 € de charge mensuelle sauf sur ces 7 mois de 2016 où il a 73 € de charge mensuelle.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	2	nsubj	_	_
+2	parle	parler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	bien	bien	ADV	_	ADV___	2	advmod	_	_
+4	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
+5	charges	charger	NOUN	_	NOUN__Gender=Fem|Number=Plur	2	obj	_	_
+6	collectives	collectif	ADJ	_	ADJ__Gender=Fem|Number=Plur	5	amod	_	_
+7	(	(	PUNCT	_	PUNCT___	5	punct	_	_
+8	chauffage	chauffage	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	appos	_	_
+9	et	et	CCONJ	_	CCONJ___	11	cc	_	_
+10	eau	eau	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	det	_	_
+11	chaude	chaud	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	conj	_	_
+12	chaudière	chaudière	ADJ	_	ADJ__Gender=Fem|Number=Sing	11	amod	_	_
+13	principalement).Ce	principalement).Ce	ADV	_	ADV___	5	punct	_	_
+14	que	que	SCONJ	_	SCONJ___	17	mark	_	_
+15	je	il	PRON	_	PRON__Number=Sing|Person=1	17	nsubj	_	_
+16	veux	vouloir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	dire	dire	VERB	_	VERB__VerbForm=Inf	41	advcl	_	_
+18	,	,	PUNCT	_	PUNCT___	41	punct	_	_
+19	c'	ce	PRON	_	PRON__Number=Sing|Person=3	41	nsubj	_	_
+20	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	fixed	_	_
+21	que	que	SCONJ	_	SCONJ___	19	fixed	_	_
+22	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	23	det	_	_
+23	locataire	locataire	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	nsubj	_	_
+24	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+25	en	en	ADP	_	ADP___	28	advmod	_	_
+26	moyenne	moyenner	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	fixed	_	_
+27	130	130	NUM	_	NUM__NumType=Card	28	nummod	_	_
+28	€	€	NOUN	_	NOUN___	19	fixed	_	_
+29	de	de	ADP	_	ADP___	30	case	_	_
+30	charge	charger	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	nmod	_	_
+31	mensuelle	mensuel	ADJ	_	ADJ__Gender=Fem|Number=Sing	30	amod	_	_
+32	sauf	sauf	ADP	_	ADP___	19	fixed	_	_
+33	sur	sur	ADP	_	ADP___	36	case	_	_
+34	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	36	det	_	_
+35	7	7	NUM	_	NUM__NumType=Card	36	nummod	_	_
+36	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	41	obl	_	_
+37	de	de	ADP	_	ADP___	38	case	_	_
+38	2016	2016	NUM	_	NUM__NumType=Card	36	nmod	_	_
+39	où	où	PRON	_	PRON__PronType=Rel	41	iobj	_	_
+40	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	41	nsubj	_	_
+41	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+42	73	73	NUM	_	NUM__NumType=Card	43	nummod	_	_
+43	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	41	obj	_	_
+44	de	de	ADP	_	ADP___	45	case	_	_
+45	charge	charger	NOUN	_	NOUN__Gender=Fem|Number=Sing	43	nmod	_	_
+46	mensuelle	mensuel	ADJ	_	ADJ__Gender=Fem|Number=Sing	45	amod	_	_
+47	.	.	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#Comme je pense que ce locataire n'a pas moins consommé en 2016, je pense que le prorata se fait au détriment de l'ancien locataire et de moi (les charges sont pour moi pendant une courte période
+1	Comme	Comme	SCONJ	_	SCONJ___	2	mark	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	2	nsubj	_	_
+3	pense	penser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+4	que	que	SCONJ	_	SCONJ___	5	mark	_	_
+5	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+6	locataire	locataire	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+7	n'	ne	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+8	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+9	pas	pas	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+10	moins	moins	ADV	_	ADV___	11	advmod	_	_
+11	consommé	consommer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	ccomp	_	_
+12	en	en	ADP	_	ADP___	11	case	_	_
+13	2016	2016	NUM	_	NUM__NumType=Card	5	nummod	_	_
+14	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+15	je	il	PRON	_	PRON__Number=Sing|Person=1	17	nsubj	_	_
+16	pense	penser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+17	que	que	SCONJ	_	SCONJ___	41	mark	_	_
+18	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+19	prorata	prorata	NOUN	_	NOUN__Gender=Fem|Number=Sing	41	nsubj	_	_
+20	se	se	PRON	_	PRON__Person=3|Reflex=Yes	19	expl	_	_
+21	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	ccomp	_	_
+22	au	au	DET	_	DET__Number=Plur|PronType=Dem	23	case	_	_
+23	détriment	détriment	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	fixed	_	_
+24	de	de	ADP	_	ADP___	28	fixed	_	_
+25	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	28	det	_	_
+26	ancien	ancien	ADJ	_	ADJ__Gender=Masc|Number=Sing	25	amod	_	_
+27	locataire	locataire	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	obj	_	_
+28	et	et	CCONJ	_	CCONJ___	19	cc	_	_
+29	de	de	ADP	_	ADP___	30	case	_	_
+30	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	28	conj	_	_
+31	(	(	PUNCT	_	PUNCT___	30	punct	_	_
+32	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	19	det	_	_
+33	charges	charger	NOUN	_	NOUN__Gender=Fem|Number=Plur	36	appos	_	_
+34	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	36	cop	_	_
+35	pour	pour	ADP	_	ADP___	36	case	_	_
+36	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	41	ccomp	_	_
+37	pendant	pendre	ADP	_	ADP___	38	case	_	_
+38	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+39	courte	courter	ADJ	_	ADJ__Gender=Fem|Number=Sing	41	amod	_	_
+40	période	période	NOUN	_	NOUN__Gender=Fem|Number=Sing	41	obl	_	_
+
+
+#locative).Je trouve ça pas très juste pour le précédent locataire.
+1	locative).Je	locative).Je	ADJ	_	ADJ__Number=Sing	2	det	_	_
+2	trouve	trouver	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	amod	_	_
+3	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	0	ROOT	_	_
+4	pas	pas	ADV	_	ADV___	5	advmod	_	_
+5	très	très	ADV	_	ADV___	2	advmod	_	_
+6	juste	juste	ADV	_	ADV___	5	advmod	_	_
+7	pour	pour	ADP	_	ADP___	5	case	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+9	précédent	précédent	ADJ	_	ADJ__Gender=Masc|Number=Sing	11	obl	_	_
+10	locataire	locataire	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	amod	_	_
+11	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Concernant, la régularisation de charge, je découvre en fait...
+1	Concernant	Concernant	VERB	_	VERB__Tense=Pres|VerbForm=Part	2	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	2	punct	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+4	régularisation	régularisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nsubj	_	_
+5	de	de	ADP	_	ADP___	2	case	_	_
+6	charge	charger	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+7	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+8	je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+9	découvre	découvrir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+10	en	en	ADP	_	ADP___	11	iobj	_	_
+11	fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	fixed	_	_
+12	...	...	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#J'ai repris la gestion de cet appart en 2015 car la régie qui le louait ne faisait rien pour arriver à le louer.
+1	J'	J'	PRON	_	PRON__Number=Sing|Person=1	2	nsubj	_	_
+2	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+3	repris	reprendre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	gestion	gestion	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	obj	_	_
+6	de	de	ADP	_	ADP___	5	case	_	_
+7	cet	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+8	appart	appart	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+9	en	en	ADP	_	ADP___	11	case	_	_
+10	2015	2015	NUM	_	NUM__NumType=Card	11	nummod	_	_
+11	car	car	CCONJ	_	CCONJ___	8	cc	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+13	régie	régir	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	conj	_	_
+14	qui	qui	PRON	_	PRON__PronType=Rel	17	nsubj	_	_
+15	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	17	obj	_	_
+16	louait	louer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	acl:relcl	_	_
+17	ne	ne	ADV	_	ADV___	41	advmod	_	_
+18	faisait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	41	xcomp	_	_
+19	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	41	obj	_	_
+20	pour	pour	ADP	_	ADP___	19	mark	_	_
+21	arriver	avoir	VERB	_	VERB__VerbForm=Inf	19	advcl	_	_
+22	à	à	ADP	_	ADP___	23	case	_	_
+23	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+24	louer	louer	VERB	_	VERB__VerbForm=Inf	28	obl	_	_
+25	.	.	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#Conseils aux locataires : lisez ce qui est écrit dans votre bail car votre proprio peut être soit malhonnête, ou encore mal informé comme moi.
+1	Conseils	Conseils	PROPN	_	PROPN___	2	nsubj	_	_
+2	aux	aux	ADJ	_	ADJ__Gender=Masc|Number=Plur	2	amod	_	_
+3	locataires	locataire	NOUN	_	NOUN__Number=Plur	2	nmod	_	_
+4	:	:	PUNCT	_	PUNCT___	5	punct	_	_
+5	lisez	lire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+6	ce	ce	PRON	_	PRON__PronType=Rel	5	obj	_	_
+7	qui	qui	PRON	_	PRON__PronType=Rel	5	nsubj	_	_
+8	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+9	écrit	écrire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+10	dans	dan	ADP	_	ADP___	11	case	_	_
+11	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+12	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obl	_	_
+13	car	car	CCONJ	_	CCONJ___	5	cc	_	_
+14	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	17	nmod:poss	_	_
+15	proprio	proprio	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	nsubj	_	_
+16	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	être	être	AUX	_	AUX__VerbForm=Inf	41	cop	_	_
+18	soit	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	cop	_	_
+19	malhonnête	malhonnête	NOUN	_	NOUN__Gender=Masc|Number=Sing	41	conj	_	_
+20	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+21	ou	ou	CCONJ	_	CCONJ___	19	cc	_	_
+22	encore	encore	ADV	_	ADV___	23	advmod	_	_
+23	mal	mal	ADV	_	ADV___	28	advmod	_	_
+24	informé	informer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	28	conj	_	_
+25	comme	comme	ADP	_	ADP___	28	case	_	_
+26	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	25	obl	_	_
+27	.	.	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#Les proprios peuvent faire des erreurs et ne sont pas tous des "bailleurs professionnels".Bref, du coup, je vais régulariser la situation et en l’occurrence, c'est moi qui doit de l'argent au locataire.
+1	Les	Les	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	2	det	_	_
+2	proprios	proprio	NOUN	_	NOUN__Gender=Fem|Number=Plur	2	nsubj	_	_
+3	peuvent	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+4	faire	faire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	2	det	_	_
+6	erreurs	erreur	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	obj	_	_
+7	et	et	CCONJ	_	CCONJ___	5	cc	_	_
+8	ne	ne	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+9	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	pas	pas	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+11	tous	tout	ADJ	_	ADJ__Gender=Masc|Number=Plur	8	amod	_	_
+12	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
+13	"	"	PUNCT	_	PUNCT___	5	punct	_	_
+14	bailleurs	bailleur	NOUN	_	NOUN__Gender=Masc|Number=Plur	17	conj	_	_
+15	professionnels".Bref	professionnels".Bref	ADV	_	ADV___	17	acl	_	_
+16	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+17	du	du	DET	_	DET__Gender=Masc|Number=Sing	41	det	_	_
+18	coup	coup	NOUN	_	NOUN__Gender=Masc|Number=Sing	41	obl	_	_
+19	,	,	PUNCT	_	PUNCT___	41	punct	_	_
+20	je	il	PRON	_	PRON__Number=Sing|Person=1	19	nsubj	_	_
+21	vais	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	acl	_	_
+22	régulariser	régulariser	VERB	_	VERB__VerbForm=Inf	23	xcomp	_	_
+23	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+24	situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	obj	_	_
+25	et	et	CCONJ	_	CCONJ___	28	cc	_	_
+26	en	en	ADP	_	ADP___	25	case	_	_
+27	l’	l’	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	occurrence	occurrence	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	conj	_	_
+29	,	,	PUNCT	_	PUNCT___	30	punct	_	_
+30	c'	ce	PRON	_	PRON__Number=Sing|Person=3	28	nsubj	_	_
+31	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+32	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	19	conj	_	_
+33	qui	qui	PRON	_	PRON__PronType=Rel	36	nsubj	_	_
+34	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	acl:relcl	_	_
+35	de	de	ADP	_	ADP___	36	case	_	_
+36	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	41	det	_	_
+37	argent	argent	NOUN	_	NOUN__Gender=Masc|Number=Sing	38	obl	_	_
+38	au	au	PRON	_	PRON__PronType=Rel	36	obj	_	_
+39	locataire	locataire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	amod	_	_
+40	.	.	PUNCT	_	PUNCT___	41	punct	_	_
+
+
+#en plus, il y a bien un compteur calorifique.
+1	en	en	ADP	_	ADP___	4	advmod	_	_
+2	plus	plaire	ADV	_	ADV___	1	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	il	il	PRON	_	PRON__Number=Sing|Person=3	0	ROOT	_	_
+5	y	yu	PRON	_	PRON__Person=3	4	fixed	_	_
+6	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	fixed	_	_
+7	bien	bien	ADV	_	ADV___	4	advmod	_	_
+8	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	compteur	compteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obj	_	_
+10	calorifique	calorifique	ADJ	_	ADJ__Number=Sing	9	amod	_	_
+11	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Mais celui-ci sert à répartir la facture entre les différents appartements.
+1	Mais	Mais	CCONJ	_	CCONJ___	4	cc	_	_
+2	celui-ci	celui-ci	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Dem	0	ROOT	_	_
+3	sert	servir	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	acl	_	_
+4	à	à	ADP	_	ADP___	4	mark	_	_
+5	répartir	répartir	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+7	facture	facturer	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obj	_	_
+8	entre	entrer	ADP	_	ADP___	9	case	_	_
+9	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+10	différents	différent	ADJ	_	ADJ__Gender=Masc|Number=Plur	9	amod	_	_
+11	appartements	appartement	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	nmod	_	_
+12	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Je ne crois pas que l'on puisse le relever entre 2 locataires.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+2	ne	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+3	crois	croire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+5	que	que	SCONJ	_	SCONJ___	4	mark	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	4	nsubj	_	_
+7	on	on	PRON	_	PRON__Number=Sing|Person=3	4	fixed	_	_
+8	puisse	pouvoir	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	det	_	_
+10	relever	relever	VERB	_	VERB__VerbForm=Inf	9	ccomp	_	_
+11	entre	entrer	ADP	_	ADP___	4	case	_	_
+12	2	2	NUM	_	NUM__NumType=Card	13	nummod	_	_
+13	locataires	locataire	NOUN	_	NOUN__Number=Plur	13	obl	_	_
+14	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Bonjour,il faudra que je me renseigne, mais le souci c'est qu'il n'y a pas d'index sur ce compteur calorifique.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	4	acl	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+4	faudra	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+5	que	que	SCONJ	_	SCONJ___	8	mark	_	_
+6	je	il	PRON	_	PRON__Number=Sing|Person=1	8	nsubj	_	_
+7	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	8	expl	_	_
+8	renseigne	renseigner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+9	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+10	mais	mai	CCONJ	_	CCONJ___	19	cc	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	souci	souci	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	advmod	_	_
+13	c'	ce	PRON	_	PRON__Number=Sing|Person=3	19	nsubj	_	_
+14	est	être	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+15	qu'	que	SCONJ	_	SCONJ___	19	mark	_	_
+16	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	19	nsubj	_	_
+17	n'	ne	ADV	_	ADV__Polarity=Neg	19	advmod	_	_
+18	y	yu	PRON	_	PRON__Person=3	19	expl	_	_
+19	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+20	pas	pas	ADV	_	ADV__Polarity=Neg	19	advmod	_	_
+21	d'	de	DET	_	DET__Definite=Ind|Number=Sing|PronType=Art	22	det	_	_
+22	index	index	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obj	_	_
+23	sur	sur	ADP	_	ADP___	25	case	_	_
+24	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	25	det	_	_
+25	compteur	compteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obl	_	_
+26	calorifique	calorifique	ADJ	_	ADJ__Number=Sing	25	amod	_	_
+27	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Par ailleurs, la copro ne l'a jamais relevé.
+1	Par	Par	ADP	_	ADP___	4	advmod	_	_
+2	ailleurs	ailleurs	ADV	_	ADV___	4	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+5	copro	copro	NOUN	_	NOUN__Gender=Fem	8	nsubj	_	_
+6	ne	ne	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+7	l'	le	PRON	_	PRON__Number=Sing|Person=3	8	obj	_	_
+8	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+9	jamais	jamais	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+10	relevé	relever	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+11	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Tout se fait donc à distance avec un appareil electronique.
+1	Tout	Tout	ADV	_	ADV___	4	nsubj	_	_
+2	se	se	PRON	_	PRON__Person=3|Reflex=Yes	4	expl	_	_
+3	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	donc	donc	ADV	_	ADV___	4	advmod	_	_
+5	à	à	ADP	_	ADP___	8	case	_	_
+6	distance	distancer	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+7	avec	avec	ADP	_	ADP___	8	case	_	_
+8	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+9	appareil	appareil	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+10	electronique	electronique	ADJ	_	ADJ__Number=Sing	19	amod	_	_
+11	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Par ailleurs, cela ne fait pas si longtemps que ces compteurs calorifiques sont installés car obligatoire : donc auparavant, un locataire payait non seulement le prorata du chauffage sur la période, mais en plus sur toute la copro.
+1	Par	Par	ADP	_	ADP___	4	advmod	_	_
+2	ailleurs	ailleurs	ADV	_	ADV___	4	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	4	nsubj	_	_
+5	ne	ne	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+6	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+8	si	si	ADV	_	ADV___	4	advmod	_	_
+9	longtemps	longtemps	ADV	_	ADV___	4	advmod	_	_
+10	que	que	SCONJ	_	SCONJ___	19	mark	_	_
+11	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	12	det	_	_
+12	compteurs	compteur	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	nsubj	_	_
+13	calorifiques	calorifique	ADJ	_	ADJ__Number=Plur	19	amod	_	_
+14	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux:pass	_	_
+15	installés	installer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	19	ccomp	_	_
+16	car	car	CCONJ	_	CCONJ___	19	cc	_	_
+17	obligatoire	obligatoire	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	conj	_	_
+18	:	:	PUNCT	_	PUNCT___	19	punct	_	_
+19	donc	donc	ADV	_	ADV___	4	advmod	_	_
+20	auparavant	auparavant	ADV	_	ADV___	19	advmod	_	_
+21	,	,	PUNCT	_	PUNCT___	22	punct	_	_
+22	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+23	locataire	locataire	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	nsubj	_	_
+24	payait	payer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	advcl	_	_
+25	non	non	ADV	_	ADV___	19	advmod	_	_
+26	seulement	seulement	ADV	_	ADV___	25	fixed	_	_
+27	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	fixed	_	_
+28	prorata	prorata	NOUN	_	NOUN__Gender=Masc|Number=Sing	37	xcomp	_	_
+29	du	du	DET	_	DET__Gender=Masc|Number=Sing	28	det	_	_
+30	chauffage	chauffage	NOUN	_	NOUN__Gender=Masc|Number=Sing	37	obj	_	_
+31	sur	sur	ADP	_	ADP___	32	case	_	_
+32	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+33	période	période	NOUN	_	NOUN__Gender=Fem|Number=Sing	37	nmod	_	_
+34	,	,	PUNCT	_	PUNCT___	37	punct	_	_
+35	mais	mai	CCONJ	_	CCONJ___	37	cc	_	_
+36	en	en	ADP	_	ADP___	37	case	_	_
+37	plus	plaire	ADV	_	ADV___	37	fixed	_	_
+38	sur	sur	ADP	_	ADP___	37	case	_	_
+39	toute	tout	ADJ	_	ADJ__Gender=Fem|Number=Sing	41	amod	_	_
+40	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	copro	copro	NOUN	_	NOUN__Gender=Fem|Number=Sing	41	conj	_	_
+42	.	.	PUNCT	_	PUNCT___	41	punct	_	_
+
+

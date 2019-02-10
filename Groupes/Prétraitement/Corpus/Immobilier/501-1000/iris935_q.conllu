@@ -1,0 +1,357 @@
+#Bonjour,Mon fils a acheté un bien sans salle de bain ni WC en copropriété.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	6	acl	_	_
+2	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+3	Mon	Mon	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+4	fils	fil	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nsubj	_	_
+5	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	acheté	acheter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	bien	bien	ADV	_	ADV___	6	obj	_	_
+9	sans	sans	ADP	_	ADP___	10	case	_	_
+10	salle	salle	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obl	_	_
+11	de	de	ADP	_	ADP___	12	case	_	_
+12	bain	bain	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+13	ni	ni	CCONJ	_	CCONJ___	14	cc	_	_
+14	WC	WC	NOUN	_	NOUN___	10	conj	_	_
+15	en	en	ADP	_	ADP___	16	case	_	_
+16	copropriété	copropriété	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obl	_	_
+17	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Cela ne semblait pas poser problème, le logement étant muni d'une canalisation d'évacuation pour la cuisine.
+1	Cela	Cela	PRON	_	PRON__Number=Sing|PronType=Dem	6	nsubj	_	_
+2	ne	ne	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+3	semblait	sembler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+5	poser	poser	VERB	_	VERB__VerbForm=Inf	6	xcomp	_	_
+6	problème	problème	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+7	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+9	logement	logement	ADV	_	ADV___	10	obj	_	_
+10	étant	être	AUX	_	AUX__Tense=Pres|VerbForm=Part	6	aux:pass	_	_
+11	muni	munir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
+12	d'	de	ADP	_	ADP___	10	case	_	_
+13	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	canalisation	canalisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obl	_	_
+15	d'	de	ADP	_	ADP___	16	case	_	_
+16	évacuation	évacuation	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+17	pour	pour	ADP	_	ADP___	6	case	_	_
+18	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	cuisine	cuisiner	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	nmod	_	_
+20	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Cette canalisation (diam.100) est propre a son logement.
+1	Cette	Cette	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+2	canalisation	canalisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nsubj	_	_
+3	(	(	PUNCT	_	PUNCT___	4	punct	_	_
+4	diam.100	diam.100	NOUN	_	NOUN___	6	appos	_	_
+5	)	)	PUNCT	_	PUNCT___	6	punct	_	_
+6	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+7	propre	propre	ADJ	_	ADJ__Number=Sing	8	advmod	_	_
+8	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+9	son	son	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+10	logement	logement	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+11	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Je veux dire par là qu'elle rejoint le tout à l'égout de l'immeuble sans se joindre aux autres canalisations des autres copropriétaires.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+2	veux	vouloir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	dire	dire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	par	par	ADP	_	ADP___	6	case	_	_
+5	là	là	ADV	_	ADV___	6	obl	_	_
+6	qu'	que	SCONJ	_	SCONJ___	6	mark	_	_
+7	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	8	nsubj	_	_
+8	rejoint	rejoindre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	acl:relcl	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	tout	tout	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+11	à	à	ADP	_	ADP___	12	case	_	_
+12	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	10	fixed	_	_
+13	égout	égout	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	fixed	_	_
+14	de	de	ADP	_	ADP___	10	fixed	_	_
+15	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	immeuble	immeuble	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obl	_	_
+17	sans	sans	ADP	_	ADP___	6	mark	_	_
+18	se	se	PRON	_	PRON__Person=3|Reflex=Yes	20	expl	_	_
+19	joindre	joindre	VERB	_	VERB__VerbForm=Inf	20	advcl	_	_
+20	aux	aux	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	20	det	_	_
+21	autres	autre	ADJ	_	ADJ__Number=Plur	22	amod	_	_
+22	canalisations	canalisation	NOUN	_	NOUN__Gender=Fem|Number=Plur	20	obj	_	_
+23	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	22	det	_	_
+24	autres	autre	ADJ	_	ADJ__Number=Plur	22	amod	_	_
+25	copropriétaires	copropriétaire	NOUN	_	NOUN__Gender=Fem|Number=Plur	26	amod	_	_
+26	.	.	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#Il a donc installé un WC et une salle de bain sur cette canalisation.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+2	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	donc	donc	ADV	_	ADV___	4	advmod	_	_
+4	installé	installer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	WC	WC	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+7	et	et	CCONJ	_	CCONJ___	8	cc	_	_
+8	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+9	salle	salle	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	conj	_	_
+10	de	de	ADP	_	ADP___	6	case	_	_
+11	bain	bain	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nmod	_	_
+12	sur	sur	ADP	_	ADP___	10	case	_	_
+13	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	14	det	_	_
+14	canalisation	canalisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+15	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#D'après le règlement de copropriété toute canalisation entrant dans le logement est considérée privative.
+1	D'	D'	ADP	_	ADP___	6	case	_	_
+2	après	après	ADP	_	ADP___	6	fixed	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	règlement	règlement	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obl	_	_
+5	de	de	ADP	_	ADP___	6	case	_	_
+6	copropriété	copropriété	VERB	_	VERB__VerbForm=Inf	6	nmod	_	_
+7	toute	tout	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	canalisation	canalisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obj	_	_
+9	entrant	entrer	VERB	_	VERB__Tense=Pres|VerbForm=Part	10	acl	_	_
+10	dans	dan	ADP	_	ADP___	6	case	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	logement	logement	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obl	_	_
+13	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	considérée	considérer	AUX	_	AUX__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	cop	_	_
+15	privative	privatif	ADJ	_	ADJ__Gender=Fem|Number=Sing	0	ROOT	_	_
+16	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Par contre, il a du changer cette canalisation très ancienne et refaire le branchement (sorte de coude évasé) devant sa porte (cour) dans un regard partant au tout à l'égout pour éviter toute fuite.
+1	Par	Par	ADP	_	ADP___	6	advmod	_	_
+2	contre	contrer	ADP	_	ADP___	6	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+5	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	du	du	DET	_	DET__Gender=Masc|Number=Sing	6	obj	_	_
+7	changer	changer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+8	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+9	canalisation	canalisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obj	_	_
+10	très	très	ADV	_	ADV___	6	advmod	_	_
+11	ancienne	ancien	ADJ	_	ADJ__Gender=Fem|Number=Sing	12	amod	_	_
+12	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+13	refaire	refaire	ADJ	_	ADJ__Number=Sing	14	conj	_	_
+14	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+15	branchement	branchement	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obj	_	_
+16	(	(	PUNCT	_	PUNCT___	6	punct	_	_
+17	sorte	sortir	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	appos	_	_
+18	de	de	ADP	_	ADP___	20	case	_	_
+19	coude	coude	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	nmod	_	_
+20	évasé	évaser	ADJ	_	ADJ__Number=Sing	20	acl	_	_
+21	)	)	PUNCT	_	PUNCT___	22	punct	_	_
+22	devant	devoir	ADP	_	ADP___	20	case	_	_
+23	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	22	nmod:poss	_	_
+24	porte	porter	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	obl	_	_
+25	(	(	PUNCT	_	PUNCT___	26	punct	_	_
+26	cour	cour	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	appos	_	_
+27	)	)	PUNCT	_	PUNCT___	28	punct	_	_
+28	dans	dan	ADP	_	ADP___	26	case	_	_
+29	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+30	regard	regard	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	obl	_	_
+31	partant	partir	VERB	_	VERB__Tense=Pres|VerbForm=Part	28	acl	_	_
+32	au	au	PRON	_	PRON__PronType=Rel	33	fixed	_	_
+33	tout	tout	ADV	_	ADV___	31	fixed	_	_
+34	à	à	ADP	_	ADP___	36	fixed	_	_
+35	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	36	det	_	_
+36	égout	égout	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	obj	_	_
+37	pour	pour	ADP	_	ADP___	20	mark	_	_
+38	éviter	éviter	VERB	_	VERB__VerbForm=Inf	39	advcl	_	_
+39	toute	tout	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+40	fuite	fuite	NOUN	_	NOUN__Gender=Fem|Number=Sing	39	obj	_	_
+41	.	.	PUNCT	_	PUNCT___	39	punct	_	_
+
+
+#Je pense donc qu'il a touché à une partie commune même si ce branchement est propre à son logement.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+2	pense	penser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	donc	donc	ADV	_	ADV___	4	advmod	_	_
+4	qu'	que	SCONJ	_	SCONJ___	6	mark	_	_
+5	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+6	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+7	touché	toucher	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	ccomp	_	_
+8	à	à	ADP	_	ADP___	6	case	_	_
+9	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	partie	partir	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obl	_	_
+11	commune	commun	ADJ	_	ADJ__Gender=Fem|Number=Sing	12	amod	_	_
+12	même	même	ADV	_	ADV___	10	mark	_	_
+13	si	si	SCONJ	_	SCONJ___	14	fixed	_	_
+14	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+15	branchement	branchement	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	nsubj	_	_
+16	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+17	propre	propre	ADJ	_	ADJ__Number=Sing	6	advcl	_	_
+18	à	à	ADP	_	ADP___	20	case	_	_
+19	son	son	DET	_	DET__Number=Sing|Poss=Yes	20	nmod:poss	_	_
+20	logement	logement	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obl	_	_
+21	.	.	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#Ainsi, je souhaiterais savoir quel délai de prescription s'applique dans ce cas.
+1	Ainsi	Ainsi	ADV	_	ADV___	6	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+4	souhaiterais	souhaiter	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	savoir	savoir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+6	quel	quel	DET	_	DET__Gender=Masc|Number=Sing|PronType=Int	6	det	_	_
+7	délai	délai	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nsubj	_	_
+8	de	de	ADP	_	ADP___	6	case	_	_
+9	prescription	prescription	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+10	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	6	expl	_	_
+11	applique	appliquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+12	dans	dan	ADP	_	ADP___	10	case	_	_
+13	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+14	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obl	_	_
+15	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#De même, dans l'acte de propriété les plans indiquent bien l'absence des deux nouveaux éléments.
+1	De	De	ADP	_	ADP___	6	advmod	_	_
+2	même	même	ADV	_	ADV___	6	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	dans	dan	ADP	_	ADP___	6	case	_	_
+5	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	acte	acte	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obl	_	_
+7	de	de	ADP	_	ADP___	8	case	_	_
+8	propriété	propriété	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nmod	_	_
+9	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	10	det	_	_
+10	plans	plan	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	nsubj	_	_
+11	indiquent	indiquer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+12	bien	bien	ADV	_	ADV___	10	advmod	_	_
+13	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	absence	absence	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obj	_	_
+15	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	16	det	_	_
+16	deux	deux	NUM	_	NUM__NumType=Card	6	nummod	_	_
+17	nouveaux	nouveau	ADJ	_	ADJ__Gender=Masc|Number=Plur	6	amod	_	_
+18	éléments	élément	NOUN	_	NOUN__Gender=Masc|Number=Plur	20	nmod	_	_
+19	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Comment pourra t-on modifier cela lors de la revente de l'appartement?Et enfin, ce branchement de WC sur eaux usées dans immeuble ancien étant la seule solution raisonnable (sans creuser une tranchée dans la cour), comment rendre se branchement légal vis à vis des services sanitaires?Je vous remercie par avance,Boubidou
+1	Comment	Comment	ADV	_	ADV__PronType=Int	6	advmod	_	_
+2	pourra	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	aux	_	_
+3	t-on	t-on	X	_	X___	4	advmod	_	_
+4	modifier	modifier	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+5	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	6	obj	_	_
+6	lors	lors	ADV	_	ADV___	6	case	_	_
+7	de	de	ADP	_	ADP___	8	fixed	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+9	revente	revente	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obl	_	_
+10	de	de	ADP	_	ADP___	6	case	_	_
+11	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	appartement?Et	appartement?Et	PRON	_	PRON__PronType=Rel	10	nmod	_	_
+13	enfin	enfin	ADV	_	ADV___	14	amod	_	_
+14	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+15	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	16	det	_	_
+16	branchement	branchement	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	conj	_	_
+17	de	de	ADP	_	ADP___	6	case	_	_
+18	WC	WC	NOUN	_	NOUN___	20	nmod	_	_
+19	sur	sur	ADP	_	ADP___	20	case	_	_
+20	eaux	eau	NOUN	_	NOUN__Gender=Fem|Number=Plur	20	nmod	_	_
+21	usées	user	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	22	acl	_	_
+22	dans	dan	ADP	_	ADP___	20	case	_	_
+23	immeuble	immeuble	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	obl	_	_
+24	ancien	ancien	ADJ	_	ADJ__Gender=Masc|Number=Sing	22	amod	_	_
+25	étant	être	VERB	_	VERB__Tense=Pres|VerbForm=Part	26	case	_	_
+26	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+27	seule	seul	ADJ	_	ADJ__Gender=Fem|Number=Sing	28	amod	_	_
+28	solution	solution	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	obl	_	_
+29	raisonnable	raisonnable	ADJ	_	ADJ__Number=Sing	31	amod	_	_
+30	(	(	PUNCT	_	PUNCT___	31	punct	_	_
+31	sans	sans	ADP	_	ADP___	28	mark	_	_
+32	creuser	creuser	VERB	_	VERB__VerbForm=Inf	33	advcl	_	_
+33	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+34	tranchée	trancher	NOUN	_	NOUN__Gender=Fem|Number=Sing	36	obj	_	_
+35	dans	dan	ADP	_	ADP___	36	case	_	_
+36	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+37	cour	cour	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	nmod	_	_
+38	)	)	PUNCT	_	PUNCT___	39	punct	_	_
+39	,	,	PUNCT	_	PUNCT___	45	punct	_	_
+40	comment	comment	ADV	_	ADV__PronType=Int	39	advmod	_	_
+41	rendre	rendre	VERB	_	VERB__VerbForm=Inf	39	nsubj	_	_
+42	se	se	PRON	_	PRON__Person=3|Reflex=Yes	39	obj	_	_
+43	branchement	branchement	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	45	parataxis	_	_
+44	légal	légal	ADJ	_	ADJ__Gender=Masc|Number=Sing	45	xcomp	_	_
+45	vis	voir	NOUN	_	NOUN__Gender=Fem	45	case	_	_
+46	à	à	ADP	_	ADP___	47	fixed	_	_
+47	vis	voir	NOUN	_	NOUN__Gender=Fem	45	fixed	_	_
+48	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	45	det	_	_
+49	services	service	NOUN	_	NOUN__Gender=Masc|Number=Plur	51	obl	_	_
+50	sanitaires?Je	sanitaires?Je	ADV	_	ADV___	51	advmod	_	_
+51	vous	se	PRON	_	PRON__Number=Plur|Person=2	51	obj	_	_
+52	remercie	remercier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	53	advcl	_	_
+53	par	par	ADP	_	ADP___	51	case	_	_
+54	avance	avancer	NOUN	_	NOUN__Gender=Fem|Number=Sing	56	obl	_	_
+55	,	,	PUNCT	_	PUNCT___	56	punct	_	_
+56	Boubidou	Boubidou	PROPN	_	PROPN___	53	conj	_	_
+
+
+#Bonjour,Il s'est branché sur la canalisation d'eaux ménagères (Cuisine) qui part directement en sous sol au tout à l'égout de l'immeuble.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	6	obl	_	_
+2	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+3	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+4	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	6	expl	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	branché	brancher	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+7	sur	sur	ADP	_	ADP___	9	case	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	canalisation	canalisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obl	_	_
+10	d'	de	ADP	_	ADP___	11	case	_	_
+11	eaux	eau	NOUN	_	NOUN__Gender=Fem|Number=Plur	9	nmod	_	_
+12	ménagères	ménager	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	amod	_	_
+13	(	(	PUNCT	_	PUNCT___	9	punct	_	_
+14	Cuisine	Cuisine	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	appos	_	_
+15	)	)	PUNCT	_	PUNCT___	9	punct	_	_
+16	qui	qui	PRON	_	PRON__PronType=Rel	21	nsubj	_	_
+17	part	partir	NOUN	_	NOUN__Number=Sing	16	fixed	_	_
+18	directement	directement	ADV	_	ADV___	17	advmod	_	_
+19	en	en	ADP	_	ADP___	21	case	_	_
+20	sous	sou	ADP	_	ADP___	19	fixed	_	_
+21	sol	sol	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	acl:relcl	_	_
+22	au	au	PRON	_	PRON__PronType=Rel	29	case	_	_
+23	tout	tout	ADV	_	ADV___	22	fixed	_	_
+24	à	à	ADP	_	ADP___	22	fixed	_	_
+25	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	22	fixed	_	_
+26	égout	égout	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	fixed	_	_
+27	de	de	ADP	_	ADP___	22	fixed	_	_
+28	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	29	det	_	_
+29	immeuble	immeuble	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obl	_	_
+30	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Merci
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+
+
+#Bonjour,Oui, dans la cave de son immeuble toutes les canalisations partent vers l'extérieur de l'immeuble dans une seule et même canalisation.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	14	nsubj	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	Oui	Oui	PROPN	_	PROPN__Gender=Masc|Number=Sing	1	conj	_	_
+4	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+5	dans	dan	ADP	_	ADP___	7	case	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	cave	caver	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+8	de	de	ADP	_	ADP___	10	case	_	_
+9	son	son	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+10	immeuble	immeuble	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+11	toutes	toute	ADJ	_	ADJ__Gender=Fem|Number=Plur	13	amod	_	_
+12	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	13	det	_	_
+13	canalisations	canalisation	NOUN	_	NOUN__Gender=Fem|Number=Plur	14	nsubj	_	_
+14	partent	partir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+15	vers	ver	ADP	_	ADP___	17	case	_	_
+16	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	extérieur	extérieur	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obl	_	_
+18	de	de	ADP	_	ADP___	20	case	_	_
+19	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	immeuble	immeuble	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	nmod	_	_
+21	dans	dan	ADP	_	ADP___	23	case	_	_
+22	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	seule	seul	ADJ	_	ADJ__Gender=Fem|Number=Sing	14	obl	_	_
+24	et	et	CCONJ	_	CCONJ___	26	cc	_	_
+25	même	même	ADJ	_	ADJ__Number=Sing	26	advmod	_	_
+26	canalisation	canalisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	conj	_	_
+27	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
