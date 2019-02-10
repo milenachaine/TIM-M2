@@ -1,0 +1,91 @@
+#Bonjour,Données très insuffisantes.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Données	Données	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	nmod	_	_
+4	très	très	ADV	_	ADV___	5	advmod	_	_
+5	insuffisantes	insuffisant	ADJ	_	ADJ__Number=Plur	3	amod	_	_
+6	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Vous dites que vous êtes "salariés".
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+2	dites	dit	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	que	que	SCONJ	_	SCONJ___	1	mark	_	_
+4	vous	se	PRON	_	PRON__Number=Plur|Person=2	5	nsubj	_	_
+5	êtes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	cop	_	_
+6	"	"	PUNCT	_	PUNCT___	1	punct	_	_
+7	salariés	salarier	ADJ	_	ADJ__Gender=Masc|Number=Plur	8	ccomp	_	_
+8	"	"	PUNCT	_	PUNCT___	8	punct	_	_
+9	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#J'en doute fort en ce qui concerne l'autre personne ;
+1	J'	J'	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	en	en	ADP	_	ADP___	1	advmod	_	_
+3	doute	douter	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	fixed	_	_
+4	fort	fort	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	en	en	ADP	_	ADP___	3	case	_	_
+6	ce	ce	PRON	_	PRON__PronType=Rel	1	fixed	_	_
+7	qui	qui	PRON	_	PRON__PronType=Rel	8	fixed	_	_
+8	concerne	concerner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	fixed	_	_
+9	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+10	autre	autre	ADJ	_	ADJ__Number=Sing	13	amod	_	_
+11	personne	personne	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obl	_	_
+12	;	;	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#s'il est président, je ne pense pas qu'il cumule ça avec un contrat de travail... quid ?
+1	s'	si	SCONJ	_	SCONJ___	1	mark	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+4	président	présider	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	advmod	_	_
+5	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+6	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+7	ne	ne	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+8	pense	penser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+9	pas	pas	ADV	_	ADV__Polarity=Neg	13	advmod	_	_
+10	qu'	que	SCONJ	_	SCONJ___	13	mark	_	_
+11	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	13	nsubj	_	_
+12	cumule	cumuler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
+13	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	xcomp	_	_
+14	avec	avec	ADP	_	ADP___	13	case	_	_
+15	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+16	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obl	_	_
+17	de	de	ADP	_	ADP___	19	case	_	_
+18	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	nmod	_	_
+19	...	...	PUNCT	_	PUNCT___	19	punct	_	_
+20	quid	quid	NOUN	_	NOUN__Gender=Fem|Number=Plur	26	obj	_	_
+21	?	?	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#En ce qui vous concerne vous, vous êtes rémunéré à quel titre ?
+1	En	En	ADP	_	ADP___	1	case	_	_
+2	ce	ce	PRON	_	PRON__PronType=Rel	1	obl	_	_
+3	qui	qui	PRON	_	PRON__PronType=Rel	1	nsubj	_	_
+4	vous	se	PRON	_	PRON__Number=Plur|Person=2	5	iobj	_	_
+5	concerne	concerner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	vous	se	PRON	_	PRON__Number=Plur|Person=2	1	iobj	_	_
+7	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+8	vous	se	PRON	_	PRON__Number=Plur|Person=2	8	nsubj	_	_
+9	êtes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	13	aux	_	_
+10	rémunéré	rémunérer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+11	à	à	ADP	_	ADP___	13	case	_	_
+12	quel	quel	DET	_	DET__Gender=Masc|Number=Sing|PronType=Int	13	det	_	_
+13	titre	titrer	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+14	?	?	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Vous avez un contrat de travail ou vous êtes DG ?
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+2	avez	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+4	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+5	de	de	ADP	_	ADP___	3	case	_	_
+6	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+7	ou	ou	CCONJ	_	CCONJ___	8	cc	_	_
+8	vous	se	PRON	_	PRON__Number=Plur|Person=2	8	nsubj:pass	_	_
+9	êtes	être	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+10	DG	DG	PROPN	_	PROPN___	13	conj	_	_
+11	?	?	PUNCT	_	PUNCT___	13	punct	_	_
+
+
