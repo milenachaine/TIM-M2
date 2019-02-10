@@ -1,0 +1,390 @@
+#Bonjour,Je vous expose la situation.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+3	Je	Je	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+4	vous	se	PRON	_	PRON__Number=Plur|Person=2	5	iobj	_	_
+5	expose	exposer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obj	_	_
+8	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Une amie a ouvert un compte en novembre dans une banque.
+1	Une	Une	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	amie	ami	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nsubj	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	ouvert	ouvrir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+6	compte	compter	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+7	en	en	ADP	_	ADP___	5	case	_	_
+8	novembre	novembre	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+9	dans	dan	ADP	_	ADP___	10	case	_	_
+10	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	banque	banque	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obl	_	_
+12	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Une Visa Infinité à débit différé lui a été délivrée sans quon lui demande de justificatifs.
+1	Une	Une	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	Visa	Visa	PROPN	_	PROPN__Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+3	Infinité	Infinité	PROPN	_	PROPN__Gender=Fem|Number=Sing	5	flat:name	_	_
+4	à	à	ADP	_	ADP___	5	case	_	_
+5	débit	débit	AUX	_	AUX__VerbForm=Inf	1	nmod	_	_
+6	différé	différer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+7	lui	luire	PRON	_	PRON__Number=Sing|Person=3	5	iobj	_	_
+8	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+9	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	10	aux:pass	_	_
+10	délivrée	délivrer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+11	sans	sans	ADP	_	ADP___	12	mark	_	_
+12	quon	quon	PRON	_	PRON__PronType=Rel	12	fixed	_	_
+13	lui	luire	PRON	_	PRON__Number=Sing|Person=3	14	iobj	_	_
+14	demande	demander	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	obl	_	_
+15	de	de	ADP	_	ADP___	16	case	_	_
+16	justificatifs	justificatif	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nmod	_	_
+17	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Tout se passait bien jusquau mois dernier.
+1	Tout	Tout	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	nsubj	_	_
+2	se	se	PRON	_	PRON__Person=3|Reflex=Yes	5	expl	_	_
+3	passait	passer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+4	bien	bien	ADV	_	ADV___	5	advmod	_	_
+5	jusquau	jusquau	ADP	_	ADP___	1	obl	_	_
+6	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	obl	_	_
+7	dernier	dernier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	5	amod	_	_
+8	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Je dois une somme importante à cette amie pour des retraits faits avec la carte ( je suis assez joueur ).Je pensais toucher une grosse somme dargent qui finalement a été plus petite que prévue.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	dois	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	somme	sommer	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obj	_	_
+5	importante	important	ADJ	_	ADJ__Gender=Fem|Number=Sing	1	amod	_	_
+6	à	à	ADP	_	ADP___	7	case	_	_
+7	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+8	amie	ami	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obl	_	_
+9	pour	pour	ADP	_	ADP___	10	case	_	_
+10	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	12	det	_	_
+11	retraits	retrait	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	advcl	_	_
+12	faits	fait	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	amod	_	_
+13	avec	avec	ADP	_	ADP___	14	case	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+15	carte	carte	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nmod	_	_
+16	(	(	PUNCT	_	PUNCT___	14	punct	_	_
+17	je	il	PRON	_	PRON__Number=Sing|Person=1	19	nsubj	_	_
+18	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	assez	assez	ADV	_	ADV___	12	advmod	_	_
+20	joueur	joueur	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	appos	_	_
+21	)	)	PUNCT	_	PUNCT___	22	punct	_	_
+22	.Je	.Je	PUNCT	_	PUNCT___	30	punct	_	_
+23	pensais	penser	CCONJ	_	CCONJ___	22	amod	_	_
+24	toucher	toucher	VERB	_	VERB__VerbForm=Inf	25	amod	_	_
+25	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+26	grosse	gros	ADJ	_	ADJ__Gender=Fem|Number=Sing	25	amod	_	_
+27	somme	sommer	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	obj	_	_
+28	dargent	dargent	ADV	_	ADV___	30	advmod	_	_
+29	qui	qui	PRON	_	PRON__PronType=Rel	30	nsubj	_	_
+30	finalement	finalement	ADV	_	ADV___	30	advmod	_	_
+31	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
+32	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	31	cop	_	_
+33	plus	plaire	ADV	_	ADV___	34	advmod	_	_
+34	petite	petit	ADJ	_	ADJ__Gender=Fem|Number=Sing	30	ccomp	_	_
+35	que	que	SCONJ	_	SCONJ___	36	mark	_	_
+36	prévue	prévoir	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	34	dep	_	_
+37	.	.	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#Entre temps javais fait un chèque dune très grosse somme (15.000) à mon amie, qui couvrait les dépenses de son encours de carte que javais pour la plupart effectuées.
+1	Entre	Entre	ADP	_	ADP___	1	mark	_	_
+2	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	fixed	_	_
+3	javais	javais	ADJ	_	ADJ___	5	fixed	_	_
+4	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+6	chèque	chèque	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+7	dune	dune	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	det	_	_
+8	très	très	ADV	_	ADV___	1	advmod	_	_
+9	grosse	gros	ADJ	_	ADJ__Gender=Fem|Number=Sing	10	amod	_	_
+10	somme	sommer	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	amod	_	_
+11	(	(	PUNCT	_	PUNCT___	12	punct	_	_
+12	15.000	15.000	PRON	_	PRON__NumType=Card|PronType=Rel	12	appos	_	_
+13	)	)	PUNCT	_	PUNCT___	14	punct	_	_
+14	à	à	ADP	_	ADP___	12	case	_	_
+15	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	16	nmod:poss	_	_
+16	amie	ami	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obl	_	_
+17	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+18	qui	qui	PRON	_	PRON__PronType=Rel	19	nsubj	_	_
+19	couvrait	couvrir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	parataxis	_	_
+20	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	12	det	_	_
+21	dépenses	dépenser	NOUN	_	NOUN__Gender=Fem|Number=Plur	22	obj	_	_
+22	de	de	ADP	_	ADP___	30	case	_	_
+23	son	son	DET	_	DET__Number=Sing|Poss=Yes	22	nmod:poss	_	_
+24	encours	encourir	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	nmod	_	_
+25	de	de	ADP	_	ADP___	22	case	_	_
+26	carte	carte	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	nmod	_	_
+27	que	que	SCONJ	_	SCONJ___	30	mark	_	_
+28	javais	javais	PUNCT	_	PUNCT___	30	acl:relcl	_	_
+29	pour	pour	ADP	_	ADP___	30	case	_	_
+30	la	le	DET	_	DET__Gender=Fem|Number=Sing	30	nmod	_	_
+31	plupart	plupart	NOUN	_	NOUN__Gender=Fem|Number=Sing	34	fixed	_	_
+32	effectuées	effectuer	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	31	acl	_	_
+33	.	.	PUNCT	_	PUNCT___	34	punct	_	_
+
+
+#Sauf que la somme a été plus petite et que les chèques sont donc revenus impayés.
+1	Sauf	Sauf	ADP	_	ADP___	1	mark	_	_
+2	que	que	SCONJ	_	SCONJ___	5	fixed	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	somme	sommer	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nsubj	_	_
+5	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+6	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	7	cop	_	_
+7	plus	plaire	ADV	_	ADV___	5	advmod	_	_
+8	petite	petit	ADJ	_	ADJ__Gender=Fem|Number=Sing	0	ROOT	_	_
+9	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+10	que	que	SCONJ	_	SCONJ___	12	mark	_	_
+11	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	12	det	_	_
+12	chèques	chèque	NOUN	_	NOUN__Gender=Fem|Number=Plur	12	nsubj	_	_
+13	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
+14	donc	donc	ADV	_	ADV___	12	advmod	_	_
+15	revenus	revenu	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	conj	_	_
+16	impayés	impayé	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	14	xcomp	_	_
+17	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Mon amie sest retrouvée avec un découvert important.
+1	Mon	Mon	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	amie	ami	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+3	sest	sest	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+4	retrouvée	retrouver	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	avec	avec	ADP	_	ADP___	1	case	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	découvert	découvrir	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+8	important	importer	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	amod	_	_
+9	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Sa banquière a donc appelé sa mère ( qui na pas de procuration sur le compte ) en lui avouant quelle sétait fait taper sur les doigts, que je vivais aux crochets de sa fille, que javais fait des chèques sans provisions aux commerces du quartier, que je vivais chez sa fille et que je nen travaillais pas et que jetais accro aux jeux.
+1	Sa	Sa	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	banquière	banquier	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nsubj	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	donc	donc	ADV	_	ADV___	5	advmod	_	_
+5	appelé	appeler	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+6	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	7	nmod:poss	_	_
+7	mère	mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obj	_	_
+8	(	(	PUNCT	_	PUNCT___	1	punct	_	_
+9	qui	qui	PRON	_	PRON__PronType=Rel	10	nsubj	_	_
+10	na	na	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advmod	_	_
+11	pas	pas	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+12	de	de	ADP	_	ADP___	12	det	_	_
+13	procuration	procuration	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	appos	_	_
+14	sur	sur	ADP	_	ADP___	12	case	_	_
+15	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	compte	compter	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nmod	_	_
+17	)	)	PUNCT	_	PUNCT___	19	punct	_	_
+18	en	en	ADP	_	ADP___	19	case	_	_
+19	lui	luire	PRON	_	PRON__Number=Sing|Person=3	12	obl	_	_
+20	avouant	avouer	VERB	_	VERB__Tense=Pres|VerbForm=Part	12	acl	_	_
+21	quelle	quelle	DET	_	DET__Gender=Fem|Number=Sing|PronType=Int	22	obj	_	_
+22	sétait	sétait	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	30	aux	_	_
+23	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	ccomp	_	_
+24	taper	taper	VERB	_	VERB__VerbForm=Inf	25	xcomp	_	_
+25	sur	sur	ADP	_	ADP___	22	case	_	_
+26	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	25	det	_	_
+27	doigts	doigt	NOUN	_	NOUN__Gender=Masc|Number=Plur	30	obl	_	_
+28	,	,	PUNCT	_	PUNCT___	30	punct	_	_
+29	que	que	SCONJ	_	SCONJ___	30	mark	_	_
+30	je	il	PRON	_	PRON__Number=Sing|Person=1	30	nsubj	_	_
+31	vivais	vivre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	34	cop	_	_
+32	aux	aux	ADJ	_	ADJ__Gender=Masc|Number=Plur	31	amod	_	_
+33	crochets	crochet	NOUN	_	NOUN__Gender=Masc|Number=Plur	34	ccomp	_	_
+34	de	de	ADP	_	ADP___	30	case	_	_
+35	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	36	nmod:poss	_	_
+36	fille	fille	NOUN	_	NOUN__Gender=Fem|Number=Sing	34	nmod	_	_
+37	,	,	PUNCT	_	PUNCT___	30	punct	_	_
+38	que	que	SCONJ	_	SCONJ___	40	mark	_	_
+39	javais	javais	PRON	_	PRON__Number=Sing|Person=3	40	nsubj	_	_
+40	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	40	ccomp	_	_
+41	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	42	det	_	_
+42	chèques	chèque	NOUN	_	NOUN__Gender=Fem|Number=Plur	40	obj	_	_
+43	sans	sans	ADP	_	ADP___	40	case	_	_
+44	provisions	provision	NOUN	_	NOUN__Gender=Fem|Number=Plur	43	nmod	_	_
+45	aux	aux	ADJ	_	ADJ___	40	aux	_	_
+46	commerces	commercer	NOUN	_	NOUN__Gender=Fem|Number=Plur	47	obl	_	_
+47	du	du	DET	_	DET__Gender=Masc|Number=Sing	47	det	_	_
+48	quartier	quartier	NOUN	_	NOUN__Gender=Masc|Number=Sing	49	obj	_	_
+49	,	,	PUNCT	_	PUNCT___	47	punct	_	_
+50	que	que	SCONJ	_	SCONJ___	49	fixed	_	_
+51	je	il	PRON	_	PRON__Number=Sing|Person=1	53	nsubj	_	_
+52	vivais	vivre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	53	fixed	_	_
+53	chez	chez	ADP	_	ADP___	47	case	_	_
+54	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	56	nmod:poss	_	_
+55	fille	fille	NOUN	_	NOUN__Gender=Fem|Number=Sing	56	obl	_	_
+56	et	et	CCONJ	_	CCONJ___	47	cc	_	_
+57	que	que	SCONJ	_	SCONJ___	56	mark	_	_
+58	je	il	PRON	_	PRON__Number=Sing|Person=1	60	nsubj	_	_
+59	nen	nen	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	60	advmod	_	_
+60	travaillais	travailler	NOUN	_	NOUN__Number=Sing	56	conj	_	_
+61	pas	pas	ADV	_	ADV__Polarity=Neg	56	advmod	_	_
+62	et	et	CCONJ	_	CCONJ___	65	cc	_	_
+63	que	que	SCONJ	_	SCONJ___	65	mark	_	_
+64	jetais	jetais	PRON	_	PRON__Number=Sing|Person=1	65	nsubj	_	_
+65	accro	accro	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	56	conj	_	_
+66	aux	aux	ADJ	_	ADJ__Gender=Masc|Number=Plur	56	case	_	_
+67	jeux	jeu	NOUN	_	NOUN__Gender=Masc|Number=Plur	47	obj	_	_
+68	.	.	PUNCT	_	PUNCT___	67	punct	_	_
+
+
+#Elle lui a demandé de payer 5000 pour « calmer le jeu » et que le plafond de sa carte était de 5000 ( la encore elle a menton cetait 10.000 et elle la laissait souvent dépasser ).Elle
+1	Elle	Elle	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	1	nsubj	_	_
+2	lui	luire	PRON	_	PRON__Number=Sing|Person=3	5	iobj	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	demandé	demander	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	de	de	ADP	_	ADP___	1	mark	_	_
+6	payer	payer	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+7	5000	5000	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+8	pour	pour	ADP	_	ADP___	1	mark	_	_
+9	«	«	PUNCT	_	PUNCT___	10	punct	_	_
+10	calmer	calmer	VERB	_	VERB__VerbForm=Inf	12	advcl	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	jeu	jeu	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+13	»	»	PUNCT	_	PUNCT___	14	punct	_	_
+14	et	et	CCONJ	_	CCONJ___	12	cc	_	_
+15	que	que	SCONJ	_	SCONJ___	16	mark	_	_
+16	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+17	plafond	plafond	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	nsubj	_	_
+18	de	de	ADP	_	ADP___	19	case	_	_
+19	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	12	nmod:poss	_	_
+20	carte	carte	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+21	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	cop	_	_
+22	de	de	ADP	_	ADP___	30	case	_	_
+23	5000	5000	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	conj	_	_
+24	(	(	PUNCT	_	PUNCT___	25	punct	_	_
+25	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+26	encore	encore	ADV	_	ADV___	25	appos	_	_
+27	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	30	nsubj	_	_
+28	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+29	menton	menton	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	obl	_	_
+30	cetait	cetait	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	30	punct	_	_
+31	10.000	10.000	NUM	_	NUM__NumType=Card	34	nummod	_	_
+32	et	et	CCONJ	_	CCONJ___	31	cc	_	_
+33	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	34	iobj	_	_
+34	la	le	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	30	det	_	_
+35	laissait	laisser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	36	nsubj	_	_
+36	souvent	souvent	ADV	_	ADV___	34	advmod	_	_
+37	dépasser	dépasser	VERB	_	VERB__VerbForm=Inf	30	conj	_	_
+38	)	)	PUNCT	_	PUNCT___	40	punct	_	_
+39	.Elle	.Elle	ADJ	_	ADJ__Gender=Fem|Number=Sing	40	punct	_	_
+
+
+#a également dit à sa mère « vous pouvez payer votre fille ma dit que vous avez de gros moyens ».Comme
+1	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+2	également	également	ADV	_	ADV___	5	advmod	_	_
+3	dit	dire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+4	à	à	ADP	_	ADP___	5	case	_	_
+5	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	1	nmod:poss	_	_
+6	mère	mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obl	_	_
+7	«	«	PUNCT	_	PUNCT___	5	punct	_	_
+8	vous	se	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+9	pouvez	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	payer	payer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+11	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	12	nmod:poss	_	_
+12	fille	fille	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obj	_	_
+13	ma	ma	ADJ	_	ADJ__Gender=Fem|Number=Sing	14	aux	_	_
+14	dit	dire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	xcomp	_	_
+15	que	que	SCONJ	_	SCONJ___	16	mark	_	_
+16	vous	se	PRON	_	PRON__Number=Plur|Person=2	14	nsubj	_	_
+17	avez	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	19	ccomp	_	_
+18	de	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	19	det	_	_
+19	gros	gros	ADJ	_	ADJ__Gender=Masc	12	amod	_	_
+20	moyens	moyen	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	obj	_	_
+21	»	»	PUNCT	_	PUNCT___	22	punct	_	_
+22	.Comme	.Comme	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#celle ci a dévoilé des choses qui ne la regardent pas jai écrit au directeur de cette agence.
+1	celle	celui	PRON	_	PRON__Gender=Fem|Number=Sing|PronType=Dem	1	nsubj	_	_
+2	ci	ci	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	5	obj	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	dévoilé	dévoiler	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	1	det	_	_
+6	choses	chose	NOUN	_	NOUN__Gender=Fem|Number=Plur	7	obj	_	_
+7	qui	qui	PRON	_	PRON__PronType=Rel	5	nsubj	_	_
+8	ne	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	regardent	regarder	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	acl:relcl	_	_
+11	pas	pas	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+12	jai	jai	AUX	_	AUX__VerbForm=Inf	12	amod	_	_
+13	écrit	écrire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	advmod	_	_
+14	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
+15	directeur	directeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obj	_	_
+16	de	de	ADP	_	ADP___	14	case	_	_
+17	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	19	det	_	_
+18	agence	agencer	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	nmod	_	_
+19	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#( je précise que mon compte est dans une autre banque et dans une autre région )...
+1	(	(	PUNCT	_	PUNCT___	1	punct	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+3	précise	préciser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	que	que	SCONJ	_	SCONJ___	5	mark	_	_
+5	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+6	compte	compter	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nsubj	_	_
+7	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+8	dans	dan	ADP	_	ADP___	1	case	_	_
+9	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	autre	autre	ADJ	_	ADJ__Number=Sing	12	amod	_	_
+11	banque	banque	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	ccomp	_	_
+12	et	et	CCONJ	_	CCONJ___	12	cc	_	_
+13	dans	dan	ADP	_	ADP___	14	case	_	_
+14	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+15	autre	autre	ADJ	_	ADJ__Number=Sing	16	amod	_	_
+16	région	région	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	conj	_	_
+17	)	)	PUNCT	_	PUNCT___	19	punct	_	_
+18	...	...	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Elle me fait venir la semaine prochaine ( la directrice ) en présence de sa direction.
+1	Elle	Elle	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	1	nsubj	_	_
+2	me	se	PRON	_	PRON__Number=Sing|Person=1	5	iobj	_	_
+3	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	venir	venir	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+6	semaine	semaine	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+7	prochaine	prochain	ADJ	_	ADJ__Gender=Fem|Number=Sing	5	amod	_	_
+8	(	(	PUNCT	_	PUNCT___	1	punct	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	directrice	directeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obj	_	_
+11	)	)	PUNCT	_	PUNCT___	12	punct	_	_
+12	en	en	ADP	_	ADP___	12	case	_	_
+13	présence	présence	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	fixed	_	_
+14	de	de	ADP	_	ADP___	12	fixed	_	_
+15	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	16	nmod:poss	_	_
+16	direction	direction	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obl	_	_
+17	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Quen pensez vous ?
+1	Quen	Quen	ADV	_	ADV___	1	obj	_	_
+2	pensez	penser	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	amod	_	_
+3	vous	se	PRON	_	PRON__Number=Plur|Person=2	0	ROOT	_	_
+4	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Quels éléments dois-je exposer ?
+1	Quels	Quels	ADJ	_	ADJ__Gender=Masc|Number=Plur	1	det	_	_
+2	éléments	élément	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	nsubj	_	_
+3	dois	devoir	NUM	_	NUM__NumType=Card	5	nmod	_	_
+4	-	-	PUNCT	_	PUNCT___	5	punct	_	_
+5	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+6	exposer	exposer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+7	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Merci de votre aide
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	de	de	ADP	_	ADP___	5	case	_	_
+3	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+4	aide	aider	NOUN	_	NOUN__Number=Sing	5	nmod	_	_
+
+

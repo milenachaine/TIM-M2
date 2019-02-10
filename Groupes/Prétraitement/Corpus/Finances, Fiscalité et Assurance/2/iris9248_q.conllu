@@ -1,0 +1,214 @@
+#Bonjour,Je vis hors europe depuis3 ans.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nmod	_	_
+4	vis	voir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	case	_	_
+5	hors	hors	ADP	_	ADP___	4	fixed	_	_
+6	europe	europe	PROPN	_	PROPN__Gender=Fem|Number=Sing	3	nmod	_	_
+7	depuis3	depuis3	ADV	_	ADV___	3	nmod	_	_
+8	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	nmod	_	_
+9	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#J ai 2 huissiers, pour soit disant 2 affaires différentes qui m'ont contacté par mail;
+1	J	J	NOUN	_	NOUN___	1	nsubj	_	_
+2	ai	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	2	2	NUM	_	NUM__NumType=Card	1	nummod	_	_
+4	huissiers	huissier	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	obj	_	_
+5	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+6	pour	pour	ADP	_	ADP___	3	mark	_	_
+7	soit	être	CCONJ	_	CCONJ___	3	cc	_	_
+8	disant	dire	ADV	_	ADV___	3	advcl	_	_
+9	2	2	NUM	_	NUM__NumType=Card	1	nummod	_	_
+10	affaires	affairer	NOUN	_	NOUN__Gender=Fem|Number=Plur	11	obj	_	_
+11	différentes	différents	ADJ	_	ADJ__Gender=Fem|Number=Plur	11	amod	_	_
+12	qui	qui	PRON	_	PRON__PronType=Rel	13	nsubj	_	_
+13	m'	se	PRON	_	PRON__Number=Sing|Person=1	11	obj	_	_
+14	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+15	contacté	contacter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl:relcl	_	_
+16	par	par	ADP	_	ADP___	17	case	_	_
+17	mail	mail	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obl	_	_
+18	;	;	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#pour une affaire urgente.
+1	pour	pour	ADP	_	ADP___	1	case	_	_
+2	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+3	affaire	affairer	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	urgente	urgent	ADJ	_	ADJ__Gender=Fem|Number=Sing	6	amod	_	_
+5	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#La premiere je sais qui est le créancier, (la dette est prescrite en plus) et la deuxieme je n en sais rien.
+1	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	premiere	premiere	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+4	sais	savoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	qui	qui	PRON	_	PRON__PronType=Rel	4	nsubj	_	_
+6	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+8	créancier	créancier	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	ccomp	_	_
+9	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+10	(	(	PUNCT	_	PUNCT___	11	punct	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+12	dette	dette	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nsubj:pass	_	_
+13	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+14	prescrite	prescrire	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	ccomp	_	_
+15	en	en	ADP	_	ADP___	17	advmod	_	_
+16	plus	plaire	ADV	_	ADV___	17	fixed	_	_
+17	)	)	PUNCT	_	PUNCT___	11	punct	_	_
+18	et	et	CCONJ	_	CCONJ___	19	cc	_	_
+19	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+20	deuxieme	deuxieme	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	conj	_	_
+21	je	il	PRON	_	PRON__Number=Sing|Person=1	24	nsubj	_	_
+22	n	ne	PRON	_	PRON__Person=3	24	aux	_	_
+23	en	en	PRON	_	PRON__Person=3	24	expl	_	_
+24	sais	savoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	orphan	_	_
+25	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	26	obj	_	_
+26	.	.	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#Les 2 huissiers m ont juste dit que c etait des affaires urgentes a traiter, je n en sais pas plus.
+1	Les	Les	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+2	2	2	NUM	_	NUM__NumType=Card	1	nummod	_	_
+3	huissiers	huissier	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	nsubj	_	_
+4	m	m	PRON	_	PRON__PronType=Rel	6	amod	_	_
+5	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+6	juste	juste	ADV	_	ADV___	3	advmod	_	_
+7	dit	dire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	nsubj	_	_
+8	que	que	SCONJ	_	SCONJ___	3	mark	_	_
+9	c	c	PRON	_	PRON__Person=3	1	nsubj	_	_
+10	etait	etait	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	ccomp	_	_
+11	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
+12	affaires	affairer	NOUN	_	NOUN__Gender=Fem|Number=Plur	13	obj	_	_
+13	urgentes	urgent	ADJ	_	ADJ__Gender=Fem|Number=Plur	11	amod	_	_
+14	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+15	traiter	traiter	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+16	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+17	je	il	PRON	_	PRON__Number=Sing|Person=1	11	nsubj	_	_
+18	n	ne	PRON	_	PRON__Person=3	19	aux	_	_
+19	en	en	PRON	_	PRON__Person=3	17	expl	_	_
+20	sais	savoir	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	parataxis	_	_
+21	pas	pas	ADV	_	ADV___	24	advmod	_	_
+22	plus	plaire	ADV	_	ADV___	24	advmod	_	_
+23	.	.	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#Les deux, refusent de me l envoyer par mail; comment faire?
+1	Les	Les	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+2	deux	deux	PRON	_	PRON__NumType=Card|PronType=Rel	1	nummod	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	refusent	refuser	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	de	de	ADP	_	ADP___	4	mark	_	_
+6	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	3	iobj	_	_
+7	l	l	PRON	_	PRON__Person=3	3	aux	_	_
+8	envoyer	envoyer	VERB	_	VERB__VerbForm=Inf	3	xcomp	_	_
+9	par	par	ADP	_	ADP___	1	case	_	_
+10	mail	mail	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obl	_	_
+11	;	;	PUNCT	_	PUNCT___	11	punct	_	_
+12	comment	comment	ADV	_	ADV__PronType=Int	13	advmod	_	_
+13	faire	faire	VERB	_	VERB__VerbForm=Inf	11	ccomp	_	_
+14	?	?	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Je ne sais du coup pas trop quoi faire; pourtant dans leur courrier ils disent de les contacter.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ne	ne	ADV	_	ADV___	1	advmod	_	_
+3	sais	savoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	du	du	DET	_	DET__Gender=Masc|Number=Sing	6	det	_	_
+5	coup	coup	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obj	_	_
+6	pas	pas	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+7	trop	trop	ADV	_	ADV___	3	advmod	_	_
+8	quoi	quoi	PRON	_	PRON__PronType=Int	3	obj	_	_
+9	faire	faire	VERB	_	VERB__VerbForm=Inf	1	acl	_	_
+10	;	;	PUNCT	_	PUNCT___	11	punct	_	_
+11	pourtant	pourtant	ADV	_	ADV___	11	advmod	_	_
+12	dans	dan	ADP	_	ADP___	13	case	_	_
+13	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	11	nmod:poss	_	_
+14	courrier	courrier	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obl	_	_
+15	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	17	nsubj	_	_
+16	disent	dire	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+17	de	de	ADP	_	ADP___	11	mark	_	_
+18	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	19	obj	_	_
+19	contacter	contacter	VERB	_	VERB__VerbForm=Inf	17	obl	_	_
+20	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+21	 	 	SPACE	_		24		_	_
+
+
+#Est ce qu un huissier peut sciemment refuser de t envoyer les documents sous pretextes que tu n as pas d adresse (ce qui est le cas, je suis digital nomade) et encore moins d adresse en France.merci
+1	Est	Est	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	1	cop	_	_
+2	ce	ce	PRON	_	PRON__PronType=Rel	1	nsubj	_	_
+3	qu	qu	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	obj	_	_
+4	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	huissier	huissier	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+6	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+7	sciemment	sciemment	ADV	_	ADV___	3	advmod	_	_
+8	refuser	refuser	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+9	de	de	ADP	_	ADP___	1	mark	_	_
+10	t	t	PRON	_	PRON__Person=3	11	iobj	_	_
+11	envoyer	envoyer	VERB	_	VERB__VerbForm=Inf	11	xcomp	_	_
+12	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	13	det	_	_
+13	documents	document	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	obj	_	_
+14	sous	sou	ADP	_	ADP___	11	mark	_	_
+15	pretextes	pretextes	NOUN	_	NOUN__Gender=Fem|Number=Plur	17	fixed	_	_
+16	que	que	SCONJ	_	SCONJ___	17	fixed	_	_
+17	tu	taire	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nsubj	_	_
+18	n	ne	PRON	_	PRON__PronType=Rel	19	aux	_	_
+19	as	avoir	NOUN	_	NOUN__Gender=Masc	17	advcl	_	_
+20	pas	pas	ADV	_	ADV__Polarity=Neg	19	advmod	_	_
+21	d	d	NOUN	_	NOUN___	24	fixed	_	_
+22	adresse	adresser	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	amod	_	_
+23	(	(	PUNCT	_	PUNCT___	24	punct	_	_
+24	ce	ce	PRON	_	PRON__PronType=Rel	19	iobj	_	_
+25	qui	qui	PRON	_	PRON__PronType=Rel	26	nsubj	_	_
+26	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+27	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+28	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	acl:relcl	_	_
+29	,	,	PUNCT	_	PUNCT___	30	punct	_	_
+30	je	il	PRON	_	PRON__Number=Sing|Person=1	30	nsubj	_	_
+31	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	30	cop	_	_
+32	digital	digital	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	advmod	_	_
+33	nomade	nomade	ADJ	_	ADJ__Gender=Fem|Number=Sing	34	conj	_	_
+34	)	)	PUNCT	_	PUNCT___	36	punct	_	_
+35	et	et	CCONJ	_	CCONJ___	36	cc	_	_
+36	encore	encore	ADV	_	ADV___	36	advmod	_	_
+37	moins	moins	ADV	_	ADV___	40	advmod	_	_
+38	d	d	NOUN	_	NOUN___	40	fixed	_	_
+39	adresse	adresser	NOUN	_	NOUN__Gender=Fem|Number=Sing	40	conj	_	_
+40	en	en	ADP	_	ADP___	36	case	_	_
+41	France.merci	France.merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	36	obl	_	_
+
+
+#C est ce que j ai fait, depuis silence.
+1	C	C	NOUN	_	NOUN___	3	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	ce	ce	PRON	_	PRON__PronType=Rel	0	ROOT	_	_
+4	que	que	PRON	_	PRON__PronType=Rel	7	obj	_	_
+5	j	j	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+6	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+8	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+9	depuis	depuis	ADP	_	ADP___	10	case	_	_
+10	silence	silence	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nmod	_	_
+11	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+12	 	 	SPACE	_		11		_	_
+
+
+#Et refus de me donner un papier soit disant ultra urgent
+1	Et	Et	CCONJ	_	CCONJ___	3	cc	_	_
+2	refus	refus	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	de	de	ADP	_	ADP___	3	mark	_	_
+4	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	7	iobj	_	_
+5	donner	donner	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	papier	papier	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obj	_	_
+8	soit	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+9	disant	dire	ADV	_	ADV___	10	conj	_	_
+10	ultra	ultra	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	acl	_	_
+11	urgent	urger	ADV	_	ADV___	3	advmod	_	_
+
+
+#avant
+1	avant	avant	ADP	_	ADP___	0	ROOT	_	_
+
+

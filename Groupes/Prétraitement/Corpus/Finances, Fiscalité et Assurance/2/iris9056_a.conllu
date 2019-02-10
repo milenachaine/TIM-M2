@@ -1,0 +1,115 @@
+#Bonjour,Qu'avez
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Qu'	Qu'	PRON	_	PRON__PronType=Int	1	nmod	_	_
+4	avez	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	amod	_	_
+
+
+#-vous dû avancer?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+3	dû	devoir	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	aux	_	_
+4	avancer	avancer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	?	?	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#La totalité des frais de réparation ou uniquement le montant de la franchise?
+1	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	totalité	totalité	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	1	det	_	_
+4	frais	frai	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	nsubj	_	_
+5	de	de	ADP	_	ADP___	8	case	_	_
+6	réparation	réparation	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+7	ou	ou	CCONJ	_	CCONJ___	8	cc	_	_
+8	uniquement	uniquement	ADV	_	ADV___	8	advmod	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+10	montant	monter	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	conj	_	_
+11	de	de	ADP	_	ADP___	11	case	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	franchise	franchise	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+14	?	?	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Puisque vous êtes couvert en tout risque, quelle que soit votre responsabilité, ils auraient dû vous indemniser des frais de réparation moins la franchise qu'ils ont droit de laisser à votre charge tant que le recours subrogatoire n'a rien donné.
+1	Puisque	Puisque	SCONJ	_	SCONJ___	1	mark	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+3	êtes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	aux	_	_
+4	couvert	couvrir	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	advcl	_	_
+5	en	en	ADP	_	ADP___	8	case	_	_
+6	tout	tout	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	risque	risquer	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+8	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+9	quelle	quel	PRON	_	PRON__PronType=Rel	8	mark	_	_
+10	que	que	SCONJ	_	SCONJ___	11	fixed	_	_
+11	soit	être	CCONJ	_	CCONJ___	11	cop	_	_
+12	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	13	nmod:poss	_	_
+13	responsabilité	responsabilité	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	advcl	_	_
+14	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+15	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	13	nsubj	_	_
+16	auraient	avoir	AUX	_	AUX__Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+17	dû	devoir	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	aux	_	_
+18	vous	se	PRON	_	PRON__Number=Plur|Person=2	19	iobj	_	_
+19	indemniser	indemniser	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+20	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	22	det	_	_
+21	frais	frai	NOUN	_	NOUN__Gender=Masc|Number=Plur	22	obj	_	_
+22	de	de	ADP	_	ADP___	19	case	_	_
+23	réparation	réparation	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+24	moins	moins	ADP	_	ADP___	27	advmod	_	_
+25	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+26	franchise	franchise	NOUN	_	NOUN__Gender=Fem|Number=Sing	27	obj	_	_
+27	qu'	que	PRON	_	PRON__PronType=Rel	42	obj	_	_
+28	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	30	nsubj	_	_
+29	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	droit	droit	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	acl:relcl	_	_
+31	de	de	ADP	_	ADP___	27	mark	_	_
+32	laisser	laisser	VERB	_	VERB__VerbForm=Inf	36	acl	_	_
+33	à	à	ADP	_	ADP___	32	case	_	_
+34	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	36	nmod:poss	_	_
+35	charge	charger	NOUN	_	NOUN__Gender=Fem|Number=Sing	36	obl	_	_
+36	tant	tant	ADV	_	ADV___	42	mark	_	_
+37	que	que	SCONJ	_	SCONJ___	42	fixed	_	_
+38	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+39	recours	recourir	NOUN	_	NOUN__Gender=Masc|Number=Sing	42	nsubj	_	_
+40	subrogatoire	subrogatoire	ADJ	_	ADJ__Number=Sing	42	amod	_	_
+41	n'	ne	ADV	_	ADV___	42	advmod	_	_
+42	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	advcl	_	_
+43	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	44	obj	_	_
+44	donné	donner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	42	xcomp	_	_
+45	.	.	PUNCT	_	PUNCT___	46	punct	_	_
+
+
+#Vous pouvez toujours envoyer un recommandé pour faire poliment part de vos doléances et de vos souhaits d'une action un peu plus efficace et rapide.
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+2	pouvez	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	toujours	toujours	ADV	_	ADV___	1	advmod	_	_
+4	envoyer	envoyer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+6	recommandé	recommander	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+7	pour	pour	ADP	_	ADP___	8	mark	_	_
+8	faire	faire	VERB	_	VERB__VerbForm=Inf	8	acl	_	_
+9	poliment	poliment	ADV	_	ADV___	8	advmod	_	_
+10	part	partir	NOUN	_	NOUN__Number=Sing	11	obj	_	_
+11	de	de	ADP	_	ADP___	11	case	_	_
+12	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	13	nmod:poss	_	_
+13	doléances	doléance	NOUN	_	NOUN__Gender=Fem|Number=Plur	11	obl	_	_
+14	et	et	CCONJ	_	CCONJ___	15	cc	_	_
+15	de	de	ADP	_	ADP___	13	case	_	_
+16	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	19	nmod:poss	_	_
+17	souhaits	souhait	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	conj	_	_
+18	d'	de	ADP	_	ADP___	19	case	_	_
+19	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+20	action	action	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	nmod	_	_
+21	un	un	DET	_	DET__Gender=Masc|Number=Sing	22	nsubj	_	_
+22	peu	peu	ADV	_	ADV___	19	advmod	_	_
+23	plus	plaire	ADV	_	ADV___	11	advmod	_	_
+24	efficace	efficace	ADJ	_	ADJ__Number=Sing	27	amod	_	_
+25	et	et	CCONJ	_	CCONJ___	27	cc	_	_
+26	rapide	rapide	ADJ	_	ADJ__Number=Sing	27	conj	_	_
+27	.	.	PUNCT	_	PUNCT___	42	punct	_	_
+
+
+#Bonne journée
+1	Bonne	Bonne	ADJ	_	ADJ__Gender=Fem|Number=Sing	1	amod	_	_
+2	journée	journée	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+
+
