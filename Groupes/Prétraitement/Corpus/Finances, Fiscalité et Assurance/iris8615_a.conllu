@@ -1,0 +1,283 @@
+#Voici de quoi répondre à votre banque :
+1	Voici	Voici	VERB	_	VERB__Mood=Ind|VerbForm=Fin	0	ROOT	_	_
+2	de	de	ADP	_	ADP___	3	case	_	_
+3	quoi	quoi	PRON	_	PRON__PronType=Int	1	nmod	_	_
+4	répondre	répondre	VERB	_	VERB__VerbForm=Inf	1	xcomp	_	_
+5	à	à	ADP	_	ADP___	7	case	_	_
+6	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	7	nmod:poss	_	_
+7	banque	banque	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obl	_	_
+8	:	:	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Bonjour,La validité d'un chèque est bien d'un an et 8 jours, mais aviez vous bien indiqué la date lorsque vous avez émis le chèque en 2013 ?
+1	Bonjour	Bonjour	PROPN	_	PROPN___	4	case	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	validité	validité	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nsubj	_	_
+5	d'	de	ADP	_	ADP___	7	case	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	chèque	chèque	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+8	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+9	bien	bien	ADV	_	ADV___	12	advmod	_	_
+10	d'	de	ADP	_	ADP___	12	case	_	_
+11	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	an	an	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+13	et	et	CCONJ	_	CCONJ___	15	cc	_	_
+14	8	8	NUM	_	NUM__NumType=Card	15	nummod	_	_
+15	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	conj	_	_
+16	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+17	mais	mai	CCONJ	_	CCONJ___	21	cc	_	_
+18	aviez	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+19	vous	se	PRON	_	PRON__Number=Plur|Person=2	21	nsubj	_	_
+20	bien	bien	ADV	_	ADV___	21	advmod	_	_
+21	indiqué	indiquer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	conj	_	_
+22	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	date	dater	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	nsubj	_	_
+24	lorsque	lorsque	SCONJ	_	SCONJ___	27	mark	_	_
+25	vous	se	PRON	_	PRON__Number=Plur|Person=2	27	nsubj	_	_
+26	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	émis	émettre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	23	acl:relcl	_	_
+28	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	chèque	chèque	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	obj	_	_
+30	en	en	ADP	_	ADP___	31	case	_	_
+31	2013	2013	NUM	_	NUM__NumType=Card	27	obl	_	_
+32	?	?	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Ou la date a-t-elle été modifiée (il est facile de transformer un 3 en 8) ?
+1	Ou	Ou	CCONJ	_	CCONJ___	4	cc	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	date	dater	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+4	a	avoir		_	VERB	12	aux	_	_
+5	-t	t	PART	_	PART___	7	expl	_	_
+6	-elle	elle	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	7	nsubj:pass	_	_
+7	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	4	aux:pass	_	_
+8	modifiée	modifier	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+9	(	(	PUNCT	_	PUNCT___	12	punct	_	_
+10	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
+11	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	facile	facile	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	parataxis	_	_
+13	de	de	ADP	_	ADP___	15	mark	_	_
+14	transformer	transformer	VERB	_	VERB__VerbForm=Inf	15	xcomp	_	_
+15	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+16	3	3	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+17	en	en	ADP	_	ADP___	21	case	_	_
+18	8)	8)	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	nmod	_	_
+19	?	?	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Si c'est le cas, la responsabilité de la banque ne peut pas être engagée.
+1	Si	Si	SCONJ	_	SCONJ___	4	mark	_	_
+2	c'	ce	PRON	_	PRON__Number=Sing|Person=3	4	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+5	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	advcl	_	_
+6	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+8	responsabilité	responsabilité	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nsubj	_	_
+9	de	de	ADP	_	ADP___	12	case	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	banque	banque	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+12	ne	ne	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+13	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+14	pas	pas	ADV	_	ADV__Polarity=Neg	15	advmod	_	_
+15	être	être	AUX	_	AUX__VerbForm=Inf	12	aux:pass	_	_
+16	engagée	engager	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	xcomp	_	_
+17	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Même si votre ancienne banque (dont vous n'avez pas le droit de citer le nom sur ce forum) vous a fiché à la BDF, cela ne justifie pas le rejet de 6 chèques sur votre nouveau compte, sauf si votre compte ne présentait pas la provision nécessaire et dans ce cas, cela n'a rien à voir avec le fichage par votre ancienne banque.
+1	Même	Même	ADV	_	ADV___	4	mark	_	_
+2	si	si	SCONJ	_	SCONJ___	4	fixed	_	_
+3	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+4	ancienne	ancien	ADJ	_	ADJ__Gender=Fem|Number=Sing	12	amod	_	_
+5	banque	banque	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nsubj	_	_
+6	(	(	PUNCT	_	PUNCT___	7	punct	_	_
+7	dont	dont	PRON	_	PRON__PronType=Rel	4	dep	_	_
+8	vous	se	PRON	_	PRON__Number=Plur|Person=2	12	nsubj	_	_
+9	n'	ne	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+10	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+11	pas	pas	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+13	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obj	_	_
+14	de	de	ADP	_	ADP___	15	mark	_	_
+15	citer	citer	VERB	_	VERB__VerbForm=Inf	12	acl	_	_
+16	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+17	nom	nom	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obj	_	_
+18	sur	sur	ADP	_	ADP___	21	case	_	_
+19	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	21	det	_	_
+20	forum	forum	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	nmod	_	_
+21	)	)	PUNCT	_	PUNCT___	12	punct	_	_
+22	vous	se	PRON	_	PRON__Number=Plur|Person=2	23	nsubj	_	_
+23	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+24	fiché	ficher	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	advcl	_	_
+25	à	à	ADP	_	ADP___	27	case	_	_
+26	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	BDF	BDF	PROPN	_	PROPN__Gender=Fem|Number=Sing	23	obl	_	_
+28	,	,	PUNCT	_	PUNCT___	29	punct	_	_
+29	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	27	nsubj	_	_
+30	ne	ne	ADV	_	ADV__Polarity=Neg	31	advmod	_	_
+31	justifie	justifier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+32	pas	pas	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+33	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+34	rejet	rejet	NOUN	_	NOUN__Gender=Masc|Number=Sing	35	obj	_	_
+35	de	de	ADP	_	ADP___	40	case	_	_
+36	6	6	NUM	_	NUM__NumType=Card	40	nummod	_	_
+37	chèques	chèque	NOUN	_	NOUN__Gender=Fem|Number=Plur	38	nmod	_	_
+38	sur	sur	ADP	_	ADP___	40	case	_	_
+39	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	40	nmod:poss	_	_
+40	nouveau	nouveau	ADJ	_	ADJ__Gender=Masc|Number=Sing	40	obl	_	_
+41	compte	compter	NOUN	_	NOUN__Gender=Masc|Number=Sing	40	obj	_	_
+42	,	,	PUNCT	_	PUNCT___	44	punct	_	_
+43	sauf	sauf	ADP	_	ADP___	44	mark	_	_
+44	si	si	SCONJ	_	SCONJ___	40	mark	_	_
+45	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	46	nmod:poss	_	_
+46	compte	compter	NOUN	_	NOUN__Gender=Masc|Number=Sing	44	nsubj	_	_
+47	ne	ne	ADV	_	ADV__Polarity=Neg	48	advmod	_	_
+48	présentait	présenter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	46	advcl	_	_
+49	pas	pas	ADV	_	ADV__Polarity=Neg	50	advmod	_	_
+50	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+51	provision	provision	NOUN	_	NOUN__Gender=Fem|Number=Sing	40	obj	_	_
+52	nécessaire	nécessaire	ADJ	_	ADJ__Number=Sing	56	amod	_	_
+53	et	et	CCONJ	_	CCONJ___	56	cc	_	_
+54	dans	dan	ADP	_	ADP___	56	case	_	_
+55	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	56	det	_	_
+56	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	64	conj	_	_
+57	,	,	PUNCT	_	PUNCT___	64	punct	_	_
+58	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	59	nsubj	_	_
+59	n'	ne	ADV	_	ADV___	64	advmod	_	_
+60	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	62	conj	_	_
+61	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	62	obj	_	_
+62	à	à	ADP	_	ADP___	59	mark	_	_
+63	voir	voir	VERB	_	VERB__VerbForm=Inf	64	acl	_	_
+64	avec	avec	ADP	_	ADP___	64	case	_	_
+65	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	64	det	_	_
+66	fichage	fichage	NOUN	_	NOUN__Gender=Masc|Number=Sing	67	obl	_	_
+67	par	par	ADP	_	ADP___	64	case	_	_
+68	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	64	nmod:poss	_	_
+69	ancienne	ancien	ADJ	_	ADJ__Gender=Fem|Number=Sing	78	amod	_	_
+70	banque	banque	NOUN	_	NOUN__Gender=Fem|Number=Sing	69	nmod	_	_
+71	.	.	PUNCT	_	PUNCT___	73	punct	_	_
+
+
+#Idem pour la carte : pour "l'invalider", il faut que votre banque actuelle l'ait mise en opposition pour usage abusif : cela doit donc être dû au fonctionnement de votre compte dans votre banque actuelle.
+1	Idem	Idem	PROPN	_	PROPN___	4	nsubj	_	_
+2	pour	pour	ADP	_	ADP___	4	case	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	carte	carte	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+5	:	:	PUNCT	_	PUNCT___	7	punct	_	_
+6	pour	pour	ADP	_	ADP___	7	case	_	_
+7	"	"	PUNCT	_	PUNCT___	4	punct	_	_
+8	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+9	invalider	invalider	VERB	_	VERB__VerbForm=Inf	12	nmod	_	_
+10	"	"	PUNCT	_	PUNCT___	12	punct	_	_
+11	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+12	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
+13	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+14	que	que	SCONJ	_	SCONJ___	15	mark	_	_
+15	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	12	nmod:poss	_	_
+16	banque	banque	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nsubj	_	_
+17	actuelle	actuel	ADJ	_	ADJ__Gender=Fem|Number=Sing	21	amod	_	_
+18	l'	le	PRON	_	PRON__Number=Sing|Person=3	21	obj	_	_
+19	ait	avoir	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+20	mise	miser	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	21	ccomp	_	_
+21	en	en	ADP	_	ADP___	12	case	_	_
+22	opposition	opposition	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	obl	_	_
+23	pour	pour	ADP	_	ADP___	21	case	_	_
+24	usage	usage	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	obl	_	_
+25	abusif	abusif	ADJ	_	ADJ__Gender=Masc|Number=Sing	27	amod	_	_
+26	:	:	PUNCT	_	PUNCT___	27	punct	_	_
+27	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	23	nsubj	_	_
+28	doit	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	parataxis	_	_
+29	donc	donc	ADV	_	ADV___	27	advmod	_	_
+30	être	être	AUX	_	AUX__VerbForm=Inf	31	nsubj	_	_
+31	dû	devoir	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	advmod	_	_
+32	au	au	PRON	_	PRON__Number=Sing|Person=3	12	expl	_	_
+33	fonctionnement	fonctionnement	NOUN	_	NOUN__Gender=Masc|Number=Sing	40	xcomp	_	_
+34	de	de	ADP	_	ADP___	35	case	_	_
+35	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	40	nmod:poss	_	_
+36	compte	compter	NOUN	_	NOUN__Gender=Masc|Number=Sing	40	obl	_	_
+37	dans	dan	ADP	_	ADP___	38	case	_	_
+38	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	40	nmod:poss	_	_
+39	banque	banque	NOUN	_	NOUN__Gender=Fem|Number=Sing	40	obl	_	_
+40	actuelle	actuel	ADJ	_	ADJ__Gender=Fem|Number=Sing	40	amod	_	_
+41	.	.	PUNCT	_	PUNCT___	40	punct	_	_
+
+
+#Donc, a priori, il semble que les frais sont justifiés et ne sont pas dus au fichage effectué par votre ancienne banque.
+1	Donc	Donc	ADV	_	ADV___	4	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	priori	priori	X	_	X___	12	advmod	_	_
+5	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+6	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+7	semble	sembler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	que	que	SCONJ	_	SCONJ___	12	mark	_	_
+9	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	12	det	_	_
+10	frais	frai	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	nsubj	_	_
+11	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	justifiés	justifier	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	12	ccomp	_	_
+13	et	et	CCONJ	_	CCONJ___	15	cc	_	_
+14	ne	ne	ADV	_	ADV__Polarity=Neg	15	advmod	_	_
+15	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+16	pas	pas	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+17	dus	dû	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	21	conj	_	_
+18	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	21	det	_	_
+19	fichage	fichage	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obj	_	_
+20	effectué	effectuer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	acl	_	_
+21	par	par	ADP	_	ADP___	12	case	_	_
+22	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	23	nmod:poss	_	_
+23	ancienne	ancien	ADJ	_	ADJ__Gender=Fem|Number=Sing	21	amod	_	_
+24	banque	banque	NOUN	_	NOUN__Gender=Fem|Number=Sing	27	obl	_	_
+25	.	.	PUNCT	_	PUNCT___	27	punct	_	_
+
+
+#Bonjour !
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	!	!	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Conformément à l'article 6 de la charte du forum que vous avez signée en vous inscrivant, veuillez ne pas citer de noms de personnes, de marques, de sites ou de sociétés !
+1	Conformément	Conformément	ADV	_	ADV___	1	advmod	_	_
+2	à	à	ADP	_	ADP___	1	case	_	_
+3	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	24	det	_	_
+4	article	article	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nmod	_	_
+5	6	6	NUM	_	NUM__NumType=Card	6	nummod	_	_
+6	de	de	ADP	_	ADP___	3	case	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+8	charte	charte	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+9	du	du	DET	_	DET__Gender=Masc|Number=Sing	10	det	_	_
+10	forum	forum	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	amod	_	_
+11	que	que	PRON	_	PRON__PronType=Rel	12	obj	_	_
+12	vous	se	PRON	_	PRON__Number=Plur|Person=2	10	nsubj	_	_
+13	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	16	aux	_	_
+14	signée	signer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+15	en	en	ADP	_	ADP___	16	case	_	_
+16	vous	se	PRON	_	PRON__Number=Plur|Person=2	6	obl	_	_
+17	inscrivant	inscrire	ADV	_	ADV___	18	amod	_	_
+18	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+19	veuillez	vouloir	AUX	_	AUX__Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	18	aux	_	_
+20	ne	ne	ADV	_	ADV___	24	advmod	_	_
+21	pas	pas	ADV	_	ADV___	24	fixed	_	_
+22	citer	citer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+23	de	de	ADP	_	ADP___	22	det	_	_
+24	noms	nom	NOUN	_	NOUN__Gender=Masc|Number=Plur	24	obj	_	_
+25	de	de	ADP	_	ADP___	26	case	_	_
+26	personnes	personne	NOUN	_	NOUN__Gender=Fem|Number=Plur	24	nmod	_	_
+27	,	,	PUNCT	_	PUNCT___	28	punct	_	_
+28	de	de	ADP	_	ADP___	26	case	_	_
+29	marques	marquer	NOUN	_	NOUN__Gender=Fem|Number=Plur	31	conj	_	_
+30	,	,	PUNCT	_	PUNCT___	31	punct	_	_
+31	de	de	ADP	_	ADP___	28	case	_	_
+32	sites	site	NOUN	_	NOUN__Gender=Masc|Number=Plur	34	conj	_	_
+33	ou	ou	CCONJ	_	CCONJ___	34	cc	_	_
+34	de	de	ADP	_	ADP___	26	case	_	_
+35	sociétés	société	NOUN	_	NOUN__Gender=Fem|Number=Plur	37	conj	_	_
+36	!	!	PUNCT	_	PUNCT___	37	punct	_	_
+
+
+#Merci !
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	!	!	PUNCT	_	PUNCT___	1	punct	_	_
+
+

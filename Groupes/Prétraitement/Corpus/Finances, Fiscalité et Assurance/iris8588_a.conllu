@@ -1,0 +1,54 @@
+#bonjour ..... ?
+1	bonjour	bonjour	NOUN	_	NOUN___	2	case	_	_
+2	.....	.....	PUNCT	_	PUNCT___	0	ROOT	_	_
+3	?	?	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#question ?
+1	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	?	?	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#merci et au revoir ?
+1	merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	et	et	CCONJ	_	CCONJ___	2	cc	_	_
+3	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	2	expl	_	_
+4	revoir	revoir	VERB	_	VERB__VerbForm=Inf	4	conj	_	_
+5	?	?	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Que s'est-il passé alors?Bonjour
+1	Que	Que	PRON	_	PRON__PronType=Int	6	obj	_	_
+2	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	3	expl	_	_
+3	est	être	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+4	-	-	PUNCT	_	PUNCT___	6	punct	_	_
+5	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+6	passé	passer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+7	alors?Bonjour	alors?Bonjour	ADV	_	ADV___	6	acl	_	_
+
+
+#bonjour, la prescription décennale n'est pas atteinte un acte interruptif de prescription étant survenu ( commandement de payer ).
+1	bonjour	bonjour	NOUN	_	NOUN___	9	obl	_	_
+2	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	prescription	prescription	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nsubj	_	_
+5	décennale	décennal	ADJ	_	ADJ__Gender=Fem|Number=Sing	4	amod	_	_
+6	n'	ne	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+7	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	pas	pas	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+9	atteinte	atteint	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+10	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	acte	acte	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+12	interruptif	interruptif	ADJ	_	ADJ__Gender=Masc|Number=Sing	11	amod	_	_
+13	de	de	ADP	_	ADP___	14	case	_	_
+14	prescription	prescription	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+15	étant	être	AUX	_	AUX__Tense=Pres|VerbForm=Part	16	aux:pass	_	_
+16	survenu	survenir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	acl	_	_
+17	(	(	PUNCT	_	PUNCT___	9	punct	_	_
+18	commandement	commandement	ADV	_	ADV___	9	appos	_	_
+19	de	de	ADP	_	ADP___	20	mark	_	_
+20	payer	payer	VERB	_	VERB__VerbForm=Inf	18	xcomp	_	_
+21	)	)	PUNCT	_	PUNCT___	9	punct	_	_
+22	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+

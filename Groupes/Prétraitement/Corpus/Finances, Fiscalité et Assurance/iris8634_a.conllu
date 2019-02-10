@@ -1,0 +1,650 @@
+#Il faut calculer quelle serait la valeur actuelle de la maison sans les travaux.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	calculer	calculer	VERB	_	VERB__VerbForm=Inf	2	xcomp	_	_
+4	quelle	quel	DET	_	DET__Gender=Fem|Number=Sing|PronType=Int	2	punct	_	_
+5	serait	être	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	valeur	valeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nsubj	_	_
+8	actuelle	actuel	ADJ	_	ADJ__Gender=Fem|Number=Sing	7	amod	_	_
+9	de	de	ADP	_	ADP___	11	case	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+12	sans	sans	ADP	_	ADP___	14	case	_	_
+13	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	14	det	_	_
+14	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	obl	_	_
+15	.	.	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#Donc évaluer la valeur d'un bien fictif.
+1	Donc	Donc	ADV	_	ADV___	2	advmod	_	_
+2	évaluer	évaluer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+4	valeur	valeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	obj	_	_
+5	d'	de	ADP	_	ADP___	4	case	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	bien	bien	ADV	_	ADV___	4	nmod	_	_
+8	fictif	fictif	ADJ	_	ADJ__Gender=Masc|Number=Sing	7	amod	_	_
+9	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Admettons que l'on aboutisse à 420000 sans les travaux.
+1	Admettons	Admettons	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+2	que	que	SCONJ	_	SCONJ___	2	mark	_	_
+3	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	2	nsubj	_	_
+4	on	on	PRON	_	PRON__Number=Sing|Person=3	2	fixed	_	_
+5	aboutisse	aboutir	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+6	à	à	ADP	_	ADP___	7	case	_	_
+7	420000	420000	NUM	_	NUM__NumType=Card	4	obl	_	_
+8	sans	sans	ADP	_	ADP___	7	case	_	_
+9	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	11	det	_	_
+10	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	obl	_	_
+11	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Je prends cette valeur, parce que avec votre plus-value de 110000, je comprends que c'est la plus-value liée aux travaux : 530000 - 110000 = 420000.Dans ce cas, vous avez droit à 42% des 420000, et votre épouse 58% des 420000, + 110000.Voilà ce que la logique me dit de faire comme partage, en examinant ce qui se serait passé sans les travaux.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	2	nsubj	_	_
+2	prends	prendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+4	valeur	valeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	obj	_	_
+5	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+6	parce	parce	SCONJ	_	SCONJ___	7	mark	_	_
+7	que	que	SCONJ	_	SCONJ___	4	fixed	_	_
+8	avec	avec	ADP	_	ADP___	7	case	_	_
+9	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	11	nmod:poss	_	_
+10	plus-value	plus-value	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obl	_	_
+11	de	de	ADP	_	ADP___	7	case	_	_
+12	110000	110000	NUM	_	NUM__NumType=Card	14	nmod	_	_
+13	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+14	je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+15	comprends	comprendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+16	que	que	SCONJ	_	SCONJ___	17	mark	_	_
+17	c'	ce	PRON	_	PRON__Number=Sing|Person=3	17	nsubj	_	_
+18	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+20	plus-value	plus-value	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	ccomp	_	_
+21	liée	lier	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	22	acl	_	_
+22	aux	aux	ADP	_	ADP___	19	case	_	_
+23	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	22	obl	_	_
+24	:	:	PUNCT	_	PUNCT___	17	punct	_	_
+25	530000	530000	NUM	_	NUM__NumType=Card	25	nummod	_	_
+26	-	-	PUNCT	_	PUNCT___	29	punct	_	_
+27	110000	110000	NUM	_	NUM__NumType=Card	29	nsubj	_	_
+28	=	=	VERB	_	VERB__Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	27	advcl	_	_
+29	420000.Dans	420000.Dans	NUM	_	NUM__NumType=Card	25	iobj	_	_
+30	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	31	det	_	_
+31	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	fixed	_	_
+32	,	,	PUNCT	_	PUNCT___	34	punct	_	_
+33	vous	se	PRON	_	PRON__Number=Plur|Person=2	34	nsubj	_	_
+34	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	29	aux	_	_
+35	droit	droit	ADJ	_	ADJ__Gender=Masc|Number=Sing	25	obj	_	_
+36	à	à	ADP	_	ADP___	37	case	_	_
+37	42	42	NUM	_	NUM__NumType=Card	37	nummod	_	_
+38	%	%	NOUN	_	NOUN__Gender=Masc	39	obl	_	_
+39	des	un	ADP	_	ADP___	37	det	_	_
+40	420000	420000	NUM	_	NUM__NumType=Card	37	obj	_	_
+41	,	,	PUNCT	_	PUNCT___	50	punct	_	_
+42	et	et	CCONJ	_	CCONJ___	41	cc	_	_
+43	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	45	nmod:poss	_	_
+44	épouse	époux	NOUN	_	NOUN__Gender=Fem|Number=Sing	45	conj	_	_
+45	58	58	NUM	_	NUM__NumType=Card	50	nummod	_	_
+46	%	%	NOUN	_	NOUN__Gender=Masc	47	nmod	_	_
+47	des	un	ADP	_	ADP___	45	case	_	_
+48	420000	420000	NUM	_	NUM__NumType=Card	50	nmod	_	_
+49	,	,	PUNCT	_	PUNCT___	50	punct	_	_
+50	+	+	ADP	_	ADP___	37	case	_	_
+51	110000.Voilà	110000.Voilà	NUM	_	NUM__NumType=Card	55	amod	_	_
+52	ce	ce	PRON	_	PRON__PronType=Rel	55	conj	_	_
+53	que	que	PRON	_	PRON__PronType=Rel	55	obj	_	_
+54	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	55	det	_	_
+55	logique	logique	ADJ	_	ADJ__Number=Sing	50	nsubj	_	_
+56	me	se	PRON	_	PRON__Number=Sing|Person=1	55	iobj	_	_
+57	dit	dire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	58	acl:relcl	_	_
+58	de	de	ADP	_	ADP___	56	mark	_	_
+59	faire	faire	VERB	_	VERB__VerbForm=Inf	55	xcomp	_	_
+60	comme	comme	ADP	_	ADP___	50	case	_	_
+61	partage	partager	NOUN	_	NOUN__Gender=Masc|Number=Sing	63	advcl	_	_
+62	,	,	PUNCT	_	PUNCT___	63	punct	_	_
+63	en	en	ADP	_	ADP___	37	mark	_	_
+64	examinant	examiner	VERB	_	VERB__Tense=Pres|VerbForm=Part	63	advcl	_	_
+65	ce	ce	PRON	_	PRON__PronType=Rel	66	obj	_	_
+66	qui	qui	PRON	_	PRON__PronType=Rel	64	nsubj	_	_
+67	se	se	PRON	_	PRON__Person=3|Reflex=Yes	70	expl	_	_
+68	serait	être	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	70	aux	_	_
+69	passé	passer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	70	acl:relcl	_	_
+70	sans	sans	ADP	_	ADP___	63	case	_	_
+71	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	73	det	_	_
+72	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	73	obl	_	_
+73	.	.	PUNCT	_	PUNCT___	63	punct	_	_
+
+
+#Edit : je vois en fait que les 110000 proviennent de 530000 - (270000+150000).Donc la valeur du bien sans les travaux n'est pas nécessairement 420000.
+1	Edit	Edit	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	nsubj	_	_
+2	:	:	PUNCT	_	PUNCT___	2	punct	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	2	nsubj	_	_
+4	vois	voir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	cop	_	_
+5	en	en	ADP	_	ADP___	4	expl	_	_
+6	fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+7	que	que	SCONJ	_	SCONJ___	4	mark	_	_
+8	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+9	110000	110000	NUM	_	NUM__NumType=Card	11	nsubj	_	_
+10	proviennent	provenir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+11	de	de	ADP	_	ADP___	7	case	_	_
+12	530000	530000	NUM	_	NUM__NumType=Card	14	nummod	_	_
+13	-	-	PUNCT	_	PUNCT___	14	punct	_	_
+14	(	(	PUNCT	_	PUNCT___	4	punct	_	_
+15	270000	270000	NUM	_	NUM__NumType=Card	2	nummod	_	_
+16	+	+	ADP	_	ADP___	17	case	_	_
+17	150000).Donc	150000).Donc	NUM	_	NUM__NumType=Card	17	nmod	_	_
+18	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	valeur	valeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	nsubj	_	_
+20	du	du	DET	_	DET__Gender=Masc|Number=Sing	22	conj	_	_
+21	bien	bien	ADV	_	ADV___	22	fixed	_	_
+22	sans	sans	ADP	_	ADP___	19	case	_	_
+23	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	22	det	_	_
+24	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	17	nmod	_	_
+25	n'	ne	ADV	_	ADV__Polarity=Neg	25	advmod	_	_
+26	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
+27	pas	pas	ADV	_	ADV__Polarity=Neg	29	advmod	_	_
+28	nécessairement	nécessairement	ADV	_	ADV___	27	advmod	_	_
+29	420000	420000	NUM	_	NUM__NumType=Card	25	nummod	_	_
+30	.	.	PUNCT	_	PUNCT___	31	punct	_	_
+
+
+#Mais le principe reste le même : vous avez financé 42% d'un bien dans un état donné, vous avez droit à 42% du prix de revente de ce bien.
+1	Mais	Mais	CCONJ	_	CCONJ___	2	cc	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+3	principe	principe	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	nsubj	_	_
+4	reste	rester	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+6	même	même	ADV	_	ADV___	7	obj	_	_
+7	:	:	PUNCT	_	PUNCT___	4	punct	_	_
+8	vous	se	PRON	_	PRON__Number=Plur|Person=2	7	nsubj	_	_
+9	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	financé	financer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+11	42	42	NUM	_	NUM__NumType=Card	7	nummod	_	_
+12	%	%	NOUN	_	NOUN__Gender=Masc	14	obj	_	_
+13	d'	de	ADP	_	ADP___	14	case	_	_
+14	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+15	bien	bien	ADV	_	ADV___	2	nmod	_	_
+16	dans	dan	ADP	_	ADP___	17	case	_	_
+17	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+18	état	état	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obl	_	_
+19	donné	donner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl	_	_
+20	,	,	PUNCT	_	PUNCT___	22	punct	_	_
+21	vous	se	PRON	_	PRON__Number=Plur|Person=2	22	nsubj	_	_
+22	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	19	aux	_	_
+23	droit	droit	ADJ	_	ADJ__Gender=Masc|Number=Sing	22	conj	_	_
+24	à	à	ADP	_	ADP___	17	case	_	_
+25	42	42	NUM	_	NUM__NumType=Card	25	nummod	_	_
+26	%	%	NOUN	_	NOUN__Gender=Masc	29	obl	_	_
+27	du	du	DET	_	DET__Gender=Masc|Number=Sing	29	det	_	_
+28	prix	prix	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	obj	_	_
+29	de	de	ADP	_	ADP___	25	case	_	_
+30	revente	revente	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	amod	_	_
+31	de	de	ADP	_	ADP___	29	case	_	_
+32	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	34	det	_	_
+33	bien	bien	ADV	_	ADV___	34	nmod	_	_
+34	.	.	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#L'exercice difficile est d'évaluer un bien fictif.
+1	L'	L'	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	2	det	_	_
+2	exercice	exercice	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	nsubj	_	_
+3	difficile	difficile	ADJ	_	ADJ__Number=Sing	2	amod	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+5	d'	de	ADP	_	ADP___	4	mark	_	_
+6	évaluer	évaluer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+8	bien	bien	ADV	_	ADV___	7	obj	_	_
+9	fictif	fictif	ADJ	_	ADJ__Gender=Masc|Number=Sing	11	amod	_	_
+10	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Sauf que 420000, en fait ce n'est pas la valeur du bien sans les travaux, c'est seulement la différence entre la valeur actuelle et la somme des investissements.
+1	Sauf	Sauf	ADP	_	ADP___	0	ROOT	_	_
+2	que	que	SCONJ	_	SCONJ___	1	fixed	_	_
+3	420000	420000	NUM	_	NUM__NumType=Card	2	fixed	_	_
+4	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+5	en	en	ADP	_	ADP___	6	mark	_	_
+6	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	fixed	_	_
+7	ce	ce	PRON	_	PRON__PronType=Rel	12	det	_	_
+8	n'	ne	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+9	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+10	pas	pas	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	valeur	valeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obj	_	_
+13	du	du	DET	_	DET__Gender=Masc|Number=Sing	12	acl:relcl	_	_
+14	bien	bien	ADV	_	ADV___	13	advmod	_	_
+15	sans	sans	ADP	_	ADP___	17	case	_	_
+16	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	17	det	_	_
+17	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	nmod	_	_
+18	,	,	PUNCT	_	PUNCT___	32	punct	_	_
+19	c'	ce	PRON	_	PRON__Number=Sing|Person=3	32	nsubj	_	_
+20	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	fixed	_	_
+21	seulement	seulement	ADV	_	ADV___	19	fixed	_	_
+22	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	différence	différence	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	nsubj	_	_
+24	entre	entrer	ADP	_	ADP___	26	case	_	_
+25	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	valeur	valeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	nmod	_	_
+27	actuelle	actuel	ADJ	_	ADJ__Gender=Fem|Number=Sing	26	amod	_	_
+28	et	et	CCONJ	_	CCONJ___	30	cc	_	_
+29	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	somme	sommer	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	conj	_	_
+31	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	32	det	_	_
+32	investissements	investissement	NOUN	_	NOUN__Gender=Masc|Number=Plur	17	conj	_	_
+33	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Il faut estimer combien serait vendu le bien si les travaux n'avaient pas été effectués.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	estimer	estimer	VERB	_	VERB__VerbForm=Inf	2	xcomp	_	_
+4	combien	combien	ADV	_	ADV__PronType=Int	6	advmod	_	_
+5	serait	être	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	vendu	vendre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+8	bien	bien	ADV	_	ADV___	12	advmod	_	_
+9	si	si	SCONJ	_	SCONJ___	12	mark	_	_
+10	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	12	det	_	_
+11	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	nsubj:pass	_	_
+12	n'	ne	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+13	avaient	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+14	pas	pas	ADV	_	ADV__Polarity=Neg	13	advmod	_	_
+15	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	17	aux:pass	_	_
+16	effectués	effectuer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	17	advcl	_	_
+17	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Il n'y aucune raison que ce soit pile la différence ci-dessus.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	n'	ne	ADV	_	ADV___	1	advmod	_	_
+3	y	yu	PRON	_	PRON__Person=3	2	expl	_	_
+4	aucune	aucun	DET	_	DET__Gender=Fem|Number=Sing	6	det	_	_
+5	raison	raison	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+6	que	que	SCONJ	_	SCONJ___	2	mark	_	_
+7	ce	ce	PRON	_	PRON__Number=Sing|Person=3	12	nsubj	_	_
+8	soit	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+9	pile	piler	ADJ	_	ADJ__Gender=Fem|Number=Sing	12	acl:relcl	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	différence	différence	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obj	_	_
+12	ci-dessus	ci-dessus	ADJ	_	ADJ___	6	amod	_	_
+13	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Vous ne lisez pas.
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	3	nsubj	_	_
+2	ne	ne	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+3	lisez	lire	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+5	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#La valeurqu'aurait le bien si les travaux n'avaient pas été réalisés.
+1	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	valeurqu'	valeurqu'	NOUN	_	NOUN__Gender=Fem	3	nsubj:pass	_	_
+3	aurait	avoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	fixed	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+5	bien	bien	ADV	_	ADV___	3	advmod	_	_
+6	si	si	SCONJ	_	SCONJ___	7	mark	_	_
+7	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	18	det	_	_
+8	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	nsubj	_	_
+9	n'	ne	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+10	avaient	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	18	aux	_	_
+11	pas	pas	ADV	_	ADV__Polarity=Neg	15	advmod	_	_
+12	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	13	aux:pass	_	_
+13	réalisés	réaliser	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+14	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Il s'agit d'évaluerun bien: le bien non amélioré.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+2	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	3	expl	_	_
+3	agit	agir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
+4	d'	de	ADP	_	ADP___	3	case	_	_
+5	évaluerun	évaluerun	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obl	_	_
+6	bien	bien	ADV	_	ADV___	7	amod	_	_
+7	:	:	PUNCT	_	PUNCT___	18	punct	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+9	bien	bien	ADV	_	ADV___	10	advmod	_	_
+10	non	non	ADV	_	ADV___	18	advmod	_	_
+11	amélioré	améliorer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl	_	_
+12	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#C'est la difficulté de l'exercice.
+1	C'	C'	PRON	_	PRON__Number=Sing|Person=3	3	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+4	difficulté	difficulté	ADJ	_	ADJ__Gender=Fem|Number=Sing|NumType=Ord	0	ROOT	_	_
+5	de	de	ADP	_	ADP___	3	case	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	exercice	exercice	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nmod	_	_
+8	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Le bien sans les travaux ne vaudrait plus aujourd'hui 270000.
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	bien	bien	ADV	_	ADV___	3	nsubj	_	_
+3	sans	sans	ADP	_	ADP___	3	case	_	_
+4	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	3	det	_	_
+5	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	nmod	_	_
+6	ne	ne	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+7	vaudrait	valoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+8	plus	plaire	ADV	_	ADV___	7	advmod	_	_
+9	aujourd'hui	aujourd'huie	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obj	_	_
+10	270000	270000	NUM	_	NUM__NumType=Card	18	nummod	_	_
+11	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Il aurait quand même une plus-value, liée à l'évolution du marché.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+2	aurait	avoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	quand	quand	ADV	_	ADV___	3	advmod	_	_
+4	même	même	ADV	_	ADV___	3	fixed	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+6	plus-value	plus-value	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+7	,	,	PUNCT	_	PUNCT___	18	punct	_	_
+8	liée	lier	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+9	à	à	ADP	_	ADP___	10	case	_	_
+10	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+11	évolution	évolution	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obl	_	_
+12	du	du	DET	_	DET__Gender=Masc|Number=Sing	13	det	_	_
+13	marché	marcher	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obj	_	_
+14	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Si sans les travaux, vous auriez pu revendre le bien 400000, vous avez droit à 42% de 400000.Car on doute que 270000+150000 se soit transformé en 270000+260000, c'est-à-dire la plus-value totale soit due uniquement aux travaux.
+1	Si	Si	SCONJ	_	SCONJ___	3	mark	_	_
+2	sans	sans	ADP	_	ADP___	3	case	_	_
+3	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	3	det	_	_
+4	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	obl	_	_
+5	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+6	vous	se	PRON	_	PRON__Number=Plur|Person=2	7	nsubj	_	_
+7	auriez	avoir	AUX	_	AUX__Mood=Cnd|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	18	aux	_	_
+8	pu	pouvoir	AUX	_	AUX__Tense=Past|VerbForm=Part	7	aux	_	_
+9	revendre	revendre	VERB	_	VERB__VerbForm=Part	10	advcl	_	_
+10	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+11	bien	bien	ADV	_	ADV___	15	obj	_	_
+12	400000	400000	NUM	_	NUM__NumType=Card	13	nummod	_	_
+13	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+14	vous	se	PRON	_	PRON__Number=Plur|Person=2	15	nsubj	_	_
+15	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	18	aux	_	_
+16	droit	droit	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+17	à	à	ADP	_	ADP___	18	case	_	_
+18	42	42	NUM	_	NUM__NumType=Card	18	nummod	_	_
+19	%	%	NOUN	_	NOUN__Gender=Masc	18	obl	_	_
+20	de	de	ADP	_	ADP___	22	case	_	_
+21	400000.Car	400000.Car	NUM	_	NUM__NumType=Card	22	nmod	_	_
+22	on	on	PRON	_	PRON__Number=Sing|Person=3	22	nsubj	_	_
+23	doute	douter	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	nmod	_	_
+24	que	que	SCONJ	_	SCONJ___	22	mark	_	_
+25	270000	270000	NUM	_	NUM__NumType=Card	24	nummod	_	_
+26	+	+	ADP	_	ADP___	24	case	_	_
+27	150000	150000	NUM	_	NUM__NumType=Card	28	nmod	_	_
+28	se	se	PRON	_	PRON__Person=3|Reflex=Yes	29	expl	_	_
+29	soit	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux:pass	_	_
+30	transformé	transformer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	ccomp	_	_
+31	en	en	ADP	_	ADP___	22	case	_	_
+32	270000	270000	NUM	_	NUM__NumType=Card	35	nummod	_	_
+33	+	+	ADP	_	ADP___	35	case	_	_
+34	260000	260000	NUM	_	NUM__NumType=Card	35	obl	_	_
+35	,	,	PUNCT	_	PUNCT___	35	punct	_	_
+36	c'est-à-dire	c'est-à-diree	NOUN	_	NOUN__Gender=Fem|Number=Sing	38	conj	_	_
+37	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	plus-value	plus-value	NOUN	_	NOUN__Gender=Fem|Number=Sing	35	nsubj	_	_
+39	totale	total	ADJ	_	ADJ__Gender=Fem|Number=Sing	35	amod	_	_
+40	soit	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	cop	_	_
+41	due	dû	ADJ	_	ADJ__Gender=Fem|Number=Sing	46	conj	_	_
+42	uniquement	uniquement	ADV	_	ADV___	44	advmod	_	_
+43	aux	aux	ADJ	_	ADJ__Gender=Masc|Number=Plur	44	amod	_	_
+44	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	41	obj	_	_
+45	.	.	PUNCT	_	PUNCT___	46	punct	_	_
+
+
+#Elle a investi dans les travaux, donc elle récupère la valeur de ces travaux.
+1	Elle	Elle	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
+2	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	investi	investir	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	dans	dan	ADP	_	ADP___	6	case	_	_
+5	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	6	det	_	_
+6	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	obl	_	_
+7	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+8	donc	donc	ADV	_	ADV___	10	advmod	_	_
+9	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	10	nsubj	_	_
+10	récupère	récupérer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	valeur	valeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obj	_	_
+13	de	de	ADP	_	ADP___	15	case	_	_
+14	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	15	det	_	_
+15	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	nmod	_	_
+16	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Ce n'est d'ailleurs pas nécessairement une plus-value.
+1	Ce	Ce	PRON	_	PRON__Number=Sing|Person=3	3	nsubj	_	_
+2	n'	ne	ADV	_	ADV___	3	advmod	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+4	d'	de	ADP	_	ADP___	6	advmod	_	_
+5	ailleurs	ailleurs	NOUN	_	NOUN__Gender=Masc	6	fixed	_	_
+6	pas	pas	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+7	nécessairement	nécessairement	ADV	_	ADV___	0	ROOT	_	_
+8	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	plus-value	plus-value	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obj	_	_
+10	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Il ne s'agit pas de partager une plus-value, mais un prix de revente.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+2	ne	ne	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+3	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	3	expl	_	_
+4	agit	agir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+6	de	de	ADP	_	ADP___	3	mark	_	_
+7	partager	partager	VERB	_	VERB__VerbForm=Inf	3	xcomp	_	_
+8	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	plus-value	plus-value	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obj	_	_
+10	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+11	mais	mai	CCONJ	_	CCONJ___	12	cc	_	_
+12	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+13	prix	prix	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	conj	_	_
+14	de	de	ADP	_	ADP___	15	case	_	_
+15	revente	revente	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+16	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#C'est-à-dire qu'on regarde en quelle valeur s'est transformée l'investissement de chacun.
+1	C'est-à-dire	C'est-à-dire	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+2	qu'	que	PRON	_	PRON__PronType=Rel	3	mark	_	_
+3	on	on	PRON	_	PRON__Number=Sing|Person=3	3	nsubj	_	_
+4	regarde	regarder	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+5	en	en	ADP	_	ADP___	6	case	_	_
+6	quelle	quel	DET	_	DET__Gender=Fem|Number=Sing|PronType=Int	3	det	_	_
+7	valeur	valeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obl	_	_
+8	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	10	expl	_	_
+9	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	transformée	transformer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+11	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	investissement	investissement	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obl	_	_
+13	de	de	ADP	_	ADP___	15	case	_	_
+14	chacun	chacun	PRON	_	PRON__Gender=Masc|PronType=Rel	15	nmod	_	_
+15	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Vous avez investi 42% de 270000, et elle a investi 58% de 270000 puis 150000 ultérieurement.
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	3	nsubj	_	_
+2	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	investi	investir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	42	42	NUM	_	NUM__NumType=Card	6	nummod	_	_
+5	%	%	NOUN	_	NOUN__Gender=Masc	6	obj	_	_
+6	de	de	ADP	_	ADP___	3	case	_	_
+7	270000	270000	NUM	_	NUM__NumType=Card	3	nmod	_	_
+8	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+9	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+10	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
+11	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	investi	investir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	conj	_	_
+13	58	58	NUM	_	NUM__NumType=Card	15	nummod	_	_
+14	%	%	NOUN	_	NOUN__Gender=Masc	15	obj	_	_
+15	de	de	ADP	_	ADP___	12	case	_	_
+16	270000	270000	NUM	_	NUM__NumType=Card	3	nmod	_	_
+17	puis	pouvoir	CCONJ	_	CCONJ___	23	cc	_	_
+18	150000	150000	NUM	_	NUM__NumType=Card	23	conj	_	_
+19	ultérieurement	ultérieurement	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	advmod	_	_
+20	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Si les travaux n'avaient pas été réalisés, le bien se serait vendu (par exemple) 400000.
+1	Si	Si	SCONJ	_	SCONJ___	3	mark	_	_
+2	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	3	det	_	_
+3	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+4	n'	ne	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+5	avaient	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	pas	pas	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+7	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	3	aux:pass	_	_
+8	réalisés	réaliser	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	10	advcl	_	_
+9	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+10	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+11	bien	bien	ADV	_	ADV___	12	nsubj	_	_
+12	se	se	PRON	_	PRON__Person=3|Reflex=Yes	10	expl	_	_
+13	serait	être	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	vendu	vendre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+15	(	(	PUNCT	_	PUNCT___	12	punct	_	_
+16	par	par	ADP	_	ADP___	3	advmod	_	_
+17	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	fixed	_	_
+18	)	)	PUNCT	_	PUNCT___	23	punct	_	_
+19	400000	400000	NUM	_	NUM__NumType=Card	23	nummod	_	_
+20	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Ce n'est donc qu'un exemple.
+1	Ce	Ce	PRON	_	PRON__Number=Sing|Person=3	3	nsubj	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+4	donc	donc	ADV	_	ADV___	6	advmod	_	_
+5	qu'	que	SCONJ	_	SCONJ___	6	mark	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+7	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+8	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Vous récupérez 42% de 400000, parce que c'est ce en quoi s'est transformé votre investissement.
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	3	nsubj	_	_
+2	récupérez	récupérer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	42	42	NUM	_	NUM__NumType=Card	3	nummod	_	_
+4	%	%	NOUN	_	NOUN__Gender=Masc	6	obj	_	_
+5	de	de	ADP	_	ADP___	6	case	_	_
+6	400000	400000	NUM	_	NUM__NumType=Card	3	nmod	_	_
+7	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+8	parce	parce	SCONJ	_	SCONJ___	10	mark	_	_
+9	que	que	SCONJ	_	SCONJ___	10	fixed	_	_
+10	c'	ce	PRON	_	PRON__Number=Sing|Person=3	3	nsubj	_	_
+11	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	ce	ce	PRON	_	PRON__PronType=Rel	10	advcl	_	_
+13	en	en	ADP	_	ADP___	15	case	_	_
+14	quoi	quoi	PRON	_	PRON__PronType=Int	15	obl	_	_
+15	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	12	expl	_	_
+16	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+17	transformé	transformer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	acl:relcl	_	_
+18	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	23	nmod:poss	_	_
+19	investissement	investissement	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	obl	_	_
+20	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Le bien est vendu 530000=400000+130000.Elle récupère 58% de 400000 parce que c'est ce en quoi s'est transformé son premier investissement, + 130000 parce que c'est ce en quoi s'est transformé son second investissement (lequel a fait une moins-value, ce qui n'est pas anormal en soi, on ne récupère pas en général le coût, parce que qu'une partie de l'investissement ne se retrouve pas en valeur dans le bien, mais a servi a payer des gens).
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	bien	bien	ADV	_	ADV___	3	nsubj:pass	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+4	vendu	vendre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+5	530000=400000	530000=400000	NUM	_	NUM__NumType=Card	6	obj	_	_
+6	+	+	ADP	_	ADP___	3	case	_	_
+7	130000.Elle	130000.Elle	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	3	nmod	_	_
+8	récupère	récupérer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	amod	_	_
+9	58	58	NUM	_	NUM__NumType=Card	10	nummod	_	_
+10	%	%	NOUN	_	NOUN__Gender=Masc	3	obj	_	_
+11	de	de	ADP	_	ADP___	12	case	_	_
+12	400000	400000	NUM	_	NUM__NumType=Card	10	nmod	_	_
+13	parce	parce	SCONJ	_	SCONJ___	15	mark	_	_
+14	que	que	SCONJ	_	SCONJ___	15	fixed	_	_
+15	c'	ce	PRON	_	PRON__Number=Sing|Person=3	12	nsubj	_	_
+16	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+17	ce	ce	PRON	_	PRON__PronType=Rel	23	advcl	_	_
+18	en	en	ADP	_	ADP___	23	case	_	_
+19	quoi	quoi	PRON	_	PRON__PronType=Int	23	obl	_	_
+20	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	23	expl	_	_
+21	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+22	transformé	transformer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	acl:relcl	_	_
+23	son	son	DET	_	DET__Number=Sing|Poss=Yes	23	nmod:poss	_	_
+24	premier	premier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	25	amod	_	_
+25	investissement	investissement	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	obj	_	_
+26	,	,	PUNCT	_	PUNCT___	23	punct	_	_
+27	+	+	ADP	_	ADP___	30	case	_	_
+28	130000	130000	NUM	_	NUM__NumType=Card	30	nummod	_	_
+29	parce	parce	SCONJ	_	SCONJ___	30	mark	_	_
+30	que	que	SCONJ	_	SCONJ___	30	fixed	_	_
+31	c'	ce	PRON	_	PRON__Number=Sing|Person=3	30	nsubj	_	_
+32	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	_
+33	ce	ce	PRON	_	PRON__PronType=Rel	30	advcl	_	_
+34	en	en	ADP	_	ADP___	35	case	_	_
+35	quoi	quoi	PRON	_	PRON__PronType=Int	33	obl	_	_
+36	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	30	expl	_	_
+37	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	aux	_	_
+38	transformé	transformer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	39	acl:relcl	_	_
+39	son	son	DET	_	DET__Number=Sing|Poss=Yes	30	nmod:poss	_	_
+40	second	second	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	41	amod	_	_
+41	investissement	investissement	NOUN	_	NOUN__Gender=Masc|Number=Sing	39	obj	_	_
+42	(	(	PUNCT	_	PUNCT___	30	punct	_	_
+43	lequel	lequel	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	43	nsubj	_	_
+44	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	aux	_	_
+45	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	46	acl:relcl	_	_
+46	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+47	moins-value	moins-value	NOUN	_	NOUN__Gender=Fem|Number=Sing	49	obj	_	_
+48	,	,	PUNCT	_	PUNCT___	49	punct	_	_
+49	ce	ce	PRON	_	PRON__PronType=Rel	46	appos	_	_
+50	qui	qui	PRON	_	PRON__PronType=Rel	52	nsubj	_	_
+51	n'	ne	ADV	_	ADV__Polarity=Neg	52	advmod	_	_
+52	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	cop	_	_
+53	pas	pas	ADV	_	ADV__Polarity=Neg	54	advmod	_	_
+54	anormal	anormal	ADJ	_	ADJ__Gender=Masc|Number=Sing	52	acl:relcl	_	_
+55	en	en	ADP	_	ADP___	56	advmod	_	_
+56	soi	soi	ADJ	_	ADJ__Gender=Fem|Number=Sing	54	fixed	_	_
+57	,	,	PUNCT	_	PUNCT___	43	punct	_	_
+58	on	on	PRON	_	PRON__Number=Sing|Person=3	60	nsubj	_	_
+59	ne	ne	ADV	_	ADV__Polarity=Neg	60	advmod	_	_
+60	récupère	récupérer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	60	advcl	_	_
+61	pas	pas	ADV	_	ADV__Polarity=Neg	62	advmod	_	_
+62	en	en	ADP	_	ADP___	60	case	_	_
+63	général	général	NOUN	_	NOUN__Gender=Masc|Number=Sing	64	obl	_	_
+64	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	62	det	_	_
+65	coût	coût	NOUN	_	NOUN__Gender=Masc|Number=Sing	60	obj	_	_
+66	,	,	PUNCT	_	PUNCT___	69	punct	_	_
+67	parce	parce	SCONJ	_	SCONJ___	69	mark	_	_
+68	que	que	SCONJ	_	SCONJ___	69	fixed	_	_
+69	qu'	que	SCONJ	_	SCONJ___	60	fixed	_	_
+70	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	71	det	_	_
+71	partie	partir	NOUN	_	NOUN__Gender=Fem|Number=Sing	69	nsubj	_	_
+72	de	de	ADP	_	ADP___	73	case	_	_
+73	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	71	det	_	_
+74	investissement	investissement	NOUN	_	NOUN__Gender=Masc|Number=Sing	75	nmod	_	_
+75	ne	ne	ADV	_	ADV__Polarity=Neg	71	advmod	_	_
+76	se	se	PRON	_	PRON__Person=3|Reflex=Yes	69	expl	_	_
+77	retrouve	retrouver	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	60	advcl	_	_
+78	pas	pas	ADV	_	ADV__Polarity=Neg	85	advmod	_	_
+79	en	en	ADP	_	ADP___	80	case	_	_
+80	valeur	valeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	85	obl	_	_
+81	dans	dan	ADP	_	ADP___	82	case	_	_
+82	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	85	det	_	_
+83	bien	bien	ADV	_	ADV___	85	obl	_	_
+84	,	,	PUNCT	_	PUNCT___	85	punct	_	_
+85	mais	mai	CCONJ	_	CCONJ___	91	cc	_	_
+86	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	91	aux	_	_
+87	servi	servir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	88	conj	_	_
+88	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	91	aux	_	_
+89	payer	payer	VERB	_	VERB__VerbForm=Inf	91	xcomp	_	_
+90	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	91	det	_	_
+91	gens	gens	NOUN	_	NOUN__Gender=Masc|Number=Plur	91	obj	_	_
+92	)	)	PUNCT	_	PUNCT___	91	punct	_	_
+93	.	.	PUNCT	_	PUNCT___	91	punct	_	_
+
+
