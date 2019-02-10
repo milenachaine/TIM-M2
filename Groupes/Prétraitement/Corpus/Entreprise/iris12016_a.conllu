@@ -1,0 +1,296 @@
+#Bonsoir,Un associé ne peut pas travailler dans la société où il détient des parts.
+1	Bonsoir	Bonsoir	PROPN	_	PROPN___	8	acl	_	_
+2	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+3	Un	Un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	associé	associer	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nsubj	_	_
+5	ne	ne	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+6	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+8	travailler	travailler	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+9	dans	dan	ADP	_	ADP___	11	case	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	société	société	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+12	où	où	PRON	_	PRON__PronType=Rel	14	iobj	_	_
+13	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
+14	détient	détenir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+15	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	16	det	_	_
+16	parts	part	NOUN	_	NOUN__Number=Plur	14	obj	_	_
+17	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Etre associé non gérant, implique que le gérant vous embauche comme salarié, sans quoi c'est du travail dissimulé (travail au black)
+1	Etre	Etre	AUX	_	AUX__VerbForm=Inf	8	aux:pass	_	_
+2	associé	associer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+3	non	non	ADV	_	ADV___	4	advmod	_	_
+4	gérant	gérer	VERB	_	VERB__Tense=Pres|VerbForm=Part	8	advcl	_	_
+5	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+6	implique	impliquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+7	que	que	SCONJ	_	SCONJ___	8	mark	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+9	gérant	gérer	VERB	_	VERB__Tense=Pres|VerbForm=Part	11	amod	_	_
+10	vous	se	PRON	_	PRON__Number=Plur|Person=2	11	iobj	_	_
+11	embauche	embaucher	VERB	_	VERB__VerbForm=Inf	8	ccomp	_	_
+12	comme	comme	ADP	_	ADP___	14	case	_	_
+13	salarié	salarier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	obl	_	_
+14	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+15	sans	sans	ADP	_	ADP___	16	case	_	_
+16	quoi	quoi	PRON	_	PRON__PronType=Int	14	obl	_	_
+17	c'	ce	PRON	_	PRON__Number=Sing|Person=3	8	nsubj	_	_
+18	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	du	du	DET	_	DET__Gender=Masc|Number=Sing	19	det	_	_
+20	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	conj	_	_
+21	dissimulé	dissimuler	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	amod	_	_
+22	(	(	PUNCT	_	PUNCT___	23	punct	_	_
+23	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	appos	_	_
+24	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	28	case	_	_
+25	black	black	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	nmod	_	_
+26	)	)	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#Bonjour,Oui mais vous serez au régime de sécu des professions indés et l'autre aussi reste donc à savoir s'il acceptera.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	24	nsubj	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Oui	Oui	PROPN	_	PROPN__Gender=Masc|Number=Sing	1	nmod	_	_
+4	mais	mai	CCONJ	_	CCONJ___	6	cc	_	_
+5	vous	se	PRON	_	PRON__Number=Plur|Person=2	6	nsubj	_	_
+6	serez	être	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	conj	_	_
+7	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	régime	régime	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+9	de	de	ADP	_	ADP___	10	mark	_	_
+10	sécu	sécu	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	xcomp	_	_
+11	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	12	det	_	_
+12	professions	profession	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	obj	_	_
+13	indés	indés	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	12	amod	_	_
+14	et	et	CCONJ	_	CCONJ___	18	cc	_	_
+15	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	autre	autre	PRON	_	PRON__Number=Sing|PronType=Rel	17	amod	_	_
+17	aussi	aussi	ADV	_	ADV___	18	advmod	_	_
+18	reste	rester	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+19	donc	donc	ADV	_	ADV___	18	advmod	_	_
+20	à	à	ADP	_	ADP___	24	mark	_	_
+21	savoir	savoir	VERB	_	VERB__VerbForm=Inf	20	fixed	_	_
+22	s'	si	SCONJ	_	SCONJ___	24	obj	_	_
+23	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	24	nsubj	_	_
+24	acceptera	accepter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+25	.	.	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#Sur le principe, ARE possible.
+1	Sur	Sur	ADP	_	ADP___	24	case	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+3	principe	principe	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+5	ARE	ARE	NOUN	_	NOUN___	6	conj	_	_
+6	possible	possible	ADJ	_	ADJ__Number=Sing	1	amod	_	_
+7	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Si l'autre associé est prêt à partager le pouvoir avec vous à 50/50 ou 70/30 par exemple mais avec 30% peut de poids dans les décisions.
+1	Si	Si	SCONJ	_	SCONJ___	6	mark	_	_
+2	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+3	autre	autre	ADJ	_	ADJ__Number=Sing	4	amod	_	_
+4	associé	associer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	nsubj	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	prêt	prêt	ADJ	_	ADJ__Gender=Masc|Number=Sing	23	advcl	_	_
+7	à	à	ADP	_	ADP___	8	mark	_	_
+8	partager	partager	VERB	_	VERB__VerbForm=Inf	6	xcomp	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	pouvoir	pouvoir	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+11	avec	avec	ADP	_	ADP___	12	case	_	_
+12	vous	se	PRON	_	PRON__Number=Plur|Person=2|Reflex=Yes	23	nsubj	_	_
+13	à	à	ADP	_	ADP___	14	case	_	_
+14	50/50	50/50	NUM	_	NUM__NumType=Card	12	nmod	_	_
+15	ou	ou	CCONJ	_	CCONJ___	16	cc	_	_
+16	70/30	70/30	PRON	_	PRON__NumType=Card|PronType=Rel	14	conj	_	_
+17	par	par	ADP	_	ADP___	12	advmod	_	_
+18	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	fixed	_	_
+19	mais	mai	CCONJ	_	CCONJ___	22	cc	_	_
+20	avec	avec	ADP	_	ADP___	22	case	_	_
+21	30	30	NUM	_	NUM__NumType=Card	22	nummod	_	_
+22	%	%	NOUN	_	NOUN__Gender=Masc	12	conj	_	_
+23	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+24	de	de	ADP	_	ADP___	25	case	_	_
+25	poids	poids	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	obl	_	_
+26	dans	dan	ADP	_	ADP___	28	case	_	_
+27	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	28	det	_	_
+28	décisions	décision	NOUN	_	NOUN__Gender=Fem|Number=Plur	23	obl	_	_
+29	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Mais dans ce cas là vous ne relevez plus des TNS  (Travailleur
+1	Mais	Mais	CCONJ	_	CCONJ___	6	cc	_	_
+2	dans	dan	ADP	_	ADP___	4	case	_	_
+3	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obl	_	_
+5	là	là	ADV	_	ADV___	6	nsubj	_	_
+6	vous	se	PRON	_	PRON__Number=Plur|Person=2	23	nsubj	_	_
+7	ne	ne	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+8	relevez	relever	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+9	plus	plaire	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+10	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
+11	TNS	TNS	NOUN	_	NOUN__Number=Plur	12	obj	_	_
+12	 	 	SPACE	_		23		_	_
+13	(	(	PUNCT	_	PUNCT___	14	punct	_	_
+14	Travailleur	Travailleur	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obl	_	_
+
+
+#Non Salarié) mais du régime général de sécurité sociale nécessitant d'établir des bulletins de paye comme pour les salariés.
+1	Non	Non	ADV	_	ADV___	0	ROOT	_	_
+2	Salarié	Salarié	PROPN	_	PROPN___	4	flat:name	_	_
+3	)	)	PUNCT	_	PUNCT___	4	punct	_	_
+4	mais	mai	CCONJ	_	CCONJ___	6	cc	_	_
+5	du	du	DET	_	DET__Gender=Masc|Number=Sing	6	det	_	_
+6	régime	régime	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	conj	_	_
+7	général	général	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	amod	_	_
+8	de	de	ADP	_	ADP___	6	case	_	_
+9	sécurité	sécurité	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+10	sociale	social	ADJ	_	ADJ__Gender=Fem|Number=Sing	8	amod	_	_
+11	nécessitant	nécessiter	VERB	_	VERB__Tense=Pres|VerbForm=Part	12	acl	_	_
+12	d'	de	ADP	_	ADP___	23	mark	_	_
+13	établir	établir	VERB	_	VERB__VerbForm=Inf	14	xcomp	_	_
+14	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	12	det	_	_
+15	bulletins	bulletin	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	obj	_	_
+16	de	de	ADP	_	ADP___	14	case	_	_
+17	paye	payer	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	cop	_	_
+18	comme	comme	ADP	_	ADP___	17	mark	_	_
+19	pour	pour	ADP	_	ADP___	22	case	_	_
+20	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	22	det	_	_
+21	salariés	salarier	NOUN	_	NOUN__Gender=Masc|Number=Plur	22	nmod	_	_
+22	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Pas du tout Christian, ainsi que je le disais dans mon post, c'est le contraire.1
+1	Pas	Pas	ADV	_	ADV___	4	advmod	_	_
+2	du	du	DET	_	DET__Gender=Masc|Number=Sing	4	det	_	_
+3	tout	tout	ADJ	_	ADJ__Gender=Masc|Number=Sing	4	amod	_	_
+4	Christian	Christian	PROPN	_	PROPN__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+6	ainsi	ainsi	ADV	_	ADV___	10	mark	_	_
+7	que	que	SCONJ	_	SCONJ___	6	fixed	_	_
+8	je	il	PRON	_	PRON__Number=Sing|Person=1	10	nsubj	_	_
+9	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	10	obj	_	_
+10	disais	dire	NOUN	_	NOUN__Number=Sing	4	conj	_	_
+11	dans	dan	ADP	_	ADP___	13	case	_	_
+12	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	13	nmod:poss	_	_
+13	post	post	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obl	_	_
+14	,	,	PUNCT	_	PUNCT___	18	punct	_	_
+15	c'	ce	PRON	_	PRON__Number=Sing|Person=3	18	nsubj	_	_
+16	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	contraire.1	contraire.1	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+
+
+#- Si on reste sur le schéma de départ :
+1	-	-	PUNCT	_	PUNCT___	4	punct	_	_
+2	Si	Si	SCONJ	_	SCONJ___	4	mark	_	_
+3	on	on	PRON	_	PRON__Number=Sing|Person=3	4	nsubj	_	_
+4	reste	rester	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	sur	sur	ADP	_	ADP___	4	case	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+7	schéma	schéma	NOUN	_	NOUN__Number=Sing	6	obl	_	_
+8	de	de	ADP	_	ADP___	10	case	_	_
+9	départ	départir	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+10	:	:	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#- CptGarry non gérant 50% ;
+1	-	-	PUNCT	_	PUNCT___	4	punct	_	_
+2	CptGarry	CptGarry	ADJ	_	ADJ__Number=Sing|NumType=Ord	0	ROOT	_	_
+3	non	non	ADV	_	ADV___	4	advmod	_	_
+4	gérant	gérer	VERB	_	VERB__Tense=Pres|VerbForm=Part	4	case	_	_
+5	50	50	NUM	_	NUM__NumType=Card	4	nummod	_	_
+6	%	%	NOUN	_	NOUN__Gender=Masc	10	obl	_	_
+7	;	;	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#- associé A gérant 50% ;
+1	-	-	PUNCT	_	PUNCT___	4	punct	_	_
+2	associé	associer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+3	A	A	NOUN	_	NOUN___	4	obl	_	_
+4	gérant	gérer	VERB	_	VERB__Tense=Pres|VerbForm=Part	4	acl	_	_
+5	50	50	NUM	_	NUM__NumType=Card	4	nummod	_	_
+6	%	%	NOUN	_	NOUN__Gender=Masc	10	obj	_	_
+7	;	;	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#--> CptGarry non assujetti, A au régime général.2
+1	--	--	PUNCT	_	PUNCT___	4	punct	_	_
+2	>	>	PROPN	_	PROPN__Number=Sing	4	nsubj	_	_
+3	CptGarry	CptGarry	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	non	non	ADV	_	ADV___	4	advmod	_	_
+5	assujetti	assujettir	ADJ	_	ADJ__Number=Sing	4	obj	_	_
+6	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+7	A	A	NOUN	_	NOUN___	6	aux	_	_
+8	au	au	NOUN	_	NOUN___	10	expl	_	_
+9	régime	régime	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	conj	_	_
+10	général.2	général.2	PROPN	_	PROPN___	4	amod	_	_
+
+
+#- Si on part sur le 2d schéma :
+1	-	-	PUNCT	_	PUNCT___	0	ROOT	_	_
+2	Si	Si	SCONJ	_	SCONJ___	4	mark	_	_
+3	on	on	PRON	_	PRON__Number=Sing|Person=3	4	nsubj	_	_
+4	part	partir	NOUN	_	NOUN__Number=Sing	4	fixed	_	_
+5	sur	sur	ADP	_	ADP___	4	case	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+7	2d	2d	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obl	_	_
+8	schéma	schéma	ADJ	_	ADJ___	10	acl	_	_
+9	:	:	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#- CptGarry gérant, peu importe le pourcentage ;
+1	-	-	PUNCT	_	PUNCT___	4	punct	_	_
+2	CptGarry	CptGarry	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	gérant	gérer	VERB	_	VERB__Tense=Pres|VerbForm=Part	4	amod	_	_
+4	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+5	peu	peu	ADV	_	ADV___	4	advmod	_	_
+6	importe	importer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	fixed	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+8	pourcentage	pourcentage	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obl	_	_
+9	;	;	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#- associé A gérant, peu importe le pourcentage ;
+1	-	-	PUNCT	_	PUNCT___	4	punct	_	_
+2	associé	associer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+3	A	A	NOUN	_	NOUN___	4	aux	_	_
+4	gérant	gérer	VERB	_	VERB__Tense=Pres|VerbForm=Part	4	xcomp	_	_
+5	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+6	peu	peu	ADV	_	ADV___	10	advmod	_	_
+7	importe	importer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	fixed	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	pourcentage	pourcentage	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obl	_	_
+10	;	;	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#--> CptGarry et A assujettis TNS.
+1	--	--	PUNCT	_	PUNCT___	4	punct	_	_
+2	>	>	PROPN	_	PROPN__Number=Sing	0	ROOT	_	_
+3	CptGarry	CptGarry	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+4	et	et	CCONJ	_	CCONJ___	4	cc	_	_
+5	A	A	NOUN	_	NOUN___	4	conj	_	_
+6	assujettis	assujettir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
+7	TNS	TNS	PROPN	_	PROPN___	6	nmod	_	_
+8	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#autant pour moi, oui l'ensemble des parts des gérants est majoritaire,  donc TNS
+1	autant	autant	ADV	_	ADV___	3	advmod	_	_
+2	pour	pour	ADP	_	ADP___	3	case	_	_
+3	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	17	obl	_	_
+4	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+5	oui	oui	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	nmod	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	ensemble	ensemble	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nsubj	_	_
+8	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	9	det	_	_
+9	parts	part	NOUN	_	NOUN__Number=Plur	7	nmod	_	_
+10	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
+11	gérants	gérant	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	nmod	_	_
+12	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	majoritaire	majoritaire	ADJ	_	ADJ__Number=Sing	5	amod	_	_
+14	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+15	 	 	SPACE	_		14		_	_
+16	donc	donc	ADV	_	ADV___	17	advmod	_	_
+17	TNS	TNS	PROPN	_	PROPN___	0	ROOT	_	_
+
+
