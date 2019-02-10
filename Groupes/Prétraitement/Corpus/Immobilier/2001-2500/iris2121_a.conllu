@@ -1,0 +1,499 @@
+#Bonjour,ce n'est pas la forme légale pour donner congé.est
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	ce	ce	PRON	_	PRON__PronType=Rel	8	nsubj	_	_
+4	n'	ne	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	forme	former	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+9	légale	légal	ADJ	_	ADJ__Gender=Fem|Number=Sing	8	amod	_	_
+10	pour	pour	ADP	_	ADP___	11	mark	_	_
+11	donner	donner	VERB	_	VERB__VerbForm=Inf	1	advcl	_	_
+12	congé.est	congé.est	PROPN	_	PROPN__Gender=Fem|Number=Sing	11	xcomp	_	_
+
+
+#-ce une location vide ou meublée ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	1	det	_	_
+3	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+4	location	location	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+5	vide	vider	ADJ	_	ADJ__Number=Sing	8	amod	_	_
+6	ou	ou	CCONJ	_	CCONJ___	8	cc	_	_
+7	meublée	meubler	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+8	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#A quelle date a commencé votre bail ?
+1	A	A	NOUN	_	NOUN___	1	case	_	_
+2	quelle	quel	ADJ	_	ADJ__Gender=Fem|Number=Sing	1	det	_	_
+3	date	dater	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nsubj	_	_
+4	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+5	commencé	commencer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+6	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+7	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+8	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#bonjourque dit votre bail ?
+1	bonjourque	bonjourque	ADJ	_	ADJ__Number=Sing	2	nsubj	_	_
+2	dit	dire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+4	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	obj	_	_
+5	?	?	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#(location meublée, vide, et date d'effet)
+1	(	(	PUNCT	_	PUNCT___	2	punct	_	_
+2	location	location	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	meublée	meubler	ADJ	_	ADJ__Gender=Fem|Number=Sing	4	amod	_	_
+4	,	,	PUNCT	_	PUNCT___	2	punct	_	_
+5	vide	vider	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	conj	_	_
+6	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+7	et	et	CCONJ	_	CCONJ___	7	cc	_	_
+8	date	dater	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+9	d'	de	ADP	_	ADP___	10	case	_	_
+10	effet	effet	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+11	)	)	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#BonjourIl faut être précis, pas grosso modo sinon la réponse peut être non valable.
+1	BonjourIl	BonjourIl	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	nsubj	_	_
+2	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	être	être	AUX	_	AUX__VerbForm=Inf	4	cop	_	_
+4	précis	précis	ADJ	_	ADJ__Gender=Masc	2	xcomp	_	_
+5	,	,	PUNCT	_	PUNCT___	2	punct	_	_
+6	pas	pas	ADV	_	ADV___	7	advmod	_	_
+7	grosso	grosso	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+8	modo	modo	ADJ	_	ADJ__Number=Sing	2	obl	_	_
+9	sinon	sinon	ADV	_	ADV___	2	advmod	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obj	_	_
+12	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+13	être	être	AUX	_	AUX__VerbForm=Inf	15	cop	_	_
+14	non	non	ADV	_	ADV___	15	advmod	_	_
+15	valable	valable	ADJ	_	ADJ__Number=Sing	2	conj	_	_
+16	.	.	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#Euh, si c'est meublé, la durée est de 1 an et le préavis de 1 mois !
+1	Euh	Euh	NOUN	_	NOUN___	6	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+3	si	si	SCONJ	_	SCONJ___	6	mark	_	_
+4	c'	ce	PRON	_	PRON__Number=Sing|Person=3	6	nsubj	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	meublé	meubler	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+7	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	durée	durer	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nsubj	_	_
+10	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11	de	de	ADP	_	ADP___	13	case	_	_
+12	1	1	NUM	_	NUM__NumType=Card	13	nummod	_	_
+13	an	an	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	conj	_	_
+14	et	et	CCONJ	_	CCONJ___	16	cc	_	_
+15	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	préavis	préavis	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	conj	_	_
+17	de	de	ADP	_	ADP___	19	case	_	_
+18	1	1	NUM	_	NUM__NumType=Card	19	nummod	_	_
+19	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	nmod	_	_
+20	!	!	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Le lien que j'ai mis indique les éléments obligatoires que doit contenir le congé.
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+2	lien	lien	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	que	que	PRON	_	PRON__PronType=Rel	6	mark	_	_
+4	j'	il	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+5	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	mis	mettre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+7	indique	indiquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	xcomp	_	_
+8	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+9	éléments	élément	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	obj	_	_
+10	obligatoires	obligatoire	ADJ	_	ADJ__Number=Plur	13	amod	_	_
+11	que	que	PRON	_	PRON__PronType=Rel	13	mark	_	_
+12	doit	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	contenir	contenir	VERB	_	VERB__VerbForm=Inf	6	acl:relcl	_	_
+14	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	congé	congé	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obj	_	_
+16	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Le préavis est de trois mois (6 mois en nu) mais il ne peut se donner qu'a l'occasion du renouvellement du bail et non pas à n'importe quel moment.
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	préavis	préavis	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	de	de	ADP	_	ADP___	6	case	_	_
+5	trois	trois	NUM	_	NUM__NumType=Card	6	nummod	_	_
+6	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+7	(	(	PUNCT	_	PUNCT___	6	punct	_	_
+8	6	6	NUM	_	NUM__NumType=Card	9	nummod	_	_
+9	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	nmod	_	_
+10	en	en	ADP	_	ADP___	11	case	_	_
+11	nu	nu	ADV	_	ADV___	9	nmod	_	_
+12	)	)	PUNCT	_	PUNCT___	6	punct	_	_
+13	mais	mai	CCONJ	_	CCONJ___	18	cc	_	_
+14	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	18	nsubj	_	_
+15	ne	ne	ADV	_	ADV__Polarity=Neg	18	advmod	_	_
+16	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	se	se	PRON	_	PRON__Person=3|Reflex=Yes	18	expl	_	_
+18	donner	donner	VERB	_	VERB__VerbForm=Inf	6	conj	_	_
+19	qu'	que	SCONJ	_	SCONJ___	22	mark	_	_
+20	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+21	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+22	occasion	occasion	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	ccomp	_	_
+23	du	du	DET	_	DET__Gender=Masc|Number=Sing	24	det	_	_
+24	renouvellement	renouvellement	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	obj	_	_
+25	du	du	DET	_	DET__Gender=Masc|Number=Sing	26	det	_	_
+26	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	nmod	_	_
+27	et	et	CCONJ	_	CCONJ___	28	cc	_	_
+28	non	non	ADV	_	ADV___	24	conj	_	_
+29	pas	pas	ADV	_	ADV__Polarity=Neg	28	advmod	_	_
+30	à	à	ADP	_	ADP___	34	case	_	_
+31	n'	ne	ADV	_	ADV___	34	advmod	_	_
+32	importe	importer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	fixed	_	_
+33	quel	quel	DET	_	DET__Gender=Masc|Number=Sing	34	det	_	_
+34	moment	moment	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obl	_	_
+35	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Non, les bau meublés ne sont pas de un an.
+1	Non	Non	ADV	_	ADV___	11	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+3	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+4	bau	bau	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	amod	_	_
+5	meublés	meubler	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	nsubj	_	_
+6	ne	ne	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+7	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+8	pas	pas	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+9	de	de	ADP	_	ADP___	11	case	_	_
+10	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	an	an	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+12	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Ils sont de 1 an, ce qui fait qu'il faut lire le contrat pour ne pas énoncer de bêtise.
+1	Ils	Ils	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	11	nsubj	_	_
+2	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+3	de	de	ADP	_	ADP___	5	case	_	_
+4	1	1	NUM	_	NUM__NumType=Card	5	nummod	_	_
+5	an	an	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+6	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+7	ce	ce	PRON	_	PRON__PronType=Rel	11	iobj	_	_
+8	qui	qui	PRON	_	PRON__PronType=Rel	11	nsubj	_	_
+9	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+10	qu'	que	SCONJ	_	SCONJ___	11	mark	_	_
+11	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	11	nsubj	_	_
+12	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+13	lire	lire	VERB	_	VERB__VerbForm=Inf	17	xcomp	_	_
+14	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+15	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obj	_	_
+16	pour	pour	ADP	_	ADP___	17	mark	_	_
+17	ne	ne	ADV	_	ADV___	17	advmod	_	_
+18	pas	pas	ADV	_	ADV___	17	fixed	_	_
+19	énoncer	énoncer	VERB	_	VERB__VerbForm=Inf	17	advcl	_	_
+20	de	de	ADP	_	ADP___	21	case	_	_
+21	bêtise	bêtise	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obj	_	_
+22	.	.	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#Bonjour,Je doute que vos propriétaires vous aient informés de cette façon.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Je	Je	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+4	doute	douter	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+5	que	que	SCONJ	_	SCONJ___	10	mark	_	_
+6	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	7	nmod:poss	_	_
+7	propriétaires	propriétaire	NOUN	_	NOUN__Gender=Fem|Number=Plur	10	nsubj	_	_
+8	vous	se	PRON	_	PRON__Number=Plur|Person=2	10	obj	_	_
+9	aient	avoir	AUX	_	AUX__Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	informés	informer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	4	ccomp	_	_
+11	de	de	ADP	_	ADP___	13	case	_	_
+12	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
+13	façon	façon	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obl	_	_
+14	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Ils vous informent de leur intention de vendre et que votre bail se terminera à son échéance annuelle (31 mars, si le bail est du 1er avril).
+1	Ils	Ils	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	1	nsubj	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	1	iobj	_	_
+3	informent	informer	ADV	_	ADV___	0	ROOT	_	_
+4	de	de	ADP	_	ADP___	1	case	_	_
+5	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+6	intention	intention	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obl	_	_
+7	de	de	ADP	_	ADP___	10	mark	_	_
+8	vendre	vendre	VERB	_	VERB__VerbForm=Inf	10	acl	_	_
+9	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+10	que	que	SCONJ	_	SCONJ___	4	mark	_	_
+11	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	13	nmod:poss	_	_
+12	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nsubj	_	_
+13	se	se	PRON	_	PRON__Person=3|Reflex=Yes	10	expl	_	_
+14	terminera	terminer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	1	conj	_	_
+15	à	à	ADP	_	ADP___	17	case	_	_
+16	son	son	DET	_	DET__Number=Sing|Poss=Yes	17	nmod:poss	_	_
+17	échéance	échéance	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	obl	_	_
+18	annuelle	annuel	ADJ	_	ADJ__Gender=Fem|Number=Sing	20	amod	_	_
+19	(	(	PUNCT	_	PUNCT___	20	punct	_	_
+20	31	31	NUM	_	NUM__NumType=Card	17	nummod	_	_
+21	mars	mars	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	obl	_	_
+22	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+23	si	si	SCONJ	_	SCONJ___	28	mark	_	_
+24	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+25	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	nsubj	_	_
+26	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+27	du	du	ADJ	_	ADJ__Gender=Masc|Number=Sing	28	det	_	_
+28	1er	1er	ADJ	_	ADJ__NumType=Ord	17	amod	_	_
+29	avril	avril	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	obl	_	_
+30	)	)	PUNCT	_	PUNCT___	31	punct	_	_
+31	.	.	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#Ils vous enverrons en temps et en heure (au moins 3 mois à l'avance) un congé officiel en courrier R.A.R.Vous prévenir à l'avance vous laisse le temps de vous retourner et vous permet de trouver tranquillement un autre logement.
+1	Ils	Ils	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	1	nsubj	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	1	expl	_	_
+3	enverrons	envoyer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	en	en	ADP	_	ADP___	1	advmod	_	_
+5	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	fixed	_	_
+6	et	et	CCONJ	_	CCONJ___	7	cc	_	_
+7	en	en	ADP	_	ADP___	10	case	_	_
+8	heure	heure	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	conj	_	_
+9	(	(	PUNCT	_	PUNCT___	10	punct	_	_
+10	au	au	NOUN	_	NOUN___	4	nmod	_	_
+11	moins	moins	ADV	_	ADV___	13	fixed	_	_
+12	3	3	NUM	_	NUM__NumType=Card	13	nummod	_	_
+13	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	appos	_	_
+14	à	à	ADP	_	ADP___	1	case	_	_
+15	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+16	avance	avancer	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	nmod	_	_
+17	)	)	PUNCT	_	PUNCT___	17	punct	_	_
+18	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	congé	congé	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	nsubj	_	_
+20	officiel	officiel	ADJ	_	ADJ__Gender=Masc|Number=Sing	17	amod	_	_
+21	en	en	ADP	_	ADP___	22	case	_	_
+22	courrier	courrier	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	nmod	_	_
+23	R.A.R.Vous	R.A.R.Vous	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	nmod	_	_
+24	prévenir	prévenir	VERB	_	VERB__VerbForm=Inf	28	acl	_	_
+25	à	à	ADP	_	ADP___	26	case	_	_
+26	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	28	det	_	_
+27	avance	avancer	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	obl	_	_
+28	vous	se	PRON	_	PRON__Number=Plur|Person=2	17	nsubj	_	_
+29	laisse	laisser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	ccomp	_	_
+30	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	obj	_	_
+32	de	de	ADP	_	ADP___	31	mark	_	_
+33	vous	se	PRON	_	PRON__Number=Plur|Person=2	28	iobj	_	_
+34	retourner	retourner	VERB	_	VERB__VerbForm=Inf	35	xcomp	_	_
+35	et	et	CCONJ	_	CCONJ___	28	cc	_	_
+36	vous	se	PRON	_	PRON__Number=Plur|Person=2	28	iobj	_	_
+37	permet	permettre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	conj	_	_
+38	de	de	ADP	_	ADP___	39	mark	_	_
+39	trouver	trouver	VERB	_	VERB__VerbForm=Inf	43	xcomp	_	_
+40	tranquillement	tranquillement	ADV	_	ADV___	43	advmod	_	_
+41	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+42	autre	autre	ADJ	_	ADJ__Number=Sing	43	amod	_	_
+43	logement	logement	ADV	_	ADV___	28	obj	_	_
+44	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Oui, c'est la date d'échéance du bail qui compte.
+1	Oui	Oui	PROPN	_	PROPN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	c'	ce	PRON	_	PRON__Number=Sing|Person=3	4	nsubj	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+6	date	dater	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	conj	_	_
+7	d'	de	ADP	_	ADP___	10	case	_	_
+8	échéance	échéance	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+9	du	du	DET	_	DET__Gender=Masc|Number=Sing	10	det	_	_
+10	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+11	qui	qui	PRON	_	PRON__PronType=Rel	13	nsubj	_	_
+12	compte	compter	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	acl:relcl	_	_
+13	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Ils peuvent décider de mettre en vente uniquement quand le logement sera vide (c'est un avantage pour vous car cela vous évite de devoir supporter les visites des éventuels acheteurs).Le bien est vendu vide et non occupé.
+1	Ils	Ils	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	1	nsubj	_	_
+2	peuvent	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	décider	décider	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	de	de	ADP	_	ADP___	1	mark	_	_
+5	mettre	mettre	VERB	_	VERB__VerbForm=Inf	10	xcomp	_	_
+6	en	en	ADP	_	ADP___	7	case	_	_
+7	vente	venter	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obl	_	_
+8	uniquement	uniquement	ADV	_	ADV___	10	advmod	_	_
+9	quand	quand	SCONJ	_	SCONJ___	10	mark	_	_
+10	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+11	logement	logement	ADV	_	ADV___	13	nsubj	_	_
+12	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	13	cop	_	_
+13	vide	vider	ADJ	_	ADJ__Number=Sing	10	advcl	_	_
+14	(	(	PUNCT	_	PUNCT___	1	punct	_	_
+15	c'	ce	PRON	_	PRON__Number=Sing|Person=3	17	nsubj	_	_
+16	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+18	avantage	avantager	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	conj	_	_
+19	pour	pour	ADP	_	ADP___	20	case	_	_
+20	vous	se	PRON	_	PRON__Number=Plur|Person=2|PronType=Prs	17	nmod	_	_
+21	car	car	CCONJ	_	CCONJ___	22	cc	_	_
+22	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	20	nsubj	_	_
+23	vous	se	PRON	_	PRON__Number=Plur|Person=2	28	iobj	_	_
+24	évite	éviter	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	conj	_	_
+25	de	de	ADP	_	ADP___	26	mark	_	_
+26	devoir	devoir	AUX	_	AUX__VerbForm=Inf	28	aux	_	_
+27	supporter	supporter	VERB	_	VERB__VerbForm=Inf	28	xcomp	_	_
+28	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	17	det	_	_
+29	visites	visiter	NOUN	_	NOUN__Gender=Fem|Number=Plur	31	obj	_	_
+30	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	31	det	_	_
+31	éventuels	éventuel	ADJ	_	ADJ__Gender=Masc|Number=Plur	28	amod	_	_
+32	acheteurs).Le	acheteurs).Le	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	amod	_	_
+33	bien	bien	ADV	_	ADV___	28	advmod	_	_
+34	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	aux:pass	_	_
+35	vendu	vendre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	28	acl	_	_
+36	vide	vider	ADJ	_	ADJ__Number=Sing	28	xcomp	_	_
+37	et	et	CCONJ	_	CCONJ___	43	cc	_	_
+38	non	non	ADV	_	ADV___	39	advmod	_	_
+39	occupé	occuper	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	43	conj	_	_
+40	.	.	PUNCT	_	PUNCT___	43	punct	_	_
+
+
+#Si cela s'avérait vrai, vous ne pourrez agir qu'après avoir déménagé, si dans l'année suivant votre départ, le bien n'était pas mis en vente.
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	1	nsubj	_	_
+3	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	4	expl	_	_
+4	avérait	avérer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	advcl	_	_
+5	vrai	vrai	ADJ	_	ADJ__Gender=Masc|Number=Sing	10	obj	_	_
+6	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+7	vous	se	PRON	_	PRON__Number=Plur|Person=2	10	nsubj	_	_
+8	ne	ne	ADV	_	ADV___	10	advmod	_	_
+9	pourrez	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+10	agir	agir	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+11	qu'	que	SCONJ	_	SCONJ___	13	mark	_	_
+12	après	après	ADP	_	ADP___	13	mark	_	_
+13	avoir	avoir	AUX	_	AUX__VerbForm=Inf	10	aux	_	_
+14	déménagé	déménager	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+15	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+16	si	si	SCONJ	_	SCONJ___	17	mark	_	_
+17	dans	dan	ADP	_	ADP___	17	case	_	_
+18	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+19	année	année	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obl	_	_
+20	suivant	suivre	VERB	_	VERB__Tense=Pres|VerbForm=Part	17	acl	_	_
+21	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	22	nmod:poss	_	_
+22	départ	départir	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obj	_	_
+23	,	,	PUNCT	_	PUNCT___	28	punct	_	_
+24	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+25	bien	bien	ADV	_	ADV___	26	nsubj:pass	_	_
+26	n'	ne	ADV	_	ADV__Polarity=Neg	28	advmod	_	_
+27	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	aux:pass	_	_
+28	pas	pas	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+29	mis	mettre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+30	en	en	ADP	_	ADP___	31	case	_	_
+31	vente	venter	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	obl	_	_
+32	.	.	PUNCT	_	PUNCT___	31	punct	_	_
+
+
+#Pourquoi vos propriétaires voudraient-ils que vous "dégagiez" ?
+1	Pourquoi	Pourquoi	ADV	_	ADV__PronType=Int	1	advmod	_	_
+2	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	1	nmod:poss	_	_
+3	propriétaires	propriétaire	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	nsubj	_	_
+4	voudraient	vouloir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	-	-	PUNCT	_	PUNCT___	10	punct	_	_
+6	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	7	iobj	_	_
+7	que	que	SCONJ	_	SCONJ___	10	mark	_	_
+8	vous	se	PRON	_	PRON__Number=Plur|Person=2	10	nsubj	_	_
+9	"	"	PUNCT	_	PUNCT___	10	punct	_	_
+10	dégagiez	dégager	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+11	"	"	PUNCT	_	PUNCT___	13	punct	_	_
+12	?	?	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Payez vous vos loyers en temps et en heures ?
+1	Payez	Payez	PROPN	_	PROPN___	0	ROOT	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	1	case	_	_
+3	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	4	nmod:poss	_	_
+4	loyers	loyer	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	obl	_	_
+5	en	en	ADP	_	ADP___	10	case	_	_
+6	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+7	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+8	en	en	ADP	_	ADP___	10	case	_	_
+9	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	10	conj	_	_
+10	?	?	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Louez vous cette "maisonnette" contre services rendus (entretien régulier de "l'énorme terrain" sur lequel se trouve la propriété) et si oui, respectez vous les conditions du bail ?
+1	Louez	Louez	PROPN	_	PROPN___	1	nsubj	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+3	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	"	"	PUNCT	_	PUNCT___	1	punct	_	_
+5	maisonnette	maisonnette	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+6	"	"	PUNCT	_	PUNCT___	7	punct	_	_
+7	contre	contrer	ADP	_	ADP___	10	case	_	_
+8	services	service	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	obl	_	_
+9	rendus	rendu	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	10	acl	_	_
+10	(	(	PUNCT	_	PUNCT___	4	punct	_	_
+11	entretien	entretien	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	appos	_	_
+12	régulier	régulier	ADJ	_	ADJ__Gender=Masc|Number=Sing	13	amod	_	_
+13	de	de	ADP	_	ADP___	10	case	_	_
+14	"	"	PUNCT	_	PUNCT___	1	punct	_	_
+15	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+16	énorme	énorme	ADJ	_	ADJ__Number=Sing	17	amod	_	_
+17	terrain	terrain	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	nmod	_	_
+18	"	"	PUNCT	_	PUNCT___	20	punct	_	_
+19	sur	sur	ADP	_	ADP___	20	case	_	_
+20	lequel	lequel	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	17	obl	_	_
+21	se	se	PRON	_	PRON__Person=3|Reflex=Yes	22	expl	_	_
+22	trouve	trouver	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+23	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+24	propriété	propriété	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	obj	_	_
+25	)	)	PUNCT	_	PUNCT___	26	punct	_	_
+26	et	et	CCONJ	_	CCONJ___	28	cc	_	_
+27	si	si	SCONJ	_	SCONJ___	28	fixed	_	_
+28	oui	oui	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	conj	_	_
+29	,	,	PUNCT	_	PUNCT___	31	punct	_	_
+30	respectez	respecter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	31	conj	_	_
+31	vous	se	PRON	_	PRON__Number=Plur|Person=2	28	case	_	_
+32	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	31	det	_	_
+33	conditions	condition	NOUN	_	NOUN__Gender=Fem|Number=Plur	28	obl	_	_
+34	du	du	DET	_	DET__Gender=Masc|Number=Sing	35	det	_	_
+35	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	nmod	_	_
+36	?	?	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#Ben, à quoi ça sert que yapasdequoi se décarcasse si vous ne lisez pas ce qu'il écrit?
+1	Ben	Ben	NOUN	_	NOUN___	5	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+3	à	à	ADP	_	ADP___	4	case	_	_
+4	quoi	quoi	PRON	_	PRON__PronType=Int	5	obl	_	_
+5	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	0	ROOT	_	_
+6	sert	servir	VERB	_	VERB__VerbForm=Inf	5	acl	_	_
+7	que	que	SCONJ	_	SCONJ___	5	fixed	_	_
+8	yapasdequoi	yapasdequoi	ADV	_	ADV___	10	nsubj	_	_
+9	se	se	PRON	_	PRON__Person=3|Reflex=Yes	10	expl	_	_
+10	décarcasse	décarcasse	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	_
+11	si	si	SCONJ	_	SCONJ___	14	mark	_	_
+12	vous	se	PRON	_	PRON__Number=Plur|Person=2	14	nsubj	_	_
+13	ne	ne	ADV	_	ADV__Polarity=Neg	14	advmod	_	_
+14	lisez	lire	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+15	pas	pas	ADV	_	ADV__Polarity=Neg	14	advmod	_	_
+16	ce	ce	PRON	_	PRON__PronType=Rel	14	obj	_	_
+17	qu'	que	SCONJ	_	SCONJ___	19	obj	_	_
+18	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	19	nsubj	_	_
+19	écrit	écrire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+20	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Ma carcasse tiens encore un peu ... je remet le lien (bis repetita ...)
+1	Ma	Ma	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	2	nmod:poss	_	_
+2	carcasse	carcasse	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+3	tiens	tien	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	advcl	_	_
+4	encore	encore	ADV	_	ADV___	3	advmod	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	peu	peu	ADV	_	ADV___	3	obj	_	_
+7	...	...	PUNCT	_	PUNCT___	9	punct	_	_
+8	je	il	PRON	_	PRON__Number=Sing|Person=1	9	nsubj	_	_
+9	remet	remettre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+10	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	lien	lien	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+12	(	(	PUNCT	_	PUNCT___	9	punct	_	_
+13	bis	bis	ADJ	_	ADJ__Gender=Masc|Number=Sing	14	amod	_	_
+14	repetita	repetita	NOUN	_	NOUN__Gender=Fem|Number=Plur	9	obj	_	_
+15	...	...	PUNCT	_	PUNCT___	9	punct	_	_
+16	)	)	PUNCT	_	PUNCT___	9	punct	_	_
+
+

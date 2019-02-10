@@ -1,0 +1,157 @@
+#Bonjour,Je m'arrache les cheveux à essayer de comprendre le fonctionnement de l'acompte à verser au moment de la signature du compromis de vente....
+1	Bonjour	Bonjour	PROPN	_	PROPN___	5	case	_	_
+2	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+3	Je	Je	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+4	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	5	iobj	_	_
+5	arrache	arracher	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+7	cheveux	cheveu	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	obj	_	_
+8	à	à	ADP	_	ADP___	9	mark	_	_
+9	essayer	essayer	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+10	de	de	ADP	_	ADP___	11	mark	_	_
+11	comprendre	comprendre	VERB	_	VERB__VerbForm=Inf	9	xcomp	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	fonctionnement	fonctionnement	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+14	de	de	ADP	_	ADP___	16	case	_	_
+15	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	acompte	acompte	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+17	à	à	ADP	_	ADP___	18	mark	_	_
+18	verser	verser	VERB	_	VERB__VerbForm=Inf	13	acl	_	_
+19	au	au	PRON	_	PRON___	20	det	_	_
+20	moment	moment	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obj	_	_
+21	de	de	ADP	_	ADP___	23	case	_	_
+22	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	signature	signature	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	nmod	_	_
+24	du	du	DET	_	DET__Gender=Masc|Number=Sing	25	det	_	_
+25	compromis	compromettre	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obj	_	_
+26	de	de	ADP	_	ADP___	27	case	_	_
+27	vente	venter	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	nmod	_	_
+28	....	....	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#J'expose mon cas :
+1	J'	J'	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+2	expose	exposer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+4	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+5	:	:	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#- Montant du bien : 210 000- Estimation frais de notaire (notaires.fr) : 17
+1	-	-	PUNCT	_	PUNCT___	5	punct	_	_
+2	Montant	Montant	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	du	du	DET	_	DET__Gender=Masc|Number=Sing	5	det	_	_
+4	bien	bien	ADV	_	ADV___	5	nmod	_	_
+5	:	:	PUNCT	_	PUNCT___	5	punct	_	_
+6	210	210	NUM	_	NUM__NumType=Card	7	nummod	_	_
+7	000-	000-	NUM	_	NUM__NumType=Card	5	nummod	_	_
+8	Estimation	Estimation	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nmod	_	_
+9	frais	frai	ADJ	_	ADJ___	5	acl	_	_
+10	de	de	ADP	_	ADP___	11	case	_	_
+11	notaire	notaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obl	_	_
+12	(	(	PUNCT	_	PUNCT___	13	punct	_	_
+13	notaires.fr	notaires.fr	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	appos	_	_
+14	)	)	PUNCT	_	PUNCT___	16	punct	_	_
+15	:	:	PUNCT	_	PUNCT___	16	punct	_	_
+16	17	17	NUM	_	NUM__NumType=Card	13	nummod	_	_
+
+
+#700TOTAL : 227 700- Apport personnel : 20 000- Prêt bonifié entreprise : 25 000- Prêt Bancaire : 182 700Je viens de prendre connaissance que je devrai verser 5 à 10% d'indemnité d'immobilisation (acompte)... .
+1	700TOTAL	700TOTAL	PRON	_	PRON__NumType=Card|PronType=Rel	0	ROOT	_	_
+2	:	:	PUNCT	_	PUNCT___	5	punct	_	_
+3	227	227	NUM	_	NUM__NumType=Card	5	nummod	_	_
+4	700-	700-	NUM	_	NUM__NumType=Card	5	nmod	_	_
+5	Apport	Apport	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+6	personnel	personnel	ADJ	_	ADJ__Gender=Masc|Number=Sing	7	amod	_	_
+7	:	:	PUNCT	_	PUNCT___	5	punct	_	_
+8	20	20	NUM	_	NUM__NumType=Card	9	nummod	_	_
+9	000-	000-	NUM	_	NUM__NumType=Card	5	nmod	_	_
+10	Prêt	Prêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	flat:name	_	_
+11	bonifié	bonifier	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	dep	_	_
+12	entreprise	entreprendre	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nmod	_	_
+13	:	:	PUNCT	_	PUNCT___	11	punct	_	_
+14	25	25	NUM	_	NUM__NumType=Card	16	nummod	_	_
+15	000-	000-	NUM	_	NUM__NumType=Card	16	nmod	_	_
+16	Prêt	Prêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+17	Bancaire	Bancaire	ADJ	_	ADJ__Number=Sing	18	flat:name	_	_
+18	:	:	PUNCT	_	PUNCT___	13	punct	_	_
+19	182	182	NUM	_	NUM__NumType=Card	20	nummod	_	_
+20	700Je	700Je	NUM	_	NUM__NumType=Card	18	conj	_	_
+21	viens	venir	NOUN	_	NOUN__Gender=Masc|Number=Plur	23	amod	_	_
+22	de	de	ADP	_	ADP___	23	mark	_	_
+23	prendre	prendre	VERB	_	VERB__VerbForm=Inf	20	xcomp	_	_
+24	connaissance	connaissance	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	obj	_	_
+25	que	que	SCONJ	_	SCONJ___	18	mark	_	_
+26	je	il	PRON	_	PRON__Number=Sing|Person=1	27	nsubj	_	_
+27	devrai	devoir	ADV	_	ADV___	25	ccomp	_	_
+28	verser	verser	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+29	5	5	NUM	_	NUM__NumType=Card	30	iobj	_	_
+30	à	à	ADP	_	ADP___	30	case	_	_
+31	10	10	NUM	_	NUM__NumType=Card	32	nummod	_	_
+32	%	%	NOUN	_	NOUN__Gender=Masc	30	obl	_	_
+33	d'	de	ADP	_	ADP___	30	case	_	_
+34	indemnité	indemnité	NOUN	_	NOUN__Gender=Fem|Number=Sing	35	nmod	_	_
+35	d'	de	ADP	_	ADP___	35	case	_	_
+36	immobilisation	immobilisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	37	nmod	_	_
+37	(	(	PUNCT	_	PUNCT___	35	punct	_	_
+38	acompte	acompte	NOUN	_	NOUN__Gender=Masc|Number=Sing	35	appos	_	_
+39	)	)	PUNCT	_	PUNCT___	40	punct	_	_
+40	...	...	PUNCT	_	PUNCT___	41	punct	_	_
+41	.	.	PUNCT	_	PUNCT___	35	punct	_	_
+
+
+#Mais je n'ai prévu que 20 000 d'apport, pas 20 000 + acompte !
+1	Mais	Mais	CCONJ	_	CCONJ___	5	cc	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+3	n'	ne	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+4	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	prévu	prévoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+6	que	que	SCONJ	_	SCONJ___	7	mark	_	_
+7	20	20	NUM	_	NUM__NumType=Card	5	nummod	_	_
+8	000	000	PRON	_	PRON__NumType=Card|PronType=Rel	9	ccomp	_	_
+9	d'	de	ADP	_	ADP___	5	case	_	_
+10	apport	apport	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+11	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+12	pas	pas	ADV	_	ADV___	13	advmod	_	_
+13	20	20	NUM	_	NUM__NumType=Card	11	nmod	_	_
+14	000	000	NUM	_	NUM__NumType=Card	16	nmod	_	_
+15	+	+	ADP	_	ADP___	16	case	_	_
+16	acompte	acompte	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+17	!	!	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Comment je m'y retrouve au final ?
+1	Comment	Comment	ADV	_	ADV__PronType=Int	5	advmod	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+3	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	5	expl	_	_
+4	y	yu	PRON	_	PRON__Person=3	5	iobj	_	_
+5	retrouve	retrouver	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+6	au	au	PROPN	_	PROPN__Gender=Fem|Number=Sing	7	det	_	_
+7	final	final	ADJ	_	ADJ__Gender=Masc|Number=Sing	5	obj	_	_
+8	?	?	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Je me fais des nuds au cerveau à essayer de comprendre la chose, mais je ne m'y retrouve pas
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+2	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	5	iobj	_	_
+3	fais	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
+5	nuds	nuds	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	amod	_	_
+6	au	au	NOUN	_	NOUN__Number=Plur	7	fixed	_	_
+7	cerveau	cerveau	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	obj	_	_
+8	à	à	ADP	_	ADP___	9	mark	_	_
+9	essayer	essayer	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+10	de	de	ADP	_	ADP___	11	mark	_	_
+11	comprendre	comprendre	VERB	_	VERB__VerbForm=Inf	9	xcomp	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	chose	chose	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obj	_	_
+14	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+15	mais	mai	CCONJ	_	CCONJ___	16	cc	_	_
+16	je	il	PRON	_	PRON__Number=Sing|Person=1	13	nsubj	_	_
+17	ne	ne	ADV	_	ADV___	18	advmod	_	_
+18	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	13	expl	_	_
+19	y	yu	PRON	_	PRON__Person=3	20	iobj	_	_
+20	retrouve	retrouver	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	conj	_	_
+21	pas	pas	ADV	_	ADV__Polarity=Neg	23	advmod	_	_
+
+
