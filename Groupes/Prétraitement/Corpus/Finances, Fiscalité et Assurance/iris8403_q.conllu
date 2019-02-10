@@ -1,0 +1,199 @@
+#Bonjour à tous,Merci par avance de vos réponses...
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	à	à	ADP	_	ADP___	3	case	_	_
+3	tous	tout	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Rel	1	nmod	_	_
+4	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+5	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	conj	_	_
+6	par	par	ADP	_	ADP___	7	case	_	_
+7	avance	avancer	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+8	de	de	ADP	_	ADP___	10	case	_	_
+9	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	10	nmod:poss	_	_
+10	réponses	réponse	NOUN	_	NOUN__Gender=Fem|Number=Plur	7	nmod	_	_
+11	...	...	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Voilà mon problème :
+1	Voilà	Voilà	ADP	_	ADP___	0	ROOT	_	_
+2	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	3	nmod:poss	_	_
+3	problème	problème	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+4	:	:	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Mon mari est décédés il y a 2 ans.
+1	Mon	Mon	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	mari	mari	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+4	décédés	décéder	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	il	il	PRON	_	PRON__Number=Sing|Person=3	1	case	_	_
+6	y	yu	PRON	_	PRON__Person=3	7	fixed	_	_
+7	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	fixed	_	_
+8	2	2	NUM	_	NUM__NumType=Card	10	nummod	_	_
+9	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	obl	_	_
+10	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Il avait contracté un crédit immobilier avant son départ et avant notre mariage (contrat).Il n'avait pas souscris d'assurance décèsLa succession est presque finie et la banque me réclame actuellement le remboursement des intérêts bancaire du crédit qui ont suivi son départ et que la banque a fait "courir" depuis 2 ans.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	avait	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	contracté	contracter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	crédit	crédit	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+6	immobilier	immobilier	ADJ	_	ADJ__Gender=Masc|Number=Sing	7	amod	_	_
+7	avant	avant	ADP	_	ADP___	5	case	_	_
+8	son	son	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+9	départ	départir	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obl	_	_
+10	et	et	CCONJ	_	CCONJ___	7	cc	_	_
+11	avant	avant	ADP	_	ADP___	1	case	_	_
+12	notre	notre	DET	_	DET__Number=Sing|Poss=Yes	12	nmod:poss	_	_
+13	mariage	mariage	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	conj	_	_
+14	(	(	PUNCT	_	PUNCT___	12	punct	_	_
+15	contrat).Il	contrat).Il	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obl	_	_
+16	n'	ne	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+17	avait	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	aux	_	_
+18	pas	pas	ADV	_	ADV__Polarity=Neg	19	advmod	_	_
+19	souscris	souscrire	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	19	obj	_	_
+20	d'	de	ADP	_	ADP___	24	det	_	_
+21	assurance	assurance	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obl	_	_
+22	décèsLa	décèsLa	ADJ	_	ADJ__Number=Plur	20	obj	_	_
+23	succession	succession	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	conj	_	_
+24	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:pass	_	_
+25	presque	presque	ADV	_	ADV___	19	advmod	_	_
+26	finie	finir	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	conj	_	_
+27	et	et	CCONJ	_	CCONJ___	28	cc	_	_
+28	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+29	banque	banque	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	conj	_	_
+30	me	se	PRON	_	PRON__Number=Sing|Person=1	28	iobj	_	_
+31	réclame	réclamer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	advcl	_	_
+32	actuellement	actuellement	ADV	_	ADV___	34	advmod	_	_
+33	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	remboursement	remboursement	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	obj	_	_
+35	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	38	det	_	_
+36	intérêts	intérêt	NOUN	_	NOUN__Gender=Masc|Number=Plur	38	obj	_	_
+37	bancaire	bancaire	ADJ	_	ADJ__Number=Sing	38	amod	_	_
+38	du	du	DET	_	DET__Gender=Masc|Number=Sing	34	obj	_	_
+39	crédit	crédit	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	obj	_	_
+40	qui	qui	PRON	_	PRON__PronType=Rel	28	nsubj	_	_
+41	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	42	aux	_	_
+42	suivi	suivre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	48	acl:relcl	_	_
+43	son	son	DET	_	DET__Number=Sing|Poss=Yes	42	nmod:poss	_	_
+44	départ	départir	NOUN	_	NOUN__Gender=Masc|Number=Sing	42	obj	_	_
+45	et	et	CCONJ	_	CCONJ___	46	cc	_	_
+46	que	que	SCONJ	_	SCONJ___	44	mark	_	_
+47	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+48	banque	banque	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	nsubj	_	_
+49	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	51	aux	_	_
+50	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	51	conj	_	_
+51	"	"	PUNCT	_	PUNCT___	28	punct	_	_
+52	courir	courir	VERB	_	VERB__VerbForm=Inf	54	xcomp	_	_
+53	"	"	PUNCT	_	PUNCT___	54	punct	_	_
+54	depuis	depuis	ADP	_	ADP___	51	case	_	_
+55	2	2	NUM	_	NUM__NumType=Card	56	nummod	_	_
+56	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	28	obl	_	_
+57	.	.	PUNCT	_	PUNCT___	56	punct	_	_
+
+
+#Je comprends le montant du crédit restant à son départ, mais les intérêts qui ont couru après...
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	comprends	comprendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+4	montant	monter	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+5	du	du	DET	_	DET__Gender=Masc|Number=Sing	1	det	_	_
+6	crédit	crédit	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+7	restant	rester	VERB	_	VERB__Tense=Pres|VerbForm=Part	5	acl	_	_
+8	à	à	ADP	_	ADP___	10	case	_	_
+9	son	son	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+10	départ	départir	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+11	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+12	mais	mai	CCONJ	_	CCONJ___	12	cc	_	_
+13	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	14	det	_	_
+14	intérêts	intérêt	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	conj	_	_
+15	qui	qui	PRON	_	PRON__PronType=Rel	12	nsubj	_	_
+16	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	couru	courir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	acl:relcl	_	_
+18	après	après	ADP	_	ADP___	19	advmod	_	_
+19	...	...	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#pas trop.
+1	pas	pas	ADV	_	ADV___	1	advmod	_	_
+2	trop	trop	ADV	_	ADV___	0	ROOT	_	_
+3	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#La banque est elle dans son droit ?
+1	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	banque	banque	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+4	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	0	ROOT	_	_
+5	dans	dan	ADP	_	ADP___	1	case	_	_
+6	son	son	DET	_	DET__Number=Sing|Poss=Yes	7	nmod:poss	_	_
+7	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+8	?	?	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#J'ai un mandat dexpulsion de notre maison car je ne peux rembourser le montant de ces intérêts...
+1	J'	J'	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ai	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+4	mandat	mandat	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+5	dexpulsion	dexpulsion	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+6	de	de	ADP	_	ADP___	7	case	_	_
+7	notre	notre	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+8	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+9	car	car	CCONJ	_	CCONJ___	10	cc	_	_
+10	je	il	PRON	_	PRON__Number=Sing|Person=1	7	nsubj	_	_
+11	ne	ne	ADV	_	ADV___	1	advmod	_	_
+12	peux	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+13	rembourser	rembourser	VERB	_	VERB__VerbForm=Inf	14	conj	_	_
+14	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+15	montant	monter	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+16	de	de	ADP	_	ADP___	17	case	_	_
+17	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	19	det	_	_
+18	intérêts	intérêt	NOUN	_	NOUN__Gender=Masc|Number=Plur	19	nmod	_	_
+19	...	...	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#En vous remerciant de vos réponses.. et dans l'attente
+1	En	En	ADP	_	ADP___	1	mark	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	3	iobj	_	_
+3	remerciant	remercier	VERB	_	VERB__Tense=Pres|VerbForm=Part	0	ROOT	_	_
+4	de	de	ADP	_	ADP___	5	case	_	_
+5	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	1	nmod:poss	_	_
+6	réponses	réponse	NOUN	_	NOUN__Gender=Fem|Number=Plur	7	obl	_	_
+7	..	..	PUNCT	_	PUNCT___	5	xcomp	_	_
+8	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+9	dans	dan	ADP	_	ADP___	10	case	_	_
+10	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+11	attente	attenter	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	conj	_	_
+
+
+#..
+1	..	..	PUNCT	_	PUNCT___	0	ROOT	_	_
+
+
+#Merci
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+
+
+#beaucoup
+1	beaucoup	beaucoup	ADV	_	ADV___	0	ROOT	_	_
+
+
+#Merci,je suis "nouvelle" sur le site et un peu perdue...
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+4	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	"	"	PUNCT	_	PUNCT___	6	punct	_	_
+6	nouvelle	nouveau	ADJ	_	ADJ__Gender=Fem|Number=Sing	1	conj	_	_
+7	"	"	PUNCT	_	PUNCT___	6	punct	_	_
+8	sur	sur	ADP	_	ADP___	10	case	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	site	site	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obl	_	_
+11	et	et	CCONJ	_	CCONJ___	13	cc	_	_
+12	un	un	DET	_	DET__Gender=Masc|Number=Sing	13	det	_	_
+13	peu	peu	ADV	_	ADV___	10	conj	_	_
+14	perdue	perdu	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	acl	_	_
+15	...	...	PUNCT	_	PUNCT___	1	punct	_	_
+
+

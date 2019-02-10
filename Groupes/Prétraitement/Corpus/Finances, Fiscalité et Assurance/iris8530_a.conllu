@@ -1,0 +1,215 @@
+#Bonjour,minimiser l'impôt pour qui ? le propriétaire du bien ou le destinataire du bien ?
+1	Bonjour	Bonjour	PROPN	_	PROPN___	10	case	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	minimiser	minimiser	VERB	_	VERB__VerbForm=Inf	1	acl	_	_
+4	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	impôt	impôt	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obj	_	_
+6	pour	pour	ADP	_	ADP___	7	case	_	_
+7	qui	qui	PRON	_	PRON__PronType=Rel	3	advcl	_	_
+8	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	0	ROOT	_	_
+11	du	du	DET	_	DET__Gender=Masc|Number=Sing	12	det	_	_
+12	bien	bien	ADV	_	ADV___	10	advmod	_	_
+13	ou	ou	CCONJ	_	CCONJ___	15	cc	_	_
+14	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	obj	_	_
+15	destinataire	destinataire	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	conj	_	_
+16	du	du	DET	_	DET__Gender=Masc|Number=Sing	17	det	_	_
+17	bien	bien	ADV	_	ADV___	15	obj	_	_
+18	?	?	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#la personne de 90 ans veut-elle ou non en conserver l'usage et l'habitation ?
+1	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+2	personne	personne	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+3	de	de	ADP	_	ADP___	1	case	_	_
+4	90	90	NUM	_	NUM__NumType=Card	5	nummod	_	_
+5	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	nmod	_	_
+6	veut	vouloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	-	-	PUNCT	_	PUNCT___	3	punct	_	_
+8	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	1	obj	_	_
+9	ou	ou	CCONJ	_	CCONJ___	10	cc	_	_
+10	non	non	ADV	_	ADV___	10	conj	_	_
+11	en	en	ADP	_	ADP___	12	mark	_	_
+12	conserver	conserver	VERB	_	VERB__VerbForm=Inf	10	advcl	_	_
+13	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+14	usage	usage	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obj	_	_
+15	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+16	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	habitation	habitation	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	conj	_	_
+18	?	?	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#vous écrivez que cette personne veut céder sa maison, veut
+1	vous	se	PRON	_	PRON__Number=Plur|Person=2	10	nsubj	_	_
+2	écrivez	écrire	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	que	que	SCONJ	_	SCONJ___	1	mark	_	_
+4	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	personne	personne	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+6	veut	vouloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	céder	céder	VERB	_	VERB__VerbForm=Inf	3	ccomp	_	_
+8	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	1	nmod:poss	_	_
+9	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obj	_	_
+10	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+11	veut	vouloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	obl	_	_
+
+
+#-elle une cession à titre gratuit, comme un donation ou une cession à titre onéreux ?
+1	-	-	PUNCT	_	PUNCT___	10	punct	_	_
+2	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
+3	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+4	cession	cession	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+5	à	à	ADP	_	ADP___	3	case	_	_
+6	titre	titrer	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+7	gratuit	gratuit	ADJ	_	ADJ__Gender=Masc|Number=Sing	3	amod	_	_
+8	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+9	comme	comme	ADP	_	ADP___	10	case	_	_
+10	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+11	donation	donation	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obl	_	_
+12	ou	ou	CCONJ	_	CCONJ___	10	cc	_	_
+13	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	cession	cession	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	conj	_	_
+15	à	à	ADP	_	ADP___	10	case	_	_
+16	titre	titrer	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	nmod	_	_
+17	onéreux	onéreux	ADJ	_	ADJ__Gender=Masc	15	amod	_	_
+18	?	?	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Salutations
+1	Salutations	Salutations	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+
+
+#Bonjour,Questions supplémentaires :
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	Questions	Questions	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	conj	_	_
+4	supplémentaires	supplémentaire	ADJ	_	ADJ__Number=Plur	3	amod	_	_
+5	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#- est-ce sa résidence principale ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	est	être		_	VERB	3	cop	_	_
+3	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+4	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	3	nmod:poss	_	_
+5	résidence	résidence	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+6	principale	principal	ADJ	_	ADJ__Gender=Fem|Number=Sing	10	amod	_	_
+7	?	?	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#- quels impôts veut
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	quels	quel	ADJ	_	ADJ__Gender=Masc|Number=Plur	3	det	_	_
+3	impôts	impôt	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+4	veut	vouloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	amod	_	_
+
+
+#-elle minimiser ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
+3	minimiser	minimiser	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	?	?	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#- aura-t-
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	aura	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+3	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+4	t	t	NOUN	_	NOUN__Gender=Fem|Number=Plur	3	obl	_	_
+5	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#elle toujours des revenus suffisants si elle doit aller en maison médicalisée ?
+1	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	0	ROOT	_	_
+2	toujours	toujours	ADV	_	ADV___	3	advmod	_	_
+3	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	1	det	_	_
+4	revenus	revenu	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	nsubj	_	_
+5	suffisants	suffisant	ADJ	_	ADJ__Gender=Masc|Number=Plur	1	amod	_	_
+6	si	si	SCONJ	_	SCONJ___	10	mark	_	_
+7	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	10	nsubj	_	_
+8	doit	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+9	aller	aller	VERB	_	VERB__VerbForm=Inf	10	acl	_	_
+10	en	en	ADP	_	ADP___	10	case	_	_
+11	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obl	_	_
+12	médicalisée	médicaliser	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	xcomp	_	_
+13	?	?	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Bonjour,Cette personne peut toujours envisager de vendre son bien en viager en se conservant l'usufruit ;
+1	Bonjour	Bonjour	PROPN	_	PROPN___	7	acl	_	_
+2	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+3	Cette	Cette	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	personne	personne	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nsubj	_	_
+5	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	toujours	toujours	ADV	_	ADV___	7	advmod	_	_
+7	envisager	envisager	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+8	de	de	ADP	_	ADP___	9	mark	_	_
+9	vendre	vendre	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+10	son	son	DET	_	DET__Number=Sing|Poss=Yes	11	nmod:poss	_	_
+11	bien	bien	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+12	en	en	ADP	_	ADP___	13	mark	_	_
+13	viager	viager	VERB	_	VERB__VerbForm=Inf	9	advcl	_	_
+14	en	en	ADP	_	ADP___	16	mark	_	_
+15	se	se	PRON	_	PRON__Person=3|Reflex=Yes	16	iobj	_	_
+16	conservant	conserver	VERB	_	VERB__Tense=Pres|VerbForm=Part	13	advcl	_	_
+17	l'	le	PRON	_	PRON__Number=Sing|Person=3	18	det	_	_
+18	usufruit	usufruit	VERB	_	VERB__VerbForm=Inf	16	obj	_	_
+19	;	;	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#en revanche, il faudra que le bénéficiaire paie bien le bouquet et les mensualités prévues lors de la vente.
+1	en	en	ADP	_	ADP___	7	advmod	_	_
+2	revanche	revanche	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+5	faudra	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+6	que	que	SCONJ	_	SCONJ___	7	mark	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+8	bénéficiaire	bénéficiaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nsubj	_	_
+9	paie	payer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+10	bien	bien	ADV	_	ADV___	11	advmod	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+12	bouquet	bouquet	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+13	et	et	CCONJ	_	CCONJ___	9	cc	_	_
+14	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	16	det	_	_
+15	mensualités	mensualité	NOUN	_	NOUN__Gender=Fem|Number=Plur	16	conj	_	_
+16	prévues	prévoir	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	13	amod	_	_
+17	lors	lors	ADV	_	ADV___	18	case	_	_
+18	de	de	ADP	_	ADP___	16	fixed	_	_
+19	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+20	vente	venter	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	obl	_	_
+21	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#P.S. : en cas de donation à un tiers n'ayant aucun lien familial, le bénéficiaire sera taxé à 60 % sur le montant de la donation.
+1	P.S.	P.S.	NOUN	_	NOUN___	0	ROOT	_	_
+2	:	:	PUNCT	_	PUNCT___	7	punct	_	_
+3	en	en	ADP	_	ADP___	4	case	_	_
+4	cas	cas	NOUN	_	NOUN__Gender=Masc	7	fixed	_	_
+5	de	de	ADP	_	ADP___	7	fixed	_	_
+6	donation	donation	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obl	_	_
+7	à	à	ADP	_	ADP___	7	case	_	_
+8	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	tiers	tiers	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+10	n'	ne	ADV	_	ADV___	11	advmod	_	_
+11	ayant	avoir	VERB	_	VERB__Tense=Pres|VerbForm=Part	9	acl	_	_
+12	aucun	aucun	DET	_	DET__Gender=Masc|Number=Sing	13	det	_	_
+13	lien	lien	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+14	familial	familial	ADJ	_	ADJ__Gender=Masc|Number=Sing	16	amod	_	_
+15	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+16	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+17	bénéficiaire	bénéficiaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nsubj	_	_
+18	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	16	cop	_	_
+19	taxé	taxer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	acl:relcl	_	_
+20	à	à	ADP	_	ADP___	24	case	_	_
+21	60	60	NUM	_	NUM__NumType=Card	20	nummod	_	_
+22	%	%	NOUN	_	NOUN__Gender=Masc	24	obl	_	_
+23	sur	sur	ADP	_	ADP___	24	case	_	_
+24	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+25	montant	monter	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	nmod	_	_
+26	de	de	ADP	_	ADP___	27	case	_	_
+27	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	donation	donation	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	nmod	_	_
+29	.	.	PUNCT	_	PUNCT___	28	punct	_	_
+
+
