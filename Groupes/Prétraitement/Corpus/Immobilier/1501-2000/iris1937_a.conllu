@@ -1,0 +1,98 @@
+#Bonjour,Les services d'urgence ont des "passes" qui permettent de s'affranchir de ces verrouillages électroniques.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	4	case	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	Les	Les	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+4	services	service	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	nsubj	_	_
+5	d'	de	ADP	_	ADP___	6	case	_	_
+6	urgence	urgence	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+7	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
+9	"	"	PUNCT	_	PUNCT___	10	punct	_	_
+10	passes	passer	ADJ	_	ADJ__Gender=Fem|Number=Plur	7	obj	_	_
+11	"	"	PUNCT	_	PUNCT___	10	punct	_	_
+12	qui	qui	PRON	_	PRON__PronType=Rel	13	nsubj	_	_
+13	permettent	permettre	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+14	de	de	ADP	_	ADP___	16	case	_	_
+15	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	16	expl	_	_
+16	affranchir	affranchir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	13	xcomp	_	_
+17	de	de	ADP	_	ADP___	19	case	_	_
+18	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	19	det	_	_
+19	verrouillages	verrouillage	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	nmod	_	_
+20	électroniques	électronique	ADJ	_	ADJ__Number=Plur	19	amod	_	_
+21	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Sinon ils cassent (!) pour secourir les victimes.
+1	Sinon	Sinon	ADV	_	ADV___	4	advmod	_	_
+2	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	4	nsubj	_	_
+3	cassent	casser	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	(	(	PUNCT	_	PUNCT___	7	punct	_	_
+5	!	!	PUNCT	_	PUNCT___	6	punct	_	_
+6	)	)	PUNCT	_	PUNCT___	4	punct	_	_
+7	pour	pour	ADP	_	ADP___	7	case	_	_
+8	secourir	secourir	VERB	_	VERB__VerbForm=Inf	10	amod	_	_
+9	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	10	det	_	_
+10	victimes	victime	NOUN	_	NOUN__Gender=Fem|Number=Plur	7	obl	_	_
+11	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Ils n'utilisent pas les ascenseurs en cas d'urgence, ils prennent l'escalier.
+1	Ils	Ils	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	4	nsubj	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+3	utilisent	utiliser	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+5	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	6	det	_	_
+6	ascenseurs	ascenseur	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	obj	_	_
+7	en	en	ADP	_	ADP___	7	case	_	_
+8	cas	cas	NOUN	_	NOUN__Gender=Masc	10	fixed	_	_
+9	d'	de	ADP	_	ADP___	10	fixed	_	_
+10	urgence	urgence	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+11	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+12	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	13	nsubj	_	_
+13	prennent	prendre	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+14	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+15	escalier	escalier	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obj	_	_
+16	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Si la personne malade peut se déplacer pour accueillir les secours, c'est une urgence, sans doute, mais pas vitale.
+1	Si	Si	SCONJ	_	SCONJ___	4	mark	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	personne	personne	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nsubj	_	_
+4	malade	malade	ADJ	_	ADJ__Number=Sing	7	amod	_	_
+5	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	se	se	PRON	_	PRON__Person=3|Reflex=Yes	4	expl	_	_
+7	déplacer	déplacer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+8	pour	pour	ADP	_	ADP___	10	mark	_	_
+9	accueillir	accueillir	VERB	_	VERB__VerbForm=Inf	10	advcl	_	_
+10	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+11	secours	secourir	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	obj	_	_
+12	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+13	c'	ce	PRON	_	PRON__Number=Sing|Person=3	10	nsubj	_	_
+14	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	urgence	urgence	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obl	_	_
+17	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+18	sans	sans	ADP	_	ADP___	19	advmod	_	_
+19	doute	douter	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	fixed	_	_
+20	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+21	mais	mai	CCONJ	_	CCONJ___	7	cc	_	_
+22	pas	pas	ADV	_	ADV___	24	advmod	_	_
+23	vitale	vital	ADJ	_	ADJ__Gender=Fem|Number=Sing	24	conj	_	_
+24	.	.	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#je confirme : les services d'urgence n'utilisent pas ascenseurs
+1	je	il	PRON	_	PRON__Number=Sing|Person=1	2	nsubj	_	_
+2	confirme	confirmer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	:	:	PUNCT	_	PUNCT___	2	punct	_	_
+4	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+5	services	service	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	nsubj	_	_
+6	d'	de	ADP	_	ADP___	7	case	_	_
+7	urgence	urgence	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+8	n'	ne	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+9	utilisent	utiliser	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+10	pas	pas	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+11	ascenseurs	ascenseur	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	obj	_	_
+
+

@@ -1,0 +1,622 @@
+#Bonjour,Pour la visite de l'électricien...
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Pour	Pour	ADP	_	ADP___	5	case	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	visite	visiter	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+6	de	de	ADP	_	ADP___	8	case	_	_
+7	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	électricien	électricien	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+9	...	...	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#sans commentairePour la retenue sur le DEPOT DE GARANTIE (pas caution, c'est une personne qui se porte garant !) ce qui compte c'est l'ETAT DES LIEUX DE SORTIE par rapport à celui d'entrée.
+1	sans	sans	ADP	_	ADP___	1	case	_	_
+2	commentairePour	commentairePour	NOUN	_	NOUN__Number=Sing	1	fixed	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	retenue	retenu	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+5	sur	sur	ADP	_	ADP___	1	case	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	DEPOT	DEPOT	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+8	DE	DE	ADP	_	ADP___	5	case	_	_
+9	GARANTIE	GARANTIE	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+10	(	(	PUNCT	_	PUNCT___	13	punct	_	_
+11	pas	pas	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+12	caution	caution	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nmod	_	_
+13	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+14	c'	ce	PRON	_	PRON__Number=Sing|Person=3	16	nsubj	_	_
+15	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+17	personne	personne	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	conj	_	_
+18	qui	qui	PRON	_	PRON__PronType=Rel	16	nsubj	_	_
+19	se	se	PRON	_	PRON__Person=3|Reflex=Yes	13	obj	_	_
+20	porte	porter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+21	garant	garer	ADV	_	ADV___	13	xcomp	_	_
+22	!	!	PUNCT	_	PUNCT___	26	punct	_	_
+23	)	)	PUNCT	_	PUNCT___	26	punct	_	_
+24	ce	ce	PRON	_	PRON__PronType=Rel	26	appos	_	_
+25	qui	qui	PRON	_	PRON__PronType=Rel	26	nsubj	_	_
+26	compte	compter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+27	c'	ce	PRON	_	PRON__Number=Sing|Person=3	29	nsubj	_	_
+28	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
+29	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	26	det	_	_
+30	ETAT	ETAT	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	acl:relcl	_	_
+31	DES	DES	ADP	_	ADP___	13	det	_	_
+32	LIEUX	LIEUX	NOUN	_	NOUN__Gender=Fem|Number=Plur	13	nmod	_	_
+33	DE	DE	ADP	_	ADP___	13	case	_	_
+34	SORTIE	SORTIE	NOUN	_	NOUN__Gender=Fem|Number=Sing	35	nmod	_	_
+35	par	par	ADP	_	ADP___	33	case	_	_
+36	rapport	rapport	NOUN	_	NOUN__Gender=Masc|Number=Sing	39	fixed	_	_
+37	à	à	ADP	_	ADP___	39	fixed	_	_
+38	celui	celui	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Dem	39	nmod	_	_
+39	d'	de	ADP	_	ADP___	33	case	_	_
+40	entrée	entrer	NOUN	_	NOUN__Gender=Fem|Number=Sing	41	nmod	_	_
+41	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Si rien n'est noté, rien ne peut être retenu.
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	1	nsubj	_	_
+3	n'	ne	ADV	_	ADV___	5	advmod	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	noté	noter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	advcl	_	_
+6	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+7	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	8	nsubj	_	_
+8	ne	ne	ADV	_	ADV___	5	advmod	_	_
+9	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+10	être	être	AUX	_	AUX__VerbForm=Inf	13	aux:pass	_	_
+11	retenu	retenir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	xcomp	_	_
+12	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Avez
+1	Avez	Avez	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+
+
+#-vous votre exemplaire de cet EDLS ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+3	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+4	exemplaire	exemplaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+5	de	de	ADP	_	ADP___	1	case	_	_
+6	cet	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+7	EDLS	EDLS	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+8	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Lire aussi :
+1	Lire	Lire	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+2	aussi	aussi	ADV	_	ADV___	1	advmod	_	_
+3	:	:	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#BonjourOui, bon, et il faut peut-etre aussi fournir le mode d'emploi d'un interrupteur?Je suis toujours étonné quand on écrit cela, un peu comme un gage de bon soldat.
+1	BonjourOui	BonjourOui	PRON	_	PRON__Number=Sing|Person=1	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	bon	bon	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	conj	_	_
+4	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+5	et	et	CCONJ	_	CCONJ___	7	cc	_	_
+6	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+7	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+8	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	xcomp	_	_
+9	-	-	PUNCT	_	PUNCT___	7	punct	_	_
+10	etre	etre	VERB	_	VERB__VerbForm=Inf	12	aux	_	_
+11	aussi	aussi	ADV	_	ADV___	12	advmod	_	_
+12	fournir	fournir	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+13	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	mode	mode	NOUN	_	NOUN__Number=Sing	12	obj	_	_
+15	d'	de	ADP	_	ADP___	16	case	_	_
+16	emploi	emploi	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nmod	_	_
+17	d'	de	ADP	_	ADP___	19	case	_	_
+18	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	interrupteur?Je	interrupteur?Je	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nmod	_	_
+20	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	aux:pass	_	_
+21	toujours	toujours	ADV	_	ADV___	22	advmod	_	_
+22	étonné	étonner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	xcomp	_	_
+23	quand	quand	SCONJ	_	SCONJ___	25	mark	_	_
+24	on	on	PRON	_	PRON__Number=Sing|Person=3	25	nsubj	_	_
+25	écrit	écrire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	_	_
+26	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	25	obj	_	_
+27	,	,	PUNCT	_	PUNCT___	25	punct	_	_
+28	un	un	DET	_	DET__Gender=Masc|Number=Sing	32	advmod	_	_
+29	peu	peu	ADV	_	ADV___	28	fixed	_	_
+30	comme	comme	ADP	_	ADP___	32	case	_	_
+31	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	gage	gager	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	obl	_	_
+33	de	de	ADP	_	ADP___	35	case	_	_
+34	bon	bon	ADJ	_	ADJ__Gender=Masc|Number=Sing	35	amod	_	_
+35	soldat	soldat	NOUN	_	NOUN__Gender=Masc|Number=Sing	32	nmod	_	_
+36	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#La question est: La nécessité du nettoyage et celui de refaire le joint sont-ils écrits sur l'état des lieux?
+1	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+3	est	être	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+4	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+5	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	nécessité	nécessiter	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+7	du	du	DET	_	DET__Gender=Masc|Number=Sing	1	det	_	_
+8	nettoyage	nettoyage	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+9	et	et	CCONJ	_	CCONJ___	7	cc	_	_
+10	celui	celui	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Dem	12	conj	_	_
+11	de	de	ADP	_	ADP___	12	mark	_	_
+12	refaire	refaire	VERB	_	VERB__VerbForm=Inf	7	nmod	_	_
+13	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	joint	joindre	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+15	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	-	-	PUNCT	_	PUNCT___	14	punct	_	_
+17	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	19	nsubj	_	_
+18	écrits	écrit	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	19	acl	_	_
+19	sur	sur	ADP	_	ADP___	14	case	_	_
+20	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+21	état	état	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	obl	_	_
+22	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	12	det	_	_
+23	lieux	lieu	ADJ	_	ADJ__Gender=Masc	25	nmod	_	_
+24	?	?	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#Parce que le remontage, parait couler de source.
+1	Parce	Parce	SCONJ	_	SCONJ___	1	mark	_	_
+2	que	que	SCONJ	_	SCONJ___	3	fixed	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+4	remontage	remontage	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+5	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+6	parait	parer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	couler	couler	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+8	de	de	ADP	_	ADP___	7	det	_	_
+9	source	source	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obl	_	_
+10	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Inadmissible ou pas, prévenu ou pas, c'est la facon légale de fairee, sauf ici à contester que le joitn n'était pas en mauvais état et que le bouche d'aération était propre.
+1	Inadmissible	Inadmissible	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+2	ou	ou	CCONJ	_	CCONJ___	3	cc	_	_
+3	pas	pas	ADV	_	ADV__Polarity=Neg	1	conj	_	_
+4	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+5	prévenu	prévenir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
+6	ou	ou	CCONJ	_	CCONJ___	7	cc	_	_
+7	pas	pas	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+8	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+9	c'	ce	PRON	_	PRON__Number=Sing|Person=3	7	nsubj	_	_
+10	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	facon	facon	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	conj	_	_
+13	légale	légal	ADJ	_	ADJ__Gender=Fem|Number=Sing	14	amod	_	_
+14	de	de	ADP	_	ADP___	12	case	_	_
+15	fairee	fairee	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	nmod	_	_
+16	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+17	sauf	sauf	ADP	_	ADP___	19	case	_	_
+18	ici	ici	ADV	_	ADV___	19	nmod	_	_
+19	à	à	ADP	_	ADP___	14	mark	_	_
+20	contester	contester	VERB	_	VERB__VerbForm=Inf	22	acl	_	_
+21	que	que	SCONJ	_	SCONJ___	22	mark	_	_
+22	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+23	joitn	joitn	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	nsubj	_	_
+24	n'	ne	ADV	_	ADV__Polarity=Neg	25	advmod	_	_
+25	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	cop	_	_
+26	pas	pas	ADV	_	ADV__Polarity=Neg	25	advmod	_	_
+27	en	en	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	25	advmod	_	_
+28	mauvais	mauvais	ADJ	_	ADJ___	32	cop	_	_
+29	état	état	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	ccomp	_	_
+30	et	et	CCONJ	_	CCONJ___	32	cc	_	_
+31	que	que	SCONJ	_	SCONJ___	32	mark	_	_
+32	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+33	bouche	boucher	NOUN	_	NOUN__Gender=Masc|Number=Sing	35	nsubj	_	_
+34	d'	de	ADP	_	ADP___	35	case	_	_
+35	aération	aération	NOUN	_	NOUN__Gender=Fem|Number=Sing	32	nmod	_	_
+36	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	cop	_	_
+37	propre	propre	ADJ	_	ADJ__Number=Sing	38	conj	_	_
+38	.	.	PUNCT	_	PUNCT___	42	punct	_	_
+
+
+#Oups, en effet si aucun des trois points n'est noté sur l'état des lieux de sortie, alors courrier RAR les mettant en demeure de vous restituer l'intégralité de votre dépot de garantie (n'utilisez pas le mot caution qui n'est pas le bon terme) sous faute de demander l'application de la clause pénale de 10% du loyer de base par mois de retard ainsi que l'indique la loi de JUillet 1989 après un mois de délai suivant la restitution des clés.
+1	Oups	Oups	PROPN	_	PROPN__Gender=Masc|Number=Sing	1	obl	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	en	en	ADP	_	ADP___	1	advmod	_	_
+4	effet	effet	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	fixed	_	_
+5	si	si	SCONJ	_	SCONJ___	7	mark	_	_
+6	aucun	aucun	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	7	nsubj	_	_
+7	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	1	det	_	_
+8	trois	trois	NUM	_	NUM__NumType=Card	7	nummod	_	_
+9	points	point	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	nsubj	_	_
+10	n'	ne	ADV	_	ADV___	12	advmod	_	_
+11	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	noté	noter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+13	sur	sur	ADP	_	ADP___	14	case	_	_
+14	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+15	état	état	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obl	_	_
+16	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
+17	lieux	lieu	NOUN	_	NOUN__Gender=Masc|Number=Plur	19	obj	_	_
+18	de	de	ADP	_	ADP___	19	case	_	_
+19	sortie	sortir	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nmod	_	_
+20	,	,	PUNCT	_	PUNCT___	22	punct	_	_
+21	alors	alors	ADV	_	ADV___	22	advmod	_	_
+22	courrier	courrier	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	amod	_	_
+23	RAR	RAR	PROPN	_	PROPN___	25	nmod	_	_
+24	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	25	obj	_	_
+25	mettant	mettre	VERB	_	VERB__Tense=Pres|VerbForm=Part	22	acl	_	_
+26	en	en	ADP	_	ADP___	25	case	_	_
+27	demeure	demeurer	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	obl	_	_
+28	de	de	ADP	_	ADP___	32	mark	_	_
+29	vous	se	PRON	_	PRON__Number=Plur|Person=2	28	iobj	_	_
+30	restituer	restituer	VERB	_	VERB__VerbForm=Inf	32	xcomp	_	_
+31	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	32	det	_	_
+32	intégralité	intégralité	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	obj	_	_
+33	de	de	ADP	_	ADP___	35	case	_	_
+34	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	35	nmod:poss	_	_
+35	dépot	dépot	NOUN	_	NOUN__Gender=Masc|Number=Sing	32	nmod	_	_
+36	de	de	ADP	_	ADP___	1	case	_	_
+37	garantie	garantir	NOUN	_	NOUN__Gender=Fem|Number=Sing	38	nmod	_	_
+38	(	(	PUNCT	_	PUNCT___	42	punct	_	_
+39	n'	ne	ADV	_	ADV__Polarity=Neg	42	advmod	_	_
+40	utilisez	utiliser	ADV	_	ADV___	39	conj	_	_
+41	pas	pas	ADV	_	ADV__Polarity=Neg	42	advmod	_	_
+42	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+43	mot	mot	NOUN	_	NOUN__Gender=Masc|Number=Sing	44	amod	_	_
+44	caution	caution	NOUN	_	NOUN__Gender=Fem|Number=Sing	42	obj	_	_
+45	qui	qui	PRON	_	PRON__PronType=Rel	46	nsubj	_	_
+46	n'	ne	ADV	_	ADV__Polarity=Neg	44	advmod	_	_
+47	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	48	cop	_	_
+48	pas	pas	ADV	_	ADV__Polarity=Neg	44	advmod	_	_
+49	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+50	bon	bon	ADJ	_	ADJ__Gender=Masc|Number=Sing	48	amod	_	_
+51	terme	terme	NOUN	_	NOUN__Gender=Masc|Number=Sing	54	acl:relcl	_	_
+52	)	)	PUNCT	_	PUNCT___	51	punct	_	_
+53	sous	sou	ADP	_	ADP___	54	case	_	_
+54	faute	fauter	NOUN	_	NOUN__Gender=Fem|Number=Sing	42	obl	_	_
+55	de	de	ADP	_	ADP___	57	mark	_	_
+56	demander	demander	VERB	_	VERB__VerbForm=Inf	57	acl	_	_
+57	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	54	det	_	_
+58	application	application	NOUN	_	NOUN__Gender=Fem|Number=Sing	59	obj	_	_
+59	de	de	ADP	_	ADP___	57	case	_	_
+60	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+61	clause	clause	NOUN	_	NOUN__Gender=Fem|Number=Sing	67	nmod	_	_
+62	pénale	pénal	ADJ	_	ADJ__Gender=Fem|Number=Sing	61	amod	_	_
+63	de	de	ADP	_	ADP___	64	case	_	_
+64	10	10	NUM	_	NUM__NumType=Card	67	nummod	_	_
+65	%	%	NOUN	_	NOUN__Gender=Masc	67	nmod	_	_
+66	du	du	DET	_	DET__Gender=Masc|Number=Sing	67	det	_	_
+67	loyer	loyer	VERB	_	VERB__VerbForm=Inf	67	obj	_	_
+68	de	de	ADP	_	ADP___	69	case	_	_
+69	base	baser	NOUN	_	NOUN__Gender=Fem|Number=Sing	67	nmod	_	_
+70	par	par	ADP	_	ADP___	67	case	_	_
+71	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Sing	71	nmod	_	_
+72	de	de	ADP	_	ADP___	73	case	_	_
+73	retard	retard	NOUN	_	NOUN__Gender=Masc|Number=Sing	71	nmod	_	_
+74	ainsi	ainsi	ADV	_	ADV___	75	cc	_	_
+75	que	que	SCONJ	_	SCONJ___	71	fixed	_	_
+76	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	82	nsubj	_	_
+77	indique	indiquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	76	conj	_	_
+78	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	82	det	_	_
+79	loi	loi	NOUN	_	NOUN__Gender=Fem|Number=Sing	82	obj	_	_
+80	de	de	ADP	_	ADP___	82	case	_	_
+81	JUillet	JUillet	NOUN	_	NOUN__Gender=Masc|Number=Sing	82	nmod	_	_
+82	1989	1989	NUM	_	NUM__NumType=Card	71	nummod	_	_
+83	après	après	ADP	_	ADP___	82	case	_	_
+84	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	85	det	_	_
+85	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Sing	82	obl	_	_
+86	de	de	ADP	_	ADP___	71	case	_	_
+87	délai	délai	NOUN	_	NOUN__Gender=Masc|Number=Sing	88	nmod	_	_
+88	suivant	suivre	VERB	_	VERB__Tense=Pres|VerbForm=Part	71	acl	_	_
+89	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	90	det	_	_
+90	restitution	restitution	NOUN	_	NOUN__Gender=Fem|Number=Sing	71	obj	_	_
+91	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	99	det	_	_
+92	clés	clé	NOUN	_	NOUN__Gender=Masc|Number=Plur	93	nmod	_	_
+93	.	.	PUNCT	_	PUNCT___	99	punct	_	_
+
+
+#Bonjour,Cela s'appelle une prise commandée.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	5	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+3	Cela	Cela	PRON	_	PRON__Number=Sing|PronType=Dem	5	nsubj	_	_
+4	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	5	expl	_	_
+5	appelle	appeler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	prise	priser	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obj	_	_
+8	commandée	commander	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	amod	_	_
+9	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Vous le saurez pour une autre fois, même si ça fait cher la leçon...
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	5	nsubj	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	obj	_	_
+3	saurez	savoir	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	advcl	_	_
+4	pour	pour	ADP	_	ADP___	5	case	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+6	autre	autre	ADJ	_	ADJ__Number=Sing	7	amod	_	_
+7	fois	foi	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	obl	_	_
+8	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+9	même	même	ADV	_	ADV___	5	mark	_	_
+10	si	si	SCONJ	_	SCONJ___	12	fixed	_	_
+11	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	nsubj	_	_
+12	fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+13	cher	cher	ADJ	_	ADJ__Gender=Masc|Number=Sing	16	xcomp	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	leçon	leçon	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obj	_	_
+16	...	...	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#D'un autre coté, quand une prise ne fonctionne pas, la première question qui te vient en tête ce n'est pas "Où est linterrupteur ?
+1	D'	D'	ADP	_	ADP___	4	case	_	_
+2	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	autre	autre	ADJ	_	ADJ__Number=Sing	4	amod	_	_
+4	coté	coter	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obl	_	_
+5	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+6	quand	quand	SCONJ	_	SCONJ___	10	mark	_	_
+7	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	prise	priser	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nsubj	_	_
+9	ne	ne	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+10	fonctionne	fonctionner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+11	pas	pas	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+12	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	première	premier	ADJ	_	ADJ__Gender=Fem|Number=Sing|NumType=Ord	15	amod	_	_
+15	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obj	_	_
+16	qui	qui	PRON	_	PRON__PronType=Rel	18	nsubj	_	_
+17	te	se	PRON	_	PRON__Person=3|Reflex=Yes	18	obj	_	_
+18	vient	venir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+19	en	en	ADP	_	ADP___	20	case	_	_
+20	tête	tête	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	obl	_	_
+21	ce	ce	PRON	_	PRON__Number=Sing|Person=3	20	amod	_	_
+22	n'	ne	ADV	_	ADV__Polarity=Neg	25	advmod	_	_
+23	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+24	pas	pas	ADV	_	ADV__Polarity=Neg	25	advmod	_	_
+25	"	"	PUNCT	_	PUNCT___	10	punct	_	_
+26	Où	Où	PRON	_	PRON__PronType=Rel	27	iobj	_	_
+27	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	parataxis	_	_
+28	linterrupteur	linterrupteur	ADV	_	ADV__Polarity=Neg	27	nsubj	_	_
+29	?	?	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#"Si linterrupteur est adjacent à la prise, je conçoit, mais parfois il peut être de l'autre coté de la pièce.
+1	"	"	PUNCT	_	PUNCT___	4	punct	_	_
+2	Si	Si	SCONJ	_	SCONJ___	4	mark	_	_
+3	linterrupteur	linterrupteur	PRON	_	PRON__Number=Plur|Person=3	4	nsubj	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+5	adjacent	adjacent	ADV	_	ADV___	4	advcl	_	_
+6	à	à	ADP	_	ADP___	10	case	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	prise	priser	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obl	_	_
+9	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+10	je	il	PRON	_	PRON__Number=Sing|Person=1	10	nsubj	_	_
+11	conçoit	concevoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+12	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+13	mais	mai	CCONJ	_	CCONJ___	15	cc	_	_
+14	parfois	parfois	ADV	_	ADV___	15	advmod	_	_
+15	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
+16	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	_
+17	être	être	AUX	_	AUX__VerbForm=Inf	18	cop	_	_
+18	de	de	ADP	_	ADP___	15	case	_	_
+19	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	autre	autre	ADJ	_	ADJ__Number=Sing	18	amod	_	_
+21	coté	coter	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	xcomp	_	_
+22	de	de	ADP	_	ADP___	25	case	_	_
+23	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+24	pièce	pièce	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	nmod	_	_
+25	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Tous les logements ne sont pas équipés de ce type de prise.
+1	Tous	Tous	ADJ	_	ADJ__Gender=Masc|Number=Plur	4	amod	_	_
+2	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+3	logements	logement	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	nsubj	_	_
+4	ne	ne	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+5	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+6	pas	pas	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+7	équipés	équiper	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+8	de	de	ADP	_	ADP___	10	case	_	_
+9	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+10	type	typer	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obl	_	_
+11	de	de	ADP	_	ADP___	10	case	_	_
+12	prise	priser	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+13	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Je trouveremarque sur le doc d'un interrupteur déplacée.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+2	trouveremarque	trouveremarque	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	sur	sur	ADP	_	ADP___	4	case	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+5	doc	doc	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+6	d'	de	ADP	_	ADP___	10	case	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	interrupteur	interrupteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+9	déplacée	déplacer	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
+10	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Quandne connait pas un système, bahconnait pas hein, et dans ce cason demande.
+1	Quandne	Quandne	VERB	_	VERB__Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	nsubj	_	_
+2	connait	connait	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+3	pas	pas	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+4	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+5	système	système	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obj	_	_
+6	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+7	bahconnait	bahconnait	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	conj	_	_
+8	pas	pas	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+9	hein	hein	ADJ	_	ADJ__Gender=Masc|Number=Sing	10	obj	_	_
+10	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+11	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+12	dans	dan	ADP	_	ADP___	10	case	_	_
+13	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
+14	cason	cason	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	conj	_	_
+15	demande	demander	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	amod	_	_
+16	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Nous n'avons pas tous la science infuse.
+1	Nous	Nous	PRON	_	PRON__Number=Plur|Person=1	4	nsubj	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+3	avons	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+5	tous	tout	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Rel	4	amod	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+7	science	science	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+8	infuse	infuser	ADJ	_	ADJ__Gender=Fem|Number=Sing	10	amod	_	_
+9	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#D'abord vous ne me tutoyez pas, ensuite, quand une prise en fonctionne pas, la première question est en effet de savoir si le plomb n'a pas sauté si elle a deja fonctionné, sinon ou est la commande.
+1	D'	D'	ADP	_	ADP___	6	advmod	_	_
+2	abord	abord	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	fixed	_	_
+3	vous	se	PRON	_	PRON__Number=Plur|Person=2	6	nsubj	_	_
+4	ne	ne	ADV	_	ADV___	6	advmod	_	_
+5	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	6	expl	_	_
+6	tutoyez	tutoyer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	25	advcl	_	_
+7	pas	pas	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+8	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+9	ensuite	ensuite	ADV	_	ADV___	6	advmod	_	_
+10	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+11	quand	quand	ADV	_	ADV___	15	mark	_	_
+12	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	prise	priser	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	nsubj	_	_
+14	en	en	ADP	_	ADP___	15	iobj	_	_
+15	fonctionne	fonctionner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+16	pas	pas	ADV	_	ADV__Polarity=Neg	15	advmod	_	_
+17	,	,	PUNCT	_	PUNCT___	25	punct	_	_
+18	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	première	premier	ADJ	_	ADJ__Gender=Fem|Number=Sing|NumType=Ord	20	amod	_	_
+20	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	nsubj	_	_
+21	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+22	en	en	ADP	_	ADP___	25	advmod	_	_
+23	effet	effet	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	fixed	_	_
+24	de	de	ADP	_	ADP___	25	mark	_	_
+25	savoir	savoir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+26	si	si	SCONJ	_	SCONJ___	32	mark	_	_
+27	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	plomb	plomb	NOUN	_	NOUN__Gender=Masc|Number=Sing	32	nsubj	_	_
+29	n'	ne	ADV	_	ADV__Polarity=Neg	32	advmod	_	_
+30	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
+31	pas	pas	ADV	_	ADV__Polarity=Neg	32	advmod	_	_
+32	sauté	sauter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	ccomp	_	_
+33	si	si	SCONJ	_	SCONJ___	36	mark	_	_
+34	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	36	nsubj	_	_
+35	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
+36	deja	deja	AUX	_	AUX__Tense=Past|VerbForm=Part	32	ccomp	_	_
+37	fonctionné	fonctionner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	36	xcomp	_	_
+38	,	,	PUNCT	_	PUNCT___	36	punct	_	_
+39	sinon	sinon	ADV	_	ADV___	36	advmod	_	_
+40	ou	ou	CCONJ	_	CCONJ___	43	cc	_	_
+41	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	cop	_	_
+42	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	commande	commander	NOUN	_	NOUN__Gender=Fem|Number=Sing	36	conj	_	_
+44	.	.	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#Dans un nouveau logement quand l'interrupteur ne commande pas une lumière, c'est qu'il commande quoi, par ailleurs?Il ne s'agit pas de science mais de logique, et on peut en effet ne pas y arriver, mais alors il ne faut pas mettre les 90 euros surla faute du bailleur, c'est tout.
+1	Dans	Dans	ADP	_	ADP___	6	case	_	_
+2	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+3	nouveau	nouveau	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	fixed	_	_
+4	logement	logement	ADV	_	ADV___	6	obl	_	_
+5	quand	quand	SCONJ	_	SCONJ___	6	mark	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+7	interrupteur	interrupteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nsubj	_	_
+8	ne	ne	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+9	commande	commander	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	dep	_	_
+10	pas	pas	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+11	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+12	lumière	lumière	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obj	_	_
+13	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+14	c'	ce	PRON	_	PRON__Number=Sing|Person=3	15	nsubj	_	_
+15	est	être	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	fixed	_	_
+16	qu'	que	SCONJ	_	SCONJ___	15	fixed	_	_
+17	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	25	nsubj	_	_
+18	commande	commander	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+19	quoi	quoi	PRON	_	PRON__PronType=Int	20	iobj	_	_
+20	,	,	PUNCT	_	PUNCT___	25	punct	_	_
+21	par	par	ADP	_	ADP___	25	case	_	_
+22	ailleurs?Il	ailleurs?Il	VERB	_	VERB__VerbForm=Inf	25	nsubj	_	_
+23	ne	ne	ADV	_	ADV__Polarity=Neg	22	advmod	_	_
+24	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	25	expl	_	_
+25	agit	agir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
+26	pas	pas	ADV	_	ADV__Polarity=Neg	32	advmod	_	_
+27	de	de	DET	_	DET__Definite=Ind|Number=Sing|PronType=Art	28	det	_	_
+28	science	science	NOUN	_	NOUN__Gender=Fem|Number=Sing	32	obl	_	_
+29	mais	mai	CCONJ	_	CCONJ___	32	cc	_	_
+30	de	de	ADP	_	ADP___	32	mark	_	_
+31	logique	logique	ADJ	_	ADJ__Number=Sing	32	conj	_	_
+32	,	,	PUNCT	_	PUNCT___	25	punct	_	_
+33	et	et	CCONJ	_	CCONJ___	36	cc	_	_
+34	on	on	PRON	_	PRON__Number=Sing|Person=3	36	nsubj	_	_
+35	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
+36	en	en	ADP	_	ADP___	32	advmod	_	_
+37	effet	effet	NOUN	_	NOUN__Gender=Masc|Number=Sing	36	fixed	_	_
+38	ne	ne	ADV	_	ADV___	36	advmod	_	_
+39	pas	pas	ADV	_	ADV___	36	fixed	_	_
+40	y	yu	PRON	_	PRON__Person=3	43	iobj	_	_
+41	arriver	avoir	VERB	_	VERB__VerbForm=Inf	43	conj	_	_
+42	,	,	PUNCT	_	PUNCT___	43	punct	_	_
+43	mais	mai	CCONJ	_	CCONJ___	36	cc	_	_
+44	alors	alors	ADV	_	ADV___	25	advmod	_	_
+45	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	48	nsubj	_	_
+46	ne	ne	ADV	_	ADV__Polarity=Neg	48	advmod	_	_
+47	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	conj	_	_
+48	pas	pas	ADV	_	ADV__Polarity=Neg	69	advmod	_	_
+49	mettre	mettre	VERB	_	VERB__VerbForm=Inf	53	xcomp	_	_
+50	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	51	det	_	_
+51	90	90	NUM	_	NUM__NumType=Card	53	nummod	_	_
+52	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	53	obj	_	_
+53	surla	surla	ADJ	_	ADJ__Gender=Fem|Number=Sing	48	cc	_	_
+54	faute	fauter	NOUN	_	NOUN__Gender=Fem|Number=Sing	53	advcl	_	_
+55	du	du	DET	_	DET__Gender=Masc|Number=Sing	56	det	_	_
+56	bailleur	bailleur	NOUN	_	NOUN__Gender=Masc|Number=Sing	53	obj	_	_
+57	,	,	PUNCT	_	PUNCT___	56	punct	_	_
+58	c'	ce	PRON	_	PRON__Number=Sing|Person=3	62	nsubj	_	_
+59	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	58	cop	_	_
+60	tout	tout	ADV	_	ADV___	58	conj	_	_
+61	.	.	PUNCT	_	PUNCT___	62	punct	_	_
+
+
+#En fait quel lien ce sous-sujet a avec le reste du fil?
+1	En	En	ADP	_	ADP___	6	case	_	_
+2	fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	fixed	_	_
+3	quel	quel	DET	_	DET__Gender=Masc|Number=Sing	6	det	_	_
+4	lien	lien	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nsubj	_	_
+5	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	sous-sujet	sous-sujet	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	nmod	_	_
+7	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+8	avec	avec	ADP	_	ADP___	6	case	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+10	reste	rester	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	cop	_	_
+11	du	du	DET	_	DET__Gender=Masc|Number=Sing	15	det	_	_
+12	fil	fil	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+13	?	?	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#aucun....
+1	aucun	aucun	DET	_	DET__Gender=Masc|Number=Sing	6	det	_	_
+2	....	....	PUNCT	_	PUNCT___	0	ROOT	_	_
+
+
+#c'est la comparaison entre l'EDL d'entrée et celui de sortie qu'il faut prendre en compte...
+1	c'	ce	PRON	_	PRON__Number=Sing|Person=3	4	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	comparaison	comparaison	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+5	entre	entrer	ADP	_	ADP___	7	case	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	EDL	EDL	NOUN	_	NOUN__Number=Sing	4	nmod	_	_
+8	d'	de	ADP	_	ADP___	9	case	_	_
+9	entrée	entrer	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+10	et	et	CCONJ	_	CCONJ___	11	cc	_	_
+11	celui	celui	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Dem	7	conj	_	_
+12	de	de	ADP	_	ADP___	13	case	_	_
+13	sortie	sortir	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+14	qu'	que	SCONJ	_	SCONJ___	16	mark	_	_
+15	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	16	nsubj	_	_
+16	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+17	prendre	prendre	VERB	_	VERB__VerbForm=Inf	16	xcomp	_	_
+18	en	en	ADP	_	ADP___	19	case	_	_
+19	compte	compter	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obl	_	_
+20	...	...	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#pas uniquement celui de sortie
+1	pas	pas	ADV	_	ADV___	4	advmod	_	_
+2	uniquement	uniquement	ADV	_	ADV___	4	advmod	_	_
+3	celui	celui	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+4	de	de	ADP	_	ADP___	4	case	_	_
+5	sortie	sortir	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+
+

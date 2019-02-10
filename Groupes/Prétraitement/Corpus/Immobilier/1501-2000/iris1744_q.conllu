@@ -1,0 +1,152 @@
+#Bonjour,Je vie actuellement chez mes parents.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Je	Je	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+4	vie	vie	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	nmod	_	_
+5	actuellement	actuellement	ADV	_	ADV___	4	advmod	_	_
+6	chez	chez	ADP	_	ADP___	8	case	_	_
+7	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	8	nmod:poss	_	_
+8	parents	parent	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	obl	_	_
+9	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Avec ma conjointe nous souhaiterions déménager chez ma grand-mère qui pourrait nous héberger à titre gratuit.
+1	Avec	Avec	ADP	_	ADP___	1	case	_	_
+2	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	1	nmod:poss	_	_
+3	conjointe	conjoint	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obl	_	_
+4	nous	se	PRON	_	PRON__Number=Plur|Person=1	1	nsubj	_	_
+5	souhaiterions	souhaiter	AUX	_	AUX__Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+6	déménager	déménager	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+7	chez	chez	ADP	_	ADP___	8	case	_	_
+8	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	4	nmod:poss	_	_
+9	grand-mère	grand-mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obl	_	_
+10	qui	qui	PRON	_	PRON__PronType=Rel	12	nsubj	_	_
+11	pourrait	pouvoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	nous	se	PRON	_	PRON__Number=Plur|Person=1	15	expl	_	_
+13	héberger	héberger	VERB	_	VERB__VerbForm=Inf	15	acl:relcl	_	_
+14	à	à	ADP	_	ADP___	15	case	_	_
+15	titre	titrer	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obl	_	_
+16	gratuit	gratuit	ADJ	_	ADJ__Gender=Masc|Number=Sing	18	amod	_	_
+17	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Le logement serait une dépendance d'environ 55m².
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	logement	logement	ADV	_	ADV___	1	nsubj	_	_
+3	serait	être	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+5	dépendance	dépendance	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+6	d'	de	ADP	_	ADP___	8	case	_	_
+7	environ	environ	ADV	_	ADV___	8	advmod	_	_
+8	55	55	NUM	_	NUM__NumType=Card	4	nummod	_	_
+9	m²	m²	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	nmod	_	_
+10	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Ma grand-mère vie à l'étage inférieur (~65 m²).Actuellement, ma grand-mère est exonérée de taxe foncière et taxe d'habitation.
+1	Ma	Ma	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	grand-mère	grand-mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	amod	_	_
+3	vie	vie	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obl	_	_
+4	à	à	ADP	_	ADP___	1	case	_	_
+5	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+6	étage	étager	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+7	inférieur	inférieur	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	amod	_	_
+8	(	(	PUNCT	_	PUNCT___	4	punct	_	_
+9	~65	~65	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	fixed	_	_
+10	m²).Actuellement	m²).Actuellement	ADV	_	ADV___	12	advmod	_	_
+11	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+12	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	15	nmod:poss	_	_
+13	grand-mère	grand-mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	nsubj:pass	_	_
+14	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
+15	exonérée	exonérer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+16	de	de	ADP	_	ADP___	18	case	_	_
+17	taxe	taxer	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	obl	_	_
+18	foncière	foncier	ADJ	_	ADJ__Gender=Fem|Number=Sing	15	amod	_	_
+19	et	et	CCONJ	_	CCONJ___	22	cc	_	_
+20	taxe	taxer	ADJ	_	ADJ__Gender=Fem|Number=Sing	22	conj	_	_
+21	d'	de	ADP	_	ADP___	22	case	_	_
+22	habitation	habitation	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	nmod	_	_
+23	.	.	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#Si nous venions à concrétiser ce projet, quelles seraient les conséquences concernant la taxe d'habitation et la taxe foncière ?
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	nous	se	PRON	_	PRON__Number=Plur|Person=1	1	nsubj	_	_
+3	venions	venir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+4	à	à	ADP	_	ADP___	1	mark	_	_
+5	concrétiser	concrétiser	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+6	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+7	projet	projet	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+8	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+9	quelles	quel	DET	_	DET__Gender=Fem|Number=Plur|PronType=Int	1	nsubj	_	_
+10	seraient	être	AUX	_	AUX__Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	12	det	_	_
+12	conséquences	conséquence	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+13	concernant	concerner	VERB	_	VERB__Tense=Pres|VerbForm=Part	15	acl	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	taxe	taxer	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obj	_	_
+16	d'	de	ADP	_	ADP___	18	case	_	_
+17	habitation	habitation	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	nmod	_	_
+18	et	et	CCONJ	_	CCONJ___	15	cc	_	_
+19	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+20	taxe	taxer	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	conj	_	_
+21	foncière	foncier	ADJ	_	ADJ__Gender=Fem|Number=Sing	22	amod	_	_
+22	?	?	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Pour information, voici nos informations personnelles :
+1	Pour	Pour	ADP	_	ADP___	1	case	_	_
+2	information	information	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obl	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	voici	voici	ADP	_	ADP___	0	ROOT	_	_
+5	nos	notre	DET	_	DET__Number=Plur|Poss=Yes	4	nmod:poss	_	_
+6	informations	information	NOUN	_	NOUN__Gender=Fem|Number=Plur	8	obj	_	_
+7	personnelles	personnel	ADJ	_	ADJ__Gender=Fem|Number=Plur	8	amod	_	_
+8	:	:	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#- Ma conjointe et moi ne sommes pas pacsés-
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	Ma	Ma	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	1	nmod:poss	_	_
+3	conjointe	conjoint	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nsubj	_	_
+4	et	et	CCONJ	_	CCONJ___	1	cc	_	_
+5	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	4	conj	_	_
+6	ne	ne	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+7	sommes	sommer	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	pas	pas	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+9	pacsés-	pacsés-	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+
+
+#Ma conjointe est de nationalité étrangère et possède le statut d'étudiante- Je suis fonctionnaire avec un revenu d'environ 1800 / moisD'avance, merci de vos réponses.
+1	Ma	Ma	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	conjointe	conjoint	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	de	de	ADP	_	ADP___	1	case	_	_
+5	nationalité	nationalité	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+6	étrangère	étranger	ADJ	_	ADJ__Gender=Fem|Number=Sing	8	amod	_	_
+7	et	et	CCONJ	_	CCONJ___	8	cc	_	_
+8	possède	posséder	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+10	statut	statut	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+11	d'	de	ADP	_	ADP___	12	case	_	_
+12	étudiante-	étudiante-	PROPN	_	PROPN__Gender=Masc|Number=Sing	15	nmod	_	_
+13	Je	Je	PRON	_	PRON__Number=Sing|Person=1	15	nmod	_	_
+14	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	fonctionnaire	fonctionnaire	ADJ	_	ADJ__Number=Sing	15	xcomp	_	_
+16	avec	avec	ADP	_	ADP___	18	case	_	_
+17	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	revenu	revenir	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obl	_	_
+19	d'	de	ADP	_	ADP___	22	case	_	_
+20	environ	environ	ADV	_	ADV___	22	advmod	_	_
+21	1800	1800	NOUN	_	NOUN__NumType=Card	22	nmod	_	_
+22	/	/	PUNCT	_	PUNCT___	18	case	_	_
+23	moisD'	moisD'	ADJ	_	ADJ__Gender=Masc|Number=Sing	24	nmod	_	_
+24	avance	avancer	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	amod	_	_
+25	,	,	PUNCT	_	PUNCT___	24	punct	_	_
+26	merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	conj	_	_
+27	de	de	ADP	_	ADP___	28	case	_	_
+28	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	31	nmod:poss	_	_
+29	réponses	réponse	NOUN	_	NOUN__Gender=Fem|Number=Plur	31	nmod	_	_
+30	.	.	PUNCT	_	PUNCT___	31	punct	_	_
+
+

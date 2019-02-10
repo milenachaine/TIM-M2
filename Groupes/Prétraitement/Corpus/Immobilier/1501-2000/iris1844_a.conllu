@@ -1,0 +1,289 @@
+#Bonjour, quoi que vous décidiez (maintenant ou attendre
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	quoi	quoi	PRON	_	PRON__PronType=Rel	1	nmod	_	_
+4	que	que	PRON	_	PRON__PronType=Rel	6	obj	_	_
+5	vous	se	PRON	_	PRON__Number=Plur|Person=2	6	nsubj	_	_
+6	décidiez	décider	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7	(	(	PUNCT	_	PUNCT___	6	punct	_	_
+8	maintenant	maintenir	ADV	_	ADV___	6	advmod	_	_
+9	ou	ou	CCONJ	_	CCONJ___	10	cc	_	_
+10	attendre	attendre	VERB	_	VERB__VerbForm=Inf	6	conj	_	_
+
+
+#) les biens immo sont soumis à la legislation du lieu de l'immeuble.
+1	)	)	PUNCT	_	PUNCT___	1	punct	_	_
+2	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+3	biens	bien	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	nsubj:pass	_	_
+4	immo	immo	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	amod	_	_
+5	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	soumis	soumettre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	0	ROOT	_	_
+7	à	à	ADP	_	ADP___	6	case	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+9	legislation	legislation	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obl	_	_
+10	du	du	DET	_	DET__Gender=Masc|Number=Sing	6	det	_	_
+11	lieu	lieu	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	nmod	_	_
+12	de	de	ADP	_	ADP___	13	case	_	_
+13	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+14	immeuble	immeuble	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+15	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#C'est en Espagne que vous devez vous renseigner.
+1	C'	C'	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	en	en	ADP	_	ADP___	1	case	_	_
+4	Espagne	Espagne	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+5	que	que	SCONJ	_	SCONJ___	6	obj	_	_
+6	vous	se	PRON	_	PRON__Number=Plur|Person=2	3	nsubj	_	_
+7	devez	devoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	aux	_	_
+8	vous	se	PRON	_	PRON__Number=Plur|Person=2	6	expl	_	_
+9	renseigner	renseigner	VERB	_	VERB__VerbForm=Inf	10	acl:relcl	_	_
+10	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Quand vous dites qu'il ne l'a jamais déclarée, c'est au fisc français.
+1	Quand	Quand	SCONJ	_	SCONJ___	1	mark	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+3	dites	dit	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	qu'	que	SCONJ	_	SCONJ___	6	mark	_	_
+5	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+6	ne	ne	ADV	_	ADV___	3	advmod	_	_
+7	l'	le	PRON	_	PRON__Number=Sing|Person=3	6	obj	_	_
+8	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+9	jamais	jamais	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+10	déclarée	déclarer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	advcl	_	_
+11	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+12	c'	ce	PRON	_	PRON__Number=Sing|Person=3	13	nsubj	_	_
+13	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+14	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	13	det	_	_
+15	fisc	fisc	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obl	_	_
+16	français	français	ADJ	_	ADJ__Gender=Masc	16	amod	_	_
+17	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Le bien lui-même n'est taxable qu'en Espagne (il paye la contribution foncière et municipale)
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	bien	bien	ADV	_	ADV___	1	nsubj	_	_
+3	lui-même	lui-même	PRON	_	PRON__PronType=Rel	1	nummod	_	_
+4	n'	ne	ADV	_	ADV___	6	advmod	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	taxable	taxable	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+7	qu'	que	SCONJ	_	SCONJ___	6	mark	_	_
+8	en	en	ADP	_	ADP___	6	case	_	_
+9	Espagne	Espagne	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obl	_	_
+10	(	(	PUNCT	_	PUNCT___	6	punct	_	_
+11	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	16	nsubj	_	_
+12	paye	payer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	parataxis	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+14	contribution	contribution	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obj	_	_
+15	foncière	foncier	ADJ	_	ADJ__Gender=Fem|Number=Sing	16	amod	_	_
+16	et	et	CCONJ	_	CCONJ___	16	cc	_	_
+17	municipale	municipal	ADJ	_	ADJ__Gender=Fem|Number=Sing	19	conj	_	_
+18	)	)	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#BonjourSes revenus sont pourtant déclarables, même si en général du fait des conventions non taxables, au fisc francais;.
+1	BonjourSes	BonjourSes	DET	_	DET__Gender=Fem|Number=Sing	5	nsubj	_	_
+2	revenus	revenu	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	acl	_	_
+3	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	pourtant	pourtant	ADV	_	ADV___	5	advmod	_	_
+5	déclarables	déclarables	ADJ	_	ADJ__Number=Plur	0	ROOT	_	_
+6	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+7	même	même	ADV	_	ADV___	12	advmod	_	_
+8	si	si	SCONJ	_	SCONJ___	7	fixed	_	_
+9	en	en	ADP	_	ADP___	12	nsubj	_	_
+10	général	général	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	fixed	_	_
+11	du	du	DET	_	DET__Gender=Masc|Number=Sing	12	obj	_	_
+12	fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	advcl	_	_
+13	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
+14	conventions	convention	NOUN	_	NOUN__Gender=Fem|Number=Plur	12	obj	_	_
+15	non	non	ADV	_	ADV___	16	advmod	_	_
+16	taxables	taxable	ADJ	_	ADJ__Gender=Fem|Number=Plur	14	amod	_	_
+17	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+18	au	au	PRON	_	PRON__PronType=Rel	19	det	_	_
+19	fisc	fisc	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	conj	_	_
+20	francais;.	francais;.	ADJ	_	ADJ__Gender=Masc|Number=Sing	14	amod	_	_
+
+
+#Non, il ne faut pas penser d'après "qui" est imposé (qui est sujet passif de l'impot), mais d'après la chose imposable.
+1	Non	Non	ADV	_	ADV___	5	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+3	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+4	ne	ne	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+5	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	pas	pas	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+7	penser	penser	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+8	d'	de	ADP	_	ADP___	14	mark	_	_
+9	après	après	ADP	_	ADP___	8	fixed	_	_
+10	"	"	PUNCT	_	PUNCT___	8	punct	_	_
+11	qui	qui	PRON	_	PRON__PronType=Rel	14	nsubj:pass	_	_
+12	"	"	PUNCT	_	PUNCT___	14	punct	_	_
+13	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
+14	imposé	imposer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	obl	_	_
+15	(	(	PUNCT	_	PUNCT___	14	punct	_	_
+16	qui	qui	PRON	_	PRON__PronType=Rel	19	nsubj	_	_
+17	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+18	sujet	sujet	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	advmod	_	_
+19	passif	passif	ADJ	_	ADJ__Gender=Masc|Number=Sing	5	ccomp	_	_
+20	de	de	ADP	_	ADP___	22	case	_	_
+21	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+22	impot	impot	NOUN	_	NOUN__Number=Sing	19	obl	_	_
+23	)	)	PUNCT	_	PUNCT___	5	punct	_	_
+24	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+25	mais	mai	CCONJ	_	CCONJ___	29	cc	_	_
+26	d'	de	ADP	_	ADP___	29	case	_	_
+27	après	après	ADP	_	ADP___	26	fixed	_	_
+28	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	chose	chose	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	conj	_	_
+30	imposable	imposable	ADJ	_	ADJ__Number=Sing	29	amod	_	_
+31	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Si la chose est un immeuble, la chose est taxée dans le pays de l'immeuble: ça vaut pour la donation, l'héritage.
+1	Si	Si	SCONJ	_	SCONJ___	5	mark	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+3	chose	chose	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nsubj	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+6	immeuble	immeuble	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	advcl	_	_
+7	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+9	chose	chose	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nsubj:pass	_	_
+10	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+11	taxée	taxer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+12	dans	dan	ADP	_	ADP___	14	case	_	_
+13	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	pays	pays	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+15	de	de	ADP	_	ADP___	14	case	_	_
+16	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+17	immeuble	immeuble	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	nmod	_	_
+18	:	:	PUNCT	_	PUNCT___	19	punct	_	_
+19	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	_
+20	vaut	valoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	parataxis	_	_
+21	pour	pour	ADP	_	ADP___	22	case	_	_
+22	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+23	donation	donation	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obl	_	_
+24	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+25	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	29	det	_	_
+26	héritage	héritage	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	obj	_	_
+27	.	.	PUNCT	_	PUNCT___	26	punct	_	_
+
+
+#Peu importe où le propriétaire réside.
+1	Peu	Peu	ADV	_	ADV___	5	advmod	_	_
+2	importe	importer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	fixed	_	_
+3	où	où	PRON	_	PRON__PronType=Rel	5	iobj	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	5	nsubj	_	_
+6	réside	résider	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Faites comme en France, allez
+1	Faites	Faites	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+2	comme	comme	ADP	_	ADP___	5	case	_	_
+3	en	en	ADP	_	ADP___	5	case	_	_
+4	France	France	PROPN	_	PROPN__Gender=Fem|Number=Sing	5	nmod	_	_
+5	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+6	allez	aller	VERB	_	VERB__Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	7	conj	_	_
+
+
+#-voir le notaire du coin, il vous renseignera lui-même sur l'avantage.
+1	-	-	PUNCT	_	PUNCT___	5	punct	_	_
+2	voir	voir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	notaire	notaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+5	du	du	DET	_	DET__Gender=Masc|Number=Sing	5	det	_	_
+6	coin	coin	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+7	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+8	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
+9	vous	se	PRON	_	PRON__Number=Plur|Person=2	8	iobj	_	_
+10	renseignera	renseigner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	parataxis	_	_
+11	lui-même	lui-même	PRON	_	PRON__PronType=Rel	14	obj	_	_
+12	sur	sur	ADP	_	ADP___	14	case	_	_
+13	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	avantage	avantager	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+15	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Et il a sans doute l'habitude, par expérience.
+1	Et	Et	CCONJ	_	CCONJ___	5	cc	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+3	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	sans	sans	ADP	_	ADP___	5	advmod	_	_
+5	doute	douter	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	fixed	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	habitude	habitude	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obj	_	_
+8	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+9	par	par	ADP	_	ADP___	8	case	_	_
+10	expérience	expérience	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+11	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#La logique des bien immeubles est très similaire en France et en Espagne, vous ne serez pas trop dépaysée.
+1	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+2	logique	logique	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nsubj	_	_
+3	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
+4	bien	bien	ADV	_	ADV___	5	advmod	_	_
+5	immeubles	immeuble	ADJ	_	ADJ__Number=Plur	5	amod	_	_
+6	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	très	très	ADV	_	ADV___	5	advmod	_	_
+8	similaire	similaire	ADJ	_	ADJ__Number=Sing	14	amod	_	_
+9	en	en	ADP	_	ADP___	8	case	_	_
+10	France	France	PROPN	_	PROPN__Gender=Fem|Number=Sing	8	obl	_	_
+11	et	et	CCONJ	_	CCONJ___	14	cc	_	_
+12	en	en	ADP	_	ADP___	14	case	_	_
+13	Espagne	Espagne	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	conj	_	_
+14	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+15	vous	se	PRON	_	PRON__Number=Plur|Person=2	14	nsubj	_	_
+16	ne	ne	ADV	_	ADV__Polarity=Neg	19	advmod	_	_
+17	serez	être	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	19	cop	_	_
+18	pas	pas	ADV	_	ADV__Polarity=Neg	19	advmod	_	_
+19	trop	trop	ADV	_	ADV___	5	advmod	_	_
+20	dépaysée	dépayser	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+21	.	.	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#Cherchez aussi des forums du gente "espagne expatriés héritage" pour lire des cas vécus.
+1	Cherchez	Cherchez	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	advmod	_	_
+2	aussi	aussi	ADV	_	ADV___	5	advmod	_	_
+3	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
+4	forums	forum	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+5	du	du	DET	_	DET__Gender=Masc|Number=Sing	5	det	_	_
+6	gente	gent	ADJ	_	ADJ__Gender=Fem|Number=Sing	7	amod	_	_
+7	"	"	PUNCT	_	PUNCT___	5	punct	_	_
+8	espagne	espagne	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advmod	_	_
+9	expatriés	expatrier	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
+10	héritage	héritage	ADV	_	ADV___	8	nmod	_	_
+11	"	"	PUNCT	_	PUNCT___	14	punct	_	_
+12	pour	pour	ADP	_	ADP___	14	mark	_	_
+13	lire	lire	VERB	_	VERB__VerbForm=Inf	14	advcl	_	_
+14	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
+15	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	obj	_	_
+16	vécus	vivre	ADJ	_	ADJ__Gender=Masc|Number=Sing	19	amod	_	_
+17	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Vous n'y serez pas la première (ni la dernière) à poser ce genre de question.cdt.
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	5	nsubj	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+3	y	yu	PRON	_	PRON__Person=3	5	iobj	_	_
+4	serez	être	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	première	premier	ADJ	_	ADJ__Gender=Fem|Number=Sing|NumType=Ord	5	obj	_	_
+8	(	(	PUNCT	_	PUNCT___	14	punct	_	_
+9	ni	ni	CCONJ	_	CCONJ___	8	cc	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+11	dernière	dernier	ADJ	_	ADJ__Gender=Fem|Number=Sing|NumType=Ord	14	conj	_	_
+12	)	)	PUNCT	_	PUNCT___	14	punct	_	_
+13	à	à	ADP	_	ADP___	14	mark	_	_
+14	poser	poser	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+15	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+16	genre	genre	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obj	_	_
+17	de	de	ADP	_	ADP___	19	case	_	_
+18	question.cdt	question.cdt	PROPN	_	PROPN___	19	obl	_	_
+19	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+

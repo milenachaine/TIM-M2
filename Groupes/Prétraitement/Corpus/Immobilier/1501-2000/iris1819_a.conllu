@@ -1,0 +1,414 @@
+#Bonjour,Renseignez vous à la mairie.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	Renseignez	Renseignez	PROPN	_	PROPN__Gender=Masc|Number=Sing	1	conj	_	_
+4	vous	se	PRON	_	PRON__Number=Plur|Person=2|Reflex=Yes	1	amod	_	_
+5	à	à	ADP	_	ADP___	7	case	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	mairie	mairie	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+8	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Il faudra probablement une DP.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	faudra	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+3	probablement	probablement	ADV	_	ADV___	1	advmod	_	_
+4	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+5	DP	DP	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+6	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Tant que vous n'y touchez pas, rien à craindre.
+1	Tant	Tant	ADV	_	ADV___	0	ROOT	_	_
+2	que	que	SCONJ	_	SCONJ___	1	fixed	_	_
+3	vous	se	PRON	_	PRON__Number=Plur|Person=2	6	nsubj	_	_
+4	n'	ne	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+5	y	yu	PRON	_	PRON__Person=3	6	expl	_	_
+6	touchez	toucher	VERB	_	VERB__VerbForm=Inf	1	fixed	_	_
+7	pas	pas	ADV	_	ADV___	6	advmod	_	_
+8	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+9	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	6	obj	_	_
+10	à	à	ADP	_	ADP___	11	mark	_	_
+11	craindre	craindre	VERB	_	VERB__VerbForm=Inf	9	acl	_	_
+12	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Si vous y touchez en la fermant, la commune pourra vous demander de régulariser la situation via le dépôt d'une déclaration préalable.
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+3	y	yu	PRON	_	PRON__Person=3	6	advmod	_	_
+4	touchez	toucher	VERB	_	VERB__VerbForm=Inf	6	fixed	_	_
+5	en	en	ADP	_	ADP___	6	case	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+7	fermant	fermer	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obl	_	_
+8	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+10	commune	commun	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nsubj	_	_
+11	pourra	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	aux	_	_
+12	vous	se	PRON	_	PRON__Number=Plur|Person=2|Reflex=Yes	1	iobj	_	_
+13	demander	demander	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+14	de	de	ADP	_	ADP___	19	mark	_	_
+15	régulariser	régulariser	VERB	_	VERB__VerbForm=Inf	19	xcomp	_	_
+16	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+17	situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obj	_	_
+18	via	via	ADP	_	ADP___	19	case	_	_
+19	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+20	dépôt	dépôt	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	nmod	_	_
+21	d'	de	ADP	_	ADP___	22	case	_	_
+22	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+23	déclaration	déclaration	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	nmod	_	_
+24	préalable	préalable	ADJ	_	ADJ__Number=Sing	25	amod	_	_
+25	.	.	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#S'il n'est pas au cadastre, les impôts ne doivent pas le connaître.
+1	S'	S'	SCONJ	_	SCONJ___	1	mark	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+3	n'	ne	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+6	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	advmod	_	_
+7	cadastre	cadastre	VERB	_	VERB__VerbForm=Inf	6	advcl	_	_
+8	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+9	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	6	det	_	_
+10	impôts	impôt	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	nsubj	_	_
+11	ne	ne	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+12	doivent	devoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+13	pas	pas	ADV	_	ADV__Polarity=Neg	19	advmod	_	_
+14	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	19	det	_	_
+15	connaître	connaître	VERB	_	VERB__VerbForm=Inf	19	obj	_	_
+16	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Aussi, une régularisation de leur part peut arriver.
+1	Aussi	Aussi	ADV	_	ADV___	1	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+4	régularisation	régularisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nsubj	_	_
+5	de	de	ADP	_	ADP___	6	case	_	_
+6	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+7	part	partir	NOUN	_	NOUN__Number=Sing	6	nmod	_	_
+8	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+9	arriver	avoir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+10	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Aussi, vous avez trois choix mais peut-être que d'autres intervenants en verront d'autres:- Laisser en l'état et risquer une régularisation des impôts un jour ou l'autre sachant que l'abri ne pourra être démoli- Déposer une DP en précisant que la construction existe et que vous voulez la fermer et  la voir refuser avec demande des impôts pour régulariser ou bien accepter régularisation des impôts aussi-
+1	Aussi	Aussi	ADV	_	ADV___	1	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	vous	se	PRON	_	PRON__Number=Plur|Person=2	6	nsubj	_	_
+4	avez	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	trois	trois	NUM	_	NUM__NumType=Card	6	nummod	_	_
+6	choix	choix	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	obj	_	_
+7	mais	mai	CCONJ	_	CCONJ___	6	cc	_	_
+8	peut-être	peut-être	ADV	_	ADV___	6	advmod	_	_
+9	que	que	SCONJ	_	SCONJ___	6	mark	_	_
+10	d'	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
+11	autres	autre	ADJ	_	ADJ__Number=Plur	9	fixed	_	_
+12	intervenants	intervenant	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	nsubj	_	_
+13	en	en	ADP	_	ADP___	19	case	_	_
+14	verront	voir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	19	fixed	_	_
+15	d'	de	ADP	_	ADP___	19	case	_	_
+16	autres:-	autres:-	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	nmod	_	_
+17	Laisser	Laisser	VERB	_	VERB__VerbForm=Inf	19	conj	_	_
+18	en	en	ADP	_	ADP___	19	case	_	_
+19	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+20	état	état	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	obl	_	_
+21	et	et	CCONJ	_	CCONJ___	22	cc	_	_
+22	risquer	risquer	VERB	_	VERB__VerbForm=Inf	25	conj	_	_
+23	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+24	régularisation	régularisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	obj	_	_
+25	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	25	det	_	_
+26	impôts	impôt	NOUN	_	NOUN__Gender=Masc|Number=Plur	27	obj	_	_
+27	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+28	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	obj	_	_
+29	ou	ou	CCONJ	_	CCONJ___	27	cc	_	_
+30	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	32	det	_	_
+31	autre	autre	PRON	_	PRON__Number=Sing|PronType=Rel	32	conj	_	_
+32	sachant	savoir	VERB	_	VERB__Tense=Pres|VerbForm=Part	29	acl	_	_
+33	que	que	SCONJ	_	SCONJ___	35	mark	_	_
+34	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	35	det	_	_
+35	abri	abri	NOUN	_	NOUN__Gender=Masc|Number=Sing	32	nsubj	_	_
+36	ne	ne	ADV	_	ADV___	35	advmod	_	_
+37	pourra	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	25	ccomp	_	_
+38	être	être	AUX	_	AUX__VerbForm=Inf	44	aux:pass	_	_
+39	démoli-	démoli-	ADP	_	ADP___	44	advmod	_	_
+40	Déposer	Déposer	VERB	_	VERB__VerbForm=Inf	44	xcomp	_	_
+41	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+42	DP	DP	NOUN	_	NOUN__Gender=Fem|Number=Sing	43	obj	_	_
+43	en	en	ADP	_	ADP___	44	iobj	_	_
+44	précisant	préciser	VERB	_	VERB__Tense=Pres|VerbForm=Part	49	advcl	_	_
+45	que	que	SCONJ	_	SCONJ___	49	mark	_	_
+46	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
+47	construction	construction	NOUN	_	NOUN__Gender=Fem|Number=Sing	49	nsubj	_	_
+48	existe	exister	ADJ	_	ADJ__Gender=Fem|Number=Sing	49	ccomp	_	_
+49	et	et	CCONJ	_	CCONJ___	49	cc	_	_
+50	que	que	SCONJ	_	SCONJ___	49	mark	_	_
+51	vous	se	PRON	_	PRON__Number=Plur|Person=2	52	nsubj	_	_
+52	voulez	vouloir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	49	conj	_	_
+53	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
+54	fermer	fermer	VERB	_	VERB__VerbForm=Inf	62	obj	_	_
+55	et	et	CCONJ	_	CCONJ___	62	cc	_	_
+56	 	 	SPACE	_		57		_	_
+57	la	le	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	62	det	_	_
+58	voir	voir	VERB	_	VERB__VerbForm=Inf	60	conj	_	_
+59	refuser	refuser	VERB	_	VERB__VerbForm=Inf	60	xcomp	_	_
+60	avec	avec	ADP	_	ADP___	57	case	_	_
+61	demande	demander	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	62	obl	_	_
+62	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	62	det	_	_
+63	impôts	impôt	NOUN	_	NOUN__Gender=Masc|Number=Plur	62	obj	_	_
+64	pour	pour	ADP	_	ADP___	67	mark	_	_
+65	régulariser	régulariser	VERB	_	VERB__VerbForm=Inf	67	advcl	_	_
+66	ou	ou	CCONJ	_	CCONJ___	67	cc	_	_
+67	bien	bien	ADV	_	ADV___	67	advmod	_	_
+68	accepter	accepter	VERB	_	VERB__VerbForm=Inf	69	aux	_	_
+69	régularisation	régularisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	67	xcomp	_	_
+70	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	80	det	_	_
+71	impôts	impôt	NOUN	_	NOUN__Gender=Masc|Number=Plur	70	obj	_	_
+72	aussi-	aussi-	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	80	amod	_	_
+
+
+#Déposer une DP en précisant que la construction n'existe pas et soit la voir autoriser donc peu d'impôts à payer, soit la voir refuser => risque de demande de démolition de la part de la commune avec régularisation des impôts.
+1	Déposer	Déposer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+2	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+3	DP	DP	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obj	_	_
+4	en	en	ADP	_	ADP___	6	iobj	_	_
+5	précisant	préciser	VERB	_	VERB__Tense=Pres|VerbForm=Part	6	advcl	_	_
+6	que	que	SCONJ	_	SCONJ___	1	mark	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+8	construction	construction	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nsubj	_	_
+9	n'	ne	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+10	existe	exister	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+11	pas	pas	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+12	et	et	CCONJ	_	CCONJ___	1	cc	_	_
+13	soit	être	CCONJ	_	CCONJ___	19	cc	_	_
+14	la	le	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	19	obj	_	_
+15	voir	voir	VERB	_	VERB__VerbForm=Inf	19	conj	_	_
+16	autoriser	autoriser	VERB	_	VERB__VerbForm=Inf	15	xcomp	_	_
+17	donc	donc	ADV	_	ADV___	19	advmod	_	_
+18	peu	peu	ADV	_	ADV___	19	det	_	_
+19	d'	de	ADP	_	ADP___	25	fixed	_	_
+20	impôts	impôt	NOUN	_	NOUN__Gender=Masc|Number=Plur	25	obl	_	_
+21	à	à	ADP	_	ADP___	22	mark	_	_
+22	payer	payer	VERB	_	VERB__VerbForm=Inf	25	xcomp	_	_
+23	,	,	PUNCT	_	PUNCT___	25	punct	_	_
+24	soit	être	CCONJ	_	CCONJ___	25	cc	_	_
+25	la	le	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	25	det	_	_
+26	voir	voir	VERB	_	VERB__VerbForm=Inf	27	conj	_	_
+27	refuser	refuser	VERB	_	VERB__VerbForm=Inf	25	xcomp	_	_
+28	=	=	VERB	_	VERB__Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	29	amod	_	_
+29	>	>	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	27	obj	_	_
+30	risque	risquer	NOUN	_	NOUN__Gender=Masc|Number=Sing	32	obj	_	_
+31	de	de	ADP	_	ADP___	32	case	_	_
+32	demande	demander	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	nmod	_	_
+33	de	de	ADP	_	ADP___	35	case	_	_
+34	démolition	démolition	NOUN	_	NOUN__Gender=Fem|Number=Sing	35	nmod	_	_
+35	de	de	ADP	_	ADP___	32	case	_	_
+36	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	fixed	_	_
+37	part	partir	NOUN	_	NOUN__Number=Sing	25	fixed	_	_
+38	de	de	ADP	_	ADP___	44	fixed	_	_
+39	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+40	commune	commun	NOUN	_	NOUN__Gender=Fem|Number=Sing	44	nmod	_	_
+41	avec	avec	ADP	_	ADP___	44	case	_	_
+42	régularisation	régularisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	43	obl	_	_
+43	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	44	det	_	_
+44	impôts	impôt	NOUN	_	NOUN__Gender=Masc|Number=Plur	49	obj	_	_
+45	.	.	PUNCT	_	PUNCT___	49	punct	_	_
+
+
+#Je ne vous conseille pas cette option car elle vous obligerait à faire de fausses déclaration.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ne	ne	ADV	_	ADV___	1	advmod	_	_
+3	vous	se	PRON	_	PRON__Number=Plur|Person=2	6	iobj	_	_
+4	conseille	conseiller	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+6	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	1	det	_	_
+7	option	option	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obj	_	_
+8	car	car	CCONJ	_	CCONJ___	6	cc	_	_
+9	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	6	nsubj	_	_
+10	vous	se	PRON	_	PRON__Number=Plur|Person=2	11	iobj	_	_
+11	obligerait	obliger	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	conj	_	_
+12	à	à	ADP	_	ADP___	1	mark	_	_
+13	faire	faire	VERB	_	VERB__VerbForm=Inf	19	xcomp	_	_
+14	de	de	ADP	_	ADP___	19	case	_	_
+15	fausses	faux	ADJ	_	ADJ__Gender=Fem|Number=Plur	19	amod	_	_
+16	déclaration	déclaration	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obj	_	_
+17	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Elle est illégale.
+1	Elle	Elle	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	1	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	illégale	illégal	ADJ	_	ADJ__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#la régul fiscale sera très faible pour un simple abri, voire nulle... et elle ne portera que sur les trois dernières années.il y a donc intérêt à déclarer des travaux sur construction existante depuis plus de 10 ans.
+1	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	régul	régul	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nsubj	_	_
+3	fiscale	fiscal	ADJ	_	ADJ__Gender=Fem|Number=Sing	2	amod	_	_
+4	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	cop	_	_
+5	très	très	ADV	_	ADV___	6	advmod	_	_
+6	faible	faible	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+7	pour	pour	ADP	_	ADP___	10	case	_	_
+8	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	simple	simple	ADJ	_	ADJ__Number=Sing	10	amod	_	_
+10	abri	abri	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obl	_	_
+11	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+12	voire	voire	CCONJ	_	CCONJ___	13	cc	_	_
+13	nulle	nul	ADJ	_	ADJ__Gender=Fem|Number=Sing	6	conj	_	_
+14	...	...	PUNCT	_	PUNCT___	6	punct	_	_
+15	et	et	CCONJ	_	CCONJ___	18	cc	_	_
+16	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	18	nsubj	_	_
+17	ne	ne	ADV	_	ADV__Polarity=Neg	18	advmod	_	_
+18	portera	porter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	conj	_	_
+19	que	que	ADV	_	ADV___	26	mark	_	_
+20	sur	sur	ADP	_	ADP___	23	case	_	_
+21	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	23	det	_	_
+22	trois	trois	NUM	_	NUM__NumType=Card	23	nummod	_	_
+23	dernières	dernier	NOUN	_	NOUN__Gender=Masc|Number=Plur	26	det	_	_
+24	années.il	années.il	ADJ	_	ADJ__Gender=Masc|Number=Sing	23	nmod	_	_
+25	y	yu	PRON	_	PRON__Person=3	23	fixed	_	_
+26	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+27	donc	donc	ADV	_	ADV___	28	advmod	_	_
+28	intérêt	intérêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obj	_	_
+29	à	à	ADP	_	ADP___	30	mark	_	_
+30	déclarer	déclarer	VERB	_	VERB__VerbForm=Inf	28	xcomp	_	_
+31	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	32	det	_	_
+32	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	30	obj	_	_
+33	sur	sur	ADP	_	ADP___	34	case	_	_
+34	construction	construction	NOUN	_	NOUN__Gender=Fem|Number=Sing	32	nmod	_	_
+35	existante	existant	ADJ	_	ADJ__Gender=Fem|Number=Sing	32	amod	_	_
+36	depuis	depuis	ADP	_	ADP___	40	case	_	_
+37	plus	plaire	ADV	_	ADV___	40	advmod	_	_
+38	de	de	ADP	_	ADP___	40	dep	_	_
+39	10	10	NUM	_	NUM__NumType=Card	40	nummod	_	_
+40	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	35	obl	_	_
+41	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Je me demande en quoi le fait de fermer une construction existante changerai la donne .
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+2	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	3	expl	_	_
+3	demande	demander	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	en	en	ADP	_	ADP___	5	case	_	_
+5	quoi	quoi	PRON	_	PRON__PronType=Rel	3	obl	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obj	_	_
+8	de	de	ADP	_	ADP___	9	mark	_	_
+9	fermer	fermer	VERB	_	VERB__VerbForm=Inf	7	acl	_	_
+10	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	construction	construction	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obj	_	_
+12	existante	existant	ADJ	_	ADJ__Gender=Fem|Number=Sing	11	amod	_	_
+13	changerai	changer	ADJ	_	ADJ__Gender=Masc|Number=Sing	11	amod	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	obj	_	_
+15	donne	donner	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obj	_	_
+16	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Par rapport à quoi ?
+1	Par	Par	ADP	_	ADP___	4	case	_	_
+2	rapport	rapport	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	fixed	_	_
+3	à	à	ADP	_	ADP___	1	fixed	_	_
+4	quoi	quoi	PRON	_	PRON__PronType=Int	0	ROOT	_	_
+5	?	?	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#matraquer ?
+1	matraquer	matraquer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+2	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#la fermeture de l'auvent ne provoque pas une régularisation fiscale ;
+1	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	fermeture	fermeture	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+3	de	de	ADP	_	ADP___	4	case	_	_
+4	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+5	auvent	auvent	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+6	ne	ne	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+7	provoque	provoquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	pas	pas	ADV	_	ADV___	9	advmod	_	_
+9	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+10	régularisation	régularisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obj	_	_
+11	fiscale	fiscal	ADJ	_	ADJ__Gender=Fem|Number=Sing	12	amod	_	_
+12	;	;	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#c'est la déclaration de son existence qui va le fairesa fermeture engendre une augmentation éventuelle de cette note fiscale, ce qui est parfaitement différent
+1	c'	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	déclaration	déclaration	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+5	de	de	ADP	_	ADP___	7	case	_	_
+6	son	son	DET	_	DET__Number=Sing|Poss=Yes	7	nmod:poss	_	_
+7	existence	existence	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+8	qui	qui	PRON	_	PRON__PronType=Rel	9	nsubj	_	_
+9	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+10	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+11	fairesa	fairesa	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+12	fermeture	fermeture	ADJ	_	ADJ__Number=Sing	9	amod	_	_
+13	engendre	engendrer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	xcomp	_	_
+14	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+15	augmentation	augmentation	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	obj	_	_
+16	éventuelle	éventuel	ADJ	_	ADJ__Gender=Fem|Number=Sing	18	amod	_	_
+17	de	de	ADP	_	ADP___	18	case	_	_
+18	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	18	det	_	_
+19	note	noter	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	nmod	_	_
+20	fiscale	fiscal	ADJ	_	ADJ__Gender=Fem|Number=Sing	21	amod	_	_
+21	,	,	PUNCT	_	PUNCT___	18	punct	_	_
+22	ce	ce	PRON	_	PRON__PronType=Rel	23	iobj	_	_
+23	qui	qui	PRON	_	PRON__PronType=Rel	18	nsubj	_	_
+24	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
+25	parfaitement	parfaitement	ADV	_	ADV___	23	advmod	_	_
+26	différent	différent	ADV	_	ADV___	25	advmod	_	_
+
+
+#Aux impots.
+1	Aux	Aux	DET	_	DET__Gender=Fem|Number=Sing	2	advmod	_	_
+2	impots	impots	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+3	.	.	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#Oui, les journalistes ont plein de bonnes idées pour vendre leurs oeuvres...
+1	Oui	Oui	PROPN	_	PROPN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+3	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+4	journalistes	journaliste	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	nsubj	_	_
+5	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	plein	plein	ADJ	_	ADJ__Gender=Masc|Number=Sing	9	amod	_	_
+7	de	de	ADP	_	ADP___	9	det	_	_
+8	bonnes	bonne	ADJ	_	ADJ__Gender=Fem|Number=Plur	9	amod	_	_
+9	idées	idée	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	amod	_	_
+10	pour	pour	ADP	_	ADP___	11	mark	_	_
+11	vendre	vendre	VERB	_	VERB__VerbForm=Inf	1	advcl	_	_
+12	leurs	leur	DET	_	DET__Number=Plur|Poss=Yes	13	nmod:poss	_	_
+13	oeuvres	oeuvrer	NOUN	_	NOUN__Gender=Fem|Number=Plur	11	obj	_	_
+14	...	...	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Et pour avoir du concret, il y a plein de simulateurs pour calculer la taxe selon la commune et la surface.
+1	Et	Et	CCONJ	_	CCONJ___	1	cc	_	_
+2	pour	pour	ADP	_	ADP___	6	mark	_	_
+3	avoir	avoir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	du	du	DET	_	DET__Gender=Masc|Number=Sing	6	det	_	_
+5	concret	concret	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+6	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+7	il	il	PRON	_	PRON__Number=Sing|Person=3	9	case	_	_
+8	y	yu	PRON	_	PRON__Person=3	9	fixed	_	_
+9	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	fixed	_	_
+10	plein	plein	ADJ	_	ADJ__Gender=Masc|Number=Sing	11	amod	_	_
+11	de	de	ADP	_	ADP___	1	det	_	_
+12	simulateurs	simulateur	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	conj	_	_
+13	pour	pour	ADP	_	ADP___	11	mark	_	_
+14	calculer	calculer	VERB	_	VERB__VerbForm=Inf	1	advcl	_	_
+15	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	taxe	taxer	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	obj	_	_
+17	selon	selon	ADP	_	ADP___	17	case	_	_
+18	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	commune	commun	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	obl	_	_
+20	et	et	CCONJ	_	CCONJ___	26	cc	_	_
+21	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+22	surface	surface	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	conj	_	_
+23	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
