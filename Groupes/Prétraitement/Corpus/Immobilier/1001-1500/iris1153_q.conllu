@@ -1,0 +1,857 @@
+#Bonjour,Je viens vers vous aujourd'hui afin d'avoir votre avis expert avant d'entamer toute démarche.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	Je	Je	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+4	viens	venir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	acl	_	_
+5	vers	ver	ADP	_	ADP___	6	case	_	_
+6	vous	se	PRON	_	PRON__Number=Plur|Person=2	4	obl	_	_
+7	aujourd'hui	aujourd'huie	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	obl	_	_
+8	afin	afin	ADP	_	ADP___	10	mark	_	_
+9	d'	de	ADP	_	ADP___	8	fixed	_	_
+10	avoir	avoir	VERB	_	VERB__VerbForm=Inf	4	advcl	_	_
+11	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	12	nmod:poss	_	_
+12	avis	avis	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+13	expert	expert	ADJ	_	ADJ__Gender=Masc|Number=Sing	10	acl	_	_
+14	avant	avant	ADP	_	ADP___	16	mark	_	_
+15	d'	de	ADP	_	ADP___	14	fixed	_	_
+16	entamer	entamer	VERB	_	VERB__VerbForm=Inf	13	advcl	_	_
+17	toute	tout	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	démarche	démarcher	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obj	_	_
+19	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Voici notre problème :
+1	Voici	Voici	VERB	_	VERB__Mood=Ind|VerbForm=Fin	0	ROOT	_	_
+2	notre	notre	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+3	problème	problème	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obj	_	_
+4	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Depuis  quelques jours, j'avais l'impression de sentir une odeur désagréable de  moisissure dans le couloir du fond de la maison dont nous sommes  locataires depuis le mois d'avril dernier.
+1	Depuis	Depuis	ADP	_	ADP___	1	case	_	_
+2	 	 	SPACE	_		4		_	_
+3	quelques	quelque	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
+4	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	obl	_	_
+5	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+6	j'	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+7	avais	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+9	impression	impression	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+10	de	de	ADP	_	ADP___	4	mark	_	_
+11	sentir	sentir	VERB	_	VERB__VerbForm=Inf	12	xcomp	_	_
+12	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+13	odeur	odeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obj	_	_
+14	désagréable	désagréable	ADJ	_	ADJ__Number=Sing	16	amod	_	_
+15	de	de	ADP	_	ADP___	14	mark	_	_
+16	 	 	SPACE	_		13		_	_
+17	moisissure	moisissure	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	xcomp	_	_
+18	dans	dan	ADP	_	ADP___	16	case	_	_
+19	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+20	couloir	couloir	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obl	_	_
+21	du	du	DET	_	DET__Gender=Masc|Number=Sing	22	det	_	_
+22	fond	fondre	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obj	_	_
+23	de	de	ADP	_	ADP___	20	case	_	_
+24	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+25	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	nmod	_	_
+26	dont	dont	PRON	_	PRON__PronType=Rel	27	iobj	_	_
+27	nous	se	PRON	_	PRON__Number=Plur|Person=1	30	nsubj	_	_
+28	sommes	sommer	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	30	cop	_	_
+29	 	 	SPACE	_		30		_	_
+30	locataires	locataire	NOUN	_	NOUN__Number=Plur	30	acl:relcl	_	_
+31	depuis	depuis	ADP	_	ADP___	32	case	_	_
+32	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+33	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Sing	34	obl	_	_
+34	d'	de	ADP	_	ADP___	30	case	_	_
+35	avril	avril	NOUN	_	NOUN__Gender=Masc|Number=Sing	36	nmod	_	_
+36	dernier	dernier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	34	amod	_	_
+37	.	.	PUNCT	_	PUNCT___	36	punct	_	_
+
+
+#Ce couloir donne accès aux  chambres, au garage et à la salle de bain.
+1	Ce	Ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	1	nsubj	_	_
+2	couloir	couloir	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	aux	_	_
+3	donne	donner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	accès	accès	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+5	aux	aux	ADJ	_	ADJ___	6	obl	_	_
+6	 	 	SPACE	_		4		_	_
+7	chambres	chambrer	NOUN	_	NOUN__Gender=Fem|Number=Plur	4	amod	_	_
+8	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+9	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+10	garage	garage	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	conj	_	_
+11	et	et	CCONJ	_	CCONJ___	12	cc	_	_
+12	à	à	ADP	_	ADP___	10	case	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+14	salle	salle	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	conj	_	_
+15	de	de	ADP	_	ADP___	14	case	_	_
+16	bain	bain	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+17	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Comme nous aérons  toujours très bien toutes les pièces de la maison (et plus  particulièrement la salle de bain) afin d'éviter tout problème  d'humidité, je ne voyais pas d'où cette odeur pouvait provenir, d'autant  plus qu'il n'y a aucune trace de moisissure dans la salle de bain, ni  nulle part ailleurs.
+1	Comme	Comme	SCONJ	_	SCONJ___	1	mark	_	_
+2	nous	se	PRON	_	PRON__Number=Plur|Person=1	4	nsubj	_	_
+3	aérons	aérer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	 	 	SPACE	_		1		_	_
+5	toujours	toujours	ADV	_	ADV___	6	advmod	_	_
+6	très	très	ADV	_	ADV___	4	advmod	_	_
+7	bien	bien	ADV	_	ADV___	4	advmod	_	_
+8	toutes	toute	ADJ	_	ADJ__Gender=Fem|Number=Plur	10	amod	_	_
+9	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+10	pièces	pièce	NOUN	_	NOUN__Gender=Fem|Number=Plur	4	obj	_	_
+11	de	de	ADP	_	ADP___	12	case	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+13	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+14	(	(	PUNCT	_	PUNCT___	16	punct	_	_
+15	et	et	CCONJ	_	CCONJ___	14	cc	_	_
+16	plus	plaire	ADV	_	ADV___	13	advmod	_	_
+17	 	 	SPACE	_		18		_	_
+18	particulièrement	particulièrement	ADV	_	ADV___	16	advmod	_	_
+19	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+20	salle	salle	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	conj	_	_
+21	de	de	ADP	_	ADP___	22	case	_	_
+22	bain	bain	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	nmod	_	_
+23	)	)	PUNCT	_	PUNCT___	20	punct	_	_
+24	afin	afin	ADP	_	ADP___	27	mark	_	_
+25	d'	de	ADP	_	ADP___	24	fixed	_	_
+26	éviter	éviter	VERB	_	VERB__VerbForm=Inf	27	advcl	_	_
+27	tout	tout	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+28	problème	problème	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	obj	_	_
+29	 	 	SPACE	_		30		_	_
+30	d'	de	ADP	_	ADP___	30	case	_	_
+31	humidité	humidité	NOUN	_	NOUN__Gender=Fem|Number=Sing	32	nmod	_	_
+32	,	,	PUNCT	_	PUNCT___	30	punct	_	_
+33	je	il	PRON	_	PRON__Number=Sing|Person=1	34	nsubj	_	_
+34	ne	ne	ADV	_	ADV__Polarity=Neg	30	advmod	_	_
+35	voyais	voir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	36	acl	_	_
+36	pas	pas	ADV	_	ADV__Polarity=Neg	34	advmod	_	_
+37	d'	de	ADP	_	ADP___	36	mark	_	_
+38	où	où	PRON	_	PRON__PronType=Rel	40	iobj	_	_
+39	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	38	det	_	_
+40	odeur	odeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	34	nsubj	_	_
+41	pouvait	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	43	aux	_	_
+42	provenir	provenir	VERB	_	VERB__VerbForm=Inf	43	xcomp	_	_
+43	,	,	PUNCT	_	PUNCT___	34	punct	_	_
+44	d'	de	ADP	_	ADP___	45	mark	_	_
+45	autant	autant	ADV	_	ADV___	43	fixed	_	_
+46	 	 	SPACE	_		48		_	_
+47	plus	plaire	ADV	_	ADV___	48	fixed	_	_
+48	qu'	que	SCONJ	_	SCONJ___	45	fixed	_	_
+49	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	53	nsubj	_	_
+50	n'	ne	ADV	_	ADV__Polarity=Neg	53	advmod	_	_
+51	y	yu	PRON	_	PRON__Person=3	53	expl	_	_
+52	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	51	advcl	_	_
+53	aucune	aucun	DET	_	DET__Gender=Fem|Number=Sing	48	det	_	_
+54	trace	tracer	NOUN	_	NOUN__Gender=Fem|Number=Sing	56	obj	_	_
+55	de	de	ADP	_	ADP___	56	case	_	_
+56	moisissure	moisissure	NOUN	_	NOUN__Gender=Fem|Number=Sing	53	nmod	_	_
+57	dans	dan	ADP	_	ADP___	58	case	_	_
+58	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	56	det	_	_
+59	salle	salle	NOUN	_	NOUN__Gender=Fem|Number=Sing	58	obl	_	_
+60	de	de	ADP	_	ADP___	30	case	_	_
+61	bain	bain	NOUN	_	NOUN__Gender=Masc|Number=Sing	63	nmod	_	_
+62	,	,	PUNCT	_	PUNCT___	63	punct	_	_
+63	ni	ni	CCONJ	_	CCONJ___	63	cc	_	_
+64	 	 	SPACE	_		63		_	_
+65	nulle	nul	ADJ	_	ADJ__Gender=Fem|Number=Sing	63	advmod	_	_
+66	part	partir	NOUN	_	NOUN__Number=Sing	65	conj	_	_
+67	ailleurs	ailleurs	ADV	_	ADV___	63	fixed	_	_
+68	.	.	PUNCT	_	PUNCT___	70	punct	_	_
+
+
+#Ce matin, au réveil, encore cette odeur désagréable.
+1	Ce	Ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	1	det	_	_
+2	matin	matin	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	det	_	_
+5	réveil	réveil	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+6	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+7	encore	encore	ADV	_	ADV___	4	advmod	_	_
+8	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+9	odeur	odeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	conj	_	_
+10	désagréable	désagréable	ADJ	_	ADJ__Number=Sing	4	amod	_	_
+11	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Nous  avons une étagère dans ce couloir.
+1	Nous	Nous	PRON	_	PRON__Number=Plur|Person=1	1	nsubj	_	_
+2	 	 	SPACE	_		4		_	_
+3	avons	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+5	étagère	étagère	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obj	_	_
+6	dans	dan	ADP	_	ADP___	4	case	_	_
+7	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+8	couloir	couloir	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obl	_	_
+9	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Celle-ci se situe pile-poil contre  le mur qui se trouve juste derrière la cabine de douche...
+1	Celle-ci	Celle-ci	PRON	_	PRON__Gender=Fem|Number=Sing|PronType=Dem	1	nsubj	_	_
+2	se	se	PRON	_	PRON__Person=3|Reflex=Yes	4	expl	_	_
+3	situe	situer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	pile-poil	pile-poil	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	obj	_	_
+5	contre	contrer	ADP	_	ADP___	6	case	_	_
+6	 	 	SPACE	_		4		_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+8	mur	mur	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obl	_	_
+9	qui	qui	PRON	_	PRON__PronType=Rel	8	nsubj	_	_
+10	se	se	PRON	_	PRON__Person=3|Reflex=Yes	4	expl	_	_
+11	trouve	trouver	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+12	juste	juste	ADV	_	ADV___	10	advmod	_	_
+13	derrière	derrière	ADP	_	ADP___	10	case	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	cabine	cabine	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obl	_	_
+16	de	de	ADP	_	ADP___	13	case	_	_
+17	douche	doucher	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	nmod	_	_
+18	...	...	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#J'ai une  illumination du petit matin (très petit matin, parce que mon fils m'a  levée à 5h !)  : je pousse l'étagère, juste pour voir, parce que c'est de là que  semble venir l'odeur de moisi et parce que c'est le seul endroit où je  n'ai pas encore regardé.
+1	J'	J'	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ai	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	 	 	SPACE	_		1		_	_
+5	illumination	illumination	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obj	_	_
+6	du	du	DET	_	DET__Gender=Masc|Number=Sing	4	det	_	_
+7	petit	petit	ADJ	_	ADJ__Gender=Masc|Number=Sing	4	amod	_	_
+8	matin	matin	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+9	(	(	PUNCT	_	PUNCT___	8	punct	_	_
+10	très	très	ADV	_	ADV___	4	det	_	_
+11	petit	petit	ADJ	_	ADJ__Gender=Masc|Number=Sing	12	amod	_	_
+12	matin	matin	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obl	_	_
+13	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+14	parce	parce	SCONJ	_	SCONJ___	16	mark	_	_
+15	que	que	SCONJ	_	SCONJ___	14	fixed	_	_
+16	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	13	nmod:poss	_	_
+17	fils	fil	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nsubj	_	_
+18	m'	se	PRON	_	PRON__Number=Sing|Person=1	16	obj	_	_
+19	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+20	 	 	SPACE	_		20		_	_
+21	levée	lever	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	advcl	_	_
+22	à	à	ADP	_	ADP___	20	case	_	_
+23	5h	5h	NOUN	_	NOUN__NumType=Card	20	obl	_	_
+24	!	!	PUNCT	_	PUNCT___	27	punct	_	_
+25	)	)	PUNCT	_	PUNCT___	24	punct	_	_
+26	 	 	SPACE	_		27		_	_
+27	:	:	PUNCT	_	PUNCT___	30	punct	_	_
+28	je	il	PRON	_	PRON__Number=Sing|Person=1	30	nsubj	_	_
+29	pousse	pousser	VERB	_	VERB__Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	30	parataxis	_	_
+30	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	30	det	_	_
+31	étagère	étagère	NOUN	_	NOUN__Gender=Fem|Number=Sing	32	obj	_	_
+32	,	,	PUNCT	_	PUNCT___	30	punct	_	_
+33	juste	juste	ADV	_	ADV___	34	advmod	_	_
+34	pour	pour	ADP	_	ADP___	30	mark	_	_
+35	voir	voir	VERB	_	VERB__VerbForm=Inf	36	advcl	_	_
+36	,	,	PUNCT	_	PUNCT___	34	punct	_	_
+37	parce	parce	SCONJ	_	SCONJ___	36	mark	_	_
+38	que	que	SCONJ	_	SCONJ___	40	fixed	_	_
+39	c'	ce	PRON	_	PRON__Number=Sing|Person=3	38	nsubj	_	_
+40	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	cop	_	_
+41	de	de	ADP	_	ADP___	43	case	_	_
+42	là	là	ADV	_	ADV___	43	fixed	_	_
+43	que	que	SCONJ	_	SCONJ___	34	mark	_	_
+44	 	 	SPACE	_		45		_	_
+45	semble	sembler	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	cop	_	_
+46	venir	venir	VERB	_	VERB__VerbForm=Inf	48	advcl	_	_
+47	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	48	det	_	_
+48	odeur	odeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	45	obj	_	_
+49	de	de	ADP	_	ADP___	53	case	_	_
+50	moisi	moisir	NOUN	_	NOUN__Gender=Masc|Number=Sing	53	nmod	_	_
+51	et	et	CCONJ	_	CCONJ___	53	cc	_	_
+52	parce	parce	SCONJ	_	SCONJ___	51	mark	_	_
+53	que	que	SCONJ	_	SCONJ___	48	fixed	_	_
+54	c'	ce	PRON	_	PRON__Number=Sing|Person=3	56	nsubj	_	_
+55	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	56	cop	_	_
+56	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	53	det	_	_
+57	seul	seul	ADJ	_	ADJ__Gender=Masc|Number=Sing	58	amod	_	_
+58	endroit	endroit	NOUN	_	NOUN__Gender=Masc|Number=Sing	56	conj	_	_
+59	où	où	PRON	_	PRON__PronType=Rel	58	iobj	_	_
+60	je	il	PRON	_	PRON__Number=Sing|Person=1	30	nsubj	_	_
+61	 	 	SPACE	_		63		_	_
+62	n'	ne	ADV	_	ADV__Polarity=Neg	63	advmod	_	_
+63	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	63	aux	_	_
+64	pas	pas	ADV	_	ADV__Polarity=Neg	63	advmod	_	_
+65	encore	encore	ADV	_	ADV___	63	advmod	_	_
+66	regardé	regarder	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	65	acl:relcl	_	_
+67	.	.	PUNCT	_	PUNCT___	63	punct	_	_
+
+
+#Et là, misère !
+1	Et	Et	CCONJ	_	CCONJ___	0	ROOT	_	_
+2	là	là	ADV	_	ADV___	4	iobj	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	misère	misère	ADJ	_	ADJ__Gender=Fem|Number=Sing	1	conj	_	_
+5	!	!	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Le mur est trempé et tout noir  de moisissure.
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	mur	mur	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	trempé	tremper	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	et	et	CCONJ	_	CCONJ___	6	cc	_	_
+6	tout	tout	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	advmod	_	_
+7	noir	noir	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	conj	_	_
+8	 	 	SPACE	_		10		_	_
+9	de	de	ADP	_	ADP___	8	case	_	_
+10	moisissure	moisissure	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+11	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#J'ai donc vérifié l'intérieur de la douche.
+1	J'	J'	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	donc	donc	ADV	_	ADV___	4	advmod	_	_
+4	vérifié	vérifier	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	intérieur	intérieur	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obj	_	_
+7	de	de	ADP	_	ADP___	4	case	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	douche	doucher	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+10	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Les  joints entre les carreaux du carrelage me semblent très usés, ils sont  même fendus à certains endroits.
+1	Les	Les	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+2	 	 	SPACE	_		4		_	_
+3	joints	joint	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	nsubj	_	_
+4	entre	entrer	ADP	_	ADP___	1	case	_	_
+5	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	6	det	_	_
+6	carreaux	carreau	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	obl	_	_
+7	du	du	DET	_	DET__Gender=Masc|Number=Sing	4	det	_	_
+8	carrelage	carrelage	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+9	me	se	PRON	_	PRON__Number=Sing|Person=1	8	iobj	_	_
+10	semblent	sembler	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+11	très	très	ADV	_	ADV___	12	advmod	_	_
+12	usés	user	ADJ	_	ADJ__Gender=Masc|Number=Plur	0	ROOT	_	_
+13	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+14	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	16	nsubj	_	_
+15	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+16	 	 	SPACE	_		13		_	_
+17	même	même	ADJ	_	ADJ__Number=Sing	18	advmod	_	_
+18	fendus	fendu	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	parataxis	_	_
+19	à	à	ADP	_	ADP___	1	case	_	_
+20	certains	certain	DET	_	DET__Gender=Masc|Number=Plur	20	det	_	_
+21	endroits	endroit	NOUN	_	NOUN__Gender=Masc|Number=Plur	22	obl	_	_
+22	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#L'eau a dû s'infiltrer par là et le mur  était peut-être même déjà humide à notre arrivée.
+1	L'	L'	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+2	eau	eau	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nsubj	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	dû	devoir	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	aux	_	_
+5	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	6	expl	_	_
+6	infiltrer	infiltrer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+7	par	par	ADP	_	ADP___	4	case	_	_
+8	là	là	ADV	_	ADV___	10	obl	_	_
+9	et	et	CCONJ	_	CCONJ___	8	cc	_	_
+10	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+11	mur	mur	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nsubj	_	_
+12	 	 	SPACE	_		10		_	_
+13	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
+14	peut-être	peut-être	ADV	_	ADV___	16	advmod	_	_
+15	même	même	ADV	_	ADV___	14	advmod	_	_
+16	déjà	déjà	ADV	_	ADV___	13	advmod	_	_
+17	humide	humide	ADJ	_	ADJ__Number=Sing	18	amod	_	_
+18	à	à	ADP	_	ADP___	16	case	_	_
+19	notre	notre	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+20	arrivée	arriver	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obl	_	_
+21	.	.	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#Nous n'avions jamais  remarqué à quel point ces joints étaient vétustes.
+1	Nous	Nous	PRON	_	PRON__Number=Plur|Person=1	1	nsubj	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+3	avions	avoir	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	aux	_	_
+4	jamais	jamais	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+5	 	 	SPACE	_		6		_	_
+6	remarqué	remarquer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+7	à	à	ADP	_	ADP___	4	case	_	_
+8	quel	quel	DET	_	DET__Gender=Masc|Number=Sing|PronType=Int	10	det	_	_
+9	point	poindre	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+10	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	4	det	_	_
+11	joints	joint	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	obj	_	_
+12	étaient	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
+13	vétustes	vétuste	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	10	conj	_	_
+14	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Ma question  est donc la suivante : qui de nous ou du propriétaire devra payer les  réparations ?
+1	Ma	Ma	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nsubj	_	_
+3	 	 	SPACE	_		4		_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+5	donc	donc	ADV	_	ADV___	6	advmod	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+7	suivante	suivant	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+8	:	:	PUNCT	_	PUNCT___	10	punct	_	_
+9	qui	qui	PRON	_	PRON__PronType=Rel	8	nsubj	_	_
+10	de	de	ADP	_	ADP___	4	case	_	_
+11	nous	se	PRON	_	PRON__Number=Plur|Person=1	12	nmod	_	_
+12	ou	ou	CCONJ	_	CCONJ___	10	cc	_	_
+13	du	du	DET	_	DET__Gender=Masc|Number=Sing	10	det	_	_
+14	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	16	conj	_	_
+15	devra	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	14	aux	_	_
+16	payer	payer	VERB	_	VERB__VerbForm=Inf	13	acl:relcl	_	_
+17	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	18	det	_	_
+18	 	 	SPACE	_		16		_	_
+19	réparations	réparation	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	obj	_	_
+20	?	?	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Sachant que le problème d'infiltration doit être dû à la  vétusté des joints du carrelage (que personne n'avait remarqué lors de  l'état des lieux au mois d'avril) et que la présence de notre étagère à  cet endroit précis a dû empirer le tout en ne permettant pas au mur  mouillé de "respirer" suffisamment pour éviter de moisir.
+1	Sachant	Sachant	VERB	_	VERB__Tense=Pres|VerbForm=Part	0	ROOT	_	_
+2	que	que	SCONJ	_	SCONJ___	4	mark	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	problème	problème	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+5	d'	de	ADP	_	ADP___	6	case	_	_
+6	infiltration	infiltration	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+7	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+8	être	être	AUX	_	AUX__VerbForm=Inf	10	aux:pass	_	_
+9	dû	devoir	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	xcomp	_	_
+10	à	à	ADP	_	ADP___	4	case	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	fixed	_	_
+12	 	 	SPACE	_		10		_	_
+13	vétusté	vétusté	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	fixed	_	_
+14	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	16	det	_	_
+15	joints	joint	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	obl	_	_
+16	du	du	DET	_	DET__Gender=Masc|Number=Sing	13	det	_	_
+17	carrelage	carrelage	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nmod	_	_
+18	(	(	PUNCT	_	PUNCT___	16	punct	_	_
+19	que	que	SCONJ	_	SCONJ___	1	obj	_	_
+20	personne	personne	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	nsubj	_	_
+21	n'	ne	ADV	_	ADV___	22	advmod	_	_
+22	avait	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	aux	_	_
+23	remarqué	remarquer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	acl:relcl	_	_
+24	lors	lors	ADV	_	ADV___	27	case	_	_
+25	de	de	ADP	_	ADP___	24	fixed	_	_
+26	 	 	SPACE	_		27		_	_
+27	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	30	det	_	_
+28	état	état	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	obl	_	_
+29	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	30	det	_	_
+30	lieux	lieu	ADJ	_	ADJ__Gender=Masc	30	obj	_	_
+31	au	au	DET	_	DET__Number=Plur|PronType=Dem	32	case	_	_
+32	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	30	nmod	_	_
+33	d'	de	ADP	_	ADP___	34	case	_	_
+34	avril	avril	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	nmod	_	_
+35	)	)	PUNCT	_	PUNCT___	36	punct	_	_
+36	et	et	CCONJ	_	CCONJ___	34	cc	_	_
+37	que	que	SCONJ	_	SCONJ___	36	mark	_	_
+38	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+39	présence	présence	NOUN	_	NOUN__Gender=Fem|Number=Sing	38	nsubj	_	_
+40	de	de	ADP	_	ADP___	34	case	_	_
+41	notre	notre	DET	_	DET__Number=Sing|Poss=Yes	43	nmod:poss	_	_
+42	étagère	étagère	NOUN	_	NOUN__Gender=Fem|Number=Sing	43	nmod	_	_
+43	à	à	ADP	_	ADP___	34	case	_	_
+44	 	 	SPACE	_		45		_	_
+45	cet	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	43	det	_	_
+46	endroit	endroit	NOUN	_	NOUN__Gender=Masc|Number=Sing	48	nmod	_	_
+47	précis	précis	ADJ	_	ADJ__Gender=Masc	48	amod	_	_
+48	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	aux	_	_
+49	dû	devoir	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	53	aux	_	_
+50	empirer	empirer	VERB	_	VERB__VerbForm=Part	53	conj	_	_
+51	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	53	det	_	_
+52	tout	tout	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	51	obj	_	_
+53	en	en	ADP	_	ADP___	48	mark	_	_
+54	ne	ne	ADV	_	ADV__Polarity=Neg	56	advmod	_	_
+55	permettant	permettre	VERB	_	VERB__Tense=Pres|VerbForm=Part	56	advcl	_	_
+56	pas	pas	ADV	_	ADV__Polarity=Neg	53	advmod	_	_
+57	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	58	det	_	_
+58	mur	mur	NOUN	_	NOUN__Gender=Fem|Number=Sing	56	obj	_	_
+59	 	 	SPACE	_		58		_	_
+60	mouillé	mouiller	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	acl	_	_
+61	de	de	ADP	_	ADP___	63	mark	_	_
+62	"	"	PUNCT	_	PUNCT___	63	punct	_	_
+63	respirer	respirer	VERB	_	VERB__VerbForm=Inf	63	xcomp	_	_
+64	"	"	PUNCT	_	PUNCT___	63	punct	_	_
+65	suffisamment	suffisamment	ADV	_	ADV___	63	advmod	_	_
+66	pour	pour	ADP	_	ADP___	65	mark	_	_
+67	éviter	éviter	VERB	_	VERB__VerbForm=Inf	63	xcomp	_	_
+68	de	de	ADP	_	ADP___	70	case	_	_
+69	moisir	moisir	NOUN	_	NOUN__Gender=Masc|Number=Sing	70	obl	_	_
+70	.	.	PUNCT	_	PUNCT___	63	punct	_	_
+
+
+#Je ne  préviendrai le propriétaire qu'après avoir eu vos retour, histoire de  savoir à quoi m'en tenir.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ne	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+3	 	 	SPACE	_		4		_	_
+4	préviendrai	prévenir	ADV	_	ADV___	0	ROOT	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	4	obj	_	_
+7	qu'	que	SCONJ	_	SCONJ___	4	obj	_	_
+8	après	après	ADP	_	ADP___	10	mark	_	_
+9	avoir	avoir	AUX	_	AUX__VerbForm=Inf	8	aux	_	_
+10	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+11	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	12	nmod:poss	_	_
+12	retour	retour	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+13	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+14	histoire	histoire	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	conj	_	_
+15	de	de	ADP	_	ADP___	14	mark	_	_
+16	 	 	SPACE	_		13		_	_
+17	savoir	savoir	VERB	_	VERB__VerbForm=Inf	18	nmod	_	_
+18	à	à	ADP	_	ADP___	16	case	_	_
+19	quoi	quoi	PRON	_	PRON__PronType=Int	1	obl	_	_
+20	m'	se	PRON	_	PRON__Number=Sing|Person=1	20	nsubj	_	_
+21	en	en	PRON	_	PRON__Person=3	22	expl	_	_
+22	tenir	tenir	VERB	_	VERB__VerbForm=Inf	20	ccomp	_	_
+23	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Je ne voudrais pas avoir à payer si ce n'est  pas à nous de le faire...Merci par avance du temps que vous voudrez bien m'accorder.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ne	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+3	voudrais	vouloir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+5	avoir	avoir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+6	à	à	ADP	_	ADP___	4	mark	_	_
+7	payer	payer	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+8	si	si	SCONJ	_	SCONJ___	10	mark	_	_
+9	ce	ce	PRON	_	PRON__Number=Sing|Person=3	8	nsubj	_	_
+10	n'	ne	ADV	_	ADV___	4	advmod	_	_
+11	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	 	 	SPACE	_		10		_	_
+13	pas	pas	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+14	à	à	ADP	_	ADP___	16	case	_	_
+15	nous	se	PRON	_	PRON__Number=Plur|Person=1	14	advmod	_	_
+16	de	de	ADP	_	ADP___	13	mark	_	_
+17	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	18	obj	_	_
+18	faire	faire	VERB	_	VERB__VerbForm=Inf	16	ccomp	_	_
+19	...	...	PUNCT	_	PUNCT___	1	punct	_	_
+20	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obj	_	_
+21	par	par	ADP	_	ADP___	22	case	_	_
+22	avance	avancer	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	nmod	_	_
+23	du	du	DET	_	DET__Gender=Masc|Number=Sing	20	det	_	_
+24	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	nmod	_	_
+25	que	que	PRON	_	PRON__PronType=Rel	24	mark	_	_
+26	vous	se	PRON	_	PRON__Number=Plur|Person=2	27	nsubj	_	_
+27	voudrez	vouloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	30	ccomp	_	_
+28	bien	bien	ADV	_	ADV___	30	advmod	_	_
+29	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	30	expl	_	_
+30	accorder	accorder	VERB	_	VERB__VerbForm=Inf	30	xcomp	_	_
+31	.	.	PUNCT	_	PUNCT___	32	punct	_	_
+
+
+#Bonne journée,Llew
+1	Bonne	Bonne	ADJ	_	ADJ__Gender=Fem|Number=Sing	1	amod	_	_
+2	journée	journée	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	Llew	Llew	PROPN	_	PROPN__Gender=Fem|Number=Sing	1	nmod	_	_
+
+
+#Personne ne peut me renseigner ?
+1	Personne	Personne	PROPN	_	PROPN___	5	nsubj	_	_
+2	ne	ne	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+3	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	5	expl	_	_
+5	renseigner	renseigner	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+6	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Oui, pardon, je suis trop pressée.
+1	Oui	Oui	PROPN	_	PROPN__Gender=Masc|Number=Sing	8	obl	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	pardon	pardon	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	conj	_	_
+4	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+5	je	il	PRON	_	PRON__Number=Sing|Person=1	8	nsubj	_	_
+6	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	trop	trop	ADV	_	ADV___	8	advmod	_	_
+8	pressée	presser	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+9	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Merci
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+
+
+#Je ne pense pas qu'il s'agisse d'une fuite importante derrière la cloison.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+2	ne	ne	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+3	pense	penser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+5	qu'	que	SCONJ	_	SCONJ___	8	mark	_	_
+6	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+7	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	8	expl	_	_
+8	agisse	agir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+9	d'	de	ADP	_	ADP___	11	case	_	_
+10	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	fuite	fuite	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+12	importante	important	ADJ	_	ADJ__Gender=Fem|Number=Sing	11	amod	_	_
+13	derrière	derrière	ADP	_	ADP___	15	case	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	cloison	cloison	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+16	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Je pense vraiment que l'eau s'infiltre par les joints usés depuis plusieurs années.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+2	pense	penser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	vraiment	vraiment	ADV	_	ADV___	3	advmod	_	_
+4	que	que	SCONJ	_	SCONJ___	3	mark	_	_
+5	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+6	eau	eau	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nsubj	_	_
+7	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	8	expl	_	_
+8	infiltre	infiltrer	VERB	_	VERB__VerbForm=Inf	3	ccomp	_	_
+9	par	par	ADP	_	ADP___	11	case	_	_
+10	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	11	det	_	_
+11	joints	joint	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obl	_	_
+12	usés	user	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	acl	_	_
+13	depuis	depuis	ADP	_	ADP___	15	case	_	_
+14	plusieurs	plusieurs	DET	_	DET__Number=Plur	15	det	_	_
+15	années	année	NOUN	_	NOUN__Gender=Fem|Number=Plur	11	obl	_	_
+16	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Et le problème était peut-être même déjà présent et connu des anciens locataires car nous avons remarqué qu'ils avaient fait un "beau" rafistolage à cet endroit-
+1	Et	Et	CCONJ	_	CCONJ___	3	cc	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	problème	problème	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+4	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+5	peut-être	peut-être	ADV	_	ADV___	8	advmod	_	_
+6	même	même	ADV	_	ADV___	8	advmod	_	_
+7	déjà	déjà	ADV	_	ADV___	8	advmod	_	_
+8	présent	présent	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+9	et	et	CCONJ	_	CCONJ___	11	cc	_	_
+10	connu	connaître	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	conj	_	_
+11	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
+12	anciens	ancien	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	amod	_	_
+13	locataires	locataire	ADJ	_	ADJ__Number=Plur	15	obj	_	_
+14	car	car	CCONJ	_	CCONJ___	15	cc	_	_
+15	nous	se	PRON	_	PRON__Number=Plur|Person=1	11	nsubj	_	_
+16	avons	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+17	remarqué	remarquer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	conj	_	_
+18	qu'	que	SCONJ	_	SCONJ___	18	mark	_	_
+19	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	18	nsubj	_	_
+20	avaient	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	24	aux	_	_
+21	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	ccomp	_	_
+22	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	"	"	PUNCT	_	PUNCT___	24	punct	_	_
+24	beau	beau	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obj	_	_
+25	"	"	PUNCT	_	PUNCT___	27	punct	_	_
+26	rafistolage	rafistolage	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	advcl	_	_
+27	à	à	ADP	_	ADP___	24	case	_	_
+28	cet	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	27	det	_	_
+29	endroit	endroit	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	obl	_	_
+30	-	-	PUNCT	_	PUNCT___	31	punct	_	_
+
+
+#là avec une bonne couche d'enduit et de peinture...
+1	là	là	ADV	_	ADV___	0	ROOT	_	_
+2	avec	avec	ADP	_	ADP___	3	case	_	_
+3	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+4	bonne	bon	ADJ	_	ADJ__Gender=Fem|Number=Sing	3	amod	_	_
+5	couche	coucher	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+6	d'	de	ADP	_	ADP___	8	case	_	_
+7	enduit	enduire	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+8	et	et	CCONJ	_	CCONJ___	3	cc	_	_
+9	de	de	ADP	_	ADP___	11	case	_	_
+10	peinture	peinture	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	conj	_	_
+11	...	...	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Ont-ils voulu masquer des traces de moisissure ou est-ce une coïncidence ?
+1	Ont	Ont	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	advmod	_	_
+2	-	-	PUNCT	_	PUNCT___	3	punct	_	_
+3	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	3	nsubj	_	_
+4	voulu	vouloir	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	aux	_	_
+5	masquer	masquer	VERB	_	VERB__VerbForm=Part	0	ROOT	_	_
+6	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
+7	traces	tracer	NOUN	_	NOUN__Gender=Fem|Number=Plur	8	obj	_	_
+8	de	de	ADP	_	ADP___	3	case	_	_
+9	moisissure	moisissure	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+10	ou	ou	CCONJ	_	CCONJ___	11	cc	_	_
+11	est	être		_	VERB	8	conj	_	_
+12	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	11	advmod	_	_
+13	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	coïncidence	coïncidence	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obj	_	_
+15	?	?	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#...En tout cas, le propriétaire est prévenu et mécontent (normal).
+1	...	...	PUNCT	_	PUNCT___	3	punct	_	_
+2	En	En	ADP	_	ADP___	3	advmod	_	_
+3	tout	tout	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	fixed	_	_
+4	cas	cas	NOUN	_	NOUN__Gender=Masc	3	fixed	_	_
+5	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	8	nsubj	_	_
+8	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+9	prévenu	prévenir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+10	et	et	CCONJ	_	CCONJ___	11	cc	_	_
+11	mécontent	mécontent	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	conj	_	_
+12	(	(	PUNCT	_	PUNCT___	11	punct	_	_
+13	normal	normal	ADJ	_	ADJ__Gender=Masc|Number=Sing	15	appos	_	_
+14	)	)	PUNCT	_	PUNCT___	15	punct	_	_
+15	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Il passera voir l'étendue des dégâts en fin de semaine.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+2	passera	passer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+3	voir	voir	VERB	_	VERB__VerbForm=Inf	3	xcomp	_	_
+4	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+5	étendue	étendre	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	obj	_	_
+6	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
+7	dégâts	dégât	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	nmod	_	_
+8	en	en	ADP	_	ADP___	3	case	_	_
+9	fin	fin	NOUN	_	NOUN__Number=Sing	11	obl	_	_
+10	de	de	ADP	_	ADP___	11	case	_	_
+11	semaine	semaine	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+12	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Merci pour toutes vos réponses et pour votre aide.
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	pour	pour	ADP	_	ADP___	3	case	_	_
+3	toutes	toute	ADJ	_	ADJ__Gender=Fem|Number=Plur	3	amod	_	_
+4	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	3	nmod:poss	_	_
+5	réponses	réponse	NOUN	_	NOUN__Gender=Fem|Number=Plur	8	nmod	_	_
+6	et	et	CCONJ	_	CCONJ___	8	cc	_	_
+7	pour	pour	ADP	_	ADP___	8	case	_	_
+8	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	3	nmod:poss	_	_
+9	aide	aider	NOUN	_	NOUN__Number=Sing	11	conj	_	_
+10	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Là, il s'agit bien des joints entre les carreaux.
+1	Là	Là	ADV	_	ADV___	5	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+3	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+4	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	5	expl	_	_
+5	agit	agir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
+6	bien	bien	ADV	_	ADV___	5	advmod	_	_
+7	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
+8	joints	joint	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	obj	_	_
+9	entre	entrer	ADP	_	ADP___	11	case	_	_
+10	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	11	det	_	_
+11	carreaux	carreau	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	nmod	_	_
+12	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Nous avions refait tous les joints silicone à notre arrivée car les anciens étaient noirs et abîmés mais nous n'avions pas remarqué que les joints "durs" entre les carreaux étaient si usés et même fissurés à plusieurs endroits.
+1	Nous	Nous	PRON	_	PRON__Number=Plur|Person=1	5	nsubj	_	_
+2	avions	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	5	aux	_	_
+3	refait	refaire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+4	tous	tout	ADJ	_	ADJ__Gender=Masc|Number=Plur	5	amod	_	_
+5	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+6	joints	joint	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	obj	_	_
+7	silicone	silicone	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	amod	_	_
+8	à	à	ADP	_	ADP___	5	case	_	_
+9	notre	notre	DET	_	DET__Number=Sing|Poss=Yes	11	nmod:poss	_	_
+10	arrivée	arriver	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obl	_	_
+11	car	car	CCONJ	_	CCONJ___	8	cc	_	_
+12	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+13	anciens	ancien	ADJ	_	ADJ__Gender=Masc|Number=Plur	15	nsubj	_	_
+14	étaient	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	15	cop	_	_
+15	noirs	noir	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	conj	_	_
+16	et	et	CCONJ	_	CCONJ___	18	cc	_	_
+17	abîmés	abîmer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	18	conj	_	_
+18	mais	mai	CCONJ	_	CCONJ___	15	cc	_	_
+19	nous	se	PRON	_	PRON__Number=Plur|Person=1	18	nsubj	_	_
+20	n'	ne	ADV	_	ADV__Polarity=Neg	22	advmod	_	_
+21	avions	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	22	aux	_	_
+22	pas	pas	ADV	_	ADV__Polarity=Neg	19	advmod	_	_
+23	remarqué	remarquer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	conj	_	_
+24	que	que	SCONJ	_	SCONJ___	25	mark	_	_
+25	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	27	det	_	_
+26	joints	joint	NOUN	_	NOUN__Gender=Masc|Number=Plur	27	nsubj	_	_
+27	"	"	PUNCT	_	PUNCT___	22	punct	_	_
+28	durs	dur	ADJ	_	ADJ__Gender=Masc|Number=Plur	29	amod	_	_
+29	"	"	PUNCT	_	PUNCT___	27	punct	_	_
+30	entre	entrer	ADP	_	ADP___	35	case	_	_
+31	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	35	det	_	_
+32	carreaux	carreau	NOUN	_	NOUN__Gender=Masc|Number=Plur	35	nmod	_	_
+33	étaient	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	35	cop	_	_
+34	si	si	SCONJ	_	SCONJ___	35	mark	_	_
+35	usés	user	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	15	ccomp	_	_
+36	et	et	CCONJ	_	CCONJ___	47	cc	_	_
+37	même	même	ADV	_	ADV___	38	advmod	_	_
+38	fissurés	fissurer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	47	conj	_	_
+39	à	à	ADP	_	ADP___	38	case	_	_
+40	plusieurs	plusieurs	DET	_	DET__Number=Plur	38	det	_	_
+41	endroits	endroit	NOUN	_	NOUN__Gender=Masc|Number=Plur	40	obl	_	_
+42	.	.	PUNCT	_	PUNCT___	44	punct	_	_
+
+
+#Concernant l'état des lieux, je ne me souviens pas ce qui avait été noté exactement et je ne peux pas le vérifier car je me suis rendu compte hier que le propriétaire ne nous avais jamais fait parvenir notre exemplaire.
+1	Concernant	Concernant	VERB	_	VERB__Tense=Pres|VerbForm=Part	5	acl	_	_
+2	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+3	état	état	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+4	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
+5	lieux	lieu	ADJ	_	ADJ__Gender=Masc	5	obj	_	_
+6	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+7	je	il	PRON	_	PRON__Number=Sing|Person=1	8	nsubj	_	_
+8	ne	ne	ADV	_	ADV___	5	advmod	_	_
+9	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	11	expl	_	_
+10	souviens	souvenir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+11	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+12	ce	ce	PRON	_	PRON__PronType=Rel	5	obj	_	_
+13	qui	qui	PRON	_	PRON__PronType=Rel	15	nsubj	_	_
+14	avait	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	aux	_	_
+15	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	15	cop	_	_
+16	noté	noter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	acl:relcl	_	_
+17	exactement	exactement	ADV	_	ADV___	18	advmod	_	_
+18	et	et	CCONJ	_	CCONJ___	15	cc	_	_
+19	je	il	PRON	_	PRON__Number=Sing|Person=1	18	nsubj	_	_
+20	ne	ne	ADV	_	ADV__Polarity=Neg	22	advmod	_	_
+21	peux	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	fixed	_	_
+22	pas	pas	ADV	_	ADV__Polarity=Neg	19	advmod	_	_
+23	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+24	vérifier	vérifier	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	obj	_	_
+25	car	car	CCONJ	_	CCONJ___	27	cc	_	_
+26	je	il	PRON	_	PRON__Number=Sing|Person=1	27	nsubj	_	_
+27	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	22	expl	_	_
+28	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	rendu	rendre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	conj	_	_
+30	compte	compter	NOUN	_	NOUN__Gender=Masc|Number=Sing	35	obj	_	_
+31	hier	hier	ADV	_	ADV___	35	advmod	_	_
+32	que	que	SCONJ	_	SCONJ___	35	mark	_	_
+33	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+34	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	35	nsubj	_	_
+35	ne	ne	ADV	_	ADV__Polarity=Neg	15	advmod	_	_
+36	nous	se	PRON	_	PRON__Number=Plur|Person=1	47	iobj	_	_
+37	avais	avoir	PRON	_	PRON__Gender=Masc|Number=Plur	38	aux	_	_
+38	jamais	jamais	ADV	_	ADV___	47	advmod	_	_
+39	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	38	ccomp	_	_
+40	parvenir	parvenir	VERB	_	VERB__VerbForm=Inf	38	xcomp	_	_
+41	notre	notre	DET	_	DET__Number=Sing|Poss=Yes	40	nmod:poss	_	_
+42	exemplaire	exemplaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	44	obj	_	_
+43	.	.	PUNCT	_	PUNCT___	44	punct	_	_
+
+
+#Simple oubli je pense.
+1	Simple	Simple	ADJ	_	ADJ__Number=Sing	5	amod	_	_
+2	oubli	oubli	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+4	pense	penser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Mais, de mémoire, il nous semble qu'il avait noté "état moyen" pour l'ensemble de la salle de bain.
+1	Mais	Mais	CCONJ	_	CCONJ___	5	cc	_	_
+2	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+3	de	de	ADP	_	ADP___	5	case	_	_
+4	mémoire	mémoire	NOUN	_	NOUN__Number=Sing	5	obl	_	_
+5	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+6	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+7	nous	se	PRON	_	PRON__Number=Plur|Person=1	8	iobj	_	_
+8	semble	sembler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+9	qu'	que	SCONJ	_	SCONJ___	11	mark	_	_
+10	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	11	nsubj	_	_
+11	avait	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+12	noté	noter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	ccomp	_	_
+13	"	"	PUNCT	_	PUNCT___	15	punct	_	_
+14	état	état	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obj	_	_
+15	moyen	moyen	ADJ	_	ADJ__Gender=Masc|Number=Sing	15	amod	_	_
+16	"	"	PUNCT	_	PUNCT___	18	punct	_	_
+17	pour	pour	ADP	_	ADP___	18	case	_	_
+18	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+19	ensemble	ensemble	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obl	_	_
+20	de	de	ADP	_	ADP___	22	case	_	_
+21	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	salle	salle	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	nmod	_	_
+23	de	de	ADP	_	ADP___	27	case	_	_
+24	bain	bain	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	nmod	_	_
+25	.	.	PUNCT	_	PUNCT___	27	punct	_	_
+
+

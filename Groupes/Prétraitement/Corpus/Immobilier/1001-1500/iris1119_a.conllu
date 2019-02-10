@@ -1,0 +1,86 @@
+#Bonjour.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#En premier, reprendre votre texte et utiliser des virgules, des points.
+1	En	En	ADP	_	ADP___	1	advmod	_	_
+2	premier	premier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	1	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+4	reprendre	reprendre	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+6	texte	texte	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+7	et	et	CCONJ	_	CCONJ___	8	cc	_	_
+8	utiliser	utiliser	VERB	_	VERB__VerbForm=Inf	6	conj	_	_
+9	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
+10	virgules	virgule	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	obj	_	_
+11	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+12	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
+13	points	point	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	appos	_	_
+14	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#et des retours à la ligneafin que votre texte soit tout simplement lisible.
+1	et	et	CCONJ	_	CCONJ___	1	cc	_	_
+2	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	1	det	_	_
+3	retours	retour	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+4	à	à	ADP	_	ADP___	3	case	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	ligneafin	ligneafin	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+7	que	que	SCONJ	_	SCONJ___	8	mark	_	_
+8	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+9	texte	texte	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nsubj	_	_
+10	soit	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+11	tout	tout	ADV	_	ADV___	12	advmod	_	_
+12	simplement	simplement	ADV	_	ADV___	10	acl:relcl	_	_
+13	lisible	lisible	ADJ	_	ADJ__Number=Sing	12	amod	_	_
+14	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Je suis désolé mais j'ai arrêté de lire à la troisième ligne...
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj:pass	_	_
+2	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
+3	désolé	désoler	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+4	mais	mai	CCONJ	_	CCONJ___	3	cc	_	_
+5	j'	il	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+6	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+7	arrêté	arrêter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+8	de	de	ADP	_	ADP___	6	case	_	_
+9	lire	lire	VERB	_	VERB__VerbForm=Inf	10	obl	_	_
+10	à	à	ADP	_	ADP___	6	case	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	troisième	troisième	ADJ	_	ADJ__Number=Sing|NumType=Ord	10	amod	_	_
+13	ligne	ligne	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obl	_	_
+14	...	...	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#bonjourmême pas eu ce courage
+1	bonjourmême	bonjourmême	ADV	_	ADV___	0	ROOT	_	_
+2	pas	pas	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+3	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	xcomp	_	_
+4	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	courage	courage	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obj	_	_
+
+
+#....
+1	....	....	PUNCT	_	PUNCT___	0	ROOT	_	_
+
+
+#Bonjour,Demandez à ce syndic d'agir, il est payé pour cela........
+1	Bonjour	Bonjour	PROPN	_	PROPN___	12	obl	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	Demandez	Demandez	PROPN	_	PROPN___	1	conj	_	_
+4	à	à	ADP	_	ADP___	6	case	_	_
+5	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	syndic	syndic	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obl	_	_
+7	d'	de	ADP	_	ADP___	8	mark	_	_
+8	agir	agir	VERB	_	VERB__VerbForm=Inf	6	acl	_	_
+9	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+10	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
+11	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	payé	payer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+13	pour	pour	ADP	_	ADP___	14	case	_	_
+14	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	12	obl	_	_
+15	........	........	PUNCT	_	PUNCT___	12	punct	_	_
+
+

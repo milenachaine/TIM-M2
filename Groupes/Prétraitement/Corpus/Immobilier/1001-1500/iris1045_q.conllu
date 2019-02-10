@@ -1,0 +1,255 @@
+#Bonjour,Mon conjoint étudiant, recherche une location meublée de Janvier à Mai.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	Mon	Mon	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+4	conjoint	conjoindre	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	conj	_	_
+5	étudiant	étudier	ADJ	_	ADJ__Gender=Masc|Number=Sing	4	acl	_	_
+6	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+7	recherche	rechercher	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+8	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	location	location	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obj	_	_
+10	meublée	meubler	ADJ	_	ADJ__Gender=Fem|Number=Sing	9	amod	_	_
+11	de	de	ADP	_	ADP___	12	case	_	_
+12	Janvier	Janvier	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nmod	_	_
+13	à	à	ADP	_	ADP___	14	case	_	_
+14	Mai	Mai	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nmod	_	_
+15	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Des bailleurs lui propose un bail étudiant meublé de 5 mois (en voulant stipuler dans le bail une durée de Janvier à Mai)Est-ce bien légal ?
+1	Des	Des	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	1	det	_	_
+2	bailleurs	bailleur	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	nsubj	_	_
+3	lui	luire	PRON	_	PRON__Number=Sing|Person=3	4	iobj	_	_
+4	propose	proposer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+6	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+7	étudiant	étudier	ADJ	_	ADJ__Gender=Masc|Number=Sing	5	amod	_	_
+8	meublé	meubler	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+9	de	de	ADP	_	ADP___	5	case	_	_
+10	5	5	NUM	_	NUM__NumType=Card	9	nummod	_	_
+11	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	obl	_	_
+12	(	(	PUNCT	_	PUNCT___	9	punct	_	_
+13	en	en	ADP	_	ADP___	14	mark	_	_
+14	voulant	vouloir	AUX	_	AUX__Tense=Pres|VerbForm=Part	9	aux	_	_
+15	stipuler	stipuler	VERB	_	VERB__VerbForm=Inf	1	advcl	_	_
+16	dans	dan	ADP	_	ADP___	17	case	_	_
+17	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obl	_	_
+19	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+20	durée	durer	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	obj	_	_
+21	de	de	ADP	_	ADP___	19	case	_	_
+22	Janvier	Janvier	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	nmod	_	_
+23	à	à	ADP	_	ADP___	22	case	_	_
+24	Mai)Est	Mai)Est	ADV	_	ADV___	26	nmod	_	_
+25	-	-	PUNCT	_	PUNCT___	26	punct	_	_
+26	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	22	det	_	_
+27	bien	bien	ADV	_	ADV___	19	conj	_	_
+28	légal	légal	ADJ	_	ADJ__Gender=Masc|Number=Sing	30	amod	_	_
+29	?	?	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#Ne faut
+1	Ne	Ne	ADV	_	ADV___	1	advmod	_	_
+2	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+
+
+#-il pas faire un bail de 9 mois avec possibilité de quitter le logement avec 1 mois de préavis ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+3	pas	pas	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+4	faire	faire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+6	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+7	de	de	ADP	_	ADP___	5	case	_	_
+8	9	9	NUM	_	NUM__NumType=Card	9	nummod	_	_
+9	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	nmod	_	_
+10	avec	avec	ADP	_	ADP___	9	case	_	_
+11	possibilité	possibilité	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+12	de	de	ADP	_	ADP___	9	mark	_	_
+13	quitter	quitter	VERB	_	VERB__VerbForm=Inf	14	acl	_	_
+14	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+15	logement	logement	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+16	avec	avec	ADP	_	ADP___	17	case	_	_
+17	1	1	NUM	_	NUM__NumType=Card	19	nummod	_	_
+18	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	19	obl	_	_
+19	de	de	ADP	_	ADP___	19	case	_	_
+20	préavis	préavis	NOUN	_	NOUN__Gender=Masc|Number=Plur	21	nmod	_	_
+21	?	?	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Quel est le type bail adéquat pour ce genre de location ?
+1	Quel	Quel	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	type	typer	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+5	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+6	adéquat	adéquat	ADJ	_	ADJ__Gender=Masc|Number=Sing	7	acl	_	_
+7	pour	pour	ADP	_	ADP___	5	case	_	_
+8	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+9	genre	genre	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+10	de	de	ADP	_	ADP___	9	case	_	_
+11	location	location	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+12	?	?	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Merci d'avance pour votre aide !
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	d'	de	ADP	_	ADP___	4	case	_	_
+3	avance	avancer	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+4	pour	pour	ADP	_	ADP___	1	case	_	_
+5	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+6	aide	aider	NOUN	_	NOUN__Number=Sing	7	nmod	_	_
+7	!	!	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Bonjour et merci pour votre retour.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	et	et	CCONJ	_	CCONJ___	3	cc	_	_
+3	merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	conj	_	_
+4	pour	pour	ADP	_	ADP___	6	case	_	_
+5	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+6	retour	retour	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+7	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Cela confirme donc ce que nous pensions.
+1	Cela	Cela	PRON	_	PRON__Number=Sing|PronType=Dem	1	nsubj	_	_
+2	confirme	confirmer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	donc	donc	ADV	_	ADV___	1	advmod	_	_
+4	ce	ce	PRON	_	PRON__PronType=Rel	6	obj	_	_
+5	que	que	PRON	_	PRON__PronType=Rel	6	obj	_	_
+6	nous	se	PRON	_	PRON__Number=Plur|Person=1	1	nsubj	_	_
+7	pensions	pension	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+8	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Quelqu'un lui a également proposé un bail saisonnier de 3 mois, puis un de 2 mois.
+1	Quelqu'	Quelqu'	DET	_	DET__Number=Sing	1	case	_	_
+2	un	un	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	3	det	_	_
+3	lui	luire	PRON	_	PRON__Number=Sing|Person=3	1	iobj	_	_
+4	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	également	également	ADV	_	ADV___	6	advmod	_	_
+6	proposé	proposer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+8	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+9	saisonnier	saisonnier	ADJ	_	ADJ__Gender=Masc|Number=Sing	9	amod	_	_
+10	de	de	ADP	_	ADP___	9	case	_	_
+11	3	3	NUM	_	NUM__NumType=Card	9	nummod	_	_
+12	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	nmod	_	_
+13	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+14	puis	pouvoir	CCONJ	_	CCONJ___	11	cc	_	_
+15	un	un	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	9	conj	_	_
+16	de	de	ADP	_	ADP___	18	case	_	_
+17	2	2	NUM	_	NUM__NumType=Card	18	nummod	_	_
+18	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	21	nmod	_	_
+19	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Devra t-elle payer une taxe de séjour dans ce cas-là ?
+1	Devra	Devra	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	1	aux	_	_
+2	t-elle	t-elle	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	payer	payer	VERB	_	VERB__VerbForm=Inf	1	xcomp	_	_
+4	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	taxe	taxer	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obj	_	_
+6	de	de	ADP	_	ADP___	1	case	_	_
+7	séjour	séjour	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+8	dans	dan	ADP	_	ADP___	9	case	_	_
+9	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+10	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obl	_	_
+11	-	-	PUNCT	_	PUNCT___	9	punct	_	_
+12	là	là	ADV	_	ADV___	14	iobj	_	_
+13	?	?	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Merci
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+
+
+#Bien évidemment que nous recherchons une solution légale d'où mon post et mes questions.
+1	Bien	Bien	ADV	_	ADV___	2	advmod	_	_
+2	évidemment	évidemment	ADV	_	ADV___	0	ROOT	_	_
+3	que	que	SCONJ	_	SCONJ___	5	mark	_	_
+4	nous	se	PRON	_	PRON__Number=Plur|Person=1	5	nsubj	_	_
+5	recherchons	rechercher	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+6	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	solution	solution	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obj	_	_
+8	légale	légal	ADJ	_	ADJ__Gender=Fem|Number=Sing	7	amod	_	_
+9	d'	de	ADP	_	ADP___	12	case	_	_
+10	où	où	PRON	_	PRON__PronType=Rel	12	iobj	_	_
+11	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	12	nmod:poss	_	_
+12	post	post	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+13	et	et	CCONJ	_	CCONJ___	15	cc	_	_
+14	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	15	nmod:poss	_	_
+15	questions	question	NOUN	_	NOUN__Gender=Fem|Number=Plur	12	conj	_	_
+16	.	.	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#Je comprends que la première ne l'est pas car un bail étudiant est un bail de 9 mois par définition, par contre pourquoi la seconde ne l'est pas ?
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	2	nsubj	_	_
+2	comprends	comprendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	que	que	SCONJ	_	SCONJ___	5	advmod	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	nsubj	_	_
+5	première	premier	ADJ	_	ADJ__Gender=Fem|Number=Sing|NumType=Ord	2	fixed	_	_
+6	ne	ne	ADV	_	ADV___	7	advmod	_	_
+7	l'	le	PRON	_	PRON__Number=Sing|Person=3	5	fixed	_	_
+8	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+9	pas	pas	ADV	_	ADV__Polarity=Neg	12	punct	_	_
+10	car	car	CCONJ	_	CCONJ___	12	cc	_	_
+11	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nsubj	_	_
+13	étudiant	étudier	ADJ	_	ADJ__Gender=Masc|Number=Sing	15	acl	_	_
+14	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+16	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	ccomp	_	_
+17	de	de	ADP	_	ADP___	18	case	_	_
+18	9	9	NUM	_	NUM__NumType=Card	18	nummod	_	_
+19	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	32	nmod	_	_
+20	par	par	ADP	_	ADP___	23	case	_	_
+21	définition	définition	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	nmod	_	_
+22	,	,	PUNCT	_	PUNCT___	23	punct	_	_
+23	par	par	ADP	_	ADP___	19	advmod	_	_
+24	contre	contrer	ADP	_	ADP___	23	fixed	_	_
+25	pourquoi	pourquoi	ADV	_	ADV__PronType=Int	23	fixed	_	_
+26	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+27	seconde	seconder	ADJ	_	ADJ__Gender=Fem|Number=Sing|NumType=Ord	28	nsubj	_	_
+28	ne	ne	ADV	_	ADV__Polarity=Neg	32	advmod	_	_
+29	l'	le	PRON	_	PRON__Number=Sing|Person=3	28	advcl	_	_
+30	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	cop	_	_
+31	pas	pas	ADV	_	ADV__Polarity=Neg	32	advmod	_	_
+32	?	?	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#En quoi le bail saisonnier de 3 mois est illégal ?
+1	En	En	ADP	_	ADP___	2	case	_	_
+2	quoi	quoi	PRON	_	PRON__PronType=Int	2	obl	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+5	saisonnier	saisonnier	ADJ	_	ADJ__Gender=Masc|Number=Sing	2	amod	_	_
+6	de	de	ADP	_	ADP___	7	case	_	_
+7	3	3	NUM	_	NUM__NumType=Card	5	nummod	_	_
+8	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	nmod	_	_
+9	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
+10	illégal	illégal	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+11	?	?	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Pardon si mes questions sont bêtes mais j'essaye juste de comprendre
+1	Pardon	Pardon	PROPN	_	PROPN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	si	si	SCONJ	_	SCONJ___	2	mark	_	_
+3	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	5	nmod:poss	_	_
+4	questions	question	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	nsubj	_	_
+5	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+6	bêtes	bête	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	7	nmod	_	_
+7	mais	mai	CCONJ	_	CCONJ___	5	cc	_	_
+8	j'	il	PRON	_	PRON__Number=Sing|Person=1	7	nsubj	_	_
+9	essaye	essayer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	conj	_	_
+10	juste	juste	ADV	_	ADV___	12	advmod	_	_
+11	de	de	ADP	_	ADP___	12	mark	_	_
+12	comprendre	comprendre	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+
+
+#^^ Merci
+1	^^	^^	NOUN	_	NOUN__Gender=Fem|Number=Plur	2	case	_	_
+2	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+
+
