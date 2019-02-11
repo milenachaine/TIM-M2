@@ -1,0 +1,85 @@
+#Bonsoir,Ouille...
+1	Bonsoir	Bonsoir	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	Ouille	Ouille	PROPN	_	PROPN__Gender=Fem|Number=Sing	1	conj	_	_
+4	...	...	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#On ne "dépose" pas à laSACEM ; de plus elle ne gère que les droits sur la musique.
+1	On	On	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+2	ne	ne	ADV	_	ADV___	3	advmod	_	_
+3	"	"	PUNCT	_	PUNCT___	1	punct	_	_
+4	dépose	déposer	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+5	"	"	PUNCT	_	PUNCT___	8	punct	_	_
+6	pas	pas	ADV	_	ADV___	8	advmod	_	_
+7	à	à	ADP	_	ADP___	8	mark	_	_
+8	laSACEM	laSACEM	ADV	_	ADV___	8	xcomp	_	_
+9	;	;	PUNCT	_	PUNCT___	8	punct	_	_
+10	de	de	ADP	_	ADP___	8	mark	_	_
+11	plus	plaire	ADV	_	ADV___	12	advmod	_	_
+12	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	8	nsubj	_	_
+13	ne	ne	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+14	gère	gérer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	obl	_	_
+15	que	que	SCONJ	_	SCONJ___	18	fixed	_	_
+16	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	18	det	_	_
+17	droits	droit	NOUN	_	NOUN__Gender=Masc|Number=Plur	18	obj	_	_
+18	sur	sur	ADP	_	ADP___	8	case	_	_
+19	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+20	musique	musiquer	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	nmod	_	_
+21	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Ensuite une signature sur le contrat de cession suffit, oui ; il n'y a pas de procédure de dépôt pour les droits d'auteur ;
+1	Ensuite	Ensuite	ADV	_	ADV___	1	advmod	_	_
+2	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	signature	signature	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obl	_	_
+4	sur	sur	ADP	_	ADP___	1	case	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+6	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+7	de	de	ADP	_	ADP___	8	case	_	_
+8	cession	cession	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+9	suffit	suffire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	amod	_	_
+10	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+11	oui	oui	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	iobj	_	_
+12	;	;	PUNCT	_	PUNCT___	8	punct	_	_
+13	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+14	n'	ne	ADV	_	ADV__Polarity=Neg	18	advmod	_	_
+15	y	yu	PRON	_	PRON__Person=3	18	expl	_	_
+16	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+17	pas	pas	ADV	_	ADV__Polarity=Neg	18	advmod	_	_
+18	de	de	ADP	_	ADP___	8	det	_	_
+19	procédure	procédure	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	obj	_	_
+20	de	de	ADP	_	ADP___	21	case	_	_
+21	dépôt	dépôt	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nmod	_	_
+22	pour	pour	ADP	_	ADP___	24	case	_	_
+23	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	24	det	_	_
+24	droits	droit	NOUN	_	NOUN__Gender=Masc|Number=Plur	21	obl	_	_
+25	d'	de	ADP	_	ADP___	8	case	_	_
+26	auteur	auteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	nmod	_	_
+27	;	;	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#par contre si votre contrat est bien rédigé tel que vous l'avez écrit, c'est de la daube.
+1	par	par	ADP	_	ADP___	1	mark	_	_
+2	contre	contrer	ADP	_	ADP___	3	fixed	_	_
+3	si	si	SCONJ	_	SCONJ___	1	fixed	_	_
+4	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+5	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+6	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+7	bien	bien	ADV	_	ADV___	8	advmod	_	_
+8	rédigé	rédiger	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+9	tel	tel	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	iobj	_	_
+10	que	que	SCONJ	_	SCONJ___	8	mark	_	_
+11	vous	se	PRON	_	PRON__Number=Plur|Person=2	12	nsubj	_	_
+12	l'	le	PRON	_	PRON__Number=Sing|Person=3	8	obj	_	_
+13	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	8	aux	_	_
+14	écrit	écrire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	dep	_	_
+15	,	,	PUNCT	_	PUNCT___	18	punct	_	_
+16	c'	ce	PRON	_	PRON__Number=Sing|Person=3	18	nsubj	_	_
+17	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	de	de	ADP	_	ADP___	8	case	_	_
+19	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+20	daube	dauber	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obl	_	_
+21	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+

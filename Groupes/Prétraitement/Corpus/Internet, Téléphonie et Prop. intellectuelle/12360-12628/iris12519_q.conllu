@@ -1,0 +1,210 @@
+#Bonjour , ayant un commerce dalimentation Générale dans une toute petite ville jai des clients qui nous doivent de largent depuis deux ans bientôt, appels , réclamation de vive voix ...
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	ayant	avoir	VERB	_	VERB__Tense=Pres|VerbForm=Part	1	acl	_	_
+4	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	commerce	commercer	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obj	_	_
+6	dalimentation	dalimentation	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	appos	_	_
+7	Générale	Générale	ADJ	_	ADJ__Gender=Fem|Number=Sing	6	amod	_	_
+8	dans	dan	ADP	_	ADP___	12	case	_	_
+9	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+10	toute	tout	ADJ	_	ADJ__Gender=Fem|Number=Sing	12	amod	_	_
+11	petite	petit	ADJ	_	ADJ__Gender=Fem|Number=Sing	12	amod	_	_
+12	ville	ville	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+13	jai	jai	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	amod	_	_
+14	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	15	det	_	_
+15	clients	client	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	nmod	_	_
+16	qui	qui	PRON	_	PRON__PronType=Rel	18	nsubj	_	_
+17	nous	se	PRON	_	PRON__Number=Plur|Person=1	18	iobj	_	_
+18	doivent	devoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+19	de	de	ADP	_	ADP___	23	case	_	_
+20	largent	largent	ADV	_	ADV___	23	advmod	_	_
+21	depuis	depuis	ADP	_	ADP___	23	case	_	_
+22	deux	deux	NUM	_	NUM__NumType=Card	23	nummod	_	_
+23	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	18	obl	_	_
+24	bientôt	bientôt	ADV	_	ADV___	23	advmod	_	_
+25	,	,	PUNCT	_	PUNCT___	26	punct	_	_
+26	appels	appel	NOUN	_	NOUN__Gender=Masc|Number=Plur	23	conj	_	_
+27	,	,	PUNCT	_	PUNCT___	28	punct	_	_
+28	réclamation	réclamation	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	conj	_	_
+29	de	de	ADP	_	ADP___	30	case	_	_
+30	vive	vivre	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	nmod	_	_
+31	voix	voix	ADJ	_	ADJ__Number=Sing	30	amod	_	_
+32	...	...	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#rien ne fonctionne.
+1	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	1	nsubj	_	_
+2	ne	ne	ADV	_	ADV___	1	advmod	_	_
+3	fonctionne	fonctionner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Puis vu que ces personnes me raccrochaient au nez et ignoraient mes message , jai publier sur leur photo #
+1	Puis	Puis	CCONJ	_	CCONJ___	1	cc	_	_
+2	vu	voir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+3	que	que	SCONJ	_	SCONJ___	1	mark	_	_
+4	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	5	det	_	_
+5	personnes	personne	NOUN	_	NOUN__Gender=Fem|Number=Plur	3	nsubj	_	_
+6	me	se	PRON	_	PRON__Number=Sing|Person=1	5	iobj	_	_
+7	raccrochaient	raccrocher	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+8	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
+9	nez	nez	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+10	et	et	CCONJ	_	CCONJ___	12	cc	_	_
+11	ignoraient	ignorer	ADV	_	ADV___	12	conj	_	_
+12	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	6	nmod:poss	_	_
+13	message	message	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+14	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+15	jai	jai	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+16	publier	publier	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	amod	_	_
+17	sur	sur	ADP	_	ADP___	18	case	_	_
+18	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	15	nmod:poss	_	_
+19	photo	photo	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	obl	_	_
+20	#	#	ADJ	_	ADJ___	23	nmod	_	_
+
+
+#Réseau social # en mode
+1	Réseau	Réseau	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	social	social	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	amod	_	_
+3	#	#	ADJ	_	ADJ___	1	nmod	_	_
+4	en	en	ADP	_	ADP___	5	case	_	_
+5	mode	mode	NOUN	_	NOUN__Number=Sing	3	obl	_	_
+
+
+# public un message leur demandant de venir régler leur crédit à mon entreprise avec les montants.
+1			NOUN	_	NOUN__Gender=Fem|Number=Sing	1	advmod	_	_
+2	public	public	ADP	_	ADP___	0	ROOT	_	_
+3	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+4	message	message	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+5	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	3	iobj	_	_
+6	demandant	demander	VERB	_	VERB__Tense=Pres|VerbForm=Part	5	acl	_	_
+7	de	de	ADP	_	ADP___	6	mark	_	_
+8	venir	venir	VERB	_	VERB__VerbForm=Inf	12	xcomp	_	_
+9	régler	régler	VERB	_	VERB__VerbForm=Inf	12	xcomp	_	_
+10	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	12	nmod:poss	_	_
+11	crédit	crédit	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+12	à	à	ADP	_	ADP___	6	case	_	_
+13	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	12	nmod:poss	_	_
+14	entreprise	entreprendre	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obl	_	_
+15	avec	avec	ADP	_	ADP___	5	case	_	_
+16	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	18	det	_	_
+17	montants	montant	NOUN	_	NOUN__Gender=Masc|Number=Plur	18	nmod	_	_
+18	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Voici le message publié :
+1	Voici	Voici	VERB	_	VERB__Mood=Ind|VerbForm=Fin	0	ROOT	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+3	message	message	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+4	publié	publier	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+5	:	:	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Bonjour , Venez payer vos comptes à X entreprise dun montant de X euros .. tu mavais promis  en janvier  de venir payer... et en juin toujours rien !
+1	Bonjour	Bonjour	PROPN	_	PROPN___	1	nsubj	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Venez	Venez	PROPN	_	PROPN__Gender=Masc|Number=Sing	1	conj	_	_
+4	payer	payer	VERB	_	VERB__VerbForm=Part	0	ROOT	_	_
+5	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	3	nmod:poss	_	_
+6	comptes	compter	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	obj	_	_
+7	à	à	ADP	_	ADP___	6	case	_	_
+8	X	X	NOUN	_	NOUN___	12	nmod	_	_
+9	entreprise	entreprendre	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obl	_	_
+10	dun	dun	ADP	_	ADP___	12	case	_	_
+11	montant	monter	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+12	de	de	ADP	_	ADP___	6	case	_	_
+13	X	X	NOUN	_	NOUN___	12	nummod	_	_
+14	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	nmod	_	_
+15	..	..	PUNCT	_	PUNCT___	5	punct	_	_
+16	tu	taire	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	advmod	_	_
+17	mavais	mavais	ADJ	_	ADJ__Gender=Masc	18	fixed	_	_
+18	promis	promettre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	15	acl	_	_
+19	 	 	SPACE	_		23		_	_
+20	en	en	ADP	_	ADP___	23	case	_	_
+21	janvier	janvier	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	obl	_	_
+22	 	 	SPACE	_		23		_	_
+23	de	de	ADP	_	ADP___	18	mark	_	_
+24	venir	venir	VERB	_	VERB__VerbForm=Inf	23	xcomp	_	_
+25	payer	payer	VERB	_	VERB__VerbForm=Inf	26	xcomp	_	_
+26	...	...	PUNCT	_	PUNCT___	23	punct	_	_
+27	et	et	CCONJ	_	CCONJ___	28	cc	_	_
+28	en	en	ADP	_	ADP___	23	case	_	_
+29	juin	juin	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	conj	_	_
+30	toujours	toujours	ADV	_	ADV___	28	advmod	_	_
+31	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	30	obj	_	_
+32	!	!	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Certaines personnes me disent que nous navons pas le droit de faire ça ?
+1	Certaines	Certaines	DET	_	DET__Gender=Fem|Number=Plur	1	det	_	_
+2	personnes	personne	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	nsubj	_	_
+3	me	se	PRON	_	PRON__Number=Sing|Person=1	1	iobj	_	_
+4	disent	dire	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	que	que	SCONJ	_	SCONJ___	3	mark	_	_
+6	nous	se	PRON	_	PRON__Number=Plur|Person=1	5	nsubj	_	_
+7	navons	navons	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+8	pas	pas	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+10	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+11	de	de	ADP	_	ADP___	12	mark	_	_
+12	faire	faire	VERB	_	VERB__VerbForm=Inf	6	acl	_	_
+13	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	obj	_	_
+14	?	?	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#.. il nexiste aucun contrat entre lentreprise Et le client , à part la facture totale due signée car nous sommes dans une petite ville où tout le monde se connais.
+1	..	..	PUNCT	_	PUNCT___	1	punct	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+3	nexiste	nexiste	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	aucun	aucun	DET	_	DET__Gender=Masc|Number=Sing	5	det	_	_
+5	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obj	_	_
+6	entre	entrer	ADP	_	ADP___	5	case	_	_
+7	lentreprise	lentreprise	ADJ	_	ADJ__Gender=Fem|Number=Sing	6	nmod	_	_
+8	Et	Et	CCONJ	_	CCONJ___	12	cc	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+10	client	client	ADV	_	ADV___	12	conj	_	_
+11	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+12	à	à	ADP	_	ADP___	6	case	_	_
+13	part	partir	NOUN	_	NOUN__Number=Sing	12	fixed	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	facture	facturer	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+16	totale	total	ADJ	_	ADJ__Gender=Fem|Number=Sing	18	amod	_	_
+17	due	dû	ADJ	_	ADJ__Gender=Fem|Number=Sing	18	amod	_	_
+18	signée	signer	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	acl	_	_
+19	car	car	CCONJ	_	CCONJ___	23	cc	_	_
+20	nous	se	PRON	_	PRON__Number=Plur|Person=1	23	nsubj	_	_
+21	sommes	sommer	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	23	conj	_	_
+22	dans	dan	ADP	_	ADP___	23	case	_	_
+23	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+24	petite	petit	ADJ	_	ADJ__Gender=Fem|Number=Sing	23	amod	_	_
+25	ville	ville	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	obl	_	_
+26	où	où	PRON	_	PRON__PronType=Rel	23	iobj	_	_
+27	tout	tout	ADJ	_	ADJ__Gender=Masc|Number=Sing	28	amod	_	_
+28	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+29	monde	monder	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	nsubj	_	_
+30	se	se	PRON	_	PRON__Person=3|Reflex=Yes	28	expl	_	_
+31	connais	connaître	ADJ	_	ADJ__Gender=Masc	30	acl:relcl	_	_
+32	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Pour une entreprise peut elle publier le nom et montant des créances de ces clients non réglos?
+1	Pour	Pour	ADP	_	ADP___	1	case	_	_
+2	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+3	entreprise	entreprendre	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+4	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	3	iobj	_	_
+6	publier	publier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+8	nom	nom	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+9	et	et	CCONJ	_	CCONJ___	12	cc	_	_
+10	montant	monter	VERB	_	VERB__Tense=Pres|VerbForm=Part	12	conj	_	_
+11	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	12	det	_	_
+12	créances	créance	NOUN	_	NOUN__Gender=Fem|Number=Plur	6	obj	_	_
+13	de	de	ADP	_	ADP___	12	case	_	_
+14	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	15	det	_	_
+15	clients	client	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	nmod	_	_
+16	non	non	ADV	_	ADV___	18	advmod	_	_
+17	réglos	réglo	ADJ	_	ADJ__Gender=Masc|Number=Sing	18	acl	_	_
+18	?	?	PUNCT	_	PUNCT___	15	punct	_	_
+
+

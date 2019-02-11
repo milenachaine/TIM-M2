@@ -1,0 +1,75 @@
+#Bonjour...
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	...	...	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#En musique.
+1	En	En	ADP	_	ADP___	1	case	_	_
+2	musique	musiquer	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Imaginons 3 auteurs.
+1	Imaginons	Imaginons	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+2	3	3	NUM	_	NUM__NumType=Card	1	nummod	_	_
+3	auteurs	auteur	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	nmod	_	_
+4	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Si l’un des 3 a participé à hauteur de 15% à l’oeuvre (pourcentage donné à la sacem pour le calcul les droits patrimoniaux), ce dernier est-il en mesure de demander le retrait de l’oeuvre alors que les 2 autres détiennent 85% ?
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	l’	l’	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+3	un	un	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	4	nsubj	_	_
+4	des	un	ADP	_	ADP___	4	det	_	_
+5	3	3	PRON	_	PRON__NumType=Card|PronType=Rel	4	nmod	_	_
+6	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+7	participé	participer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+8	à	à	ADP	_	ADP___	6	case	_	_
+9	hauteur	hauteur	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	fixed	_	_
+10	de	de	ADP	_	ADP___	16	fixed	_	_
+11	15	15	NUM	_	NUM__NumType=Card	16	nummod	_	_
+12	%	%	NOUN	_	NOUN__Gender=Masc	16	obl	_	_
+13	à	à	ADP	_	ADP___	14	case	_	_
+14	l’	l’	PROPN	_	PROPN__Gender=Masc|Number=Sing	12	det	_	_
+15	oeuvre	oeuvrer	NOUN	_	NOUN__Number=Sing	16	nmod	_	_
+16	(	(	PUNCT	_	PUNCT___	16	punct	_	_
+17	pourcentage	pourcentage	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obl	_	_
+18	donné	donner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl	_	_
+19	à	à	ADP	_	ADP___	17	case	_	_
+20	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	sacem	sacem	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obl	_	_
+22	pour	pour	ADP	_	ADP___	24	case	_	_
+23	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	calcul	calcul	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	advcl	_	_
+25	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	16	det	_	_
+26	droits	droit	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	obj	_	_
+27	patrimoniaux	patrimonial	ADJ	_	ADJ__Gender=Masc|Number=Plur	26	amod	_	_
+28	)	)	PUNCT	_	PUNCT___	30	punct	_	_
+29	,	,	PUNCT	_	PUNCT___	30	punct	_	_
+30	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	27	det	_	_
+31	dernier	dernier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	33	amod	_	_
+32	est-il	est-il	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	obj	_	_
+33	en	en	ADP	_	ADP___	16	mark	_	_
+34	mesure	mesurer	NOUN	_	NOUN__Gender=Fem|Number=Sing	35	fixed	_	_
+35	de	de	ADP	_	ADP___	33	mark	_	_
+36	demander	demander	VERB	_	VERB__VerbForm=Inf	35	advcl	_	_
+37	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+38	retrait	retraire	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obj	_	_
+39	de	de	ADP	_	ADP___	41	case	_	_
+40	l’	l’	PROPN	_	PROPN__Gender=Masc|Number=Sing	41	det	_	_
+41	oeuvre	oeuvrer	NOUN	_	NOUN__Number=Sing	16	nmod	_	_
+42	alors	alors	ADV	_	ADV___	45	mark	_	_
+43	que	que	SCONJ	_	SCONJ___	42	fixed	_	_
+44	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	45	det	_	_
+45	2	2	NUM	_	NUM__NumType=Card	16	nummod	_	_
+46	autres	autre	ADJ	_	ADJ__Number=Plur	47	fixed	_	_
+47	détiennent	détenir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	45	advmod	_	_
+48	85	85	NUM	_	NUM__NumType=Card	50	nummod	_	_
+49	%	%	NOUN	_	NOUN__Gender=Masc	50	advcl	_	_
+50	?	?	PUNCT	_	PUNCT___	47	punct	_	_
+
+
+#Merci
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+
+
