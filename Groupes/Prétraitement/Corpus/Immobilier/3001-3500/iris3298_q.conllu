@@ -1,0 +1,172 @@
+#BonjourLocataire depuis 6 ans à paris et actuellement en tension avec le propriétaire je réalise mon état des lieux de sortie en fin de mois.
+1	BonjourLocataire	BonjourLocataire	ADP	_	ADP___	0	ROOT	_	_
+2	depuis	depuis	ADP	_	ADP___	4	case	_	_
+3	6	6	NUM	_	NUM__NumType=Card	4	nummod	_	_
+4	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	obl	_	_
+5	à	à	ADP	_	ADP___	6	case	_	_
+6	paris	pari	PROPN	_	PROPN__Gender=Masc|Number=Sing	4	nmod	_	_
+7	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+8	actuellement	actuellement	ADV	_	ADV___	7	advmod	_	_
+9	en	en	ADP	_	ADP___	10	case	_	_
+10	tension	tension	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	conj	_	_
+11	avec	avec	ADP	_	ADP___	13	case	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	10	nmod	_	_
+14	je	il	PRON	_	PRON__Number=Sing|Person=1	15	nsubj	_	_
+15	réalise	réaliser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+16	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	17	nmod:poss	_	_
+17	état	état	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obj	_	_
+18	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	19	det	_	_
+19	lieux	lieu	NOUN	_	NOUN__Gender=Masc|Number=Plur	17	obj	_	_
+20	de	de	ADP	_	ADP___	21	case	_	_
+21	sortie	sortir	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	nmod	_	_
+22	en	en	ADP	_	ADP___	23	case	_	_
+23	fin	fin	NOUN	_	NOUN__Number=Sing	15	obl	_	_
+24	de	de	ADP	_	ADP___	25	case	_	_
+25	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	23	nmod	_	_
+26	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#À lentrée le propriétaire a demandé 2 mois de caution (alors que la législation disait 1 au maximum il me semble).
+1	À	À	ADP	_	ADP___	1	advmod	_	_
+2	lentrée	lentrée	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	fixed	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	1	nsubj	_	_
+5	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	demandé	demander	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+7	2	2	NUM	_	NUM__NumType=Card	10	nummod	_	_
+8	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	obj	_	_
+9	de	de	ADP	_	ADP___	10	case	_	_
+10	caution	caution	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+11	(	(	PUNCT	_	PUNCT___	13	punct	_	_
+12	alors	alors	ADV	_	ADV___	13	mark	_	_
+13	que	que	SCONJ	_	SCONJ___	10	fixed	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	législation	législation	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nsubj	_	_
+16	disait	dire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	advcl	_	_
+17	1	1	NUM	_	NUM__NumType=Card	15	nummod	_	_
+18	au	au	ADJ	_	ADJ__Gender=Masc|Number=Plur|NumType=Ord	19	amod	_	_
+19	maximum	maximum	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obj	_	_
+20	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	21	nsubj	_	_
+21	me	se	PRON	_	PRON__Number=Sing|Person=1	19	iobj	_	_
+22	semble	sembler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	xcomp	_	_
+23	)	)	PUNCT	_	PUNCT___	15	punct	_	_
+24	.	.	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#Dans quel délais le propriétaire doit me rembourser la caution?
+1	Dans	Dans	ADP	_	ADP___	1	case	_	_
+2	quel	quel	DET	_	DET__Gender=Masc|Number=Sing|PronType=Int	4	det	_	_
+3	délais	délai	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+5	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	6	nsubj	_	_
+6	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+7	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	10	iobj	_	_
+8	rembourser	rembourser	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	caution	caution	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obj	_	_
+11	?	?	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Que puis-je faire si je suis en désaccord avec lui lors de letat des lieux de sortie?
+1	Que	Que	PRON	_	PRON__PronType=Int	1	mark	_	_
+2	puis-je	puis-je	AUX	_	AUX__Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	nsubj	_	_
+3	faire	faire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	si	si	SCONJ	_	SCONJ___	1	mark	_	_
+5	je	il	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+6	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+7	en	en	ADP	_	ADP___	10	case	_	_
+8	désaccord	désaccord	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+9	avec	avec	ADP	_	ADP___	10	case	_	_
+10	lui	luire	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nmod	_	_
+11	lors	lors	ADV	_	ADV___	13	case	_	_
+12	de	de	ADP	_	ADP___	13	fixed	_	_
+13	letat	letat	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obl	_	_
+14	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	15	det	_	_
+15	lieux	lieu	ADJ	_	ADJ__Gender=Masc	13	nmod	_	_
+16	de	de	ADP	_	ADP___	17	case	_	_
+17	sortie	sortir	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	nmod	_	_
+18	?	?	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#(Je quitte lappartement suite à une demande de congé pour reprise de lapartement pour son usage personnel).Merci beaucoup davance pour votre aide précieuse !
+1	(	(	PUNCT	_	PUNCT___	1	punct	_	_
+2	Je	Je	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+3	quitte	quitter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	lappartement	lappartement	ADV	_	ADV___	1	obj	_	_
+5	suite	suite	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	case	_	_
+6	à	à	ADP	_	ADP___	4	fixed	_	_
+7	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+8	demande	demander	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obl	_	_
+9	de	de	ADP	_	ADP___	10	case	_	_
+10	congé	congé	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+11	pour	pour	ADP	_	ADP___	13	case	_	_
+12	reprise	repriser	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obl	_	_
+13	de	de	ADP	_	ADP___	10	case	_	_
+14	lapartement	lapartement	PROPN	_	PROPN__Gender=Masc|Number=Sing	15	nmod	_	_
+15	pour	pour	ADP	_	ADP___	13	case	_	_
+16	son	son	DET	_	DET__Number=Sing|Poss=Yes	17	nmod:poss	_	_
+17	usage	usage	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nmod	_	_
+18	personnel).Merci	personnel).Merci	ADJ	_	ADJ__Gender=Masc|Number=Sing	19	acl	_	_
+19	beaucoup	beaucoup	ADV	_	ADV___	17	det	_	_
+20	davance	davance	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	obj	_	_
+21	pour	pour	ADP	_	ADP___	19	case	_	_
+22	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	23	nmod:poss	_	_
+23	aide	aider	NOUN	_	NOUN__Number=Sing	15	obl	_	_
+24	précieuse	précieux	ADJ	_	ADJ__Gender=Fem|Number=Sing	25	amod	_	_
+25	!	!	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#C’est un appartement loué vide.
+1	C’	C’	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nsubj	_	_
+5	loué	louer	ADJ	_	ADJ__Gender=Masc|Number=Sing	6	cop	_	_
+6	vide	vider	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+7	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Et non meublé (bien qu’il y ait la cuisine équipée)
+1	Et	Et	CCONJ	_	CCONJ___	6	cc	_	_
+2	non	non	ADV	_	ADV___	6	advmod	_	_
+3	meublé	meubler	ADJ	_	ADJ___	0	ROOT	_	_
+4	(	(	PUNCT	_	PUNCT___	6	punct	_	_
+5	bien	bien	ADV	_	ADV___	6	advmod	_	_
+6	qu’	qu’	SCONJ	_	SCONJ___	6	dep	_	_
+7	il	il	PRON	_	PRON__Number=Sing|Person=3	6	case	_	_
+8	y	yu	PRON	_	PRON__Person=3	10	fixed	_	_
+9	ait	avoir	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	fixed	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+11	cuisine	cuisiner	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+12	équipée	équiper	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	amod	_	_
+13	)	)	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Donc il a bien demandé un mois de dépôt de garantie en trop?
+1	Donc	Donc	ADV	_	ADV___	5	advmod	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	bien	bien	ADV	_	ADV___	5	advmod	_	_
+5	demandé	demander	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+8	de	de	ADP	_	ADP___	9	case	_	_
+9	dépôt	dépôt	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+10	de	de	ADP	_	ADP___	11	case	_	_
+11	garantie	garantir	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nmod	_	_
+12	en	en	ADP	_	ADP___	5	advmod	_	_
+13	trop	trop	ADV	_	ADV___	12	fixed	_	_
+14	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Comment je fais à la sortie?
+1	Comment	Comment	ADV	_	ADV__PronType=Int	5	advmod	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+3	fais	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	à	à	ADP	_	ADP___	5	case	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+6	sortie	sortir	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obl	_	_
+7	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+

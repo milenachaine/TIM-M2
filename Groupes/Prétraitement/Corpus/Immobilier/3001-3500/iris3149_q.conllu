@@ -1,0 +1,768 @@
+#Bonjour,Nous avons acheté un appartement neuf.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	5	mark	_	_
+2	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+3	Nous	Nous	PRON	_	PRON__Number=Plur|Person=1	5	nsubj	_	_
+4	avons	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	acheté	acheter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+8	neuf	neuf	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Card	7	amod	_	_
+9	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Celui ci a été livré le 16 décembre 2017.Nous n'y habitons pas encore.
+1	Celui	Celui	PROPN	_	PROPN__Gender=Masc|Number=Sing	5	nsubj	_	_
+2	ci	ci	PRON	_	PRON__Person=3|Reflex=Yes	5	obj	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	livré	livrer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	16	16	NUM	_	NUM__NumType=Card	5	nummod	_	_
+8	décembre	décembre	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+9	2017.Nous	2017.Nous	NUM	_	NUM__NumType=Card	5	nummod	_	_
+10	n'	ne	ADV	_	ADV__Polarity=Neg	14	advmod	_	_
+11	y	yu	PRON	_	PRON__Person=3	14	expl	_	_
+12	habitons	habiter	NOUN	_	NOUN__Gender=Fem|Number=Plur	14	obl	_	_
+13	pas	pas	ADV	_	ADV__Polarity=Neg	14	advmod	_	_
+14	encore	encore	ADV	_	ADV___	14	advmod	_	_
+15	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Sur le PV de réception, il y a plusieurs réserves (nettoyage des sols entre autres, et une fenêtre fendue).Cependant nous venons de constaté qu'il n'y a pas de compteur divisionnaire pour l'eau et qu'ils seront installés la semaine prochaine.
+1	Sur	Sur	ADP	_	ADP___	5	case	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+3	PV	PV	PROPN	_	PROPN___	5	obl	_	_
+4	de	de	ADP	_	ADP___	5	case	_	_
+5	réception	réception	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+6	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+7	il	il	PRON	_	PRON__Number=Sing|Person=3	0	ROOT	_	_
+8	y	yu	PRON	_	PRON__Person=3	7	fixed	_	_
+9	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	fixed	_	_
+10	plusieurs	plusieurs	DET	_	DET__Number=Plur	14	det	_	_
+11	réserves	réserver	NOUN	_	NOUN__Gender=Fem|Number=Plur	14	obj	_	_
+12	(	(	PUNCT	_	PUNCT___	14	punct	_	_
+13	nettoyage	nettoyage	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	appos	_	_
+14	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
+15	sols	sol	NOUN	_	NOUN__Gender=Masc|Number=Plur	17	nmod	_	_
+16	entre	entrer	ADP	_	ADP___	17	case	_	_
+17	autres	autre	ADJ	_	ADJ__Number=Plur	14	nmod	_	_
+18	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+19	et	et	CCONJ	_	CCONJ___	21	cc	_	_
+20	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	fenêtre	fenêtre	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	conj	_	_
+22	fendue).Cependant	fendue).Cependant	VERB	_	VERB__Tense=Pres|VerbForm=Part	23	case	_	_
+23	nous	se	PRON	_	PRON__Number=Plur|Person=1	21	nsubj	_	_
+24	venons	venir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	acl	_	_
+25	de	de	ADP	_	ADP___	27	case	_	_
+26	constaté	constater	NOUN	_	NOUN__Gender=Masc|Number=Plur	27	xcomp	_	_
+27	qu'	que	SCONJ	_	SCONJ___	31	mark	_	_
+28	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	29	nsubj	_	_
+29	n'	ne	ADV	_	ADV__Polarity=Neg	27	advmod	_	_
+30	y	yu	PRON	_	PRON__Person=3	27	expl	_	_
+31	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	acl:relcl	_	_
+32	pas	pas	ADV	_	ADV__Polarity=Neg	31	advmod	_	_
+33	de	de	DET	_	DET__Definite=Ind|Number=Sing|PronType=Art	31	det	_	_
+34	compteur	compteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	35	obj	_	_
+35	divisionnaire	divisionnaire	ADJ	_	ADJ__Number=Sing	31	amod	_	_
+36	pour	pour	ADP	_	ADP___	35	case	_	_
+37	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	35	det	_	_
+38	eau	eau	NOUN	_	NOUN__Gender=Fem|Number=Sing	39	obl	_	_
+39	et	et	CCONJ	_	CCONJ___	37	cc	_	_
+40	qu'	que	SCONJ	_	SCONJ___	41	mark	_	_
+41	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	37	nsubj	_	_
+42	seront	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	35	aux:pass	_	_
+43	installés	installer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	45	conj	_	_
+44	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	semaine	semaine	NOUN	_	NOUN__Gender=Fem|Number=Sing	35	obl	_	_
+46	prochaine	prochain	ADJ	_	ADJ__Gender=Fem|Number=Sing	48	amod	_	_
+47	.	.	PUNCT	_	PUNCT___	48	punct	_	_
+
+
+#Mais cela n'apparait pas sur le PV.De plus il n'en a pas été question lors de la première assemblée le 1er décembre 2017.En conséquence le syndic veut faire payer la consommation d'eau du 15/12/2017 au 31/03/2018 au prorata des millièmes.
+1	Mais	Mais	CCONJ	_	CCONJ___	5	cc	_	_
+2	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	5	nsubj	_	_
+3	n'	ne	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+4	apparait	apparait	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+6	sur	sur	ADP	_	ADP___	7	case	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+8	PV.De	PV.De	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+9	plus	plaire	ADV	_	ADV___	5	advmod	_	_
+10	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
+11	n'	ne	ADV	_	ADV__Polarity=Neg	14	advmod	_	_
+12	en	en	PRON	_	PRON__Person=3	14	expl	_	_
+13	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	pas	pas	ADV	_	ADV__Polarity=Neg	14	advmod	_	_
+15	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	17	cop	_	_
+16	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	obj	_	_
+17	lors	lors	ADV	_	ADV___	14	case	_	_
+18	de	de	ADP	_	ADP___	17	fixed	_	_
+19	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	première	premier	ADJ	_	ADJ__Gender=Fem|Number=Sing|NumType=Ord	21	amod	_	_
+21	assemblée	assembler	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	advcl	_	_
+22	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	1er	1er	ADJ	_	ADJ__NumType=Ord	21	amod	_	_
+24	décembre	décembre	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obj	_	_
+25	2017.En	2017.En	NUM	_	NUM__NumType=Card	27	nummod	_	_
+26	conséquence	conséquence	NOUN	_	NOUN__Gender=Fem|Number=Sing	27	obl	_	_
+27	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+28	syndic	syndic	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	nsubj	_	_
+29	veut	vouloir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+30	faire	faire	VERB	_	VERB__VerbForm=Inf	27	xcomp	_	_
+31	payer	payer	VERB	_	VERB__VerbForm=Inf	31	xcomp	_	_
+32	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+33	consommation	consommation	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	obj	_	_
+34	d'	de	ADP	_	ADP___	35	case	_	_
+35	eau	eau	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	nmod	_	_
+36	du	du	DET	_	DET__Gender=Masc|Number=Sing	35	det	_	_
+37	15/12/2017	15/12/2017	NOUN	_	NOUN__NumType=Card	35	nmod	_	_
+38	au	au	ADV	_	ADV__PronType=Int	39	case	_	_
+39	31/03/2018	31/03/2018	NOUN	_	NOUN__NumType=Card	37	obl	_	_
+40	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	41	iobj	_	_
+41	prorata	prorata	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	advcl	_	_
+42	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	35	det	_	_
+43	millièmes	millième	NOUN	_	NOUN__Gender=Masc|Number=Plur	45	obj	_	_
+44	.	.	PUNCT	_	PUNCT___	45	punct	_	_
+
+
+#Certains logements sont habités, d'autres pas, comme le nôtre.
+1	Certains	Certains	DET	_	DET__Gender=Masc|Number=Plur	5	det	_	_
+2	logements	logement	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	nsubj:pass	_	_
+3	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+4	habités	habiter	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+5	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+6	d'	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
+7	autres	autre	ADJ	_	ADJ__Number=Plur	5	fixed	_	_
+8	pas	pas	ADV	_	ADV__Polarity=Neg	7	obl	_	_
+9	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+10	comme	comme	SCONJ	_	SCONJ___	14	case	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+12	nôtre	nôtre	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obl	_	_
+13	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Existe
+1	Existe	Existe	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+
+
+#-t-il un recours ?
+1	-	-	PUNCT	_	PUNCT___	5	punct	_	_
+2	t	t	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+3	-	-	PUNCT	_	PUNCT___	5	fixed	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nmod	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+6	recours	recourir	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+7	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Nous voulons bien payer notre côte part pour l'abonnement du compteur principal de l'immeuble mais en aucun cas pour les consommations vu que nous n'étions pas averti de l'absence du compteur d'eau ET que nous n'habitons pas dans le logement.
+1	Nous	Nous	PRON	_	PRON__Number=Plur|Person=1	5	nsubj	_	_
+2	voulons	vouloir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	bien	bien	ADV	_	ADV___	5	advmod	_	_
+4	payer	payer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	notre	notre	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+6	côte	côte	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+7	part	partir	NOUN	_	NOUN__Number=Sing	5	amod	_	_
+8	pour	pour	ADP	_	ADP___	7	mark	_	_
+9	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+10	abonnement	abonnement	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	advcl	_	_
+11	du	du	DET	_	DET__Gender=Masc|Number=Sing	14	det	_	_
+12	compteur	compteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obj	_	_
+13	principal	principal	ADJ	_	ADJ__Gender=Masc|Number=Sing	14	amod	_	_
+14	de	de	ADP	_	ADP___	14	case	_	_
+15	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+16	immeuble	immeuble	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	nmod	_	_
+17	mais	mai	CCONJ	_	CCONJ___	14	cc	_	_
+18	en	en	ADP	_	ADP___	17	case	_	_
+19	aucun	aucun	DET	_	DET__Gender=Masc|Number=Sing	21	det	_	_
+20	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	conj	_	_
+21	pour	pour	ADP	_	ADP___	14	case	_	_
+22	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	23	det	_	_
+23	consommations	consommation	NOUN	_	NOUN__Gender=Fem|Number=Plur	21	nmod	_	_
+24	vu	voir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
+25	que	que	SCONJ	_	SCONJ___	27	mark	_	_
+26	nous	se	PRON	_	PRON__Number=Plur|Person=1	27	nsubj	_	_
+27	n'	ne	ADV	_	ADV__Polarity=Neg	31	advmod	_	_
+28	étions	être	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	29	ccomp	_	_
+29	pas	pas	ADV	_	ADV__Polarity=Neg	27	advmod	_	_
+30	averti	avertir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	xcomp	_	_
+31	de	de	ADP	_	ADP___	31	case	_	_
+32	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	31	det	_	_
+33	absence	absence	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	obl	_	_
+34	du	du	DET	_	DET__Gender=Masc|Number=Sing	35	det	_	_
+35	compteur	compteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	obj	_	_
+36	d'	de	ADP	_	ADP___	35	case	_	_
+37	eau	eau	NOUN	_	NOUN__Gender=Fem|Number=Sing	35	nmod	_	_
+38	ET	ET	CCONJ	_	CCONJ___	39	cc	_	_
+39	que	que	SCONJ	_	SCONJ___	37	mark	_	_
+40	nous	se	PRON	_	PRON__Number=Plur|Person=1	41	nsubj	_	_
+41	n'	ne	ADV	_	ADV__Polarity=Neg	37	advmod	_	_
+42	habitons	habiter	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	35	conj	_	_
+43	pas	pas	ADV	_	ADV__Polarity=Neg	45	advmod	_	_
+44	dans	dan	ADP	_	ADP___	45	case	_	_
+45	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+46	logement	logement	NOUN	_	NOUN__Gender=Masc|Number=Sing	48	obl	_	_
+47	.	.	PUNCT	_	PUNCT___	48	punct	_	_
+
+
+#Et si nous en avions été averti, nous aurions refusé la livraison.
+1	Et	Et	CCONJ	_	CCONJ___	5	cc	_	_
+2	si	si	SCONJ	_	SCONJ___	5	mark	_	_
+3	nous	se	PRON	_	PRON__Number=Plur|Person=1	5	nsubj	_	_
+4	en	en	PRON	_	PRON__Person=3	5	expl	_	_
+5	avions	avoir	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	aux	_	_
+6	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	7	aux:pass	_	_
+7	averti	avertir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	advcl	_	_
+8	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+9	nous	se	PRON	_	PRON__Number=Plur|Person=1	5	nsubj	_	_
+10	aurions	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+11	refusé	refuser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	livraison	livraison	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obj	_	_
+14	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Le logement est pourvu d'un compteur d'électricité Linky et nous n'avons pas ouvert de contrat ni fait de consommation (on a coupé le disjoncteur principal le lendemain de la réception de l'appartement).
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+2	logement	logement	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	pourvu	pourvoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	d'	de	ADP	_	ADP___	5	case	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	compteur	compteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+8	d'	de	ADP	_	ADP___	7	case	_	_
+9	électricité	électricité	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+10	Linky	Linky	PROPN	_	PROPN__Gender=Fem|Number=Sing	14	flat:name	_	_
+11	et	et	CCONJ	_	CCONJ___	14	cc	_	_
+12	nous	se	PRON	_	PRON__Number=Plur|Person=1	14	nsubj	_	_
+13	n'	ne	ADV	_	ADV__Polarity=Neg	14	advmod	_	_
+14	avons	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+15	pas	pas	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+16	ouvert	ouvrir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	conj	_	_
+17	de	de	ADP	_	ADP___	14	case	_	_
+18	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obl	_	_
+19	ni	ni	CCONJ	_	CCONJ___	21	cc	_	_
+20	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	conj	_	_
+21	de	de	ADP	_	ADP___	14	case	_	_
+22	consommation	consommation	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	nmod	_	_
+23	(	(	PUNCT	_	PUNCT___	21	punct	_	_
+24	on	on	PRON	_	PRON__Number=Sing|Person=3	14	nsubj	_	_
+25	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+26	coupé	couper	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	parataxis	_	_
+27	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+28	disjoncteur	disjoncteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	obj	_	_
+29	principal	principal	ADJ	_	ADJ__Gender=Masc|Number=Sing	27	amod	_	_
+30	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+31	lendemain	lendemain	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	obj	_	_
+32	de	de	ADP	_	ADP___	31	case	_	_
+33	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+34	réception	réception	NOUN	_	NOUN__Gender=Fem|Number=Sing	35	nmod	_	_
+35	de	de	ADP	_	ADP___	31	case	_	_
+36	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	35	det	_	_
+37	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	35	nmod	_	_
+38	)	)	PUNCT	_	PUNCT___	39	punct	_	_
+39	.	.	PUNCT	_	PUNCT___	37	punct	_	_
+
+
+#Nous pensons donc demandé à la compagnie d'électricité de nous établir une attestation comme quoi il n'y a pas de contrat pour ce compteur et de faire passer un huissier pour le relever et constaté qu'il n'y a pas eu de consommation.
+1	Nous	Nous	PRON	_	PRON__Number=Plur|Person=1	5	nsubj	_	_
+2	pensons	penser	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	donc	donc	ADV	_	ADV___	5	advmod	_	_
+4	demandé	demander	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	xcomp	_	_
+5	à	à	ADP	_	ADP___	5	case	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	compagnie	compagnie	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obl	_	_
+8	d'	de	ADP	_	ADP___	7	case	_	_
+9	électricité	électricité	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+10	de	de	ADP	_	ADP___	14	mark	_	_
+11	nous	se	PRON	_	PRON__Number=Plur|Person=1	14	iobj	_	_
+12	établir	établir	VERB	_	VERB__VerbForm=Inf	14	xcomp	_	_
+13	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	attestation	attestation	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obj	_	_
+15	comme	comme	ADP	_	ADP___	17	case	_	_
+16	quoi	quoi	PRON	_	PRON__PronType=Int	17	obl	_	_
+17	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
+18	n'	ne	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+19	y	yu	PRON	_	PRON__Person=3	21	expl	_	_
+20	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+21	pas	pas	ADV	_	ADV__Polarity=Neg	14	advmod	_	_
+22	de	de	DET	_	DET__Definite=Ind|Number=Sing|PronType=Art	23	det	_	_
+23	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obj	_	_
+24	pour	pour	ADP	_	ADP___	14	case	_	_
+25	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	27	det	_	_
+26	compteur	compteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	obl	_	_
+27	et	et	CCONJ	_	CCONJ___	31	cc	_	_
+28	de	de	ADP	_	ADP___	29	mark	_	_
+29	faire	faire	VERB	_	VERB__VerbForm=Inf	27	conj	_	_
+30	passer	prendre	VERB	_	VERB__VerbForm=Inf	27	xcomp	_	_
+31	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+32	huissier	huissier	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	obj	_	_
+33	pour	pour	ADP	_	ADP___	31	mark	_	_
+34	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	obj	_	_
+35	relever	relever	VERB	_	VERB__VerbForm=Inf	31	advcl	_	_
+36	et	et	CCONJ	_	CCONJ___	35	cc	_	_
+37	constaté	constater	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	35	conj	_	_
+38	qu'	que	SCONJ	_	SCONJ___	39	mark	_	_
+39	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	37	nsubj	_	_
+40	n'	ne	ADV	_	ADV__Polarity=Neg	41	advmod	_	_
+41	y	yu	PRON	_	PRON__Person=3	37	expl	_	_
+42	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	aux	_	_
+43	pas	pas	ADV	_	ADV__Polarity=Neg	45	advmod	_	_
+44	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	45	ccomp	_	_
+45	de	de	DET	_	DET__Definite=Ind|Number=Sing|PronType=Art	35	det	_	_
+46	consommation	consommation	NOUN	_	NOUN__Gender=Fem|Number=Sing	48	obj	_	_
+47	.	.	PUNCT	_	PUNCT___	48	punct	_	_
+
+
+#Et donc ainsi prouver que le logement est inoccupé.
+1	Et	Et	CCONJ	_	CCONJ___	5	cc	_	_
+2	donc	donc	ADV	_	ADV___	5	advmod	_	_
+3	ainsi	ainsi	ADV	_	ADV___	5	advmod	_	_
+4	prouver	prouver	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	que	que	SCONJ	_	SCONJ___	5	mark	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	logement	logement	NOUN	_	NOUN__Gender=Masc|Number=Sing|NumType=Card	5	nsubj	_	_
+8	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+9	inoccupé	inoccupé	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	ccomp	_	_
+10	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Mais cela servira-t-il à quelque chose ?
+1	Mais	Mais	CCONJ	_	CCONJ___	5	cc	_	_
+2	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	5	nsubj	_	_
+3	servira	servir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+4	-	-	PUNCT	_	PUNCT___	5	punct	_	_
+5	t	t	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	obl	_	_
+6	-	-	PUNCT	_	PUNCT___	7	punct	_	_
+7	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	obl	_	_
+8	à	à	ADP	_	ADP___	7	fixed	_	_
+9	quelque	quelque	DET	_	DET__Number=Sing	5	fixed	_	_
+10	chose	chose	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	fixed	_	_
+11	?	?	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#La seule loi que j'ai trouvé est larticle L135-1 du Code de la construction qui dispose que : 	  		«.
+1	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+2	seule	seul	ADJ	_	ADJ__Gender=Fem|Number=Sing	5	amod	_	_
+3	loi	loi	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nsubj	_	_
+4	que	que	SCONJ	_	SCONJ___	5	mark	_	_
+5	j'	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+6	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	trouvé	trouver	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+8	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+9	larticle	larticle	ADV	_	ADV___	0	ROOT	_	_
+10	L135	L135	PROPN	_	PROPN___	14	fixed	_	_
+11	-	-	PUNCT	_	PUNCT___	14	punct	_	_
+12	1	1	PRON	_	PRON__PronType=Rel	14	nummod	_	_
+13	du	du	DET	_	DET__Gender=Masc|Number=Sing	14	det	_	_
+14	Code	Code	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	punct	_	_
+15	de	de	ADP	_	ADP___	17	case	_	_
+16	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	construction	construction	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nmod	_	_
+18	qui	qui	PRON	_	PRON__PronType=Rel	17	nsubj	_	_
+19	dispose	disposer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+20	que	que	SCONJ	_	SCONJ___	21	mark	_	_
+21	:	:	PUNCT	_	PUNCT___	14	punct	_	_
+22		  				  			SPACE	_	_SP	23		_	_
+23	«	«	PUNCT	_	PUNCT___	21	punct	_	_
+24	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#»
+1	»	»	PUNCT	_	PUNCT___	0	ROOT	_	_
+
+
+#En vous remerciant par avance,
+1	En	En	ADP	_	ADP___	5	mark	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	5	iobj	_	_
+3	remerciant	remercier	VERB	_	VERB__Tense=Pres|VerbForm=Part	0	ROOT	_	_
+4	par	par	ADP	_	ADP___	5	case	_	_
+5	avance	avancer	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obl	_	_
+6	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#On veut prouver que le logement n'est pas occupé.
+1	On	On	PRON	_	PRON__Number=Sing|Person=3	3	nsubj	_	_
+2	veut	vouloir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	prouver	prouver	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	que	que	SCONJ	_	SCONJ___	10	mark	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	logement	logement	ADV	_	ADV___	10	nsubj:pass	_	_
+7	n'	ne	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+8	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+9	pas	pas	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+10	occupé	occuper	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	ccomp	_	_
+11	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#S'il n'y a pas d'électricité et pas de consommation, c'est la preuve qu'il n'y a personne dedans non ?
+1	S'	S'	SCONJ	_	SCONJ___	3	mark	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+3	n'	ne	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+4	y	yu	PRON	_	PRON__Person=3	10	expl	_	_
+5	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	pas	pas	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+7	d'	de	DET	_	DET__Definite=Ind|Number=Sing|PronType=Art	10	det	_	_
+8	électricité	électricité	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obj	_	_
+9	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+10	pas	pas	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+11	de	de	ADP	_	ADP___	3	case	_	_
+12	consommation	consommation	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	conj	_	_
+13	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+14	c'	ce	PRON	_	PRON__Number=Sing|Person=3	16	nsubj	_	_
+15	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+17	preuve	preuve	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obj	_	_
+18	qu'	que	SCONJ	_	SCONJ___	19	obj	_	_
+19	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	16	nsubj	_	_
+20	n'	ne	ADV	_	ADV__Polarity=Neg	23	advmod	_	_
+21	y	yu	PRON	_	PRON__Person=3	20	expl	_	_
+22	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	personne	personne	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	19	acl:relcl	_	_
+24	dedans	dedans	ADP	_	ADP___	28	case	_	_
+25	non	non	ADV	_	ADV___	28	obl	_	_
+26	?	?	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#As
+1	As	As	ADV	_	ADV___	0	ROOT	_	_
+
+
+#-t-on un recours contre le promoteur ?
+1	-	-	PUNCT	_	PUNCT___	3	punct	_	_
+2	t	t	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+3	-	-	PUNCT	_	PUNCT___	3	fixed	_	_
+4	on	on	PRON	_	PRON__Number=Sing|Person=3	10	fixed	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	recours	recourir	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+7	contre	contrer	ADP	_	ADP___	10	case	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	promoteur	promoteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+10	?	?	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Ce n'est pas la seule malfaçon constatée mais on aurait dû être averti que le compteur était manquant non ?
+1	Ce	Ce	PRON	_	PRON__Number=Sing|Person=3	3	det	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	seule	seul	ADJ	_	ADJ__Gender=Fem|Number=Sing	10	amod	_	_
+7	malfaçon	malfaçon	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obl	_	_
+8	constatée	constater	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
+9	mais	mai	CCONJ	_	CCONJ___	10	cc	_	_
+10	on	on	PRON	_	PRON__Number=Sing|Person=3	3	nsubj	_	_
+11	aurait	avoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+12	dû	devoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+13	être	être	AUX	_	AUX__VerbForm=Inf	16	aux:pass	_	_
+14	averti	avertir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	16	xcomp	_	_
+15	que	que	SCONJ	_	SCONJ___	16	mark	_	_
+16	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+17	compteur	compteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	nsubj	_	_
+18	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	cop	_	_
+19	manquant	manquer	ADJ	_	ADJ__Gender=Masc|Number=Sing	16	ccomp	_	_
+20	non	non	ADV	_	ADV___	23	advmod	_	_
+21	?	?	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Sans lui on n'aurait pas réceptionné l'appartement si on avait su.
+1	Sans	Sans	ADP	_	ADP___	3	case	_	_
+2	lui	luire	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obl	_	_
+3	on	on	PRON	_	PRON__Number=Sing|Person=3	3	nsubj	_	_
+4	n'	ne	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+5	aurait	avoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	pas	pas	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+7	réceptionné	réceptionner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+8	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+9	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+10	si	si	SCONJ	_	SCONJ___	3	mark	_	_
+11	on	on	PRON	_	PRON__Number=Sing|Person=3	3	nsubj	_	_
+12	avait	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	aux	_	_
+13	su	savoir	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	nmod	_	_
+14	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Bonjour,Mais on doit pouvoir demander un relevé du compteur (même si il est visible sur l'afficheur) et lui prouve qu'il n'y a pas de consommation depuis la livraison.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Mais	Mais	CCONJ	_	CCONJ___	7	cc	_	_
+4	on	on	PRON	_	PRON__Number=Sing|Person=3	7	nsubj	_	_
+5	doit	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	pouvoir	pouvoir	AUX	_	AUX__VerbForm=Inf	7	aux	_	_
+7	demander	demander	VERB	_	VERB__VerbForm=Inf	1	conj	_	_
+8	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	relevé	relever	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+10	du	du	DET	_	DET__Gender=Masc|Number=Sing	11	det	_	_
+11	compteur	compteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+12	(	(	PUNCT	_	PUNCT___	7	punct	_	_
+13	même	même	ADV	_	ADV___	17	mark	_	_
+14	si	si	SCONJ	_	SCONJ___	13	fixed	_	_
+15	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	17	nsubj	_	_
+16	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	visible	visible	ADJ	_	ADJ__Number=Sing	7	advcl	_	_
+18	sur	sur	ADP	_	ADP___	20	case	_	_
+19	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	afficheur	afficheur	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obl	_	_
+21	)	)	PUNCT	_	PUNCT___	7	punct	_	_
+22	et	et	CCONJ	_	CCONJ___	24	cc	_	_
+23	lui	luire	PRON	_	PRON__Number=Sing|Person=3	24	iobj	_	_
+24	prouve	prouver	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+25	qu'	que	SCONJ	_	SCONJ___	29	mark	_	_
+26	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	29	nsubj	_	_
+27	n'	ne	ADV	_	ADV__Polarity=Neg	29	advmod	_	_
+28	y	yu	PRON	_	PRON__Person=3	29	expl	_	_
+29	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	ccomp	_	_
+30	pas	pas	ADV	_	ADV__Polarity=Neg	29	advmod	_	_
+31	de	de	DET	_	DET__Definite=Ind|Number=Sing|PronType=Art	32	det	_	_
+32	consommation	consommation	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	obj	_	_
+33	depuis	depuis	ADP	_	ADP___	35	case	_	_
+34	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	livraison	livraison	NOUN	_	NOUN__Gender=Fem|Number=Sing	32	nmod	_	_
+36	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Il y a un compteur général "au pied de l'immeuble" oui, et pour lui un contrat auprès de la société qui fournit l'eau dans la région.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	y	yu	PRON	_	PRON__Person=3	1	fixed	_	_
+3	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	fixed	_	_
+4	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+5	compteur	compteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+6	général	général	ADJ	_	ADJ__Gender=Masc|Number=Sing	7	amod	_	_
+7	"	"	PUNCT	_	PUNCT___	1	punct	_	_
+8	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	9	det	_	_
+9	pied	pied	NOUN	_	NOUN__Number=Sing	7	nmod	_	_
+10	de	de	ADP	_	ADP___	11	case	_	_
+11	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+12	immeuble	immeuble	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+13	"	"	PUNCT	_	PUNCT___	17	punct	_	_
+14	oui	oui	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+15	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+16	et	et	CCONJ	_	CCONJ___	17	cc	_	_
+17	pour	pour	ADP	_	ADP___	7	case	_	_
+18	lui	luire	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	conj	_	_
+19	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obj	_	_
+21	auprès	auprès	ADP	_	ADP___	7	case	_	_
+22	de	de	ADP	_	ADP___	24	fixed	_	_
+23	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	société	société	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+25	qui	qui	PRON	_	PRON__PronType=Rel	29	nsubj	_	_
+26	fournit	fournir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	29	acl:relcl	_	_
+27	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	29	det	_	_
+28	eau	eau	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	obj	_	_
+29	dans	dan	ADP	_	ADP___	24	case	_	_
+30	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+31	région	région	NOUN	_	NOUN__Gender=Fem|Number=Sing	32	nmod	_	_
+32	.	.	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#Et oui, on a une arrivée d'eau pour chaque  appartement derrière ce compteur "pied d'immeuble" mais pas de compteur individuel dessus !
+1	Et	Et	CCONJ	_	CCONJ___	1	cc	_	_
+2	oui	oui	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	advcl	_	_
+3	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+4	on	on	PRON	_	PRON__Number=Sing|Person=3	7	nsubj	_	_
+5	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	arrivée	arriver	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obj	_	_
+8	d'	de	ADP	_	ADP___	9	case	_	_
+9	eau	eau	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+10	pour	pour	ADP	_	ADP___	11	case	_	_
+11	chaque	chaque	DET	_	DET__Number=Sing	9	det	_	_
+12	 	 	SPACE	_		7		_	_
+13	appartement	appartement	ADV	_	ADV___	17	cop	_	_
+14	derrière	derrière	ADP	_	ADP___	13	case	_	_
+15	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
+16	compteur	compteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obl	_	_
+17	"	"	PUNCT	_	PUNCT___	7	punct	_	_
+18	pied	pied	NOUN	_	NOUN__Number=Sing	20	nmod	_	_
+19	d'	de	ADP	_	ADP___	20	case	_	_
+20	immeuble	immeuble	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	nmod	_	_
+21	"	"	PUNCT	_	PUNCT___	7	punct	_	_
+22	mais	mai	CCONJ	_	CCONJ___	24	cc	_	_
+23	pas	pas	ADV	_	ADV___	24	advmod	_	_
+24	de	de	ADP	_	ADP___	1	det	_	_
+25	compteur	compteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	conj	_	_
+26	individuel	individuel	ADJ	_	ADJ__Gender=Masc|Number=Sing	29	amod	_	_
+27	dessus	dessus	ADV	_	ADV___	29	amod	_	_
+28	!	!	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#Chez personne.
+1	Chez	Chez	ADP	_	ADP___	1	case	_	_
+2	personne	personne	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Et c'est la consommation du compteur "au pied de l'immeuble" qu'on veut nous répartir au "tantième" car les compteurs d'eau ne sont toujours pas installés.
+1	Et	Et	CCONJ	_	CCONJ___	1	cc	_	_
+2	c'	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+5	consommation	consommation	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+6	du	du	DET	_	DET__Gender=Masc|Number=Sing	7	det	_	_
+7	compteur	compteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+8	"	"	PUNCT	_	PUNCT___	9	punct	_	_
+9	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	7	case	_	_
+10	pied	pied	NOUN	_	NOUN__Number=Sing	11	nmod	_	_
+11	de	de	ADP	_	ADP___	9	case	_	_
+12	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+13	immeuble	immeuble	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	nmod	_	_
+14	"	"	PUNCT	_	PUNCT___	13	punct	_	_
+15	qu'	que	PRON	_	PRON__PronType=Rel	17	mark	_	_
+16	on	on	PRON	_	PRON__Number=Sing|Person=3	17	nsubj	_	_
+17	veut	vouloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+18	nous	se	PRON	_	PRON__Number=Plur|Person=1	20	iobj	_	_
+19	répartir	répartir	VERB	_	VERB__VerbForm=Inf	20	xcomp	_	_
+20	au	au	PROPN	_	PROPN__Gender=Fem|Number=Sing	17	case	_	_
+21	"	"	PUNCT	_	PUNCT___	7	punct	_	_
+22	tantième	tantième	NOUN	_	NOUN__Gender=Masc|Number=Plur	24	obl	_	_
+23	"	"	PUNCT	_	PUNCT___	24	punct	_	_
+24	car	car	CCONJ	_	CCONJ___	1	cc	_	_
+25	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	29	det	_	_
+26	compteurs	compteur	NOUN	_	NOUN__Gender=Masc|Number=Plur	29	nsubj	_	_
+27	d'	de	ADP	_	ADP___	29	case	_	_
+28	eau	eau	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	nmod	_	_
+29	ne	ne	ADV	_	ADV__Polarity=Neg	24	advmod	_	_
+30	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
+31	toujours	toujours	ADV	_	ADV___	32	advmod	_	_
+32	pas	pas	ADV	_	ADV__Polarity=Neg	29	advmod	_	_
+33	installés	installer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	35	xcomp	_	_
+34	.	.	PUNCT	_	PUNCT___	35	punct	_	_
+
+
+#Or l'absence de compteur n'est pas sur les réserves du PV de réception (on n'avait pas pensé à regarder ça... c'est tellement abhérant, mais le constructeur ne nous l'a pas signalé non plus).
+1	Or	Or	CCONJ	_	CCONJ___	1	cc	_	_
+2	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+3	absence	absence	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nsubj	_	_
+4	de	de	ADP	_	ADP___	7	case	_	_
+5	compteur	compteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+6	n'	ne	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+7	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+8	pas	pas	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+9	sur	sur	ADP	_	ADP___	7	case	_	_
+10	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	11	det	_	_
+11	réserves	réserver	NOUN	_	NOUN__Gender=Fem|Number=Plur	9	nsubj	_	_
+12	du	du	DET	_	DET__Gender=Masc|Number=Sing	7	det	_	_
+13	PV	PV	PROPN	_	PROPN___	17	obj	_	_
+14	de	de	ADP	_	ADP___	13	case	_	_
+15	réception	réception	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	nmod	_	_
+16	(	(	PUNCT	_	PUNCT___	17	punct	_	_
+17	on	on	PRON	_	PRON__Number=Sing|Person=3	7	nsubj	_	_
+18	n'	ne	ADV	_	ADV__Polarity=Neg	20	advmod	_	_
+19	avait	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	aux	_	_
+20	pas	pas	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+21	pensé	penser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+22	à	à	ADP	_	ADP___	24	mark	_	_
+23	regarder	regarder	VERB	_	VERB__VerbForm=Inf	24	xcomp	_	_
+24	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	1	obj	_	_
+25	...	...	PUNCT	_	PUNCT___	29	punct	_	_
+26	c'	ce	PRON	_	PRON__Number=Sing|Person=3	29	nsubj	_	_
+27	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
+28	tellement	tellement	ADV	_	ADV___	29	parataxis	_	_
+29	abhérant	abhérant	ADJ	_	ADJ__Gender=Masc|Number=Sing	24	advmod	_	_
+30	,	,	PUNCT	_	PUNCT___	29	punct	_	_
+31	mais	mai	CCONJ	_	CCONJ___	32	cc	_	_
+32	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+33	constructeur	constructeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	35	conj	_	_
+34	ne	ne	ADV	_	ADV___	35	advmod	_	_
+35	nous	se	PRON	_	PRON__Number=Plur|Person=1	32	nsubj	_	_
+36	l'	le	PRON	_	PRON__Number=Sing|Person=3	1	obj	_	_
+37	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	50	aux	_	_
+38	pas	pas	ADV	_	ADV__Polarity=Neg	37	advmod	_	_
+39	signalé	signaler	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	37	acl	_	_
+40	non	non	ADV	_	ADV___	41	advmod	_	_
+41	plus	plaire	ADV	_	ADV___	37	advmod	_	_
+42	)	)	PUNCT	_	PUNCT___	41	punct	_	_
+43	.	.	PUNCT	_	PUNCT___	41	punct	_	_
+
+
+#Mais d'après l'article de loi que j'avais trouvé, il DOIT être installé avant la livraison et obligatoirement au frais du constructeur.
+1	Mais	Mais	CCONJ	_	CCONJ___	1	cc	_	_
+2	d'	de	ADP	_	ADP___	1	case	_	_
+3	après	après	ADP	_	ADP___	7	fixed	_	_
+4	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+5	article	article	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+6	de	de	ADP	_	ADP___	7	case	_	_
+7	loi	loi	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+8	que	que	SCONJ	_	SCONJ___	9	obj	_	_
+9	j'	il	PRON	_	PRON__Number=Sing|Person=1	7	nsubj	_	_
+10	avais	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	trouvé	trouver	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+12	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+13	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	17	nsubj	_	_
+14	DOIT	DOIT	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+15	être	être	AUX	_	AUX__VerbForm=Inf	17	aux:pass	_	_
+16	installé	installer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	xcomp	_	_
+17	avant	avant	ADP	_	ADP___	7	case	_	_
+18	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	livraison	livraison	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obl	_	_
+20	et	et	CCONJ	_	CCONJ___	17	cc	_	_
+21	obligatoirement	obligatoirement	ADV	_	ADV___	7	conj	_	_
+22	au	au	DET	_	DET__Number=Plur|PronType=Dem	24	mark	_	_
+23	frais	frai	NOUN	_	NOUN__Gender=Masc|Number=Plur	24	advcl	_	_
+24	du	du	DET	_	DET__Gender=Masc|Number=Sing	1	det	_	_
+25	constructeur	constructeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	obj	_	_
+26	.	.	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#Les appartements n'ont pas de VMC perso.
+1	Les	Les	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+2	appartements	appartement	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	nsubj	_	_
+3	n'	ne	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+4	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+6	de	de	ADP	_	ADP___	7	det	_	_
+7	VMC	VMC	PROPN	_	PROPN__Gender=Masc|Number=Sing	1	obl	_	_
+8	perso	perso	ADJ	_	ADJ___	9	amod	_	_
+9	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Ensuite, au moment de la réception, on a ouvert le tableau électrique et baisser le disjoncteur général.
+1	Ensuite	Ensuite	ADV	_	ADV___	1	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	au	au	PRON	_	PRON__PronType=Rel	7	det	_	_
+4	moment	moment	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+5	de	de	ADP	_	ADP___	7	case	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	réception	réception	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+8	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+9	on	on	PRON	_	PRON__Number=Sing|Person=3	7	nsubj	_	_
+10	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	ouvert	ouvrir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+13	tableau	tableau	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obj	_	_
+14	électrique	électrique	ADJ	_	ADJ__Number=Sing	13	amod	_	_
+15	et	et	CCONJ	_	CCONJ___	17	cc	_	_
+16	baisser	baisser	VERB	_	VERB__VerbForm=Inf	17	conj	_	_
+17	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+18	disjoncteur	disjoncteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obj	_	_
+19	général	général	ADJ	_	ADJ__Gender=Masc|Number=Sing	20	amod	_	_
+20	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Si il y a une consommation malgré ça, ça veut dire qu'il y a mal façon dans l'installation électrique.
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	il	il	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+3	y	yu	PRON	_	PRON__Person=3	7	fixed	_	_
+4	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	consommation	consommation	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+7	malgré	malgré	ADP	_	ADP___	1	case	_	_
+8	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	nmod	_	_
+9	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+10	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	nsubj	_	_
+11	veut	vouloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+12	dire	dire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+13	qu'	que	SCONJ	_	SCONJ___	17	mark	_	_
+14	il	il	PRON	_	PRON__Number=Sing|Person=3	13	nsubj	_	_
+15	y	yu	PRON	_	PRON__Person=3	17	fixed	_	_
+16	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	fixed	_	_
+17	mal	mal	ADV	_	ADV___	7	fixed	_	_
+18	façon	façon	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	ccomp	_	_
+19	dans	dan	ADP	_	ADP___	20	case	_	_
+20	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+21	installation	installation	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obl	_	_
+22	électrique	électrique	ADJ	_	ADJ__Number=Sing	24	amod	_	_
+23	.	.	PUNCT	_	PUNCT___	24	punct	_	_
+
+
