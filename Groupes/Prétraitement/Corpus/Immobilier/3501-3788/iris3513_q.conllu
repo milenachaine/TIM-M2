@@ -1,0 +1,496 @@
+#Bonjour,Excusez
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	Excusez	Excusez	PROPN	_	PROPN___	1	conj	_	_
+
+
+#-moi si je ne suis pas au bon endroit, je ne trouve pas le préfixe adéquat.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	3	obl	_	_
+3	si	si	SCONJ	_	SCONJ___	1	mark	_	_
+4	je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+5	ne	ne	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+6	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	cop	_	_
+7	pas	pas	ADV	_	ADV__Polarity=Neg	13	advmod	_	_
+8	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	13	det	_	_
+9	bon	bon	ADJ	_	ADJ__Gender=Masc|Number=Sing	13	amod	_	_
+10	endroit	endroit	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	dep	_	_
+11	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+12	je	il	PRON	_	PRON__Number=Sing|Person=1	13	nsubj	_	_
+13	ne	ne	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+14	trouve	trouver	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+15	pas	pas	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+16	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	préfixe	préfixer	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obj	_	_
+18	adéquat	adéquat	ADJ	_	ADJ__Gender=Masc	17	nmod	_	_
+19	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Mon père, usufruitier de sa maison sur laquelle j'ai la nu-propriété avait mandaté une agence immobilière pour gérer la location.
+1	Mon	Mon	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	père	père	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	usufruitier	usufruitier	VERB	_	VERB__VerbForm=Inf	5	acl	_	_
+5	de	de	ADP	_	ADP___	17	case	_	_
+6	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	13	nmod:poss	_	_
+7	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obl	_	_
+8	sur	sur	ADP	_	ADP___	13	case	_	_
+9	laquelle	lequel	PRON	_	PRON__Gender=Fem|Number=Sing|PronType=Rel	13	obl	_	_
+10	j'	il	PRON	_	PRON__Number=Sing|Person=1	13	nsubj	_	_
+11	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	nu	nu	ADV	_	ADV___	5	obj	_	_
+14	-	-	PUNCT	_	PUNCT___	17	punct	_	_
+15	propriété	propriété	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obj	_	_
+16	avait	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	aux	_	_
+17	mandaté	mandater	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	xcomp	_	_
+18	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+19	agence	agencer	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obj	_	_
+20	immobilière	immobilier	ADJ	_	ADJ__Gender=Fem|Number=Sing	17	amod	_	_
+21	pour	pour	ADP	_	ADP___	20	mark	_	_
+22	gérer	gérer	VERB	_	VERB__VerbForm=Inf	17	advcl	_	_
+23	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	location	location	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	obj	_	_
+25	.	.	PUNCT	_	PUNCT___	26	punct	_	_
+
+
+#Etant décédé, me retrouvant plein-propriétaire, je repends contact avec cette agence (grande enseigne avec des franchisés) .
+1	Etant	Etant	VERB	_	VERB__Tense=Pres|VerbForm=Part	1	obl	_	_
+2	décédé	décéder	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	me	se	PRON	_	PRON__Number=Sing|Person=1	5	iobj	_	_
+5	retrouvant	retrouver	VERB	_	VERB__Tense=Pres|VerbForm=Part	0	ROOT	_	_
+6	plein	plein	ADJ	_	ADJ__Gender=Masc|Number=Sing	13	amod	_	_
+7	-	-	PUNCT	_	PUNCT___	13	punct	_	_
+8	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	13	obl	_	_
+9	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+10	je	il	PRON	_	PRON__Number=Sing|Person=1	13	nsubj	_	_
+11	repends	rependre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	contact	contact	ADJ	_	ADJ__Gender=Masc|Number=Sing	13	acl:relcl	_	_
+13	avec	avec	ADP	_	ADP___	5	case	_	_
+14	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	17	det	_	_
+15	agence	agencer	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	nmod	_	_
+16	(	(	PUNCT	_	PUNCT___	17	punct	_	_
+17	grande	grand	ADJ	_	ADJ__Gender=Fem|Number=Sing	17	amod	_	_
+18	enseigne	enseigner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	nmod	_	_
+19	avec	avec	ADP	_	ADP___	20	case	_	_
+20	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	17	det	_	_
+21	franchisés	franchisé	NOUN	_	NOUN__Gender=Masc|Number=Plur	20	nmod	_	_
+22	)	)	PUNCT	_	PUNCT___	17	punct	_	_
+23	.	.	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#Evoquant la possibilité que je souhaite mettre un terme  au mandat de gestion, la responsable de l'agence me dit que ce n'est pas possible, que le mandat se poursuit OBLIGATOIREMENT avec les héritiers, ayant droit etc.....
+1	Evoquant	Evoquant	VERB	_	VERB__Tense=Pres|VerbForm=Part	0	ROOT	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	possibilité	possibilité	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obj	_	_
+4	que	que	SCONJ	_	SCONJ___	5	mark	_	_
+5	je	il	PRON	_	PRON__Number=Sing|Person=1	17	nsubj	_	_
+6	souhaite	souhaiter	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+7	mettre	mettre	VERB	_	VERB__VerbForm=Inf	13	xcomp	_	_
+8	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+9	terme	terme	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+10	 	 	SPACE	_		13		_	_
+11	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
+12	mandat	mandat	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+13	de	de	ADP	_	ADP___	5	case	_	_
+14	gestion	gestion	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	nmod	_	_
+15	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+16	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	responsable	responsable	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	nsubj	_	_
+18	de	de	ADP	_	ADP___	17	case	_	_
+19	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	agence	agencer	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	nmod	_	_
+21	me	se	PRON	_	PRON__Number=Sing|Person=1	20	iobj	_	_
+22	dit	dire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	conj	_	_
+23	que	que	SCONJ	_	SCONJ___	24	mark	_	_
+24	ce	ce	PRON	_	PRON__Number=Sing|Person=3	24	nsubj	_	_
+25	n'	ne	ADV	_	ADV__Polarity=Neg	26	advmod	_	_
+26	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+27	pas	pas	ADV	_	ADV__Polarity=Neg	29	advmod	_	_
+28	possible	possible	ADJ	_	ADJ__Number=Sing	29	ccomp	_	_
+29	,	,	PUNCT	_	PUNCT___	26	punct	_	_
+30	que	que	SCONJ	_	SCONJ___	31	mark	_	_
+31	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+32	mandat	mandat	NOUN	_	NOUN__Gender=Masc|Number=Sing	33	nsubj	_	_
+33	se	se	PRON	_	PRON__Person=3|Reflex=Yes	24	expl	_	_
+34	poursuit	poursuivre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	ccomp	_	_
+35	OBLIGATOIREMENT	OBLIGATOIREMENT	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	advmod	_	_
+36	avec	avec	ADP	_	ADP___	33	case	_	_
+37	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	33	det	_	_
+38	héritiers	héritier	NOUN	_	NOUN__Gender=Masc|Number=Plur	39	obl	_	_
+39	,	,	PUNCT	_	PUNCT___	33	punct	_	_
+40	ayant	avoir	AUX	_	AUX__Tense=Pres|VerbForm=Part	41	aux	_	_
+41	droit	droit	ADJ	_	ADJ__Gender=Masc|Number=Sing	39	conj	_	_
+42	etc	etc	ADV	_	ADV___	41	advmod	_	_
+43	.....	.....	PUNCT	_	PUNCT___	44	punct	_	_
+
+
+#Elle me montre  même l'inscription dans les conditions du mandat qui dit :"
+1	Elle	Elle	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	1	nsubj	_	_
+2	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	3	iobj	_	_
+3	montre	montrer	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+4	 	 	SPACE	_		5		_	_
+5	même	même	ADV	_	ADV___	17	advmod	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+7	inscription	inscription	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obj	_	_
+8	dans	dan	ADP	_	ADP___	13	case	_	_
+9	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	13	det	_	_
+10	conditions	condition	NOUN	_	NOUN__Gender=Fem|Number=Plur	13	obl	_	_
+11	du	du	DET	_	DET__Gender=Masc|Number=Sing	13	det	_	_
+12	mandat	mandat	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+13	qui	qui	PRON	_	PRON__PronType=Rel	5	nsubj	_	_
+14	dit	dire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+15	:	:	PUNCT	_	PUNCT___	17	punct	_	_
+16	"	"	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Par dérogation à l'article 2003 du code civil, le mandat de gestion se poursuit avec les héritiers en cas de décés du contractant".Commant un contrat peut
+1	Par	Par	ADP	_	ADP___	1	case	_	_
+2	dérogation	dérogation	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obl	_	_
+3	à	à	ADP	_	ADP___	1	case	_	_
+4	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	article	article	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	nmod	_	_
+6	2003	2003	NUM	_	NUM__NumType=Card	13	nummod	_	_
+7	du	du	DET	_	DET__Gender=Masc|Number=Sing	13	det	_	_
+8	code	coder	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+9	civil	civil	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	amod	_	_
+10	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	mandat	mandat	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nsubj	_	_
+13	de	de	ADP	_	ADP___	5	case	_	_
+14	gestion	gestion	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	nmod	_	_
+15	se	se	PRON	_	PRON__Person=3|Reflex=Yes	17	expl	_	_
+16	poursuit	poursuivre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+17	avec	avec	ADP	_	ADP___	17	case	_	_
+18	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	17	det	_	_
+19	héritiers	héritier	NOUN	_	NOUN__Gender=Masc|Number=Plur	20	obl	_	_
+20	en	en	ADP	_	ADP___	17	mark	_	_
+21	cas	cas	NOUN	_	NOUN__Gender=Masc	20	fixed	_	_
+22	de	de	ADP	_	ADP___	17	fixed	_	_
+23	décés	décés	NOUN	_	NOUN__Gender=Masc|Number=Plur	24	advcl	_	_
+24	du	du	DET	_	DET__Gender=Masc|Number=Sing	24	det	_	_
+25	contractant".Commant	contractant".Commant	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	obj	_	_
+26	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+27	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	obj	_	_
+28	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	nmod	_	_
+
+
+#-il exister 1- au dela de la vie d'un des contractants et 2- avec qulqu'un qui n'a rien signé ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+3	exister	exister	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	1-	1-	NUM	_	NUM__NumType=Card	5	iobj	_	_
+5	au	au	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	17	case	_	_
+6	dela	dela	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obj	_	_
+7	de	de	ADP	_	ADP___	13	case	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+9	vie	vie	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nmod	_	_
+10	d'	de	ADP	_	ADP___	13	case	_	_
+11	un	un	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	13	det	_	_
+12	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	13	det	_	_
+13	contractants	contractant	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	nmod	_	_
+14	et	et	CCONJ	_	CCONJ___	17	cc	_	_
+15	2-	2-	NUM	_	NUM__NumType=Card	17	conj	_	_
+16	avec	avec	ADP	_	ADP___	17	advmod	_	_
+17	qulqu'	qulqu'	SCONJ	_	SCONJ___	17	fixed	_	_
+18	un	un	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	17	fixed	_	_
+19	qui	qui	PRON	_	PRON__PronType=Rel	20	nsubj	_	_
+20	n'	ne	ADV	_	ADV___	17	advmod	_	_
+21	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+22	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	17	obj	_	_
+23	signé	signer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	acl:relcl	_	_
+24	?	?	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#On peut meme se demander a quoi sert le code s'il suffit d'annoncer "Par dérogation ......" et de dire ce qu'on veut , non ?
+1	On	On	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	meme	meme	ADJ	_	ADJ__Gender=Fem|Number=Sing	1	nsubj	_	_
+4	se	se	PRON	_	PRON__Person=3|Reflex=Yes	5	expl	_	_
+5	demander	demander	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+6	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	case	_	_
+7	quoi	quoi	PRON	_	PRON__PronType=Int	13	obl	_	_
+8	sert	servir	VERB	_	VERB__VerbForm=Inf	13	case	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+10	code	coder	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+11	s'	si	SCONJ	_	SCONJ___	13	mark	_	_
+12	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	13	nsubj	_	_
+13	suffit	suffire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	ccomp	_	_
+14	d'	de	ADP	_	ADP___	17	mark	_	_
+15	annoncer	annoncer	VERB	_	VERB__VerbForm=Inf	17	xcomp	_	_
+16	"	"	PUNCT	_	PUNCT___	17	punct	_	_
+17	Par	Par	ADP	_	ADP___	17	case	_	_
+18	dérogation	dérogation	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	obl	_	_
+19	......	......	PUNCT	_	PUNCT___	20	punct	_	_
+20	"	"	PUNCT	_	PUNCT___	17	punct	_	_
+21	et	et	CCONJ	_	CCONJ___	20	cc	_	_
+22	de	de	ADP	_	ADP___	17	mark	_	_
+23	dire	dire	VERB	_	VERB__VerbForm=Inf	24	conj	_	_
+24	ce	ce	PRON	_	PRON__PronType=Rel	24	obj	_	_
+25	qu'	que	PRON	_	PRON__PronType=Rel	26	obj	_	_
+26	on	on	PRON	_	PRON__Number=Sing|Person=3	24	nsubj	_	_
+27	veut	vouloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	acl:relcl	_	_
+28	,	,	PUNCT	_	PUNCT___	29	punct	_	_
+29	non	non	ADV	_	ADV___	26	acl:relcl	_	_
+30	?	?	PUNCT	_	PUNCT___	31	punct	_	_
+
+
+#Voila, est-ce un procédé connu ?
+1	Voila	Voila	PROPN	_	PROPN___	1	cc	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	est	être		_	VERB	1	cop	_	_
+4	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	5	punct	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+6	procédé	procéder	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+7	connu	connaître	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
+8	?	?	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#est-ce possible ?
+1	est	être		_	VERB	1	cop	_	_
+2	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	3	nsubj	_	_
+3	possible	possible	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+4	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#clause abusive ?
+1	clause	clause	ADJ	_	ADJ__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	abusive	abusif	ADJ	_	ADJ__Gender=Fem|Number=Sing	3	amod	_	_
+3	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#merci
+1	merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+
+
+#oui il est etabli pour un an, renouvelable sauf resiliation avec 3 mois de préavis.
+1	oui	oui	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	mark	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj:pass	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	etabli	etabli	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+5	pour	pour	ADP	_	ADP___	7	case	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	an	an	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+8	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+9	renouvelable	renouvelable	ADJ	_	ADJ__Number=Sing	7	appos	_	_
+10	sauf	sauf	ADP	_	ADP___	11	case	_	_
+11	resiliation	resiliation	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nmod	_	_
+12	avec	avec	ADP	_	ADP___	14	case	_	_
+13	3	3	NUM	_	NUM__NumType=Card	14	nummod	_	_
+14	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	obl	_	_
+15	de	de	ADP	_	ADP___	16	case	_	_
+16	préavis	préavis	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	nmod	_	_
+17	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Mes questions sont ,1- puis-je etre lié par un contrat que je n'ai pas signé ?
+1	Mes	Mes	DET	_	DET__Number=Plur|Poss=Yes	4	nmod:poss	_	_
+2	questions	question	NOUN	_	NOUN__Gender=Fem|Number=Plur	4	nsubj:pass	_	_
+3	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+5	1-	1-	NUM	_	NUM__NumType=Card	7	nummod	_	_
+6	puis-je	puis-je	AUX	_	AUX__Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	nsubj:pass	_	_
+7	etre	etre	AUX	_	AUX__VerbForm=Inf	4	aux:pass	_	_
+8	lié	lier	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+9	par	par	ADP	_	ADP___	7	case	_	_
+10	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obl	_	_
+12	que	que	PRON	_	PRON__PronType=Rel	14	obj	_	_
+13	je	il	PRON	_	PRON__Number=Sing|Person=1	14	nsubj	_	_
+14	n'	ne	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+15	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	pas	pas	ADV	_	ADV__Polarity=Neg	14	advmod	_	_
+17	signé	signer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+18	?	?	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#2- un contrat peut
+1	2-	2-	NUM	_	NUM__NumType=Card	4	nummod	_	_
+2	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+4	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+
+
+#-il être maintenu quand un des deux contractants décède  ?
+1	-	-	PUNCT	_	PUNCT___	4	punct	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj:pass	_	_
+3	être	être	AUX	_	AUX__VerbForm=Inf	4	aux:pass	_	_
+4	maintenu	maintenir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+5	quand	quand	ADV	_	ADV___	7	advmod	_	_
+6	un	un	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	7	obl	_	_
+7	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
+8	deux	deux	NUM	_	NUM__NumType=Card	7	nummod	_	_
+9	contractants	contractant	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	nmod	_	_
+10	décède	décéder	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl	_	_
+11	 	 	SPACE	_		9		_	_
+12	?	?	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#(l'article 2003 dit quand meme le contraire)3- Est ce qu'une clause stipulant (...par dérogation à l'article...)  sans donner aucune raison de déroger est valable ou abusive ?
+1	(	(	PUNCT	_	PUNCT___	4	punct	_	_
+2	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+3	article	article	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+4	2003	2003	NUM	_	NUM__NumType=Card	4	nummod	_	_
+5	dit	dire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+6	quand	quand	ADV	_	ADV___	7	mark	_	_
+7	meme	meme	VERB	_	VERB__VerbForm=Inf	4	advcl	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+9	contraire)3-	contraire)3-	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+10	Est	Est	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	11	nmod	_	_
+11	ce	ce	PRON	_	PRON__PronType=Rel	9	appos	_	_
+12	qu'	que	ADV	_	ADV___	14	advmod	_	_
+13	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	clause	clause	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	acl:relcl	_	_
+15	stipulant	stipuler	VERB	_	VERB__Tense=Pres|VerbForm=Part	16	amod	_	_
+16	(	(	PUNCT	_	PUNCT___	14	punct	_	_
+17	...	...	PUNCT	_	PUNCT___	4	punct	_	_
+18	par	par	ADP	_	ADP___	19	case	_	_
+19	dérogation	dérogation	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	obl	_	_
+20	à	à	ADP	_	ADP___	25	case	_	_
+21	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+22	article	article	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	nmod	_	_
+23	...	...	PUNCT	_	PUNCT___	25	punct	_	_
+24	)	)	PUNCT	_	PUNCT___	25	punct	_	_
+25	 	 	SPACE	_		25		_	_
+26	sans	sans	ADP	_	ADP___	28	mark	_	_
+27	donner	donner	VERB	_	VERB__VerbForm=Inf	28	advcl	_	_
+28	aucune	aucun	DET	_	DET__Gender=Fem|Number=Sing	25	det	_	_
+29	raison	raison	NOUN	_	NOUN__Gender=Fem|Number=Sing	34	obj	_	_
+30	de	de	ADP	_	ADP___	34	mark	_	_
+31	déroger	déroger	VERB	_	VERB__VerbForm=Inf	34	xcomp	_	_
+32	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	cop	_	_
+33	valable	valable	ADJ	_	ADJ__Number=Sing	34	obj	_	_
+34	ou	ou	CCONJ	_	CCONJ___	28	cc	_	_
+35	abusive	abusif	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	conj	_	_
+36	?	?	PUNCT	_	PUNCT___	39	punct	_	_
+
+
+#merci
+1	merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+
+
+#Bonjour, merci de votre réponse.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	3	case	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	de	de	ADP	_	ADP___	6	case	_	_
+5	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+6	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nmod	_	_
+7	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Alors ca ne fait pas partie des clauses abusives reconnues mais en cherchant, j'ai trouvé les réponses à mes questions.
+1	Alors	Alors	ADV	_	ADV___	3	advmod	_	_
+2	ca	ca	CCONJ	_	CCONJ___	3	nsubj	_	_
+3	ne	ne	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+4	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+6	partie	partir	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obj	_	_
+7	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	3	det	_	_
+8	clauses	clause	NOUN	_	NOUN__Gender=Fem|Number=Plur	11	obj	_	_
+9	abusives	abusif	ADJ	_	ADJ__Gender=Fem|Number=Plur	11	amod	_	_
+10	reconnues	reconnu	ADJ	_	ADJ__Number=Plur	11	amod	_	_
+11	mais	mai	CCONJ	_	CCONJ___	24	cc	_	_
+12	en	en	ADP	_	ADP___	11	mark	_	_
+13	cherchant	chercher	VERB	_	VERB__Tense=Pres|VerbForm=Part	11	conj	_	_
+14	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+15	j'	il	PRON	_	PRON__Number=Sing|Person=1	13	nsubj	_	_
+16	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
+17	trouvé	trouver	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+18	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	20	det	_	_
+19	réponses	réponse	NOUN	_	NOUN__Gender=Fem|Number=Plur	20	obj	_	_
+20	à	à	ADP	_	ADP___	13	case	_	_
+21	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	24	nmod:poss	_	_
+22	questions	question	NOUN	_	NOUN__Gender=Fem|Number=Plur	24	obl	_	_
+23	.	.	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#je les donne ici si ca interesse quelqu'un :1- oui je suis lié à un contrat que je n'ai pas signé, car on herite aussi des obligations de ses ascendants2 -et 3 -  on peut déroger à l'article 2003 car ce n'est pas un article traitant de securité publique ni de d'atteintes aux bonnes moeurs.
+1	je	il	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+2	les	le	PRON	_	PRON__Number=Plur|Person=3	3	obj	_	_
+3	donne	donner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	ici	ici	ADV	_	ADV___	6	advmod	_	_
+5	si	si	SCONJ	_	SCONJ___	6	mark	_	_
+6	ca	ca	PRON	_	PRON__Person=3|Reflex=Yes	3	nsubj	_	_
+7	interesse	interesse	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+8	quelqu'un	quelqu'un	PRON	_	PRON__PronType=Rel	11	obj	_	_
+9	:	:	PUNCT	_	PUNCT___	11	punct	_	_
+10	1-	1-	NOUN	_	NOUN__NumType=Card	11	amod	_	_
+11	oui	oui	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	nsubj:pass	_	_
+12	je	il	PRON	_	PRON__Number=Sing|Person=1	11	nsubj:pass	_	_
+13	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+14	lié	lier	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	15	acl:relcl	_	_
+15	à	à	ADP	_	ADP___	13	case	_	_
+16	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+17	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obl	_	_
+18	que	que	PRON	_	PRON__PronType=Rel	20	obj	_	_
+19	je	il	PRON	_	PRON__Number=Sing|Person=1	20	nsubj	_	_
+20	n'	ne	ADV	_	ADV__Polarity=Neg	13	advmod	_	_
+21	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	24	aux	_	_
+22	pas	pas	ADV	_	ADV__Polarity=Neg	24	advmod	_	_
+23	signé	signer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	acl:relcl	_	_
+24	,	,	PUNCT	_	PUNCT___	24	punct	_	_
+25	car	car	CCONJ	_	CCONJ___	26	cc	_	_
+26	on	on	PRON	_	PRON__Number=Sing|Person=3	24	nsubj	_	_
+27	herite	herite	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	conj	_	_
+28	aussi	aussi	ADV	_	ADV___	29	advmod	_	_
+29	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	24	det	_	_
+30	obligations	obligation	NOUN	_	NOUN__Gender=Fem|Number=Plur	24	obj	_	_
+31	de	de	ADP	_	ADP___	33	case	_	_
+32	ses	son	DET	_	DET__Number=Plur|Poss=Yes	33	nmod:poss	_	_
+33	ascendants2	ascendants2	NOUN	_	NOUN__Gender=Fem|Number=Sing	33	nmod	_	_
+34	-et	-et	PUNCT	_	PUNCT___	33	punct	_	_
+35	3	3	NUM	_	NUM__NumType=Card	37	iobj	_	_
+36	-	-	PUNCT	_	PUNCT___	37	punct	_	_
+37	 	 	SPACE	_		33		_	_
+38	on	on	PRON	_	PRON__Number=Sing|Person=3	37	nsubj	_	_
+39	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	aux	_	_
+40	déroger	déroger	VERB	_	VERB__VerbForm=Inf	41	parataxis	_	_
+41	à	à	ADP	_	ADP___	44	case	_	_
+42	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	44	det	_	_
+43	article	article	NOUN	_	NOUN__Gender=Masc|Number=Sing	44	obl	_	_
+44	2003	2003	NUM	_	NUM__NumType=Card	33	nummod	_	_
+45	car	car	CCONJ	_	CCONJ___	47	cc	_	_
+46	ce	ce	PRON	_	PRON__PronType=Rel	47	det	_	_
+47	n'	ne	ADV	_	ADV__Polarity=Neg	44	advmod	_	_
+48	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	53	cop	_	_
+49	pas	pas	ADV	_	ADV__Polarity=Neg	53	advmod	_	_
+50	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	53	det	_	_
+51	article	article	NOUN	_	NOUN__Gender=Masc|Number=Sing	53	conj	_	_
+52	traitant	traiter	VERB	_	VERB__Tense=Pres|VerbForm=Part	53	acl	_	_
+53	de	de	ADP	_	ADP___	47	case	_	_
+54	securité	securité	NOUN	_	NOUN__Gender=Fem|Number=Sing	53	obl	_	_
+55	publique	public	ADJ	_	ADJ__Gender=Fem|Number=Sing	57	amod	_	_
+56	ni	ni	CCONJ	_	CCONJ___	57	cc	_	_
+57	de	de	ADP	_	ADP___	53	det	_	_
+58	d'	de	ADP	_	ADP___	57	fixed	_	_
+59	atteintes	atteinte	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	60	conj	_	_
+60	aux	aux	ADP	_	ADP___	57	det	_	_
+61	bonnes	bonne	ADJ	_	ADJ__Gender=Fem|Number=Plur	63	amod	_	_
+62	moeurs	moeurs	NOUN	_	NOUN__Gender=Fem|Number=Plur	63	nmod	_	_
+63	.	.	PUNCT	_	PUNCT___	60	punct	_	_
+
+
+#Si la mention n'etait pas faite dans le contrat, l'article 2004 s'appliquaitvoila, encore merci
+1	Si	Si	SCONJ	_	SCONJ___	3	mark	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	mention	mention	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+4	n'	ne	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+5	etait	etait	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+6	pas	pas	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+7	faite	fait	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	acl	_	_
+8	dans	dan	ADP	_	ADP___	11	case	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obl	_	_
+11	,	,	PUNCT	_	PUNCT___	24	punct	_	_
+12	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+13	article	article	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nsubj	_	_
+14	2004	2004	NUM	_	NUM__NumType=Card	15	nummod	_	_
+15	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	13	expl	_	_
+16	appliquaitvoila	appliquaitvoila	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	_
+17	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+18	encore	encore	ADV	_	ADV___	20	advmod	_	_
+19	merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obj	_	_
+
+

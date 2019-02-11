@@ -1,0 +1,413 @@
+#Bonjour,Je suis locataire dans un immeuble collectif.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Je	Je	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+4	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	locataire	locataire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+6	dans	dan	ADP	_	ADP___	8	case	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	immeuble	immeuble	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+9	collectif	collectif	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	amod	_	_
+10	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Où on doit venir chez moi, pour poser uncompteur#
+1	Où	Où	SCONJ	_	SCONJ___	1	iobj	_	_
+2	on	on	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+3	doit	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	venir	venir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	chez	chez	ADP	_	ADP___	1	case	_	_
+6	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	8	obl	_	_
+7	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+8	pour	pour	ADP	_	ADP___	5	mark	_	_
+9	poser	poser	VERB	_	VERB__VerbForm=Inf	8	advcl	_	_
+10	uncompteur	uncompteur	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obj	_	_
+11	#	#	ADJ	_	ADJ__Number=Sing	14	nmod	_	_
+
+
+#Fournisseur en énergie
+1	Fournisseur	Fournisseur	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	en	en	ADP	_	ADP___	1	case	_	_
+3	énergie	énergie	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+
+
+##.Ma question le syndic, ne devrait-il pas me donner des infos la dessus ?
+1	#	#	ADJ	_	ADJ___	1	mark	_	_
+2	.Ma	.Ma	PUNCT	_	PUNCT___	1	punct	_	_
+3	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	amod	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	syndic	syndic	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+6	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+7	ne	ne	ADV	_	ADV___	8	advmod	_	_
+8	devrait	devoir	VERB	_	VERB__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+9	-	-	PUNCT	_	PUNCT___	8	punct	_	_
+10	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+11	pas	pas	ADV	_	ADV___	14	fixed	_	_
+12	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	14	iobj	_	_
+13	donner	donner	VERB	_	VERB__VerbForm=Inf	14	xcomp	_	_
+14	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
+15	infos	info	NOUN	_	NOUN__Gender=Fem|Number=Plur	16	obj	_	_
+16	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+17	dessus	dessus	ADV	_	ADV___	14	obj	_	_
+18	?	?	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Vu qu'un simple contact par téléphone, me donne des frissons.
+1	Vu	Vu	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+2	qu'	que	SCONJ	_	SCONJ___	1	mark	_	_
+3	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	simple	simple	ADJ	_	ADJ__Number=Sing	5	amod	_	_
+5	contact	contact	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+6	par	par	ADP	_	ADP___	8	case	_	_
+7	téléphone	téléphoner	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+8	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+9	me	se	PRON	_	PRON__Number=Sing|Person=1	8	iobj	_	_
+10	donne	donner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+11	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
+12	frissons	frisson	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	obj	_	_
+13	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Et vu mon grand âge, j'ai peur de laisserentrer des inconnus chez moi.
+1	Et	Et	CCONJ	_	CCONJ___	1	cc	_	_
+2	vu	voir	ADP	_	ADP___	1	advcl	_	_
+3	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+4	grand	grand	ADJ	_	ADJ__Gender=Masc|Number=Sing	5	amod	_	_
+5	âge	âge	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+6	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+7	j'	il	PRON	_	PRON__Number=Sing|Person=1	8	nsubj	_	_
+8	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+9	peur	peur	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+10	de	de	ADP	_	ADP___	1	mark	_	_
+11	laisserentrer	laisserentrer	VERB	_	VERB__VerbForm=Inf	14	acl	_	_
+12	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
+13	inconnus	inconnu	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	obj	_	_
+14	chez	chez	ADP	_	ADP___	14	case	_	_
+15	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	16	obl	_	_
+16	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Vu que tous le monde sait que ce genre de compteur doitêtre installé, donc crainte d'un piège.
+1	Vu	Vu	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+2	que	que	SCONJ	_	SCONJ___	1	mark	_	_
+3	tous	tout	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Rel	5	amod	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	monde	monder	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+6	sait	savoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+7	que	que	SCONJ	_	SCONJ___	8	mark	_	_
+8	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+9	genre	genre	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nsubj	_	_
+10	de	de	ADP	_	ADP___	1	case	_	_
+11	compteur	compteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nmod	_	_
+12	doitêtre	doitêtre	ADJ	_	ADJ__Number=Sing	14	amod	_	_
+13	installé	installer	ADJ	_	ADJ__Gender=Masc|Number=Sing	14	ccomp	_	_
+14	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+15	donc	donc	ADV	_	ADV___	16	advmod	_	_
+16	crainte	craindre	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	appos	_	_
+17	d'	de	ADP	_	ADP___	14	case	_	_
+18	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	piège	piéger	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nmod	_	_
+20	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Dois je laisser le faire aux risques?????La porte de mon appartement, sans judas et chaine, je suis obligé d'ouvrir la porte en grandet une simple poussée je serais foutu .On lis que je peux refuser.
+1	Dois	Dois	NUM	_	NUM__NumType=Card	1	aux	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+3	laisser	laisser	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	mark	_	_
+5	faire	faire	VERB	_	VERB__VerbForm=Inf	1	xcomp	_	_
+6	aux	aux	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	aux	_	_
+7	risques?????La	risques?????La	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	amod	_	_
+8	porte	porter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	obj	_	_
+9	de	de	ADP	_	ADP___	8	case	_	_
+10	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+11	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obl	_	_
+12	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+13	sans	sans	ADP	_	ADP___	14	case	_	_
+14	judas	judas	NOUN	_	NOUN__Number=Sing	14	conj	_	_
+15	et	et	CCONJ	_	CCONJ___	16	cc	_	_
+16	chaine	chaine	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	conj	_	_
+17	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+18	je	il	PRON	_	PRON__Number=Sing|Person=1	19	nsubj:pass	_	_
+19	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
+20	obligé	obliger	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	parataxis	_	_
+21	d'	de	ADP	_	ADP___	19	mark	_	_
+22	ouvrir	ouvrir	VERB	_	VERB__VerbForm=Inf	22	xcomp	_	_
+23	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	porte	porter	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	obj	_	_
+25	en	en	ADP	_	ADP___	32	case	_	_
+26	grandet	grandet	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	advcl	_	_
+27	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+28	simple	simple	ADJ	_	ADJ__Number=Sing	29	amod	_	_
+29	poussée	pousser	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	27	obj	_	_
+30	je	il	PRON	_	PRON__Number=Sing|Person=1	32	nsubj	_	_
+31	serais	être	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	32	cop	_	_
+32	foutu	foutre	VERB	_	VERB__VerbForm=Inf	32	xcomp	_	_
+33	.On	.On	PUNCT	_	PUNCT___	37	punct	_	_
+34	lis	lire	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	37	obj	_	_
+35	que	que	SCONJ	_	SCONJ___	34	obj	_	_
+36	je	il	PRON	_	PRON__Number=Sing|Person=1	37	nsubj	_	_
+37	peux	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	32	aux	_	_
+38	refuser	refuser	VERB	_	VERB__VerbForm=Inf	39	acl:relcl	_	_
+39	.	.	PUNCT	_	PUNCT___	37	punct	_	_
+
+
+#alors que le bail, je dois laisser faire des travaux.....
+1	alors	alors	ADV	_	ADV___	1	mark	_	_
+2	que	que	SCONJ	_	SCONJ___	1	fixed	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+5	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+6	je	il	PRON	_	PRON__Number=Sing|Person=1	8	nsubj	_	_
+7	dois	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	laisser	laisser	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+9	faire	faire	VERB	_	VERB__VerbForm=Inf	8	xcomp	_	_
+10	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	1	det	_	_
+11	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	obj	_	_
+12	.....	.....	PUNCT	_	PUNCT___	14	obj	_	_
+
+
+#j'ai peurau vu que plein de vieux sont tués..
+1	j'	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	peurau	peurau	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	vu	voir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	xcomp	_	_
+5	que	que	SCONJ	_	SCONJ___	1	mark	_	_
+6	plein	plein	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	amod	_	_
+7	de	de	ADP	_	ADP___	8	fixed	_	_
+8	vieux	vieux	ADJ	_	ADJ__Gender=Masc	5	nsubj:pass	_	_
+9	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+10	tués	tuer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	1	ccomp	_	_
+11	..	..	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Les Pouvoirs publics disent aussi de ne pas ouvrir...alors ...
+1	Les	Les	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+2	Pouvoirs	Pouvoirs	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	nsubj	_	_
+3	publics	public	ADJ	_	ADJ__Gender=Masc|Number=Plur	5	amod	_	_
+4	disent	dire	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	aussi	aussi	ADV	_	ADV___	1	advmod	_	_
+6	de	de	ADP	_	ADP___	8	mark	_	_
+7	ne	ne	ADV	_	ADV___	8	advmod	_	_
+8	pas	pas	ADV	_	ADV___	5	fixed	_	_
+9	ouvrir	ouvrir	VERB	_	VERB__VerbForm=Inf	8	xcomp	_	_
+10	...	...	PUNCT	_	PUNCT___	1	punct	_	_
+11	alors	alors	ADV	_	ADV___	14	advmod	_	_
+12	...	...	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Mille mercis
+1	Mille	Mille	NUM	_	NUM__NumType=Card	0	ROOT	_	_
+2	mercis	merci	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	amod	_	_
+
+
+#Bonjour, merci pour vos réponses, au sujet de la pose de ce compteur.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+4	pour	pour	ADP	_	ADP___	6	case	_	_
+5	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	6	nmod:poss	_	_
+6	réponses	réponse	NOUN	_	NOUN__Gender=Fem|Number=Plur	3	nmod	_	_
+7	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+8	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	12	advmod	_	_
+9	sujet	sujet	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	fixed	_	_
+10	de	de	ADP	_	ADP___	12	case	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	pose	poser	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	conj	_	_
+13	de	de	ADP	_	ADP___	15	case	_	_
+14	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
+15	compteur	compteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nmod	_	_
+16	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Mais voila au téléphone, ils vous disent " que tout est gratuit" la pose oui.mais c'est tout.
+1	Mais	Mais	CCONJ	_	CCONJ___	1	cc	_	_
+2	voila	voiler	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	case	_	_
+3	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	1	det	_	_
+4	téléphone	téléphoner	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obl	_	_
+5	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+6	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	3	nsubj	_	_
+7	vous	se	PRON	_	PRON__Number=Plur|Person=2	12	iobj	_	_
+8	disent	dire	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+9	"	"	PUNCT	_	PUNCT___	8	punct	_	_
+10	que	que	SCONJ	_	SCONJ___	12	mark	_	_
+11	tout	tout	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	12	nsubj	_	_
+12	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+13	gratuit	gratuit	ADJ	_	ADJ__Gender=Masc|Number=Sing	15	ccomp	_	_
+14	"	"	PUNCT	_	PUNCT___	15	punct	_	_
+15	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+16	pose	poser	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obl	_	_
+17	oui.mais	oui.mais	CCONJ	_	CCONJ___	20	amod	_	_
+18	c'	ce	PRON	_	PRON__Number=Sing|Person=3	20	nsubj	_	_
+19	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+20	tout	tout	ADV	_	ADV___	24	advmod	_	_
+21	.	.	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#Le compteur est payant 120/140 euros, par petit prélèvements.
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	compteur	compteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+4	payant	payer	ADV	_	ADV___	0	ROOT	_	_
+5	120/140	120/140	DET	_	DET___	6	nummod	_	_
+6	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	obj	_	_
+7	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+8	par	par	ADP	_	ADP___	12	case	_	_
+9	petit	petit	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	amod	_	_
+10	prélèvements	prélèvement	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	obl	_	_
+11	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Sur les factures.
+1	Sur	Sur	ADP	_	ADP___	1	case	_	_
+2	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+3	factures	facturer	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+4	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Factures qui sont très fortement majorées.
+1	Factures	Factures	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+2	qui	qui	PRON	_	PRON__PronType=Rel	1	nsubj:pass	_	_
+3	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
+4	très	très	ADV	_	ADV___	6	advmod	_	_
+5	fortement	fortement	ADV	_	ADV___	6	advmod	_	_
+6	majorées	majorer	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	3	acl:relcl	_	_
+7	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Majorées la première, on peut liredes forums de linky, 350 euros.
+1	Majorées	Majorées	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	vocative	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+3	première	premier	ADJ	_	ADJ__Gender=Fem|Number=Sing|NumType=Ord	1	amod	_	_
+4	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+5	on	on	PRON	_	PRON__Number=Sing|Person=3	6	nsubj	_	_
+6	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+7	liredes	liredes	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+8	forums	forum	ADJ	_	ADJ__Number=Sing	12	obj	_	_
+9	de	de	ADP	_	ADP___	8	case	_	_
+10	linky	linky	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+11	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+12	350	350	NUM	_	NUM__NumType=Card	1	nummod	_	_
+13	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	conj	_	_
+14	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Sur un de leur forums, ils le disent eux même.
+1	Sur	Sur	ADP	_	ADP___	1	case	_	_
+2	un	un	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	1	obl	_	_
+3	de	de	ADP	_	ADP___	1	case	_	_
+4	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+5	forums	forum	ADJ	_	ADJ__Number=Sing	6	nmod	_	_
+6	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+7	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	12	nsubj	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+9	disent	dire	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	advmod	_	_
+10	eux	lui	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3|PronType=Prs	0	ROOT	_	_
+11	même	même	ADV	_	ADV___	12	advmod	_	_
+12	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Toutefois : le tarif d'acheminement devrait augmenter et renchérir  ainsi sur lesfactures d'électricité.
+1	Toutefois	Toutefois	ADV	_	ADV___	1	advmod	_	_
+2	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+4	tarif	tarif	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nsubj	_	_
+5	d'	de	ADP	_	ADP___	6	case	_	_
+6	acheminement	acheminement	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nmod	_	_
+7	devrait	devoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+8	augmenter	augmenter	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+9	et	et	CCONJ	_	CCONJ___	8	cc	_	_
+10	renchérir	renchérir	VERB	_	VERB__VerbForm=Inf	12	conj	_	_
+11	 	 	SPACE	_		12		_	_
+12	ainsi	ainsi	ADV	_	ADV___	1	advmod	_	_
+13	sur	sur	ADP	_	ADP___	15	case	_	_
+14	lesfactures	lesfactures	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	obj	_	_
+15	d'	de	ADP	_	ADP___	12	case	_	_
+16	électricité	électricité	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+17	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Le cout de chaque compteur compris entre 120 et 140 , serait ainsi amorti en raisond'un ou deux euros sur la facture du consommateur.
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	cout	cout	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	de	de	ADP	_	ADP___	1	case	_	_
+4	chaque	chaque	DET	_	DET__Number=Sing	6	det	_	_
+5	compteur	compteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nmod	_	_
+6	compris	comprendre	ADJ	_	ADJ__Gender=Masc	3	acl	_	_
+7	entre	entrer	ADP	_	ADP___	12	case	_	_
+8	120	120	NUM	_	NUM__NumType=Card	12	nmod	_	_
+9	et	et	CCONJ	_	CCONJ___	8	cc	_	_
+10	140	140	NUM	_	NUM__NumType=Card	12	conj	_	_
+11	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+12	serait	être	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+13	ainsi	ainsi	ADV	_	ADV___	15	advmod	_	_
+14	amorti	amortir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+15	en	en	ADP	_	ADP___	12	advmod	_	_
+16	raisond'	raisond'	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	fixed	_	_
+17	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	fixed	_	_
+18	ou	ou	CCONJ	_	CCONJ___	20	cc	_	_
+19	deux	deux	NUM	_	NUM__NumType=Card	20	nummod	_	_
+20	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	24	conj	_	_
+21	sur	sur	ADP	_	ADP___	24	case	_	_
+22	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	facture	facturer	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	obl	_	_
+24	du	du	DET	_	DET__Gender=Masc|Number=Sing	24	det	_	_
+25	consommateur	consommateur	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	nmod	_	_
+26	.	.	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#Sur un autre site paraissant sérieux = disent 240 euros pour le compteur.
+1	Sur	Sur	ADP	_	ADP___	1	case	_	_
+2	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+3	autre	autre	ADJ	_	ADJ__Number=Sing	1	amod	_	_
+4	site	site	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obl	_	_
+5	paraissant	paraître	VERB	_	VERB__Tense=Pres|VerbForm=Part	6	acl	_	_
+6	sérieux	sérieux	ADJ	_	ADJ__Gender=Masc	3	amod	_	_
+7	=	=	VERB	_	VERB__Mood=Ind|Person=3|VerbForm=Fin	0	ROOT	_	_
+8	disent	dire	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	advmod	_	_
+9	240	240	NUM	_	NUM__NumType=Card	8	nummod	_	_
+10	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	obj	_	_
+11	pour	pour	ADP	_	ADP___	12	case	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+13	compteur	compteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obl	_	_
+14	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#MA QUESTION : je trouve que l'on nous ment, par omission , est un signe que ilsne sont pas Honnêtes !
+1	MA	MA	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	QUESTION	QUESTION	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obl	_	_
+3	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+4	je	il	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+5	trouve	trouver	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	que	que	SCONJ	_	SCONJ___	3	mark	_	_
+7	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	12	nsubj	_	_
+8	on	on	PRON	_	PRON__Number=Sing|Person=3	12	fixed	_	_
+9	nous	se	PRON	_	PRON__Number=Plur|Person=1	8	iobj	_	_
+10	ment	mentir	ADV	_	ADV___	12	ccomp	_	_
+11	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+12	par	par	ADP	_	ADP___	1	case	_	_
+13	omission	omission	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obl	_	_
+14	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+15	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+16	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+17	signe	signer	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	ccomp	_	_
+18	que	que	SCONJ	_	SCONJ___	20	mark	_	_
+19	ilsne	ilsne	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	acl	_	_
+20	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+21	pas	pas	ADV	_	ADV__Polarity=Neg	24	advmod	_	_
+22	Honnêtes	Honnêtes	PROPN	_	PROPN___	24	nsubj	_	_
+23	!	!	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#Bonne lecture.
+1	Bonne	Bonne	ADJ	_	ADJ__Gender=Fem|Number=Sing	1	amod	_	_
+2	lecture	lecture	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#A vous lire
+1	A	A	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	1	expl	_	_
+3	lire	lire	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+
+

@@ -1,0 +1,98 @@
+#Bonjour ou Bonsoir !
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	ou	ou	CCONJ	_	CCONJ___	3	cc	_	_
+3	Bonsoir	Bonsoir	PROPN	_	PROPN___	1	conj	_	_
+4	!	!	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#J'achète mon appartement que je loue suite à la volonté de mon proprio de céder son appart.
+1	J'	J'	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	achète	acheter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+4	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+5	que	que	SCONJ	_	SCONJ___	6	obj	_	_
+6	je	il	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+7	loue	louer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+8	suite	suite	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	case	_	_
+9	à	à	ADP	_	ADP___	11	fixed	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	volonté	volonté	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+12	de	de	ADP	_	ADP___	15	case	_	_
+13	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	12	nmod:poss	_	_
+14	proprio	proprio	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nmod	_	_
+15	de	de	ADP	_	ADP___	11	mark	_	_
+16	céder	céder	VERB	_	VERB__VerbForm=Inf	18	xcomp	_	_
+17	son	son	DET	_	DET__Number=Sing|Poss=Yes	18	nmod:poss	_	_
+18	appart	appart	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obj	_	_
+19	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Les délais sont trop longs à mon gout lol 4 mois d'attente et je souhaiterai démarrer des travaux léger chez moi, carrelage et peinture...je ne fais pas de prêt
+1	Les	Les	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+2	délais	délai	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	nsubj	_	_
+3	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+4	trop	trop	ADV	_	ADV___	1	advmod	_	_
+5	longs	long	ADJ	_	ADJ__Gender=Masc|Number=Plur	0	ROOT	_	_
+6	à	à	ADP	_	ADP___	6	case	_	_
+7	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+8	gout	gout	ADJ	_	ADJ__Gender=Masc|Number=Sing	6	obl	_	_
+9	lol	lol	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	amod	_	_
+10	4	4	NUM	_	NUM__NumType=Card	11	nummod	_	_
+11	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obj	_	_
+12	d'	de	ADP	_	ADP___	15	case	_	_
+13	attente	attenter	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+14	et	et	CCONJ	_	CCONJ___	15	cc	_	_
+15	je	il	PRON	_	PRON__Number=Sing|Person=1	11	nsubj	_	_
+16	souhaiterai	souhaiter	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	_
+17	démarrer	démarrer	VERB	_	VERB__VerbForm=Inf	18	xcomp	_	_
+18	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	15	det	_	_
+19	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	20	obj	_	_
+20	léger	léger	ADJ	_	ADJ__Gender=Masc|Number=Sing	11	amod	_	_
+21	chez	chez	ADP	_	ADP___	22	case	_	_
+22	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	20	obl	_	_
+23	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+24	carrelage	carrelage	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	conj	_	_
+25	et	et	CCONJ	_	CCONJ___	28	cc	_	_
+26	peinture	peinture	VERB	_	VERB__VerbForm=Inf	28	conj	_	_
+27	...	...	PUNCT	_	PUNCT___	28	punct	_	_
+28	je	il	PRON	_	PRON__Number=Sing|Person=1	28	nsubj	_	_
+29	ne	ne	ADV	_	ADV__Polarity=Neg	31	advmod	_	_
+30	fais	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	31	parataxis	_	_
+31	pas	pas	ADV	_	ADV__Polarity=Neg	28	advmod	_	_
+32	de	de	DET	_	DET__Definite=Ind|Number=Sing|PronType=Art	28	det	_	_
+33	prêt	prêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	34	obl	_	_
+
+
+#je dispose donc de la somme.puis je commencer les travaux ?
+1	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	dispose	disposer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	donc	donc	ADV	_	ADV___	1	advmod	_	_
+4	de	de	ADP	_	ADP___	1	mark	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	fixed	_	_
+6	somme.puis	somme.puis	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	fixed	_	_
+7	je	il	PRON	_	PRON__Number=Sing|Person=1	8	nsubj	_	_
+8	commencer	commencer	VERB	_	VERB__VerbForm=Inf	6	xcomp	_	_
+9	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	11	det	_	_
+10	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	obj	_	_
+11	?	?	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#je signe le compromis de vente dans 15 jours, je souhaite démarrer les travaux après.merci
+1	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	signe	signer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+4	compromis	compromettre	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+5	de	de	ADP	_	ADP___	6	case	_	_
+6	vente	venter	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+7	dans	dan	ADP	_	ADP___	8	case	_	_
+8	15	15	NUM	_	NUM__NumType=Card	6	nummod	_	_
+9	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	obl	_	_
+10	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+11	je	il	PRON	_	PRON__Number=Sing|Person=1	8	nsubj	_	_
+12	souhaite	souhaiter	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	conj	_	_
+13	démarrer	démarrer	VERB	_	VERB__VerbForm=Inf	12	xcomp	_	_
+14	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	15	det	_	_
+15	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	obj	_	_
+16	après.merci	après.merci	ADJ	_	ADJ__Gender=Masc|Number=Sing	18	amod	_	_
+
+

@@ -1,0 +1,207 @@
+#Bonjour
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+
+
+#,je suis en cours d’acquisition d'une maison qui date de 1900 (sous-seing signé).
+1	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	7	nsubj	_	_
+3	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	en	en	ADP	_	ADP___	7	case	_	_
+5	cours	courir	NOUN	_	NOUN__Gender=Masc	7	fixed	_	_
+6	d’	d’	PUNCT	_	PUNCT___	5	amod	_	_
+7	acquisition	acquisition	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+8	d'	de	ADP	_	ADP___	8	case	_	_
+9	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+11	qui	qui	PRON	_	PRON__PronType=Rel	8	nsubj	_	_
+12	date	dater	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+13	de	de	ADP	_	ADP___	11	case	_	_
+14	1900	1900	NUM	_	NUM__NumType=Card	15	nmod	_	_
+15	(	(	PUNCT	_	PUNCT___	13	punct	_	_
+16	sous-seing	sous-seing	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	appos	_	_
+17	signé	signer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
+18	)	)	PUNCT	_	PUNCT___	17	punct	_	_
+19	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Cette maison est en zone inondable hors il y a un garage d'environ 70m2 qui date d'environ 50 ans, qui ne figure pas au cadastre.
+1	Cette	Cette	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	1	det	_	_
+2	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	en	en	ADP	_	ADP___	7	case	_	_
+5	zone	zone	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+6	inondable	inondable	ADJ	_	ADJ__Number=Sing	5	amod	_	_
+7	hors	hors	ADP	_	ADP___	8	mark	_	_
+8	il	il	PRON	_	PRON__Number=Sing|Person=3	8	fixed	_	_
+9	y	yu	PRON	_	PRON__Person=3	11	fixed	_	_
+10	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+11	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+12	garage	garage	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+13	d'	de	ADP	_	ADP___	11	case	_	_
+14	environ	environ	ADV	_	ADV___	15	advmod	_	_
+15	70m2	70m2	SCONJ	_	SCONJ___	13	nmod	_	_
+16	qui	qui	PRON	_	PRON__PronType=Rel	8	nsubj	_	_
+17	date	dater	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+18	d'	de	ADP	_	ADP___	17	case	_	_
+19	environ	environ	ADV	_	ADV___	8	advmod	_	_
+20	50	50	NUM	_	NUM__NumType=Card	8	nummod	_	_
+21	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	22	nmod	_	_
+22	,	,	PUNCT	_	PUNCT___	25	punct	_	_
+23	qui	qui	PRON	_	PRON__PronType=Rel	25	nsubj	_	_
+24	ne	ne	ADV	_	ADV__Polarity=Neg	25	advmod	_	_
+25	figure	figurer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
+26	pas	pas	ADV	_	ADV__Polarity=Neg	25	advmod	_	_
+27	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	30	det	_	_
+28	cadastre	cadastre	VERB	_	VERB__VerbForm=Inf	27	obj	_	_
+29	.	.	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#Les ventes précédentes (3 ventes depuis 1998) font états de la présence de ce garage sans qu'il apparaisse au cadastre.
+1	Les	Les	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+2	ventes	vente	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+3	précédentes	précédent	ADJ	_	ADJ__Gender=Fem|Number=Plur	7	amod	_	_
+4	(	(	PUNCT	_	PUNCT___	7	punct	_	_
+5	3	3	NUM	_	NUM__NumType=Card	7	nummod	_	_
+6	ventes	vente	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	nsubj	_	_
+7	depuis	depuis	ADP	_	ADP___	8	case	_	_
+8	1998	1998	NUM	_	NUM__NumType=Card	8	nmod	_	_
+9	)	)	PUNCT	_	PUNCT___	11	punct	_	_
+10	font	faire	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl	_	_
+11	états	état	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obj	_	_
+12	de	de	ADP	_	ADP___	13	case	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+14	présence	présence	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obl	_	_
+15	de	de	ADP	_	ADP___	13	case	_	_
+16	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+17	garage	garage	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+18	sans	sans	ADP	_	ADP___	17	mark	_	_
+19	qu'	que	SCONJ	_	SCONJ___	8	fixed	_	_
+20	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+21	apparaisse	apparaître	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	_	_
+22	au	au	PRON	_	PRON__Number=Sing|Person=3	25	iobj	_	_
+23	cadastre	cadastre	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	obj	_	_
+24	.	.	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#Il n'y a aucune trace de permis de construire pour ce garage et il est contraire aux règles d'urbanisme (zone inondable).Comment puis-je régulariser cette situation?Merci de vos réponses.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+3	y	yu	PRON	_	PRON__Person=3	7	expl	_	_
+4	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	aucune	aucun	DET	_	DET__Gender=Fem|Number=Sing	7	det	_	_
+6	trace	tracer	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obj	_	_
+7	de	de	ADP	_	ADP___	8	case	_	_
+8	permis	permettre	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	nmod	_	_
+9	de	de	ADP	_	ADP___	11	mark	_	_
+10	construire	construire	VERB	_	VERB__VerbForm=Inf	11	xcomp	_	_
+11	pour	pour	ADP	_	ADP___	8	case	_	_
+12	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
+13	garage	garage	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obl	_	_
+14	et	et	CCONJ	_	CCONJ___	15	cc	_	_
+15	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	13	nsubj	_	_
+16	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+17	contraire	contraire	ADJ	_	ADJ__Number=Sing	8	advmod	_	_
+18	aux	aux	ADJ	_	ADJ___	17	advmod	_	_
+19	règles	régler	NOUN	_	NOUN__Gender=Fem|Number=Plur	8	conj	_	_
+20	d'	de	ADP	_	ADP___	8	case	_	_
+21	urbanisme	urbanisme	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	nmod	_	_
+22	(	(	PUNCT	_	PUNCT___	25	punct	_	_
+23	zone	zone	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	nsubj	_	_
+24	inondable).Comment	inondable).Comment	ADV	_	ADV___	25	nmod	_	_
+25	puis-je	puis-je	ADV	_	ADV___	25	nmod	_	_
+26	régulariser	régulariser	VERB	_	VERB__VerbForm=Part	25	acl	_	_
+27	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	30	det	_	_
+28	situation?Merci	situation?Merci	NOUN	_	NOUN__Gender=Fem|Number=Sing	27	obj	_	_
+29	de	de	ADP	_	ADP___	28	case	_	_
+30	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	25	nmod:poss	_	_
+31	réponses	réponse	NOUN	_	NOUN__Gender=Fem|Number=Plur	32	nmod	_	_
+32	.	.	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#Je souhaite que cette situation soit régularisée afin d'être en conformité avec les impôts et être serein en cas de revente.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	2	nsubj	_	_
+2	souhaite	souhaiter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	que	que	SCONJ	_	SCONJ___	7	mark	_	_
+4	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+6	soit	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	régularisée	régulariser	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	ccomp	_	_
+8	afin	afin	ADP	_	ADP___	12	mark	_	_
+9	d'	de	ADP	_	ADP___	8	fixed	_	_
+10	être	être	AUX	_	AUX__VerbForm=Inf	12	cop	_	_
+11	en	en	ADP	_	ADP___	12	case	_	_
+12	conformité	conformité	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obl	_	_
+13	avec	avec	ADP	_	ADP___	15	case	_	_
+14	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	15	det	_	_
+15	impôts	impôt	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	obl	_	_
+16	et	et	CCONJ	_	CCONJ___	18	cc	_	_
+17	être	être	AUX	_	AUX__VerbForm=Inf	18	cop	_	_
+18	serein	serein	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	conj	_	_
+19	en	en	ADP	_	ADP___	22	mark	_	_
+20	cas	cas	NOUN	_	NOUN__Gender=Masc	19	fixed	_	_
+21	de	de	ADP	_	ADP___	19	fixed	_	_
+22	revente	revente	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	obl	_	_
+23	.	.	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#Le notaire semble vouloir réaliser la vente en l'état.
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	notaire	notaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	nsubj	_	_
+3	semble	sembler	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	vouloir	vouloir	AUX	_	AUX__VerbForm=Inf	5	aux	_	_
+5	réaliser	réaliser	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	vente	venter	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	obj	_	_
+8	en	en	ADP	_	ADP___	12	case	_	_
+9	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+10	état	état	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nmod	_	_
+11	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Cordialement
+1	Cordialement	Cordialement	ADV	_	ADV___	0	ROOT	_	_
+
+
+#BonjourMerci pour ces réponses.
+1	BonjourMerci	BonjourMerci	ADV	_	ADV___	0	ROOT	_	_
+2	pour	pour	ADP	_	ADP___	4	case	_	_
+3	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	4	det	_	_
+4	réponses	réponse	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	obl	_	_
+5	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Nous avons un seul notaire (vendeur-acquéreur), et il ne donne pas de reponses claires et rapides.
+1	Nous	Nous	PRON	_	PRON__Number=Plur|Person=1	1	nsubj	_	_
+2	avons	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	seul	seul	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	amod	_	_
+5	notaire	notaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+6	(	(	PUNCT	_	PUNCT___	7	punct	_	_
+7	vendeur	vendeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	appos	_	_
+8	-	-	PUNCT	_	PUNCT___	10	punct	_	_
+9	acquéreur	acquéreur	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	appos	_	_
+10	)	)	PUNCT	_	PUNCT___	7	punct	_	_
+11	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+12	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+13	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
+14	ne	ne	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+15	donne	donner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+16	pas	pas	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+17	de	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	20	det	_	_
+18	reponses	reponses	NOUN	_	NOUN__Gender=Fem|Number=Plur	20	obj	_	_
+19	claires	claire	ADJ	_	ADJ__Gender=Fem|Number=Plur	20	amod	_	_
+20	et	et	CCONJ	_	CCONJ___	7	cc	_	_
+21	rapides	rapide	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	20	conj	_	_
+22	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Je ne conseille pas ce notaire.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ne	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+3	conseille	conseiller	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+5	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	1	det	_	_
+6	notaire	notaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+7	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
