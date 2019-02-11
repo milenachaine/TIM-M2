@@ -1,0 +1,151 @@
+#BonjourJuridiction administrative (TA) ou civile (TI, TGI, ...) ?
+1	BonjourJuridiction	BonjourJuridiction	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	administrative	administratif	ADJ	_	ADJ__Gender=Fem|Number=Sing	1	amod	_	_
+3	(	(	PUNCT	_	PUNCT___	1	punct	_	_
+4	TA	TA	NOUN	_	NOUN___	1	appos	_	_
+5	)	)	PUNCT	_	PUNCT___	1	punct	_	_
+6	ou	ou	CCONJ	_	CCONJ___	7	cc	_	_
+7	civile	civil	ADJ	_	ADJ__Gender=Fem|Number=Sing	1	conj	_	_
+8	(	(	PUNCT	_	PUNCT___	7	punct	_	_
+9	TI	TI	NOUN	_	NOUN___	1	nmod	_	_
+10	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+11	TGI	TGI	X	_	X___	9	conj	_	_
+12	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+13	...	...	PUNCT	_	PUNCT___	1	conj	_	_
+14	)	)	PUNCT	_	PUNCT___	1	punct	_	_
+15	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Bonsoir,Télérecours, c'est de l'administratif.
+1	Bonsoir	Bonsoir	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	Télérecours	Télérecours	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	conj	_	_
+4	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+5	c'	ce	PRON	_	PRON__Number=Sing|Person=3	9	nsubj	_	_
+6	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	de	de	ADP	_	ADP___	9	case	_	_
+8	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	administratif	administratif	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	conj	_	_
+10	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Bon, je ne comprends pas.
+1	Bon	Bon	PROPN	_	PROPN___	1	acl	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+4	ne	ne	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+5	comprends	comprendre	ADJ	_	ADJ__Gender=Masc|Number=Plur	0	ROOT	_	_
+6	pas	pas	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+7	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Vous avez fait un recours (excès de pouvoir ou plein contentieux ?
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+2	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+5	recours	recourir	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+6	(	(	PUNCT	_	PUNCT___	9	punct	_	_
+7	excès	excès	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	appos	_	_
+8	de	de	ADP	_	ADP___	9	case	_	_
+9	pouvoir	pouvoir	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+10	ou	ou	CCONJ	_	CCONJ___	1	cc	_	_
+11	plein	plein	ADJ	_	ADJ__Gender=Masc|Number=Sing	15	amod	_	_
+12	contentieux	contentieux	ADJ	_	ADJ__Gender=Masc	15	conj	_	_
+13	?	?	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#)Il a été déposé comment et par qui ?
+1	)	)	PUNCT	_	PUNCT___	1	punct	_	_
+2	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	3	nsubj:pass	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+4	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	9	aux:pass	_	_
+5	déposé	déposer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+6	comment	comment	ADV	_	ADV__PronType=Int	9	advmod	_	_
+7	et	et	CCONJ	_	CCONJ___	9	cc	_	_
+8	par	par	ADP	_	ADP___	9	case	_	_
+9	qui	qui	PRON	_	PRON__PronType=Rel	1	conj	_	_
+10	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Il y a eu une audience et un jugement, OK.Avez-vous reçu ce jugement du greffe par recommandé ?
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	y	yu	PRON	_	PRON__Person=3	3	iobj	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+4	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+6	audience	audience	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obj	_	_
+7	et	et	CCONJ	_	CCONJ___	9	cc	_	_
+8	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	jugement	jugement	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	conj	_	_
+10	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+11	OK.Avez	OK.Avez	NOUN	_	NOUN__Gender=Fem|Number=Plur	15	amod	_	_
+12	-	-	PUNCT	_	PUNCT___	15	punct	_	_
+13	vous	se	PRON	_	PRON__Number=Plur|Person=2	15	iobj	_	_
+14	reçu	recevoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	15	conj	_	_
+15	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
+16	jugement	jugement	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obj	_	_
+17	du	du	DET	_	DET__Gender=Masc|Number=Sing	15	det	_	_
+18	greffe	greffer	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obj	_	_
+19	par	par	ADP	_	ADP___	20	case	_	_
+20	recommandé	recommander	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	20	obl	_	_
+21	?	?	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#Si oui, est-ce ce recommandé qui ne serait pas accompagné des possibilités de recours ?
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	oui	oui	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obl	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	est	être		_	VERB	9	cop	_	_
+5	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	9	punct	_	_
+6	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+7	recommandé	recommander	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+8	qui	qui	PRON	_	PRON__PronType=Rel	9	nsubj	_	_
+9	ne	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+10	serait	être	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+11	pas	pas	ADV	_	ADV__Polarity=Neg	15	advmod	_	_
+12	accompagné	accompagner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl:relcl	_	_
+13	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	15	det	_	_
+14	possibilités	possibilité	NOUN	_	NOUN__Gender=Fem|Number=Plur	15	obj	_	_
+15	de	de	ADP	_	ADP___	15	case	_	_
+16	recours	recourir	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nmod	_	_
+17	?	?	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#(Si c'est un jugement d'un TA, a priori il y aurait appel devant la CAA, mais avec de nombreuses exceptions, donc on ne peut pas être affirmatif)Bonne soirée
+1	(	(	PUNCT	_	PUNCT___	1	punct	_	_
+2	Si	Si	SCONJ	_	SCONJ___	3	mark	_	_
+3	c'	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+6	jugement	jugement	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	advcl	_	_
+7	d'	de	ADP	_	ADP___	9	case	_	_
+8	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	TA	TA	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+10	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+11	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+12	priori	priori	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	advmod	_	_
+13	il	il	PRON	_	PRON__Number=Sing|Person=3	15	obj	_	_
+14	y	yu	PRON	_	PRON__Person=3	15	fixed	_	_
+15	aurait	avoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	fixed	_	_
+16	appel	appel	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obj	_	_
+17	devant	devoir	ADP	_	ADP___	15	case	_	_
+18	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	CAA	CAA	PROPN	_	PROPN__Gender=Fem|Number=Sing	20	nmod	_	_
+20	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+21	mais	mai	CCONJ	_	CCONJ___	22	cc	_	_
+22	avec	avec	ADP	_	ADP___	20	case	_	_
+23	de	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	22	det	_	_
+24	nombreuses	nombreux	ADJ	_	ADJ__Gender=Fem|Number=Plur	22	amod	_	_
+25	exceptions	exception	NOUN	_	NOUN__Gender=Fem|Number=Plur	26	conj	_	_
+26	,	,	PUNCT	_	PUNCT___	24	punct	_	_
+27	donc	donc	ADV	_	ADV___	29	advmod	_	_
+28	on	on	PRON	_	PRON__Number=Sing|Person=3	29	nsubj	_	_
+29	ne	ne	ADV	_	ADV__Polarity=Neg	24	advmod	_	_
+30	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+31	pas	pas	ADV	_	ADV__Polarity=Neg	35	advmod	_	_
+32	être	être	AUX	_	AUX__VerbForm=Inf	35	aux:pass	_	_
+33	affirmatif)Bonne	affirmatif)Bonne	ADJ	_	ADJ__Gender=Fem|Number=Sing	35	det	_	_
+34	soirée	soirée	NOUN	_	NOUN__Gender=Fem|Number=Sing	35	xcomp	_	_
+
+

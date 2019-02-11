@@ -1,0 +1,263 @@
+#Bonjour,Vous devez d'un côté payer les frais de justice à l'Etat, donc ceux que vous venez de recevoir
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	4	nsubj	_	_
+4	devez	devoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	conj	_	_
+5	d'	de	ADP	_	ADP___	7	case	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	côté	côté	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+8	payer	payer	VERB	_	VERB__VerbForm=Inf	7	acl	_	_
+9	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	10	det	_	_
+10	frais	frai	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obj	_	_
+11	de	de	ADP	_	ADP___	12	case	_	_
+12	justice	justice	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+13	à	à	ADP	_	ADP___	15	case	_	_
+14	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	Etat	Etat	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+16	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+17	donc	donc	ADV	_	ADV___	4	advmod	_	_
+18	ceux	celui	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Dem	4	obj	_	_
+19	que	que	PRON	_	PRON__PronType=Rel	21	obj	_	_
+20	vous	se	PRON	_	PRON__Number=Plur|Person=2	21	nsubj	_	_
+21	venez	venir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+22	de	de	ADP	_	ADP___	23	mark	_	_
+23	recevoir	recevoir	VERB	_	VERB__VerbForm=Inf	21	xcomp	_	_
+
+
+#.... de l'autre côté vous devez vous rapprocher dés maintenant de la victime ou plutôtet lui adresser un courrier RAR + chèque de 300.
+1	....	....	PUNCT	_	PUNCT___	1	punct	_	_
+2	de	de	ADP	_	ADP___	4	case	_	_
+3	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	autre	autre	ADJ	_	ADJ__Number=Sing	1	amod	_	_
+5	côté	côté	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+6	vous	se	PRON	_	PRON__Number=Plur|Person=2	7	nsubj	_	_
+7	devez	devoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
+8	vous	se	PRON	_	PRON__Number=Plur|Person=2	7	expl	_	_
+9	rapprocher	rapprocher	VERB	_	VERB__VerbForm=Inf	10	acl:relcl	_	_
+10	dés	dé	ADV	_	ADV___	8	punct	_	_
+11	maintenant	maintenir	ADV	_	ADV___	12	advmod	_	_
+12	de	de	ADP	_	ADP___	10	case	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	victime	victime	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+15	ou	ou	CCONJ	_	CCONJ___	8	cc	_	_
+16	plutôtet	plutôtet	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+17	lui	luire	PRON	_	PRON__Number=Sing|Person=3	4	iobj	_	_
+18	adresser	adresser	VERB	_	VERB__VerbForm=Inf	4	acl	_	_
+19	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	courrier	courrier	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obj	_	_
+21	RAR	RAR	PROPN	_	PROPN___	18	nmod	_	_
+22	+	+	ADP	_	ADP___	23	case	_	_
+23	chèque	chèque	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	nmod	_	_
+24	de	de	ADP	_	ADP___	37	case	_	_
+25	300	300	NUM	_	NUM__NumType=Card	28	nmod	_	_
+26	.	.	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#Si vous ne faites pas cette dernière démarche, la victime vous fera signifier le jugement par huissier avec commandement de payer (je présume d'ailleurs que vous avez été condamné au dépens, ce qui implique des frais supplémentaires si vous n'exécutez pas le jugement spontanément).
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	4	nsubj	_	_
+3	ne	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+4	faites	fait	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+6	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	dernière	dernier	ADJ	_	ADJ__Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	_
+8	démarche	démarcher	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+9	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+11	victime	victime	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nsubj	_	_
+12	vous	se	PRON	_	PRON__Number=Plur|Person=2	10	iobj	_	_
+13	fera	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+14	signifier	signifier	VERB	_	VERB__VerbForm=Inf	15	xcomp	_	_
+15	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+16	jugement	jugement	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+17	par	par	ADP	_	ADP___	4	case	_	_
+18	huissier	huissier	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+19	avec	avec	ADP	_	ADP___	21	case	_	_
+20	commandement	commandement	ADV	_	ADV___	21	obl	_	_
+21	de	de	ADP	_	ADP___	18	mark	_	_
+22	payer	payer	VERB	_	VERB__VerbForm=Inf	23	xcomp	_	_
+23	(	(	PUNCT	_	PUNCT___	21	punct	_	_
+24	je	il	PRON	_	PRON__Number=Sing|Person=1	37	nsubj	_	_
+25	présume	présumer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	28	conj	_	_
+26	d'	de	ADP	_	ADP___	28	advmod	_	_
+27	ailleurs	ailleurs	NOUN	_	NOUN__Gender=Masc	28	fixed	_	_
+28	que	que	SCONJ	_	SCONJ___	24	mark	_	_
+29	vous	se	PRON	_	PRON__Number=Plur|Person=2	32	nsubj:pass	_	_
+30	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	32	aux	_	_
+31	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	32	aux:pass	_	_
+32	condamné	condamner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	28	acl	_	_
+33	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	24	case	_	_
+34	dépens	dépens	ADJ	_	ADJ__Gender=Masc|Number=Plur	33	obl	_	_
+35	,	,	PUNCT	_	PUNCT___	37	punct	_	_
+36	ce	ce	PRON	_	PRON__PronType=Rel	37	iobj	_	_
+37	qui	qui	PRON	_	PRON__PronType=Rel	37	nsubj	_	_
+38	implique	impliquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	acl:relcl	_	_
+39	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	37	det	_	_
+40	frais	frai	NOUN	_	NOUN__Gender=Masc|Number=Plur	41	obj	_	_
+41	supplémentaires	supplémentaire	ADJ	_	ADJ__Number=Plur	37	amod	_	_
+42	si	si	SCONJ	_	SCONJ___	43	mark	_	_
+43	vous	se	PRON	_	PRON__Number=Plur|Person=2	41	nsubj	_	_
+44	n'	ne	ADV	_	ADV__Polarity=Neg	43	advmod	_	_
+45	exécutez	exécuter	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	46	advcl	_	_
+46	pas	pas	ADV	_	ADV__Polarity=Neg	43	advmod	_	_
+47	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	jugement	jugement	NOUN	_	NOUN__Gender=Masc|Number=Sing	46	obj	_	_
+49	spontanément	spontanément	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	advmod	_	_
+50	)	)	PUNCT	_	PUNCT___	53	punct	_	_
+51	.	.	PUNCT	_	PUNCT___	53	punct	_	_
+
+
+#Qu'est-ce que vous ne comprenez pas dans ma réponse ?
+1	Qu'	que		_	ADV	0	ROOT	_	_
+2	est	être		_	VERB	1	cop	_	_
+3	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+4	que	que	SCONJ	_	SCONJ___	7	mark	_	_
+5	vous	se	PRON	_	PRON__Number=Plur|Person=2	7	nsubj	_	_
+6	ne	ne	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+7	comprenez	comprendre	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	dislocated	_	_
+8	pas	pas	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+9	dans	dan	ADP	_	ADP___	11	case	_	_
+10	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	11	nmod:poss	_	_
+11	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obl	_	_
+12	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#??
+1	?	?	PUNCT	_	PUNCT___	0	ROOT	_	_
+2	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Un relevé de condamnation est un relevé faisant apparaître les sommes à régler au Trésor, avec ou sans victime ne change rien.
+1	Un	Un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	relevé	relever	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	de	de	ADP	_	ADP___	1	case	_	_
+4	condamnation	condamnation	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	relevé	relever	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+8	faisant	faire	VERB	_	VERB__Tense=Pres|VerbForm=Part	7	acl	_	_
+9	apparaître	apparaître	VERB	_	VERB__VerbForm=Inf	11	xcomp	_	_
+10	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	11	det	_	_
+11	sommes	sommer	NOUN	_	NOUN__Number=Plur	7	obj	_	_
+12	à	à	ADP	_	ADP___	1	mark	_	_
+13	régler	régler	VERB	_	VERB__VerbForm=Inf	13	acl	_	_
+14	au	au	PROPN	_	PROPN__Gender=Fem|Number=Sing	13	case	_	_
+15	Trésor	Trésor	PROPN	_	PROPN__Gender=Masc|Number=Sing	16	obl	_	_
+16	,	,	PUNCT	_	PUNCT___	21	punct	_	_
+17	avec	avec	ADP	_	ADP___	18	case	_	_
+18	ou	ou	CCONJ	_	CCONJ___	16	cc	_	_
+19	sans	sans	ADP	_	ADP___	21	mark	_	_
+20	victime	victime	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	advcl	_	_
+21	ne	ne	ADV	_	ADV___	21	advmod	_	_
+22	change	changer	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	amod	_	_
+23	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	22	obj	_	_
+24	.	.	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#Ah
+1	Ah	Ah	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+
+
+#oui okay je vois... merci au Modo 01 d'avoir réalisé la mise en page de l'encadréLà on comprend mieux, en effet, c'est clair.. et on comprend surtout que Anthony52000, en faisant un copier/coller d'un post qui date de l'An pèbre, n'a même pas pris la peine d'exposer en 3 phrases sa propre situation.
+1	oui	oui	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	punct	_	_
+2	okay	okay	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	amod	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	2	nsubj	_	_
+4	vois	voir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	...	...	PUNCT	_	PUNCT___	7	punct	_	_
+6	merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nsubj	_	_
+7	au	au	PRON	_	PRON__PronType=Rel	22	case	_	_
+8	Modo	Modo	PROPN	_	PROPN__Gender=Masc|Number=Sing	9	nmod	_	_
+9	01	01	NUM	_	NUM__NumType=Card	7	nummod	_	_
+10	d'	de	ADP	_	ADP___	9	mark	_	_
+11	avoir	avoir	AUX	_	AUX__VerbForm=Inf	13	aux	_	_
+12	réalisé	réaliser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+14	mise	miser	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obj	_	_
+15	en	en	ADP	_	ADP___	13	case	_	_
+16	page	page	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	nmod	_	_
+17	de	de	ADP	_	ADP___	15	case	_	_
+18	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+19	encadréLà	encadréLà	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	20	nmod	_	_
+20	on	on	PRON	_	PRON__Number=Sing|Person=3	15	nsubj	_	_
+21	comprend	comprendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+22	mieux	mieux	ADV	_	ADV___	22	advmod	_	_
+23	,	,	PUNCT	_	PUNCT___	22	punct	_	_
+24	en	en	ADP	_	ADP___	22	advmod	_	_
+25	effet	effet	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	fixed	_	_
+26	,	,	PUNCT	_	PUNCT___	25	punct	_	_
+27	c'	ce	PRON	_	PRON__Number=Sing|Person=3	30	nsubj	_	_
+28	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+29	clair	clair	ADJ	_	ADJ__Gender=Masc|Number=Sing	30	parataxis	_	_
+30	..	..	PUNCT	_	PUNCT___	22	punct	_	_
+31	et	et	CCONJ	_	CCONJ___	22	cc	_	_
+32	on	on	PRON	_	PRON__Number=Sing|Person=3	34	nsubj	_	_
+33	comprend	comprendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	conj	_	_
+34	surtout	surtout	ADV	_	ADV___	22	advmod	_	_
+35	que	que	SCONJ	_	SCONJ___	34	mark	_	_
+36	Anthony52000	Anthony52000	NOUN	_	NOUN__Number=Sing	37	dep	_	_
+37	,	,	PUNCT	_	PUNCT___	34	punct	_	_
+38	en	en	ADP	_	ADP___	22	mark	_	_
+39	faisant	faire	VERB	_	VERB__Tense=Pres|VerbForm=Part	40	advcl	_	_
+40	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+41	copier	copier	NOUN	_	NOUN__Gender=Masc|Number=Sing	42	obj	_	_
+42	/	/	ADP	_	ADP___	40	mark	_	_
+43	coller	coller	VERB	_	VERB__VerbForm=Inf	44	xcomp	_	_
+44	d'	de	ADP	_	ADP___	22	case	_	_
+45	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
+46	post	post	NOUN	_	NOUN__Gender=Masc|Number=Sing	47	obl	_	_
+47	qui	qui	PRON	_	PRON__PronType=Rel	44	nsubj	_	_
+48	date	dater	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	49	acl:relcl	_	_
+49	de	de	ADP	_	ADP___	47	case	_	_
+50	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	52	det	_	_
+51	An	An	NOUN	_	NOUN__Gender=Masc|Number=Sing	52	nmod	_	_
+52	pèbre	pèbre	ADJ	_	ADJ__Gender=Masc|Number=Sing	49	flat:name	_	_
+53	,	,	PUNCT	_	PUNCT___	52	punct	_	_
+54	n'	ne	ADV	_	ADV___	22	advmod	_	_
+55	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	56	aux	_	_
+56	même	même	ADV	_	ADV___	59	advmod	_	_
+57	pas	pas	ADV	_	ADV__Polarity=Neg	58	advmod	_	_
+58	pris	prendre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	59	conj	_	_
+59	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+60	peine	peiner	NOUN	_	NOUN__Gender=Fem|Number=Sing	61	obj	_	_
+61	d'	de	ADP	_	ADP___	59	mark	_	_
+62	exposer	exposer	VERB	_	VERB__VerbForm=Inf	63	acl	_	_
+63	en	en	ADP	_	ADP___	61	case	_	_
+64	3	3	NUM	_	NUM__NumType=Card	66	nummod	_	_
+65	phrases	phraser	NOUN	_	NOUN__Gender=Fem|Number=Plur	66	obl	_	_
+66	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	63	nmod:poss	_	_
+67	propre	propre	ADJ	_	ADJ__Number=Sing	69	amod	_	_
+68	situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	69	obj	_	_
+69	.	.	PUNCT	_	PUNCT___	63	punct	_	_
+
+
+#On aura tout vu...
+1	On	On	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+2	aura	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+3	tout	tout	ADV	_	ADV___	2	det	_	_
+4	vu	voir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	obj	_	_
+5	...	...	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#J'ai comme une subite envie de prendre des vacances là, oui.. loin.. loin.. très loin
+1	J'	J'	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+3	comme	comme	ADP	_	ADP___	2	case	_	_
+4	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+5	subite	subit	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+6	envie	envier	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	amod	_	_
+7	de	de	ADP	_	ADP___	22	mark	_	_
+8	prendre	prendre	VERB	_	VERB__VerbForm=Inf	9	acl	_	_
+9	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
+10	vacances	vacance	NOUN	_	NOUN__Gender=Fem|Number=Plur	9	obj	_	_
+11	là	là	ADV	_	ADV___	13	nummod	_	_
+12	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+13	oui	oui	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	appos	_	_
+14	..	..	PUNCT	_	PUNCT___	15	punct	_	_
+15	loin	loin	ADV	_	ADV___	13	amod	_	_
+16	..	..	PUNCT	_	PUNCT___	17	punct	_	_
+17	loin	loin	ADV	_	ADV___	15	amod	_	_
+18	..	..	PUNCT	_	PUNCT___	20	punct	_	_
+19	très	très	ADV	_	ADV___	20	advmod	_	_
+20	loin	loin	ADV	_	ADV___	15	amod	_	_
+
+

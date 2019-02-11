@@ -1,0 +1,3241 @@
+#BonjourLes 1000
+1	BonjourLes	BonjourLes	ADP	_	ADP___	0	ROOT	_	_
+2	1000	1000	NUM	_	NUM__NumType=Card	1	nummod	_	_
+
+
+#€ ce n'est pas pour les dépens ?
+1	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+2	ce	ce	PRON	_	PRON__PronType=Rel	1	nsubj	_	_
+3	n'	ne	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+6	pour	pour	ADP	_	ADP___	10	case	_	_
+7	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	10	det	_	_
+8	dépens	dépens	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	nmod	_	_
+9	?	?	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Inadmissible.
+1	Inadmissible	Inadmissible	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+2	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Votre avocat "amis" est spécialisé en droit de l'urbanisme ?
+1	Votre	Votre	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj:pass	_	_
+3	"	"	PUNCT	_	PUNCT___	3	punct	_	_
+4	amis	ami	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	nmod	_	_
+5	"	"	PUNCT	_	PUNCT___	10	punct	_	_
+6	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+7	spécialisé	spécialiser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+8	en	en	ADP	_	ADP___	10	case	_	_
+9	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obl	_	_
+10	de	de	ADP	_	ADP___	3	case	_	_
+11	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+12	urbanisme	urbanisme	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nmod	_	_
+13	?	?	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Si non, et si vous ne voulez pas aller au casse pipe , voyez un autre avocat qui sera lui spécialisé, et qui jugera de la pertinence d'un appel, de vos chances d'obtenir satisfaction sur le fond en le faisant dans les formes.
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	non	non	ADV	_	ADV___	0	ROOT	_	_
+3	,	,	PUNCT	_	PUNCT___	3	fixed	_	_
+4	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+5	si	si	SCONJ	_	SCONJ___	10	mark	_	_
+6	vous	se	PRON	_	PRON__Number=Plur|Person=2	10	nsubj	_	_
+7	ne	ne	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+8	voulez	vouloir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	conj	_	_
+9	pas	pas	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+10	aller	aller	VERB	_	VERB__VerbForm=Inf	3	xcomp	_	_
+11	au	au	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	3	det	_	_
+12	casse	casser	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obj	_	_
+13	pipe	piper	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	acl	_	_
+14	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+15	voyez	voir	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	20	dep	_	_
+16	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+17	autre	autre	ADJ	_	ADJ__Number=Sing	15	amod	_	_
+18	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obl	_	_
+19	qui	qui	PRON	_	PRON__PronType=Rel	20	nsubj	_	_
+20	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	20	cop	_	_
+21	lui	luire	PRON	_	PRON__Number=Sing|Person=3	22	iobj	_	_
+22	spécialisé	spécialiser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	20	acl:relcl	_	_
+23	,	,	PUNCT	_	PUNCT___	25	punct	_	_
+24	et	et	CCONJ	_	CCONJ___	25	cc	_	_
+25	qui	qui	PRON	_	PRON__PronType=Rel	22	nsubj	_	_
+26	jugera	juger	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	20	conj	_	_
+27	de	de	ADP	_	ADP___	28	case	_	_
+28	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+29	pertinence	pertinence	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	obl	_	_
+30	d'	de	ADP	_	ADP___	34	case	_	_
+31	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+32	appel	appel	NOUN	_	NOUN__Gender=Masc|Number=Sing	34	nmod	_	_
+33	,	,	PUNCT	_	PUNCT___	34	punct	_	_
+34	de	de	ADP	_	ADP___	28	case	_	_
+35	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	36	nmod:poss	_	_
+36	chances	chance	NOUN	_	NOUN__Gender=Fem|Number=Plur	34	conj	_	_
+37	d'	de	ADP	_	ADP___	38	mark	_	_
+38	obtenir	obtenir	VERB	_	VERB__VerbForm=Inf	36	acl	_	_
+39	satisfaction	satisfaction	NOUN	_	NOUN__Gender=Fem|Number=Sing	38	xcomp	_	_
+40	sur	sur	ADP	_	ADP___	36	case	_	_
+41	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+42	fond	fondre	NOUN	_	NOUN__Gender=Masc|Number=Sing	44	obl	_	_
+43	en	en	ADP	_	ADP___	44	case	_	_
+44	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	obj	_	_
+45	faisant	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	48	advcl	_	_
+46	dans	dan	ADP	_	ADP___	48	case	_	_
+47	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	48	det	_	_
+48	formes	former	NOUN	_	NOUN__Gender=Fem|Number=Plur	44	obl	_	_
+49	.	.	PUNCT	_	PUNCT___	36	punct	_	_
+
+
+#Q1 : si les 1000 sont pour les L761-1, ce qui serait logique, je ne comprends pas pourquoi pas 2*1000 ;
+1	Q1	Q1	ADJ	_	ADJ__Gender=Fem|Number=Sing	20	advmod	_	_
+2	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+3	si	si	SCONJ	_	SCONJ___	9	mark	_	_
+4	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+5	1000	1000	NUM	_	NUM__NumType=Card	9	nsubj	_	_
+6	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	pour	pour	ADP	_	ADP___	9	case	_	_
+8	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+9	L761	L761	NOUN	_	NOUN__Gender=Fem|Number=Plur	20	advcl	_	_
+10	-	-	PUNCT	_	PUNCT___	9	punct	_	_
+11	1	1	NUM	_	NUM__NumType=Card	9	nummod	_	_
+12	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+13	ce	ce	PRON	_	PRON__PronType=Rel	9	appos	_	_
+14	qui	qui	PRON	_	PRON__PronType=Rel	16	nsubj	_	_
+15	serait	être	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	logique	logique	ADJ	_	ADJ__Number=Sing	13	acl:relcl	_	_
+17	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+18	je	il	PRON	_	PRON__Number=Sing|Person=1	20	nsubj	_	_
+19	ne	ne	ADV	_	ADV__Polarity=Neg	20	advmod	_	_
+20	comprends	comprendre	ADJ	_	ADJ__Gender=Masc|Number=Plur	0	ROOT	_	_
+21	pas	pas	ADV	_	ADV__Polarity=Neg	20	advmod	_	_
+22	pourquoi	pourquoi	ADV	_	ADV___	20	obj	_	_
+23	pas	pas	ADV	_	ADV__Polarity=Neg	22	advmod	_	_
+24	2	2	NUM	_	NUM__NumType=Card	25	nummod	_	_
+25	*	*	NOUN	_	NOUN__Gender=Masc|Number=Plur	20	punct	_	_
+26	1000	1000	NUM	_	NUM__NumType=Card	25	nummod	_	_
+27	;	;	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#appel ou pas, les L761-1 sont exigibles immédiatement sauf recours en sursis à exécutionQ2 : les L761-1 et leur règlement
+1	appel	appel	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	nsubj	_	_
+2	ou	ou	CCONJ	_	CCONJ___	1	cc	_	_
+3	pas	pas	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+4	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+5	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+6	L761	L761	PROPN	_	PROPN__Number=Plur	9	nsubj	_	_
+7	-	-	PUNCT	_	PUNCT___	9	punct	_	_
+8	1	1	PRON	_	PRON__NumType=Card|PronType=Rel	9	nummod	_	_
+9	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+10	exigibles	exigible	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+11	immédiatement	immédiatement	ADV	_	ADV___	9	advmod	_	_
+12	sauf	sauf	ADP	_	ADP___	9	case	_	_
+13	recours	recourir	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obl	_	_
+14	en	en	ADP	_	ADP___	16	case	_	_
+15	sursis	surseoir	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	nmod	_	_
+16	à	à	ADP	_	ADP___	13	case	_	_
+17	exécutionQ2	exécutionQ2	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	nmod	_	_
+18	:	:	PUNCT	_	PUNCT___	20	punct	_	_
+19	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	20	det	_	_
+20	L761	L761	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	dep	_	_
+21	-	-	PUNCT	_	PUNCT___	20	punct	_	_
+22	1	1	NUM	_	NUM__NumType=Card	20	iobj	_	_
+23	et	et	CCONJ	_	CCONJ___	22	cc	_	_
+24	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	25	nmod:poss	_	_
+25	règlement	règlement	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	conj	_	_
+
+
+#n'ont aucun effet sur la possibilité de faire appelQ3 : nonQ4 : pas de limite géographique d'exercice devant les juridictions administrativesQ5 : l'avocat adverse ne peut pas discuter avec vous : il doit passer par le votreR0 pour July : si le rejet par ordonnance est lié à l'absence de production par télérecours, ce n'est pas un problème spécifiquement lié au droit de l'urbanisme
+1	n'	ne	ADV	_	ADV___	20	advmod	_	_
+2	ont	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	aucun	aucun	DET	_	DET__Gender=Masc|Number=Sing	9	det	_	_
+4	effet	effet	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+5	sur	sur	ADP	_	ADP___	9	case	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+7	possibilité	possibilité	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nmod	_	_
+8	de	de	ADP	_	ADP___	9	mark	_	_
+9	faire	faire	VERB	_	VERB__VerbForm=Inf	20	acl	_	_
+10	appelQ3	appelQ3	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obj	_	_
+11	:	:	PUNCT	_	PUNCT___	9	punct	_	_
+12	nonQ4	nonQ4	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	appos	_	_
+13	:	:	PUNCT	_	PUNCT___	9	punct	_	_
+14	pas	pas	ADV	_	ADV___	16	advmod	_	_
+15	de	de	ADP	_	ADP___	16	case	_	_
+16	limite	limiter	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obl	_	_
+17	géographique	géographique	ADJ	_	ADJ__Number=Sing	20	amod	_	_
+18	d'	de	ADP	_	ADP___	20	case	_	_
+19	exercice	exercice	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	nmod	_	_
+20	devant	devoir	ADP	_	ADP___	20	case	_	_
+21	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	20	det	_	_
+22	juridictions	juridiction	NOUN	_	NOUN__Gender=Fem|Number=Plur	20	nmod	_	_
+23	administrativesQ5	administrativesQ5	ADV	_	ADV___	22	amod	_	_
+24	:	:	PUNCT	_	PUNCT___	25	punct	_	_
+25	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+26	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	nsubj	_	_
+27	adverse	adverse	ADJ	_	ADJ__Gender=Masc|Number=Sing	20	amod	_	_
+28	ne	ne	ADV	_	ADV__Polarity=Neg	37	advmod	_	_
+29	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	aux	_	_
+30	pas	pas	ADV	_	ADV__Polarity=Neg	29	advmod	_	_
+31	discuter	discuter	VERB	_	VERB__VerbForm=Inf	37	parataxis	_	_
+32	avec	avec	ADP	_	ADP___	33	case	_	_
+33	vous	se	PRON	_	PRON__Number=Plur|Person=2|PronType=Prs	37	obl	_	_
+34	:	:	PUNCT	_	PUNCT___	33	punct	_	_
+35	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	33	nsubj	_	_
+36	doit	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	aux	_	_
+37	passer	prendre	VERB	_	VERB__VerbForm=Inf	37	parataxis	_	_
+38	par	par	ADP	_	ADP___	37	case	_	_
+39	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	votreR0	votreR0	NOUN	_	NOUN__Gender=Masc|Number=Sing	37	obl	_	_
+41	pour	pour	ADP	_	ADP___	42	case	_	_
+42	July	July	PROPN	_	PROPN___	40	nmod	_	_
+43	:	:	PUNCT	_	PUNCT___	44	punct	_	_
+44	si	si	SCONJ	_	SCONJ___	40	mark	_	_
+45	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+46	rejet	rejet	NOUN	_	NOUN__Gender=Masc|Number=Sing	47	nsubj:pass	_	_
+47	par	par	ADP	_	ADP___	49	case	_	_
+48	ordonnance	ordonnancer	NOUN	_	NOUN__Number=Sing	47	nmod	_	_
+49	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	aux:pass	_	_
+50	lié	lier	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	52	conj	_	_
+51	à	à	ADP	_	ADP___	52	case	_	_
+52	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	49	det	_	_
+53	absence	absence	NOUN	_	NOUN__Gender=Fem|Number=Sing	54	obl	_	_
+54	de	de	ADP	_	ADP___	54	case	_	_
+55	production	production	NOUN	_	NOUN__Gender=Fem|Number=Sing	56	nmod	_	_
+56	par	par	ADP	_	ADP___	54	case	_	_
+57	télérecours	télérecours	NOUN	_	NOUN__Gender=Masc|Number=Plur	59	nmod	_	_
+58	,	,	PUNCT	_	PUNCT___	59	punct	_	_
+59	ce	ce	PRON	_	PRON__PronType=Rel	56	det	_	_
+60	n'	ne	ADV	_	ADV__Polarity=Neg	61	advmod	_	_
+61	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	59	cop	_	_
+62	pas	pas	ADV	_	ADV__Polarity=Neg	61	advmod	_	_
+63	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
+64	problème	problème	NOUN	_	NOUN__Gender=Masc|Number=Sing	54	obj	_	_
+65	spécifiquement	spécifiquement	ADV	_	ADV___	54	amod	_	_
+66	lié	lier	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	54	acl	_	_
+67	au	au	PRON	_	PRON__PronType=Rel	68	det	_	_
+68	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	54	nmod	_	_
+69	de	de	ADP	_	ADP___	68	case	_	_
+70	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	71	det	_	_
+71	urbanisme	urbanisme	NOUN	_	NOUN__Gender=Masc|Number=Sing	68	nmod	_	_
+
+
+#Que oui:Votre avocat a fait une erreur manifeste: ne pas envoyer de recommandé au maire dans le délais imparti pour l'informer du contentieux comme l'exige la procédure.
+1	Que	Que	PRON	_	PRON__PronType=Int	2	mark	_	_
+2	oui	oui	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nsubj	_	_
+3	:	:	PUNCT	_	PUNCT___	7	punct	_	_
+4	Votre	Votre	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+5	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nsubj	_	_
+6	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+8	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	erreur	erreur	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+10	manifeste	manifester	ADJ	_	ADJ__Number=Sing	9	amod	_	_
+11	:	:	PUNCT	_	PUNCT___	9	punct	_	_
+12	ne	ne	ADV	_	ADV___	14	advmod	_	_
+13	pas	pas	ADV	_	ADV___	12	fixed	_	_
+14	envoyer	envoyer	VERB	_	VERB__VerbForm=Inf	9	acl	_	_
+15	de	de	ADP	_	ADP___	16	mark	_	_
+16	recommandé	recommander	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	xcomp	_	_
+17	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	18	case	_	_
+18	maire	maire	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	nmod	_	_
+19	dans	dan	ADP	_	ADP___	21	case	_	_
+20	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	délais	délai	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	nmod	_	_
+22	imparti	impartir	ADJ	_	ADJ__Gender=Masc|Number=Sing	21	amod	_	_
+23	pour	pour	ADP	_	ADP___	25	mark	_	_
+24	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	25	obj	_	_
+25	informer	informer	VERB	_	VERB__VerbForm=Inf	14	advcl	_	_
+26	du	du	DET	_	DET__Gender=Masc|Number=Sing	27	det	_	_
+27	contentieux	contentieux	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	25	obj	_	_
+28	comme	comme	ADP	_	ADP___	30	mark	_	_
+29	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	30	obj	_	_
+30	exige	exiger	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	advcl	_	_
+31	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	procédure	procédure	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	nsubj	_	_
+33	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#D'où recours irrecevable.
+1	D'	D'	ADP	_	ADP___	2	case	_	_
+2	où	où	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	7	fixed	_	_
+3	recours	recourir	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	irrecevable	irrecevable	ADJ	_	ADJ__Number=Sing	5	amod	_	_
+5	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#avant de trancher ça, le CR de l'entretien à venir est indispensable.mais bon, c'est juste une question de posture.il a donc bien fait de se déporterben oui : il a justement fait ce qu'il fallait???il faut donc vérifier, lors de votre entretien, s'il y a eu ou pas notification du recours contentieuxpour un rejet par ordonnance, c'est assez rare : les parties adverses avaient eu le temps de produire des écritures en défense ?
+1	avant	avant	ADP	_	ADP___	4	case	_	_
+2	de	de	ADP	_	ADP___	4	det	_	_
+3	trancher	trancher	VERB	_	VERB__VerbForm=Inf	4	amod	_	_
+4	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	obl	_	_
+5	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	CR	CR	PROPN	_	PROPN__Gender=Masc|Number=Sing	15	nsubj	_	_
+8	de	de	ADP	_	ADP___	10	case	_	_
+9	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	entretien	entretien	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+11	à	à	ADP	_	ADP___	12	mark	_	_
+12	venir	venir	VERB	_	VERB__VerbForm=Inf	10	acl	_	_
+13	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	indispensable.mais	indispensable.mais	ADP	_	ADP___	15	advmod	_	_
+15	bon	bon	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+16	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+17	c'	ce	PRON	_	PRON__Number=Sing|Person=3	21	nsubj	_	_
+18	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+19	juste	juste	ADV	_	ADV___	20	advmod	_	_
+20	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	27	nsubj	_	_
+22	de	de	ADP	_	ADP___	23	case	_	_
+23	posture.il	posture.il	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	nmod	_	_
+24	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+25	donc	donc	ADV	_	ADV___	27	advmod	_	_
+26	bien	bien	ADV	_	ADV___	27	advmod	_	_
+27	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	parataxis	_	_
+28	de	de	ADP	_	ADP___	30	mark	_	_
+29	se	se	PRON	_	PRON__Person=3|Reflex=Yes	30	expl	_	_
+30	déporterben	déporterben	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	xcomp	_	_
+31	oui	oui	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	obj	_	_
+32	:	:	PUNCT	_	PUNCT___	36	punct	_	_
+33	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	36	nsubj	_	_
+34	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
+35	justement	justement	ADV	_	ADV___	36	advmod	_	_
+36	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	parataxis	_	_
+37	ce	ce	PRON	_	PRON__PronType=Rel	36	obj	_	_
+38	qu'	que	SCONJ	_	SCONJ___	40	mark	_	_
+39	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	40	nsubj	_	_
+40	fallait???il	fallait???il	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	acl:relcl	_	_
+41	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	xcomp	_	_
+42	donc	donc	ADV	_	ADV___	41	advmod	_	_
+43	vérifier	vérifier	ADJ	_	ADJ__Gender=Masc|Number=Sing	40	acl	_	_
+44	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+45	lors	lors	ADV	_	ADV___	48	case	_	_
+46	de	de	ADP	_	ADP___	45	fixed	_	_
+47	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	48	nmod:poss	_	_
+48	entretien	entretien	NOUN	_	NOUN__Gender=Masc|Number=Sing	54	obl	_	_
+49	,	,	PUNCT	_	PUNCT___	54	punct	_	_
+50	s'	si	SCONJ	_	SCONJ___	54	mark	_	_
+51	il	il	PRON	_	PRON__Number=Sing|Person=3	54	nsubj	_	_
+52	y	yu	PRON	_	PRON__Person=3	54	obj	_	_
+53	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	54	aux	_	_
+54	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	parataxis	_	_
+55	ou	ou	CCONJ	_	CCONJ___	57	cc	_	_
+56	pas	pas	ADV	_	ADV__Polarity=Neg	57	advmod	_	_
+57	notification	notification	NOUN	_	NOUN__Gender=Fem|Number=Sing	54	conj	_	_
+58	du	du	DET	_	DET__Gender=Masc|Number=Sing	59	det	_	_
+59	recours	recourir	NOUN	_	NOUN__Gender=Masc|Number=Sing	57	obj	_	_
+60	contentieuxpour	contentieuxpour	ADP	_	ADP___	62	case	_	_
+61	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	62	det	_	_
+62	rejet	rejet	NOUN	_	NOUN__Gender=Masc|Number=Sing	54	obl	_	_
+63	par	par	ADP	_	ADP___	64	case	_	_
+64	ordonnance	ordonnancer	NOUN	_	NOUN__Number=Sing	62	nmod	_	_
+65	,	,	PUNCT	_	PUNCT___	69	punct	_	_
+66	c'	ce	PRON	_	PRON__Number=Sing|Person=3	69	nsubj	_	_
+67	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	69	cop	_	_
+68	assez	assez	ADV	_	ADV___	69	advmod	_	_
+69	rare	rare	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	15	conj	_	_
+70	:	:	PUNCT	_	PUNCT___	15	punct	_	_
+71	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	72	det	_	_
+72	parties	partir	NOUN	_	NOUN__Gender=Fem|Number=Plur	75	nsubj	_	_
+73	adverses	adverse	ADJ	_	ADJ__Gender=Fem|Number=Plur	72	amod	_	_
+74	avaient	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	75	aux	_	_
+75	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	parataxis	_	_
+76	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	77	det	_	_
+77	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	75	obj	_	_
+78	de	de	ADP	_	ADP___	79	mark	_	_
+79	produire	produire	VERB	_	VERB__VerbForm=Inf	75	xcomp	_	_
+80	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	81	det	_	_
+81	écritures	écriture	NOUN	_	NOUN__Gender=Fem|Number=Plur	79	obj	_	_
+82	en	en	ADP	_	ADP___	83	case	_	_
+83	défense	défense	NOUN	_	NOUN__Gender=Fem|Number=Sing	81	nmod	_	_
+84	?	?	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#c'est à lui qu'il faut le demander : il y avait un délai de 15 jours pour notifier à compter du dépot du recours contentieux puis un délai de 15 jours à compter du 23/11/17 pour en apporter la preuve.sauf annulation en appelle fait de ne pas vous notifier directement le PCM a pour seul effet de ne pas déclencher, pour vous, le délai de recours contentieux à l'égard du PCM : ça ne le rend pas illégal
+1	c'	ce	PRON	_	PRON__Number=Sing|Person=3	4	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	à	à	ADP	_	ADP___	4	case	_	_
+4	lui	luire	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	ROOT	_	_
+5	qu'	que	SCONJ	_	SCONJ___	15	mark	_	_
+6	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+7	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	ccomp	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	demander	demander	VERB	_	VERB__VerbForm=Inf	10	xcomp	_	_
+10	:	:	PUNCT	_	PUNCT___	7	punct	_	_
+11	il	il	PRON	_	PRON__Number=Sing|Person=3	12	ccomp	_	_
+12	y	yu	PRON	_	PRON__Person=3	10	fixed	_	_
+13	avait	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	fixed	_	_
+14	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	délai	délai	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obj	_	_
+16	de	de	ADP	_	ADP___	15	case	_	_
+17	15	15	NUM	_	NUM__NumType=Card	21	nummod	_	_
+18	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	21	nmod	_	_
+19	pour	pour	ADP	_	ADP___	20	case	_	_
+20	notifier	notifier	VERB	_	VERB__VerbForm=Inf	21	nmod	_	_
+21	à	à	ADP	_	ADP___	27	mark	_	_
+22	compter	compter	VERB	_	VERB__VerbForm=Inf	23	xcomp	_	_
+23	du	du	DET	_	DET__Gender=Masc|Number=Sing	21	det	_	_
+24	dépot	dépot	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	obj	_	_
+25	du	du	DET	_	DET__Gender=Masc|Number=Sing	27	det	_	_
+26	recours	recourir	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	obj	_	_
+27	contentieux	contentieux	ADJ	_	ADJ__Gender=Masc	15	amod	_	_
+28	puis	pouvoir	CCONJ	_	CCONJ___	30	cc	_	_
+29	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	délai	délai	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	conj	_	_
+31	de	de	ADP	_	ADP___	30	case	_	_
+32	15	15	NUM	_	NUM__NumType=Card	36	nummod	_	_
+33	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	36	nmod	_	_
+34	à	à	ADP	_	ADP___	36	mark	_	_
+35	compter	compter	VERB	_	VERB__VerbForm=Inf	36	acl	_	_
+36	du	du	DET	_	DET__Gender=Masc|Number=Sing	15	det	_	_
+37	23/11/17	23/11/17	PRON	_	PRON__NumType=Card|PronType=Rel	36	obj	_	_
+38	pour	pour	ADP	_	ADP___	40	mark	_	_
+39	en	en	ADP	_	ADP___	40	iobj	_	_
+40	apporter	apporter	VERB	_	VERB__VerbForm=Inf	37	advcl	_	_
+41	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+42	preuve.sauf	preuve.sauf	NOUN	_	NOUN__Gender=Fem|Number=Sing	41	amod	_	_
+43	annulation	annulation	NOUN	_	NOUN__Gender=Fem|Number=Sing	40	obj	_	_
+44	en	en	ADP	_	ADP___	15	case	_	_
+45	appelle	appeler	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	48	nmod	_	_
+46	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	45	amod	_	_
+47	de	de	ADP	_	ADP___	48	mark	_	_
+48	ne	ne	ADV	_	ADV___	54	advmod	_	_
+49	pas	pas	ADV	_	ADV___	54	fixed	_	_
+50	vous	se	PRON	_	PRON__Number=Plur|Person=2	54	fixed	_	_
+51	notifier	notifier	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	54	xcomp	_	_
+52	directement	directement	ADV	_	ADV___	54	advmod	_	_
+53	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
+54	PCM	PCM	PROPN	_	PROPN__Gender=Masc|Number=Sing	15	obj	_	_
+55	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	57	advmod	_	_
+56	pour	pour	ADP	_	ADP___	57	case	_	_
+57	seul	seul	ADJ	_	ADJ__Gender=Masc|Number=Sing	54	amod	_	_
+58	effet	effet	NOUN	_	NOUN__Gender=Masc|Number=Sing	59	obl	_	_
+59	de	de	ADP	_	ADP___	57	mark	_	_
+60	ne	ne	ADV	_	ADV___	62	advmod	_	_
+61	pas	pas	ADV	_	ADV___	62	fixed	_	_
+62	déclencher	déclencher	VERB	_	VERB__VerbForm=Inf	54	nmod	_	_
+63	,	,	PUNCT	_	PUNCT___	64	punct	_	_
+64	pour	pour	ADP	_	ADP___	62	case	_	_
+65	vous	se	PRON	_	PRON__Number=Plur|Person=2|PronType=Prs	69	obl	_	_
+66	,	,	PUNCT	_	PUNCT___	69	punct	_	_
+67	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	69	det	_	_
+68	délai	délai	NOUN	_	NOUN__Gender=Masc|Number=Sing	69	nsubj	_	_
+69	de	de	ADP	_	ADP___	15	case	_	_
+70	recours	recourir	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nmod	_	_
+71	contentieux	contentieux	ADJ	_	ADJ__Gender=Masc	72	amod	_	_
+72	à	à	ADP	_	ADP___	75	case	_	_
+73	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	72	fixed	_	_
+74	égard	égard	NOUN	_	NOUN__Gender=Masc|Number=Sing	75	fixed	_	_
+75	du	du	DET	_	DET__Gender=Masc|Number=Sing	15	det	_	_
+76	PCM	PCM	NOUN	_	NOUN__Gender=Masc|Number=Plur	77	nmod	_	_
+77	:	:	PUNCT	_	PUNCT___	75	punct	_	_
+78	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	79	nsubj	_	_
+79	ne	ne	ADV	_	ADV__Polarity=Neg	75	advmod	_	_
+80	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	81	obj	_	_
+81	rend	rendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	79	acl:relcl	_	_
+82	pas	pas	ADV	_	ADV__Polarity=Neg	83	advmod	_	_
+83	illégal	illégal	ADJ	_	ADJ__Gender=Masc|Number=Sing	81	amod	_	_
+
+
+#BonjourLa mienne;
+1	BonjourLa	BonjourLa	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+2	mienne	mien	ADJ	_	ADJ__Gender=Fem|Number=Sing	1	amod	_	_
+3	;	;	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#vous allez multiplier combien de fois les discussions sur le même sujet?
+1	vous	se	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+2	allez	aller	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	multiplier	multiplier	VERB	_	VERB__VerbForm=Inf	1	xcomp	_	_
+4	combien	combien	ADV	_	ADV__PronType=Int	5	fixed	_	_
+5	de	de	ADP	_	ADP___	5	case	_	_
+6	fois	foi	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	fixed	_	_
+7	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	6	det	_	_
+8	discussions	discussion	NOUN	_	NOUN__Gender=Fem|Number=Plur	11	obl	_	_
+9	sur	sur	ADP	_	ADP___	8	case	_	_
+10	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	même	même	ADJ	_	ADJ__Number=Sing	5	fixed	_	_
+12	sujet	sujet	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nmod	_	_
+13	?	?	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Impossible de vous répondre.
+1	Impossible	Impossible	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+2	de	de	ADP	_	ADP___	4	mark	_	_
+3	vous	se	PRON	_	PRON__Number=Plur|Person=2	4	iobj	_	_
+4	répondre	répondre	VERB	_	VERB__VerbForm=Inf	1	acl	_	_
+5	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#A part quelques maigres éléments que vous avez donnés précédemment sur vos chances d'obtenir gain de cause sur la forme.
+1	A	A	NOUN	_	NOUN___	1	aux	_	_
+2	part	partir	NOUN	_	NOUN__Number=Sing	0	ROOT	_	_
+3	quelques	quelque	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
+4	maigres	maigre	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	amod	_	_
+5	éléments	élément	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	obj	_	_
+6	que	que	PRON	_	PRON__PronType=Rel	7	obj	_	_
+7	vous	se	PRON	_	PRON__Number=Plur|Person=2	7	nsubj	_	_
+8	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	donnés	donner	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	10	acl:relcl	_	_
+10	précédemment	précédemment	ADV	_	ADV___	7	advmod	_	_
+11	sur	sur	ADP	_	ADP___	14	case	_	_
+12	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	14	nmod:poss	_	_
+13	chances	chance	NOUN	_	NOUN__Gender=Fem|Number=Plur	14	obl	_	_
+14	d'	de	ADP	_	ADP___	10	mark	_	_
+15	obtenir	obtenir	VERB	_	VERB__VerbForm=Inf	14	acl	_	_
+16	gain	gain	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	amod	_	_
+17	de	de	ADP	_	ADP___	18	case	_	_
+18	cause	causer	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obl	_	_
+19	sur	sur	ADP	_	ADP___	20	case	_	_
+20	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+21	forme	former	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obl	_	_
+22	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Le premier rejet incombe à votre avocat.
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	premier	premier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	_
+3	rejet	rejet	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+4	incombe	incomber	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	à	à	ADP	_	ADP___	1	case	_	_
+6	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	7	nmod:poss	_	_
+7	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+8	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Le tribunal n'ayant même pas statué.
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	tribunal	tribunal	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+3	n'	ne	ADV	_	ADV___	4	advmod	_	_
+4	ayant	avoir	AUX	_	AUX__Tense=Pres|VerbForm=Part	1	aux	_	_
+5	même	même	ADV	_	ADV___	1	advmod	_	_
+6	pas	pas	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+7	statué	statuer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+8	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Et je maintiens ma réponse antérieure, c'est inadmissible.
+1	Et	Et	CCONJ	_	CCONJ___	1	cc	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+3	maintiens	maintien	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+4	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	1	nmod:poss	_	_
+5	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obj	_	_
+6	antérieure	antérieur	VERB	_	VERB__VerbForm=Inf	7	amod	_	_
+7	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+8	c'	ce	PRON	_	PRON__Number=Sing|Person=3	9	nsubj	_	_
+9	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	inadmissible	inadmissible	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+11	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#C'est du bla-bla-bla.
+1	C'	C'	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	du	du	DET	_	DET__Gender=Masc|Number=Sing	4	det	_	_
+4	bla-bla-bla	bla-bla-bla	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#si défaut de notification de recours, violation du R600
+1	si	si	SCONJ	_	SCONJ___	2	mark	_	_
+2	défaut	défaut	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	de	de	ADP	_	ADP___	4	case	_	_
+4	notification	notification	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	nmod	_	_
+5	de	de	ADP	_	ADP___	6	case	_	_
+6	recours	recourir	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+7	,	,	PUNCT	_	PUNCT___	2	punct	_	_
+8	violation	violation	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	appos	_	_
+9	du	du	DET	_	DET__Gender=Masc|Number=Sing	10	det	_	_
+10	R600	R600	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+
+
+#-1 et c'est irrattrapable en appel.que propose votre avocat ?sur la violation du PLU malgré une autorisation d'urbanisme désormais définitive apparemment, il reste la voie pénale... à condition que le PLU soit clair et précis : le juge pénal exècre les règlements "interprétables"...
+1	-	-	PUNCT	_	PUNCT___	2	punct	_	_
+2	1	1	NUM	_	NUM__NumType=Card	0	ROOT	_	_
+3	et	et	CCONJ	_	CCONJ___	4	cc	_	_
+4	c'	ce	PRON	_	PRON__Number=Sing|Person=3	2	nsubj	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	irrattrapable	irrattrapable	ADJ	_	ADJ__Number=Sing	4	conj	_	_
+7	en	en	ADP	_	ADP___	2	mark	_	_
+8	appel.que	appel.que	ADJ	_	ADJ__Number=Sing	2	fixed	_	_
+9	propose	proposer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+10	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+11	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+12	?	?	PUNCT	_	PUNCT___	12	punct	_	_
+13	sur	sur	ADP	_	ADP___	16	case	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	violation	violation	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nmod	_	_
+16	du	du	DET	_	DET__Gender=Masc|Number=Sing	12	obj	_	_
+17	PLU	PLU	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	nmod	_	_
+18	malgré	malgré	ADP	_	ADP___	17	case	_	_
+19	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+20	autorisation	autorisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	obl	_	_
+21	d'	de	ADP	_	ADP___	19	case	_	_
+22	urbanisme	urbanisme	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nmod	_	_
+23	désormais	désormais	ADV	_	ADV___	25	advmod	_	_
+24	définitive	définitif	ADJ	_	ADJ__Gender=Fem|Number=Sing	25	amod	_	_
+25	apparemment	apparemment	ADV	_	ADV___	12	advmod	_	_
+26	,	,	PUNCT	_	PUNCT___	27	punct	_	_
+27	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	25	nsubj	_	_
+28	reste	rester	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	acl:relcl	_	_
+29	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	voie	voir	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obj	_	_
+31	pénale	pénal	ADJ	_	ADJ__Gender=Fem|Number=Sing	32	amod	_	_
+32	...	...	PUNCT	_	PUNCT___	30	punct	_	_
+33	à	à	ADP	_	ADP___	34	mark	_	_
+34	condition	condition	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	fixed	_	_
+35	que	que	SCONJ	_	SCONJ___	34	fixed	_	_
+36	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+37	PLU	PLU	PROPN	_	PROPN__Gender=Masc|Number=Sing	38	obl	_	_
+38	soit	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux:pass	_	_
+39	clair	clair	ADJ	_	ADJ__Gender=Masc|Number=Sing	40	conj	_	_
+40	et	et	CCONJ	_	CCONJ___	38	cc	_	_
+41	précis	précis	ADJ	_	ADJ__Gender=Masc	40	conj	_	_
+42	:	:	PUNCT	_	PUNCT___	38	punct	_	_
+43	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
+44	juge	juger	NOUN	_	NOUN__Gender=Masc|Number=Sing	43	obl	_	_
+45	pénal	pénal	ADJ	_	ADJ__Gender=Masc|Number=Sing	43	amod	_	_
+46	exècre	exécrer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	acl	_	_
+47	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	38	det	_	_
+48	règlements	règlement	NOUN	_	NOUN__Gender=Masc|Number=Plur	49	obj	_	_
+49	"	"	PUNCT	_	PUNCT___	38	punct	_	_
+50	interprétables	interprétables	ADJ	_	ADJ__Gender=Fem|Number=Plur	51	amod	_	_
+51	"	"	PUNCT	_	PUNCT___	49	punct	_	_
+52	...	...	PUNCT	_	PUNCT___	38	punct	_	_
+
+
+#Désistement, production d'un nouveau mémoire, et cette fois bien respecter le protocole ( la notification).
+1	Désistement	Désistement	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	production	production	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	d'	de	ADP	_	ADP___	7	case	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	nouveau	nouveau	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	amod	_	_
+7	mémoire	mémoire	NOUN	_	NOUN__Number=Sing	3	nmod	_	_
+8	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+9	et	et	CCONJ	_	CCONJ___	13	cc	_	_
+10	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	13	advmod	_	_
+11	fois	foi	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	fixed	_	_
+12	bien	bien	ADV	_	ADV___	13	advmod	_	_
+13	respecter	respecter	VERB	_	VERB__VerbForm=Inf	3	conj	_	_
+14	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	protocole	protocole	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+16	(	(	PUNCT	_	PUNCT___	15	punct	_	_
+17	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	notification	notification	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	appos	_	_
+19	)	)	PUNCT	_	PUNCT___	3	punct	_	_
+20	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#D'après cette décision du conseil d'état, à mon avis c'est rattrapable (en ce qui concerne la possibilité de faire appel).
+1	D'	D'	ADP	_	ADP___	3	case	_	_
+2	après	après	ADP	_	ADP___	3	fixed	_	_
+3	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+4	décision	décision	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obl	_	_
+5	du	du	DET	_	DET__Gender=Masc|Number=Sing	7	det	_	_
+6	conseil	conseil	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+7	d'	de	ADP	_	ADP___	3	case	_	_
+8	état	état	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nmod	_	_
+9	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+10	à	à	ADP	_	ADP___	13	case	_	_
+11	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+12	avis	avis	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+13	c'	ce	PRON	_	PRON__Number=Sing|Person=3	3	nsubj	_	_
+14	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	rattrapable	rattrapable	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+16	(	(	PUNCT	_	PUNCT___	15	punct	_	_
+17	en	en	ADP	_	ADP___	18	case	_	_
+18	ce	ce	PRON	_	PRON__PronType=Rel	15	fixed	_	_
+19	qui	qui	PRON	_	PRON__PronType=Rel	3	fixed	_	_
+20	concerne	concerner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	fixed	_	_
+21	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+22	possibilité	possibilité	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	obl	_	_
+23	de	de	ADP	_	ADP___	24	mark	_	_
+24	faire	faire	VERB	_	VERB__VerbForm=Inf	35	acl	_	_
+25	appel	appel	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	obj	_	_
+26	)	)	PUNCT	_	PUNCT___	24	punct	_	_
+27	.	.	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#lisez jusqu'au bout ce que vous citez July : dans les arrêts mentionnés ou publiés, il y a un fichage...l'arrêt indique que c'est rattrapable sous condition de réintroduire dans le délai de recours contentieux...
+1	lisez	lire	ADJ	_	ADJ__Gender=Fem|Number=Plur	2	advmod	_	_
+2	jusqu'	jusque	ADP	_	ADP___	26	advmod	_	_
+3	au	au	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	2	fixed	_	_
+4	bout	bouillir	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	fixed	_	_
+5	ce	ce	PRON	_	PRON__PronType=Rel	2	obj	_	_
+6	que	que	PRON	_	PRON__PronType=Rel	8	obj	_	_
+7	vous	se	PRON	_	PRON__Number=Plur|Person=2	8	nsubj	_	_
+8	citez	citer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+9	July	July	PROPN	_	PROPN___	8	obj	_	_
+10	:	:	PUNCT	_	PUNCT___	2	punct	_	_
+11	dans	dan	ADP	_	ADP___	13	case	_	_
+12	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	13	det	_	_
+13	arrêts	arrêt	NOUN	_	NOUN__Gender=Masc|Number=Plur	26	obl	_	_
+14	mentionnés	mentionner	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	acl	_	_
+15	ou	ou	CCONJ	_	CCONJ___	16	cc	_	_
+16	publiés	publier	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	14	conj	_	_
+17	,	,	PUNCT	_	PUNCT___	26	punct	_	_
+18	il	il	PRON	_	PRON__Number=Sing|Person=3	26	nsubj	_	_
+19	y	yu	PRON	_	PRON__Person=3	18	fixed	_	_
+20	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	fixed	_	_
+21	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	fichage	fichage	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obj	_	_
+23	...	...	PUNCT	_	PUNCT___	18	punct	_	_
+24	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+25	arrêt	arrêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	nsubj	_	_
+26	indique	indiquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+27	que	que	SCONJ	_	SCONJ___	30	mark	_	_
+28	c'	ce	PRON	_	PRON__Number=Sing|Person=3	30	nsubj	_	_
+29	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+30	rattrapable	rattrapable	ADJ	_	ADJ__Number=Sing	26	ccomp	_	_
+31	sous	sou	ADP	_	ADP___	34	mark	_	_
+32	condition	condition	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	fixed	_	_
+33	de	de	ADP	_	ADP___	31	fixed	_	_
+34	réintroduire	réintroduire	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	obl	_	_
+35	dans	dan	ADP	_	ADP___	37	case	_	_
+36	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	délai	délai	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	obl	_	_
+38	de	de	ADP	_	ADP___	39	case	_	_
+39	recours	recourir	NOUN	_	NOUN__Gender=Masc|Number=Sing	37	nmod	_	_
+40	contentieux	contentieux	ADJ	_	ADJ__Gender=Masc	39	amod	_	_
+41	...	...	PUNCT	_	PUNCT___	26	punct	_	_
+
+
+#Comment voulez vous que ce soit le cas si le TA a tranché en rejetant ?
+1	Comment	Comment	ADV	_	ADV__PronType=Int	2	advmod	_	_
+2	voulez	vouloir	AUX	_	AUX__Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	vous	se	PRON	_	PRON__Number=Plur|Person=2|Reflex=Yes	2	obj	_	_
+4	que	que	SCONJ	_	SCONJ___	2	mark	_	_
+5	ce	ce	PRON	_	PRON__Number=Sing|Person=3	2	nsubj	_	_
+6	soit	être	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cc	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	conj	_	_
+9	si	si	SCONJ	_	SCONJ___	8	mark	_	_
+10	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+11	TA	TA	PROPN	_	PROPN__Gender=Masc|Number=Sing	13	nsubj	_	_
+12	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	tranché	trancher	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	acl:relcl	_	_
+14	en	en	ADP	_	ADP___	13	mark	_	_
+15	rejetant	rejeter	VERB	_	VERB__Tense=Pres|VerbForm=Part	16	xcomp	_	_
+16	?	?	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#allons, allons...
+1	allons	aller	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	26	punct	_	_
+3	allons	aller	NOUN	_	NOUN__Gender=Fem|Number=Plur	2	appos	_	_
+4	...	...	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#Dans ce cas, pourquoi le TA renvoie " L'ordonnance précise que j'ai deux mois pour faire appel par voie d'avocat."Un appel sur un rejet qui qui ne peut être que rejeté à nouveau puisque retour à la case départ ?
+1	Dans	Dans	ADP	_	ADP___	3	case	_	_
+2	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+4	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+5	pourquoi	pourquoi	ADV	_	ADV__PronType=Int	8	advmod	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	TA	TA	PROPN	_	PROPN__Gender=Masc|Number=Sing	8	nsubj	_	_
+8	renvoie	renvoyer	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+9	"	"	PUNCT	_	PUNCT___	8	punct	_	_
+10	L'	L'	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	ordonnance	ordonnancer	NOUN	_	NOUN__Number=Sing	12	nsubj	_	_
+12	précise	préciser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
+13	que	que	SCONJ	_	SCONJ___	15	mark	_	_
+14	j'	il	PRON	_	PRON__Number=Sing|Person=1	15	nsubj	_	_
+15	ai	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
+16	deux	deux	NUM	_	NUM__NumType=Card	17	nummod	_	_
+17	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	obj	_	_
+18	pour	pour	ADP	_	ADP___	19	mark	_	_
+19	faire	faire	VERB	_	VERB__VerbForm=Inf	15	advcl	_	_
+20	appel	appel	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obj	_	_
+21	par	par	ADP	_	ADP___	22	case	_	_
+22	voie	voir	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obl	_	_
+23	d'	de	ADP	_	ADP___	24	case	_	_
+24	avocat."Un	avocat."Un	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	nmod	_	_
+25	appel	appel	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	amod	_	_
+26	sur	sur	ADP	_	ADP___	28	case	_	_
+27	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	rejet	rejet	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	nmod	_	_
+29	qui	qui	PRON	_	PRON__PronType=Rel	19	obj	_	_
+30	qui	qui	PRON	_	PRON__PronType=Rel	32	nsubj	_	_
+31	ne	ne	ADV	_	ADV___	32	advmod	_	_
+32	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	acl:relcl	_	_
+33	être	être	AUX	_	AUX__VerbForm=Inf	35	aux:pass	_	_
+34	que	que	ADV	_	ADV___	35	mark	_	_
+35	rejeté	rejeter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	xcomp	_	_
+36	à	à	ADP	_	ADP___	35	advmod	_	_
+37	nouveau	nouveau	NOUN	_	NOUN__Gender=Masc|Number=Sing	36	fixed	_	_
+38	puisque	puisque	SCONJ	_	SCONJ___	39	case	_	_
+39	retour	retour	NOUN	_	NOUN__Gender=Masc|Number=Sing	35	obl	_	_
+40	à	à	ADP	_	ADP___	42	case	_	_
+41	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	case	caser	NOUN	_	NOUN__Gender=Fem|Number=Sing	39	nmod	_	_
+43	départ	départir	NOUN	_	NOUN__Gender=Masc|Number=Sing	42	amod	_	_
+44	?	?	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Ça ce n'est pas sérieux…
+1	Ça	Ça	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+2	ce	ce	PRON	_	PRON__Number=Sing|Person=3	3	obj	_	_
+3	n'	ne	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+6	sérieux	sérieux	ADJ	_	ADJ__Gender=Masc	0	ROOT	_	_
+7	…	…	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#hum... je crois qu'il serait temps de mettre fin à l'emploi de cette expression ridicule qui s'applique plus à votre réponse qu'aux faits que vous critiquez.le TA n'a pas à prendre parti sur les suites éventuelles en appel mais seulement à informer le requérant de ses droits.il a le droit de faire appel.... et de perdre à nouveau sauf s'il démontre, en appel, que la notification avait bien été faite.... voire produite, le TA n'étant pas à l'abri d'erreurs de jugements !
+1	hum	hum	ADV	_	ADV___	4	nsubj	_	_
+2	...	...	PUNCT	_	PUNCT___	4	punct	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+4	crois	croire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	qu'	que	SCONJ	_	SCONJ___	8	mark	_	_
+6	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+7	serait	être	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	ccomp	_	_
+9	de	de	ADP	_	ADP___	10	mark	_	_
+10	mettre	mettre	VERB	_	VERB__VerbForm=Inf	8	xcomp	_	_
+11	fin	fin	NOUN	_	NOUN__Number=Sing	10	obj	_	_
+12	à	à	ADP	_	ADP___	14	case	_	_
+13	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	emploi	emploi	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obl	_	_
+15	de	de	ADP	_	ADP___	17	case	_	_
+16	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	17	det	_	_
+17	expression	expression	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nmod	_	_
+18	ridicule	ridicule	ADJ	_	ADJ__Number=Sing	17	amod	_	_
+19	qui	qui	PRON	_	PRON__PronType=Rel	21	nsubj	_	_
+20	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	21	expl	_	_
+21	applique	appliquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+22	plus	plaire	ADV	_	ADV___	21	advmod	_	_
+23	à	à	ADP	_	ADP___	25	case	_	_
+24	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	25	nmod:poss	_	_
+25	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	obl	_	_
+26	qu'	que	SCONJ	_	SCONJ___	28	mark	_	_
+27	aux	aux	ADJ	_	ADJ__Gender=Masc|Number=Plur	28	aux	_	_
+28	faits	fait	NOUN	_	NOUN__Gender=Masc|Number=Plur	25	acl:relcl	_	_
+29	que	que	SCONJ	_	SCONJ___	31	mark	_	_
+30	vous	se	PRON	_	PRON__Number=Plur|Person=2	31	nsubj	_	_
+31	critiquez.le	critiquez.le	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	ccomp	_	_
+32	TA	TA	PROPN	_	PROPN__Gender=Masc|Number=Sing	38	advmod	_	_
+33	n'	ne	ADV	_	ADV__Polarity=Neg	34	advmod	_	_
+34	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	aux	_	_
+35	pas	pas	ADV	_	ADV__Polarity=Neg	34	advmod	_	_
+36	à	à	ADP	_	ADP___	37	mark	_	_
+37	prendre	prendre	VERB	_	VERB__VerbForm=Inf	34	xcomp	_	_
+38	parti	partir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	ccomp	_	_
+39	sur	sur	ADP	_	ADP___	41	case	_	_
+40	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	41	det	_	_
+41	suites	suite	NOUN	_	NOUN__Gender=Fem|Number=Plur	38	obl	_	_
+42	éventuelles	éventuel	ADJ	_	ADJ__Gender=Fem|Number=Plur	41	amod	_	_
+43	en	en	ADP	_	ADP___	44	case	_	_
+44	appel	appel	NOUN	_	NOUN__Gender=Masc|Number=Sing	38	obl	_	_
+45	mais	mai	CCONJ	_	CCONJ___	48	cc	_	_
+46	seulement	seulement	ADV	_	ADV___	48	advmod	_	_
+47	à	à	ADP	_	ADP___	48	mark	_	_
+48	informer	informer	VERB	_	VERB__VerbForm=Inf	38	conj	_	_
+49	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+50	requérant	requérir	NOUN	_	NOUN__Gender=Masc|Number=Sing	48	obj	_	_
+51	de	de	ADP	_	ADP___	53	case	_	_
+52	ses	son	DET	_	DET__Number=Plur|Poss=Yes	53	nmod:poss	_	_
+53	droits.il	droits.il	PROPN	_	PROPN__Gender=Fem|Number=Sing	50	nmod	_	_
+54	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	48	advcl	_	_
+55	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
+56	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	54	obj	_	_
+57	de	de	ADP	_	ADP___	58	mark	_	_
+58	faire	faire	VERB	_	VERB__VerbForm=Inf	56	acl	_	_
+59	appel	appel	NOUN	_	NOUN__Gender=Masc|Number=Sing	58	obj	_	_
+60	....	....	PUNCT	_	PUNCT___	48	obj	_	_
+61	et	et	CCONJ	_	CCONJ___	63	cc	_	_
+62	de	de	ADP	_	ADP___	63	mark	_	_
+63	perdre	perdre	VERB	_	VERB__VerbForm=Inf	48	conj	_	_
+64	à	à	ADP	_	ADP___	63	advmod	_	_
+65	nouveau	nouveau	NOUN	_	NOUN__Gender=Masc|Number=Sing	64	fixed	_	_
+66	sauf	sauf	ADP	_	ADP___	69	mark	_	_
+67	s'	si	SCONJ	_	SCONJ___	69	mark	_	_
+68	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	69	nsubj	_	_
+69	démontre	démontrer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	63	advcl	_	_
+70	,	,	PUNCT	_	PUNCT___	63	punct	_	_
+71	en	en	ADP	_	ADP___	72	case	_	_
+72	appel	appel	NOUN	_	NOUN__Gender=Masc|Number=Sing	63	obl	_	_
+73	,	,	PUNCT	_	PUNCT___	63	punct	_	_
+74	que	que	SCONJ	_	SCONJ___	80	mark	_	_
+75	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	76	det	_	_
+76	notification	notification	NOUN	_	NOUN__Gender=Fem|Number=Sing	80	nsubj:pass	_	_
+77	avait	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	80	aux	_	_
+78	bien	bien	ADV	_	ADV___	80	advmod	_	_
+79	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	80	aux:pass	_	_
+80	faite	fait	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	63	ccomp	_	_
+81	....	....	PUNCT	_	PUNCT___	80	punct	_	_
+82	voire	voire	CCONJ	_	CCONJ___	83	cc	_	_
+83	produite	produit	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	80	conj	_	_
+84	,	,	PUNCT	_	PUNCT___	80	punct	_	_
+85	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	86	det	_	_
+86	TA	TA	PROPN	_	PROPN__Gender=Masc|Number=Sing	88	nsubj	_	_
+87	n'	ne	ADV	_	ADV__Polarity=Neg	88	advmod	_	_
+88	étant	être	AUX	_	AUX__Tense=Pres|VerbForm=Part	80	parataxis	_	_
+89	pas	pas	ADV	_	ADV__Polarity=Neg	88	advmod	_	_
+90	à	à	ADP	_	ADP___	92	case	_	_
+91	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	92	det	_	_
+92	abri	abri	NOUN	_	NOUN__Gender=Masc|Number=Sing	88	obl	_	_
+93	d'	de	ADP	_	ADP___	94	case	_	_
+94	erreurs	erreur	NOUN	_	NOUN__Gender=Fem|Number=Plur	92	nmod	_	_
+95	de	de	ADP	_	ADP___	96	case	_	_
+96	jugements	jugement	NOUN	_	NOUN__Gender=Masc|Number=Plur	94	nmod	_	_
+97	!	!	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#là, on est dans le B-A-BA,...
+1	là	là	ADV	_	ADV___	4	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	on	on	PRON	_	PRON__Number=Sing|Person=3	4	nsubj	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	dans	dan	ADP	_	ADP___	8	case	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	B	B	NOUN	_	NOUN___	8	obl	_	_
+8	-	-	PUNCT	_	PUNCT___	4	punct	_	_
+9	A	A	NOUN	_	NOUN___	10	conj	_	_
+10	-	-	PUNCT	_	PUNCT___	8	punct	_	_
+11	BA	BA	NOUN	_	NOUN___	10	flat:name	_	_
+12	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+13	...	...	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#C'est plutôt l'avocat de Gilles7410 qui a loupé le B
+1	C'	C'	PRON	_	PRON__Number=Sing|Person=3	5	nsubj	_	_
+2	est	être	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	plutôt	plutôt	ADV	_	ADV___	5	advmod	_	_
+4	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+6	de	de	ADP	_	ADP___	7	case	_	_
+7	Gilles7410	Gilles7410	PROPN	_	PROPN__Gender=Masc|Number=Sing	5	nmod	_	_
+8	qui	qui	PRON	_	PRON__PronType=Rel	10	nsubj	_	_
+9	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	loupé	louper	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	B	B	NOUN	_	NOUN___	10	obj	_	_
+
+
+#-A
+1	-	-	PUNCT	_	PUNCT___	5	punct	_	_
+2	A	A	NOUN	_	NOUN___	0	ROOT	_	_
+
+
+#-BAComme vous devez le savoir le ridicule ne tue pas.
+1	-	-	PUNCT	_	PUNCT___	5	punct	_	_
+2	BAComme	BAComme	SCONJ	_	SCONJ___	5	mark	_	_
+3	vous	se	PRON	_	PRON__Number=Plur|Person=2	5	nsubj	_	_
+4	devez	devoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	obj	_	_
+6	savoir	savoir	VERB	_	VERB__VerbForm=Inf	7	advcl	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+8	ridicule	ridicule	ADJ	_	ADJ__Number=Sing	10	obj	_	_
+9	ne	ne	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+10	tue	tuer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+11	pas	pas	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+12	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Gilles7410 va être ravi d'apprendre qu'il peut faire appel, mais que les carottes sont cuites.
+1	Gilles7410	Gilles7410	PROPN	_	PROPN__Gender=Masc|Number=Sing	5	nsubj	_	_
+2	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	être	être	AUX	_	AUX__VerbForm=Inf	5	aux:pass	_	_
+4	ravi	ravir	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+5	d'	de	ADP	_	ADP___	5	mark	_	_
+6	apprendre	avoir	VERB	_	VERB__VerbForm=Inf	7	acl	_	_
+7	qu'	que	SCONJ	_	SCONJ___	5	mark	_	_
+8	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
+9	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	faire	faire	VERB	_	VERB__VerbForm=Inf	5	ccomp	_	_
+11	appel	appel	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+12	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+13	mais	mai	CCONJ	_	CCONJ___	14	cc	_	_
+14	que	que	SCONJ	_	SCONJ___	14	mark	_	_
+15	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	20	det	_	_
+16	carottes	carotter	NOUN	_	NOUN__Number=Plur	20	nsubj	_	_
+17	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+18	cuites	cuite	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	20	conj	_	_
+19	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#in-dé-cro-ttable !
+1	in	in	X	_	X___	7	nsubj	_	_
+2	-	-	PUNCT	_	PUNCT___	1	fixed	_	_
+3	dé	dé	PRON	_	PRON__PronType=Rel	1	fixed	_	_
+4	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+5	cro	cro	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	fixed	_	_
+6	-	-	PUNCT	_	PUNCT___	7	punct	_	_
+7	ttable	ttable	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+8	!	!	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#c'est l'annonce du TA que vous jugiez peu sérieuse...
+1	c'	ce	PRON	_	PRON__Number=Sing|Person=3	7	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+4	annonce	annoncer	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+5	du	du	DET	_	DET__Gender=Masc|Number=Sing	1	det	_	_
+6	TA	TA	PROPN	_	PROPN__Gender=Masc|Number=Sing	7	obj	_	_
+7	que	que	SCONJ	_	SCONJ___	7	mark	_	_
+8	vous	se	PRON	_	PRON__Number=Plur|Person=2	7	nsubj	_	_
+9	jugiez	juger	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	12	aux	_	_
+10	peu	peu	ADV	_	ADV___	12	advmod	_	_
+11	sérieuse	sérieux	ADJ	_	ADJ__Gender=Fem|Number=Sing	12	acl:relcl	_	_
+12	...	...	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#vous réorientez maintenant la critique sur l'avocat.certes, le ridicule ne tue pas... mais parfois, le silence est d'or.
+1	vous	se	PRON	_	PRON__Number=Plur|Person=2	7	nsubj	_	_
+2	réorientez	réorienter	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	maintenant	maintenir	ADV	_	ADV___	1	advmod	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+5	critique	critiquer	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obj	_	_
+6	sur	sur	ADP	_	ADP___	7	case	_	_
+7	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+8	avocat.certes	avocat.certes	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+9	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+10	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	ridicule	ridicule	ADJ	_	ADJ__Number=Sing	12	nsubj	_	_
+12	ne	ne	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+13	tue	tuer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+14	pas	pas	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+15	...	...	PUNCT	_	PUNCT___	19	punct	_	_
+16	mais	mai	CCONJ	_	CCONJ___	19	cc	_	_
+17	parfois	parfois	ADV	_	ADV___	19	advmod	_	_
+18	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+19	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+20	silence	silence	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nsubj	_	_
+21	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+22	d'	de	ADP	_	ADP___	22	case	_	_
+23	or	or	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	conj	_	_
+24	.	.	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#BonjourPour info
+1	BonjourPour	BonjourPour	ADP	_	ADP___	2	mark	_	_
+2	info	info	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+
+
+#bonjour modérateur... une petite fusion ?
+1	bonjour	bonjour	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	case	_	_
+2	modérateur	modérateur	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	...	...	PUNCT	_	PUNCT___	2	punct	_	_
+4	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	petite	petit	ADJ	_	ADJ__Gender=Fem|Number=Sing	6	amod	_	_
+6	fusion	fusion	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	obj	_	_
+7	?	?	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#Décidemment, nous ne parlons pas le même langage.
+1	Décidemment	Décidemment	ADV	_	ADV___	5	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+3	nous	se	PRON	_	PRON__Number=Plur|Person=1	5	nsubj	_	_
+4	ne	ne	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+5	parlons	parler	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	pas	pas	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	même	même	ADJ	_	ADJ__Number=Sing	9	amod	_	_
+9	langage	langage	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+10	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#J'ai hésité à le faire, mais puisque vous m'y invitez...
+1	J'	J'	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+2	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	hésité	hésiter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	à	à	ADP	_	ADP___	6	mark	_	_
+5	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	6	obj	_	_
+6	faire	faire	VERB	_	VERB__VerbForm=Inf	3	xcomp	_	_
+7	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+8	mais	mai	CCONJ	_	CCONJ___	13	cc	_	_
+9	puisque	puisque	SCONJ	_	SCONJ___	13	mark	_	_
+10	vous	se	PRON	_	PRON__Number=Plur|Person=2	13	nsubj	_	_
+11	m'	se	PRON	_	PRON__Number=Sing|Person=1	13	expl	_	_
+12	y	yu	PRON	_	PRON__Person=3	13	iobj	_	_
+13	invitez	inviter	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	conj	_	_
+14	...	...	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Le temps de mettre un repère sur les messages concernés.
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	de	de	ADP	_	ADP___	3	mark	_	_
+4	mettre	mettre	VERB	_	VERB__VerbForm=Inf	6	acl	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	repère	repérer	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obj	_	_
+7	sur	sur	ADP	_	ADP___	3	case	_	_
+8	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	13	det	_	_
+9	messages	message	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	nmod	_	_
+10	concernés	concerner	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	acl	_	_
+11	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Les messages fusionnés sont placés à cette suite pour plus de facilité de lecture.
+1	Les	Les	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	3	det	_	_
+2	messages	message	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+3	fusionnés	fusionner	ADJ	_	ADJ__Gender=Masc|Number=Plur	3	acl	_	_
+4	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+5	placés	placer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+6	à	à	ADP	_	ADP___	3	case	_	_
+7	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+8	suite	suite	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obl	_	_
+9	pour	pour	ADP	_	ADP___	13	case	_	_
+10	plus	plaire	ADV	_	ADV___	13	det	_	_
+11	de	de	ADP	_	ADP___	13	fixed	_	_
+12	facilité	faciliter	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nmod	_	_
+13	de	de	ADP	_	ADP___	3	case	_	_
+14	lecture	lecture	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nmod	_	_
+15	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Je ne réponds qu'au message 1 en espérant faire avancer le schmilblick...
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+2	ne	ne	ADV	_	ADV___	3	advmod	_	_
+3	réponds	répondre	ADJ	_	ADJ__Gender=Masc|Number=Plur	0	ROOT	_	_
+4	qu'	que	SCONJ	_	SCONJ___	10	mark	_	_
+5	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	6	case	_	_
+6	message	message	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nsubj	_	_
+7	1	1	NUM	_	NUM__NumType=Card	6	nummod	_	_
+8	en	en	ADP	_	ADP___	10	mark	_	_
+9	espérant	espérer	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	aux	_	_
+10	faire	faire	VERB	_	VERB__VerbForm=Inf	3	ccomp	_	_
+11	avancer	avancer	VERB	_	VERB__VerbForm=Inf	10	xcomp	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	schmilblick	schmilblick	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+14	...	...	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#L'avocat ayant rédigé le mémoire de la partie adverse transmis au TA, a probablement inscrit dans celui-ci que le recours ne pouvait-être recevable du fait de la non notification dans les temps à la partie adverse.
+1	L'	L'	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+2	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+3	ayant	avoir	AUX	_	AUX__Tense=Pres|VerbForm=Part	3	aux	_	_
+4	rédigé	rédiger	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	mémoire	mémoire	NOUN	_	NOUN__Number=Sing	10	obj	_	_
+7	de	de	ADP	_	ADP___	6	case	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	partie	partir	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+10	adverse	adverse	ADP	_	ADP___	3	nmod	_	_
+11	transmis	transmettre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	10	acl	_	_
+12	au	au	PRON	_	PRON__PronType=Rel	13	case	_	_
+13	TA	TA	PROPN	_	PROPN__Gender=Masc|Number=Sing	11	nmod	_	_
+14	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+15	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	probablement	probablement	ADV	_	ADV___	31	advmod	_	_
+17	inscrit	inscrire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+18	dans	dan	ADP	_	ADP___	16	case	_	_
+19	celui-ci	celui-ci	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Dem	20	obl	_	_
+20	que	que	PRON	_	PRON__PronType=Rel	18	mark	_	_
+21	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	recours	recourir	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	nsubj	_	_
+23	ne	ne	ADV	_	ADV___	20	advmod	_	_
+24	pouvait	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	ccomp	_	_
+25	-	-	PUNCT	_	PUNCT___	24	punct	_	_
+26	être	être	AUX	_	AUX__VerbForm=Inf	27	cop	_	_
+27	recevable	recevable	ADJ	_	ADJ__Number=Sing	24	xcomp	_	_
+28	du	du	DET	_	DET__Gender=Masc|Number=Sing	16	det	_	_
+29	fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	obj	_	_
+30	de	de	ADP	_	ADP___	31	case	_	_
+31	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+32	non	non	NOUN	_	NOUN__Gender=Fem|Number=Sing	33	nmod	_	_
+33	notification	notification	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	31	amod	_	_
+34	dans	dan	ADP	_	ADP___	38	case	_	_
+35	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	36	det	_	_
+36	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Plur	38	nmod	_	_
+37	à	à	ADP	_	ADP___	38	case	_	_
+38	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+39	partie	partir	NOUN	_	NOUN__Gender=Fem|Number=Sing	38	obl	_	_
+40	adverse	adverse	ADJ	_	ADJ__Number=Sing	41	amod	_	_
+41	.	.	PUNCT	_	PUNCT___	38	punct	_	_
+
+
+#Vous auriez dû bien évidemment être averti de ses conséquences, bien que votre avocat aurait pu rattraper le coup (voir mon lien conseil d'état précèdent).Votre avocat a fauté par deux fois.
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	3	nsubj	_	_
+2	auriez	avoir	AUX	_	AUX__Mood=Cnd|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	dû	devoir	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advmod	_	_
+4	bien	bien	ADV	_	ADV___	10	advmod	_	_
+5	évidemment	évidemment	ADV	_	ADV___	6	advmod	_	_
+6	être	être	AUX	_	AUX__VerbForm=Inf	10	aux:pass	_	_
+7	averti	avertir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	xcomp	_	_
+8	de	de	ADP	_	ADP___	10	case	_	_
+9	ses	son	DET	_	DET__Number=Plur|Poss=Yes	10	nmod:poss	_	_
+10	conséquences	conséquence	NOUN	_	NOUN__Gender=Fem|Number=Plur	3	obl	_	_
+11	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+12	bien	bien	ADV	_	ADV___	13	mark	_	_
+13	que	que	SCONJ	_	SCONJ___	11	fixed	_	_
+14	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	3	nmod:poss	_	_
+15	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	nsubj	_	_
+16	aurait	avoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
+17	pu	pouvoir	AUX	_	AUX__Tense=Past|VerbForm=Part	18	aux	_	_
+18	rattraper	rattraper	VERB	_	VERB__VerbForm=Part	0	ROOT	_	_
+19	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	coup	coup	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obj	_	_
+21	(	(	PUNCT	_	PUNCT___	23	punct	_	_
+22	voir	voir	VERB	_	VERB__VerbForm=Inf	23	acl	_	_
+23	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	20	nmod:poss	_	_
+24	lien	lien	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	amod	_	_
+25	conseil	conseil	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	obj	_	_
+26	d'	de	ADP	_	ADP___	27	case	_	_
+27	état	état	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	obl	_	_
+28	précèdent).Votre	précèdent).Votre	ADP	_	ADP___	16	case	_	_
+29	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	nmod	_	_
+30	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
+31	fauté	fauter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	31	xcomp	_	_
+32	par	par	ADP	_	ADP___	33	case	_	_
+33	deux	deux	NUM	_	NUM__NumType=Card	31	nummod	_	_
+34	fois	foi	NOUN	_	NOUN__Gender=Fem|Number=Plur	38	obl	_	_
+35	.	.	PUNCT	_	PUNCT___	36	punct	_	_
+
+
+#Une fois pour la non notification, et une deuxième fois pour ne pas vous avoir donné la possibilité d'avoir une seconde chance.
+1	Une	Une	DET	_	DET__Gender=Fem|Number=Sing	3	det	_	_
+2	fois	foi	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	pour	pour	ADP	_	ADP___	3	case	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+5	non	non	ADV	_	ADV___	6	advmod	_	_
+6	notification	notification	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+7	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+8	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+9	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	deuxième	deuxième	ADJ	_	ADJ__Number=Sing|NumType=Ord	3	amod	_	_
+11	fois	foi	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	conj	_	_
+12	pour	pour	ADP	_	ADP___	13	mark	_	_
+13	ne	ne	ADV	_	ADV___	11	advmod	_	_
+14	pas	pas	ADV	_	ADV___	3	fixed	_	_
+15	vous	se	PRON	_	PRON__Number=Plur|Person=2	16	iobj	_	_
+16	avoir	avoir	AUX	_	AUX__VerbForm=Inf	31	aux	_	_
+17	donné	donner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	acl	_	_
+18	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+19	possibilité	possibilité	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obj	_	_
+20	d'	de	ADP	_	ADP___	18	mark	_	_
+21	avoir	avoir	VERB	_	VERB__VerbForm=Inf	23	acl	_	_
+22	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	seconde	seconder	ADJ	_	ADJ__Gender=Fem|Number=Sing|NumType=Ord	20	amod	_	_
+24	chance	chance	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obj	_	_
+25	.	.	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#vous le faites reculer car vous racontez n'importe quoi.le recours a été introduit le 21/11/2016... en admettant, ce qui est pour le moins improbable, qu'il ait été introduit le jour du point de départ du délai de recours, la fin du délai de recours était, au plus tard, le le 21/01/2017... or l'avocat de la partie adverse a produit sa fin de non-recevoir le 1/02/2017...
+1	vous	se	PRON	_	PRON__Number=Plur|Person=2	3	nsubj	_	_
+2	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	3	det	_	_
+3	faites	fait	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	reculer	reculer	VERB	_	VERB__VerbForm=Inf	3	xcomp	_	_
+5	car	car	CCONJ	_	CCONJ___	7	cc	_	_
+6	vous	se	PRON	_	PRON__Number=Plur|Person=2	7	nsubj	_	_
+7	racontez	raconter	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	conj	_	_
+8	n'	ne	ADV	_	ADV___	10	advmod	_	_
+9	importe	importer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	fixed	_	_
+10	quoi.le	quoi.le	DET	_	DET__Number=Plur|Poss=Yes	11	nummod	_	_
+11	recours	recourir	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+12	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+13	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	16	cop	_	_
+14	introduit	introduire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	amod	_	_
+15	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	21/11/2016	21/11/2016	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+17	...	...	PUNCT	_	PUNCT___	7	punct	_	_
+18	en	en	ADP	_	ADP___	19	mark	_	_
+19	admettant	admettre	VERB	_	VERB__Tense=Pres|VerbForm=Part	7	advcl	_	_
+20	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+21	ce	ce	PRON	_	PRON__PronType=Rel	19	iobj	_	_
+22	qui	qui	PRON	_	PRON__PronType=Rel	27	nsubj	_	_
+23	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+24	pour	pour	ADP	_	ADP___	27	case	_	_
+25	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+26	moins	moins	ADV	_	ADV___	27	advmod	_	_
+27	improbable	improbable	ADJ	_	ADJ__Number=Sing	21	acl:relcl	_	_
+28	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+29	qu'	que	SCONJ	_	SCONJ___	33	mark	_	_
+30	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	33	nsubj	_	_
+31	ait	avoir	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	_
+32	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	33	cop	_	_
+33	introduit	introduire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	69	advcl	_	_
+34	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	33	obl	_	_
+36	du	du	DET	_	DET__Gender=Masc|Number=Sing	37	det	_	_
+37	point	poindre	NOUN	_	NOUN__Gender=Masc|Number=Sing	33	obj	_	_
+38	de	de	ADP	_	ADP___	39	case	_	_
+39	départ	départir	NOUN	_	NOUN__Gender=Masc|Number=Sing	37	nmod	_	_
+40	du	du	DET	_	DET__Gender=Masc|Number=Sing	41	det	_	_
+41	délai	délai	NOUN	_	NOUN__Gender=Masc|Number=Sing	33	obj	_	_
+42	de	de	ADP	_	ADP___	43	case	_	_
+43	recours	recourir	NOUN	_	NOUN__Gender=Masc|Number=Sing	41	nmod	_	_
+44	,	,	PUNCT	_	PUNCT___	69	punct	_	_
+45	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+46	fin	fin	NOUN	_	NOUN__Gender=Fem|Number=Sing	69	nsubj	_	_
+47	du	du	DET	_	DET__Gender=Masc|Number=Sing	48	det	_	_
+48	délai	délai	NOUN	_	NOUN__Gender=Masc|Number=Sing	46	nmod	_	_
+49	de	de	ADP	_	ADP___	50	case	_	_
+50	recours	recourir	NOUN	_	NOUN__Gender=Masc|Number=Sing	48	nmod	_	_
+51	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	69	aux	_	_
+52	,	,	PUNCT	_	PUNCT___	69	punct	_	_
+53	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	52	fixed	_	_
+54	plus	plaire	ADV	_	ADV___	53	advmod	_	_
+55	tard	tard	ADV	_	ADV___	54	fixed	_	_
+56	,	,	PUNCT	_	PUNCT___	52	punct	_	_
+57	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	59	det	_	_
+58	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	59	det	_	_
+59	21/01/2017	21/01/2017	NOUN	_	NOUN__Gender=Masc|Number=Sing	52	fixed	_	_
+60	...	...	PUNCT	_	PUNCT___	52	punct	_	_
+61	or	or	CCONJ	_	CCONJ___	69	nsubj	_	_
+62	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	63	det	_	_
+63	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	61	nsubj	_	_
+64	de	de	ADP	_	ADP___	66	case	_	_
+65	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	66	det	_	_
+66	partie	partir	NOUN	_	NOUN__Gender=Fem|Number=Sing	63	nmod	_	_
+67	adverse	adverse	ADJ	_	ADJ__Number=Sing	69	nsubj	_	_
+68	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	69	aux	_	_
+69	produit	produire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	conj	_	_
+70	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	71	nmod:poss	_	_
+71	fin	fin	NOUN	_	NOUN__Gender=Fem|Number=Sing	69	obj	_	_
+72	de	de	ADP	_	ADP___	73	mark	_	_
+73	non-recevoir	non-recevoir	VERB	_	VERB__VerbForm=Inf	71	nmod	_	_
+74	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	75	det	_	_
+75	1/02/2017	1/02/2017	PROPN	_	PROPN___	73	obj	_	_
+76	...	...	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#pas de double erreur, donc. mais une erreur éventuelle : n'avoir pas notifié avant le 5/12/16 à toutes les parties le recours initial.
+1	pas	pas	ADV	_	ADV___	3	advmod	_	_
+2	de	de	DET	_	DET__Definite=Ind|Number=Sing|PronType=Art	3	det	_	_
+3	double	doubler	ADJ	_	ADJ__Number=Sing	3	amod	_	_
+4	erreur	erreur	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+6	donc	donc	ADV	_	ADV___	7	advmod	_	_
+7	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+8	mais	mai	CCONJ	_	CCONJ___	10	cc	_	_
+9	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+10	erreur	erreur	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	conj	_	_
+11	éventuelle	éventuel	ADJ	_	ADJ__Gender=Fem|Number=Sing	7	amod	_	_
+12	:	:	PUNCT	_	PUNCT___	16	punct	_	_
+13	n'	ne	ADV	_	ADV__Polarity=Neg	16	advmod	_	_
+14	avoir	avoir	AUX	_	AUX__VerbForm=Inf	16	aux	_	_
+15	pas	pas	ADV	_	ADV__Polarity=Neg	16	advmod	_	_
+16	notifié	notifier	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
+17	avant	avant	ADP	_	ADP___	7	case	_	_
+18	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	5/12/16	5/12/16	NOUN	_	NOUN__Gender=Masc|Number=Sing|NumType=Card	7	nummod	_	_
+20	à	à	ADP	_	ADP___	19	case	_	_
+21	toutes	toute	ADJ	_	ADJ__Gender=Fem|Number=Plur	19	amod	_	_
+22	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	27	det	_	_
+23	parties	partir	NOUN	_	NOUN__Gender=Fem|Number=Plur	27	obl	_	_
+24	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+25	recours	recourir	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	obj	_	_
+26	initial	initial	ADJ	_	ADJ__Gender=Masc|Number=Sing	27	amod	_	_
+27	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#July, là, il faut sortir.
+1	July	July	PROPN	_	PROPN___	3	obl	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	là	là	ADV	_	ADV___	3	advmod	_	_
+4	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+5	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+6	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	sortir	sortir	VERB	_	VERB__VerbForm=Inf	3	xcomp	_	_
+8	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#si c'est bien comme vous le décrivez...
+1	si	si	SCONJ	_	SCONJ___	8	mark	_	_
+2	c'	ce	PRON	_	PRON__Number=Sing|Person=3	8	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+4	bien	bien	ADV	_	ADV___	8	advmod	_	_
+5	comme	comme	SCONJ	_	SCONJ___	8	mark	_	_
+6	vous	se	PRON	_	PRON__Number=Plur|Person=2	8	nsubj	_	_
+7	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	8	obj	_	_
+8	décrivez	décrire	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+9	...	...	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#oui, il y a nettement un souci... mais mon expérience m'amène à être extrêmement prudentdonc à vous de voir à partir de là.
+1	oui	oui	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+3	il	il	PRON	_	PRON__Number=Sing|Person=3	8	nsubj	_	_
+4	y	yu	PRON	_	PRON__Person=3	8	fixed	_	_
+5	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	fixed	_	_
+6	nettement	nettement	ADV	_	ADV___	8	conj	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	souci	souci	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+9	...	...	PUNCT	_	PUNCT___	8	punct	_	_
+10	mais	mai	CCONJ	_	CCONJ___	10	cc	_	_
+11	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	15	nmod:poss	_	_
+12	expérience	expérience	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	nsubj	_	_
+13	m'	se	PRON	_	PRON__Number=Sing|Person=1	12	expl	_	_
+14	amène	amener	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	conj	_	_
+15	à	à	ADP	_	ADP___	10	mark	_	_
+16	être	être	AUX	_	AUX__VerbForm=Inf	17	cop	_	_
+17	extrêmement	extrêmement	ADV	_	ADV___	15	advmod	_	_
+18	prudentdonc	prudentdonc	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	xcomp	_	_
+19	à	à	ADP	_	ADP___	23	case	_	_
+20	vous	se	PRON	_	PRON__Number=Plur|Person=2|Reflex=Yes	21	obl	_	_
+21	de	de	ADP	_	ADP___	23	mark	_	_
+22	voir	voir	VERB	_	VERB__VerbForm=Inf	23	xcomp	_	_
+23	à	à	ADP	_	ADP___	10	case	_	_
+24	partir	partir	VERB	_	VERB__VerbForm=Inf	27	fixed	_	_
+25	de	de	ADP	_	ADP___	27	fixed	_	_
+26	là	là	ADV	_	ADV___	27	obl	_	_
+27	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Se pose le problème de la déontologie.
+1	Se	Se	PRON	_	PRON__Person=3|Reflex=Yes	2	iobj	_	_
+2	pose	poser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	problème	problème	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	obj	_	_
+5	de	de	ADP	_	ADP___	7	case	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	déontologie	déontologie	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+8	.	.	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#Qui va attaquer un confrère, ou plutôt allez-vous trouver un avocat qui attaquera un autre avocat?Cela mérite d'être approfondie, mais vous le comprendrez, ce sera sans moi.
+1	Qui	Qui	PRON	_	PRON__PronType=Int	2	nsubj	_	_
+2	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	attaquer	attaquer	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+4	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+5	confrère	confrère	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+6	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+7	ou	ou	CCONJ	_	CCONJ___	4	cc	_	_
+8	plutôt	plutôt	ADV	_	ADV___	2	advmod	_	_
+9	allez	aller	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	10	conj	_	_
+10	-	-	PUNCT	_	PUNCT___	10	punct	_	_
+11	vous	se	PRON	_	PRON__Number=Plur|Person=2	10	nsubj	_	_
+12	trouver	trouver	VERB	_	VERB__VerbForm=Inf	13	xcomp	_	_
+13	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+14	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+15	qui	qui	PRON	_	PRON__PronType=Rel	17	nsubj	_	_
+16	attaquera	attaquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	17	acl:relcl	_	_
+17	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+18	autre	autre	ADJ	_	ADJ__Number=Sing	11	amod	_	_
+19	avocat?Cela	avocat?Cela	ADJ	_	ADJ__Number=Sing	20	obj	_	_
+20	mérite	mériter	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	amod	_	_
+21	d'	de	ADP	_	ADP___	22	case	_	_
+22	être	être	AUX	_	AUX__VerbForm=Inf	20	det	_	_
+23	approfondie	approfondir	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	nmod	_	_
+24	,	,	PUNCT	_	PUNCT___	22	punct	_	_
+25	mais	mai	CCONJ	_	CCONJ___	27	cc	_	_
+26	vous	se	PRON	_	PRON__Number=Plur|Person=2	27	nsubj	_	_
+27	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	24	obj	_	_
+28	comprendrez	comprendre	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	conj	_	_
+29	,	,	PUNCT	_	PUNCT___	31	punct	_	_
+30	ce	ce	PRON	_	PRON__Number=Sing|Person=3	31	nsubj	_	_
+31	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	27	cop	_	_
+32	sans	sans	ADP	_	ADP___	11	case	_	_
+33	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	36	obj	_	_
+34	.	.	PUNCT	_	PUNCT___	36	punct	_	_
+
+
+#Le recours << en palliatif>> vous envoie à mon sens une nouvelle fois au casse-pipe.
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	recours	recourir	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	nsubj	_	_
+3	<	<	VERB	_	VERB__Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	4	advmod	_	_
+4	<	<	ADP	_	ADP___	2	acl	_	_
+5	en	en	ADP	_	ADP___	7	case	_	_
+6	palliatif	palliatif	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+7	>	>	PRON	_	PRON__PronType=Rel	4	obj	_	_
+8	>	>	PRON	_	PRON__PronType=Rel	2	obj	_	_
+9	vous	se	PRON	_	PRON__Number=Plur|Person=2	10	nsubj	_	_
+10	envoie	envoyer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+11	à	à	ADP	_	ADP___	10	case	_	_
+12	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	13	nmod:poss	_	_
+13	sens	sentir	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obl	_	_
+14	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+15	nouvelle	nouveau	ADJ	_	ADJ__Gender=Fem|Number=Sing	17	amod	_	_
+16	fois	foi	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	obj	_	_
+17	au	au	PRON	_	PRON__PronType=Rel	11	case	_	_
+18	casse	casser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	amod	_	_
+19	-	-	PUNCT	_	PUNCT___	20	punct	_	_
+20	pipe	piper	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obj	_	_
+21	.	.	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#Vous l'avez compris, au TA si on ne respecte pas le protocole, on se voit une fin de non-recevoir.
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	2	nsubj	_	_
+2	l'	le	PRON	_	PRON__Number=Sing|Person=3	2	obj	_	_
+3	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	compris	comprendre	ADJ	_	ADJ__Gender=Masc	2	advcl	_	_
+5	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+6	au	au	PRON	_	PRON__PronType=Rel	7	nsubj	_	_
+7	TA	TA	PROPN	_	PROPN___	4	advcl	_	_
+8	si	si	SCONJ	_	SCONJ___	2	mark	_	_
+9	on	on	PRON	_	PRON__Number=Sing|Person=3	10	nsubj	_	_
+10	ne	ne	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+11	respecte	respecter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+12	pas	pas	ADV	_	ADV__Polarity=Neg	13	advmod	_	_
+13	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+14	protocole	protocole	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+15	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+16	on	on	PRON	_	PRON__Number=Sing|Person=3	17	nsubj	_	_
+17	se	se	PRON	_	PRON__Person=3|Reflex=Yes	11	iobj	_	_
+18	voit	voir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+19	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	fin	fin	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obj	_	_
+21	de	de	ADP	_	ADP___	22	case	_	_
+22	non-recevoir	non-recevoir	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	nmod	_	_
+23	.	.	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#Ce n'est pas comme au poker, on paye pour voir, mais on ne voit jamais les cartes.
+1	Ce	Ce	PRON	_	PRON__Number=Sing|Person=3	2	nsubj	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	2	advmod	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	2	advmod	_	_
+5	comme	comme	SCONJ	_	SCONJ___	7	mark	_	_
+6	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	7	det	_	_
+7	poker	poker	ADJ	_	ADJ__Gender=Fem|Number=Sing	0	ROOT	_	_
+8	,	,	PUNCT	_	PUNCT___	2	punct	_	_
+9	on	on	PRON	_	PRON__Number=Sing|Person=3	10	nsubj	_	_
+10	paye	payer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+11	pour	pour	ADP	_	ADP___	10	mark	_	_
+12	voir	voir	VERB	_	VERB__VerbForm=Inf	13	advcl	_	_
+13	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+14	mais	mai	CCONJ	_	CCONJ___	11	cc	_	_
+15	on	on	PRON	_	PRON__Number=Sing|Person=3	17	nsubj	_	_
+16	ne	ne	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+17	voit	voir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+18	jamais	jamais	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+19	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	20	det	_	_
+20	cartes	carte	NOUN	_	NOUN__Gender=Fem|Number=Plur	11	obj	_	_
+21	.	.	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#C'est l'adversaire qui gagne.
+1	C'	C'	PRON	_	PRON__Number=Sing|Person=3	2	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+3	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	adversaire	adversaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	qui	qui	PRON	_	PRON__PronType=Rel	7	nsubj	_	_
+6	gagne	gagner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+7	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Il y aurait probablement à faire de la part de nos parlementaires, voir par les fameuses "ordonnances" mais là je m'égare.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	y	yu	PRON	_	PRON__Person=3	2	expl	_	_
+3	aurait	avoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	probablement	probablement	ADV	_	ADV___	2	advmod	_	_
+5	à	à	ADP	_	ADP___	7	mark	_	_
+6	faire	faire	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+7	de	de	ADP	_	ADP___	4	case	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	fixed	_	_
+9	part	partir	NOUN	_	NOUN__Number=Sing	10	fixed	_	_
+10	de	de	ADP	_	ADP___	10	case	_	_
+11	nos	notre	DET	_	DET__Number=Plur|Poss=Yes	10	nmod:poss	_	_
+12	parlementaires	parlementaire	NOUN	_	NOUN__Number=Plur	13	obj	_	_
+13	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+14	voir	voir	VERB	_	VERB__VerbForm=Inf	11	conj	_	_
+15	par	par	ADP	_	ADP___	17	case	_	_
+16	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	17	det	_	_
+17	fameuses	fameux	NOUN	_	NOUN__Gender=Fem|Number=Plur	11	amod	_	_
+18	"	"	PUNCT	_	PUNCT___	11	punct	_	_
+19	ordonnances	ordonnancer	NOUN	_	NOUN__Gender=Fem|Number=Plur	20	obj	_	_
+20	"	"	PUNCT	_	PUNCT___	11	punct	_	_
+21	mais	mai	CCONJ	_	CCONJ___	22	cc	_	_
+22	là	là	ADV	_	ADV___	20	advmod	_	_
+23	je	il	PRON	_	PRON__Number=Sing|Person=1	24	nsubj	_	_
+24	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	22	expl	_	_
+25	égare	égarer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	conj	_	_
+26	.	.	PUNCT	_	PUNCT___	27	punct	_	_
+
+
+#Cette juridiction est très pointilleuse sur le formalisme.
+1	Cette	Cette	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	juridiction	juridiction	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	très	très	ADV	_	ADV___	2	advmod	_	_
+5	pointilleuse	pointilleux	ADJ	_	ADJ__Gender=Fem|Number=Sing	0	ROOT	_	_
+6	sur	sur	ADP	_	ADP___	7	case	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+8	formalisme	formalisme	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	obl	_	_
+9	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Trop à mon goût pour que le commun des mortels puisse se défendre.
+1	Trop	Trop	ADV	_	ADV___	2	advmod	_	_
+2	à	à	ADP	_	ADP___	2	case	_	_
+3	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+4	goût	goût	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	obl	_	_
+5	pour	pour	ADP	_	ADP___	7	mark	_	_
+6	que	que	SCONJ	_	SCONJ___	7	fixed	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+8	commun	commun	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	nsubj	_	_
+9	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
+10	mortels	mortel	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	nmod	_	_
+11	puisse	pouvoir	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+12	se	se	PRON	_	PRON__Person=3|Reflex=Yes	13	expl	_	_
+13	défendre	défendre	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+14	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Là vous avez confié votre dossier à quelqu'un qui aurait dû en connaitre les ficelles, ou ne pas accepter de vous défendre.
+1	Là	Là	ADV	_	ADV___	2	advmod	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	2	nsubj	_	_
+3	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	confié	confier	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	7	nmod:poss	_	_
+6	dossier	dossier	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+7	à	à	ADP	_	ADP___	4	case	_	_
+8	quelqu'un	quelqu'un	PRON	_	PRON__PronType=Rel	2	obl	_	_
+9	qui	qui	PRON	_	PRON__PronType=Rel	10	nsubj	_	_
+10	aurait	avoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+11	dû	devoir	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl:relcl	_	_
+12	en	en	ADP	_	ADP___	13	case	_	_
+13	connaitre	connaitre	VERB	_	VERB__VerbForm=Inf	11	amod	_	_
+14	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	11	det	_	_
+15	ficelles	ficelle	NOUN	_	NOUN__Gender=Masc|Number=Plur	17	obl	_	_
+16	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+17	ou	ou	CCONJ	_	CCONJ___	11	cc	_	_
+18	ne	ne	ADV	_	ADV___	11	advmod	_	_
+19	pas	pas	ADV	_	ADV___	20	fixed	_	_
+20	accepter	accepter	VERB	_	VERB__VerbForm=Inf	11	conj	_	_
+21	de	de	ADP	_	ADP___	22	mark	_	_
+22	vous	se	PRON	_	PRON__Number=Plur|Person=2	20	iobj	_	_
+23	défendre	défendre	VERB	_	VERB__VerbForm=Inf	24	xcomp	_	_
+24	.	.	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#Je ne peux que vous souhaiter bon courage pour la suite.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	2	nsubj	_	_
+2	ne	ne	ADV	_	ADV__Polarity=Neg	2	advmod	_	_
+3	peux	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	que	que	SCONJ	_	SCONJ___	2	mark	_	_
+5	vous	se	PRON	_	PRON__Number=Plur|Person=2	7	nsubj	_	_
+6	souhaiter	souhaiter	VERB	_	VERB__VerbForm=Inf	7	ccomp	_	_
+7	bon	bon	ADJ	_	ADJ__Gender=Masc|Number=Sing	4	det	_	_
+8	courage	courage	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	obj	_	_
+9	pour	pour	ADP	_	ADP___	10	case	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+11	suite	suite	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obl	_	_
+12	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Cordialement.
+1	Cordialement	Cordialement	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	.	.	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#pff
+1	pff	pff	ADJ	_	ADJ__Gender=Masc|Number=Plur	0	ROOT	_	_
+
+
+#....
+1	....	....	PUNCT	_	PUNCT___	0	ROOT	_	_
+
+
+#il y a des règles.si on ne les connait pas, on fait appel à un pro qui engage sa responsabilité, effectivement.quand on a une pathologie tenace, on va voir un médecin spécialiste...
+1	il	il	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+2	y	yu	PRON	_	PRON__Person=3	2	fixed	_	_
+3	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	fixed	_	_
+4	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	3	det	_	_
+5	règles.si	règles.si	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	obj	_	_
+6	on	on	PRON	_	PRON__Number=Sing|Person=3	7	nsubj	_	_
+7	ne	ne	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+8	les	le	PRON	_	PRON__Number=Plur|Person=3	11	obj	_	_
+9	connait	connait	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	obl	_	_
+10	pas	pas	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+11	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+12	on	on	PRON	_	PRON__Number=Sing|Person=3	11	nsubj	_	_
+13	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+14	appel	appel	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obj	_	_
+15	à	à	ADP	_	ADP___	15	case	_	_
+16	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+17	pro	pro	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obl	_	_
+18	qui	qui	PRON	_	PRON__PronType=Rel	19	nsubj	_	_
+19	engage	engager	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+20	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	21	nmod:poss	_	_
+21	responsabilité	responsabilité	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obj	_	_
+22	,	,	PUNCT	_	PUNCT___	23	punct	_	_
+23	effectivement.quand	effectivement.quand	PRON	_	PRON__PronType=Rel	21	conj	_	_
+24	on	on	PRON	_	PRON__Number=Sing|Person=3	15	nsubj	_	_
+25	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	parataxis	_	_
+26	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	pathologie	pathologie	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obj	_	_
+28	tenace	tenace	ADJ	_	ADJ__Number=Sing	29	amod	_	_
+29	,	,	PUNCT	_	PUNCT___	27	punct	_	_
+30	on	on	PRON	_	PRON__Number=Sing|Person=3	29	nsubj	_	_
+31	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
+32	voir	voir	VERB	_	VERB__VerbForm=Inf	34	parataxis	_	_
+33	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	médecin	médecin	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obj	_	_
+35	spécialiste	spécialiste	ADJ	_	ADJ__Number=Sing	36	amod	_	_
+36	...	...	PUNCT	_	PUNCT___	34	punct	_	_
+
+
+#en droit, c'est pareil : en cas de rage de dents, vous soignez tout(e) seul(e) votre abcès ?
+1	en	en	ADP	_	ADP___	1	case	_	_
+2	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	obl	_	_
+3	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+4	c'	ce	PRON	_	PRON__Number=Sing|Person=3	3	nsubj	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+6	pareil	pareil	ADJ	_	ADJ__Gender=Masc|Number=Sing	7	amod	_	_
+7	:	:	PUNCT	_	PUNCT___	3	punct	_	_
+8	en	en	ADP	_	ADP___	11	case	_	_
+9	cas	cas	NOUN	_	NOUN__Gender=Masc	11	fixed	_	_
+10	de	de	ADP	_	ADP___	11	fixed	_	_
+11	rage	rager	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obl	_	_
+12	de	de	ADP	_	ADP___	11	case	_	_
+13	dents	dent	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	nmod	_	_
+14	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+15	vous	se	PRON	_	PRON__Number=Plur|Person=2	15	nsubj	_	_
+16	soignez	soigner	ADJ	_	ADJ__Number=Sing	15	parataxis	_	_
+17	tout(e	tout(e	NOUN	_	NOUN__Gender=Masc|Number=Plur	19	obj	_	_
+18	)	)	PUNCT	_	PUNCT___	19	punct	_	_
+19	seul(e	seul(e	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+20	)	)	PUNCT	_	PUNCT___	21	punct	_	_
+21	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	19	nmod:poss	_	_
+22	abcès	abcès	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	nmod	_	_
+23	?	?	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#pourtant, ça peut toucher le ... commun des mortels.... et les évolutions en cours du coté du parlement ne vont pas du tout dans le sens que vous espérez (renseignez vous sur les PdL ELAN)le recours contre le PCM ou le PD ne peut porter que sur les modifs du  PCI (pour le premier) et la démolition (pour le second).... on ne remet  donc pas les compteurs à zéro.d'ailleurs, votre intérêt à agir sera même apprécié à l'aune de ces modifications et de la démolition...
+1	pourtant	pourtant	ADV	_	ADV___	1	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	2	punct	_	_
+3	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	nsubj	_	_
+4	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+5	toucher	toucher	VERB	_	VERB__VerbForm=Inf	3	advcl	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	...	...	PUNCT	_	PUNCT___	3	obj	_	_
+8	commun	commun	ADJ	_	ADJ__Gender=Masc|Number=Sing	11	amod	_	_
+9	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
+10	mortels	mortel	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	obj	_	_
+11	....	....	PUNCT	_	PUNCT___	15	punct	_	_
+12	et	et	CCONJ	_	CCONJ___	11	cc	_	_
+13	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	15	det	_	_
+14	évolutions	évolution	NOUN	_	NOUN__Gender=Fem|Number=Plur	15	nsubj	_	_
+15	en	en	ADP	_	ADP___	15	case	_	_
+16	cours	courir	NOUN	_	NOUN__Gender=Masc	15	fixed	_	_
+17	du	du	DET	_	DET__Gender=Masc|Number=Sing	19	det	_	_
+18	coté	coter	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	acl	_	_
+19	du	du	DET	_	DET__Gender=Masc|Number=Sing	15	det	_	_
+20	parlement	parlement	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	nmod	_	_
+21	ne	ne	ADV	_	ADV__Polarity=Neg	19	advmod	_	_
+22	vont	aller	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+23	pas	pas	ADV	_	ADV__Polarity=Neg	21	advmod	_	_
+24	du	du	DET	_	DET__Gender=Masc|Number=Sing	15	det	_	_
+25	tout	tout	ADV	_	ADV___	15	obj	_	_
+26	dans	dan	ADP	_	ADP___	27	case	_	_
+27	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+28	sens	sentir	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	obl	_	_
+29	que	que	SCONJ	_	SCONJ___	27	mark	_	_
+30	vous	se	PRON	_	PRON__Number=Plur|Person=2	29	nsubj	_	_
+31	espérez	espérer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	34	acl:relcl	_	_
+32	(	(	PUNCT	_	PUNCT___	34	punct	_	_
+33	renseignez	renseigner	NOUN	_	NOUN__Gender=Fem|Number=Plur	34	obl	_	_
+34	vous	se	PRON	_	PRON__Number=Plur|Person=2	15	obj	_	_
+35	sur	sur	ADP	_	ADP___	36	case	_	_
+36	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	34	det	_	_
+37	PdL	PdL	NOUN	_	NOUN__Gender=Masc|Number=Plur	36	nmod	_	_
+38	ELAN)le	ELAN)le	NOUN	_	NOUN__Gender=Masc|Number=Sing	34	det	_	_
+39	recours	recourir	NOUN	_	NOUN__Gender=Masc|Number=Sing	40	nsubj	_	_
+40	contre	contrer	ADP	_	ADP___	44	case	_	_
+41	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+42	PCM	PCM	NOUN	_	NOUN__Gender=Masc|Number=Sing	44	nmod	_	_
+43	ou	ou	CCONJ	_	CCONJ___	44	cc	_	_
+44	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	57	det	_	_
+45	PD	PD	PROPN	_	PROPN__Gender=Masc|Number=Sing	44	conj	_	_
+46	ne	ne	ADV	_	ADV___	49	advmod	_	_
+47	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	aux	_	_
+48	porter	porter	VERB	_	VERB__VerbForm=Inf	46	xcomp	_	_
+49	que	que	SCONJ	_	SCONJ___	54	obj	_	_
+50	sur	sur	ADP	_	ADP___	51	case	_	_
+51	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	49	det	_	_
+52	modifs	modifs	NOUN	_	NOUN__Gender=Masc|Number=Plur	54	obl	_	_
+53	du	du	DET	_	DET__Gender=Masc|Number=Sing	54	det	_	_
+54	 	 	SPACE	_		44		_	_
+55	PCI	PCI	NOUN	_	NOUN__Gender=Masc|Number=Sing	54	nmod	_	_
+56	(	(	PUNCT	_	PUNCT___	44	punct	_	_
+57	pour	pour	ADP	_	ADP___	57	case	_	_
+58	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	57	det	_	_
+59	premier	premier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	60	nmod	_	_
+60	)	)	PUNCT	_	PUNCT___	57	punct	_	_
+61	et	et	CCONJ	_	CCONJ___	57	cc	_	_
+62	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	66	det	_	_
+63	démolition	démolition	NOUN	_	NOUN__Gender=Fem|Number=Sing	66	conj	_	_
+64	(	(	PUNCT	_	PUNCT___	66	punct	_	_
+65	pour	pour	ADP	_	ADP___	66	case	_	_
+66	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	83	det	_	_
+67	second	second	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	68	obl	_	_
+68	)	)	PUNCT	_	PUNCT___	66	punct	_	_
+69	....	....	PUNCT	_	PUNCT___	68	punct	_	_
+70	on	on	PRON	_	PRON__Number=Sing|Person=3	71	nsubj	_	_
+71	ne	ne	ADV	_	ADV___	69	advmod	_	_
+72	remet	remettre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	66	parataxis	_	_
+73	 	 	SPACE	_		75		_	_
+74	donc	donc	ADV	_	ADV___	75	advmod	_	_
+75	pas	pas	ADV	_	ADV___	83	advmod	_	_
+76	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	79	det	_	_
+77	compteurs	compteur	NOUN	_	NOUN__Gender=Masc|Number=Plur	76	obj	_	_
+78	à	à	ADP	_	ADP___	79	case	_	_
+79	zéro.d'	zéro.d'	NOUN	_	NOUN___	75	nmod	_	_
+80	ailleurs	ailleurs	NOUN	_	NOUN__Gender=Masc	81	fixed	_	_
+81	,	,	PUNCT	_	PUNCT___	75	punct	_	_
+82	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	83	nmod:poss	_	_
+83	intérêt	intérêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	83	conj	_	_
+84	à	à	ADP	_	ADP___	83	mark	_	_
+85	agir	agir	VERB	_	VERB__VerbForm=Inf	86	acl	_	_
+86	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	83	aux:pass	_	_
+87	même	même	ADV	_	ADV___	89	advmod	_	_
+88	apprécié	apprécier	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	89	xcomp	_	_
+89	à	à	ADP	_	ADP___	83	case	_	_
+90	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	92	det	_	_
+91	aune	aune	NOUN	_	NOUN__Gender=Fem|Number=Sing	92	obl	_	_
+92	de	de	ADP	_	ADP___	89	case	_	_
+93	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	83	det	_	_
+94	modifications	modification	NOUN	_	NOUN__Gender=Fem|Number=Plur	83	nmod	_	_
+95	et	et	CCONJ	_	CCONJ___	94	cc	_	_
+96	de	de	ADP	_	ADP___	98	case	_	_
+97	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	98	det	_	_
+98	démolition	démolition	NOUN	_	NOUN__Gender=Fem|Number=Sing	94	conj	_	_
+99	...	...	PUNCT	_	PUNCT___	100	punct	_	_
+
+
+#ces  évolutions du projet initial sont elles de nature, par elles mêmes et  en considérant que le PCinitial n'est pas en cause,  à affecter  directement les conditions d'occupation, d'utilisation ou de jouissance  de votre bien ?
+1	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	1	det	_	_
+2	 	 	SPACE	_		2		_	_
+3	évolutions	évolution	NOUN	_	NOUN__Gender=Fem|Number=Plur	11	nsubj	_	_
+4	du	du	DET	_	DET__Gender=Masc|Number=Sing	3	det	_	_
+5	projet	projet	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obj	_	_
+6	initial	initial	ADJ	_	ADJ__Gender=Masc|Number=Sing	7	amod	_	_
+7	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+8	elles	lui	PRON	_	PRON__Gender=Fem|Number=Plur|Person=3	0	ROOT	_	_
+9	de	de	ADP	_	ADP___	11	case	_	_
+10	nature	nature	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+11	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+12	par	par	ADP	_	ADP___	11	case	_	_
+13	elles	lui	PRON	_	PRON__Gender=Fem|Number=Plur|Person=3	15	obl	_	_
+14	mêmes	même	ADJ	_	ADJ__Number=Plur	15	conj	_	_
+15	et	et	CCONJ	_	CCONJ___	15	cc	_	_
+16	 	 	SPACE	_		15		_	_
+17	en	en	ADP	_	ADP___	19	mark	_	_
+18	considérant	considérer	VERB	_	VERB__Tense=Pres|VerbForm=Part	19	conj	_	_
+19	que	que	SCONJ	_	SCONJ___	15	mark	_	_
+20	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	PCinitial	PCinitial	PROPN	_	PROPN__Gender=Masc|Number=Sing	19	nsubj	_	_
+22	n'	ne	ADV	_	ADV__Polarity=Neg	23	advmod	_	_
+23	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+24	pas	pas	ADV	_	ADV__Polarity=Neg	15	advmod	_	_
+25	en	en	ADP	_	ADP___	15	ccomp	_	_
+26	cause	causer	NOUN	_	NOUN__Gender=Fem|Number=Sing	27	fixed	_	_
+27	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+28	 	 	SPACE	_		29		_	_
+29	à	à	ADP	_	ADP___	27	mark	_	_
+30	affecter	avoir	VERB	_	VERB__VerbForm=Inf	29	xcomp	_	_
+31	 	 	SPACE	_		34		_	_
+32	directement	directement	ADV	_	ADV___	34	advmod	_	_
+33	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	34	det	_	_
+34	conditions	condition	NOUN	_	NOUN__Gender=Fem|Number=Plur	15	obj	_	_
+35	d'	de	ADP	_	ADP___	36	case	_	_
+36	occupation	occupation	NOUN	_	NOUN__Gender=Fem|Number=Sing	34	nmod	_	_
+37	,	,	PUNCT	_	PUNCT___	36	punct	_	_
+38	d'	de	ADP	_	ADP___	34	case	_	_
+39	utilisation	utilisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	40	conj	_	_
+40	ou	ou	CCONJ	_	CCONJ___	44	cc	_	_
+41	de	de	ADP	_	ADP___	44	case	_	_
+42	jouissance	jouissance	NOUN	_	NOUN__Gender=Fem|Number=Sing	44	conj	_	_
+43	 	 	SPACE	_		44		_	_
+44	de	de	ADP	_	ADP___	57	case	_	_
+45	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	44	nmod:poss	_	_
+46	bien	bien	ADV	_	ADV___	49	nmod	_	_
+47	?	?	PUNCT	_	PUNCT___	46	punct	_	_
+
+
+#difficile d'aller plus loin et, cette fois, j'arrête vraiment.
+1	difficile	difficile	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+2	d'	de	ADP	_	ADP___	2	mark	_	_
+3	aller	aller	VERB	_	VERB__VerbForm=Inf	11	xcomp	_	_
+4	plus	plaire	ADV	_	ADV___	3	advmod	_	_
+5	loin	loin	ADV	_	ADV___	3	obj	_	_
+6	et	et	CCONJ	_	CCONJ___	7	cc	_	_
+7	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+8	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
+9	fois	foi	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obl	_	_
+10	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+11	j'	il	PRON	_	PRON__Number=Sing|Person=1	15	nsubj	_	_
+12	arrête	arrêter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	conj	_	_
+13	vraiment	vraiment	ADV	_	ADV___	15	advmod	_	_
+14	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#non... ce sera qualifié d'erreur de plume.
+1	non	non	ADV	_	ADV___	5	advmod	_	_
+2	...	...	PUNCT	_	PUNCT___	5	punct	_	_
+3	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	5	nsubj	_	_
+4	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	aux:pass	_	_
+5	qualifié	qualifier	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+6	d'	de	ADP	_	ADP___	7	case	_	_
+7	erreur	erreur	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+8	de	de	ADP	_	ADP___	9	case	_	_
+9	plume	plumer	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+10	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Mon avis est que si votre avocat a bel et bien fauté, (ce qui semble le cas ) alors vous pouvez engager sa RC Pro ( Responsabilité Civile Professionnelle) et vous en plaindre au Bâtonnier, poue sanctions éventuelles à donner.
+1	Mon	Mon	DET	_	DET__Number=Sing|Poss=Yes	2	nmod:poss	_	_
+2	avis	avis	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux:pass	_	_
+4	que	que	SCONJ	_	SCONJ___	24	mark	_	_
+5	si	si	SCONJ	_	SCONJ___	9	mark	_	_
+6	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	7	nmod:poss	_	_
+7	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nsubj	_	_
+8	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	bel	beau	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	advcl	_	_
+10	et	et	CCONJ	_	CCONJ___	12	cc	_	_
+11	bien	bien	ADV	_	ADV___	12	advmod	_	_
+12	fauté	fauter	ADJ	_	ADJ__Gender=Masc|Number=Sing	9	conj	_	_
+13	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+14	(	(	PUNCT	_	PUNCT___	9	punct	_	_
+15	ce	ce	PRON	_	PRON__PronType=Rel	9	iobj	_	_
+16	qui	qui	PRON	_	PRON__PronType=Rel	19	nsubj	_	_
+17	semble	sembler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+18	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	acl:relcl	_	_
+20	)	)	PUNCT	_	PUNCT___	9	punct	_	_
+21	alors	alors	ADV	_	ADV___	24	advmod	_	_
+22	vous	se	PRON	_	PRON__Number=Plur|Person=2	24	nsubj	_	_
+23	pouvez	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	engager	engager	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+25	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	26	nmod:poss	_	_
+26	RC	RC	PROPN	_	PROPN__Gender=Fem|Number=Sing	24	obj	_	_
+27	Pro	Pro	PROPN	_	PROPN___	26	nmod	_	_
+28	(	(	PUNCT	_	PUNCT___	24	punct	_	_
+29	Responsabilité	Responsabilité	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	obl	_	_
+30	Civile	Civile	PROPN	_	PROPN___	29	nmod	_	_
+31	Professionnelle	Professionnelle	PROPN	_	PROPN___	29	nmod	_	_
+32	)	)	PUNCT	_	PUNCT___	29	punct	_	_
+33	et	et	CCONJ	_	CCONJ___	36	cc	_	_
+34	vous	se	PRON	_	PRON__Number=Plur|Person=2	36	iobj	_	_
+35	en	en	PRON	_	PRON__Person=3	36	expl	_	_
+36	plaindre	plaindre	VERB	_	VERB__VerbForm=Inf	29	conj	_	_
+37	au	au	PROPN	_	PROPN__Gender=Masc|Number=Sing	38	case	_	_
+38	Bâtonnier	Bâtonnier	PROPN	_	PROPN___	36	obl	_	_
+39	,	,	PUNCT	_	PUNCT___	40	punct	_	_
+40	poue	poue	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	conj	_	_
+41	sanctions	sanction	NOUN	_	NOUN__Gender=Fem|Number=Plur	40	obj	_	_
+42	éventuelles	éventuel	ADJ	_	ADJ__Gender=Fem|Number=Plur	41	amod	_	_
+43	à	à	ADP	_	ADP___	44	mark	_	_
+44	donner	donner	VERB	_	VERB__VerbForm=Inf	40	xcomp	_	_
+45	.	.	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#Le Code de Déontologie des Avocats est rempli d'exemples de fautes d'avocats et des sanctions qui leur ont été appliquées.
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Code	Code	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	nsubj:pass	_	_
+3	de	de	ADP	_	ADP___	24	case	_	_
+4	Déontologie	Déontologie	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	nmod	_	_
+5	des	un	ADP	_	ADP___	9	det	_	_
+6	Avocats	Avocats	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	nmod	_	_
+7	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+8	rempli	remplir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+9	d'	de	ADP	_	ADP___	24	case	_	_
+10	exemples	exemple	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	obl	_	_
+11	de	de	ADP	_	ADP___	12	case	_	_
+12	fautes	fauter	NOUN	_	NOUN__Gender=Fem|Number=Plur	9	nmod	_	_
+13	d'	de	ADP	_	ADP___	9	case	_	_
+14	avocats	avocat	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	nmod	_	_
+15	et	et	CCONJ	_	CCONJ___	9	cc	_	_
+16	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	19	det	_	_
+17	sanctions	sanction	NOUN	_	NOUN__Gender=Fem|Number=Plur	19	conj	_	_
+18	qui	qui	PRON	_	PRON__PronType=Rel	19	nsubj:pass	_	_
+19	leur	lui	PRON	_	PRON__Number=Plur|Person=3	15	iobj	_	_
+20	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+21	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	24	aux:pass	_	_
+22	appliquées	appliquer	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	24	acl:relcl	_	_
+23	.	.	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#Il me semble que désormais vous devez justifier au TI d'une tentative de conciliation amiable, et l'évoquer dans l'assignation, avant de le saisir.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+2	me	se	PRON	_	PRON__Number=Sing|Person=1	3	iobj	_	_
+3	semble	sembler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	que	que	ADV	_	ADV___	8	mark	_	_
+5	désormais	désormais	ADV	_	ADV___	8	advmod	_	_
+6	vous	se	PRON	_	PRON__Number=Plur|Person=2	8	nsubj	_	_
+7	devez	devoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	justifier	justifier	VERB	_	VERB__VerbForm=Inf	3	ccomp	_	_
+9	au	au	ADV	_	ADV__PronType=Int	10	det	_	_
+10	TI	TI	PROPN	_	PROPN___	8	obj	_	_
+11	d'	de	ADP	_	ADP___	13	case	_	_
+12	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	tentative	tentative	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+14	de	de	ADP	_	ADP___	15	case	_	_
+15	conciliation	conciliation	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nmod	_	_
+16	amiable	amiable	ADJ	_	ADJ__Number=Sing	15	amod	_	_
+17	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+18	et	et	CCONJ	_	CCONJ___	20	cc	_	_
+19	l'	le	PRON	_	PRON__Number=Sing|Person=3	20	obj	_	_
+20	évoquer	évoquer	VERB	_	VERB__VerbForm=Inf	8	conj	_	_
+21	dans	dan	ADP	_	ADP___	23	case	_	_
+22	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+23	assignation	assignation	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obl	_	_
+24	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+25	avant	avant	ADP	_	ADP___	28	mark	_	_
+26	de	de	ADP	_	ADP___	25	fixed	_	_
+27	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	obj	_	_
+28	saisir	saisir	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+29	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Envoyez un courrier en RAR à votre avocat.
+1	Envoyez	Envoyez	PROPN	_	PROPN___	0	ROOT	_	_
+2	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	courrier	courrier	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+4	en	en	ADP	_	ADP___	5	case	_	_
+5	RAR	RAR	PROPN	_	PROPN___	3	nmod	_	_
+6	à	à	ADP	_	ADP___	8	case	_	_
+7	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+8	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+9	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Vous détaillez l'ensemble de vos doléances, ainsi que qu'une estimation de votre préjudice.
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+2	détaillez	détailler	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+4	ensemble	ensemble	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+5	de	de	ADP	_	ADP___	3	case	_	_
+6	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	8	nmod:poss	_	_
+7	doléances	doléance	NOUN	_	NOUN__Gender=Fem|Number=Plur	8	nmod	_	_
+8	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+9	ainsi	ainsi	ADV	_	ADV___	1	cc	_	_
+10	que	que	SCONJ	_	SCONJ___	11	fixed	_	_
+11	qu'	que	SCONJ	_	SCONJ___	11	fixed	_	_
+12	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	estimation	estimation	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	conj	_	_
+14	de	de	ADP	_	ADP___	16	case	_	_
+15	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	16	nmod:poss	_	_
+16	préjudice	préjudice	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nmod	_	_
+17	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#N'oubliez pas de lui signaler qu'il a un mois pour déclarer à son assurance professionnelle.
+1	N'	N'	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+2	oubliez	oublier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	pas	pas	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+4	de	de	ADP	_	ADP___	5	mark	_	_
+5	lui	luire	PRON	_	PRON__Number=Sing|Person=3	3	iobj	_	_
+6	signaler	signaler	VERB	_	VERB__VerbForm=Inf	8	xcomp	_	_
+7	qu'	que	SCONJ	_	SCONJ___	8	mark	_	_
+8	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+9	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+10	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+12	pour	pour	ADP	_	ADP___	13	mark	_	_
+13	déclarer	déclarer	VERB	_	VERB__VerbForm=Inf	11	advcl	_	_
+14	à	à	ADP	_	ADP___	16	case	_	_
+15	son	son	DET	_	DET__Number=Sing|Poss=Yes	16	nmod:poss	_	_
+16	assurance	assurance	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obl	_	_
+17	professionnelle	professionnel	ADJ	_	ADJ__Gender=Fem|Number=Sing	11	amod	_	_
+18	.	.	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#Vu les antécédents, il est encore capable de se voir notifier une déchéance de garantie.
+1	Vu	Vu	ADP	_	ADP___	1	acl	_	_
+2	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	3	det	_	_
+3	antécédents	antécédent	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	obj	_	_
+4	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+5	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+6	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	encore	encore	ADV	_	ADV___	8	advmod	_	_
+8	capable	capable	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+9	de	de	ADP	_	ADP___	1	mark	_	_
+10	se	se	PRON	_	PRON__Person=3|Reflex=Yes	11	obj	_	_
+11	voir	voir	VERB	_	VERB__VerbForm=Inf	11	xcomp	_	_
+12	notifier	notifier	VERB	_	VERB__VerbForm=Inf	13	xcomp	_	_
+13	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+14	déchéance	déchéance	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obj	_	_
+15	de	de	ADP	_	ADP___	16	case	_	_
+16	garantie	garantir	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nmod	_	_
+17	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Bonjour,Je vous déconseille de faire part de quoi que ce soit au bâtonnier.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Je	Je	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+4	vous	se	PRON	_	PRON__Number=Plur|Person=2	5	iobj	_	_
+5	déconseille	déconseiller	VERB	_	VERB__Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+6	de	de	ADP	_	ADP___	7	mark	_	_
+7	faire	faire	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+8	part	partir	NOUN	_	NOUN__Number=Sing	7	obj	_	_
+9	de	de	ADP	_	ADP___	10	case	_	_
+10	quoi	quoi	PRON	_	PRON__PronType=Rel	7	obl	_	_
+11	que	que	SCONJ	_	SCONJ___	15	mark	_	_
+12	ce	ce	PRON	_	PRON__Number=Sing|Person=3	15	nsubj	_	_
+13	soit	être	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	15	case	_	_
+15	bâtonnier	bâtonnier	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	ccomp	_	_
+16	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Oui pour tout dans le même paquet, en vous appuyant sur la jurisprudence (la demande de remboursement ne peut s'analyser en une contestation d'honoraires relevant de la compétence du bâtonnier dés lors qu’elle a pour objet la réparation d'un préjudice constitué par le versement inutile d'honoraires en raison de la faute de l’avocat et non la vérification des honoraires de celui-ci).Voir en ce sens Cass.
+1	Oui	Oui	PROPN	_	PROPN__Gender=Masc|Number=Sing	1	mark	_	_
+2	pour	pour	ADP	_	ADP___	1	mark	_	_
+3	tout	tout	ADV	_	ADV___	5	fixed	_	_
+4	dans	dan	ADP	_	ADP___	5	fixed	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
+6	même	même	ADJ	_	ADJ__Number=Sing	7	fixed	_	_
+7	paquet	paquet	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	fixed	_	_
+8	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+9	en	en	ADP	_	ADP___	10	mark	_	_
+10	vous	se	PRON	_	PRON__Number=Plur|Person=2	7	iobj	_	_
+11	appuyant	appuyer	ADV	_	ADV___	15	acl	_	_
+12	sur	sur	ADP	_	ADP___	15	case	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	jurisprudence	jurisprudence	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obl	_	_
+15	(	(	PUNCT	_	PUNCT___	7	punct	_	_
+16	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+17	demande	demander	NOUN	_	NOUN__Gender=Fem|Number=Sing	39	nsubj	_	_
+18	de	de	ADP	_	ADP___	27	case	_	_
+19	remboursement	remboursement	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nmod	_	_
+20	ne	ne	ADV	_	ADV__Polarity=Neg	18	advmod	_	_
+21	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+22	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	20	expl	_	_
+23	analyser	analyser	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+24	en	en	ADP	_	ADP___	18	case	_	_
+25	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+26	contestation	contestation	NOUN	_	NOUN__Gender=Fem|Number=Sing	27	obl	_	_
+27	d'	de	ADP	_	ADP___	17	case	_	_
+28	honoraires	honoraire	NOUN	_	NOUN__Gender=Fem|Number=Plur	30	nmod	_	_
+29	relevant	relever	VERB	_	VERB__Tense=Pres|VerbForm=Part	30	acl	_	_
+30	de	de	ADP	_	ADP___	27	case	_	_
+31	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+32	compétence	compétence	NOUN	_	NOUN__Gender=Fem|Number=Sing	33	obl	_	_
+33	du	du	DET	_	DET__Gender=Masc|Number=Sing	39	det	_	_
+34	bâtonnier	bâtonnier	NOUN	_	NOUN__Gender=Masc|Number=Sing	35	nmod	_	_
+35	dés	dé	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	amod	_	_
+36	lors	lors	ADV	_	ADV___	39	mark	_	_
+37	qu’	qu’	SCONJ	_	SCONJ___	39	fixed	_	_
+38	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	39	nsubj	_	_
+39	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	advcl	_	_
+40	pour	pour	ADP	_	ADP___	42	mark	_	_
+41	objet	objet	NOUN	_	NOUN__Gender=Masc|Number=Sing	42	advcl	_	_
+42	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+43	réparation	réparation	NOUN	_	NOUN__Gender=Fem|Number=Sing	44	obj	_	_
+44	d'	de	ADP	_	ADP___	42	case	_	_
+45	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+46	préjudice	préjudice	NOUN	_	NOUN__Gender=Masc|Number=Sing	48	nmod	_	_
+47	constitué	constituer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	48	acl	_	_
+48	par	par	ADP	_	ADP___	45	case	_	_
+49	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+50	versement	versement	NOUN	_	NOUN__Gender=Masc|Number=Sing	48	obl	_	_
+51	inutile	inutile	ADJ	_	ADJ__Number=Sing	48	amod	_	_
+52	d'	de	ADP	_	ADP___	55	case	_	_
+53	honoraires	honoraire	NOUN	_	NOUN__Gender=Fem|Number=Plur	52	nmod	_	_
+54	en	en	ADP	_	ADP___	55	case	_	_
+55	raison	raison	NOUN	_	NOUN__Gender=Fem|Number=Sing	39	fixed	_	_
+56	de	de	ADP	_	ADP___	57	fixed	_	_
+57	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	55	det	_	_
+58	faute	fauter	NOUN	_	NOUN__Gender=Fem|Number=Sing	59	nmod	_	_
+59	de	de	ADP	_	ADP___	55	case	_	_
+60	l’	l’	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	62	det	_	_
+61	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	62	nmod	_	_
+62	et	et	CCONJ	_	CCONJ___	59	cc	_	_
+63	non	non	ADV	_	ADV___	62	conj	_	_
+64	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	66	det	_	_
+65	vérification	vérification	NOUN	_	NOUN__Gender=Fem|Number=Sing	66	appos	_	_
+66	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	63	det	_	_
+67	honoraires	honoraire	NOUN	_	NOUN__Gender=Fem|Number=Plur	66	nmod	_	_
+68	de	de	ADP	_	ADP___	69	case	_	_
+69	celui	celui	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Dem	66	nmod	_	_
+70	-	-	PUNCT	_	PUNCT___	74	punct	_	_
+71	ci).Voir	ci).Voir	VERB	_	VERB__VerbForm=Inf	70	conj	_	_
+72	en	en	ADP	_	ADP___	70	case	_	_
+73	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	74	fixed	_	_
+74	sens	sentir	NOUN	_	NOUN__Gender=Masc|Number=Sing	66	fixed	_	_
+75	Cass	Cass	PROPN	_	PROPN__Gender=Masc|Number=Sing	77	obl	_	_
+76	.	.	PUNCT	_	PUNCT___	77	punct	_	_
+
+
+#Civ.
+1	Civ	Civ	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#2ème, 30 juin 2016
+1	2ème	2ème	ADJ	_	ADJ__NumType=Card	1	nummod	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	30	30	NUM	_	NUM__NumType=Card	5	nummod	_	_
+4	juin	juin	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	2016	2016	NUM	_	NUM__NumType=Card	1	nummod	_	_
+
+
+#pourvoi
+1	pourvoi	pourvoi	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+
+
+#n°15
+1	n	ne	NOUN	_	NOUN___	1	nsubj	_	_
+2	°	°	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	15	15	NUM	_	NUM__NumType=Card	5	nummod	_	_
+
+
+#-22152.Non pour le TI, mais le TGI.Pourquoi?Parce que si vous tombez sur un juge mal réveillé vous perdez tout sans passer par la case appel... alors qu'au TGI vous avez un recours.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	22152.Non	22152.Non	ADV	_	ADV___	1	nummod	_	_
+3	pour	pour	ADP	_	ADP___	5	case	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	TI	TI	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+6	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+7	mais	mai	CCONJ	_	CCONJ___	5	cc	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+9	TGI.Pourquoi?Parce	TGI.Pourquoi?Parce	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nsubj	_	_
+10	que	que	SCONJ	_	SCONJ___	7	obj	_	_
+11	si	si	SCONJ	_	SCONJ___	15	mark	_	_
+12	vous	se	PRON	_	PRON__Number=Plur|Person=2	15	nsubj	_	_
+13	tombez	tomber	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	15	conj	_	_
+14	sur	sur	ADP	_	ADP___	15	case	_	_
+15	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+16	juge	juger	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+17	mal	mal	ADV	_	ADV___	39	amod	_	_
+18	réveillé	réveiller	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	acl	_	_
+19	vous	se	PRON	_	PRON__Number=Plur|Person=2	18	obj	_	_
+20	perdez	perdre	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	18	advmod	_	_
+21	tout	tout	ADV	_	ADV___	20	advmod	_	_
+22	sans	sans	ADP	_	ADP___	20	mark	_	_
+23	passer	prendre	VERB	_	VERB__VerbForm=Inf	20	xcomp	_	_
+24	par	par	ADP	_	ADP___	18	case	_	_
+25	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+26	case	caser	NOUN	_	NOUN__Gender=Fem|Number=Sing	27	obl	_	_
+27	appel	appel	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	amod	_	_
+28	...	...	PUNCT	_	PUNCT___	30	punct	_	_
+29	alors	alors	ADV	_	ADV___	30	mark	_	_
+30	qu'	que	SCONJ	_	SCONJ___	27	fixed	_	_
+31	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	17	det	_	_
+32	TGI	TGI	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	nsubj	_	_
+33	vous	se	PRON	_	PRON__Number=Plur|Person=2	39	iobj	_	_
+34	avez	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+35	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+36	recours	recourir	NOUN	_	NOUN__Gender=Masc|Number=Sing	39	obj	_	_
+37	.	.	PUNCT	_	PUNCT___	39	punct	_	_
+
+
+#Il faut donc demander plus de 10.000, assigner dans un TGI limitrophe, et vous trouver d'abord un avocat car il faut nécessairement maîtriser la jurisprudence en matière de RCP d'avocat.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	donc	donc	ADV	_	ADV___	5	advmod	_	_
+4	demander	demander	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+5	plus	plaire	ADV	_	ADV___	1	advmod	_	_
+6	de	de	ADP	_	ADP___	7	case	_	_
+7	10.000	10.000	PRON	_	PRON__NumType=Card|PronType=Rel	5	obj	_	_
+8	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+9	assigner	assigner	VERB	_	VERB__VerbForm=Inf	10	acl	_	_
+10	dans	dan	ADP	_	ADP___	7	case	_	_
+11	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+12	TGI	TGI	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obl	_	_
+13	limitrophe	limitrophe	ADJ	_	ADJ__Gender=Masc|Number=Sing	15	amod	_	_
+14	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+15	et	et	CCONJ	_	CCONJ___	7	cc	_	_
+16	vous	se	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+17	trouver	trouver	VERB	_	VERB__VerbForm=Inf	39	conj	_	_
+18	d'	de	ADP	_	ADP___	27	advmod	_	_
+19	abord	abord	ADV	_	ADV___	18	fixed	_	_
+20	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+21	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obj	_	_
+22	car	car	CCONJ	_	CCONJ___	20	cc	_	_
+23	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	20	nsubj	_	_
+24	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	_
+25	nécessairement	nécessairement	ADV	_	ADV___	27	advmod	_	_
+26	maîtriser	maîtriser	VERB	_	VERB__VerbForm=Inf	27	xcomp	_	_
+27	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+28	jurisprudence	jurisprudence	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	obj	_	_
+29	en	en	ADP	_	ADP___	30	case	_	_
+30	matière	matière	NOUN	_	NOUN__Gender=Fem|Number=Sing	27	fixed	_	_
+31	de	de	ADP	_	ADP___	17	fixed	_	_
+32	RCP	RCP	PROPN	_	PROPN___	33	obl	_	_
+33	d'	de	ADP	_	ADP___	39	case	_	_
+34	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	35	nmod	_	_
+35	.	.	PUNCT	_	PUNCT___	33	punct	_	_
+
+
+#L'avocat est obligatoire.. car en face c'est l'assureur et croyez
+1	L'	L'	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+2	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	obligatoire	obligatoire	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+5	..	..	PUNCT	_	PUNCT___	1	punct	_	_
+6	car	car	CCONJ	_	CCONJ___	7	cc	_	_
+7	en	en	ADP	_	ADP___	5	case	_	_
+8	face	face	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obl	_	_
+9	c'	ce	PRON	_	PRON__Number=Sing|Person=3	10	nsubj	_	_
+10	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+11	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+12	assureur	assureur	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	conj	_	_
+13	et	et	CCONJ	_	CCONJ___	15	cc	_	_
+14	croyez	croire	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	conj	_	_
+
+
+#-moi il ne rémunère pas des débutants pour le défendre.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	0	ROOT	_	_
+3	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+4	ne	ne	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+5	rémunère	rémunérer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl	_	_
+6	pas	pas	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+7	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
+8	débutants	débutant	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	obj	_	_
+9	pour	pour	ADP	_	ADP___	10	case	_	_
+10	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+11	défendre	défendre	VERB	_	VERB__VerbForm=Inf	15	obl	_	_
+12	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Mon conseil : vous ne vous désistez pas, obtenez un arrêt négatif démontrant une fois de plus votre préjudice consécutif à la faute de l'avocat, vous êtespour rechercher sa responsabilité.
+1	Mon	Mon	DET	_	DET__Number=Sing|Poss=Yes	2	nmod:poss	_	_
+2	conseil	conseil	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+3	:	:	PUNCT	_	PUNCT___	7	punct	_	_
+4	vous	se	PRON	_	PRON__Number=Plur|Person=2	7	nsubj	_	_
+5	ne	ne	ADV	_	ADV___	7	advmod	_	_
+6	vous	se	PRON	_	PRON__Number=Plur|Person=2	7	expl	_	_
+7	désistez	désister	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	pas	pas	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+9	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+10	obtenez	obtenir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
+11	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	arrêt	arrêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+13	négatif	négatif	ADJ	_	ADJ__Gender=Masc|Number=Sing	12	amod	_	_
+14	démontrant	démontrer	VERB	_	VERB__Tense=Pres|VerbForm=Part	12	acl	_	_
+15	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	fois	foi	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obj	_	_
+17	de	de	ADP	_	ADP___	20	case	_	_
+18	plus	plaire	ADV	_	ADV___	20	advmod	_	_
+19	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	20	nmod:poss	_	_
+20	préjudice	préjudice	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nmod	_	_
+21	consécutif	consécutif	ADJ	_	ADJ__Gender=Masc|Number=Sing	20	amod	_	_
+22	à	à	ADP	_	ADP___	24	case	_	_
+23	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	faute	fauter	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obl	_	_
+25	de	de	ADP	_	ADP___	27	case	_	_
+26	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	27	det	_	_
+27	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	nmod	_	_
+28	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+29	vous	se	PRON	_	PRON__Number=Plur|Person=2	31	nsubj	_	_
+30	êtespour	êtespour	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	31	aux	_	_
+31	rechercher	rechercher	VERB	_	VERB__VerbForm=Inf	7	conj	_	_
+32	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	33	nmod:poss	_	_
+33	responsabilité	responsabilité	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	obj	_	_
+34	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Vous l'aurez compris : il faut épuiser les voies de recours tant que vous avez une possibilité de rectifier la faute en amont... mais dans votre cas, il apparaît inutile d'aller en cassation, l'appel suffit.
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	2	nsubj	_	_
+2	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	obj	_	_
+3	aurez	avoir	PROPN	_	PROPN__Number=Sing	7	acl	_	_
+4	compris	comprendre	ADJ	_	ADJ__Gender=Masc	7	obj	_	_
+5	:	:	PUNCT	_	PUNCT___	7	punct	_	_
+6	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+7	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	épuiser	épuiser	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+9	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	10	det	_	_
+10	voies	voir	NOUN	_	NOUN__Gender=Fem|Number=Plur	7	obj	_	_
+11	de	de	ADP	_	ADP___	12	case	_	_
+12	recours	recourir	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+13	tant	tant	ADV	_	ADV___	12	mark	_	_
+14	que	que	SCONJ	_	SCONJ___	12	fixed	_	_
+15	vous	se	PRON	_	PRON__Number=Plur|Person=2	16	nsubj	_	_
+16	avez	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+17	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+18	possibilité	possibilité	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obj	_	_
+19	de	de	ADP	_	ADP___	20	mark	_	_
+20	rectifier	rectifier	VERB	_	VERB__VerbForm=Inf	16	acl	_	_
+21	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+22	faute	fauter	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	obj	_	_
+23	en	en	PRON	_	PRON__Person=3	24	mark	_	_
+24	amont	amont	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	acl	_	_
+25	...	...	PUNCT	_	PUNCT___	27	punct	_	_
+26	mais	mai	CCONJ	_	CCONJ___	27	cc	_	_
+27	dans	dan	ADP	_	ADP___	24	case	_	_
+28	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+29	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	obl	_	_
+30	,	,	PUNCT	_	PUNCT___	31	punct	_	_
+31	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+32	apparaît	apparaître	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	parataxis	_	_
+33	inutile	inutile	ADJ	_	ADJ__Number=Sing	31	obj	_	_
+34	d'	de	ADP	_	ADP___	7	mark	_	_
+35	aller	aller	VERB	_	VERB__VerbForm=Inf	37	xcomp	_	_
+36	en	en	ADP	_	ADP___	37	case	_	_
+37	cassation	cassation	NOUN	_	NOUN__Gender=Fem|Number=Sing	41	obl	_	_
+38	,	,	PUNCT	_	PUNCT___	37	punct	_	_
+39	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	41	det	_	_
+40	appel	appel	NOUN	_	NOUN__Gender=Masc|Number=Sing	41	conj	_	_
+41	suffit	suffire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	41	amod	_	_
+42	.	.	PUNCT	_	PUNCT___	41	punct	_	_
+
+
+#Ainsi, vous demanderez également les frais d'appel et le temps perdu (capitalisation des intérêts en sus).Pour aller jusqu'à 10.100 : une fois vos comptes faits, vous complétez le reste par le préjudice moral, peu importe de savoir si vous obtiendrez ce préjudice, l'essentiel est de le présenter.
+1	Ainsi	Ainsi	ADV	_	ADV___	2	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+3	vous	se	PRON	_	PRON__Number=Plur|Person=2	7	nsubj	_	_
+4	demanderez	demander	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	également	également	ADV	_	ADV___	7	advmod	_	_
+6	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+7	frais	frai	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	obj	_	_
+8	d'	de	ADP	_	ADP___	7	case	_	_
+9	appel	appel	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+10	et	et	CCONJ	_	CCONJ___	7	cc	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	conj	_	_
+13	perdu	perdre	ADJ	_	ADJ__Gender=Masc|Number=Plur	12	amod	_	_
+14	(	(	PUNCT	_	PUNCT___	12	punct	_	_
+15	capitalisation	capitalisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obl	_	_
+16	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
+17	intérêts	intérêt	NOUN	_	NOUN__Gender=Masc|Number=Plur	20	nmod	_	_
+18	en	en	ADP	_	ADP___	20	mark	_	_
+19	sus).Pour	sus).Pour	ADP	_	ADP___	20	iobj	_	_
+20	aller	aller	VERB	_	VERB__VerbForm=Inf	16	advcl	_	_
+21	jusqu'	jusque	ADP	_	ADP___	20	case	_	_
+22	à	à	ADP	_	ADP___	24	fixed	_	_
+23	10.100	10.100	PRON	_	PRON__NumType=Card|PronType=Rel	24	obl	_	_
+24	:	:	PUNCT	_	PUNCT___	14	punct	_	_
+25	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+26	fois	foi	NOUN	_	NOUN__Gender=Fem	27	nsubj	_	_
+27	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	24	nmod:poss	_	_
+28	comptes	compter	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	nmod	_	_
+29	faits	fait	ADJ	_	ADJ__Gender=Masc|Number=Plur	31	amod	_	_
+30	,	,	PUNCT	_	PUNCT___	31	punct	_	_
+31	vous	se	PRON	_	PRON__Number=Plur|Person=2	7	nsubj	_	_
+32	complétez	compléter	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	33	parataxis	_	_
+33	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+34	reste	rester	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+35	par	par	ADP	_	ADP___	37	case	_	_
+36	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	préjudice	préjudice	NOUN	_	NOUN__Gender=Masc|Number=Sing	41	nmod	_	_
+38	moral	moral	ADJ	_	ADJ__Gender=Masc|Number=Sing	37	amod	_	_
+39	,	,	PUNCT	_	PUNCT___	41	punct	_	_
+40	peu	peu	ADV	_	ADV___	41	advmod	_	_
+41	importe	importer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	fixed	_	_
+42	de	de	ADP	_	ADP___	41	fixed	_	_
+43	savoir	savoir	VERB	_	VERB__VerbForm=Inf	44	acl	_	_
+44	si	si	SCONJ	_	SCONJ___	42	mark	_	_
+45	vous	se	PRON	_	PRON__Number=Plur|Person=2	46	nsubj	_	_
+46	obtiendrez	obtenir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	44	ccomp	_	_
+47	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	50	det	_	_
+48	préjudice	préjudice	NOUN	_	NOUN__Gender=Masc|Number=Sing	47	obj	_	_
+49	,	,	PUNCT	_	PUNCT___	50	punct	_	_
+50	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	42	det	_	_
+51	essentiel	essentiel	NOUN	_	NOUN__Gender=Masc|Number=Sing	52	nsubj	_	_
+52	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	50	cop	_	_
+53	de	de	ADP	_	ADP___	54	mark	_	_
+54	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	52	obj	_	_
+55	présenter	poster	VERB	_	VERB__VerbForm=Inf	56	conj	_	_
+56	.	.	PUNCT	_	PUNCT___	54	punct	_	_
+
+
+#Laissez tomber tout courrier avec le bâtonnier.
+1	Laissez	Laissez	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advmod	_	_
+2	tomber	tomber	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+3	tout	tout	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+4	courrier	courrier	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+5	avec	avec	ADP	_	ADP___	7	case	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	bâtonnier	bâtonnier	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+8	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#qu'indique votre convention d'honoraires sur les désaccords et leur résolution ?
+1	qu'	que	PRON	_	PRON__PronType=Rel	2	mark	_	_
+2	indique	indiquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+4	convention	convention	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	obj	_	_
+5	d'	de	ADP	_	ADP___	6	case	_	_
+6	honoraires	honoraire	NOUN	_	NOUN__Gender=Fem|Number=Plur	4	nmod	_	_
+7	sur	sur	ADP	_	ADP___	9	case	_	_
+8	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+9	désaccords	désaccord	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	nmod	_	_
+10	et	et	CCONJ	_	CCONJ___	12	cc	_	_
+11	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	12	nmod:poss	_	_
+12	résolution	résolution	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	conj	_	_
+13	?	?	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#par ailleurs, quel était le sens des conclusions du rapporteur public à l'audience ?
+1	par	par	ADP	_	ADP___	2	advmod	_	_
+2	ailleurs	ailleurs	ADV	_	ADV___	2	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	0	ROOT	_	_
+4	quel	quel	DET	_	DET__Gender=Masc|Number=Sing	2	nsubj	_	_
+5	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+7	sens	sentir	NOUN	_	NOUN__Gender=Masc	9	fixed	_	_
+8	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	9	det	_	_
+9	conclusions	conclusion	NOUN	_	NOUN__Gender=Fem|Number=Plur	4	obj	_	_
+10	du	du	DET	_	DET__Gender=Masc|Number=Sing	12	det	_	_
+11	rapporteur	rapporteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+12	public	public	ADJ	_	ADJ__Gender=Masc|Number=Sing	9	amod	_	_
+13	à	à	ADP	_	ADP___	2	case	_	_
+14	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+15	audience	audience	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nmod	_	_
+16	?	?	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Bonjour,Voir mes réponses n° 41 et 43.Je vous le répète : laissez tomber le bâtonnier, car si sanction il doit y avoir, ce sera après votre action RCP, il le fera d'ailleurs de lui-même si le dossier le nécessite, mais a vue de nez on n'est pas dans un comportement "grave"....... et puis, trouvez un avocat dans un barreau limitrophe pour examiner les fautes et vos préjudices (cherchez sur le Net la carte du ressort de votre Cour d'appel et choisissez un TGI dont la frontière est contiguë avec le TGI où exerce l'avocat mis en cause).
+1	Bonjour	Bonjour	PROPN	_	PROPN___	15	nsubj	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	Voir	Voir	VERB	_	VERB__VerbForm=Inf	1	conj	_	_
+4	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	5	nmod:poss	_	_
+5	réponses	réponse	NOUN	_	NOUN__Gender=Fem|Number=Plur	3	obj	_	_
+6	n°	numéro	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+7	41	41	NUM	_	NUM__NumType=Card	5	nummod	_	_
+8	et	et	CCONJ	_	CCONJ___	9	cc	_	_
+9	43.Je	43.Je	NUM	_	NUM__NumType=Card	7	conj	_	_
+10	vous	se	PRON	_	PRON__Number=Plur|Person=2	12	nsubj	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	répète	répéter	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	acl:relcl	_	_
+13	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+14	laissez	laisser	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	15	aux	_	_
+15	tomber	tomber	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+16	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	bâtonnier	bâtonnier	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obj	_	_
+18	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+19	car	car	CCONJ	_	CCONJ___	25	cc	_	_
+20	si	si	SCONJ	_	SCONJ___	25	mark	_	_
+21	sanction	sanction	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	nsubj	_	_
+22	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	25	nsubj	_	_
+23	doit	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+24	y	yu	PRON	_	PRON__Person=3	25	expl	_	_
+25	avoir	avoir	VERB	_	VERB__VerbForm=Inf	36	acl	_	_
+26	,	,	PUNCT	_	PUNCT___	25	punct	_	_
+27	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	31	nsubj	_	_
+28	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	31	cop	_	_
+29	après	après	ADP	_	ADP___	31	case	_	_
+30	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	31	nmod:poss	_	_
+31	action	action	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	obj	_	_
+32	RCP	RCP	PROPN	_	PROPN___	31	nmod	_	_
+33	,	,	PUNCT	_	PUNCT___	36	punct	_	_
+34	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	36	nsubj	_	_
+35	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	36	obj	_	_
+36	fera	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	15	conj	_	_
+37	d'	de	ADP	_	ADP___	36	advmod	_	_
+38	ailleurs	ailleurs	NOUN	_	NOUN__Gender=Masc	37	fixed	_	_
+39	de	de	ADP	_	ADP___	40	case	_	_
+40	lui-même	lui-même	PRON	_	PRON__PronType=Rel	36	nmod	_	_
+41	si	si	SCONJ	_	SCONJ___	43	mark	_	_
+42	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	dossier	dossier	NOUN	_	NOUN__Gender=Masc|Number=Sing	36	obl	_	_
+44	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	nécessite	nécessiter	NOUN	_	NOUN__Gender=Masc|Number=Sing	43	nmod	_	_
+46	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+47	mais	mai	CCONJ	_	CCONJ___	49	cc	_	_
+48	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	49	aux	_	_
+49	vue	vu	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	conj	_	_
+50	de	de	ADP	_	ADP___	51	case	_	_
+51	nez	nez	NOUN	_	NOUN__Gender=Masc|Number=Sing	49	nmod	_	_
+52	on	on	PRON	_	PRON__Number=Sing|Person=3	49	fixed	_	_
+53	n'	ne	ADV	_	ADV__Polarity=Neg	54	advmod	_	_
+54	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	49	fixed	_	_
+55	pas	pas	ADV	_	ADV__Polarity=Neg	54	advmod	_	_
+56	dans	dan	ADP	_	ADP___	58	case	_	_
+57	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	58	det	_	_
+58	comportement	comportement	NOUN	_	NOUN__Gender=Masc|Number=Sing	49	obl	_	_
+59	"	"	PUNCT	_	PUNCT___	60	punct	_	_
+60	grave	graver	ADJ	_	ADJ__Number=Sing	58	amod	_	_
+61	"	"	PUNCT	_	PUNCT___	15	punct	_	_
+62	.......	.......	NOUN	_	NOUN__Gender=Fem|Number=Plur	15	punct	_	_
+63	et	et	CCONJ	_	CCONJ___	66	cc	_	_
+64	puis	pouvoir	CCONJ	_	CCONJ___	66	aux	_	_
+65	,	,	PUNCT	_	PUNCT___	66	punct	_	_
+66	trouvez	trouver	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	15	conj	_	_
+67	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	68	det	_	_
+68	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	66	obj	_	_
+69	dans	dan	ADP	_	ADP___	71	case	_	_
+70	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	71	det	_	_
+71	barreau	barreau	NOUN	_	NOUN__Gender=Masc|Number=Sing	68	nmod	_	_
+72	limitrophe	limitrophe	ADJ	_	ADJ__Gender=Masc|Number=Sing	71	amod	_	_
+73	pour	pour	ADP	_	ADP___	74	mark	_	_
+74	examiner	examiner	VERB	_	VERB__VerbForm=Inf	66	advcl	_	_
+75	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	76	det	_	_
+76	fautes	fauter	NOUN	_	NOUN__Gender=Fem|Number=Plur	74	obj	_	_
+77	et	et	CCONJ	_	CCONJ___	79	cc	_	_
+78	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	79	nmod:poss	_	_
+79	préjudices	préjudice	NOUN	_	NOUN__Gender=Fem|Number=Plur	76	conj	_	_
+80	(	(	PUNCT	_	PUNCT___	66	punct	_	_
+81	cherchez	chercher	NOUN	_	NOUN__Gender=Masc|Number=Plur	84	case	_	_
+82	sur	sur	ADP	_	ADP___	84	case	_	_
+83	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	84	det	_	_
+84	Net	Net	NOUN	_	NOUN__Gender=Masc|Number=Sing	66	obl	_	_
+85	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	86	det	_	_
+86	carte	carte	NOUN	_	NOUN__Gender=Fem|Number=Sing	66	obl	_	_
+87	du	du	DET	_	DET__Gender=Masc|Number=Sing	88	det	_	_
+88	ressort	ressortir	NOUN	_	NOUN__Gender=Masc|Number=Sing	66	obj	_	_
+89	de	de	ADP	_	ADP___	91	case	_	_
+90	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	91	nmod:poss	_	_
+91	Cour	Cour	NOUN	_	NOUN__Gender=Fem|Number=Sing	88	nmod	_	_
+92	d'	de	ADP	_	ADP___	93	case	_	_
+93	appel	appel	NOUN	_	NOUN__Gender=Masc|Number=Sing	91	nmod	_	_
+94	et	et	CCONJ	_	CCONJ___	95	cc	_	_
+95	choisissez	choisir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	66	conj	_	_
+96	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	97	det	_	_
+97	TGI	TGI	NOUN	_	NOUN__Gender=Masc|Number=Sing	95	obj	_	_
+98	dont	dont	PRON	_	PRON__PronType=Rel	100	dep	_	_
+99	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	100	det	_	_
+100	frontière	frontière	NOUN	_	NOUN__Gender=Fem|Number=Sing	102	nsubj:pass	_	_
+101	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	102	cop	_	_
+102	contiguë	contigu	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	66	advcl	_	_
+103	avec	avec	ADP	_	ADP___	105	case	_	_
+104	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	105	det	_	_
+105	TGI	TGI	NOUN	_	NOUN__Gender=Masc|Number=Sing	102	obl	_	_
+106	où	où	PRON	_	PRON__PronType=Rel	107	iobj	_	_
+107	exerce	exercer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	105	acl:relcl	_	_
+108	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	109	det	_	_
+109	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	107	obj	_	_
+110	mis	mettre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	109	acl	_	_
+111	en	en	ADP	_	ADP___	110	iobj	_	_
+112	cause	causer	NOUN	_	NOUN__Gender=Fem|Number=Sing	111	fixed	_	_
+113	)	)	PUNCT	_	PUNCT___	66	punct	_	_
+114	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Bonsoir,Peu importe, on s'en moque maintenant vu qu'il sait très bien avoir fauté.
+1	Bonsoir	Bonsoir	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	Peu	Peu	ADV	_	ADV___	4	advmod	_	_
+4	importe	importer	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	conj	_	_
+5	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+6	on	on	PRON	_	PRON__Number=Sing|Person=3	9	nsubj	_	_
+7	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	9	expl	_	_
+8	en	en	ADP	_	ADP___	9	advmod	_	_
+9	moque	moquer	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	conj	_	_
+10	maintenant	maintenir	ADV	_	ADV___	9	advmod	_	_
+11	vu	voir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+12	qu'	que	SCONJ	_	SCONJ___	18	obj	_	_
+13	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	18	nsubj	_	_
+14	sait	savoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+15	très	très	ADV	_	ADV___	16	advmod	_	_
+16	bien	bien	ADV	_	ADV___	17	advmod	_	_
+17	avoir	avoir	VERB	_	VERB__VerbForm=Inf	18	aux	_	_
+18	fauté	fauter	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	csubj	_	_
+19	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Maintenant.
+1	Maintenant	Maintenant	ADV	_	ADV___	0	ROOT	_	_
+2	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Non.
+1	Non	Non	ADV	_	ADV___	0	ROOT	_	_
+2	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Devez
+1	Devez	Devez	PROPN	_	PROPN__Gender=Masc|Number=Sing	0	ROOT	_	_
+
+
+#-vous récupérer des documents originaux chez lui ou bien d'autres pièces ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	4	iobj	_	_
+3	récupérer	récupérer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	1	det	_	_
+5	documents	document	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	obj	_	_
+6	originaux	original	ADJ	_	ADJ__Gender=Masc|Number=Plur	9	amod	_	_
+7	chez	chez	ADP	_	ADP___	9	case	_	_
+8	lui	luire	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obl	_	_
+9	ou	ou	CCONJ	_	CCONJ___	1	cc	_	_
+10	bien	bien	ADV	_	ADV___	9	advmod	_	_
+11	d'	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	9	det	_	_
+12	autres	autre	ADJ	_	ADJ__Number=Plur	18	amod	_	_
+13	pièces	pièce	NOUN	_	NOUN__Gender=Fem|Number=Plur	18	conj	_	_
+14	?	?	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Heuu
+1	Heuu	Heuu	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+
+
+#..
+1	..	..	PUNCT	_	PUNCT___	0	ROOT	_	_
+
+
+#quésako?Vous avez les pièces de fond aussi ?
+1	quésako?Vous	quésako?Vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+2	avez	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+4	pièces	pièce	NOUN	_	NOUN__Gender=Fem|Number=Plur	4	obj	_	_
+5	de	de	ADP	_	ADP___	6	case	_	_
+6	fond	fondre	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+7	aussi	aussi	ADV	_	ADV___	8	advmod	_	_
+8	?	?	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Quand à ce mémoire manquant, vous apparaît-il essentiel pour votre action RCP ?
+1	Quand	Quand	SCONJ	_	SCONJ___	1	case	_	_
+2	à	à	ADP	_	ADP___	2	fixed	_	_
+3	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	mémoire	mémoire	NOUN	_	NOUN__Number=Sing	4	obl	_	_
+5	manquant	manquer	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	amod	_	_
+6	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+7	vous	se	PRON	_	PRON__Number=Plur|Person=2	8	nsubj	_	_
+8	apparaît	apparaître	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+9	-	-	PUNCT	_	PUNCT___	6	punct	_	_
+10	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+11	essentiel	essentiel	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	parataxis	_	_
+12	pour	pour	ADP	_	ADP___	11	case	_	_
+13	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	14	nmod:poss	_	_
+14	action	action	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	obl	_	_
+15	RCP	RCP	PROPN	_	PROPN___	14	nmod	_	_
+16	?	?	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Vous n'avez pas l'air d'avoir compris que vous devez vous mettre en ordre de bataille.....
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	2	advmod	_	_
+3	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+5	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	air	air	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obj	_	_
+7	d'	de	ADP	_	ADP___	8	mark	_	_
+8	avoir	avoir	AUX	_	AUX__VerbForm=Inf	6	aux	_	_
+9	compris	comprendre	ADJ	_	ADJ__Gender=Masc	6	xcomp	_	_
+10	que	que	SCONJ	_	SCONJ___	4	mark	_	_
+11	vous	se	PRON	_	PRON__Number=Plur|Person=2	14	nsubj	_	_
+12	devez	devoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	11	aux	_	_
+13	vous	se	PRON	_	PRON__Number=Plur|Person=2|Reflex=Yes	14	expl	_	_
+14	mettre	mettre	VERB	_	VERB__VerbForm=Inf	18	ccomp	_	_
+15	en	en	ADP	_	ADP___	14	case	_	_
+16	ordre	ordre	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obl	_	_
+17	de	de	ADP	_	ADP___	18	case	_	_
+18	bataille	batailler	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	nmod	_	_
+19	.....	.....	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#8 mois se sont écoulés depuis que je vous ai donné la marche à suivre, c'est-à-dire trouver un avocat dans un TGI limitrophe pour assigner en RCP.Qu'avez
+1	8	8	NUM	_	NUM__NumType=Card	1	nummod	_	_
+2	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	2	nsubj	_	_
+3	se	se	PRON	_	PRON__Person=3|Reflex=Yes	4	iobj	_	_
+4	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+5	écoulés	écouler	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+6	depuis	depuis	ADP	_	ADP___	4	mark	_	_
+7	que	que	SCONJ	_	SCONJ___	8	fixed	_	_
+8	je	il	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+9	vous	se	PRON	_	PRON__Number=Plur|Person=2	6	iobj	_	_
+10	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+11	donné	donner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	advcl	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+13	marche	marcher	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obj	_	_
+14	à	à	ADP	_	ADP___	18	mark	_	_
+15	suivre	suivre	VERB	_	VERB__VerbForm=Inf	14	xcomp	_	_
+16	,	,	PUNCT	_	PUNCT___	18	punct	_	_
+17	c'est-à-dire	c'est-à-diree	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	nsubj	_	_
+18	trouver	trouver	VERB	_	VERB__VerbForm=Inf	18	parataxis	_	_
+19	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obj	_	_
+21	dans	dan	ADP	_	ADP___	18	case	_	_
+22	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	TGI	TGI	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	nmod	_	_
+24	limitrophe	limitrophe	ADJ	_	ADJ__Gender=Masc|Number=Sing	21	amod	_	_
+25	pour	pour	ADP	_	ADP___	24	mark	_	_
+26	assigner	assigner	VERB	_	VERB__VerbForm=Inf	18	advcl	_	_
+27	en	en	ADP	_	ADP___	29	case	_	_
+28	RCP.Qu'	RCP.Qu'	AUX	_	AUX__VerbForm=Inf	29	obl	_	_
+29	avez	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	29	advmod	_	_
+
+
+#-vous fait durant tout ce temps?Si vous ne réagissez pas rapidement, vous allez recevoir un commandement de payer (ou bien il va saisir son bâtonnier)
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	2	nsubj	_	_
+3	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
+4	durant	durer	ADP	_	ADP___	4	case	_	_
+5	tout	tout	ADJ	_	ADJ__Gender=Masc|Number=Sing	6	amod	_	_
+6	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+7	temps?Si	temps?Si	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	mark	_	_
+8	vous	se	PRON	_	PRON__Number=Plur|Person=2	6	nsubj	_	_
+9	ne	ne	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+10	réagissez	réagir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+11	pas	pas	ADV	_	ADV__Polarity=Neg	14	advmod	_	_
+12	rapidement	rapidement	ADV	_	ADV___	11	advmod	_	_
+13	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+14	vous	se	PRON	_	PRON__Number=Plur|Person=2	18	nsubj	_	_
+15	allez	aller	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+16	recevoir	recevoir	VERB	_	VERB__VerbForm=Inf	18	xcomp	_	_
+17	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	commandement	commandement	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obj	_	_
+19	de	de	ADP	_	ADP___	21	mark	_	_
+20	payer	payer	VERB	_	VERB__VerbForm=Inf	21	xcomp	_	_
+21	(	(	PUNCT	_	PUNCT___	18	punct	_	_
+22	ou	ou	CCONJ	_	CCONJ___	24	cc	_	_
+23	bien	bien	ADV	_	ADV___	24	advmod	_	_
+24	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	21	nsubj	_	_
+25	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	conj	_	_
+26	saisir	saisir	VERB	_	VERB__VerbForm=Inf	18	xcomp	_	_
+27	son	son	DET	_	DET__Number=Sing|Poss=Yes	29	nmod:poss	_	_
+28	bâtonnier	bâtonnier	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	obj	_	_
+29	)	)	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#....
+1	....	....	PUNCT	_	PUNCT___	0	ROOT	_	_
+2	 	 	SPACE	_		2		_	_
+
+
+#il vous aura coiffé au poteau.
+1	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	2	iobj	_	_
+3	aura	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	aux	_	_
+4	coiffé	coiffer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	au	au	PRON	_	PRON__PronType=Rel	6	case	_	_
+6	poteau	poteau	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	nmod	_	_
+7	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Une déclaration de sinistre devrait stopper ses élans, mais cette déclaration doit être faite par un avocat.
+1	Une	Une	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	déclaration	déclaration	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	nsubj	_	_
+3	de	de	ADP	_	ADP___	4	case	_	_
+4	sinistre	sinistre	VERB	_	VERB__VerbForm=Inf	4	nmod	_	_
+5	devrait	devoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	stopper	stopper	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+7	ses	son	DET	_	DET__Number=Plur|Poss=Yes	8	nmod:poss	_	_
+8	élans	élan	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	obj	_	_
+9	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+10	mais	mai	CCONJ	_	CCONJ___	4	cc	_	_
+11	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	14	det	_	_
+12	déclaration	déclaration	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nsubj	_	_
+13	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+14	être	être	AUX	_	AUX__VerbForm=Inf	18	aux:pass	_	_
+15	faite	fait	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	14	xcomp	_	_
+16	par	par	ADP	_	ADP___	18	case	_	_
+17	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obl	_	_
+19	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Les pièces de fond : les preuves
+1	Les	Les	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	2	det	_	_
+2	pièces	pièce	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+3	de	de	ADP	_	ADP___	4	case	_	_
+4	fond	fondre	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	nmod	_	_
+5	:	:	PUNCT	_	PUNCT___	2	punct	_	_
+6	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+7	preuves	preuve	NOUN	_	NOUN__Gender=Fem|Number=Plur	2	appos	_	_
+
+
+#n°1 n°
+1	n	ne	NOUN	_	NOUN___	2	nsubj	_	_
+2	°	°	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	1	1	NUM	_	NUM__NumType=Card	4	nummod	_	_
+4	n	ne	NOUN	_	NOUN___	2	nsubj	_	_
+5	°	°	X	_	X___	2	ccomp	_	_
+
+
+#2 n°3 etc.. versées aux débats à l'appui des mémoires.
+1	2	2	NUM	_	NUM__NumType=Card	2	nummod	_	_
+2	n	ne	NOUN	_	NOUN___	2	nsubj	_	_
+3	°	°	X	_	X___	0	ROOT	_	_
+4	3	3	NUM	_	NUM__NumType=Card	2	nummod	_	_
+5	etc	etc	ADV	_	ADV___	2	obj	_	_
+6	..	..	PUNCT	_	PUNCT___	7	punct	_	_
+7	versées	verser	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+8	aux	aux	ADP	_	ADP___	9	aux	_	_
+9	débats	débattre	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	obl	_	_
+10	à	à	ADP	_	ADP___	11	case	_	_
+11	l'	le	PRON	_	PRON__Number=Sing|Person=3	12	det	_	_
+12	appui	appui	VERB	_	VERB__VerbForm=Inf	9	obl	_	_
+13	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
+14	mémoires	mémoire	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	obj	_	_
+15	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Vous aviez 8 mois pour trouver un avocat, lui exposer le préjudice RCP etpar un RAR officiel de votre avocat RCP.
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	2	nsubj	_	_
+2	aviez	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	8	8	NUM	_	NUM__NumType=Card	4	nummod	_	_
+4	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	2	obj	_	_
+5	pour	pour	ADP	_	ADP___	2	mark	_	_
+6	trouver	trouver	VERB	_	VERB__VerbForm=Inf	7	advcl	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+8	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+9	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+10	lui	luire	PRON	_	PRON__Number=Sing|Person=3	11	iobj	_	_
+11	exposer	exposer	VERB	_	VERB__VerbForm=Inf	12	advcl	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+13	préjudice	préjudice	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obj	_	_
+14	RCP	RCP	PROPN	_	PROPN___	15	nmod	_	_
+15	etpar	etpar	ADP	_	ADP___	15	case	_	_
+16	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	RAR	RAR	PROPN	_	PROPN__Gender=Masc|Number=Sing	15	nmod	_	_
+18	officiel	officiel	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	amod	_	_
+19	de	de	ADP	_	ADP___	18	case	_	_
+20	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	21	nmod:poss	_	_
+21	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	nmod	_	_
+22	RCP	RCP	PROPN	_	PROPN___	24	nmod	_	_
+23	.	.	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#Ce n'est pas après le rendu de l'arrêt qu'il faut chercher un avocat, cela coule de source..... puisque l'arrêt allait être de toute façon négatif !
+1	Ce	Ce	PRON	_	PRON__Number=Sing|Person=3	2	nsubj	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	2	advmod	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	2	advmod	_	_
+5	après	après	ADP	_	ADP___	2	case	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	rendu	rendre	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	nsubj	_	_
+8	de	de	ADP	_	ADP___	9	case	_	_
+9	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+10	arrêt	arrêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+11	qu'	que	SCONJ	_	SCONJ___	12	mark	_	_
+12	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
+13	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+14	chercher	chercher	VERB	_	VERB__VerbForm=Inf	15	xcomp	_	_
+15	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+16	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obj	_	_
+17	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+18	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	15	nsubj	_	_
+19	coule	couler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+20	de	de	ADP	_	ADP___	21	case	_	_
+21	source	source	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	nmod	_	_
+22	.....	.....	PUNCT	_	PUNCT___	24	punct	_	_
+23	puisque	puisque	SCONJ	_	SCONJ___	24	mark	_	_
+24	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+25	arrêt	arrêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	nsubj	_	_
+26	allait	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	ccomp	_	_
+27	être	être	AUX	_	AUX__VerbForm=Inf	15	obj	_	_
+28	de	de	ADP	_	ADP___	29	case	_	_
+29	toute	tout	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+30	façon	façon	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	obl	_	_
+31	négatif	négatif	ADJ	_	ADJ__Gender=Masc|Number=Sing	29	amod	_	_
+32	!	!	PUNCT	_	PUNCT___	33	punct	_	_
+
+
+#Vous espériez quoi?
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	2	nsubj	_	_
+2	espériez	espérer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	quoi	quoi	PRON	_	PRON__PronType=Int	4	obj	_	_
+4	?	?	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#un arrêt positif?
+1	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	arrêt	arrêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	positif	positif	ADJ	_	ADJ__Gender=Masc|Number=Sing	4	amod	_	_
+4	?	?	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#voyons!!Dépêchez vous de trouver un avocat pour déclarer le sinistre.
+1	voyons!!Dépêchez	voyons!!Dépêchez	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	case	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	0	ROOT	_	_
+3	de	de	ADP	_	ADP___	4	mark	_	_
+4	trouver	trouver	VERB	_	VERB__VerbForm=Inf	2	acl	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+6	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+7	pour	pour	ADP	_	ADP___	2	mark	_	_
+8	déclarer	déclarer	VERB	_	VERB__VerbForm=Inf	9	advcl	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+10	sinistre	sinistre	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+11	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Dans quel TGI exerce l'avocat mis en cause?Je vous donne les barreaux où chercher...
+1	Dans	Dans	ADP	_	ADP___	2	case	_	_
+2	quel	quel	DET	_	DET__Gender=Masc|Number=Sing|PronType=Int	2	det	_	_
+3	TGI	TGI	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+4	exerce	exercer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	2	det	_	_
+6	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nsubj	_	_
+7	mis	mettre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	2	acl	_	_
+8	en	en	ADP	_	ADP___	9	case	_	_
+9	cause?Je	cause?Je	NUM	_	NUM__NumType=Card	9	obl	_	_
+10	vous	se	PRON	_	PRON__Number=Plur|Person=2	11	iobj	_	_
+11	donne	donner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
+12	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+13	barreaux	barreau	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	obj	_	_
+14	où	où	PRON	_	PRON__PronType=Rel	15	iobj	_	_
+15	chercher	chercher	VERB	_	VERB__VerbForm=Inf	15	advcl	_	_
+16	...	...	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Je vous rappelle que vous êtes dans une RCP et que l'avocat sait très bien avoir fauté.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	3	iobj	_	_
+3	rappelle	rappeler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	que	que	SCONJ	_	SCONJ___	9	mark	_	_
+5	vous	se	PRON	_	PRON__Number=Plur|Person=2	9	nsubj	_	_
+6	êtes	être	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	dans	dan	ADP	_	ADP___	9	case	_	_
+8	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	RCP	RCP	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	ccomp	_	_
+10	et	et	CCONJ	_	CCONJ___	18	cc	_	_
+11	que	que	SCONJ	_	SCONJ___	18	mark	_	_
+12	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nsubj	_	_
+14	sait	savoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+15	très	très	ADV	_	ADV___	16	advmod	_	_
+16	bien	bien	ADV	_	ADV___	17	advmod	_	_
+17	avoir	avoir	VERB	_	VERB__VerbForm=Inf	18	aux	_	_
+18	fauté	fauter	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	conj	_	_
+19	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Vous devez prendre toutes les précautions d'usages.
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	3	nsubj	_	_
+2	devez	devoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	prendre	prendre	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	toutes	toute	ADJ	_	ADJ__Gender=Fem|Number=Plur	9	amod	_	_
+5	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+6	précautions	précaution	NOUN	_	NOUN__Gender=Fem|Number=Plur	9	obj	_	_
+7	d'	de	ADP	_	ADP___	9	case	_	_
+8	usages	usage	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	nmod	_	_
+9	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Vous adressez un RAR ou vous listez :
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	3	nsubj	_	_
+2	adressez	adresser	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+4	RAR	RAR	PROPN	_	PROPN__Gender=Masc|Number=Sing	9	obj	_	_
+5	ou	ou	CCONJ	_	CCONJ___	9	cc	_	_
+6	vous	se	PRON	_	PRON__Number=Plur|Person=2	9	nsubj	_	_
+7	listez	lister	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	9	conj	_	_
+8	:	:	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#- les 12 pièces versées par la partie adverse dans l'instance ayant donné lieu au jugement X du X date- les 16 pièces versées par la partie adverse dans l'instance ayant donné lieu au jugement Y du Y date- l'ensemble des notes et pièce que je vous ai personnellement confié.- etc...Vous concluez par :
+1	-	-	PUNCT	_	PUNCT___	3	punct	_	_
+2	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	3	det	_	_
+3	12	12	NUM	_	NUM__NumType=Card	3	nummod	_	_
+4	pièces	pièce	NOUN	_	NOUN__Gender=Fem|Number=Plur	9	nsubj	_	_
+5	versées	verser	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	9	acl	_	_
+6	par	par	ADP	_	ADP___	9	case	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	partie	partir	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obl	_	_
+9	adverse	adverse	ADP	_	ADP___	3	acl	_	_
+10	dans	dan	ADP	_	ADP___	18	case	_	_
+11	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+12	instance	instance	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obl	_	_
+13	ayant	avoir	VERB	_	VERB__Tense=Pres|VerbForm=Part	18	aux	_	_
+14	donné	donner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl	_	_
+15	lieu	lieu	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obj	_	_
+16	au	au	PRON	_	PRON__PronType=Rel	17	advmod	_	_
+17	jugement	jugement	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nsubj	_	_
+18	X	X	NOUN	_	NOUN___	9	xcomp	_	_
+19	du	du	DET	_	DET__Gender=Masc|Number=Sing	3	det	_	_
+20	X	X	NOUN	_	NOUN___	22	obj	_	_
+21	date-	date-	ADV	_	ADV___	22	case	_	_
+22	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	22	det	_	_
+23	16	16	NUM	_	NUM__NumType=Card	25	nummod	_	_
+24	pièces	pièce	NOUN	_	NOUN__Gender=Fem|Number=Plur	25	obl	_	_
+25	versées	verser	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	22	acl	_	_
+26	par	par	ADP	_	ADP___	27	case	_	_
+27	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+28	partie	partir	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	obl	_	_
+29	adverse	adverse	ADP	_	ADP___	30	acl	_	_
+30	dans	dan	ADP	_	ADP___	30	case	_	_
+31	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	32	det	_	_
+32	instance	instance	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	obl	_	_
+33	ayant	avoir	VERB	_	VERB__Tense=Pres|VerbForm=Part	35	aux	_	_
+34	donné	donner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	35	acl	_	_
+35	lieu	lieu	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	obj	_	_
+36	au	au	PRON	_	PRON__PronType=Rel	30	expl	_	_
+37	jugement	jugement	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+38	Y	Y	PRON	_	PRON__Person=3	40	case	_	_
+39	du	du	DET	_	DET__Gender=Masc|Number=Sing	40	det	_	_
+40	Y	Y	PROPN	_	PROPN__Gender=Masc|Number=Sing	53	obl	_	_
+41	date-	date-	PROPN	_	PROPN___	40	obj	_	_
+42	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	44	det	_	_
+43	ensemble	ensemble	NOUN	_	NOUN__Gender=Masc|Number=Sing	44	obj	_	_
+44	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	41	det	_	_
+45	notes	noter	NOUN	_	NOUN__Gender=Fem|Number=Plur	40	obj	_	_
+46	et	et	CCONJ	_	CCONJ___	48	cc	_	_
+47	pièce	pièce	NOUN	_	NOUN__Gender=Fem|Number=Sing	48	conj	_	_
+48	que	que	PRON	_	PRON__PronType=Rel	45	obj	_	_
+49	je	il	PRON	_	PRON__Number=Sing|Person=1	50	nsubj	_	_
+50	vous	se	PRON	_	PRON__Number=Plur|Person=2	40	iobj	_	_
+51	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	50	aux	_	_
+52	personnellement	personnellement	ADV	_	ADV___	53	advmod	_	_
+53	confié.-	confié.-	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	73	ccomp	_	_
+54	etc	etc	ADV	_	ADV___	53	advmod	_	_
+55	...	...	PUNCT	_	PUNCT___	56	punct	_	_
+56	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	53	nsubj	_	_
+57	concluez	conclure	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	60	xcomp	_	_
+58	par	par	ADP	_	ADP___	60	advmod	_	_
+59	:	:	PUNCT	_	PUNCT___	60	punct	_	_
+
+
+#Je vous prie, cher Maître, de bien vouloir me faire tenir mon dossier par votre secrétariat à l'issue d'un délai de 15 jours à compter de la réception de la présente.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	3	iobj	_	_
+3	prie	prier	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+5	cher	cher	ADJ	_	ADJ__Gender=Masc|Number=Sing	9	amod	_	_
+6	Maître	Maître	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+7	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+8	de	de	ADP	_	ADP___	9	mark	_	_
+9	bien	bien	ADV	_	ADV___	3	fixed	_	_
+10	vouloir	vouloir	AUX	_	AUX__VerbForm=Inf	18	aux	_	_
+11	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	18	obj	_	_
+12	faire	faire	VERB	_	VERB__VerbForm=Inf	13	conj	_	_
+13	tenir	tenir	VERB	_	VERB__VerbForm=Inf	18	xcomp	_	_
+14	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	17	nmod:poss	_	_
+15	dossier	dossier	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obj	_	_
+16	par	par	ADP	_	ADP___	17	case	_	_
+17	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	18	nmod:poss	_	_
+18	secrétariat	secrétariat	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obl	_	_
+19	à	à	ADP	_	ADP___	3	case	_	_
+20	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	22	fixed	_	_
+21	issue	issu	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	fixed	_	_
+22	d'	de	ADP	_	ADP___	22	fixed	_	_
+23	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	délai	délai	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	obl	_	_
+25	de	de	ADP	_	ADP___	22	case	_	_
+26	15	15	NUM	_	NUM__NumType=Card	27	nummod	_	_
+27	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	25	nmod	_	_
+28	à	à	ADP	_	ADP___	22	mark	_	_
+29	compter	compter	VERB	_	VERB__VerbForm=Inf	30	acl	_	_
+30	de	de	ADP	_	ADP___	30	case	_	_
+31	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	réception	réception	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	obl	_	_
+33	de	de	ADP	_	ADP___	35	case	_	_
+34	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	présente	présenter	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	nmod	_	_
+36	.	.	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#Je passerais alors à votre Cabinet en vue de le récupérer.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+2	passerais	passer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	alors	alors	ADV	_	ADV___	3	advmod	_	_
+4	à	à	ADP	_	ADP___	9	case	_	_
+5	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	9	nmod:poss	_	_
+6	Cabinet	Cabinet	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obl	_	_
+7	en	en	ADP	_	ADP___	9	mark	_	_
+8	vue	vu	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	fixed	_	_
+9	de	de	ADP	_	ADP___	3	fixed	_	_
+10	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	18	obj	_	_
+11	récupérer	récupérer	VERB	_	VERB__VerbForm=Inf	18	advcl	_	_
+12	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Vous aurez l'amabilité d'établir en double un bordereau détaillant les documents restitués.
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	3	nsubj	_	_
+2	aurez	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+3	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+4	amabilité	amabilité	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obj	_	_
+5	d'	de	ADP	_	ADP___	9	mark	_	_
+6	établir	établir	VERB	_	VERB__VerbForm=Inf	9	acl	_	_
+7	en	en	ADP	_	ADP___	9	mark	_	_
+8	double	doubler	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	advcl	_	_
+9	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+10	bordereau	bordereau	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obj	_	_
+11	détaillant	détailler	VERB	_	VERB__Tense=Pres|VerbForm=Part	18	amod	_	_
+12	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	13	det	_	_
+13	documents	document	NOUN	_	NOUN__Gender=Masc|Number=Plur	18	obj	_	_
+14	restitués	restituer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	17	acl	_	_
+15	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Puis une fois chez l'avocat, vous vérifiez, vous sollicitez si il ya un manque, on vous donne tant mieux, on vous donne pas tant pis.... vous signez le bordereau avec la mention manuscrite "sous réserve de vérification des documents" même si le dossier vous parait complet et le faite.
+1	Puis	Puis	CCONJ	_	CCONJ___	3	cc	_	_
+2	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	fois	foi	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obl	_	_
+4	chez	chez	ADP	_	ADP___	9	case	_	_
+5	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+6	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nmod	_	_
+7	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+8	vous	se	PRON	_	PRON__Number=Plur|Person=2	9	nsubj	_	_
+9	vérifiez	vérifier	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+10	,	,	PUNCT	_	PUNCT___	18	punct	_	_
+11	vous	se	PRON	_	PRON__Number=Plur|Person=2	18	nsubj	_	_
+12	sollicitez	solliciter	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	13	acl	_	_
+13	si	si	SCONJ	_	SCONJ___	18	mark	_	_
+14	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	17	nsubj	_	_
+15	ya	ya	ADP	_	ADP___	16	ccomp	_	_
+16	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	manque	manquer	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obj	_	_
+18	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+19	on	on	PRON	_	PRON__Number=Sing|Person=3	3	nsubj	_	_
+20	vous	se	PRON	_	PRON__Number=Plur|Person=2	22	iobj	_	_
+21	donne	donner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	_	_
+22	tant	tant	ADV	_	ADV___	22	advmod	_	_
+23	mieux	mieux	ADV	_	ADV___	25	advmod	_	_
+24	,	,	PUNCT	_	PUNCT___	25	punct	_	_
+25	on	on	PRON	_	PRON__Number=Sing|Person=3	22	nsubj	_	_
+26	vous	se	PRON	_	PRON__Number=Plur|Person=2	27	iobj	_	_
+27	donne	donner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+28	pas	pas	ADV	_	ADV__Polarity=Neg	22	advmod	_	_
+29	tant	tant	ADV	_	ADV___	30	advmod	_	_
+30	pis	pis	ADV	_	ADV___	30	obj	_	_
+31	....	....	PUNCT	_	PUNCT___	32	punct	_	_
+32	vous	se	PRON	_	PRON__Number=Plur|Person=2	30	nsubj	_	_
+33	signez	signer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	35	parataxis	_	_
+34	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	bordereau	bordereau	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	obj	_	_
+36	avec	avec	ADP	_	ADP___	30	case	_	_
+37	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
+38	mention	mention	NOUN	_	NOUN__Gender=Fem|Number=Sing	40	obl	_	_
+39	manuscrite	manuscrit	ADV	_	ADV___	40	amod	_	_
+40	"	"	PUNCT	_	PUNCT___	53	punct	_	_
+41	sous	sou	ADP	_	ADP___	40	mark	_	_
+42	réserve	réserver	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	advcl	_	_
+43	de	de	ADP	_	ADP___	44	case	_	_
+44	vérification	vérification	NOUN	_	NOUN__Gender=Fem|Number=Sing	41	obl	_	_
+45	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	40	det	_	_
+46	documents	document	NOUN	_	NOUN__Gender=Masc|Number=Plur	48	obj	_	_
+47	"	"	PUNCT	_	PUNCT___	48	punct	_	_
+48	même	même	ADV	_	ADV___	45	advmod	_	_
+49	si	si	SCONJ	_	SCONJ___	50	mark	_	_
+50	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+51	dossier	dossier	NOUN	_	NOUN__Gender=Masc|Number=Sing	50	nsubj	_	_
+52	vous	se	PRON	_	PRON__Number=Plur|Person=2	53	iobj	_	_
+53	parait	parer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	73	cop	_	_
+54	complet	complet	ADJ	_	ADJ__Gender=Masc|Number=Sing	53	advcl	_	_
+55	et	et	CCONJ	_	CCONJ___	56	cc	_	_
+56	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	53	det	_	_
+57	faite	fait	NOUN	_	NOUN__Gender=Masc|Number=Sing	60	conj	_	_
+58	.	.	PUNCT	_	PUNCT___	60	punct	_	_
+
+
+#De cette manière vous êtes.
+1	De	De	ADP	_	ADP___	3	case	_	_
+2	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	manière	manière	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obl	_	_
+4	vous	se	PRON	_	PRON__Number=Plur|Person=2	9	nsubj	_	_
+5	êtes	être	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Si jamais il manque des pièces : RAR à l'avocat dans la semaine, 15 jours de délais, à défaut d’exécution vous saisissez son bâtonnier en vertu de l’article 14 du Décret 2005
+1	Si	Si	SCONJ	_	SCONJ___	3	mark	_	_
+2	jamais	jamais	ADV	_	ADV___	3	obl	_	_
+3	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+4	manque	manquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+5	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	9	det	_	_
+6	pièces	pièce	NOUN	_	NOUN__Gender=Fem|Number=Plur	9	obj	_	_
+7	:	:	PUNCT	_	PUNCT___	9	punct	_	_
+8	RAR	RAR	PROPN	_	PROPN___	9	appos	_	_
+9	à	à	ADP	_	ADP___	3	case	_	_
+10	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+11	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nmod	_	_
+12	dans	dan	ADP	_	ADP___	13	case	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+14	semaine	semaine	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	nmod	_	_
+15	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+16	15	15	NUM	_	NUM__NumType=Card	17	nummod	_	_
+17	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	18	obl	_	_
+18	de	de	ADP	_	ADP___	9	case	_	_
+19	délais	délai	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	nmod	_	_
+20	,	,	PUNCT	_	PUNCT___	22	punct	_	_
+21	à	à	ADP	_	ADP___	22	case	_	_
+22	défaut	défaut	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	nsubj	_	_
+23	d’	d’	PROPN	_	PROPN___	25	amod	_	_
+24	exécution	exécution	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	nmod	_	_
+25	vous	se	PRON	_	PRON__Number=Plur|Person=2	22	iobj	_	_
+26	saisissez	saisir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+27	son	son	DET	_	DET__Number=Sing|Poss=Yes	25	nmod:poss	_	_
+28	bâtonnier	bâtonnier	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	obj	_	_
+29	en	en	ADP	_	ADP___	30	case	_	_
+30	vertu	vertu	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	fixed	_	_
+31	de	de	ADP	_	ADP___	32	fixed	_	_
+32	l’	l’	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+33	article	article	NOUN	_	NOUN__Gender=Masc|Number=Sing	35	obl	_	_
+34	14	14	NUM	_	NUM__NumType=Card	35	nummod	_	_
+35	du	du	DET	_	DET__Gender=Masc|Number=Sing	30	det	_	_
+36	Décret	Décret	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	nmod	_	_
+37	2005	2005	NUM	_	NUM__NumType=Card	53	nummod	_	_
+
+
+#-790 du 12 juillet 2005.
+1	-	-	PUNCT	_	PUNCT___	3	punct	_	_
+2	790	790	NUM	_	NUM__NumType=Card	3	nummod	_	_
+3	du	du	DET	_	DET__Gender=Masc|Number=Sing	3	det	_	_
+4	12	12	NUM	_	NUM__NumType=Card	9	nummod	_	_
+5	juillet	juillet	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+6	2005	2005	NUM	_	NUM__NumType=Card	9	nummod	_	_
+7	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
