@@ -1,0 +1,639 @@
+#Bonjour,pour moi ca veut dire ce que ca veut dire.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	pour	pour	ADP	_	ADP___	4	case	_	_
+4	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+5	ca	ca	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	case	_	_
+6	veut	vouloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	nmod	_	_
+7	dire	dire	VERB	_	VERB__VerbForm=Inf	6	xcomp	_	_
+8	ce	ce	PRON	_	PRON__PronType=Rel	7	obj	_	_
+9	que	que	PRON	_	PRON__PronType=Rel	12	obj	_	_
+10	ca	ca	PRON	_	PRON__Person=3|Reflex=Yes	12	nsubj	_	_
+11	veut	vouloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	dire	dire	VERB	_	VERB__VerbForm=Inf	8	acl:relcl	_	_
+13	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Même si c'est toujours plus facile à dire qu'à faire, il aurait pu voir la couleur sur l'emballage sans l'ouvrir.
+1	Même	Même	ADV	_	ADV___	1	mark	_	_
+2	si	si	SCONJ	_	SCONJ___	1	fixed	_	_
+3	c'	ce	PRON	_	PRON__Number=Sing|Person=3	4	nsubj	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	toujours	toujours	ADV	_	ADV___	6	advmod	_	_
+6	plus	plaire	ADV	_	ADV___	1	advmod	_	_
+7	facile	facile	ADJ	_	ADJ__Gender=Fem|Number=Sing	6	advcl	_	_
+8	à	à	ADP	_	ADP___	7	mark	_	_
+9	dire	dire	VERB	_	VERB__VerbForm=Inf	12	xcomp	_	_
+10	qu'	que	SCONJ	_	SCONJ___	12	mark	_	_
+11	à	à	ADP	_	ADP___	12	mark	_	_
+12	faire	faire	VERB	_	VERB__VerbForm=Inf	8	ccomp	_	_
+13	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+14	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	20	nsubj	_	_
+15	aurait	avoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+16	pu	pouvoir	AUX	_	AUX__Tense=Past|VerbForm=Part	20	aux	_	_
+17	voir	voir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+18	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	couleur	couleur	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obj	_	_
+20	sur	sur	ADP	_	ADP___	30	case	_	_
+21	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+22	emballage	emballage	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	nmod	_	_
+23	sans	sans	ADP	_	ADP___	25	case	_	_
+24	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	25	obj	_	_
+25	ouvrir	ouvrir	VERB	_	VERB__VerbForm=Inf	22	advcl	_	_
+26	.	.	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#Non, pour eux un téléphone ouvert est un téléphone invendable.
+1	Non	Non	ADV	_	ADV___	1	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	pour	pour	ADP	_	ADP___	4	case	_	_
+4	eux	lui	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	obl	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	téléphone	téléphoner	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+7	ouvert	ouvrir	ADJ	_	ADJ__Gender=Masc|Number=Sing	6	amod	_	_
+8	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+9	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+10	téléphone	téléphoner	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+11	invendable	invendable	ADJ	_	ADJ__Number=Sing	12	amod	_	_
+12	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Dans un restaurant accepteriez vous de vous faire servir un plat déjà servi mais que le précédent client n'a pas voulu parce qu'il ne savait pas qu'il y avait de l'ail ?
+1	Dans	Dans	ADP	_	ADP___	1	case	_	_
+2	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+3	restaurant	restaurer	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+4	accepteriez	accepter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	amod	_	_
+5	vous	se	PRON	_	PRON__Number=Plur|Person=2|Reflex=Yes	6	obj	_	_
+6	de	de	ADP	_	ADP___	1	mark	_	_
+7	vous	se	PRON	_	PRON__Number=Plur|Person=2	6	iobj	_	_
+8	faire	faire	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+9	servir	servir	VERB	_	VERB__VerbForm=Inf	12	xcomp	_	_
+10	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	plat	plat	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+12	déjà	déjà	ADV	_	ADV___	8	advmod	_	_
+13	servi	servir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+14	mais	mai	CCONJ	_	CCONJ___	20	cc	_	_
+15	que	que	SCONJ	_	SCONJ___	14	mark	_	_
+16	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+17	précédent	précédent	ADJ	_	ADJ__Gender=Masc|Number=Sing	20	nsubj	_	_
+18	client	client	ADV	_	ADV___	19	advmod	_	_
+19	n'	ne	ADV	_	ADV__Polarity=Neg	20	advmod	_	_
+20	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+21	pas	pas	ADV	_	ADV__Polarity=Neg	22	advmod	_	_
+22	voulu	vouloir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	aux	_	_
+23	parce	parce	SCONJ	_	SCONJ___	25	mark	_	_
+24	qu'	que	SCONJ	_	SCONJ___	25	fixed	_	_
+25	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	22	nsubj	_	_
+26	ne	ne	ADV	_	ADV__Polarity=Neg	30	advmod	_	_
+27	savait	savoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+28	pas	pas	ADV	_	ADV__Polarity=Neg	30	advmod	_	_
+29	qu'	que	SCONJ	_	SCONJ___	30	mark	_	_
+30	il	il	PRON	_	PRON__Number=Sing|Person=3	30	nsubj	_	_
+31	y	yu	PRON	_	PRON__Person=3	32	expl	_	_
+32	avait	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	30	ccomp	_	_
+33	de	de	ADP	_	ADP___	35	case	_	_
+34	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	35	det	_	_
+35	ail	ail	NOUN	_	NOUN__Gender=Masc|Number=Sing	32	obl	_	_
+36	?	?	PUNCT	_	PUNCT___	38	punct	_	_
+
+
+#Je caricature un peu mais c'est le même principe.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	caricature	caricaturer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	un	un	DET	_	DET__Gender=Masc|Number=Sing	4	det	_	_
+4	peu	peu	ADV	_	ADV___	6	obj	_	_
+5	mais	mai	CCONJ	_	CCONJ___	6	cc	_	_
+6	c'	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+7	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+9	même	même	ADJ	_	ADJ__Number=Sing	12	amod	_	_
+10	principe	principe	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	conj	_	_
+11	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Quant aux conditions internet, elles peuvent être différentes de celles en magasin, tant qu'elles sont clairement affichées il n'y a rien d'illégal.ce n'est pas une "première clause" mais une autre clause pour un cas différent.
+1	Quant	Quant	ADV	_	ADV___	1	case	_	_
+2	aux	aux	ADJ	_	ADJ__Gender=Masc|Number=Plur	1	fixed	_	_
+3	conditions	condition	NOUN	_	NOUN__Gender=Fem|Number=Plur	4	obl	_	_
+4	internet	internet	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nmod	_	_
+5	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+6	elles	lui	PRON	_	PRON__Gender=Fem|Number=Plur|Person=3	1	nsubj	_	_
+7	peuvent	pouvoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	être	être	AUX	_	AUX__VerbForm=Inf	7	cop	_	_
+9	différentes	différents	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	12	xcomp	_	_
+10	de	de	ADP	_	ADP___	12	case	_	_
+11	celles	celui	PRON	_	PRON__Gender=Fem|Number=Plur|PronType=Dem	12	nmod	_	_
+12	en	en	ADP	_	ADP___	8	case	_	_
+13	magasin	magasin	NOUN	_	NOUN__Number=Sing	1	advcl	_	_
+14	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+15	tant	tant	ADV	_	ADV___	14	mark	_	_
+16	qu'	que	SCONJ	_	SCONJ___	20	fixed	_	_
+17	elles	lui	PRON	_	PRON__Gender=Fem|Number=Plur|Person=3	20	nsubj:pass	_	_
+18	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux:pass	_	_
+19	clairement	clairement	ADV	_	ADV___	20	advmod	_	_
+20	affichées	afficher	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	30	advcl	_	_
+21	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	22	nsubj	_	_
+22	n'	ne	ADV	_	ADV__Polarity=Neg	20	advmod	_	_
+23	y	yu	PRON	_	PRON__Person=3	25	expl	_	_
+24	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	advmod	_	_
+25	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	22	obj	_	_
+26	d'	de	ADP	_	ADP___	30	case	_	_
+27	illégal.ce	illégal.ce	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	nmod	_	_
+28	n'	ne	ADV	_	ADV__Polarity=Neg	30	advmod	_	_
+29	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+30	pas	pas	ADV	_	ADV__Polarity=Neg	30	advmod	_	_
+31	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	"	"	PUNCT	_	PUNCT___	30	punct	_	_
+33	première	premier	ADJ	_	ADJ__Gender=Fem|Number=Sing|NumType=Ord	35	amod	_	_
+34	clause	clause	ADJ	_	ADJ__Gender=Fem|Number=Sing	35	acl	_	_
+35	"	"	PUNCT	_	PUNCT___	32	punct	_	_
+36	mais	mai	CCONJ	_	CCONJ___	38	cc	_	_
+37	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	autre	autre	ADJ	_	ADJ__Number=Sing	30	amod	_	_
+39	clause	clause	ADJ	_	ADJ__Gender=Fem|Number=Sing	30	conj	_	_
+40	pour	pour	ADP	_	ADP___	49	case	_	_
+41	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+42	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	43	nmod	_	_
+43	différent	différent	ADV	_	ADV___	49	advmod	_	_
+44	.	.	PUNCT	_	PUNCT___	45	punct	_	_
+
+
+#Pour moi vous n'avez aucun droit.
+1	Pour	Pour	ADP	_	ADP___	1	case	_	_
+2	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	1	obl	_	_
+3	vous	se	PRON	_	PRON__Number=Plur|Person=2	4	nsubj	_	_
+4	n'	ne	ADV	_	ADV___	6	advmod	_	_
+5	avez	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	aucun	aucun	DET	_	DET__Gender=Masc|Number=Sing	1	det	_	_
+7	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+8	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Après ca ne coûte rien de tenter de demander un geste.
+1	Après	Après	ADP	_	ADP___	1	mark	_	_
+2	ca	ca	CCONJ	_	CCONJ___	1	nsubj	_	_
+3	ne	ne	ADV	_	ADV___	4	advmod	_	_
+4	coûte	coûter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	6	obj	_	_
+6	de	de	ADP	_	ADP___	1	mark	_	_
+7	tenter	tenter	VERB	_	VERB__VerbForm=Inf	6	xcomp	_	_
+8	de	de	ADP	_	ADP___	7	mark	_	_
+9	demander	demander	VERB	_	VERB__VerbForm=Inf	12	xcomp	_	_
+10	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	geste	geste	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+12	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Mais dans le cas où ils acceptent, je pense que vous aurez un bon d'achat et pas un remboursement.
+1	Mais	Mais	CCONJ	_	CCONJ___	1	cc	_	_
+2	dans	dan	ADP	_	ADP___	1	case	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obl	_	_
+5	où	où	PRON	_	PRON__PronType=Rel	6	iobj	_	_
+6	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	1	nsubj	_	_
+7	acceptent	accepter	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+8	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+9	je	il	PRON	_	PRON__Number=Sing|Person=1	12	nsubj	_	_
+10	pense	penser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+11	que	que	SCONJ	_	SCONJ___	12	mark	_	_
+12	vous	se	PRON	_	PRON__Number=Plur|Person=2	8	nsubj	_	_
+13	aurez	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	1	ccomp	_	_
+14	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+15	bon	bon	ADJ	_	ADJ__Gender=Masc|Number=Sing	14	obj	_	_
+16	d'	de	ADP	_	ADP___	20	case	_	_
+17	achat	achat	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	nmod	_	_
+18	et	et	CCONJ	_	CCONJ___	19	cc	_	_
+19	pas	pas	ADV	_	ADV__Polarity=Neg	20	advmod	_	_
+20	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+21	remboursement	remboursement	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	conj	_	_
+22	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Bonjour.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#A partir du moment où vous avez ouvert l'emballage, vous ne pouvez plus demander le remboursement de votre article, car, juridiquement parlant, rien ne prouve plus que l'article que vous retournez est bien le même que celui figurant à l'origine dans le paquet.
+1	A	A	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+2	partir	partir	VERB	_	VERB__VerbForm=Inf	1	advcl	_	_
+3	du	du	DET	_	DET__Gender=Masc|Number=Sing	4	det	_	_
+4	moment	moment	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obj	_	_
+5	où	où	PRON	_	PRON__PronType=Rel	6	iobj	_	_
+6	vous	se	PRON	_	PRON__Number=Plur|Person=2	4	nsubj	_	_
+7	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	10	aux	_	_
+8	ouvert	ouvrir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl:relcl	_	_
+9	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	emballage	emballage	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+11	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+12	vous	se	PRON	_	PRON__Number=Plur|Person=2	10	nsubj	_	_
+13	ne	ne	ADV	_	ADV__Polarity=Neg	18	advmod	_	_
+14	pouvez	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	18	aux	_	_
+15	plus	plaire	ADV	_	ADV__Polarity=Neg	18	advmod	_	_
+16	demander	demander	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+17	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	remboursement	remboursement	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obj	_	_
+19	de	de	ADP	_	ADP___	20	case	_	_
+20	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	18	nmod:poss	_	_
+21	article	article	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	nmod	_	_
+22	,	,	PUNCT	_	PUNCT___	23	punct	_	_
+23	car	car	CCONJ	_	CCONJ___	20	cc	_	_
+24	,	,	PUNCT	_	PUNCT___	18	fixed	_	_
+25	juridiquement	juridiquement	ADV	_	ADV___	32	advmod	_	_
+26	parlant	parler	VERB	_	VERB__Tense=Pres|VerbForm=Part	25	acl	_	_
+27	,	,	PUNCT	_	PUNCT___	28	punct	_	_
+28	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	25	nsubj	_	_
+29	ne	ne	ADV	_	ADV___	32	advmod	_	_
+30	prouve	prouver	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	conj	_	_
+31	plus	plaire	ADV	_	ADV___	32	advmod	_	_
+32	que	que	SCONJ	_	SCONJ___	18	mark	_	_
+33	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	32	det	_	_
+34	article	article	NOUN	_	NOUN__Gender=Masc|Number=Sing	36	dep	_	_
+35	que	que	PRON	_	PRON__PronType=Rel	36	mark	_	_
+36	vous	se	PRON	_	PRON__Number=Plur|Person=2	33	nsubj	_	_
+37	retournez	retourner	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	39	acl:relcl	_	_
+38	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	advmod	_	_
+39	bien	bien	ADV	_	ADV___	36	advmod	_	_
+40	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+41	même	même	ADV	_	ADV___	42	obj	_	_
+42	que	que	SCONJ	_	SCONJ___	43	mark	_	_
+43	celui	celui	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Dem	39	nsubj	_	_
+44	figurant	figurer	VERB	_	VERB__Tense=Pres|VerbForm=Part	46	ccomp	_	_
+45	à	à	ADP	_	ADP___	46	case	_	_
+46	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	39	det	_	_
+47	origine	origine	NOUN	_	NOUN__Gender=Fem|Number=Sing	49	obl	_	_
+48	dans	dan	ADP	_	ADP___	49	case	_	_
+49	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+50	paquet	paquet	NOUN	_	NOUN__Gender=Masc|Number=Sing	52	obl	_	_
+51	.	.	PUNCT	_	PUNCT___	52	punct	_	_
+
+
+#On peut en effet débattre sur la logique, mais net iris est un site juridique, la réponse est par conséquent juridique.
+1	On	On	PRON	_	PRON__Number=Sing|Person=3	5	nsubj	_	_
+2	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	en	en	ADP	_	ADP___	5	advmod	_	_
+4	effet	effet	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	fixed	_	_
+5	débattre	débattre	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+6	sur	sur	ADP	_	ADP___	8	case	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	logique	logique	ADJ	_	ADJ__Number=Sing	5	obl	_	_
+9	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+10	mais	mai	CCONJ	_	CCONJ___	12	cc	_	_
+11	net	net	ADJ	_	ADJ__Gender=Masc|Number=Sing	12	advmod	_	_
+12	iris	iris	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	5	conj	_	_
+13	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	site	site	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obl	_	_
+16	juridique	juridique	ADJ	_	ADJ__Number=Sing	15	amod	_	_
+17	,	,	PUNCT	_	PUNCT___	23	punct	_	_
+18	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	nsubj	_	_
+20	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+21	par	par	ADP	_	ADP___	23	advmod	_	_
+22	conséquent	conséquent	NOUN	_	NOUN___	21	fixed	_	_
+23	juridique	juridique	ADJ	_	ADJ__Number=Sing	5	conj	_	_
+24	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Ceci étant, en off, je n'accepterais pas en magasin d'acheter un appareil qui a déjà été ouvert, et surtout pas un téléphone.
+1	Ceci	Ceci	PRON	_	PRON__Number=Sing|PronType=Dem	5	nsubj	_	_
+2	étant	être	AUX	_	AUX__Tense=Pres|VerbForm=Part	5	cop	_	_
+3	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+4	en	en	ADP	_	ADP___	3	case	_	_
+5	off	off	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obl	_	_
+6	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+7	je	il	PRON	_	PRON__Number=Sing|Person=1	8	nsubj	_	_
+8	n'	ne	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+9	accepterais	accepter	ADJ	_	ADJ__Gender=Masc	0	ROOT	_	_
+10	pas	pas	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+11	en	en	ADP	_	ADP___	12	advmod	_	_
+12	magasin	magasin	NOUN	_	NOUN__Number=Sing	5	fixed	_	_
+13	d'	de	ADP	_	ADP___	15	mark	_	_
+14	acheter	acheter	VERB	_	VERB__VerbForm=Inf	15	xcomp	_	_
+15	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+16	appareil	appareil	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obj	_	_
+17	qui	qui	PRON	_	PRON__PronType=Rel	23	nsubj	_	_
+18	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	déjà	déjà	ADV	_	ADV___	23	advmod	_	_
+20	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	23	cop	_	_
+21	ouvert	ouvrir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	23	acl:relcl	_	_
+22	,	,	PUNCT	_	PUNCT___	21	punct	_	_
+23	et	et	CCONJ	_	CCONJ___	5	cc	_	_
+24	surtout	surtout	ADV	_	ADV___	5	advmod	_	_
+25	pas	pas	ADV	_	ADV__Polarity=Neg	33	advmod	_	_
+26	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+27	téléphone	téléphoner	NOUN	_	NOUN__Gender=Masc|Number=Sing	33	conj	_	_
+28	.	.	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#Sur internet, vous bénéficiez d'un délai de rétractation, ce qui n'est pas le cas en magasin où l'achat est ferme.
+1	Sur	Sur	ADP	_	ADP___	5	case	_	_
+2	internet	internet	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+3	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+4	vous	se	PRON	_	PRON__Number=Plur|Person=2	3	nsubj	_	_
+5	bénéficiez	bénéficier	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	d'	de	ADP	_	ADP___	8	case	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	délai	délai	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+9	de	de	ADP	_	ADP___	5	case	_	_
+10	rétractation	rétractation	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+11	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+12	ce	ce	PRON	_	PRON__PronType=Rel	5	iobj	_	_
+13	qui	qui	PRON	_	PRON__PronType=Rel	15	nsubj	_	_
+14	n'	ne	ADV	_	ADV__Polarity=Neg	15	advmod	_	_
+15	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+16	pas	pas	ADV	_	ADV__Polarity=Neg	15	advmod	_	_
+17	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+18	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	acl:relcl	_	_
+19	en	en	ADP	_	ADP___	23	advmod	_	_
+20	magasin	magasin	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	fixed	_	_
+21	où	où	PRON	_	PRON__PronType=Rel	23	iobj	_	_
+22	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+23	achat	achat	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+24	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+25	ferme	fermer	ADJ	_	ADJ__Number=Sing	33	acl:relcl	_	_
+26	.	.	PUNCT	_	PUNCT___	33	punct	_	_
+
+
+#La possibilité de rapporter un achat dans les 15 jours n'est qu'une faculté commerciale que beaucoup de magasins physiques offrent aujourd'hui à leur clientèle.
+1	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+2	possibilité	possibilité	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nsubj	_	_
+3	de	de	ADP	_	ADP___	5	mark	_	_
+4	rapporter	rapporter	VERB	_	VERB__VerbForm=Inf	3	acl	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+6	achat	achat	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+7	dans	dan	ADP	_	ADP___	8	case	_	_
+8	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+9	15	15	NUM	_	NUM__NumType=Card	5	nummod	_	_
+10	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	obl	_	_
+11	n'	ne	ADV	_	ADV___	12	advmod	_	_
+12	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+13	qu'	que	ADV	_	ADV___	15	advmod	_	_
+14	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	faculté	faculté	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+16	commerciale	commercial	ADJ	_	ADJ__Gender=Fem|Number=Sing	15	amod	_	_
+17	que	que	SCONJ	_	SCONJ___	23	mark	_	_
+18	beaucoup	beaucoup	ADV	_	ADV___	19	det	_	_
+19	de	de	ADP	_	ADP___	23	fixed	_	_
+20	magasins	magasin	NOUN	_	NOUN__Gender=Masc|Number=Plur	23	nsubj	_	_
+21	physiques	physique	ADJ	_	ADJ__Number=Plur	23	amod	_	_
+22	offrent	offrir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+23	aujourd'hui	aujourd'huie	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	obj	_	_
+24	à	à	ADP	_	ADP___	5	case	_	_
+25	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	33	nmod:poss	_	_
+26	clientèle	clientèle	NOUN	_	NOUN__Gender=Masc|Number=Sing	33	obl	_	_
+27	.	.	PUNCT	_	PUNCT___	33	punct	_	_
+
+
+#Les conditions sont déterminées par le professionnel.
+1	Les	Les	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+2	conditions	condition	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	nsubj:pass	_	_
+3	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+4	déterminées	déterminer	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+5	par	par	ADP	_	ADP___	5	case	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	professionnel	professionnel	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+8	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Je suis d'accord avec vous pour le code couleur, je vous le dis même, "c'est souvent plus facile à dire qu'à faire".Pas pour le reste :La commande internet est différente car vous n'avez pas le produit entre les mains, vous pourrez donc toujours arguer que la couleur n'était pas la même vue à l'écran ou autre argument plus ou moins étayé.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+2	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	d'	de	ADP	_	ADP___	0	ROOT	_	_
+4	accord	accord	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	fixed	_	_
+5	avec	avec	ADP	_	ADP___	6	case	_	_
+6	vous	se	PRON	_	PRON__Number=Plur|Person=2|PronType=Prs	3	obl	_	_
+7	pour	pour	ADP	_	ADP___	9	case	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	code	coder	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obl	_	_
+10	couleur	couleur	ADJ	_	ADJ__Gender=Masc|Number=Sing	9	amod	_	_
+11	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+12	je	il	PRON	_	PRON__Number=Sing|Person=1	15	nsubj	_	_
+13	vous	se	PRON	_	PRON__Number=Plur|Person=2	15	iobj	_	_
+14	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	dis	dire	ADV	_	ADV___	3	parataxis	_	_
+16	même	même	ADV	_	ADV___	15	advmod	_	_
+17	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+18	"	"	PUNCT	_	PUNCT___	23	punct	_	_
+19	c'	ce	PRON	_	PRON__Number=Sing|Person=3	23	nsubj	_	_
+20	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+21	souvent	souvent	ADV	_	ADV___	22	advmod	_	_
+22	plus	plaire	ADV	_	ADV___	23	advmod	_	_
+23	facile	facile	ADJ	_	ADJ__Gender=Fem|Number=Sing	3	parataxis	_	_
+24	à	à	ADP	_	ADP___	25	mark	_	_
+25	dire	dire	VERB	_	VERB__VerbForm=Inf	23	xcomp	_	_
+26	qu'	que	SCONJ	_	SCONJ___	25	obj	_	_
+27	à	à	ADP	_	ADP___	28	case	_	_
+28	faire".Pas	faire".Pas	NOUN	_	NOUN__Gender=Masc|Number=Plur	26	fixed	_	_
+29	pour	pour	ADP	_	ADP___	31	case	_	_
+30	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	reste	rester	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	nmod	_	_
+32	:	:	PUNCT	_	PUNCT___	3	punct	_	_
+33	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	commande	commander	NOUN	_	NOUN__Gender=Fem|Number=Sing	37	nsubj	_	_
+35	internet	internet	NOUN	_	NOUN__Gender=Masc|Number=Sing	34	amod	_	_
+36	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	cop	_	_
+37	différente	différent	ADJ	_	ADJ__Gender=Fem|Number=Sing	3	parataxis	_	_
+38	car	car	CCONJ	_	CCONJ___	41	cc	_	_
+39	vous	se	PRON	_	PRON__Number=Plur|Person=2	41	nsubj	_	_
+40	n'	ne	ADV	_	ADV__Polarity=Neg	41	advmod	_	_
+41	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	37	conj	_	_
+42	pas	pas	ADV	_	ADV__Polarity=Neg	41	advmod	_	_
+43	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	produit	produire	NOUN	_	NOUN__Gender=Masc|Number=Sing	41	obj	_	_
+45	entre	entrer	ADP	_	ADP___	47	case	_	_
+46	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	47	det	_	_
+47	mains	main	NOUN	_	NOUN__Gender=Fem|Number=Plur	41	obl	_	_
+48	,	,	PUNCT	_	PUNCT___	50	punct	_	_
+49	vous	se	PRON	_	PRON__Number=Plur|Person=2	50	nsubj	_	_
+50	pourrez	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	37	conj	_	_
+51	donc	donc	ADV	_	ADV___	50	advmod	_	_
+52	toujours	toujours	ADV	_	ADV___	53	advmod	_	_
+53	arguer	arguer	VERB	_	VERB__VerbForm=Inf	50	xcomp	_	_
+54	que	que	SCONJ	_	SCONJ___	62	mark	_	_
+55	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	56	det	_	_
+56	couleur	couleur	NOUN	_	NOUN__Gender=Fem|Number=Sing	62	nsubj	_	_
+57	n'	ne	ADV	_	ADV__Polarity=Neg	62	advmod	_	_
+58	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	62	cop	_	_
+59	pas	pas	ADV	_	ADV__Polarity=Neg	62	advmod	_	_
+60	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	62	det	_	_
+61	même	même	ADJ	_	ADJ__Number=Sing	62	amod	_	_
+62	vue	vu	NOUN	_	NOUN__Gender=Fem|Number=Sing	50	ccomp	_	_
+63	à	à	ADP	_	ADP___	65	case	_	_
+64	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	65	det	_	_
+65	écran	écran	NOUN	_	NOUN__Gender=Masc|Number=Sing	50	obl	_	_
+66	ou	ou	CCONJ	_	CCONJ___	68	cc	_	_
+67	autre	autre	ADJ	_	ADJ__Number=Sing	68	amod	_	_
+68	argument	argument	NOUN	_	NOUN__Gender=Masc|Number=Sing	50	conj	_	_
+69	plus	plaire	ADV	_	ADV___	72	advmod	_	_
+70	ou	ou	CCONJ	_	CCONJ___	69	fixed	_	_
+71	moins	moins	ADV	_	ADV___	69	fixed	_	_
+72	étayé	étayer	NOUN	_	NOUN__Gender=Fem|Number=Sing	50	obl	_	_
+73	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Là en magasin vous avez eu la possibilité de le voir en vrai.
+1	Là	Là	ADV	_	ADV___	3	advmod	_	_
+2	en	en	ADP	_	ADP___	3	mark	_	_
+3	magasin	magasin	NOUN	_	NOUN__Number=Sing	3	fixed	_	_
+4	vous	se	PRON	_	PRON__Number=Plur|Person=2	3	nsubj	_	_
+5	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	possibilité	possibilité	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obj	_	_
+9	de	de	ADP	_	ADP___	3	mark	_	_
+10	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	9	obj	_	_
+11	voir	voir	VERB	_	VERB__VerbForm=Inf	3	nmod	_	_
+12	en	en	ADP	_	ADP___	15	advmod	_	_
+13	vrai	vrai	ADJ	_	ADJ__Gender=Masc|Number=Sing	15	fixed	_	_
+14	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Le fait qu'il ne plaise pas à la personne à qui vous l'offrez est indépendant du magasin.
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+3	qu'	que	SCONJ	_	SCONJ___	3	mark	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+5	ne	ne	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+6	plaise	plaire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7	pas	pas	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+8	à	à	ADP	_	ADP___	9	case	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+10	personne	personne	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obl	_	_
+11	à	à	ADP	_	ADP___	3	mark	_	_
+12	qui	qui	PRON	_	PRON__PronType=Rel	15	fixed	_	_
+13	vous	se	PRON	_	PRON__Number=Plur|Person=2	15	iobj	_	_
+14	l'	le	PRON	_	PRON__Number=Sing|Person=3	15	det	_	_
+15	offrez	offrir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	3	obl	_	_
+16	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+17	indépendant	indépendant	VERB	_	VERB__Tense=Pres|VerbForm=Part	0	ROOT	_	_
+18	du	du	DET	_	DET__Gender=Masc|Number=Sing	23	det	_	_
+19	magasin	magasin	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	obj	_	_
+20	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Et lorsque vous achetez sur internet, ça vient directement de différents dépôts, effectuer un retour est donc possible directement via voie postale.
+1	Et	Et	CCONJ	_	CCONJ___	3	cc	_	_
+2	lorsque	lorsque	SCONJ	_	SCONJ___	3	mark	_	_
+3	vous	se	PRON	_	PRON__Number=Plur|Person=2	3	nsubj	_	_
+4	achetez	acheter	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+5	sur	sur	ADP	_	ADP___	6	case	_	_
+6	internet	internet	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obl	_	_
+7	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+8	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	nsubj	_	_
+9	vient	venir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	nsubj	_	_
+10	directement	directement	ADV	_	ADV___	9	advmod	_	_
+11	de	de	ADP	_	ADP___	3	case	_	_
+12	différents	différent	ADJ	_	ADJ__Gender=Masc|Number=Plur	15	amod	_	_
+13	dépôts	dépôt	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	obl	_	_
+14	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+15	effectuer	effectuer	VERB	_	VERB__VerbForm=Inf	3	acl	_	_
+16	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+17	retour	retour	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obj	_	_
+18	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+19	donc	donc	ADV	_	ADV___	23	advmod	_	_
+20	possible	possible	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+21	directement	directement	ADV	_	ADV___	22	advmod	_	_
+22	via	via	ADP	_	ADP___	23	case	_	_
+23	voie	voir	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obl	_	_
+24	postale	postal	ADJ	_	ADJ__Gender=Fem|Number=Sing	25	amod	_	_
+25	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Alors que stocker différents retours et les réexpédier depuis un magasin est une logistique totalement différente.
+1	Alors	Alors	ADV	_	ADV___	3	mark	_	_
+2	que	que	SCONJ	_	SCONJ___	3	fixed	_	_
+3	stocker	stocker	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	fixed	_	_
+4	différents	différent	ADJ	_	ADJ__Gender=Masc|Number=Plur	3	amod	_	_
+5	retours	retour	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	nsubj	_	_
+6	et	et	CCONJ	_	CCONJ___	3	cc	_	_
+7	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+8	réexpédier	réexpédier	NOUN	_	NOUN__Gender=Fem|Number=Plur	9	conj	_	_
+9	depuis	depuis	ADP	_	ADP___	3	case	_	_
+10	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+11	magasin	magasin	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nmod	_	_
+12	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+13	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	logistique	logistique	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+15	totalement	totalement	ADV	_	ADV___	3	advmod	_	_
+16	différente	différent	ADJ	_	ADJ__Gender=Fem|Number=Sing	15	amod	_	_
+17	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Vous pouvez leur donner cet argument, ca ne changera pas que pour eux ce sera un produit perdu.
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	3	nsubj	_	_
+2	pouvez	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	leur	lui	PRON	_	PRON__Number=Plur|Person=3	3	iobj	_	_
+4	donner	donner	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	cet	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	argument	argument	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obj	_	_
+7	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+8	ca	ca	PRON	_	PRON__PronType=Rel	9	nsubj	_	_
+9	ne	ne	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+10	changera	changer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	conj	_	_
+11	pas	pas	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+12	que	que	SCONJ	_	SCONJ___	15	advmod	_	_
+13	pour	pour	ADP	_	ADP___	15	case	_	_
+14	eux	lui	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	_
+15	ce	ce	PRON	_	PRON__Number=Sing|Person=3	3	nsubj	_	_
+16	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	15	cop	_	_
+17	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+18	produit	produire	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	obj	_	_
+19	perdu	perdre	ADJ	_	ADJ__Number=Sing	23	amod	_	_
+20	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Ce sera donc au bon vouloir du magasin de vous accorder un geste ou pas.
+1	Ce	Ce	PRON	_	PRON__Number=Sing|Person=3	3	nsubj	_	_
+2	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	cop	_	_
+3	donc	donc	ADV	_	ADV___	3	advmod	_	_
+4	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	3	obj	_	_
+5	bon	bon	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+6	vouloir	vouloir	AUX	_	AUX__VerbForm=Inf	3	xcomp	_	_
+7	du	du	DET	_	DET__Gender=Masc|Number=Sing	9	det	_	_
+8	magasin	magasin	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+9	de	de	ADP	_	ADP___	3	mark	_	_
+10	vous	se	PRON	_	PRON__Number=Plur|Person=2	9	iobj	_	_
+11	accorder	accorder	VERB	_	VERB__VerbForm=Inf	3	xcomp	_	_
+12	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+13	geste	geste	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obj	_	_
+14	ou	ou	CCONJ	_	CCONJ___	15	cc	_	_
+15	pas	pas	ADV	_	ADV__Polarity=Neg	3	conj	_	_
+16	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#J'ajoute que si le magasin ne vous fait pas de geste, vous offrez une coque de la bonne couleur à l'ado en question et ni vu ni connu.
+1	J'	J'	PRON	_	PRON__Number=Sing|Person=1	2	nsubj	_	_
+2	ajoute	ajouter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advmod	_	_
+3	que	que	SCONJ	_	SCONJ___	9	mark	_	_
+4	si	si	SCONJ	_	SCONJ___	9	mark	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	magasin	magasin	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nsubj	_	_
+7	ne	ne	ADV	_	ADV___	9	advmod	_	_
+8	vous	se	PRON	_	PRON__Number=Plur|Person=2	9	iobj	_	_
+9	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+10	pas	pas	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+11	de	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	12	case	_	_
+12	geste	geste	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+13	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+14	vous	se	PRON	_	PRON__Number=Plur|Person=2	15	nsubj	_	_
+15	offrez	offrir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+16	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	coque	coque	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obj	_	_
+18	de	de	ADP	_	ADP___	21	case	_	_
+19	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	bonne	bon	ADJ	_	ADJ__Gender=Fem|Number=Sing	21	amod	_	_
+21	couleur	couleur	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	nmod	_	_
+22	à	à	ADP	_	ADP___	24	case	_	_
+23	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	24	det	_	_
+24	ado	ado	PROPN	_	PROPN__Number=Sing	15	obl	_	_
+25	en	en	ADP	_	ADP___	24	advmod	_	_
+26	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	fixed	_	_
+27	et	et	CCONJ	_	CCONJ___	29	cc	_	_
+28	ni	ni	CCONJ	_	CCONJ___	29	cc	_	_
+29	vu	voir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	conj	_	_
+30	ni	ni	CCONJ	_	CCONJ___	31	cc	_	_
+31	connu	connaître	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	conj	_	_
+32	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+

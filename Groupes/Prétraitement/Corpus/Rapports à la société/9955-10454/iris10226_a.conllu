@@ -1,0 +1,262 @@
+#Bonjour,Vous êtes locataire ou propriétaire ?
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+3	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	5	nsubj	_	_
+4	êtes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	locataire	locataire	ADJ	_	ADJ__Number=Sing	1	conj	_	_
+6	ou	ou	CCONJ	_	CCONJ___	7	cc	_	_
+7	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	5	conj	_	_
+8	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#De quand date le dernier entretien ?
+1	De	De	ADP	_	ADP___	1	case	_	_
+2	quand	quand	SCONJ	_	SCONJ___	5	nummod	_	_
+3	date	dater	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	dernier	dernier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	1	amod	_	_
+6	entretien	entretien	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+7	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Et si vous voulez mettre en cause la responsabilité du chauffagiste, il faut déclarer un sinistre à son assurance pro.
+1	Et	Et	CCONJ	_	CCONJ___	1	cc	_	_
+2	si	si	SCONJ	_	SCONJ___	5	mark	_	_
+3	vous	se	PRON	_	PRON__Number=Plur|Person=2	5	nsubj	_	_
+4	voulez	vouloir	AUX	_	AUX__Mood=Cnd|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+5	mettre	mettre	VERB	_	VERB__VerbForm=Inf	1	xcomp	_	_
+6	en	en	ADP	_	ADP___	7	iobj	_	_
+7	cause	causer	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	fixed	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+9	responsabilité	responsabilité	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obj	_	_
+10	du	du	DET	_	DET__Gender=Masc|Number=Sing	11	det	_	_
+11	chauffagiste	chauffagiste	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	amod	_	_
+12	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+13	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
+14	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+15	déclarer	déclarer	VERB	_	VERB__VerbForm=Inf	11	xcomp	_	_
+16	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+17	sinistre	sinistre	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obj	_	_
+18	à	à	ADP	_	ADP___	19	case	_	_
+19	son	son	DET	_	DET__Number=Sing|Poss=Yes	29	nmod:poss	_	_
+20	assurance	assurance	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obl	_	_
+21	pro	pro	ADJ	_	ADJ__Gender=Fem|Number=Plur	20	nmod	_	_
+22	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Mais sur une chaudière ancienne et sans contrat d'entretien avec ledit chauffagiste, ... euh !
+1	Mais	Mais	CCONJ	_	CCONJ___	1	cc	_	_
+2	sur	sur	ADP	_	ADP___	5	case	_	_
+3	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	chaudière	chaudière	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obl	_	_
+5	ancienne	ancien	ADJ	_	ADJ__Gender=Fem|Number=Sing	1	amod	_	_
+6	et	et	CCONJ	_	CCONJ___	7	cc	_	_
+7	sans	sans	ADP	_	ADP___	5	case	_	_
+8	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	conj	_	_
+9	d'	de	ADP	_	ADP___	11	case	_	_
+10	entretien	entretien	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+11	avec	avec	ADP	_	ADP___	11	case	_	_
+12	ledit	ledit	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obl	_	_
+13	chauffagiste	chauffagiste	ADJ	_	ADJ__Number=Sing	14	amod	_	_
+14	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+15	...	...	PUNCT	_	PUNCT___	11	punct	_	_
+16	euh	euh	SCONJ	_	SCONJ___	0	ROOT	_	_
+17	!	!	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#je doute du résultat.
+1	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	doute	douter	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	du	du	DET	_	DET__Gender=Masc|Number=Sing	5	det	_	_
+4	résultat	résultat	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+5	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Relisez le contrat qui "peut" mentionner des garanties.
+1	Relisez	Relisez	ADV	_	ADV__PronType=Int	0	ROOT	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+4	qui	qui	PRON	_	PRON__PronType=Rel	8	nsubj	_	_
+5	"	"	PUNCT	_	PUNCT___	8	punct	_	_
+6	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	"	"	PUNCT	_	PUNCT___	8	punct	_	_
+8	mentionner	mentionner	VERB	_	VERB__VerbForm=Inf	1	acl	_	_
+9	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
+10	garanties	garantir	NOUN	_	NOUN__Gender=Fem|Number=Plur	8	obj	_	_
+11	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Ne plus pouvoir réparer une chaudière de 17 ans... c'est bizarre quand même.
+1	Ne	Ne	ADV	_	ADV___	1	advmod	_	_
+2	plus	plaire	ADV	_	ADV___	3	fixed	_	_
+3	pouvoir	pouvoir	AUX	_	AUX__VerbForm=Inf	1	aux	_	_
+4	réparer	réparer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+6	chaudière	chaudière	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+7	de	de	ADP	_	ADP___	8	case	_	_
+8	17	17	NUM	_	NUM__NumType=Card	1	nummod	_	_
+9	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	nmod	_	_
+10	...	...	PUNCT	_	PUNCT___	8	punct	_	_
+11	c'	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+12	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+13	bizarre	bizarre	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	parataxis	_	_
+14	quand	quand	ADV	_	ADV___	15	advmod	_	_
+15	même	même	ADV	_	ADV___	15	fixed	_	_
+16	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Vous devriez demander un 2eme avis et des devis de réparation.
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+2	devriez	devoir	AUX	_	AUX__Mood=Cnd|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	demander	demander	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+5	2eme	2eme	NUM	_	NUM__NumType=Card	8	obj	_	_
+6	avis	avis	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	amod	_	_
+7	et	et	CCONJ	_	CCONJ___	8	cc	_	_
+8	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	1	det	_	_
+9	devis	devis	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	conj	_	_
+10	de	de	ADP	_	ADP___	8	case	_	_
+11	réparation	réparation	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+12	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Et ensuite l'assurance pro.
+1	Et	Et	CCONJ	_	CCONJ___	1	cc	_	_
+2	ensuite	ensuite	ADV	_	ADV___	3	advmod	_	_
+3	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+4	assurance	assurance	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+5	pro	pro	ADJ	_	ADJ__Gender=Fem|Number=Plur	8	advmod	_	_
+6	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#L'entretien des chaudières n'étant pas ma spécialité
+1	L'	L'	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	2	det	_	_
+2	entretien	entretien	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
+4	chaudières	chaudière	NOUN	_	NOUN__Gender=Fem|Number=Plur	2	nmod	_	_
+5	n'	ne	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+6	étant	être	AUX	_	AUX__Tense=Pres|VerbForm=Part	9	cop	_	_
+7	pas	pas	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+8	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	9	nmod:poss	_	_
+9	spécialité	spécialité	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	nmod	_	_
+
+
+#.... je vous laisse éclaircir la situation avec votre chauffagiste.
+1	....	....	PUNCT	_	PUNCT___	2	punct	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	2	nsubj	_	_
+3	vous	se	PRON	_	PRON__Number=Plur|Person=2	4	iobj	_	_
+4	laisse	laisser	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	éclaircir	éclaircir	VERB	_	VERB__VerbForm=Inf	9	xcomp	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+7	situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obj	_	_
+8	avec	avec	ADP	_	ADP___	9	case	_	_
+9	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	2	nmod:poss	_	_
+10	chauffagiste	chauffagiste	ADJ	_	ADJ__Number=Sing	13	obl	_	_
+11	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Bonjour,Si c'est le même chauffagiste qui est intervenu en janvier 2018 et que son diagnostic est que c'est un mauvais réglage qui a causé le problème, je ne vois pas très bien comment il peut dégager sa responsabilité !
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Si	Si	SCONJ	_	SCONJ___	8	mark	_	_
+4	c'	ce	PRON	_	PRON__Number=Sing|Person=3	8	nsubj	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	même	même	ADJ	_	ADJ__Number=Sing	8	amod	_	_
+8	chauffagiste	chauffagiste	ADJ	_	ADJ__Number=Sing	1	amod	_	_
+9	qui	qui	PRON	_	PRON__PronType=Rel	11	nsubj:pass	_	_
+10	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+11	intervenu	intervenir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	acl:relcl	_	_
+12	en	en	ADP	_	ADP___	13	case	_	_
+13	janvier	janvier	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obl	_	_
+14	2018	2018	NUM	_	NUM__NumType=Card	13	nummod	_	_
+15	et	et	CCONJ	_	CCONJ___	24	cc	_	_
+16	que	que	SCONJ	_	SCONJ___	24	mark	_	_
+17	son	son	DET	_	DET__Number=Sing|Poss=Yes	18	nmod:poss	_	_
+18	diagnostic	diagnostic	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	nsubj	_	_
+19	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+20	que	que	SCONJ	_	SCONJ___	24	mark	_	_
+21	c'	ce	PRON	_	PRON__Number=Sing|Person=3	24	nsubj	_	_
+22	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+23	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	mauvais	mauvais	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	conj	_	_
+25	réglage	réglage	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	amod	_	_
+26	qui	qui	PRON	_	PRON__PronType=Rel	28	nsubj	_	_
+27	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	causé	causer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	acl:relcl	_	_
+29	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	problème	problème	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	obj	_	_
+31	,	,	PUNCT	_	PUNCT___	24	punct	_	_
+32	je	il	PRON	_	PRON__Number=Sing|Person=1	37	nsubj	_	_
+33	ne	ne	ADV	_	ADV__Polarity=Neg	37	advmod	_	_
+34	vois	voir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	33	fixed	_	_
+35	pas	pas	ADV	_	ADV__Polarity=Neg	36	advmod	_	_
+36	très	très	ADV	_	ADV___	37	advmod	_	_
+37	bien	bien	ADV	_	ADV___	41	advmod	_	_
+38	comment	comment	ADV	_	ADV__PronType=Int	41	advmod	_	_
+39	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	41	nsubj	_	_
+40	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	aux	_	_
+41	dégager	dégager	VERB	_	VERB__VerbForm=Inf	24	acl:relcl	_	_
+42	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	43	nmod:poss	_	_
+43	responsabilité	responsabilité	NOUN	_	NOUN__Gender=Fem|Number=Sing	41	obj	_	_
+44	!	!	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#bonjour,en principe les thermostats  sont insérer dans des doigts de gant ( c'est un tube bouché coté circuit d'eau, et ouvert coté sonde pour pouvoir l'enlever et la retirer FACILEMENT).suivant les chaudières vous en avez deux ou troistempérature d'eau de chauffeTempérature de sécuritéTempérature d'eau sanitairea plus
+1	bonjour	bonjour	NOUN	_	NOUN___	9	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	en	en	ADP	_	ADP___	6	case	_	_
+4	principe	principe	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	fixed	_	_
+5	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	6	det	_	_
+6	thermostats	thermostat	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	nmod	_	_
+7	 	 	SPACE	_		6		_	_
+8	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	insérer	insérer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+10	dans	dan	ADP	_	ADP___	12	case	_	_
+11	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	12	det	_	_
+12	doigts	doigt	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	obl	_	_
+13	de	de	ADP	_	ADP___	14	mark	_	_
+14	gant	gant	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nmod	_	_
+15	(	(	PUNCT	_	PUNCT___	12	punct	_	_
+16	c'	ce	PRON	_	PRON__Number=Sing|Person=3	19	nsubj	_	_
+17	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+18	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	tube	tuber	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	nmod	_	_
+20	bouché	boucher	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	amod	_	_
+21	coté	coter	VERB	_	VERB__VerbForm=Inf	12	acl	_	_
+22	circuit	circuit	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	punct	_	_
+23	d'	de	ADP	_	ADP___	24	case	_	_
+24	eau	eau	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	obl	_	_
+25	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+26	et	et	CCONJ	_	CCONJ___	27	cc	_	_
+27	ouvert	ouvrir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	conj	_	_
+28	coté	coter	VERB	_	VERB__VerbForm=Inf	12	acl	_	_
+29	sonde	sonder	ADJ	_	ADJ__Gender=Fem|Number=Sing	12	amod	_	_
+30	pour	pour	ADP	_	ADP___	31	mark	_	_
+31	pouvoir	pouvoir	VERB	_	VERB__VerbForm=Inf	9	advcl	_	_
+32	l'	le	PRON	_	PRON__Number=Sing|Person=3	33	det	_	_
+33	enlever	enlever	VERB	_	VERB__VerbForm=Inf	31	obj	_	_
+34	et	et	CCONJ	_	CCONJ___	36	cc	_	_
+35	la	le	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	36	obj	_	_
+36	retirer	retirer	VERB	_	VERB__VerbForm=Inf	31	conj	_	_
+37	FACILEMENT).suivant	FACILEMENT).suivant	VERB	_	VERB__Tense=Pres|VerbForm=Part	42	mark	_	_
+38	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	39	det	_	_
+39	chaudières	chaudière	NOUN	_	NOUN__Gender=Fem|Number=Plur	37	obj	_	_
+40	vous	se	PRON	_	PRON__Number=Plur|Person=2	42	nsubj	_	_
+41	en	en	PRON	_	PRON__Person=3	42	expl	_	_
+42	avez	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	36	xcomp	_	_
+43	deux	deux	NUM	_	NUM__NumType=Card	42	nummod	_	_
+44	ou	ou	CCONJ	_	CCONJ___	45	cc	_	_
+45	troistempérature	troistempérature	NOUN	_	NOUN__Gender=Fem|Number=Sing	43	conj	_	_
+46	d'	de	ADP	_	ADP___	47	case	_	_
+47	eau	eau	NOUN	_	NOUN__Gender=Fem|Number=Sing	45	nmod	_	_
+48	de	de	ADP	_	ADP___	49	case	_	_
+49	chauffeTempérature	chauffeTempérature	NOUN	_	NOUN__Gender=Fem|Number=Sing	47	nmod	_	_
+50	de	de	ADP	_	ADP___	51	case	_	_
+51	sécuritéTempérature	sécuritéTempérature	NOUN	_	NOUN__Gender=Fem|Number=Sing	49	nmod	_	_
+52	d'	de	ADP	_	ADP___	53	case	_	_
+53	eau	eau	NOUN	_	NOUN__Gender=Fem|Number=Sing	49	nmod	_	_
+54	sanitairea	sanitairea	ADJ	_	ADJ___	53	amod	_	_
+55	plus	plaire	ADV	_	ADV___	42	advmod	_	_
+
+

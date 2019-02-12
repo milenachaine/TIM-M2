@@ -1,0 +1,463 @@
+#Bonjour,J'ai vendu une remorque à quelqu'un qui m'a payé avec un chèque sans provision.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	5	acl	_	_
+2	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+3	J'	J'	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+4	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	vendu	vendre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+6	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	remorque	remorquer	ADJ	_	ADJ__Number=Sing	5	obj	_	_
+8	à	à	ADP	_	ADP___	9	case	_	_
+9	quelqu'un	quelqu'un	PRON	_	PRON__PronType=Rel	7	obl	_	_
+10	qui	qui	PRON	_	PRON__PronType=Rel	13	nsubj	_	_
+11	m'	se	PRON	_	PRON__Number=Sing|Person=1	13	iobj	_	_
+12	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	payé	payer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+14	avec	avec	ADP	_	ADP___	16	case	_	_
+15	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	chèque	chèque	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+17	sans	sans	ADP	_	ADP___	18	case	_	_
+18	provision	provision	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nmod	_	_
+19	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#J'ai vu quelque temps après ma remorque en vente sur.
+1	J'	J'	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+2	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	vu	voir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	quelque	quelque	DET	_	DET__Definite=Ind|Number=Sing|PronType=Art	5	det	_	_
+5	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+6	après	après	ADP	_	ADP___	7	mark	_	_
+7	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	5	nmod:poss	_	_
+8	remorque	remorquer	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	xcomp	_	_
+9	en	en	ADP	_	ADP___	7	case	_	_
+10	vente	venter	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obl	_	_
+11	sur	sur	ADP	_	ADP___	13	punct	_	_
+12	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#La police me dit que les plaintes pour chèques sans provision sont classées sans suite.
+1	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+2	police	policer	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nsubj	_	_
+3	me	se	PRON	_	PRON__Number=Sing|Person=1	5	iobj	_	_
+4	dit	dire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	que	que	SCONJ	_	SCONJ___	5	mark	_	_
+6	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+7	plaintes	plainte	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	nsubj:pass	_	_
+8	pour	pour	ADP	_	ADP___	9	case	_	_
+9	chèques	chèque	ADJ	_	ADJ__Number=Plur	7	nmod	_	_
+10	sans	sans	ADP	_	ADP___	13	case	_	_
+11	provision	provision	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nmod	_	_
+12	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+13	classées	classer	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	9	ccomp	_	_
+14	sans	sans	ADP	_	ADP___	16	case	_	_
+15	suite	suite	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obl	_	_
+16	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Moi je veux bien, mais la police ne peut-elle pas faire saisir la remorque avant qu'elle soit vendue ?
+1	Moi	Moi	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	5	nsubj	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+3	veux	vouloir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	advmod	_	_
+4	bien	bien	ADV	_	ADV___	5	advmod	_	_
+5	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+6	mais	mai	CCONJ	_	CCONJ___	7	cc	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+8	police	policer	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nsubj	_	_
+9	ne	ne	ADV	_	ADV___	7	advmod	_	_
+10	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+11	-	-	PUNCT	_	PUNCT___	13	punct	_	_
+12	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	13	nsubj	_	_
+13	pas	pas	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+14	faire	faire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+15	saisir	saisir	VERB	_	VERB__VerbForm=Inf	16	xcomp	_	_
+16	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	obj	_	_
+17	remorque	remorquer	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	obj	_	_
+18	avant	avant	ADP	_	ADP___	16	mark	_	_
+19	qu'	que	SCONJ	_	SCONJ___	5	fixed	_	_
+20	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	22	nsubj:pass	_	_
+21	soit	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux:pass	_	_
+22	vendue	vendu	ADJ	_	ADJ__Gender=Fem|Number=Sing	22	advcl	_	_
+23	?	?	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#Et aucun autre motif de plainte ne peut-il être retenu ?
+1	Et	Et	CCONJ	_	CCONJ___	5	cc	_	_
+2	aucun	aucun	DET	_	DET__Gender=Masc|Number=Sing	5	det	_	_
+3	autre	autre	ADJ	_	ADJ__Number=Sing	5	amod	_	_
+4	motif	motif	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+5	de	de	ADP	_	ADP___	5	case	_	_
+6	plainte	plaindre	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+7	ne	ne	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+8	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+9	-	-	PUNCT	_	PUNCT___	7	punct	_	_
+10	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	13	nsubj:pass	_	_
+11	être	être	AUX	_	AUX__VerbForm=Inf	13	aux:pass	_	_
+12	retenu	retenir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+13	?	?	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Merci d'avance.
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	d'	de	ADP	_	ADP___	5	case	_	_
+3	avance	avancer	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+4	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#ribould,Oui, je me suis renseignée sur la possibilité d'une saisie bancaire par huissier.
+1	ribould	ribould	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Oui	Oui	PROPN	_	PROPN__Gender=Masc|Number=Sing	1	obl	_	_
+4	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+5	je	il	PRON	_	PRON__Number=Sing|Person=1	8	nsubj	_	_
+6	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	8	expl	_	_
+7	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	renseignée	renseigner	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+9	sur	sur	ADP	_	ADP___	11	case	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	possibilité	possibilité	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+12	d'	de	ADP	_	ADP___	14	case	_	_
+13	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	saisie	saisir	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+15	bancaire	bancaire	ADJ	_	ADJ__Number=Sing	14	amod	_	_
+16	par	par	ADP	_	ADP___	17	case	_	_
+17	huissier	huissier	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nmod	_	_
+18	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Or comme vous le dites, il se peut que mon acheteur soit insolvable et j'aurais déboursé des frais d'huisser pour rien.
+1	Or	Or	CCONJ	_	CCONJ___	8	cc	_	_
+2	comme	comme	SCONJ	_	SCONJ___	1	mark	_	_
+3	vous	se	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	obj	_	_
+5	dites	dit	AUX	_	AUX__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	8	advcl	_	_
+6	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+7	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+8	se	se	PRON	_	PRON__Person=3|Reflex=Yes	8	expl	_	_
+9	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+10	que	que	SCONJ	_	SCONJ___	11	mark	_	_
+11	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+12	acheteur	acheteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nsubj	_	_
+13	soit	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	insolvable	insolvable	ADJ	_	ADJ__Number=Sing	11	ccomp	_	_
+15	et	et	CCONJ	_	CCONJ___	14	cc	_	_
+16	j'	il	PRON	_	PRON__Number=Sing|Person=1	17	nsubj	_	_
+17	aurais	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	14	aux	_	_
+18	déboursé	débourser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+19	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	27	det	_	_
+20	frais	frai	NOUN	_	NOUN__Gender=Masc|Number=Plur	23	obj	_	_
+21	d'	de	ADP	_	ADP___	23	mark	_	_
+22	huisser	huisser	VERB	_	VERB__VerbForm=Inf	23	acl	_	_
+23	pour	pour	ADP	_	ADP___	27	case	_	_
+24	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	27	obl	_	_
+25	.	.	PUNCT	_	PUNCT___	27	punct	_	_
+
+
+#Je me demandais juste si une plainte pour abus de confiance, voire escroquerie, est envisageable.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	8	nsubj	_	_
+2	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	1	expl	_	_
+3	demandais	demander	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	juste	juste	ADV	_	ADV___	8	advmod	_	_
+5	si	si	SCONJ	_	SCONJ___	8	mark	_	_
+6	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	plainte	plaindre	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nsubj	_	_
+8	pour	pour	ADP	_	ADP___	8	case	_	_
+9	abus	abus	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+10	de	de	ADP	_	ADP___	11	case	_	_
+11	confiance	confiance	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+12	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+13	voire	voire	CCONJ	_	CCONJ___	14	cc	_	_
+14	escroquerie	escroquerie	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	conj	_	_
+15	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+16	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	envisageable	envisageable	ADJ	_	ADJ__Number=Sing	14	ccomp	_	_
+18	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Mon acheteur n'a pas seulement réglé avec un chèque sans provision, il tente aussi et surtout de revendre la remorque.
+1	Mon	Mon	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+2	acheteur	acheteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	n'	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+4	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+6	seulement	seulement	ADV	_	ADV___	8	advmod	_	_
+7	réglé	régler	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+8	avec	avec	ADP	_	ADP___	8	case	_	_
+9	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	chèque	chèque	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obl	_	_
+11	sans	sans	ADP	_	ADP___	8	case	_	_
+12	provision	provision	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nmod	_	_
+13	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+14	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	11	nsubj	_	_
+15	tente	tenter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	parataxis	_	_
+16	aussi	aussi	ADV	_	ADV___	17	advmod	_	_
+17	et	et	CCONJ	_	CCONJ___	14	cc	_	_
+18	surtout	surtout	ADV	_	ADV___	8	advmod	_	_
+19	de	de	ADP	_	ADP___	27	mark	_	_
+20	revendre	revendre	VERB	_	VERB__VerbForm=Inf	23	conj	_	_
+21	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	remorque	remorquer	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	obj	_	_
+23	.	.	PUNCT	_	PUNCT___	27	punct	_	_
+
+
+#Non ?
+1	Non	Non	ADV	_	ADV___	0	ROOT	_	_
+2	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Merci en tout cas de votre réponse.
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	en	en	ADP	_	ADP___	1	case	_	_
+3	tout	tout	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
+4	cas	cas	NOUN	_	NOUN__Gender=Masc	8	fixed	_	_
+5	de	de	ADP	_	ADP___	8	case	_	_
+6	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+7	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+8	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Ma mésaventure n'est pas un cas isolé, et je pense que toute suggestion ou conseil est utile.
+1	Ma	Ma	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	8	nmod:poss	_	_
+2	mésaventure	mésaventure	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+3	n'	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+8	isolé	isoler	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	amod	_	_
+9	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+10	et	et	CCONJ	_	CCONJ___	11	cc	_	_
+11	je	il	PRON	_	PRON__Number=Sing|Person=1	8	nsubj	_	_
+12	pense	penser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	conj	_	_
+13	que	que	SCONJ	_	SCONJ___	14	mark	_	_
+14	toute	tout	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+15	suggestion	suggestion	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nsubj	_	_
+16	ou	ou	CCONJ	_	CCONJ___	17	cc	_	_
+17	conseil	conseil	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	conj	_	_
+18	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+19	utile	utile	ADJ	_	ADJ__Number=Sing	27	ccomp	_	_
+20	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Bonjour
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+
+
+#VincentBJe sens un peu d'agacement dans votre réponse.
+1	VincentBJe	VincentBJe	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+2	sens	sentir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	advmod	_	_
+3	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+4	peu	peu	ADV	_	ADV___	8	fixed	_	_
+5	d'	de	ADP	_	ADP___	8	case	_	_
+6	agacement	agacement	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+7	dans	dan	ADP	_	ADP___	8	case	_	_
+8	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+9	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obl	_	_
+10	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Pourtant je ne vous ai pas forcé à me répondre.
+1	Pourtant	Pourtant	ADV	_	ADV___	8	advmod	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+3	ne	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+4	vous	se	PRON	_	PRON__Number=Plur|Person=2	8	expl	_	_
+5	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+6	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+7	forcé	forcer	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	0	ROOT	_	_
+8	à	à	ADP	_	ADP___	8	mark	_	_
+9	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	11	iobj	_	_
+10	répondre	répondre	VERB	_	VERB__VerbForm=Inf	11	xcomp	_	_
+11	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Et sans doute ne réalisez-vous pas ce qu'une personne peut ressentir lorsqu'elle comprend qu'en France quelqu'un peut payer un bien avec un chèque en bois, revendre le bien et ne pas être inquiété.
+1	Et	Et	CCONJ	_	CCONJ___	8	cc	_	_
+2	sans	sans	ADP	_	ADP___	1	advmod	_	_
+3	doute	douter	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	fixed	_	_
+4	ne	ne	ADV	_	ADV___	8	advmod	_	_
+5	réalisez	réaliser	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	-	-	PUNCT	_	PUNCT___	8	punct	_	_
+7	vous	se	PRON	_	PRON__Number=Plur|Person=2	8	obj	_	_
+8	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+9	ce	ce	PRON	_	PRON__PronType=Rel	11	obj	_	_
+10	qu'	que	SCONJ	_	SCONJ___	11	obj	_	_
+11	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+12	personne	personne	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nsubj	_	_
+13	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	ressentir	ressentir	VERB	_	VERB__VerbForm=Inf	11	acl:relcl	_	_
+15	lorsqu'	lorsque	SCONJ	_	SCONJ___	14	mark	_	_
+16	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	17	nsubj	_	_
+17	comprend	comprendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+18	qu'	que	SCONJ	_	SCONJ___	8	mark	_	_
+19	en	en	ADP	_	ADP___	27	case	_	_
+20	France	France	PROPN	_	PROPN__Gender=Fem|Number=Sing	23	obl	_	_
+21	quelqu'un	quelqu'un	PRON	_	PRON__PronType=Rel	23	nsubj	_	_
+22	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	payer	payer	VERB	_	VERB__VerbForm=Inf	27	xcomp	_	_
+24	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+25	bien	bien	ADV	_	ADV___	27	obj	_	_
+26	avec	avec	ADP	_	ADP___	27	case	_	_
+27	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+28	chèque	chèque	NOUN	_	NOUN__Gender=Masc|Number=Sing	32	obl	_	_
+29	en	en	ADP	_	ADP___	30	case	_	_
+30	bois	boire	NOUN	_	NOUN__Gender=Masc|Number=Sing	32	nmod	_	_
+31	,	,	PUNCT	_	PUNCT___	32	punct	_	_
+32	revendre	revendre	VERB	_	VERB__VerbForm=Inf	27	acl	_	_
+33	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+34	bien	bien	ADV	_	ADV___	36	obj	_	_
+35	et	et	CCONJ	_	CCONJ___	36	cc	_	_
+36	ne	ne	ADV	_	ADV___	32	advmod	_	_
+37	pas	pas	ADV	_	ADV___	38	advmod	_	_
+38	être	être	AUX	_	AUX__VerbForm=Inf	36	aux:pass	_	_
+39	inquiété	inquiéter	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	40	conj	_	_
+40	.	.	PUNCT	_	PUNCT___	38	punct	_	_
+
+
+#Ni par la justice pénale, ni par la justice civile en cas d'insolvabilité.
+1	Ni	Ni	CCONJ	_	CCONJ___	0	ROOT	_	_
+2	par	par	ADP	_	ADP___	1	case	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+4	justice	justice	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+5	pénale	pénal	ADJ	_	ADJ__Gender=Fem|Number=Sing	8	amod	_	_
+6	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+7	ni	ni	CCONJ	_	CCONJ___	8	cc	_	_
+8	par	par	ADP	_	ADP___	8	case	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	justice	justice	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	conj	_	_
+11	civile	civil	ADJ	_	ADJ__Gender=Fem|Number=Sing	8	amod	_	_
+12	en	en	ADP	_	ADP___	14	case	_	_
+13	cas	cas	NOUN	_	NOUN__Gender=Masc	14	fixed	_	_
+14	d'	de	ADP	_	ADP___	11	fixed	_	_
+15	insolvabilité	insolvabilité	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nmod	_	_
+16	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Sans doute n'avez-vous jamais été escroqué, ou jamais vu s'envoler quelques milliers d'euros dont vous aviez très besoin à un moment donné.
+1	Sans	Sans	ADP	_	ADP___	8	advmod	_	_
+2	doute	douter	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	fixed	_	_
+3	n'	ne	ADV	_	ADV___	1	advmod	_	_
+4	avez	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	-	-	PUNCT	_	PUNCT___	8	punct	_	_
+6	vous	se	PRON	_	PRON__Number=Plur|Person=2	8	nsubj:pass	_	_
+7	jamais	jamais	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+8	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	8	aux:pass	_	_
+9	escroqué	escroquer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	obl	_	_
+10	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+11	ou	ou	CCONJ	_	CCONJ___	8	cc	_	_
+12	jamais	jamais	ADV	_	ADV___	14	advmod	_	_
+13	vu	voir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	conj	_	_
+14	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	11	expl	_	_
+15	envoler	envoler	VERB	_	VERB__VerbForm=Inf	14	xcomp	_	_
+16	quelques	quelque	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	17	det	_	_
+17	milliers	millier	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	obj	_	_
+18	d'	de	ADP	_	ADP___	8	case	_	_
+19	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	27	nmod	_	_
+20	dont	dont	PRON	_	PRON__PronType=Rel	23	iobj	_	_
+21	vous	se	PRON	_	PRON__Number=Plur|Person=2	23	nsubj	_	_
+22	aviez	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
+23	très	très	ADV	_	ADV___	27	advmod	_	_
+24	besoin	besoin	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	obj	_	_
+25	à	à	ADP	_	ADP___	27	case	_	_
+26	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	moment	moment	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	obl	_	_
+28	donné	donner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	acl	_	_
+29	.	.	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#Je n'ai pas les moyens de dépenser de grosses sommes pour me payer un avocat ou même un huissier pour un résultat très aléatoire, et les forums sont bien utiles pour des gens comme moi, et heureusement on y trouve des conseils très judicieux.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	8	nsubj	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+3	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+5	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+6	moyens	moyen	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obj	_	_
+7	de	de	ADP	_	ADP___	8	mark	_	_
+8	dépenser	dépenser	VERB	_	VERB__VerbForm=Inf	8	acl	_	_
+9	de	de	ADP	_	ADP___	11	case	_	_
+10	grosses	gros	NOUN	_	NOUN__Gender=Fem|Number=Plur	11	obj	_	_
+11	sommes	sommer	NOUN	_	NOUN__Number=Plur	8	obj	_	_
+12	pour	pour	ADP	_	ADP___	14	mark	_	_
+13	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	14	iobj	_	_
+14	payer	payer	VERB	_	VERB__VerbForm=Inf	11	advcl	_	_
+15	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+16	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obj	_	_
+17	ou	ou	CCONJ	_	CCONJ___	14	cc	_	_
+18	même	même	ADV	_	ADV___	8	advmod	_	_
+19	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+20	huissier	huissier	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	conj	_	_
+21	pour	pour	ADP	_	ADP___	23	case	_	_
+22	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	résultat	résultat	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	obl	_	_
+24	très	très	ADV	_	ADV___	27	advmod	_	_
+25	aléatoire	aléatoire	NOUN	_	NOUN__Gender=Fem|Number=Sing	27	amod	_	_
+26	,	,	PUNCT	_	PUNCT___	27	punct	_	_
+27	et	et	CCONJ	_	CCONJ___	27	cc	_	_
+28	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	32	det	_	_
+29	forums	forum	NOUN	_	NOUN__Gender=Fem|Number=Plur	30	nsubj	_	_
+30	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	cop	_	_
+31	bien	bien	ADV	_	ADV___	32	advmod	_	_
+32	utiles	utile	ADJ	_	ADJ__Number=Plur	27	conj	_	_
+33	pour	pour	ADP	_	ADP___	36	case	_	_
+34	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	36	det	_	_
+35	gens	gens	NOUN	_	NOUN__Gender=Masc|Number=Plur	36	nmod	_	_
+36	comme	comme	ADP	_	ADP___	32	case	_	_
+37	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	38	advcl	_	_
+38	,	,	PUNCT	_	PUNCT___	36	punct	_	_
+39	et	et	CCONJ	_	CCONJ___	40	cc	_	_
+40	heureusement	heureusement	ADV	_	ADV___	38	advmod	_	_
+41	on	on	PRON	_	PRON__Number=Sing|Person=3	42	nsubj	_	_
+42	y	yu	PRON	_	PRON__Person=3	36	iobj	_	_
+43	trouve	trouver	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	conj	_	_
+44	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	46	det	_	_
+45	conseils	conseil	NOUN	_	NOUN__Gender=Masc|Number=Plur	46	obj	_	_
+46	très	très	ADV	_	ADV___	46	advmod	_	_
+47	judicieux	judicieux	ADJ	_	ADJ__Gender=Masc	46	amod	_	_
+48	.	.	PUNCT	_	PUNCT___	60	punct	_	_
+
+
+#Pour en revenir à mon affaire, je me posais juste la question de savoir si une action restait possible sans dépenser une fortune, par exemple une plainte pour escroquerie ou abus de confiance, voire autre chose, c'est tout.
+1	Pour	Pour	ADP	_	ADP___	8	mark	_	_
+2	en	en	PRON	_	PRON__Person=3	1	expl	_	_
+3	revenir	revenir	VERB	_	VERB__VerbForm=Inf	1	advcl	_	_
+4	à	à	ADP	_	ADP___	8	case	_	_
+5	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+6	affaire	affairer	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+7	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+8	je	il	PRON	_	PRON__Number=Sing|Person=1	8	nsubj	_	_
+9	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	11	iobj	_	_
+10	posais	poser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+11	juste	juste	ADV	_	ADV___	8	advmod	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obj	_	_
+14	de	de	ADP	_	ADP___	11	mark	_	_
+15	savoir	savoir	VERB	_	VERB__VerbForm=Inf	14	acl	_	_
+16	si	si	SCONJ	_	SCONJ___	17	mark	_	_
+17	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+18	action	action	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nsubj	_	_
+19	restait	rester	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	cop	_	_
+20	possible	possible	ADJ	_	ADJ__Number=Sing	23	ccomp	_	_
+21	sans	sans	ADP	_	ADP___	23	mark	_	_
+22	dépenser	dépenser	VERB	_	VERB__VerbForm=Inf	23	xcomp	_	_
+23	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+24	fortune	fortune	NOUN	_	NOUN__Gender=Fem|Number=Sing	27	obj	_	_
+25	,	,	PUNCT	_	PUNCT___	27	punct	_	_
+26	par	par	ADP	_	ADP___	27	advmod	_	_
+27	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	fixed	_	_
+28	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+29	plainte	plaindre	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	obl	_	_
+30	pour	pour	ADP	_	ADP___	32	case	_	_
+31	escroquerie	escroquerie	NOUN	_	NOUN__Gender=Fem|Number=Sing	32	nmod	_	_
+32	ou	ou	CCONJ	_	CCONJ___	27	cc	_	_
+33	abus	abus	NOUN	_	NOUN__Gender=Masc|Number=Sing	36	conj	_	_
+34	de	de	ADP	_	ADP___	36	case	_	_
+35	confiance	confiance	NOUN	_	NOUN__Gender=Fem|Number=Sing	36	nmod	_	_
+36	,	,	PUNCT	_	PUNCT___	32	punct	_	_
+37	voire	voire	CCONJ	_	CCONJ___	38	cc	_	_
+38	autre	autre	ADJ	_	ADJ__Number=Sing	36	amod	_	_
+39	chose	chose	NOUN	_	NOUN__Gender=Fem|Number=Sing	40	conj	_	_
+40	,	,	PUNCT	_	PUNCT___	38	punct	_	_
+41	c'	ce	PRON	_	PRON__Number=Sing|Person=3	42	nsubj	_	_
+42	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	cop	_	_
+43	tout	tout	ADV	_	ADV___	27	conj	_	_
+44	.	.	PUNCT	_	PUNCT___	46	punct	_	_
+
+
