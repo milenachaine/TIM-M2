@@ -1,0 +1,564 @@
+#Bonjour à tous,Cas théorique simplifié mais en revanche l'application, elle, est bien pratique dans plusieurs dossiers.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	à	à	ADP	_	ADP___	3	case	_	_
+3	tous	tout	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Rel	1	obl	_	_
+4	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+5	Cas	Cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	conj	_	_
+6	théorique	théorique	ADJ	_	ADJ__Number=Sing	5	amod	_	_
+7	simplifié	simplifier	ADJ	_	ADJ__Number=Sing	5	acl	_	_
+8	mais	mai	CCONJ	_	CCONJ___	18	cc	_	_
+9	en	en	ADP	_	ADP___	12	case	_	_
+10	revanche	revanche	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	fixed	_	_
+11	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	application	application	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	obl	_	_
+13	,	,	PUNCT	_	PUNCT___	18	punct	_	_
+14	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+15	,	,	PUNCT	_	PUNCT___	18	punct	_	_
+16	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux:pass	_	_
+17	bien	bien	ADV	_	ADV___	18	advmod	_	_
+18	pratique	pratiquer	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	conj	_	_
+19	dans	dan	ADP	_	ADP___	21	case	_	_
+20	plusieurs	plusieurs	DET	_	DET__Number=Plur	21	det	_	_
+21	dossiers	dossier	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	obl	_	_
+22	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Supposons que M. X a droit à une prime de 3 par jour de travail (par exemple une prime d'habillage) libellée dans son contrat de travail.
+1	Supposons	Supposons	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+2	que	que	SCONJ	_	SCONJ___	3	obj	_	_
+3	M.	monsieur	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+4	X	X	NOUN	_	NOUN___	5	flat:name	_	_
+5	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+6	droit	droit	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+7	à	à	ADP	_	ADP___	5	case	_	_
+8	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+9	prime	primer	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obl	_	_
+10	de	de	ADP	_	ADP___	9	case	_	_
+11	3	3	PRON	_	PRON__NumType=Card|PronType=Rel	12	nmod	_	_
+12	par	par	ADP	_	ADP___	18	case	_	_
+13	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nmod	_	_
+14	de	de	ADP	_	ADP___	18	case	_	_
+15	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nmod	_	_
+16	(	(	PUNCT	_	PUNCT___	18	punct	_	_
+17	par	par	ADP	_	ADP___	18	advmod	_	_
+18	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	fixed	_	_
+19	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	prime	primer	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	obl	_	_
+21	d'	de	ADP	_	ADP___	1	case	_	_
+22	habillage	habillage	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+23	)	)	PUNCT	_	PUNCT___	23	punct	_	_
+24	libellée	libeller	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	28	acl	_	_
+25	dans	dan	ADP	_	ADP___	28	case	_	_
+26	son	son	DET	_	DET__Number=Sing|Poss=Yes	25	nmod:poss	_	_
+27	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	obl	_	_
+28	de	de	ADP	_	ADP___	23	case	_	_
+29	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	nmod	_	_
+30	.	.	PUNCT	_	PUNCT___	31	punct	_	_
+
+
+#Il est payé pour le mois N le 1er jour du mois N+1 et reçoit sa feuille de paye contre signature le même jour.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	payé	payer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+4	pour	pour	ADP	_	ADP___	5	case	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+6	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+7	N	N	NOUN	_	NOUN___	5	nmod	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+9	1er	1er	ADJ	_	ADJ__NumType=Ord	12	amod	_	_
+10	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obl	_	_
+11	du	du	DET	_	DET__Gender=Masc|Number=Sing	12	det	_	_
+12	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	18	obj	_	_
+13	N+1	N+1	NOUN	_	NOUN__Gender=Fem|Number=Plur	18	amod	_	_
+14	et	et	CCONJ	_	CCONJ___	18	cc	_	_
+15	reçoit	recevoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	_
+16	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	18	nmod:poss	_	_
+17	feuille	feuiller	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	obj	_	_
+18	de	de	ADP	_	ADP___	1	case	_	_
+19	paye	payer	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	nmod	_	_
+20	contre	contrer	ADP	_	ADP___	21	case	_	_
+21	signature	signature	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obl	_	_
+22	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+23	même	même	ADJ	_	ADJ__Number=Sing	23	amod	_	_
+24	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	nmod	_	_
+25	.	.	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#Il est embauché en 2000.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj:pass	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	embauché	embaucher	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+4	en	en	ADP	_	ADP___	5	case	_	_
+5	2000	2000	NUM	_	NUM__NumType=Card	1	nummod	_	_
+6	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Il ne touche jamais sa prime et se réveille en 2018 par le dépôt au greffe du CPH le 12 juin 2018 d'une saisine réclamant le payement.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	ne	ne	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+3	touche	toucher	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	jamais	jamais	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+5	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	1	nmod:poss	_	_
+6	prime	primer	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obj	_	_
+7	et	et	CCONJ	_	CCONJ___	5	cc	_	_
+8	se	se	PRON	_	PRON__Person=3|Reflex=Yes	18	expl	_	_
+9	réveille	réveiller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+10	en	en	ADP	_	ADP___	9	case	_	_
+11	2018	2018	NUM	_	NUM__NumType=Card	12	nummod	_	_
+12	par	par	ADP	_	ADP___	18	case	_	_
+13	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+14	dépôt	dépôt	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obl	_	_
+15	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	18	case	_	_
+16	greffe	greffer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	nmod	_	_
+17	du	du	DET	_	DET__Gender=Masc|Number=Sing	18	det	_	_
+18	CPH	CPH	PROPN	_	PROPN___	1	obj	_	_
+19	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	12	12	NUM	_	NUM__NumType=Card	21	nummod	_	_
+21	juin	juin	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+22	2018	2018	NUM	_	NUM__NumType=Card	1	nummod	_	_
+23	d'	de	ADP	_	ADP___	23	case	_	_
+24	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+25	saisine	saisine	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	nmod	_	_
+26	réclamant	réclamer	VERB	_	VERB__Tense=Pres|VerbForm=Part	25	acl	_	_
+27	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	payement	payement	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	obj	_	_
+29	.	.	PUNCT	_	PUNCT___	31	punct	_	_
+
+
+#A quand peut-on remonter comme prescription?
+1	A	A	NOUN	_	NOUN___	1	aux	_	_
+2	quand	quand	SCONJ	_	SCONJ___	3	mark	_	_
+3	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+4	-	-	PUNCT	_	PUNCT___	5	punct	_	_
+5	on	on	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+6	remonter	remonter	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+7	comme	comme	ADP	_	ADP___	5	case	_	_
+8	prescription	prescription	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	obl	_	_
+9	?	?	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#La prescription est de 3 ans, certes.
+1	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	prescription	prescription	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+4	de	de	ADP	_	ADP___	5	case	_	_
+5	3	3	NUM	_	NUM__NumType=Card	1	nummod	_	_
+6	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+7	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+8	certes	certes	ADJ	_	ADJ__Gender=Fem|Number=Plur	18	conj	_	_
+9	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Mais quel jour précis?Deux thèses :a)
+1	Mais	Mais	CCONJ	_	CCONJ___	1	cc	_	_
+2	quel	quel	DET	_	DET__Gender=Masc|Number=Sing	3	det	_	_
+3	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+4	précis?Deux	précis?Deux	ADJ	_	ADJ__Gender=Masc	5	case	_	_
+5	thèses	thèse	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	nmod	_	_
+6	:	:	PUNCT	_	PUNCT___	5	punct	_	_
+7	a	avoir	NOUN	_	NOUN___	0	ROOT	_	_
+8	)	)	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#On remonte au 12 juin 2015 car la prescription est de trois ans.
+1	On	On	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+2	remonte	remonter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	au	au	NOUN	_	NOUN___	1	det	_	_
+4	12	12	NUM	_	NUM__NumType=Card	5	nummod	_	_
+5	juin	juin	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+6	2015	2015	NUM	_	NUM__NumType=Card	5	nummod	_	_
+7	car	car	CCONJ	_	CCONJ___	5	cc	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+9	prescription	prescription	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nsubj	_	_
+10	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+11	de	de	ADP	_	ADP___	12	case	_	_
+12	trois	trois	NUM	_	NUM__NumType=Card	18	nummod	_	_
+13	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	18	conj	_	_
+14	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Ainsi pour juin 2015
+1	Ainsi	Ainsi	ADV	_	ADV___	1	advmod	_	_
+2	pour	pour	ADP	_	ADP___	3	case	_	_
+3	juin	juin	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	2015	2015	NUM	_	NUM__NumType=Card	5	nummod	_	_
+
+
+#M. X ne pourra rien réclamer au titre de la période du 1er juin au 11 juin.b)
+1	M.	monsieur	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+2	X	X	NOUN	_	NOUN___	3	amod	_	_
+3	ne	ne	ADV	_	ADV___	1	advmod	_	_
+4	pourra	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	aux	_	_
+5	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	1	nsubj	_	_
+6	réclamer	réclamer	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+7	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+8	titre	titrer	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obj	_	_
+9	de	de	ADP	_	ADP___	12	case	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+11	période	période	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+12	du	du	DET	_	DET__Gender=Masc|Number=Sing	18	det	_	_
+13	1er	1er	ADJ	_	ADJ__NumType=Ord	18	amod	_	_
+14	juin	juin	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nmod	_	_
+15	au	au	PRON	_	PRON__PronType=Rel	18	case	_	_
+16	11	11	NUM	_	NUM__NumType=Card	18	nummod	_	_
+17	juin.b	juin.b	NOUN	_	NOUN___	18	nmod	_	_
+18	)	)	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Le salaire est versé le 1er jour du mois d'après, donc M. X n'a pu se rendre compte qu'il a été lésé de sa prime d'habillage pour juin 2015 qu'à compter du 1er juillet 2016.
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	salaire	salaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+4	versé	verser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+6	1er	1er	ADJ	_	ADJ__NumType=Ord	5	amod	_	_
+7	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+8	du	du	DET	_	DET__Gender=Masc|Number=Sing	18	det	_	_
+9	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+10	d'	de	ADP	_	ADP___	9	case	_	_
+11	après	après	ADP	_	ADP___	12	nmod	_	_
+12	,	,	PUNCT	_	PUNCT___	18	punct	_	_
+13	donc	donc	ADV	_	ADV___	18	advmod	_	_
+14	M.	monsieur	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nsubj	_	_
+15	X	X	NOUN	_	NOUN___	18	flat:name	_	_
+16	n'	ne	ADV	_	ADV___	18	advmod	_	_
+17	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	pu	pouvoir	AUX	_	AUX__Tense=Past|VerbForm=Part	1	aux	_	_
+19	se	se	PRON	_	PRON__Person=3|Reflex=Yes	21	expl	_	_
+20	rendre	rendre	VERB	_	VERB__VerbForm=Inf	21	parataxis	_	_
+21	compte	compter	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+22	qu'	que	SCONJ	_	SCONJ___	1	mark	_	_
+23	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	23	nsubj	_	_
+24	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+25	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	28	aux:pass	_	_
+26	lésé	léser	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	25	advcl	_	_
+27	de	de	ADP	_	ADP___	28	case	_	_
+28	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	23	nmod:poss	_	_
+29	prime	primer	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	obl	_	_
+30	d'	de	ADP	_	ADP___	31	case	_	_
+31	habillage	habillage	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	nmod	_	_
+32	pour	pour	ADP	_	ADP___	33	case	_	_
+33	juin	juin	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	obl	_	_
+34	2015	2015	NUM	_	NUM__NumType=Card	35	nummod	_	_
+35	qu'	que	SCONJ	_	SCONJ___	31	mark	_	_
+36	à	à	ADP	_	ADP___	37	mark	_	_
+37	compter	compter	VERB	_	VERB__VerbForm=Inf	35	xcomp	_	_
+38	du	du	DET	_	DET__Gender=Masc|Number=Sing	31	det	_	_
+39	1er	1er	ADJ	_	ADJ__NumType=Ord	42	amod	_	_
+40	juillet	juillet	NOUN	_	NOUN__Gender=Masc|Number=Sing	39	obj	_	_
+41	2016	2016	NUM	_	NUM__NumType=Card	42	nummod	_	_
+42	.	.	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#Ainsi le fait déclencheur de la spoliation est le 1er juillet 2016 et M. X est bien fondé à réclamer la totalité de sa prime d'habillage pour juin 2015 car il y a moins de 3 ans entre le 1er juillet 2016 et le 12 août 2018.Bon, là on pourrait se dire que cela ne joue que pour un mois.
+1	Ainsi	Ainsi	ADV	_	ADV___	1	advmod	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	amod	_	_
+4	déclencheur	déclencheur	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+5	de	de	ADP	_	ADP___	1	case	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+7	spoliation	spoliation	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+8	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+10	1er	1er	ADJ	_	ADJ__NumType=Ord	9	amod	_	_
+11	juillet	juillet	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obl	_	_
+12	2016	2016	NUM	_	NUM__NumType=Card	18	nummod	_	_
+13	et	et	CCONJ	_	CCONJ___	18	cc	_	_
+14	M.	monsieur	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nsubj:pass	_	_
+15	X	X	NOUN	_	NOUN___	18	flat:name	_	_
+16	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux:pass	_	_
+17	bien	bien	ADV	_	ADV___	18	advmod	_	_
+18	fondé	fonder	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	_
+19	à	à	ADP	_	ADP___	21	mark	_	_
+20	réclamer	réclamer	VERB	_	VERB__VerbForm=Inf	21	xcomp	_	_
+21	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+22	totalité	totalité	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obj	_	_
+23	de	de	ADP	_	ADP___	23	case	_	_
+24	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	28	nmod:poss	_	_
+25	prime	primer	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	nmod	_	_
+26	d'	de	ADP	_	ADP___	25	case	_	_
+27	habillage	habillage	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	nmod	_	_
+28	pour	pour	ADP	_	ADP___	23	case	_	_
+29	juin	juin	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	nmod	_	_
+30	2015	2015	NUM	_	NUM__NumType=Card	31	nummod	_	_
+31	car	car	CCONJ	_	CCONJ___	28	cc	_	_
+32	il	il	PRON	_	PRON__Number=Sing|Person=3	33	case	_	_
+33	y	yu	PRON	_	PRON__Person=3	31	fixed	_	_
+34	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	fixed	_	_
+35	moins	moins	ADV	_	ADV___	31	advmod	_	_
+36	de	de	ADP	_	ADP___	37	case	_	_
+37	3	3	NUM	_	NUM__NumType=Card	35	nummod	_	_
+38	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	31	conj	_	_
+39	entre	entrer	ADP	_	ADP___	42	case	_	_
+40	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+41	1er	1er	ADJ	_	ADJ__NumType=Ord	42	amod	_	_
+42	juillet	juillet	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	nmod	_	_
+43	2016	2016	NUM	_	NUM__NumType=Card	44	nummod	_	_
+44	et	et	CCONJ	_	CCONJ___	42	cc	_	_
+45	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+46	12	12	NUM	_	NUM__NumType=Card	42	nummod	_	_
+47	août	août	NOUN	_	NOUN__Gender=Masc|Number=Sing	49	conj	_	_
+48	2018.Bon	2018.Bon	NUM	_	NUM__NumType=Card	49	nummod	_	_
+49	,	,	PUNCT	_	PUNCT___	46	punct	_	_
+50	là	là	SCONJ	_	SCONJ___	51	cc	_	_
+51	on	on	PRON	_	PRON__Number=Sing|Person=3	49	nsubj	_	_
+52	pourrait	pouvoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+53	se	se	PRON	_	PRON__Person=3|Reflex=Yes	55	expl	_	_
+54	dire	dire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+55	que	que	SCONJ	_	SCONJ___	55	mark	_	_
+56	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	58	nsubj	_	_
+57	ne	ne	ADV	_	ADV__Polarity=Neg	58	advmod	_	_
+58	joue	jouer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	55	ccomp	_	_
+59	que	que	SCONJ	_	SCONJ___	58	advmod	_	_
+60	pour	pour	ADP	_	ADP___	62	case	_	_
+61	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	62	det	_	_
+62	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Sing	55	obl	_	_
+63	.	.	PUNCT	_	PUNCT___	64	punct	_	_
+
+
+#Mais si M. X a droit en plus à une prime annuelle sur l'année civile de 1.000 par an, savoir s'il peut réclamer la totalité de sa prime de 2015 ou uniquement le prorata de la période 12 juin
+1	Mais	Mais	CCONJ	_	CCONJ___	1	cc	_	_
+2	si	si	SCONJ	_	SCONJ___	3	mark	_	_
+3	M.	monsieur	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+4	X	X	NOUN	_	NOUN___	5	flat:name	_	_
+5	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+6	droit	droit	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+7	en	en	ADP	_	ADP___	5	advmod	_	_
+8	plus	plaire	ADV	_	ADV___	18	fixed	_	_
+9	à	à	ADP	_	ADP___	12	case	_	_
+10	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+11	prime	primer	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obl	_	_
+12	annuelle	annuel	ADJ	_	ADJ__Gender=Fem|Number=Sing	18	amod	_	_
+13	sur	sur	ADP	_	ADP___	18	case	_	_
+14	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+15	année	année	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	nmod	_	_
+16	civile	civil	ADJ	_	ADJ__Gender=Fem|Number=Sing	18	amod	_	_
+17	de	de	ADP	_	ADP___	18	case	_	_
+18	1.000	1.000	NOUN	_	NOUN__NumType=Card	1	nmod	_	_
+19	par	par	ADP	_	ADP___	21	case	_	_
+20	an	an	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	nmod	_	_
+21	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+22	savoir	savoir	VERB	_	VERB__VerbForm=Inf	1	acl	_	_
+23	s'	si	SCONJ	_	SCONJ___	23	mark	_	_
+24	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	28	nsubj	_	_
+25	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+26	réclamer	réclamer	VERB	_	VERB__VerbForm=Inf	25	ccomp	_	_
+27	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	totalité	totalité	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	obj	_	_
+29	de	de	ADP	_	ADP___	31	case	_	_
+30	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	31	nmod:poss	_	_
+31	prime	primer	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	nmod	_	_
+32	de	de	ADP	_	ADP___	33	case	_	_
+33	2015	2015	NUM	_	NUM__NumType=Card	31	nmod	_	_
+34	ou	ou	CCONJ	_	CCONJ___	35	cc	_	_
+35	uniquement	uniquement	ADV	_	ADV___	31	advmod	_	_
+36	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	obj	_	_
+37	prorata	prorata	NOUN	_	NOUN__Gender=Fem|Number=Sing	35	conj	_	_
+38	de	de	ADP	_	ADP___	31	case	_	_
+39	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+40	période	période	NOUN	_	NOUN__Gender=Fem|Number=Sing	39	obl	_	_
+41	12	12	NUM	_	NUM__NumType=Card	42	nummod	_	_
+42	juin	juin	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	obl	_	_
+
+
+#- 31 décembre (soit légèrement plus de 50%, et non 100%), cela commence à compter...
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	31	31	NUM	_	NUM__NumType=Card	3	nummod	_	_
+3	décembre	décembre	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+4	(	(	PUNCT	_	PUNCT___	5	punct	_	_
+5	soit	être	CCONJ	_	CCONJ___	1	cc	_	_
+6	légèrement	légèrement	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	advmod	_	_
+7	plus	plaire	ADV	_	ADV___	5	advmod	_	_
+8	de	de	ADP	_	ADP___	18	dep	_	_
+9	50	50	NUM	_	NUM__NumType=Card	12	nummod	_	_
+10	%	%	NOUN	_	NOUN__Gender=Masc	9	obj	_	_
+11	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+12	et	et	CCONJ	_	CCONJ___	18	cc	_	_
+13	non	non	ADV	_	ADV___	18	advmod	_	_
+14	100	100	NUM	_	NUM__NumType=Card	18	nummod	_	_
+15	%	%	NOUN	_	NOUN__Gender=Masc	18	conj	_	_
+16	)	)	PUNCT	_	PUNCT___	18	punct	_	_
+17	,	,	PUNCT	_	PUNCT___	18	punct	_	_
+18	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	1	nsubj	_	_
+19	commence	commencer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+20	à	à	ADP	_	ADP___	21	mark	_	_
+21	compter	compter	VERB	_	VERB__VerbForm=Inf	1	xcomp	_	_
+22	...	...	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#J'ai l'impression que pour le premier paragraphe la doctrine compte au jour près : "Monsieur X ayant saisi le Conseil de Prud'hommes de TRIFOUILLY
+1	J'	J'	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ai	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+4	impression	impression	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obj	_	_
+5	que	que	SCONJ	_	SCONJ___	1	mark	_	_
+6	pour	pour	ADP	_	ADP___	5	case	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+8	premier	premier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	18	amod	_	_
+9	paragraphe	paragraphe	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	advcl	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+11	doctrine	doctrine	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obj	_	_
+12	compte	compter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	amod	_	_
+13	au	au	PRON	_	PRON__PronType=Rel	18	case	_	_
+14	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obl	_	_
+15	près	près	ADP	_	ADP___	18	advmod	_	_
+16	:	:	PUNCT	_	PUNCT___	18	fixed	_	_
+17	"	"	PUNCT	_	PUNCT___	18	punct	_	_
+18	Monsieur	Monsieur	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	conj	_	_
+19	X	X	NOUN	_	NOUN___	21	amod	_	_
+20	ayant	avoir	AUX	_	AUX__Tense=Pres|VerbForm=Part	21	aux	_	_
+21	saisi	saisir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+22	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+23	Conseil	Conseil	PROPN	_	PROPN__Gender=Masc|Number=Sing	23	obj	_	_
+24	de	de	ADP	_	ADP___	28	case	_	_
+25	Prud'	Prud'	ADJ	_	ADJ__Number=Sing	28	nmod	_	_
+26	hommes	homme	NOUN	_	NOUN__Gender=Masc|Number=Plur	25	obl	_	_
+27	de	de	ADP	_	ADP___	28	case	_	_
+28	TRIFOUILLY	TRIFOUILLY	PROPN	_	PROPN___	23	nmod	_	_
+
+
+#-LES-OIES le 07 avril 2008
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	LES	LES	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	3	det	_	_
+3	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+4	OIES	OIES	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+6	07	07	NUM	_	NUM__NumType=Card	5	nummod	_	_
+7	avril	avril	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+8	2008	2008	NUM	_	NUM__NumType=Card	18	nummod	_	_
+
+
+#, les demandes relatives aux
+1	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+2	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	3	det	_	_
+3	demandes	demander	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	nsubj	_	_
+4	relatives	relatif	ADJ	_	ADJ__Gender=Fem|Number=Plur	5	amod	_	_
+5	aux	aux	ADP	_	ADP___	0	ROOT	_	_
+
+
+#repos hebdomadaires antérieures au 07 avril 2003 sont prescrites.
+1	repos	repos	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+2	hebdomadaires	hebdomadaire	ADJ	_	ADJ__Number=Plur	3	amod	_	_
+3	antérieures	antérieur	ADJ	_	ADJ__Number=Plur	1	amod	_	_
+4	au	au	NOUN	_	NOUN___	5	case	_	_
+5	07	07	NUM	_	NUM__NumType=Card	1	nummod	_	_
+6	avril	avril	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+7	2003	2003	NUM	_	NUM__NumType=Card	5	nummod	_	_
+8	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+9	prescrites	prescrire	ADJ	_	ADJ__Gender=Fem|Number=Plur	0	ROOT	_	_
+10	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#" (décision de CA de 2014).Qu'en pensez-vous?EN vous remerciant
+1	"	"	PUNCT	_	PUNCT___	1	punct	_	_
+2	(	(	PUNCT	_	PUNCT___	3	punct	_	_
+3	décision	décision	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+4	de	de	ADP	_	ADP___	5	case	_	_
+5	CA	CA	PROPN	_	PROPN___	1	nmod	_	_
+6	de	de	ADP	_	ADP___	5	case	_	_
+7	2014).Qu'	2014).Qu'	PRON	_	PRON__NumType=Card|PronType=Rel	5	nmod	_	_
+8	en	en	ADP	_	ADP___	18	mark	_	_
+9	pensez	penser	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+10	-	-	PUNCT	_	PUNCT___	9	punct	_	_
+11	vous?EN	vous?EN	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	mark	_	_
+12	vous	se	PRON	_	PRON__Number=Plur|Person=2	18	nsubj	_	_
+13	remerciant	remercier	VERB	_	VERB__Tense=Pres|VerbForm=Part	18	acl	_	_
+
+
+#Bonjour,Je suis tombé par hasard sur cet arrêt :alors que je cherchais autre chose.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Je	Je	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+4	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	tombé	tomber	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	acl:relcl	_	_
+6	par	par	ADP	_	ADP___	7	case	_	_
+7	hasard	hasard	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+8	sur	sur	ADP	_	ADP___	10	case	_	_
+9	cet	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+10	arrêt	arrêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+11	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+12	alors	alors	ADV	_	ADV___	17	mark	_	_
+13	que	que	SCONJ	_	SCONJ___	12	fixed	_	_
+14	je	il	PRON	_	PRON__Number=Sing|Person=1	15	nsubj	_	_
+15	cherchais	chercher	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	17	amod	_	_
+16	autre	autre	ADJ	_	ADJ__Number=Sing	15	advmod	_	_
+17	chose	chose	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	amod	_	_
+18	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#La Cour de cassation indique que "Attendu cependant que le délai de prescription d'une créance de rémunération court à compter de la date à laquelle le salarié a connaissance des éléments ouvrant droit à une rémunération ;".
+1	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	Cour	Cour	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+3	de	de	ADP	_	ADP___	5	case	_	_
+4	cassation	cassation	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+5	indique	indiquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	que	que	SCONJ	_	SCONJ___	7	mark	_	_
+7	"	"	PUNCT	_	PUNCT___	5	punct	_	_
+8	Attendu	Attendu	PROPN	_	PROPN__Gender=Masc|Number=Sing	10	ccomp	_	_
+9	cependant	cependant	ADV	_	ADV___	10	advmod	_	_
+10	que	que	SCONJ	_	SCONJ___	5	fixed	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+12	délai	délai	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obj	_	_
+13	de	de	ADP	_	ADP___	12	case	_	_
+14	prescription	prescription	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	nmod	_	_
+15	d'	de	ADP	_	ADP___	17	case	_	_
+16	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+17	créance	créance	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+18	de	de	ADP	_	ADP___	1	case	_	_
+19	rémunération	rémunération	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	nmod	_	_
+20	court	courir	VERB	_	VERB__Tense=Pres|VerbForm=Part	23	amod	_	_
+21	à	à	ADP	_	ADP___	22	mark	_	_
+22	compter	compter	VERB	_	VERB__VerbForm=Inf	20	acl	_	_
+23	de	de	ADP	_	ADP___	23	case	_	_
+24	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	date	dater	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	obl	_	_
+26	à	à	ADP	_	ADP___	23	case	_	_
+27	laquelle	lequel	PRON	_	PRON__Gender=Fem|Number=Sing|PronType=Rel	26	obl	_	_
+28	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	26	det	_	_
+29	salarié	salarier	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	nsubj	_	_
+30	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+31	connaissance	connaissance	NOUN	_	NOUN__Gender=Fem|Number=Sing	32	acl:relcl	_	_
+32	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	30	det	_	_
+33	éléments	élément	NOUN	_	NOUN__Gender=Masc|Number=Plur	35	obj	_	_
+34	ouvrant	ouvrir	VERB	_	VERB__Tense=Pres|VerbForm=Part	35	amod	_	_
+35	droit	droit	ADJ	_	ADJ__Gender=Masc|Number=Sing	30	amod	_	_
+36	à	à	ADP	_	ADP___	37	case	_	_
+37	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+38	rémunération	rémunération	NOUN	_	NOUN__Gender=Fem|Number=Sing	35	nmod	_	_
+39	;	;	PUNCT	_	PUNCT___	40	punct	_	_
+40	"	"	PUNCT	_	PUNCT___	30	punct	_	_
+41	.	.	PUNCT	_	PUNCT___	43	punct	_	_
+
+
+#Si quelqu'un a un complément d'info, je suis preneurBonne fin de weekend
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	quelqu'un	quelqu'un	PRON	_	PRON__PronType=Int	1	nsubj	_	_
+3	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+4	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	complément	complément	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+6	d'	de	ADP	_	ADP___	7	case	_	_
+7	info	info	VERB	_	VERB__VerbForm=Inf	5	nmod	_	_
+8	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+9	je	il	PRON	_	PRON__Number=Sing|Person=1	10	nsubj	_	_
+10	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+11	preneurBonne	preneurBonne	ADJ	_	ADJ__Gender=Fem|Number=Sing	1	advmod	_	_
+12	fin	fin	NOUN	_	NOUN__Number=Sing	0	ROOT	_	_
+13	de	de	ADP	_	ADP___	12	case	_	_
+14	weekend	weekend	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nmod	_	_
+
+
+#Bonjour,Merci pour ces précisions.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	conj	_	_
+4	pour	pour	ADP	_	ADP___	6	case	_	_
+5	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	6	det	_	_
+6	précisions	précision	NOUN	_	NOUN__Gender=Fem|Number=Plur	3	nmod	_	_
+7	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Bonne semaine
+1	Bonne	Bonne	ADJ	_	ADJ__Gender=Fem|Number=Sing	1	amod	_	_
+2	semaine	semaine	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+
+

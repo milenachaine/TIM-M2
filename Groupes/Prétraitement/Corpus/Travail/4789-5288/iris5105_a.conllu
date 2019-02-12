@@ -1,0 +1,73 @@
+#Bonjour,Oui.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Oui	Oui	PROPN	_	PROPN__Gender=Masc|Number=Sing	1	nmod	_	_
+4	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#C'est suffisant.
+1	C'	C'	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
+3	suffisant	suffire	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#L'obligation était de vous couvrir pour un risque, ce qui a été fait, même si ça aurait pu l'être de façon plus judicieuse :
+1	L'	L'	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+2	obligation	obligation	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+3	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	cop	_	_
+4	de	de	ADP	_	ADP___	1	mark	_	_
+5	vous	se	PRON	_	PRON__Number=Plur|Person=2	7	iobj	_	_
+6	couvrir	couvrir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+7	pour	pour	ADP	_	ADP___	7	case	_	_
+8	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+9	risque	risquer	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obl	_	_
+10	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+11	ce	ce	PRON	_	PRON__PronType=Rel	14	iobj	_	_
+12	qui	qui	PRON	_	PRON__PronType=Rel	14	nsubj:pass	_	_
+13	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	14	aux:pass	_	_
+15	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	acl:relcl	_	_
+16	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+17	même	même	ADV	_	ADV___	14	mark	_	_
+18	si	si	SCONJ	_	SCONJ___	14	fixed	_	_
+19	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	14	nsubj	_	_
+20	aurait	avoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+21	pu	pouvoir	AUX	_	AUX__Tense=Past|VerbForm=Part	23	aux	_	_
+22	l'	le	PRON	_	PRON__Number=Sing|Person=3	23	det	_	_
+23	être	être	AUX	_	AUX__VerbForm=Inf	19	obj	_	_
+24	de	de	ADP	_	ADP___	14	case	_	_
+25	façon	façon	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	nmod	_	_
+26	plus	plaire	ADV	_	ADV___	25	advmod	_	_
+27	judicieuse	judicieux	ADJ	_	ADJ__Gender=Fem|Number=Sing	30	amod	_	_
+28	:	:	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#Les représentants du personnel sont aussi là pour surveiller ce type de situation et tirer la sonnette d'alarme quand ils observent un dysfonctionnement.
+1	Les	Les	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+2	représentants	représentant	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	nsubj	_	_
+3	du	du	DET	_	DET__Gender=Masc|Number=Sing	1	det	_	_
+4	personnel	personnel	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+5	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	aussi	aussi	ADV	_	ADV___	7	advmod	_	_
+7	là	là	ADV	_	ADV___	7	iobj	_	_
+8	pour	pour	ADP	_	ADP___	7	mark	_	_
+9	surveiller	surveiller	VERB	_	VERB__VerbForm=Inf	10	advcl	_	_
+10	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+11	type	typer	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obj	_	_
+12	de	de	ADP	_	ADP___	14	case	_	_
+13	situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nmod	_	_
+14	et	et	CCONJ	_	CCONJ___	14	cc	_	_
+15	tirer	tirer	VERB	_	VERB__VerbForm=Inf	17	conj	_	_
+16	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	sonnette	sonnette	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obj	_	_
+18	d'	de	ADP	_	ADP___	14	case	_	_
+19	alarme	alarmer	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nmod	_	_
+20	quand	quand	SCONJ	_	SCONJ___	23	mark	_	_
+21	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	23	nsubj	_	_
+22	observent	observer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	advcl	_	_
+23	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+24	dysfonctionnement	dysfonctionnement	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obj	_	_
+25	.	.	PUNCT	_	PUNCT___	31	punct	_	_
+
+

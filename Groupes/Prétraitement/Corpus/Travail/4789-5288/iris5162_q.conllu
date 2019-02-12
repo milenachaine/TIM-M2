@@ -1,0 +1,430 @@
+#Bonjour,J'ai un doute sérieux sur le sens d'un article de la CC de mon épouse.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	4	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	J'	J'	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+4	ai	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	doute	douter	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obj	_	_
+7	sérieux	sérieux	ADJ	_	ADJ__Gender=Masc	6	amod	_	_
+8	sur	sur	ADP	_	ADP___	10	case	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	sens	sentir	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+11	d'	de	ADP	_	ADP___	13	case	_	_
+12	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	article	article	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+14	de	de	ADP	_	ADP___	16	case	_	_
+15	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	CC	CC	PROPN	_	PROPN__Gender=Fem|Number=Sing	13	nmod	_	_
+17	de	de	ADP	_	ADP___	19	case	_	_
+18	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	19	nmod:poss	_	_
+19	épouse	époux	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nmod	_	_
+20	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Ma femme a été opérée début janvier.
+1	Ma	Ma	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	4	nmod:poss	_	_
+2	femme	femme	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	4	aux:pass	_	_
+5	opérée	opérer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+6	début	début	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+7	janvier	janvier	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	amod	_	_
+8	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Après cela, elle a été en arrêt maladie total pendant deux mois puis a retravaillé deux autres mois en mi-temps thérapeutique.
+1	Après	Après	ADP	_	ADP___	4	case	_	_
+2	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	4	obl	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	4	nsubj	_	_
+5	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	4	cop	_	_
+7	en	en	ADP	_	ADP___	6	case	_	_
+8	arrêt	arrêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+9	maladie	maladie	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obj	_	_
+10	total	total	ADJ	_	ADJ__Gender=Masc|Number=Sing	4	amod	_	_
+11	pendant	pendre	ADP	_	ADP___	13	case	_	_
+12	deux	deux	NUM	_	NUM__NumType=Card	13	nummod	_	_
+13	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	obl	_	_
+14	puis	pouvoir	CCONJ	_	CCONJ___	16	cc	_	_
+15	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	retravaillé	retravailler	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	conj	_	_
+17	deux	deux	NUM	_	NUM__NumType=Card	19	nummod	_	_
+18	autres	autre	ADJ	_	ADJ__Number=Plur	19	amod	_	_
+19	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	obj	_	_
+20	en	en	ADP	_	ADP___	4	case	_	_
+21	mi-temps	mi-temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	nmod	_	_
+22	thérapeutique	thérapeutique	ADJ	_	ADJ__Number=Sing	25	amod	_	_
+23	.	.	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#Elle est donc de nouveau à plein temps depuis mai dernier.
+1	Elle	Elle	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	4	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	donc	donc	ADV	_	ADV___	4	advmod	_	_
+4	de	de	ADP	_	ADP___	4	advmod	_	_
+5	nouveau	nouveau	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	fixed	_	_
+6	à	à	ADP	_	ADP___	4	case	_	_
+7	plein	plein	ADJ	_	ADJ__Gender=Masc|Number=Sing	6	amod	_	_
+8	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+9	depuis	depuis	ADP	_	ADP___	10	case	_	_
+10	mai	mai	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+11	dernier	dernier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	13	amod	_	_
+12	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Il ne s'agissait pas d'un accident du travail et la sécurité sociale a payé tout à fait régulièrement ses indemnités.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+2	ne	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+3	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	4	expl	_	_
+4	agissait	agir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+6	d'	de	ADP	_	ADP___	4	case	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+8	accident	accident	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obl	_	_
+9	du	du	DET	_	DET__Gender=Masc|Number=Sing	10	det	_	_
+10	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+11	et	et	CCONJ	_	CCONJ___	13	cc	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	sécurité	sécurité	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	conj	_	_
+14	sociale	social	ADJ	_	ADJ__Gender=Fem|Number=Sing	16	amod	_	_
+15	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	payé	payer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	xcomp	_	_
+17	tout	tout	ADV	_	ADV___	19	advmod	_	_
+18	à	à	ADP	_	ADP___	19	fixed	_	_
+19	fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	fixed	_	_
+20	régulièrement	régulièrement	ADV	_	ADV___	4	obj	_	_
+21	ses	son	DET	_	DET__Number=Plur|Poss=Yes	22	nmod:poss	_	_
+22	indemnités	indemnité	NOUN	_	NOUN__Gender=Fem|Number=Plur	25	obj	_	_
+23	.	.	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#À cette époque, chaque bulletin de paie de l'employeur a dû être refait une ou deux fois pour irrégularités...
+1	À	À	ADP	_	ADP___	4	case	_	_
+2	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+3	époque	époque	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obl	_	_
+4	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+5	chaque	chaque	DET	_	DET__Number=Sing	6	det	_	_
+6	bulletin	bulletin	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+7	de	de	ADP	_	ADP___	6	case	_	_
+8	paie	payer	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+9	de	de	ADP	_	ADP___	10	case	_	_
+10	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+11	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+12	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	dû	devoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+14	être	être	AUX	_	AUX__VerbForm=Inf	16	aux:pass	_	_
+15	refait	refaire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	16	xcomp	_	_
+16	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+17	ou	ou	CCONJ	_	CCONJ___	19	cc	_	_
+18	deux	deux	NUM	_	NUM__NumType=Card	19	nummod	_	_
+19	fois	foi	NOUN	_	NOUN__Gender=Fem|Number=Plur	16	obj	_	_
+20	pour	pour	ADP	_	ADP___	4	case	_	_
+21	irrégularités	irrégularité	NOUN	_	NOUN__Gender=Fem|Number=Plur	22	nmod	_	_
+22	...	...	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#Aujourd'hui, elle constate que pour les vacances (dates imposées et fermeture de l'entreprise du 24/08 au 14/09), son employeur lui ade congés payés.
+1	Aujourd'	Aujourd'	ADP	_	ADP___	4	advmod	_	_
+2	hui	hui	NOUN	_	NOUN___	4	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	4	nsubj	_	_
+5	constate	constater	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	que	que	ADV	_	ADV___	4	mark	_	_
+7	pour	pour	ADP	_	ADP___	6	case	_	_
+8	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	10	det	_	_
+9	vacances	vacance	NOUN	_	NOUN__Gender=Fem|Number=Plur	10	obl	_	_
+10	(	(	PUNCT	_	PUNCT___	4	punct	_	_
+11	dates	dater	ADJ	_	ADJ__Gender=Fem|Number=Plur	13	aux:pass	_	_
+12	imposées	imposer	NOUN	_	NOUN__Gender=Fem|Number=Plur	13	acl	_	_
+13	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+14	fermeture	fermeture	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	conj	_	_
+15	de	de	ADP	_	ADP___	16	case	_	_
+16	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+17	entreprise	entreprendre	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obl	_	_
+18	du	du	DET	_	DET__Gender=Masc|Number=Sing	19	det	_	_
+19	24/08	24/08	NUM	_	NUM__NumType=Card	16	nmod	_	_
+20	au	au	NOUN	_	NOUN___	4	case	_	_
+21	14/09	14/09	NOUN	_	NOUN__NumType=Card	22	nmod	_	_
+22	)	)	PUNCT	_	PUNCT___	25	punct	_	_
+23	,	,	PUNCT	_	PUNCT___	25	punct	_	_
+24	son	son	DET	_	DET__Number=Sing|Poss=Yes	25	nmod:poss	_	_
+25	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	nsubj	_	_
+26	lui	luire	PRON	_	PRON__Number=Sing|Person=3	25	iobj	_	_
+27	ade	ade	ADV	_	ADV___	26	advmod	_	_
+28	congés	congé	ADJ	_	ADJ__Gender=Masc|Number=Plur	25	amod	_	_
+29	payés	payer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	30	ccomp	_	_
+30	.	.	PUNCT	_	PUNCT___	36	punct	_	_
+
+
+#L'article de sa CC pour lequel j'ai un souci de compréhension dit ceci :Quelqu'un peut-il m'expliquer ce que ça veut dire et, par conséquent, si l'employeur a appliqué ou violé la convention collective ?
+1	L'	L'	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+2	article	article	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+3	de	de	ADP	_	ADP___	4	case	_	_
+4	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	4	nmod:poss	_	_
+5	CC	CC	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	nmod	_	_
+6	pour	pour	ADP	_	ADP___	4	case	_	_
+7	lequel	lequel	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	6	obl	_	_
+8	j'	il	PRON	_	PRON__Number=Sing|Person=1	10	nsubj	_	_
+9	ai	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+10	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+11	souci	souci	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+12	de	de	ADP	_	ADP___	13	case	_	_
+13	compréhension	compréhension	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+14	dit	dire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	amod	_	_
+15	ceci	ceci	PRON	_	PRON__Number=Sing|PronType=Dem	16	obj	_	_
+16	:	:	PUNCT	_	PUNCT___	13	punct	_	_
+17	Quelqu'un	Quelqu'un	ADJ	_	ADJ__Gender=Masc|Number=Sing	19	iobj	_	_
+18	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	-	-	PUNCT	_	PUNCT___	16	fixed	_	_
+20	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+21	m'	se	PRON	_	PRON__Number=Sing|Person=1	22	expl	_	_
+22	expliquer	expliquer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+23	ce	ce	PRON	_	PRON__PronType=Rel	25	obj	_	_
+24	que	que	PRON	_	PRON__PronType=Rel	25	obj	_	_
+25	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	25	nsubj	_	_
+26	veut	vouloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+27	dire	dire	VERB	_	VERB__VerbForm=Inf	26	acl:relcl	_	_
+28	et	et	CCONJ	_	CCONJ___	25	cc	_	_
+29	,	,	PUNCT	_	PUNCT___	30	punct	_	_
+30	par	par	ADP	_	ADP___	36	advmod	_	_
+31	conséquent	conséquent	NOUN	_	NOUN___	36	fixed	_	_
+32	,	,	PUNCT	_	PUNCT___	36	punct	_	_
+33	si	si	SCONJ	_	SCONJ___	36	mark	_	_
+34	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	36	det	_	_
+35	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	36	nsubj	_	_
+36	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
+37	appliqué	appliquer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	36	conj	_	_
+38	ou	ou	CCONJ	_	CCONJ___	37	cc	_	_
+39	violé	violer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	conj	_	_
+40	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	convention	convention	NOUN	_	NOUN__Gender=Fem|Number=Sing	36	obj	_	_
+42	collective	collectif	ADJ	_	ADJ__Gender=Fem|Number=Sing	44	amod	_	_
+43	?	?	PUNCT	_	PUNCT___	44	punct	_	_
+
+
+#Merci par avance.
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	par	par	ADP	_	ADP___	4	case	_	_
+3	avance	avancer	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+4	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Bonjour et merci d cette réponse.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	6	case	_	_
+2	et	et	CCONJ	_	CCONJ___	3	cc	_	_
+3	merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	conj	_	_
+4	d	d	NOUN	_	NOUN___	1	nmod	_	_
+5	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+7	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Mon épouse n'a jamais été en arrêt maladie de sa vie auparavant.
+1	Mon	Mon	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+2	épouse	époux	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+3	n'	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+4	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+5	jamais	jamais	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+6	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	6	cop	_	_
+7	en	en	ADP	_	ADP___	6	case	_	_
+8	arrêt	arrêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+9	maladie	maladie	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obj	_	_
+10	de	de	ADP	_	ADP___	15	case	_	_
+11	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	15	nmod:poss	_	_
+12	vie	vie	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	nmod	_	_
+13	auparavant	auparavant	ADV	_	ADV___	15	advmod	_	_
+14	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Si j'interprète votre réponse, les arrêts maladie ne donnent pas droit au CP sauf qu'ici, la CC accorde quand même 1 mois de droits ?
+1	Si	Si	SCONJ	_	SCONJ___	6	mark	_	_
+2	j'	il	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+3	interprète	interpréter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+4	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+5	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obj	_	_
+6	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+7	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	6	det	_	_
+8	arrêts	arrêt	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	amod	_	_
+9	maladie	maladie	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	nsubj	_	_
+10	ne	ne	ADV	_	ADV__Polarity=Neg	15	advmod	_	_
+11	donnent	donner	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+12	pas	pas	ADV	_	ADV__Polarity=Neg	15	advmod	_	_
+13	droit	droit	ADJ	_	ADJ__Gender=Masc|Number=Sing	15	obj	_	_
+14	au	au	PROPN	_	PROPN__Gender=Masc|Number=Sing	15	case	_	_
+15	CP	CP	PROPN	_	PROPN___	15	nmod	_	_
+16	sauf	sauf	ADP	_	ADP___	15	mark	_	_
+17	qu'	que	SCONJ	_	SCONJ___	19	fixed	_	_
+18	ici	ici	ADV	_	ADV___	19	fixed	_	_
+19	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+20	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+21	CC	CC	PROPN	_	PROPN__Gender=Fem|Number=Sing	15	nsubj	_	_
+22	accorde	accorder	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	advcl	_	_
+23	quand	quand	SCONJ	_	SCONJ___	24	advmod	_	_
+24	même	même	ADV	_	ADV___	32	fixed	_	_
+25	1	1	NUM	_	NUM__NumType=Card	26	nummod	_	_
+26	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	24	obj	_	_
+27	de	de	ADP	_	ADP___	32	case	_	_
+28	droits	droit	NOUN	_	NOUN__Gender=Masc|Number=Plur	29	nmod	_	_
+29	?	?	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#Dans ce cas, puisque le mi-temps thérapeutique lui accorde tous ses jours de CP (2,5/mois) et comme elle a pris 3 mois d'arrêt complet, ça ne lui retire que 2 mois donc 5 jours de CP, non ?
+1	Dans	Dans	ADP	_	ADP___	6	case	_	_
+2	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+4	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+5	puisque	puisque	SCONJ	_	SCONJ___	6	mark	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+7	mi-temps	mi-temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nsubj	_	_
+8	thérapeutique	thérapeutique	ADJ	_	ADJ__Number=Sing	9	amod	_	_
+9	lui	luire	PRON	_	PRON__Number=Sing|Person=3	15	iobj	_	_
+10	accorde	accorder	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+11	tous	tout	ADJ	_	ADJ__Gender=Masc|Number=Plur	15	amod	_	_
+12	ses	son	DET	_	DET__Number=Plur|Poss=Yes	15	nmod:poss	_	_
+13	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	obj	_	_
+14	de	de	ADP	_	ADP___	15	case	_	_
+15	CP	CP	NOUN	_	NOUN___	15	nmod	_	_
+16	(	(	PUNCT	_	PUNCT___	15	punct	_	_
+17	2,5/mois	2,5/mois	NOUN	_	NOUN___	19	nummod	_	_
+18	)	)	PUNCT	_	PUNCT___	19	punct	_	_
+19	et	et	CCONJ	_	CCONJ___	16	cc	_	_
+20	comme	comme	SCONJ	_	SCONJ___	15	mark	_	_
+21	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	15	nsubj	_	_
+22	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+23	pris	prendre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	24	acl	_	_
+24	3	3	NUM	_	NUM__NumType=Card	32	nummod	_	_
+25	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	26	obj	_	_
+26	d'	de	ADP	_	ADP___	24	case	_	_
+27	arrêt	arrêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	32	nmod	_	_
+28	complet	complet	ADJ	_	ADJ__Gender=Masc|Number=Sing	29	amod	_	_
+29	,	,	PUNCT	_	PUNCT___	30	punct	_	_
+30	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	32	nsubj	_	_
+31	ne	ne	ADV	_	ADV___	32	advmod	_	_
+32	lui	luire	PRON	_	PRON__Number=Sing|Person=3	32	iobj	_	_
+33	retire	retirer	VERB	_	VERB__VerbForm=Inf	34	conj	_	_
+34	que	que	SCONJ	_	SCONJ___	32	mark	_	_
+35	2	2	NUM	_	NUM__NumType=Card	36	nummod	_	_
+36	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	34	punct	_	_
+37	donc	donc	ADV	_	ADV___	43	advmod	_	_
+38	5	5	NUM	_	NUM__NumType=Card	37	nummod	_	_
+39	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	38	nmod	_	_
+40	de	de	ADP	_	ADP___	43	case	_	_
+41	CP	CP	NOUN	_	NOUN___	42	nmod	_	_
+42	,	,	PUNCT	_	PUNCT___	43	punct	_	_
+43	non	non	ADV	_	ADV___	32	ccomp	_	_
+44	?	?	PUNCT	_	PUNCT___	43	punct	_	_
+
+
+#Oui, elle a 30 jours ouvrables par an.
+1	Oui	Oui	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	obl	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	4	nsubj	_	_
+4	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	30	30	NUM	_	NUM__NumType=Card	6	nummod	_	_
+6	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	obj	_	_
+7	ouvrables	ouvrable	ADJ	_	ADJ__Number=Plur	6	amod	_	_
+8	par	par	ADP	_	ADP___	9	case	_	_
+9	an	an	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+10	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Elle perd donc les 3 mois de maladie SAUF 1 mois donné par sa CC ?
+1	Elle	Elle	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	4	nsubj	_	_
+2	perd	perdre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	donc	donc	ADV	_	ADV___	4	advmod	_	_
+4	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+5	3	3	NUM	_	NUM__NumType=Card	6	nummod	_	_
+6	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	obj	_	_
+7	de	de	ADP	_	ADP___	6	case	_	_
+8	maladie	maladie	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nmod	_	_
+9	SAUF	SAUF	ADP	_	ADP___	7	amod	_	_
+10	1	1	NUM	_	NUM__NumType=Card	4	nummod	_	_
+11	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	obj	_	_
+12	donné	donner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
+13	par	par	ADP	_	ADP___	12	case	_	_
+14	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	16	nmod:poss	_	_
+15	CC	CC	PROPN	_	PROPN__Gender=Masc|Number=Sing	16	obl	_	_
+16	?	?	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Les mois à mi-temps thérapeutique donnent droit à 2,5 jours chacun comme s'ils étaient à temps pleine normal ?
+1	Les	Les	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+2	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	nsubj	_	_
+3	à	à	ADP	_	ADP___	4	case	_	_
+4	mi-temps	mi-temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+5	thérapeutique	thérapeutique	ADJ	_	ADJ__Number=Sing	6	amod	_	_
+6	donnent	donner	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	droit	droit	ADJ	_	ADJ__Gender=Masc|Number=Sing	6	obj	_	_
+8	à	à	ADP	_	ADP___	9	case	_	_
+9	2,5	2,5	NUM	_	NUM__NumType=Card	7	nummod	_	_
+10	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	obl	_	_
+11	chacun	chacun	PRON	_	PRON__Gender=Masc|PronType=Rel	12	det	_	_
+12	comme	comme	ADV	_	ADV___	12	case	_	_
+13	s'	si	SCONJ	_	SCONJ___	12	expl	_	_
+14	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	16	nsubj	_	_
+15	étaient	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	16	cop	_	_
+16	à	à	ADP	_	ADP___	12	case	_	_
+17	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	fixed	_	_
+18	pleine	plein	ADJ	_	ADJ__Gender=Fem|Number=Sing	16	obj	_	_
+19	normal	normal	ADJ	_	ADJ__Gender=Masc|Number=Sing	16	advmod	_	_
+20	?	?	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Dernière précision : l'arrêt maladie a commencé le 9 janvier (et non le 1er janvier) pour finir le 31 mars !
+1	Dernière	Dernière	ADJ	_	ADJ__Gender=Fem|Number=Sing|NumType=Ord	2	amod	_	_
+2	précision	précision	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nsubj	_	_
+3	:	:	PUNCT	_	PUNCT___	2	punct	_	_
+4	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	arrêt	arrêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nsubj	_	_
+6	maladie	maladie	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	amod	_	_
+7	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	commencé	commencer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	9	9	NUM	_	NUM__NumType=Card	11	nummod	_	_
+11	janvier	janvier	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+12	(	(	PUNCT	_	PUNCT___	8	punct	_	_
+13	et	et	CCONJ	_	CCONJ___	14	cc	_	_
+14	non	non	ADV	_	ADV___	8	conj	_	_
+15	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	1er	1er	ADJ	_	ADJ__NumType=Ord	17	amod	_	_
+17	janvier	janvier	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	orphan	_	_
+18	)	)	PUNCT	_	PUNCT___	8	punct	_	_
+19	pour	pour	ADP	_	ADP___	20	mark	_	_
+20	finir	finir	VERB	_	VERB__VerbForm=Inf	8	advcl	_	_
+21	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	31	31	NUM	_	NUM__NumType=Card	23	nummod	_	_
+23	mars	mars	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obj	_	_
+24	!	!	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Comment est-ce que les 2,5 jours de CP sont comptés pour les 22 jours de janvier au lieu de 31 ??
+1	Comment	Comment	ADV	_	ADV__PronType=Int	2	advmod	_	_
+2	est	être		_	VERB	8	aux:pass	_	_
+3	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	2	nsubj	_	_
+4	que	que	SCONJ	_	SCONJ___	5	mark	_	_
+5	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+6	2,5	2,5	NUM	_	NUM__NumType=Card	5	nummod	_	_
+7	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	nsubj:pass	_	_
+8	de	de	ADP	_	ADP___	8	case	_	_
+9	CP	CP	NOUN	_	NOUN___	11	nmod	_	_
+10	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+11	comptés	compter	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+12	pour	pour	ADP	_	ADP___	8	case	_	_
+13	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	14	det	_	_
+14	22	22	NUM	_	NUM__NumType=Card	8	nummod	_	_
+15	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	17	obl	_	_
+16	de	de	ADP	_	ADP___	17	case	_	_
+17	janvier	janvier	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nmod	_	_
+18	au	au	PRON	_	PRON__PronType=Rel	8	amod	_	_
+19	lieu	lieu	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	fixed	_	_
+20	de	de	ADP	_	ADP___	8	case	_	_
+21	31	31	NUM	_	NUM__NumType=Card	23	nmod	_	_
+22	?	?	PUNCT	_	PUNCT___	23	punct	_	_
+23	?	?	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#?
+1	?	?	PUNCT	_	PUNCT___	0	ROOT	_	_
+
+

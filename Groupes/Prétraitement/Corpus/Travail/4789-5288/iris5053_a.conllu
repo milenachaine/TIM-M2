@@ -1,0 +1,492 @@
+#Bonjour,Vous avez signé un contrat de travail ?
+1	Bonjour	Bonjour	PROPN	_	PROPN___	5	acl	_	_
+2	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+3	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	5	nsubj	_	_
+4	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	signé	signer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+8	de	de	ADP	_	ADP___	9	case	_	_
+9	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+10	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Vous avez le statut de salarié ?
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	5	nsubj	_	_
+2	avez	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	statut	statut	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+5	de	de	ADP	_	ADP___	5	case	_	_
+6	salarié	salarier	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+7	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Vous travaillez combien d'heures par semaine ?
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	5	nsubj	_	_
+2	travaillez	travailler	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	combien	combien	ADV	_	ADV__PronType=Int	5	advmod	_	_
+4	d'	de	ADP	_	ADP___	5	case	_	_
+5	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	obj	_	_
+6	par	par	ADP	_	ADP___	7	case	_	_
+7	semaine	semaine	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+8	?	?	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Cdt
+1	Cdt	Cdt	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+
+
+#Un salarié doit être payé au minimum au SMIC, soit 1 498,50€/brut en 2018.
+1	Un	Un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	salarié	salarier	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+3	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	être	être	AUX	_	AUX__VerbForm=Inf	5	aux:pass	_	_
+5	payé	payer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	xcomp	_	_
+6	au	au	AUX	_	AUX__Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	det	_	_
+7	minimum	minimum	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+8	au	au	PRON	_	PRON__PronType=Rel	9	case	_	_
+9	SMIC	SMIC	X	_	X___	5	obl	_	_
+10	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+11	soit	être	CCONJ	_	CCONJ___	13	cc	_	_
+12	1	1	NUM	_	NUM__NumType=Card	13	nummod	_	_
+13	498,50€/brut	498,50€/brut	ADJ	_	ADJ__Gender=Masc|Number=Plur|NumType=Ord	5	conj	_	_
+14	en	en	ADP	_	ADP___	15	case	_	_
+15	2018	2018	NUM	_	NUM__NumType=Card	5	nummod	_	_
+16	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Le remboursement des frais professionnels et les commissions vient en complément du SMIC.Ce n'est donc qu'au delà du SMIC garanti que peut être défini une part variable du salaire.
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	remboursement	remboursement	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+3	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	3	det	_	_
+4	frais	frai	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	obj	_	_
+5	professionnels	professionnel	ADJ	_	ADJ__Gender=Masc|Number=Plur	3	amod	_	_
+6	et	et	CCONJ	_	CCONJ___	7	cc	_	_
+7	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+8	commissions	commission	NOUN	_	NOUN__Gender=Fem|Number=Plur	9	conj	_	_
+9	vient	venir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+10	en	en	ADP	_	ADP___	5	case	_	_
+11	complément	complément	ADV	_	ADV___	13	fixed	_	_
+12	du	du	DET	_	DET__Gender=Masc|Number=Sing	13	det	_	_
+13	SMIC.Ce	SMIC.Ce	PROPN	_	PROPN___	5	obl	_	_
+14	n'	ne	ADV	_	ADV__Polarity=Neg	15	advmod	_	_
+15	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advmod	_	_
+16	donc	donc	ADV	_	ADV___	3	advmod	_	_
+17	qu'	que	SCONJ	_	SCONJ___	18	mark	_	_
+18	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	25	fixed	_	_
+19	delà	delà	ADV	_	ADV___	20	fixed	_	_
+20	du	du	DET	_	DET__Gender=Masc|Number=Sing	18	det	_	_
+21	SMIC	SMIC	PROPN	_	PROPN__Gender=Masc|Number=Sing	20	dep	_	_
+22	garanti	garantir	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	amod	_	_
+23	que	que	PRON	_	PRON__PronType=Rel	24	mark	_	_
+24	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	dep	_	_
+25	être	être	AUX	_	AUX__VerbForm=Inf	25	aux:pass	_	_
+26	défini	définir	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	29	xcomp	_	_
+27	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	advmod	_	_
+28	part	partir	NOUN	_	NOUN__Number=Sing	29	fixed	_	_
+29	variable	variable	ADJ	_	ADJ__Number=Sing	25	xcomp	_	_
+30	du	du	DET	_	DET__Gender=Masc|Number=Sing	31	det	_	_
+31	salaire	salaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	obj	_	_
+32	.	.	PUNCT	_	PUNCT___	31	punct	_	_
+
+
+#Ce serait possible de payer uniquement à la commission si vous étiez VRP  Multicarte (un VRP exclusif qui ne travaille que pour un seul employeu a droit un  salarie garanti trimestriel...) ou Agent Commercial (donc à  son compte et qui prospecte des clients).
+1	Ce	Ce	PRON	_	PRON__Number=Sing|Person=3	2	nsubj	_	_
+2	serait	être	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	possible	possible	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+4	de	de	ADP	_	ADP___	5	mark	_	_
+5	payer	payer	VERB	_	VERB__VerbForm=Inf	3	xcomp	_	_
+6	uniquement	uniquement	ADV	_	ADV___	7	advmod	_	_
+7	à	à	ADP	_	ADP___	5	case	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	commission	commission	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obl	_	_
+10	si	si	SCONJ	_	SCONJ___	5	mark	_	_
+11	vous	se	PRON	_	PRON__Number=Plur|Person=2	13	nsubj	_	_
+12	étiez	être	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	VRP	VRP	ADJ	_	ADJ___	5	nmod	_	_
+14	 	 	SPACE	_		15		_	_
+15	Multicarte	Multicarte	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	conj	_	_
+16	(	(	PUNCT	_	PUNCT___	3	punct	_	_
+17	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	VRP	VRP	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	obl	_	_
+19	exclusif	exclusif	ADJ	_	ADJ__Gender=Masc|Number=Sing	20	amod	_	_
+20	qui	qui	PRON	_	PRON__PronType=Rel	18	nsubj	_	_
+21	ne	ne	ADV	_	ADV__Polarity=Neg	20	advmod	_	_
+22	travaille	travailler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
+23	que	que	SCONJ	_	SCONJ___	24	mark	_	_
+24	pour	pour	ADP	_	ADP___	20	case	_	_
+25	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+26	seul	seul	ADJ	_	ADJ__Gender=Masc|Number=Sing	29	amod	_	_
+27	employeu	employeu	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	nsubj	_	_
+28	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	droit	droit	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	ccomp	_	_
+30	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	 	 	SPACE	_		25		_	_
+32	salarie	salarier	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	cop	_	_
+33	garanti	garantir	ADJ	_	ADJ___	37	amod	_	_
+34	trimestriel	trimestriel	ADJ	_	ADJ__Gender=Masc|Number=Sing	33	fixed	_	_
+35	...	...	PUNCT	_	PUNCT___	34	obj	_	_
+36	)	)	PUNCT	_	PUNCT___	37	punct	_	_
+37	ou	ou	CCONJ	_	CCONJ___	31	cc	_	_
+38	Agent	Agent	PROPN	_	PROPN__Gender=Masc|Number=Sing	37	conj	_	_
+39	Commercial	Commercial	PROPN	_	PROPN___	40	flat:name	_	_
+40	(	(	PUNCT	_	PUNCT___	31	punct	_	_
+41	donc	donc	ADV	_	ADV___	42	advmod	_	_
+42	à	à	ADP	_	ADP___	40	case	_	_
+43	 	 	SPACE	_		45		_	_
+44	son	son	DET	_	DET__Number=Sing|Poss=Yes	43	nmod:poss	_	_
+45	compte	compter	NOUN	_	NOUN__Gender=Masc|Number=Sing	40	nmod	_	_
+46	et	et	CCONJ	_	CCONJ___	47	cc	_	_
+47	qui	qui	PRON	_	PRON__PronType=Rel	45	nsubj	_	_
+48	prospecte	prospecter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	conj	_	_
+49	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	51	det	_	_
+50	clients	client	NOUN	_	NOUN__Gender=Masc|Number=Plur	51	obj	_	_
+51	)	)	PUNCT	_	PUNCT___	51	punct	_	_
+52	.	.	PUNCT	_	PUNCT___	53	punct	_	_
+
+
+#Mais si vous avez signé un contrat de travail, vous n'êtes pas dans ces deux cas.
+1	Mais	Mais	CCONJ	_	CCONJ___	2	cc	_	_
+2	si	si	SCONJ	_	SCONJ___	3	mark	_	_
+3	vous	se	PRON	_	PRON__Number=Plur|Person=2	3	nsubj	_	_
+4	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	signé	signer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+8	de	de	ADP	_	ADP___	9	case	_	_
+9	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+10	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+11	vous	se	PRON	_	PRON__Number=Plur|Person=2	13	nsubj	_	_
+12	n'	ne	ADV	_	ADV__Polarity=Neg	13	advmod	_	_
+13	êtes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+14	pas	pas	ADV	_	ADV__Polarity=Neg	15	advmod	_	_
+15	dans	dan	ADP	_	ADP___	5	case	_	_
+16	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	3	det	_	_
+17	deux	deux	NUM	_	NUM__NumType=Card	18	nummod	_	_
+18	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Plur	25	obl	_	_
+19	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Avez
+1	Avez	Avez	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+
+
+#-vous déjà eu une fiche de paie ?
+1	-	-	PUNCT	_	PUNCT___	2	punct	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	3	nsubj	_	_
+3	déjà	déjà	ADV	_	ADV___	3	advmod	_	_
+4	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+6	fiche	ficher	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+7	de	de	ADP	_	ADP___	5	case	_	_
+8	paie	payer	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nmod	_	_
+9	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Que précise
+1	Que	Que	PRON	_	PRON__PronType=Int	2	obj	_	_
+2	précise	préciser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+
+
+#-t-elle ?
+1	-	-	PUNCT	_	PUNCT___	2	punct	_	_
+2	t	t	NOUN	_	NOUN__Gender=Fem|Number=Plur	3	amod	_	_
+3	-	-	PUNCT	_	PUNCT___	3	punct	_	_
+4	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	0	ROOT	_	_
+5	?	?	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Il y a un gros malaise alors.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+2	y	yu	PRON	_	PRON__Person=3	1	fixed	_	_
+3	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	fixed	_	_
+4	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	gros	gros	ADJ	_	ADJ__Gender=Masc	6	amod	_	_
+6	malaise	malais	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+7	alors	alors	ADV	_	ADV___	6	advmod	_	_
+8	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#C'est impossible.
+1	C'	C'	PRON	_	PRON__Number=Sing|Person=3	6	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	impossible	impossible	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+4	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#En plus, si vous êtes cadre, vous devez percevoir le minimum conventionnel qui correspond à votre coefficient, donc, certainement plus que le SMIC.
+1	En	En	ADP	_	ADP___	6	advmod	_	_
+2	plus	plaire	ADV	_	ADV___	1	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	si	si	SCONJ	_	SCONJ___	6	mark	_	_
+5	vous	se	PRON	_	PRON__Number=Plur|Person=2	6	nsubj	_	_
+6	êtes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	cop	_	_
+7	cadre	cadrer	ADV	_	ADV___	6	advcl	_	_
+8	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+9	vous	se	PRON	_	PRON__Number=Plur|Person=2	11	nsubj	_	_
+10	devez	devoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	percevoir	percevoir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+13	minimum	minimum	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	obj	_	_
+14	conventionnel	conventionnel	ADJ	_	ADJ__Gender=Masc|Number=Sing	13	amod	_	_
+15	qui	qui	PRON	_	PRON__PronType=Rel	23	nsubj	_	_
+16	correspond	correspondre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+17	à	à	ADP	_	ADP___	19	case	_	_
+18	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	19	nmod:poss	_	_
+19	coefficient	coefficient	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	obl	_	_
+20	,	,	PUNCT	_	PUNCT___	23	punct	_	_
+21	donc	donc	ADV	_	ADV___	23	advmod	_	_
+22	,	,	PUNCT	_	PUNCT___	23	punct	_	_
+23	certainement	certainement	ADV	_	ADV___	23	advmod	_	_
+24	plus	plaire	ADV	_	ADV___	25	advmod	_	_
+25	que	que	SCONJ	_	SCONJ___	23	mark	_	_
+26	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+27	SMIC	SMIC	PROPN	_	PROPN__Gender=Masc|Number=Sing	28	dep	_	_
+28	.	.	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#Il faut 5 messages minimum...
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	5	5	NUM	_	NUM__NumType=Card	4	nummod	_	_
+4	messages	message	NOUN	_	NOUN__Gender=Masc|Number=Plur	2	obj	_	_
+5	minimum	minimum	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	amod	_	_
+6	...	...	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#Passez par un site d'hébergement et recopiez
+1	Passez	Passez	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	advmod	_	_
+2	par	par	ADP	_	ADP___	4	case	_	_
+3	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	site	site	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	d'	de	ADP	_	ADP___	6	case	_	_
+6	hébergement	hébergement	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+7	et	et	CCONJ	_	CCONJ___	8	cc	_	_
+8	recopiez	recopier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	conj	_	_
+
+
+#-en l'adresse avec un espace entre les lettres de http.
+1	-	-	PUNCT	_	PUNCT___	4	punct	_	_
+2	en	en	ADP	_	ADP___	4	mark	_	_
+3	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	4	obj	_	_
+4	adresse	adresser	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+5	avec	avec	ADP	_	ADP___	6	case	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+7	espace	espacer	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+8	entre	entrer	ADP	_	ADP___	4	case	_	_
+9	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	12	det	_	_
+10	lettres	lettre	NOUN	_	NOUN__Gender=Fem|Number=Plur	12	nmod	_	_
+11	de	de	ADP	_	ADP___	12	case	_	_
+12	http	http	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	nmod	_	_
+13	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Le document doit être parfaitement anonymisé.
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+2	document	document	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+3	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	être	être	AUX	_	AUX__VerbForm=Inf	4	aux:pass	_	_
+5	parfaitement	parfaitement	ADV	_	ADV___	6	advmod	_	_
+6	anonymisé	anonymisé	ADJ	_	ADJ__Gender=Masc|Number=Sing	4	xcomp	_	_
+7	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Bonjour,Vous pouvez être payé que pas des commissions dès lors qu'elles respectent le minimum conventionnel de votre classification relatif au poste que vous occupez.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	4	acl	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	4	nsubj	_	_
+4	pouvez	pouvoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	être	être	AUX	_	AUX__VerbForm=Inf	6	aux:pass	_	_
+6	payé	payer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	xcomp	_	_
+7	que	que	ADV	_	ADV___	10	mark	_	_
+8	pas	pas	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+9	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
+10	commissions	commission	NOUN	_	NOUN__Gender=Fem|Number=Plur	6	csubj:pass	_	_
+11	dès	dès	ADP	_	ADP___	15	mark	_	_
+12	lors	lors	ADV	_	ADV___	11	fixed	_	_
+13	qu'	que	SCONJ	_	SCONJ___	11	fixed	_	_
+14	elles	lui	PRON	_	PRON__Gender=Fem|Number=Plur|Person=3	15	nsubj	_	_
+15	respectent	respecter	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+16	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	minimum	minimum	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obj	_	_
+18	conventionnel	conventionnel	ADJ	_	ADJ__Gender=Masc|Number=Sing	17	amod	_	_
+19	de	de	ADP	_	ADP___	21	case	_	_
+20	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	21	nmod:poss	_	_
+21	classification	classification	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	nmod	_	_
+22	relatif	relatif	ADJ	_	ADJ__Gender=Masc|Number=Sing	21	amod	_	_
+23	au	au	PRON	_	PRON__PronType=Rel	24	advmod	_	_
+24	poste	poster	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	amod	_	_
+25	que	que	SCONJ	_	SCONJ___	27	mark	_	_
+26	vous	se	PRON	_	PRON__Number=Plur|Person=2	27	det	_	_
+27	occupez	occuper	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	10	dep	_	_
+28	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Le contrat peut prévoir une régularisation au niveau des commissions mensuelles par rapport au salaire minimum.
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+2	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+3	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	prévoir	prévoir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	régularisation	régularisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obj	_	_
+7	au	au	PRON	_	PRON__PronType=Rel	10	case	_	_
+8	niveau	niveau	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	fixed	_	_
+9	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
+10	commissions	commission	NOUN	_	NOUN__Gender=Fem|Number=Plur	6	obl	_	_
+11	mensuelles	mensuel	ADJ	_	ADJ__Number=Plur	15	amod	_	_
+12	par	par	ADP	_	ADP___	11	case	_	_
+13	rapport	rapport	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	fixed	_	_
+14	au	au	PRON	_	PRON__PronType=Rel	15	fixed	_	_
+15	salaire	salaire	ADJ	_	ADJ__Number=Sing	10	nmod	_	_
+16	minimum	minimum	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	amod	_	_
+17	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Non, tout salarié a droit au minimum au SMIC.Et la jurisprudence a déjà décidé dans un cas identique que tout salarié a droit, quelles que soient les stipulations de son contrat de travail, à une rémunération au moins égale au SMIC.
+1	Non	Non	ADV	_	ADV___	8	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+3	tout	tout	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	salarié	salarier	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nsubj	_	_
+5	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	droit	droit	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	nsubj	_	_
+7	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	8	expl	_	_
+8	minimum	minimum	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+9	au	au	PRON	_	PRON__PronType=Rel	10	case	_	_
+10	SMIC.Et	SMIC.Et	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	obl	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	jurisprudence	jurisprudence	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+13	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	déjà	déjà	ADV	_	ADV___	15	advmod	_	_
+15	décidé	décider	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+16	dans	dan	ADP	_	ADP___	18	case	_	_
+17	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obl	_	_
+19	identique	identique	ADJ	_	ADJ__Number=Sing	18	amod	_	_
+20	que	que	SCONJ	_	SCONJ___	24	obj	_	_
+21	tout	tout	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	22	det	_	_
+22	salarié	salarier	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	nsubj	_	_
+23	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	droit	droit	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	acl:relcl	_	_
+25	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+26	quelles	quel	ADJ	_	ADJ__Gender=Fem|Number=Plur	30	mark	_	_
+27	que	que	PRON	_	PRON__PronType=Rel	26	fixed	_	_
+28	soient	être	AUX	_	AUX__Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+29	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	30	det	_	_
+30	stipulations	stipulation	NOUN	_	NOUN__Gender=Fem|Number=Plur	15	obl	_	_
+31	de	de	ADP	_	ADP___	33	case	_	_
+32	son	son	DET	_	DET__Number=Sing|Poss=Yes	33	nmod:poss	_	_
+33	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	nmod	_	_
+34	de	de	ADP	_	ADP___	35	case	_	_
+35	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	33	nmod	_	_
+36	,	,	PUNCT	_	PUNCT___	39	punct	_	_
+37	à	à	ADP	_	ADP___	39	case	_	_
+38	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	rémunération	rémunération	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	conj	_	_
+40	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	39	amod	_	_
+41	moins	moins	ADV	_	ADV___	42	advmod	_	_
+42	égale	égaler	ADJ	_	ADJ__Gender=Fem|Number=Sing	40	amod	_	_
+43	au	au	PRON	_	PRON__PronType=Rel	44	obj	_	_
+44	SMIC	SMIC	PROPN	_	PROPN__Gender=Fem|Number=Sing	39	nmod	_	_
+45	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#On a bien compris la situation, même que certains mois, vous travaillez sans être payé.
+1	On	On	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+2	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	bien	bien	ADV	_	ADV___	4	advmod	_	_
+4	compris	comprendre	ADJ	_	ADJ__Gender=Masc	0	ROOT	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obj	_	_
+7	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+8	même	même	ADV	_	ADV___	14	mark	_	_
+9	que	que	SCONJ	_	SCONJ___	8	fixed	_	_
+10	certains	certain	DET	_	DET__Gender=Masc|Number=Plur	11	det	_	_
+11	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	obl	_	_
+12	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+13	vous	se	PRON	_	PRON__Number=Plur|Person=2	14	nsubj	_	_
+14	travaillez	travailler	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+15	sans	sans	ADP	_	ADP___	17	mark	_	_
+16	être	être	AUX	_	AUX__VerbForm=Inf	17	aux:pass	_	_
+17	payé	payer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	14	xcomp	_	_
+18	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Votre patron est un patron voyou, vous ne pouvez pas continuer à travailler gratuitement dans de telles conditions.
+1	Votre	Votre	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+2	patron	patron	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+5	patron	patron	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obl	_	_
+6	voyou	voyou	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	amod	_	_
+7	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+8	vous	se	PRON	_	PRON__Number=Plur|Person=2	14	nsubj	_	_
+9	ne	ne	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+10	pouvez	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	pas	pas	ADV	_	ADV__Polarity=Neg	14	advmod	_	_
+12	continuer	continuer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+13	à	à	ADP	_	ADP___	14	mark	_	_
+14	travailler	travailler	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+15	gratuitement	gratuitement	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	advmod	_	_
+16	dans	dan	ADP	_	ADP___	17	case	_	_
+17	de	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
+18	telles	tel	ADJ	_	ADJ__Gender=Fem|Number=Plur	4	amod	_	_
+19	conditions	condition	NOUN	_	NOUN__Gender=Fem|Number=Plur	20	obl	_	_
+20	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Il faut donc lui réclamer vos salaires en retard.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+2	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	donc	donc	ADV	_	ADV___	4	advmod	_	_
+4	lui	luire	PRON	_	PRON___	4	iobj	_	_
+5	réclamer	réclamer	VERB	_	VERB__VerbForm=Inf	6	ccomp	_	_
+6	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	4	nmod:poss	_	_
+7	salaires	salaire	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	obj	_	_
+8	en	en	ADP	_	ADP___	14	case	_	_
+9	retard	retard	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+10	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Quitte à aller au clash avec lui.
+1	Quitte	Quitte	ADJ	_	ADJ__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	à	à	ADP	_	ADP___	4	mark	_	_
+3	aller	aller	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+4	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	4	case	_	_
+5	clash	clash	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	xcomp	_	_
+6	avec	avec	ADP	_	ADP___	4	case	_	_
+7	lui	luire	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nmod	_	_
+8	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Oui,  au minimum le SMIC ou salaire minimum conventionnel.
+1	Oui	Oui	PROPN	_	PROPN__Gender=Masc|Number=Sing	5	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+3	 	 	SPACE	_		2		_	_
+4	au	au	PROPN	_	PROPN__Gender=Fem|Number=Sing	5	dep	_	_
+5	minimum	minimum	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	SMIC	SMIC	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+8	ou	ou	CCONJ	_	CCONJ___	9	cc	_	_
+9	salaire	salaire	ADJ	_	ADJ__Number=Sing	5	conj	_	_
+10	minimum	minimum	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	amod	_	_
+11	conventionnel	conventionnel	ADJ	_	ADJ__Gender=Masc|Number=Sing	10	amod	_	_
+12	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Mes propos évoquent les avances sur commissions que peut constituer le salaire minimum.
+1	Mes	Mes	DET	_	DET__Number=Plur|Poss=Yes	5	nmod:poss	_	_
+2	propos	propos	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	nsubj	_	_
+3	évoquent	évoquer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+5	avances	avancer	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	obj	_	_
+6	sur	sur	ADP	_	ADP___	7	case	_	_
+7	commissions	commission	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	obl	_	_
+8	que	que	PRON	_	PRON__PronType=Rel	9	obj	_	_
+9	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+10	constituer	constituer	VERB	_	VERB__VerbForm=Inf	9	ccomp	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+12	salaire	salaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+13	minimum	minimum	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	amod	_	_
+14	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+

@@ -1,0 +1,94 @@
+#Bonjour, voilà ne connaissant pas grand chose au droit du travail jai une petite question.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	voilà	voilà	VERB	_	VERB__Mood=Ind|VerbForm=Fin	1	conj	_	_
+4	ne	ne	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+5	connaissant	connaître	VERB	_	VERB__Tense=Pres|VerbForm=Part	3	acl	_	_
+6	pas	pas	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+7	grand	grand	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	amod	_	_
+8	chose	chose	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obj	_	_
+9	au	au	PRON	_	PRON__PronType=Rel	10	det	_	_
+10	droit	droit	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	obj	_	_
+11	du	du	DET	_	DET__Gender=Masc|Number=Sing	12	det	_	_
+12	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+13	jai	jai	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	amod	_	_
+14	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	petite	petit	ADJ	_	ADJ__Gender=Fem|Number=Sing	16	amod	_	_
+16	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	amod	_	_
+17	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Comment doivent être renumeree les astreintes ?
+1	Comment	Comment	ADV	_	ADV__PronType=Int	1	advmod	_	_
+2	doivent	devoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	être	être	AUX	_	AUX__VerbForm=Inf	1	aux:pass	_	_
+4	renumeree	renumeree	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	5	xcomp	_	_
+5	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	3	det	_	_
+6	astreintes	astreinte	NOUN	_	NOUN__Gender=Fem|Number=Plur	7	obj	_	_
+7	?	?	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Exemple je travail de 13h à 22h, je dois rester à lhôtel puis reprendre à 7h30 et finir à 15h.
+1	Exemple	Exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+3	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+4	de	de	ADP	_	ADP___	5	case	_	_
+5	13h	13h	PRON	_	PRON__NumType=Card|PronType=Rel	3	nmod	_	_
+6	à	à	ADP	_	ADP___	7	case	_	_
+7	22h	22h	PRON	_	PRON__NumType=Card|PronType=Rel	8	nmod	_	_
+8	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+9	je	il	PRON	_	PRON__Number=Sing|Person=1	10	nsubj	_	_
+10	dois	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+11	rester	rester	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+12	à	à	ADP	_	ADP___	10	case	_	_
+13	lhôtel	lhôtel	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obl	_	_
+14	puis	pouvoir	CCONJ	_	CCONJ___	16	cc	_	_
+15	reprendre	reprendre	VERB	_	VERB__VerbForm=Inf	16	conj	_	_
+16	à	à	ADP	_	ADP___	10	case	_	_
+17	7h30	7h30	NUM	_	NUM__NumType=Card	1	obl	_	_
+18	et	et	CCONJ	_	CCONJ___	19	cc	_	_
+19	finir	finir	VERB	_	VERB__VerbForm=Inf	19	conj	_	_
+20	à	à	ADP	_	ADP___	21	case	_	_
+21	15h	15h	NOUN	_	NOUN__NumType=Card	19	obl	_	_
+22	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Alors que sur ma feuille horaire ils ne marquent pas ça comme ça ils marque nos horaire théorique en gros 13h 22h et 14h21h le lendemain alors que je ne fait pas ses heures là réellement
+1	Alors	Alors	ADV	_	ADV___	1	mark	_	_
+2	que	que	SCONJ	_	SCONJ___	3	fixed	_	_
+3	sur	sur	ADP	_	ADP___	1	case	_	_
+4	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	5	nmod:poss	_	_
+5	feuille	feuiller	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obl	_	_
+6	horaire	horaire	ADJ	_	ADJ__Number=Sing	7	amod	_	_
+7	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	8	nsubj	_	_
+8	ne	ne	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+9	marquent	marquer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+10	pas	pas	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+11	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	obj	_	_
+12	comme	comme	SCONJ	_	SCONJ___	10	mark	_	_
+13	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	nmod	_	_
+14	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	16	nsubj	_	_
+15	marque	marquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+16	nos	notre	DET	_	DET__Number=Plur|Poss=Yes	10	nmod:poss	_	_
+17	horaire	horaire	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	obj	_	_
+18	théorique	théorique	ADJ	_	ADJ__Number=Sing	19	amod	_	_
+19	en	en	ADP	_	ADP___	19	case	_	_
+20	gros	gros	ADJ	_	ADJ__Gender=Masc	21	fixed	_	_
+21	13h	13h	NUM	_	NUM__NumType=Card	19	nmod	_	_
+22	22h	22h	ADJ	_	ADJ__NumType=Ord	23	amod	_	_
+23	et	et	CCONJ	_	CCONJ___	21	cc	_	_
+24	14h21h	14h21h	PRON	_	PRON__PronType=Rel	19	conj	_	_
+25	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+26	lendemain	lendemain	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	nmod	_	_
+27	alors	alors	ADV	_	ADV___	25	mark	_	_
+28	que	que	SCONJ	_	SCONJ___	29	fixed	_	_
+29	je	il	PRON	_	PRON__Number=Sing|Person=1	27	nsubj	_	_
+30	ne	ne	ADV	_	ADV__Polarity=Neg	31	advmod	_	_
+31	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	advcl	_	_
+32	pas	pas	ADV	_	ADV__Polarity=Neg	35	advmod	_	_
+33	ses	son	DET	_	DET__Number=Plur|Poss=Yes	35	nmod:poss	_	_
+34	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	35	obj	_	_
+35	là	là	ADV	_	ADV___	35	iobj	_	_
+36	réellement	réellement	ADV	_	ADV___	37	advmod	_	_
+
+
