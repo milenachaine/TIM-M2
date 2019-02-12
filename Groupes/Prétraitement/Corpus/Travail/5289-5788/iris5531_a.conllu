@@ -1,0 +1,108 @@
+#Bonjour,Je suppose (mais ce n'est pas une question) que le véhicule est assuré.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Je	Je	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+4	suppose	supposer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	amod	_	_
+5	(	(	PUNCT	_	PUNCT___	1	punct	_	_
+6	mais	mai	CCONJ	_	CCONJ___	7	cc	_	_
+7	ce	ce	PRON	_	PRON__PronType=Rel	12	nsubj	_	_
+8	n'	ne	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+9	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+10	pas	pas	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+11	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+13	)	)	PUNCT	_	PUNCT___	1	punct	_	_
+14	que	que	SCONJ	_	SCONJ___	18	mark	_	_
+15	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	véhicule	véhiculer	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nsubj:pass	_	_
+17	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux:pass	_	_
+18	assuré	assurer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	acl:relcl	_	_
+19	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Par conséquent, en cas de dommages matériels, il ne resterait à charge qu'une franchise.
+1	Par	Par	ADP	_	ADP___	1	advmod	_	_
+2	conséquent	conséquent	NOUN	_	NOUN___	1	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	en	en	ADP	_	ADP___	1	case	_	_
+5	cas	cas	NOUN	_	NOUN__Gender=Masc	1	fixed	_	_
+6	de	de	ADP	_	ADP___	7	fixed	_	_
+7	dommages	dommage	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	obl	_	_
+8	matériels	matériel	ADJ	_	ADJ__Gender=Masc|Number=Plur	12	amod	_	_
+9	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+10	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	11	nsubj	_	_
+11	ne	ne	ADV	_	ADV___	12	advmod	_	_
+12	resterait	rester	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+13	à	à	ADP	_	ADP___	1	advmod	_	_
+14	charge	charger	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	fixed	_	_
+15	qu'	que	SCONJ	_	SCONJ___	16	mark	_	_
+16	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	franchise	franchise	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	obj	_	_
+18	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Bien évidemment, cette somme serait à la charge de l'employeur, sauf faute de votre part (alcoolisation par exemple).En revanche, en cas de dommages corporels, pendant le temps de travail, il s'agirait d'un accident du travail.
+1	Bien	Bien	ADV	_	ADV___	1	advmod	_	_
+2	évidemment	évidemment	ADV	_	ADV___	1	advmod	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	1	det	_	_
+5	somme	sommer	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+6	serait	être	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	à	à	ADP	_	ADP___	12	case	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+9	charge	charger	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obl	_	_
+10	de	de	ADP	_	ADP___	11	case	_	_
+11	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+13	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+14	sauf	sauf	ADP	_	ADP___	18	case	_	_
+15	faute	fauter	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nmod	_	_
+16	de	de	ADP	_	ADP___	18	case	_	_
+17	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	18	nmod:poss	_	_
+18	part	partir	NOUN	_	NOUN__Number=Sing	1	nmod	_	_
+19	(	(	PUNCT	_	PUNCT___	1	punct	_	_
+20	alcoolisation	alcoolisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	appos	_	_
+21	par	par	ADP	_	ADP___	20	case	_	_
+22	exemple).En	exemple).En	DET	_	DET__Definite=Ind|Number=Sing|PronType=Art	31	nmod	_	_
+23	revanche	revanche	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	amod	_	_
+24	,	,	PUNCT	_	PUNCT___	23	punct	_	_
+25	en	en	ADP	_	ADP___	23	case	_	_
+26	cas	cas	NOUN	_	NOUN__Gender=Masc	31	fixed	_	_
+27	de	de	ADP	_	ADP___	26	fixed	_	_
+28	dommages	dommage	NOUN	_	NOUN__Gender=Masc|Number=Plur	31	nmod	_	_
+29	corporels	corporel	ADJ	_	ADJ__Gender=Masc|Number=Plur	31	amod	_	_
+30	,	,	PUNCT	_	PUNCT___	31	punct	_	_
+31	pendant	pendre	ADP	_	ADP___	31	case	_	_
+32	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+33	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	32	nmod	_	_
+34	de	de	ADP	_	ADP___	36	case	_	_
+35	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	36	nmod	_	_
+36	,	,	PUNCT	_	PUNCT___	31	punct	_	_
+37	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	31	nsubj	_	_
+38	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	39	expl	_	_
+39	agirait	agir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+40	d'	de	ADP	_	ADP___	39	case	_	_
+41	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	accident	accident	NOUN	_	NOUN__Gender=Masc|Number=Sing	46	obl	_	_
+43	du	du	DET	_	DET__Gender=Masc|Number=Sing	46	det	_	_
+44	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	46	obj	_	_
+45	.	.	PUNCT	_	PUNCT___	46	punct	_	_
+
+
+#Donc, totalement pris en charge à ce titre.
+1	Donc	Donc	ADV	_	ADV___	1	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	totalement	totalement	ADV	_	ADV___	4	advmod	_	_
+4	pris	prendre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	en	en	ADP	_	ADP___	1	iobj	_	_
+6	charge	charger	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	fixed	_	_
+7	à	à	ADP	_	ADP___	12	case	_	_
+8	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
+9	titre	titrer	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obl	_	_
+10	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Cdt
+1	Cdt	Cdt	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+
+

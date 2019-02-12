@@ -1,0 +1,90 @@
+#Bonjour,Mon
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Mon	Mon	DET	_	DET__Number=Sing|Poss=Yes	1	nmod	_	_
+
+
+#Assitante maternelle a été en arrêt
+1	Assitante	Assitante	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+2	maternelle	maternel	ADJ	_	ADJ__Gender=Fem|Number=Sing	1	amod	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+4	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	9	cop	_	_
+5	en	en	ADP	_	ADP___	4	case	_	_
+6	arrêt	arrêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+
+
+#maladie 4 jours dun mardi à un vendredi.
+1	maladie	maladie	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	4	4	NUM	_	NUM__NumType=Card	1	nummod	_	_
+3	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	obj	_	_
+4	dun	dun	ADP	_	ADP___	9	case	_	_
+5	mardi	mardi	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+6	à	à	ADP	_	ADP___	9	case	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	vendredi	vendredi	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obl	_	_
+9	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Je lemploie seulement du lundi au jeudi.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	lemploie	lemploie	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	seulement	seulement	ADV	_	ADV___	1	advmod	_	_
+4	du	du	DET	_	DET__Gender=Masc|Number=Sing	9	det	_	_
+5	lundi	lundi	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obj	_	_
+6	au	au	PRON	_	PRON__PronType=Rel	9	case	_	_
+7	jeudi	jeudi	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obl	_	_
+8	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Doit je lui compter 3 jours darrêt ou 4 jours ( je ne lemploie pas le vendredi) ?
+1	Doit	Doit	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+3	lui	luire	PRON	_	PRON___	1	iobj	_	_
+4	compter	compter	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	3	3	NUM	_	NUM__NumType=Card	4	nummod	_	_
+6	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	obj	_	_
+7	darrêt	darrêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+8	ou	ou	CCONJ	_	CCONJ___	9	cc	_	_
+9	4	4	NUM	_	NUM__NumType=Card	9	nummod	_	_
+10	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	conj	_	_
+11	(	(	PUNCT	_	PUNCT___	12	punct	_	_
+12	je	il	PRON	_	PRON__Number=Sing|Person=1	10	nsubj	_	_
+13	ne	ne	ADV	_	ADV__Polarity=Neg	14	advmod	_	_
+14	lemploie	lemploie	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	parataxis	_	_
+15	pas	pas	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+16	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	vendredi	vendredi	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+18	)	)	PUNCT	_	PUNCT___	10	punct	_	_
+19	?	?	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Sachant quelle a trois jours de carence doit je lui produire lattestation de salaire pour les trois jours darrêt ?
+1	Sachant	Sachant	VERB	_	VERB__Tense=Pres|VerbForm=Part	0	ROOT	_	_
+2	quelle	quelle	PRON	_	PRON__PronType=Int	1	nsubj	_	_
+3	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+4	trois	trois	NUM	_	NUM__NumType=Card	9	nummod	_	_
+5	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	nsubj	_	_
+6	de	de	ADP	_	ADP___	9	case	_	_
+7	carence	carence	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nmod	_	_
+8	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	je	il	PRON	_	PRON__Number=Sing|Person=1	9	nsubj	_	_
+10	lui	luire	PRON	_	PRON___	10	iobj	_	_
+11	produire	produire	VERB	_	VERB__VerbForm=Inf	12	acl:relcl	_	_
+12	lattestation	lattestation	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obj	_	_
+13	de	de	ADP	_	ADP___	14	case	_	_
+14	salaire	salaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+15	pour	pour	ADP	_	ADP___	17	case	_	_
+16	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	17	det	_	_
+17	trois	trois	NUM	_	NUM__NumType=Card	10	nummod	_	_
+18	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	obl	_	_
+19	darrêt	darrêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	nmod	_	_
+20	?	?	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Je vous remercie.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	1	obj	_	_
+3	remercie	remercier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
