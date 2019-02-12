@@ -1,0 +1,301 @@
+#On donne un bien immobilier en le donnant.
+1	On	On	PRON	_	PRON__Number=Sing|Person=3	2	nsubj	_	_
+2	donne	donner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	bien	bien	ADV	_	ADV___	2	obj	_	_
+5	immobilier	immobilier	ADJ	_	ADJ__Gender=Masc|Number=Sing	4	amod	_	_
+6	en	en	ADP	_	ADP___	8	case	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	donnant	donner	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	obl	_	_
+9	.	.	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#Ceci se fait par acte notarié de donation.
+1	Ceci	Ceci	PRON	_	PRON__Number=Sing|PronType=Dem	2	nsubj	_	_
+2	se	se	PRON	_	PRON__Person=3|Reflex=Yes	2	expl	_	_
+3	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	par	par	ADP	_	ADP___	2	case	_	_
+5	acte	acte	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+6	notarié	notarier	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	amod	_	_
+7	de	de	ADP	_	ADP___	8	case	_	_
+8	donation	donation	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	nmod	_	_
+9	.	.	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#On peut donner soit en avance de part (la donation sera rapportable lors du partage, maintenant l'égalité entre les héritiers), soit hors part successorale, donc sur la quotité disponible du donateur.
+1	On	On	PRON	_	PRON__Number=Sing|Person=3	2	nsubj	_	_
+2	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+3	donner	donner	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	soit	être	CCONJ	_	CCONJ___	2	cc	_	_
+5	en	en	ADP	_	ADP___	4	case	_	_
+6	avance	avancer	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+7	de	de	ADP	_	ADP___	8	case	_	_
+8	part	partir	NOUN	_	NOUN__Number=Sing	2	nmod	_	_
+9	(	(	PUNCT	_	PUNCT___	2	punct	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	donation	donation	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nsubj	_	_
+12	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	aux:pass	_	_
+13	rapportable	rapportable	ADJ	_	ADJ__Number=Sing	14	parataxis	_	_
+14	lors	lors	ADV	_	ADV___	12	case	_	_
+15	du	du	DET	_	DET__Gender=Masc|Number=Sing	14	det	_	_
+16	partage	partager	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obl	_	_
+17	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+18	maintenant	maintenir	ADV	_	ADV___	12	advmod	_	_
+19	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+20	égalité	égalité	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	obj	_	_
+21	entre	entrer	ADP	_	ADP___	21	case	_	_
+22	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	24	det	_	_
+23	héritiers	héritier	NOUN	_	NOUN__Gender=Masc|Number=Plur	24	nmod	_	_
+24	)	)	PUNCT	_	PUNCT___	21	punct	_	_
+25	,	,	PUNCT	_	PUNCT___	26	punct	_	_
+26	soit	être	CCONJ	_	CCONJ___	24	cc	_	_
+27	hors	hors	ADP	_	ADP___	21	case	_	_
+28	part	partir	NOUN	_	NOUN__Number=Sing	29	conj	_	_
+29	successorale	successoral	ADJ	_	ADJ__Gender=Fem|Number=Sing	31	amod	_	_
+30	,	,	PUNCT	_	PUNCT___	31	punct	_	_
+31	donc	donc	ADV	_	ADV___	21	advmod	_	_
+32	sur	sur	ADP	_	ADP___	34	case	_	_
+33	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	quotité	quotité	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	obl	_	_
+35	disponible	disponible	ADJ	_	ADJ__Number=Sing	31	amod	_	_
+36	du	du	DET	_	DET__Gender=Masc|Number=Sing	31	det	_	_
+37	donateur	donateur	NOUN	_	NOUN__Gender=Masc|Number=Sing	38	nmod	_	_
+38	.	.	PUNCT	_	PUNCT___	31	punct	_	_
+
+
+#Si la donation hors part est trop élevée (elle dépasse la quotité disponible, qui ne pourra se calculer qu'au décès du donateur), une indemnité de réduction sera due à la succession.
+1	Si	Si	SCONJ	_	SCONJ___	2	mark	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+3	donation	donation	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nsubj	_	_
+4	hors	hors	ADP	_	ADP___	2	advmod	_	_
+5	part	partir	NOUN	_	NOUN__Number=Sing	4	fixed	_	_
+6	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	trop	trop	ADV	_	ADV___	8	advmod	_	_
+8	élevée	élever	ADJ	_	ADJ__Gender=Fem|Number=Sing	2	advcl	_	_
+9	(	(	PUNCT	_	PUNCT___	2	punct	_	_
+10	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	12	nsubj	_	_
+11	dépasse	dépasser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+13	quotité	quotité	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obj	_	_
+14	disponible	disponible	ADJ	_	ADJ__Number=Sing	12	amod	_	_
+15	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+16	qui	qui	PRON	_	PRON__PronType=Rel	17	nsubj	_	_
+17	ne	ne	ADV	_	ADV___	14	advmod	_	_
+18	pourra	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	aux	_	_
+19	se	se	PRON	_	PRON__Person=3|Reflex=Yes	21	expl	_	_
+20	calculer	calculer	VERB	_	VERB__VerbForm=Inf	21	parataxis	_	_
+21	qu'	que	SCONJ	_	SCONJ___	21	mark	_	_
+22	au	au	ADJ	_	ADJ__Gender=Masc|Number=Plur|NumType=Ord	24	nsubj	_	_
+23	décès	décès	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	ccomp	_	_
+24	du	du	DET	_	DET__Gender=Masc|Number=Sing	21	det	_	_
+25	donateur	donateur	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	obj	_	_
+26	)	)	PUNCT	_	PUNCT___	24	punct	_	_
+27	,	,	PUNCT	_	PUNCT___	21	punct	_	_
+28	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	indemnité	indemnité	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	nsubj	_	_
+30	de	de	ADP	_	ADP___	31	case	_	_
+31	réduction	réduction	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	nmod	_	_
+32	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	34	cop	_	_
+33	due	dû	ADJ	_	ADJ__Gender=Fem|Number=Sing	34	conj	_	_
+34	à	à	ADP	_	ADP___	31	case	_	_
+35	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+36	succession	succession	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	obl	_	_
+37	.	.	PUNCT	_	PUNCT___	38	punct	_	_
+
+
+#La notion de maintien du bien dans la famille est fallacieuse.
+1	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	notion	notion	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	nsubj	_	_
+3	de	de	ADP	_	ADP___	4	mark	_	_
+4	maintien	maintien	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	nmod	_	_
+5	du	du	DET	_	DET__Gender=Masc|Number=Sing	4	amod	_	_
+6	bien	bien	ADV	_	ADV___	8	fixed	_	_
+7	dans	dan	ADP	_	ADP___	8	case	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+9	famille	famille	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	nmod	_	_
+10	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	fallacieuse	fallacieux	ADJ	_	ADJ__Gender=Fem|Number=Sing	0	ROOT	_	_
+12	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Le donataire, nouveau propriétaire, fera ce qu'il veut de son bien, donc il pourra le vendre si c'est son souhait.
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	donataire	donataire	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	nsubj	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	nouveau	nouveau	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	amod	_	_
+5	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	4	nsubj	_	_
+6	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+7	fera	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	acl	_	_
+8	ce	ce	PRON	_	PRON__PronType=Rel	2	obj	_	_
+9	qu'	que	PRON	_	PRON__PronType=Rel	2	obj	_	_
+10	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
+11	veut	vouloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+12	de	de	ADP	_	ADP___	12	case	_	_
+13	son	son	DET	_	DET__Number=Sing|Poss=Yes	14	nmod:poss	_	_
+14	bien	bien	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obl	_	_
+15	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+16	donc	donc	ADV	_	ADV___	17	advmod	_	_
+17	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
+18	pourra	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	aux	_	_
+19	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	obj	_	_
+20	vendre	vendre	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+21	si	si	SCONJ	_	SCONJ___	21	mark	_	_
+22	c'	ce	PRON	_	PRON__Number=Sing|Person=3	24	nsubj	_	_
+23	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+24	son	son	DET	_	DET__Number=Sing|Poss=Yes	21	nmod:poss	_	_
+25	souhait	souhait	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	ccomp	_	_
+26	.	.	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#Un bien n'a pas vocation à rester dans la famille, toute volonté en ce sens est illusoire.
+1	Un	Un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	bien	bien	ADV	_	ADV___	2	nsubj	_	_
+3	n'	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+4	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+6	vocation	vocation	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+7	à	à	ADP	_	ADP___	8	mark	_	_
+8	rester	rester	AUX	_	AUX__VerbForm=Inf	2	xcomp	_	_
+9	dans	dan	ADP	_	ADP___	2	case	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	famille	famille	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obl	_	_
+12	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+13	toute	tout	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	volonté	volonté	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	conj	_	_
+15	en	en	ADP	_	ADP___	14	advmod	_	_
+16	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	17	fixed	_	_
+17	sens	sentir	NOUN	_	NOUN__Gender=Masc	14	fixed	_	_
+18	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+19	illusoire	illusoire	ADJ	_	ADJ__Number=Sing	21	advcl	_	_
+20	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Bonjour,Et puis, vous ne pouvez pas léser un de vos enfants au motif qu'il est handicapé ;
+1	Bonjour	Bonjour	PROPN	_	PROPN___	10	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Et	Et	CCONJ	_	CCONJ___	10	cc	_	_
+4	puis	pouvoir	CCONJ	_	CCONJ___	10	cc	_	_
+5	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+6	vous	se	PRON	_	PRON__Number=Plur|Person=2	10	nsubj	_	_
+7	ne	ne	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+8	pouvez	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	pas	pas	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+10	léser	léser	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+11	un	un	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	10	obj	_	_
+12	de	de	ADP	_	ADP___	14	case	_	_
+13	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	14	nmod:poss	_	_
+14	enfants	enfant	NOUN	_	NOUN__Number=Plur	11	nmod	_	_
+15	au	au	PRON	_	PRON__PronType=Rel	10	punct	_	_
+16	motif	motif	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+17	qu'	que	SCONJ	_	SCONJ___	20	mark	_	_
+18	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	20	nsubj	_	_
+19	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+20	handicapé	handicaper	PUNCT	_	PUNCT___	16	ccomp	_	_
+21	;	;	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#surtout qu'après votre départ, cet enfant handicapé aura certainement beaucoup plus de besoins que son frère (apte à avoir un revenu) pour améliorer son cadre de vie et son quotidien afin de ne pas être totalement à la charge de la société.
+1	surtout	surtout	ADV	_	ADV___	10	mark	_	_
+2	qu'	que	SCONJ	_	SCONJ___	1	fixed	_	_
+3	après	après	ADP	_	ADP___	10	case	_	_
+4	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+5	départ	départir	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obl	_	_
+6	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+7	cet	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+8	enfant	enfant	NOUN	_	NOUN__Number=Sing	10	nsubj	_	_
+9	handicapé	handicaper	PUNCT	_	PUNCT___	10	amod	_	_
+10	aura	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+11	certainement	certainement	ADV	_	ADV___	10	advmod	_	_
+12	beaucoup	beaucoup	ADV	_	ADV___	14	advmod	_	_
+13	plus	plaire	ADV	_	ADV___	14	det	_	_
+14	de	de	ADP	_	ADP___	11	fixed	_	_
+15	besoins	besoin	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	obj	_	_
+16	que	que	SCONJ	_	SCONJ___	10	mark	_	_
+17	son	son	DET	_	DET__Number=Sing|Poss=Yes	20	nmod:poss	_	_
+18	frère	frère	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	nsubj	_	_
+19	(	(	PUNCT	_	PUNCT___	20	punct	_	_
+20	apte	apte	ADJ	_	ADJ__Number=Sing	16	ccomp	_	_
+21	à	à	ADP	_	ADP___	10	mark	_	_
+22	avoir	avoir	VERB	_	VERB__VerbForm=Inf	31	xcomp	_	_
+23	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+24	revenu	revenir	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	obj	_	_
+25	)	)	PUNCT	_	PUNCT___	26	punct	_	_
+26	pour	pour	ADP	_	ADP___	31	mark	_	_
+27	améliorer	améliorer	VERB	_	VERB__VerbForm=Inf	31	advcl	_	_
+28	son	son	DET	_	DET__Number=Sing|Poss=Yes	29	nmod:poss	_	_
+29	cadre	cadrer	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	obj	_	_
+30	de	de	ADP	_	ADP___	29	case	_	_
+31	vie	vie	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	nmod	_	_
+32	et	et	CCONJ	_	CCONJ___	33	cc	_	_
+33	son	son	DET	_	DET__Number=Sing|Poss=Yes	34	nmod:poss	_	_
+34	quotidien	quotidien	NOUN	_	NOUN__Gender=Masc|Number=Sing	36	conj	_	_
+35	afin	afin	ADP	_	ADP___	34	mark	_	_
+36	de	de	ADP	_	ADP___	31	fixed	_	_
+37	ne	ne	ADV	_	ADV___	41	advmod	_	_
+38	pas	pas	ADV	_	ADV___	39	fixed	_	_
+39	être	être	AUX	_	AUX__VerbForm=Inf	41	advcl	_	_
+40	totalement	totalement	ADV	_	ADV___	39	advmod	_	_
+41	à	à	ADP	_	ADP___	31	case	_	_
+42	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	charge	charger	NOUN	_	NOUN__Gender=Fem|Number=Sing	41	obj	_	_
+44	de	de	ADP	_	ADP___	45	case	_	_
+45	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+46	société	société	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	nmod	_	_
+47	.	.	PUNCT	_	PUNCT___	48	punct	_	_
+
+
+#bonjour,j'ai mauvais esprit, mais il est possible qu'isa69100 veuille faire justement donation de ce bien au frère non handicapé, pour que le produit de la vente ne puisse pas être utilisé pour financer les soins du frère handicapé.j'espère être démenti d'avoir eu cette pensée.salutations
+1	bonjour	bonjour	NOUN	_	NOUN___	6	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+3	j'	il	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+4	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	mauvais	mauvais	ADJ	_	ADJ___	6	aux	_	_
+6	esprit	esprit	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+7	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+8	mais	mai	CCONJ	_	CCONJ___	11	cc	_	_
+9	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	11	nsubj	_	_
+10	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	possible	possible	ADJ	_	ADJ__Number=Sing	6	conj	_	_
+12	qu'	que	SCONJ	_	SCONJ___	15	mark	_	_
+13	isa69100	isa69100	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	15	nsubj	_	_
+14	veuille	vouloir	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	aux	_	_
+15	faire	faire	VERB	_	VERB__VerbForm=Inf	11	xcomp	_	_
+16	justement	justement	ADV	_	ADV___	15	advmod	_	_
+17	donation	donation	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obj	_	_
+18	de	de	ADP	_	ADP___	22	case	_	_
+19	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	18	fixed	_	_
+20	bien	bien	ADV	_	ADV___	18	fixed	_	_
+21	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	22	det	_	_
+22	frère	frère	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	nmod	_	_
+23	non	non	ADV	_	ADV___	24	advmod	_	_
+24	handicapé	handicaper	PUNCT	_	PUNCT___	17	amod	_	_
+25	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+26	pour	pour	ADP	_	ADP___	34	mark	_	_
+27	que	que	SCONJ	_	SCONJ___	26	fixed	_	_
+28	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	produit	produire	NOUN	_	NOUN__Gender=Masc|Number=Sing	34	nsubj	_	_
+30	de	de	ADP	_	ADP___	32	case	_	_
+31	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	vente	venter	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	nmod	_	_
+33	ne	ne	ADV	_	ADV__Polarity=Neg	34	advmod	_	_
+34	puisse	pouvoir	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+35	pas	pas	ADV	_	ADV__Polarity=Neg	34	advmod	_	_
+36	être	être	AUX	_	AUX__VerbForm=Inf	37	aux:pass	_	_
+37	utilisé	utiliser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	34	xcomp	_	_
+38	pour	pour	ADP	_	ADP___	39	mark	_	_
+39	financer	financer	VERB	_	VERB__VerbForm=Inf	37	advcl	_	_
+40	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	41	det	_	_
+41	soins	soin	NOUN	_	NOUN__Gender=Masc|Number=Plur	39	obj	_	_
+42	du	du	DET	_	DET__Gender=Masc|Number=Sing	43	det	_	_
+43	frère	frère	NOUN	_	NOUN__Gender=Masc|Number=Sing	41	obj	_	_
+44	handicapé.j'	handicapé.j'	NOUN	_	NOUN__Gender=Masc|Number=Sing	45	advmod	_	_
+45	espère	espérer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	conj	_	_
+46	être	être	AUX	_	AUX__VerbForm=Inf	47	aux:pass	_	_
+47	démenti	démentir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	45	xcomp	_	_
+48	d'	de	ADP	_	ADP___	50	mark	_	_
+49	avoir	avoir	AUX	_	AUX__VerbForm=Inf	50	aux	_	_
+50	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	47	xcomp	_	_
+51	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	52	det	_	_
+52	pensée.salutations	pensée.salutations	NOUN	_	NOUN__Gender=Fem|Number=Plur	50	obj	_	_
+
+

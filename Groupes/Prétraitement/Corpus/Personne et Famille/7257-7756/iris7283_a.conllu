@@ -1,0 +1,594 @@
+#Bonjour,Il n'y a pas que les revenus à prendre en considération : il faut tenir compte également des charges de chaque parent.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+3	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+4	n'	ne	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+5	y	yu	PRON	_	PRON__Person=3	6	expl	_	_
+6	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	fixed	_	_
+7	pas	pas	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+8	que	que	SCONJ	_	SCONJ___	10	mark	_	_
+9	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	10	det	_	_
+10	revenus	revenu	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	dep	_	_
+11	à	à	ADP	_	ADP___	12	mark	_	_
+12	prendre	prendre	VERB	_	VERB__VerbForm=Inf	10	xcomp	_	_
+13	en	en	ADP	_	ADP___	14	case	_	_
+14	considération	considération	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obl	_	_
+15	:	:	PUNCT	_	PUNCT___	10	punct	_	_
+16	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	17	nsubj	_	_
+17	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	parataxis	_	_
+18	tenir	tenir	VERB	_	VERB__VerbForm=Inf	17	xcomp	_	_
+19	compte	compter	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obj	_	_
+20	également	également	ADV	_	ADV___	19	advmod	_	_
+21	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	22	det	_	_
+22	charges	charger	NOUN	_	NOUN__Gender=Fem|Number=Plur	18	obj	_	_
+23	de	de	ADP	_	ADP___	25	case	_	_
+24	chaque	chaque	DET	_	DET__Number=Sing	25	det	_	_
+25	parent	parer	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	nmod	_	_
+26	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#De plus, si l'un de ces deux parents a un nouveau compagnon (ou nouvelle compagne), il n'est pas tenu compte de ses revenus, mais les charges courantes sont calculées proportionnellement aux revenus du couple.
+1	De	De	ADP	_	ADP___	1	advmod	_	_
+2	plus	plaire	ADV	_	ADV___	6	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+4	si	si	SCONJ	_	SCONJ___	6	mark	_	_
+5	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	un	un	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	1	nsubj	_	_
+7	de	de	ADP	_	ADP___	6	case	_	_
+8	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	10	det	_	_
+9	deux	deux	NUM	_	NUM__NumType=Card	10	nummod	_	_
+10	parents	parent	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	nmod	_	_
+11	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+12	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+13	nouveau	nouveau	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	amod	_	_
+14	compagnon	compagnon	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+15	(	(	PUNCT	_	PUNCT___	10	punct	_	_
+16	ou	ou	CCONJ	_	CCONJ___	17	cc	_	_
+17	nouvelle	nouveau	ADJ	_	ADJ__Gender=Fem|Number=Sing	10	amod	_	_
+18	compagne	compagnon	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	conj	_	_
+19	)	)	PUNCT	_	PUNCT___	18	punct	_	_
+20	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+21	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	22	nsubj	_	_
+22	n'	ne	ADV	_	ADV__Polarity=Neg	18	advmod	_	_
+23	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+24	pas	pas	ADV	_	ADV__Polarity=Neg	25	advmod	_	_
+25	tenu	tenir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	advcl	_	_
+26	compte	compter	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+27	de	de	ADP	_	ADP___	51	case	_	_
+28	ses	son	DET	_	DET__Number=Plur|Poss=Yes	27	nmod:poss	_	_
+29	revenus	revenu	NOUN	_	NOUN__Gender=Masc|Number=Plur	51	obl	_	_
+30	,	,	PUNCT	_	PUNCT___	37	punct	_	_
+31	mais	mai	CCONJ	_	CCONJ___	32	cc	_	_
+32	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	37	det	_	_
+33	charges	charger	NOUN	_	NOUN__Gender=Fem|Number=Plur	36	nsubj:pass	_	_
+34	courantes	courante	ADJ	_	ADJ__Gender=Fem|Number=Plur	36	amod	_	_
+35	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	36	aux:pass	_	_
+36	calculées	calculer	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	32	conj	_	_
+37	proportionnellement	proportionnellement	ADV	_	ADV___	51	advmod	_	_
+38	aux	aux	ADJ	_	ADJ__Gender=Masc|Number=Plur	40	aux	_	_
+39	revenus	revenu	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	ROOT	_	_
+40	du	du	DET	_	DET__Gender=Masc|Number=Sing	37	det	_	_
+41	couple	coupler	NOUN	_	NOUN__Gender=Masc|Number=Sing	37	obj	_	_
+42	.	.	PUNCT	_	PUNCT___	44	punct	_	_
+
+
+#Ensuite, Madame peut toujours demander une pension alimentaire mais il n'est pas certain qu'elle l'obtienne : il n'y a pas de règle, c'est le juge qui décide.
+1	Ensuite	Ensuite	ADV	_	ADV___	1	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+3	Madame	Madame	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nsubj	_	_
+4	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	toujours	toujours	ADV	_	ADV___	6	advmod	_	_
+6	demander	demander	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+7	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+8	pension	pension	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obj	_	_
+9	alimentaire	alimentaire	ADJ	_	ADJ__Number=Sing	10	amod	_	_
+10	mais	mai	CCONJ	_	CCONJ___	1	cc	_	_
+11	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
+12	n'	ne	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+13	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	pas	pas	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+15	certain	certain	ADJ	_	ADJ__Gender=Masc|Number=Sing	10	conj	_	_
+16	qu'	que	SCONJ	_	SCONJ___	17	mark	_	_
+17	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	10	nsubj	_	_
+18	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	17	obj	_	_
+19	obtienne	obtenir	NOUN	_	NOUN__Number=Sing	18	ccomp	_	_
+20	:	:	PUNCT	_	PUNCT___	19	punct	_	_
+21	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	22	nsubj	_	_
+22	n'	ne	ADV	_	ADV__Polarity=Neg	18	advmod	_	_
+23	y	yu	PRON	_	PRON__Person=3	25	expl	_	_
+24	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	parataxis	_	_
+25	pas	pas	ADV	_	ADV__Polarity=Neg	22	advmod	_	_
+26	de	de	DET	_	DET__Definite=Ind|Number=Sing|PronType=Art	1	case	_	_
+27	règle	régler	NOUN	_	NOUN__Gender=Fem|Number=Sing	51	obj	_	_
+28	,	,	PUNCT	_	PUNCT___	27	punct	_	_
+29	c'	ce	PRON	_	PRON__Number=Sing|Person=3	51	nsubj	_	_
+30	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	cop	_	_
+31	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	juge	juger	NOUN	_	NOUN__Gender=Masc|Number=Sing	37	conj	_	_
+33	qui	qui	PRON	_	PRON__PronType=Rel	36	nsubj	_	_
+34	décide	décider	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	acl:relcl	_	_
+35	.	.	PUNCT	_	PUNCT___	36	punct	_	_
+
+
+#BonjourCela fait donc ramener au mois, une différence de 800e/mois ;
+1	BonjourCela	BonjourCela	PRON	_	PRON__Number=Sing|PronType=Dem	2	nsubj	_	_
+2	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	donc	donc	ADV	_	ADV___	2	advmod	_	_
+4	ramener	ramener	VERB	_	VERB__VerbForm=Inf	2	xcomp	_	_
+5	au	au	DET	_	DET__Number=Plur|PronType=Dem	6	det	_	_
+6	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	obl	_	_
+7	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+8	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	différence	différence	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obj	_	_
+10	de	de	ADP	_	ADP___	11	case	_	_
+11	800e	800e	PRON	_	PRON__NumType=Card|PronType=Rel	9	nmod	_	_
+12	/	/	ADP	_	ADP___	13	case	_	_
+13	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	nmod	_	_
+14	;	;	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#donc significative.
+1	donc	donc	ADV	_	ADV___	2	advmod	_	_
+2	significative	significatif	ADJ	_	ADJ__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	.	.	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#Vous divorcez, à voir aussi avec les charges, le fait d’être en couple, ou pas .De
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	2	nsubj	_	_
+2	divorcez	divorcer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	,	,	PUNCT	_	PUNCT___	2	punct	_	_
+4	à	à	ADP	_	ADP___	2	mark	_	_
+5	voir	voir	VERB	_	VERB__VerbForm=Inf	6	xcomp	_	_
+6	aussi	aussi	ADV	_	ADV___	4	advmod	_	_
+7	avec	avec	ADP	_	ADP___	4	case	_	_
+8	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+9	charges	charger	NOUN	_	NOUN__Gender=Fem|Number=Plur	4	obl	_	_
+10	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+12	fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nsubj	_	_
+13	d’	d’	PROPN	_	PROPN___	9	ccomp	_	_
+14	être	être	AUX	_	AUX__VerbForm=Inf	2	cop	_	_
+15	en	en	ADP	_	ADP___	16	case	_	_
+16	couple	coupler	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	xcomp	_	_
+17	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+18	ou	ou	CCONJ	_	CCONJ___	19	cc	_	_
+19	pas	pas	ADV	_	ADV__Polarity=Neg	19	advmod	_	_
+20	.De	.De	PUNCT	_	PUNCT___	19	conj	_	_
+
+
+#plus, vous parlez des revenus, mais incluez vous les droits CAF ?
+1	plus	plaire	ADV	_	ADV___	2	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	2	punct	_	_
+3	vous	se	PRON	_	PRON__Number=Plur|Person=2	2	nsubj	_	_
+4	parlez	parler	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
+6	revenus	revenu	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	obj	_	_
+7	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+8	mais	mai	CCONJ	_	CCONJ___	9	cc	_	_
+9	incluez	inclure	ADJ	_	ADJ__Gender=Masc|Number=Sing	4	conj	_	_
+10	vous	se	PRON	_	PRON__Number=Plur|Person=2	11	case	_	_
+11	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+12	droits	droit	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	obl	_	_
+13	CAF	CAF	PRON	_	PRON__PronType=Rel	9	nmod	_	_
+14	?	?	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#Vous pouvez par exemple lui laissez le bénéfice des allocations et mettre dans la balance le fait que vous preniez l'intégralité de certains frais : mutuelle, activités, cantine etc ...
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	2	nsubj	_	_
+2	pouvez	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	aux	_	_
+3	par	par	ADP	_	ADP___	2	advmod	_	_
+4	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	fixed	_	_
+5	lui	luire	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	laissez	laisser	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+8	bénéfice	bénéfice	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+9	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
+10	allocations	allocation	NOUN	_	NOUN__Gender=Fem|Number=Plur	11	obj	_	_
+11	et	et	CCONJ	_	CCONJ___	9	cc	_	_
+12	mettre	mettre	VERB	_	VERB__VerbForm=Inf	13	conj	_	_
+13	dans	dan	ADP	_	ADP___	9	case	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+15	balance	balancer	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obl	_	_
+16	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+17	fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	nmod	_	_
+18	que	que	SCONJ	_	SCONJ___	19	mark	_	_
+19	vous	se	PRON	_	PRON__Number=Plur|Person=2	19	nsubj	_	_
+20	preniez	prendre	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Imp|VerbForm=Fin	19	acl:relcl	_	_
+21	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+22	intégralité	intégralité	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obj	_	_
+23	de	de	ADP	_	ADP___	22	case	_	_
+24	certains	certain	DET	_	DET__Gender=Masc|Number=Plur	26	det	_	_
+25	frais	frai	NOUN	_	NOUN__Gender=Masc|Number=Plur	26	nmod	_	_
+26	:	:	PUNCT	_	PUNCT___	22	punct	_	_
+27	mutuelle	mutuel	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	appos	_	_
+28	,	,	PUNCT	_	PUNCT___	29	punct	_	_
+29	activités	activité	NOUN	_	NOUN__Gender=Fem|Number=Plur	30	conj	_	_
+30	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+31	cantine	cantine	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	conj	_	_
+32	etc	etc	ADV	_	ADV___	33	advmod	_	_
+33	...	...	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#En résumé, ne restez pas que sur le calcul par rapport aux revenus et essayer de trouver une solution alternative, car en GA, si on prend la part fiscale des enfants, on ne peut pas déduire de pension .
+1	En	En	ADP	_	ADP___	2	case	_	_
+2	résumé	résumer	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	obl	_	_
+3	,	,	PUNCT	_	PUNCT___	2	punct	_	_
+4	ne	ne	ADV	_	ADV__Polarity=Neg	2	advmod	_	_
+5	restez	rester	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
+6	pas	pas	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+7	que	que	SCONJ	_	SCONJ___	4	advmod	_	_
+8	sur	sur	ADP	_	ADP___	9	case	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+10	calcul	calcul	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obl	_	_
+11	par	par	ADP	_	ADP___	9	case	_	_
+12	rapport	rapport	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	fixed	_	_
+13	aux	aux	ADJ	_	ADJ__Gender=Masc|Number=Plur	9	fixed	_	_
+14	revenus	revenu	NOUN	_	NOUN__Gender=Masc|Number=Plur	2	nmod	_	_
+15	et	et	CCONJ	_	CCONJ___	16	cc	_	_
+16	essayer	essayer	VERB	_	VERB__VerbForm=Inf	16	conj	_	_
+17	de	de	ADP	_	ADP___	16	mark	_	_
+18	trouver	trouver	VERB	_	VERB__VerbForm=Inf	19	xcomp	_	_
+19	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+20	solution	solution	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obj	_	_
+21	alternative	alternatif	ADJ	_	ADJ__Gender=Fem|Number=Sing	22	amod	_	_
+22	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+23	car	car	CCONJ	_	CCONJ___	22	cc	_	_
+24	en	en	ADP	_	ADP___	26	case	_	_
+25	GA	GA	PROPN	_	PROPN___	26	conj	_	_
+26	,	,	PUNCT	_	PUNCT___	22	punct	_	_
+27	si	si	SCONJ	_	SCONJ___	30	mark	_	_
+28	on	on	PRON	_	PRON__Number=Sing|Person=3	29	nsubj	_	_
+29	prend	prendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	advcl	_	_
+30	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+31	part	partir	NOUN	_	NOUN__Gender=Fem|Number=Sing	33	obj	_	_
+32	fiscale	fiscal	ADJ	_	ADJ__Gender=Fem|Number=Sing	33	amod	_	_
+33	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	30	det	_	_
+34	enfants	enfant	NOUN	_	NOUN__Number=Plur	30	obj	_	_
+35	,	,	PUNCT	_	PUNCT___	37	punct	_	_
+36	on	on	PRON	_	PRON__Number=Sing|Person=3	35	nsubj	_	_
+37	ne	ne	ADV	_	ADV__Polarity=Neg	19	advmod	_	_
+38	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	aux	_	_
+39	pas	pas	ADV	_	ADV__Polarity=Neg	41	advmod	_	_
+40	déduire	déduire	ADJ	_	ADJ__Number=Sing	41	conj	_	_
+41	de	de	ADP	_	ADP___	41	case	_	_
+42	pension	pension	NOUN	_	NOUN__Gender=Fem|Number=Sing	43	nmod	_	_
+43	.	.	PUNCT	_	PUNCT___	41	punct	_	_
+
+
+#Partage : Divisé par deux .Si
+1	Partage	Partage	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+3	Divisé	Divisé	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	nmod	_	_
+4	par	par	ADP	_	ADP___	5	case	_	_
+5	deux	deux	NUM	_	NUM__NumType=Card	6	nummod	_	_
+6	.Si	.Si	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#vous voulez, les frais sont divisés par rapport au temps de garde .Seul
+1	vous	se	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+2	voulez	vouloir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+5	frais	frai	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	nsubj:pass	_	_
+6	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
+7	divisés	diviser	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	ccomp	_	_
+8	par	par	ADP	_	ADP___	8	case	_	_
+9	rapport	rapport	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	fixed	_	_
+10	au	au	DET	_	DET__Number=Plur|PronType=Dem	11	fixed	_	_
+11	temps	temps	NOUN	_	NOUN__Gender=Masc	13	obl	_	_
+12	de	de	ADP	_	ADP___	13	case	_	_
+13	garde	garder	NOUN	_	NOUN__Number=Sing	8	nmod	_	_
+14	.Seul	.Seul	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#une obligation alimentaire peut prendre forme pour compenser une disparité de revenus ;
+1	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	obligation	obligation	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+3	alimentaire	alimentaire	ADJ	_	ADJ__Number=Sing	1	amod	_	_
+4	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	prendre	prendre	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+6	forme	former	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obj	_	_
+7	pour	pour	ADP	_	ADP___	8	mark	_	_
+8	compenser	compenser	VERB	_	VERB__VerbForm=Inf	8	advcl	_	_
+9	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+10	disparité	disparité	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obj	_	_
+11	de	de	ADP	_	ADP___	13	case	_	_
+12	revenus	revenu	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	nmod	_	_
+13	;	;	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#et elle n'est pas qu'en numéraire .Donc cela peut être la prise en charge totale de certains frais, le fait de laisser toutes les prestations familiales au lieu de les partager, le fait d'accorder une jouissance gratuite d'un bien commun etc etc .Ce n'est pas parce que c'est à l'amiable qu'on ne peut pas calculer de façon équitable et juste ;
+1	et	et	CCONJ	_	CCONJ___	1	cc	_	_
+2	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	1	nsubj	_	_
+3	n'	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+6	qu'	que	SCONJ	_	SCONJ___	1	mark	_	_
+7	en	en	ADP	_	ADP___	8	case	_	_
+8	numéraire	numéraire	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	amod	_	_
+9	.Donc	.Donc	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	mark	_	_
+10	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	11	nsubj	_	_
+11	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl	_	_
+12	être	être	AUX	_	AUX__VerbForm=Inf	13	case	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+14	prise	priser	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	obl	_	_
+15	en	en	ADP	_	ADP___	14	advmod	_	_
+16	charge	charger	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	fixed	_	_
+17	totale	total	ADJ	_	ADJ__Gender=Fem|Number=Sing	13	amod	_	_
+18	de	de	ADP	_	ADP___	19	case	_	_
+19	certains	certain	DET	_	DET__Gender=Masc|Number=Plur	17	det	_	_
+20	frais	frai	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	nmod	_	_
+21	,	,	PUNCT	_	PUNCT___	22	punct	_	_
+22	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+23	fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+24	de	de	ADP	_	ADP___	25	mark	_	_
+25	laisser	laisser	VERB	_	VERB__VerbForm=Inf	25	acl	_	_
+26	toutes	toute	ADJ	_	ADJ__Gender=Fem|Number=Plur	25	amod	_	_
+27	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	28	det	_	_
+28	prestations	prestation	NOUN	_	NOUN__Gender=Fem|Number=Plur	25	obj	_	_
+29	familiales	familiale	ADJ	_	ADJ__Gender=Fem|Number=Plur	30	amod	_	_
+30	au	au	PRON	_	PRON__PronType=Rel	28	mark	_	_
+31	lieu	lieu	NOUN	_	NOUN__Gender=Masc|Number=Sing	32	fixed	_	_
+32	de	de	ADP	_	ADP___	30	fixed	_	_
+33	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	25	obj	_	_
+34	partager	partager	VERB	_	VERB__VerbForm=Inf	37	obl	_	_
+35	,	,	PUNCT	_	PUNCT___	37	punct	_	_
+36	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	44	nsubj	_	_
+38	d'	de	ADP	_	ADP___	37	mark	_	_
+39	accorder	accorder	VERB	_	VERB__VerbForm=Inf	42	acl	_	_
+40	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	jouissance	jouissance	NOUN	_	NOUN__Gender=Fem|Number=Sing	42	obj	_	_
+42	gratuite	gratuit	NOUN	_	NOUN__Gender=Fem|Number=Sing	44	acl	_	_
+43	d'	de	ADP	_	ADP___	44	case	_	_
+44	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
+45	bien	bien	ADV	_	ADV___	47	fixed	_	_
+46	commun	commun	ADJ	_	ADJ__Gender=Masc|Number=Sing	47	amod	_	_
+47	etc	etc	ADV	_	ADV___	44	punct	_	_
+48	etc	etc	ADV	_	ADV___	47	fixed	_	_
+49	.Ce	.Ce	PUNCT	_	PUNCT___	48	nmod	_	_
+50	n'	ne	ADV	_	ADV__Polarity=Neg	49	advmod	_	_
+51	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	53	cop	_	_
+52	pas	pas	ADV	_	ADV__Polarity=Neg	53	advmod	_	_
+53	parce	parce	SCONJ	_	SCONJ___	47	mark	_	_
+54	que	que	SCONJ	_	SCONJ___	44	fixed	_	_
+55	c'	ce	PRON	_	PRON__Number=Sing|Person=3	56	nsubj	_	_
+56	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	56	cop	_	_
+57	à	à	ADP	_	ADP___	58	case	_	_
+58	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	56	det	_	_
+59	amiable	amiable	NOUN	_	NOUN__Number=Sing	61	obl	_	_
+60	qu'	que	SCONJ	_	SCONJ___	61	mark	_	_
+61	on	on	PRON	_	PRON__Number=Sing|Person=3	58	nsubj	_	_
+62	ne	ne	ADV	_	ADV__Polarity=Neg	61	advmod	_	_
+63	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	67	aux	_	_
+64	pas	pas	ADV	_	ADV__Polarity=Neg	63	advmod	_	_
+65	calculer	calculer	VERB	_	VERB__VerbForm=Inf	63	acl:relcl	_	_
+66	de	de	ADP	_	ADP___	67	case	_	_
+67	façon	façon	NOUN	_	NOUN__Gender=Fem|Number=Sing	58	obl	_	_
+68	équitable	équitable	ADJ	_	ADJ__Number=Sing	70	amod	_	_
+69	et	et	CCONJ	_	CCONJ___	70	cc	_	_
+70	juste	juste	ADV	_	ADV___	92	conj	_	_
+71	;	;	PUNCT	_	PUNCT___	72	punct	_	_
+
+
+#des charges, cela se calculent comme des revenus .Si on se remet en couple c'est assez simple de comprendre qu'on ne les paie pas seul par exemple .
+1	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	1	det	_	_
+2	charges	charger	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	obl	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	5	nsubj	_	_
+5	se	se	PRON	_	PRON__Person=3|Reflex=Yes	6	expl	_	_
+6	calculent	calculer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	comme	comme	ADP	_	ADP___	8	case	_	_
+8	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
+9	revenus	revenu	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	obl	_	_
+10	.Si	.Si	PUNCT	_	PUNCT___	11	punct	_	_
+11	on	on	PRON	_	PRON__Number=Sing|Person=3	13	nsubj	_	_
+12	se	se	PRON	_	PRON__Person=3|Reflex=Yes	13	expl	_	_
+13	remet	remettre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
+14	en	en	ADP	_	ADP___	17	case	_	_
+15	couple	coupler	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obl	_	_
+16	c'	ce	PRON	_	PRON__Number=Sing|Person=3	14	nsubj	_	_
+17	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+18	assez	assez	ADV	_	ADV___	19	advmod	_	_
+19	simple	simple	ADJ	_	ADJ__Number=Sing	17	parataxis	_	_
+20	de	de	ADP	_	ADP___	8	mark	_	_
+21	comprendre	comprendre	VERB	_	VERB__VerbForm=Inf	22	xcomp	_	_
+22	qu'	que	SCONJ	_	SCONJ___	25	mark	_	_
+23	on	on	PRON	_	PRON__Number=Sing|Person=3	22	nsubj	_	_
+24	ne	ne	ADV	_	ADV___	25	advmod	_	_
+25	les	le	PRON	_	PRON__Number=Plur|Person=3	25	det	_	_
+26	paie	payer	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	ccomp	_	_
+27	pas	pas	ADV	_	ADV__Polarity=Neg	28	advmod	_	_
+28	seul	seul	ADJ	_	ADJ__Gender=Masc|Number=Sing	25	advmod	_	_
+29	par	par	ADP	_	ADP___	30	advmod	_	_
+30	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	fixed	_	_
+31	.	.	PUNCT	_	PUNCT___	32	punct	_	_
+
+
+#Et dans votre exemple, qui percevra les allocations familiales ?
+1	Et	Et	CCONJ	_	CCONJ___	7	cc	_	_
+2	dans	dan	ADP	_	ADP___	4	case	_	_
+3	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+4	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+5	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+6	qui	qui	PRON	_	PRON__PronType=Rel	7	nsubj	_	_
+7	percevra	percevoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+8	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+9	allocations	allocation	NOUN	_	NOUN__Gender=Fem|Number=Plur	7	obj	_	_
+10	familiales	familiale	ADJ	_	ADJ__Gender=Fem|Number=Plur	9	amod	_	_
+11	?	?	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#qui déclarera les enfants à charge fiscalement ?
+1	qui	qui	PRON	_	PRON__PronType=Rel	7	nsubj	_	_
+2	déclarera	déclarer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+3	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+4	enfants	enfant	NOUN	_	NOUN__Number=Plur	7	obj	_	_
+5	à	à	ADP	_	ADP___	7	advmod	_	_
+6	charge	charger	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	fixed	_	_
+7	fiscalement	fiscalement	ADV	_	ADV___	7	xcomp	_	_
+8	?	?	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#qui prendra en charge les frais médicaux, les cotisations et remboursements mutuelle ?
+1	qui	qui	PRON	_	PRON__PronType=Rel	7	nsubj	_	_
+2	prendra	prendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+3	en	en	ADP	_	ADP___	4	advmod	_	_
+4	charge	charger	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	fixed	_	_
+5	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+6	frais	frai	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	obj	_	_
+7	médicaux	médical	ADJ	_	ADJ__Gender=Masc|Number=Plur	7	amod	_	_
+8	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+9	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+10	cotisations	cotisation	NOUN	_	NOUN__Gender=Fem|Number=Plur	9	obl	_	_
+11	et	et	CCONJ	_	CCONJ___	7	cc	_	_
+12	remboursements	remboursement	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	conj	_	_
+13	mutuelle	mutuel	ADJ	_	ADJ__Gender=Fem|Number=Sing	13	amod	_	_
+14	?	?	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Il vaut mieux passer par le JAF.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+2	vaut	valoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	mieux	mieux	ADV	_	ADV___	4	advmod	_	_
+4	passer	prendre	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+5	par	par	ADP	_	ADP___	7	case	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	JAF	JAF	PROPN	_	PROPN___	7	obl	_	_
+8	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#A vouloir faire des comptes d'apothicaires comme vous souhaitez le faire, cela ne sera jamais juste : dès que l'un des deux aura une augmentation (ou une baisse) de salaire, ou dès qu'il y aura une évolution des charges (en plus ou en moins), vos calculs ne seront plus équitables : allez vous procéder à une modification de la P.A. à chaque changement ?
+1	A	A	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+2	vouloir	vouloir	AUX	_	AUX__VerbForm=Inf	4	aux	_	_
+3	faire	faire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
+5	comptes	compter	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	obj	_	_
+6	d'	de	ADP	_	ADP___	7	case	_	_
+7	apothicaires	apothicaire	NOUN	_	NOUN__Gender=Fem|Number=Plur	7	nmod	_	_
+8	comme	comme	SCONJ	_	SCONJ___	9	mark	_	_
+9	vous	se	PRON	_	PRON__Number=Plur|Person=2	7	iobj	_	_
+10	souhaitez	souhaiter	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+11	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	7	obj	_	_
+12	faire	faire	VERB	_	VERB__VerbForm=Inf	13	xcomp	_	_
+13	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+14	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	15	nsubj	_	_
+15	ne	ne	ADV	_	ADV__Polarity=Neg	13	advmod	_	_
+16	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	18	cop	_	_
+17	jamais	jamais	ADV	_	ADV__Polarity=Neg	16	advmod	_	_
+18	juste	juste	ADV	_	ADV___	13	parataxis	_	_
+19	:	:	PUNCT	_	PUNCT___	13	punct	_	_
+20	dès	dès	ADP	_	ADP___	21	mark	_	_
+21	que	que	SCONJ	_	SCONJ___	21	fixed	_	_
+22	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+23	un	un	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	22	nsubj	_	_
+24	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	25	det	_	_
+25	deux	deux	NUM	_	NUM__NumType=Card	21	nummod	_	_
+26	aura	avoir	NOUN	_	NOUN__Gender=Fem|Number=Plur	25	advcl	_	_
+27	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+28	augmentation	augmentation	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	obj	_	_
+29	(	(	PUNCT	_	PUNCT___	21	punct	_	_
+30	ou	ou	CCONJ	_	CCONJ___	31	cc	_	_
+31	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+32	baisse	baisser	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	conj	_	_
+33	)	)	PUNCT	_	PUNCT___	21	punct	_	_
+34	de	de	ADP	_	ADP___	35	case	_	_
+35	salaire	salaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	35	nmod	_	_
+36	,	,	PUNCT	_	PUNCT___	37	punct	_	_
+37	ou	ou	CCONJ	_	CCONJ___	35	cc	_	_
+38	dès	dès	ADP	_	ADP___	40	mark	_	_
+39	qu'	que	SCONJ	_	SCONJ___	40	fixed	_	_
+40	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	37	nsubj	_	_
+41	y	yu	PRON	_	PRON__Person=3	35	iobj	_	_
+42	aura	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	44	conj	_	_
+43	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+44	évolution	évolution	NOUN	_	NOUN__Gender=Fem|Number=Sing	44	obj	_	_
+45	des	un	ADP	_	ADP___	46	det	_	_
+46	charges	charger	NOUN	_	NOUN__Gender=Fem|Number=Plur	44	obj	_	_
+47	(	(	PUNCT	_	PUNCT___	48	punct	_	_
+48	en	en	ADP	_	ADP___	46	advmod	_	_
+49	plus	plaire	ADV	_	ADV___	51	fixed	_	_
+50	ou	ou	CCONJ	_	CCONJ___	51	cc	_	_
+51	en	en	ADP	_	ADP___	44	conj	_	_
+52	moins	moins	ADV	_	ADV___	53	conj	_	_
+53	)	)	PUNCT	_	PUNCT___	51	punct	_	_
+54	,	,	PUNCT	_	PUNCT___	44	punct	_	_
+55	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	59	nmod:poss	_	_
+56	calculs	calcul	NOUN	_	NOUN__Gender=Masc|Number=Plur	59	nsubj	_	_
+57	ne	ne	ADV	_	ADV__Polarity=Neg	59	advmod	_	_
+58	seront	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	59	cop	_	_
+59	plus	plaire	ADV	_	ADV___	44	advmod	_	_
+60	équitables	équitable	ADJ	_	ADJ__Gender=Fem|Number=Plur	44	conj	_	_
+61	:	:	PUNCT	_	PUNCT___	67	punct	_	_
+62	allez	aller	VERB	_	VERB__Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	61	conj	_	_
+63	vous	se	PRON	_	PRON__Number=Plur|Person=2|Reflex=Yes	64	obj	_	_
+64	procéder	procéder	VERB	_	VERB__VerbForm=Inf	67	xcomp	_	_
+65	à	à	ADP	_	ADP___	67	case	_	_
+66	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	67	det	_	_
+67	modification	modification	NOUN	_	NOUN__Gender=Fem|Number=Sing	44	obl	_	_
+68	de	de	ADP	_	ADP___	69	case	_	_
+69	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	67	det	_	_
+70	P.A.	P.A.	PROPN	_	PROPN__Gender=Fem|Number=Sing	67	nmod	_	_
+71	à	à	ADP	_	ADP___	73	case	_	_
+72	chaque	chaque	DET	_	DET__Number=Sing	73	det	_	_
+73	changement	changement	NOUN	_	NOUN__Gender=Masc|Number=Sing	67	obl	_	_
+74	?	?	PUNCT	_	PUNCT___	67	punct	_	_
+
+
+#Donc en fait chacun fait moitié /moitié ...
+1	Donc	Donc	ADV	_	ADV___	3	advmod	_	_
+2	en	en	ADP	_	ADP___	3	iobj	_	_
+3	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	chacun	chacun	PRON	_	PRON__Gender=Masc|PronType=Rel	5	nsubj	_	_
+5	fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	xcomp	_	_
+6	moitié	moitié	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obj	_	_
+7	/moitié	/moitié	PUNCT	_	PUNCT___	6	fixed	_	_
+8	...	...	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Et vous devrez donc une pension de 118e d'après vos calculs que personne ne déclarera en plus ou en moins .Attention à bien prendre 3250e de revenus mensuels pour vous ;
+1	Et	Et	CCONJ	_	CCONJ___	3	cc	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	3	nsubj	_	_
+3	devrez	devoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+4	donc	donc	ADV	_	ADV___	5	advmod	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+6	pension	pension	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obj	_	_
+7	de	de	ADP	_	ADP___	6	case	_	_
+8	118e	118e	PRON	_	PRON__NumType=Card|PronType=Rel	3	nmod	_	_
+9	d'	de	ADP	_	ADP___	11	case	_	_
+10	après	après	ADP	_	ADP___	11	fixed	_	_
+11	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	24	nmod:poss	_	_
+12	calculs	calcul	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	nmod	_	_
+13	que	que	PRON	_	PRON__PronType=Rel	14	mark	_	_
+14	personne	personne	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	nsubj	_	_
+15	ne	ne	ADV	_	ADV__Polarity=Neg	16	advmod	_	_
+16	déclarera	déclarer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+17	en	en	ADP	_	ADP___	20	advmod	_	_
+18	plus	plaire	ADV	_	ADV___	17	fixed	_	_
+19	ou	ou	CCONJ	_	CCONJ___	20	fixed	_	_
+20	en	en	ADP	_	ADP___	14	fixed	_	_
+21	moins	moins	ADV	_	ADV___	22	fixed	_	_
+22	.Attention	.Attention	PUNCT	_	PUNCT___	24	obj	_	_
+23	à	à	ADP	_	ADP___	24	advmod	_	_
+24	bien	bien	ADV	_	ADV___	24	fixed	_	_
+25	prendre	prendre	VERB	_	VERB__VerbForm=Inf	24	xcomp	_	_
+26	3250e	3250e	PUNCT	_	PUNCT___	25	obj	_	_
+27	de	de	ADP	_	ADP___	25	case	_	_
+28	revenus	revenu	NOUN	_	NOUN__Gender=Masc|Number=Plur	25	nmod	_	_
+29	mensuels	mensuel	ADJ	_	ADJ__Gender=Masc|Number=Plur	28	amod	_	_
+30	pour	pour	ADP	_	ADP___	24	case	_	_
+31	vous	se	PRON	_	PRON__Number=Plur|Person=2|PronType=Prs	33	nmod	_	_
+32	;	;	PUNCT	_	PUNCT___	31	punct	_	_
+
+
+#tout doit être ramené sur 12 mois .
+1	tout	tout	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	3	advmod	_	_
+2	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	être	être	AUX	_	AUX__VerbForm=Inf	3	aux:pass	_	_
+4	ramené	ramener	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	xcomp	_	_
+5	sur	sur	ADP	_	ADP___	3	case	_	_
+6	12	12	NUM	_	NUM__NumType=Card	5	nummod	_	_
+7	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	obl	_	_
+8	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+

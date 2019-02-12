@@ -1,0 +1,428 @@
+#4 mois.
+1	4	4	NUM	_	NUM__NumType=Card	2	nummod	_	_
+2	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+3	.	.	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#La succession est ouverte depuis le décès de votre père.
+1	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	succession	succession	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
+4	ouverte	ouvrir	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+5	depuis	depuis	ADP	_	ADP___	7	case	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	décès	décès	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+8	de	de	ADP	_	ADP___	10	case	_	_
+9	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+10	père	père	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+11	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#On va supposer que seul un juge, et donc la décision d'un jugement indiquera si l'action est transmissible ou non.
+1	On	On	PRON	_	PRON__Number=Sing|Person=3	2	nsubj	_	_
+2	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+3	supposer	supposer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	que	que	ADV	_	ADV___	5	mark	_	_
+5	seul	seul	ADJ	_	ADJ__Gender=Masc|Number=Sing	7	amod	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	juge	juger	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nsubj	_	_
+8	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+9	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+10	donc	donc	ADV	_	ADV___	7	advmod	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	décision	décision	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	conj	_	_
+13	d'	de	ADP	_	ADP___	10	case	_	_
+14	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+15	jugement	jugement	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	nmod	_	_
+16	indiquera	indiquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	17	ccomp	_	_
+17	si	si	SCONJ	_	SCONJ___	17	mark	_	_
+18	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	30	det	_	_
+19	action	action	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	nsubj	_	_
+20	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	transmissible	transmissible	ADJ	_	ADJ__Number=Sing	30	ccomp	_	_
+22	ou	ou	CCONJ	_	CCONJ___	21	cc	_	_
+23	non	non	ADV	_	ADV___	26	conj	_	_
+24	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Si transmissible, faudrait ensuite que l'action vous soit favorable, après un autre jugement pour ne pas avoir de dette à payer.
+1	Si	Si	SCONJ	_	SCONJ___	2	mark	_	_
+2	transmissible	transmissible	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	advcl	_	_
+3	,	,	PUNCT	_	PUNCT___	2	punct	_	_
+4	faudrait	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+5	ensuite	ensuite	ADV	_	ADV___	7	advmod	_	_
+6	que	que	SCONJ	_	SCONJ___	7	mark	_	_
+7	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+8	action	action	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nsubj	_	_
+9	vous	se	PRON	_	PRON__Number=Plur|Person=2	10	iobj	_	_
+10	soit	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+11	favorable	favorable	ADJ	_	ADJ__Number=Sing	13	ccomp	_	_
+12	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+13	après	après	ADP	_	ADP___	10	case	_	_
+14	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+15	autre	autre	ADJ	_	ADJ__Number=Sing	17	amod	_	_
+16	jugement	jugement	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obl	_	_
+17	pour	pour	ADP	_	ADP___	17	mark	_	_
+18	ne	ne	ADV	_	ADV___	30	advmod	_	_
+19	pas	pas	ADV	_	ADV___	21	fixed	_	_
+20	avoir	avoir	VERB	_	VERB__VerbForm=Inf	21	acl	_	_
+21	de	de	ADP	_	ADP___	30	det	_	_
+22	dette	dette	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	obj	_	_
+23	à	à	ADP	_	ADP___	26	mark	_	_
+24	payer	payer	VERB	_	VERB__VerbForm=Inf	23	acl	_	_
+25	.	.	PUNCT	_	PUNCT___	26	punct	_	_
+
+
+#Dans un premier temps, accepter à concurrence de l'actif net semble être la solution opportune.
+1	Dans	Dans	ADP	_	ADP___	2	case	_	_
+2	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+3	premier	premier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	2	amod	_	_
+4	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+5	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+6	accepter	accepter	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+7	à	à	ADP	_	ADP___	7	case	_	_
+8	concurrence	concurrencer	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obj	_	_
+9	de	de	ADP	_	ADP___	10	case	_	_
+10	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+11	actif	actif	ADJ	_	ADJ__Gender=Masc|Number=Sing	13	nmod	_	_
+12	net	net	ADJ	_	ADJ__Gender=Masc|Number=Sing	13	amod	_	_
+13	semble	sembler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+14	être	être	AUX	_	AUX__VerbForm=Inf	7	cop	_	_
+15	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	solution	solution	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	obl	_	_
+17	opportune	opportun	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	17	amod	_	_
+18	.	.	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#Au cas ou après l'issue d'un procès effaçant la dette, l'actif ne serait pas important, pour éviter les nombreux tracas, vous avez la possibilité d'aller au greffe et de refuser la succession.
+1	Au	Au	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	obl	_	_
+3	ou	ou	CCONJ	_	CCONJ___	2	cc	_	_
+4	après	après	ADP	_	ADP___	5	case	_	_
+5	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	fixed	_	_
+6	issue	issu	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	fixed	_	_
+7	d'	de	ADP	_	ADP___	7	fixed	_	_
+8	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	procès	procès	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	conj	_	_
+10	effaçant	effacer	VERB	_	VERB__Tense=Pres|VerbForm=Part	7	acl	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	dette	dette	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obj	_	_
+13	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+14	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+15	actif	actif	ADJ	_	ADJ__Gender=Masc|Number=Sing	17	nsubj	_	_
+16	ne	ne	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+17	serait	être	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+18	pas	pas	ADV	_	ADV__Polarity=Neg	30	advmod	_	_
+19	important	importer	ADJ	_	ADJ__Gender=Masc|Number=Sing	21	advcl	_	_
+20	,	,	PUNCT	_	PUNCT___	21	punct	_	_
+21	pour	pour	ADP	_	ADP___	30	mark	_	_
+22	éviter	éviter	VERB	_	VERB__VerbForm=Inf	21	advcl	_	_
+23	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	26	det	_	_
+24	nombreux	nombreux	ADJ	_	ADJ__Gender=Masc	23	amod	_	_
+25	tracas	tracas	NOUN	_	NOUN__Gender=Masc|Number=Plur	26	obj	_	_
+26	,	,	PUNCT	_	PUNCT___	21	punct	_	_
+27	vous	se	PRON	_	PRON__Number=Plur|Person=2	29	nsubj	_	_
+28	avez	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+29	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+30	possibilité	possibilité	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	obj	_	_
+31	d'	de	ADP	_	ADP___	35	mark	_	_
+32	aller	aller	VERB	_	VERB__VerbForm=Inf	33	acl	_	_
+33	au	au	DET	_	DET__Number=Plur|PronType=Dem	35	case	_	_
+34	greffe	greffer	NOUN	_	NOUN__Gender=Masc|Number=Plur	35	obj	_	_
+35	et	et	CCONJ	_	CCONJ___	30	cc	_	_
+36	de	de	ADP	_	ADP___	37	mark	_	_
+37	refuser	refuser	VERB	_	VERB__VerbForm=Inf	35	conj	_	_
+38	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+39	succession	succession	NOUN	_	NOUN__Gender=Fem|Number=Sing	40	obj	_	_
+40	.	.	PUNCT	_	PUNCT___	42	punct	_	_
+
+
+#Il est impossible de renoncer à une succession si vous l'acceptez à concurrence de l'actif net : l'acceptation à concurrence de l'actif net estune forme d'acceptation.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	impossible	impossible	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+4	de	de	ADP	_	ADP___	5	mark	_	_
+5	renoncer	renoncer	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	xcomp	_	_
+6	à	à	ADP	_	ADP___	8	case	_	_
+7	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	succession	succession	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obl	_	_
+9	si	si	SCONJ	_	SCONJ___	12	mark	_	_
+10	vous	se	PRON	_	PRON__Number=Plur|Person=2	12	nsubj	_	_
+11	l'	le	PRON	_	PRON__Number=Sing|Person=3	12	det	_	_
+12	acceptez	accepter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	obl	_	_
+13	à	à	ADP	_	ADP___	14	case	_	_
+14	concurrence	concurrencer	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+15	de	de	ADP	_	ADP___	17	case	_	_
+16	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	actif	actif	ADJ	_	ADJ__Gender=Masc|Number=Sing	14	nmod	_	_
+18	net	net	ADJ	_	ADJ__Gender=Masc|Number=Sing	17	amod	_	_
+19	:	:	PUNCT	_	PUNCT___	3	punct	_	_
+20	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	acceptation	acceptation	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obj	_	_
+22	à	à	ADP	_	ADP___	23	case	_	_
+23	concurrence	concurrencer	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	nmod	_	_
+24	de	de	ADP	_	ADP___	26	case	_	_
+25	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	26	det	_	_
+26	actif	actif	ADJ	_	ADJ__Gender=Masc|Number=Sing	23	nmod	_	_
+27	net	net	ADJ	_	ADJ__Gender=Masc|Number=Sing	26	amod	_	_
+28	estune	estune	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	amod	_	_
+29	forme	former	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	amod	_	_
+30	d'	de	ADP	_	ADP___	31	case	_	_
+31	acceptation	acceptation	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	nmod	_	_
+32	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Le but de cette forme est justement de limiter l'exercice de la créance jusqu'à hauteur de l'actif net, donc sur les seuls biens du défunt.
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	but	boire	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+3	de	de	ADP	_	ADP___	3	case	_	_
+4	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	forme	former	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nmod	_	_
+6	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	justement	justement	ADV	_	ADV___	8	advmod	_	_
+8	de	de	ADP	_	ADP___	5	mark	_	_
+9	limiter	limiter	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+10	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+11	exercice	exercice	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+12	de	de	ADP	_	ADP___	3	case	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	créance	créance	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+15	jusqu'	jusque	ADP	_	ADP___	17	case	_	_
+16	à	à	ADP	_	ADP___	17	fixed	_	_
+17	hauteur	hauteur	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	fixed	_	_
+18	de	de	ADP	_	ADP___	17	fixed	_	_
+19	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+20	actif	actif	ADJ	_	ADJ__Gender=Masc|Number=Sing	21	obl	_	_
+21	net	net	ADJ	_	ADJ__Gender=Masc|Number=Sing	3	amod	_	_
+22	,	,	PUNCT	_	PUNCT___	23	punct	_	_
+23	donc	donc	ADV	_	ADV___	21	advmod	_	_
+24	sur	sur	ADP	_	ADP___	26	case	_	_
+25	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	26	det	_	_
+26	seuls	seul	ADJ	_	ADJ__Gender=Masc|Number=Plur	23	amod	_	_
+27	biens	bien	NOUN	_	NOUN__Gender=Masc|Number=Plur	26	obl	_	_
+28	du	du	DET	_	DET__Gender=Masc|Number=Sing	26	det	_	_
+29	défunt	défunt	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	nmod	_	_
+30	.	.	PUNCT	_	PUNCT___	31	punct	_	_
+
+
+#Attention toutefois : il faut suivre un processus rigoureux pour l'acceptation à concurrence de l'actif net (publication d'inventaire…), faute de quoi, elle pourra se transformer en une acceptation pure et simple.en particulier le 790 alinéa 4.Lire aussiL'action n'est pas liée à la propriété du bien au moment du jugement, mais à la propriété du bien au moment du préjudice.
+1	Attention	Attention	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	advmod	_	_
+2	toutefois	toutefois	ADV	_	ADV___	3	advmod	_	_
+3	:	:	PUNCT	_	PUNCT___	3	punct	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+5	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	suivre	suivre	VERB	_	VERB__VerbForm=Inf	8	xcomp	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	processus	processus	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+9	rigoureux	rigoureux	ADJ	_	ADJ__Gender=Masc	12	amod	_	_
+10	pour	pour	ADP	_	ADP___	12	case	_	_
+11	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	acceptation	acceptation	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obl	_	_
+13	à	à	ADP	_	ADP___	14	case	_	_
+14	concurrence	concurrencer	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+15	de	de	ADP	_	ADP___	17	case	_	_
+16	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	actif	actif	ADJ	_	ADJ__Gender=Masc|Number=Sing	14	nmod	_	_
+18	net	net	ADJ	_	ADJ__Gender=Masc|Number=Sing	17	amod	_	_
+19	(	(	PUNCT	_	PUNCT___	3	punct	_	_
+20	publication	publication	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	appos	_	_
+21	d'	de	ADP	_	ADP___	3	case	_	_
+22	inventaire	inventaire	NOUN	_	NOUN__Number=Sing	23	nmod	_	_
+23	…	…	ADJ	_	ADJ___	21	amod	_	_
+24	)	)	PUNCT	_	PUNCT___	26	punct	_	_
+25	,	,	PUNCT	_	PUNCT___	26	punct	_	_
+26	faute	fauter	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	conj	_	_
+27	de	de	ADP	_	ADP___	26	case	_	_
+28	quoi	quoi	PRON	_	PRON__PronType=Int	26	nmod	_	_
+29	,	,	PUNCT	_	PUNCT___	21	punct	_	_
+30	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	31	nsubj	_	_
+31	pourra	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	21	aux	_	_
+32	se	se	PRON	_	PRON__Person=3|Reflex=Yes	3	expl	_	_
+33	transformer	transformer	VERB	_	VERB__VerbForm=Inf	34	advcl	_	_
+34	en	en	ADP	_	ADP___	41	case	_	_
+35	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+36	acceptation	acceptation	NOUN	_	NOUN__Gender=Fem|Number=Sing	37	obl	_	_
+37	pure	pur	ADJ	_	ADJ__Gender=Fem|Number=Sing	34	amod	_	_
+38	et	et	CCONJ	_	CCONJ___	41	cc	_	_
+39	simple.en	simple.en	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	41	conj	_	_
+40	particulier	particulier	ADJ	_	ADJ__Gender=Masc|Number=Sing	41	fixed	_	_
+41	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+42	790	790	NUM	_	NUM__NumType=Card	43	nummod	_	_
+43	alinéa	alinéa	NOUN	_	NOUN__Gender=Masc|Number=Plur	41	obj	_	_
+44	4.Lire	4.Lire	PUNCT	_	PUNCT___	46	amod	_	_
+45	aussiL'	aussiL'	AUX	_	AUX__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	46	acl	_	_
+46	action	action	NOUN	_	NOUN__Gender=Fem|Number=Sing	43	obj	_	_
+47	n'	ne	ADV	_	ADV__Polarity=Neg	52	advmod	_	_
+48	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	aux:pass	_	_
+49	pas	pas	ADV	_	ADV__Polarity=Neg	47	advmod	_	_
+50	liée	lier	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	47	acl	_	_
+51	à	à	ADP	_	ADP___	52	case	_	_
+52	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+53	propriété	propriété	NOUN	_	NOUN__Gender=Fem|Number=Sing	52	obl	_	_
+54	du	du	DET	_	DET__Gender=Masc|Number=Sing	41	det	_	_
+55	bien	bien	ADV	_	ADV___	41	fixed	_	_
+56	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	59	fixed	_	_
+57	moment	moment	NOUN	_	NOUN__Gender=Masc|Number=Sing	59	obj	_	_
+58	du	du	DET	_	DET__Gender=Masc|Number=Sing	59	det	_	_
+59	jugement	jugement	NOUN	_	NOUN__Gender=Masc|Number=Sing	41	obj	_	_
+60	,	,	PUNCT	_	PUNCT___	61	punct	_	_
+61	mais	mai	CCONJ	_	CCONJ___	59	cc	_	_
+62	à	à	ADP	_	ADP___	41	case	_	_
+63	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	67	det	_	_
+64	propriété	propriété	NOUN	_	NOUN__Gender=Fem|Number=Sing	63	conj	_	_
+65	du	du	DET	_	DET__Gender=Masc|Number=Sing	67	det	_	_
+66	bien	bien	ADV	_	ADV___	67	advmod	_	_
+67	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	67	fixed	_	_
+68	moment	moment	NOUN	_	NOUN__Gender=Masc|Number=Sing	67	obl	_	_
+69	du	du	DET	_	DET__Gender=Masc|Number=Sing	70	det	_	_
+70	préjudice	préjudice	NOUN	_	NOUN__Gender=Masc|Number=Sing	68	obj	_	_
+71	.	.	PUNCT	_	PUNCT___	70	punct	_	_
+
+
+#Reste à savoir si cette dette s'éteint par son décès.
+1	Reste	Reste	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+2	à	à	ADP	_	ADP___	1	fixed	_	_
+3	savoir	savoir	VERB	_	VERB__VerbForm=Inf	2	fixed	_	_
+4	si	si	SCONJ	_	SCONJ___	8	mark	_	_
+5	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	dette	dette	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nsubj	_	_
+7	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	8	expl	_	_
+8	éteint	éteindre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	advcl	_	_
+9	par	par	ADP	_	ADP___	11	case	_	_
+10	son	son	DET	_	DET__Number=Sing|Poss=Yes	11	nmod:poss	_	_
+11	décès	décès	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+12	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#A savoir une dette à caractère strictement personnel, et non transmissible.
+1	A	A	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+2	savoir	savoir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+3	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+4	dette	dette	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+5	à	à	ADP	_	ADP___	6	case	_	_
+6	caractère	caractère	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+7	strictement	strictement	ADV	_	ADV___	8	advmod	_	_
+8	personnel	personnel	ADJ	_	ADJ__Gender=Masc|Number=Sing	2	amod	_	_
+9	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+10	et	et	CCONJ	_	CCONJ___	11	cc	_	_
+11	non	non	ADV	_	ADV___	8	advmod	_	_
+12	transmissible	transmissible	ADJ	_	ADJ__Number=Sing	1	conj	_	_
+13	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Il n'était pas assuré en tant que propriétaire ?
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj:pass	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+3	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux:pass	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+5	assuré	assurer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+6	en	en	ADP	_	ADP___	8	case	_	_
+7	tant	tant	ADV	_	ADV___	8	fixed	_	_
+8	que	que	SCONJ	_	SCONJ___	2	fixed	_	_
+9	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	11	obl	_	_
+10	?	?	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Je ne pense pas que ce soit le caractère "personnel" de la dette qui fait qu'elle s'éteigne, mais plutôt sa nature (par exemple pension alimentaire).
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+2	ne	ne	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+3	pense	penser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+5	que	que	SCONJ	_	SCONJ___	6	advmod	_	_
+6	ce	ce	PRON	_	PRON__Number=Sing|Person=3	3	obj	_	_
+7	soit	être	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	caractère	caractère	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	conj	_	_
+10	"	"	PUNCT	_	PUNCT___	9	punct	_	_
+11	personnel	personnel	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	appos	_	_
+12	"	"	PUNCT	_	PUNCT___	11	punct	_	_
+13	de	de	ADP	_	ADP___	15	case	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	dette	dette	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+16	qui	qui	PRON	_	PRON__PronType=Rel	17	nsubj	_	_
+17	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+18	qu'	que	SCONJ	_	SCONJ___	21	mark	_	_
+19	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	21	nsubj	_	_
+20	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	21	expl	_	_
+21	éteigne	éteindre	VERB	_	VERB__VerbForm=Inf	17	ccomp	_	_
+22	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+23	mais	mai	CCONJ	_	CCONJ___	26	cc	_	_
+24	plutôt	plutôt	ADV	_	ADV___	23	advmod	_	_
+25	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	26	nmod:poss	_	_
+26	nature	nature	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	conj	_	_
+27	(	(	PUNCT	_	PUNCT___	11	punct	_	_
+28	par	par	ADP	_	ADP___	30	advmod	_	_
+29	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	fixed	_	_
+30	pension	pension	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+31	alimentaire	alimentaire	ADJ	_	ADJ__Number=Sing	30	amod	_	_
+32	)	)	PUNCT	_	PUNCT___	11	punct	_	_
+33	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Ou alors, qu'entend-on exactement par dette personnelle et dette non personnelle ?
+1	Ou	Ou	CCONJ	_	CCONJ___	3	cc	_	_
+2	alors	alors	ADV	_	ADV___	3	advmod	_	_
+3	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+4	qu'	que	PRON	_	PRON__PronType=Rel	3	mark	_	_
+5	entend	entendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+6	-	-	PUNCT	_	PUNCT___	3	punct	_	_
+7	on	on	PRON	_	PRON__Number=Sing|Person=3	9	nsubj	_	_
+8	exactement	exactement	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+9	par	par	ADP	_	ADP___	6	case	_	_
+10	dette	dette	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	det	_	_
+11	personnelle	personnel	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obl	_	_
+12	et	et	CCONJ	_	CCONJ___	11	cc	_	_
+13	dette	dette	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	conj	_	_
+14	non	non	ADV	_	ADV___	15	advmod	_	_
+15	personnelle	personnel	ADJ	_	ADJ__Gender=Fem|Number=Sing	11	acl	_	_
+16	?	?	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Si j'ai un crédit dans une banque, et que je suis le seul emprunteur, c'est bien une dette personnelle ?
+1	Si	Si	SCONJ	_	SCONJ___	3	mark	_	_
+2	j'	il	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+3	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+4	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+5	crédit	crédit	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+6	dans	dan	ADP	_	ADP___	3	case	_	_
+7	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	banque	banque	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nmod	_	_
+9	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+10	et	et	CCONJ	_	CCONJ___	9	cc	_	_
+11	que	que	SCONJ	_	SCONJ___	9	mark	_	_
+12	je	il	PRON	_	PRON__Number=Sing|Person=1	11	nsubj	_	_
+13	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	seul	seul	ADJ	_	ADJ__Gender=Masc|Number=Sing	11	amod	_	_
+16	emprunteur	emprunteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	conj	_	_
+17	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+18	c'	ce	PRON	_	PRON__Number=Sing|Person=3	21	nsubj	_	_
+19	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+20	bien	bien	ADV	_	ADV___	21	advmod	_	_
+21	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+22	dette	dette	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+23	personnelle	personnel	ADJ	_	ADJ__Gender=Fem|Number=Sing	26	amod	_	_
+24	?	?	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Pourquoi s'éteindrait-elle à mon décès et pourquoi la banque l'aurait dans le baba ?
+1	Pourquoi	Pourquoi	ADV	_	ADV__PronType=Int	3	advmod	_	_
+2	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	3	expl	_	_
+3	éteindrait	éteindre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+4	-	-	PUNCT	_	PUNCT___	3	punct	_	_
+5	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	6	obj	_	_
+6	à	à	ADP	_	ADP___	3	case	_	_
+7	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	9	nmod:poss	_	_
+8	décès	décès	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nmod	_	_
+9	et	et	CCONJ	_	CCONJ___	6	cc	_	_
+10	pourquoi	pourquoi	ADV	_	ADV__PronType=Int	9	fixed	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+12	banque	banque	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nsubj	_	_
+13	l'	le	PRON	_	PRON__Number=Sing|Person=3	15	det	_	_
+14	aurait	avoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	_
+15	dans	dan	ADP	_	ADP___	11	case	_	_
+16	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	baba	baba	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obl	_	_
+18	?	?	PUNCT	_	PUNCT___	21	punct	_	_
+
+
