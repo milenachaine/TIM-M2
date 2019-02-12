@@ -1,0 +1,347 @@
+#Bonjour,Voici ma situation :
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	Voici	Voici	VERB	_	VERB__Mood=Ind|VerbForm=Fin	1	conj	_	_
+4	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	5	nmod:poss	_	_
+5	situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obj	_	_
+6	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#mon médecin généraliste m'a fait un arrêt initial qui a duré à peu près 5 mois.
+1	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	médecin	médecin	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+3	généraliste	généraliste	ADJ	_	ADJ__Number=Sing	1	amod	_	_
+4	m'	se	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+5	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+6	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	arrêt	arrêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+9	initial	initial	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	amod	_	_
+10	qui	qui	PRON	_	PRON__PronType=Rel	12	nsubj	_	_
+11	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	duré	durer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl:relcl	_	_
+13	à	à	ADP	_	ADP___	14	case	_	_
+14	peu	peu	ADV	_	ADV___	12	fixed	_	_
+15	près	près	ADP	_	ADP___	14	advmod	_	_
+16	5	5	NUM	_	NUM__NumType=Card	18	nummod	_	_
+17	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	18	obl	_	_
+18	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Afin de pouvoir enclencher la procédure de licenciement avec la médecine du travail, j'ai posé des congés payés, puis un médecin généraliste m'a prescrit un nouvel arrêt initial, avec jours de carence et tout.
+1	Afin	Afin	ADP	_	ADP___	1	mark	_	_
+2	de	de	ADP	_	ADP___	3	fixed	_	_
+3	pouvoir	pouvoir	AUX	_	AUX__VerbForm=Inf	1	aux	_	_
+4	enclencher	enclencher	VERB	_	VERB__VerbForm=Inf	5	advcl	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+6	procédure	procédure	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obj	_	_
+7	de	de	ADP	_	ADP___	8	case	_	_
+8	licenciement	licenciement	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nmod	_	_
+9	avec	avec	ADP	_	ADP___	8	case	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	médecine	médecine	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obl	_	_
+12	du	du	DET	_	DET__Gender=Masc|Number=Sing	12	det	_	_
+13	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obj	_	_
+14	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+15	j'	il	PRON	_	PRON__Number=Sing|Person=1	14	nsubj	_	_
+16	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	posé	poser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+18	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
+19	congés	congé	NOUN	_	NOUN__Gender=Masc|Number=Plur	23	obj	_	_
+20	payés	payer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	19	amod	_	_
+21	,	,	PUNCT	_	PUNCT___	23	punct	_	_
+22	puis	pouvoir	CCONJ	_	CCONJ___	23	cc	_	_
+23	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+24	médecin	médecin	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nsubj	_	_
+25	généraliste	généraliste	ADJ	_	ADJ__Number=Sing	28	amod	_	_
+26	m'	se	PRON	_	PRON__Number=Sing|Person=1	25	expl	_	_
+27	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	prescrit	prescrire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	41	parataxis	_	_
+29	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	nouvel	nouveau	ADJ	_	ADJ__Gender=Masc|Number=Sing	28	amod	_	_
+31	arrêt	arrêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	32	obj	_	_
+32	initial	initial	ADJ	_	ADJ__Gender=Masc|Number=Sing	30	amod	_	_
+33	,	,	PUNCT	_	PUNCT___	35	punct	_	_
+34	avec	avec	ADP	_	ADP___	35	case	_	_
+35	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	32	obl	_	_
+36	de	de	ADP	_	ADP___	37	case	_	_
+37	carence	carence	NOUN	_	NOUN__Gender=Fem|Number=Sing	32	nmod	_	_
+38	et	et	CCONJ	_	CCONJ___	41	cc	_	_
+39	tout	tout	ADV	_	ADV___	41	conj	_	_
+40	.	.	PUNCT	_	PUNCT___	41	punct	_	_
+
+
+#Plusieurs mois plus tard, j'ai été mise en ALD, avec pour date de départ mon premier arrêt.
+1	Plusieurs	Plusieurs	DET	_	DET__Number=Plur	1	det	_	_
+2	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	obl	_	_
+3	plus	plaire	ADV	_	ADV___	1	advmod	_	_
+4	tard	tard	ADV	_	ADV___	5	fixed	_	_
+5	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+6	j'	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj:pass	_	_
+7	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	12	aux:pass	_	_
+9	mise	miser	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+10	en	en	ADP	_	ADP___	12	case	_	_
+11	ALD	ALD	NOUN	_	NOUN___	12	obl	_	_
+12	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+13	avec	avec	ADP	_	ADP___	14	case	_	_
+14	pour	pour	ADP	_	ADP___	12	case	_	_
+15	date	dater	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obl	_	_
+16	de	de	ADP	_	ADP___	18	case	_	_
+17	départ	départir	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nmod	_	_
+18	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	14	nmod:poss	_	_
+19	premier	premier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	23	amod	_	_
+20	arrêt	arrêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	nmod	_	_
+21	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Sauf que entre les deux arrêts mon entreprise a changé de caisse de prévoyance.
+1	Sauf	Sauf	ADP	_	ADP___	1	mark	_	_
+2	que	que	SCONJ	_	SCONJ___	3	fixed	_	_
+3	entre	entrer	ADP	_	ADP___	1	case	_	_
+4	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+5	deux	deux	NUM	_	NUM__NumType=Card	3	nummod	_	_
+6	arrêts	arrêt	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	nsubj	_	_
+7	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+8	entreprise	entreprendre	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+9	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+10	changé	changer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+11	de	de	ADP	_	ADP___	12	case	_	_
+12	caisse	caisse	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obl	_	_
+13	de	de	ADP	_	ADP___	14	case	_	_
+14	prévoyance	prévoyance	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obl	_	_
+15	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Ce qui déjà à l'époque avait un peu compliqué les choses.
+1	Ce	Ce	PRON	_	PRON__PronType=Rel	0	ROOT	_	_
+2	qui	qui	PRON	_	PRON__PronType=Rel	3	nsubj	_	_
+3	déjà	déjà	ADV	_	ADV___	1	advmod	_	_
+4	à	à	ADP	_	ADP___	5	case	_	_
+5	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+6	époque	époque	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+7	avait	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	acl:relcl	_	_
+8	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	obj	_	_
+9	peu	peu	ADV	_	ADV___	8	advmod	_	_
+10	compliqué	compliquer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
+11	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	12	det	_	_
+12	choses	chose	NOUN	_	NOUN__Gender=Fem|Number=Plur	12	obj	_	_
+13	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Deux ans et demi plus tard, lors de la constitution de mon dossier invalidité, on se rend compte que le second arrêt initial n'apparaît plus, le point de départ de l'ALD étant fixé au premier arrêt.
+1	Deux	Deux	NUM	_	NUM__NumType=Card	1	nummod	_	_
+2	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	nmod	_	_
+3	et	et	CCONJ	_	CCONJ___	1	cc	_	_
+4	demi	demi	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	conj	_	_
+5	plus	plaire	ADV	_	ADV___	3	advmod	_	_
+6	tard	tard	ADV	_	ADV___	1	fixed	_	_
+7	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+8	lors	lors	ADV	_	ADV___	12	case	_	_
+9	de	de	ADP	_	ADP___	8	fixed	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	constitution	constitution	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obl	_	_
+12	de	de	ADP	_	ADP___	12	case	_	_
+13	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	14	nmod:poss	_	_
+14	dossier	dossier	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nmod	_	_
+15	invalidité	invalidité	ADJ	_	ADJ__Number=Plur	14	amod	_	_
+16	,	,	PUNCT	_	PUNCT___	18	punct	_	_
+17	on	on	PRON	_	PRON__Number=Sing|Person=3	18	nsubj	_	_
+18	se	se	PRON	_	PRON__Person=3|Reflex=Yes	14	expl	_	_
+19	rend	rendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+20	compte	compter	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obj	_	_
+21	que	que	SCONJ	_	SCONJ___	23	mark	_	_
+22	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	second	second	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	18	amod	_	_
+24	arrêt	arrêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nsubj	_	_
+25	initial	initial	ADJ	_	ADJ__Gender=Masc|Number=Sing	28	amod	_	_
+26	n'	ne	ADV	_	ADV__Polarity=Neg	25	advmod	_	_
+27	apparaît	apparaître	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	ccomp	_	_
+28	plus	plaire	ADV	_	ADV__Polarity=Neg	41	advmod	_	_
+29	,	,	PUNCT	_	PUNCT___	30	punct	_	_
+30	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+31	point	poindre	NOUN	_	NOUN__Gender=Masc|Number=Sing	32	obj	_	_
+32	de	de	ADP	_	ADP___	30	case	_	_
+33	départ	départir	NOUN	_	NOUN__Gender=Masc|Number=Sing	35	nmod	_	_
+34	de	de	ADP	_	ADP___	35	case	_	_
+35	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	32	det	_	_
+36	ALD	ALD	PROPN	_	PROPN__Number=Sing	37	nmod	_	_
+37	étant	être	AUX	_	AUX__Tense=Pres|VerbForm=Part	32	aux:pass	_	_
+38	fixé	fixer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	41	acl	_	_
+39	au	au	PRON	_	PRON__PronType=Rel	41	det	_	_
+40	premier	premier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	41	amod	_	_
+41	arrêt	arrêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	41	obl	_	_
+42	.	.	PUNCT	_	PUNCT___	43	punct	_	_
+
+
+#Sauf que pour moi cela change tout, les caisses de prévoyance se renvoyant la balle sur qui doit me prendre en charge... et cela dure depuis le mois d'avril...
+1	Sauf	Sauf	ADP	_	ADP___	1	mark	_	_
+2	que	que	SCONJ	_	SCONJ___	3	fixed	_	_
+3	pour	pour	ADP	_	ADP___	1	case	_	_
+4	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	5	obl	_	_
+5	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	3	nsubj	_	_
+6	change	changer	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	advcl	_	_
+7	tout	tout	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	advmod	_	_
+8	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+9	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+10	caisses	caisse	NOUN	_	NOUN__Gender=Fem|Number=Plur	12	nsubj	_	_
+11	de	de	ADP	_	ADP___	12	case	_	_
+12	prévoyance	prévoyance	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+13	se	se	PRON	_	PRON__Person=3|Reflex=Yes	14	expl	_	_
+14	renvoyant	renvoyer	VERB	_	VERB__Tense=Pres|VerbForm=Part	0	ROOT	_	_
+15	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+16	balle	balle	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	obj	_	_
+17	sur	sur	ADP	_	ADP___	18	mark	_	_
+18	qui	qui	PRON	_	PRON__PronType=Rel	14	nsubj	_	_
+19	doit	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+20	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	19	expl	_	_
+21	prendre	prendre	VERB	_	VERB__VerbForm=Inf	23	advcl	_	_
+22	en	en	ADP	_	ADP___	23	advmod	_	_
+23	charge	charger	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	fixed	_	_
+24	...	...	PUNCT	_	PUNCT___	12	punct	_	_
+25	et	et	CCONJ	_	CCONJ___	28	cc	_	_
+26	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	25	nsubj	_	_
+27	dure	durer	ADJ	_	ADJ__Gender=Fem|Number=Sing	28	conj	_	_
+28	depuis	depuis	ADP	_	ADP___	41	case	_	_
+29	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	obl	_	_
+31	d'	de	ADP	_	ADP___	32	case	_	_
+32	avril	avril	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	nmod	_	_
+33	...	...	PUNCT	_	PUNCT___	35	punct	_	_
+
+
+#Je voulais savoir si c'était normal de revenir en arrière comme ça et de changer le passé ?
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	voulais	vouloir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	savoir	savoir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	si	si	SCONJ	_	SCONJ___	5	mark	_	_
+5	c'	ce	PRON	_	PRON__Number=Sing|Person=3	3	nsubj	_	_
+6	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	cop	_	_
+7	normal	normal	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	ccomp	_	_
+8	de	de	ADP	_	ADP___	12	mark	_	_
+9	revenir	revenir	VERB	_	VERB__VerbForm=Inf	8	xcomp	_	_
+10	en	en	ADP	_	ADP___	12	case	_	_
+11	arrière	arriérer	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obl	_	_
+12	comme	comme	SCONJ	_	SCONJ___	12	case	_	_
+13	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	14	obl	_	_
+14	et	et	CCONJ	_	CCONJ___	12	cc	_	_
+15	de	de	ADP	_	ADP___	14	mark	_	_
+16	changer	changer	VERB	_	VERB__VerbForm=Inf	18	conj	_	_
+17	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	passé	passer	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obj	_	_
+19	?	?	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Et est-ce que vraiment je dois changer de caisse de prévoyance ?
+1	Et	Et	CCONJ	_	CCONJ___	0	ROOT	_	_
+2	est	être		_	VERB	3	advmod	_	_
+3	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+4	que	que	ADV	_	ADV___	5	obj	_	_
+5	vraiment	vraiment	ADV	_	ADV___	3	advmod	_	_
+6	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+7	dois	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	changer	changer	VERB	_	VERB__VerbForm=Inf	12	ccomp	_	_
+9	de	de	ADP	_	ADP___	8	det	_	_
+10	caisse	caisse	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obl	_	_
+11	de	de	ADP	_	ADP___	12	case	_	_
+12	prévoyance	prévoyance	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+13	?	?	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#n'ai je aucun recours ?
+1	n'	ne	ADV	_	ADV___	1	advmod	_	_
+2	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+4	aucun	aucun	DET	_	DET__Gender=Masc|Number=Sing	5	det	_	_
+5	recours	recourir	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obj	_	_
+6	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#j'ai respecté les conditions de prise en charge de l'époque, et maintenant on change les règles, je dois tout recommencer, j'ai la sensation d'une réécriture de l'histoire et d'en être victime ( l'une me réclamant le remboursement de toutes les prestations, l'autre faisant le mort depuis six mois en me mettant plein d'obstacles et ne me payant pas sous des arguments sans cesse nouveaux) ...
+1	j'	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	respecté	respecter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+5	conditions	condition	NOUN	_	NOUN__Gender=Fem|Number=Plur	3	obj	_	_
+6	de	de	ADP	_	ADP___	1	case	_	_
+7	prise	priser	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+8	en	en	ADP	_	ADP___	12	advmod	_	_
+9	charge	charger	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	fixed	_	_
+10	de	de	ADP	_	ADP___	12	case	_	_
+11	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	époque	époque	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obl	_	_
+13	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+14	et	et	CCONJ	_	CCONJ___	12	cc	_	_
+15	maintenant	maintenir	ADV	_	ADV___	14	advmod	_	_
+16	on	on	PRON	_	PRON__Number=Sing|Person=3	18	nsubj	_	_
+17	change	changer	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	conj	_	_
+18	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	14	det	_	_
+19	règles	régler	NOUN	_	NOUN__Gender=Fem|Number=Plur	23	obj	_	_
+20	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+21	je	il	PRON	_	PRON__Number=Sing|Person=1	23	nsubj	_	_
+22	dois	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	tout	tout	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	advmod	_	_
+24	recommencer	recommencer	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	advcl	_	_
+25	,	,	PUNCT	_	PUNCT___	28	punct	_	_
+26	j'	il	PRON	_	PRON__Number=Sing|Person=1	25	nsubj	_	_
+27	ai	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	28	advcl	_	_
+28	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+29	sensation	sensation	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	obj	_	_
+30	d'	de	ADP	_	ADP___	28	case	_	_
+31	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	réécriture	réécriture	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	nmod	_	_
+33	de	de	ADP	_	ADP___	35	case	_	_
+34	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	35	det	_	_
+35	histoire	histoire	NOUN	_	NOUN__Gender=Fem|Number=Sing	32	nmod	_	_
+36	et	et	CCONJ	_	CCONJ___	37	cc	_	_
+37	d'	de	ADP	_	ADP___	32	mark	_	_
+38	en	en	PRON	_	PRON__Person=3	41	expl	_	_
+39	être	être	AUX	_	AUX__VerbForm=Inf	41	aux:pass	_	_
+40	victime	victime	ADJ	_	ADJ__Gender=Fem|Number=Sing	41	conj	_	_
+41	(	(	PUNCT	_	PUNCT___	41	punct	_	_
+42	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	43	det	_	_
+43	une	un	PRON	_	PRON__Gender=Fem|Number=Sing|PronType=Rel	41	obl	_	_
+44	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	43	iobj	_	_
+45	réclamant	réclamer	VERB	_	VERB__Tense=Pres|VerbForm=Part	41	acl	_	_
+46	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+47	remboursement	remboursement	NOUN	_	NOUN__Gender=Masc|Number=Sing	48	obj	_	_
+48	de	de	ADP	_	ADP___	52	case	_	_
+49	toutes	toute	ADJ	_	ADJ__Gender=Fem|Number=Plur	48	amod	_	_
+50	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	52	det	_	_
+51	prestations	prestation	NOUN	_	NOUN__Gender=Fem|Number=Plur	52	nmod	_	_
+52	,	,	PUNCT	_	PUNCT___	41	punct	_	_
+53	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	55	det	_	_
+54	autre	autre	PRON	_	PRON__Number=Sing|PronType=Rel	55	amod	_	_
+55	faisant	faire	VERB	_	VERB__Tense=Pres|VerbForm=Part	52	xcomp	_	_
+56	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	55	det	_	_
+57	mort	mourir	NOUN	_	NOUN__Gender=Masc|Number=Sing	52	obj	_	_
+58	depuis	depuis	ADP	_	ADP___	59	case	_	_
+59	six	six	NUM	_	NUM__NumType=Card	52	nummod	_	_
+60	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	61	obl	_	_
+61	en	en	ADP	_	ADP___	59	mark	_	_
+62	me	se	PRON	_	PRON__Number=Sing|Person=1	63	iobj	_	_
+63	mettant	mettre	VERB	_	VERB__Tense=Pres|VerbForm=Part	61	advcl	_	_
+64	plein	plein	ADJ	_	ADJ__Gender=Masc|Number=Sing	41	amod	_	_
+65	d'	de	ADP	_	ADP___	66	fixed	_	_
+66	obstacles	obstacle	NOUN	_	NOUN__Gender=Masc|Number=Plur	73	obj	_	_
+67	et	et	CCONJ	_	CCONJ___	66	cc	_	_
+68	ne	ne	ADV	_	ADV___	67	advmod	_	_
+69	me	se	PRON	_	PRON__Number=Sing|Person=1	73	expl	_	_
+70	payant	payer	VERB	_	VERB__Tense=Pres|VerbForm=Part	73	conj	_	_
+71	pas	pas	ADV	_	ADV___	73	advmod	_	_
+72	sous	sou	ADP	_	ADP___	73	case	_	_
+73	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	73	det	_	_
+74	arguments	argument	NOUN	_	NOUN__Gender=Masc|Number=Plur	75	obl	_	_
+75	sans	sans	ADP	_	ADP___	73	case	_	_
+76	cesse	cesser	NOUN	_	NOUN__Gender=Fem|Number=Sing	73	nmod	_	_
+77	nouveaux	nouveau	ADJ	_	ADJ__Gender=Masc|Number=Plur	79	amod	_	_
+78	)	)	PUNCT	_	PUNCT___	79	punct	_	_
+79	...	...	PUNCT	_	PUNCT___	73	punct	_	_
+
+
+#Je vous remercie
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	3	obj	_	_
+3	remercie	remercier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+
+

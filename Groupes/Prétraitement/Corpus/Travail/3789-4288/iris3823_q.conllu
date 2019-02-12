@@ -1,0 +1,230 @@
+#Bonjour,Je suis salarié, cadre, dans le privé, sur un régime classique : 5 jours / semaine, du lundi au vendredi, aux 39h.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Je	Je	PRON	_	PRON__Number=Sing|Person=1	5	nsubj:pass	_	_
+4	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	salarié	salarier	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	nmod	_	_
+6	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+7	cadre	cadrer	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	acl	_	_
+8	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+9	dans	dan	ADP	_	ADP___	11	case	_	_
+10	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	privé	priver	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+12	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+13	sur	sur	ADP	_	ADP___	15	case	_	_
+14	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	régime	régime	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	conj	_	_
+16	classique	classique	ADJ	_	ADJ__Number=Sing	15	amod	_	_
+17	:	:	PUNCT	_	PUNCT___	15	punct	_	_
+18	5	5	NUM	_	NUM__NumType=Card	19	nummod	_	_
+19	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	nmod	_	_
+20	/	/	CCONJ	_	CCONJ___	21	case	_	_
+21	semaine	semaine	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	nmod	_	_
+22	,	,	PUNCT	_	PUNCT___	28	punct	_	_
+23	du	du	DET	_	DET__Gender=Masc|Number=Sing	24	det	_	_
+24	lundi	lundi	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	fixed	_	_
+25	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	26	case	_	_
+26	vendredi	vendredi	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	nmod	_	_
+27	,	,	PUNCT	_	PUNCT___	26	punct	_	_
+28	aux	aux	ADP	_	ADP___	1	conj	_	_
+29	39h	39h	PUNCT	_	PUNCT___	28	nummod	_	_
+30	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Convention Syntec.
+1	Convention	Convention	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	Syntec	Syntec	PROPN	_	PROPN___	1	flat:name	_	_
+3	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Exceptionnellement, je vais participer à une conférence à l'extérieur, qui s'étale du vendredi au dimanche (soit 3 jours).
+1	Exceptionnellement	Exceptionnellement	ADV	_	ADV___	1	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+4	vais	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	participer	participer	VERB	_	VERB__VerbForm=Inf	1	xcomp	_	_
+6	à	à	ADP	_	ADP___	5	case	_	_
+7	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+8	conférence	conférence	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obl	_	_
+9	à	à	ADP	_	ADP___	11	case	_	_
+10	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	extérieur	extérieur	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+12	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+13	qui	qui	PRON	_	PRON__PronType=Rel	15	nsubj	_	_
+14	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	15	expl	_	_
+15	étale	étaler	ADJ	_	ADJ__Gender=Fem|Number=Sing	1	parataxis	_	_
+16	du	du	DET	_	DET__Gender=Masc|Number=Sing	15	det	_	_
+17	vendredi	vendredi	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obl	_	_
+18	au	au	PRON	_	PRON__PronType=Rel	19	case	_	_
+19	dimanche	dimanche	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nmod	_	_
+20	(	(	PUNCT	_	PUNCT___	21	punct	_	_
+21	soit	être	CCONJ	_	CCONJ___	19	cc	_	_
+22	3	3	NUM	_	NUM__NumType=Card	28	nummod	_	_
+23	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	24	obl	_	_
+24	)	)	PUNCT	_	PUNCT___	22	punct	_	_
+25	.	.	PUNCT	_	PUNCT___	26	punct	_	_
+
+
+#A noter qu'il n'y a rien d'obligatoire, nous y allons si nous le voulons.
+1	A	A	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+2	noter	noter	VERB	_	VERB__VerbForm=Inf	1	acl	_	_
+3	qu'	que	SCONJ	_	SCONJ___	5	mark	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+5	n'	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+6	y	yu	PRON	_	PRON__Person=3	5	expl	_	_
+7	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+8	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	5	obj	_	_
+9	d'	de	ADP	_	ADP___	11	mark	_	_
+10	obligatoire	obligatoire	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	acl	_	_
+11	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+12	nous	se	PRON	_	PRON__Number=Plur|Person=1	15	nsubj	_	_
+13	y	yu	PRON	_	PRON__Person=3	15	expl	_	_
+14	allons	aller	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+15	si	si	SCONJ	_	SCONJ___	1	advmod	_	_
+16	nous	se	PRON	_	PRON__Number=Plur|Person=1	15	nsubj	_	_
+17	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	15	det	_	_
+18	voulons	vouloir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	19	obl	_	_
+19	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Nous représentons bien l'entreprises si nous y allons (badge au nom de l'entreprise).Questions : a-t-on droit à un repos compensateur ?
+1	Nous	Nous	PRON	_	PRON__Number=Plur|Person=1	1	nsubj	_	_
+2	représentons	représenter	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	bien	bien	ADV	_	ADV___	5	advmod	_	_
+4	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	entreprises	entreprise	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	obj	_	_
+6	si	si	SCONJ	_	SCONJ___	5	mark	_	_
+7	nous	se	PRON	_	PRON__Number=Plur|Person=1	5	nsubj	_	_
+8	y	yu	PRON	_	PRON__Person=3	5	expl	_	_
+9	allons	aller	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+10	(	(	PUNCT	_	PUNCT___	11	punct	_	_
+11	badge	badge	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	appos	_	_
+12	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	15	case	_	_
+13	nom	nom	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	fixed	_	_
+14	de	de	ADP	_	ADP___	15	case	_	_
+15	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+16	entreprise).Questions	entreprise).Questions	NOUN	_	NOUN__Gender=Fem|Number=Plur	15	nmod	_	_
+17	:	:	PUNCT	_	PUNCT___	15	punct	_	_
+18	a	avoir		_	VERB	19	aux	_	_
+19	-t	t	PART	_	PART___	15	expl	_	_
+20	-on	on	PRON	_	PRON__Number=Sing|Person=3	21	nsubj	_	_
+21	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	ccomp	_	_
+22	à	à	ADP	_	ADP___	28	case	_	_
+23	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	repos	repos	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	obl	_	_
+25	compensateur	compensateur	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	amod	_	_
+26	?	?	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#Est-on obligé de prendre un repos quelques jours avant afin de ne pas travailler plus de 6 jours d'affilée (d'ailleurs, est-ce que participer à cette conférence peut-être considéré comme un jour travaillé ?) ?
+1	Est	Est	ADV	_	ADV___	1	advmod	_	_
+2	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+3	on	on	PRON	_	PRON__Number=Sing|Person=3	5	nsubj	_	_
+4	obligé	obliger	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	de	de	ADP	_	ADP___	1	mark	_	_
+6	prendre	prendre	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+8	repos	repos	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+9	quelques	quelque	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
+10	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	nmod	_	_
+11	avant	avant	ADP	_	ADP___	5	mark	_	_
+12	afin	afin	ADP	_	ADP___	15	fixed	_	_
+13	de	de	ADP	_	ADP___	15	fixed	_	_
+14	ne	ne	ADV	_	ADV___	15	advmod	_	_
+15	pas	pas	ADV	_	ADV___	1	fixed	_	_
+16	travailler	travailler	VERB	_	VERB__VerbForm=Inf	15	advcl	_	_
+17	plus	plaire	ADV	_	ADV___	15	advmod	_	_
+18	de	de	ADP	_	ADP___	19	case	_	_
+19	6	6	NUM	_	NUM__NumType=Card	15	nummod	_	_
+20	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	21	obl	_	_
+21	d'	de	ADP	_	ADP___	19	case	_	_
+22	affilée	affiler	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	nmod	_	_
+23	(	(	PUNCT	_	PUNCT___	24	punct	_	_
+24	d'	de	ADP	_	ADP___	22	advmod	_	_
+25	ailleurs	ailleurs	NOUN	_	NOUN__Gender=Masc	26	fixed	_	_
+26	,	,	PUNCT	_	PUNCT___	24	punct	_	_
+27	est	être		_	VERB	26	iobj	_	_
+28	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+29	que	que	ADV	_	ADV___	28	obj	_	_
+30	participer	participer	VERB	_	VERB__VerbForm=Inf	1	acl	_	_
+31	à	à	ADP	_	ADP___	31	case	_	_
+32	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	31	det	_	_
+33	conférence	conférence	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	obl	_	_
+34	peut-être	peut-être	ADV	_	ADV___	37	advmod	_	_
+35	considéré	considérer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	37	cop	_	_
+36	comme	comme	ADP	_	ADP___	37	case	_	_
+37	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+38	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	37	obl	_	_
+39	travaillé	travailler	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	41	acl	_	_
+40	?	?	PUNCT	_	PUNCT___	41	punct	_	_
+41	)	)	PUNCT	_	PUNCT___	38	punct	_	_
+42	?	?	PUNCT	_	PUNCT___	44	punct	_	_
+
+
+#Voilà, je pense que vous voyez où je veux en venir.
+1	Voilà	Voilà	VERB	_	VERB__Mood=Ind|VerbForm=Fin	1	acl	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+4	pense	penser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	que	que	SCONJ	_	SCONJ___	1	mark	_	_
+6	vous	se	PRON	_	PRON__Number=Plur|Person=2	5	nsubj	_	_
+7	voyez	voir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+8	où	où	PRON	_	PRON__PronType=Rel	5	iobj	_	_
+9	je	il	PRON	_	PRON__Number=Sing|Person=1	11	nsubj	_	_
+10	veux	vouloir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+11	en	en	ADP	_	ADP___	5	mark	_	_
+12	venir	venir	VERB	_	VERB__VerbForm=Inf	15	xcomp	_	_
+13	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Merci !
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	!	!	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Seb.
+1	Seb	Seb	PROPN	_	PROPN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Ce n'est pas à la demande explicite de l'entreprise.
+1	Ce	Ce	PRON	_	PRON__Number=Sing|Person=3	7	nsubj	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+5	à	à	ADP	_	ADP___	7	case	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	demande	demander	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+8	explicite	expliciter	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	amod	_	_
+9	de	de	ADP	_	ADP___	11	case	_	_
+10	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	entreprise	entreprendre	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+12	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#C'est une possibilité d'y aller, sous son nom.
+1	C'	C'	PRON	_	PRON__Number=Sing|Person=3	7	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+3	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+4	possibilité	possibilité	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+5	d'	de	ADP	_	ADP___	7	mark	_	_
+6	y	yu	PRON	_	PRON__Person=3	7	iobj	_	_
+7	aller	aller	VERB	_	VERB__VerbForm=Inf	7	nmod	_	_
+8	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+9	sous	sou	ADP	_	ADP___	11	case	_	_
+10	son	son	DET	_	DET__Number=Sing|Poss=Yes	11	nmod:poss	_	_
+11	nom	nom	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+12	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#En réalisant une note de frais évidemment.
+1	En	En	ADP	_	ADP___	7	mark	_	_
+2	réalisant	réaliser	VERB	_	VERB__Tense=Pres|VerbForm=Part	0	ROOT	_	_
+3	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+4	note	noter	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obj	_	_
+5	de	de	ADP	_	ADP___	7	case	_	_
+6	frais	frai	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	nmod	_	_
+7	évidemment	évidemment	ADV	_	ADV___	7	advmod	_	_
+8	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+

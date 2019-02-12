@@ -1,0 +1,160 @@
+#Bonjour,Effectivement, la prise de repos compensateur de remplacement (vos 60h ici) n'est pas assimilée à du travail effectif dans le décompte des heures supplémentaires.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	6	case	_	_
+2	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+3	Effectivement	Effectivement	ADV	_	ADV___	6	advmod	_	_
+4	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	prise	priser	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obl	_	_
+7	de	de	ADP	_	ADP___	8	case	_	_
+8	repos	repos	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nmod	_	_
+9	compensateur	compensateur	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	amod	_	_
+10	de	de	ADP	_	ADP___	11	case	_	_
+11	remplacement	remplacement	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+12	(	(	PUNCT	_	PUNCT___	8	punct	_	_
+13	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	14	nmod:poss	_	_
+14	60h	60h	NOUN	_	NOUN__Gender=Fem	6	nmod	_	_
+15	ici	ici	ADV	_	ADV___	14	advmod	_	_
+16	)	)	PUNCT	_	PUNCT___	6	punct	_	_
+17	n'	ne	ADV	_	ADV__Polarity=Neg	20	advmod	_	_
+18	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux:pass	_	_
+19	pas	pas	ADV	_	ADV__Polarity=Neg	20	advmod	_	_
+20	assimilée	assimiler	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+21	à	à	ADP	_	ADP___	23	case	_	_
+22	du	du	DET	_	DET__Gender=Masc|Number=Sing	23	det	_	_
+23	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obl	_	_
+24	effectif	effectif	ADJ	_	ADJ__Gender=Masc|Number=Sing	23	amod	_	_
+25	dans	dan	ADP	_	ADP___	27	case	_	_
+26	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	décompte	décompter	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obl	_	_
+28	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	29	det	_	_
+29	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	27	obj	_	_
+30	supplémentaires	supplémentaire	ADJ	_	ADJ__Number=Plur	29	amod	_	_
+31	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Par exemple, sur une semaine normale à 35h, si vous faites 1h en plus le lundi, et que vous posez 7h de repos compensateur le mardi, votre décompte de temps effectif sur cette semaine sera : 35h+1h (le lundi)
+1	Par	Par	ADP	_	ADP___	6	advmod	_	_
+2	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+4	sur	sur	ADP	_	ADP___	6	case	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	semaine	semaine	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obl	_	_
+7	normale	normal	ADJ	_	ADJ__Gender=Fem|Number=Sing	8	amod	_	_
+8	à	à	ADP	_	ADP___	6	case	_	_
+9	35h	35h	NUM	_	NUM__NumType=Card	8	nmod	_	_
+10	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+11	si	si	SCONJ	_	SCONJ___	8	mark	_	_
+12	vous	se	PRON	_	PRON__Number=Plur|Person=2	8	nsubj	_	_
+13	faites	fait	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+14	1h	1h	PRON	_	PRON__NumType=Card|PronType=Rel	6	xcomp	_	_
+15	en	en	ADP	_	ADP___	14	fixed	_	_
+16	plus	plaire	ADV	_	ADV___	6	fixed	_	_
+17	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+18	lundi	lundi	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obj	_	_
+19	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+20	et	et	CCONJ	_	CCONJ___	20	cc	_	_
+21	que	que	SCONJ	_	SCONJ___	23	mark	_	_
+22	vous	se	PRON	_	PRON__Number=Plur|Person=2	23	nsubj	_	_
+23	posez	poser	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	20	conj	_	_
+24	7h	7h	ADJ	_	ADJ__NumType=Ord	23	obj	_	_
+25	de	de	ADP	_	ADP___	27	case	_	_
+26	repos	repos	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	obl	_	_
+27	compensateur	compensateur	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	amod	_	_
+28	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	mardi	mardi	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	nmod	_	_
+30	,	,	PUNCT	_	PUNCT___	29	punct	_	_
+31	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	20	nmod:poss	_	_
+32	décompte	décompter	NOUN	_	NOUN__Gender=Masc|Number=Sing	44	nsubj	_	_
+33	de	de	ADP	_	ADP___	32	case	_	_
+34	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Plur	44	nmod	_	_
+35	effectif	effectif	ADJ	_	ADJ__Gender=Masc|Number=Sing	37	amod	_	_
+36	sur	sur	ADP	_	ADP___	37	case	_	_
+37	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	44	det	_	_
+38	semaine	semaine	NOUN	_	NOUN__Gender=Fem|Number=Sing	37	nmod	_	_
+39	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	40	cop	_	_
+40	:	:	PUNCT	_	PUNCT___	37	punct	_	_
+41	35h+1h	35h+1h	NUM	_	NUM__NumType=Card	44	appos	_	_
+42	(	(	PUNCT	_	PUNCT___	44	punct	_	_
+43	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	lundi	lundi	NOUN	_	NOUN__Gender=Masc|Number=Sing	44	appos	_	_
+45	)	)	PUNCT	_	PUNCT___	44	punct	_	_
+
+
+#-7h (le mardi), soit 29h.
+1	-7h	-7h	PUNCT	_	PUNCT___	0	ROOT	_	_
+2	(	(	PUNCT	_	PUNCT___	6	punct	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+4	mardi	mardi	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nmod	_	_
+5	)	)	PUNCT	_	PUNCT___	6	punct	_	_
+6	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+7	soit	être	CCONJ	_	CCONJ___	8	cc	_	_
+8	29h	29h	NOUN	_	NOUN__NumType=Card	6	conj	_	_
+9	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#On est en-dessous de 35h, donc l'heure en plus le lundi ne sera pas considérée comme une heure supplémentaire;
+1	On	On	PRON	_	PRON__Number=Sing|Person=3	6	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	en-dessous	en-dessous	ADP	_	ADP___	0	ROOT	_	_
+4	de	de	ADP	_	ADP___	6	case	_	_
+5	35h	35h	PRON	_	PRON__NumType=Card|PronType=Rel	6	obl	_	_
+6	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+7	donc	donc	ADV	_	ADV___	8	advmod	_	_
+8	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+9	heure	heure	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+10	en	en	ADP	_	ADP___	11	case	_	_
+11	plus	plaire	ADV	_	ADV___	8	fixed	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+13	lundi	lundi	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nmod	_	_
+14	ne	ne	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+15	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	14	cop	_	_
+16	pas	pas	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+17	considérée	considérer	AUX	_	AUX__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	20	cop	_	_
+18	comme	comme	ADP	_	ADP___	20	case	_	_
+19	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	heure	heure	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	punct	_	_
+21	supplémentaire	supplémentaire	ADJ	_	ADJ__Number=Sing	23	amod	_	_
+22	;	;	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#elle devra vous êtes rémunérée en plus, mais en heure normale et non en taux majoré.
+1	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	6	nsubj	_	_
+2	devra	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	aux	_	_
+3	vous	se	PRON	_	PRON__Number=Plur|Person=2	6	nsubj:pass	_	_
+4	êtes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+5	rémunérée	rémunérer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+6	en	en	ADP	_	ADP___	20	advmod	_	_
+7	plus	plaire	ADV	_	ADV___	8	fixed	_	_
+8	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+9	mais	mai	CCONJ	_	CCONJ___	8	cc	_	_
+10	en	en	ADP	_	ADP___	11	case	_	_
+11	heure	heure	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	conj	_	_
+12	normale	normal	ADJ	_	ADJ__Gender=Fem|Number=Sing	8	amod	_	_
+13	et	et	CCONJ	_	CCONJ___	14	cc	_	_
+14	non	non	ADV	_	ADV___	6	conj	_	_
+15	en	en	ADP	_	ADP___	14	case	_	_
+16	taux	taux	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nmod	_	_
+17	majoré	majorer	ADJ	_	ADJ__Gender=Masc|Number=Sing	20	amod	_	_
+18	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Exemple à transposer sur un décompte annuel, pour votre cas.
+1	Exemple	Exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	à	à	ADP	_	ADP___	6	mark	_	_
+3	transposer	transposer	VERB	_	VERB__VerbForm=Inf	6	acl	_	_
+4	sur	sur	ADP	_	ADP___	6	case	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	décompte	décompter	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obl	_	_
+7	annuel	annuel	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	amod	_	_
+8	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+9	pour	pour	ADP	_	ADP___	8	case	_	_
+10	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	11	nmod:poss	_	_
+11	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	conj	_	_
+12	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Cdlt.
+1	Cdlt	Cdlt	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+2	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+

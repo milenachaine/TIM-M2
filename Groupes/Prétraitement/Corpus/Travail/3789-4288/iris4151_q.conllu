@@ -1,0 +1,157 @@
+#Bonjour.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Je vous sollicite aujourdhui car jai un problème.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	1	iobj	_	_
+3	sollicite	solliciter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	aujourdhui	aujourdhui	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	flat:name	_	_
+5	car	car	CCONJ	_	CCONJ___	5	cc	_	_
+6	jai	jai	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	problème	problème	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+9	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Je suis actuellement embauché en CDIC par une société de prestation.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj:pass	_	_
+2	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
+3	actuellement	actuellement	ADV	_	ADV___	5	advmod	_	_
+4	embauché	embaucher	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	en	en	ADP	_	ADP___	5	case	_	_
+6	CDIC	CDIC	NOUN	_	NOUN__Number=Sing	5	obl	_	_
+7	par	par	ADP	_	ADP___	8	case	_	_
+8	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+9	société	société	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obl	_	_
+10	de	de	ADP	_	ADP___	5	case	_	_
+11	prestation	prestation	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+12	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Ma mission arrive à son terme vendredi prochain, jai été prévenu seulement hier.
+1	Ma	Ma	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	mission	mission	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+3	arrive	arriver	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	à	à	ADP	_	ADP___	5	case	_	_
+5	son	son	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+6	terme	terme	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+7	vendredi	vendredi	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+8	prochain	prochain	ADJ	_	ADJ__Gender=Masc|Number=Sing	5	amod	_	_
+9	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+10	jai	jai	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	nsubj	_	_
+11	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	5	aux:pass	_	_
+12	prévenu	prévenir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	15	conj	_	_
+13	seulement	seulement	ADV	_	ADV___	15	advmod	_	_
+14	hier	hier	ADV	_	ADV___	15	advmod	_	_
+15	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Javais terminé ma période dessai de 3 mois.
+1	Javais	Javais	CCONJ	_	CCONJ___	0	ROOT	_	_
+2	terminé	terminer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+3	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	5	nmod:poss	_	_
+4	période	période	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obj	_	_
+5	dessai	dessai	ADP	_	ADP___	5	amod	_	_
+6	de	de	ADP	_	ADP___	5	case	_	_
+7	3	3	NUM	_	NUM__NumType=Card	8	nummod	_	_
+8	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	nmod	_	_
+9	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Dans le contrat il est indiqué quune fois la période dessai terminée il y a un préavis de 3 mois si rupture du contrat.
+1	Dans	Dans	ADP	_	ADP___	1	case	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+3	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+6	indiqué	indiquer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+7	quune	quune	DET	_	DET__Gender=Fem|Number=Sing	8	advmod	_	_
+8	fois	foi	NOUN	_	NOUN__Gender=Fem	5	obl	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	période	période	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obl	_	_
+11	dessai	dessai	ADP	_	ADP___	5	advmod	_	_
+12	terminée	terminer	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	acl	_	_
+13	il	il	PRON	_	PRON__Number=Sing|Person=3	15	case	_	_
+14	y	yu	PRON	_	PRON__Person=3	15	fixed	_	_
+15	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	fixed	_	_
+16	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	préavis	préavis	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nmod	_	_
+18	de	de	ADP	_	ADP___	20	case	_	_
+19	3	3	NUM	_	NUM__NumType=Card	20	nummod	_	_
+20	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	nmod	_	_
+21	si	si	SCONJ	_	SCONJ___	22	mark	_	_
+22	rupture	rupture	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	advcl	_	_
+23	du	du	DET	_	DET__Gender=Masc|Number=Sing	15	det	_	_
+24	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	obj	_	_
+25	.	.	PUNCT	_	PUNCT___	26	punct	_	_
+
+
+#On ma donc fait parvenir une notification de licenciement mais le hic cest quon me force la main pour que jecourte le préavis de 3 mois.
+1	On	On	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+2	ma	ma	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	donc	donc	ADV	_	ADV___	5	advmod	_	_
+4	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	parvenir	parvenir	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+6	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+7	notification	notification	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+8	de	de	ADP	_	ADP___	5	case	_	_
+9	licenciement	licenciement	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+10	mais	mai	CCONJ	_	CCONJ___	5	cc	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+12	hic	hic	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nsubj	_	_
+13	cest	cest	SCONJ	_	SCONJ___	15	aux	_	_
+14	quon	quon	PRON	_	PRON__PronType=Rel	15	advmod	_	_
+15	me	se	PRON	_	PRON__Number=Sing|Person=1	15	iobj	_	_
+16	force	forcer	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	conj	_	_
+17	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+18	main	main	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obj	_	_
+19	pour	pour	ADP	_	ADP___	20	case	_	_
+20	que	que	SCONJ	_	SCONJ___	15	fixed	_	_
+21	jecourte	jecourte	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	nmod	_	_
+22	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+23	préavis	préavis	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nmod	_	_
+24	de	de	ADP	_	ADP___	25	case	_	_
+25	3	3	NUM	_	NUM__NumType=Card	26	nummod	_	_
+26	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	26	nmod	_	_
+27	.	.	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#On ma envoyé une lettre pré remplie à signer et à renvoyer disant que je renonce au préavis et quitte les effectifs de lentreprise vendredi prochain.
+1	On	On	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+2	ma	ma	ADJ	_	ADJ__Gender=Fem|Number=Sing	1	aux	_	_
+3	envoyé	envoyer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	lettre	lettre	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obj	_	_
+6	pré	pré	ADV	_	ADV___	5	obj	_	_
+7	remplie	remplir	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	advcl	_	_
+8	à	à	ADP	_	ADP___	5	mark	_	_
+9	signer	signer	VERB	_	VERB__VerbForm=Inf	10	xcomp	_	_
+10	et	et	CCONJ	_	CCONJ___	5	cc	_	_
+11	à	à	ADP	_	ADP___	5	mark	_	_
+12	renvoyer	renvoyer	VERB	_	VERB__VerbForm=Inf	15	conj	_	_
+13	disant	dire	ADV	_	ADV___	15	xcomp	_	_
+14	que	que	SCONJ	_	SCONJ___	15	mark	_	_
+15	je	il	PRON	_	PRON__Number=Sing|Person=1	15	nsubj	_	_
+16	renonce	renoncer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	ccomp	_	_
+17	au	au	DET	_	DET__Number=Plur|PronType=Dem	15	case	_	_
+18	préavis	préavis	NOUN	_	NOUN__Gender=Masc|Number=Plur	20	obl	_	_
+19	et	et	CCONJ	_	CCONJ___	20	cc	_	_
+20	quitte	quitter	SCONJ	_	SCONJ___	15	conj	_	_
+21	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	22	det	_	_
+22	effectifs	effectif	NOUN	_	NOUN__Gender=Masc|Number=Plur	20	nsubj	_	_
+23	de	de	ADP	_	ADP___	15	case	_	_
+24	lentreprise	lentreprise	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	nmod	_	_
+25	vendredi	vendredi	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	nmod	_	_
+26	prochain	prochain	ADJ	_	ADJ__Gender=Masc|Number=Sing	26	amod	_	_
+27	.	.	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#Quen pensez vous?
+1	Quen	Quen	ADV	_	ADV___	1	obj	_	_
+2	pensez	penser	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	amod	_	_
+3	vous	se	PRON	_	PRON__Number=Plur|Person=2	0	ROOT	_	_
+4	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+

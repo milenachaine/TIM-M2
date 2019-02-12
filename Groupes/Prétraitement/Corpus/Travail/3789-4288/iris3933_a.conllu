@@ -1,0 +1,95 @@
+#Bonjour,Comment cette assistante maternelle a-t-elle fait pour "refuser votre virement" ?
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Comment	Comment	ADV	_	ADV__PronType=Int	10	advmod	_	_
+4	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	assistante	assistant	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nsubj	_	_
+6	maternelle	maternel	ADJ	_	ADJ__Gender=Fem|Number=Sing	5	amod	_	_
+7	a	avoir		_	VERB	10	aux	_	_
+8	-t	t	PART	_	PART___	9	expl	_	_
+9	-elle	elle	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	10	nsubj	_	_
+10	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+11	pour	pour	ADP	_	ADP___	13	mark	_	_
+12	"	"	PUNCT	_	PUNCT___	13	punct	_	_
+13	refuser	refuser	VERB	_	VERB__VerbForm=Inf	10	xcomp	_	_
+14	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	15	nmod:poss	_	_
+15	virement	virement	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+16	"	"	PUNCT	_	PUNCT___	13	punct	_	_
+17	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+18	 	 	SPACE	_		17		_	_
+
+
+#Vous a-t-elle renvoyé l'argent viré sur son compte ?
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+2	a	avoir		_	VERB	1	aux	_	_
+3	-t	t	PART	_	PART___	10	expl	_	_
+4	-elle	elle	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	5	obl	_	_
+5	renvoyé	renvoyer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+7	argent	argent	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+8	viré	virer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+9	sur	sur	ADP	_	ADP___	10	case	_	_
+10	son	son	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+11	compte	compter	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+12	?	?	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Comment votre assistante maternelle justifie t-elle les 140 € en plus : heures travaillées non payées ?
+1	Comment	Comment	ADV	_	ADV__PronType=Int	1	advmod	_	_
+2	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+3	assistante	assistant	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nsubj	_	_
+4	maternelle	maternel	ADJ	_	ADJ__Gender=Fem|Number=Sing	5	amod	_	_
+5	justifie	justifier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	t-elle	t-elle	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+7	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	10	det	_	_
+8	140	140	NUM	_	NUM__NumType=Card	9	nummod	_	_
+9	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	obl	_	_
+10	en	en	ADP	_	ADP___	1	fixed	_	_
+11	plus	plaire	ADV	_	ADV___	13	fixed	_	_
+12	:	:	PUNCT	_	PUNCT___	13	punct	_	_
+13	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	10	obl	_	_
+14	travaillées	travailler	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	15	acl	_	_
+15	non	non	ADV	_	ADV___	13	advmod	_	_
+16	payées	payer	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	13	obj	_	_
+17	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#heures supplémentaires non payées ?
+1	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+2	supplémentaires	supplémentaire	ADJ	_	ADJ__Number=Plur	1	amod	_	_
+3	non	non	ADV	_	ADV___	10	advmod	_	_
+4	payées	payer	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	5	acl	_	_
+5	?	?	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#jours de congés non payés ?
+1	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+2	de	de	ADP	_	ADP___	1	case	_	_
+3	congés	congé	ADJ	_	ADJ__Gender=Masc|Number=Plur	10	nmod	_	_
+4	non	non	ADV	_	ADV___	5	advmod	_	_
+5	payés	payer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	10	acl	_	_
+6	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Votre décompte du solde de tout compte est-il clair et détaille t-il à quoi correspondent les sommes payées ?
+1	Votre	Votre	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	décompte	décompter	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	du	du	DET	_	DET__Gender=Masc|Number=Sing	10	det	_	_
+4	solde	solder	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+5	de	de	ADP	_	ADP___	10	case	_	_
+6	tout	tout	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+7	compte	compter	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+8	est-il	est-il	ADV	_	ADV___	9	amod	_	_
+9	clair	clair	ADJ	_	ADJ__Gender=Masc|Number=Sing	10	amod	_	_
+10	et	et	CCONJ	_	CCONJ___	1	cc	_	_
+11	détaille	détailler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+12	t-il	t-il	ADV	_	ADV___	13	advmod	_	_
+13	à	à	ADP	_	ADP___	10	case	_	_
+14	quoi	quoi	PRON	_	PRON__PronType=Int	15	obl	_	_
+15	correspondent	correspondre	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+16	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	13	det	_	_
+17	sommes	sommer	NOUN	_	NOUN__Number=Plur	1	aux:pass	_	_
+18	payées	payer	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	17	nsubj	_	_
+19	?	?	PUNCT	_	PUNCT___	23	punct	_	_
+
+

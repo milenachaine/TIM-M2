@@ -1,0 +1,1337 @@
+#Bonjour,malgré mes recherches sur internet je narrive pas à trouver réponse à mon cas et en viens à demander conseil.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	malgré	malgré	ADP	_	ADP___	5	case	_	_
+4	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	5	nmod:poss	_	_
+5	recherches	rechercher	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	nmod	_	_
+6	sur	sur	ADP	_	ADP___	7	case	_	_
+7	internet	internet	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+8	je	il	PRON	_	PRON__Number=Sing|Person=1	9	nsubj	_	_
+9	narrive	narrive	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+10	pas	pas	ADV	_	ADV___	9	advmod	_	_
+11	à	à	ADP	_	ADP___	12	mark	_	_
+12	trouver	trouver	VERB	_	VERB__VerbForm=Inf	9	xcomp	_	_
+13	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obj	_	_
+14	à	à	ADP	_	ADP___	16	case	_	_
+15	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	16	nmod:poss	_	_
+16	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obl	_	_
+17	et	et	CCONJ	_	CCONJ___	19	cc	_	_
+18	en	en	ADP	_	ADP___	19	mark	_	_
+19	viens	venir	ADJ	_	ADJ__Gender=Masc|Number=Plur	12	conj	_	_
+20	à	à	ADP	_	ADP___	21	mark	_	_
+21	demander	demander	VERB	_	VERB__VerbForm=Inf	19	xcomp	_	_
+22	conseil	conseil	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obj	_	_
+23	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#SITUATION :
+1	SITUATION	SITUATION	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	 	  	SPACE	_		1		_	_
+3	:	:	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Mon gérant possède 2 sociétés (quon appellera A et B).La société A est actuellement en liquidation judiciaire.
+1	Mon	Mon	DET	_	DET__Number=Sing|Poss=Yes	1	advmod	_	_
+2	gérant	gérer	VERB	_	VERB__Tense=Pres|VerbForm=Part	1	amod	_	_
+3	possède	posséder	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	2	2	NUM	_	NUM__NumType=Card	5	nummod	_	_
+5	sociétés	société	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	obj	_	_
+6	(	(	PUNCT	_	PUNCT___	7	punct	_	_
+7	quon	quon	PRON	_	PRON__PronType=Rel	5	obj	_	_
+8	appellera	appeler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	acl:relcl	_	_
+9	A	A	NOUN	_	NOUN___	1	obj	_	_
+10	et	et	CCONJ	_	CCONJ___	9	cc	_	_
+11	B).La	B).La	PROPN	_	PROPN___	12	conj	_	_
+12	société	société	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obj	_	_
+13	A	A	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	nmod	_	_
+14	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	actuellement	actuellement	ADV	_	ADV___	16	advmod	_	_
+16	en	en	ADP	_	ADP___	12	case	_	_
+17	liquidation	liquidation	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	punct	_	_
+18	judiciaire	judiciaire	ADJ	_	ADJ__Number=Sing	19	amod	_	_
+19	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Les salariés de cette dernière seront considérés en licenciement économique à compter de la date du 19 déc., date également de récupération des clés des locaux par lhuissier en prévision de la vente aux enchères à venir des biens de la société A.La société B, dans laquelle je suis lunique salarié, est depuis quelques mois sans activité.
+1	Les	Les	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+2	salariés	salarier	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	nsubj	_	_
+3	de	de	ADP	_	ADP___	5	case	_	_
+4	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	dernière	dernier	ADJ	_	ADJ__Gender=Fem|Number=Sing|NumType=Ord	1	nmod	_	_
+6	seront	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	7	nsubj	_	_
+7	considérés	considérer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	5	cop	_	_
+8	en	en	ADP	_	ADP___	9	case	_	_
+9	licenciement	licenciement	ADV	_	ADV___	0	ROOT	_	_
+10	économique	économique	ADJ	_	ADJ__Number=Sing	9	amod	_	_
+11	à	à	ADP	_	ADP___	12	mark	_	_
+12	compter	compter	VERB	_	VERB__VerbForm=Inf	9	xcomp	_	_
+13	de	de	ADP	_	ADP___	12	case	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	date	dater	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obl	_	_
+16	du	du	DET	_	DET__Gender=Masc|Number=Sing	12	det	_	_
+17	19	19	NUM	_	NUM__NumType=Card	19	nummod	_	_
+18	déc.	décembre	NOUN	_	NOUN__Gender=Masc	19	nmod	_	_
+19	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+20	date	dater	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	conj	_	_
+21	également	également	ADV	_	ADV___	19	advmod	_	_
+22	de	de	ADP	_	ADP___	21	mark	_	_
+23	récupération	récupération	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+24	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	24	det	_	_
+25	clés	clé	NOUN	_	NOUN__Gender=Masc|Number=Plur	24	obj	_	_
+26	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	24	det	_	_
+27	locaux	local	NOUN	_	NOUN__Gender=Masc|Number=Plur	29	obj	_	_
+28	par	par	ADP	_	ADP___	29	case	_	_
+29	lhuissier	lhuissier	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	nmod	_	_
+30	en	en	ADP	_	ADP___	31	case	_	_
+31	prévision	prévision	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	nmod	_	_
+32	de	de	ADP	_	ADP___	31	case	_	_
+33	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	vente	venter	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	nmod	_	_
+35	aux	aux	ADP	_	ADP___	34	amod	_	_
+36	enchères	enchère	NOUN	_	NOUN__Gender=Fem|Number=Plur	37	fixed	_	_
+37	à	à	ADP	_	ADP___	35	mark	_	_
+38	venir	venir	VERB	_	VERB__VerbForm=Inf	34	xcomp	_	_
+39	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	38	det	_	_
+40	biens	bien	NOUN	_	NOUN__Gender=Masc|Number=Plur	43	obj	_	_
+41	de	de	ADP	_	ADP___	43	case	_	_
+42	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	société	société	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	nmod	_	_
+44	A.La	A.La	NOUN	_	NOUN__Gender=Masc|Number=Sing	43	nmod	_	_
+45	société	société	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	nmod	_	_
+46	B	B	NOUN	_	NOUN___	47	nmod	_	_
+47	,	,	PUNCT	_	PUNCT___	54	punct	_	_
+48	dans	dan	ADP	_	ADP___	50	case	_	_
+49	laquelle	lequel	PRON	_	PRON__Gender=Fem|Number=Sing|PronType=Rel	50	obl	_	_
+50	je	il	PRON	_	PRON__Number=Sing|Person=1	47	nsubj	_	_
+51	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	54	cop	_	_
+52	lunique	lunique	ADV	_	ADV___	54	det	_	_
+53	salarié	salarier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	54	advcl	_	_
+54	,	,	PUNCT	_	PUNCT___	54	punct	_	_
+55	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	54	cc	_	_
+56	depuis	depuis	ADP	_	ADP___	57	case	_	_
+57	quelques	quelque	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	54	det	_	_
+58	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	60	obl	_	_
+59	sans	sans	ADP	_	ADP___	60	case	_	_
+60	activité	activité	NOUN	_	NOUN__Gender=Fem|Number=Sing	57	nmod	_	_
+61	.	.	PUNCT	_	PUNCT___	62	punct	_	_
+
+
+#Mes fonctions sappliquaient toutefois sur les deux sociétés.
+1	Mes	Mes	DET	_	DET__Number=Plur|Poss=Yes	1	nmod:poss	_	_
+2	fonctions	fonction	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	nsubj	_	_
+3	sappliquaient	sappliquaient	ADV	_	ADV___	0	ROOT	_	_
+4	toutefois	toutefois	ADV	_	ADV___	5	advmod	_	_
+5	sur	sur	ADP	_	ADP___	1	case	_	_
+6	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+7	deux	deux	NUM	_	NUM__NumType=Card	5	nummod	_	_
+8	sociétés	société	NOUN	_	NOUN__Gender=Fem|Number=Plur	9	obl	_	_
+9	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Depuis lannonce de la fermeture de la société A je nai plus dactivité à réaliser.
+1	Depuis	Depuis	ADP	_	ADP___	1	case	_	_
+2	lannonce	lannonce	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obl	_	_
+3	de	de	ADP	_	ADP___	5	case	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	fermeture	fermeture	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+6	de	de	ADP	_	ADP___	7	case	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+8	société	société	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nmod	_	_
+9	A	A	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	nmod	_	_
+10	je	il	PRON	_	PRON__Number=Sing|Person=1	9	nsubj	_	_
+11	nai	nai	VERB	_	VERB__VerbForm=Inf	12	cop	_	_
+12	plus	plaire	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+13	dactivité	dactivité	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	fixed	_	_
+14	à	à	ADP	_	ADP___	16	mark	_	_
+15	réaliser	réaliser	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+16	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Je continue toutefois à me présenter sur mon lieu de travail et essaye pour le mieux de trouver à moccuper.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	continue	continuer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	toutefois	toutefois	ADV	_	ADV___	5	advmod	_	_
+4	à	à	ADP	_	ADP___	5	mark	_	_
+5	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	1	iobj	_	_
+6	présenter	poster	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+7	sur	sur	ADP	_	ADP___	5	case	_	_
+8	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	9	nmod:poss	_	_
+9	lieu	lieu	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+10	de	de	ADP	_	ADP___	9	case	_	_
+11	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nmod	_	_
+12	et	et	CCONJ	_	CCONJ___	9	cc	_	_
+13	essaye	essayer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	conj	_	_
+14	pour	pour	ADP	_	ADP___	16	case	_	_
+15	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	mieux	mieux	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obl	_	_
+17	de	de	ADP	_	ADP___	19	mark	_	_
+18	trouver	trouver	VERB	_	VERB__VerbForm=Inf	19	xcomp	_	_
+19	à	à	ADP	_	ADP___	12	mark	_	_
+20	moccuper	moccuper	VERB	_	VERB__VerbForm=Inf	21	xcomp	_	_
+21	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Les locaux des deux sociétés étant les mêmes, à date du 19
+1	Les	Les	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+2	locaux	local	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+3	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
+4	deux	deux	NUM	_	NUM__NumType=Card	5	nummod	_	_
+5	sociétés	société	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	nmod	_	_
+6	étant	être	VERB	_	VERB__Tense=Pres|VerbForm=Part	7	cop	_	_
+7	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+8	mêmes	même	ADJ	_	ADJ__Number=Plur	9	acl:relcl	_	_
+9	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+10	à	à	ADP	_	ADP___	9	case	_	_
+11	date	dater	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+12	du	du	DET	_	DET__Gender=Masc|Number=Sing	9	det	_	_
+13	19	19	NUM	_	NUM__NumType=Card	12	nummod	_	_
+
+
+#déc. je ne pourrai plus accéder à mon lieu de travail.
+1	déc.	décembre	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	advmod	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+3	ne	ne	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+4	pourrai	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	5	fixed	_	_
+5	plus	plaire	ADV	_	ADV___	1	advmod	_	_
+6	accéder	accéder	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+7	à	à	ADP	_	ADP___	5	case	_	_
+8	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	9	nmod:poss	_	_
+9	lieu	lieu	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+10	de	de	ADP	_	ADP___	9	case	_	_
+11	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nmod	_	_
+12	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Pour des raisons qui le concerne, mon gérant souhaite garder la société B et la mettre en veille jusquà juin de lannée suivante.
+1	Pour	Pour	ADP	_	ADP___	1	case	_	_
+2	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	1	det	_	_
+3	raisons	raison	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	obl	_	_
+4	qui	qui	PRON	_	PRON__PronType=Rel	5	nsubj	_	_
+5	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	obj	_	_
+6	concerne	concerner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+7	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+8	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	9	nmod:poss	_	_
+9	gérant	gérer	VERB	_	VERB__Tense=Pres|VerbForm=Part	1	amod	_	_
+10	souhaite	souhaiter	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	nsubj	_	_
+11	garder	garder	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+13	société	société	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obj	_	_
+14	B	B	NOUN	_	NOUN___	16	nmod	_	_
+15	et	et	CCONJ	_	CCONJ___	16	cc	_	_
+16	la	le	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	12	obj	_	_
+17	mettre	mettre	VERB	_	VERB__VerbForm=Inf	19	conj	_	_
+18	en	en	ADP	_	ADP___	19	case	_	_
+19	veille	veiller	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obl	_	_
+20	jusquà	jusquà	ADJ	_	ADJ__Gender=Masc|Number=Sing	21	obj	_	_
+21	juin	juin	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obj	_	_
+22	de	de	ADP	_	ADP___	21	case	_	_
+23	lannée	lannée	PUNCT	_	PUNCT___	1	xcomp	_	_
+24	suivante	suivant	ADJ	_	ADJ__Gender=Fem|Number=Sing	24	amod	_	_
+25	.	.	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#Il na cependant fait aucune démarche administrative me concernant pour soit un licenciement économique soit une rupture conventionnelle.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	na	na	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	advmod	_	_
+3	cependant	cependant	ADV	_	ADV___	5	advmod	_	_
+4	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	aucune	aucun	DET	_	DET__Gender=Fem|Number=Sing	1	det	_	_
+6	démarche	démarcher	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+7	administrative	administratif	ADJ	_	ADJ__Gender=Fem|Number=Sing	5	amod	_	_
+8	me	se	PRON	_	PRON__Number=Sing|Person=1	9	expl	_	_
+9	concernant	concerner	VERB	_	VERB__Tense=Pres|VerbForm=Part	1	acl	_	_
+10	pour	pour	ADP	_	ADP___	9	case	_	_
+11	soit	être	CCONJ	_	CCONJ___	12	cc	_	_
+12	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+13	licenciement	licenciement	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obl	_	_
+14	économique	économique	ADJ	_	ADJ__Number=Sing	16	amod	_	_
+15	soit	être	CCONJ	_	CCONJ___	16	cc	_	_
+16	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+17	rupture	rupture	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	conj	_	_
+18	conventionnelle	conventionnel	ADJ	_	ADJ__Gender=Fem|Number=Sing	19	amod	_	_
+19	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Pour ma part, je ne céderai pas à une RC sachant la possibilité de justifier le licenciement économique.
+1	Pour	Pour	ADP	_	ADP___	1	case	_	_
+2	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	1	nmod:poss	_	_
+3	part	partir	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obl	_	_
+4	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+5	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+6	ne	ne	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+7	céderai	céder	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+8	pas	pas	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+9	à	à	ADP	_	ADP___	1	case	_	_
+10	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+11	RC	RC	PROPN	_	PROPN__Gender=Fem|Number=Sing	12	obl	_	_
+12	sachant	savoir	VERB	_	VERB__Tense=Pres|VerbForm=Part	9	acl	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+14	possibilité	possibilité	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obj	_	_
+15	de	de	ADP	_	ADP___	16	mark	_	_
+16	justifier	justifier	VERB	_	VERB__VerbForm=Inf	12	acl	_	_
+17	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	licenciement	licenciement	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obj	_	_
+19	économique	économique	ADJ	_	ADJ__Number=Sing	12	amod	_	_
+20	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#MA QUESTION :A compter du 19 déc. je ne pourrai plus accéder à mon lieu de travail.
+1	MA	MA	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	QUESTION	QUESTION	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+3	 	  	SPACE	_		5		_	_
+4	:	:	PUNCT	_	PUNCT___	5	punct	_	_
+5	A	A	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+6	compter	compter	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+7	du	du	DET	_	DET__Gender=Masc|Number=Sing	5	det	_	_
+8	19	19	NUM	_	NUM__NumType=Card	9	obj	_	_
+9	déc.	décembre	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	punct	_	_
+10	je	il	PRON	_	PRON__Number=Sing|Person=1	9	nsubj	_	_
+11	ne	ne	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+12	pourrai	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	9	fixed	_	_
+13	plus	plaire	ADV	_	ADV___	12	advmod	_	_
+14	accéder	accéder	VERB	_	VERB__VerbForm=Inf	16	xcomp	_	_
+15	à	à	ADP	_	ADP___	16	case	_	_
+16	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	12	nmod:poss	_	_
+17	lieu	lieu	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obl	_	_
+18	de	de	ADP	_	ADP___	19	case	_	_
+19	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nmod	_	_
+20	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Mon gérant ma indiqué oralement de ne plus me présenter sachant linterdiction de lhuissier, toutefois je serais toujours son salarié.
+1	Mon	Mon	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	gérant	gérer	VERB	_	VERB__Tense=Pres|VerbForm=Part	1	amod	_	_
+3	ma	ma	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obl	_	_
+4	indiqué	indiquer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	det	_	_
+5	oralement	oralement	ADV	_	ADV___	1	obj	_	_
+6	de	de	ADP	_	ADP___	7	mark	_	_
+7	ne	ne	ADV	_	ADV___	5	advmod	_	_
+8	plus	plaire	ADV	_	ADV___	9	fixed	_	_
+9	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	1	iobj	_	_
+10	présenter	poster	VERB	_	VERB__VerbForm=Inf	9	xcomp	_	_
+11	sachant	savoir	VERB	_	VERB__Tense=Pres|VerbForm=Part	12	xcomp	_	_
+12	linterdiction	linterdiction	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obj	_	_
+13	de	de	ADP	_	ADP___	12	case	_	_
+14	lhuissier	lhuissier	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	nmod	_	_
+15	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+16	toutefois	toutefois	ADV	_	ADV___	12	advmod	_	_
+17	je	il	PRON	_	PRON__Number=Sing|Person=1	19	nsubj	_	_
+18	serais	être	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+19	toujours	toujours	ADV	_	ADV___	12	advmod	_	_
+20	son	son	DET	_	DET__Number=Sing|Poss=Yes	21	nmod:poss	_	_
+21	salarié	salarier	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obj	_	_
+22	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Quelles démarches dois-je entreprendre pour massurer déviter les deux situations suivantes :
+1	Quelles	Quelles	DET	_	DET__Gender=Fem|Number=Plur|PronType=Int	1	det	_	_
+2	démarches	démarche	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	nsubj	_	_
+3	dois	devoir	NUM	_	NUM__NumType=Card	5	aux	_	_
+4	-	-	PUNCT	_	PUNCT___	5	punct	_	_
+5	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+6	entreprendre	entreprendre	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+7	pour	pour	ADP	_	ADP___	5	mark	_	_
+8	massurer	massurer	VERB	_	VERB__VerbForm=Inf	9	advcl	_	_
+9	déviter	déviter	VERB	_	VERB__VerbForm=Inf	1	xcomp	_	_
+10	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+11	deux	deux	NUM	_	NUM__NumType=Card	12	nummod	_	_
+12	situations	situation	NOUN	_	NOUN__Gender=Fem|Number=Plur	9	obj	_	_
+13	suivantes	suivant	ADJ	_	ADJ__Gender=Fem|Number=Plur	12	amod	_	_
+14	 	  	SPACE	_		16		_	_
+15	:	:	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#- Abandon de poste : ne me présentant pas, mon gérant pourrait invoquer mon absence comme raison de licenciement pour faute grave.-
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	Abandon	Abandon	PROPN	_	PROPN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	de	de	ADP	_	ADP___	5	case	_	_
+4	poste	poster	NOUN	_	NOUN__Number=Sing	5	nmod	_	_
+5	 	  	SPACE	_		1		_	_
+6	:	:	PUNCT	_	PUNCT___	7	punct	_	_
+7	ne	ne	ADV	_	ADV___	5	advmod	_	_
+8	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	9	expl	_	_
+9	présentant	présenter	VERB	_	VERB__Tense=Pres|VerbForm=Part	1	acl	_	_
+10	pas	pas	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+11	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+12	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	9	nmod:poss	_	_
+13	gérant	gérer	VERB	_	VERB__Tense=Pres|VerbForm=Part	12	fixed	_	_
+14	pourrait	pouvoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	invoquer	invoquer	VERB	_	VERB__VerbForm=Inf	16	ccomp	_	_
+16	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	12	nmod:poss	_	_
+17	absence	absence	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obj	_	_
+18	comme	comme	ADP	_	ADP___	19	mark	_	_
+19	raison	raison	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	fixed	_	_
+20	de	de	ADP	_	ADP___	21	fixed	_	_
+21	licenciement	licenciement	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obl	_	_
+22	pour	pour	ADP	_	ADP___	21	case	_	_
+23	faute	fauter	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+24	grave.-	grave.-	ADP	_	ADP___	24	amod	_	_
+
+
+#Non
+1	Non	Non	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+
+
+#-paiement de mes salaires : jusquà date effective de mon licenciement, mon gérant pourrait invoquer le fait que je ne travaillais pas et ne pas me payer mes jours à compter du 19 déc.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	paiement	paiement	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	de	de	ADP	_	ADP___	5	case	_	_
+4	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	5	nmod:poss	_	_
+5	salaires	salaire	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	nmod	_	_
+6	 	  	SPACE	_		7		_	_
+7	:	:	PUNCT	_	PUNCT___	5	punct	_	_
+8	jusquà	jusquà	PRON	_	PRON__Number=Sing|Person=1	9	amod	_	_
+9	date	dater	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+10	effective	effectif	ADJ	_	ADJ__Gender=Fem|Number=Sing	9	amod	_	_
+11	de	de	ADP	_	ADP___	12	case	_	_
+12	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	9	nmod:poss	_	_
+13	licenciement	licenciement	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nmod	_	_
+14	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+15	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	16	advmod	_	_
+16	gérant	gérer	VERB	_	VERB__Tense=Pres|VerbForm=Part	12	fixed	_	_
+17	pourrait	pouvoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+18	invoquer	invoquer	VERB	_	VERB__VerbForm=Inf	19	acl	_	_
+19	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+20	fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obj	_	_
+21	que	que	SCONJ	_	SCONJ___	19	mark	_	_
+22	je	il	PRON	_	PRON__Number=Sing|Person=1	21	nsubj	_	_
+23	ne	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+24	travaillais	travailler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	24	ccomp	_	_
+25	pas	pas	ADV	_	ADV__Polarity=Neg	24	advmod	_	_
+26	et	et	CCONJ	_	CCONJ___	24	cc	_	_
+27	ne	ne	ADV	_	ADV___	29	advmod	_	_
+28	pas	pas	ADV	_	ADV___	29	fixed	_	_
+29	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	29	iobj	_	_
+30	payer	payer	VERB	_	VERB__VerbForm=Part	31	conj	_	_
+31	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	29	nmod:poss	_	_
+32	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	31	obj	_	_
+33	à	à	ADP	_	ADP___	34	mark	_	_
+34	compter	compter	VERB	_	VERB__VerbForm=Inf	31	xcomp	_	_
+35	du	du	DET	_	DET__Gender=Masc|Number=Sing	34	det	_	_
+36	19	19	NUM	_	NUM__NumType=Card	37	obj	_	_
+37	déc	déc	NOUN	_	NOUN___	35	xcomp	_	_
+38	.	.	PUNCT	_	PUNCT___	34	punct	_	_
+
+
+#En espérant avoir été clair !
+1	En	En	ADP	_	ADP___	1	mark	_	_
+2	espérant	espérer	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	aux	_	_
+3	avoir	avoir	AUX	_	AUX__VerbForm=Inf	5	aux	_	_
+4	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	clair	clair	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+6	 	  	SPACE	_		7		_	_
+7	!	!	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Merci par avance.
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	par	par	ADP	_	ADP___	1	case	_	_
+3	avance	avancer	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+4	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Excellente journée
+1	Excellente	Excellente	ADJ	_	ADJ__Gender=Fem|Number=Sing	1	amod	_	_
+2	journée	journée	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+
+
+#Bonjour Dura, merci de ce premier retour !
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	Dura	Dura	X	_	X___	1	flat:name	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	appos	_	_
+5	de	de	ADP	_	ADP___	8	case	_	_
+6	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+7	premier	premier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	8	amod	_	_
+8	retour	retour	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+9	 	  	SPACE	_		8		_	_
+10	!	!	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#En effet, je trouve cela dommage de me salarier et me rémunérer sans pour autant me fournir du travail (dans le cas où il envisage bien de ma payer).
+1	En	En	ADP	_	ADP___	1	advmod	_	_
+2	effet	effet	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+5	trouve	trouver	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	8	det	_	_
+7	dommage	dommage	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	obj	_	_
+8	de	de	ADP	_	ADP___	4	case	_	_
+9	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	8	nmod:poss	_	_
+10	salarier	salarier	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+11	et	et	CCONJ	_	CCONJ___	15	cc	_	_
+12	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	11	expl	_	_
+13	rémunérer	rémunérer	VERB	_	VERB__VerbForm=Inf	15	conj	_	_
+14	sans	sans	ADP	_	ADP___	15	mark	_	_
+15	pour	pour	ADP	_	ADP___	15	mark	_	_
+16	autant	autant	ADV	_	ADV___	17	fixed	_	_
+17	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	15	iobj	_	_
+18	fournir	fournir	VERB	_	VERB__VerbForm=Inf	20	advcl	_	_
+19	du	du	DET	_	DET__Gender=Masc|Number=Sing	20	det	_	_
+20	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obj	_	_
+21	(	(	PUNCT	_	PUNCT___	23	punct	_	_
+22	dans	dan	ADP	_	ADP___	23	case	_	_
+23	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+24	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	obl	_	_
+25	où	où	PRON	_	PRON__PronType=Rel	28	iobj	_	_
+26	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	25	nsubj	_	_
+27	envisage	envisager	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	acl:relcl	_	_
+28	bien	bien	ADV	_	ADV___	23	advmod	_	_
+29	de	de	ADP	_	ADP___	30	mark	_	_
+30	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	28	nmod:poss	_	_
+31	payer	payer	VERB	_	VERB__VerbForm=Inf	28	xcomp	_	_
+32	)	)	PUNCT	_	PUNCT___	34	punct	_	_
+33	.	.	PUNCT	_	PUNCT___	34	punct	_	_
+
+
+#Cest à la fois une perte dargent inutile pour la société et une perte de temps de mon côté.
+1	Cest	Cest	ADV	_	ADV___	0	ROOT	_	_
+2	à	à	ADP	_	ADP___	1	advmod	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	fixed	_	_
+4	fois	foi	NOUN	_	NOUN__Gender=Fem	1	fixed	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+6	perte	perte	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+7	dargent	dargent	ADP	_	ADP___	8	advmod	_	_
+8	inutile	inutile	ADJ	_	ADJ__Number=Sing	4	amod	_	_
+9	pour	pour	ADP	_	ADP___	8	case	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+11	société	société	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	nmod	_	_
+12	 	  	SPACE	_		11		_	_
+13	et	et	CCONJ	_	CCONJ___	15	cc	_	_
+14	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	perte	perte	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	conj	_	_
+16	de	de	ADP	_	ADP___	17	case	_	_
+17	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	nmod	_	_
+18	de	de	ADP	_	ADP___	20	case	_	_
+19	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	20	nmod:poss	_	_
+20	côté	côté	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	nmod	_	_
+21	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#En ayant aucune date de licenciement, je ne peux malheureusement pas me projeter sur mon avenir professionnel.
+1	En	En	ADP	_	ADP___	1	advmod	_	_
+2	ayant	avoir	VERB	_	VERB__Tense=Pres|VerbForm=Part	1	fixed	_	_
+3	aucune	aucun	DET	_	DET__Gender=Fem|Number=Sing	4	det	_	_
+4	date	dater	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obj	_	_
+5	de	de	ADP	_	ADP___	8	case	_	_
+6	licenciement	licenciement	ADV	_	ADV___	8	nmod	_	_
+7	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+8	je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+9	ne	ne	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+10	peux	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
+11	malheureusement	malheureusement	ADV	_	ADV___	15	advmod	_	_
+12	pas	pas	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+13	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	15	expl	_	_
+14	projeter	projeter	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+15	sur	sur	ADP	_	ADP___	15	case	_	_
+16	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	17	nmod:poss	_	_
+17	avenir	avenir	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obl	_	_
+18	professionnel	professionnel	ADJ	_	ADJ__Gender=Masc|Number=Sing	20	amod	_	_
+19	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Jai donc peur soit quil veuille en venir aux situations mentionnées dans mon précédent message soit penser que je vais prendre les devants pour chercher un autre travail et me forcer indirectement à la RC ou à une démission.
+1	Jai	Jai	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+2	donc	donc	ADV	_	ADV___	1	advmod	_	_
+3	peur	peur	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	appos	_	_
+4	soit	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cc	_	_
+5	quil	quil	ADV	_	ADV___	8	mark	_	_
+6	veuille	vouloir	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	conj	_	_
+7	en	en	ADP	_	ADP___	8	mark	_	_
+8	venir	venir	VERB	_	VERB__VerbForm=Inf	4	advcl	_	_
+9	aux	aux	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	obj	_	_
+10	situations	situation	ADJ	_	ADJ__Number=Plur	1	aux:pass	_	_
+11	mentionnées	mentionner	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	15	acl	_	_
+12	dans	dan	ADP	_	ADP___	11	case	_	_
+13	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	15	nmod:poss	_	_
+14	précédent	précédent	ADJ	_	ADJ__Gender=Masc|Number=Sing	15	obl	_	_
+15	message	message	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obj	_	_
+16	soit	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:pass	_	_
+17	penser	penser	VERB	_	VERB__VerbForm=Inf	15	conj	_	_
+18	que	que	SCONJ	_	SCONJ___	20	mark	_	_
+19	je	il	PRON	_	PRON__Number=Sing|Person=1	20	nsubj	_	_
+20	vais	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	ccomp	_	_
+21	prendre	prendre	VERB	_	VERB__VerbForm=Inf	23	xcomp	_	_
+22	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	23	det	_	_
+23	devants	devant	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	obj	_	_
+24	pour	pour	ADP	_	ADP___	28	mark	_	_
+25	chercher	chercher	VERB	_	VERB__VerbForm=Inf	28	advcl	_	_
+26	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+27	autre	autre	ADJ	_	ADJ__Number=Sing	28	amod	_	_
+28	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	obj	_	_
+29	et	et	CCONJ	_	CCONJ___	30	cc	_	_
+30	me	se	PRON	_	PRON__Number=Sing|Person=1	28	expl	_	_
+31	forcer	forcer	VERB	_	VERB__VerbForm=Inf	28	conj	_	_
+32	indirectement	indirectement	ADV	_	ADV___	34	advmod	_	_
+33	à	à	ADP	_	ADP___	34	case	_	_
+34	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+35	RC	RC	PROPN	_	PROPN__Gender=Fem|Number=Sing	37	obl	_	_
+36	ou	ou	CCONJ	_	CCONJ___	37	cc	_	_
+37	à	à	ADP	_	ADP___	34	case	_	_
+38	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+39	démission	démission	NOUN	_	NOUN__Gender=Fem|Number=Sing	41	conj	_	_
+40	.	.	PUNCT	_	PUNCT___	41	punct	_	_
+
+
+#Jai échangé avec lui de la situation hier et lui ai donc demandé quel était lavenir de la société B et de ma situation.
+1	Jai	Jai	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	échangé	échanger	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	acl	_	_
+3	avec	avec	ADP	_	ADP___	4	case	_	_
+4	lui	luire	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obl	_	_
+5	de	de	ADP	_	ADP___	8	case	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+8	hier	hier	ADV	_	ADV___	4	amod	_	_
+9	et	et	CCONJ	_	CCONJ___	8	cc	_	_
+10	lui	luire	PRON	_	PRON__Number=Sing|Person=3	1	iobj	_	_
+11	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
+12	donc	donc	ADV	_	ADV___	11	advmod	_	_
+13	demandé	demander	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	conj	_	_
+14	quel	quel	DET	_	DET__Gender=Masc|Number=Sing	15	mark	_	_
+15	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	aux:pass	_	_
+16	lavenir	lavenir	VERB	_	VERB__VerbForm=Inf	17	xcomp	_	_
+17	de	de	ADP	_	ADP___	15	case	_	_
+18	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	société	société	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obl	_	_
+20	B	B	NOUN	_	NOUN___	17	nmod	_	_
+21	et	et	CCONJ	_	CCONJ___	23	cc	_	_
+22	de	de	ADP	_	ADP___	23	case	_	_
+23	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	15	nmod:poss	_	_
+24	situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	conj	_	_
+25	.	.	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#Il est resté vague sur le sujet et quil allait en discuter avec le comptable ce vendredi.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj:pass	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
+3	resté	rester	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	cop	_	_
+4	vague	vaguer	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	sur	sur	ADP	_	ADP___	8	case	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	sujet	sujet	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+8	et	et	CCONJ	_	CCONJ___	4	cc	_	_
+9	quil	quil	ADV	_	ADV___	8	mark	_	_
+10	allait	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	_
+11	en	en	PRON	_	PRON__Person=3	15	mark	_	_
+12	discuter	discuter	VERB	_	VERB__VerbForm=Inf	11	xcomp	_	_
+13	avec	avec	ADP	_	ADP___	15	case	_	_
+14	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	comptable	comptable	ADJ	_	ADJ__Number=Sing	15	obl	_	_
+16	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
+17	vendredi	vendredi	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obj	_	_
+18	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Cest lors de cette même discussion, discussion informelle, quil a abordé le fait de ne plus me présenter aux locaux en janvier (retour des congés annuels de lentreprise).
+1	Cest	Cest	ADV	_	ADV___	1	aux	_	_
+2	lors	lors	ADV	_	ADV___	1	case	_	_
+3	de	de	ADP	_	ADP___	4	fixed	_	_
+4	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	1	det	_	_
+5	même	même	ADJ	_	ADJ__Number=Sing	8	amod	_	_
+6	discussion	discussion	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+7	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+8	discussion	discussion	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	conj	_	_
+9	informelle	informel	ADJ	_	ADJ__Gender=Fem|Number=Sing	8	amod	_	_
+10	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+11	quil	quil	ADV	_	ADV___	15	mark	_	_
+12	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+13	abordé	aborder	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+14	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obj	_	_
+16	de	de	ADP	_	ADP___	17	mark	_	_
+17	ne	ne	ADV	_	ADV___	15	advmod	_	_
+18	plus	plaire	ADV	_	ADV___	20	fixed	_	_
+19	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	20	iobj	_	_
+20	présenter	poster	VERB	_	VERB__VerbForm=Inf	17	acl	_	_
+21	aux	aux	ADP	_	ADP___	23	det	_	_
+22	locaux	local	NOUN	_	NOUN__Gender=Masc|Number=Plur	23	obj	_	_
+23	en	en	ADP	_	ADP___	15	case	_	_
+24	janvier	janvier	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	obl	_	_
+25	(	(	PUNCT	_	PUNCT___	28	punct	_	_
+26	retour	retour	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	obl	_	_
+27	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	28	det	_	_
+28	congés	congé	NOUN	_	NOUN__Gender=Masc|Number=Plur	23	nmod	_	_
+29	annuels	annuel	ADJ	_	ADJ__Gender=Masc|Number=Plur	30	amod	_	_
+30	de	de	ADP	_	ADP___	28	case	_	_
+31	lentreprise	lentreprise	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	nmod	_	_
+32	)	)	PUNCT	_	PUNCT___	34	punct	_	_
+33	.	.	PUNCT	_	PUNCT___	34	punct	_	_
+
+
+#Il faut également prendre note le fait que le 19 déc. il part à létranger jusquau 7 janvier.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	également	également	ADV	_	ADV___	4	advmod	_	_
+4	prendre	prendre	VERB	_	VERB__VerbForm=Inf	1	xcomp	_	_
+5	note	noter	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+8	que	que	SCONJ	_	SCONJ___	4	mark	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+10	19	19	NUM	_	NUM__NumType=Card	1	nummod	_	_
+11	déc.	décembre	NOUN	_	NOUN__Gender=Masc	15	ccomp	_	_
+12	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	11	fixed	_	_
+13	part	partir	NOUN	_	NOUN__Number=Sing	15	fixed	_	_
+14	à	à	ADP	_	ADP___	15	case	_	_
+15	létranger	létranger	VERB	_	VERB__VerbForm=Inf	15	det	_	_
+16	jusquau	jusquau	ADP	_	ADP___	17	obl	_	_
+17	7	7	NUM	_	NUM__NumType=Card	15	nummod	_	_
+18	janvier	janvier	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	conj	_	_
+19	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Je comptais bien me présenter le 20 déc. à la première heure sur mon lieu de travail, même avec les locaux fermés.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	comptais	compter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	bien	bien	ADV	_	ADV___	4	advmod	_	_
+4	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	1	iobj	_	_
+5	présenter	poster	VERB	_	VERB__VerbForm=Inf	8	xcomp	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	20	20	NUM	_	NUM__NumType=Card	8	nummod	_	_
+8	déc.	décembre	NOUN	_	NOUN__Gender=Masc	4	obl	_	_
+9	à	à	ADP	_	ADP___	8	case	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+11	première	premier	ADJ	_	ADJ__Gender=Fem|Number=Sing|NumType=Ord	15	amod	_	_
+12	heure	heure	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obl	_	_
+13	sur	sur	ADP	_	ADP___	15	case	_	_
+14	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	15	nmod:poss	_	_
+15	lieu	lieu	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nmod	_	_
+16	de	de	ADP	_	ADP___	17	case	_	_
+17	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nmod	_	_
+18	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+19	même	même	ADV	_	ADV___	20	advmod	_	_
+20	avec	avec	ADP	_	ADP___	17	case	_	_
+21	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	23	det	_	_
+22	locaux	local	NOUN	_	NOUN__Gender=Masc|Number=Plur	23	obl	_	_
+23	fermés	fermer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	15	acl	_	_
+24	.	.	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#Faire constater mon passage et limpossibilité daccès par un des salariés de lentreprise voisine, par une lettre sur lhonneur et une photo datée (moi devant les locaux fermés).
+1	Faire	Faire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+2	constater	constater	VERB	_	VERB__VerbForm=Inf	1	xcomp	_	_
+3	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+4	passage	passage	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+5	et	et	CCONJ	_	CCONJ___	8	cc	_	_
+6	limpossibilité	limpossibilité	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nummod	_	_
+7	daccès	daccès	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+8	par	par	ADP	_	ADP___	4	case	_	_
+9	un	un	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	8	det	_	_
+10	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	1	det	_	_
+11	salariés	salarier	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	obl	_	_
+12	de	de	ADP	_	ADP___	11	case	_	_
+13	lentreprise	lentreprise	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	nmod	_	_
+14	voisine	voisiner	ADJ	_	ADJ__Gender=Fem|Number=Sing	15	amod	_	_
+15	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+16	par	par	ADP	_	ADP___	17	case	_	_
+17	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+18	lettre	lettre	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obl	_	_
+19	sur	sur	ADP	_	ADP___	20	case	_	_
+20	lhonneur	lhonneur	DET	_	DET__Number=Sing|Poss=Yes	17	nmod	_	_
+21	et	et	CCONJ	_	CCONJ___	23	cc	_	_
+22	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	photo	photo	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	conj	_	_
+24	datée	dater	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	28	acl	_	_
+25	(	(	PUNCT	_	PUNCT___	28	punct	_	_
+26	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	25	obl	_	_
+27	devant	devoir	ADP	_	ADP___	28	case	_	_
+28	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	23	det	_	_
+29	locaux	local	NOUN	_	NOUN__Gender=Masc|Number=Plur	30	nmod	_	_
+30	fermés	fermer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	28	acl	_	_
+31	)	)	PUNCT	_	PUNCT___	28	punct	_	_
+32	.	.	PUNCT	_	PUNCT___	34	punct	_	_
+
+
+#Envoyer un courrier en RAR du constat de la situation et de la demande de régularisation.
+1	Envoyer	Envoyer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+2	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+3	courrier	courrier	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obj	_	_
+4	en	en	ADP	_	ADP___	1	case	_	_
+5	RAR	RAR	PROPN	_	PROPN___	8	nmod	_	_
+6	du	du	DET	_	DET__Gender=Masc|Number=Sing	8	det	_	_
+7	constat	constat	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+8	de	de	ADP	_	ADP___	4	case	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+10	situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+11	et	et	CCONJ	_	CCONJ___	15	cc	_	_
+12	de	de	ADP	_	ADP___	11	case	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	demande	demander	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	conj	_	_
+15	de	de	ADP	_	ADP___	15	case	_	_
+16	régularisation	régularisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	nmod	_	_
+17	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Continuer ma présence tous les matins, avec lettre et photo.
+1	Continuer	Continuer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+2	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	1	nmod:poss	_	_
+3	présence	présence	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obj	_	_
+4	tous	tout	ADJ	_	ADJ__Gender=Masc|Number=Plur	1	amod	_	_
+5	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+6	matins	matin	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obl	_	_
+7	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+8	avec	avec	ADP	_	ADP___	4	case	_	_
+9	lettre	lettre	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+10	et	et	CCONJ	_	CCONJ___	1	cc	_	_
+11	photo	photo	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	conj	_	_
+12	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Renouveler le courrier RAR toutes les semaines si aucune réponse.
+1	Renouveler	Renouveler	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+3	courrier	courrier	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+4	RAR	RAR	PROPN	_	PROPN___	1	nmod	_	_
+5	toutes	toute	ADJ	_	ADJ__Gender=Fem|Number=Plur	8	amod	_	_
+6	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+7	semaines	semaine	NOUN	_	NOUN__Gender=Fem|Number=Plur	8	nmod	_	_
+8	si	si	SCONJ	_	SCONJ___	4	advmod	_	_
+9	aucune	aucun	DET	_	DET__Gender=Fem|Number=Sing	8	det	_	_
+10	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+11	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Je ne sais toutefois pas si ma démarche est bonne.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ne	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+3	sais	savoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	toutefois	toutefois	ADV	_	ADV___	1	advmod	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+6	si	si	SCONJ	_	SCONJ___	8	mark	_	_
+7	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	8	nmod:poss	_	_
+8	démarche	démarcher	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nsubj	_	_
+9	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+10	bonne	bon	ADJ	_	ADJ__Gender=Fem|Number=Sing	1	ccomp	_	_
+11	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Est
+1	Est	Est	ADV	_	ADV___	0	ROOT	_	_
+
+
+#-ce que j'envoi un courrier RAR avant le 19 déc. ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	ce	ce	PRON	_	PRON__PronType=Rel	0	ROOT	_	_
+3	que	que	PRON	_	PRON__PronType=Rel	4	mark	_	_
+4	j'	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+5	envoi	envoi	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	courrier	courrier	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+8	RAR	RAR	PROPN	_	PROPN___	4	nmod	_	_
+9	avant	avant	ADP	_	ADP___	8	case	_	_
+10	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+11	19	19	NUM	_	NUM__NumType=Card	15	nummod	_	_
+12	déc.	décembre	NOUN	_	NOUN__Gender=Masc	11	nmod	_	_
+13	?	?	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Est-ce que la lettre sur lhonneur des salariés est utiles et valable juridiquement ?
+1	Est	être		_	VERB	0	ROOT	_	_
+2	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	1	amod	_	_
+3	que	que	SCONJ	_	SCONJ___	4	mark	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+5	lettre	lettre	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nsubj	_	_
+6	sur	sur	ADP	_	ADP___	8	case	_	_
+7	lhonneur	lhonneur	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	amod	_	_
+8	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
+9	salariés	salarier	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	nmod	_	_
+10	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+11	utiles	utile	ADJ	_	ADJ__Gender=Fem|Number=Plur	15	acl:relcl	_	_
+12	 	  	SPACE	_		11		_	_
+13	et	et	CCONJ	_	CCONJ___	15	cc	_	_
+14	valable	valable	ADJ	_	ADJ__Number=Sing	15	conj	_	_
+15	juridiquement	juridiquement	ADV	_	ADV___	15	advmod	_	_
+16	?	?	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Vaut
+1	Vaut	Vaut	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+
+
+#-il mieux passer par un huissier ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+3	mieux	mieux	ADV	_	ADV___	4	advmod	_	_
+4	passer	prendre	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	par	par	ADP	_	ADP___	8	case	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	huissier	huissier	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+8	 	  	SPACE	_		4		_	_
+9	?	?	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Est-ce que jai besoin de me présenter tous les jours sur mon lieu de travail après un certain temps et après plusieurs courriers ?
+1	Est	être		_	VERB	0	ROOT	_	_
+2	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	1	amod	_	_
+3	que	que	ADV	_	ADV___	4	mark	_	_
+4	jai	jai	VERB	_	VERB__VerbForm=Inf	1	nmod	_	_
+5	besoin	besoin	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+6	de	de	ADP	_	ADP___	8	mark	_	_
+7	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	8	iobj	_	_
+8	présenter	poster	VERB	_	VERB__VerbForm=Inf	4	acl	_	_
+9	tous	tout	ADJ	_	ADJ__Gender=Masc|Number=Plur	8	amod	_	_
+10	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+11	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	obj	_	_
+12	sur	sur	ADP	_	ADP___	11	case	_	_
+13	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	15	nmod:poss	_	_
+14	lieu	lieu	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nmod	_	_
+15	de	de	ADP	_	ADP___	15	case	_	_
+16	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	nmod	_	_
+17	après	après	ADP	_	ADP___	15	case	_	_
+18	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	certain	certain	ADJ	_	ADJ__Gender=Masc|Number=Sing	20	amod	_	_
+20	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obl	_	_
+21	 	  	SPACE	_		23		_	_
+22	et	et	CCONJ	_	CCONJ___	23	cc	_	_
+23	après	après	ADP	_	ADP___	15	case	_	_
+24	plusieurs	plusieurs	DET	_	DET__Number=Plur	28	det	_	_
+25	courriers	courrier	NOUN	_	NOUN__Gender=Masc|Number=Plur	28	conj	_	_
+26	?	?	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#Est-ce que je peux récupérer un document de lhuissier stipulant la saisi du local ?
+1	Est	être		_	VERB	0	ROOT	_	_
+2	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	1	amod	_	_
+3	que	que	SCONJ	_	SCONJ___	4	mark	_	_
+4	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+5	peux	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+6	récupérer	récupérer	VERB	_	VERB__VerbForm=Inf	8	acl:relcl	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	document	document	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obj	_	_
+9	de	de	ADP	_	ADP___	8	case	_	_
+10	lhuissier	lhuissier	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+11	stipulant	stipuler	VERB	_	VERB__Tense=Pres|VerbForm=Part	15	acl	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+13	saisi	saisir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	obj	_	_
+14	du	du	DET	_	DET__Gender=Masc|Number=Sing	15	det	_	_
+15	local	local	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	amod	_	_
+16	 	  	SPACE	_		17		_	_
+17	?	?	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#(preuve dinaccessibilité des locaux)
+1	(	(	PUNCT	_	PUNCT___	1	punct	_	_
+2	preuve	preuve	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	dinaccessibilité	dinaccessibilité	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	acl	_	_
+4	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	1	det	_	_
+5	locaux	local	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obj	_	_
+6	)	)	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Bonjour Ribould et kinou52, merci de vos retours !
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	Ribould	Ribould	PROPN	_	PROPN___	1	flat:name	_	_
+3	et	et	CCONJ	_	CCONJ___	4	cc	_	_
+4	kinou52	kinou52	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	conj	_	_
+5	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+6	merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	appos	_	_
+7	de	de	ADP	_	ADP___	9	case	_	_
+8	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	9	nmod:poss	_	_
+9	retours	retour	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	nmod	_	_
+10	 	  	SPACE	_		9		_	_
+11	!	!	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Je me doute bien que de ne pas me présenter cest lui offrir ma démission sur un plateau.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	1	expl	_	_
+3	doute	douter	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	bien	bien	ADV	_	ADV___	2	advmod	_	_
+5	que	que	SCONJ	_	SCONJ___	1	mark	_	_
+6	de	de	ADP	_	ADP___	1	mark	_	_
+7	ne	ne	ADV	_	ADV___	9	advmod	_	_
+8	pas	pas	ADV	_	ADV___	9	fixed	_	_
+9	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	6	expl	_	_
+10	présenter	poster	VERB	_	VERB__VerbForm=Inf	9	ccomp	_	_
+11	cest	cest	SCONJ	_	SCONJ___	1	aux	_	_
+12	lui	luire	PRON	_	PRON__Number=Sing|Person=3	14	iobj	_	_
+13	offrir	offrir	VERB	_	VERB__VerbForm=Inf	14	xcomp	_	_
+14	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	14	nmod:poss	_	_
+15	démission	démission	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obj	_	_
+16	sur	sur	ADP	_	ADP___	21	case	_	_
+17	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+18	plateau	plateau	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	nmod	_	_
+19	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Il a rendez-vous avec le comptable demain matin, par conséquent je vais exiger en entretien avec lui dans laprès-midi afin de savoir ce quil en est.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	rendez-vous	rendez-vous	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	avec	avec	ADP	_	ADP___	2	case	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+6	comptable	comptable	ADJ	_	ADJ__Number=Sing	1	obl	_	_
+7	demain	demain	ADV	_	ADV___	9	det	_	_
+8	matin	matin	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+9	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+10	par	par	ADP	_	ADP___	9	mark	_	_
+11	conséquent	conséquent	NOUN	_	NOUN___	1	fixed	_	_
+12	je	il	PRON	_	PRON__Number=Sing|Person=1	14	nsubj	_	_
+13	vais	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+14	exiger	exiger	VERB	_	VERB__VerbForm=Inf	14	xcomp	_	_
+15	en	en	ADP	_	ADP___	14	case	_	_
+16	entretien	entretien	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obl	_	_
+17	avec	avec	ADP	_	ADP___	21	case	_	_
+18	lui	luire	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nmod	_	_
+19	dans	dan	ADP	_	ADP___	18	case	_	_
+20	laprès	laprès	ADV	_	ADV___	21	obl	_	_
+21	-	-	PUNCT	_	PUNCT___	14	fixed	_	_
+22	midi	midi	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	nmod	_	_
+23	afin	afin	ADP	_	ADP___	24	mark	_	_
+24	de	de	ADP	_	ADP___	21	fixed	_	_
+25	savoir	savoir	VERB	_	VERB__VerbForm=Inf	26	advcl	_	_
+26	ce	ce	PRON	_	PRON__PronType=Rel	24	det	_	_
+27	quil	quil	PRON	_	PRON__PronType=Rel	29	obj	_	_
+28	en	en	PRON	_	PRON__Person=3	29	advmod	_	_
+29	est	être	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	fixed	_	_
+30	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Par la même occasion, je suis entrain décrire un courrier lui rappelant que je me présenterai normalement à mon poste le 20 décembre et qu'il doit me fournir du travail et, à défaut, qu'il devra me rémunérer normalement à défaut dun courrier de sa part (cnf message de Dura).
+1	Par	Par	ADP	_	ADP___	1	case	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+3	même	même	ADJ	_	ADJ__Number=Sing	4	amod	_	_
+4	occasion	occasion	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	obl	_	_
+5	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+6	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+7	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	entrain	entrain	ADJ	_	ADJ__Gender=Masc|Number=Sing	9	advmod	_	_
+9	décrire	décrire	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+10	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+11	courrier	courrier	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+12	lui	luire	PRON	_	PRON__Number=Sing|Person=3	14	iobj	_	_
+13	rappelant	rappeler	VERB	_	VERB__Tense=Pres|VerbForm=Part	14	acl	_	_
+14	que	que	SCONJ	_	SCONJ___	14	mark	_	_
+15	je	il	PRON	_	PRON__Number=Sing|Person=1	14	nsubj	_	_
+16	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	21	expl	_	_
+17	présenterai	présenter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	21	ccomp	_	_
+18	normalement	normalement	ADV	_	ADV___	21	advmod	_	_
+19	à	à	ADP	_	ADP___	18	case	_	_
+20	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	21	nmod:poss	_	_
+21	poste	poster	NOUN	_	NOUN__Number=Sing	14	obl	_	_
+22	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	20	20	NUM	_	NUM__NumType=Card	24	nummod	_	_
+24	décembre	décembre	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obj	_	_
+25	et	et	CCONJ	_	CCONJ___	26	cc	_	_
+26	qu'	que	SCONJ	_	SCONJ___	24	mark	_	_
+27	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	29	nsubj	_	_
+28	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	26	expl	_	_
+30	fournir	fournir	VERB	_	VERB__VerbForm=Inf	14	conj	_	_
+31	du	du	DET	_	DET__Gender=Masc|Number=Sing	33	det	_	_
+32	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	33	obj	_	_
+33	et	et	CCONJ	_	CCONJ___	33	cc	_	_
+34	,	,	PUNCT	_	PUNCT___	36	punct	_	_
+35	à	à	ADP	_	ADP___	36	case	_	_
+36	défaut	défaut	NOUN	_	NOUN__Gender=Masc|Number=Sing	33	conj	_	_
+37	,	,	PUNCT	_	PUNCT___	38	punct	_	_
+38	qu'	que	SCONJ	_	SCONJ___	33	mark	_	_
+39	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	33	nsubj	_	_
+40	devra	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	43	aux	_	_
+41	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	40	expl	_	_
+42	rémunérer	rémunérer	VERB	_	VERB__VerbForm=Inf	43	advcl	_	_
+43	normalement	normalement	ADV	_	ADV___	33	advmod	_	_
+44	à	à	ADP	_	ADP___	43	case	_	_
+45	défaut	défaut	NOUN	_	NOUN__Gender=Masc|Number=Sing	46	obl	_	_
+46	dun	dun	ADP	_	ADP___	44	case	_	_
+47	courrier	courrier	NOUN	_	NOUN__Gender=Masc|Number=Sing	48	nmod	_	_
+48	de	de	ADP	_	ADP___	46	case	_	_
+49	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	50	nmod:poss	_	_
+50	part	partir	NOUN	_	NOUN__Gender=Fem|Number=Sing	43	nmod	_	_
+51	(	(	PUNCT	_	PUNCT___	50	punct	_	_
+52	cnf	cnf	ADJ	_	ADJ__Gender=Masc|Number=Sing	50	det	_	_
+53	message	message	NOUN	_	NOUN__Gender=Masc|Number=Sing	55	obj	_	_
+54	de	de	ADP	_	ADP___	53	case	_	_
+55	Dura	Dura	PROPN	_	PROPN__Gender=Fem|Number=Sing	50	nmod	_	_
+56	)	)	PUNCT	_	PUNCT___	57	punct	_	_
+57	.	.	PUNCT	_	PUNCT___	55	punct	_	_
+
+
+#Je lui ferai dater, signer et tamponner avec la paraphe «
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	lui	luire	PRON	_	PRON__Number=Sing|Person=3	1	iobj	_	_
+3	ferai	faire	AUX	_	AUX__Tense=Pres|VerbForm=Part	0	ROOT	_	_
+4	dater	dater	VERB	_	VERB__VerbForm=Inf	2	acl	_	_
+5	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+6	signer	signer	VERB	_	VERB__VerbForm=Inf	1	conj	_	_
+7	et	et	CCONJ	_	CCONJ___	9	cc	_	_
+8	tamponner	tamponner	VERB	_	VERB__VerbForm=Inf	9	conj	_	_
+9	avec	avec	ADP	_	ADP___	6	case	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+11	paraphe	parapher	PROPN	_	PROPN__Gender=Fem|Number=Sing	1	obl	_	_
+12	«	«	PUNCT	_	PUNCT___	14	punct	_	_
+13	 	  	SPACE	_		14		_	_
+
+
+#Remis en main propre à ce jour ».
+1	Remis	Remis	PROPN	_	PROPN___	0	ROOT	_	_
+2	en	en	ADP	_	ADP___	1	case	_	_
+3	main	main	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+4	propre	propre	ADJ	_	ADJ__Number=Sing	2	acl	_	_
+5	à	à	ADP	_	ADP___	1	case	_	_
+6	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	1	det	_	_
+7	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obl	_	_
+8	 	  	SPACE	_		9		_	_
+9	»	»	PUNCT	_	PUNCT___	6	punct	_	_
+10	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Vu quil part à létranger bientôt je nai pas envie que ma LR/AR reste à # Service de courrier # pendant des semaines.
+1	Vu	Vu	ADP	_	ADP___	0	ROOT	_	_
+2	quil	quil	ADV	_	ADV___	1	flat:name	_	_
+3	part	partir	NOUN	_	NOUN__Number=Sing	4	fixed	_	_
+4	à	à	ADP	_	ADP___	2	advmod	_	_
+5	létranger	létranger	VERB	_	VERB__VerbForm=Inf	1	fixed	_	_
+6	bientôt	bientôt	ADV	_	ADV___	1	fixed	_	_
+7	je	il	PRON	_	PRON__Number=Sing|Person=1	9	nsubj	_	_
+8	nai	nai	AUX	_	AUX__VerbForm=Inf	9	cop	_	_
+9	pas	pas	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+10	envie	envier	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	obl	_	_
+11	que	que	SCONJ	_	SCONJ___	1	mark	_	_
+12	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	14	nmod:poss	_	_
+13	LR	LR	PROPN	_	PROPN__Gender=Fem|Number=Sing	14	nsubj	_	_
+14	/	/	ADP	_	ADP___	14	nmod	_	_
+15	AR	AR	PROPN	_	PROPN__Gender=Masc|Number=Sing	14	nmod	_	_
+16	reste	rester	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	ccomp	_	_
+17	à	à	ADP	_	ADP___	21	case	_	_
+18	#	#	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	fixed	_	_
+19	Service	Service	PROPN	_	PROPN__Gender=Masc|Number=Sing	18	obl	_	_
+20	de	de	ADP	_	ADP___	21	case	_	_
+21	courrier	courrier	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nmod	_	_
+22	#	#	ADJ	_	ADJ___	24	advmod	_	_
+23	pendant	pendre	ADP	_	ADP___	24	case	_	_
+24	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	21	det	_	_
+25	semaines	semaine	NOUN	_	NOUN__Gender=Fem|Number=Plur	26	obl	_	_
+26	.	.	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#On ma également conseillé denvoyer ce même courrier mail et par LR/AR.
+1	On	On	PRON	_	PRON__Number=Sing|Person=3	1	nsubj:pass	_	_
+2	ma	ma	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
+3	également	également	ADV	_	ADV___	4	advmod	_	_
+4	conseillé	conseiller	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+5	denvoyer	denvoyer	ADP	_	ADP___	1	xcomp	_	_
+6	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	1	det	_	_
+7	même	même	ADJ	_	ADJ__Number=Sing	9	amod	_	_
+8	courrier	courrier	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+9	mail	mail	ADJ	_	ADJ__Gender=Masc|Number=Sing	6	amod	_	_
+10	et	et	CCONJ	_	CCONJ___	9	cc	_	_
+11	par	par	ADP	_	ADP___	1	case	_	_
+12	LR	LR	NOUN	_	NOUN___	14	conj	_	_
+13	/	/	ADP	_	ADP___	14	case	_	_
+14	AR	AR	NOUN	_	NOUN___	14	nmod	_	_
+15	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#«
+1	«	«	PUNCT	_	PUNCT___	0	ROOT	_	_
+2	 	  	SPACE	_		1		_	_
+
+
+#Une déclaration sur l'honneur voulez
+1	Une	Une	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	déclaration	déclaration	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	sur	sur	ADP	_	ADP___	4	case	_	_
+4	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	2	det	_	_
+5	honneur	honneur	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+6	voulez	vouloir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	1	acl	_	_
+
+
+#-vous dire ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+3	dire	dire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	?	?	PUNCT	_	PUNCT___	2	punct	_	_
+5	 	  	SPACE	_		1		_	_
+
+
+#»
+1	»	»	PUNCT	_	PUNCT___	0	ROOT	_	_
+
+
+#En effet je voulais parler dun témoignage sur lhonneur.
+1	En	En	ADP	_	ADP___	1	advmod	_	_
+2	effet	effet	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	fixed	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+4	voulais	vouloir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	aux	_	_
+5	parler	parler	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+6	dun	dun	ADP	_	ADP___	1	det	_	_
+7	témoignage	témoignage	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obl	_	_
+8	sur	sur	ADP	_	ADP___	9	case	_	_
+9	lhonneur	lhonneur	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nmod	_	_
+10	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Je vais suivre le conseil et rédiger une lettre type où il ny aura quà mentionner le nom / prénom / date / lieu.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	vais	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	suivre	suivre	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+5	conseil	conseil	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+6	et	et	CCONJ	_	CCONJ___	1	cc	_	_
+7	rédiger	rédiger	VERB	_	VERB__VerbForm=Inf	9	conj	_	_
+8	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	lettre	lettre	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	amod	_	_
+10	type	typer	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+11	où	où	PRON	_	PRON__PronType=Rel	1	iobj	_	_
+12	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
+13	ny	ny	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+14	aura	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	14	aux	_	_
+15	quà	quà	PRON	_	PRON__PronType=Rel	14	nsubj	_	_
+16	mentionner	mentionner	VERB	_	VERB__VerbForm=Inf	21	ccomp	_	_
+17	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+18	nom	nom	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obj	_	_
+19	/	/	ADP	_	ADP___	18	case	_	_
+20	prénom	prénom	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	nmod	_	_
+21	/	/	ADP	_	ADP___	14	case	_	_
+22	date	dater	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	nmod	_	_
+23	/	/	ADP	_	ADP___	24	case	_	_
+24	lieu	lieu	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	nmod	_	_
+25	.	.	PUNCT	_	PUNCT___	26	punct	_	_
+
+
+#Dans ce même courrier il sera mentionné que son témoignage pourra être utilisé en justice.
+1	Dans	Dans	ADP	_	ADP___	1	case	_	_
+2	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	1	det	_	_
+3	même	même	ADJ	_	ADJ__Number=Sing	4	amod	_	_
+4	courrier	courrier	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	obl	_	_
+5	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+6	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	1	aux:pass	_	_
+7	mentionné	mentionner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+8	que	que	SCONJ	_	SCONJ___	9	mark	_	_
+9	son	son	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+10	témoignage	témoignage	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nsubj	_	_
+11	pourra	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	1	ccomp	_	_
+12	être	être	AUX	_	AUX__VerbForm=Inf	14	aux:pass	_	_
+13	utilisé	utiliser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	14	xcomp	_	_
+14	en	en	ADP	_	ADP___	14	case	_	_
+15	justice	justice	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obl	_	_
+16	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Je massurerai également une copie de la pièce didentité de la personne.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	massurerai	massurerai	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+3	également	également	ADV	_	ADV___	4	advmod	_	_
+4	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+5	copie	copier	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obj	_	_
+6	de	de	ADP	_	ADP___	1	case	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	pièce	pièce	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nmod	_	_
+9	didentité	didentité	ADJ	_	ADJ___	6	amod	_	_
+10	de	de	ADP	_	ADP___	9	case	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+12	personne	personne	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nmod	_	_
+13	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Je mentends très bien avec eux donc cela ne devrait pas poser de problèmes.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	mentends	mentends	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	très	très	ADV	_	ADV___	4	advmod	_	_
+4	bien	bien	ADV	_	ADV___	2	advmod	_	_
+5	avec	avec	ADP	_	ADP___	1	case	_	_
+6	eux	lui	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	obl	_	_
+7	donc	donc	ADV	_	ADV___	9	advmod	_	_
+8	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	9	nsubj	_	_
+9	ne	ne	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+10	devrait	devoir	VERB	_	VERB__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+11	pas	pas	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+12	poser	poser	VERB	_	VERB__VerbForm=Inf	14	xcomp	_	_
+13	de	de	ADP	_	ADP___	14	case	_	_
+14	problèmes	problème	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	obl	_	_
+15	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Je vais donc me présenter tous les jours sur mon lieu de travail et massurer de faire un maximum de preuve, pour ensuite remonter linformation à mon supérieur par courrier AR.Concernant la visite de lhuissier, je suis censé être présent !
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	vais	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	donc	donc	ADV	_	ADV___	4	advmod	_	_
+4	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	2	iobj	_	_
+5	présenter	poster	VERB	_	VERB__VerbForm=Inf	1	xcomp	_	_
+6	tous	tout	ADJ	_	ADJ__Gender=Masc|Number=Plur	1	amod	_	_
+7	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+8	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	obj	_	_
+9	sur	sur	ADP	_	ADP___	6	case	_	_
+10	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	9	nmod:poss	_	_
+11	lieu	lieu	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+12	de	de	ADP	_	ADP___	14	case	_	_
+13	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nmod	_	_
+14	et	et	CCONJ	_	CCONJ___	14	cc	_	_
+15	massurer	massurer	VERB	_	VERB__VerbForm=Inf	14	conj	_	_
+16	de	de	ADP	_	ADP___	21	mark	_	_
+17	faire	faire	VERB	_	VERB__VerbForm=Inf	21	xcomp	_	_
+18	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+19	maximum	maximum	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obj	_	_
+20	de	de	ADP	_	ADP___	21	case	_	_
+21	preuve	preuve	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nmod	_	_
+22	,	,	PUNCT	_	PUNCT___	24	punct	_	_
+23	pour	pour	ADP	_	ADP___	24	mark	_	_
+24	ensuite	ensuite	ADV	_	ADV___	21	advmod	_	_
+25	remonter	remonter	VERB	_	VERB__VerbForm=Inf	26	advcl	_	_
+26	linformation	linformation	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	obj	_	_
+27	à	à	ADP	_	ADP___	29	case	_	_
+28	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	29	nmod:poss	_	_
+29	supérieur	supérieur	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	obl	_	_
+30	par	par	ADP	_	ADP___	14	case	_	_
+31	courrier	courrier	NOUN	_	NOUN__Gender=Masc|Number=Sing	33	nmod	_	_
+32	AR.Concernant	AR.Concernant	VERB	_	VERB__Tense=Pres|VerbForm=Part	33	acl	_	_
+33	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+34	visite	visiter	NOUN	_	NOUN__Gender=Fem|Number=Sing	36	obj	_	_
+35	de	de	ADP	_	ADP___	36	case	_	_
+36	lhuissier	lhuissier	NOUN	_	NOUN__Gender=Masc|Number=Sing	33	nmod	_	_
+37	,	,	PUNCT	_	PUNCT___	38	punct	_	_
+38	je	il	PRON	_	PRON__Number=Sing|Person=1	33	nsubj	_	_
+39	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	33	cop	_	_
+40	censé	censé	ADJ	_	ADJ__Gender=Masc|Number=Sing	43	parataxis	_	_
+41	être	être	AUX	_	AUX__VerbForm=Inf	40	advmod	_	_
+42	présent	présent	ADJ	_	ADJ__Gender=Masc|Number=Sing	43	fixed	_	_
+43	 	  	SPACE	_		33		_	_
+44	!	!	PUNCT	_	PUNCT___	43	punct	_	_
+
+
+#Je vais voir avec elle si elle peut me fournir un document stipulant la saisi du local.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	vais	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	voir	voir	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+4	avec	avec	ADP	_	ADP___	2	case	_	_
+5	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	obl	_	_
+6	si	si	SCONJ	_	SCONJ___	1	mark	_	_
+7	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	9	nsubj	_	_
+8	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	6	iobj	_	_
+10	fournir	fournir	VERB	_	VERB__VerbForm=Inf	9	acl	_	_
+11	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+12	document	document	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obj	_	_
+13	stipulant	stipuler	VERB	_	VERB__Tense=Pres|VerbForm=Part	14	acl	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+15	saisi	saisir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	obj	_	_
+16	du	du	DET	_	DET__Gender=Masc|Number=Sing	21	det	_	_
+17	local	local	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obj	_	_
+18	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Je vais également profiter de labsence de mon patron demain pour essayer de faire des copies des courriers de lhuissier.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	vais	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	également	également	ADV	_	ADV___	4	advmod	_	_
+4	profiter	profiter	VERB	_	VERB__VerbForm=Inf	2	xcomp	_	_
+5	de	de	ADP	_	ADP___	1	case	_	_
+6	labsence	labsence	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obl	_	_
+7	de	de	ADP	_	ADP___	9	case	_	_
+8	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	9	nmod:poss	_	_
+9	patron	patron	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nmod	_	_
+10	demain	demain	ADV	_	ADV___	9	advmod	_	_
+11	pour	pour	ADP	_	ADP___	1	mark	_	_
+12	essayer	essayer	VERB	_	VERB__VerbForm=Inf	14	advcl	_	_
+13	de	de	ADP	_	ADP___	14	mark	_	_
+14	faire	faire	VERB	_	VERB__VerbForm=Inf	14	xcomp	_	_
+15	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
+16	copies	copier	NOUN	_	NOUN__Gender=Fem|Number=Plur	21	obj	_	_
+17	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	21	det	_	_
+18	courriers	courrier	NOUN	_	NOUN__Gender=Masc|Number=Plur	21	obj	_	_
+19	de	de	ADP	_	ADP___	18	case	_	_
+20	lhuissier	lhuissier	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	nmod	_	_
+21	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
