@@ -1,0 +1,239 @@
+#Bonjour,Une seule solution :
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Une	Une	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	seule	seul	ADJ	_	ADJ__Gender=Fem|Number=Sing	5	amod	_	_
+5	solution	solution	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+6	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Couper le chien en 2 ()
+1	Couper	Couper	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+3	chien	chien	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+4	en	en	ADP	_	ADP___	5	case	_	_
+5	2	2	NUM	_	NUM__NumType=Card	1	nummod	_	_
+6	(	(	PUNCT	_	PUNCT___	1	punct	_	_
+7	)	)	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#De mémoire et sans être du "métier", il me semble que la reconnaissance de l'animal comme être sensible ouvre la possibilité à demander sa "garde" si on justifie d'un environnement plus adapté (exemple pour un chien, il est possible de le demander à le récupérer si on prouve qu'on a une maison avec jardin alors que l'autre personne a juste un petit studio).Je me renseigne plus en détail et je vous tiens informée, à moins que quelqu'un ait des informations plus factuelles.
+1	De	De	ADP	_	ADP___	2	case	_	_
+2	mémoire	mémoire	NOUN	_	NOUN__Number=Sing	13	obl	_	_
+3	et	et	CCONJ	_	CCONJ___	8	cc	_	_
+4	sans	sans	ADP	_	ADP___	8	case	_	_
+5	être	être	AUX	_	AUX__VerbForm=Inf	8	cop	_	_
+6	du	du	DET	_	DET__Gender=Masc|Number=Sing	8	det	_	_
+7	"	"	PUNCT	_	PUNCT___	8	punct	_	_
+8	métier	métier	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	conj	_	_
+9	"	"	PUNCT	_	PUNCT___	8	punct	_	_
+10	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+11	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	13	nsubj	_	_
+12	me	se	PRON	_	PRON__Number=Sing|Person=1	13	iobj	_	_
+13	semble	sembler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+14	que	que	SCONJ	_	SCONJ___	48	mark	_	_
+15	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	reconnaissance	reconnaissance	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	punct	_	_
+17	de	de	ADP	_	ADP___	19	case	_	_
+18	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	animal	animal	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	nmod	_	_
+20	comme	comme	ADP	_	ADP___	22	mark	_	_
+21	être	être	AUX	_	AUX__VerbForm=Inf	22	cop	_	_
+22	sensible	sensible	ADJ	_	ADJ__Number=Sing	48	advcl	_	_
+23	ouvre	ouvrir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	xcomp	_	_
+24	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	possibilité	possibilité	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	obj	_	_
+26	à	à	ADP	_	ADP___	27	mark	_	_
+27	demander	demander	VERB	_	VERB__VerbForm=Inf	23	xcomp	_	_
+28	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	30	nmod:poss	_	_
+29	"	"	PUNCT	_	PUNCT___	30	punct	_	_
+30	garde	garder	NOUN	_	NOUN__Number=Sing	27	obj	_	_
+31	"	"	PUNCT	_	PUNCT___	30	punct	_	_
+32	si	si	SCONJ	_	SCONJ___	34	mark	_	_
+33	on	on	PRON	_	PRON__Number=Sing|Person=3	34	nsubj	_	_
+34	justifie	justifier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	48	advcl	_	_
+35	d'	de	ADP	_	ADP___	37	case	_	_
+36	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	environnement	environnement	NOUN	_	NOUN__Gender=Masc|Number=Sing	34	obl	_	_
+38	plus	plaire	ADV	_	ADV___	39	advmod	_	_
+39	adapté	adapter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	37	acl	_	_
+40	(	(	PUNCT	_	PUNCT___	37	punct	_	_
+41	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	37	appos	_	_
+42	pour	pour	ADP	_	ADP___	44	case	_	_
+43	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	chien	chien	NOUN	_	NOUN__Gender=Masc|Number=Sing	37	nmod	_	_
+45	,	,	PUNCT	_	PUNCT___	48	punct	_	_
+46	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	48	nsubj	_	_
+47	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	48	cop	_	_
+48	possible	possible	ADJ	_	ADJ__Number=Sing	13	ccomp	_	_
+49	de	de	ADP	_	ADP___	51	mark	_	_
+50	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	obj	_	_
+51	demander	demander	VERB	_	VERB__VerbForm=Inf	48	obl	_	_
+52	à	à	ADP	_	ADP___	54	mark	_	_
+53	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	54	obj	_	_
+54	récupérer	récupérer	VERB	_	VERB__VerbForm=Inf	51	xcomp	_	_
+55	si	si	SCONJ	_	SCONJ___	57	mark	_	_
+56	on	on	PRON	_	PRON__Number=Sing|Person=3	57	nsubj	_	_
+57	prouve	prouver	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	54	ccomp	_	_
+58	qu'	que	SCONJ	_	SCONJ___	60	mark	_	_
+59	on	on	PRON	_	PRON__Number=Sing|Person=3	60	nsubj	_	_
+60	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	57	ccomp	_	_
+61	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	62	det	_	_
+62	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	60	obj	_	_
+63	avec	avec	ADP	_	ADP___	64	case	_	_
+64	jardin	jardin	NOUN	_	NOUN__Gender=Fem|Number=Sing	62	nmod	_	_
+65	alors	alors	ADV	_	ADV___	64	advmod	_	_
+66	que	que	SCONJ	_	SCONJ___	65	fixed	_	_
+67	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	69	det	_	_
+68	autre	autre	ADJ	_	ADJ__Number=Sing	69	amod	_	_
+69	personne	personne	NOUN	_	NOUN__Gender=Fem|Number=Sing	70	nsubj	_	_
+70	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	76	aux	_	_
+71	juste	juste	ADV	_	ADV___	74	amod	_	_
+72	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	74	det	_	_
+73	petit	petit	ADJ	_	ADJ__Gender=Masc|Number=Sing	74	amod	_	_
+74	studio).Je	studio).Je	NOUN	_	NOUN__Gender=Masc|Number=Sing	70	obj	_	_
+75	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	76	expl	_	_
+76	renseigne	renseigner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+77	plus	plaire	ADV	_	ADV___	76	advmod	_	_
+78	en	en	ADP	_	ADP___	79	case	_	_
+79	détail	détail	NOUN	_	NOUN__Gender=Masc|Number=Sing	76	obl	_	_
+80	et	et	CCONJ	_	CCONJ___	83	cc	_	_
+81	je	il	PRON	_	PRON__Number=Sing|Person=1	83	nsubj	_	_
+82	vous	se	PRON	_	PRON__Number=Plur|Person=2	83	expl	_	_
+83	tiens	tien	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	76	conj	_	_
+84	informée	informer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	83	xcomp	_	_
+85	,	,	PUNCT	_	PUNCT___	76	punct	_	_
+86	à	à	ADP	_	ADP___	90	mark	_	_
+87	moins	moins	ADV	_	ADV___	86	fixed	_	_
+88	que	que	SCONJ	_	SCONJ___	86	fixed	_	_
+89	quelqu'un	quelqu'un	PRON	_	PRON__PronType=Rel	90	nsubj	_	_
+90	ait	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	76	advcl	_	_
+91	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	92	det	_	_
+92	informations	information	NOUN	_	NOUN__Gender=Fem|Number=Plur	90	obj	_	_
+93	plus	plaire	ADV	_	ADV___	94	advmod	_	_
+94	factuelles	factuel	ADJ	_	ADJ__Gender=Fem|Number=Plur	92	amod	_	_
+95	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#D'ici à ce qu'on crée une pension alimentaire pour animal, y a qu'un pas............
+1	D'	D'	ADP	_	ADP___	7	advmod	_	_
+2	ici	ici	ADV	_	ADV___	1	fixed	_	_
+3	à	à	ADP	_	ADP___	7	mark	_	_
+4	ce	ce	PRON	_	PRON__PronType=Rel	3	fixed	_	_
+5	qu'	que	SCONJ	_	SCONJ___	3	fixed	_	_
+6	on	on	PRON	_	PRON__Number=Sing|Person=3	7	nsubj	_	_
+7	crée	créer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	pension	pension	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+10	alimentaire	alimentaire	ADJ	_	ADJ__Number=Sing	9	amod	_	_
+11	pour	pour	ADP	_	ADP___	12	case	_	_
+12	animal	animal	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nmod	_	_
+13	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+14	y	yu	PRON	_	PRON__Person=3	18	mark	_	_
+15	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	fixed	_	_
+16	qu'	que	SCONJ	_	SCONJ___	14	fixed	_	_
+17	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	pas	pas	ADV	_	ADV___	13	fixed	_	_
+19	............	............	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Ester en justice pour obtenir la garde d'un toutou ...
+1	Ester	Ester	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+2	en	en	ADP	_	ADP___	3	case	_	_
+3	justice	justice	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+4	pour	pour	ADP	_	ADP___	5	mark	_	_
+5	obtenir	obtenir	VERB	_	VERB__VerbForm=Inf	1	advcl	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	garde	garder	NOUN	_	NOUN__Number=Sing	5	obj	_	_
+8	d'	de	ADP	_	ADP___	10	case	_	_
+9	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	toutou	toutou	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+11	...	...	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Le juge va surement apprécier.
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	juge	juger	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+3	va	aller	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	surement	surement	ADV	_	ADV___	5	advmod	_	_
+5	apprécier	apprécier	VERB	_	VERB__VerbForm=Inf	1	amod	_	_
+6	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Suite : je me souviens d'où je sors ça, c'est mon assistance juridique qui m'avait présenté cette argumentation au cas où mon ex aurait voulu garder mon chat pour m'embêter.
+1	Suite	Suite	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	mark	_	_
+2	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+4	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	5	expl	_	_
+5	souviens	souvenir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	d'	de	ADP	_	ADP___	7	case	_	_
+7	où	où	PRON	_	PRON__PronType=Rel	10	obl	_	_
+8	je	il	PRON	_	PRON__Number=Sing|Person=1	10	nsubj	_	_
+9	sors	sortir	ADP	_	ADP___	10	advmod	_	_
+10	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	ccomp	_	_
+11	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+12	c'	ce	PRON	_	PRON__Number=Sing|Person=3	15	nsubj	_	_
+13	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	15	nmod:poss	_	_
+15	assistance	assistance	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	conj	_	_
+16	juridique	juridique	ADJ	_	ADJ__Number=Sing	15	amod	_	_
+17	qui	qui	PRON	_	PRON__PronType=Rel	20	nsubj	_	_
+18	m'	se	PRON	_	PRON__Number=Sing|Person=1	20	iobj	_	_
+19	avait	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	aux	_	_
+20	présenté	présenter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl:relcl	_	_
+21	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	22	det	_	_
+22	argumentation	argumentation	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obj	_	_
+23	au	au	DET	_	DET__Number=Plur|PronType=Dem	24	case	_	_
+24	cas	cas	NOUN	_	NOUN__Gender=Masc	20	obl	_	_
+25	où	où	PRON	_	PRON__PronType=Rel	30	iobj	_	_
+26	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	27	nmod:poss	_	_
+27	ex	ex	NOUN	_	NOUN__Number=Sing	30	nsubj	_	_
+28	aurait	avoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+29	voulu	vouloir	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	aux	_	_
+30	garder	garder	VERB	_	VERB__VerbForm=Part	10	acl:relcl	_	_
+31	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	32	nmod:poss	_	_
+32	chat	chat	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	obj	_	_
+33	pour	pour	ADP	_	ADP___	35	mark	_	_
+34	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	35	obj	_	_
+35	embêter	embêter	VERB	_	VERB__VerbForm=Inf	30	xcomp	_	_
+36	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Mais ils m'ont pas donné d'information plus précise car j'en étais encore à la tentative amiable (qui s'est bien finie puisque le fauve est resté avec moi !).
+1	Mais	Mais	CCONJ	_	CCONJ___	5	cc	_	_
+2	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	1	nsubj	_	_
+3	m'	se	PRON	_	PRON__Number=Sing|Person=1	5	expl	_	_
+4	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+6	donné	donner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+7	d'	de	DET	_	DET__Definite=Ind|Number=Sing|PronType=Art	10	case	_	_
+8	information	information	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obl	_	_
+9	plus	plaire	ADV	_	ADV___	10	advmod	_	_
+10	précise	préciser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	xcomp	_	_
+11	car	car	CCONJ	_	CCONJ___	15	obj	_	_
+12	j'	il	PRON	_	PRON__Number=Sing|Person=1	15	nsubj	_	_
+13	en	en	PRON	_	PRON__Person=3	15	expl	_	_
+14	étais	être	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	15	fixed	_	_
+15	encore	encore	ADV	_	ADV___	10	advmod	_	_
+16	à	à	ADP	_	ADP___	15	case	_	_
+17	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+18	tentative	tentative	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obl	_	_
+19	amiable	amiable	ADJ	_	ADJ__Number=Sing	20	amod	_	_
+20	(	(	PUNCT	_	PUNCT___	15	punct	_	_
+21	qui	qui	PRON	_	PRON__PronType=Rel	22	nsubj	_	_
+22	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	20	expl	_	_
+23	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	bien	bien	ADV	_	ADV___	20	advmod	_	_
+25	finie	finir	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	conj	_	_
+26	puisque	puisque	SCONJ	_	SCONJ___	27	mark	_	_
+27	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	30	det	_	_
+28	fauve	fauve	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	nsubj	_	_
+29	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+30	resté	rester	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	cop	_	_
+31	avec	avec	ADP	_	ADP___	32	case	_	_
+32	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	30	obl	_	_
+33	!	!	PUNCT	_	PUNCT___	35	punct	_	_
+34	)	)	PUNCT	_	PUNCT___	35	punct	_	_
+35	.	.	PUNCT	_	PUNCT___	30	punct	_	_
+
+

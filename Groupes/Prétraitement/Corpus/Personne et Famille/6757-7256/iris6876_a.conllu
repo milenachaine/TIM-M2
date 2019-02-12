@@ -1,0 +1,945 @@
+#Bonjour,Qui est "ce membre de votre famille" qui est décédé ?
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Qui	Qui	PRON	_	PRON__PronType=Int	1	nmod	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	fixed	_	_
+5	"	"	PUNCT	_	PUNCT___	3	punct	_	_
+6	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	membre	membre	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+8	de	de	ADP	_	ADP___	10	case	_	_
+9	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+10	famille	famille	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+11	"	"	PUNCT	_	PUNCT___	1	punct	_	_
+12	qui	qui	PRON	_	PRON__PronType=Rel	14	nsubj:pass	_	_
+13	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
+14	décédé	décéder	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+15	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Quel est son lien familial par rapport à votre grand mère, vos oncles et vos cousins ?
+1	Quel	Quel	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	son	son	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+4	lien	lien	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+5	familial	familial	ADJ	_	ADJ__Gender=Masc|Number=Sing	3	amod	_	_
+6	par	par	ADP	_	ADP___	7	case	_	_
+7	rapport	rapport	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	fixed	_	_
+8	à	à	ADP	_	ADP___	10	fixed	_	_
+9	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+10	grand	grand	ADJ	_	ADJ__Gender=Masc|Number=Sing	7	amod	_	_
+11	mère	mère	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+12	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+13	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	14	nmod:poss	_	_
+14	oncles	oncle	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	conj	_	_
+15	et	et	CCONJ	_	CCONJ___	1	cc	_	_
+16	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	16	nmod:poss	_	_
+17	cousins	cousin	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	conj	_	_
+18	?	?	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#La représentation ne joue que dans la descendance du défunt et dans la descendance de la fratrie du défunt.
+1	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	représentation	représentation	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nsubj	_	_
+3	ne	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+4	joue	jouer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	que	que	SCONJ	_	SCONJ___	4	advmod	_	_
+6	dans	dan	ADP	_	ADP___	8	case	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	descendance	descendance	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obl	_	_
+9	du	du	DET	_	DET__Gender=Masc|Number=Sing	10	det	_	_
+10	défunt	défunt	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+11	et	et	CCONJ	_	CCONJ___	14	cc	_	_
+12	dans	dan	ADP	_	ADP___	14	case	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	descendance	descendance	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	conj	_	_
+15	de	de	ADP	_	ADP___	17	case	_	_
+16	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	fratrie	fratrie	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nmod	_	_
+18	du	du	DET	_	DET__Gender=Masc|Number=Sing	19	det	_	_
+19	défunt	défunt	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	conj	_	_
+20	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Elle ne joue pas dans les autres branches collatérales, ce sont les héritiers de plus proche degré qui l'emportent.
+1	Elle	Elle	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+2	ne	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+3	joue	jouer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+5	dans	dan	ADP	_	ADP___	4	case	_	_
+6	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+7	autres	autre	ADJ	_	ADJ__Number=Plur	8	amod	_	_
+8	branches	brancher	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	obl	_	_
+9	collatérales	collatéral	ADJ	_	ADJ__Number=Plur	10	amod	_	_
+10	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+11	ce	ce	PRON	_	PRON__Number=Sing|Person=3	14	nsubj	_	_
+12	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	14	det	_	_
+14	héritiers	héritier	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	obl	_	_
+15	de	de	ADP	_	ADP___	17	mark	_	_
+16	plus	plaire	ADV	_	ADV___	17	advmod	_	_
+17	proche	proche	ADJ	_	ADJ__Number=Sing	14	acl	_	_
+18	degré	degré	NOUN	_	NOUN__Gender=Masc|Number=Plur	19	mark	_	_
+19	qui	qui	PRON	_	PRON__PronType=Rel	8	nsubj	_	_
+20	l'	le	PRON	_	PRON__Number=Sing|Person=3	4	obj	_	_
+21	emportent	emporter	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
+22	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Vous ne pouvez donc être héritier par représentation que si le défunt est un des membres de la fratrie de votre grand-mère.
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	2	nsubj	_	_
+2	ne	ne	ADV	_	ADV___	4	advmod	_	_
+3	pouvez	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	donc	donc	ADV	_	ADV___	4	advmod	_	_
+5	être	être	AUX	_	AUX__VerbForm=Inf	4	aux:pass	_	_
+6	héritier	héritier	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	xcomp	_	_
+7	par	par	ADP	_	ADP___	8	case	_	_
+8	représentation	représentation	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obl	_	_
+9	que	que	SCONJ	_	SCONJ___	10	fixed	_	_
+10	si	si	SCONJ	_	SCONJ___	8	mark	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+12	défunt	défunt	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nsubj	_	_
+13	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+15	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	17	det	_	_
+16	membres	membre	NOUN	_	NOUN__Gender=Masc|Number=Plur	17	dep	_	_
+17	de	de	ADP	_	ADP___	14	case	_	_
+18	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	fratrie	fratrie	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+20	de	de	ADP	_	ADP___	4	case	_	_
+21	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	23	nmod:poss	_	_
+22	grand	grand	ADJ	_	ADJ__Gender=Masc|Number=Sing	23	amod	_	_
+23	-	-	PUNCT	_	PUNCT___	23	punct	_	_
+24	mère	mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	appos	_	_
+25	.	.	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#Et il semble que vous connaissez la composition complète de cette fratrie.
+1	Et	Et	CCONJ	_	CCONJ___	2	cc	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+3	semble	sembler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	que	que	SCONJ	_	SCONJ___	4	mark	_	_
+5	vous	se	PRON	_	PRON__Number=Plur|Person=2	4	nsubj	_	_
+6	connaissez	connaître	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	composition	composition	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obj	_	_
+9	complète	compléter	ADJ	_	ADJ__Gender=Fem|Number=Sing	10	amod	_	_
+10	de	de	ADP	_	ADP___	8	case	_	_
+11	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	14	det	_	_
+12	fratrie	fratrie	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nmod	_	_
+13	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Si le défunt est votre grand-oncle, décédé sans descendance vivante et sans conjointe survivante, alors les héritiers sont effectivement ceux du 2ème ordre :
+1	Si	Si	SCONJ	_	SCONJ___	6	mark	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	défunt	défunt	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nsubj	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+6	grand-oncle	grand-oncle	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	advcl	_	_
+7	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+8	décédé	décéder	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+9	sans	sans	ADP	_	ADP___	10	case	_	_
+10	descendance	descendance	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+11	vivante	vivant	ADJ	_	ADJ__Gender=Fem|Number=Sing	10	amod	_	_
+12	et	et	CCONJ	_	CCONJ___	14	cc	_	_
+13	sans	sans	ADP	_	ADP___	14	case	_	_
+14	conjointe	conjoint	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	conj	_	_
+15	survivante	survivant	ADJ	_	ADJ__Gender=Fem|Number=Sing	14	amod	_	_
+16	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+17	alors	alors	ADV	_	ADV___	19	advmod	_	_
+18	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	19	det	_	_
+19	héritiers	héritier	NOUN	_	NOUN__Gender=Masc|Number=Plur	22	nsubj	_	_
+20	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+21	effectivement	effectivement	ADV	_	ADV___	22	advmod	_	_
+22	ceux	celui	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Dem	0	ROOT	_	_
+23	du	du	DET	_	DET__Gender=Masc|Number=Sing	25	det	_	_
+24	2ème	2ème	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	nummod	_	_
+25	ordre	ordre	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	obj	_	_
+26	:	:	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#- votre arrière-grand-père pour un quart s'il est vivant (peu probable)- votre arrière-grand-mère pour un quart si elle est vivante (peu probable)- la fratrie du défunt, vivante ou représentée, pour le surplus (donc probablement pour la totalité)L'étude généalogique peut faire une erreur dans son analyse, mais le notaire, lui, devrait détecter l'erreur, si l'étude généalogique mentionne votre père décédé ayant eu des enfants.
+1	-	-	PUNCT	_	PUNCT___	6	punct	_	_
+2	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	3	nmod:poss	_	_
+3	arrière-grand-père	arrière-grand-père	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	punct	_	_
+4	pour	pour	ADP	_	ADP___	6	case	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	quart	quart	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	nmod	_	_
+7	s'	si	SCONJ	_	SCONJ___	8	mark	_	_
+8	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+9	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+10	vivant	vivre	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	nmod	_	_
+11	(	(	PUNCT	_	PUNCT___	10	punct	_	_
+12	peu	peu	ADV	_	ADV___	14	advmod	_	_
+13	probable)-	probable)-	ADP	_	ADP___	14	case	_	_
+14	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+15	arrière-grand-mère	arrière-grand-mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	appos	_	_
+16	pour	pour	ADP	_	ADP___	19	case	_	_
+17	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	quart	quart	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	nmod	_	_
+19	si	si	SCONJ	_	SCONJ___	22	mark	_	_
+20	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	22	nsubj	_	_
+21	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+22	vivante	vivant	ADJ	_	ADJ__Gender=Fem|Number=Sing	22	nmod	_	_
+23	(	(	PUNCT	_	PUNCT___	25	punct	_	_
+24	peu	peu	ADV	_	ADV___	25	advmod	_	_
+25	probable)-	probable)-	ADP	_	ADP___	22	acl	_	_
+26	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+27	fratrie	fratrie	NOUN	_	NOUN__Gender=Fem|Number=Sing	73	obj	_	_
+28	du	du	DET	_	DET__Gender=Masc|Number=Sing	29	det	_	_
+29	défunt	défunt	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	obj	_	_
+30	,	,	PUNCT	_	PUNCT___	32	punct	_	_
+31	vivante	vivant	NOUN	_	NOUN__Gender=Fem|Number=Sing	32	conj	_	_
+32	ou	ou	CCONJ	_	CCONJ___	29	cc	_	_
+33	représentée	représenter	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	36	conj	_	_
+34	,	,	PUNCT	_	PUNCT___	36	punct	_	_
+35	pour	pour	ADP	_	ADP___	36	case	_	_
+36	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+37	surplus	surplus	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	obl	_	_
+38	(	(	PUNCT	_	PUNCT___	41	punct	_	_
+39	donc	donc	ADV	_	ADV___	41	advmod	_	_
+40	probablement	probablement	ADV	_	ADV___	41	advmod	_	_
+41	pour	pour	ADP	_	ADP___	29	case	_	_
+42	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+43	totalité)L'	totalité)L'	ADJ	_	ADJ__Number=Sing	44	amod	_	_
+44	étude	étude	NOUN	_	NOUN__Gender=Fem|Number=Sing	41	nsubj	_	_
+45	généalogique	généalogique	ADJ	_	ADJ__Number=Sing	48	amod	_	_
+46	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	48	aux	_	_
+47	faire	faire	VERB	_	VERB__VerbForm=Inf	48	advcl	_	_
+48	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+49	erreur	erreur	NOUN	_	NOUN__Gender=Fem|Number=Sing	48	obj	_	_
+50	dans	dan	ADP	_	ADP___	51	case	_	_
+51	son	son	DET	_	DET__Number=Sing|Poss=Yes	48	nmod:poss	_	_
+52	analyse	analyser	NOUN	_	NOUN__Gender=Fem|Number=Sing	53	nmod	_	_
+53	,	,	PUNCT	_	PUNCT___	51	punct	_	_
+54	mais	mai	CCONJ	_	CCONJ___	55	cc	_	_
+55	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+56	notaire	notaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	57	conj	_	_
+57	,	,	PUNCT	_	PUNCT___	55	punct	_	_
+58	lui	luire	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Prs	59	iobj	_	_
+59	,	,	PUNCT	_	PUNCT___	55	punct	_	_
+60	devrait	devoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	51	aux	_	_
+61	détecter	détecter	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+62	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	63	det	_	_
+63	erreur	erreur	NOUN	_	NOUN__Gender=Masc|Number=Sing	48	obj	_	_
+64	,	,	PUNCT	_	PUNCT___	63	punct	_	_
+65	si	si	SCONJ	_	SCONJ___	63	mark	_	_
+66	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	70	det	_	_
+67	étude	étude	NOUN	_	NOUN__Gender=Fem|Number=Sing	70	nsubj	_	_
+68	généalogique	généalogique	ADJ	_	ADJ__Number=Sing	70	amod	_	_
+69	mentionne	mentionner	ADJ	_	ADJ__Gender=Fem|Number=Sing	70	advcl	_	_
+70	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	73	nmod:poss	_	_
+71	père	père	NOUN	_	NOUN__Gender=Masc|Number=Sing	70	obj	_	_
+72	décédé	décéder	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	73	acl	_	_
+73	ayant	avoir	AUX	_	AUX__Tense=Pres|VerbForm=Part	87	aux	_	_
+74	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	75	xcomp	_	_
+75	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	73	det	_	_
+76	enfants	enfant	NOUN	_	NOUN__Number=Plur	78	obj	_	_
+77	.	.	PUNCT	_	PUNCT___	78	punct	_	_
+
+
+#Et cela pourrait éventuellement être à votre avantage, n'ayant pas signé le contrat de révélation, pour recevoir votre part sans déduction de la rémunération du généalogiste...
+1	Et	Et	CCONJ	_	CCONJ___	6	cc	_	_
+2	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	3	nsubj	_	_
+3	pourrait	pouvoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	éventuellement	éventuellement	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+5	être	être	AUX	_	AUX__VerbForm=Inf	6	aux:pass	_	_
+6	à	à	ADP	_	ADP___	22	case	_	_
+7	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+8	avantage	avantager	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obl	_	_
+9	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+10	n'	ne	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+11	ayant	avoir	AUX	_	AUX__Tense=Pres|VerbForm=Part	10	aux	_	_
+12	pas	pas	ADV	_	ADV__Polarity=Neg	14	advmod	_	_
+13	signé	signer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	xcomp	_	_
+14	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+15	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obj	_	_
+16	de	de	ADP	_	ADP___	19	case	_	_
+17	révélation	révélation	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	nmod	_	_
+18	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+19	pour	pour	ADP	_	ADP___	22	mark	_	_
+20	recevoir	recevoir	VERB	_	VERB__VerbForm=Inf	22	advcl	_	_
+21	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	22	nmod:poss	_	_
+22	part	partir	NOUN	_	NOUN__Number=Sing	22	obj	_	_
+23	sans	sans	ADP	_	ADP___	25	case	_	_
+24	déduction	déduction	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	obl	_	_
+25	de	de	ADP	_	ADP___	22	case	_	_
+26	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+27	rémunération	rémunération	NOUN	_	NOUN__Gender=Fem|Number=Sing	73	nmod	_	_
+28	du	du	DET	_	DET__Gender=Masc|Number=Sing	29	det	_	_
+29	généalogiste	généalogiste	NOUN	_	NOUN__Number=Sing	27	amod	_	_
+30	...	...	PUNCT	_	PUNCT___	32	punct	_	_
+
+
+#A moins que le généalogiste argumente que c'est quand même par son travail et l'information donnée à votre oncle que vous avez appris être héritier, donc que vous avez eu une révélation indirecte, et que son travail a eu une utilité pour vous.
+1	A	A	NOUN	_	NOUN___	6	aux	_	_
+2	moins	moins	ADV	_	ADV___	0	ROOT	_	_
+3	que	que	SCONJ	_	SCONJ___	6	mark	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	généalogiste	généalogiste	ADJ	_	ADJ__Number=Sing	6	nsubj	_	_
+6	argumente	argumenter	ADJ	_	ADJ__Gender=Fem|Number=Sing	22	ccomp	_	_
+7	que	que	SCONJ	_	SCONJ___	8	mark	_	_
+8	c'	ce	PRON	_	PRON__Number=Sing|Person=3	6	nsubj	_	_
+9	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	quand	quand	ADV	_	ADV___	8	advmod	_	_
+11	même	même	ADV	_	ADV___	10	fixed	_	_
+12	par	par	ADP	_	ADP___	14	case	_	_
+13	son	son	DET	_	DET__Number=Sing|Poss=Yes	14	nmod:poss	_	_
+14	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	dep	_	_
+15	et	et	CCONJ	_	CCONJ___	14	cc	_	_
+16	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+17	information	information	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	conj	_	_
+18	donnée	donner	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	19	acl	_	_
+19	à	à	ADP	_	ADP___	22	case	_	_
+20	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	22	nmod:poss	_	_
+21	oncle	oncle	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	obl	_	_
+22	que	que	PRON	_	PRON__PronType=Rel	22	mark	_	_
+23	vous	se	PRON	_	PRON__Number=Plur|Person=2	25	nsubj	_	_
+24	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	appris	apprendre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	22	acl:relcl	_	_
+26	être	être	AUX	_	AUX__VerbForm=Inf	22	cop	_	_
+27	héritier	héritier	ADJ	_	ADJ__Gender=Masc|Number=Sing	73	xcomp	_	_
+28	,	,	PUNCT	_	PUNCT___	29	punct	_	_
+29	donc	donc	ADV	_	ADV___	27	advmod	_	_
+30	que	que	SCONJ	_	SCONJ___	32	mark	_	_
+31	vous	se	PRON	_	PRON__Number=Plur|Person=2	32	nsubj	_	_
+32	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	29	aux	_	_
+33	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	36	ccomp	_	_
+34	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+35	révélation	révélation	NOUN	_	NOUN__Gender=Fem|Number=Sing	36	obj	_	_
+36	indirecte	indirect	ADJ	_	ADJ__Gender=Fem|Number=Sing	32	amod	_	_
+37	,	,	PUNCT	_	PUNCT___	29	punct	_	_
+38	et	et	CCONJ	_	CCONJ___	41	cc	_	_
+39	que	que	SCONJ	_	SCONJ___	41	mark	_	_
+40	son	son	DET	_	DET__Number=Sing|Poss=Yes	41	nmod:poss	_	_
+41	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	nsubj	_	_
+42	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	aux	_	_
+43	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	44	conj	_	_
+44	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+45	utilité	utilité	NOUN	_	NOUN__Gender=Fem|Number=Sing	48	obj	_	_
+46	pour	pour	ADP	_	ADP___	48	case	_	_
+47	vous	se	PRON	_	PRON__Number=Plur|Person=2|PronType=Prs	48	nmod	_	_
+48	.	.	PUNCT	_	PUNCT___	41	punct	_	_
+
+
+#La représentation ne joue que dans la descendance.....
+1	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	représentation	représentation	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nsubj	_	_
+3	ne	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+4	joue	jouer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	que	que	SCONJ	_	SCONJ___	4	advmod	_	_
+6	dans	dan	ADP	_	ADP___	8	case	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	descendance	descendance	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obl	_	_
+9	.....	.....	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Non, en matière civile il n'y a pas de représentation dans la ligne directe descendante, l'héritier vient de son propre chef, même si en droit fiscal il bénéficie pour l'abattement de la règle de la représentatkion.
+1	Non	Non	ADV	_	ADV___	2	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	en	en	ADP	_	ADP___	4	case	_	_
+4	matière	matière	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	fixed	_	_
+5	civile	civil	ADJ	_	ADJ__Gender=Fem|Number=Sing	4	obl	_	_
+6	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+7	n'	ne	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+8	y	yu	PRON	_	PRON__Person=3	4	expl	_	_
+9	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+10	pas	pas	ADV	_	ADV__Polarity=Neg	18	advmod	_	_
+11	de	de	DET	_	DET__Definite=Ind|Number=Sing|PronType=Art	18	det	_	_
+12	représentation	représentation	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obj	_	_
+13	dans	dan	ADP	_	ADP___	12	case	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+15	ligne	ligne	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	nmod	_	_
+16	directe	direct	ADJ	_	ADJ__Gender=Fem|Number=Sing	18	case	_	_
+17	descendante	descendant	ADJ	_	ADJ__Gender=Fem|Number=Sing	18	obl	_	_
+18	,	,	PUNCT	_	PUNCT___	18	punct	_	_
+19	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+20	héritier	héritier	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	nsubj	_	_
+21	vient	venir	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	conj	_	_
+22	de	de	ADP	_	ADP___	24	case	_	_
+23	son	son	DET	_	DET__Number=Sing|Poss=Yes	24	nmod:poss	_	_
+24	propre	propre	ADJ	_	ADJ__Number=Sing	21	amod	_	_
+25	chef	chef	NOUN	_	NOUN__Number=Sing	26	obl	_	_
+26	,	,	PUNCT	_	PUNCT___	18	punct	_	_
+27	même	même	ADV	_	ADV___	30	advmod	_	_
+28	si	si	SCONJ	_	SCONJ___	29	fixed	_	_
+29	en	en	ADP	_	ADP___	30	case	_	_
+30	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obl	_	_
+31	fiscal	fiscal	ADJ	_	ADJ__Gender=Masc|Number=Sing	34	acl	_	_
+32	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	34	nsubj	_	_
+33	bénéficie	bénéficier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	xcomp	_	_
+34	pour	pour	ADP	_	ADP___	30	case	_	_
+35	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	30	det	_	_
+36	abattement	abattement	NOUN	_	NOUN__Gender=Masc|Number=Sing	39	obl	_	_
+37	de	de	ADP	_	ADP___	36	case	_	_
+38	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	règle	régler	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	nmod	_	_
+40	de	de	ADP	_	ADP___	39	case	_	_
+41	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	représentatkion	représentatkion	NOUN	_	NOUN__Gender=Fem|Number=Sing	40	nmod	_	_
+43	.	.	PUNCT	_	PUNCT___	45	punct	_	_
+
+
+#La représentation peut jouer dans la descendance du défunt,.
+1	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	représentation	représentation	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nsubj	_	_
+3	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	jouer	jouer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	dans	dan	ADP	_	ADP___	7	case	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	descendance	descendance	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obl	_	_
+8	du	du	DET	_	DET__Gender=Masc|Number=Sing	9	det	_	_
+9	défunt	défunt	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	amod	_	_
+10	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+11	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Je maintiens ce que j'ai écrit.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	2	nsubj	_	_
+2	maintiens	maintien	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	ce	ce	PRON	_	PRON__PronType=Rel	2	obj	_	_
+4	que	que	PRON	_	PRON__PronType=Rel	7	obj	_	_
+5	j'	il	PRON	_	PRON__Number=Sing|Person=1	7	nsubj	_	_
+6	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	écrit	écrire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+8	.	.	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#Eh bien vous êtes dans l'erreur.
+1	Eh	Eh	INTJ	_	INTJ___	7	advmod	_	_
+2	bien	bien	ADV	_	ADV___	7	advmod	_	_
+3	vous	se	PRON	_	PRON__Number=Plur|Person=2	7	nsubj	_	_
+4	êtes	être	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	dans	dan	ADP	_	ADP___	7	case	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	erreur	erreur	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+8	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Donc si le défunt n'a qu'un seul enfant décédé, alors les petits-enfants sont héritiers de leur chef de leur grand-parent.
+1	Donc	Donc	ADV	_	ADV___	7	advmod	_	_
+2	si	si	SCONJ	_	SCONJ___	7	mark	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+4	défunt	défunt	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nsubj	_	_
+5	n'	ne	ADV	_	ADV___	7	advmod	_	_
+6	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	qu'	que	SCONJ	_	SCONJ___	7	advmod	_	_
+8	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+9	seul	seul	ADJ	_	ADJ__Gender=Masc|Number=Sing	14	amod	_	_
+10	enfant	enfant	NOUN	_	NOUN__Number=Sing	14	obl	_	_
+11	décédé	décéder	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
+12	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+13	alors	alors	ADV	_	ADV___	14	advmod	_	_
+14	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	14	det	_	_
+15	petits-enfants	petit-enfant	NOUN	_	NOUN__Number=Plur	25	nsubj	_	_
+16	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	héritiers	héritier	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	18	ccomp	_	_
+18	de	de	ADP	_	ADP___	25	case	_	_
+19	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	18	nmod:poss	_	_
+20	chef	chef	NOUN	_	NOUN__Number=Sing	25	obl	_	_
+21	de	de	ADP	_	ADP___	25	case	_	_
+22	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	23	nmod:poss	_	_
+23	grand	grand	ADJ	_	ADJ__Gender=Masc|Number=Sing	25	nmod	_	_
+24	-	-	PUNCT	_	PUNCT___	25	punct	_	_
+25	parent	parer	ADV	_	ADV___	14	advmod	_	_
+26	.	.	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#Si le défunt a plusieurs enfants dont un décédé, alors les petits-enfants sont héritiers de leur grand-parent par représentation de leur parent décédé, face aux oncles et tantes.
+1	Si	Si	SCONJ	_	SCONJ___	7	mark	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+3	défunt	défunt	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nsubj	_	_
+4	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	plusieurs	plusieurs	DET	_	DET__Number=Plur	7	det	_	_
+6	enfants	enfant	NOUN	_	NOUN__Number=Plur	7	obj	_	_
+7	dont	dont	PRON	_	PRON__PronType=Rel	7	dep	_	_
+8	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+9	décédé	décéder	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	acl:relcl	_	_
+10	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+11	alors	alors	ADV	_	ADV___	12	advmod	_	_
+12	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	14	det	_	_
+13	petits-enfants	petit-enfant	NOUN	_	NOUN__Number=Plur	14	nsubj	_	_
+14	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+15	héritiers	héritier	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	25	acl:relcl	_	_
+16	de	de	ADP	_	ADP___	18	case	_	_
+17	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	18	nmod:poss	_	_
+18	grand-parent	grand-parent	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	nmod	_	_
+19	par	par	ADP	_	ADP___	18	case	_	_
+20	représentation	représentation	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	obl	_	_
+21	de	de	ADP	_	ADP___	25	case	_	_
+22	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	23	nmod:poss	_	_
+23	parent	parer	ADJ	_	ADJ__Gender=Masc|Number=Sing	25	advmod	_	_
+24	décédé	décéder	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	acl	_	_
+25	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+26	face	face	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	nummod	_	_
+27	aux	aux	ADJ	_	ADJ__Gender=Masc|Number=Plur	28	fixed	_	_
+28	oncles	oncle	NOUN	_	NOUN__Gender=Masc|Number=Plur	25	obl	_	_
+29	et	et	CCONJ	_	CCONJ___	31	cc	_	_
+30	tantes	tante	ADJ	_	ADJ__Number=Plur	31	conj	_	_
+31	.	.	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#Si le défunt n'a pas de descendance, et n'a qu'un frère ou sœur décédé(e), alors les neveux et nièces sont héritiers de leur chef de leur oncle ou tante.
+1	Si	Si	SCONJ	_	SCONJ___	7	mark	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+3	défunt	défunt	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nsubj	_	_
+4	n'	ne	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+5	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	pas	pas	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+7	de	de	ADP	_	ADP___	7	det	_	_
+8	descendance	descendance	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+9	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+10	et	et	CCONJ	_	CCONJ___	14	cc	_	_
+11	n'	ne	ADV	_	ADV___	12	advmod	_	_
+12	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+13	qu'	que	SCONJ	_	SCONJ___	14	advmod	_	_
+14	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+15	frère	frère	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	obj	_	_
+16	ou	ou	CCONJ	_	CCONJ___	18	cc	_	_
+17	sœur	sœur	ADJ	_	ADJ__Gender=Masc|Number=Sing	18	conj	_	_
+18	décédé(e	décédé(e	NOUN	_	NOUN___	25	amod	_	_
+19	)	)	PUNCT	_	PUNCT___	18	punct	_	_
+20	,	,	PUNCT	_	PUNCT___	25	punct	_	_
+21	alors	alors	ADV	_	ADV___	25	advmod	_	_
+22	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	23	det	_	_
+23	neveux	neveu	ADJ	_	ADJ__Gender=Masc	25	obj	_	_
+24	et	et	CCONJ	_	CCONJ___	25	cc	_	_
+25	nièces	nièce	NOUN	_	NOUN__Gender=Fem|Number=Plur	14	advmod	_	_
+26	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+27	héritiers	héritier	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	28	conj	_	_
+28	de	de	ADP	_	ADP___	25	case	_	_
+29	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	31	nmod:poss	_	_
+30	chef	chef	NOUN	_	NOUN__Number=Sing	31	obl	_	_
+31	de	de	ADP	_	ADP___	28	case	_	_
+32	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	25	nmod:poss	_	_
+33	oncle	oncle	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nmod	_	_
+34	ou	ou	CCONJ	_	CCONJ___	14	cc	_	_
+35	tante	tante	ADJ	_	ADJ__Gender=Fem|Number=Sing	38	conj	_	_
+36	.	.	PUNCT	_	PUNCT___	37	punct	_	_
+
+
+#Si le défunt n'a pas de descendance, et a plusieurs frères ou sœurs dont un(e) décédé(e), alors les neveux et nièces sont héritiers de leur oncle ou tante par représentation de leur parent décédé.
+1	Si	Si	SCONJ	_	SCONJ___	7	mark	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+3	défunt	défunt	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nsubj	_	_
+4	n'	ne	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+5	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	pas	pas	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+7	de	de	ADP	_	ADP___	7	det	_	_
+8	descendance	descendance	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+9	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+10	et	et	CCONJ	_	CCONJ___	14	cc	_	_
+11	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+12	plusieurs	plusieurs	DET	_	DET__Number=Plur	14	det	_	_
+13	frères	frère	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	obj	_	_
+14	ou	ou	CCONJ	_	CCONJ___	14	cc	_	_
+15	sœurs	sœurs	NOUN	_	NOUN__Gender=Masc|Number=Plur	25	conj	_	_
+16	dont	dont	PRON	_	PRON__PronType=Rel	18	dep	_	_
+17	un(e	un(e	PUNCT	_	PUNCT___	18	nummod	_	_
+18	)	)	PUNCT	_	PUNCT___	25	punct	_	_
+19	décédé(e	décédé(e	NOUN	_	NOUN___	18	iobj	_	_
+20	)	)	PUNCT	_	PUNCT___	25	punct	_	_
+21	,	,	PUNCT	_	PUNCT___	25	punct	_	_
+22	alors	alors	ADV	_	ADV___	23	advmod	_	_
+23	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	25	det	_	_
+24	neveux	neveu	ADJ	_	ADJ__Gender=Masc	25	obj	_	_
+25	et	et	CCONJ	_	CCONJ___	14	cc	_	_
+26	nièces	nièce	NOUN	_	NOUN__Gender=Fem|Number=Plur	28	advmod	_	_
+27	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+28	héritiers	héritier	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	25	conj	_	_
+29	de	de	ADP	_	ADP___	31	case	_	_
+30	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	31	nmod:poss	_	_
+31	oncle	oncle	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	nmod	_	_
+32	ou	ou	CCONJ	_	CCONJ___	25	cc	_	_
+33	tante	tante	ADJ	_	ADJ__Gender=Fem|Number=Sing	14	conj	_	_
+34	par	par	ADP	_	ADP___	14	case	_	_
+35	représentation	représentation	NOUN	_	NOUN__Gender=Fem|Number=Sing	38	obl	_	_
+36	de	de	ADP	_	ADP___	37	case	_	_
+37	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	38	nmod:poss	_	_
+38	parent	parer	ADJ	_	ADJ__Gender=Masc|Number=Sing	38	advmod	_	_
+39	décédé	décéder	NOUN	_	NOUN__Gender=Masc|Number=Sing	40	nmod	_	_
+40	.	.	PUNCT	_	PUNCT___	38	punct	_	_
+
+
+#Et c'est le cas qui nous concerne, le défunt avait une fratrie multiple.
+1	Et	Et	CCONJ	_	CCONJ___	7	cc	_	_
+2	c'	ce	PRON	_	PRON__Number=Sing|Person=3	7	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+5	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	advcl	_	_
+6	qui	qui	PRON	_	PRON__PronType=Rel	7	nsubj	_	_
+7	nous	se	PRON	_	PRON__Number=Plur|Person=1	7	nsubj	_	_
+8	concerne	concerner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+9	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+10	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+11	défunt	défunt	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nsubj	_	_
+12	avait	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+13	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	fratrie	fratrie	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obj	_	_
+15	multiple	multiple	ADJ	_	ADJ__Number=Sing	25	amod	_	_
+16	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Ce n'est pourtant pas une nouveauté, c'était déjà le cas depuis 1803 !
+1	Ce	Ce	PRON	_	PRON__Number=Sing|Person=3	7	nsubj	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	pourtant	pourtant	ADV	_	ADV___	7	advmod	_	_
+5	pas	pas	ADV	_	ADV___	7	advmod	_	_
+6	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	nouveauté	nouveauté	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+8	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+9	c'	ce	PRON	_	PRON__Number=Sing|Person=3	14	nsubj	_	_
+10	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
+11	déjà	déjà	ADV	_	ADV___	12	advmod	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	conj	_	_
+14	depuis	depuis	ADP	_	ADP___	14	case	_	_
+15	1803	1803	NUM	_	NUM__NumType=Card	25	nummod	_	_
+16	!	!	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#C'est le même texte, c'est juste la numérotation de l'article qui a changé !
+1	C'	C'	PRON	_	PRON__Number=Sing|Person=3	7	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+4	même	même	ADJ	_	ADJ__Number=Sing	7	amod	_	_
+5	texte	texte	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+6	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+7	c'	ce	PRON	_	PRON__Number=Sing|Person=3	7	acl	_	_
+8	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	fixed	_	_
+9	juste	juste	ADV	_	ADV___	14	fixed	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+11	numérotation	numérotation	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	fixed	_	_
+12	de	de	ADP	_	ADP___	14	case	_	_
+13	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	article	article	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nmod	_	_
+15	qui	qui	PRON	_	PRON__PronType=Rel	25	nsubj	_	_
+16	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	changé	changer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	acl:relcl	_	_
+18	!	!	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#Vous maintenez toujours ?
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	7	nsubj	_	_
+2	maintenez	maintenir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	toujours	toujours	ADV	_	ADV___	7	advmod	_	_
+4	?	?	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Vus n'avez pas compris le sens de mon intervention.
+1	Vus	Vus	PROPN	_	PROPN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+3	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+5	compris	comprendre	ADJ	_	ADJ__Gender=Masc	1	fixed	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	sens	sentir	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+8	de	de	ADP	_	ADP___	10	case	_	_
+9	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+10	intervention	intervention	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+11	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Ce n'est pas la peine d"étaler  toutes ces règles que je connais depuis bien longtemps , peut-être depuis plus longtemps que vous.
+1	Ce	Ce	PRON	_	PRON__Number=Sing|Person=3	1	det	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+6	peine	peiner	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+7	d"étaler	d"étaler	ADP	_	ADP___	5	acl	_	_
+8	 	 	SPACE	_		10		_	_
+9	toutes	toute	ADJ	_	ADJ__Gender=Fem|Number=Plur	10	amod	_	_
+10	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	1	det	_	_
+11	règles	régler	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	obj	_	_
+12	que	que	PRON	_	PRON__PronType=Rel	17	obj	_	_
+13	je	il	PRON	_	PRON__Number=Sing|Person=1	17	nsubj	_	_
+14	connais	connaître	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+15	depuis	depuis	ADP	_	ADP___	17	case	_	_
+16	bien	bien	ADV	_	ADV___	17	advmod	_	_
+17	longtemps	longtemps	ADV	_	ADV___	17	obl	_	_
+18	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+19	peut-être	peut-être	ADV	_	ADV___	18	advmod	_	_
+20	depuis	depuis	ADP	_	ADP___	22	case	_	_
+21	plus	plaire	ADV	_	ADV___	22	advmod	_	_
+22	longtemps	longtemps	ADV	_	ADV___	18	fixed	_	_
+23	que	que	SCONJ	_	SCONJ___	25	mark	_	_
+24	vous	se	PRON	_	PRON__Number=Plur|Person=2	25	obl	_	_
+25	.	.	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#Ce que j'ai voulu faire ressortir est ceci:si pour un initié votre phrase ne pose pas de problème, en revanche pour un profane , la phrase que vous utilisez peut être interprétée comme suit dans le cas d'un héritier unique:mon père enfant unique étant prédécédé je viens donc à la succession de mon grand père en représentation, ce qui bien entendu est faux en matière civile.
+1	Ce	Ce	PRON	_	PRON__PronType=Rel	1	nsubj	_	_
+2	que	que	PRON	_	PRON__PronType=Rel	3	obj	_	_
+3	j'	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+4	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+5	voulu	vouloir	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	aux	_	_
+6	faire	faire	VERB	_	VERB__VerbForm=Part	7	acl:relcl	_	_
+7	ressortir	ressortir	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+8	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+9	ceci	ceci	PRON	_	PRON__Number=Sing|PronType=Dem	10	nsubj	_	_
+10	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+11	si	si	SCONJ	_	SCONJ___	1	mark	_	_
+12	pour	pour	ADP	_	ADP___	17	case	_	_
+13	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+14	initié	initier	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obl	_	_
+15	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	17	nmod:poss	_	_
+16	phrase	phraser	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	nsubj	_	_
+17	ne	ne	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+18	pose	poser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+19	pas	pas	ADV	_	ADV__Polarity=Neg	18	advmod	_	_
+20	de	de	ADP	_	ADP___	22	det	_	_
+21	problème	problème	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	obj	_	_
+22	,	,	PUNCT	_	PUNCT___	18	punct	_	_
+23	en	en	ADP	_	ADP___	25	advmod	_	_
+24	revanche	revanche	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	fixed	_	_
+25	pour	pour	ADP	_	ADP___	22	case	_	_
+26	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	obl	_	_
+27	profane	profaner	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	acl	_	_
+28	,	,	PUNCT	_	PUNCT___	25	punct	_	_
+29	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+30	phrase	phraser	NOUN	_	NOUN__Gender=Fem|Number=Sing	35	nsubj	_	_
+31	que	que	SCONJ	_	SCONJ___	35	obj	_	_
+32	vous	se	PRON	_	PRON__Number=Plur|Person=2	33	nsubj	_	_
+33	utilisez	utiliser	ADV	_	ADV___	31	acl:relcl	_	_
+34	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+35	être	être	AUX	_	AUX__VerbForm=Inf	25	aux:pass	_	_
+36	interprétée	interpréter	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	xcomp	_	_
+37	comme	comme	ADP	_	ADP___	45	mark	_	_
+38	suit	suivre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	advcl	_	_
+39	dans	dan	ADP	_	ADP___	42	case	_	_
+40	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+41	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	42	obl	_	_
+42	d'	de	ADP	_	ADP___	37	case	_	_
+43	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+44	héritier	héritier	NOUN	_	NOUN__Gender=Masc|Number=Sing	45	nmod	_	_
+45	unique	unique	ADJ	_	ADJ__Number=Sing	70	amod	_	_
+46	:	:	PUNCT	_	PUNCT___	45	punct	_	_
+47	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	54	nmod:poss	_	_
+48	père	père	NOUN	_	NOUN__Gender=Masc|Number=Sing	50	nsubj	_	_
+49	enfant	enfant	NOUN	_	NOUN__Number=Sing	50	amod	_	_
+50	unique	unique	ADJ	_	ADJ__Number=Sing	54	amod	_	_
+51	étant	être	AUX	_	AUX__Tense=Pres|VerbForm=Part	52	aux:pass	_	_
+52	prédécédé	prédécédé	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	54	acl	_	_
+53	je	il	PRON	_	PRON__Number=Sing|Person=1	54	nsubj	_	_
+54	viens	venir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	70	xcomp	_	_
+55	donc	donc	ADV	_	ADV___	54	advmod	_	_
+56	à	à	ADP	_	ADP___	57	case	_	_
+57	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	54	det	_	_
+58	succession	succession	NOUN	_	NOUN__Gender=Fem|Number=Sing	54	obl	_	_
+59	de	de	ADP	_	ADP___	54	case	_	_
+60	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	59	nmod:poss	_	_
+61	grand	grand	ADJ	_	ADJ__Gender=Masc|Number=Sing	62	amod	_	_
+62	père	père	NOUN	_	NOUN__Gender=Masc|Number=Sing	54	nmod	_	_
+63	en	en	ADP	_	ADP___	62	case	_	_
+64	représentation	représentation	NOUN	_	NOUN__Gender=Fem|Number=Sing	70	nmod	_	_
+65	,	,	PUNCT	_	PUNCT___	66	punct	_	_
+66	ce	ce	PRON	_	PRON__PronType=Rel	70	iobj	_	_
+67	qui	qui	PRON	_	PRON__PronType=Rel	69	nsubj	_	_
+68	bien	bien	ADV	_	ADV___	69	advmod	_	_
+69	entendu	entendre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	66	acl:relcl	_	_
+70	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	70	cop	_	_
+71	faux	faillir	ADJ	_	ADJ__Gender=Masc	72	ccomp	_	_
+72	en	en	ADP	_	ADP___	70	case	_	_
+73	matière	matière	NOUN	_	NOUN__Gender=Fem|Number=Sing	74	fixed	_	_
+74	civile	civil	ADJ	_	ADJ__Gender=Fem|Number=Sing	72	obl	_	_
+75	.	.	PUNCT	_	PUNCT___	77	punct	_	_
+
+
+#Quelle était ma phrase qui pouvait être mal interprétée ?
+1	Quelle	Quelle	ADJ	_	ADJ__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	cop	_	_
+3	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	4	nmod:poss	_	_
+4	phrase	phraser	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+5	qui	qui	PRON	_	PRON__PronType=Rel	9	nsubj:pass	_	_
+6	pouvait	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+7	être	être	AUX	_	AUX__VerbForm=Inf	9	aux:pass	_	_
+8	mal	mal	ADV	_	ADV___	9	advmod	_	_
+9	interprétée	interpréter	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	acl:relcl	_	_
+10	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Serait
+1	Serait	Serait	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+
+
+#-ce la différence entre "jouer" et "pouvoir jouer" ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	ce	ce	PRON	_	PRON__PronType=Rel	1	det	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	différence	différence	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+5	entre	entrer	ADP	_	ADP___	9	mark	_	_
+6	"	"	PUNCT	_	PUNCT___	9	punct	_	_
+7	jouer	jouer	VERB	_	VERB__VerbForm=Inf	9	acl	_	_
+8	"	"	PUNCT	_	PUNCT___	9	punct	_	_
+9	et	et	CCONJ	_	CCONJ___	4	cc	_	_
+10	"	"	PUNCT	_	PUNCT___	1	punct	_	_
+11	pouvoir	pouvoir	AUX	_	AUX__VerbForm=Inf	11	conj	_	_
+12	jouer	jouer	VERB	_	VERB__VerbForm=Inf	15	xcomp	_	_
+13	"	"	PUNCT	_	PUNCT___	15	punct	_	_
+14	?	?	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Si c'est : "La représentation ne joue que dans la descendance du défunt et dans la descendance de la fratrie du défunt."oui, il aurait été mieux décrire "La représentation ne peut jouer que dans la descendance du défunt et dans la descendance de la fratrie du défunt."Sous-entendu elle peut jouer si les conditions de multiplicité sont réunies.
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	c'	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+3	est	être	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	fixed	_	_
+4	:	:	PUNCT	_	PUNCT___	1	fixed	_	_
+5	"	"	PUNCT	_	PUNCT___	9	punct	_	_
+6	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+7	représentation	représentation	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nsubj	_	_
+8	ne	ne	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+9	joue	jouer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+10	que	que	SCONJ	_	SCONJ___	1	mark	_	_
+11	dans	dan	ADP	_	ADP___	11	case	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+13	descendance	descendance	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obl	_	_
+14	du	du	DET	_	DET__Gender=Masc|Number=Sing	15	det	_	_
+15	défunt	défunt	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nmod	_	_
+16	et	et	CCONJ	_	CCONJ___	18	cc	_	_
+17	dans	dan	ADP	_	ADP___	18	case	_	_
+18	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+19	descendance	descendance	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	conj	_	_
+20	de	de	ADP	_	ADP___	22	case	_	_
+21	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	fratrie	fratrie	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	nmod	_	_
+23	du	du	DET	_	DET__Gender=Masc|Number=Sing	22	det	_	_
+24	défunt."oui	défunt."oui	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nmod	_	_
+25	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+26	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	34	nsubj	_	_
+27	aurait	avoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
+28	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	27	cop	_	_
+29	mieux	mieux	ADV	_	ADV___	27	advmod	_	_
+30	décrire	décrire	ADJ	_	ADJ__Number=Sing	34	ccomp	_	_
+31	"	"	PUNCT	_	PUNCT___	32	punct	_	_
+32	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+33	représentation	représentation	NOUN	_	NOUN__Gender=Fem|Number=Sing	34	nsubj	_	_
+34	ne	ne	ADV	_	ADV___	61	advmod	_	_
+35	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	55	aux	_	_
+36	jouer	jouer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+37	que	que	SCONJ	_	SCONJ___	38	mark	_	_
+38	dans	dan	ADP	_	ADP___	55	case	_	_
+39	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	descendance	descendance	NOUN	_	NOUN__Gender=Fem|Number=Sing	38	obl	_	_
+41	du	du	DET	_	DET__Gender=Masc|Number=Sing	44	det	_	_
+42	défunt	défunt	NOUN	_	NOUN__Gender=Masc|Number=Sing	44	ccomp	_	_
+43	et	et	CCONJ	_	CCONJ___	44	cc	_	_
+44	dans	dan	ADP	_	ADP___	40	case	_	_
+45	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
+46	descendance	descendance	NOUN	_	NOUN__Gender=Fem|Number=Sing	47	conj	_	_
+47	de	de	ADP	_	ADP___	44	case	_	_
+48	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
+49	fratrie	fratrie	NOUN	_	NOUN__Gender=Fem|Number=Sing	38	nmod	_	_
+50	du	du	DET	_	DET__Gender=Masc|Number=Sing	55	advmod	_	_
+51	défunt."Sous	défunt."Sous	PROPN	_	PROPN__Gender=Masc|Number=Sing	55	fixed	_	_
+52	-	-	PUNCT	_	PUNCT___	55	fixed	_	_
+53	entendu	entendre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	55	fixed	_	_
+54	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	55	nsubj	_	_
+55	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
+56	jouer	jouer	VERB	_	VERB__VerbForm=Inf	55	ccomp	_	_
+57	si	si	SCONJ	_	SCONJ___	58	mark	_	_
+58	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	61	det	_	_
+59	conditions	condition	NOUN	_	NOUN__Gender=Fem|Number=Plur	61	nsubj:pass	_	_
+60	de	de	ADP	_	ADP___	61	case	_	_
+61	multiplicité	multiplicité	NOUN	_	NOUN__Gender=Fem|Number=Sing	61	nmod	_	_
+62	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	67	aux:pass	_	_
+63	réunies	réunir	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	65	ccomp	_	_
+64	.	.	PUNCT	_	PUNCT___	65	punct	_	_
+
+
+#Mais quelle est l'interprétation que peut faire le profane de votre phrase "La représentation ne jouedans la descendance..." ?
+1	Mais	Mais	CCONJ	_	CCONJ___	1	cc	_	_
+2	quelle	quel	DET	_	DET__Gender=Fem|Number=Sing|PronType=Int	1	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+5	interprétation	interprétation	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+6	que	que	SCONJ	_	SCONJ___	9	obj	_	_
+7	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	faire	faire	VERB	_	VERB__VerbForm=Inf	9	ccomp	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+10	profane	profaner	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+11	de	de	ADP	_	ADP___	11	case	_	_
+12	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	15	nmod:poss	_	_
+13	phrase	phraser	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obl	_	_
+14	"	"	PUNCT	_	PUNCT___	15	punct	_	_
+15	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+16	représentation	représentation	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	nsubj	_	_
+17	ne	ne	ADV	_	ADV___	18	advmod	_	_
+18	jouedans	jouedans	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	ccomp	_	_
+19	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+20	descendance	descendance	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	obj	_	_
+21	...	...	PUNCT	_	PUNCT___	22	punct	_	_
+22	"	"	PUNCT	_	PUNCT___	18	punct	_	_
+23	?	?	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#Qui donc a franchement l'air de vouloir contredire "et dans la descendance de la fratrie du défunt", et pas de contredire autre chose, comme la subtile différence entre "jouer" et "pouvoir jouer".Votre phrase ne peut pas vouloir dire autre chose que quelles que soient les configurations, il n'y a jamais représentation dans une branche collatérale.
+1	Qui	Qui	PRON	_	PRON__PronType=Int	1	nsubj	_	_
+2	donc	donc	ADV	_	ADV___	1	fixed	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	franchement	franchement	ADV	_	ADV___	0	ROOT	_	_
+5	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+6	air	air	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+7	de	de	ADP	_	ADP___	9	mark	_	_
+8	vouloir	vouloir	AUX	_	AUX__VerbForm=Inf	9	aux	_	_
+9	contredire	contredire	ADJ	_	ADJ__Number=Sing	4	xcomp	_	_
+10	"	"	PUNCT	_	PUNCT___	1	punct	_	_
+11	et	et	CCONJ	_	CCONJ___	11	cc	_	_
+12	dans	dan	ADP	_	ADP___	15	case	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	descendance	descendance	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	conj	_	_
+15	de	de	ADP	_	ADP___	15	case	_	_
+16	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	fratrie	fratrie	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	nmod	_	_
+18	du	du	DET	_	DET__Gender=Masc|Number=Sing	15	det	_	_
+19	défunt	défunt	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	amod	_	_
+20	"	"	PUNCT	_	PUNCT___	22	punct	_	_
+21	,	,	PUNCT	_	PUNCT___	22	punct	_	_
+22	et	et	CCONJ	_	CCONJ___	18	cc	_	_
+23	pas	pas	ADV	_	ADV___	22	advmod	_	_
+24	de	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	15	mark	_	_
+25	contredire	contredire	NOUN	_	NOUN__Number=Sing	15	conj	_	_
+26	autre	autre	ADJ	_	ADJ__Number=Sing	34	amod	_	_
+27	chose	chose	NOUN	_	NOUN__Gender=Fem|Number=Sing	34	obj	_	_
+28	,	,	PUNCT	_	PUNCT___	27	punct	_	_
+29	comme	comme	ADP	_	ADP___	27	mark	_	_
+30	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+31	subtile	subtil	ADJ	_	ADJ__Number=Sing	32	nsubj	_	_
+32	différence	différence	NOUN	_	NOUN__Gender=Fem|Number=Sing	34	amod	_	_
+33	entre	entrer	ADP	_	ADP___	34	mark	_	_
+34	"	"	PUNCT	_	PUNCT___	61	punct	_	_
+35	jouer	jouer	VERB	_	VERB__VerbForm=Inf	55	advcl	_	_
+36	"	"	PUNCT	_	PUNCT___	38	punct	_	_
+37	et	et	CCONJ	_	CCONJ___	38	cc	_	_
+38	"	"	PUNCT	_	PUNCT___	55	punct	_	_
+39	pouvoir	pouvoir	AUX	_	AUX__VerbForm=Inf	40	conj	_	_
+40	jouer".Votre	jouer".Votre	ADJ	_	ADJ__Number=Sing|NumType=Ord	38	det	_	_
+41	phrase	phraser	NOUN	_	NOUN__Gender=Masc|Number=Sing	44	obj	_	_
+42	ne	ne	ADV	_	ADV__Polarity=Neg	44	advmod	_	_
+43	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	aux	_	_
+44	pas	pas	ADV	_	ADV__Polarity=Neg	40	advmod	_	_
+45	vouloir	vouloir	AUX	_	AUX__VerbForm=Inf	47	aux	_	_
+46	dire	dire	VERB	_	VERB__VerbForm=Inf	47	xcomp	_	_
+47	autre	autre	ADJ	_	ADJ__Number=Sing	44	amod	_	_
+48	chose	chose	NOUN	_	NOUN__Gender=Fem|Number=Sing	49	obj	_	_
+49	que	que	SCONJ	_	SCONJ___	38	mark	_	_
+50	quelles	quel	ADJ	_	ADJ__Gender=Fem|Number=Plur	55	mark	_	_
+51	que	que	PRON	_	PRON__PronType=Rel	55	mark	_	_
+52	soient	être	AUX	_	AUX__Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	55	cop	_	_
+53	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	55	det	_	_
+54	configurations	configuration	NOUN	_	NOUN__Gender=Fem|Number=Plur	55	advcl	_	_
+55	,	,	PUNCT	_	PUNCT___	34	punct	_	_
+56	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	55	nsubj:pass	_	_
+57	n'	ne	ADV	_	ADV__Polarity=Neg	58	advmod	_	_
+58	y	yu	PRON	_	PRON__Person=3	61	expl	_	_
+59	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	61	aux	_	_
+60	jamais	jamais	ADV	_	ADV__Polarity=Neg	61	advmod	_	_
+61	représentation	représentation	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	61	acl	_	_
+62	dans	dan	ADP	_	ADP___	67	case	_	_
+63	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	65	det	_	_
+64	branche	brancher	NOUN	_	NOUN__Gender=Fem|Number=Sing	65	obl	_	_
+65	collatérale	collatéral	ADJ	_	ADJ__Gender=Fem|Number=Sing	67	amod	_	_
+66	.	.	PUNCT	_	PUNCT___	67	punct	_	_
+
+
