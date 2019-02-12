@@ -1,0 +1,50 @@
+#Pôle emploi
+1	Pôle	Pôle	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+2	emploi	emploi	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	amod	_	_
+
+
+#vous avait'il notifié un droit ?
+1	vous	se	PRON	_	PRON__Number=Plur|Person=2	1	expl	_	_
+2	avait'	avait'	PRON	_	PRON__PronType=Int	0	ROOT	_	_
+3	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+4	notifié	notifier	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	xcomp	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obj	_	_
+7	?	?	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Si oui ce droit reste " ouvert" pendant 3 ans plus sa durée.
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	oui	oui	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+5	reste	rester	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	"	"	PUNCT	_	PUNCT___	4	punct	_	_
+7	ouvert	ouvrir	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	amod	_	_
+8	"	"	PUNCT	_	PUNCT___	6	punct	_	_
+9	pendant	pendre	ADP	_	ADP___	4	case	_	_
+10	3	3	NUM	_	NUM__NumType=Card	11	nummod	_	_
+11	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	obl	_	_
+12	plus	plaire	ADV	_	ADV___	13	case	_	_
+13	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	16	nmod:poss	_	_
+14	durée	durer	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nmod	_	_
+15	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Sinon, votre situation sera entièrement revue si vous vous retrouvez au chômage.
+1	Sinon	Sinon	ADV	_	ADV___	1	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+4	situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+5	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	aux:pass	_	_
+6	entièrement	entièrement	ADV	_	ADV___	4	advmod	_	_
+7	revue	revu	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+8	si	si	SCONJ	_	SCONJ___	6	mark	_	_
+9	vous	se	PRON	_	PRON__Number=Plur|Person=2	4	nsubj	_	_
+10	vous	se	PRON	_	PRON__Number=Plur|Person=2	11	obj	_	_
+11	retrouvez	retrouver	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+12	au	au	PRON	_	PRON___	13	det	_	_
+13	chômage	chômage	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	obj	_	_
+14	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+

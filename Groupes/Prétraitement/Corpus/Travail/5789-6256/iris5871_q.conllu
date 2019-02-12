@@ -1,0 +1,564 @@
+#bonjour,je suis développeur web.
+1	bonjour	bonjour	NOUN	_	NOUN___	5	case	_	_
+2	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+4	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	développeur	développeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+6	web	web	ADJ	_	ADJ__Gender=Masc|Number=Sing	5	nmod	_	_
+7	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Mon CDD de 5 mois stipule que mes horaires sont 9h30-17h30 et que j'aurais un déplacement par mois chez le client.
+1	Mon	Mon	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+2	CDD	CDD	PROPN	_	PROPN___	5	nsubj	_	_
+3	de	de	ADP	_	ADP___	5	case	_	_
+4	5	5	NUM	_	NUM__NumType=Card	5	nummod	_	_
+5	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	nmod	_	_
+6	stipule	stipuler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	que	que	SCONJ	_	SCONJ___	5	mark	_	_
+8	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	9	nmod:poss	_	_
+9	horaires	horaire	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	nsubj	_	_
+10	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	9h30	9h30	NUM	_	NUM__NumType=Card	12	ccomp	_	_
+12	-	-	PUNCT	_	PUNCT___	9	punct	_	_
+13	17h30	17h30	NOUN	_	NOUN__NumType=Card	13	punct	_	_
+14	et	et	CCONJ	_	CCONJ___	18	cc	_	_
+15	que	que	SCONJ	_	SCONJ___	16	mark	_	_
+16	j'	il	PRON	_	PRON__Number=Sing|Person=1	18	nsubj	_	_
+17	aurais	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	conj	_	_
+18	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+19	déplacement	déplacement	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obj	_	_
+20	par	par	ADP	_	ADP___	13	case	_	_
+21	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	24	nmod	_	_
+22	chez	chez	ADP	_	ADP___	24	case	_	_
+23	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	client	client	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+25	.	.	PUNCT	_	PUNCT___	26	punct	_	_
+
+
+#Le premier mois j'ai eu un déplacement.
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+2	premier	premier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	5	amod	_	_
+3	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+4	j'	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+5	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+6	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+8	déplacement	déplacement	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+9	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Je me suis levé à 5h30 du matin pour prendre un train à 7h.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+2	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	5	expl	_	_
+3	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	levé	lever	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	à	à	ADP	_	ADP___	5	case	_	_
+6	5h30	5h30	NUM	_	NUM__NumType=Card	5	obl	_	_
+7	du	du	DET	_	DET__Gender=Masc|Number=Sing	5	det	_	_
+8	matin	matin	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+9	pour	pour	ADP	_	ADP___	13	mark	_	_
+10	prendre	prendre	VERB	_	VERB__VerbForm=Inf	12	advcl	_	_
+11	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	train	train	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+13	à	à	ADP	_	ADP___	13	case	_	_
+14	7h	7h	NOUN	_	NOUN__NumType=Card	18	nmod	_	_
+15	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Je suis arrivé à Paris à 9h et la réunion chez le client a commencé à 9h30.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	5	nsubj:pass	_	_
+2	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+3	arrivé	arriver	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	à	à	ADP	_	ADP___	5	case	_	_
+5	Paris	Paris	PROPN	_	PROPN__Gender=Masc|Number=Sing	5	obl	_	_
+6	à	à	ADP	_	ADP___	5	case	_	_
+7	9h	9h	NOUN	_	NOUN__NumType=Card	5	obl	_	_
+8	et	et	CCONJ	_	CCONJ___	9	cc	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+10	réunion	réunion	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nsubj	_	_
+11	chez	chez	ADP	_	ADP___	12	case	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+13	client	client	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+14	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+15	commencé	commencer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	advcl	_	_
+16	à	à	ADP	_	ADP___	18	case	_	_
+17	9h30	9h30	NUM	_	NUM__NumType=Card	18	obl	_	_
+18	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#La journée s'est terminée à 16h30, j'ai pris un train à 17h et je suis arrivé chez moi à20H.Pourtant ma journée
+1	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+2	journée	journée	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nsubj	_	_
+3	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	5	expl	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	terminée	terminer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+6	à	à	ADP	_	ADP___	5	case	_	_
+7	16h30	16h30	NOUN	_	NOUN__NumType=Card	5	obl	_	_
+8	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+9	j'	il	PRON	_	PRON__Number=Sing|Person=1	13	nsubj	_	_
+10	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	pris	prendre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	0	ROOT	_	_
+12	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+13	train	train	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+14	à	à	ADP	_	ADP___	18	case	_	_
+15	17h	17h	NOUN	_	NOUN__NumType=Card	16	obl	_	_
+16	et	et	CCONJ	_	CCONJ___	18	cc	_	_
+17	je	il	PRON	_	PRON__Number=Sing|Person=1	18	nsubj:pass	_	_
+18	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+19	arrivé	arriver	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	cop	_	_
+20	chez	chez	ADP	_	ADP___	13	case	_	_
+21	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	24	conj	_	_
+22	à20H.Pourtant	à20H.Pourtant	ADP	_	ADP___	24	case	_	_
+23	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	24	nmod:poss	_	_
+24	journée	journée	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obl	_	_
+
+
+#a été payée comme si j'avais fait une journée normale.
+1	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+2	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	5	aux:pass	_	_
+3	payée	payer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+4	comme	comme	ADP	_	ADP___	5	mark	_	_
+5	si	si	SCONJ	_	SCONJ___	5	fixed	_	_
+6	j'	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+7	avais	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+8	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	advcl	_	_
+9	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+10	journée	journée	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obj	_	_
+11	normale	normal	ADJ	_	ADJ__Gender=Fem|Number=Sing	12	amod	_	_
+12	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Est
+1	Est	Est	ADV	_	ADV___	0	ROOT	_	_
+
+
+#-ce normal ?
+1	-	-	PUNCT	_	PUNCT___	5	punct	_	_
+2	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+3	normal	normal	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#La semaine prochaine on remet ça.
+1	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+2	semaine	semaine	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obl	_	_
+3	prochaine	prochain	ADJ	_	ADJ__Gender=Fem|Number=Sing	5	nsubj	_	_
+4	on	on	PRON	_	PRON__Number=Sing|Person=3	5	nsubj	_	_
+5	remet	remettre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	obj	_	_
+7	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#J'ai demandé à partir la veille pour éviter de me lever à 5h du matin.
+1	J'	J'	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+2	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	demandé	demander	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	à	à	ADP	_	ADP___	5	mark	_	_
+5	partir	partir	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+7	veille	veiller	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obj	_	_
+8	pour	pour	ADP	_	ADP___	9	mark	_	_
+9	éviter	éviter	VERB	_	VERB__VerbForm=Inf	13	advcl	_	_
+10	de	de	ADP	_	ADP___	12	mark	_	_
+11	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	12	iobj	_	_
+12	lever	lever	VERB	_	VERB__VerbForm=Inf	9	xcomp	_	_
+13	à	à	ADP	_	ADP___	13	case	_	_
+14	5h	5h	NOUN	_	NOUN__NumType=Card	18	xcomp	_	_
+15	du	du	DET	_	DET__Gender=Masc|Number=Sing	16	det	_	_
+16	matin	matin	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obj	_	_
+17	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Mais je vais devoir payer l'hébergement du coup.
+1	Mais	Mais	CCONJ	_	CCONJ___	5	cc	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+3	vais	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	devoir	devoir	AUX	_	AUX__VerbForm=Inf	5	aux	_	_
+5	payer	payer	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+7	hébergement	hébergement	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+8	du	du	DET	_	DET__Gender=Masc|Number=Sing	9	det	_	_
+9	coup	coup	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+10	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Et mon boss m'a pris un billet de train qui part à 19h et arrive à 21h donc clairement en dehors de mes heures de travail.
+1	Et	Et	CCONJ	_	CCONJ___	5	cc	_	_
+2	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+3	boss	boss	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+4	m'	se	PRON	_	PRON__Number=Sing|Person=1	5	iobj	_	_
+5	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+6	pris	prendre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	0	ROOT	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+8	billet	billet	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+9	de	de	ADP	_	ADP___	13	case	_	_
+10	train	train	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nmod	_	_
+11	qui	qui	PRON	_	PRON__PronType=Rel	12	obj	_	_
+12	part	partir	NOUN	_	NOUN__Number=Sing	9	fixed	_	_
+13	à	à	ADP	_	ADP___	13	case	_	_
+14	19h	19h	NOUN	_	NOUN__NumType=Card	18	obl	_	_
+15	et	et	CCONJ	_	CCONJ___	16	cc	_	_
+16	arrive	arriver	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	_
+17	à	à	ADP	_	ADP___	18	case	_	_
+18	21h	21h	NUM	_	NUM__NumType=Card	13	obl	_	_
+19	donc	donc	ADV	_	ADV___	18	advmod	_	_
+20	clairement	clairement	ADV	_	ADV___	13	advmod	_	_
+21	en	en	ADP	_	ADP___	24	case	_	_
+22	dehors	dehors	ADP	_	ADP___	24	fixed	_	_
+23	de	de	ADP	_	ADP___	24	fixed	_	_
+24	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	13	nmod:poss	_	_
+25	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	26	obl	_	_
+26	de	de	ADP	_	ADP___	24	case	_	_
+27	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	nmod	_	_
+28	.	.	PUNCT	_	PUNCT___	26	punct	_	_
+
+
+#Est
+1	Est	Est	ADV	_	ADV___	0	ROOT	_	_
+
+
+#-ce une façon de faire légale ?
+1	-	-	PUNCT	_	PUNCT___	5	punct	_	_
+2	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+3	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	façon	façon	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+5	de	de	ADP	_	ADP___	5	mark	_	_
+6	faire	faire	VERB	_	VERB__VerbForm=Inf	5	acl	_	_
+7	légale	légal	ADJ	_	ADJ__Gender=Fem|Number=Sing	5	obj	_	_
+8	?	?	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Merci Qm11, ta réponse m'a permis de trouver d'autres infos.
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+2	Qm11	Qm11	NUM	_	NUM__NumType=Card	1	amod	_	_
+3	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+4	ta	ton	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nsubj	_	_
+6	m'	se	PRON	_	PRON__Number=Sing|Person=1	8	obj	_	_
+7	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	permis	permettre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	0	ROOT	_	_
+9	de	de	ADP	_	ADP___	10	mark	_	_
+10	trouver	trouver	VERB	_	VERB__VerbForm=Inf	8	xcomp	_	_
+11	d'	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	13	det	_	_
+12	autres	autre	ADJ	_	ADJ__Number=Plur	11	fixed	_	_
+13	infos	info	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obj	_	_
+14	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Notamment ici :Donc effectivement le temps de déplacement n'est jamais du temps de travail effectif.
+1	Notamment	Notamment	ADV	_	ADV___	8	advmod	_	_
+2	ici	ici	ADV	_	ADV___	0	ROOT	_	_
+3	:	:	PUNCT	_	PUNCT___	8	punct	_	_
+4	Donc	Donc	ADV	_	ADV___	5	advmod	_	_
+5	effectivement	effectivement	ADV	_	ADV___	8	advmod	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nsubj	_	_
+8	de	de	ADP	_	ADP___	8	case	_	_
+9	déplacement	déplacement	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+10	n'	ne	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+11	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	jamais	jamais	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+13	du	du	DET	_	DET__Gender=Masc|Number=Sing	10	det	_	_
+14	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+15	de	de	ADP	_	ADP___	16	case	_	_
+16	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	nmod	_	_
+17	effectif	effectif	ADJ	_	ADJ__Gender=Masc|Number=Sing	16	amod	_	_
+18	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Mais s'il dépasse le temps du trajet habituel entre ton domicile et ton lieu de travail, il peut faire l'objet d'une compensation financière sous forme de prime de déplacement (et jamais sous forme d'heures supp) ou récupération du temps de travail.
+1	Mais	Mais	CCONJ	_	CCONJ___	8	cc	_	_
+2	s'	si	SCONJ	_	SCONJ___	1	mark	_	_
+3	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+4	dépasse	dépasser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+6	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+7	du	du	DET	_	DET__Gender=Masc|Number=Sing	8	det	_	_
+8	trajet	trajet	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+9	habituel	habituel	ADJ	_	ADJ__Gender=Masc|Number=Sing	10	amod	_	_
+10	entre	entrer	ADP	_	ADP___	8	case	_	_
+11	ton	ton	NOUN	_	NOUN__Number=Sing	13	nmod	_	_
+12	domicile	domicile	ADJ	_	ADJ__Number=Sing	11	amod	_	_
+13	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+14	ton	ton	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+15	lieu	lieu	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	amod	_	_
+16	de	de	ADP	_	ADP___	16	case	_	_
+17	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	nmod	_	_
+18	,	,	PUNCT	_	PUNCT___	21	punct	_	_
+19	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	21	nsubj	_	_
+20	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	faire	faire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+22	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+23	objet	objet	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obj	_	_
+24	d'	de	ADP	_	ADP___	28	case	_	_
+25	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+26	compensation	compensation	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	obl	_	_
+27	financière	financier	ADJ	_	ADJ__Gender=Fem|Number=Sing	28	amod	_	_
+28	sous	sou	ADP	_	ADP___	16	case	_	_
+29	forme	former	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	fixed	_	_
+30	de	de	ADP	_	ADP___	28	fixed	_	_
+31	prime	primer	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	nmod	_	_
+32	de	de	ADP	_	ADP___	16	case	_	_
+33	déplacement	déplacement	NOUN	_	NOUN__Gender=Masc|Number=Sing	36	nmod	_	_
+34	(	(	PUNCT	_	PUNCT___	36	punct	_	_
+35	et	et	CCONJ	_	CCONJ___	36	cc	_	_
+36	jamais	jamais	ADV	_	ADV___	53	advmod	_	_
+37	sous	sou	ADP	_	ADP___	38	case	_	_
+38	forme	former	NOUN	_	NOUN__Gender=Fem|Number=Sing	36	fixed	_	_
+39	d'	de	ADP	_	ADP___	40	fixed	_	_
+40	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	36	conj	_	_
+41	supp	supp	ADJ	_	ADJ__Number=Sing	40	amod	_	_
+42	)	)	PUNCT	_	PUNCT___	43	punct	_	_
+43	ou	ou	CCONJ	_	CCONJ___	40	cc	_	_
+44	récupération	récupération	NOUN	_	NOUN__Gender=Fem|Number=Sing	43	conj	_	_
+45	du	du	DET	_	DET__Gender=Masc|Number=Sing	46	det	_	_
+46	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	43	obj	_	_
+47	de	de	ADP	_	ADP___	40	case	_	_
+48	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	49	nmod	_	_
+49	.	.	PUNCT	_	PUNCT___	40	punct	_	_
+
+
+#Je n'ai pas trouvé d'exemple pour la compensation financière mais pour la récupération il semble qu'une règle souvent adoptée soit : la récupération est égale en temps à 20% du temps de trajet moins une heure.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	8	nsubj	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+3	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+5	trouvé	trouver	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+6	d'	de	ADP	_	ADP___	8	advmod	_	_
+7	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	fixed	_	_
+8	pour	pour	ADP	_	ADP___	8	case	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	compensation	compensation	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+11	financière	financier	ADJ	_	ADJ__Gender=Fem|Number=Sing	13	amod	_	_
+12	mais	mai	CCONJ	_	CCONJ___	11	cc	_	_
+13	pour	pour	ADP	_	ADP___	10	case	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+15	récupération	récupération	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	conj	_	_
+16	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	16	nsubj	_	_
+17	semble	sembler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	amod	_	_
+18	qu'	que	SCONJ	_	SCONJ___	21	advmod	_	_
+19	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	règle	régler	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	ccomp	_	_
+21	souvent	souvent	ADV	_	ADV___	28	advmod	_	_
+22	adoptée	adopter	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	23	acl	_	_
+23	soit	être	CCONJ	_	CCONJ___	21	cc	_	_
+24	:	:	PUNCT	_	PUNCT___	28	punct	_	_
+25	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+26	récupération	récupération	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	nsubj	_	_
+27	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+28	égale	égaler	ADJ	_	ADJ__Gender=Fem|Number=Sing	16	conj	_	_
+29	en	en	ADP	_	ADP___	30	advmod	_	_
+30	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	fixed	_	_
+31	à	à	ADP	_	ADP___	30	case	_	_
+32	20	20	NUM	_	NUM__NumType=Card	16	nummod	_	_
+33	%	%	NOUN	_	NOUN__Gender=Masc	36	advcl	_	_
+34	du	du	DET	_	DET__Gender=Masc|Number=Sing	36	det	_	_
+35	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	36	nmod	_	_
+36	de	de	ADP	_	ADP___	53	case	_	_
+37	trajet	trajet	NOUN	_	NOUN__Gender=Masc|Number=Sing	38	nmod	_	_
+38	moins	moins	ADV	_	ADV___	36	advmod	_	_
+39	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	heure	heure	NOUN	_	NOUN__Gender=Fem|Number=Sing	36	appos	_	_
+41	.	.	PUNCT	_	PUNCT___	40	punct	_	_
+
+
+#Donc dans mon cas, je sors de mon domicile à Bordeaux à 6h45 et je commence mon travail à Paris à 9h45.
+1	Donc	Donc	ADV	_	ADV___	8	advmod	_	_
+2	dans	dan	ADP	_	ADP___	1	case	_	_
+3	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+4	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+5	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+6	je	il	PRON	_	PRON__Number=Sing|Person=1	8	nsubj	_	_
+7	sors	sortir	VERB	_	VERB__Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	advmod	_	_
+8	de	de	ADP	_	ADP___	8	case	_	_
+9	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+10	domicile	domicile	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	fixed	_	_
+11	à	à	ADP	_	ADP___	13	case	_	_
+12	Bordeaux	Bordeaux	PROPN	_	PROPN__Gender=Masc|Number=Sing	11	nmod	_	_
+13	à	à	ADP	_	ADP___	10	case	_	_
+14	6h45	6h45	PRON	_	PRON__NumType=Card|PronType=Rel	8	nmod	_	_
+15	et	et	CCONJ	_	CCONJ___	16	cc	_	_
+16	je	il	PRON	_	PRON__Number=Sing|Person=1	16	nsubj	_	_
+17	commence	commencer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+18	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	21	nmod:poss	_	_
+19	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obj	_	_
+20	à	à	ADP	_	ADP___	21	case	_	_
+21	Paris	Paris	PROPN	_	PROPN__Gender=Masc|Number=Sing	28	nmod	_	_
+22	à	à	ADP	_	ADP___	23	case	_	_
+23	9h45	9h45	PRON	_	PRON__NumType=Card|PronType=Rel	21	obl	_	_
+24	.	.	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#3h de trajet et idem le soir
+1	3h	3h	NOUN	_	NOUN__NumType=Card	0	ROOT	_	_
+2	de	de	ADP	_	ADP___	1	case	_	_
+3	trajet	trajet	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+4	et	et	CCONJ	_	CCONJ___	5	cc	_	_
+5	idem	idem	VERB	_	VERB__VerbForm=Inf	8	conj	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	soir	soir	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+
+
+#donc 6h de déplacement -
+1	donc	donc	ADV	_	ADV___	8	advmod	_	_
+2	6h	6h	NOUN	_	NOUN__Gender=Masc|Number=Sing|NumType=Card	0	ROOT	_	_
+3	de	de	ADP	_	ADP___	8	case	_	_
+4	déplacement	déplacement	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+5	-	-	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#1heure = 5h x 20% = 1hDonc en gros je me lève à 5h30 du matin et je rentre chez moi à 20h et j'ai le droit de récupérer 1 heure ... c'est carrément du gros foutage de gueule !
+1	1heure	1heure	NUM	_	NUM__NumType=Card	8	nsubj	_	_
+2	=	=	VERB	_	VERB__Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	1	advmod	_	_
+3	5h	5h	NUM	_	NUM__NumType=Card	8	nsubj	_	_
+4	x	x	ADP	_	ADP___	5	case	_	_
+5	20	20	NUM	_	NUM__NumType=Card	8	nummod	_	_
+6	%	%	NOUN	_	NOUN__Gender=Masc	8	nmod	_	_
+7	=	=	VERB	_	VERB__Mood=Ind|Person=3|VerbForm=Fin	0	ROOT	_	_
+8	1hDonc	1hDonc	NOUN	_	NOUN__NumType=Card	8	obj	_	_
+9	en	en	ADP	_	ADP___	10	case	_	_
+10	gros	gros	ADJ	_	ADJ__Gender=Masc	8	advcl	_	_
+11	je	il	PRON	_	PRON__Number=Sing|Person=1	13	nsubj	_	_
+12	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	11	expl	_	_
+13	lève	lever	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+14	à	à	ADP	_	ADP___	8	case	_	_
+15	5h30	5h30	NUM	_	NUM__NumType=Card	16	obl	_	_
+16	du	du	DET	_	DET__Gender=Masc|Number=Sing	16	det	_	_
+17	matin	matin	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obj	_	_
+18	et	et	CCONJ	_	CCONJ___	21	cc	_	_
+19	je	il	PRON	_	PRON__Number=Sing|Person=1	21	nsubj	_	_
+20	rentre	rentrer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	conj	_	_
+21	chez	chez	ADP	_	ADP___	28	case	_	_
+22	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	23	obl	_	_
+23	à	à	ADP	_	ADP___	21	case	_	_
+24	20h	20h	NUM	_	NUM__NumType=Card	28	obl	_	_
+25	et	et	CCONJ	_	CCONJ___	28	cc	_	_
+26	j'	il	PRON	_	PRON__Number=Sing|Person=1	28	nsubj	_	_
+27	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	28	conj	_	_
+28	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+29	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	obj	_	_
+30	de	de	ADP	_	ADP___	28	mark	_	_
+31	récupérer	récupérer	VERB	_	VERB__VerbForm=Inf	30	acl	_	_
+32	1	1	NUM	_	NUM__NumType=Card	16	nummod	_	_
+33	heure	heure	NOUN	_	NOUN__Gender=Fem|Number=Sing	36	obj	_	_
+34	...	...	PUNCT	_	PUNCT___	36	punct	_	_
+35	c'	ce	PRON	_	PRON__Number=Sing|Person=3	36	nsubj	_	_
+36	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	53	cop	_	_
+37	carrément	carrément	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	38	parataxis	_	_
+38	du	du	DET	_	DET__Gender=Masc|Number=Sing	36	det	_	_
+39	gros	gros	ADJ	_	ADJ__Gender=Masc	40	amod	_	_
+40	foutage	foutage	NOUN	_	NOUN__Gender=Masc|Number=Sing	36	obj	_	_
+41	de	de	ADP	_	ADP___	40	case	_	_
+42	gueule	gueuler	NOUN	_	NOUN__Gender=Fem|Number=Sing	43	nmod	_	_
+43	!	!	PUNCT	_	PUNCT___	40	punct	_	_
+
+
+#Pour les frais de logement : le patron partira le vendredi avec le train de 7h00 et normalement je devais prendre ce train aussi.
+1	Pour	Pour	ADP	_	ADP___	8	case	_	_
+2	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+3	frais	frai	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obl	_	_
+4	de	de	ADP	_	ADP___	5	case	_	_
+5	logement	logement	ADV	_	ADV___	8	nmod	_	_
+6	:	:	PUNCT	_	PUNCT___	8	punct	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	patron	patron	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nsubj	_	_
+9	partira	partir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	10	parataxis	_	_
+10	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+11	vendredi	vendredi	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	appos	_	_
+12	avec	avec	ADP	_	ADP___	11	case	_	_
+13	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+14	train	train	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+15	de	de	ADP	_	ADP___	16	case	_	_
+16	7h00	7h00	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	nmod	_	_
+17	et	et	CCONJ	_	CCONJ___	16	cc	_	_
+18	normalement	normalement	ADV	_	ADV___	21	conj	_	_
+19	je	il	PRON	_	PRON__Number=Sing|Person=1	21	nsubj	_	_
+20	devais	devoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	prendre	prendre	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+22	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	23	det	_	_
+23	train	train	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obj	_	_
+24	aussi	aussi	ADV	_	ADV___	28	advmod	_	_
+25	.	.	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#J'ai demandé à partir la veille pour ne pas me lever à 5h30 du mat'.
+1	J'	J'	PRON	_	PRON__Number=Sing|Person=1	8	nsubj	_	_
+2	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	demandé	demander	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	à	à	ADP	_	ADP___	5	mark	_	_
+5	partir	partir	VERB	_	VERB__VerbForm=Inf	8	xcomp	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	veille	veiller	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+8	pour	pour	ADP	_	ADP___	8	mark	_	_
+9	ne	ne	ADV	_	ADV___	10	advmod	_	_
+10	pas	pas	ADV	_	ADV___	8	fixed	_	_
+11	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	13	expl	_	_
+12	lever	lever	VERB	_	VERB__VerbForm=Inf	11	advcl	_	_
+13	à	à	ADP	_	ADP___	10	case	_	_
+14	5h30	5h30	NUM	_	NUM__NumType=Card	8	obl	_	_
+15	du	du	DET	_	DET__Gender=Masc|Number=Sing	16	det	_	_
+16	mat	mat	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obj	_	_
+17	'	'	PUNCT	_	PUNCT___	16	punct	_	_
+18	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Du coup, il accepte de prendre mes billets pour le jeudi mais c'est moi qui paye le logement.
+1	Du	Du	DET	_	DET__Gender=Masc|Number=Sing	8	det	_	_
+2	coup	coup	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+3	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+5	accepte	accepter	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	de	de	ADP	_	ADP___	8	mark	_	_
+7	prendre	prendre	VERB	_	VERB__VerbForm=Inf	8	xcomp	_	_
+8	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	8	nmod:poss	_	_
+9	billets	billet	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	obj	_	_
+10	pour	pour	ADP	_	ADP___	8	case	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	jeudi	jeudi	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+13	mais	mai	CCONJ	_	CCONJ___	10	cc	_	_
+14	c'	ce	PRON	_	PRON__Number=Sing|Person=3	8	nsubj	_	_
+15	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	16	conj	_	_
+17	qui	qui	PRON	_	PRON__PronType=Rel	16	nsubj	_	_
+18	paye	payer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+19	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	logement	logement	ADV	_	ADV___	21	acl:relcl	_	_
+21	.	.	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#Si je lui demande de payer le logement il me demandera de partir le vendredi matin ^^
+1	Si	Si	SCONJ	_	SCONJ___	8	mark	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+3	lui	luire	PRON	_	PRON__Number=Sing|Person=3	8	iobj	_	_
+4	demande	demander	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	de	de	ADP	_	ADP___	8	mark	_	_
+6	payer	payer	VERB	_	VERB__VerbForm=Inf	8	xcomp	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	logement	logement	ADV	_	ADV___	8	obj	_	_
+9	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
+10	me	se	PRON	_	PRON__Number=Sing|Person=1	8	iobj	_	_
+11	demandera	demander	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	13	advcl	_	_
+12	de	de	ADP	_	ADP___	11	mark	_	_
+13	partir	partir	VERB	_	VERB__VerbForm=Inf	10	xcomp	_	_
+14	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+15	vendredi	vendredi	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	amod	_	_
+16	matin	matin	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obj	_	_
+17	^^	^^	ADJ	_	ADJ__Gender=Masc	16	punct	_	_
+
+
+#certes mais vu que mon patron lui-même part le vendredi matin...
+1	certes	certes	ADV	_	ADV___	0	ROOT	_	_
+2	mais	mai	CCONJ	_	CCONJ___	3	cc	_	_
+3	vu	voir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	_
+4	que	que	SCONJ	_	SCONJ___	3	fixed	_	_
+5	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+6	patron	patron	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obj	_	_
+7	lui-même	lui-même	PRON	_	PRON__PronType=Rel	6	nmod	_	_
+8	part	partir	NOUN	_	NOUN__Number=Sing	6	fixed	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	vendredi	vendredi	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	amod	_	_
+11	matin	matin	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nmod	_	_
+12	...	...	PUNCT	_	PUNCT___	1	punct	_	_
+
+
