@@ -1,0 +1,341 @@
+#Bonjour,Quand vous dites "ma belle mère", est-ce la mère de votre épouse, ou la seconde épouse de votre père ?
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Quand	Quand	SCONJ	_	SCONJ___	5	mark	_	_
+4	vous	se	PRON	_	PRON__Number=Plur|Person=2	5	nsubj	_	_
+5	dites	dit	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	9	cop	_	_
+6	"	"	PUNCT	_	PUNCT___	9	punct	_	_
+7	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	9	nmod:poss	_	_
+8	belle	beau	ADJ	_	ADJ__Gender=Fem|Number=Sing	9	amod	_	_
+9	mère	mère	ADJ	_	ADJ__Gender=Fem|Number=Sing	1	amod	_	_
+10	"	"	PUNCT	_	PUNCT___	9	punct	_	_
+11	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+12	est	être		_	VERB	1	conj	_	_
+13	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	12	iobj	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	mère	mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obl	_	_
+16	de	de	ADP	_	ADP___	18	case	_	_
+17	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	18	nmod:poss	_	_
+18	épouse	époux	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	nmod	_	_
+19	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+20	ou	ou	CCONJ	_	CCONJ___	23	cc	_	_
+21	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	seconde	seconder	ADJ	_	ADJ__Gender=Fem|Number=Sing|NumType=Ord	23	amod	_	_
+23	épouse	époux	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	conj	_	_
+24	de	de	ADP	_	ADP___	26	case	_	_
+25	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	26	nmod:poss	_	_
+26	père	père	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	nmod	_	_
+27	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Et la fille de votre belle mère est-ce votre épouse ou votre demie soeur ?
+1	Et	Et	CCONJ	_	CCONJ___	1	cc	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+3	fille	fille	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nsubj	_	_
+4	de	de	ADP	_	ADP___	5	case	_	_
+5	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	9	nmod:poss	_	_
+6	belle	beau	ADJ	_	ADJ__Gender=Fem|Number=Sing	9	amod	_	_
+7	mère	mère	ADJ	_	ADJ__Gender=Fem|Number=Sing	9	nmod	_	_
+8	est	être		_	VERB	9	cop	_	_
+9	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	1	punct	_	_
+10	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	9	nmod:poss	_	_
+11	épouse	époux	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+12	ou	ou	CCONJ	_	CCONJ___	1	cc	_	_
+13	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	12	nmod:poss	_	_
+14	demie	demi	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	conj	_	_
+15	soeur	soeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+16	?	?	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Bonjour,Et votre conjoint en pense quoi ?
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Et	Et	CCONJ	_	CCONJ___	5	cc	_	_
+4	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+5	conjoint	conjoindre	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nsubj	_	_
+6	en	en	ADP	_	ADP___	7	case	_	_
+7	pense	penser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	nmod	_	_
+8	quoi	quoi	PRON	_	PRON__PronType=Int	7	obj	_	_
+9	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Il peut les demander et les rendre à sa mère, non ?
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+2	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	les	le	PRON	_	PRON__Number=Plur|Person=3	4	det	_	_
+4	demander	demander	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	et	et	CCONJ	_	CCONJ___	7	cc	_	_
+6	les	le	PRON	_	PRON__Number=Plur|Person=3	7	obj	_	_
+7	rendre	rendre	VERB	_	VERB__VerbForm=Inf	4	conj	_	_
+8	à	à	ADP	_	ADP___	10	case	_	_
+9	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	10	nmod:poss	_	_
+10	mère	mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obl	_	_
+11	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+12	non	non	ADV	_	ADV___	7	advmod	_	_
+13	?	?	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Pardonnez nous de ne pas connaitre votre situation familiale et d'envisager les évidences....
+1	Pardonnez	Pardonnez	PROPN	_	PROPN__Gender=Masc|Number=Sing	6	nsubj	_	_
+2	nous	se	PRON	_	PRON__Number=Plur|Person=1|Reflex=Yes	6	nsubj	_	_
+3	de	de	ADP	_	ADP___	2	fixed	_	_
+4	ne	ne	ADV	_	ADV___	6	advmod	_	_
+5	pas	pas	ADV	_	ADV___	4	fixed	_	_
+6	connaitre	connaitre	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+7	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+8	situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obj	_	_
+9	familiale	familial	ADJ	_	ADJ__Gender=Fem|Number=Sing	8	amod	_	_
+10	et	et	CCONJ	_	CCONJ___	12	cc	_	_
+11	d'	de	ADP	_	ADP___	12	mark	_	_
+12	envisager	envisager	VERB	_	VERB__VerbForm=Inf	6	conj	_	_
+13	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	14	det	_	_
+14	évidences	évidence	NOUN	_	NOUN__Gender=Fem|Number=Plur	12	obj	_	_
+15	....	....	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#pourtant c'est la solution la plus simple alors pourquoi ne peut il pas le faire?y a t il des contentieux anciens ?
+1	pourtant	pourtant	ADV	_	ADV___	6	advmod	_	_
+2	c'	ce	PRON	_	PRON__Number=Sing|Person=3	6	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	solution	solution	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nsubj	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+7	plus	plaire	ADV	_	ADV___	8	advmod	_	_
+8	simple	simple	ADJ	_	ADJ__Number=Sing	6	amod	_	_
+9	alors	alors	ADV	_	ADV___	8	advmod	_	_
+10	pourquoi	pourquoi	ADV	_	ADV___	12	fixed	_	_
+11	ne	ne	ADV	_	ADV___	12	advmod	_	_
+12	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+13	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	14	advmod	_	_
+14	pas	pas	ADV	_	ADV__Polarity=Neg	12	fixed	_	_
+15	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+16	faire?y	faire?y	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	nsubj	_	_
+17	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+18	t	t	NOUN	_	NOUN___	0	ROOT	_	_
+19	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	20	advmod	_	_
+20	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	33	det	_	_
+21	contentieux	contentieux	ADJ	_	ADJ__Gender=Masc	24	obj	_	_
+22	anciens	ancien	ADJ	_	ADJ__Gender=Masc|Number=Plur	23	amod	_	_
+23	?	?	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#votre conjoint a t il un jeu de clés ?
+1	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+2	conjoint	conjoindre	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nsubj	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+4	t	t	NOUN	_	NOUN___	0	ROOT	_	_
+5	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	case	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+7	jeu	jeu	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+8	de	de	ADP	_	ADP___	6	case	_	_
+9	clés	clé	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	nmod	_	_
+10	?	?	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Parfois les solutions les plus simples ne sont pas les plus évidentes.
+1	Parfois	Parfois	ADV	_	ADV___	3	advmod	_	_
+2	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	3	det	_	_
+3	solutions	solution	NOUN	_	NOUN__Gender=Fem|Number=Plur	12	nsubj	_	_
+4	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	6	det	_	_
+5	plus	plaire	ADV	_	ADV___	6	advmod	_	_
+6	simples	simple	ADJ	_	ADJ__Number=Plur	3	amod	_	_
+7	ne	ne	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+8	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+9	pas	pas	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+10	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	12	det	_	_
+11	plus	plaire	ADV	_	ADV___	12	advmod	_	_
+12	évidentes	évident	ADJ	_	ADJ__Gender=Fem|Number=Plur	0	ROOT	_	_
+13	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Même si çà vous choque, votre conjoint a son rôle à jouer dans ce différent familial.
+1	Même	Même	ADV	_	ADV___	3	mark	_	_
+2	si	si	SCONJ	_	SCONJ___	3	fixed	_	_
+3	çà	çà	PRON	_	PRON__Number=Sing|Person=1	12	nsubj	_	_
+4	vous	se	PRON	_	PRON__Number=Plur|Person=2	6	nsubj	_	_
+5	choque	choquer	ADJ	_	ADJ__Number=Sing	6	advcl	_	_
+6	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+7	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	12	nmod:poss	_	_
+8	conjoint	conjoindre	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nsubj	_	_
+9	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+10	son	son	DET	_	DET__Number=Sing|Poss=Yes	12	nmod:poss	_	_
+11	rôle	rôle	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+12	à	à	ADP	_	ADP___	12	mark	_	_
+13	jouer	jouer	VERB	_	VERB__VerbForm=Inf	12	xcomp	_	_
+14	dans	dan	ADP	_	ADP___	18	case	_	_
+15	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+16	différent	différent	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obl	_	_
+17	familial	familial	ADJ	_	ADJ__Gender=Masc|Number=Sing	18	amod	_	_
+18	.	.	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#Vous n'êtes pas cassés...c'est juste la toute première démarche à faire : demander de manière amiable (et orale).Même si les frères et soeur sont en confilt.
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	5	nsubj:pass	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+3	êtes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+5	cassés	casser	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+6	...	...	PUNCT	_	PUNCT___	5	punct	_	_
+7	c'	ce	PRON	_	PRON__Number=Sing|Person=3	13	nsubj	_	_
+8	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+9	juste	juste	ADV	_	ADV___	13	advmod	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+11	toute	tout	ADJ	_	ADJ__Gender=Fem|Number=Sing	13	amod	_	_
+12	première	premier	ADJ	_	ADJ__Gender=Fem|Number=Sing|NumType=Ord	13	amod	_	_
+13	démarche	démarcher	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obl	_	_
+14	à	à	ADP	_	ADP___	15	mark	_	_
+15	faire	faire	VERB	_	VERB__VerbForm=Inf	13	acl	_	_
+16	:	:	PUNCT	_	PUNCT___	5	punct	_	_
+17	demander	demander	VERB	_	VERB__VerbForm=Inf	5	acl	_	_
+18	de	de	ADP	_	ADP___	19	case	_	_
+19	manière	manière	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	obl	_	_
+20	amiable	amiable	ADJ	_	ADJ__Number=Sing	19	amod	_	_
+21	(	(	PUNCT	_	PUNCT___	17	punct	_	_
+22	et	et	CCONJ	_	CCONJ___	23	cc	_	_
+23	orale).Même	orale).Même	ADV	_	ADV___	17	conj	_	_
+24	si	si	SCONJ	_	SCONJ___	23	fixed	_	_
+25	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	26	det	_	_
+26	frères	frère	NOUN	_	NOUN__Gender=Masc|Number=Plur	31	nsubj	_	_
+27	et	et	CCONJ	_	CCONJ___	28	cc	_	_
+28	soeur	soeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	conj	_	_
+29	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
+30	en	en	ADP	_	ADP___	31	case	_	_
+31	confilt	confilt	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	dep	_	_
+32	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Du coup, on peut se doute que la réponse sera une fin de non recevoir, mais il faut quand même tenter cela en premier lieu.
+1	Du	Du	DET	_	DET__Gender=Masc|Number=Sing	5	det	_	_
+2	coup	coup	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+3	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+4	on	on	PRON	_	PRON__Number=Sing|Person=3	5	nsubj	_	_
+5	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+6	se	se	PRON	_	PRON__Person=3|Reflex=Yes	5	expl	_	_
+7	doute	douter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	que	que	SCONJ	_	SCONJ___	13	mark	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+10	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nsubj	_	_
+11	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	13	cop	_	_
+12	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	fin	fin	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	ccomp	_	_
+14	de	de	ADP	_	ADP___	15	mark	_	_
+15	non	non	ADV	_	ADV___	13	advmod	_	_
+16	recevoir	recevoir	VERB	_	VERB__VerbForm=Inf	5	acl	_	_
+17	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+18	mais	mai	CCONJ	_	CCONJ___	19	cc	_	_
+19	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	17	nsubj	_	_
+20	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	conj	_	_
+21	quand	quand	ADV	_	ADV___	17	mark	_	_
+22	même	même	ADV	_	ADV___	23	advmod	_	_
+23	tenter	tenter	VERB	_	VERB__VerbForm=Inf	17	xcomp	_	_
+24	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	23	obj	_	_
+25	en	en	ADP	_	ADP___	26	case	_	_
+26	premier	premier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	31	amod	_	_
+27	lieu	lieu	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	obl	_	_
+28	.	.	PUNCT	_	PUNCT___	26	punct	_	_
+
+
+#La 2e étape sera de le faire par écrit (pour tracer), ou de menacer d'un dépôt de plainte (la mère)...
+1	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+2	2e	2e	ADJ	_	ADJ__NumType=Ord	5	nsubj	_	_
+3	étape	étape	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	amod	_	_
+4	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	cop	_	_
+5	de	de	ADP	_	ADP___	5	mark	_	_
+6	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	obj	_	_
+7	faire	faire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+8	par	par	ADP	_	ADP___	13	case	_	_
+9	écrit	écrire	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+10	(	(	PUNCT	_	PUNCT___	13	punct	_	_
+11	pour	pour	ADP	_	ADP___	13	case	_	_
+12	tracer	tracer	VERB	_	VERB__VerbForm=Inf	13	obl	_	_
+13	)	)	PUNCT	_	PUNCT___	5	punct	_	_
+14	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+15	ou	ou	CCONJ	_	CCONJ___	13	cc	_	_
+16	de	de	ADP	_	ADP___	5	case	_	_
+17	menacer	menacer	VERB	_	VERB__VerbForm=Inf	5	conj	_	_
+18	d'	de	ADP	_	ADP___	19	case	_	_
+19	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+20	dépôt	dépôt	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	nmod	_	_
+21	de	de	ADP	_	ADP___	17	case	_	_
+22	plainte	plaindre	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	nmod	_	_
+23	(	(	PUNCT	_	PUNCT___	17	punct	_	_
+24	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+25	mère)	mère)	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	obl	_	_
+26	...	...	PUNCT	_	PUNCT___	31	punct	_	_
+
+
+#Et sinon, si votre époux a les clef de chez sa mère, il peut tout aussi bien s'y rendre et changer les serrures, sa mère l'autorisant à le faire.
+1	Et	Et	CCONJ	_	CCONJ___	5	cc	_	_
+2	sinon	sinon	ADV	_	ADV___	0	ROOT	_	_
+3	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+4	si	si	SCONJ	_	SCONJ___	5	mark	_	_
+5	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+6	époux	époux	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+7	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+8	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	13	det	_	_
+9	clef	clef	NOUN	_	NOUN__Gender=Fem|Number=Plur	13	advcl	_	_
+10	de	de	ADP	_	ADP___	13	case	_	_
+11	chez	chez	ADP	_	ADP___	13	case	_	_
+12	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	13	nmod:poss	_	_
+13	mère	mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+14	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+15	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	13	nsubj	_	_
+16	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+17	tout	tout	ADV	_	ADV___	5	advmod	_	_
+18	aussi	aussi	ADV	_	ADV___	19	advmod	_	_
+19	bien	bien	ADV	_	ADV___	17	advmod	_	_
+20	s'	si	SCONJ	_	SCONJ___	19	expl	_	_
+21	y	yu	PRON	_	PRON__Person=3	17	iobj	_	_
+22	rendre	rendre	VERB	_	VERB__VerbForm=Inf	23	xcomp	_	_
+23	et	et	CCONJ	_	CCONJ___	17	cc	_	_
+24	changer	changer	VERB	_	VERB__VerbForm=Inf	23	conj	_	_
+25	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	26	det	_	_
+26	serrures	serrure	NOUN	_	NOUN__Gender=Masc|Number=Plur	31	obj	_	_
+27	,	,	PUNCT	_	PUNCT___	28	punct	_	_
+28	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	26	nmod:poss	_	_
+29	mère	mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	nsubj	_	_
+30	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	31	obj	_	_
+31	autorisant	autoriser	VERB	_	VERB__Tense=Pres|VerbForm=Part	23	conj	_	_
+32	à	à	ADP	_	ADP___	5	mark	_	_
+33	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	34	obj	_	_
+34	faire	faire	VERB	_	VERB__VerbForm=Inf	39	xcomp	_	_
+35	.	.	PUNCT	_	PUNCT___	39	punct	_	_
+
+
+#Je rappelle à Pompy67 que nos intervenants sont des bénévoles.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	2	nsubj	_	_
+2	rappelle	rappeler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	à	à	ADP	_	ADP___	4	case	_	_
+4	Pompy67	Pompy67	ADV	_	ADV___	2	obl	_	_
+5	que	que	SCONJ	_	SCONJ___	10	mark	_	_
+6	nos	notre	DET	_	DET__Number=Plur|Poss=Yes	7	nmod:poss	_	_
+7	intervenants	intervenant	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	nsubj	_	_
+8	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
+10	bénévoles	bénévole	NOUN	_	NOUN__Number=Plur	2	ccomp	_	_
+11	.	.	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#On ne vous demande rien en remerciement, par contre les réactions antipathiques ne sont pas les biens venus.
+1	On	On	PRON	_	PRON__Number=Sing|Person=3	2	nsubj	_	_
+2	ne	ne	ADV	_	ADV___	2	advmod	_	_
+3	vous	se	PRON	_	PRON__Number=Plur|Person=2	4	iobj	_	_
+4	demande	demander	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	10	obj	_	_
+6	en	en	ADP	_	ADP___	7	mark	_	_
+7	remerciement	remerciement	ADV	_	ADV___	10	advcl	_	_
+8	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+9	par	par	ADP	_	ADP___	10	case	_	_
+10	contre	contrer	ADP	_	ADP___	2	fixed	_	_
+11	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	2	det	_	_
+12	réactions	réaction	NOUN	_	NOUN__Gender=Fem|Number=Plur	15	obl	_	_
+13	antipathiques	antipathique	ADJ	_	ADJ__Gender=Fem|Number=Plur	15	amod	_	_
+14	ne	ne	ADV	_	ADV__Polarity=Neg	15	advmod	_	_
+15	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+16	pas	pas	ADV	_	ADV__Polarity=Neg	15	advmod	_	_
+17	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	18	det	_	_
+18	biens	bien	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	conj	_	_
+19	venus	venu	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	15	acl	_	_
+20	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+

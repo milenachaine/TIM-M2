@@ -1,0 +1,121 @@
+#BonjourSans document signé, je  suppose que cela signifie qu'il n'y a pas de testament ?
+1	BonjourSans	BonjourSans	ADP	_	ADP___	3	mark	_	_
+2	document	document	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	advmod	_	_
+3	signé	signer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+4	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+5	je	il	PRON	_	PRON__Number=Sing|Person=1	7	nsubj	_	_
+6	 	 	SPACE	_		5		_	_
+7	suppose	supposer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	que	que	SCONJ	_	SCONJ___	10	mark	_	_
+9	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	10	nsubj	_	_
+10	signifie	signifier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+11	qu'	que	SCONJ	_	SCONJ___	15	mark	_	_
+12	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	15	nsubj	_	_
+13	n'	ne	ADV	_	ADV__Polarity=Neg	15	advmod	_	_
+14	y	yu	PRON	_	PRON__Person=3	15	expl	_	_
+15	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+16	pas	pas	ADV	_	ADV__Polarity=Neg	15	advmod	_	_
+17	de	de	ADP	_	ADP___	18	det	_	_
+18	testament	testament	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obj	_	_
+19	?	?	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#1/4 pour chaque parents, l'autre moitié se partage entre les frères et sœurs.
+1	1/4	1/4	NOUN	_	NOUN__NumType=Card	3	acl	_	_
+2	pour	pour	ADP	_	ADP___	3	case	_	_
+3	chaque	chaque	DET	_	DET__Number=Sing	7	det	_	_
+4	parents	parent	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	nmod	_	_
+5	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+7	autre	autre	ADJ	_	ADJ__Number=Sing	7	amod	_	_
+8	moitié	moitié	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nsubj	_	_
+9	se	se	PRON	_	PRON__Person=3|Reflex=Yes	10	expl	_	_
+10	partage	partager	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
+11	entre	entrer	ADP	_	ADP___	15	case	_	_
+12	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	15	det	_	_
+13	frères	frère	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	obl	_	_
+14	et	et	CCONJ	_	CCONJ___	15	cc	_	_
+15	sœurs	sœurs	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	conj	_	_
+16	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#On suppose que c'est un enfant célibataire, sans descendance.
+1	On	On	PRON	_	PRON__Number=Sing|Person=3	2	nsubj	_	_
+2	suppose	supposer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	que	que	SCONJ	_	SCONJ___	7	mark	_	_
+4	c'	ce	PRON	_	PRON__Number=Sing|Person=3	7	nsubj	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	enfant	enfant	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	ccomp	_	_
+8	célibataire	célibataire	ADJ	_	ADJ__Number=Sing	7	amod	_	_
+9	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+10	sans	sans	ADP	_	ADP___	11	case	_	_
+11	descendance	descendance	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obl	_	_
+12	.	.	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#Ses héritiers sont :
+1	Ses	Ses	DET	_	DET__Number=Plur|Poss=Yes	2	nmod:poss	_	_
+2	héritiers	héritier	NOUN	_	NOUN__Gender=Masc|Number=Plur	2	nsubj	_	_
+3	sont	être	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	:	:	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#- son père pour un quart, s'il est vivant,- sa mère pour un quart, si elle est vivante,- sa fratrie pour le surplus, à partager à égalité entre les frères et sœurs vivants, ou ayant une descendance vivante pour ceux et celles d'entre eux qui seraient déjà décédés.
+1	-	-	PUNCT	_	PUNCT___	2	punct	_	_
+2	son	son	DET	_	DET__Number=Sing|Poss=Yes	2	nmod:poss	_	_
+3	père	père	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+4	pour	pour	ADP	_	ADP___	7	case	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	quart	quart	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+7	,	,	PUNCT	_	PUNCT___	2	punct	_	_
+8	s'	si	SCONJ	_	SCONJ___	7	mark	_	_
+9	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+10	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	fixed	_	_
+11	vivant,-	vivant,-	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+12	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	2	nmod:poss	_	_
+13	mère	mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obl	_	_
+14	pour	pour	ADP	_	ADP___	15	case	_	_
+15	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+16	quart	quart	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obl	_	_
+17	,	,	PUNCT	_	PUNCT___	27	punct	_	_
+18	si	si	SCONJ	_	SCONJ___	19	mark	_	_
+19	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	27	nsubj	_	_
+20	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+21	vivante,-	vivante,-	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	advcl	_	_
+22	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	19	nmod:poss	_	_
+23	fratrie	fratrie	NOUN	_	NOUN__Gender=Fem|Number=Sing	27	obj	_	_
+24	pour	pour	ADP	_	ADP___	27	case	_	_
+25	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+26	surplus	surplus	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	obl	_	_
+27	,	,	PUNCT	_	PUNCT___	27	punct	_	_
+28	à	à	ADP	_	ADP___	29	mark	_	_
+29	partager	partager	VERB	_	VERB__VerbForm=Inf	27	advcl	_	_
+30	à	à	ADP	_	ADP___	32	case	_	_
+31	égalité	égalité	NOUN	_	NOUN__Gender=Fem|Number=Sing	32	obl	_	_
+32	entre	entrer	ADP	_	ADP___	27	case	_	_
+33	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	27	det	_	_
+34	frères	frère	NOUN	_	NOUN__Gender=Masc|Number=Plur	37	nmod	_	_
+35	et	et	CCONJ	_	CCONJ___	37	cc	_	_
+36	sœurs	sœurs	ADJ	_	ADJ__Gender=Masc|Number=Plur	37	conj	_	_
+37	vivants	vivant	NOUN	_	NOUN__Gender=Masc|Number=Plur	27	amod	_	_
+38	,	,	PUNCT	_	PUNCT___	39	punct	_	_
+39	ou	ou	CCONJ	_	CCONJ___	37	cc	_	_
+40	ayant	avoir	VERB	_	VERB__Tense=Pres|VerbForm=Part	42	conj	_	_
+41	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	descendance	descendance	NOUN	_	NOUN__Gender=Fem|Number=Sing	37	obj	_	_
+43	vivante	vivant	ADJ	_	ADJ__Gender=Fem|Number=Sing	37	amod	_	_
+44	pour	pour	ADP	_	ADP___	45	case	_	_
+45	ceux	celui	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Dem	37	nmod	_	_
+46	et	et	CCONJ	_	CCONJ___	47	cc	_	_
+47	celles	celui	PRON	_	PRON__Gender=Fem|Number=Plur|PronType=Dem	45	conj	_	_
+48	d'	de	ADP	_	ADP___	50	case	_	_
+49	entre	entrer	ADP	_	ADP___	50	fixed	_	_
+50	eux	lui	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3|PronType=Prs	47	nmod	_	_
+51	qui	qui	PRON	_	PRON__PronType=Rel	52	nsubj:pass	_	_
+52	seraient	être	AUX	_	AUX__Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	47	cop	_	_
+53	déjà	déjà	ADV	_	ADV___	47	advmod	_	_
+54	décédés	décéder	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	37	acl:relcl	_	_
+55	.	.	PUNCT	_	PUNCT___	56	punct	_	_
+
+

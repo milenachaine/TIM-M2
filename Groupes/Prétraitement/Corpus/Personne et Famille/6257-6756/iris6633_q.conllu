@@ -1,0 +1,189 @@
+#Bonjour,Je suis divorcé et en garde alternée depuis 2007.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	5	mark	_	_
+2	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+3	Je	Je	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+4	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	divorcé	divorcer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+6	et	et	CCONJ	_	CCONJ___	8	cc	_	_
+7	en	en	ADP	_	ADP___	8	case	_	_
+8	garde	garder	NOUN	_	NOUN__Number=Sing	5	conj	_	_
+9	alternée	alterner	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
+10	depuis	depuis	ADP	_	ADP___	11	case	_	_
+11	2007	2007	NUM	_	NUM__NumType=Card	5	nummod	_	_
+12	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#(sans pension)
+1	(	(	PUNCT	_	PUNCT___	5	punct	_	_
+2	sans	sans	ADP	_	ADP___	5	case	_	_
+3	pension	pension	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	)	)	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Mon ex-femme à les enfants sur elle donc les aides de la CAF.
+1	Mon	Mon	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+2	ex-femme	ex-femme	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	à	à	ADP	_	ADP___	5	case	_	_
+4	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+5	enfants	enfant	NOUN	_	NOUN__Number=Plur	5	nmod	_	_
+6	sur	sur	ADP	_	ADP___	8	case	_	_
+7	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	8	nmod	_	_
+8	donc	donc	ADV	_	ADV___	5	advmod	_	_
+9	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+10	aides	aider	NOUN	_	NOUN__Number=Plur	11	conj	_	_
+11	de	de	ADP	_	ADP___	5	case	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+13	CAF	CAF	PROPN	_	PROPN__Gender=Fem|Number=Sing	15	nmod	_	_
+14	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Elle est remariée et a un enfant en plus.
+1	Elle	Elle	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	5	nsubj:pass	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+3	remariée	remarier	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+4	et	et	CCONJ	_	CCONJ___	5	cc	_	_
+5	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	enfant	enfant	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+8	en	en	ADP	_	ADP___	5	advmod	_	_
+9	plus	plaire	ADV	_	ADV___	8	fixed	_	_
+10	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#J'ai 2 enfants de 13 ans et 16 ans.
+1	J'	J'	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+2	ai	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	2	2	NUM	_	NUM__NumType=Card	5	nummod	_	_
+4	enfants	enfant	NOUN	_	NOUN__Number=Plur	5	obj	_	_
+5	de	de	ADP	_	ADP___	5	case	_	_
+6	13	13	NUM	_	NUM__NumType=Card	8	nummod	_	_
+7	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	nmod	_	_
+8	et	et	CCONJ	_	CCONJ___	5	cc	_	_
+9	16	16	NUM	_	NUM__NumType=Card	8	nummod	_	_
+10	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	conj	_	_
+11	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Ma fille de 16 ans vit maintenant chez moi.
+1	Ma	Ma	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	5	nmod:poss	_	_
+2	fille	fille	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nsubj	_	_
+3	de	de	ADP	_	ADP___	5	case	_	_
+4	16	16	NUM	_	NUM__NumType=Card	5	nummod	_	_
+5	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	nmod	_	_
+6	vit	voir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	maintenant	maintenir	ADV	_	ADV___	8	advmod	_	_
+8	chez	chez	ADP	_	ADP___	5	case	_	_
+9	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	8	obl	_	_
+10	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#elle ne veux plus aller chez sa mère (distance trop importante et mauvaise ambiance entre autre)Ils ont à eux 2 environ 3200 par mois de salaire et moi 1500 de salaire.
+1	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	5	nsubj	_	_
+2	ne	ne	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+3	veux	vouloir	ADJ	_	ADJ__Gender=Masc	0	ROOT	_	_
+4	plus	plaire	ADV	_	ADV___	5	advmod	_	_
+5	aller	aller	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+6	chez	chez	ADP	_	ADP___	8	case	_	_
+7	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	8	nmod:poss	_	_
+8	mère	mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obl	_	_
+9	(	(	PUNCT	_	PUNCT___	8	punct	_	_
+10	distance	distancer	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	appos	_	_
+11	trop	trop	ADV	_	ADV___	5	advmod	_	_
+12	importante	important	ADJ	_	ADJ__Gender=Fem|Number=Sing	5	amod	_	_
+13	et	et	CCONJ	_	CCONJ___	15	cc	_	_
+14	mauvaise	mauvais	ADJ	_	ADJ__Gender=Fem|Number=Sing	15	amod	_	_
+15	ambiance	ambiance	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	conj	_	_
+16	entre	entrer	ADP	_	ADP___	15	case	_	_
+17	autre)Ils	autre)Ils	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	18	nmod	_	_
+18	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+19	à	à	ADP	_	ADP___	21	case	_	_
+20	eux	lui	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3|PronType=Prs	21	obl	_	_
+21	2	2	NUM	_	NUM__NumType=Card	18	nummod	_	_
+22	environ	environ	ADV	_	ADV___	23	advmod	_	_
+23	3200	3200	ADJ	_	ADJ__Gender=Masc	18	obj	_	_
+24	par	par	ADP	_	ADP___	23	case	_	_
+25	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	26	obl	_	_
+26	de	de	ADP	_	ADP___	18	case	_	_
+27	salaire	salaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	nmod	_	_
+28	et	et	CCONJ	_	CCONJ___	29	cc	_	_
+29	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	26	conj	_	_
+30	1500	1500	NOUN	_	NOUN__Gender=Masc|Number=Sing|NumType=Card	18	iobj	_	_
+31	de	de	ADP	_	ADP___	33	case	_	_
+32	salaire	salaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	33	nmod	_	_
+33	.	.	PUNCT	_	PUNCT___	33	punct	_	_
+
+
+#Puis-je demander d'avoir ma fille sur moi pour peut-être avoir une aide.
+1	Puis	Puis	CCONJ	_	CCONJ___	5	cc	_	_
+2	-	-	PUNCT	_	PUNCT___	5	punct	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+4	demander	demander	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	d'	de	ADP	_	ADP___	5	mark	_	_
+6	avoir	avoir	VERB	_	VERB__VerbForm=Inf	8	xcomp	_	_
+7	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	8	nmod:poss	_	_
+8	fille	fille	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obj	_	_
+9	sur	sur	ADP	_	ADP___	8	case	_	_
+10	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	11	nmod	_	_
+11	pour	pour	ADP	_	ADP___	5	mark	_	_
+12	peut-être	peut-être	ADV	_	ADV___	5	fixed	_	_
+13	avoir	avoir	VERB	_	VERB__VerbForm=Inf	15	advcl	_	_
+14	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	aide	aider	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obj	_	_
+16	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Ou alors une pension de mon ex-femme puisque c'est moi qui doit tout gérer.
+1	Ou	Ou	CCONJ	_	CCONJ___	5	cc	_	_
+2	alors	alors	ADV	_	ADV___	5	advmod	_	_
+3	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	pension	pension	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+5	de	de	ADP	_	ADP___	5	case	_	_
+6	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+7	ex-femme	ex-femme	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+8	puisque	puisque	SCONJ	_	SCONJ___	5	mark	_	_
+9	c'	ce	PRON	_	PRON__Number=Sing|Person=3	8	nsubj	_	_
+10	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	5	acl:relcl	_	_
+12	qui	qui	PRON	_	PRON__PronType=Rel	5	nsubj	_	_
+13	doit	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	tout	tout	ADV	_	ADV___	15	advmod	_	_
+15	gérer	gérer	VERB	_	VERB__VerbForm=Inf	15	acl:relcl	_	_
+16	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#J'espère avoir été clair.
+1	J'	J'	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+2	espère	espérer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	avoir	avoir	AUX	_	AUX__VerbForm=Inf	5	aux	_	_
+4	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	clair	clair	ADJ	_	ADJ__Gender=Masc|Number=Sing	5	xcomp	_	_
+6	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Merci pour cette réponse claire et précise.
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	pour	pour	ADP	_	ADP___	4	case	_	_
+3	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+5	claire	clair	ADJ	_	ADJ__Gender=Fem|Number=Sing	4	amod	_	_
+6	et	et	CCONJ	_	CCONJ___	7	cc	_	_
+7	précise	préciser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+8	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Cela va me permettre d'envisager la suite avec plus de visu.
+1	Cela	Cela	PRON	_	PRON__Number=Sing|PronType=Dem	1	nsubj	_	_
+2	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	4	expl	_	_
+4	permettre	permettre	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	d'	de	ADP	_	ADP___	4	mark	_	_
+6	envisager	envisager	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+8	suite	suite	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obj	_	_
+9	avec	avec	ADP	_	ADP___	12	fixed	_	_
+10	plus	plaire	ADV	_	ADV___	12	det	_	_
+11	de	de	ADP	_	ADP___	12	fixed	_	_
+12	visu	visu	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+13	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
