@@ -1,0 +1,335 @@
+#Bonjour,mon ancien propriétaire m'a envoyé une facture correspondant à une prestation d'entretien.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	8	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+3	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+4	ancien	ancien	ADJ	_	ADJ__Gender=Masc|Number=Sing	5	amod	_	_
+5	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	8	nsubj	_	_
+6	m'	se	PRON	_	PRON__Number=Sing|Person=1	8	obj	_	_
+7	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	envoyé	envoyer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+9	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	facture	facturer	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+11	correspondant	correspondre	VERB	_	VERB__Tense=Pres|VerbForm=Part	10	acl	_	_
+12	à	à	ADP	_	ADP___	14	case	_	_
+13	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	prestation	prestation	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obl	_	_
+15	d'	de	ADP	_	ADP___	16	case	_	_
+16	entretien	entretien	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nmod	_	_
+17	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Le problème est que cette facture ne comporte pas de numéro.
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+2	problème	problème	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	que	que	SCONJ	_	SCONJ___	5	mark	_	_
+5	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+6	facture	facturer	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nsubj	_	_
+7	ne	ne	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+8	comporte	comporter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+9	pas	pas	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+10	de	de	ADP	_	ADP___	8	det	_	_
+11	numéro	numéro	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+12	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Elle est  émise par une entreprise dont le patron est copain avec mon ancien  propriétaire, et je soupçonne un truc pas net.
+1	Elle	Elle	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	8	nsubj:pass	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+3	 	 	SPACE	_		5		_	_
+4	émise	émettre	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	par	par	ADP	_	ADP___	8	case	_	_
+6	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	entreprise	entreprendre	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+8	dont	dont	PRON	_	PRON__PronType=Rel	8	dep	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	patron	patron	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+11	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+12	copain	copain	ADJ	_	ADJ__Gender=Masc|Number=Sing	14	acl:relcl	_	_
+13	avec	avec	ADP	_	ADP___	14	case	_	_
+14	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	11	nmod:poss	_	_
+15	ancien	ancien	ADJ	_	ADJ__Gender=Masc|Number=Sing	16	amod	_	_
+16	 	 	SPACE	_		14		_	_
+17	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	8	obl	_	_
+18	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+19	et	et	CCONJ	_	CCONJ___	20	cc	_	_
+20	je	il	PRON	_	PRON__Number=Sing|Person=1	20	nsubj	_	_
+21	soupçonne	soupçonner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	conj	_	_
+22	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	truc	truc	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	obj	_	_
+24	pas	pas	ADV	_	ADV___	25	advmod	_	_
+25	net	net	ADJ	_	ADJ__Gender=Masc|Number=Sing	20	amod	_	_
+26	.	.	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#Quoi qu'il en soit il manque donc une mention obligatoire.
+1	Quoi	Quoi	PRON	_	PRON__PronType=Int	8	mark	_	_
+2	qu'	que	SCONJ	_	SCONJ___	8	mark	_	_
+3	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+4	en	en	PRON	_	PRON__Person=3	5	nsubj	_	_
+5	soit	être	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+7	manque	manquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	donc	donc	ADV	_	ADV___	8	advmod	_	_
+9	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	mention	mention	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+11	obligatoire	obligatoire	ADJ	_	ADJ__Number=Sing	10	amod	_	_
+12	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Est
+1	Est	Est	ADV	_	ADV___	0	ROOT	_	_
+
+
+#-ce que dans ces conditions la facture est quand même valable, ou au contraire est-elle nulle ?
+1	-	-	PUNCT	_	PUNCT___	8	punct	_	_
+2	ce	ce	PRON	_	PRON__PronType=Rel	8	nsubj	_	_
+3	que	que	PRON	_	PRON__PronType=Rel	5	mark	_	_
+4	dans	dan	ADP	_	ADP___	5	case	_	_
+5	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	8	det	_	_
+6	conditions	condition	NOUN	_	NOUN__Gender=Fem|Number=Plur	8	obl	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	facture	facturer	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	dep	_	_
+9	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	quand	quand	ADV	_	ADV___	8	advmod	_	_
+11	même	même	ADV	_	ADV___	10	amod	_	_
+12	valable	valable	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+13	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+14	ou	ou	CCONJ	_	CCONJ___	11	cc	_	_
+15	au	au	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	16	iobj	_	_
+16	contraire	contraire	ADJ	_	ADJ__Number=Sing	14	conj	_	_
+17	est-elle	est-elle	ADJ	_	ADJ__Gender=Fem|Number=Sing	8	amod	_	_
+18	nulle	nul	ADJ	_	ADJ__Gender=Fem|Number=Sing	19	advmod	_	_
+19	?	?	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#J'ai longuement recherché sur internet mais je n'ai pas trouvé LA réponse.
+1	J'	J'	PRON	_	PRON__Number=Sing|Person=1	8	nsubj	_	_
+2	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+3	longuement	longuement	ADV	_	ADV___	5	advmod	_	_
+4	recherché	rechercher	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+5	sur	sur	ADP	_	ADP___	8	case	_	_
+6	internet	internet	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+7	mais	mai	CCONJ	_	CCONJ___	8	cc	_	_
+8	je	il	PRON	_	PRON__Number=Sing|Person=1	8	nsubj	_	_
+9	n'	ne	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+10	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+11	pas	pas	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+12	trouvé	trouver	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	conj	_	_
+13	LA	LA	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obj	_	_
+15	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Si vous pouvez m'aider je vous en saurais gré.
+1	Si	Si	SCONJ	_	SCONJ___	8	mark	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	8	nsubj	_	_
+3	pouvez	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	5	expl	_	_
+5	aider	aider	VERB	_	VERB__VerbForm=Inf	8	advcl	_	_
+6	je	il	PRON	_	PRON__Number=Sing|Person=1	8	nsubj	_	_
+7	vous	se	PRON	_	PRON__Number=Plur|Person=2	8	iobj	_	_
+8	en	en	PRON	_	PRON__Person=3	8	case	_	_
+9	saurais	savoir	ADJ	_	ADJ__Gender=Masc	10	cc	_	_
+10	gré	gré	ADJ	_	ADJ___	0	ROOT	_	_
+11	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Merci
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+
+
+#La facture correspond à des travaux effectués (sois-disant).Vanille et Ribould, vos réponses sont un peu contradictoires : l'un me dit que la facture reste valable, l'autre me dit que ce n'est pas une facture.
+1	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	facture	facturer	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+3	correspond	correspondre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	à	à	ADP	_	ADP___	6	case	_	_
+5	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
+6	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	obl	_	_
+7	effectués	effectuer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	acl	_	_
+8	(	(	PUNCT	_	PUNCT___	3	punct	_	_
+9	sois	être	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	parataxis	_	_
+10	-	-	PUNCT	_	PUNCT___	11	punct	_	_
+11	disant).Vanille	disant).Vanille	PRON	_	PRON__Gender=Fem|Number=Sing|PronType=Rel	9	conj	_	_
+12	et	et	CCONJ	_	CCONJ___	13	cc	_	_
+13	Ribould	Ribould	PROPN	_	PROPN___	11	conj	_	_
+14	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+15	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	16	nmod:poss	_	_
+16	réponses	réponse	NOUN	_	NOUN__Gender=Fem|Number=Plur	20	nsubj	_	_
+17	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+18	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	peu	peu	ADV	_	ADV___	20	advmod	_	_
+20	contradictoires	contradictoire	NOUN	_	NOUN__Gender=Fem|Number=Plur	9	nmod	_	_
+21	:	:	PUNCT	_	PUNCT___	25	punct	_	_
+22	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+23	un	un	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	25	nsubj	_	_
+24	me	se	PRON	_	PRON__Number=Sing|Person=1	25	iobj	_	_
+25	dit	dire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+26	que	que	SCONJ	_	SCONJ___	30	mark	_	_
+27	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	facture	facturer	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	nsubj	_	_
+29	reste	rester	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+30	valable	valable	ADJ	_	ADJ__Number=Sing	25	ccomp	_	_
+31	,	,	PUNCT	_	PUNCT___	35	punct	_	_
+32	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	33	det	_	_
+33	autre	autre	PRON	_	PRON__Number=Sing|PronType=Rel	35	nsubj	_	_
+34	me	se	PRON	_	PRON__Number=Sing|Person=1	35	iobj	_	_
+35	dit	dire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+36	que	que	SCONJ	_	SCONJ___	42	mark	_	_
+37	ce	ce	PRON	_	PRON__Number=Sing|Person=3	42	nsubj	_	_
+38	n'	ne	ADV	_	ADV__Polarity=Neg	42	advmod	_	_
+39	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	cop	_	_
+40	pas	pas	ADV	_	ADV__Polarity=Neg	42	advmod	_	_
+41	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	facture	facturer	NOUN	_	NOUN__Gender=Fem|Number=Sing	35	ccomp	_	_
+43	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Si jamais je vais au tribunal, que va faire le juge devant un tel document ?
+1	Si	Si	SCONJ	_	SCONJ___	2	mark	_	_
+2	jamais	jamais	ADV	_	ADV___	3	nsubj	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+4	vais	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	6	case	_	_
+6	tribunal	tribunal	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obj	_	_
+7	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+8	que	que	PRON	_	PRON__PronType=Rel	3	mark	_	_
+9	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+10	faire	faire	VERB	_	VERB__VerbForm=Inf	11	ccomp	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+12	juge	juger	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+13	devant	devoir	ADP	_	ADP___	11	case	_	_
+14	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+15	tel	tel	ADJ	_	ADJ__Gender=Masc|Number=Sing	16	amod	_	_
+16	document	document	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	nmod	_	_
+17	?	?	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Bonjour,ces travaux correspondent à de l'entretien courant, et non à des dégradations notées lors de l'état des lieux.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+3	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	4	det	_	_
+4	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	nsubj	_	_
+5	correspondent	correspondre	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	amod	_	_
+6	à	à	ADP	_	ADP___	9	case	_	_
+7	de	de	ADP	_	ADP___	6	fixed	_	_
+8	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	entretien	entretien	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+10	courant	courir	ADJ	_	ADJ__Gender=Masc|Number=Sing	9	amod	_	_
+11	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+12	et	et	CCONJ	_	CCONJ___	16	cc	_	_
+13	non	non	ADV	_	ADV___	12	advmod	_	_
+14	à	à	ADP	_	ADP___	16	case	_	_
+15	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	16	det	_	_
+16	dégradations	dégradation	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	conj	_	_
+17	notées	noter	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	16	acl	_	_
+18	lors	lors	ADV	_	ADV___	21	case	_	_
+19	de	de	ADP	_	ADP___	18	fixed	_	_
+20	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	état	état	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obl	_	_
+22	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	23	det	_	_
+23	lieux	lieu	ADJ	_	ADJ__Gender=Masc	21	nmod	_	_
+24	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#oui, il s'agit d'entretien  des parties communes
+1	oui	oui	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+2	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+3	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+4	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	5	expl	_	_
+5	agit	agir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
+6	d'	de	ADP	_	ADP___	7	case	_	_
+7	entretien	entretien	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+8	 	 	SPACE	_		7		_	_
+9	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
+10	parties	partir	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	obj	_	_
+11	communes	commune	ADJ	_	ADJ__Gender=Fem|Number=Plur	10	amod	_	_
+
+
+#Oui il s'agit d'entretien et nettoyage des parties communes.
+1	Oui	Oui	PROPN	_	PROPN__Gender=Masc|Number=Sing	4	nsubj	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+3	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	4	expl	_	_
+4	agit	agir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
+5	d'	de	ADP	_	ADP___	6	case	_	_
+6	entretien	entretien	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+7	et	et	CCONJ	_	CCONJ___	8	cc	_	_
+8	nettoyage	nettoyage	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	conj	_	_
+9	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
+10	parties	partir	NOUN	_	NOUN__Gender=Fem|Number=Plur	8	obj	_	_
+11	communes	commune	ADJ	_	ADJ__Gender=Fem|Number=Plur	10	amod	_	_
+12	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#ma question concernait la validité d'une facture incomplète, et non de savoir si cette facture était récupérable ou pas.
+1	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	2	nmod:poss	_	_
+2	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+3	concernait	concerner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	validité	validité	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obj	_	_
+6	d'	de	ADP	_	ADP___	8	case	_	_
+7	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	facture	facturer	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+9	incomplète	incomplet	ADJ	_	ADJ__Gender=Fem|Number=Sing	8	amod	_	_
+10	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+11	et	et	CCONJ	_	CCONJ___	12	cc	_	_
+12	non	non	ADV	_	ADV___	14	advmod	_	_
+13	de	de	ADP	_	ADP___	14	mark	_	_
+14	savoir	savoir	VERB	_	VERB__VerbForm=Inf	3	advcl	_	_
+15	si	si	SCONJ	_	SCONJ___	19	mark	_	_
+16	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	17	det	_	_
+17	facture	facturer	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	nsubj	_	_
+18	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	cop	_	_
+19	récupérable	récupérable	ADJ	_	ADJ__Number=Sing	14	ccomp	_	_
+20	ou	ou	CCONJ	_	CCONJ___	21	cc	_	_
+21	pas	pas	ADV	_	ADV__Polarity=Neg	19	conj	_	_
+22	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+23	 	 	SPACE	_		22		_	_
+
+
+#Mais pour répondre à votre question, oui le propriétaire nous a remis cette facture comme il a eu l'habitude de le faire depuis plusieurs années lors du récapitulatif annuel.
+1	Mais	Mais	CCONJ	_	CCONJ___	2	cc	_	_
+2	pour	pour	ADP	_	ADP___	3	mark	_	_
+3	répondre	répondre	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	à	à	ADP	_	ADP___	5	case	_	_
+5	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	3	nmod:poss	_	_
+6	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+7	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+8	oui	oui	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+10	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	3	nsubj	_	_
+11	nous	se	PRON	_	PRON__Number=Plur|Person=1	12	iobj	_	_
+12	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	remis	remettre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	14	ccomp	_	_
+14	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+15	facture	facturer	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obj	_	_
+16	comme	comme	SCONJ	_	SCONJ___	17	mark	_	_
+17	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	19	nsubj	_	_
+18	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	advcl	_	_
+20	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	habitude	habitude	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obj	_	_
+22	de	de	ADP	_	ADP___	3	mark	_	_
+23	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	22	obj	_	_
+24	faire	faire	VERB	_	VERB__VerbForm=Inf	26	xcomp	_	_
+25	depuis	depuis	ADP	_	ADP___	26	case	_	_
+26	plusieurs	plusieurs	DET	_	DET__Number=Plur	26	det	_	_
+27	années	année	NOUN	_	NOUN__Gender=Fem|Number=Plur	29	obl	_	_
+28	lors	lors	ADV	_	ADV___	29	case	_	_
+29	du	du	DET	_	DET__Gender=Masc|Number=Sing	26	det	_	_
+30	récapitulatif	récapitulatif	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	obl	_	_
+31	annuel	annuel	ADJ	_	ADJ__Gender=Masc|Number=Sing	36	amod	_	_
+32	.	.	PUNCT	_	PUNCT___	33	punct	_	_
+
+
+#Sauf que cette année la facture est incomplète
+1	Sauf	Sauf	ADP	_	ADP___	2	mark	_	_
+2	que	que	SCONJ	_	SCONJ___	3	fixed	_	_
+3	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+4	année	année	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nsubj	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+6	facture	facturer	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+7	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	incomplète	incomplet	ADJ	_	ADJ__Gender=Fem|Number=Sing	0	ROOT	_	_
+
+

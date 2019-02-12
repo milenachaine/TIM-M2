@@ -1,0 +1,717 @@
+#Bonjour,J'habite Paris
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	J'	J'	PRON	_	PRON__Number=Sing|Person=1	1	nmod	_	_
+4	habite	habiter	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	flat:name	_	_
+5	Paris	Paris	PROPN	_	PROPN__Gender=Masc|Number=Sing	3	flat:name	_	_
+
+
+#, je me sers peu de ma voiture.
+1	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+3	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	1	iobj	_	_
+4	sers	servir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	case	_	_
+5	peu	peu	ADV	_	ADV___	3	advmod	_	_
+6	de	de	ADP	_	ADP___	9	case	_	_
+7	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	9	nmod:poss	_	_
+8	voiture	voiturer	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+9	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Le 10 septembre, je suis allée chercher un fauteuil roulant dans un magasin et je l'ai apporté chez ma sur invalide, qui ne peut pas conduire.
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	10	10	NUM	_	NUM__NumType=Card	1	nummod	_	_
+3	septembre	septembre	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+4	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+5	je	il	PRON	_	PRON__Number=Sing|Person=1	3	nsubj:pass	_	_
+6	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+7	allée	aller	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+8	chercher	chercher	VERB	_	VERB__VerbForm=Inf	9	xcomp	_	_
+9	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+10	fauteuil	fauteuil	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+11	roulant	rouler	VERB	_	VERB__Tense=Pres|VerbForm=Part	13	acl	_	_
+12	dans	dan	ADP	_	ADP___	13	case	_	_
+13	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+14	magasin	magasin	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+15	et	et	CCONJ	_	CCONJ___	17	cc	_	_
+16	je	il	PRON	_	PRON__Number=Sing|Person=1	17	nsubj	_	_
+17	l'	le	PRON	_	PRON__Number=Sing|Person=3	21	obj	_	_
+18	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	aux	_	_
+19	apporté	apporter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	conj	_	_
+20	chez	chez	ADP	_	ADP___	21	case	_	_
+21	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	21	nmod:poss	_	_
+22	sur	sur	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	obl	_	_
+23	invalide	invalider	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	amod	_	_
+24	,	,	PUNCT	_	PUNCT___	22	punct	_	_
+25	qui	qui	PRON	_	PRON__PronType=Rel	24	nsubj	_	_
+26	ne	ne	ADV	_	ADV__Polarity=Neg	28	advmod	_	_
+27	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	pas	pas	ADV	_	ADV__Polarity=Neg	25	advmod	_	_
+29	conduire	conduire	VERB	_	VERB__VerbForm=Inf	33	parataxis	_	_
+30	.	.	PUNCT	_	PUNCT___	33	punct	_	_
+
+
+#Avant de me rendre au magasin, je m'étais garée plusieurs heures sur un emplacement payant ordinaire, avec la carte mobilité inclusion de ma sur sur le pare-brise  Je n'ai pas payé.
+1	Avant	Avant	ADP	_	ADP___	1	mark	_	_
+2	de	de	ADP	_	ADP___	1	fixed	_	_
+3	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	1	expl	_	_
+4	rendre	rendre	VERB	_	VERB__VerbForm=Inf	3	advcl	_	_
+5	au	au	NOUN	_	NOUN___	3	advmod	_	_
+6	magasin	magasin	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	fixed	_	_
+7	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+8	je	il	PRON	_	PRON__Number=Sing|Person=1	9	nsubj	_	_
+9	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	13	iobj	_	_
+10	étais	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=2|Tense=Imp|VerbForm=Fin	13	aux	_	_
+11	garée	garer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	advcl	_	_
+12	plusieurs	plusieurs	DET	_	DET__Number=Plur	13	det	_	_
+13	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	13	obj	_	_
+14	sur	sur	ADP	_	ADP___	13	case	_	_
+15	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	emplacement	emplacement	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obl	_	_
+17	payant	payer	ADJ	_	ADJ__Gender=Masc|Number=Sing	21	acl	_	_
+18	ordinaire	ordinaire	ADJ	_	ADJ__Gender=Masc|Number=Sing	21	xcomp	_	_
+19	,	,	PUNCT	_	PUNCT___	21	punct	_	_
+20	avec	avec	ADP	_	ADP___	21	case	_	_
+21	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+22	carte	carte	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	obl	_	_
+23	mobilité	mobilité	ADJ	_	ADJ__Gender=Fem|Number=Sing	24	amod	_	_
+24	inclusion	inclusion	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	amod	_	_
+25	de	de	ADP	_	ADP___	24	case	_	_
+26	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	28	nmod:poss	_	_
+27	sur	sur	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	nmod	_	_
+28	sur	sur	ADP	_	ADP___	25	case	_	_
+29	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+30	pare-brise	pare-brise	NOUN	_	NOUN__Gender=Masc|Number=Sing	33	nmod	_	_
+31	 	 	SPACE	_		33		_	_
+32	Je	Je	PRON	_	PRON__Number=Sing|Person=1	33	nsubj	_	_
+33	n'	ne	ADV	_	ADV__Polarity=Neg	21	advmod	_	_
+34	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	36	aux	_	_
+35	pas	pas	ADV	_	ADV__Polarity=Neg	36	advmod	_	_
+36	payé	payer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+37	.	.	PUNCT	_	PUNCT___	36	punct	_	_
+
+
+#Je viens de recevoir un avis de "FPS", alors qu'il n'y avait rien le jour-même sur le pare-brise.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	viens	venir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	de	de	ADP	_	ADP___	1	mark	_	_
+4	recevoir	recevoir	VERB	_	VERB__VerbForm=Inf	3	xcomp	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+6	avis	avis	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+7	de	de	ADP	_	ADP___	9	case	_	_
+8	"	"	PUNCT	_	PUNCT___	9	punct	_	_
+9	FPS	FPS	PROPN	_	PROPN___	13	nmod	_	_
+10	"	"	PUNCT	_	PUNCT___	13	punct	_	_
+11	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+12	alors	alors	ADV	_	ADV___	13	mark	_	_
+13	qu'	que	SCONJ	_	SCONJ___	13	fixed	_	_
+14	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	13	nsubj	_	_
+15	n'	ne	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+16	y	yu	PRON	_	PRON__Person=3	17	expl	_	_
+17	avait	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	advcl	_	_
+18	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	21	obj	_	_
+19	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obj	_	_
+21	-	-	PUNCT	_	PUNCT___	21	punct	_	_
+22	même	même	ADV	_	ADV___	21	advmod	_	_
+23	sur	sur	ADP	_	ADP___	24	case	_	_
+24	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+25	pare	parer	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	advcl	_	_
+26	-	-	PUNCT	_	PUNCT___	28	punct	_	_
+27	brise	briser	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	obl	_	_
+28	.	.	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#Il s'agit certainement d'une erreur, car je ne vois pas comment les sociétés de verbalisation savent s'il y a une personne en fauteuil dans l'auto ou non.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	1	expl	_	_
+3	agit	agir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
+4	certainement	certainement	ADV	_	ADV___	3	advmod	_	_
+5	d'	de	ADP	_	ADP___	3	case	_	_
+6	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+7	erreur	erreur	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obl	_	_
+8	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+9	car	car	CCONJ	_	CCONJ___	13	cc	_	_
+10	je	il	PRON	_	PRON__Number=Sing|Person=1	13	nsubj	_	_
+11	ne	ne	ADV	_	ADV__Polarity=Neg	13	advmod	_	_
+12	vois	voir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	pas	pas	ADV	_	ADV__Polarity=Neg	13	advmod	_	_
+14	comment	comment	ADV	_	ADV__PronType=Int	13	advmod	_	_
+15	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	17	det	_	_
+16	sociétés	société	NOUN	_	NOUN__Gender=Fem|Number=Plur	17	nsubj	_	_
+17	de	de	ADP	_	ADP___	21	case	_	_
+18	verbalisation	verbalisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	nmod	_	_
+19	savent	savoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	conj	_	_
+20	s'	si	SCONJ	_	SCONJ___	21	case	_	_
+21	il	il	PRON	_	PRON__Number=Sing|Person=3	21	case	_	_
+22	y	yu	PRON	_	PRON__Person=3	21	fixed	_	_
+23	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	fixed	_	_
+24	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+25	personne	personne	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	obl	_	_
+26	en	en	ADP	_	ADP___	28	case	_	_
+27	fauteuil	fauteuil	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	nmod	_	_
+28	dans	dan	ADP	_	ADP___	25	case	_	_
+29	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	33	det	_	_
+30	auto	auto	NOUN	_	NOUN__Gender=Masc|Number=Sing	33	nmod	_	_
+31	ou	ou	CCONJ	_	CCONJ___	33	cc	_	_
+32	non	non	ADV	_	ADV___	33	conj	_	_
+33	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Mais avant de contester, je m'interroge.
+1	Mais	Mais	CCONJ	_	CCONJ___	1	cc	_	_
+2	avant	avant	ADP	_	ADP___	1	mark	_	_
+3	de	de	ADP	_	ADP___	1	fixed	_	_
+4	contester	contester	VERB	_	VERB__VerbForm=Inf	3	advcl	_	_
+5	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+6	je	il	PRON	_	PRON__Number=Sing|Person=1	9	nsubj	_	_
+7	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	9	expl	_	_
+8	interroge	interroger	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+9	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Car je ne connais pas la réglementation, ai-je le droit d'utiliser la carte lorsque ma sur n'est pas dans le véhicule ?
+1	Car	Car	PROPN	_	PROPN__Gender=Fem|Number=Sing	1	cc	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+3	ne	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+4	connais	connaître	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+7	réglementation	réglementation	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obj	_	_
+8	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+9	ai	avoir	PROPN	_	PROPN___	13	cc	_	_
+10	-	-	PUNCT	_	PUNCT___	13	punct	_	_
+11	je	il	PRON	_	PRON__Number=Sing|Person=1	13	nsubj	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+14	d'	de	ADP	_	ADP___	13	mark	_	_
+15	utiliser	utiliser	VERB	_	VERB__VerbForm=Inf	17	acl	_	_
+16	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	carte	carte	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	obj	_	_
+18	lorsque	lorsque	SCONJ	_	SCONJ___	21	case	_	_
+19	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	21	nmod:poss	_	_
+20	sur	sur	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	obl	_	_
+21	n'	ne	ADV	_	ADV__Polarity=Neg	21	advmod	_	_
+22	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+23	pas	pas	ADV	_	ADV__Polarity=Neg	24	advmod	_	_
+24	dans	dan	ADP	_	ADP___	22	case	_	_
+25	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+26	véhicule	véhiculer	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	conj	_	_
+27	?	?	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#Et sous quelles conditions ?
+1	Et	Et	CCONJ	_	CCONJ___	1	cc	_	_
+2	sous	sou	ADP	_	ADP___	1	case	_	_
+3	quelles	quel	DET	_	DET__Gender=Fem|Number=Plur|PronType=Int	1	det	_	_
+4	conditions	condition	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+5	?	?	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Merci par avance à ceux qui pourront m'aider.
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	par	par	ADP	_	ADP___	1	case	_	_
+3	avance	avancer	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+4	à	à	ADP	_	ADP___	3	case	_	_
+5	ceux	celui	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Dem	3	nmod	_	_
+6	qui	qui	PRON	_	PRON__PronType=Rel	9	nsubj	_	_
+7	pourront	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	9	aux	_	_
+8	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	9	expl	_	_
+9	aider	aider	VERB	_	VERB__VerbForm=Inf	13	acl:relcl	_	_
+10	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Si, la carte permet de stationner gratuitement.
+1	Si	Si	SCONJ	_	SCONJ___	5	mark	_	_
+2	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	carte	carte	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nsubj	_	_
+5	permet	permettre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	de	de	ADP	_	ADP___	7	mark	_	_
+7	stationner	stationner	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+8	gratuitement	gratuitement	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	advmod	_	_
+9	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#En tout cas dans Paris.
+1	En	En	ADP	_	ADP___	5	advmod	_	_
+2	tout	tout	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	fixed	_	_
+3	cas	cas	NOUN	_	NOUN__Gender=Masc	4	fixed	_	_
+4	dans	dan	ADP	_	ADP___	5	case	_	_
+5	Paris	Paris	PROPN	_	PROPN__Gender=Masc|Number=Sing	0	ROOT	_	_
+6	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Non, je n'étais pas sur un emplacement handicapé.
+1	Non	Non	ADV	_	ADV___	5	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+4	n'	ne	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+5	étais	être	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+6	pas	pas	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+7	sur	sur	ADP	_	ADP___	5	case	_	_
+8	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+9	emplacement	emplacement	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+10	handicapé	handicaper	PUNCT	_	PUNCT___	14	amod	_	_
+11	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Par ailleurs, les handicaps sont multiples et l'absence de fauteuil roulant ne signifie rien à ce niveau.
+1	Par	Par	ADP	_	ADP___	5	advmod	_	_
+2	ailleurs	ailleurs	ADV	_	ADV___	5	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+5	handicaps	handicap	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	nsubj	_	_
+6	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	multiples	multiple	ADJ	_	ADJ__Number=Plur	0	ROOT	_	_
+8	et	et	CCONJ	_	CCONJ___	7	cc	_	_
+9	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+10	absence	absence	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nsubj	_	_
+11	de	de	ADP	_	ADP___	10	case	_	_
+12	fauteuil	fauteuil	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+13	roulant	rouler	VERB	_	VERB__Tense=Pres|VerbForm=Part	14	acl	_	_
+14	ne	ne	ADV	_	ADV___	14	advmod	_	_
+15	signifie	signifier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+16	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	20	obj	_	_
+17	à	à	ADP	_	ADP___	20	case	_	_
+18	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	20	fixed	_	_
+19	niveau	niveau	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obl	_	_
+20	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Pouvez
+1	Pouvez	Pouvez	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+
+
+#-vous m'indiquer où vous avez trouvé la réglementation.
+1	-	-	PUNCT	_	PUNCT___	5	punct	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	5	nsubj	_	_
+3	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	4	expl	_	_
+4	indiquer	indiquer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	où	où	PRON	_	PRON__PronType=Rel	5	mark	_	_
+6	vous	se	PRON	_	PRON__Number=Plur|Person=2	7	nsubj	_	_
+7	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	_
+8	trouvé	trouver	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	ccomp	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+10	réglementation	réglementation	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obj	_	_
+11	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Justement, ce que je cherche, ce sont les textes.
+1	Justement	Justement	ADV	_	ADV___	3	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	ce	ce	PRON	_	PRON__PronType=Rel	0	ROOT	_	_
+4	que	que	PRON	_	PRON__PronType=Rel	6	obj	_	_
+5	je	il	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+6	cherche	chercher	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+8	ce	ce	PRON	_	PRON__Number=Sing|Person=3	11	nsubj	_	_
+9	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	11	det	_	_
+11	textes	texte	NOUN	_	NOUN__Gender=Fem|Number=Plur	3	acl:relcl	_	_
+12	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Par exemple, quand j'emmène ma sœur se promener, je passe souvent lui acheter des croissants avant et nous prenons parfois le thé chez elle après.
+1	Par	Par	ADP	_	ADP___	3	advmod	_	_
+2	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+4	quand	quand	SCONJ	_	SCONJ___	6	mark	_	_
+5	j'	il	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+6	emmène	emmener	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+7	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	3	nmod:poss	_	_
+8	sœur	sœur	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+9	se	se	PRON	_	PRON__Person=3|Reflex=Yes	11	expl	_	_
+10	promener	promener	VERB	_	VERB__VerbForm=Inf	11	advcl	_	_
+11	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+12	je	il	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+13	passe	passer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+14	souvent	souvent	ADV	_	ADV___	13	advmod	_	_
+15	lui	luire	PRON	_	PRON__Number=Sing|Person=3	22	iobj	_	_
+16	acheter	acheter	VERB	_	VERB__VerbForm=Inf	18	xcomp	_	_
+17	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	18	det	_	_
+18	croissants	croissant	NOUN	_	NOUN__Gender=Masc|Number=Plur	22	obj	_	_
+19	avant	avant	ADP	_	ADP___	20	advmod	_	_
+20	et	et	CCONJ	_	CCONJ___	18	cc	_	_
+21	nous	se	PRON	_	PRON__Number=Plur|Person=1	22	nsubj	_	_
+22	prenons	prendre	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	25	conj	_	_
+23	parfois	parfois	ADV	_	ADV___	25	advmod	_	_
+24	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	thé	thé	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	obj	_	_
+26	chez	chez	ADP	_	ADP___	28	case	_	_
+27	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	28	iobj	_	_
+28	après	après	ADP	_	ADP___	25	obl	_	_
+29	.	.	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#Qu'en est-il pendant ces moments ?
+1	Qu'	Qu'	PRON	_	PRON__PronType=Int	0	ROOT	_	_
+2	en	en	PRON	_	PRON__Person=3	1	case	_	_
+3	est-il	est-il	VERB	_	VERB__VerbForm=Inf	3	obl	_	_
+4	pendant	pendre	ADP	_	ADP___	6	case	_	_
+5	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	6	det	_	_
+6	moments	moment	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	obl	_	_
+7	?	?	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Non, je n'utilise jamais d'emplacement handicapé sauf lorsque ma sœur est avec moi et que nous ne trouvons pas d'autre place.
+1	Non	Non	ADV	_	ADV___	3	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+4	n'	ne	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+5	utilise	utiliser	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+6	jamais	jamais	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+7	d'	de	ADP	_	ADP___	3	case	_	_
+8	emplacement	emplacement	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obl	_	_
+9	handicapé	handicaper	PUNCT	_	PUNCT___	11	amod	_	_
+10	sauf	sauf	ADP	_	ADP___	11	punct	_	_
+11	lorsque	lorsque	SCONJ	_	SCONJ___	3	mark	_	_
+12	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	3	nmod:poss	_	_
+13	sœur	sœur	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	nsubj	_	_
+14	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+15	avec	avec	ADP	_	ADP___	22	case	_	_
+16	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	18	obl	_	_
+17	et	et	CCONJ	_	CCONJ___	18	cc	_	_
+18	que	que	SCONJ	_	SCONJ___	22	mark	_	_
+19	nous	se	PRON	_	PRON__Number=Plur|Person=1	20	nsubj	_	_
+20	ne	ne	ADV	_	ADV__Polarity=Neg	18	advmod	_	_
+21	trouvons	trouver	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	22	conj	_	_
+22	pas	pas	ADV	_	ADV__Polarity=Neg	25	advmod	_	_
+23	d'	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	25	det	_	_
+24	autre	autre	ADJ	_	ADJ__Number=Sing	25	amod	_	_
+25	place	placer	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	obj	_	_
+26	.	.	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#Il s'agit bien d'une carte "stationnement".Je ne suis pas "demandeur", je m'interroge.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+2	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	3	expl	_	_
+3	agit	agir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
+4	bien	bien	ADV	_	ADV___	3	advmod	_	_
+5	d'	de	ADP	_	ADP___	7	case	_	_
+6	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	carte	carte	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obl	_	_
+8	"	"	PUNCT	_	PUNCT___	3	punct	_	_
+9	stationnement".Je	stationnement".Je	PROPN	_	PROPN__Gender=Masc|Number=Sing	3	punct	_	_
+10	ne	ne	ADV	_	ADV__Polarity=Neg	14	advmod	_	_
+11	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	cop	_	_
+12	pas	pas	ADV	_	ADV__Polarity=Neg	14	advmod	_	_
+13	"	"	PUNCT	_	PUNCT___	14	punct	_	_
+14	demandeur	demandeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obl	_	_
+15	"	"	PUNCT	_	PUNCT___	14	punct	_	_
+16	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+17	je	il	PRON	_	PRON__Number=Sing|Person=1	19	nsubj	_	_
+18	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	19	expl	_	_
+19	interroge	interroger	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+20	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Car en réalité j'ai l'habitude de payer, là j'avais juste oublié.
+1	Car	Car	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	3	cc	_	_
+2	en	en	ADP	_	ADP___	3	case	_	_
+3	réalité	réalité	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obl	_	_
+4	j'	il	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+5	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	habitude	habitude	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obj	_	_
+8	de	de	ADP	_	ADP___	3	mark	_	_
+9	payer	payer	VERB	_	VERB__VerbForm=Inf	3	acl	_	_
+10	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+11	là	là	ADV	_	ADV___	14	det	_	_
+12	j'	il	PRON	_	PRON__Number=Sing|Person=1	14	nsubj	_	_
+13	avais	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	juste	juste	ADV	_	ADV___	3	amod	_	_
+15	oublié	oublier	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+16	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Merci pour le lien qui précise effectivement les droits liés à la carte.
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	pour	pour	ADP	_	ADP___	4	case	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	lien	lien	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+5	qui	qui	PRON	_	PRON__PronType=Rel	6	nsubj	_	_
+6	précise	préciser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+7	effectivement	effectivement	ADV	_	ADV___	6	advmod	_	_
+8	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+9	droits	droit	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	obj	_	_
+10	liés	lier	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	acl	_	_
+11	à	à	ADP	_	ADP___	13	case	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	carte	carte	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obl	_	_
+14	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Cordialement.
+1	Cordialement	Cordialement	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Ils n'en savent rien, c'est certainement une erreur de leur part.
+1	Ils	Ils	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	4	nsubj	_	_
+2	n'	ne	ADV	_	ADV___	4	advmod	_	_
+3	en	en	PRON	_	PRON__Person=3	4	iobj	_	_
+4	savent	savoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	4	obj	_	_
+6	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+7	c'	ce	PRON	_	PRON__Number=Sing|Person=3	11	nsubj	_	_
+8	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+9	certainement	certainement	ADV	_	ADV___	11	advmod	_	_
+10	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	erreur	erreur	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	conj	_	_
+12	de	de	ADP	_	ADP___	14	case	_	_
+13	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	14	nmod:poss	_	_
+14	part	partir	NOUN	_	NOUN__Number=Sing	11	nmod	_	_
+15	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#D'autant qu'il y avait un fauteuil roulant plié dans le coffre, visible de l'extérieur !
+1	D'	D'	ADP	_	ADP___	4	mark	_	_
+2	autant	autant	ADV	_	ADV___	4	fixed	_	_
+3	qu'	que	SCONJ	_	SCONJ___	4	fixed	_	_
+4	il	il	PRON	_	PRON__Number=Sing|Person=3	4	nsubj	_	_
+5	y	yu	PRON	_	PRON__Person=3	4	fixed	_	_
+6	avait	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+8	fauteuil	fauteuil	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+9	roulant	rouler	ADJ	_	ADJ__Gender=Masc|Number=Sing	11	acl	_	_
+10	plié	plier	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	xcomp	_	_
+11	dans	dan	ADP	_	ADP___	4	case	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	coffre	coffrer	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obl	_	_
+14	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+15	visible	visible	ADJ	_	ADJ__Number=Sing	4	conj	_	_
+16	de	de	ADP	_	ADP___	21	case	_	_
+17	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+18	extérieur	extérieur	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	nmod	_	_
+19	!	!	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#[QUOTE=Quelle est l'indication exacte de l'infraction?[QUOTE]Non paiement ou dépassement du temps payé.
+1	[	[	PUNCT	_	PUNCT___	3	punct	_	_
+2	QUOTE	QUOTE	ADJ	_	ADJ__Gender=Masc|Number=Sing	3	nsubj	_	_
+3	=	=	VERB	_	VERB__Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	Quelle	Quelle	ADJ	_	ADJ__Gender=Fem|Number=Sing	3	obj	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	indication	indication	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nsubj	_	_
+8	exacte	exact	ADJ	_	ADJ__Gender=Fem|Number=Sing	7	amod	_	_
+9	de	de	ADP	_	ADP___	11	case	_	_
+10	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	infraction?[QUOTE]Non	infraction?[QUOTE]Non	ADJ	_	ADJ__Gender=Masc|Number=Sing	7	nmod	_	_
+12	paiement	paiement	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obj	_	_
+13	ou	ou	CCONJ	_	CCONJ___	14	cc	_	_
+14	dépassement	dépassement	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	conj	_	_
+15	du	du	DET	_	DET__Gender=Masc|Number=Sing	16	det	_	_
+16	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obj	_	_
+17	payé	payer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl	_	_
+18	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#C'est une des boîtes de verbalisation privée de la ville de Paris.
+1	C'	C'	PRON	_	PRON__Number=Sing|Person=3	3	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+4	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	3	det	_	_
+5	boîtes	boîte	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+6	de	de	ADP	_	ADP___	7	case	_	_
+7	verbalisation	verbalisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+8	privée	priver	ADJ	_	ADJ__Gender=Fem|Number=Sing	7	acl	_	_
+9	de	de	ADP	_	ADP___	11	case	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	ville	ville	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obl	_	_
+12	de	de	ADP	_	ADP___	3	case	_	_
+13	Paris	Paris	PROPN	_	PROPN__Gender=Masc|Number=Sing	14	nmod	_	_
+14	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Une fois déjà, j'avais oublié de régler et j'ai eu un PV.
+1	Une	Une	DET	_	DET__Gender=Fem|Number=Sing	3	det	_	_
+2	fois	foi	NOUN	_	NOUN__Gender=Fem	3	obl	_	_
+3	déjà	déjà	ADV	_	ADV___	3	advmod	_	_
+4	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+5	j'	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+6	avais	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	oublié	oublier	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+8	de	de	ADP	_	ADP___	7	mark	_	_
+9	régler	régler	VERB	_	VERB__VerbForm=Inf	11	xcomp	_	_
+10	et	et	CCONJ	_	CCONJ___	11	cc	_	_
+11	j'	il	PRON	_	PRON__Number=Sing|Person=1	7	nsubj	_	_
+12	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+13	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	conj	_	_
+14	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+15	PV	PV	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obj	_	_
+16	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#C'était du temps des contractuels publics.
+1	C'	C'	PRON	_	PRON__Number=Sing|Person=3	3	nsubj	_	_
+2	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+3	du	du	DET	_	DET__Gender=Masc|Number=Sing	3	det	_	_
+4	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
+6	contractuels	contractuel	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	obj	_	_
+7	publics	public	ADJ	_	ADJ__Gender=Masc|Number=Plur	4	amod	_	_
+8	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Des passants m'ont dit que trois contractuels avaient examiné le véhicule et le macaron sous soutes leurs coutures, avant de décider de verbaliser.
+1	Des	Des	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	3	det	_	_
+2	passants	passant	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	nsubj	_	_
+3	m'	se	PRON	_	PRON__Number=Sing|Person=1	3	expl	_	_
+4	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+5	dit	dire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+6	que	que	SCONJ	_	SCONJ___	7	mark	_	_
+7	trois	trois	NUM	_	NUM__NumType=Card	4	nummod	_	_
+8	contractuels	contractuel	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	nsubj	_	_
+9	avaient	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+10	examiné	examiner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	ccomp	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+12	véhicule	véhiculer	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obj	_	_
+13	et	et	CCONJ	_	CCONJ___	14	cc	_	_
+14	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+15	macaron	macaron	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	conj	_	_
+16	sous	sou	ADP	_	ADP___	3	case	_	_
+17	soutes	soute	ADJ	_	ADJ__Gender=Fem|Number=Plur	16	nmod	_	_
+18	leurs	leur	DET	_	DET__Number=Plur|Poss=Yes	3	nmod:poss	_	_
+19	coutures	couture	NOUN	_	NOUN__Gender=Masc|Number=Plur	23	obj	_	_
+20	,	,	PUNCT	_	PUNCT___	23	punct	_	_
+21	avant	avant	ADP	_	ADP___	23	mark	_	_
+22	de	de	ADP	_	ADP___	23	fixed	_	_
+23	décider	décider	VERB	_	VERB__VerbForm=Inf	23	advcl	_	_
+24	de	de	ADP	_	ADP___	25	mark	_	_
+25	verbaliser	verbaliser	VERB	_	VERB__VerbForm=Inf	23	xcomp	_	_
+26	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Apparemment, ils croyaient que le macaron GIC était faux.
+1	Apparemment	Apparemment	ADV	_	ADV___	3	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	3	nsubj	_	_
+4	croyaient	croire	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+5	que	que	SCONJ	_	SCONJ___	4	mark	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	macaron	macaron	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+8	GIC	GIC	PROPN	_	PROPN__Gender=Masc|Number=Sing	7	nmod	_	_
+9	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	cop	_	_
+10	faux	faillir	ADJ	_	ADJ__Gender=Masc	11	ccomp	_	_
+11	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#L'agent ne peut pas savoir si je suis invalide, je boîte !
+1	L'	L'	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+2	agent	agent	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+3	ne	ne	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+4	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+6	savoir	savoir	VERB	_	VERB__VerbForm=Inf	7	cop	_	_
+7	si	si	SCONJ	_	SCONJ___	4	mark	_	_
+8	je	il	PRON	_	PRON__Number=Sing|Person=1	7	nsubj	_	_
+9	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	invalide	invalider	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	advcl	_	_
+11	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+12	je	il	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+13	boîte	boîte	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+14	!	!	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Par définition, la voiture est vide car ma sœur vient avec moi pour se balader, pas pour rester dans la voiture à l'arrêt !
+1	Par	Par	ADP	_	ADP___	3	case	_	_
+2	définition	définition	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obl	_	_
+3	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+5	voiture	voiturer	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nsubj	_	_
+6	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	vide	vider	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+8	car	car	CCONJ	_	CCONJ___	7	cc	_	_
+9	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	11	nmod:poss	_	_
+10	sœur	sœur	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nsubj	_	_
+11	vient	venir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+12	avec	avec	ADP	_	ADP___	3	case	_	_
+13	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	14	obl	_	_
+14	pour	pour	ADP	_	ADP___	12	mark	_	_
+15	se	se	PRON	_	PRON__Person=3|Reflex=Yes	16	expl	_	_
+16	balader	balader	VERB	_	VERB__VerbForm=Inf	3	advcl	_	_
+17	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+18	pas	pas	ADV	_	ADV___	3	advmod	_	_
+19	pour	pour	ADP	_	ADP___	23	mark	_	_
+20	rester	rester	VERB	_	VERB__VerbForm=Inf	23	advcl	_	_
+21	dans	dan	ADP	_	ADP___	23	case	_	_
+22	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	voiture	voiturer	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	obl	_	_
+24	à	à	ADP	_	ADP___	25	case	_	_
+25	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+26	arrêt	arrêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	nmod	_	_
+27	!	!	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#Non, je suis restée deux ou trois heures seulement.
+1	Non	Non	ADV	_	ADV___	3	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	3	nsubj:pass	_	_
+4	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+5	restée	rester	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+6	deux	deux	NUM	_	NUM__NumType=Card	7	iobj	_	_
+7	ou	ou	CCONJ	_	CCONJ___	4	cc	_	_
+8	trois	trois	NUM	_	NUM__NumType=Card	7	nummod	_	_
+9	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	11	conj	_	_
+10	seulement	seulement	ADV	_	ADV___	11	advmod	_	_
+11	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Ben non.
+1	Ben	Ben	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+2	non	non	ADV	_	ADV___	1	advmod	_	_
+3	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Comme beaucoup d'invalides, elle garde un ancien fauteuil pour le cas où le nouveau serait en panne.
+1	Comme	Comme	ADP	_	ADP___	1	case	_	_
+2	beaucoup	beaucoup	ADV	_	ADV___	1	det	_	_
+3	d'	de	ADP	_	ADP___	1	fixed	_	_
+4	invalides	invalider	NOUN	_	NOUN__Gender=Fem|Number=Plur	7	obl	_	_
+5	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+6	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	5	nsubj	_	_
+7	garde	garder	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	ancien	ancien	ADJ	_	ADJ__Gender=Masc|Number=Sing	10	amod	_	_
+10	fauteuil	fauteuil	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+11	pour	pour	ADP	_	ADP___	13	case	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obl	_	_
+14	où	où	PRON	_	PRON__PronType=Rel	16	iobj	_	_
+15	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	nouveau	nouveau	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nsubj	_	_
+17	serait	être	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+18	en	en	ADP	_	ADP___	19	case	_	_
+19	panne	panne	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	acl:relcl	_	_
+20	.	.	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#Ce qui était le cas.
+1	Ce	Ce	PRON	_	PRON__PronType=Rel	0	ROOT	_	_
+2	qui	qui	PRON	_	PRON__PronType=Rel	1	nsubj	_	_
+3	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	cop	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+5	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	acl:relcl	_	_
+6	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#C'est aussi ce que j'avais lu et compris, merci de plussoyer.
+1	C'	C'	PRON	_	PRON__Number=Sing|Person=3	4	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	aussi	aussi	ADV	_	ADV___	4	advmod	_	_
+4	ce	ce	PRON	_	PRON__PronType=Rel	0	ROOT	_	_
+5	que	que	PRON	_	PRON__PronType=Rel	7	obj	_	_
+6	j'	il	PRON	_	PRON__Number=Sing|Person=1	7	nsubj	_	_
+7	avais	avoir	NUM	_	NUM__NumType=Card	4	acl:relcl	_	_
+8	lu	lire	PROPN	_	PROPN___	7	obl	_	_
+9	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+10	compris	comprendre	ADJ	_	ADJ__Gender=Masc	7	conj	_	_
+11	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+12	merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+13	de	de	ADP	_	ADP___	14	mark	_	_
+14	plussoyer	plussoyer	VERB	_	VERB__VerbForm=Inf	12	nmod	_	_
+15	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
