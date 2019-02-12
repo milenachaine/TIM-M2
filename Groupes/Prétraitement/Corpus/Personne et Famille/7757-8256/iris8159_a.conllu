@@ -1,0 +1,412 @@
+#Bonjour,Quel intérêt ont les parents de X à héberger votre fils
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+3	Quel	Quel	DET	_	DET__Gender=Masc|Number=Sing	4	det	_	_
+4	intérêt	intérêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+5	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+6	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+7	parents	parent	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	obj	_	_
+8	de	de	ADP	_	ADP___	9	case	_	_
+9	X	X	NOUN	_	NOUN___	7	nmod	_	_
+10	à	à	ADP	_	ADP___	11	mark	_	_
+11	héberger	héberger	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+12	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	13	nmod:poss	_	_
+13	fils	fil	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+
+
+#s'il n'est pas le père de l'enfant ?
+1	s'	si	SCONJ	_	SCONJ___	1	case	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+3	n'	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	père	père	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+8	de	de	ADP	_	ADP___	9	case	_	_
+9	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+10	enfant	enfant	NOUN	_	NOUN__Number=Sing	11	nmod	_	_
+11	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Votre fils leur verse t-il un "loyer" quelconque ?
+1	Votre	Votre	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	fils	fil	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	nsubj	_	_
+3	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+4	verse	verser	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nsubj	_	_
+5	t-il	t-il	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	mark	_	_
+7	"	"	PUNCT	_	PUNCT___	5	punct	_	_
+8	loyer	loyer	VERB	_	VERB__VerbForm=Inf	9	xcomp	_	_
+9	"	"	PUNCT	_	PUNCT___	7	punct	_	_
+10	quelconque	quelconque	ADJ	_	ADJ__Number=Sing	11	amod	_	_
+11	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Quel âge ont ces jeunes ?
+1	Quel	Quel	DET	_	DET__Gender=Masc|Number=Sing	1	det	_	_
+2	âge	âge	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+3	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	5	det	_	_
+5	jeunes	jeune	NOUN	_	NOUN__Number=Plur	1	obj	_	_
+6	?	?	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Malheureusement, si votre fils est majeur, il est en droit de couper les ponts avec vous, même si ce n'est pas son intérêt.
+1	Malheureusement	Malheureusement	ADV	_	ADV___	1	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+3	si	si	SCONJ	_	SCONJ___	4	mark	_	_
+4	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+5	fils	fil	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+6	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	majeur	majeur	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+8	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+9	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+10	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	en	en	ADP	_	ADP___	5	case	_	_
+12	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	acl:relcl	_	_
+13	de	de	ADP	_	ADP___	11	mark	_	_
+14	couper	couper	VERB	_	VERB__VerbForm=Inf	20	acl	_	_
+15	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	20	det	_	_
+16	ponts	pont	NOUN	_	NOUN__Gender=Masc|Number=Plur	20	obj	_	_
+17	avec	avec	ADP	_	ADP___	20	case	_	_
+18	vous	se	PRON	_	PRON__Number=Plur|Person=2|PronType=Prs	20	obl	_	_
+19	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+20	même	même	ADV	_	ADV___	20	advmod	_	_
+21	si	si	SCONJ	_	SCONJ___	23	fixed	_	_
+22	ce	ce	PRON	_	PRON__Number=Sing|Person=3	23	nsubj	_	_
+23	n'	ne	ADV	_	ADV__Polarity=Neg	20	advmod	_	_
+24	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+25	pas	pas	ADV	_	ADV__Polarity=Neg	26	advmod	_	_
+26	son	son	DET	_	DET__Number=Sing|Poss=Yes	29	nmod:poss	_	_
+27	intérêt	intérêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	obl	_	_
+28	.	.	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#Ce qui paraît normal, étant donné qu'il vit chez eux, ainsi que son enfant.
+1	Ce	Ce	PRON	_	PRON__PronType=Rel	0	ROOT	_	_
+2	qui	qui	PRON	_	PRON__PronType=Rel	3	nsubj	_	_
+3	paraît	paraître	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+4	normal	normal	ADJ	_	ADJ__Gender=Masc|Number=Sing	3	advmod	_	_
+5	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+6	étant	être	VERB	_	VERB__Tense=Pres|VerbForm=Part	10	mark	_	_
+7	donné	donner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	fixed	_	_
+8	qu'	que	SCONJ	_	SCONJ___	6	fixed	_	_
+9	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
+10	vit	voir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl	_	_
+11	chez	chez	ADP	_	ADP___	12	case	_	_
+12	eux	lui	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	obl	_	_
+13	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+14	ainsi	ainsi	ADV	_	ADV___	17	cc	_	_
+15	que	que	SCONJ	_	SCONJ___	14	fixed	_	_
+16	son	son	DET	_	DET__Number=Sing|Poss=Yes	17	nmod:poss	_	_
+17	enfant	enfant	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	conj	_	_
+18	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Ce qui pourrait être problématique, c'est s'il leur versait l'intégralité de son salaire, par exemple.
+1	Ce	Ce	PRON	_	PRON__PronType=Rel	1	dislocated	_	_
+2	qui	qui	PRON	_	PRON__PronType=Rel	3	nsubj	_	_
+3	pourrait	pouvoir	VERB	_	VERB__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+4	être	être	AUX	_	AUX__VerbForm=Inf	3	cop	_	_
+5	problématique	problématique	ADJ	_	ADJ__Number=Sing	1	xcomp	_	_
+6	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+7	c'	ce	PRON	_	PRON__Number=Sing|Person=3	6	nsubj	_	_
+8	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+9	s'	si	SCONJ	_	SCONJ___	10	mark	_	_
+10	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+11	leur	lui	PRON	_	PRON__Number=Plur|Person=3	12	iobj	_	_
+12	versait	verser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+13	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+14	intégralité	intégralité	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	obj	_	_
+15	de	de	ADP	_	ADP___	14	case	_	_
+16	son	son	DET	_	DET__Number=Sing|Poss=Yes	17	nmod:poss	_	_
+17	salaire	salaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+18	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+19	par	par	ADP	_	ADP___	30	advmod	_	_
+20	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	fixed	_	_
+21	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Mais comme il est majeur, il est libre de se laisser plumer si c'est le cas.
+1	Mais	Mais	CCONJ	_	CCONJ___	1	cc	_	_
+2	comme	comme	SCONJ	_	SCONJ___	3	mark	_	_
+3	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+5	majeur	majeur	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	advcl	_	_
+6	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+7	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+8	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+9	libre	libre	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+10	de	de	ADP	_	ADP___	1	mark	_	_
+11	se	se	PRON	_	PRON__Person=3|Reflex=Yes	12	obj	_	_
+12	laisser	laisser	VERB	_	VERB__VerbForm=Inf	10	xcomp	_	_
+13	plumer	plumer	VERB	_	VERB__VerbForm=Inf	1	xcomp	_	_
+14	si	si	SCONJ	_	SCONJ___	17	mark	_	_
+15	c'	ce	PRON	_	PRON__Number=Sing|Person=3	14	nsubj	_	_
+16	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+18	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+19	.	.	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#Ils sont jeunes, mais majeurs et donc à même de choisir leur mode de vie.
+1	Ils	Ils	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	1	nsubj	_	_
+2	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	jeunes	jeune	ADJ	_	ADJ__Number=Plur	0	ROOT	_	_
+4	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+5	mais	mai	CCONJ	_	CCONJ___	1	cc	_	_
+6	majeurs	majeur	ADJ	_	ADJ__Gender=Masc|Number=Plur	10	conj	_	_
+7	et	et	CCONJ	_	CCONJ___	6	cc	_	_
+8	donc	donc	ADV	_	ADV___	6	advmod	_	_
+9	à	à	ADP	_	ADP___	10	case	_	_
+10	même	même	ADV	_	ADV___	1	fixed	_	_
+11	de	de	ADP	_	ADP___	12	fixed	_	_
+12	choisir	choisir	VERB	_	VERB__VerbForm=Inf	10	conj	_	_
+13	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+14	mode	mode	NOUN	_	NOUN__Number=Sing	17	obl	_	_
+15	de	de	ADP	_	ADP___	14	case	_	_
+16	vie	vie	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	nmod	_	_
+17	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Cela n'a pas de poids juridique, tout comme on peut se fâcher avec ses parents après qu'ils ont payé le mariage...
+1	Cela	Cela	PRON	_	PRON__Number=Sing|PronType=Dem	1	nsubj	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+3	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+5	de	de	DET	_	DET__Definite=Ind|Number=Sing|PronType=Art	1	det	_	_
+6	poids	poids	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+7	juridique	juridique	ADJ	_	ADJ__Number=Sing	6	amod	_	_
+8	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+9	tout	tout	ADV	_	ADV___	10	advmod	_	_
+10	comme	comme	SCONJ	_	SCONJ___	1	mark	_	_
+11	on	on	PRON	_	PRON__Number=Sing|Person=3	12	nsubj	_	_
+12	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+13	se	se	PRON	_	PRON__Person=3|Reflex=Yes	1	expl	_	_
+14	fâcher	fâcher	VERB	_	VERB__VerbForm=Inf	17	advcl	_	_
+15	avec	avec	ADP	_	ADP___	14	case	_	_
+16	ses	son	DET	_	DET__Number=Plur|Poss=Yes	17	nmod:poss	_	_
+17	parents	parent	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	obl	_	_
+18	après	après	ADP	_	ADP___	1	mark	_	_
+19	qu'	que	SCONJ	_	SCONJ___	30	fixed	_	_
+20	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	21	nsubj	_	_
+21	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+22	payé	payer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	advcl	_	_
+23	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+24	mariage	mariage	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	obj	_	_
+25	...	...	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#Tout au plus, si vous avez des factures, cela pourrait vous aider à prouver que vous vous considérez comme les grands parents de l'enfant (mais aucune assurance tant que le père ne l'a pas reconnu).Rien sur le plan juridique, car votre fils est majeur.
+1	Tout	Tout	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	advmod	_	_
+2	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	3	fixed	_	_
+3	plus	plaire	ADV	_	ADV___	1	fixed	_	_
+4	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+5	si	si	SCONJ	_	SCONJ___	1	mark	_	_
+6	vous	se	PRON	_	PRON__Number=Plur|Person=2	10	nsubj	_	_
+7	avez	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+8	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
+9	factures	facturer	NOUN	_	NOUN__Gender=Fem|Number=Plur	10	obj	_	_
+10	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+11	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	12	nsubj	_	_
+12	pourrait	pouvoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+13	vous	se	PRON	_	PRON__Number=Plur|Person=2	1	iobj	_	_
+14	aider	aider	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+15	à	à	ADP	_	ADP___	14	mark	_	_
+16	prouver	prouver	VERB	_	VERB__VerbForm=Inf	17	xcomp	_	_
+17	que	que	SCONJ	_	SCONJ___	1	mark	_	_
+18	vous	se	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+19	vous	se	PRON	_	PRON__Number=Plur|Person=2	30	iobj	_	_
+20	considérez	considérer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	21	ccomp	_	_
+21	comme	comme	ADP	_	ADP___	19	case	_	_
+22	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	23	det	_	_
+23	grands	grand	ADJ	_	ADJ__Gender=Masc|Number=Plur	21	amod	_	_
+24	parents	parent	NOUN	_	NOUN__Gender=Masc|Number=Plur	30	obl	_	_
+25	de	de	ADP	_	ADP___	30	case	_	_
+26	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	30	det	_	_
+27	enfant	enfant	NOUN	_	NOUN__Number=Sing	30	nmod	_	_
+28	(	(	PUNCT	_	PUNCT___	30	punct	_	_
+29	mais	mai	CCONJ	_	CCONJ___	30	cc	_	_
+30	aucune	aucun	DET	_	DET__Gender=Fem|Number=Sing	30	det	_	_
+31	assurance	assurance	NOUN	_	NOUN__Gender=Fem|Number=Sing	32	nsubj	_	_
+32	tant	tant	ADV	_	ADV___	30	mark	_	_
+33	que	que	SCONJ	_	SCONJ___	35	fixed	_	_
+34	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	père	père	NOUN	_	NOUN__Gender=Masc|Number=Sing	32	nsubj	_	_
+36	ne	ne	ADV	_	ADV__Polarity=Neg	30	advmod	_	_
+37	l'	le	PRON	_	PRON__Number=Sing|Person=3	30	fixed	_	_
+38	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	aux	_	_
+39	pas	pas	ADV	_	ADV__Polarity=Neg	30	advmod	_	_
+40	reconnu).Rien	reconnu).Rien	ADJ	_	ADJ__Gender=Masc|Number=Sing	48	parataxis	_	_
+41	sur	sur	ADP	_	ADP___	44	case	_	_
+42	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+43	plan	plan	NOUN	_	NOUN__Gender=Masc|Number=Sing	44	obl	_	_
+44	juridique	juridique	ADJ	_	ADJ__Number=Sing	48	amod	_	_
+45	,	,	PUNCT	_	PUNCT___	48	punct	_	_
+46	car	car	CCONJ	_	CCONJ___	48	cc	_	_
+47	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	48	nmod:poss	_	_
+48	fils	fil	NOUN	_	NOUN__Gender=Masc|Number=Sing	48	nsubj	_	_
+49	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	51	cop	_	_
+50	majeur	majeur	ADJ	_	ADJ__Gender=Masc|Number=Sing	51	conj	_	_
+51	.	.	PUNCT	_	PUNCT___	48	punct	_	_
+
+
+#Par contre, faites
+1	Par	Par	ADP	_	ADP___	1	advmod	_	_
+2	contre	contrer	ADP	_	ADP___	3	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	faites	fait	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+
+
+#-lui savoir par tout moyen que vous restez à son écoute, êtes prêts à l'aider s'il a besoin de vous (comme en novembre).
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	lui	luire	PRON	_	PRON__Number=Sing|Person=3	3	iobj	_	_
+3	savoir	savoir	VERB	_	VERB__VerbForm=Inf	1	advcl	_	_
+4	par	par	ADP	_	ADP___	3	case	_	_
+5	tout	tout	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+6	moyen	moyen	ADJ	_	ADJ__Gender=Masc|Number=Sing	10	obl	_	_
+7	que	que	SCONJ	_	SCONJ___	6	obj	_	_
+8	vous	se	PRON	_	PRON__Number=Plur|Person=2	6	nsubj	_	_
+9	restez	rester	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+10	à	à	ADP	_	ADP___	1	case	_	_
+11	son	son	DET	_	DET__Number=Sing|Poss=Yes	12	nmod:poss	_	_
+12	écoute	écouter	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obl	_	_
+13	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+14	êtes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	17	aux	_	_
+15	prêts	prêt	ADJ	_	ADJ__Gender=Masc|Number=Plur	0	ROOT	_	_
+16	à	à	ADP	_	ADP___	17	mark	_	_
+17	l'	le	PRON	_	PRON__Number=Sing|Person=3	1	obj	_	_
+18	aider	aider	VERB	_	VERB__VerbForm=Inf	1	xcomp	_	_
+19	s'	si	SCONJ	_	SCONJ___	30	mark	_	_
+20	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	21	nsubj	_	_
+21	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	parataxis	_	_
+22	besoin	besoin	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	obj	_	_
+23	de	de	ADP	_	ADP___	21	case	_	_
+24	vous	se	PRON	_	PRON__Number=Plur|Person=2|PronType=Prs	30	obl	_	_
+25	(	(	PUNCT	_	PUNCT___	30	punct	_	_
+26	comme	comme	ADP	_	ADP___	30	case	_	_
+27	en	en	ADP	_	ADP___	30	case	_	_
+28	novembre	novembre	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	obl	_	_
+29	)	)	PUNCT	_	PUNCT___	30	punct	_	_
+30	.	.	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#Au fil du temps, peut-être les rapports s'apaiseront-ils.
+1	Au	Au	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	nsubj	_	_
+2	fil	fil	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	advcl	_	_
+3	du	du	DET	_	DET__Gender=Masc|Number=Sing	1	det	_	_
+4	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obj	_	_
+5	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+6	peut-être	peut-être	ADV	_	ADV___	10	advmod	_	_
+7	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	6	det	_	_
+8	rapports	rapport	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	nsubj	_	_
+9	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	10	expl	_	_
+10	apaiseront	apaiser	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+11	-	-	PUNCT	_	PUNCT___	12	punct	_	_
+12	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	10	obj	_	_
+13	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Pour ce qui est de la non-reconnaissance de l'enfant, cela présente un côté favorable : pas de paternité = pas de devoirs.
+1	Pour	Pour	ADP	_	ADP___	1	case	_	_
+2	ce	ce	PRON	_	PRON__PronType=Rel	3	obl	_	_
+3	qui	qui	PRON	_	PRON__PronType=Rel	1	nsubj	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+5	de	de	ADP	_	ADP___	1	case	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+7	non-reconnaissance	non-reconnaissance	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	acl:relcl	_	_
+8	de	de	ADP	_	ADP___	6	case	_	_
+9	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	enfant	enfant	NOUN	_	NOUN__Number=Sing	1	nmod	_	_
+11	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+12	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	10	nsubj	_	_
+13	présente	présenter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+14	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+15	côté	côté	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obj	_	_
+16	favorable	favorable	ADJ	_	ADJ__Number=Sing	17	amod	_	_
+17	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+18	pas	pas	ADV	_	ADV___	1	advmod	_	_
+19	de	de	ADP	_	ADP___	30	case	_	_
+20	paternité	paternité	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	nmod	_	_
+21	=	=	VERB	_	VERB__Mood=Ind|Person=3|VerbForm=Fin	19	amod	_	_
+22	pas	pas	ADV	_	ADV__Polarity=Neg	23	advmod	_	_
+23	de	de	ADP	_	ADP___	21	det	_	_
+24	devoirs	devoir	NOUN	_	NOUN__Gender=Masc|Number=Plur	30	obj	_	_
+25	.	.	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#La jeune femme, en l'empêchant de reconnaître l'enfant, s'interdit de demander une pension alimentaire.
+1	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	jeune	jeune	ADJ	_	ADJ__Number=Sing	3	amod	_	_
+3	femme	femme	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+4	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+5	en	en	ADP	_	ADP___	1	case	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+7	empêchant	empêcher	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nmod	_	_
+8	de	de	ADP	_	ADP___	6	mark	_	_
+9	reconnaître	reconnaître	VERB	_	VERB__VerbForm=Inf	10	xcomp	_	_
+10	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+11	enfant	enfant	NOUN	_	NOUN__Number=Sing	12	obj	_	_
+12	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+13	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	1	expl	_	_
+14	interdit	interdire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
+15	de	de	ADP	_	ADP___	14	mark	_	_
+16	demander	demander	VERB	_	VERB__VerbForm=Inf	17	xcomp	_	_
+17	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+18	pension	pension	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obj	_	_
+19	alimentaire	alimentaire	ADJ	_	ADJ__Number=Sing	30	amod	_	_
+20	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#La manœuvre est sans doute de conserver des allocations parent isolé, même si cela est douloureux pour vous.
+1	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	manœuvre	manœuvre	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+4	sans	sans	ADP	_	ADP___	3	advmod	_	_
+5	doute	douter	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	fixed	_	_
+6	de	de	ADP	_	ADP___	10	mark	_	_
+7	conserver	conserver	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+8	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
+9	allocations	allocation	NOUN	_	NOUN__Gender=Fem|Number=Plur	10	obj	_	_
+10	parent	parer	ADP	_	ADP___	1	advmod	_	_
+11	isolé	isoler	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	amod	_	_
+12	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+13	même	même	ADV	_	ADV___	1	mark	_	_
+14	si	si	SCONJ	_	SCONJ___	17	fixed	_	_
+15	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	14	nsubj	_	_
+16	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	douloureux	douloureux	ADJ	_	ADJ__Gender=Masc	1	advcl	_	_
+18	pour	pour	ADP	_	ADP___	1	case	_	_
+19	vous	se	PRON	_	PRON__Number=Plur|Person=2|PronType=Prs	30	obl	_	_
+20	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Par contre, il faut savoir qu'il peut à tout moment reconnaître l'enfant en mairie sans en parler avec qui que ce soit.
+1	Par	Par	ADP	_	ADP___	1	advmod	_	_
+2	contre	contrer	ADP	_	ADP___	3	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+5	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	savoir	savoir	VERB	_	VERB__VerbForm=Inf	10	xcomp	_	_
+7	qu'	que	SCONJ	_	SCONJ___	6	mark	_	_
+8	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+9	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+10	à	à	ADP	_	ADP___	1	case	_	_
+11	tout	tout	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	moment	moment	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obl	_	_
+13	reconnaître	reconnaître	VERB	_	VERB__VerbForm=Inf	1	xcomp	_	_
+14	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+15	enfant	enfant	NOUN	_	NOUN__Number=Sing	14	obj	_	_
+16	en	en	ADP	_	ADP___	17	case	_	_
+17	mairie	mairie	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+18	sans	sans	ADP	_	ADP___	1	mark	_	_
+19	en	en	ADP	_	ADP___	30	iobj	_	_
+20	parler	parler	VERB	_	VERB__VerbForm=Inf	21	advcl	_	_
+21	avec	avec	ADP	_	ADP___	19	case	_	_
+22	qui	qui	PRON	_	PRON__PronType=Rel	23	obl	_	_
+23	que	que	SCONJ	_	SCONJ___	21	fixed	_	_
+24	ce	ce	PRON	_	PRON__Number=Sing|Person=3	30	obj	_	_
+25	soit	être	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	fixed	_	_
+26	.	.	PUNCT	_	PUNCT___	30	punct	_	_
+
+

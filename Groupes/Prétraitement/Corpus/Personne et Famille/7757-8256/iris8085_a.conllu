@@ -1,0 +1,207 @@
+#Bonjour,L'accès au logement social dépend de sa situation financière.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	8	acl	_	_
+2	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+3	L'	L'	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	accès	accès	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nsubj	_	_
+5	au	au	PRON	_	PRON__PronType=Rel	8	iobj	_	_
+6	logement	logement	ADV	_	ADV___	8	advmod	_	_
+7	social	social	ADJ	_	ADJ__Gender=Masc|Number=Sing	6	amod	_	_
+8	dépend	dépendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+9	de	de	ADP	_	ADP___	11	case	_	_
+10	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	11	nmod:poss	_	_
+11	situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+12	financière	financier	ADJ	_	ADJ__Gender=Fem|Number=Sing	11	amod	_	_
+13	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Cdt
+1	Cdt	Cdt	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+
+
+#Si la maison est louée (ou louable) c'est un revenu supplémentaire qui doit être pris en compte.
+1	Si	Si	SCONJ	_	SCONJ___	5	mark	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	louée	louer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	advcl	_	_
+6	(	(	PUNCT	_	PUNCT___	5	punct	_	_
+7	ou	ou	CCONJ	_	CCONJ___	8	cc	_	_
+8	louable	louable	ADJ	_	ADJ__Number=Sing	5	conj	_	_
+9	)	)	PUNCT	_	PUNCT___	5	punct	_	_
+10	c'	ce	PRON	_	PRON__Number=Sing|Person=3	13	nsubj	_	_
+11	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	revenu	revenir	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+14	supplémentaire	supplémentaire	ADJ	_	ADJ__Number=Sing	13	amod	_	_
+15	qui	qui	PRON	_	PRON__PronType=Rel	16	nsubj	_	_
+16	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+17	être	être	AUX	_	AUX__VerbForm=Inf	18	aux:pass	_	_
+18	pris	prendre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part|Voice=Pass	16	xcomp	_	_
+19	en	en	ADP	_	ADP___	20	case	_	_
+20	compte	compter	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obl	_	_
+21	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Et elle paye sa part de la taxe foncière, je suppose.
+1	Et	Et	CCONJ	_	CCONJ___	12	cc	_	_
+2	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
+3	paye	payer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+4	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	5	nmod:poss	_	_
+5	part	partir	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obj	_	_
+6	de	de	ADP	_	ADP___	8	case	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	taxe	taxer	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obl	_	_
+9	foncière	foncier	ADJ	_	ADJ__Gender=Fem|Number=Sing	8	amod	_	_
+10	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+11	je	il	PRON	_	PRON__Number=Sing|Person=1	12	nsubj	_	_
+12	suppose	supposer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+13	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Elle pourrait donc se poser la question du coût de cette maison qui diminue son pouvoir d'achat et envisager de la vendre (ou plutôt de vendre sa part).
+1	Elle	Elle	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	12	nsubj	_	_
+2	pourrait	pouvoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	donc	donc	ADV	_	ADV___	12	advmod	_	_
+4	se	se	PRON	_	PRON__Person=3|Reflex=Yes	5	expl	_	_
+5	poser	poser	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+8	du	du	DET	_	DET__Gender=Masc|Number=Sing	3	det	_	_
+9	coût	coût	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+10	de	de	ADP	_	ADP___	12	case	_	_
+11	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+12	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+13	qui	qui	PRON	_	PRON__PronType=Rel	12	nsubj	_	_
+14	diminue	diminuer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+15	son	son	DET	_	DET__Number=Sing|Poss=Yes	18	nmod:poss	_	_
+16	pouvoir	pouvoir	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obj	_	_
+17	d'	de	ADP	_	ADP___	18	case	_	_
+18	achat	achat	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nmod	_	_
+19	et	et	CCONJ	_	CCONJ___	20	cc	_	_
+20	envisager	envisager	VERB	_	VERB__VerbForm=Inf	18	conj	_	_
+21	de	de	ADP	_	ADP___	22	case	_	_
+22	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+23	vendre	vendre	VERB	_	VERB__VerbForm=Inf	25	xcomp	_	_
+24	(	(	PUNCT	_	PUNCT___	25	punct	_	_
+25	ou	ou	CCONJ	_	CCONJ___	22	cc	_	_
+26	plutôt	plutôt	ADV	_	ADV___	27	advmod	_	_
+27	de	de	ADP	_	ADP___	18	mark	_	_
+28	vendre	vendre	VERB	_	VERB__VerbForm=Inf	29	conj	_	_
+29	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	27	nmod:poss	_	_
+30	part	partir	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	obj	_	_
+31	)	)	PUNCT	_	PUNCT___	29	punct	_	_
+32	.	.	PUNCT	_	PUNCT___	33	punct	_	_
+
+
+#Si elle peut en fonction de ses revenus avoir accès à un logement social, il faudra tout de même en payer le loyer - même si elle a des allocations logement.
+1	Si	Si	SCONJ	_	SCONJ___	3	mark	_	_
+2	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
+3	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	en	en	ADP	_	ADP___	8	case	_	_
+5	fonction	fonction	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	fixed	_	_
+6	de	de	ADP	_	ADP___	4	fixed	_	_
+7	ses	son	DET	_	DET__Number=Plur|Poss=Yes	8	nmod:poss	_	_
+8	revenus	revenu	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	obl	_	_
+9	avoir	avoir	VERB	_	VERB__VerbForm=Inf	8	acl	_	_
+10	accès	accès	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+11	à	à	ADP	_	ADP___	13	case	_	_
+12	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	logement	logement	ADV	_	ADV___	10	nmod	_	_
+14	social	social	ADJ	_	ADJ__Gender=Masc|Number=Sing	13	amod	_	_
+15	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+16	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	17	nsubj	_	_
+17	faudra	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	conj	_	_
+18	tout	tout	ADV	_	ADV___	17	advmod	_	_
+19	de	de	ADP	_	ADP___	18	fixed	_	_
+20	même	même	ADV	_	ADV___	18	fixed	_	_
+21	en	en	PRON	_	PRON__Person=3	22	mark	_	_
+22	payer	payer	VERB	_	VERB__VerbForm=Inf	17	advcl	_	_
+23	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	24	det	_	_
+24	loyer	loyer	VERB	_	VERB__VerbForm=Inf	22	obj	_	_
+25	-	-	PUNCT	_	PUNCT___	17	punct	_	_
+26	même	même	ADV	_	ADV___	29	mark	_	_
+27	si	si	SCONJ	_	SCONJ___	26	fixed	_	_
+28	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	29	nsubj	_	_
+29	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+30	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	31	det	_	_
+31	allocations	allocation	NOUN	_	NOUN__Gender=Fem|Number=Plur	29	obj	_	_
+32	logement	logement	ADV	_	ADV___	31	amod	_	_
+33	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Donc l'équilibre de son budget entre en ligne de compte.
+1	Donc	Donc	ADV	_	ADV___	3	advmod	_	_
+2	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	équilibre	équilibrer	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	de	de	ADP	_	ADP___	8	case	_	_
+5	son	son	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+6	budget	budget	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+7	entre	entrer	ADP	_	ADP___	8	case	_	_
+8	en	en	ADP	_	ADP___	3	case	_	_
+9	ligne	ligne	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+10	de	de	ADP	_	ADP___	9	case	_	_
+11	compte	compter	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+12	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#C'est le sens de ma suggestion.
+1	C'	C'	PRON	_	PRON__Number=Sing|Person=3	3	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+4	sens	sentir	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	de	de	ADP	_	ADP___	4	case	_	_
+6	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	4	nmod:poss	_	_
+7	suggestion	suggestion	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+8	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Lors de l'attribution d'un logement social, les revenus des demandeurs sont examinés.
+1	Lors	Lors	ADV	_	ADV___	4	case	_	_
+2	de	de	ADP	_	ADP___	1	fixed	_	_
+3	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	attribution	attribution	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obl	_	_
+5	d'	de	ADP	_	ADP___	7	case	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	logement	logement	ADV	_	ADV___	4	nmod	_	_
+8	social	social	ADJ	_	ADJ__Gender=Masc|Number=Sing	7	amod	_	_
+9	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+10	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	11	det	_	_
+11	revenus	revenu	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+12	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	13	det	_	_
+13	demandeurs	demandeur	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	obj	_	_
+14	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
+15	examinés	examiner	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	acl	_	_
+16	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#En général, il ne faut pas que le loyer dépasse 30% du montant du loyer.
+1	En	En	ADP	_	ADP___	4	advmod	_	_
+2	général	général	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	11	nsubj	_	_
+5	ne	ne	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+6	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	pas	pas	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+8	que	que	SCONJ	_	SCONJ___	7	mark	_	_
+9	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	11	det	_	_
+10	loyer	loyer	VERB	_	VERB__VerbForm=Inf	11	nsubj	_	_
+11	dépasse	dépasser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+12	30	30	NUM	_	NUM__NumType=Card	13	nummod	_	_
+13	%	%	NOUN	_	NOUN__Gender=Masc	11	obj	_	_
+14	du	du	DET	_	DET__Gender=Masc|Number=Sing	15	det	_	_
+15	montant	monter	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+16	du	du	DET	_	DET__Gender=Masc|Number=Sing	11	obj	_	_
+17	loyer	loyer	VERB	_	VERB__VerbForm=Inf	22	obj	_	_
+18	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#C'est tout ce qui compte.
+1	C'	C'	PRON	_	PRON__Number=Sing|Person=3	4	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	tout	tout	ADJ	_	ADJ__Gender=Masc|Number=Sing	4	amod	_	_
+4	ce	ce	PRON	_	PRON__PronType=Rel	0	ROOT	_	_
+5	qui	qui	PRON	_	PRON__PronType=Rel	7	nsubj	_	_
+6	compte	compter	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	acl:relcl	_	_
+7	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+

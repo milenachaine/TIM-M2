@@ -1,0 +1,145 @@
+#Le frère décédé avait-il une descendance (par exemple la cousine) ou une conjointe survivante ?
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	frère	frère	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+3	décédé	décéder	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	acl	_	_
+4	avait	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+5	-	-	PUNCT	_	PUNCT___	8	punct	_	_
+6	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+7	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	descendance	descendance	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obj	_	_
+9	(	(	PUNCT	_	PUNCT___	8	punct	_	_
+10	par	par	ADP	_	ADP___	13	advmod	_	_
+11	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	fixed	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	cousine	cousin	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+14	)	)	PUNCT	_	PUNCT___	8	punct	_	_
+15	ou	ou	CCONJ	_	CCONJ___	17	cc	_	_
+16	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	conjointe	conjoint	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	conj	_	_
+18	survivante	survivant	ADJ	_	ADJ__Gender=Fem|Number=Sing	17	amod	_	_
+19	?	?	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Dans ce cas, votre mère n'était pas héritière légale de son frère.
+1	Dans	Dans	ADP	_	ADP___	2	case	_	_
+2	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+3	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	obl	_	_
+4	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+5	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+6	mère	mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nsubj	_	_
+7	n'	ne	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+8	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+9	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+10	héritière	héritier	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+11	légale	légal	ADJ	_	ADJ__Gender=Fem|Number=Sing	10	obj	_	_
+12	de	de	ADP	_	ADP___	13	case	_	_
+13	son	son	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+14	frère	frère	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+15	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Dans le cas contraire, elle était héritière légale, mais pas héritière réservataire, elle pouvait être exclue par testament, au profit de l'importe qui.
+1	Dans	Dans	ADP	_	ADP___	2	case	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	obl	_	_
+4	contraire	contraire	ADJ	_	ADJ__Number=Sing	4	amod	_	_
+5	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+6	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	8	nsubj	_	_
+7	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+8	héritière	héritier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Card	0	ROOT	_	_
+9	légale	légal	ADJ	_	ADJ__Gender=Fem|Number=Sing	8	amod	_	_
+10	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+11	mais	mai	CCONJ	_	CCONJ___	10	cc	_	_
+12	pas	pas	ADV	_	ADV___	13	advmod	_	_
+13	héritière	héritier	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	advmod	_	_
+14	réservataire	réservataire	ADJ	_	ADJ__Number=Sing	8	amod	_	_
+15	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+16	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	17	nsubj	_	_
+17	pouvait	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	conj	_	_
+18	être	être	AUX	_	AUX__VerbForm=Inf	17	aux:pass	_	_
+19	exclue	exclure	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	xcomp	_	_
+20	par	par	ADP	_	ADP___	22	case	_	_
+21	testament	testament	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	obl	_	_
+22	,	,	PUNCT	_	PUNCT___	29	punct	_	_
+23	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	29	case	_	_
+24	profit	profit	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	fixed	_	_
+25	de	de	ADP	_	ADP___	29	fixed	_	_
+26	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	29	det	_	_
+27	importe	importer	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	obl	_	_
+28	qui	qui	PRON	_	PRON__PronType=Rel	29	amod	_	_
+29	.	.	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#Il est possible d'interroger le fichier central des dispositions de dernières volontés pour savoir si votre oncle avait fait un testament (cela ne vous permettra pas de connaître son contenu), et chez quel notaire il avait été déposé.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	possible	possible	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+4	d'	de	ADP	_	ADP___	4	mark	_	_
+5	interroger	interroger	VERB	_	VERB__VerbForm=Inf	8	xcomp	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	fichier	fichier	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+8	central	central	ADJ	_	ADJ__Gender=Masc|Number=Sing	4	amod	_	_
+9	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
+10	dispositions	disposition	NOUN	_	NOUN__Gender=Fem|Number=Plur	13	obj	_	_
+11	de	de	ADP	_	ADP___	10	case	_	_
+12	dernières	dernier	ADJ	_	ADJ__Gender=Fem|Number=Plur|NumType=Ord	13	amod	_	_
+13	volontés	volonté	NOUN	_	NOUN__Gender=Fem|Number=Plur	8	nmod	_	_
+14	pour	pour	ADP	_	ADP___	8	mark	_	_
+15	savoir	savoir	VERB	_	VERB__VerbForm=Inf	17	advcl	_	_
+16	si	si	SCONJ	_	SCONJ___	17	mark	_	_
+17	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+18	oncle	oncle	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	nsubj	_	_
+19	avait	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+20	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	ccomp	_	_
+21	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	testament	testament	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	obj	_	_
+23	(	(	PUNCT	_	PUNCT___	29	punct	_	_
+24	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	25	nsubj	_	_
+25	ne	ne	ADV	_	ADV___	29	advmod	_	_
+26	vous	se	PRON	_	PRON__Number=Plur|Person=2	29	iobj	_	_
+27	permettra	permettre	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	29	ccomp	_	_
+28	pas	pas	ADV	_	ADV___	29	advmod	_	_
+29	de	de	ADP	_	ADP___	29	mark	_	_
+30	connaître	connaître	VERB	_	VERB__VerbForm=Inf	29	xcomp	_	_
+31	son	son	DET	_	DET__Number=Sing|Poss=Yes	33	nmod:poss	_	_
+32	contenu	contenir	NOUN	_	NOUN__Gender=Masc|Number=Sing	33	obj	_	_
+33	)	)	PUNCT	_	PUNCT___	29	punct	_	_
+34	,	,	PUNCT	_	PUNCT___	29	punct	_	_
+35	et	et	CCONJ	_	CCONJ___	37	cc	_	_
+36	chez	chez	ADP	_	ADP___	37	case	_	_
+37	quel	quel	DET	_	DET__Gender=Masc|Number=Sing|PronType=Int	42	det	_	_
+38	notaire	notaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	37	nsubj:pass	_	_
+39	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	42	nsubj:pass	_	_
+40	avait	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	42	aux	_	_
+41	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	42	aux:pass	_	_
+42	déposé	déposer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	42	conj	_	_
+43	.	.	PUNCT	_	PUNCT___	42	punct	_	_
+
+
+#Il est possible, pour un héritier exclu par testament, de prendre connaissance dudit testament, afin d'en analyser la validité.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	possible	possible	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+4	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+5	pour	pour	ADP	_	ADP___	8	case	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	héritier	héritier	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+8	exclu	exclure	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+9	par	par	ADP	_	ADP___	8	case	_	_
+10	testament	testament	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+11	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+12	de	de	ADP	_	ADP___	13	mark	_	_
+13	prendre	prendre	VERB	_	VERB__VerbForm=Inf	8	xcomp	_	_
+14	connaissance	connaissance	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+15	dudit	dudit	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	xcomp	_	_
+16	testament	testament	ADV	_	ADV___	17	advmod	_	_
+17	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+18	afin	afin	ADP	_	ADP___	17	mark	_	_
+19	d'	de	ADP	_	ADP___	4	fixed	_	_
+20	en	en	PRON	_	PRON__Person=3	22	iobj	_	_
+21	analyser	analyser	VERB	_	VERB__VerbForm=Inf	22	advcl	_	_
+22	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+23	validité	validité	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	obj	_	_
+24	.	.	PUNCT	_	PUNCT___	25	punct	_	_
+
+

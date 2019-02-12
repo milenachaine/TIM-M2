@@ -1,0 +1,426 @@
+#Bonjour à tous je vous explique mon problème :
+1	Bonjour	Bonjour	PROPN	_	PROPN___	6	mark	_	_
+2	à	à	ADP	_	ADP___	3	case	_	_
+3	tous	tout	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Rel	6	obl	_	_
+4	je	il	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+5	vous	se	PRON	_	PRON__Number=Plur|Person=2	6	iobj	_	_
+6	explique	expliquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+8	problème	problème	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+9	:	:	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Ma maman viens davoir un héritage de sa cousine, dont ils sont 50 héritiers.
+1	Ma	Ma	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	6	nmod:poss	_	_
+2	maman	maman	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	viens	venir	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	acl	_	_
+4	davoir	davoir	VERB	_	VERB__VerbForm=Inf	6	case	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	héritage	héritage	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obl	_	_
+7	de	de	ADP	_	ADP___	8	case	_	_
+8	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	6	nmod:poss	_	_
+9	cousine	cousin	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+10	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+11	dont	dont	PRON	_	PRON__PronType=Rel	11	dep	_	_
+12	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	11	nsubj	_	_
+13	sont	être	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	50	50	NUM	_	NUM__NumType=Card	15	nummod	_	_
+15	héritiers	héritier	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	acl:relcl	_	_
+16	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Le notaire a mandaté un généalogiste.
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+2	notaire	notaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	mandaté	mandater	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	généalogiste	généalogiste	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+7	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Ma maman na pas était au courant par un généalogiste, mais un génealogiste lavait contacter afin dy faire signer un contrat de révélation, ma mère étant déjà au courant avait refusé par recommandé.
+1	Ma	Ma	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	6	nmod:poss	_	_
+2	maman	maman	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+3	na	na	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	advmod	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+5	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+6	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	6	expl	_	_
+7	courant	courir	VERB	_	VERB__Tense=Pres|VerbForm=Part	0	ROOT	_	_
+8	par	par	ADP	_	ADP___	6	case	_	_
+9	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+10	généalogiste	généalogiste	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obl	_	_
+11	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+12	mais	mai	CCONJ	_	CCONJ___	11	cc	_	_
+13	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	génealogiste	génealogiste	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	amod	_	_
+15	lavait	lavait	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+16	contacter	contacter	VERB	_	VERB__VerbForm=Inf	18	acl	_	_
+17	afin	afin	ADP	_	ADP___	18	case	_	_
+18	dy	dy	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	obl	_	_
+19	faire	faire	VERB	_	VERB__VerbForm=Inf	11	acl	_	_
+20	signer	signer	VERB	_	VERB__VerbForm=Inf	24	xcomp	_	_
+21	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+22	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	obj	_	_
+23	de	de	ADP	_	ADP___	24	case	_	_
+24	révélation	révélation	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+25	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+26	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	27	nmod:poss	_	_
+27	mère	mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	nsubj	_	_
+28	étant	être	VERB	_	VERB__Tense=Pres|VerbForm=Part	29	cop	_	_
+29	déjà	déjà	ADV	_	ADV___	29	advmod	_	_
+30	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	31	obj	_	_
+31	courant	courir	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	parataxis	_	_
+32	avait	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	aux	_	_
+33	refusé	refuser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	34	xcomp	_	_
+34	par	par	ADP	_	ADP___	39	case	_	_
+35	recommandé	recommander	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	39	obl	_	_
+36	.	.	PUNCT	_	PUNCT___	39	punct	_	_
+
+
+#Ils sont une dizaine à avoir refuser le généalogiste, dautres héritiers lavait accepter.
+1	Ils	Ils	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	6	nsubj	_	_
+2	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+4	dizaine	dizaine	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+5	à	à	ADP	_	ADP___	6	mark	_	_
+6	avoir	avoir	AUX	_	AUX__VerbForm=Inf	6	aux	_	_
+7	refuser	refuser	VERB	_	VERB__VerbForm=Inf	8	acl	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+9	généalogiste	généalogiste	NOUN	_	NOUN__Number=Sing	6	obj	_	_
+10	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+11	dautres	dautres	ADJ	_	ADJ__Number=Plur	11	amod	_	_
+12	héritiers	héritier	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	conj	_	_
+13	lavait	lavait	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	punct	_	_
+14	accepter	accepter	VERB	_	VERB__VerbForm=Inf	15	xcomp	_	_
+15	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Voilà le souci, une fois lheritage versé ma mère a reçu une note des frais du généalogiste à régler de 1500 euros.
+1	Voilà	Voilà	VERB	_	VERB__Mood=Ind|VerbForm=Fin	6	acl	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	souci	souci	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+4	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	fois	foi	NOUN	_	NOUN__Gender=Fem	6	nsubj	_	_
+7	lheritage	lheritage	PRON	_	PRON__Number=Plur|Person=3	8	nsubj	_	_
+8	versé	verser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+9	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	6	nmod:poss	_	_
+10	mère	mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nsubj	_	_
+11	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+12	reçu	recevoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	ccomp	_	_
+13	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	note	noter	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obj	_	_
+15	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	12	det	_	_
+16	frais	frai	NOUN	_	NOUN__Gender=Masc|Number=Plur	18	obj	_	_
+17	du	du	DET	_	DET__Gender=Masc|Number=Sing	18	det	_	_
+18	généalogiste	généalogiste	ADJ	_	ADJ__Number=Sing	15	obj	_	_
+19	à	à	ADP	_	ADP___	11	mark	_	_
+20	régler	régler	VERB	_	VERB__VerbForm=Inf	24	advcl	_	_
+21	de	de	ADP	_	ADP___	24	case	_	_
+22	1500	1500	NUM	_	NUM__NumType=Card	24	nummod	_	_
+23	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	24	obl	_	_
+24	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Ma mère a envoyé un courrier et téléphoner pour dire quelle netait Pas passer par eux donc elle ne leur devait rien, le généalogiste très très désagréable au téléphone a dis quil aller lui répondre par mail.
+1	Ma	Ma	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	6	nmod:poss	_	_
+2	mère	mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	envoyé	envoyer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	courrier	courrier	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+7	et	et	CCONJ	_	CCONJ___	8	cc	_	_
+8	téléphoner	téléphoner	VERB	_	VERB__VerbForm=Inf	6	conj	_	_
+9	pour	pour	ADP	_	ADP___	6	mark	_	_
+10	dire	dire	VERB	_	VERB__VerbForm=Inf	11	advcl	_	_
+11	quelle	quelle	DET	_	DET__Gender=Fem|Number=Sing|PronType=Int	11	nsubj	_	_
+12	netait	netait	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	nsubj	_	_
+13	Pas	Pas	ADV	_	ADV___	15	advmod	_	_
+14	passer	prendre	VERB	_	VERB__VerbForm=Part	15	ccomp	_	_
+15	par	par	ADP	_	ADP___	12	case	_	_
+16	eux	lui	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3|PronType=Prs	18	obl	_	_
+17	donc	donc	ADV	_	ADV___	18	advmod	_	_
+18	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	15	nsubj	_	_
+19	ne	ne	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+20	leur	lui	PRON	_	PRON__Number=Plur|Person=3	24	iobj	_	_
+21	devait	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	advcl	_	_
+22	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	24	obj	_	_
+23	,	,	PUNCT	_	PUNCT___	24	punct	_	_
+24	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+25	généalogiste	généalogiste	ADJ	_	ADJ__Number=Sing	11	nsubj	_	_
+26	très	très	ADV	_	ADV___	27	advmod	_	_
+27	très	très	ADV	_	ADV___	29	advmod	_	_
+28	désagréable	désagréable	ADJ	_	ADJ__Number=Sing	29	conj	_	_
+29	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	29	det	_	_
+30	téléphone	téléphoner	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	obj	_	_
+31	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+32	dis	dire	ADV	_	ADV___	29	advmod	_	_
+33	quil	quil	ADV	_	ADV___	34	fixed	_	_
+34	aller	aller	VERB	_	VERB__VerbForm=Inf	39	acl	_	_
+35	lui	luire	PRON	_	PRON___	39	iobj	_	_
+36	répondre	répondre	VERB	_	VERB__VerbForm=Inf	39	xcomp	_	_
+37	par	par	ADP	_	ADP___	39	case	_	_
+38	mail	mail	NOUN	_	NOUN__Gender=Masc|Number=Sing	39	obl	_	_
+39	.	.	PUNCT	_	PUNCT___	39	punct	_	_
+
+
+#De la plus aucune nouvelle...puis deux mois après, donc aujourdhui un huissier est passé amener une assignation au tribunal !!
+1	De	De	ADP	_	ADP___	6	advmod	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	fixed	_	_
+3	plus	plaire	ADV	_	ADV___	6	fixed	_	_
+4	aucune	aucun	DET	_	DET__Gender=Fem|Number=Sing	6	det	_	_
+5	nouvelle	nouveau	ADJ	_	ADJ__Gender=Fem|Number=Sing	6	obl	_	_
+6	...	...	PUNCT	_	PUNCT___	6	punct	_	_
+7	puis	pouvoir	CCONJ	_	CCONJ___	8	cc	_	_
+8	deux	deux	NUM	_	NUM__NumType=Card	6	nummod	_	_
+9	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	obl	_	_
+10	après	après	ADP	_	ADP___	11	case	_	_
+11	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+12	donc	donc	ADV	_	ADV___	11	advmod	_	_
+13	aujourdhui	aujourdhui	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nsubj	_	_
+14	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	huissier	huissier	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+16	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	passé	passer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	aux	_	_
+18	amener	amener	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+19	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+20	assignation	assignation	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	obj	_	_
+21	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	24	case	_	_
+22	tribunal	tribunal	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	nmod	_	_
+23	!	!	PUNCT	_	PUNCT___	24	punct	_	_
+24	!	!	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Est ce normal?
+1	Est	Est	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+2	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	normal	normal	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	?	?	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#que devont nous faire?
+1	que	que	SCONJ	_	SCONJ___	6	obj	_	_
+2	devont	devont	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	3	aux	_	_
+3	nous	se	PRON	_	PRON__Number=Plur|Person=1	6	expl	_	_
+4	faire	faire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	?	?	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Il est noté plus de 4500 euros de frais maintenant...ma mère ne veut pas prendre davocat, elle dit quelle ne veut pas avoir de frais supplémentaire!!
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	noté	noter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+4	plus	plaire	ADV	_	ADV___	6	advmod	_	_
+5	de	de	ADP	_	ADP___	6	case	_	_
+6	4500	4500	NUM	_	NUM__NumType=Card	6	nummod	_	_
+7	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obl	_	_
+8	de	de	ADP	_	ADP___	6	case	_	_
+9	frais	frai	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	nmod	_	_
+10	maintenant	maintenir	ADV	_	ADV___	11	advmod	_	_
+11	...	...	PUNCT	_	PUNCT___	11	punct	_	_
+12	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	11	nmod:poss	_	_
+13	mère	mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	nsubj	_	_
+14	ne	ne	ADV	_	ADV__Polarity=Neg	15	advmod	_	_
+15	veut	vouloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	parataxis	_	_
+16	pas	pas	ADV	_	ADV__Polarity=Neg	18	advmod	_	_
+17	prendre	prendre	VERB	_	VERB__VerbForm=Inf	18	xcomp	_	_
+18	davocat	davocat	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	15	obj	_	_
+19	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+20	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	24	nsubj	_	_
+21	dit	dire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	conj	_	_
+22	quelle	quelle	ADJ	_	ADJ__Gender=Fem|Number=Sing	24	nsubj	_	_
+23	ne	ne	ADV	_	ADV__Polarity=Neg	24	advmod	_	_
+24	veut	vouloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+25	pas	pas	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+26	avoir	avoir	VERB	_	VERB__VerbForm=Inf	27	obj	_	_
+27	de	de	ADP	_	ADP___	29	case	_	_
+28	frais	frai	NOUN	_	NOUN__Gender=Masc|Number=Plur	29	obl	_	_
+29	supplémentaire	supplémentaire	ADJ	_	ADJ__Number=Sing	29	amod	_	_
+30	!	!	PUNCT	_	PUNCT___	31	punct	_	_
+31	!	!	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#Moi je me demande comment ça va se passer pour se défendre toute seule, On est complètement perdu...tous vos conseils nous seront vraiment très utile...
+1	Moi	Moi	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	6	vocative	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+3	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	6	expl	_	_
+4	demande	demander	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+5	comment	comment	ADV	_	ADV__PronType=Int	6	advmod	_	_
+6	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	_
+7	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	se	se	PRON	_	PRON__Person=3|Reflex=Yes	6	expl	_	_
+9	passer	prendre	VERB	_	VERB__VerbForm=Inf	6	xcomp	_	_
+10	pour	pour	ADP	_	ADP___	11	mark	_	_
+11	se	se	PRON	_	PRON__Person=3|Reflex=Yes	11	obj	_	_
+12	défendre	défendre	VERB	_	VERB__VerbForm=Inf	11	advcl	_	_
+13	toute	tout	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	advmod	_	_
+14	seule	seul	ADJ	_	ADJ__Gender=Fem|Number=Sing	15	conj	_	_
+15	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+16	On	On	PRON	_	PRON__Number=Sing|Person=3	18	nsubj	_	_
+17	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	complètement	complètement	ADV	_	ADV___	15	advmod	_	_
+19	perdu	perdre	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+20	...	...	PUNCT	_	PUNCT___	24	punct	_	_
+21	tous	tout	ADJ	_	ADJ__Gender=Masc|Number=Plur	24	amod	_	_
+22	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	24	nmod:poss	_	_
+23	conseils	conseil	NOUN	_	NOUN__Gender=Masc|Number=Plur	24	nsubj	_	_
+24	nous	se	PRON	_	PRON__Number=Plur|Person=1	11	iobj	_	_
+25	seront	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	11	cop	_	_
+26	vraiment	vraiment	ADV	_	ADV___	27	advmod	_	_
+27	très	très	ADV	_	ADV___	29	advmod	_	_
+28	utile	utile	ADJ	_	ADJ__Number=Sing	29	parataxis	_	_
+29	...	...	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#Je suis totalement daccord avec vous tout travail mérite salaire.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+2	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	totalement	totalement	ADV	_	ADV___	4	advmod	_	_
+4	daccord	daccord	ADV	_	ADV___	0	ROOT	_	_
+5	avec	avec	ADP	_	ADP___	8	case	_	_
+6	vous	se	PRON	_	PRON__Number=Plur|Person=2	8	amod	_	_
+7	tout	tout	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	amod	_	_
+8	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+9	mérite	mériter	ADV	_	ADV___	8	amod	_	_
+10	salaire	salaire	ADJ	_	ADJ__Number=Sing	8	amod	_	_
+11	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Mais ma mère elle na rien demandé, effectivement je trouverais vraiment cela plus logique que ça soit la notaire qui payent les frais du généalogiste sachant que cest elle qui la mandaté et quelle nous répercute la somme sur ce quon nous donne.
+1	Mais	Mais	CCONJ	_	CCONJ___	4	cc	_	_
+2	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	4	nmod:poss	_	_
+3	mère	mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obl	_	_
+4	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	4	nsubj	_	_
+5	na	na	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	advmod	_	_
+6	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	8	nsubj	_	_
+7	demandé	demander	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+8	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+9	effectivement	effectivement	ADV	_	ADV___	8	advmod	_	_
+10	je	il	PRON	_	PRON__Number=Sing|Person=1	8	nsubj	_	_
+11	trouverais	trouver	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+12	vraiment	vraiment	ADV	_	ADV___	16	advmod	_	_
+13	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	14	cop	_	_
+14	plus	plaire	ADV	_	ADV___	16	advmod	_	_
+15	logique	logique	ADJ	_	ADJ__Number=Sing	16	parataxis	_	_
+16	que	que	SCONJ	_	SCONJ___	18	mark	_	_
+17	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	dep	_	_
+18	soit	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cc	_	_
+19	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+20	notaire	notaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	conj	_	_
+21	qui	qui	PRON	_	PRON__PronType=Rel	26	nsubj	_	_
+22	payent	payer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	_
+23	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	26	det	_	_
+24	frais	frai	NOUN	_	NOUN__Gender=Masc|Number=Plur	26	obj	_	_
+25	du	du	DET	_	DET__Gender=Masc|Number=Sing	26	det	_	_
+26	généalogiste	généalogiste	ADJ	_	ADJ__Number=Sing	18	obj	_	_
+27	sachant	savoir	VERB	_	VERB__Tense=Pres|VerbForm=Part	28	acl	_	_
+28	que	que	SCONJ	_	SCONJ___	26	mark	_	_
+29	cest	cest	SCONJ	_	SCONJ___	31	mark	_	_
+30	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	31	iobj	_	_
+31	qui	qui	PRON	_	PRON__PronType=Rel	28	nsubj	_	_
+32	la	la	AUX	_	AUX__VerbForm=Inf	33	cop	_	_
+33	mandaté	mandater	NOUN	_	NOUN__Gender=Masc|Number=Plur	31	ccomp	_	_
+34	et	et	CCONJ	_	CCONJ___	35	cc	_	_
+35	quelle	quelle	DET	_	DET__Gender=Fem|Number=Sing|PronType=Int	33	nsubj	_	_
+36	nous	se	PRON	_	PRON__Number=Plur|Person=1	37	iobj	_	_
+37	répercute	répercuter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	conj	_	_
+38	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+39	somme	sommer	NOUN	_	NOUN__Gender=Fem|Number=Sing	44	obj	_	_
+40	sur	sur	ADP	_	ADP___	44	case	_	_
+41	ce	ce	PRON	_	PRON__PronType=Rel	44	obl	_	_
+42	quon	quon	PRON	_	PRON__PronType=Rel	44	obj	_	_
+43	nous	se	PRON	_	PRON__Number=Plur|Person=1	44	iobj	_	_
+44	donne	donner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	acl:relcl	_	_
+45	.	.	PUNCT	_	PUNCT___	48	punct	_	_
+
+
+#Ensuite je ne trouve pas normal quon nous demandais la même somme que ceux qui avait signé un contrat de révélation!!je trouve leurs méthodes pas correctes du tout...
+1	Ensuite	Ensuite	ADV	_	ADV___	4	advmod	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+3	ne	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+4	trouve	trouver	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+6	normal	normal	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	advmod	_	_
+7	quon	quon	PRON	_	PRON__PronType=Rel	8	mark	_	_
+8	nous	se	PRON	_	PRON__Number=Plur|Person=1	4	nsubj	_	_
+9	demandais	demander	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+11	même	même	ADJ	_	ADJ__Number=Sing	4	amod	_	_
+12	somme	sommer	NOUN	_	NOUN__Number=Sing	16	obj	_	_
+13	que	que	SCONJ	_	SCONJ___	14	mark	_	_
+14	ceux	celui	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Dem	16	dep	_	_
+15	qui	qui	PRON	_	PRON__PronType=Rel	16	nsubj	_	_
+16	avait	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	aux	_	_
+17	signé	signer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	acl:relcl	_	_
+18	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+19	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obj	_	_
+20	de	de	ADP	_	ADP___	26	case	_	_
+21	révélation!!je	révélation!!je	NOUN	_	NOUN__Gender=Masc|Number=Plur	26	nmod	_	_
+22	trouve	trouver	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	parataxis	_	_
+23	leurs	leur	DET	_	DET__Number=Plur|Poss=Yes	26	nmod:poss	_	_
+24	méthodes	méthode	NOUN	_	NOUN__Gender=Fem|Number=Plur	26	obj	_	_
+25	pas	pas	ADV	_	ADV__Polarity=Neg	26	advmod	_	_
+26	correctes	correct	ADJ	_	ADJ__Number=Plur	18	advcl	_	_
+27	du	du	DET	_	DET__Gender=Masc|Number=Sing	28	det	_	_
+28	tout	tout	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	obj	_	_
+29	...	...	PUNCT	_	PUNCT___	31	punct	_	_
+
+
+#Sachant que ma mère nest pas de mauvaise fois, on la appelé,  il a été très désagréable, iil devait nous répondre par mail, on a jamais rien reçu et là direct assignation au tribunal!!!Après je me doute que cest perdu davance, il sait ce quil fait!!
+1	Sachant	Sachant	ADJ	_	ADJ__Gender=Masc|Number=Sing	4	acl	_	_
+2	que	que	SCONJ	_	SCONJ___	4	mark	_	_
+3	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	4	nmod:poss	_	_
+4	mère	mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nsubj	_	_
+5	nest	nest	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+7	de	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
+8	mauvaise	mauvais	ADJ	_	ADJ__Gender=Fem|Number=Sing	4	amod	_	_
+9	fois	foi	NOUN	_	NOUN__Gender=Fem|Number=Plur	8	fixed	_	_
+10	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+11	on	on	PRON	_	PRON__Number=Sing|Person=3	4	nsubj	_	_
+12	la	la	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	16	advcl	_	_
+13	appelé	appeler	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	advmod	_	_
+14	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+15	 	 	SPACE	_		16		_	_
+16	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	18	nsubj	_	_
+17	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	18	cop	_	_
+19	très	très	ADV	_	ADV___	18	advmod	_	_
+20	désagréable	désagréable	ADJ	_	ADJ__Number=Sing	26	ccomp	_	_
+21	,	,	PUNCT	_	PUNCT___	26	punct	_	_
+22	iil	iil	PROPN	_	PROPN___	26	nsubj	_	_
+23	devait	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	aux	_	_
+24	nous	se	PRON	_	PRON__Number=Plur|Person=1|Reflex=Yes	26	expl	_	_
+25	répondre	répondre	VERB	_	VERB__VerbForm=Inf	26	advcl	_	_
+26	par	par	ADP	_	ADP___	18	case	_	_
+27	mail	mail	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	obl	_	_
+28	,	,	PUNCT	_	PUNCT___	26	punct	_	_
+29	on	on	PRON	_	PRON__Number=Sing|Person=3	31	nsubj	_	_
+30	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
+31	jamais	jamais	ADV	_	ADV__Polarity=Neg	28	advmod	_	_
+32	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	33	nsubj	_	_
+33	reçu	recevoir	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+34	et	et	CCONJ	_	CCONJ___	35	cc	_	_
+35	là	là	ADV	_	ADV___	33	det	_	_
+36	direct	direct	ADJ	_	ADJ__Gender=Masc|Number=Sing	37	amod	_	_
+37	assignation	assignation	NOUN	_	NOUN__Gender=Fem|Number=Sing	35	conj	_	_
+38	au	au	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	35	advmod	_	_
+39	tribunal!!!Après	tribunal!!!Après	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	44	advmod	_	_
+40	je	il	PRON	_	PRON__Number=Sing|Person=1	44	nsubj	_	_
+41	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	44	expl	_	_
+42	doute	douter	NOUN	_	NOUN__Gender=Masc|Number=Sing	44	fixed	_	_
+43	que	que	SCONJ	_	SCONJ___	44	mark	_	_
+44	cest	cest	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	nsubj	_	_
+45	perdu	perdre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	48	advmod	_	_
+46	davance	davance	NOUN	_	NOUN__Gender=Fem|Number=Sing	48	advmod	_	_
+47	,	,	PUNCT	_	PUNCT___	48	punct	_	_
+48	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	44	nsubj	_	_
+49	sait	savoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	50	parataxis	_	_
+50	ce	ce	PRON	_	PRON__PronType=Rel	48	obj	_	_
+51	quil	quil	PRON	_	PRON__PronType=Rel	52	acl	_	_
+52	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	acl	_	_
+53	!	!	PUNCT	_	PUNCT___	55	punct	_	_
+54	!	!	PUNCT	_	PUNCT___	55	punct	_	_
+
+
