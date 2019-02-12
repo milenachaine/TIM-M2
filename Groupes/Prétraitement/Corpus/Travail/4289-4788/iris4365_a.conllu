@@ -1,0 +1,171 @@
+#Bonjour,Oui, c'est normal.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Oui	Oui	PROPN	_	PROPN__Gender=Masc|Number=Sing	1	nmod	_	_
+4	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+5	c'	ce	PRON	_	PRON__Number=Sing|Person=3	7	nsubj	_	_
+6	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	normal	normal	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	conj	_	_
+8	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Sur une année pleine, vous avez droit à 30 joursde congés, soit 30 jours du lundi au samedi.
+1	Sur	Sur	ADP	_	ADP___	1	case	_	_
+2	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+3	année	année	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obl	_	_
+4	pleine	plein	ADJ	_	ADJ__Gender=Fem|Number=Sing	7	amod	_	_
+5	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+6	vous	se	PRON	_	PRON__Number=Plur|Person=2	7	nsubj	_	_
+7	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	aux	_	_
+8	droit	droit	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+9	à	à	ADP	_	ADP___	11	case	_	_
+10	30	30	NUM	_	NUM__NumType=Card	11	nummod	_	_
+11	joursde	joursde	ADV	_	ADV___	16	nmod	_	_
+12	congés	congé	ADJ	_	ADJ__Gender=Masc|Number=Plur	11	amod	_	_
+13	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+14	soit	être	CCONJ	_	CCONJ___	16	cc	_	_
+15	30	30	NUM	_	NUM__NumType=Card	16	nummod	_	_
+16	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	conj	_	_
+17	du	du	DET	_	DET__Gender=Masc|Number=Sing	19	det	_	_
+18	lundi	lundi	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	orphan	_	_
+19	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	16	case	_	_
+20	samedi	samedi	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	orphan	_	_
+21	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Ce qui équivaut à 25 joursde congés, soit 25jours du lundi au vendredi.
+1	Ce	Ce	PRON	_	PRON__PronType=Rel	0	ROOT	_	_
+2	qui	qui	PRON	_	PRON__PronType=Rel	1	nsubj	_	_
+3	équivaut	équivaloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+4	à	à	ADP	_	ADP___	7	case	_	_
+5	25	25	NUM	_	NUM__NumType=Card	7	nummod	_	_
+6	joursde	joursde	ADV	_	ADV___	7	obl	_	_
+7	congés	congé	ADJ	_	ADJ__Gender=Masc|Number=Plur	1	amod	_	_
+8	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+9	soit	être	CCONJ	_	CCONJ___	11	cc	_	_
+10	25jours	25jours	NUM	_	NUM__NumType=Card	11	conj	_	_
+11	du	du	DET	_	DET__Gender=Masc|Number=Sing	16	det	_	_
+12	lundi	lundi	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+13	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	16	case	_	_
+14	vendredi	vendredi	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obl	_	_
+15	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Si votre employeur décompte en jours ouvrables, ce qui est la règle légale, une semaine de congés équivaut à 6 jours ouvrables, dont le samedi.
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+3	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+4	décompte	décompter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	en	en	ADP	_	ADP___	7	case	_	_
+6	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	obl	_	_
+7	ouvrables	ouvrable	ADJ	_	ADJ__Gender=Fem|Number=Plur	1	amod	_	_
+8	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+9	ce	ce	PRON	_	PRON__PronType=Rel	11	iobj	_	_
+10	qui	qui	PRON	_	PRON__PronType=Rel	11	nsubj	_	_
+11	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+13	règle	régler	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	acl:relcl	_	_
+14	légale	légal	ADJ	_	ADJ__Gender=Fem|Number=Sing	16	amod	_	_
+15	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+16	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+17	semaine	semaine	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obl	_	_
+18	de	de	ADP	_	ADP___	19	case	_	_
+19	congés	congé	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	nmod	_	_
+20	équivaut	équivaloir	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	amod	_	_
+21	à	à	ADP	_	ADP___	16	case	_	_
+22	6	6	NUM	_	NUM__NumType=Card	24	nummod	_	_
+23	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	24	obl	_	_
+24	ouvrables	ouvrable	ADJ	_	ADJ__Gender=Fem|Number=Plur	16	amod	_	_
+25	,	,	PUNCT	_	PUNCT___	26	punct	_	_
+26	dont	dont	PRON	_	PRON__PronType=Rel	24	dep	_	_
+27	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	samedi	samedi	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	obl	_	_
+29	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Bien à vous.
+1	Bien	Bien	ADV	_	ADV___	1	case	_	_
+2	à	à	ADP	_	ADP___	1	fixed	_	_
+3	vous	se	PRON	_	PRON__Number=Plur|Person=2|PronType=Prs	0	ROOT	_	_
+4	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Bonjour
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+
+
+#,CA  Cela veut il dire Chiffre d'Affaires ?
+1	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+2	CA	CA	PROPN	_	PROPN___	6	nsubj	_	_
+3	 	 	SPACE	_		6		_	_
+4	Cela	Cela	PRON	_	PRON__Number=Sing|PronType=Dem	3	nsubj	_	_
+5	veut	vouloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+7	dire	dire	VERB	_	VERB__VerbForm=Inf	8	xcomp	_	_
+8	Chiffre	Chiffre	PROPN	_	PROPN___	6	obj	_	_
+9	d'	de	ADP	_	ADP___	8	case	_	_
+10	Affaires	Affaires	NOUN	_	NOUN__Gender=Fem|Number=Plur	11	nmod	_	_
+11	?	?	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Un samedi c'est un jour ouvrable,  on compte tous les jours ouvrables dans les congés  chaque année vous faites l'acquisition de 30 jours ouvrables pour vos congés  c'est donc bien 6 jours * 5 semaines
+1	Un	Un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	samedi	samedi	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nsubj	_	_
+3	c'	ce	PRON	_	PRON__Number=Sing|Person=3	6	nsubj	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nmod	_	_
+7	ouvrable	ouvrable	ADJ	_	ADJ__Number=Sing	8	amod	_	_
+8	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+9	 	 	SPACE	_		8		_	_
+10	on	on	PRON	_	PRON__Number=Sing|Person=3	11	nsubj	_	_
+11	compte	compter	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+12	tous	tout	ADJ	_	ADJ__Gender=Masc|Number=Plur	6	amod	_	_
+13	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	14	det	_	_
+14	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	23	obj	_	_
+15	ouvrables	ouvrable	ADJ	_	ADJ__Number=Plur	18	amod	_	_
+16	dans	dan	ADP	_	ADP___	18	case	_	_
+17	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	18	det	_	_
+18	congés	congé	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	obl	_	_
+19	 	 	SPACE	_		18		_	_
+20	chaque	chaque	DET	_	DET__Number=Sing	23	det	_	_
+21	année	année	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obl	_	_
+22	vous	se	PRON	_	PRON__Number=Plur|Person=2	23	iobj	_	_
+23	faites	fait	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	23	xcomp	_	_
+24	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	26	det	_	_
+25	acquisition	acquisition	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	obj	_	_
+26	de	de	ADP	_	ADP___	23	case	_	_
+27	30	30	NUM	_	NUM__NumType=Card	26	nummod	_	_
+28	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	30	nmod	_	_
+29	ouvrables	ouvrable	ADJ	_	ADJ__Number=Plur	30	amod	_	_
+30	pour	pour	ADP	_	ADP___	23	case	_	_
+31	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	30	nmod:poss	_	_
+32	congés	congé	NOUN	_	NOUN__Gender=Masc|Number=Plur	33	obl	_	_
+33	 	 	SPACE	_		23		_	_
+34	c'	ce	PRON	_	PRON__Number=Sing|Person=3	35	nsubj	_	_
+35	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+36	donc	donc	ADV	_	ADV___	37	advmod	_	_
+37	bien	bien	ADV	_	ADV___	35	advmod	_	_
+38	6	6	NUM	_	NUM__NumType=Card	40	nummod	_	_
+39	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	40	obl	_	_
+40	*	*	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	37	fixed	_	_
+41	5	5	NUM	_	NUM__NumType=Card	37	nummod	_	_
+42	semaines	semaine	NOUN	_	NOUN__Gender=Fem|Number=Plur	44	punct	_	_
+
+
+#A mon avis, CA, ici, veut dire Congé Annuel...
+1	A	A	ADP	_	ADP___	3	case	_	_
+2	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	3	nmod:poss	_	_
+3	avis	avis	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+5	CA	CA	PROPN	_	PROPN___	3	conj	_	_
+6	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+7	ici	ici	ADV	_	ADV___	5	advmod	_	_
+8	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+9	veut	vouloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+10	dire	dire	VERB	_	VERB__VerbForm=Inf	9	amod	_	_
+11	Congé	Congé	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nmod	_	_
+12	Annuel	Annuel	PROPN	_	PROPN__Gender=Masc|Number=Sing	11	flat:name	_	_
+13	...	...	PUNCT	_	PUNCT___	3	punct	_	_
+
+

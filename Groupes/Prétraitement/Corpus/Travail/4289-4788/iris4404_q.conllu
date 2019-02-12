@@ -1,0 +1,435 @@
+#Bonjour,je travaille dans un cabinet de conseil.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	4	obl	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+4	travaille	travailler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	dans	dan	ADP	_	ADP___	7	case	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	cabinet	cabinet	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+8	de	de	ADP	_	ADP___	9	case	_	_
+9	conseil	conseil	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+10	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Je suis en CDI, aux 35h (heures non écrites dans mon contrat, je me réfère donc au code du travail.).Depuis mon entrée dans cette société, j'ai constaté que les 35h ne sont pas appliquées.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+2	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	en	en	ADP	_	ADP___	4	case	_	_
+4	CDI	CDI	ADV	_	ADV___	4	obl	_	_
+5	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+6	aux	aux	ADP	_	ADP___	7	nsubj	_	_
+7	35h	35h	NUM	_	NUM__NumType=Card	4	nummod	_	_
+8	(	(	PUNCT	_	PUNCT___	9	punct	_	_
+9	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	7	nmod	_	_
+10	non	non	ADV	_	ADV___	4	advmod	_	_
+11	écrites	écrit	ADJ	_	ADJ__Gender=Fem|Number=Plur	14	amod	_	_
+12	dans	dan	ADP	_	ADP___	14	case	_	_
+13	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	14	nmod:poss	_	_
+14	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	42	nmod	_	_
+15	,	,	PUNCT	_	PUNCT___	28	punct	_	_
+16	je	il	PRON	_	PRON__Number=Sing|Person=1	28	nsubj	_	_
+17	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	16	iobj	_	_
+18	réfère	référer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	conj	_	_
+19	donc	donc	ADV	_	ADV___	16	advmod	_	_
+20	au	au	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	21	case	_	_
+21	code	coder	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	nmod	_	_
+22	du	du	DET	_	DET__Gender=Masc|Number=Sing	24	det	_	_
+23	travail.).Depuis	travail.).Depuis	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	nmod	_	_
+24	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	19	nmod:poss	_	_
+25	entrée	entrer	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	nmod	_	_
+26	dans	dan	ADP	_	ADP___	28	case	_	_
+27	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	28	det	_	_
+28	société	société	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nmod	_	_
+29	,	,	PUNCT	_	PUNCT___	28	punct	_	_
+30	j'	il	PRON	_	PRON__Number=Sing|Person=1	31	nsubj	_	_
+31	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+32	constaté	constater	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+33	que	que	SCONJ	_	SCONJ___	31	mark	_	_
+34	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	35	det	_	_
+35	35h	35h	NUM	_	NUM__NumType=Card	31	nsubj:pass	_	_
+36	ne	ne	ADV	_	ADV__Polarity=Neg	38	advmod	_	_
+37	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	38	aux:pass	_	_
+38	pas	pas	ADV	_	ADV__Polarity=Neg	35	advmod	_	_
+39	appliquées	appliquer	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	42	ccomp	_	_
+40	.	.	PUNCT	_	PUNCT___	42	punct	_	_
+
+
+#En effet, si la société commence à 9h30, avec une heure de pause déjeuner, la fin de la journée devrait se situer vers 17h30.Or, je constate que tous les employés finissent plus souvent vers 18h ou 19h.
+1	En	En	ADP	_	ADP___	4	advmod	_	_
+2	effet	effet	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	si	si	SCONJ	_	SCONJ___	4	mark	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	société	société	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nsubj	_	_
+7	commence	commencer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+8	à	à	ADP	_	ADP___	9	case	_	_
+9	9h30	9h30	NUM	_	NUM__NumType=Card	7	obl	_	_
+10	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+11	avec	avec	ADP	_	ADP___	14	case	_	_
+12	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	heure	heure	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obl	_	_
+14	de	de	ADP	_	ADP___	42	case	_	_
+15	pause	pause	ADJ	_	ADJ__Gender=Fem|Number=Sing	28	nmod	_	_
+16	déjeuner	déjeuner	VERB	_	VERB__VerbForm=Inf	28	acl	_	_
+17	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+18	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+19	fin	fin	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nsubj	_	_
+20	de	de	ADP	_	ADP___	21	case	_	_
+21	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+22	journée	journée	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	nmod	_	_
+23	devrait	devoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	se	se	PRON	_	PRON__Person=3|Reflex=Yes	19	expl	_	_
+25	situer	situer	VERB	_	VERB__VerbForm=Inf	28	advcl	_	_
+26	vers	ver	ADP	_	ADP___	28	case	_	_
+27	17h30.Or	17h30.Or	PRON	_	PRON__NumType=Card|PronType=Rel	28	obl	_	_
+28	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+29	je	il	PRON	_	PRON__Number=Sing|Person=1	28	nsubj	_	_
+30	constate	constater	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+31	que	que	SCONJ	_	SCONJ___	14	mark	_	_
+32	tous	tout	ADJ	_	ADJ__Gender=Masc|Number=Plur	33	amod	_	_
+33	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	31	det	_	_
+34	employés	employer	NOUN	_	NOUN__Gender=Fem|Number=Plur	35	nsubj	_	_
+35	finissent	finir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	ccomp	_	_
+36	plus	plaire	ADV	_	ADV___	38	advmod	_	_
+37	souvent	souvent	ADV	_	ADV___	38	advmod	_	_
+38	vers	ver	ADP	_	ADP___	35	case	_	_
+39	18h	18h	PRON	_	PRON__Number=Sing|Person=1	42	obl	_	_
+40	ou	ou	CCONJ	_	CCONJ___	42	cc	_	_
+41	19h	19h	ADJ	_	ADJ__NumType=Ord	42	conj	_	_
+42	.	.	PUNCT	_	PUNCT___	42	punct	_	_
+
+
+#Cependant, je n'ai jamais obtenu aucun paiement de ces heures supplémentaires ou un repos compensatoire.
+1	Cependant	Cependant	ADV	_	ADV___	4	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+4	n'	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+5	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	jamais	jamais	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+7	obtenu	obtenir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+8	aucun	aucun	DET	_	DET__Gender=Masc|Number=Sing	9	det	_	_
+9	paiement	paiement	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+10	de	de	ADP	_	ADP___	4	case	_	_
+11	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	14	det	_	_
+12	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	14	nmod	_	_
+13	supplémentaires	supplémentaire	ADJ	_	ADJ__Number=Plur	14	amod	_	_
+14	ou	ou	CCONJ	_	CCONJ___	42	cc	_	_
+15	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+16	repos	repos	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	conj	_	_
+17	compensatoire	compensatoire	ADJ	_	ADJ__Number=Sing	16	amod	_	_
+18	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Aujourd'hui la situation est conflictuelle avec l'entreprise, quelle est la marge de manuvre?
+1	Aujourd'	Aujourd'	ADP	_	ADP___	4	advmod	_	_
+2	hui	hui	NOUN	_	NOUN___	4	fixed	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nsubj	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	conflictuelle	conflictuel	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+7	avec	avec	ADP	_	ADP___	4	case	_	_
+8	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	entreprise	entreprendre	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obl	_	_
+10	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+11	quelle	quel	DET	_	DET__Gender=Fem|Number=Sing|PronType=Int	14	acl	_	_
+12	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	marge	marge	NOUN	_	NOUN__Gender=Fem|Number=Sing	42	nsubj	_	_
+15	de	de	ADP	_	ADP___	28	case	_	_
+16	manuvre	manuvre	VERB	_	VERB__VerbForm=Inf	28	nmod	_	_
+17	?	?	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#(je suis poussée vers la sortie via une rupture conventionelle, les négociations sont difficiles...
+1	(	(	PUNCT	_	PUNCT___	4	punct	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj:pass	_	_
+3	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	poussée	pousser	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+5	vers	ver	ADP	_	ADP___	7	case	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	sortie	sortir	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obl	_	_
+8	via	via	ADP	_	ADP___	9	case	_	_
+9	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+10	rupture	rupture	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+11	conventionelle	conventionelle	ADJ	_	ADJ__Gender=Fem|Number=Sing	14	amod	_	_
+12	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+13	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	14	det	_	_
+14	négociations	négociation	NOUN	_	NOUN__Gender=Fem|Number=Plur	42	nsubj	_	_
+15	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+16	difficiles	difficile	ADJ	_	ADJ__Number=Plur	28	conj	_	_
+17	...	...	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#)merci de vos réponses.
+1	)merci	)merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	de	de	ADP	_	ADP___	4	case	_	_
+3	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	4	nmod:poss	_	_
+4	réponses	réponse	NOUN	_	NOUN__Gender=Fem|Number=Plur	4	nmod	_	_
+5	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#G.
+1	G.	G.	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+
+
+#Bonjour,merci pour la précision au niveau des horaires.je ne souhaite pas particulièrement partir, mais le climat étant devenu trop tendu je pense que c'est le mieux pour mes nerfs...
+1	Bonjour	Bonjour	PROPN	_	PROPN___	12	nsubj	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+4	pour	pour	ADP	_	ADP___	6	case	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	précision	précision	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nmod	_	_
+7	au	au	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	case	_	_
+8	niveau	niveau	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	fixed	_	_
+9	des	un	ADP	_	ADP___	10	det	_	_
+10	horaires.je	horaires.je	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	nmod	_	_
+11	ne	ne	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+12	souhaite	souhaiter	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+13	pas	pas	ADV	_	ADV__Polarity=Neg	14	advmod	_	_
+14	particulièrement	particulièrement	ADV	_	ADV___	15	advmod	_	_
+15	partir	partir	VERB	_	VERB__VerbForm=Inf	12	advmod	_	_
+16	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+17	mais	mai	CCONJ	_	CCONJ___	19	cc	_	_
+18	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	climat	climat	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	nsubj	_	_
+20	étant	être	AUX	_	AUX__Tense=Pres|VerbForm=Part	21	aux:pass	_	_
+21	devenu	devenir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	acl	_	_
+22	trop	trop	ADV	_	ADV___	23	advmod	_	_
+23	tendu	tendre	CCONJ	_	CCONJ___	21	xcomp	_	_
+24	je	il	PRON	_	PRON__Number=Sing|Person=1	25	nsubj	_	_
+25	pense	penser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	conj	_	_
+26	que	que	SCONJ	_	SCONJ___	30	mark	_	_
+27	c'	ce	PRON	_	PRON__Number=Sing|Person=3	30	nsubj	_	_
+28	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+29	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	mieux	mieux	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	ccomp	_	_
+31	pour	pour	ADP	_	ADP___	33	case	_	_
+32	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	33	nmod:poss	_	_
+33	nerfs	nerf	NOUN	_	NOUN__Gender=Fem|Number=Plur	30	obl	_	_
+34	...	...	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#je n'ai de toute façon pas de quoi prouver un harcèlement moral.ma question est : j'ai fais des heures supplémentaires, puis je en réclamer le paiement sachant que l'employeur ne l'a pas explicitement et par écrit demandé ?
+1	je	il	PRON	_	PRON__Number=Sing|Person=1	12	nsubj	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+3	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	de	de	ADP	_	ADP___	6	case	_	_
+5	toute	tout	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	façon	façon	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obl	_	_
+7	pas	pas	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+8	de	de	ADP	_	ADP___	7	case	_	_
+9	quoi	quoi	PRON	_	PRON__PronType=Int	10	obl	_	_
+10	prouver	prouver	VERB	_	VERB__VerbForm=Inf	6	acl	_	_
+11	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	harcèlement	harcèlement	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+13	moral.ma	moral.ma	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	amod	_	_
+14	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	amod	_	_
+15	est	être	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+16	:	:	PUNCT	_	PUNCT___	12	punct	_	_
+17	j'	il	PRON	_	PRON__Number=Sing|Person=1	19	nsubj	_	_
+18	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	fais	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	conj	_	_
+20	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	21	det	_	_
+21	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	19	obj	_	_
+22	supplémentaires	supplémentaire	ADJ	_	ADJ__Number=Plur	23	amod	_	_
+23	,	,	PUNCT	_	PUNCT___	21	punct	_	_
+24	puis	pouvoir	CCONJ	_	CCONJ___	25	cc	_	_
+25	je	il	PRON	_	PRON__Number=Sing|Person=1	12	nsubj	_	_
+26	en	en	PRON	_	PRON__Person=3	30	expl	_	_
+27	réclamer	réclamer	VERB	_	VERB__VerbForm=Inf	30	conj	_	_
+28	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+29	paiement	paiement	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	obj	_	_
+30	sachant	savoir	ADJ	_	ADJ__Gender=Masc|Number=Sing	25	acl	_	_
+31	que	que	SCONJ	_	SCONJ___	33	mark	_	_
+32	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	33	det	_	_
+33	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	nsubj	_	_
+34	ne	ne	ADV	_	ADV___	12	advmod	_	_
+35	l'	le	PRON	_	PRON__Number=Sing|Person=3	37	expl	_	_
+36	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	ccomp	_	_
+37	pas	pas	ADV	_	ADV__Polarity=Neg	37	advmod	_	_
+38	explicitement	explicitement	ADV	_	ADV___	40	advmod	_	_
+39	et	et	CCONJ	_	CCONJ___	40	cc	_	_
+40	par	par	ADP	_	ADP___	37	mark	_	_
+41	écrit	écrire	NOUN	_	NOUN__Gender=Masc|Number=Sing	40	advmod	_	_
+42	demandé	demander	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	43	conj	_	_
+43	?	?	PUNCT	_	PUNCT___	44	punct	_	_
+
+
+#(puisque c'est l'usage dans cette société...
+1	(	(	PUNCT	_	PUNCT___	0	ROOT	_	_
+2	puisque	puisque	SCONJ	_	SCONJ___	1	mark	_	_
+3	c'	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	usage	usage	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	acl	_	_
+7	dans	dan	ADP	_	ADP___	10	case	_	_
+8	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+9	société	société	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+10	...	...	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#)merci
+1	)merci	)merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+
+
+#j'ai des mails qui attestent que j'ai travaillé jusqu'à telle ou telle heure.
+1	j'	il	PRON	_	PRON__Number=Sing|Person=1	2	nsubj	_	_
+2	ai	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
+4	mails	mail	NOUN	_	NOUN__Gender=Masc|Number=Plur	2	obj	_	_
+5	qui	qui	PRON	_	PRON__PronType=Rel	6	nsubj	_	_
+6	attestent	attester	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	que	que	SCONJ	_	SCONJ___	10	mark	_	_
+8	j'	il	PRON	_	PRON__Number=Sing|Person=1	10	nsubj	_	_
+9	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	travaillé	travailler	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	ccomp	_	_
+11	jusqu'	jusque	ADP	_	ADP___	13	mark	_	_
+12	à	à	ADP	_	ADP___	11	fixed	_	_
+13	telle	tel	ADJ	_	ADJ__Gender=Fem|Number=Sing	16	nummod	_	_
+14	ou	ou	CCONJ	_	CCONJ___	15	cc	_	_
+15	telle	tel	ADJ	_	ADJ__Gender=Fem|Number=Sing	13	conj	_	_
+16	heure	heure	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obj	_	_
+17	.	.	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#non, comme expliqué plus haut, je n'ai aucun mails de mon employeur demandant ces heures supplémentaires.ce
+1	non	non	ADV	_	ADV___	10	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+3	comme	comme	ADP	_	ADP___	4	mark	_	_
+4	expliqué	expliquer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	advcl	_	_
+5	plus	plaire	ADV	_	ADV___	6	advmod	_	_
+6	haut	haut	ADJ	_	ADJ__Gender=Masc|Number=Sing	4	obj	_	_
+7	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+8	je	il	PRON	_	PRON__Number=Sing|Person=1	10	nsubj	_	_
+9	n'	ne	ADV	_	ADV___	10	advmod	_	_
+10	ai	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+11	aucun	aucun	DET	_	DET__Gender=Masc|Number=Sing	12	det	_	_
+12	mails	mail	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+13	de	de	ADP	_	ADP___	15	case	_	_
+14	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	15	nmod:poss	_	_
+15	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nmod	_	_
+16	demandant	demander	ADP	_	ADP___	12	acl	_	_
+17	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	18	det	_	_
+18	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	16	obj	_	_
+19	supplémentaires.ce	supplémentaires.ce	X	_	X___	18	nmod	_	_
+
+
+#sont des mails d'échanges professionnels, avec d'autres collègues ou vers des clients.
+1	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+2	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
+3	mails	mail	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+4	d'	de	ADP	_	ADP___	10	case	_	_
+5	échanges	échanger	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	nmod	_	_
+6	professionnels	professionnel	ADJ	_	ADJ__Gender=Masc|Number=Plur	4	amod	_	_
+7	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+8	avec	avec	ADP	_	ADP___	10	case	_	_
+9	d'	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
+10	autres	autre	ADJ	_	ADJ__Number=Plur	10	fixed	_	_
+11	collègues	collègue	NOUN	_	NOUN__Number=Plur	12	obl	_	_
+12	ou	ou	CCONJ	_	CCONJ___	10	cc	_	_
+13	vers	ver	ADP	_	ADP___	15	case	_	_
+14	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	15	det	_	_
+15	clients	client	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	conj	_	_
+16	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#d'accord, c'est ce que je craignais mais je voulais m'en assurer.
+1	d'	de	ADP	_	ADP___	6	advmod	_	_
+2	accord	accord	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+4	c'	ce	PRON	_	PRON__Number=Sing|Person=3	6	nsubj	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	ce	ce	PRON	_	PRON__PronType=Rel	0	ROOT	_	_
+7	que	que	PRON	_	PRON__PronType=Rel	9	obj	_	_
+8	je	il	PRON	_	PRON__Number=Sing|Person=1	9	nsubj	_	_
+9	craignais	craindre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	6	acl:relcl	_	_
+10	mais	mai	CCONJ	_	CCONJ___	15	cc	_	_
+11	je	il	PRON	_	PRON__Number=Sing|Person=1	15	nsubj	_	_
+12	voulais	vouloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	15	aux	_	_
+13	m'	se	PRON	_	PRON__Number=Sing|Person=1	15	expl	_	_
+14	en	en	PRON	_	PRON__Person=3	15	expl	_	_
+15	assurer	avoir	VERB	_	VERB__VerbForm=Inf	6	conj	_	_
+16	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#oui, il était parfois le destinataire ou en copie de ces mails hors horaires "classiques"
+1	oui	oui	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+3	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+4	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+5	parfois	parfois	ADV	_	ADV___	7	advmod	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	destinataire	destinataire	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	conj	_	_
+8	ou	ou	CCONJ	_	CCONJ___	10	cc	_	_
+9	en	en	ADP	_	ADP___	10	case	_	_
+10	copie	copier	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	conj	_	_
+11	de	de	ADP	_	ADP___	13	case	_	_
+12	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	13	det	_	_
+13	mails	mail	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	nmod	_	_
+14	hors	hors	ADP	_	ADP___	15	case	_	_
+15	horaires	horaire	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	nmod	_	_
+16	"	"	PUNCT	_	PUNCT___	7	punct	_	_
+17	classiques	classique	ADJ	_	ADJ__Number=Plur	1	amod	_	_
+18	"	"	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#je vais regarder tout ceci en détail.je vous remercie pour vos réponses.
+1	je	il	PRON	_	PRON__Number=Sing|Person=1	2	nsubj	_	_
+2	vais	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	regarder	regarder	VERB	_	VERB__VerbForm=Inf	2	xcomp	_	_
+4	tout	tout	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	ceci	ceci	PRON	_	PRON__Number=Sing|PronType=Dem	3	obj	_	_
+6	en	en	ADP	_	ADP___	7	case	_	_
+7	détail.je	détail.je	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obl	_	_
+8	vous	se	PRON	_	PRON__Number=Plur|Person=2	9	expl	_	_
+9	remercie	remercier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+10	pour	pour	ADP	_	ADP___	12	case	_	_
+11	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	12	nmod:poss	_	_
+12	réponses	réponse	NOUN	_	NOUN__Gender=Fem|Number=Plur	9	obl	_	_
+13	.	.	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#non je suis ETAM, donc pas de RTT et pas de forfait écrit dans le contrat.
+1	non	non	ADV	_	ADV___	4	advmod	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+3	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	ETAM	ETAM	PROPN	_	PROPN___	0	ROOT	_	_
+5	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+6	donc	donc	ADV	_	ADV___	7	advmod	_	_
+7	pas	pas	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+8	de	de	ADP	_	ADP___	9	det	_	_
+9	RTT	RTT	PROPN	_	PROPN___	4	nmod	_	_
+10	et	et	CCONJ	_	CCONJ___	14	cc	_	_
+11	pas	pas	ADV	_	ADV__Polarity=Neg	14	advmod	_	_
+12	de	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	14	nsubj	_	_
+13	forfait	forfaire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	aux	_	_
+14	écrit	écrire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+15	dans	dan	ADP	_	ADP___	17	case	_	_
+16	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obl	_	_
+18	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#juste la mention "le salarié sera soumis à la durée conventionnelle du travail applicable dans l'entreprise".
+1	juste	juste	ADV	_	ADV___	4	amod	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	mention	mention	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+4	"	"	PUNCT	_	PUNCT___	4	punct	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+6	salarié	salarier	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+7	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	aux:pass	_	_
+8	soumis	soumettre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+9	à	à	ADP	_	ADP___	4	case	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+11	durée	durer	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obl	_	_
+12	conventionnelle	conventionnel	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	amod	_	_
+13	du	du	DET	_	DET__Gender=Masc|Number=Sing	14	det	_	_
+14	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obj	_	_
+15	applicable	applicable	ADJ	_	ADJ__Number=Sing	17	amod	_	_
+16	dans	dan	ADP	_	ADP___	17	case	_	_
+17	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+18	entreprise	entreprendre	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obl	_	_
+19	"	"	PUNCT	_	PUNCT___	21	punct	_	_
+20	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+

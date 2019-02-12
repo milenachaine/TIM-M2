@@ -1,0 +1,748 @@
+#Bonjour à tous,Je souhaiterais avoir votre avis sur un cas.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	7	advmod	_	_
+2	à	à	ADP	_	ADP___	3	case	_	_
+3	tous	tout	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Rel	1	obl	_	_
+4	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+5	Je	Je	PRON	_	PRON__Number=Sing|Person=1	7	nsubj	_	_
+6	souhaiterais	souhaiter	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	avoir	avoir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+8	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	9	nmod:poss	_	_
+9	avis	avis	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+10	sur	sur	ADP	_	ADP___	12	case	_	_
+11	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+13	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Il s'agit d'un salarié de 54 ans, CDI, ancienneté de 36 mois.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+2	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	3	expl	_	_
+3	agit	agir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
+4	d'	de	ADP	_	ADP___	7	case	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	salarié	salarier	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+7	de	de	ADP	_	ADP___	7	case	_	_
+8	54	54	NUM	_	NUM__NumType=Card	9	nummod	_	_
+9	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	nmod	_	_
+10	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+11	CDI	CDI	ADV	_	ADV___	12	conj	_	_
+12	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+13	ancienneté	ancienneté	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+14	de	de	ADP	_	ADP___	16	case	_	_
+15	36	36	NUM	_	NUM__NumType=Card	16	nummod	_	_
+16	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	obl	_	_
+17	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Non cadre.
+1	Non	Non	ADV	_	ADV___	7	advmod	_	_
+2	cadre	cadrer	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Il est en arrêt de travail (non accident de travail) depuis 16 mois, qui sont renouvelés mensuellement.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	en	en	ADP	_	ADP___	1	case	_	_
+4	arrêt	arrêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	de	de	ADP	_	ADP___	7	case	_	_
+6	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+7	(	(	PUNCT	_	PUNCT___	7	punct	_	_
+8	non	non	ADV	_	ADV___	9	advmod	_	_
+9	accident	accident	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	appos	_	_
+10	de	de	ADP	_	ADP___	12	case	_	_
+11	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nmod	_	_
+12	)	)	PUNCT	_	PUNCT___	7	punct	_	_
+13	depuis	depuis	ADP	_	ADP___	7	case	_	_
+14	16	16	NUM	_	NUM__NumType=Card	16	nummod	_	_
+15	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	obl	_	_
+16	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+17	qui	qui	PRON	_	PRON__PronType=Rel	19	nsubj:pass	_	_
+18	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux:pass	_	_
+19	renouvelés	renouveler	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	16	acl:relcl	_	_
+20	mensuellement	mensuellement	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	advmod	_	_
+21	.	.	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#Cette absence ne met pas fortement en difficulté l'entreprise car l'organisation a été modifiée en conséquence mais cette absence est une contrainte.
+1	Cette	Cette	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+2	absence	absence	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+3	ne	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+4	met	mettre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+6	fortement	fortement	ADV	_	ADV___	7	advmod	_	_
+7	en	en	ADP	_	ADP___	7	case	_	_
+8	difficulté	difficulté	ADJ	_	ADJ__Gender=Masc|Number=Plur	9	obl	_	_
+9	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+10	entreprise	entreprendre	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obj	_	_
+11	car	car	CCONJ	_	CCONJ___	12	cc	_	_
+12	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+13	organisation	organisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+14	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	16	aux:pass	_	_
+16	modifiée	modifier	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	16	conj	_	_
+17	en	en	ADP	_	ADP___	19	case	_	_
+18	conséquence	conséquence	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obl	_	_
+19	mais	mai	CCONJ	_	CCONJ___	16	cc	_	_
+20	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	22	det	_	_
+21	absence	absence	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	nsubj	_	_
+22	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+23	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	contrainte	contraint	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	conj	_	_
+25	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Impossible d'embaucher une personne en CDI à sa place car il peut revenir du jour au lendemain.
+1	Impossible	Impossible	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+2	d'	de	ADP	_	ADP___	3	mark	_	_
+3	embaucher	embaucher	VERB	_	VERB__VerbForm=Inf	1	nmod	_	_
+4	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+5	personne	personne	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+6	en	en	ADP	_	ADP___	7	case	_	_
+7	CDI	CDI	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+8	à	à	ADP	_	ADP___	9	case	_	_
+9	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	7	nmod:poss	_	_
+10	place	placer	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obl	_	_
+11	car	car	CCONJ	_	CCONJ___	12	cc	_	_
+12	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+13	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+14	revenir	revenir	VERB	_	VERB__VerbForm=Inf	16	conj	_	_
+15	du	du	DET	_	DET__Gender=Masc|Number=Sing	16	det	_	_
+16	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obj	_	_
+17	au	au	PRON	_	PRON__PronType=Rel	19	case	_	_
+18	lendemain	lendemain	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obl	_	_
+19	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Que faire ?
+1	Que	Que	PRON	_	PRON__PronType=Int	7	obj	_	_
+2	faire	faire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+3	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Peut-on lui écrire pour connaitre sa position (en respectant bien sûr le secret médical).
+1	Peut	Peut	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+2	-	-	PUNCT	_	PUNCT___	3	punct	_	_
+3	on	on	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+4	lui	luire	PRON	_	PRON__Number=Sing|Person=3	7	iobj	_	_
+5	écrire	écrire	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+6	pour	pour	ADP	_	ADP___	7	mark	_	_
+7	connaitre	connaitre	VERB	_	VERB__VerbForm=Inf	7	advcl	_	_
+8	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	9	nmod:poss	_	_
+9	position	position	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+10	(	(	PUNCT	_	PUNCT___	12	punct	_	_
+11	en	en	ADP	_	ADP___	12	mark	_	_
+12	respectant	respecter	VERB	_	VERB__Tense=Pres|VerbForm=Part	7	advcl	_	_
+13	bien	bien	ADV	_	ADV___	7	advmod	_	_
+14	sûr	sûr	ADJ	_	ADJ__Gender=Masc|Number=Sing	16	fixed	_	_
+15	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	secret	secret	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obj	_	_
+17	médical	médical	ADJ	_	ADJ__Gender=Masc|Number=Sing	19	amod	_	_
+18	)	)	PUNCT	_	PUNCT___	19	punct	_	_
+19	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Ne peut-on pas considérer qu'ils 'agisse d'une incapacité ?
+1	Ne	Ne	ADV	_	ADV___	7	advmod	_	_
+2	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	fixed	_	_
+3	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+4	on	on	PRON	_	PRON__Number=Sing|Person=3	7	nsubj	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+6	considérer	considérer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+7	qu'	que	SCONJ	_	SCONJ___	7	mark	_	_
+8	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	9	nsubj	_	_
+9	'	'	PUNCT	_	PUNCT___	7	expl	_	_
+10	agisse	agir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
+11	d'	de	ADP	_	ADP___	12	case	_	_
+12	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+13	incapacité	incapacité	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obl	_	_
+14	?	?	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Enfin voila, quelles sont les actions possibles ?
+1	Enfin	Enfin	ADV	_	ADV___	7	advmod	_	_
+2	voila	voiler	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	flat:name	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	quelles	quel	ADJ	_	ADJ__Gender=Fem|Number=Plur	7	nsubj	_	_
+5	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+7	actions	action	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+8	possibles	possible	ADJ	_	ADJ__Number=Plur	9	amod	_	_
+9	?	?	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Merci pour vos avis et suggestions.
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	pour	pour	ADP	_	ADP___	3	case	_	_
+3	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	1	nmod:poss	_	_
+4	avis	avis	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+5	et	et	CCONJ	_	CCONJ___	7	cc	_	_
+6	suggestions	suggestion	NOUN	_	NOUN__Gender=Fem|Number=Plur	7	conj	_	_
+7	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Bonne journée à vous
+1	Bonne	Bonne	ADJ	_	ADJ__Gender=Fem|Number=Sing	7	amod	_	_
+2	journée	journée	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	à	à	ADP	_	ADP___	1	case	_	_
+4	vous	se	PRON	_	PRON__Number=Plur|Person=2|PronType=Prs	7	nmod	_	_
+
+
+#Bonjour,Merci pour votre réponse.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	conj	_	_
+4	pour	pour	ADP	_	ADP___	6	case	_	_
+5	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+6	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nmod	_	_
+7	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Ma formulation était maladroite.
+1	Ma	Ma	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	formulation	formulation	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+3	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	aux:pass	_	_
+4	maladroite	maladroit	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+5	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Le salarié vient de contacter l'entreprise pour engager une procédure d'incapacité.
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	salarié	salarier	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+3	vient	venir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	de	de	ADP	_	ADP___	6	mark	_	_
+5	contacter	contacter	VERB	_	VERB__VerbForm=Inf	6	xcomp	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+7	entreprise	entreprendre	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obj	_	_
+8	pour	pour	ADP	_	ADP___	9	mark	_	_
+9	engager	engager	VERB	_	VERB__VerbForm=Inf	11	advcl	_	_
+10	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	procédure	procédure	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obj	_	_
+12	d'	de	ADP	_	ADP___	11	case	_	_
+13	incapacité	incapacité	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nmod	_	_
+14	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Il lui a été conseillé de contacter la médecine du travail.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj:pass	_	_
+2	lui	luire	PRON	_	PRON__Number=Sing|Person=3	3	iobj	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+4	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	6	aux:pass	_	_
+5	conseillé	conseiller	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+6	de	de	ADP	_	ADP___	3	mark	_	_
+7	contacter	contacter	VERB	_	VERB__VerbForm=Inf	1	xcomp	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	médecine	médecine	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obj	_	_
+10	du	du	DET	_	DET__Gender=Masc|Number=Sing	11	det	_	_
+11	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+12	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#il a contacté l'entreprise de manière informelle, pour donner de ses nouvelles (à titre amical) et demander conseil.
+1	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+2	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	contacté	contacter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	entreprise	entreprendre	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obj	_	_
+6	de	de	ADP	_	ADP___	7	case	_	_
+7	manière	manière	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+8	informelle	informel	ADJ	_	ADJ__Gender=Fem|Number=Sing	7	amod	_	_
+9	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+10	pour	pour	ADP	_	ADP___	11	mark	_	_
+11	donner	donner	VERB	_	VERB__VerbForm=Inf	3	advcl	_	_
+12	de	de	ADP	_	ADP___	14	case	_	_
+13	ses	son	DET	_	DET__Number=Plur|Poss=Yes	14	nmod:poss	_	_
+14	nouvelles	nouvelle	ADJ	_	ADJ__Gender=Fem|Number=Plur	11	obl	_	_
+15	(	(	PUNCT	_	PUNCT___	3	punct	_	_
+16	à	à	ADP	_	ADP___	17	case	_	_
+17	titre	titrer	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obl	_	_
+18	amical	amical	ADJ	_	ADJ__Gender=Masc|Number=Sing	17	amod	_	_
+19	)	)	PUNCT	_	PUNCT___	3	punct	_	_
+20	et	et	CCONJ	_	CCONJ___	21	cc	_	_
+21	demander	demander	VERB	_	VERB__VerbForm=Inf	3	conj	_	_
+22	conseil	conseil	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obj	_	_
+23	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Il est indemnisé SS.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	3	nsubj:pass	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	indemnisé	indemniser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+4	SS	SS	PROPN	_	PROPN___	5	xcomp	_	_
+5	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Aucun problème à ce niveau là pour lui.
+1	Aucun	Aucun	DET	_	DET__Gender=Masc|Number=Sing	3	det	_	_
+2	problème	problème	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	à	à	ADP	_	ADP___	3	case	_	_
+4	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	5	fixed	_	_
+5	niveau	niveau	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	fixed	_	_
+6	là	là	ADV	_	ADV___	7	fixed	_	_
+7	pour	pour	ADP	_	ADP___	5	case	_	_
+8	lui	luire	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nmod	_	_
+9	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Au vue de sa longue maladie, il souhaiterait que le médecin du travail le déclare comme ne pouvons plus travailler à aucun poste, dans son entreprise actuelle, comme ailleurs.
+1	Au	Au	ADP	_	ADP___	3	det	_	_
+2	vue	vu	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obl	_	_
+3	de	de	ADP	_	ADP___	3	case	_	_
+4	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	5	nmod:poss	_	_
+5	longue	long	ADJ	_	ADJ__Gender=Fem|Number=Sing	3	amod	_	_
+6	maladie	maladie	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+7	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+8	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+9	souhaiterait	souhaiter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+10	que	que	SCONJ	_	SCONJ___	11	mark	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+12	médecin	médecin	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nsubj	_	_
+13	du	du	DET	_	DET__Gender=Masc|Number=Sing	14	det	_	_
+14	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+15	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	obj	_	_
+16	déclare	déclarer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	ccomp	_	_
+17	comme	comme	ADP	_	ADP___	3	mark	_	_
+18	ne	ne	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+19	pouvons	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+20	plus	plaire	ADV	_	ADV__Polarity=Neg	21	advmod	_	_
+21	travailler	travailler	VERB	_	VERB__VerbForm=Inf	3	xcomp	_	_
+22	à	à	ADP	_	ADP___	21	case	_	_
+23	aucun	aucun	DET	_	DET__Gender=Masc|Number=Sing	3	det	_	_
+24	poste	poster	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	obl	_	_
+25	,	,	PUNCT	_	PUNCT___	26	punct	_	_
+26	dans	dan	ADP	_	ADP___	26	case	_	_
+27	son	son	DET	_	DET__Number=Sing|Poss=Yes	26	nmod:poss	_	_
+28	entreprise	entreprendre	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	obl	_	_
+29	actuelle	actuel	ADJ	_	ADJ__Gender=Fem|Number=Sing	30	amod	_	_
+30	,	,	PUNCT	_	PUNCT___	30	punct	_	_
+31	comme	comme	ADP	_	ADP___	36	advmod	_	_
+32	ailleurs	ailleurs	ADV	_	ADV___	31	fixed	_	_
+33	.	.	PUNCT	_	PUNCT___	31	punct	_	_
+
+
+#Incapacité de travail ou inaptitude à son poste ?
+1	Incapacité	Incapacité	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	de	de	ADP	_	ADP___	3	case	_	_
+3	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nmod	_	_
+4	ou	ou	CCONJ	_	CCONJ___	5	cc	_	_
+5	inaptitude	inaptitude	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	conj	_	_
+6	à	à	ADP	_	ADP___	7	case	_	_
+7	son	son	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+8	poste	poster	NOUN	_	NOUN__Number=Sing	7	obl	_	_
+9	?	?	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Aucune idée...la MDT se prononcera.
+1	Aucune	Aucune	DET	_	DET__Gender=Fem|Number=Sing	3	det	_	_
+2	idée	idée	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obl	_	_
+3	...	...	PUNCT	_	PUNCT___	3	punct	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	MDT	MDT	PROPN	_	PROPN__Gender=Fem|Number=Sing	3	nsubj	_	_
+6	se	se	PRON	_	PRON__Person=3|Reflex=Yes	7	expl	_	_
+7	prononcera	prononcer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+8	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Merci pour ces précisions et notamment sur l'incapacité.
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	pour	pour	ADP	_	ADP___	4	case	_	_
+3	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	4	det	_	_
+4	précisions	précision	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	nmod	_	_
+5	et	et	CCONJ	_	CCONJ___	9	cc	_	_
+6	notamment	notamment	ADV	_	ADV___	9	advmod	_	_
+7	sur	sur	ADP	_	ADP___	9	case	_	_
+8	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	incapacité	incapacité	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	conj	_	_
+10	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Son arrêt de travail prend fin le 30/11.Je lui ai conseillé de ne pas faire renouveler son arrêt de travail.
+1	Son	Son	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	arrêt	arrêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+3	de	de	ADP	_	ADP___	4	case	_	_
+4	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+5	prend	prendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	fin	fin	NOUN	_	NOUN__Number=Sing	9	obj	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	30/11.Je	30/11.Je	NUM	_	NUM__NumType=Card	9	nummod	_	_
+9	lui	luire	PRON	_	PRON__Number=Sing|Person=3	4	iobj	_	_
+10	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
+11	conseillé	conseiller	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	ccomp	_	_
+12	de	de	ADP	_	ADP___	15	mark	_	_
+13	ne	ne	ADV	_	ADV___	14	advmod	_	_
+14	pas	pas	ADV	_	ADV___	12	fixed	_	_
+15	faire	faire	VERB	_	VERB__VerbForm=Inf	15	xcomp	_	_
+16	renouveler	renouveler	VERB	_	VERB__VerbForm=Inf	15	xcomp	_	_
+17	son	son	DET	_	DET__Number=Sing|Poss=Yes	18	nmod:poss	_	_
+18	arrêt	arrêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obj	_	_
+19	de	de	ADP	_	ADP___	21	case	_	_
+20	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	nmod	_	_
+21	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Un RDV de reprise serait pris avec la MDT dès le 03 décembre à la première heure...qui en toute vraisemblance le déclarera inapte...suite à quoi il pourra revenir chez son médecin traitant qui aura la possibilité, s'il l'estime justifié de lui prescrire un nouvel arrêt de travail.
+1	Un	Un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	RDV	RDV	PROPN	_	PROPN__Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	de	de	ADP	_	ADP___	4	case	_	_
+4	reprise	repriser	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+5	serait	être	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+6	pris	prendre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	0	ROOT	_	_
+7	avec	avec	ADP	_	ADP___	9	case	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	MDT	MDT	PROPN	_	PROPN__Gender=Fem|Number=Sing	4	obl	_	_
+10	dès	dès	ADP	_	ADP___	1	case	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	03	03	NUM	_	NUM__NumType=Card	15	nummod	_	_
+13	décembre	décembre	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obl	_	_
+14	à	à	ADP	_	ADP___	12	case	_	_
+15	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+16	première	premier	ADJ	_	ADJ__Gender=Fem|Number=Sing|NumType=Ord	15	amod	_	_
+17	heure	heure	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	obl	_	_
+18	...	...	PUNCT	_	PUNCT___	19	punct	_	_
+19	qui	qui	PRON	_	PRON__PronType=Rel	21	obl	_	_
+20	en	en	ADP	_	ADP___	21	case	_	_
+21	toute	tout	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	amod	_	_
+22	vraisemblance	vraisemblance	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	fixed	_	_
+23	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	déclarera	déclarer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	23	nmod	_	_
+25	inapte	inapte	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	amod	_	_
+26	...	...	PUNCT	_	PUNCT___	25	punct	_	_
+27	suite	suite	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	case	_	_
+28	à	à	ADP	_	ADP___	26	fixed	_	_
+29	quoi	quoi	PRON	_	PRON__PronType=Int	30	obl	_	_
+30	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	28	nsubj	_	_
+31	pourra	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	15	aux	_	_
+32	revenir	revenir	VERB	_	VERB__VerbForm=Inf	33	advcl	_	_
+33	chez	chez	ADP	_	ADP___	37	case	_	_
+34	son	son	DET	_	DET__Number=Sing|Poss=Yes	35	nmod:poss	_	_
+35	médecin	médecin	NOUN	_	NOUN__Gender=Masc|Number=Sing	33	obl	_	_
+36	traitant	traiter	ADJ	_	ADJ__Gender=Masc|Number=Sing	37	acl	_	_
+37	qui	qui	PRON	_	PRON__PronType=Rel	37	nsubj	_	_
+38	aura	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	40	ccomp	_	_
+39	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	possibilité	possibilité	NOUN	_	NOUN__Gender=Fem|Number=Sing	37	obj	_	_
+41	,	,	PUNCT	_	PUNCT___	44	punct	_	_
+42	s'	si	SCONJ	_	SCONJ___	44	cc	_	_
+43	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	44	nsubj	_	_
+44	l'	le	PRON	_	PRON__Number=Sing|Person=3	37	det	_	_
+45	estime	estimer	NOUN	_	NOUN__Gender=Fem|Number=Sing	48	conj	_	_
+46	justifié	justifier	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	48	amod	_	_
+47	de	de	ADP	_	ADP___	48	case	_	_
+48	lui	luire	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Prs	37	obl	_	_
+49	prescrire	prescrire	VERB	_	VERB__VerbForm=Inf	37	amod	_	_
+50	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+51	nouvel	nouveau	ADJ	_	ADJ__Gender=Masc|Number=Sing	53	amod	_	_
+52	arrêt	arrêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	53	nmod	_	_
+53	de	de	ADP	_	ADP___	50	case	_	_
+54	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	55	nmod	_	_
+55	.	.	PUNCT	_	PUNCT___	53	punct	_	_
+
+
+#Nous pourrions alors enclencher la procédure pour inaptitude.
+1	Nous	Nous	PRON	_	PRON__Number=Plur|Person=1	1	nsubj	_	_
+2	pourrions	pouvoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	alors	alors	ADV	_	ADV___	4	advmod	_	_
+4	enclencher	enclencher	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+6	procédure	procédure	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obj	_	_
+7	pour	pour	ADP	_	ADP___	9	case	_	_
+8	inaptitude	inaptitude	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obl	_	_
+9	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#J'attend son accord (ou pas).
+1	J'	J'	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	attend	attendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	son	son	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+4	accord	accord	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+5	(	(	PUNCT	_	PUNCT___	9	punct	_	_
+6	ou	ou	CCONJ	_	CCONJ___	9	cc	_	_
+7	pas	pas	ADV	_	ADV__Polarity=Neg	9	conj	_	_
+8	)	)	PUNCT	_	PUNCT___	9	punct	_	_
+9	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Vous ne rêvez pas mais vous devriez le faire plus souvent...çà détend...
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	3	nsubj	_	_
+2	ne	ne	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+3	rêvez	rêver	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+5	mais	mai	CCONJ	_	CCONJ___	9	cc	_	_
+6	vous	se	PRON	_	PRON__Number=Plur|Person=2	9	nsubj	_	_
+7	devriez	devoir	AUX	_	AUX__Mood=Cnd|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	9	obj	_	_
+9	faire	faire	VERB	_	VERB__VerbForm=Inf	3	conj	_	_
+10	plus	plaire	ADV	_	ADV___	11	advmod	_	_
+11	souvent	souvent	ADV	_	ADV___	9	advmod	_	_
+12	...	...	PUNCT	_	PUNCT___	3	punct	_	_
+13	çà	çà	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	14	nsubj	_	_
+14	détend	détendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	xcomp	_	_
+15	...	...	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Ce n'est pas un employeur qui va décider unilatéralement si un arrêt de travail doit/peut être renouvelé ou pas...c'est plutôt à un médecin.
+1	Ce	Ce	PRON	_	PRON__Number=Sing|Person=3	3	nsubj	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+6	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nsubj	_	_
+7	qui	qui	PRON	_	PRON__PronType=Rel	9	nsubj	_	_
+8	va	aller	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	décider	décider	VERB	_	VERB__VerbForm=Inf	3	acl:relcl	_	_
+10	unilatéralement	unilatéralement	ADV	_	ADV___	11	advmod	_	_
+11	si	si	SCONJ	_	SCONJ___	9	case	_	_
+12	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+13	arrêt	arrêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obl	_	_
+14	de	de	ADP	_	ADP___	3	case	_	_
+15	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nmod	_	_
+16	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+17	/	/	PUNCT	_	PUNCT___	21	expl	_	_
+18	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+19	être	être	AUX	_	AUX__VerbForm=Inf	21	aux:pass	_	_
+20	renouvelé	renouveler	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	21	xcomp	_	_
+21	ou	ou	CCONJ	_	CCONJ___	33	advmod	_	_
+22	pas	pas	ADV	_	ADV__Polarity=Neg	24	advmod	_	_
+23	...	...	PUNCT	_	PUNCT___	24	punct	_	_
+24	c'	ce	PRON	_	PRON__Number=Sing|Person=3	21	nsubj	_	_
+25	est	être	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+26	plutôt	plutôt	ADV	_	ADV___	28	advmod	_	_
+27	à	à	ADP	_	ADP___	28	case	_	_
+28	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+29	médecin	médecin	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	obl	_	_
+30	.	.	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#Même si l'absence de ce salarié a été une contrainte pour l'employeur, celui-ci n'a aucune difficulté à ce que le salarié soit en arrêt de travail pendant encore plusieurs mois.
+1	Même	Même	ADV	_	ADV___	3	mark	_	_
+2	si	si	SCONJ	_	SCONJ___	3	fixed	_	_
+3	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+4	absence	absence	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+5	de	de	ADP	_	ADP___	9	case	_	_
+6	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+7	salarié	salarier	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nmod	_	_
+8	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	3	cop	_	_
+10	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	contrainte	contraint	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	advcl	_	_
+12	pour	pour	ADP	_	ADP___	3	case	_	_
+13	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nmod	_	_
+15	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+16	celui-ci	celui-ci	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Dem	21	nsubj	_	_
+17	n'	ne	ADV	_	ADV___	21	advmod	_	_
+18	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+19	aucune	aucun	DET	_	DET__Gender=Fem|Number=Sing	21	det	_	_
+20	difficulté	difficulté	ADJ	_	ADJ__Gender=Masc|Number=Plur	21	obj	_	_
+21	à	à	ADP	_	ADP___	33	case	_	_
+22	ce	ce	PRON	_	PRON__PronType=Rel	24	obl	_	_
+23	que	que	SCONJ	_	SCONJ___	24	mark	_	_
+24	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+25	salarié	salarier	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	nsubj	_	_
+26	soit	être	CCONJ	_	CCONJ___	28	cc	_	_
+27	en	en	ADP	_	ADP___	28	case	_	_
+28	arrêt	arrêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	acl:relcl	_	_
+29	de	de	ADP	_	ADP___	30	case	_	_
+30	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	nmod	_	_
+31	pendant	pendre	ADP	_	ADP___	33	case	_	_
+32	encore	encore	ADV	_	ADV___	33	advmod	_	_
+33	plusieurs	plusieurs	DET	_	DET__Number=Plur	33	det	_	_
+34	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	35	obl	_	_
+35	.	.	PUNCT	_	PUNCT___	33	punct	_	_
+
+
+#C'est le salarié qui souhaite trouver une solution et a évoqué l'inaptitude.
+1	C'	C'	PRON	_	PRON__Number=Sing|Person=3	3	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+4	salarié	salarier	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	qui	qui	PRON	_	PRON__PronType=Rel	9	nsubj	_	_
+6	souhaite	souhaiter	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+7	trouver	trouver	VERB	_	VERB__VerbForm=Inf	9	xcomp	_	_
+8	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	solution	solution	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obj	_	_
+10	et	et	CCONJ	_	CCONJ___	11	cc	_	_
+11	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+12	évoqué	évoquer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+13	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	inaptitude	inaptitude	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obj	_	_
+15	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#L'employeur lui a donc expliqué qu'il était dans l'obligation de reprendre le travail et on en revient au message précédent.
+1	L'	L'	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+2	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+3	lui	luire	PRON	_	PRON__Number=Sing|Person=3	3	iobj	_	_
+4	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+5	donc	donc	ADV	_	ADV___	9	advmod	_	_
+6	expliqué	expliquer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+7	qu'	que	SCONJ	_	SCONJ___	9	mark	_	_
+8	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
+9	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+10	dans	dan	ADP	_	ADP___	11	case	_	_
+11	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+12	obligation	obligation	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obj	_	_
+13	de	de	ADP	_	ADP___	14	mark	_	_
+14	reprendre	reprendre	VERB	_	VERB__VerbForm=Inf	3	acl	_	_
+15	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+16	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obj	_	_
+17	et	et	CCONJ	_	CCONJ___	21	cc	_	_
+18	on	on	PRON	_	PRON__Number=Sing|Person=3	21	nsubj	_	_
+19	en	en	PRON	_	PRON__Person=3	21	expl	_	_
+20	revient	revenir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	conj	_	_
+21	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	33	case	_	_
+22	message	message	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	obj	_	_
+23	précédent	précédent	ADJ	_	ADJ__Gender=Masc|Number=Sing	24	amod	_	_
+24	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Vous semblez être de bons conseils dans le domaine, je suis attentif à toutes remarques et proposition à lui apporter.
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	3	nsubj	_	_
+2	semblez	sembler	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+3	être	être	AUX	_	AUX__VerbForm=Inf	3	cop	_	_
+4	de	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	3	det	_	_
+5	bons	bon	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	fixed	_	_
+6	conseils	conseil	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	xcomp	_	_
+7	dans	dan	ADP	_	ADP___	9	case	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	domaine	domaine	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obl	_	_
+10	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+11	je	il	PRON	_	PRON__Number=Sing|Person=1	9	nsubj	_	_
+12	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+13	attentif	attentif	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+14	à	à	ADP	_	ADP___	3	case	_	_
+15	toutes	toute	ADJ	_	ADJ__Gender=Fem|Number=Plur	3	det	_	_
+16	remarques	remarquer	NOUN	_	NOUN__Gender=Fem|Number=Plur	21	obl	_	_
+17	et	et	CCONJ	_	CCONJ___	21	cc	_	_
+18	proposition	proposition	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	conj	_	_
+19	à	à	ADP	_	ADP___	21	mark	_	_
+20	lui	luire	PRON	_	PRON__Number=Sing|Person=3	21	iobj	_	_
+21	apporter	apporter	VERB	_	VERB__VerbForm=Inf	33	xcomp	_	_
+22	.	.	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#J'ai oublié de préciser que le salarié cherche une solution car il perçoit actuellement uniquement 80% de son salaire.
+1	J'	J'	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+2	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	oublié	oublier	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	de	de	ADP	_	ADP___	5	mark	_	_
+5	préciser	préciser	VERB	_	VERB__VerbForm=Inf	3	xcomp	_	_
+6	que	que	SCONJ	_	SCONJ___	14	mark	_	_
+7	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	8	det	_	_
+8	salarié	salarier	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nsubj	_	_
+9	cherche	chercher	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	amod	_	_
+10	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	solution	solution	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+12	car	car	CCONJ	_	CCONJ___	14	cc	_	_
+13	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
+14	perçoit	percevoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+15	actuellement	actuellement	ADV	_	ADV___	18	advmod	_	_
+16	uniquement	uniquement	ADV	_	ADV___	18	advmod	_	_
+17	80	80	NUM	_	NUM__NumType=Card	18	nummod	_	_
+18	%	%	NOUN	_	NOUN__Gender=Masc	14	obj	_	_
+19	de	de	ADP	_	ADP___	21	case	_	_
+20	son	son	DET	_	DET__Number=Sing|Poss=Yes	21	nmod:poss	_	_
+21	salaire	salaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	nmod	_	_
+22	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Il occupe un emploi de manutentionnaire (charges légères et peu répétitives).Même si elle ne devrait pas le savoir, le salarié a informé l'entreprise du motif de son arrêt de travail.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	occupe	occuper	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	emploi	emploi	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	obj	_	_
+5	de	de	ADP	_	ADP___	6	case	_	_
+6	manutentionnaire	manutentionnaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+7	(	(	PUNCT	_	PUNCT___	4	punct	_	_
+8	charges	charger	NOUN	_	NOUN__Gender=Fem|Number=Plur	4	appos	_	_
+9	légères	léger	ADJ	_	ADJ___	8	amod	_	_
+10	et	et	CCONJ	_	CCONJ___	12	cc	_	_
+11	peu	peu	ADV	_	ADV___	12	advmod	_	_
+12	répétitives).Même	répétitives).Même	SCONJ	_	SCONJ___	4	conj	_	_
+13	si	si	SCONJ	_	SCONJ___	16	mark	_	_
+14	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	16	nsubj	_	_
+15	ne	ne	ADV	_	ADV__Polarity=Neg	16	advmod	_	_
+16	devrait	devoir	VERB	_	VERB__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+17	pas	pas	ADV	_	ADV__Polarity=Neg	16	advmod	_	_
+18	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	19	det	_	_
+19	savoir	savoir	VERB	_	VERB__VerbForm=Inf	16	obj	_	_
+20	,	,	PUNCT	_	PUNCT___	24	punct	_	_
+21	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	salarié	salarier	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	nsubj	_	_
+23	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	informé	informer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	conj	_	_
+25	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	26	det	_	_
+26	entreprise	entreprendre	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	obj	_	_
+27	du	du	DET	_	DET__Gender=Masc|Number=Sing	28	det	_	_
+28	motif	motif	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	obj	_	_
+29	de	de	ADP	_	ADP___	31	case	_	_
+30	son	son	DET	_	DET__Number=Sing|Poss=Yes	31	nmod:poss	_	_
+31	arrêt	arrêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	nmod	_	_
+32	de	de	ADP	_	ADP___	33	case	_	_
+33	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	nmod	_	_
+34	.	.	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#Il a des difficultés à vivre "normalement".Ce n'est pas à l'entreprise de se positionner, mais un retour à un emploi quel qu'il soit semble quasi impossible, même avec des aménagements conséquents ou orienté vers un poste adapté.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
+4	difficultés	difficulté	NOUN	_	NOUN__Gender=Fem|Number=Plur	2	obj	_	_
+5	à	à	ADP	_	ADP___	6	case	_	_
+6	vivre	vivre	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+7	"	"	PUNCT	_	PUNCT___	4	punct	_	_
+8	normalement".Ce	normalement".Ce	ADV	_	ADV___	4	conj	_	_
+9	n'	ne	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+10	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	fixed	_	_
+11	pas	pas	ADV	_	ADV__Polarity=Neg	12	fixed	_	_
+12	à	à	ADP	_	ADP___	4	case	_	_
+13	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+14	entreprise	entreprendre	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obl	_	_
+15	de	de	ADP	_	ADP___	16	mark	_	_
+16	se	se	PRON	_	PRON__Person=3|Reflex=Yes	2	expl	_	_
+17	positionner	positionner	VERB	_	VERB__VerbForm=Inf	16	acl	_	_
+18	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+19	mais	mai	CCONJ	_	CCONJ___	16	cc	_	_
+20	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+21	retour	retour	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	conj	_	_
+22	à	à	ADP	_	ADP___	24	case	_	_
+23	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	emploi	emploi	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	nmod	_	_
+25	quel	quel	ADJ	_	ADJ__Gender=Masc|Number=Sing	26	mark	_	_
+26	qu'	que	SCONJ	_	SCONJ___	24	fixed	_	_
+27	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	28	nsubj	_	_
+28	soit	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+29	semble	sembler	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	advmod	_	_
+30	quasi	quasi	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	31	advmod	_	_
+31	impossible	impossible	ADJ	_	ADJ__Number=Sing	28	amod	_	_
+32	,	,	PUNCT	_	PUNCT___	33	punct	_	_
+33	même	même	ADV	_	ADV___	31	advmod	_	_
+34	avec	avec	ADP	_	ADP___	2	case	_	_
+35	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	36	det	_	_
+36	aménagements	aménagement	NOUN	_	NOUN__Gender=Masc|Number=Plur	36	obl	_	_
+37	conséquents	conséquent	ADJ	_	ADJ__Gender=Masc|Number=Plur	38	amod	_	_
+38	ou	ou	CCONJ	_	CCONJ___	36	cc	_	_
+39	orienté	orienter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	40	conj	_	_
+40	vers	ver	ADP	_	ADP___	38	case	_	_
+41	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+42	poste	poster	NOUN	_	NOUN__Gender=Masc|Number=Sing	36	nmod	_	_
+43	adapté	adapter	NOUN	_	NOUN__Gender=Masc|Number=Sing	48	acl	_	_
+44	.	.	PUNCT	_	PUNCT___	43	punct	_	_
+
+
+#Il va lui être conseillé de prendre des informations sur l'invalidité.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	lui	luire	PRON	_	PRON__Number=Sing|Person=3	4	obj	_	_
+4	être	être	AUX	_	AUX__VerbForm=Inf	2	aux:pass	_	_
+5	conseillé	conseiller	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	xcomp	_	_
+6	de	de	ADP	_	ADP___	4	mark	_	_
+7	prendre	prendre	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+8	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
+9	informations	information	NOUN	_	NOUN__Gender=Fem|Number=Plur	8	obj	_	_
+10	sur	sur	ADP	_	ADP___	12	case	_	_
+11	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	invalidité	invalidité	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+13	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
