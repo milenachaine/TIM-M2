@@ -1,3 +1,11 @@
+[13/02/19]
+En cours : 
+- réalisation d'un schéma d'interaction basique 
+- étude du Framework Flask pour réalisr une interface web
+
+
+
+[06/02/19]
 Proposition schéma type interaction 
 	1) Salutation, embrayage sur la demande de question
 		Question utilisateur
