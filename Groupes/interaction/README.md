@@ -16,6 +16,6 @@ cf. README dans chaque répertoire
 ### traitement des questions : Milena, Ferial
 ### recherche de similarités : Elvira, Margaux
 ### génération de données : Léa, Boyu
-### création de l'interface d'interaction utilisateur : commun ?
+### création de l'interface d'interaction utilisateur (Flask)
 
 
