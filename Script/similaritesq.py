@@ -22,19 +22,18 @@ for doc in docs:
 	xdatatext.append(questions)
 	datacount += 1
 
-import sklearn
-from sklearn import metrics
-from sklearn.feature_extraction.text import CountVectorizer
-vectorizer = CountVectorizer()
+from sklearn import metrics, feature_extraction
+# vectorizer = feature_extraction.text.CountVectorizer()
+vectorizer = feature_extraction.text.TfidfVectorizer()
 xdata = vectorizer.fit_transform(xdatatext)
 for xdataindex in range(nbdata):
 	print('QUESTION:\n', xdatatext[xdataindex])
-	distcbest = None
+	simcbest = None
 	xdataindexcbest = None
 	for xdataindexc in range(nbdata):
 		if xdataindex != xdataindexc:
-			distc = metrics.pairwise.cosine_similarity(xdata[xdataindex], xdata[xdataindexc])
-			if not distcbest or distc < distcbest:
-				distcbest = distc
+			simc = metrics.pairwise.cosine_similarity(xdata[xdataindex], xdata[xdataindexc])
+			if not simcbest or simc > simcbest:
+				simcbest = simc
 				xdataindexcbest = xdataindexc
 	print('SIMILAR:\n', xdatatext[xdataindexcbest])
