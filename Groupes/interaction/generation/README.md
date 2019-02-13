@@ -15,6 +15,6 @@ Proposition schéma type interaction
 Méthodes Symbolique ou apprentissage ? N-grams
 Génération de texte, ou juste proposition des réponses ?
 
-Quelles entitées ?
+Quelles entitées nommées ?
 
 Quelle interface ? bot discord/slack/fb, fenetre de commande, web ?
