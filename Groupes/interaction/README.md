@@ -4,10 +4,12 @@ Elvira Quesada, Milena Chaîne, Margaux Duhayon, Ferial Yahiaoui, Léa Lamotte, 
 
 ## Schéma d'une interaction réussie du point de vue utilisateur (à évoluer)
 - l'utilisateur pose une question dans une interface graphique (terminal/web)
-- le robot reformule la question/identifie l'intention (confirmation)
-- l'utilisateur confirme
-- le robot renvoie la réponse la plus susceptible de correspondre à la question dans la base (v.0), éventuellement accompagnée de liens
-- l'utilisateur est satisfait
+  - la question est pré-traitée
+  - on effectue une recherche de similarité
+  - on récupère la question la plus similaire
+- le robot renvoie cette question similaire (éventuellement accompagnée de liens) et demande une confirmation
+  - si l'utilisateur n'accepte pas la réponse, on réessaie jusqu'à trois fois => en faisant reformuler la question ? en modifiant la recherche de similarités ?
+  - si l'utilisateur est satisfait on est en fin d'interaction
 
 cf. README dans chaque répertoire
 
