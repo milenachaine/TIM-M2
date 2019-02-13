@@ -1,4 +1,4 @@
-## Notes préliminaires
+## Notes sur le pré-traitement des questions
 
- - travail à partir des données prétraitées + pré-traitement similaire des données entrées par l'utilisateur
+ - travail à partir des données prétraitées => on doit effectuer un pré-traitement similaire sur les données entrées par l'utilisateur
  - 
