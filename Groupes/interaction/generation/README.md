@@ -1,3 +1,11 @@
+[13/02/19]
+En cours : 
+- réalisation d'un schéma d'interaction basique 
+- étude du Framework Flask pour réalisr une interface web
+
+
+
+[06/02/19]
 Proposition schéma type interaction 
 	1) Salutation, embrayage sur la demande de question
 		Question utilisateur
@@ -15,6 +23,6 @@ Proposition schéma type interaction
 Méthodes Symbolique ou apprentissage ? N-grams
 Génération de texte, ou juste proposition des réponses ?
 
-Quelles entitées ?
+Quelles entitées nommées ?
 
 Quelle interface ? bot discord/slack/fb, fenetre de commande, web ?
