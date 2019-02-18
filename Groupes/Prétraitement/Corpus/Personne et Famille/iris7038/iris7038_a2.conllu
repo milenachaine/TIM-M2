@@ -1,0 +1,82 @@
+#Faire appel et demander une révision sont deux choses différentes.
+1	Faire	Faire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+2	appel	appel	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+3	et	et	CCONJ	_	CCONJ___	4	cc	_	_
+4	demander	demander	VERB	_	VERB__VerbForm=Inf	1	conj	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	révision	révision	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obj	_	_
+7	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	deux	deux	NUM	_	NUM__NumType=Card	9	nummod	_	_
+9	choses	chose	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	obl	_	_
+10	différentes	différents	ADJ	_	ADJ__Gender=Fem|Number=Plur	9	amod	_	_
+11	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Faire appel c'est demander à un autre juge de se prononcer, on rejuge l'affaire avec les mêmes éléments, mais avec d'autres personnes.
+1	Faire	Faire	VERB	_	VERB__VerbForm=Inf	1	nsubj:pass	_	_
+2	appel	appel	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+3	c'	ce	PRON	_	PRON__Number=Sing|Person=3	4	nsubj	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+5	demander	demander	VERB	_	VERB__VerbForm=Inf	6	advcl	_	_
+6	à	à	ADP	_	ADP___	4	case	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	autre	autre	ADJ	_	ADJ__Number=Sing	9	amod	_	_
+9	juge	juger	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+10	de	de	ADP	_	ADP___	9	case	_	_
+11	se	se	PRON	_	PRON__Person=3|Reflex=Yes	1	expl	_	_
+12	prononcer	prononcer	VERB	_	VERB__VerbForm=Inf	16	nmod	_	_
+13	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+14	on	on	PRON	_	PRON__Number=Sing|Person=3	16	nsubj	_	_
+15	rejuge	rejuge	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+16	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	26	det	_	_
+17	affaire	affairer	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obj	_	_
+18	avec	avec	ADP	_	ADP___	20	case	_	_
+19	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	20	det	_	_
+20	mêmes	même	ADJ	_	ADJ__Number=Plur	16	amod	_	_
+21	éléments	élément	NOUN	_	NOUN__Gender=Masc|Number=Plur	23	obl	_	_
+22	,	,	PUNCT	_	PUNCT___	23	punct	_	_
+23	mais	mai	CCONJ	_	CCONJ___	20	cc	_	_
+24	avec	avec	ADP	_	ADP___	26	case	_	_
+25	d'	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	26	det	_	_
+26	autres	autre	ADJ	_	ADJ__Number=Plur	26	fixed	_	_
+27	personnes	personne	NOUN	_	NOUN__Gender=Fem|Number=Plur	28	conj	_	_
+28	.	.	PUNCT	_	PUNCT___	26	punct	_	_
+
+
+#Et on demande une révision pour une erreur de justice.
+1	Et	Et	CCONJ	_	CCONJ___	1	cc	_	_
+2	on	on	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+3	demande	demander	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+5	révision	révision	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obj	_	_
+6	pour	pour	ADP	_	ADP___	4	case	_	_
+7	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	erreur	erreur	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nmod	_	_
+9	de	de	ADP	_	ADP___	1	case	_	_
+10	justice	justice	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nmod	_	_
+11	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Il s'agit là de demander une rétractation de jugement.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	1	expl	_	_
+3	agit	agir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
+4	là	là	ADV	_	ADV___	1	obj	_	_
+5	de	de	ADP	_	ADP___	6	mark	_	_
+6	demander	demander	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+7	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	rétractation	rétractation	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obj	_	_
+9	de	de	ADP	_	ADP___	1	case	_	_
+10	jugement	jugement	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nmod	_	_
+11	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#En gros c'est ça.
+1	En	En	ADP	_	ADP___	1	advmod	_	_
+2	gros	gros	ADJ	_	ADJ__Gender=Masc	1	fixed	_	_
+3	c'	ce	PRON	_	PRON__Number=Sing|Person=3	4	nsubj	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+5	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	0	ROOT	_	_
+6	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+

@@ -1,0 +1,133 @@
+#Bonjour,Vous parlez de quel circuit de collecte ?
+1	Bonjour	Bonjour	PROPN	_	PROPN___	4	acl	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	4	nsubj	_	_
+4	parlez	parler	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	de	de	ADP	_	ADP___	7	case	_	_
+6	quel	quel	DET	_	DET__Gender=Masc|Number=Sing	7	det	_	_
+7	circuit	circuit	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+8	de	de	ADP	_	ADP___	9	case	_	_
+9	collecte	collecter	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+10	?	?	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Celui suivi par votre gardien ?
+1	Celui	Celui	PROPN	_	PROPN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	suivi	suivre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+3	par	par	ADP	_	ADP___	4	case	_	_
+4	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+5	gardien	gardien	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+6	?	?	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#C'est du domaine des ordres donnés à votre gardien, donc du ressort du syndic.
+1	C'	C'	PRON	_	PRON__Number=Sing|Person=3	4	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	du	du	DET	_	DET__Gender=Masc|Number=Sing	4	det	_	_
+4	domaine	domaine	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
+6	ordres	ordre	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	obj	_	_
+7	donnés	donner	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
+8	à	à	ADP	_	ADP___	9	case	_	_
+9	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	7	nmod:poss	_	_
+10	gardien	gardien	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+11	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+12	donc	donc	ADV	_	ADV___	11	advmod	_	_
+13	du	du	DET	_	DET__Gender=Masc|Number=Sing	15	obj	_	_
+14	ressort	ressortir	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	conj	_	_
+15	du	du	DET	_	DET__Gender=Masc|Number=Sing	12	det	_	_
+16	syndic	syndic	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+17	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Et je suppose que l'AG n'a non plusvoté desortir les poubelles côté A.Et si les poubelles sont TOUJOURS sorties aux aurores dans la MEME rue, réveillant donc toujours les mêmes, y'a bug.
+1	Et	Et	CCONJ	_	CCONJ___	4	cc	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+3	suppose	supposer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	que	que	SCONJ	_	SCONJ___	4	mark	_	_
+5	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+6	AG	AG	PROPN	_	PROPN__Number=Sing	7	nsubj	_	_
+7	n'	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+8	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	non	non	ADV	_	ADV___	7	advmod	_	_
+10	plusvoté	plusvoté	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	ccomp	_	_
+11	desortir	desortir	VERB	_	VERB__VerbForm=Inf	11	xcomp	_	_
+12	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	11	det	_	_
+13	poubelles	poubelle	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	obj	_	_
+14	côté	côté	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	case	_	_
+15	A.Et	A.Et	ADJ	_	ADJ___	12	nmod	_	_
+16	si	si	SCONJ	_	SCONJ___	11	mark	_	_
+17	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	20	det	_	_
+18	poubelles	poubelle	NOUN	_	NOUN__Number=Plur	20	nsubj	_	_
+19	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+20	TOUJOURS	TOUJOURS	ADV	_	ADV___	20	advmod	_	_
+21	sorties	sortir	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	22	advcl	_	_
+22	aux	aux	DET	_	DET__Number=Plur	20	punct	_	_
+23	aurores	aurore	ADJ	_	ADJ__Number=Plur	22	amod	_	_
+24	dans	dan	ADP	_	ADP___	26	case	_	_
+25	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	MEME	MEME	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	obl	_	_
+27	rue	ruer	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	amod	_	_
+28	,	,	PUNCT	_	PUNCT___	30	punct	_	_
+29	réveillant	réveiller	VERB	_	VERB__Tense=Pres|VerbForm=Part	30	acl	_	_
+30	donc	donc	ADV	_	ADV___	20	advmod	_	_
+31	toujours	toujours	ADV	_	ADV___	32	advmod	_	_
+32	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	30	det	_	_
+33	mêmes	même	ADJ	_	ADJ__Number=Plur	20	obj	_	_
+34	,	,	PUNCT	_	PUNCT___	36	punct	_	_
+35	y'a	y'a	ADJ	_	ADJ__Number=Sing	36	advmod	_	_
+36	bug	bug	NOUN	_	NOUN__Gender=Masc|Number=Sing	36	fixed	_	_
+37	.	.	PUNCT	_	PUNCT___	43	punct	_	_
+
+
+#Partagez donc, une semaine sur deux.
+1	Partagez	Partagez	PROPN	_	PROPN___	0	ROOT	_	_
+2	donc	donc	ADV	_	ADV___	4	advmod	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+5	semaine	semaine	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	fixed	_	_
+6	sur	sur	ADP	_	ADP___	7	case	_	_
+7	deux	deux	PRON	_	PRON__NumType=Card|PronType=Rel	4	nmod	_	_
+8	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Vous pouvez mettre la question à l'AG, l'article est discutable.
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	4	nsubj	_	_
+2	pouvez	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	mettre	mettre	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+5	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+6	à	à	ADP	_	ADP___	7	case	_	_
+7	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+8	AG	AG	PROPN	_	PROPN__Number=Sing	9	obl	_	_
+9	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+10	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+11	article	article	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nsubj	_	_
+12	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+13	discutable	discutable	ADJ	_	ADJ__Number=Sing	15	conj	_	_
+14	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#A moins que vous n'envisagiez de modifier le RC pour ça (art26) ce sera du 24.
+1	A	A	NOUN	_	NOUN___	4	aux	_	_
+2	moins	moins	ADV	_	ADV___	0	ROOT	_	_
+3	que	que	SCONJ	_	SCONJ___	4	mark	_	_
+4	vous	se	PRON	_	PRON__Number=Plur|Person=2	4	nsubj	_	_
+5	n'	ne	ADV	_	ADV___	7	advmod	_	_
+6	envisagiez	envisager	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	ccomp	_	_
+7	de	de	ADP	_	ADP___	4	mark	_	_
+8	modifier	modifier	VERB	_	VERB__VerbForm=Inf	9	xcomp	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+10	RC	RC	PROPN	_	PROPN__Gender=Masc|Number=Sing	4	obj	_	_
+11	pour	pour	ADP	_	ADP___	11	case	_	_
+12	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	obl	_	_
+13	(	(	PUNCT	_	PUNCT___	15	punct	_	_
+14	art26	art26	NOUN	_	NOUN___	15	appos	_	_
+15	)	)	PUNCT	_	PUNCT___	12	punct	_	_
+16	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	11	nsubj	_	_
+17	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	20	cop	_	_
+18	du	du	DET	_	DET__Gender=Masc|Number=Sing	20	det	_	_
+19	24	24	NUM	_	NUM__NumType=Card	20	iobj	_	_
+20	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+

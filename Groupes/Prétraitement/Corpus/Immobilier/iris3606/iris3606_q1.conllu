@@ -1,0 +1,87 @@
+#Bonjour,Mon agence me facture 5,69 dans le cadre de la "Révision de loyer".
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+3	Mon	Mon	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+4	agence	agencer	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nsubj	_	_
+5	me	se	PRON	_	PRON__Number=Sing|Person=1	6	obj	_	_
+6	facture	facturer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+7	5,69	5,69	NUM	_	NUM__NumType=Card	6	nummod	_	_
+8	dans	dan	ADP	_	ADP___	14	case	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	fixed	_	_
+10	cadre	cadrer	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	fixed	_	_
+11	de	de	ADP	_	ADP___	8	fixed	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	"	"	PUNCT	_	PUNCT___	14	punct	_	_
+14	Révision	Révision	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+15	de	de	ADP	_	ADP___	16	mark	_	_
+16	loyer	loyer	VERB	_	VERB__VerbForm=Inf	14	nmod	_	_
+17	"	"	PUNCT	_	PUNCT___	14	punct	_	_
+18	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Tout en sachant que le loyer affiché dans cette meme facture à déjà été augmenter suite à la révision de loyer.
+1	Tout	Tout	ADV	_	ADV___	1	advmod	_	_
+2	en	en	ADP	_	ADP___	6	fixed	_	_
+3	sachant	savoir	VERB	_	VERB__Tense=Pres|VerbForm=Part	0	ROOT	_	_
+4	que	que	SCONJ	_	SCONJ___	6	mark	_	_
+5	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	6	det	_	_
+6	loyer	loyer	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj:pass	_	_
+7	affiché	afficher	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+8	dans	dan	ADP	_	ADP___	14	case	_	_
+9	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+10	meme	meme	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+11	facture	facturer	ADJ	_	ADJ__Gender=Fem|Number=Sing	8	amod	_	_
+12	à	à	ADP	_	ADP___	14	mark	_	_
+13	déjà	déjà	ADV	_	ADV___	14	advmod	_	_
+14	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	1	aux:pass	_	_
+15	augmenter	augmenter	VERB	_	VERB__VerbForm=Inf	16	ccomp	_	_
+16	suite	suite	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	case	_	_
+17	à	à	ADP	_	ADP___	14	fixed	_	_
+18	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+19	révision	révision	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	obl	_	_
+20	de	de	ADP	_	ADP___	19	mark	_	_
+21	loyer	loyer	VERB	_	VERB__VerbForm=Inf	21	acl	_	_
+22	.	.	PUNCT	_	PUNCT___	33	punct	_	_
+
+
+#J'en conclus que l'agence me facture 5,69 pour avoir augmenter le loyer ?
+1	J'	J'	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	en	en	PRON	_	PRON__Person=3	6	case	_	_
+3	conclus	conclure	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	que	que	SCONJ	_	SCONJ___	6	mark	_	_
+5	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	agence	agencer	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+7	me	se	PRON	_	PRON__Number=Sing|Person=1	6	iobj	_	_
+8	facture	facturer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
+9	5,69	5,69	NUM	_	NUM__NumType=Card	8	iobj	_	_
+10	pour	pour	ADP	_	ADP___	8	mark	_	_
+11	avoir	avoir	AUX	_	AUX__VerbForm=Inf	8	aux	_	_
+12	augmenter	augmenter	VERB	_	VERB__VerbForm=Inf	14	advcl	_	_
+13	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	14	det	_	_
+14	loyer	loyer	VERB	_	VERB__VerbForm=Inf	1	obj	_	_
+15	?	?	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Est-ce commode ?
+1	Est	être		_	VERB	0	ROOT	_	_
+2	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	6	amod	_	_
+3	commode	commode	ADJ	_	ADJ__Number=Sing	4	nmod	_	_
+4	?	?	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#légal ?
+1	légal	légal	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	?	?	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Merci de vos réponses,Cordialement,Joloko
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	de	de	ADP	_	ADP___	6	case	_	_
+3	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	4	nmod:poss	_	_
+4	réponses	réponse	NOUN	_	NOUN__Gender=Fem|Number=Plur	6	nmod	_	_
+5	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+6	Cordialement	Cordialement	PROPN	_	PROPN___	1	conj	_	_
+7	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+8	Joloko	Joloko	PROPN	_	PROPN___	14	conj	_	_
+
+

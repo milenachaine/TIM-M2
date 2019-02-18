@@ -1,0 +1,308 @@
+#Bonjour,Veuve depuis 4 ans avec 2 enfants, et pacsé depuis 6 mois.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	Veuve	Veuve	PROPN	_	PROPN__Gender=Masc|Number=Sing	1	conj	_	_
+4	depuis	depuis	ADP	_	ADP___	6	case	_	_
+5	4	4	NUM	_	NUM__NumType=Card	6	nummod	_	_
+6	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	nmod	_	_
+7	avec	avec	ADP	_	ADP___	9	case	_	_
+8	2	2	NUM	_	NUM__NumType=Card	9	nummod	_	_
+9	enfants	enfant	NOUN	_	NOUN__Number=Plur	3	nmod	_	_
+10	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+11	et	et	CCONJ	_	CCONJ___	12	cc	_	_
+12	pacsé	pacsé	ADV	_	ADV___	1	conj	_	_
+13	depuis	depuis	ADP	_	ADP___	15	case	_	_
+14	6	6	NUM	_	NUM__NumType=Card	15	nummod	_	_
+15	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	obl	_	_
+16	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Notre objectif est la construction d'une maison.
+1	Notre	Notre	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	objectif	objectif	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	construction	construction	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+6	d'	de	ADP	_	ADP___	3	case	_	_
+7	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nmod	_	_
+9	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Famille recomposé de 4 enfants.
+1	Famille	Famille	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	recomposé	recomposer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	amod	_	_
+3	de	de	ADP	_	ADP___	1	case	_	_
+4	4	4	NUM	_	NUM__NumType=Card	6	nummod	_	_
+5	enfants	enfant	NOUN	_	NOUN__Number=Plur	6	obl	_	_
+6	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Afin de nous protéger jusqu'à nos vieux jours, nous avions décidé de nous pacsé avec testament.
+1	Afin	Afin	ADP	_	ADP___	1	mark	_	_
+2	de	de	ADP	_	ADP___	3	fixed	_	_
+3	nous	se	PRON	_	PRON__Number=Plur|Person=1	1	nsubj	_	_
+4	protéger	protéger	VERB	_	VERB__VerbForm=Inf	6	advcl	_	_
+5	jusqu'	jusque	ADP	_	ADP___	6	case	_	_
+6	à	à	ADP	_	ADP___	3	fixed	_	_
+7	nos	notre	DET	_	DET__Number=Plur|Poss=Yes	9	nmod:poss	_	_
+8	vieux	vieux	ADJ	_	ADJ__Gender=Masc	9	amod	_	_
+9	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	obl	_	_
+10	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+11	nous	se	PRON	_	PRON__Number=Plur|Person=1	12	nsubj	_	_
+12	avions	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	1	aux	_	_
+13	décidé	décider	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+14	de	de	ADP	_	ADP___	15	case	_	_
+15	nous	se	PRON	_	PRON__Number=Plur|Person=1	12	iobj	_	_
+16	pacsé	pacsé	ADV	_	ADV___	1	obl	_	_
+17	avec	avec	ADP	_	ADP___	18	case	_	_
+18	testament	testament	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	nmod	_	_
+19	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Je viens d'apprendre que ce dernier peut être contesté au décès de l'un de nous deux.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	viens	venir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	d'	de	ADP	_	ADP___	1	mark	_	_
+4	apprendre	avoir	VERB	_	VERB__VerbForm=Inf	6	xcomp	_	_
+5	que	que	SCONJ	_	SCONJ___	6	mark	_	_
+6	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+7	dernier	dernier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	9	nsubj	_	_
+8	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+9	être	être	AUX	_	AUX__VerbForm=Inf	3	aux:pass	_	_
+10	contesté	contester	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	xcomp	_	_
+11	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	12	case	_	_
+12	décès	décès	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+13	de	de	ADP	_	ADP___	15	case	_	_
+14	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	un	un	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	12	nmod	_	_
+16	de	de	ADP	_	ADP___	1	case	_	_
+17	nous	se	PRON	_	PRON__Number=Plur|Person=1	18	nmod	_	_
+18	deux	deux	NUM	_	NUM__NumType=Card	21	nummod	_	_
+19	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Donc, mariage.
+1	Donc	Donc	ADV	_	ADV___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	mariage	mariage	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	conj	_	_
+4	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#HIC...
+1	HIC	HIC	ADV	_	ADV___	0	ROOT	_	_
+2	...	...	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Etant veuve et veuf, cela est un peu tôt pour nous mais nous y avons pensé pour plus tard.
+1	Etant	Etant	VERB	_	VERB__Tense=Pres|VerbForm=Part	1	obl	_	_
+2	veuve	veuf	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	amod	_	_
+3	et	et	CCONJ	_	CCONJ___	1	cc	_	_
+4	veuf	veuf	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	conj	_	_
+5	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+6	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	3	nsubj	_	_
+7	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	un	un	DET	_	DET__Gender=Masc|Number=Sing	9	advmod	_	_
+9	peu	peu	ADV	_	ADV___	3	advmod	_	_
+10	tôt	tôt	ADV	_	ADV___	0	ROOT	_	_
+11	pour	pour	ADP	_	ADP___	12	case	_	_
+12	nous	se	PRON	_	PRON__Number=Plur|Person=1	1	obl	_	_
+13	mais	mai	CCONJ	_	CCONJ___	15	cc	_	_
+14	nous	se	PRON	_	PRON__Number=Plur|Person=1	15	nsubj	_	_
+15	y	yu	PRON	_	PRON__Person=3	12	expl	_	_
+16	avons	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
+17	pensé	penser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	conj	_	_
+18	pour	pour	ADP	_	ADP___	21	case	_	_
+19	plus	plaire	ADV	_	ADV___	21	advcl	_	_
+20	tard	tard	ADV	_	ADV___	21	fixed	_	_
+21	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Question que je me pose sur le nom d'usage : est il possible d'avoir- comme nom patronyme : mon nom de jeune fille, et- comme nom d'usage : nom veuve
+1	Question	Question	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	que	que	PRON	_	PRON__PronType=Rel	3	obj	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+4	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	6	expl	_	_
+5	pose	poser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+6	sur	sur	ADP	_	ADP___	3	case	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	nom	nom	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obl	_	_
+9	d'	de	ADP	_	ADP___	3	case	_	_
+10	usage	usage	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+11	:	:	PUNCT	_	PUNCT___	12	punct	_	_
+12	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+13	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	15	nsubj	_	_
+14	possible	possible	ADJ	_	ADJ__Number=Sing	15	ccomp	_	_
+15	d'	de	ADP	_	ADP___	12	mark	_	_
+16	avoir-	avoir-	PROPN	_	PROPN___	1	xcomp	_	_
+17	comme	comme	ADP	_	ADP___	18	case	_	_
+18	nom	nom	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	nmod	_	_
+19	patronyme	patronyme	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	amod	_	_
+20	:	:	PUNCT	_	PUNCT___	21	punct	_	_
+21	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	21	nmod:poss	_	_
+22	nom	nom	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	obl	_	_
+23	de	de	ADP	_	ADP___	24	case	_	_
+24	jeune	jeune	ADJ	_	ADJ__Number=Sing	21	amod	_	_
+25	fille	fille	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	nmod	_	_
+26	,	,	PUNCT	_	PUNCT___	26	punct	_	_
+27	et-	et-	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	26	iobj	_	_
+28	comme	comme	ADP	_	ADP___	30	case	_	_
+29	nom	nom	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	nmod	_	_
+30	d'	de	ADP	_	ADP___	27	case	_	_
+31	usage	usage	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	nmod	_	_
+32	:	:	PUNCT	_	PUNCT___	35	punct	_	_
+33	nom	nom	NOUN	_	NOUN__Gender=Masc|Number=Sing	32	appos	_	_
+34	veuve	veuf	ADJ	_	ADJ__Gender=Fem|Number=Sing	35	amod	_	_
+
+
+#-nom second mari,J'y tiens par rapport à mes enfants qui ont 13 et 10 ans et qui vont avoir du mal à comprendre pourquoi leur maman prend un autre nom que le leur et surtout le nom des demi frères et demi surs.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	nom	nom	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	amod	_	_
+3	second	second	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	1	amod	_	_
+4	mari	mari	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+6	J'	J'	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+7	y	yu	PRON	_	PRON__Person=3	9	expl	_	_
+8	tiens	tien	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	nmod	_	_
+9	par	par	ADP	_	ADP___	3	case	_	_
+10	rapport	rapport	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	fixed	_	_
+11	à	à	ADP	_	ADP___	12	fixed	_	_
+12	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	1	nmod:poss	_	_
+13	enfants	enfant	NOUN	_	NOUN__Number=Plur	15	obl	_	_
+14	qui	qui	PRON	_	PRON__PronType=Rel	15	nsubj	_	_
+15	ont	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+16	13	13	NUM	_	NUM__NumType=Card	1	nummod	_	_
+17	et	et	CCONJ	_	CCONJ___	18	cc	_	_
+18	10	10	NUM	_	NUM__NumType=Card	21	nummod	_	_
+19	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	21	obj	_	_
+20	et	et	CCONJ	_	CCONJ___	21	cc	_	_
+21	qui	qui	PRON	_	PRON__PronType=Rel	21	nsubj	_	_
+22	vont	aller	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	conj	_	_
+23	avoir	avoir	VERB	_	VERB__VerbForm=Inf	24	xcomp	_	_
+24	du	du	DET	_	DET__Gender=Masc|Number=Sing	21	det	_	_
+25	mal	mal	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obj	_	_
+26	à	à	ADP	_	ADP___	26	mark	_	_
+27	comprendre	comprendre	VERB	_	VERB__VerbForm=Inf	26	xcomp	_	_
+28	pourquoi	pourquoi	ADV	_	ADV__PronType=Int	30	advmod	_	_
+29	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	30	nmod:poss	_	_
+30	maman	maman	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	nsubj	_	_
+31	prend	prendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	acl	_	_
+32	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+33	autre	autre	ADJ	_	ADJ__Number=Sing	32	amod	_	_
+34	nom	nom	NOUN	_	NOUN__Gender=Masc|Number=Sing	35	obj	_	_
+35	que	que	SCONJ	_	SCONJ___	44	mark	_	_
+36	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+37	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	36	nsubj	_	_
+38	et	et	CCONJ	_	CCONJ___	40	cc	_	_
+39	surtout	surtout	ADV	_	ADV___	40	conj	_	_
+40	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+41	nom	nom	NOUN	_	NOUN__Gender=Masc|Number=Sing	44	fixed	_	_
+42	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	44	det	_	_
+43	demi	demi	NOUN	_	NOUN__Gender=Masc|Number=Sing	44	ccomp	_	_
+44	frères	frère	ADJ	_	ADJ__Number=Plur	44	amod	_	_
+45	et	et	CCONJ	_	CCONJ___	47	cc	_	_
+46	demi	demi	NOUN	_	NOUN__Gender=Masc|Number=Sing	47	conj	_	_
+47	surs	surs	ADJ	_	ADJ___	44	amod	_	_
+48	.	.	PUNCT	_	PUNCT___	49	punct	_	_
+
+
+#Ils ont perdu leur repère paternel, et là, ils peuvent perdre un repère maternel.
+1	Ils	Ils	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	1	nsubj	_	_
+2	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	perdu	perdre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+5	repère	repérer	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+6	paternel	paternel	ADJ	_	ADJ__Gender=Masc|Number=Sing	3	amod	_	_
+7	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+8	et	et	CCONJ	_	CCONJ___	9	cc	_	_
+9	là	là	ADV	_	ADV___	3	advmod	_	_
+10	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+11	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	12	nsubj	_	_
+12	peuvent	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+13	perdre	perdre	VERB	_	VERB__VerbForm=Inf	15	conj	_	_
+14	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	repère	repérer	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+16	maternel	maternel	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	amod	_	_
+17	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Et aussi, j'y tiens pour perpétuer le nom de mon défunt mari.
+1	Et	Et	CCONJ	_	CCONJ___	1	cc	_	_
+2	aussi	aussi	ADV	_	ADV___	3	advmod	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	j'	il	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+5	y	yu	PRON	_	PRON__Person=3	6	expl	_	_
+6	tiens	tien	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	pour	pour	ADP	_	ADP___	9	mark	_	_
+8	perpétuer	perpétuer	VERB	_	VERB__VerbForm=Inf	9	advcl	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+10	nom	nom	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+11	de	de	ADP	_	ADP___	12	case	_	_
+12	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+13	défunt	défunt	ADJ	_	ADJ__Number=Sing	15	amod	_	_
+14	mari	mari	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nmod	_	_
+15	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#C'est un certain respect envers lui.
+1	C'	C'	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+4	certain	certain	ADJ	_	ADJ__Gender=Masc|Number=Sing	6	amod	_	_
+5	respect	respect	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+6	envers	envers	ADJ	_	ADJ__Gender=Masc|Number=Plur	3	amod	_	_
+7	lui	luire	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	amod	_	_
+8	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Après, je m'attends à la réponse de ne pas se remarier mais c'est vraiment injuste par rapport au personnes divorcées qui peut garder le nom de son ex-mari.
+1	Après	Après	ADP	_	ADP___	1	mark	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+4	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	6	expl	_	_
+5	attends	attendre	ADP	_	ADP___	0	ROOT	_	_
+6	à	à	ADP	_	ADP___	3	case	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obl	_	_
+9	de	de	ADP	_	ADP___	3	case	_	_
+10	ne	ne	ADV	_	ADV___	1	advmod	_	_
+11	pas	pas	ADV	_	ADV__Polarity=Neg	12	fixed	_	_
+12	se	se	PRON	_	PRON__Person=3|Reflex=Yes	1	expl	_	_
+13	remarier	remarier	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	15	nmod	_	_
+14	mais	mai	CCONJ	_	CCONJ___	15	cc	_	_
+15	c'	ce	PRON	_	PRON__Number=Sing|Person=3	12	nsubj	_	_
+16	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+17	vraiment	vraiment	ADV	_	ADV___	18	advmod	_	_
+18	injuste	injuste	ADJ	_	ADJ__Number=Sing	21	conj	_	_
+19	par	par	ADP	_	ADP___	21	case	_	_
+20	rapport	rapport	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	fixed	_	_
+21	au	au	PRON	_	PRON__PronType=Rel	21	det	_	_
+22	personnes	personne	NOUN	_	NOUN__Gender=Fem|Number=Plur	24	obl	_	_
+23	divorcées	divorcer	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	24	acl	_	_
+24	qui	qui	PRON	_	PRON__PronType=Rel	21	nsubj	_	_
+25	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+26	garder	garder	VERB	_	VERB__VerbForm=Inf	26	acl:relcl	_	_
+27	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+28	nom	nom	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	obj	_	_
+29	de	de	ADP	_	ADP___	30	case	_	_
+30	son	son	DET	_	DET__Number=Sing|Poss=Yes	27	nmod:poss	_	_
+31	ex	ex	NOUN	_	NOUN__Number=Sing	26	nmod	_	_
+32	-	-	PUNCT	_	PUNCT___	35	punct	_	_
+33	mari	mari	NOUN	_	NOUN__Gender=Masc|Number=Sing	32	obl	_	_
+34	.	.	PUNCT	_	PUNCT___	35	punct	_	_
+
+
+#Dans l'attente de vous lire.
+1	Dans	Dans	ADP	_	ADP___	1	case	_	_
+2	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	attente	attenter	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	de	de	ADP	_	ADP___	6	case	_	_
+5	vous	se	PRON	_	PRON__Number=Plur|Person=2	6	iobj	_	_
+6	lire	lire	VERB	_	VERB__VerbForm=Inf	3	nmod	_	_
+7	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Cordialement
+1	Cordialement	Cordialement	ADV	_	ADV___	0	ROOT	_	_
+
+

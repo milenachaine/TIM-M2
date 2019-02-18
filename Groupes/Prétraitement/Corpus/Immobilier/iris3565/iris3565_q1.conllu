@@ -1,0 +1,89 @@
+#Bonjour,Je souhaite louer un studio à Paris pour ma fille qui est en stage.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Je	Je	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+4	souhaite	souhaiter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+5	louer	louer	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	studio	studio	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+8	à	à	ADP	_	ADP___	9	case	_	_
+9	Paris	Paris	PROPN	_	PROPN__Gender=Masc|Number=Sing	7	nmod	_	_
+10	pour	pour	ADP	_	ADP___	12	case	_	_
+11	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	12	nmod:poss	_	_
+12	fille	fille	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obl	_	_
+13	qui	qui	PRON	_	PRON__PronType=Rel	16	nsubj	_	_
+14	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	en	en	ADP	_	ADP___	16	case	_	_
+16	stage	stage	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	acl:relcl	_	_
+17	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#L'agence demande des honoraires de 1 221 lorsqu'il s'agit d'un bail code civil et de 216 en cas de bail résidence principale.
+1	L'	L'	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+2	agence	agencer	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+3	demande	demander	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	1	det	_	_
+5	honoraires	honoraire	NOUN	_	NOUN__Gender=Fem|Number=Plur	4	obj	_	_
+6	de	de	ADP	_	ADP___	7	case	_	_
+7	1	1	NUM	_	NUM__NumType=Card	5	nummod	_	_
+8	221	221	NUM	_	NUM__NumType=Card	9	nmod	_	_
+9	lorsqu'	lorsque	SCONJ	_	SCONJ___	7	mark	_	_
+10	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
+11	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	12	expl	_	_
+12	agit	agir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	advcl	_	_
+13	d'	de	ADP	_	ADP___	16	case	_	_
+14	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obl	_	_
+16	code	coder	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nmod	_	_
+17	civil	civil	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	amod	_	_
+18	et	et	CCONJ	_	CCONJ___	19	cc	_	_
+19	de	de	ADP	_	ADP___	20	case	_	_
+20	216	216	PRON	_	PRON__NumType=Card|PronType=Rel	20	conj	_	_
+21	en	en	ADP	_	ADP___	22	case	_	_
+22	cas	cas	NOUN	_	NOUN__Gender=Masc	20	fixed	_	_
+23	de	de	ADP	_	ADP___	25	fixed	_	_
+24	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	nmod	_	_
+25	résidence	résidence	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	amod	_	_
+26	principale	principal	ADJ	_	ADJ__Gender=Fem|Number=Sing	29	amod	_	_
+27	.	.	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#Pouvez
+1	Pouvez	Pouvez	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+
+
+#-vous m'expliquer la différence entre les 2 et surtout pourquoi une telle différence de prix.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+3	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	4	expl	_	_
+4	expliquer	expliquer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+6	différence	différence	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+7	entre	entrer	ADP	_	ADP___	5	case	_	_
+8	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+9	2	2	NUM	_	NUM__NumType=Card	7	nmod	_	_
+10	et	et	CCONJ	_	CCONJ___	12	cc	_	_
+11	surtout	surtout	ADV	_	ADV___	12	advmod	_	_
+12	pourquoi	pourquoi	ADV	_	ADV___	5	fixed	_	_
+13	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+14	telle	tel	ADJ	_	ADJ__Gender=Fem|Number=Sing	16	amod	_	_
+15	différence	différence	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	conj	_	_
+16	de	de	ADP	_	ADP___	12	case	_	_
+17	prix	prix	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+18	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Merci par avance de vos réponses.
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	par	par	ADP	_	ADP___	1	case	_	_
+3	avance	avancer	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+4	de	de	ADP	_	ADP___	1	case	_	_
+5	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	4	nmod:poss	_	_
+6	réponses	réponse	NOUN	_	NOUN__Gender=Fem|Number=Plur	7	nmod	_	_
+7	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Nathalie
+1	Nathalie	Nathalie	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+
+

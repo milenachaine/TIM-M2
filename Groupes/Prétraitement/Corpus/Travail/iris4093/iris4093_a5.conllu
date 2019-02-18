@@ -1,0 +1,137 @@
+#Non, car aprés c'est la décision du médecin du travail qui va orienter votre dossier en fonction de votre état :
+1	Non	Non	ADV	_	ADV___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	fixed	_	_
+3	car	car	CCONJ	_	CCONJ___	4	cc	_	_
+4	aprés	aprés	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	conj	_	_
+5	c'	ce	PRON	_	PRON__Number=Sing|Person=3	8	nsubj	_	_
+6	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	décision	décision	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obl	_	_
+9	du	du	DET	_	DET__Gender=Masc|Number=Sing	10	det	_	_
+10	médecin	médecin	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obj	_	_
+11	du	du	DET	_	DET__Gender=Masc|Number=Sing	12	det	_	_
+12	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+13	qui	qui	PRON	_	PRON__PronType=Rel	15	nsubj	_	_
+14	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	orienter	orienter	VERB	_	VERB__VerbForm=Inf	12	acl:relcl	_	_
+16	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	17	nmod:poss	_	_
+17	dossier	dossier	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obj	_	_
+18	en	en	ADP	_	ADP___	22	case	_	_
+19	fonction	fonction	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	fixed	_	_
+20	de	de	ADP	_	ADP___	18	fixed	_	_
+21	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	22	nmod:poss	_	_
+22	état	état	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obl	_	_
+23	:	:	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#- Reprise avec adaptation du poste ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	Reprise	Reprise	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	avec	avec	ADP	_	ADP___	4	case	_	_
+4	adaptation	adaptation	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+5	du	du	DET	_	DET__Gender=Masc|Number=Sing	8	det	_	_
+6	poste	poster	NOUN	_	NOUN__Number=Sing	8	nmod	_	_
+7	?	?	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#- inaptitude ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	inaptitude	inaptitude	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	?	?	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Dans le deuxième cas, l'employeur a 1 mois pour vous reclasser soit vous licencier pour inaptitude au travail.
+1	Dans	Dans	ADP	_	ADP___	1	case	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+3	deuxième	deuxième	ADJ	_	ADJ__Number=Sing|NumType=Ord	4	amod	_	_
+4	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+5	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+7	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nsubj	_	_
+8	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+9	1	1	NUM	_	NUM__NumType=Card	10	nummod	_	_
+10	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	obj	_	_
+11	pour	pour	ADP	_	ADP___	12	mark	_	_
+12	vous	se	PRON	_	PRON__Number=Plur|Person=2	10	iobj	_	_
+13	reclasser	reclasser	VERB	_	VERB__VerbForm=Inf	15	advcl	_	_
+14	soit	être	CCONJ	_	CCONJ___	15	cc	_	_
+15	vous	se	PRON	_	PRON__Number=Plur|Person=2	12	nsubj	_	_
+16	licencier	licencier	ADJ	_	ADJ__Gender=Masc|Number=Sing	17	xcomp	_	_
+17	pour	pour	ADP	_	ADP___	15	case	_	_
+18	inaptitude	inaptitude	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	obl	_	_
+19	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
+20	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nmod	_	_
+21	.	.	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#Sachant qu'il s'agira d'une inaptitude professionnelle vous toucherez une indemnité spéciale de licenciement, double de l'indemnité attribuée en cas d'inaptitude non professionnelle.
+1	Sachant	Sachant	VERB	_	VERB__Tense=Pres|VerbForm=Part	0	ROOT	_	_
+2	qu'	que	SCONJ	_	SCONJ___	1	mark	_	_
+3	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+4	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	1	expl	_	_
+5	agira	agir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	ccomp	_	_
+6	d'	de	ADP	_	ADP___	8	case	_	_
+7	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	inaptitude	inaptitude	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obl	_	_
+9	professionnelle	professionnel	ADJ	_	ADJ__Gender=Fem|Number=Sing	10	amod	_	_
+10	vous	se	PRON	_	PRON__Number=Plur|Person=2	4	nsubj	_	_
+11	toucherez	toucher	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	xcomp	_	_
+12	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+13	indemnité	indemnité	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obj	_	_
+14	spéciale	spécial	ADJ	_	ADJ__Gender=Fem|Number=Sing	15	amod	_	_
+15	de	de	ADP	_	ADP___	12	case	_	_
+16	licenciement	licenciement	ADV	_	ADV___	17	nmod	_	_
+17	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+18	double	doubler	ADJ	_	ADJ__Number=Sing	22	conj	_	_
+19	de	de	ADP	_	ADP___	18	case	_	_
+20	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+21	indemnité	indemnité	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	nmod	_	_
+22	attribuée	attribuer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	acl	_	_
+23	en	en	ADP	_	ADP___	10	case	_	_
+24	cas	cas	NOUN	_	NOUN__Gender=Masc	25	fixed	_	_
+25	d'	de	ADP	_	ADP___	25	fixed	_	_
+26	inaptitude	inaptitude	NOUN	_	NOUN__Gender=Fem|Number=Sing	27	obl	_	_
+27	non	non	ADV	_	ADV___	25	advmod	_	_
+28	professionnelle	professionnel	ADJ	_	ADJ__Gender=Fem|Number=Sing	29	amod	_	_
+29	.	.	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#Lors de la visite avec le médecin du W, il faut lui rappeler de vous remplir un imprimé d'indemnité temporaire d'inaptitude qui vous permettra de toucher des IJ pendant le mois évoqué ci-dessus
+1	Lors	Lors	ADV	_	ADV___	1	case	_	_
+2	de	de	ADP	_	ADP___	1	fixed	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	visite	visiter	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obl	_	_
+5	avec	avec	ADP	_	ADP___	8	case	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	médecin	médecin	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+8	du	du	DET	_	DET__Gender=Masc|Number=Sing	4	det	_	_
+9	W	W	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+10	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+11	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
+12	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+13	lui	luire	PRON	_	PRON__Number=Sing|Person=3	15	iobj	_	_
+14	rappeler	rappeler	VERB	_	VERB__VerbForm=Inf	15	xcomp	_	_
+15	de	de	ADP	_	ADP___	12	mark	_	_
+16	vous	se	PRON	_	PRON__Number=Plur|Person=2	17	iobj	_	_
+17	remplir	remplir	VERB	_	VERB__VerbForm=Inf	15	xcomp	_	_
+18	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+19	imprimé	imprimer	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obj	_	_
+20	d'	de	ADP	_	ADP___	18	case	_	_
+21	indemnité	indemnité	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	nmod	_	_
+22	temporaire	temporaire	ADJ	_	ADJ__Number=Sing	15	amod	_	_
+23	d'	de	ADP	_	ADP___	10	case	_	_
+24	inaptitude	inaptitude	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	nmod	_	_
+25	qui	qui	PRON	_	PRON__PronType=Rel	25	nsubj	_	_
+26	vous	se	PRON	_	PRON__Number=Plur|Person=2	27	iobj	_	_
+27	permettra	permettre	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
+28	de	de	ADP	_	ADP___	29	mark	_	_
+29	toucher	toucher	VERB	_	VERB__VerbForm=Inf	25	xcomp	_	_
+30	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	25	det	_	_
+31	IJ	IJ	NOUN	_	NOUN__Gender=Masc|Number=Plur	32	obj	_	_
+32	pendant	pendre	ADP	_	ADP___	32	case	_	_
+33	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+34	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Sing	37	obl	_	_
+35	évoqué	évoquer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	37	acl	_	_
+36	ci-dessus	ci-dessus	ADV	_	ADV___	37	obj	_	_
+
+

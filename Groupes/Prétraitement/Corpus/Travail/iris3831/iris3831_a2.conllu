@@ -1,0 +1,123 @@
+#1)
+1	1	1	NUM	_	NUM__NumType=Card	0	ROOT	_	_
+2	)	)	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Vous êtes payé en fonction des heures hebdo effectuées.
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj:pass	_	_
+2	êtes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	payé	payer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	en	en	ADP	_	ADP___	5	case	_	_
+5	fonction	fonction	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	fixed	_	_
+6	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	9	det	_	_
+7	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	6	obl	_	_
+8	hebdo	hebdo	NOUN	_	NOUN__Gender=Fem|Number=Plur	9	amod	_	_
+9	effectuées	effectuer	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	acl	_	_
+10	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Au delà de 35h ce sont des heures sup, sauf dispositions contraires (forfait, annualisation, etc)5)
+1	Au	Au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	advmod	_	_
+2	delà	delà	ADV	_	ADV___	1	case	_	_
+3	de	de	ADP	_	ADP___	5	fixed	_	_
+4	35h	35h	NUM	_	NUM__NumType=Card	5	nummod	_	_
+5	ce	ce	PRON	_	PRON__Number=Sing|Person=3	5	obl	_	_
+6	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
+8	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	9	obl	_	_
+9	sup	sup	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	amod	_	_
+10	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+11	sauf	sauf	ADP	_	ADP___	9	case	_	_
+12	dispositions	disposition	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	obl	_	_
+13	contraires	contraire	NOUN	_	NOUN__Gender=Masc|Number=Plur	20	amod	_	_
+14	(	(	PUNCT	_	PUNCT___	17	punct	_	_
+15	forfait	forfaire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+16	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+17	annualisation	annualisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	conj	_	_
+18	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+19	etc)5	etc)5	X	_	X___	20	conj	_	_
+20	)	)	PUNCT	_	PUNCT___	27	punct	_	_
+
+
+#L'employeur doit vous faire un écrit comme quoi il vous demande d'emmener vos outils à la maison.
+1	L'	L'	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+2	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	doit	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	vous	se	PRON	_	PRON__Number=Plur|Person=2	5	iobj	_	_
+5	faire	faire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+7	écrit	écrire	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+8	comme	comme	SCONJ	_	SCONJ___	9	case	_	_
+9	quoi	quoi	PRON	_	PRON__PronType=Int	5	obl	_	_
+10	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
+11	vous	se	PRON	_	PRON__Number=Plur|Person=2	9	iobj	_	_
+12	demande	demander	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+13	d'	de	ADP	_	ADP___	20	mark	_	_
+14	emmener	expliquer	VERB	_	VERB__VerbForm=Inf	17	xcomp	_	_
+15	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	14	nmod:poss	_	_
+16	outils	outil	NOUN	_	NOUN__Gender=Masc|Number=Plur	17	obj	_	_
+17	à	à	ADP	_	ADP___	20	case	_	_
+18	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obl	_	_
+20	.	.	PUNCT	_	PUNCT___	27	punct	_	_
+21	 	 	SPACE	_		20		_	_
+
+
+#Ensuite il faut voir au niveau des assurances.
+1	Ensuite	Ensuite	ADV	_	ADV___	1	advmod	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+3	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	voir	voir	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+5	au	au	PRON	_	PRON___	5	case	_	_
+6	niveau	niveau	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	fixed	_	_
+7	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
+8	assurances	assurance	NOUN	_	NOUN__Gender=Fem|Number=Plur	9	obj	_	_
+9	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Ces outils que vous emmenez chez vous ne sont pas couvert par l'assurance de l'employeur ni par votre assurance.
+1	Ces	Ces	DET	_	DET__Number=Plur|PronType=Dem	1	det	_	_
+2	outils	outil	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+3	que	que	PRON	_	PRON__PronType=Rel	5	obj	_	_
+4	vous	se	PRON	_	PRON__Number=Plur|Person=2	5	nsubj	_	_
+5	emmenez	emmener	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+6	chez	chez	ADP	_	ADP___	9	mark	_	_
+7	vous	se	PRON	_	PRON__Number=Plur|Person=2	6	nsubj	_	_
+8	ne	ne	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+9	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+10	pas	pas	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+11	couvert	couvrir	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	advcl	_	_
+12	par	par	ADP	_	ADP___	5	case	_	_
+13	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+14	assurance	assurance	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	obl	_	_
+15	de	de	ADP	_	ADP___	14	case	_	_
+16	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	nmod	_	_
+18	ni	ni	CCONJ	_	CCONJ___	20	cc	_	_
+19	par	par	ADP	_	ADP___	20	case	_	_
+20	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	27	nmod:poss	_	_
+21	assurance	assurance	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	conj	_	_
+22	.	.	PUNCT	_	PUNCT___	27	punct	_	_
+
+
+#Si vous les assurer il y a un supplément que l'employeur devra prendre à sa charge.
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+3	les	le	PRON	_	PRON__Number=Plur|Person=3	5	obj	_	_
+4	assurer	avoir	VERB	_	VERB__VerbForm=Inf	5	advcl	_	_
+5	il	il	PRON	_	PRON__Number=Sing|Person=3	5	case	_	_
+6	y	yu	PRON	_	PRON__Person=3	9	fixed	_	_
+7	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	fixed	_	_
+8	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	supplément	supplément	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+10	que	que	SCONJ	_	SCONJ___	9	mark	_	_
+11	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+12	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+13	devra	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	20	aux	_	_
+14	prendre	prendre	VERB	_	VERB__VerbForm=Inf	17	ccomp	_	_
+15	à	à	ADP	_	ADP___	14	case	_	_
+16	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	17	nmod:poss	_	_
+17	charge	charger	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obl	_	_
+18	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+

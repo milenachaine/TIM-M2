@@ -1,0 +1,232 @@
+#Désolée.
+1	Désolée	Désolée	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Merci d'avoir modifié.
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	d'	de	ADP	_	ADP___	1	mark	_	_
+3	avoir	avoir	AUX	_	AUX__VerbForm=Inf	3	aux	_	_
+4	modifié	modifier	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	nmod	_	_
+5	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Cordialement,Bonsoir,Mon contrat prévoit une franchise de 90 jours pour l'ITT... mais par ailleurs, il est noté que l'assurance ne paye qu'en "mensualités pleines"...
+1	Cordialement	Cordialement	ADV	_	ADV___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Bonsoir	Bonsoir	PROPN	_	PROPN___	3	conj	_	_
+4	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+5	Mon	Mon	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+6	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+7	prévoit	prévoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+8	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+9	franchise	franchise	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obj	_	_
+10	de	de	ADP	_	ADP___	8	case	_	_
+11	90	90	NUM	_	NUM__NumType=Card	14	nummod	_	_
+12	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	nmod	_	_
+13	pour	pour	ADP	_	ADP___	14	case	_	_
+14	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+15	ITT	ITT	NOUN	_	NOUN__Number=Sing	16	nmod	_	_
+16	...	...	PUNCT	_	PUNCT___	14	punct	_	_
+17	mais	mai	CCONJ	_	CCONJ___	19	cc	_	_
+18	par	par	ADP	_	ADP___	19	advmod	_	_
+19	ailleurs	ailleurs	ADV	_	ADV___	16	fixed	_	_
+20	,	,	PUNCT	_	PUNCT___	22	punct	_	_
+21	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	22	nsubj	_	_
+22	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+23	noté	noter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+24	que	que	SCONJ	_	SCONJ___	30	mark	_	_
+25	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	30	det	_	_
+26	assurance	assurance	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	nsubj	_	_
+27	ne	ne	ADV	_	ADV___	30	advmod	_	_
+28	paye	payer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	ccomp	_	_
+29	qu'	que	SCONJ	_	SCONJ___	30	advmod	_	_
+30	en	en	ADP	_	ADP___	8	case	_	_
+31	"	"	PUNCT	_	PUNCT___	35	punct	_	_
+32	mensualités	mensualité	ADJ	_	ADJ__Gender=Fem|Number=Plur	33	ccomp	_	_
+33	pleines	plein	NOUN	_	NOUN__Gender=Masc|Number=Plur	35	amod	_	_
+34	"	"	PUNCT	_	PUNCT___	35	punct	_	_
+35	...	...	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#ce qui rallonge forcément le délai de franchise... j'ai du mal à comprendre ?
+1	ce	ce	PRON	_	PRON__PronType=Rel	1	nsubj	_	_
+2	qui	qui	PRON	_	PRON__PronType=Rel	1	nsubj	_	_
+3	rallonge	rallonger	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+4	forcément	forcément	ADV	_	ADV___	6	advmod	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	délai	délai	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obj	_	_
+7	de	de	ADP	_	ADP___	3	case	_	_
+8	franchise	franchise	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+9	...	...	PUNCT	_	PUNCT___	10	punct	_	_
+10	j'	il	PRON	_	PRON__Number=Sing|Person=1	8	nsubj	_	_
+11	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+12	du	du	DET	_	DET__Gender=Masc|Number=Sing	13	det	_	_
+13	mal	mal	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obj	_	_
+14	à	à	ADP	_	ADP___	8	mark	_	_
+15	comprendre	comprendre	VERB	_	VERB__VerbForm=Inf	16	xcomp	_	_
+16	?	?	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#?...Dans mon cas :- le 90ème jour est le 16 juin... donc je pensais avoir une indemnisation à compter du 91ème, soit le 17/06...
+1	?	?	PUNCT	_	PUNCT___	0	ROOT	_	_
+2	...	...	PUNCT	_	PUNCT___	1	punct	_	_
+3	Dans	Dans	ADP	_	ADP___	3	case	_	_
+4	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+5	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	fixed	_	_
+6	:	:	PUNCT	_	PUNCT___	3	punct	_	_
+7	-	-	PUNCT	_	PUNCT___	3	punct	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+9	90ème	90ème	ADJ	_	ADJ__NumType=Ord	10	amod	_	_
+10	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nsubj	_	_
+11	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	16	16	NUM	_	NUM__NumType=Card	14	nummod	_	_
+14	juin	juin	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	appos	_	_
+15	...	...	PUNCT	_	PUNCT___	16	punct	_	_
+16	donc	donc	ADV	_	ADV___	14	advmod	_	_
+17	je	il	PRON	_	PRON__Number=Sing|Person=1	19	nsubj	_	_
+18	pensais	penser	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	fixed	_	_
+19	avoir	avoir	VERB	_	VERB__VerbForm=Inf	16	acl	_	_
+20	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	indemnisation	indemnisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	obj	_	_
+22	à	à	ADP	_	ADP___	16	mark	_	_
+23	compter	compter	VERB	_	VERB__VerbForm=Inf	8	acl	_	_
+24	du	du	DET	_	DET__Gender=Masc|Number=Sing	30	det	_	_
+25	91ème	91ème	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	obj	_	_
+26	,	,	PUNCT	_	PUNCT___	25	punct	_	_
+27	soit	être	CCONJ	_	CCONJ___	30	cc	_	_
+28	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+29	17/06	17/06	NOUN	_	NOUN__NumType=Card	30	conj	_	_
+30	...	...	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#- ma reprise de travail à temps partiel s'est faite le 1/07La mensualité sur mon tableau d'amortissement est au 5 du mois.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	1	nmod:poss	_	_
+3	reprise	repriser	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+4	de	de	ADP	_	ADP___	6	case	_	_
+5	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nmod	_	_
+6	à	à	ADP	_	ADP___	3	case	_	_
+7	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nmod	_	_
+8	partiel	partiel	ADJ	_	ADJ___	8	amod	_	_
+9	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	10	expl	_	_
+10	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+11	faite	fait	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	1/07La	1/07La	ADJ	_	ADJ__NumType=Ord	14	nummod	_	_
+14	mensualité	mensualité	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+15	sur	sur	ADP	_	ADP___	16	case	_	_
+16	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	14	nmod:poss	_	_
+17	tableau	tableau	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obl	_	_
+18	d'	de	ADP	_	ADP___	19	case	_	_
+19	amortissement	amortissement	ADV	_	ADV___	16	nmod	_	_
+20	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+21	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	22	dep	_	_
+22	5	5	NUM	_	NUM__NumType=Card	16	nummod	_	_
+23	du	du	DET	_	DET__Gender=Masc|Number=Sing	8	det	_	_
+24	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	30	nmod	_	_
+25	.	.	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#L'assurance considère qu'elle ne peut pas payer une "mensualité pleine"... donc ne m'indemnise pas du tout.
+1	L'	L'	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+2	assurance	assurance	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+3	considère	considérer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	amod	_	_
+4	qu'	que	SCONJ	_	SCONJ___	6	mark	_	_
+5	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	6	nsubj	_	_
+6	ne	ne	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+7	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+8	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+9	payer	payer	VERB	_	VERB__VerbForm=Inf	10	ccomp	_	_
+10	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+11	"	"	PUNCT	_	PUNCT___	14	punct	_	_
+12	mensualité	mensualité	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obj	_	_
+13	pleine	plein	ADJ	_	ADJ__Gender=Fem|Number=Sing	14	amod	_	_
+14	"	"	PUNCT	_	PUNCT___	8	punct	_	_
+15	...	...	PUNCT	_	PUNCT___	16	punct	_	_
+16	donc	donc	ADV	_	ADV___	14	advmod	_	_
+17	ne	ne	ADV	_	ADV___	19	advmod	_	_
+18	m'	se	PRON	_	PRON__Number=Sing|Person=1	19	dep	_	_
+19	indemnise	indemniser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+20	pas	pas	ADV	_	ADV__Polarity=Neg	22	advmod	_	_
+21	du	du	DET	_	DET__Gender=Masc|Number=Sing	22	det	_	_
+22	tout	tout	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obj	_	_
+23	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Ils ne respectent pas, à mon sens, le délai de franchise, si ???
+1	Ils	Ils	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	1	nsubj	_	_
+2	ne	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+3	respectent	respecter	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+5	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+6	à	à	ADP	_	ADP___	3	case	_	_
+7	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	3	nmod:poss	_	_
+8	sens	sentir	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+9	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+10	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+11	délai	délai	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obj	_	_
+12	de	de	ADP	_	ADP___	13	case	_	_
+13	franchise	franchise	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nmod	_	_
+14	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+15	si	si	SCONJ	_	SCONJ___	16	acl:relcl	_	_
+16	?	?	PUNCT	_	PUNCT___	14	punct	_	_
+17	?	?	PUNCT	_	PUNCT___	19	punct	_	_
+18	?	?	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Concernant l'indemnisation
+1	Concernant	Concernant	VERB	_	VERB__Tense=Pres|VerbForm=Part	0	ROOT	_	_
+2	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+3	indemnisation	indemnisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obj	_	_
+
+
+#du temps partiel thérapeutique, il est indiqué "qu'il ne peut intervenir qu'après une période indemnisée d'ITT"... donc mes 6 mois de temps partiel sont donc également refusés...
+1	du	du	DET	_	DET__Gender=Masc|Number=Sing	1	det	_	_
+2	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+3	partiel	partiel	ADJ	_	ADJ___	3	amod	_	_
+4	thérapeutique	thérapeutique	ADJ	_	ADJ__Number=Sing	6	amod	_	_
+5	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+6	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+7	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+8	indiqué	indiquer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+9	"	"	PUNCT	_	PUNCT___	10	punct	_	_
+10	qu'	que	SCONJ	_	SCONJ___	8	mark	_	_
+11	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
+12	ne	ne	ADV	_	ADV___	13	advmod	_	_
+13	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	intervenir	intervenir	VERB	_	VERB__VerbForm=Inf	8	ccomp	_	_
+15	qu'	que	SCONJ	_	SCONJ___	16	mark	_	_
+16	après	après	ADP	_	ADP___	14	case	_	_
+17	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	période	période	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obl	_	_
+19	indemnisée	indemniser	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	16	acl	_	_
+20	d'	de	ADP	_	ADP___	22	case	_	_
+21	ITT	ITT	NOUN	_	NOUN___	22	obl	_	_
+22	"	"	PUNCT	_	PUNCT___	16	punct	_	_
+23	...	...	PUNCT	_	PUNCT___	8	punct	_	_
+24	donc	donc	ADV	_	ADV___	30	advmod	_	_
+25	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	30	nmod:poss	_	_
+26	6	6	NUM	_	NUM__NumType=Card	25	nummod	_	_
+27	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	30	obl	_	_
+28	de	de	ADP	_	ADP___	30	case	_	_
+29	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Plur	30	nmod	_	_
+30	partiel	partiel	ADJ	_	ADJ___	8	amod	_	_
+31	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	35	aux:pass	_	_
+32	donc	donc	ADV	_	ADV___	33	advmod	_	_
+33	également	également	ADV	_	ADV___	35	advmod	_	_
+34	refusés	refuser	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	35	ccomp	_	_
+35	...	...	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#Merci d'avance pour vos conseils...
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	d'	de	ADP	_	ADP___	1	case	_	_
+3	avance	avancer	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nmod	_	_
+4	pour	pour	ADP	_	ADP___	6	case	_	_
+5	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	6	nmod:poss	_	_
+6	conseils	conseil	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	nmod	_	_
+7	...	...	PUNCT	_	PUNCT___	3	punct	_	_
+
+

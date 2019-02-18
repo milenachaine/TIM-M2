@@ -1,0 +1,196 @@
+#Bonjour, voilà le problème juridique posé :A, B, C sont trois voisins.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	16	nsubj	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	voilà	voilà	VERB	_	VERB__Mood=Ind|VerbForm=Fin	1	acl	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	problème	problème	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obj	_	_
+6	juridique	juridique	ADJ	_	ADJ__Number=Sing	5	amod	_	_
+7	posé	poser	ADJ	_	ADJ__Gender=Masc|Number=Sing	5	acl	_	_
+8	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+9	A	A	NOUN	_	NOUN___	1	nmod	_	_
+10	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+11	B	B	NOUN	_	NOUN___	9	conj	_	_
+12	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+13	C	C	NOUN	_	NOUN___	9	conj	_	_
+14	sont	être	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	trois	trois	NUM	_	NUM__NumType=Card	16	nummod	_	_
+16	voisins	voisin	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+17	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#A dépose au commissariat un témoignage : il dit avoir vu B gifler C.C est convoqué au commissariatC dit :
+1	A	A	NOUN	_	NOUN___	16	aux	_	_
+2	dépose	déposer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	1	det	_	_
+4	commissariat	commissariat	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+6	témoignage	témoignage	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+7	 	  	SPACE	_		5		_	_
+8	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+9	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+10	dit	dire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	parataxis	_	_
+11	avoir	avoir	AUX	_	AUX__VerbForm=Inf	9	aux	_	_
+12	vu	voir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	xcomp	_	_
+13	B	B	NOUN	_	NOUN___	9	obj	_	_
+14	gifler	gifler	VERB	_	VERB__VerbForm=Inf	16	amod	_	_
+15	C.C	C.C	PROPN	_	PROPN__Gender=Masc|Number=Sing	16	obj	_	_
+16	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
+17	convoqué	convoquer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	16	advmod	_	_
+18	au	au	PRON	_	PRON__PronType=Rel	19	iobj	_	_
+19	commissariatC	commissariatC	PRON	_	PRON__Number=Sing|Person=1	19	obj	_	_
+20	dit	dire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	xcomp	_	_
+21	 	  	SPACE	_		19		_	_
+22	:	:	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Non je nai pas été giflé par B.
+1	Non	Non	ADV	_	ADV___	16	advmod	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	3	nsubj:pass	_	_
+3	nai	nai	AUX	_	AUX__VerbForm=Inf	1	aux:pass	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+5	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	3	aux:pass	_	_
+6	giflé	gifler	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+7	par	par	ADP	_	ADP___	5	case	_	_
+8	B.	B.	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+
+
+#Il ne sest rien passé.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	16	nsubj	_	_
+2	ne	ne	ADV	_	ADV___	3	advmod	_	_
+3	sest	sest	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+4	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	5	nsubj	_	_
+5	passé	passer	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+6	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Question 1 :
+1	Question	Question	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	1	1	NUM	_	NUM__NumType=Card	3	nummod	_	_
+3	 	  	SPACE	_		1		_	_
+4	:	:	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#A peut-il être poursuivi en justice ?
+1	A	A	NOUN	_	NOUN___	16	nsubj	_	_
+2	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj:pass	_	_
+5	être	être	AUX	_	AUX__VerbForm=Inf	3	aux:pass	_	_
+6	poursuivi	poursuivre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	xcomp	_	_
+7	en	en	ADP	_	ADP___	5	case	_	_
+8	justice	justice	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obl	_	_
+9	 	  	SPACE	_		1		_	_
+10	?	?	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Question 2 avec une hypothèse supplémentaire :
+1	Question	Question	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	2	2	NUM	_	NUM__NumType=Card	3	nummod	_	_
+3	avec	avec	ADP	_	ADP___	1	case	_	_
+4	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	hypothèse	hypothèse	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nmod	_	_
+6	supplémentaire	supplémentaire	ADJ	_	ADJ__Number=Sing	5	amod	_	_
+7	 	  	SPACE	_		5		_	_
+8	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Si C na pas pu être joint joint (parti sans laisser dadresse, décédé, parti pour létranger définitivement, ou tout simplement ne voulant pas répondre à la convocation).
+1	Si	Si	SCONJ	_	SCONJ___	16	case	_	_
+2	C	C	NOUN	_	NOUN___	3	nsubj	_	_
+3	na	na	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	advmod	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+5	pu	pouvoir	VERB	_	VERB__Tense=Past|VerbForm=Part	3	aux	_	_
+6	être	être	AUX	_	AUX__VerbForm=Inf	5	aux:pass	_	_
+7	joint	joindre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	xcomp	_	_
+8	joint	joindre	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	amod	_	_
+9	(	(	PUNCT	_	PUNCT___	1	punct	_	_
+10	parti	partir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
+11	sans	sans	ADP	_	ADP___	9	mark	_	_
+12	laisser	laisser	VERB	_	VERB__VerbForm=Inf	13	xcomp	_	_
+13	dadresse	dadresse	PROPN	_	PROPN__Gender=Masc|Number=Sing	9	obj	_	_
+14	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+15	décédé	décéder	NOUN	_	NOUN__Gender=Fem|Number=Plur	16	conj	_	_
+16	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+17	parti	partir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	conj	_	_
+18	pour	pour	ADP	_	ADP___	19	case	_	_
+19	létranger	létranger	VERB	_	VERB__VerbForm=Inf	19	det	_	_
+20	définitivement	définitivement	ADV	_	ADV___	21	obl	_	_
+21	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+22	ou	ou	CCONJ	_	CCONJ___	23	cc	_	_
+23	tout	tout	ADV	_	ADV___	19	det	_	_
+24	simplement	simplement	ADV	_	ADV___	23	conj	_	_
+25	ne	ne	ADV	_	ADV__Polarity=Neg	19	advmod	_	_
+26	voulant	vouloir	AUX	_	AUX__Tense=Pres|VerbForm=Part	27	aux	_	_
+27	pas	pas	ADV	_	ADV__Polarity=Neg	19	advmod	_	_
+28	répondre	répondre	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+29	à	à	ADP	_	ADP___	27	case	_	_
+30	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+31	convocation	convocation	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	obl	_	_
+32			SPACE	_	_SP	31		_	_
+33	)	)	PUNCT	_	PUNCT___	37	punct	_	_
+34	.	.	PUNCT	_	PUNCT___	37	punct	_	_
+
+
+#Sous cette hypothèse peut-il y avoir poursuite de A ?
+1	Sous	Sous	ADP	_	ADP___	16	case	_	_
+2	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	hypothèse	hypothèse	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obl	_	_
+4	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	-	-	PUNCT	_	PUNCT___	3	punct	_	_
+6	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+7	y	yu	PRON	_	PRON__Person=3	5	iobj	_	_
+8	avoir	avoir	VERB	_	VERB__VerbForm=Inf	1	aux	_	_
+9	poursuite	poursuite	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+10	de	de	ADP	_	ADP___	11	case	_	_
+11	A	A	NOUN	_	NOUN___	9	nmod	_	_
+12	 	  	SPACE	_		13		_	_
+13	?	?	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Et plus généralement : que risque A dans les deux cas ?
+1	Et	Et	CCONJ	_	CCONJ___	16	cc	_	_
+2	plus	plaire	ADV	_	ADV___	3	advmod	_	_
+3	généralement	généralement	ADV	_	ADV___	1	advmod	_	_
+4	 	  	SPACE	_		5		_	_
+5	:	:	PUNCT	_	PUNCT___	3	punct	_	_
+6	que	que	SCONJ	_	SCONJ___	5	mark	_	_
+7	risque	risquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	A	A	NOUN	_	NOUN___	1	acl	_	_
+9	dans	dan	ADP	_	ADP___	1	case	_	_
+10	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	11	det	_	_
+11	deux	deux	NUM	_	NUM__NumType=Card	9	nummod	_	_
+12	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	obl	_	_
+13	 	  	SPACE	_		9		_	_
+14	?	?	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Espérant avoir été suffisamment précis dans cet exposé, je vous remercie à lavance de votre réponse circonstanciée.
+1	Espérant	Espérant	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obl	_	_
+2	avoir	avoir	AUX	_	AUX__VerbForm=Inf	3	aux	_	_
+3	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	1	cop	_	_
+4	suffisamment	suffisamment	ADV	_	ADV___	5	advmod	_	_
+5	précis	précis	ADJ	_	ADJ__Gender=Masc	3	amod	_	_
+6	dans	dan	ADP	_	ADP___	5	case	_	_
+7	cet	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+8	exposé	exposer	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+9	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+10	je	il	PRON	_	PRON__Number=Sing|Person=1	11	nsubj	_	_
+11	vous	se	PRON	_	PRON__Number=Plur|Person=2	9	expl	_	_
+12	remercie	remercier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+13	à	à	ADP	_	ADP___	9	case	_	_
+14	lavance	lavance	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obl	_	_
+15	de	de	ADP	_	ADP___	16	case	_	_
+16	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	16	nmod:poss	_	_
+17	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nmod	_	_
+18	circonstanciée	circonstancier	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	19	acl	_	_
+19	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Merci de m'éclairer.
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	de	de	ADP	_	ADP___	3	mark	_	_
+3	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	1	expl	_	_
+4	éclairer	éclairer	VERB	_	VERB__VerbForm=Inf	5	acl	_	_
+5	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+

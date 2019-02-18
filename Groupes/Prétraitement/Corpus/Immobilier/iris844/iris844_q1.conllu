@@ -1,0 +1,99 @@
+#Bonsoir,Je souhaite acheter un garage de 60m2 qui appartient à ma mère.
+1	Bonsoir	Bonsoir	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+3	Je	Je	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+4	souhaite	souhaiter	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	acheter	acheter	VERB	_	VERB__VerbForm=Inf	1	acl	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	garage	garage	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+8	de	de	ADP	_	ADP___	9	case	_	_
+9	60m2	60m2	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+10	qui	qui	PRON	_	PRON__PronType=Rel	11	nsubj	_	_
+11	appartient	appartenir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12	à	à	ADP	_	ADP___	14	case	_	_
+13	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	14	nmod:poss	_	_
+14	mère	mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obl	_	_
+15	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Isoler sur la toiture avec des ouvertures.
+1	Isoler	Isoler	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	sur	sur	ADP	_	ADP___	5	case	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	toiture	toiture	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+5	avec	avec	ADP	_	ADP___	1	case	_	_
+6	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
+7	ouvertures	ouverture	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	nmod	_	_
+8	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Il n'est pas attenant à une maison mais sur la même parcelle (agricole) que la maison a ma mère.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+5	attenant	attenant	VERB	_	VERB__Tense=Pres|VerbForm=Part	0	ROOT	_	_
+6	à	à	ADP	_	ADP___	7	case	_	_
+7	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+8	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obl	_	_
+9	mais	mai	CCONJ	_	CCONJ___	7	cc	_	_
+10	sur	sur	ADP	_	ADP___	11	case	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+12	même	même	ADJ	_	ADJ__Number=Sing	14	amod	_	_
+13	parcelle	parcelle	ADJ	_	ADJ__Gender=Fem|Number=Sing	14	conj	_	_
+14	(	(	PUNCT	_	PUNCT___	11	punct	_	_
+15	agricole	agricole	NOUN	_	NOUN___	1	appos	_	_
+16	)	)	PUNCT	_	PUNCT___	16	punct	_	_
+17	que	que	SCONJ	_	SCONJ___	19	mark	_	_
+18	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nsubj	_	_
+20	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	ccomp	_	_
+21	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	22	nmod:poss	_	_
+22	mère	mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obj	_	_
+23	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Quelles démarches dois-je faire ?
+1	Quelles	Quelles	DET	_	DET__Gender=Fem|Number=Plur|PronType=Int	1	det	_	_
+2	démarches	démarche	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	nsubj	_	_
+3	dois	devoir	NUM	_	NUM__NumType=Card	5	aux	_	_
+4	-	-	PUNCT	_	PUNCT___	5	punct	_	_
+5	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+6	faire	faire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+7	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Dois
+1	Dois	Dois	NUM	_	NUM__NumType=Card	0	ROOT	_	_
+
+
+#-je le déclarer ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+3	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	obj	_	_
+4	déclarer	déclarer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Il faut mettre une petite fosse septique car pas de tout a l'égout.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	mettre	mettre	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+4	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	petite	petit	ADJ	_	ADJ__Gender=Fem|Number=Sing	1	amod	_	_
+6	fosse	fosse	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+7	septique	septique	ADJ	_	ADJ__Number=Sing	5	amod	_	_
+8	car	car	CCONJ	_	CCONJ___	9	cc	_	_
+9	pas	pas	ADV	_	ADV__Polarity=Neg	7	fixed	_	_
+10	de	de	ADP	_	ADP___	11	case	_	_
+11	tout	tout	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	9	fixed	_	_
+12	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	fixed	_	_
+13	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	égout	égout	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obl	_	_
+15	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Merci
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+
+

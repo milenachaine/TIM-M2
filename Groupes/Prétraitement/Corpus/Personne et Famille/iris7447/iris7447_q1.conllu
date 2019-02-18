@@ -1,0 +1,93 @@
+#Bonjour,Ma grand-mère est décédée et veuve
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+3	Ma	Ma	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	4	nmod:poss	_	_
+4	grand-mère	grand-mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	décédée	décéder	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	conj	_	_
+7	et	et	CCONJ	_	CCONJ___	8	cc	_	_
+8	veuve	veuf	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	conj	_	_
+
+
+#elle a 6 enfants dont 1 décédé mon père.
+1	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	1	nsubj	_	_
+2	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	6	6	NUM	_	NUM__NumType=Card	4	nummod	_	_
+4	enfants	enfant	NOUN	_	NOUN__Number=Plur	6	obj	_	_
+5	dont	dont	PRON	_	PRON__PronType=Rel	6	iobj	_	_
+6	1	1	PRON	_	PRON__NumType=Card|PronType=Rel	1	nummod	_	_
+7	décédé	décéder	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+8	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+9	père	père	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+10	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Elle laisse 1 maison.
+1	Elle	Elle	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	1	nsubj	_	_
+2	laisse	laisser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	1	1	NUM	_	NUM__NumType=Card	4	nummod	_	_
+4	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obj	_	_
+5	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Mes 5 tantes héritent à concurrence de 1/6.Mon cousin héritier particulier 1/4 en pleine propriété .Mon
+1	Mes	Mes	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	advmod	_	_
+2	5	5	NUM	_	NUM__NumType=Card	6	nummod	_	_
+3	tantes	tante	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+4	héritent	hériter	ADV	_	ADV___	6	advmod	_	_
+5	à	à	ADP	_	ADP___	6	case	_	_
+6	concurrence	concurrencer	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obl	_	_
+7	de	de	ADP	_	ADP___	8	case	_	_
+8	1/6.Mon	1/6.Mon	NUM	_	NUM__NumType=Card	6	nummod	_	_
+9	cousin	cousin	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+10	héritier	héritier	ADJ	_	ADJ__Gender=Masc|Number=Sing	10	amod	_	_
+11	particulier	particulier	ADJ	_	ADJ__Gender=Masc|Number=Sing	12	amod	_	_
+12	1/4	1/4	NOUN	_	NOUN__NumType=Card	10	nmod	_	_
+13	en	en	ADP	_	ADP___	15	case	_	_
+14	pleine	plein	ADJ	_	ADJ__Gender=Fem|Number=Sing	15	nmod	_	_
+15	propriété	propriété	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	amod	_	_
+16	.Mon	.Mon	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#père étant décédé mon frère et moi le représentons
+1	père	père	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	étant	être	AUX	_	AUX__Tense=Pres|VerbForm=Part	6	aux:pass	_	_
+3	décédé	décéder	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+4	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+5	frère	frère	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+6	et	et	CCONJ	_	CCONJ___	1	cc	_	_
+7	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	8	conj	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+9	représentons	représenter	NOUN	_	NOUN__Gender=Fem|Number=Plur	10	obj	_	_
+
+
+#, nous nous partageons son 1/6.Qui peut m'expliquer exactement de quoi mon cousin et moi allons hériter.
+1	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+2	nous	se	PRON	_	PRON__Number=Plur|Person=1	6	nsubj	_	_
+3	nous	se	PRON	_	PRON__Number=Plur|Person=1|Reflex=Yes	4	iobj	_	_
+4	partageons	partager	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	son	son	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+6	1/6.Qui	1/6.Qui	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+7	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	6	expl	_	_
+9	expliquer	expliquer	VERB	_	VERB__VerbForm=Inf	10	parataxis	_	_
+10	exactement	exactement	ADV	_	ADV___	10	advmod	_	_
+11	de	de	ADP	_	ADP___	12	case	_	_
+12	quoi	quoi	PRON	_	PRON__PronType=Int	10	obl	_	_
+13	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	15	nmod:poss	_	_
+14	cousin	cousin	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nsubj	_	_
+15	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+16	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	17	conj	_	_
+17	allons	aller	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	15	xcomp	_	_
+18	hériter	hériter	VERB	_	VERB__VerbForm=Inf	10	xcomp	_	_
+19	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Merci de votre aide .
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	de	de	ADP	_	ADP___	6	case	_	_
+3	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+4	aide	aider	NOUN	_	NOUN__Number=Sing	6	nmod	_	_
+5	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+

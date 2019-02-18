@@ -1,0 +1,98 @@
+#Merci, c'est bien comme ça que je le pensais.
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+3	c'	ce	PRON	_	PRON__Number=Sing|Person=3	7	nsubj	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	bien	bien	ADV	_	ADV___	6	advmod	_	_
+6	comme	comme	SCONJ	_	SCONJ___	7	case	_	_
+7	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	1	nmod	_	_
+8	que	que	SCONJ	_	SCONJ___	11	obj	_	_
+9	je	il	PRON	_	PRON__Number=Sing|Person=1	11	nsubj	_	_
+10	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	pensais	penser	NOUN	_	NOUN__Number=Sing	7	acl:relcl	_	_
+12	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Merci !
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	!	!	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Et ces 60 000 € ont valeur aujourd'hui.
+1	Et	Et	CCONJ	_	CCONJ___	1	cc	_	_
+2	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	7	mark	_	_
+3	60	60	NUM	_	NUM__NumType=Card	7	nummod	_	_
+4	000	000	NUM	_	NUM__NumType=Card	7	nummod	_	_
+5	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	nsubj	_	_
+6	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	valeur	valeur	NUM	_	NUM__NumType=Card	1	advmod	_	_
+8	aujourd'hui	aujourd'huie	NOUN	_	NOUN___	11	obj	_	_
+9	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Mais si ma mère meurt dans 10 ans (ou toute autre durée), les 60 000 € sont ils revalorisés?
+1	Mais	Mais	CCONJ	_	CCONJ___	1	cc	_	_
+2	si	si	SCONJ	_	SCONJ___	7	mark	_	_
+3	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	7	nmod:poss	_	_
+4	mère	mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	amod	_	_
+5	meurt	mourir	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obl	_	_
+6	dans	dan	ADP	_	ADP___	7	case	_	_
+7	10	10	NUM	_	NUM__NumType=Card	1	nummod	_	_
+8	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	nmod	_	_
+9	(	(	PUNCT	_	PUNCT___	11	punct	_	_
+10	ou	ou	CCONJ	_	CCONJ___	11	cc	_	_
+11	toute	tout	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+12	autre	autre	ADJ	_	ADJ__Number=Sing	1	amod	_	_
+13	durée	durer	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	conj	_	_
+14	)	)	PUNCT	_	PUNCT___	13	punct	_	_
+15	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+16	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	20	det	_	_
+17	60	60	NUM	_	NUM__NumType=Card	20	nsubj	_	_
+18	000	000	NUM	_	NUM__NumType=Card	19	nummod	_	_
+19	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	20	nsubj	_	_
+20	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+21	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	20	nsubj	_	_
+22	revalorisés	revaloriser	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+23	?	?	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Par exemple, une somme de 60 000 € en 2008 vaudrait 68 000 € avec l'inflation en 2018.
+1	Par	Par	ADP	_	ADP___	1	advmod	_	_
+2	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+4	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+5	somme	sommer	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nsubj	_	_
+6	de	de	ADP	_	ADP___	7	case	_	_
+7	60	60	NUM	_	NUM__NumType=Card	1	nummod	_	_
+8	000	000	NUM	_	NUM__NumType=Card	11	nummod	_	_
+9	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	nmod	_	_
+10	en	en	ADP	_	ADP___	11	case	_	_
+11	2008	2008	NUM	_	NUM__NumType=Card	7	nmod	_	_
+12	vaudrait	valoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	cop	_	_
+13	68	68	NUM	_	NUM__NumType=Card	13	nummod	_	_
+14	000	000	NUM	_	NUM__NumType=Card	13	nummod	_	_
+15	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+16	avec	avec	ADP	_	ADP___	20	case	_	_
+17	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+18	inflation	inflation	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	nmod	_	_
+19	en	en	ADP	_	ADP___	20	case	_	_
+20	2018	2018	NUM	_	NUM__NumType=Card	20	nummod	_	_
+21	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Et quid de l'inflation, déflation, crack économique, ...?
+1	Et	Et	CCONJ	_	CCONJ___	1	cc	_	_
+2	quid	quid	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+3	de	de	ADP	_	ADP___	7	case	_	_
+4	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+5	inflation	inflation	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+6	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+7	déflation	déflation	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	appos	_	_
+8	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+9	crack	crack	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	amod	_	_
+10	économique	économique	ADJ	_	ADJ__Number=Sing	11	amod	_	_
+11	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+12	...	...	PUNCT	_	PUNCT___	1	punct	_	_
+13	?	?	PUNCT	_	PUNCT___	13	punct	_	_
+
+

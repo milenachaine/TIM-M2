@@ -1,0 +1,184 @@
+#Bonjour,Details de mes charges:
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	Details	Details	PROPN	_	PROPN__Gender=Masc|Number=Sing	1	conj	_	_
+4	de	de	ADP	_	ADP___	6	case	_	_
+5	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	6	nmod:poss	_	_
+6	charges	charger	NOUN	_	NOUN__Gender=Fem|Number=Plur	3	nmod	_	_
+7	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Part commune (charge commune/ECS/ chauffage) = 3100Part individuelle (Eau chaude)= 400Donc total de 3500.Provision appelées = 3400Du coup je dois payer 100 à cause de la part individuelle.
+1	Part	Part	NOUN	_	NOUN__Number=Sing	0	ROOT	_	_
+2	commune	commun	ADJ	_	ADJ__Gender=Fem|Number=Sing	3	amod	_	_
+3	(	(	PUNCT	_	PUNCT___	1	punct	_	_
+4	charge	charger	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nsubj	_	_
+5	commune	commun	ADJ	_	ADJ__Gender=Fem|Number=Sing	6	amod	_	_
+6	/	/	PUNCT	_	PUNCT___	3	cc	_	_
+7	ECS/	ECS/	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+8	chauffage	chauffage	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	nmod	_	_
+9	)	)	PUNCT	_	PUNCT___	8	punct	_	_
+10	=	=	VERB	_	VERB__Mood=Ind|Person=3|VerbForm=Fin	8	acl	_	_
+11	3100Part	3100Part	NUM	_	NUM__NumType=Card	17	obj	_	_
+12	individuelle	individuel	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	amod	_	_
+13	(	(	PUNCT	_	PUNCT___	14	punct	_	_
+14	Eau	Eau	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obl	_	_
+15	chaude)=	chaude)=	CCONJ	_	CCONJ___	11	amod	_	_
+16	400Donc	400Donc	DET	_	DET__Number=Sing|Poss=Yes	11	nmod	_	_
+17	total	total	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	amod	_	_
+18	de	de	ADP	_	ADP___	17	case	_	_
+19	3500.Provision	3500.Provision	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	nmod	_	_
+20	appelées	appeler	AUX	_	AUX__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	17	acl	_	_
+21	=	=	VERB	_	VERB__Mood=Ind|Person=3|VerbForm=Fin	17	xcomp	_	_
+22	3400Du	3400Du	NUM	_	NUM__NumType=Card	21	nummod	_	_
+23	coup	coup	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obj	_	_
+24	je	il	PRON	_	PRON__Number=Sing|Person=1	21	nsubj	_	_
+25	dois	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	payer	payer	VERB	_	VERB__VerbForm=Inf	21	xcomp	_	_
+27	100	100	PRON	_	PRON__NumType=Card|PronType=Rel	26	obj	_	_
+28	à	à	ADP	_	ADP___	17	obl	_	_
+29	cause	causer	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	fixed	_	_
+30	de	de	ADP	_	ADP___	28	advmod	_	_
+31	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	fixed	_	_
+32	part	partir	NOUN	_	NOUN__Number=Sing	33	fixed	_	_
+33	individuelle	individuel	ADJ	_	ADJ__Gender=Fem|Number=Sing	17	amod	_	_
+34	.	.	PUNCT	_	PUNCT___	33	punct	_	_
+
+
+#En consultant les docs fournis par l ancien proprio, les provisions auraient du etre à hauteur de 4000.
+1	En	En	ADP	_	ADP___	1	advmod	_	_
+2	consultant	consulter	VERB	_	VERB__Tense=Pres|VerbForm=Part	3	fixed	_	_
+3	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+4	docs	docs	NOUN	_	NOUN__Gender=Fem|Number=Plur	6	obj	_	_
+5	fournis	fournir	VERB	_	VERB__Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+6	par	par	ADP	_	ADP___	3	case	_	_
+7	l	l	NOUN	_	NOUN___	1	obl	_	_
+8	ancien	ancien	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	amod	_	_
+9	proprio	proprio	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+10	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+11	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	17	det	_	_
+12	provisions	provision	NOUN	_	NOUN__Gender=Fem|Number=Plur	11	nsubj	_	_
+13	auraient	avoir	AUX	_	AUX__Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	du	du	DET	_	DET__Gender=Masc|Number=Sing	11	det	_	_
+15	etre	etre	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+16	à	à	ADP	_	ADP___	11	case	_	_
+17	hauteur	hauteur	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	fixed	_	_
+18	de	de	ADP	_	ADP___	17	fixed	_	_
+19	4000	4000	NUM	_	NUM__NumType=Card	17	nmod	_	_
+20	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Donc je perds 500, disons 400 car j aurais du également payer 100 de plus devant le notaire pour proratiser les charges lors de la signature.
+1	Donc	Donc	ADV	_	ADV___	1	advmod	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+3	perds	perdre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	500	500	NUM	_	NUM__NumType=Card	6	nummod	_	_
+5	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+6	disons	dire	NOUN	_	NOUN__Gender=Fem|Number=Plur	3	conj	_	_
+7	400	400	NUM	_	NUM__NumType=Card	1	nummod	_	_
+8	car	car	CCONJ	_	CCONJ___	8	cc	_	_
+9	j	j	NOUN	_	NOUN___	8	conj	_	_
+10	aurais	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	amod	_	_
+11	du	du	DET	_	DET__Gender=Masc|Number=Sing	17	det	_	_
+12	également	également	ADV	_	ADV___	11	obj	_	_
+13	payer	payer	VERB	_	VERB__VerbForm=Inf	14	xcomp	_	_
+14	100	100	PRON	_	PRON__NumType=Card|PronType=Rel	11	obj	_	_
+15	de	de	ADP	_	ADP___	11	case	_	_
+16	plus	plaire	ADV	_	ADV___	11	obl	_	_
+17	devant	devoir	ADP	_	ADP___	8	case	_	_
+18	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+19	notaire	notaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obl	_	_
+20	pour	pour	ADP	_	ADP___	17	mark	_	_
+21	proratiser	proratiser	VERB	_	VERB__VerbForm=Inf	17	advcl	_	_
+22	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	21	det	_	_
+23	charges	charger	NOUN	_	NOUN__Gender=Fem|Number=Plur	21	obj	_	_
+24	lors	lors	ADV	_	ADV___	21	case	_	_
+25	de	de	ADP	_	ADP___	26	fixed	_	_
+26	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+27	signature	signature	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	obl	_	_
+28	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Me retourner contre le syndic ok, mais jusqu ou ca peut aller?
+1	Me	Me	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+2	retourner	retourner	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+3	contre	contrer	ADP	_	ADP___	1	case	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	syndic	syndic	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obl	_	_
+6	ok	ok	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	amod	_	_
+7	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+8	mais	mai	CCONJ	_	CCONJ___	8	cc	_	_
+9	jusqu	jusqu	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	conj	_	_
+10	ou	ou	CCONJ	_	CCONJ___	8	cc	_	_
+11	ca	ca	PRON	_	PRON__PronType=Rel	17	expl	_	_
+12	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+13	aller	aller	VERB	_	VERB__VerbForm=Inf	14	conj	_	_
+14	?	?	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Est ce que je peux l obliger à regulariser?
+1	Est	Est	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	1	cop	_	_
+2	ce	ce	PRON	_	PRON__PronType=Rel	0	ROOT	_	_
+3	que	que	PRON	_	PRON__PronType=Rel	1	obj	_	_
+4	je	il	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+5	peux	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	l	l	ADP	_	ADP___	3	expl	_	_
+7	obliger	obliger	VERB	_	VERB__VerbForm=Inf	1	acl:relcl	_	_
+8	à	à	ADP	_	ADP___	8	mark	_	_
+9	regulariser	regulariser	VERB	_	VERB__VerbForm=Inf	8	xcomp	_	_
+10	?	?	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Ca sous entend qu il devra revoir avec l ancien proprio?Merci pour votre aide....et je ne parle meme pas du prejudice lors de l achat, quand on vous dit que les charges sont de 800 alors que vous constatez qu elles sont en realité de 1000 ...
+1	Ca	Ca	ADV	_	ADV___	1	nsubj	_	_
+2	sous	sou	ADP	_	ADP___	3	iobj	_	_
+3	entend	entendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	qu	qu	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	mark	_	_
+5	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+6	devra	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	aux	_	_
+7	revoir	revoir	VERB	_	VERB__VerbForm=Inf	1	ccomp	_	_
+8	avec	avec	ADP	_	ADP___	8	case	_	_
+9	l	l	NOUN	_	NOUN___	8	obl	_	_
+10	ancien	ancien	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	amod	_	_
+11	proprio?Merci	proprio?Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obj	_	_
+12	pour	pour	ADP	_	ADP___	11	case	_	_
+13	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	14	nmod:poss	_	_
+14	aide	aider	NOUN	_	NOUN__Number=Sing	11	obl	_	_
+15	....	....	PUNCT	_	PUNCT___	11	nmod	_	_
+16	et	et	CCONJ	_	CCONJ___	11	cc	_	_
+17	je	il	PRON	_	PRON__Number=Sing|Person=1	8	nsubj	_	_
+18	ne	ne	ADV	_	ADV___	17	advmod	_	_
+19	parle	parler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	cop	_	_
+20	meme	meme	ADJ	_	ADJ__Gender=Fem|Number=Sing	17	conj	_	_
+21	pas	pas	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+22	du	du	DET	_	DET__Gender=Masc|Number=Sing	21	det	_	_
+23	prejudice	prejudice	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obj	_	_
+24	lors	lors	ADV	_	ADV___	21	case	_	_
+25	de	de	ADP	_	ADP___	26	fixed	_	_
+26	l	l	NOUN	_	NOUN___	21	nmod	_	_
+27	achat	achat	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	amod	_	_
+28	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+29	quand	quand	SCONJ	_	SCONJ___	30	mark	_	_
+30	on	on	PRON	_	PRON__Number=Sing|Person=3	28	nsubj	_	_
+31	vous	se	PRON	_	PRON__Number=Plur|Person=2	33	iobj	_	_
+32	dit	dire	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	33	advcl	_	_
+33	que	que	SCONJ	_	SCONJ___	17	mark	_	_
+34	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	33	det	_	_
+35	charges	charger	NOUN	_	NOUN__Gender=Fem|Number=Plur	33	nsubj	_	_
+36	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	35	cop	_	_
+37	de	de	ADP	_	ADP___	33	case	_	_
+38	800	800	NUM	_	NUM__NumType=Card	37	nummod	_	_
+39	alors	alors	ADV	_	ADV___	37	mark	_	_
+40	que	que	SCONJ	_	SCONJ___	39	mark	_	_
+41	vous	se	PRON	_	PRON__Number=Plur|Person=2	8	nsubj	_	_
+42	constatez	constater	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	56	advcl	_	_
+43	qu	qu	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	iobj	_	_
+44	elles	lui	PRON	_	PRON__Gender=Fem|Number=Plur|Person=3	45	nsubj	_	_
+45	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	43	cop	_	_
+46	en	en	ADP	_	ADP___	45	case	_	_
+47	realité	realité	NOUN	_	NOUN__Gender=Fem|Number=Sing	48	fixed	_	_
+48	de	de	ADP	_	ADP___	46	case	_	_
+49	1000	1000	NUM	_	NUM__NumType=Card	50	nummod	_	_
+50	...	...	PUNCT	_	PUNCT___	46	punct	_	_
+
+

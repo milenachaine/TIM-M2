@@ -1,0 +1,244 @@
+#Bonjour,Avez
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	Avez	Avez	PROPN	_	PROPN__Gender=Masc|Number=Sing	1	conj	_	_
+
+
+#-vous lu la clause sur la résiliation ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	3	nmod	_	_
+3	lu	lire	PUNCT	_	PUNCT___	1	case	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+5	clause	clause	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+6	sur	sur	ADP	_	ADP___	8	case	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	résiliation	résiliation	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+9	?	?	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Si vous commencez par signer un contrat pour un an (qui est la durée par défaut) vous devriez pouvoir résilier avec un délai de préavis, et ceci assez rapidement en justifiant votre départ du logement.
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	3	nsubj	_	_
+3	commencez	commencer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+4	par	par	ADP	_	ADP___	8	mark	_	_
+5	signer	signer	VERB	_	VERB__VerbForm=Inf	8	xcomp	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+8	pour	pour	ADP	_	ADP___	8	case	_	_
+9	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	an	an	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obl	_	_
+11	(	(	PUNCT	_	PUNCT___	8	punct	_	_
+12	qui	qui	PRON	_	PRON__PronType=Rel	8	nsubj	_	_
+13	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	durée	durer	NOUN	_	NOUN__Gender=Fem|Number=Sing	33	acl:relcl	_	_
+16	par	par	ADP	_	ADP___	17	case	_	_
+17	défaut	défaut	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nmod	_	_
+18	)	)	PUNCT	_	PUNCT___	19	punct	_	_
+19	vous	se	PRON	_	PRON__Number=Plur|Person=2	17	nsubj	_	_
+20	devriez	devoir	AUX	_	AUX__Mood=Cnd|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	22	aux	_	_
+21	pouvoir	pouvoir	AUX	_	AUX__VerbForm=Inf	0	ROOT	_	_
+22	résilier	résilier	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	amod	_	_
+23	avec	avec	ADP	_	ADP___	22	case	_	_
+24	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+25	délai	délai	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	obl	_	_
+26	de	de	ADP	_	ADP___	27	case	_	_
+27	préavis	préavis	NOUN	_	NOUN__Gender=Masc|Number=Plur	22	nmod	_	_
+28	,	,	PUNCT	_	PUNCT___	29	punct	_	_
+29	et	et	CCONJ	_	CCONJ___	27	cc	_	_
+30	ceci	ceci	PRON	_	PRON__Number=Sing|PronType=Dem	15	nsubj	_	_
+31	assez	assez	ADV	_	ADV___	33	advmod	_	_
+32	rapidement	rapidement	ADV	_	ADV___	33	conj	_	_
+33	en	en	ADP	_	ADP___	33	mark	_	_
+34	justifiant	justifier	VERB	_	VERB__Tense=Pres|VerbForm=Part	33	advcl	_	_
+35	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	37	nmod:poss	_	_
+36	départ	départir	NOUN	_	NOUN__Gender=Masc|Number=Sing	37	obj	_	_
+37	du	du	DET	_	DET__Gender=Masc|Number=Sing	33	det	_	_
+38	logement	logement	ADV	_	ADV___	39	obj	_	_
+39	.	.	PUNCT	_	PUNCT___	37	punct	_	_
+
+
+#D'ailleurs votre bail est il lui aussi de 3 mois ?
+1	D'	D'	ADP	_	ADP___	1	advmod	_	_
+2	ailleurs	ailleurs	NOUN	_	NOUN__Gender=Masc	3	fixed	_	_
+3	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+4	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nsubj	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+7	lui	luire	PRON	_	PRON__Number=Sing|Person=3	0	ROOT	_	_
+8	aussi	aussi	ADV	_	ADV___	8	advmod	_	_
+9	de	de	ADP	_	ADP___	11	case	_	_
+10	3	3	NUM	_	NUM__NumType=Card	11	nummod	_	_
+11	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obl	_	_
+12	?	?	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Est-ce un bail saisonnier ?
+1	Est	être		_	VERB	0	ROOT	_	_
+2	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	3	punct	_	_
+3	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+4	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+5	saisonnier	saisonnier	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	amod	_	_
+6	?	?	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#ou alors vous avez signé pour 1 an (durée par défaut du bail meublé en résidence principale) et vous prévoyez de donner congé plus tôt ?
+1	ou	ou	CCONJ	_	CCONJ___	1	cc	_	_
+2	alors	alors	ADV	_	ADV___	3	advmod	_	_
+3	vous	se	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+4	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	8	aux	_	_
+5	signé	signer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+6	pour	pour	ADP	_	ADP___	8	case	_	_
+7	1	1	NUM	_	NUM__NumType=Card	8	nummod	_	_
+8	an	an	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+9	(	(	PUNCT	_	PUNCT___	11	punct	_	_
+10	durée	durer	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	appos	_	_
+11	par	par	ADP	_	ADP___	8	case	_	_
+12	défaut	défaut	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+13	du	du	DET	_	DET__Gender=Masc|Number=Sing	15	det	_	_
+14	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nmod	_	_
+15	meublé	meubler	ADJ	_	ADJ___	33	amod	_	_
+16	en	en	ADP	_	ADP___	17	case	_	_
+17	résidence	résidence	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	nmod	_	_
+18	principale	principal	ADJ	_	ADJ__Gender=Fem|Number=Sing	19	amod	_	_
+19	)	)	PUNCT	_	PUNCT___	17	punct	_	_
+20	et	et	CCONJ	_	CCONJ___	22	cc	_	_
+21	vous	se	PRON	_	PRON__Number=Plur|Person=2	22	nsubj	_	_
+22	prévoyez	prévoir	ADJ	_	ADJ__Gender=Masc|Number=Plur	17	conj	_	_
+23	de	de	ADP	_	ADP___	22	mark	_	_
+24	donner	donner	VERB	_	VERB__VerbForm=Inf	27	xcomp	_	_
+25	congé	congé	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	xcomp	_	_
+26	plus	plaire	ADV	_	ADV___	27	advmod	_	_
+27	tôt	tôt	ADV	_	ADV___	22	advmod	_	_
+28	?	?	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#Si votre bail est explicitement de 3 mois (=c'est écrit dessus) et que c'est légal (= pas en résidence principale) vous devriez pouvoir demander à l'assurance un contrat sur 3 mois en lui fournissant ce bail.
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	3	nmod:poss	_	_
+3	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+5	explicitement	explicitement	ADV	_	ADV___	8	advmod	_	_
+6	de	de	ADP	_	ADP___	8	case	_	_
+7	3	3	NUM	_	NUM__NumType=Card	8	nummod	_	_
+8	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	nsubj	_	_
+9	(	(	PUNCT	_	PUNCT___	11	punct	_	_
+10	=	=	NOUN	_	NOUN__NumType=Card	11	advcl	_	_
+11	c'	ce	PRON	_	PRON__Number=Sing|Person=3	8	nsubj	_	_
+12	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+13	écrit	écrire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+14	dessus	dessus	ADV	_	ADV___	15	obj	_	_
+15	)	)	PUNCT	_	PUNCT___	33	punct	_	_
+16	et	et	CCONJ	_	CCONJ___	17	cc	_	_
+17	que	que	SCONJ	_	SCONJ___	15	mark	_	_
+18	c'	ce	PRON	_	PRON__Number=Sing|Person=3	19	nsubj	_	_
+19	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+20	légal	légal	ADJ	_	ADJ__Gender=Masc|Number=Sing	22	conj	_	_
+21	(=	(=	PUNCT	_	PUNCT___	22	punct	_	_
+22	pas	pas	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+23	en	en	ADP	_	ADP___	22	case	_	_
+24	résidence	résidence	NOUN	_	NOUN__Gender=Fem|Number=Sing	27	obl	_	_
+25	principale	principal	ADJ	_	ADJ__Gender=Fem|Number=Sing	27	amod	_	_
+26	)	)	PUNCT	_	PUNCT___	27	punct	_	_
+27	vous	se	PRON	_	PRON__Number=Plur|Person=2	22	nsubj	_	_
+28	devriez	devoir	AUX	_	AUX__Mood=Cnd|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	pouvoir	pouvoir	AUX	_	AUX__VerbForm=Inf	27	aux	_	_
+30	demander	demander	VERB	_	VERB__VerbForm=Inf	15	parataxis	_	_
+31	à	à	ADP	_	ADP___	33	case	_	_
+32	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	33	det	_	_
+33	assurance	assurance	NOUN	_	NOUN__Gender=Fem|Number=Sing	33	obl	_	_
+34	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+35	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	37	obj	_	_
+36	sur	sur	ADP	_	ADP___	37	case	_	_
+37	3	3	NUM	_	NUM__NumType=Card	33	nummod	_	_
+38	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	39	nmod	_	_
+39	en	en	ADP	_	ADP___	37	mark	_	_
+40	lui	luire	PRON	_	PRON__Number=Sing|Person=3	33	iobj	_	_
+41	fournissant	fournir	VERB	_	VERB__Tense=Pres|VerbForm=Part	44	advcl	_	_
+42	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	44	det	_	_
+43	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	44	obj	_	_
+44	.	.	PUNCT	_	PUNCT___	33	punct	_	_
+
+
+#Et ce n'est pas un "mensonge" !
+1	Et	Et	CCONJ	_	CCONJ___	1	cc	_	_
+2	ce	ce	PRON	_	PRON__Number=Sing|Person=3	3	nsubj	_	_
+3	n'	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	"	"	PUNCT	_	PUNCT___	8	punct	_	_
+8	mensonge	mensonge	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+9	"	"	PUNCT	_	PUNCT___	11	punct	_	_
+10	!	!	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#c'est simplement un malentendu sur les conditions particulières ou bien sur les clauses de résiliation.
+1	c'	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	simplement	simplement	ADV	_	ADV___	0	ROOT	_	_
+4	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+5	malentendu	malentendu	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+6	sur	sur	ADP	_	ADP___	8	case	_	_
+7	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+8	conditions	condition	NOUN	_	NOUN__Gender=Fem|Number=Plur	8	nmod	_	_
+9	particulières	particulier	ADJ	_	ADJ__Gender=Fem|Number=Plur	11	amod	_	_
+10	ou	ou	CCONJ	_	CCONJ___	11	cc	_	_
+11	bien	bien	ADV	_	ADV___	8	advmod	_	_
+12	sur	sur	ADP	_	ADP___	8	case	_	_
+13	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	15	det	_	_
+14	clauses	clause	NOUN	_	NOUN__Gender=Fem|Number=Plur	15	conj	_	_
+15	de	de	ADP	_	ADP___	33	case	_	_
+16	résiliation	résiliation	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	nmod	_	_
+17	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#J'oublie de préciser que même si vous aviez payé une prime pour l'année et que vous résiliez avant la fin de l'année, vous seriez remboursé au prorata de la durée effective (à condition de bien respecter les formalités de résiliation)
+1	J'	J'	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	oublie	oublier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	de	de	ADP	_	ADP___	1	mark	_	_
+4	préciser	préciser	VERB	_	VERB__VerbForm=Inf	8	xcomp	_	_
+5	que	que	SCONJ	_	SCONJ___	8	mark	_	_
+6	même	même	ADV	_	ADV___	8	advmod	_	_
+7	si	si	SCONJ	_	SCONJ___	8	mark	_	_
+8	vous	se	PRON	_	PRON__Number=Plur|Person=2	8	nsubj	_	_
+9	aviez	avoir	AUX	_	AUX__Mood=Cnd|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	payé	payer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	ccomp	_	_
+11	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+12	prime	primer	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+13	pour	pour	ADP	_	ADP___	15	case	_	_
+14	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	année	année	NOUN	_	NOUN__Gender=Fem|Number=Sing	33	nmod	_	_
+16	et	et	CCONJ	_	CCONJ___	17	cc	_	_
+17	que	que	SCONJ	_	SCONJ___	15	mark	_	_
+18	vous	se	PRON	_	PRON__Number=Plur|Person=2	19	nsubj	_	_
+19	résiliez	résilier	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	17	conj	_	_
+20	avant	avant	ADP	_	ADP___	22	case	_	_
+21	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	fin	fin	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	obl	_	_
+23	de	de	ADP	_	ADP___	22	case	_	_
+24	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	27	det	_	_
+25	année	année	NOUN	_	NOUN__Gender=Fem|Number=Sing	27	nmod	_	_
+26	,	,	PUNCT	_	PUNCT___	27	punct	_	_
+27	vous	se	PRON	_	PRON__Number=Plur|Person=2	22	nsubj	_	_
+28	seriez	être	AUX	_	AUX__Mood=Cnd|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	remboursé	rembourser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	conj	_	_
+30	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	15	mark	_	_
+31	prorata	prorata	NOUN	_	NOUN__Gender=Fem|Number=Sing	33	xcomp	_	_
+32	de	de	ADP	_	ADP___	33	case	_	_
+33	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+34	durée	durer	NOUN	_	NOUN__Gender=Fem|Number=Sing	33	obl	_	_
+35	effective	effectif	ADJ	_	ADJ__Gender=Fem|Number=Sing	37	amod	_	_
+36	(	(	PUNCT	_	PUNCT___	37	punct	_	_
+37	à	à	ADP	_	ADP___	33	mark	_	_
+38	condition	condition	NOUN	_	NOUN__Gender=Fem|Number=Sing	39	fixed	_	_
+39	de	de	ADP	_	ADP___	37	fixed	_	_
+40	bien	bien	ADV	_	ADV___	33	fixed	_	_
+41	respecter	respecter	VERB	_	VERB__VerbForm=Inf	44	xcomp	_	_
+42	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	44	det	_	_
+43	formalités	formalité	NOUN	_	NOUN__Gender=Fem|Number=Plur	44	obj	_	_
+44	de	de	ADP	_	ADP___	33	case	_	_
+45	résiliation	résiliation	NOUN	_	NOUN__Gender=Fem|Number=Sing	46	nmod	_	_
+46	)	)	PUNCT	_	PUNCT___	44	punct	_	_
+
+

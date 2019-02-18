@@ -1,0 +1,451 @@
+#Le prix d'achat est de 267000, M. a apporté 150000, et Mme 7000 pour arrondir.
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	prix	prix	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obl	_	_
+3	d'	de	ADP	_	ADP___	4	case	_	_
+4	achat	achat	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	nmod	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	de	de	ADP	_	ADP___	7	case	_	_
+7	267000	267000	NUM	_	NUM__NumType=Card	2	nummod	_	_
+8	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+9	M.	monsieur	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nsubj	_	_
+10	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	apporté	apporter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+12	150000	150000	NUM	_	NUM__NumType=Card	11	nummod	_	_
+13	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+14	et	et	CCONJ	_	CCONJ___	15	cc	_	_
+15	Mme	Mme	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	conj	_	_
+16	7000	7000	NUM	_	NUM__NumType=Card	15	nummod	_	_
+17	pour	pour	ADP	_	ADP___	18	mark	_	_
+18	arrondir	arrondir	ADJ	_	ADJ__Number=Sing	15	orphan	_	_
+19	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#L'emprunt pour acquérir fut donc de 110000 en toute logique, soit 55000 chacun.
+1	L'	L'	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	2	det	_	_
+2	emprunt	emprunt	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	pour	pour	ADP	_	ADP___	4	mark	_	_
+4	acquérir	acquérir	VERB	_	VERB__VerbForm=Inf	2	nmod	_	_
+5	fut	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+6	donc	donc	ADV	_	ADV___	7	advmod	_	_
+7	de	de	ADP	_	ADP___	2	case	_	_
+8	110000	110000	PRON	_	PRON__NumType=Card|PronType=Rel	11	nummod	_	_
+9	en	en	ADP	_	ADP___	11	case	_	_
+10	toute	tout	ADJ	_	ADJ__Gender=Fem|Number=Sing	11	amod	_	_
+11	logique	logique	ADJ	_	ADJ__Number=Sing	11	obl	_	_
+12	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+13	soit	être	CCONJ	_	CCONJ___	11	cc	_	_
+14	55000	55000	NUM	_	NUM__NumType=Card	15	nummod	_	_
+15	chacun	chacun	PRON	_	PRON__Gender=Masc|PronType=Rel	11	conj	_	_
+16	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Donc M. a financé 150000 + 55000 = 205000 et Mme a financé 7000 + 55000 = 62000.Ce qui conduirait, pour Mme, sur 267000, à 23,22%.Si on compte l'acquisition meublée, ça conduit à un emprunt de 123000, 61500 chacun.
+1	Donc	Donc	ADV	_	ADV___	2	advmod	_	_
+2	M.	monsieur	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nsubj	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	financé	financer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	150000	150000	NUM	_	NUM__NumType=Card	7	obj	_	_
+6	+	+	ADP	_	ADP___	7	case	_	_
+7	55000	55000	NUM	_	NUM__NumType=Card	2	nummod	_	_
+8	=	=	VERB	_	VERB__Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+9	205000	205000	NUM	_	NUM__NumType=Card	11	nummod	_	_
+10	et	et	CCONJ	_	CCONJ___	11	cc	_	_
+11	Mme	Mme	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nsubj	_	_
+12	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+13	financé	financer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	conj	_	_
+14	7000	7000	NUM	_	NUM__NumType=Card	15	obj	_	_
+15	+	+	ADP	_	ADP___	11	case	_	_
+16	55000	55000	NUM	_	NUM__NumType=Card	15	obl	_	_
+17	=	=	VERB	_	VERB__Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	18	acl	_	_
+18	62000.Ce	62000.Ce	NUM	_	NUM__NumType=Card	15	obj	_	_
+19	qui	qui	PRON	_	PRON__PronType=Rel	11	nsubj	_	_
+20	conduirait	conduire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	conj	_	_
+21	,	,	PUNCT	_	PUNCT___	21	punct	_	_
+22	pour	pour	ADP	_	ADP___	23	case	_	_
+23	Mme	Mme	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	obl	_	_
+24	,	,	PUNCT	_	PUNCT___	27	punct	_	_
+25	sur	sur	ADP	_	ADP___	27	case	_	_
+26	267000	267000	NUM	_	NUM__NumType=Card	27	nummod	_	_
+27	,	,	PUNCT	_	PUNCT___	23	punct	_	_
+28	à	à	ADP	_	ADP___	30	mark	_	_
+29	23,22%.Si	23,22%.Si	NUM	_	NUM__NumType=Card	30	fixed	_	_
+30	on	on	PRON	_	PRON__Number=Sing|Person=3	23	fixed	_	_
+31	compte	compter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	conj	_	_
+32	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	34	det	_	_
+33	acquisition	acquisition	NOUN	_	NOUN__Gender=Fem|Number=Sing	34	obj	_	_
+34	meublée	meubler	ADJ	_	ADJ__Gender=Fem|Number=Sing	30	amod	_	_
+35	,	,	PUNCT	_	PUNCT___	21	punct	_	_
+36	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	39	nsubj	_	_
+37	conduit	conduire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	conj	_	_
+38	à	à	ADP	_	ADP___	39	case	_	_
+39	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+40	emprunt	emprunt	NOUN	_	NOUN__Gender=Masc|Number=Sing	39	obl	_	_
+41	de	de	ADP	_	ADP___	42	case	_	_
+42	123000	123000	NUM	_	NUM__NumType=Card	43	nmod	_	_
+43	,	,	PUNCT	_	PUNCT___	39	punct	_	_
+44	61500	61500	NUM	_	NUM__NumType=Card	43	nummod	_	_
+45	chacun	chacun	PRON	_	PRON__Gender=Masc|PronType=Rel	48	obj	_	_
+46	.	.	PUNCT	_	PUNCT___	48	punct	_	_
+
+
+#Donc un financement par Mme de 68500 pour 280000, soit 24,46%.Si on compte des frais de notaire 20000 (au hasard) pour un coût global de 300000, alors l'emprunt devient 143000, 71500 chacun et Mme a financé 78500 sur 300000 soit 26,16%.On n'est pas loin de la valeur annoncée, mais ce serait bien de connaître les calculs ayant conduit aux % inscrits à l'acte.
+1	Donc	Donc	ADV	_	ADV___	2	advmod	_	_
+2	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+3	financement	financement	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+4	par	par	ADP	_	ADP___	2	case	_	_
+5	Mme	Mme	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+6	de	de	ADP	_	ADP___	7	case	_	_
+7	68500	68500	NUM	_	NUM__NumType=Card	2	nmod	_	_
+8	pour	pour	ADP	_	ADP___	11	case	_	_
+9	280000	280000	NUM	_	NUM__NumType=Card	11	nmod	_	_
+10	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+11	soit	être	CCONJ	_	CCONJ___	11	cc	_	_
+12	24,46%.Si	24,46%.Si	AUX	_	AUX__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	nummod	_	_
+13	on	on	PRON	_	PRON__Number=Sing|Person=3	11	fixed	_	_
+14	compte	compter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+15	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
+16	frais	frai	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	obj	_	_
+17	de	de	ADP	_	ADP___	18	case	_	_
+18	notaire	notaire	VERB	_	VERB__VerbForm=Inf	15	nmod	_	_
+19	20000	20000	NUM	_	NUM__NumType=Card	11	nummod	_	_
+20	(	(	PUNCT	_	PUNCT___	21	punct	_	_
+21	au	au	NOUN	_	NOUN___	21	case	_	_
+22	hasard	hasard	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	nmod	_	_
+23	)	)	PUNCT	_	PUNCT___	21	punct	_	_
+24	pour	pour	ADP	_	ADP___	27	case	_	_
+25	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+26	coût	coût	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	obl	_	_
+27	global	global	ADJ	_	ADJ__Gender=Masc|Number=Sing	23	amod	_	_
+28	de	de	ADP	_	ADP___	30	case	_	_
+29	300000	300000	NUM	_	NUM__NumType=Card	30	nmod	_	_
+30	,	,	PUNCT	_	PUNCT___	23	punct	_	_
+31	alors	alors	ADV	_	ADV___	30	advmod	_	_
+32	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	34	det	_	_
+33	emprunt	emprunt	NOUN	_	NOUN__Gender=Masc|Number=Sing	34	nsubj:pass	_	_
+34	devient	devenir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+35	143000	143000	NUM	_	NUM__NumType=Card	21	nummod	_	_
+36	,	,	PUNCT	_	PUNCT___	39	punct	_	_
+37	71500	71500	NUM	_	NUM__NumType=Card	39	nummod	_	_
+38	chacun	chacun	PRON	_	PRON__Gender=Masc|PronType=Rel	39	nsubj	_	_
+39	et	et	CCONJ	_	CCONJ___	39	cc	_	_
+40	Mme	Mme	NOUN	_	NOUN__Gender=Fem|Number=Sing	39	conj	_	_
+41	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	aux	_	_
+42	financé	financer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	43	conj	_	_
+43	78500	78500	NUM	_	NUM__NumType=Card	39	nummod	_	_
+44	sur	sur	ADP	_	ADP___	43	case	_	_
+45	300000	300000	NUM	_	NUM__NumType=Card	48	nummod	_	_
+46	soit	être	CCONJ	_	CCONJ___	48	cc	_	_
+47	26,16%.On	26,16%.On	NOUN	_	NOUN__NumType=Card	48	advmod	_	_
+48	n'	ne	ADV	_	ADV__Polarity=Neg	43	advmod	_	_
+49	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	48	conj	_	_
+50	pas	pas	ADV	_	ADV__Polarity=Neg	51	advmod	_	_
+51	loin	loin	ADV	_	ADV___	48	case	_	_
+52	de	de	ADP	_	ADP___	55	fixed	_	_
+53	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	52	det	_	_
+54	valeur	valeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	55	obl	_	_
+55	annoncée	annoncer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	39	amod	_	_
+56	,	,	PUNCT	_	PUNCT___	55	punct	_	_
+57	mais	mai	CCONJ	_	CCONJ___	58	cc	_	_
+58	ce	ce	PRON	_	PRON__Number=Sing|Person=3	55	nsubj	_	_
+59	serait	être	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	55	cop	_	_
+60	bien	bien	ADV	_	ADV___	61	advmod	_	_
+61	de	de	ADP	_	ADP___	55	mark	_	_
+62	connaître	connaître	VERB	_	VERB__VerbForm=Inf	66	conj	_	_
+63	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	66	det	_	_
+64	calculs	calcul	NOUN	_	NOUN__Gender=Masc|Number=Plur	63	obj	_	_
+65	ayant	avoir	AUX	_	AUX__Tense=Pres|VerbForm=Part	63	aux	_	_
+66	conduit	conduire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	55	advcl	_	_
+67	aux	aux	ADP	_	ADP___	68	obj	_	_
+68	%	%	NOUN	_	NOUN__Gender=Masc	66	expl	_	_
+69	inscrits	inscrit	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	68	xcomp	_	_
+70	à	à	ADP	_	ADP___	72	case	_	_
+71	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	72	det	_	_
+72	acte	acte	NOUN	_	NOUN__Gender=Masc|Number=Sing	55	obl	_	_
+73	.	.	PUNCT	_	PUNCT___	75	punct	_	_
+
+
+#Qui a raison est déterminé par la logique mathématique : la valeur de chaque chose est partagée au prorata des droits dans la chose.
+1	Qui	Qui	PRON	_	PRON__PronType=Int	2	nsubj	_	_
+2	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+3	raison	raison	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
+5	déterminé	déterminer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+6	par	par	ADP	_	ADP___	7	case	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+8	logique	logique	ADJ	_	ADJ__Number=Sing	11	amod	_	_
+9	mathématique	mathématique	ADJ	_	ADJ__Number=Sing	11	obl	_	_
+10	:	:	PUNCT	_	PUNCT___	11	punct	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+12	valeur	valeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nsubj:pass	_	_
+13	de	de	ADP	_	ADP___	11	case	_	_
+14	chaque	chaque	DET	_	DET__Number=Sing	15	det	_	_
+15	chose	chose	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+16	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
+17	partagée	partager	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	advcl	_	_
+18	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	15	mark	_	_
+19	prorata	prorata	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	xcomp	_	_
+20	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	21	det	_	_
+21	droits	droit	NOUN	_	NOUN__Gender=Masc|Number=Plur	21	obj	_	_
+22	dans	dan	ADP	_	ADP___	23	case	_	_
+23	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+24	chose	chose	NOUN	_	NOUN__Gender=Fem|Number=Sing	27	nmod	_	_
+25	.	.	PUNCT	_	PUNCT___	27	punct	_	_
+
+
+#Ceux qui font l'erreur de raisonnement la font parce qu'ils raisonnent comme en communauté où tout est détenu 50/50.
+1	Ceux	Ceux	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Dem	0	ROOT	_	_
+2	qui	qui	PRON	_	PRON__PronType=Rel	11	nsubj	_	_
+3	font	faire	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+4	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	2	det	_	_
+5	erreur	erreur	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+6	de	de	ADP	_	ADP___	7	case	_	_
+7	raisonnement	raisonnement	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	nmod	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	obj	_	_
+9	font	faire	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	obj	_	_
+10	parce	parce	SCONJ	_	SCONJ___	11	mark	_	_
+11	qu'	que	SCONJ	_	SCONJ___	11	fixed	_	_
+12	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	11	nsubj	_	_
+13	raisonnent	raisonner	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	advmod	_	_
+14	comme	comme	ADP	_	ADP___	15	case	_	_
+15	en	en	ADP	_	ADP___	11	iobj	_	_
+16	communauté	communauté	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obl	_	_
+17	où	où	PRON	_	PRON__PronType=Rel	18	iobj	_	_
+18	tout	tout	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	15	nsubj:pass	_	_
+19	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+20	détenu	détenir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	acl:relcl	_	_
+21	50/50	50/50	NUM	_	NUM__NumType=Card	21	iobj	_	_
+22	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#On a alors le droit de faire la différence puis d'appliquer le %.
+1	On	On	PRON	_	PRON__Number=Sing|Person=3	2	nsubj	_	_
+2	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	alors	alors	ADV	_	ADV___	4	advmod	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+5	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+6	de	de	ADP	_	ADP___	7	mark	_	_
+7	faire	faire	VERB	_	VERB__VerbForm=Inf	2	acl	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+9	différence	différence	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obj	_	_
+10	puis	pouvoir	CCONJ	_	CCONJ___	11	cc	_	_
+11	d'	de	ADP	_	ADP___	11	mark	_	_
+12	appliquer	appliquer	VERB	_	VERB__VerbForm=Inf	11	conj	_	_
+13	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+14	%	%	NOUN	_	NOUN__Gender=Masc	15	obj	_	_
+15	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Ils perdent de vue que leur calcul n'a plus de sens quand l'actif et le passif sont dans des % différents.
+1	Ils	Ils	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	2	nsubj	_	_
+2	perdent	perdre	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	advmod	_	_
+3	de	de	ADP	_	ADP___	4	case	_	_
+4	vue	vu	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	obl	_	_
+5	que	que	SCONJ	_	SCONJ___	7	mark	_	_
+6	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	7	nmod:poss	_	_
+7	calcul	calcul	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	nsubj	_	_
+8	n'	ne	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+9	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+10	plus	plaire	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+11	de	de	ADP	_	ADP___	11	fixed	_	_
+12	sens	sentir	NOUN	_	NOUN__Gender=Masc	11	fixed	_	_
+13	quand	quand	SCONJ	_	SCONJ___	11	mark	_	_
+14	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	actif	actif	ADJ	_	ADJ__Gender=Masc|Number=Sing	11	obj	_	_
+16	et	et	CCONJ	_	CCONJ___	15	cc	_	_
+17	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	passif	passif	ADJ	_	ADJ__Gender=Masc|Number=Sing	15	conj	_	_
+19	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+20	dans	dan	ADP	_	ADP___	21	case	_	_
+21	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	21	det	_	_
+22	%	%	NOUN	_	NOUN__Gender=Masc	0	ROOT	_	_
+23	différents	différent	ADJ	_	ADJ__Gender=Masc|Number=Plur	21	amod	_	_
+24	.	.	PUNCT	_	PUNCT___	27	punct	_	_
+
+
+#Après, le calcul théorique (partage de l'actif au prorata des droits dans le bien, partage du passif au prorata des engagements dans le prêt) peut être corrigé si lors des remboursements, les échéances n'ont pas été payées à hauteur des engagements respectifs.
+1	Après	Après	ADP	_	ADP___	2	mark	_	_
+2	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	calcul	calcul	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	nsubj	_	_
+5	théorique	théorique	ADJ	_	ADJ__Number=Sing	7	amod	_	_
+6	(	(	PUNCT	_	PUNCT___	7	punct	_	_
+7	partage	partager	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	appos	_	_
+8	de	de	ADP	_	ADP___	11	case	_	_
+9	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+10	actif	actif	ADJ	_	ADJ__Gender=Masc|Number=Sing	11	nmod	_	_
+11	au	au	PRON	_	PRON__PronType=Rel	11	mark	_	_
+12	prorata	prorata	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl	_	_
+13	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
+14	droits	droit	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	obj	_	_
+15	dans	dan	ADP	_	ADP___	11	case	_	_
+16	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+17	bien	bien	ADV	_	ADV___	18	nmod	_	_
+18	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+19	partage	partager	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+20	du	du	DET	_	DET__Gender=Masc|Number=Sing	21	det	_	_
+21	passif	passif	ADJ	_	ADJ__Gender=Masc|Number=Sing	21	obj	_	_
+22	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	23	mark	_	_
+23	prorata	prorata	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl	_	_
+24	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	27	det	_	_
+25	engagements	engagement	NOUN	_	NOUN__Gender=Fem|Number=Plur	27	obj	_	_
+26	dans	dan	ADP	_	ADP___	27	case	_	_
+27	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+28	prêt	prêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	obl	_	_
+29	)	)	PUNCT	_	PUNCT___	30	punct	_	_
+30	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+31	être	être	AUX	_	AUX__VerbForm=Inf	30	aux:pass	_	_
+32	corrigé	corriger	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	34	xcomp	_	_
+33	si	si	ADV	_	ADV___	34	mark	_	_
+34	lors	lors	ADV	_	ADV___	30	case	_	_
+35	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	21	det	_	_
+36	remboursements	remboursement	NOUN	_	NOUN__Gender=Masc|Number=Plur	39	obl	_	_
+37	,	,	PUNCT	_	PUNCT___	39	punct	_	_
+38	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	39	det	_	_
+39	échéances	échéance	NOUN	_	NOUN__Gender=Fem|Number=Plur	39	nsubj:pass	_	_
+40	n'	ne	ADV	_	ADV__Polarity=Neg	39	advmod	_	_
+41	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	42	aux	_	_
+42	pas	pas	ADV	_	ADV__Polarity=Neg	43	advmod	_	_
+43	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	39	aux:pass	_	_
+44	payées	payer	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	43	conj	_	_
+45	à	à	ADP	_	ADP___	48	case	_	_
+46	hauteur	hauteur	NOUN	_	NOUN__Gender=Fem|Number=Sing	48	fixed	_	_
+47	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	48	det	_	_
+48	engagements	engagement	NOUN	_	NOUN__Gender=Masc|Number=Plur	43	obl	_	_
+49	respectifs	respectif	ADJ	_	ADJ__Gender=Masc|Number=Plur	48	amod	_	_
+50	.	.	PUNCT	_	PUNCT___	51	punct	_	_
+
+
+#Il faut calculer la fraction du bien de l'un qui a été financé par l'autre, et ceci donne droit à une créance entre indivisaires.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	calculer	calculer	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+5	fraction	fraction	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+6	du	du	DET	_	DET__Gender=Masc|Number=Sing	7	advmod	_	_
+7	bien	bien	ADV	_	ADV___	2	fixed	_	_
+8	de	de	ADP	_	ADP___	11	case	_	_
+9	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+10	un	un	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	11	nmod	_	_
+11	qui	qui	PRON	_	PRON__PronType=Rel	11	nsubj:pass	_	_
+12	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+13	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	11	aux:pass	_	_
+14	financé	financer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	15	acl:relcl	_	_
+15	par	par	ADP	_	ADP___	11	case	_	_
+16	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+17	autre	autre	PRON	_	PRON__Number=Sing|PronType=Rel	18	obl	_	_
+18	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+19	et	et	CCONJ	_	CCONJ___	11	cc	_	_
+20	ceci	ceci	PRON	_	PRON__Number=Sing|PronType=Dem	21	nsubj	_	_
+21	donne	donner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	conj	_	_
+22	droit	droit	ADJ	_	ADJ__Gender=Masc|Number=Sing	23	obj	_	_
+23	à	à	ADP	_	ADP___	21	case	_	_
+24	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+25	créance	créance	NOUN	_	NOUN__Gender=Fem|Number=Sing	27	obl	_	_
+26	entre	entrer	ADP	_	ADP___	27	case	_	_
+27	indivisaires	indivisaires	ADJ	_	ADJ__Number=Plur	23	acl	_	_
+28	.	.	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#Pour illustrer l'absurdité du calcul consistant à calculer l'actif net, prenons deux biens positifs : une maison 200000 détenue 70/30 et un studio 100000 détenu 50/50.
+1	Pour	Pour	ADP	_	ADP___	2	mark	_	_
+2	illustrer	illustrer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+3	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	absurdité	absurdité	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	obj	_	_
+5	du	du	DET	_	DET__Gender=Masc|Number=Sing	7	det	_	_
+6	calcul	calcul	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+7	consistant	consister	VERB	_	VERB__Tense=Pres|VerbForm=Part	2	acl	_	_
+8	à	à	ADP	_	ADP___	11	mark	_	_
+9	calculer	calculer	VERB	_	VERB__VerbForm=Inf	11	xcomp	_	_
+10	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	actif	actif	ADJ	_	ADJ__Gender=Masc|Number=Sing	11	obj	_	_
+12	net	net	ADJ	_	ADJ__Gender=Masc|Number=Sing	11	amod	_	_
+13	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+14	prenons	prendre	NOUN	_	NOUN__Number=Plur	15	conj	_	_
+15	deux	deux	NUM	_	NUM__NumType=Card	11	nummod	_	_
+16	biens	bien	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	nmod	_	_
+17	positifs	positif	ADJ	_	ADJ__Gender=Masc|Number=Plur	18	amod	_	_
+18	:	:	PUNCT	_	PUNCT___	15	punct	_	_
+19	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+20	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	obj	_	_
+21	200000	200000	NUM	_	NUM__NumType=Card	21	nummod	_	_
+22	détenue	détenu	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	23	acl	_	_
+23	70/30	70/30	NUM	_	NUM__NumType=Card	21	obj	_	_
+24	et	et	CCONJ	_	CCONJ___	27	cc	_	_
+25	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+26	studio	studio	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	conj	_	_
+27	100000	100000	NUM	_	NUM__NumType=Card	23	nummod	_	_
+28	détenu	détenir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	acl	_	_
+29	50/50	50/50	NUM	_	NUM__NumType=Card	30	iobj	_	_
+30	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Vous vendez le tout 300000 à un seul acquéreur.
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	2	nsubj	_	_
+2	vendez	vendre	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	tout	tout	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	amod	_	_
+5	300000	300000	NUM	_	NUM__NumType=Card	7	obj	_	_
+6	à	à	ADP	_	ADP___	7	case	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+8	seul	seul	ADJ	_	ADJ__Gender=Masc|Number=Sing	11	amod	_	_
+9	acquéreur	acquéreur	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obl	_	_
+10	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Quel % appliquez-vous à 300000 ?
+1	Quel	Quel	ADJ	_	ADJ__Gender=Masc|Number=Sing	2	det	_	_
+2	%	%	NOUN	_	NOUN__Gender=Masc	11	nsubj	_	_
+3	appliquez	appliquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	amod	_	_
+4	-	-	PUNCT	_	PUNCT___	2	punct	_	_
+5	vous	se	PRON	_	PRON__Number=Plur|Person=2	0	ROOT	_	_
+6	à	à	ADP	_	ADP___	7	case	_	_
+7	300000	300000	NUM	_	NUM__NumType=Card	2	nummod	_	_
+8	?	?	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Coincée ?
+1	Coincée	Coincée	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+2	?	?	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Vous êtes bien obligée de partager chaque bien, puis d'additionner les parts.
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	2	nsubj	_	_
+2	êtes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	11	cop	_	_
+3	bien	bien	ADV	_	ADV___	4	advmod	_	_
+4	obligée	obliger	ADJ	_	ADJ__Gender=Fem|Number=Sing	0	ROOT	_	_
+5	de	de	ADP	_	ADP___	7	mark	_	_
+6	partager	partager	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+7	chaque	chaque	DET	_	DET__Number=Sing	2	det	_	_
+8	bien	bien	ADV	_	ADV___	11	obj	_	_
+9	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+10	puis	pouvoir	CCONJ	_	CCONJ___	11	cc	_	_
+11	d'	de	ADP	_	ADP___	11	mark	_	_
+12	additionner	additionner	VERB	_	VERB__VerbForm=Inf	11	conj	_	_
+13	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	11	det	_	_
+14	parts	part	NOUN	_	NOUN__Number=Plur	15	obj	_	_
+15	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Ce qui est vrai pour deux biens positifs l'est aussi pour un bien positif et un bien négatif.
+1	Ce	Ce	PRON	_	PRON__PronType=Rel	0	ROOT	_	_
+2	qui	qui	PRON	_	PRON__PronType=Rel	11	nsubj	_	_
+3	est	être	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+4	vrai	vrai	ADJ	_	ADJ__Gender=Masc|Number=Sing	2	fixed	_	_
+5	pour	pour	ADP	_	ADP___	7	case	_	_
+6	deux	deux	NUM	_	NUM__NumType=Card	7	nummod	_	_
+7	biens	bien	NOUN	_	NOUN__Gender=Masc|Number=Plur	2	obl	_	_
+8	positifs	positif	ADJ	_	ADJ__Gender=Masc|Number=Plur	11	amod	_	_
+9	l'	le	PRON	_	PRON__Number=Sing|Person=3	11	punct	_	_
+10	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	aussi	aussi	ADV	_	ADV___	11	advmod	_	_
+12	pour	pour	ADP	_	ADP___	11	case	_	_
+13	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+14	bien	bien	ADV	_	ADV___	15	nmod	_	_
+15	positif	positif	ADJ	_	ADJ__Gender=Masc|Number=Sing	11	amod	_	_
+16	et	et	CCONJ	_	CCONJ___	15	cc	_	_
+17	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	bien	bien	ADV	_	ADV___	15	advmod	_	_
+19	négatif	négatif	ADJ	_	ADJ__Gender=Masc|Number=Sing	11	conj	_	_
+20	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+

@@ -1,0 +1,103 @@
+#Moi non plus.
+1	Moi	Moi	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	non	non	ADV	_	ADV___	1	advmod	_	_
+3	plus	plaire	ADV	_	ADV___	2	fixed	_	_
+4	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#La "tasse" est à l envers;
+1	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	"	"	PUNCT	_	PUNCT___	1	punct	_	_
+3	tasse	tasser	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	nsubj	_	_
+4	"	"	PUNCT	_	PUNCT___	1	punct	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	à	à	ADP	_	ADP___	7	case	_	_
+7	l	l	NOUN	_	NOUN___	0	ROOT	_	_
+8	envers	envers	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	amod	_	_
+9	;	;	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#elle doit coiffer la canalisation (que vous n'avez pas représentée).Tel que dessiné, ça ne peut pas faire siphon.
+1	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	1	nsubj	_	_
+2	doit	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	coiffer	coiffer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+5	canalisation	canalisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+6	(	(	PUNCT	_	PUNCT___	7	punct	_	_
+7	que	que	SCONJ	_	SCONJ___	11	mark	_	_
+8	vous	se	PRON	_	PRON__Number=Plur|Person=2	7	nsubj	_	_
+9	n'	ne	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+10	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	pas	pas	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+12	représentée).Tel	représentée).Tel	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	11	ccomp	_	_
+13	que	que	ADV	_	ADV___	11	mark	_	_
+14	dessiné	dessiner	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	dep	_	_
+15	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+16	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	16	nsubj	_	_
+17	ne	ne	ADV	_	ADV__Polarity=Neg	18	advmod	_	_
+18	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+19	pas	pas	ADV	_	ADV__Polarity=Neg	16	advmod	_	_
+20	faire	faire	VERB	_	VERB__VerbForm=Inf	25	conj	_	_
+21	siphon	siphon	VERB	_	VERB__VerbForm=Inf	25	obj	_	_
+22	.	.	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#L'eau affleure le haut de la canalisation dans la bonde.
+1	L'	L'	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+2	eau	eau	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	affleure	affleurer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	amod	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+5	haut	haut	ADJ	_	ADJ__Gender=Masc|Number=Sing	7	nmod	_	_
+6	de	de	ADP	_	ADP___	7	case	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+8	canalisation	canalisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+9	dans	dan	ADP	_	ADP___	11	case	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	bonde	bonde	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+12	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#La cloche dont le bord est plus bas que celui de la canalisation ménage l'anneau d'eau qui obture le passage des odeurs.
+1	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	cloche	clocher	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+3	dont	dont	PRON	_	PRON__PronType=Rel	2	dep	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+5	bord	bord	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	acl:relcl	_	_
+6	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	plus	plaire	ADV	_	ADV___	11	advmod	_	_
+8	bas	bas	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+9	que	que	SCONJ	_	SCONJ___	11	case	_	_
+10	celui	celui	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Dem	11	dep	_	_
+11	de	de	ADP	_	ADP___	11	case	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+13	canalisation	canalisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+14	ménage	ménager	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	nmod	_	_
+15	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	anneau	anneau	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obj	_	_
+17	d'	de	ADP	_	ADP___	18	case	_	_
+18	eau	eau	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nmod	_	_
+19	qui	qui	PRON	_	PRON__PronType=Rel	16	nsubj	_	_
+20	obture	obturer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
+21	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+22	passage	passage	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	obj	_	_
+23	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	25	det	_	_
+24	odeurs	odeur	NOUN	_	NOUN__Gender=Masc|Number=Plur	25	obj	_	_
+25	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Pour le lien, pas plus avec ou sans suppression des espaces.
+1	Pour	Pour	ADP	_	ADP___	1	case	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+3	lien	lien	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	obl	_	_
+4	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+5	pas	pas	ADV	_	ADV___	7	advmod	_	_
+6	plus	plaire	ADV	_	ADV___	7	advmod	_	_
+7	avec	avec	ADP	_	ADP___	11	mark	_	_
+8	ou	ou	CCONJ	_	CCONJ___	7	cc	_	_
+9	sans	sans	ADP	_	ADP___	11	conj	_	_
+10	suppression	suppression	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+11	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
+12	espaces	espace	NOUN	_	NOUN__Gender=Fem|Number=Plur	11	obj	_	_
+13	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+

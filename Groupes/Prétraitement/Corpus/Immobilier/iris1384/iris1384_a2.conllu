@@ -1,0 +1,122 @@
+#Faites rédiger le compromis par un notaire.
+1	Faites	Faites	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+2	rédiger	rédiger	VERB	_	VERB__VerbForm=Inf	1	acl	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	compromis	compromettre	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	obj	_	_
+5	par	par	ADP	_	ADP___	7	case	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	notaire	notaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	obl	_	_
+8	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Ce qui revient à dire que le règlement n'est pas appliqué.
+1	Ce	Ce	PRON	_	PRON__PronType=Rel	0	ROOT	_	_
+2	qui	qui	PRON	_	PRON__PronType=Rel	1	nsubj	_	_
+3	revient	revenir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+4	à	à	ADP	_	ADP___	2	mark	_	_
+5	dire	dire	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+6	que	que	SCONJ	_	SCONJ___	7	mark	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+8	règlement	règlement	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+9	n'	ne	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+10	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	pas	pas	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+12	appliqué	appliquer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	ccomp	_	_
+13	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Votre agence a écrit que le règlement n'est pas appliqué.
+1	Votre	Votre	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	agence	agencer	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	écrit	écrire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	que	que	SCONJ	_	SCONJ___	7	mark	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	règlement	règlement	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	nsubj	_	_
+8	n'	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+9	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+10	pas	pas	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+11	appliqué	appliquer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	ccomp	_	_
+12	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#L'agence ne ment pas non plus et écrit la vérité.
+1	L'	L'	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+2	agence	agencer	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+3	ne	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+4	ment	mentir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+6	non	non	ADV	_	ADV___	7	advmod	_	_
+7	plus	plaire	ADV	_	ADV___	2	fixed	_	_
+8	et	et	CCONJ	_	CCONJ___	1	cc	_	_
+9	écrit	écrire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	advcl	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	vérité	vérité	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obj	_	_
+12	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Vous reprochez doc à l'agence d'écrire ce que vous avez dit.
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+2	reprochez	reprocher	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	doc	doc	ADP	_	ADP___	4	obj	_	_
+4	à	à	ADP	_	ADP___	2	case	_	_
+5	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+6	agence	agencer	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obl	_	_
+7	d'	de	ADP	_	ADP___	2	case	_	_
+8	écrire	écrire	VERB	_	VERB__VerbForm=Inf	1	nmod	_	_
+9	ce	ce	PRON	_	PRON__PronType=Rel	9	obj	_	_
+10	que	que	PRON	_	PRON__PronType=Rel	11	obj	_	_
+11	vous	se	PRON	_	PRON__Number=Plur|Person=2	9	nsubj	_	_
+12	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	dit	dire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+14	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Ca ne tient pas trop droit non plus.
+1	Ca	Ca	ADJ	_	ADJ__Gender=Fem|Number=Plur	1	nsubj	_	_
+2	ne	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+3	tient	tenir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	2	advmod	_	_
+5	trop	trop	ADV	_	ADV___	7	advmod	_	_
+6	droit	droit	ADJ	_	ADJ__Gender=Masc|Number=Sing	7	obj	_	_
+7	non	non	ADV	_	ADV___	2	advmod	_	_
+8	plus	plaire	ADV	_	ADV___	1	advmod	_	_
+9	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Raison de plus pour passer par un notaire, qui au contraire de l'agence s'engage sur le contenu du compromis et va etre obligé de consigner strictement les deux réalités.
+1	Raison	Raison	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	advmod	_	_
+2	de	de	ADP	_	ADP___	1	case	_	_
+3	plus	plaire	ADV	_	ADV___	4	nmod	_	_
+4	pour	pour	ADP	_	ADP___	2	mark	_	_
+5	passer	prendre	VERB	_	VERB__VerbForm=Inf	7	advcl	_	_
+6	par	par	ADP	_	ADP___	7	case	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+8	notaire	notaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+9	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+10	qui	qui	PRON	_	PRON__PronType=Rel	11	nsubj	_	_
+11	au	au	PRON	_	PRON__Person=3	9	expl	_	_
+12	contraire	contraire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	nsubj	_	_
+13	de	de	ADP	_	ADP___	11	case	_	_
+14	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+15	agence	agencer	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nmod	_	_
+16	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	20	expl	_	_
+17	engage	engager	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+18	sur	sur	ADP	_	ADP___	20	case	_	_
+19	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	contenu	contenir	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+21	du	du	DET	_	DET__Gender=Masc|Number=Sing	9	det	_	_
+22	compromis	compromettre	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	obj	_	_
+23	et	et	CCONJ	_	CCONJ___	25	cc	_	_
+24	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	conj	_	_
+25	etre	etre	AUX	_	AUX__VerbForm=Inf	25	aux:pass	_	_
+26	obligé	obliger	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	xcomp	_	_
+27	de	de	ADP	_	ADP___	28	mark	_	_
+28	consigner	consigner	VERB	_	VERB__VerbForm=Inf	32	xcomp	_	_
+29	strictement	strictement	ADV	_	ADV___	32	advmod	_	_
+30	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	32	det	_	_
+31	deux	deux	NUM	_	NUM__NumType=Card	32	nummod	_	_
+32	réalités	réalité	NOUN	_	NOUN__Gender=Masc|Number=Plur	25	obj	_	_
+33	.	.	PUNCT	_	PUNCT___	25	punct	_	_
+
+

@@ -1,0 +1,521 @@
+#Bonjour,Nous faisons intervenir un artisan pour des travaux concernant mon habitation.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	4	acl	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	Nous	Nous	PRON	_	PRON__Number=Plur|Person=1	4	nsubj	_	_
+4	faisons	faire	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	intervenir	intervenir	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	artisan	artisan	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+8	pour	pour	ADP	_	ADP___	10	case	_	_
+9	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
+10	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	obl	_	_
+11	concernant	concerner	VERB	_	VERB__Tense=Pres|VerbForm=Part	10	acl	_	_
+12	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	13	nmod:poss	_	_
+13	habitation	habitation	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obj	_	_
+14	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Les travaux concernés sont divisés en deux lots, c'est à dire deux devis.
+1	Les	Les	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+2	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	nsubj:pass	_	_
+3	concernés	concerner	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
+4	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+5	divisés	diviser	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+6	en	en	ADP	_	ADP___	7	case	_	_
+7	deux	deux	NUM	_	NUM__NumType=Card	5	nummod	_	_
+8	lots	lot	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	obl	_	_
+9	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+10	c'	ce	PRON	_	PRON__Number=Sing|Person=3	5	nsubj	_	_
+11	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+12	à	à	ADP	_	ADP___	13	mark	_	_
+13	dire	dire	VERB	_	VERB__VerbForm=Inf	11	advcl	_	_
+14	deux	deux	NUM	_	NUM__NumType=Card	4	nummod	_	_
+15	devis	devis	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	obj	_	_
+16	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Les devis indiquent: "30% d’acompte à la commande"Les devis n'indique PAS de dates et/ou de durée de travaux.
+1	Les	Les	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+2	devis	devis	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	nsubj	_	_
+3	indiquent	indiquer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	:	:	PUNCT	_	PUNCT___	4	punct	_	_
+5	"	"	PUNCT	_	PUNCT___	4	punct	_	_
+6	30	30	NUM	_	NUM__NumType=Card	7	nummod	_	_
+7	%	%	NOUN	_	NOUN__Gender=Masc	5	nsubj	_	_
+8	d’	d’	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+9	acompte	acompte	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	advmod	_	_
+10	à	à	ADP	_	ADP___	5	case	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+12	commande"Les	commande"Les	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obl	_	_
+13	devis	devis	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nsubj	_	_
+14	n'	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+15	indique	indiquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+16	PAS	PAS	ADV	_	ADV__Polarity=Neg	19	advmod	_	_
+17	de	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	16	case	_	_
+18	dates	dater	ADJ	_	ADJ__Gender=Fem|Number=Plur	19	obj	_	_
+19	et	et	CCONJ	_	CCONJ___	19	cc	_	_
+20	/	/	PUNCT	_	PUNCT___	22	fixed	_	_
+21	ou	ou	CCONJ	_	CCONJ___	22	fixed	_	_
+22	de	de	ADP	_	ADP___	19	case	_	_
+23	durée	durer	NOUN	_	NOUN__Gender=Fem|Number=Sing	27	conj	_	_
+24	de	de	ADP	_	ADP___	27	case	_	_
+25	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	27	nmod	_	_
+26	.	.	PUNCT	_	PUNCT___	27	punct	_	_
+
+
+#Les devis ont été signé au printemps 2017.
+1	Les	Les	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+2	devis	devis	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	nsubj:pass	_	_
+3	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	4	aux:pass	_	_
+5	signé	signer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+6	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	printemps	printemps	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+8	2017	2017	NUM	_	NUM__NumType=Card	10	nummod	_	_
+9	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Les travaux ont commencés avec quelques jours de retard sur la date annoncé en septembre 2017 et l’acompte de 30% versé.
+1	Les	Les	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+2	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	nsubj	_	_
+3	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	commencés	commencer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	avec	avec	ADP	_	ADP___	4	case	_	_
+6	quelques	quelque	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
+7	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	obl	_	_
+8	de	de	ADP	_	ADP___	10	case	_	_
+9	retard	retard	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+10	sur	sur	ADP	_	ADP___	5	case	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+12	date	dater	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nmod	_	_
+13	annoncé	annoncer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
+14	en	en	ADP	_	ADP___	4	case	_	_
+15	septembre	septembre	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obl	_	_
+16	2017	2017	NUM	_	NUM__NumType=Card	19	nummod	_	_
+17	et	et	CCONJ	_	CCONJ___	16	cc	_	_
+18	l’	l’	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	det	_	_
+19	acompte	acompte	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	nsubj	_	_
+20	de	de	ADP	_	ADP___	22	case	_	_
+21	30	30	NUM	_	NUM__NumType=Card	22	nummod	_	_
+22	%	%	NOUN	_	NOUN__Gender=Masc	19	nmod	_	_
+23	versé	verser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	xcomp	_	_
+24	.	.	PUNCT	_	PUNCT___	27	punct	_	_
+
+
+#En octobre, lorsque le 1er lot ( = 1 devis) futterminé, l’artisan nous a adressé une facture permettant de régler 95% des choses terminés sur ce devis.
+1	En	En	ADP	_	ADP___	4	case	_	_
+2	octobre	octobre	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	lorsque	lorsque	SCONJ	_	SCONJ___	4	mark	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+6	1er	1er	ADJ	_	ADJ__NumType=Ord	7	amod	_	_
+7	lot	lot	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+8	(	(	PUNCT	_	PUNCT___	10	punct	_	_
+9	=	=	VERB	_	VERB__Mood=Ind|Person=3|VerbForm=Fin	0	ROOT	_	_
+10	1	1	NUM	_	NUM__NumType=Card	5	nummod	_	_
+11	devis	devis	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+12	)	)	PUNCT	_	PUNCT___	13	punct	_	_
+13	futterminé	futterminé	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	xcomp	_	_
+14	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+15	l’	l’	PRON	_	PRON__Gender=Fem|Number=Plur|Person=3	16	det	_	_
+16	artisan	artisan	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	nsubj	_	_
+17	nous	se	PRON	_	PRON__Number=Plur|Person=1	16	nsubj	_	_
+18	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	adressé	adresser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	advcl	_	_
+20	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	facture	facturer	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	obj	_	_
+22	permettant	permettre	VERB	_	VERB__Tense=Pres|VerbForm=Part	19	acl	_	_
+23	de	de	ADP	_	ADP___	27	mark	_	_
+24	régler	régler	VERB	_	VERB__VerbForm=Inf	27	xcomp	_	_
+25	95	95	NUM	_	NUM__NumType=Card	27	nummod	_	_
+26	%	%	NOUN	_	NOUN__Gender=Masc	27	nmod	_	_
+27	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	19	det	_	_
+28	choses	chose	NOUN	_	NOUN__Gender=Fem|Number=Plur	29	obj	_	_
+29	terminés	terminer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	27	acl	_	_
+30	sur	sur	ADP	_	ADP___	19	case	_	_
+31	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	32	det	_	_
+32	devis	devis	NOUN	_	NOUN__Gender=Masc|Number=Sing	33	nmod	_	_
+33	.	.	PUNCT	_	PUNCT___	33	punct	_	_
+
+
+#Je n'ai pas payé cette facture intermédiaire, car elle n'était pas prévu au devis.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+3	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+5	payé	payer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+6	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	facture	facturer	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obj	_	_
+8	intermédiaire	intermédiaire	ADJ	_	ADJ__Number=Sing	10	amod	_	_
+9	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+10	car	car	CCONJ	_	CCONJ___	5	cc	_	_
+11	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	10	nsubj	_	_
+12	n'	ne	ADV	_	ADV__Polarity=Neg	13	advmod	_	_
+13	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux:pass	_	_
+14	pas	pas	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+15	prévu	prévoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	conj	_	_
+16	au	au	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	19	det	_	_
+17	devis	devis	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obj	_	_
+18	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#L'artisan indique qu'il fait toujours ainsi.
+1	L'	L'	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+2	artisan	artisan	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+3	indique	indiquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	qu'	que	SCONJ	_	SCONJ___	4	mark	_	_
+5	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+6	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+7	toujours	toujours	ADV	_	ADV___	5	advmod	_	_
+8	ainsi	ainsi	ADV	_	ADV___	10	obj	_	_
+9	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Aujourd'hui, le chantier est pratiquement terminé:
+1	Aujourd'	Aujourd'	ADP	_	ADP___	4	advmod	_	_
+2	hui	hui	NOUN	_	NOUN___	4	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+5	chantier	chantier	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+6	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	pratiquement	pratiquement	ADV	_	ADV___	5	advmod	_	_
+8	terminé	terminer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+9	:	:	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Le 1er lot complètement.
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+2	1er	1er	ADJ	_	ADJ__NumType=Ord	4	nsubj	_	_
+3	lot	lot	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	amod	_	_
+4	complètement	complètement	ADV	_	ADV___	0	ROOT	_	_
+5	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Le second également mais j'ai remonté durant les travaux à l'artisan des petits problèmes à régler.
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+2	second	second	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	_
+3	également	également	ADV	_	ADV___	4	advmod	_	_
+4	mais	mai	CCONJ	_	CCONJ___	4	cc	_	_
+5	j'	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+6	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	remonté	remonter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+8	durant	durer	ADP	_	ADP___	10	case	_	_
+9	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	10	det	_	_
+10	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	obl	_	_
+11	à	à	ADP	_	ADP___	10	case	_	_
+12	l'	le	PRON	_	PRON__Number=Sing|Person=3	13	det	_	_
+13	artisan	artisan	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	obl	_	_
+14	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
+15	petits	petit	ADJ	_	ADJ__Gender=Masc|Number=Plur	16	amod	_	_
+16	problèmes	problème	NOUN	_	NOUN__Gender=Masc|Number=Plur	19	obj	_	_
+17	à	à	ADP	_	ADP___	16	mark	_	_
+18	régler	régler	VERB	_	VERB__VerbForm=Inf	19	acl	_	_
+19	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Ces e-mail sont resté sans réponses, les ouvriers venant de temps en temps effectuer les choses à finir ainsi qu'une partit des problèmes remontés.
+1	Ces	Ces	DET	_	DET__Number=Plur|PronType=Dem	4	det	_	_
+2	e-mail	e-mail	NOUN	_	NOUN__Number=Plur	4	nsubj	_	_
+3	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	resté	rester	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	cop	_	_
+5	sans	sans	ADP	_	ADP___	4	case	_	_
+6	réponses	réponse	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+7	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+8	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	10	det	_	_
+9	ouvriers	ouvrier	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	nsubj	_	_
+10	venant	venir	VERB	_	VERB__Tense=Pres|VerbForm=Part	5	acl	_	_
+11	de	de	ADP	_	ADP___	10	case	_	_
+12	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	obl	_	_
+13	en	en	ADP	_	ADP___	11	mark	_	_
+14	temps	temps	NOUN	_	NOUN__Gender=Masc	4	fixed	_	_
+15	effectuer	effectuer	VERB	_	VERB__VerbForm=Inf	16	xcomp	_	_
+16	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	19	det	_	_
+17	choses	chose	NOUN	_	NOUN__Gender=Fem|Number=Plur	16	obj	_	_
+18	à	à	ADP	_	ADP___	19	mark	_	_
+19	finir	finir	VERB	_	VERB__VerbForm=Inf	19	acl	_	_
+20	ainsi	ainsi	ADV	_	ADV___	22	cc	_	_
+21	qu'	que	SCONJ	_	SCONJ___	22	fixed	_	_
+22	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+23	partit	partir	NOUN	_	NOUN__Gender=Fem|Number=Sing	27	conj	_	_
+24	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	27	det	_	_
+25	problèmes	problème	NOUN	_	NOUN__Gender=Masc|Number=Plur	27	obj	_	_
+26	remontés	remonter	ADJ	_	ADJ__Gender=Masc|Number=Plur	27	amod	_	_
+27	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#L'artisan nous a envoyé la facture final des deux lot.
+1	L'	L'	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+2	artisan	artisan	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+3	nous	se	PRON	_	PRON__Number=Plur|Person=1	4	iobj	_	_
+4	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+5	envoyé	envoyer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	facture	facturer	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obj	_	_
+8	final	final	ADJ	_	ADJ__Gender=Masc|Number=Sing	10	amod	_	_
+9	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
+10	deux	deux	NUM	_	NUM__NumType=Card	5	nummod	_	_
+11	lot	lot	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	obj	_	_
+12	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Suite à cela, j'adresse de nouveaux messages afin d'indiquer les problèmes restant à régler toujours sans aucune réponse.
+1	Suite	Suite	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	case	_	_
+2	à	à	ADP	_	ADP___	4	fixed	_	_
+3	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	4	obl	_	_
+4	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+5	j'	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+6	adresse	adresser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	de	de	ADP	_	ADP___	5	det	_	_
+8	nouveaux	nouveau	ADJ	_	ADJ__Gender=Masc|Number=Plur	10	amod	_	_
+9	messages	message	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	obj	_	_
+10	afin	afin	ADP	_	ADP___	5	mark	_	_
+11	d'	de	ADP	_	ADP___	10	fixed	_	_
+12	indiquer	indiquer	VERB	_	VERB__VerbForm=Inf	13	advcl	_	_
+13	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	11	det	_	_
+14	problèmes	problème	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	obj	_	_
+15	restant	rester	VERB	_	VERB__Tense=Pres|VerbForm=Part	16	acl	_	_
+16	à	à	ADP	_	ADP___	19	mark	_	_
+17	régler	régler	VERB	_	VERB__VerbForm=Inf	16	xcomp	_	_
+18	toujours	toujours	ADV	_	ADV___	19	advmod	_	_
+19	sans	sans	ADP	_	ADP___	19	case	_	_
+20	aucune	aucun	DET	_	DET__Gender=Fem|Number=Sing	22	det	_	_
+21	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	obl	_	_
+22	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Enfin, il me recontacte, non pas pour régler les problèmes, mais pour réclamer le paiement.
+1	Enfin	Enfin	ADV	_	ADV___	4	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+4	me	se	PRON	_	PRON__Number=Sing|Person=1	4	expl	_	_
+5	recontacte	recontacte	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+7	non	non	ADV	_	ADV___	5	advmod	_	_
+8	pas	pas	ADV	_	ADV___	10	fixed	_	_
+9	pour	pour	ADP	_	ADP___	10	mark	_	_
+10	régler	régler	VERB	_	VERB__VerbForm=Inf	5	advcl	_	_
+11	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	10	det	_	_
+12	problèmes	problème	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	obj	_	_
+13	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+14	mais	mai	CCONJ	_	CCONJ___	4	cc	_	_
+15	pour	pour	ADP	_	ADP___	16	mark	_	_
+16	réclamer	réclamer	VERB	_	VERB__VerbForm=Inf	19	conj	_	_
+17	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+18	paiement	paiement	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obj	_	_
+19	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Il m'indique qu'il ne parachèvera pas les travaux si la facture intermédiaire n'était pas réglé.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+2	m'	se	PRON	_	PRON__Number=Sing|Person=1	4	iobj	_	_
+3	indique	indiquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	qu'	que	SCONJ	_	SCONJ___	4	mark	_	_
+5	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+6	ne	ne	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+7	parachèvera	parachever	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	ccomp	_	_
+8	pas	pas	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+9	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	10	det	_	_
+10	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	obj	_	_
+11	si	si	SCONJ	_	SCONJ___	10	mark	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	facture	facturer	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nsubj	_	_
+14	intermédiaire	intermédiaire	NOUN	_	NOUN__Number=Sing	4	amod	_	_
+15	n'	ne	ADV	_	ADV__Polarity=Neg	16	advmod	_	_
+16	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	cop	_	_
+17	pas	pas	ADV	_	ADV__Polarity=Neg	16	advmod	_	_
+18	réglé	régler	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	19	advcl	_	_
+19	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Il menace du coup de faire intervenir son contentieux.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+2	menace	menacer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	du	du	DET	_	DET__Gender=Masc|Number=Sing	4	det	_	_
+4	coup	coup	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obj	_	_
+5	de	de	ADP	_	ADP___	4	mark	_	_
+6	faire	faire	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+7	intervenir	intervenir	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+8	son	son	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+9	contentieux	contentieux	ADJ	_	ADJ__Gender=Masc	10	obj	_	_
+10	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Je lui est répondu:-
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	4	nsubj:pass	_	_
+2	lui	luire	PRON	_	PRON__Number=Sing|Person=3	4	iobj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	répondu	répondre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+5	:-	:-	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Il n'était pas contractuellement prévu de facture intermédiaire, dès lors, je règle le solde à la fin de chantier.- Que le contentieux pouvait éventuellement me réclamer le paiement du 1er lot, celui-ci étant terminé.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj:pass	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+3	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux:pass	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+5	contractuellement	contractuellement	ADV	_	ADV___	4	advmod	_	_
+6	prévu	prévoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+7	de	de	ADP	_	ADP___	5	case	_	_
+8	facture	facturer	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obl	_	_
+9	intermédiaire	intermédiaire	NOUN	_	NOUN__Number=Sing	10	amod	_	_
+10	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+11	dès	dès	ADP	_	ADP___	10	advmod	_	_
+12	lors	lors	ADV	_	ADV___	13	fixed	_	_
+13	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+14	je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+15	règle	régler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+16	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+17	solde	solder	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obj	_	_
+18	à	à	ADP	_	ADP___	19	case	_	_
+19	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+20	fin	fin	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	obl	_	_
+21	de	de	ADP	_	ADP___	22	case	_	_
+22	chantier.-	chantier.-	SCONJ	_	SCONJ___	19	nmod	_	_
+23	Que	Que	PRON	_	PRON__PronType=Int	27	mark	_	_
+24	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+25	contentieux	contentieux	ADJ	_	ADJ__Gender=Masc	27	nsubj	_	_
+26	pouvait	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	aux	_	_
+27	éventuellement	éventuellement	ADV	_	ADV___	19	advmod	_	_
+28	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	29	iobj	_	_
+29	réclamer	réclamer	VERB	_	VERB__VerbForm=Inf	27	ccomp	_	_
+30	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+31	paiement	paiement	NOUN	_	NOUN__Gender=Masc|Number=Sing	32	obj	_	_
+32	du	du	ADJ	_	ADJ__Gender=Masc|Number=Sing	33	det	_	_
+33	1er	1er	ADJ	_	ADJ__NumType=Ord	33	amod	_	_
+34	lot	lot	NOUN	_	NOUN__Gender=Masc|Number=Sing	33	nmod	_	_
+35	,	,	PUNCT	_	PUNCT___	38	punct	_	_
+36	celui-ci	celui-ci	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Dem	37	nmod	_	_
+37	étant	être	AUX	_	AUX__Tense=Pres|VerbForm=Part	38	aux:pass	_	_
+38	terminé	terminer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	advcl	_	_
+39	.	.	PUNCT	_	PUNCT___	38	punct	_	_
+
+
+#Mais que dans ce cas, j'exigerai une réception de chantier en règle.-
+1	Mais	Mais	CCONJ	_	CCONJ___	4	cc	_	_
+2	que	que	SCONJ	_	SCONJ___	4	mark	_	_
+3	dans	dan	ADP	_	ADP___	4	case	_	_
+4	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+5	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+6	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+7	j'	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+8	exigerai	exiger	ADV	_	ADV___	0	ROOT	_	_
+9	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	réception	réception	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obj	_	_
+11	de	de	ADP	_	ADP___	10	case	_	_
+12	chantier	chantier	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+13	en	en	ADP	_	ADP___	11	case	_	_
+14	règle	régler	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obl	_	_
+15	.-	.-	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Que je pouvais également de mon coté le mettre en demeure de terminer le chantier, suivi d'un référé s'il ne s’exécutait pas.-
+1	Que	Que	SCONJ	_	SCONJ___	4	mark	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+3	pouvais	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+4	également	également	ADV	_	ADV___	4	advmod	_	_
+5	de	de	ADP	_	ADP___	4	case	_	_
+6	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	7	nmod:poss	_	_
+7	coté	coter	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+8	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	10	obj	_	_
+9	mettre	mettre	VERB	_	VERB__VerbForm=Inf	10	xcomp	_	_
+10	en	en	ADP	_	ADP___	5	case	_	_
+11	demeure	demeurer	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obl	_	_
+12	de	de	ADP	_	ADP___	13	mark	_	_
+13	terminer	terminer	VERB	_	VERB__VerbForm=Inf	11	xcomp	_	_
+14	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+15	chantier	chantier	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obj	_	_
+16	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+17	suivi	suivre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl	_	_
+18	d'	de	ADP	_	ADP___	19	case	_	_
+19	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+20	référé	référer	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	obl	_	_
+21	s'	si	SCONJ	_	SCONJ___	22	case	_	_
+22	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	19	nsubj	_	_
+23	ne	ne	ADV	_	ADV__Polarity=Neg	27	advmod	_	_
+24	s’	s’	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	nmod	_	_
+25	exécutait	exécuter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+26	pas	pas	ADV	_	ADV__Polarity=Neg	27	advmod	_	_
+27	.-	.-	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Enfin qu'il serai préférable de corriger rapidement les problèmes (histoire d'une heure de travail) afin que je le paie intégralement sur le champs plutôt que de partir sur le terrain juridique.
+1	Enfin	Enfin	ADV	_	ADV___	4	advmod	_	_
+2	qu'	que	SCONJ	_	SCONJ___	4	mark	_	_
+3	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+4	serai	être	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	cop	_	_
+5	préférable	préférable	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+6	de	de	ADP	_	ADP___	7	mark	_	_
+7	corriger	corriger	VERB	_	VERB__VerbForm=Inf	5	acl	_	_
+8	rapidement	rapidement	ADV	_	ADV___	10	advmod	_	_
+9	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	10	det	_	_
+10	problèmes	problème	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	obj	_	_
+11	(	(	PUNCT	_	PUNCT___	10	punct	_	_
+12	histoire	histoire	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	appos	_	_
+13	d'	de	ADP	_	ADP___	11	case	_	_
+14	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+15	heure	heure	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nmod	_	_
+16	de	de	ADP	_	ADP___	19	case	_	_
+17	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	nmod	_	_
+18	)	)	PUNCT	_	PUNCT___	19	punct	_	_
+19	afin	afin	ADP	_	ADP___	19	mark	_	_
+20	que	que	SCONJ	_	SCONJ___	22	fixed	_	_
+21	je	il	PRON	_	PRON__Number=Sing|Person=1	22	nsubj	_	_
+22	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	19	det	_	_
+23	paie	payer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	advcl	_	_
+24	intégralement	intégralement	ADV	_	ADV___	27	amod	_	_
+25	sur	sur	ADP	_	ADP___	27	case	_	_
+26	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	champs	champ	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obl	_	_
+28	plutôt	plutôt	ADV	_	ADV___	29	advmod	_	_
+29	que	que	SCONJ	_	SCONJ___	27	mark	_	_
+30	de	de	ADP	_	ADP___	19	case	_	_
+31	partir	partir	VERB	_	VERB__VerbForm=Inf	32	fixed	_	_
+32	sur	sur	ADP	_	ADP___	33	fixed	_	_
+33	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+34	terrain	terrain	NOUN	_	NOUN__Gender=Masc|Number=Sing	33	nmod	_	_
+35	juridique	juridique	ADJ	_	ADJ__Number=Sing	38	amod	_	_
+36	.	.	PUNCT	_	PUNCT___	37	punct	_	_
+
+
+#Le devis n'indiquant pas de délai, que puis-je exiger en terme de fin de travaux?Est-je le droit de ne rien payer sur les deux lot temps que tout n'est pas correctement terminé?Que feriez vous?Merci
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+2	devis	devis	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+3	n'	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+4	indiquant	indiquer	VERB	_	VERB__Tense=Pres|VerbForm=Part	0	ROOT	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+6	de	de	ADP	_	ADP___	7	det	_	_
+7	délai	délai	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+8	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+9	que	que	SCONJ	_	SCONJ___	10	mark	_	_
+10	puis-je	puis-je	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+11	exiger	exiger	VERB	_	VERB__VerbForm=Inf	10	advcl	_	_
+12	en	en	ADP	_	ADP___	13	advmod	_	_
+13	terme	terme	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	fixed	_	_
+14	de	de	ADP	_	ADP___	4	case	_	_
+15	fin	fin	NOUN	_	NOUN__Number=Sing	16	obl	_	_
+16	de	de	ADP	_	ADP___	19	case	_	_
+17	travaux?Est	travaux?Est	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	nmod	_	_
+18	-	-	PUNCT	_	PUNCT___	19	punct	_	_
+19	je	il	PRON	_	PRON__Number=Sing|Person=1	19	nsubj	_	_
+20	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	obj	_	_
+22	de	de	ADP	_	ADP___	19	mark	_	_
+23	ne	ne	ADV	_	ADV___	27	advmod	_	_
+24	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	27	fixed	_	_
+25	payer	payer	VERB	_	VERB__VerbForm=Inf	27	acl	_	_
+26	sur	sur	ADP	_	ADP___	27	case	_	_
+27	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	19	det	_	_
+28	deux	deux	NUM	_	NUM__NumType=Card	29	nummod	_	_
+29	lot	lot	NOUN	_	NOUN__Gender=Masc|Number=Plur	27	obl	_	_
+30	temps	temps	ADJ	_	ADJ__Gender=Fem|Number=Plur	19	advmod	_	_
+31	que	que	SCONJ	_	SCONJ___	32	mark	_	_
+32	tout	tout	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	33	nsubj	_	_
+33	n'	ne	ADV	_	ADV__Polarity=Neg	33	advmod	_	_
+34	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	_
+35	pas	pas	ADV	_	ADV__Polarity=Neg	38	advmod	_	_
+36	correctement	correctement	ADV	_	ADV___	37	advmod	_	_
+37	terminé?Que	terminé?Que	NOUN	_	NOUN__Gender=Masc|Number=Sing	38	amod	_	_
+38	feriez	faire	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	ccomp	_	_
+39	vous?Merci	vous?Merci	VERB	_	VERB__VerbForm=Inf	38	xcomp	_	_
+
+

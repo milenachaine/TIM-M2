@@ -1,0 +1,123 @@
+#Bonjour à tous,Dans le cadre d'une procédure pénale pour agression (CRPC)
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	à	à	ADP	_	ADP___	3	case	_	_
+3	tous	tout	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Rel	1	obl	_	_
+4	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+5	Dans	Dans	ADP	_	ADP___	10	case	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	fixed	_	_
+7	cadre	cadrer	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	fixed	_	_
+8	d'	de	ADP	_	ADP___	5	fixed	_	_
+9	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	procédure	procédure	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+11	pénale	pénal	ADJ	_	ADJ__Gender=Fem|Number=Sing	10	amod	_	_
+12	pour	pour	ADP	_	ADP___	13	case	_	_
+13	agression	agression	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+14	(	(	PUNCT	_	PUNCT___	1	punct	_	_
+15	CRPC	CRPC	NOUN	_	NOUN___	1	appos	_	_
+16	)	)	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#la partie civile doit assigner la CPAM pour l'audience sur Intérêts Civils.
+1	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	partie	partir	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+3	civile	civil	ADJ	_	ADJ__Gender=Fem|Number=Sing	1	amod	_	_
+4	doit	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+5	assigner	assigner	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+7	CPAM	CPAM	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obj	_	_
+8	pour	pour	ADP	_	ADP___	5	case	_	_
+9	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	audience	audience	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obl	_	_
+11	sur	sur	ADP	_	ADP___	10	case	_	_
+12	Intérêts	Intérêts	PROPN	_	PROPN__Gender=Masc|Number=Sing	13	nmod	_	_
+13	Civils	Civils	PROPN	_	PROPN___	10	flat:name	_	_
+14	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Peut-on faire payer l'assignation à la CPAM (et à la mutuelle) au défendeur ?
+1	Peut	Peut	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+2	-	-	PUNCT	_	PUNCT___	3	punct	_	_
+3	on	on	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+4	faire	faire	VERB	_	VERB__VerbForm=Part	0	ROOT	_	_
+5	payer	payer	VERB	_	VERB__VerbForm=Inf	10	xcomp	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+7	assignation	assignation	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obj	_	_
+8	à	à	ADP	_	ADP___	5	case	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	CPAM	CPAM	PROPN	_	PROPN__Gender=Fem|Number=Sing	1	obl	_	_
+11	(	(	PUNCT	_	PUNCT___	10	punct	_	_
+12	et	et	CCONJ	_	CCONJ___	13	cc	_	_
+13	à	à	ADP	_	ADP___	10	case	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+15	mutuelle	mutuel	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	conj	_	_
+16	)	)	PUNCT	_	PUNCT___	1	punct	_	_
+17	au	au	PRON	_	PRON__PronType=Rel	18	case	_	_
+18	défendeur	défendeur	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	obl	_	_
+19	?	?	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Ces frais font ils partie des dépens ?
+1	Ces	Ces	DET	_	DET__Number=Plur|PronType=Dem	1	det	_	_
+2	frais	frai	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	nsubj	_	_
+3	font	faire	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	1	obj	_	_
+5	partie	partir	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	fixed	_	_
+6	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
+7	dépens	dépens	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	obj	_	_
+8	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#J'ai lu qu'en matière pénale, le tribunal ne peut pas condamner le défendeur (le prévenu donc) aux dépens :Je suis paumée entre le droit Pénal et le droit Civil, lequel s'applique quand dans cette histoire..
+1	J'	J'	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ai	avoir	PROPN	_	PROPN___	0	ROOT	_	_
+3	lu	lire	PROPN	_	PROPN___	1	obj	_	_
+4	qu'	que	PRON	_	PRON__PronType=Rel	1	fixed	_	_
+5	en	en	ADP	_	ADP___	10	case	_	_
+6	matière	matière	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	fixed	_	_
+7	pénale	pénal	ADJ	_	ADJ__Gender=Fem|Number=Sing	5	fixed	_	_
+8	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	tribunal	tribunal	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+11	ne	ne	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+12	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	pas	pas	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+14	condamner	condamner	VERB	_	VERB__VerbForm=Inf	1	parataxis	_	_
+15	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+16	défendeur	défendeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+17	(	(	PUNCT	_	PUNCT___	18	punct	_	_
+18	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+19	prévenu	prévenir	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obj	_	_
+20	donc	donc	ADV	_	ADV___	21	advmod	_	_
+21	)	)	PUNCT	_	PUNCT___	21	punct	_	_
+22	aux	aux	ADJ	_	ADJ__Gender=Masc|Number=Plur	23	amod	_	_
+23	dépens	dépens	ADJ	_	ADJ__Gender=Masc|Number=Plur	21	obl	_	_
+24	:	:	PUNCT	_	PUNCT___	26	punct	_	_
+25	Je	Je	PRON	_	PRON__Number=Sing|Person=1	26	nsubj:pass	_	_
+26	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	aux:pass	_	_
+27	paumée	paumer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	28	advcl	_	_
+28	entre	entrer	ADP	_	ADP___	26	case	_	_
+29	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+30	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obl	_	_
+31	Pénal	Pénal	ADJ	_	ADJ__Gender=Masc|Number=Sing	34	nmod	_	_
+32	et	et	CCONJ	_	CCONJ___	34	cc	_	_
+33	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	34	conj	_	_
+35	Civil	Civil	PROPN	_	PROPN___	34	nmod	_	_
+36	,	,	PUNCT	_	PUNCT___	37	punct	_	_
+37	lequel	lequel	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	35	nsubj	_	_
+38	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	40	expl	_	_
+39	applique	appliquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	parataxis	_	_
+40	quand	quand	ADV	_	ADV___	35	mark	_	_
+41	dans	dan	ADP	_	ADP___	34	case	_	_
+42	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	45	det	_	_
+43	histoire	histoire	NOUN	_	NOUN__Gender=Fem|Number=Sing	45	obl	_	_
+44	..	..	PUNCT	_	PUNCT___	45	punct	_	_
+
+
+#Merci à vous !
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	à	à	ADP	_	ADP___	3	case	_	_
+3	vous	se	PRON	_	PRON__Number=Plur|Person=2|PronType=Prs	1	nmod	_	_
+4	!	!	PUNCT	_	PUNCT___	1	punct	_	_
+
+

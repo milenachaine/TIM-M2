@@ -1,0 +1,500 @@
+#Chers Net
+1	Chers	Chers	PROPN	_	PROPN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	Net	Net	X	_	X___	1	flat:name	_	_
+
+
+#-Iriseurs, Chères Net
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	Iriseurs	Iriseurs	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	Chères	Chères	PROPN	_	PROPN___	4	nmod	_	_
+5	Net	Net	X	_	X___	4	flat:name	_	_
+
+
+#-Iriseuses,Je m'adresse  à vous pour me renseigner sur un point qui m'inquiète.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	Iriseuses	Iriseuses	PROPN	_	PROPN___	1	obl	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	Je	Je	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+5	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	4	obj	_	_
+6	adresse	adresser	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+7	 	 	SPACE	_		6		_	_
+8	à	à	ADP	_	ADP___	9	case	_	_
+9	vous	se	PRON	_	PRON__Number=Plur|Person=2|Reflex=Yes	13	obl	_	_
+10	pour	pour	ADP	_	ADP___	9	mark	_	_
+11	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	13	expl	_	_
+12	renseigner	renseigner	VERB	_	VERB__VerbForm=Inf	13	advcl	_	_
+13	sur	sur	ADP	_	ADP___	13	case	_	_
+14	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+15	point	poindre	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obl	_	_
+16	qui	qui	PRON	_	PRON__PronType=Rel	13	nsubj	_	_
+17	m'	se	PRON	_	PRON__Number=Sing|Person=1	19	cop	_	_
+18	inquiète	inquiéter	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+19	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Nous avons mis en vente notre maison via une agence en " mandat de vente  exclusif".Cette maison fait partie d'une copropriété avec un seul voisin.
+1	Nous	Nous	PRON	_	PRON__Number=Plur|Person=1	1	nsubj	_	_
+2	avons	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	mis	mettre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	en	en	ADP	_	ADP___	4	case	_	_
+5	vente	venter	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obl	_	_
+6	notre	notre	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+7	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obj	_	_
+8	via	via	ADP	_	ADP___	9	case	_	_
+9	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+10	agence	agencer	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obl	_	_
+11	en	en	ADP	_	ADP___	13	case	_	_
+12	"	"	PUNCT	_	PUNCT___	13	punct	_	_
+13	mandat	mandat	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+14	de	de	ADP	_	ADP___	13	case	_	_
+15	vente	venter	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nmod	_	_
+16	 	 	SPACE	_		13		_	_
+17	exclusif".Cette	exclusif".Cette	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl	_	_
+18	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	amod	_	_
+19	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advmod	_	_
+20	partie	partir	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	obj	_	_
+21	d'	de	ADP	_	ADP___	22	case	_	_
+22	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+23	copropriété	copropriété	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	nmod	_	_
+24	avec	avec	ADP	_	ADP___	25	case	_	_
+25	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+26	seul	seul	ADJ	_	ADJ__Gender=Masc|Number=Sing	13	amod	_	_
+27	voisin	voisin	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	nmod	_	_
+28	.	.	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#Mais le syndic est inexistant et les AG n'ont jamais eu lieu.
+1	Mais	Mais	CCONJ	_	CCONJ___	1	cc	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+3	syndic	syndic	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+5	inexistant	inexistant	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+6	et	et	CCONJ	_	CCONJ___	4	cc	_	_
+7	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	6	det	_	_
+8	AG	AG	PROPN	_	PROPN___	9	obl	_	_
+9	n'	ne	ADV	_	ADV__Polarity=Neg	13	advmod	_	_
+10	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+11	jamais	jamais	ADV	_	ADV__Polarity=Neg	13	advmod	_	_
+12	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	parataxis	_	_
+13	lieu	lieu	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+14	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Nous fonctionnons donc d'après un accord verbal avec le voisin concernant la répartition des frais.
+1	Nous	Nous	PRON	_	PRON__Number=Plur|Person=1	1	nsubj	_	_
+2	fonctionnons	fonctionner	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	donc	donc	ADV	_	ADV___	4	advmod	_	_
+4	d'	de	ADP	_	ADP___	4	case	_	_
+5	après	après	ADP	_	ADP___	4	fixed	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+7	accord	accord	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obl	_	_
+8	verbal	verbal	ADJ	_	ADJ__Gender=Masc|Number=Sing	9	acl	_	_
+9	avec	avec	ADP	_	ADP___	13	case	_	_
+10	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+11	voisin	voisin	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+12	concernant	concerner	VERB	_	VERB__Tense=Pres|VerbForm=Part	13	acl	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+14	répartition	répartition	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obj	_	_
+15	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	16	det	_	_
+16	frais	frai	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	obj	_	_
+17	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#L'accord verbal établit que les frais de la partie supérieure reviennent au voisin, et que les frais afférent à la partie inférieure de la maison me reviennent, et ce en contradiction totale avec le reglement de copropriété que ni moi ni le voisin n'avions en notre possession  alors.
+1	L'	L'	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+2	accord	accord	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	verbal	verbal	ADJ	_	ADJ__Gender=Masc|Number=Sing	4	amod	_	_
+4	établit	établir	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+5	que	que	SCONJ	_	SCONJ___	4	mark	_	_
+6	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+7	frais	frai	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	nsubj	_	_
+8	de	de	ADP	_	ADP___	9	case	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+10	partie	partir	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nmod	_	_
+11	supérieure	supérieur	ADJ	_	ADJ__Gender=Fem|Number=Sing	13	amod	_	_
+12	reviennent	revenir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
+13	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	13	advmod	_	_
+14	voisin	voisin	ADJ	_	ADJ__Gender=Masc|Number=Sing	13	obj	_	_
+15	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+16	et	et	CCONJ	_	CCONJ___	13	cc	_	_
+17	que	que	SCONJ	_	SCONJ___	19	mark	_	_
+18	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	19	det	_	_
+19	frais	frai	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	nsubj	_	_
+20	afférent	afférent	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	conj	_	_
+21	à	à	ADP	_	ADP___	22	case	_	_
+22	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+23	partie	partir	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	obl	_	_
+24	inférieure	inférieur	ADJ	_	ADJ__Gender=Fem|Number=Sing	25	amod	_	_
+25	de	de	ADP	_	ADP___	22	case	_	_
+26	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+27	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	nmod	_	_
+28	me	se	PRON	_	PRON__Number=Sing|Person=1	29	iobj	_	_
+29	reviennent	revenir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+30	,	,	PUNCT	_	PUNCT___	31	punct	_	_
+31	et	et	CCONJ	_	CCONJ___	29	cc	_	_
+32	ce	ce	PRON	_	PRON__PronType=Rel	33	det	_	_
+33	en	en	ADP	_	ADP___	29	case	_	_
+34	contradiction	contradiction	NOUN	_	NOUN__Gender=Fem|Number=Sing	36	nsubj	_	_
+35	totale	total	ADJ	_	ADJ__Gender=Fem|Number=Sing	36	amod	_	_
+36	avec	avec	ADP	_	ADP___	29	case	_	_
+37	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+38	reglement	reglement	NOUN	_	NOUN__Gender=Masc|Number=Sing	39	nmod	_	_
+39	de	de	ADP	_	ADP___	36	case	_	_
+40	copropriété	copropriété	VERB	_	VERB__VerbForm=Inf	41	nmod	_	_
+41	que	que	PRON	_	PRON__PronType=Rel	39	obj	_	_
+42	ni	ni	CCONJ	_	CCONJ___	41	cc	_	_
+43	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	29	nmod	_	_
+44	ni	ni	CCONJ	_	CCONJ___	43	cc	_	_
+45	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+46	voisin	voisin	NOUN	_	NOUN__Gender=Masc|Number=Sing	45	conj	_	_
+47	n'	ne	ADV	_	ADV___	49	advmod	_	_
+48	avions	avoir	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	49	conj	_	_
+49	en	en	ADP	_	ADP___	43	case	_	_
+50	notre	notre	DET	_	DET__Number=Sing|Poss=Yes	53	nmod:poss	_	_
+51	possession	possession	NOUN	_	NOUN__Gender=Fem|Number=Sing	53	obl	_	_
+52	 	 	SPACE	_		53		_	_
+53	alors	alors	ADV	_	ADV___	49	advmod	_	_
+54	.	.	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#L'agent immobilier est au courant de cet accord verbal, et de l'absence de reglement de copropriété.
+1	L'	L'	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+2	agent	agent	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	immobilier	immobilier	ADJ	_	ADJ__Gender=Masc|Number=Sing	4	amod	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+5	au	au	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	advmod	_	_
+6	courant	courir	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+7	de	de	ADP	_	ADP___	6	case	_	_
+8	cet	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+9	accord	accord	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+10	verbal	verbal	ADJ	_	ADJ__Gender=Masc|Number=Sing	9	amod	_	_
+11	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+12	et	et	CCONJ	_	CCONJ___	13	cc	_	_
+13	de	de	ADP	_	ADP___	13	case	_	_
+14	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+15	absence	absence	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	conj	_	_
+16	de	de	ADP	_	ADP___	13	case	_	_
+17	reglement	reglement	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	nmod	_	_
+18	de	de	ADP	_	ADP___	19	case	_	_
+19	copropriété	copropriété	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nmod	_	_
+20	.	.	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#Je demande donc auprès des archives le règlement de copropriété ( car à la signature du mandat avec l'AI, je ne l'avais pas, mon voisin non plus. )
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	demande	demander	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	donc	donc	ADV	_	ADV___	4	advmod	_	_
+4	auprès	auprès	ADP	_	ADP___	4	case	_	_
+5	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
+6	archives	archiver	NOUN	_	NOUN__Gender=Fem|Number=Plur	4	obl	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+8	règlement	règlement	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nmod	_	_
+9	de	de	ADP	_	ADP___	13	case	_	_
+10	copropriété	copropriété	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nmod	_	_
+11	(	(	PUNCT	_	PUNCT___	13	punct	_	_
+12	car	car	CCONJ	_	CCONJ___	13	cc	_	_
+13	à	à	ADP	_	ADP___	13	case	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+15	signature	signature	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	conj	_	_
+16	du	du	DET	_	DET__Gender=Masc|Number=Sing	13	det	_	_
+17	mandat	mandat	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	nmod	_	_
+18	avec	avec	ADP	_	ADP___	19	case	_	_
+19	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+20	AI	AI	PROPN	_	PROPN__Number=Sing	22	nmod	_	_
+21	,	,	PUNCT	_	PUNCT___	22	punct	_	_
+22	je	il	PRON	_	PRON__Number=Sing|Person=1	19	nsubj	_	_
+23	ne	ne	ADV	_	ADV__Polarity=Neg	25	advmod	_	_
+24	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+25	avais	avoir	NOUN	_	NOUN__Number=Sing	22	conj	_	_
+26	pas	pas	ADV	_	ADV___	13	advmod	_	_
+27	,	,	PUNCT	_	PUNCT___	29	punct	_	_
+28	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	29	nmod:poss	_	_
+29	voisin	voisin	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	amod	_	_
+30	non	non	ADV	_	ADV___	31	advmod	_	_
+31	plus	plaire	ADV	_	ADV___	29	advmod	_	_
+32	.	.	PUNCT	_	PUNCT___	33	punct	_	_
+33	)	)	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#Nous faisons des visites et annonçons aux acquéreurs potentiels qu'un reglement de copro existe et sera fourni, et que nous fonctionnons donc avec un accord verbal entre voisins civilisés.
+1	Nous	Nous	PRON	_	PRON__Number=Plur|Person=1	1	nsubj	_	_
+2	faisons	faire	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
+4	visites	visiter	NOUN	_	NOUN__Gender=Fem|Number=Plur	4	obj	_	_
+5	et	et	CCONJ	_	CCONJ___	4	cc	_	_
+6	annonçons	annoncer	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	conj	_	_
+7	aux	aux	ADP	_	ADP___	6	nmod:poss	_	_
+8	acquéreurs	acquéreur	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	nmod	_	_
+9	potentiels	potentiel	ADJ	_	ADJ__Gender=Masc|Number=Plur	13	amod	_	_
+10	qu'	que	SCONJ	_	SCONJ___	9	mark	_	_
+11	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	reglement	reglement	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+13	de	de	ADP	_	ADP___	13	case	_	_
+14	copro	copro	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+15	existe	exister	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	amod	_	_
+16	et	et	CCONJ	_	CCONJ___	13	cc	_	_
+17	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	19	aux:pass	_	_
+18	fourni	fournir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	19	conj	_	_
+19	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+20	et	et	CCONJ	_	CCONJ___	22	cc	_	_
+21	que	que	PRON	_	PRON__PronType=Rel	22	mark	_	_
+22	nous	se	PRON	_	PRON__Number=Plur|Person=1	19	nsubj	_	_
+23	fonctionnons	fonctionner	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	25	conj	_	_
+24	donc	donc	ADV	_	ADV___	25	advmod	_	_
+25	avec	avec	ADP	_	ADP___	22	case	_	_
+26	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+27	accord	accord	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	obl	_	_
+28	verbal	verbal	ADJ	_	ADJ__Gender=Masc|Number=Sing	29	acl	_	_
+29	entre	entrer	ADP	_	ADP___	29	case	_	_
+30	voisins	voisin	ADJ	_	ADJ__Gender=Masc|Number=Plur	31	obl	_	_
+31	civilisés	civiliser	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	29	acl	_	_
+32	.	.	PUNCT	_	PUNCT___	33	punct	_	_
+
+
+#Un acquéreur fait donc une offre au prix.
+1	Un	Un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	acquéreur	acquéreur	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	donc	donc	ADV	_	ADV___	4	advmod	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+6	offre	offrir	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obj	_	_
+7	au	au	PRON	_	PRON__PronType=Rel	6	det	_	_
+8	prix	prix	NOUN	_	NOUN__Gender=Masc	9	nmod	_	_
+9	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Il signe le compromis en agence, sans que je sois présent, ni même invité.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	signe	signer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	compromis	compromettre	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obj	_	_
+5	en	en	ADP	_	ADP___	4	case	_	_
+6	agence	agencer	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+7	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+8	sans	sans	ADP	_	ADP___	9	mark	_	_
+9	que	que	SCONJ	_	SCONJ___	13	fixed	_	_
+10	je	il	PRON	_	PRON__Number=Sing|Person=1	9	nsubj	_	_
+11	sois	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	présent	présent	ADJ	_	ADJ__Gender=Masc|Number=Sing	13	advcl	_	_
+13	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+14	ni	ni	CCONJ	_	CCONJ___	13	cc	_	_
+15	même	même	ADJ	_	ADJ__Number=Sing	16	amod	_	_
+16	invité	inviter	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	conj	_	_
+17	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Ce compromis contient une clause particulière qui précise qu'un accord verbal existe entre moi et le voisin.
+1	Ce	Ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	1	det	_	_
+2	compromis	compromettre	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	contient	contenir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+5	clause	clause	ADJ	_	ADJ__Gender=Fem|Number=Sing	4	obj	_	_
+6	particulière	particulier	ADJ	_	ADJ__Gender=Fem|Number=Sing	4	amod	_	_
+7	qui	qui	PRON	_	PRON__PronType=Rel	6	nsubj	_	_
+8	précise	préciser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+9	qu'	que	SCONJ	_	SCONJ___	13	mark	_	_
+10	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+11	accord	accord	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nsubj	_	_
+12	verbal	verbal	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	amod	_	_
+13	existe	exister	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
+14	entre	entrer	ADP	_	ADP___	13	case	_	_
+15	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	16	obl	_	_
+16	et	et	CCONJ	_	CCONJ___	13	cc	_	_
+17	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	voisin	voisin	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	conj	_	_
+19	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Cette clause a été ajoutée sans mon consentement, puisque j'ai clairement demandé à l'AI de n'inclure aucune mention de l'accord verbal dans le compromis.
+1	Cette	Cette	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	1	det	_	_
+2	clause	clause	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj:pass	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	4	aux:pass	_	_
+5	ajoutée	ajouter	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+6	sans	sans	ADP	_	ADP___	4	case	_	_
+7	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+8	consentement	consentement	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obl	_	_
+9	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+10	puisque	puisque	SCONJ	_	SCONJ___	9	mark	_	_
+11	j'	il	PRON	_	PRON__Number=Sing|Person=1	13	nsubj	_	_
+12	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	clairement	clairement	ADV	_	ADV___	13	advmod	_	_
+14	demandé	demander	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	advcl	_	_
+15	à	à	ADP	_	ADP___	16	case	_	_
+16	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+17	AI	AI	PROPN	_	PROPN__Number=Sing	19	obl	_	_
+18	de	de	ADP	_	ADP___	19	mark	_	_
+19	n'	ne	ADV	_	ADV___	13	advmod	_	_
+20	inclure	inclure	VERB	_	VERB__VerbForm=Inf	22	xcomp	_	_
+21	aucune	aucun	DET	_	DET__Gender=Fem|Number=Sing	22	det	_	_
+22	mention	mention	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obj	_	_
+23	de	de	ADP	_	ADP___	25	case	_	_
+24	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+25	accord	accord	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	nmod	_	_
+26	verbal	verbal	ADJ	_	ADJ__Gender=Masc|Number=Sing	13	acl	_	_
+27	dans	dan	ADP	_	ADP___	29	case	_	_
+28	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	compromis	compromettre	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	obl	_	_
+30	.	.	PUNCT	_	PUNCT___	31	punct	_	_
+
+
+#Seul le reglement de copropriété est valable.
+1	Seul	Seul	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	amod	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+3	reglement	reglement	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+4	de	de	ADP	_	ADP___	4	case	_	_
+5	copropriété	copropriété	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+6	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+7	valable	valable	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+8	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Du coup, je crains que l'AI me demande de payer sa commission, alors que je n'ai aucune envie de signer ce compromis mal rédigé.
+1	Du	Du	DET	_	DET__Gender=Masc|Number=Sing	1	det	_	_
+2	coup	coup	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+5	crains	craindre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	que	que	SCONJ	_	SCONJ___	4	mark	_	_
+7	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+8	AI	AI	PROPN	_	PROPN__Number=Sing	9	nsubj	_	_
+9	me	se	PRON	_	PRON__Number=Sing|Person=1	13	iobj	_	_
+10	demande	demander	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+11	de	de	ADP	_	ADP___	13	mark	_	_
+12	payer	payer	VERB	_	VERB__VerbForm=Inf	13	xcomp	_	_
+13	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	13	nmod:poss	_	_
+14	commission	commission	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obj	_	_
+15	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+16	alors	alors	ADV	_	ADV___	13	mark	_	_
+17	que	que	SCONJ	_	SCONJ___	19	fixed	_	_
+18	je	il	PRON	_	PRON__Number=Sing|Person=1	19	nsubj	_	_
+19	n'	ne	ADV	_	ADV___	13	advmod	_	_
+20	ai	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	advcl	_	_
+21	aucune	aucun	DET	_	DET__Gender=Fem|Number=Sing	22	det	_	_
+22	envie	envier	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obj	_	_
+23	de	de	ADP	_	ADP___	25	mark	_	_
+24	signer	signer	VERB	_	VERB__VerbForm=Inf	25	acl	_	_
+25	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	22	det	_	_
+26	compromis	compromettre	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+27	mal	mal	ADV	_	ADV___	29	advmod	_	_
+28	rédigé	rédiger	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	29	acl	_	_
+29	.	.	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#Il ne l'a pas encore fait, mais je pense qu'il va me dire que puisque le bien était présenté aux acquéreurs potentiels comme fonctionnant selon un accord oral, mon refus de vendre selon le compromis actuel serait une faute de ma part.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	ne	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+3	l'	le	PRON	_	PRON__Number=Sing|Person=3	4	obj	_	_
+4	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+6	encore	encore	ADV	_	ADV___	4	advmod	_	_
+7	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+8	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+9	mais	mai	CCONJ	_	CCONJ___	13	cc	_	_
+10	je	il	PRON	_	PRON__Number=Sing|Person=1	9	nsubj	_	_
+11	pense	penser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	conj	_	_
+12	qu'	que	SCONJ	_	SCONJ___	13	mark	_	_
+13	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	13	nsubj	_	_
+14	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
+15	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	16	expl	_	_
+16	dire	dire	VERB	_	VERB__VerbForm=Inf	13	xcomp	_	_
+17	que	que	SCONJ	_	SCONJ___	19	mark	_	_
+18	puisque	puisque	SCONJ	_	SCONJ___	19	mark	_	_
+19	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+20	bien	bien	ADV	_	ADV___	22	nsubj	_	_
+21	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	aux:pass	_	_
+22	présenté	présenter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	19	ccomp	_	_
+23	aux	aux	ADP	_	ADP___	25	nmod:poss	_	_
+24	acquéreurs	acquéreur	NOUN	_	NOUN__Gender=Masc|Number=Plur	25	obj	_	_
+25	potentiels	potentiel	ADJ	_	ADJ__Gender=Masc|Number=Plur	22	amod	_	_
+26	comme	comme	ADP	_	ADP___	13	mark	_	_
+27	fonctionnant	fonctionner	VERB	_	VERB__Tense=Pres|VerbForm=Part	29	acl	_	_
+28	selon	selon	ADP	_	ADP___	29	case	_	_
+29	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+30	accord	accord	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	obl	_	_
+31	oral	oral	ADJ	_	ADJ__Gender=Masc|Number=Sing	29	amod	_	_
+32	,	,	PUNCT	_	PUNCT___	33	punct	_	_
+33	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	29	nmod:poss	_	_
+34	refus	refus	NOUN	_	NOUN__Gender=Masc|Number=Sing	36	conj	_	_
+35	de	de	ADP	_	ADP___	36	mark	_	_
+36	vendre	vendre	VERB	_	VERB__VerbForm=Inf	29	acl	_	_
+37	selon	selon	ADP	_	ADP___	39	case	_	_
+38	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	compromis	compromettre	NOUN	_	NOUN__Gender=Masc|Number=Sing	36	obl	_	_
+40	actuel	actuel	ADJ	_	ADJ__Gender=Masc|Number=Sing	41	nmod	_	_
+41	serait	être	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	cop	_	_
+42	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+43	faute	fauter	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	obl	_	_
+44	de	de	ADP	_	ADP___	43	case	_	_
+45	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	43	nmod:poss	_	_
+46	part	partir	NOUN	_	NOUN__Gender=Fem|Number=Sing	45	nmod	_	_
+47	.	.	PUNCT	_	PUNCT___	49	punct	_	_
+
+
+#Enfin, les annonces mises en ligne par l'AI  concernant mon bien à vendre, ne mentionnent rien en ce qui concerne cet accord oral, ni le reglement de copro.
+1	Enfin	Enfin	ADV	_	ADV___	1	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+4	annonces	annoncer	NOUN	_	NOUN__Gender=Fem|Number=Plur	4	nsubj	_	_
+5	mises	miser	NOUN	_	NOUN__Gender=Fem|Number=Plur	4	acl	_	_
+6	en	en	ADP	_	ADP___	4	case	_	_
+7	ligne	ligne	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obl	_	_
+8	par	par	ADP	_	ADP___	9	case	_	_
+9	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+10	AI	AI	PROPN	_	PROPN__Number=Sing	9	nmod	_	_
+11	 	 	SPACE	_		13		_	_
+12	concernant	concerner	VERB	_	VERB__Tense=Pres|VerbForm=Part	0	ROOT	_	_
+13	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	13	nmod:poss	_	_
+14	bien	bien	ADV	_	ADV___	13	obj	_	_
+15	à	à	ADP	_	ADP___	16	mark	_	_
+16	vendre	vendre	VERB	_	VERB__VerbForm=Inf	13	xcomp	_	_
+17	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+18	ne	ne	ADV	_	ADV___	19	advmod	_	_
+19	mentionnent	mentionner	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	parataxis	_	_
+20	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	22	obj	_	_
+21	en	en	ADP	_	ADP___	22	case	_	_
+22	ce	ce	PRON	_	PRON__PronType=Rel	19	fixed	_	_
+23	qui	qui	PRON	_	PRON__PronType=Rel	25	fixed	_	_
+24	concerne	concerner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	fixed	_	_
+25	cet	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	22	det	_	_
+26	accord	accord	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+27	oral	oral	ADJ	_	ADJ__Gender=Masc|Number=Sing	29	amod	_	_
+28	,	,	PUNCT	_	PUNCT___	29	punct	_	_
+29	ni	ni	CCONJ	_	CCONJ___	29	cc	_	_
+30	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	reglement	reglement	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	conj	_	_
+32	de	de	ADP	_	ADP___	33	case	_	_
+33	copro	copro	NOUN	_	NOUN__Gender=Masc|Number=Plur	29	nmod	_	_
+34	.	.	PUNCT	_	PUNCT___	36	punct	_	_
+
+
+#Ma question est donc : que dois-je faire ?
+1	Ma	Ma	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	donc	donc	ADV	_	ADV___	0	ROOT	_	_
+5	:	:	PUNCT	_	PUNCT___	4	punct	_	_
+6	que	que	SCONJ	_	SCONJ___	4	mark	_	_
+7	dois	devoir	NUM	_	NUM__NumType=Card	6	aux	_	_
+8	-	-	PUNCT	_	PUNCT___	9	punct	_	_
+9	je	il	PRON	_	PRON__Number=Sing|Person=1	13	nsubj	_	_
+10	faire	faire	VERB	_	VERB__VerbForm=Inf	9	ccomp	_	_
+11	?	?	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Merci  d'avoir pris le temps de lire ce message !
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	 	 	SPACE	_		1		_	_
+3	d'	de	ADP	_	ADP___	4	mark	_	_
+4	avoir	avoir	AUX	_	AUX__VerbForm=Inf	4	aux	_	_
+5	pris	prendre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	4	acl	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+7	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+8	de	de	ADP	_	ADP___	9	mark	_	_
+9	lire	lire	VERB	_	VERB__VerbForm=Inf	13	xcomp	_	_
+10	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+11	message	message	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+12	!	!	PUNCT	_	PUNCT___	13	punct	_	_
+
+

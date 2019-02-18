@@ -1,0 +1,65 @@
+#Bonjour,Votre ami est il le grand père de l'enfant concerné par le droit de visite ?
+1	Bonjour	Bonjour	PROPN	_	PROPN___	9	case	_	_
+2	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+3	Votre	Votre	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+4	ami	ami	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nsubj	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+6	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	9	case	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	grand	grand	ADJ	_	ADJ__Gender=Masc|Number=Sing	9	amod	_	_
+9	père	père	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+10	de	de	ADP	_	ADP___	12	case	_	_
+11	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	enfant	enfant	NOUN	_	NOUN__Number=Sing	9	nmod	_	_
+13	concerné	concerner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	acl	_	_
+14	par	par	ADP	_	ADP___	16	case	_	_
+15	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+17	de	de	ADP	_	ADP___	18	case	_	_
+18	visite	visiter	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nmod	_	_
+19	?	?	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Si oui, qu'en est-il du père (le fils de votre ami si j'ai bien compris)?Le droit de visite est-il accordé dans le cadre de l'article 371
+1	Si	Si	SCONJ	_	SCONJ___	9	mark	_	_
+2	oui	oui	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obl	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	qu'	que	PRON	_	PRON__PronType=Rel	9	mark	_	_
+5	en	en	PRON	_	PRON__Person=3	9	dep	_	_
+6	est-il	est-il	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	du	du	DET	_	DET__Gender=Masc|Number=Sing	9	det	_	_
+8	père	père	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+9	(	(	PUNCT	_	PUNCT___	9	punct	_	_
+10	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	fils	fil	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+12	de	de	ADP	_	ADP___	9	case	_	_
+13	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	12	nmod:poss	_	_
+14	ami	ami	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	nmod	_	_
+15	si	si	SCONJ	_	SCONJ___	16	mark	_	_
+16	j'	il	PRON	_	PRON__Number=Sing|Person=1	13	nsubj	_	_
+17	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	bien	bien	ADV	_	ADV___	16	advmod	_	_
+19	compris)?Le	compris)?Le	ADJ	_	ADJ__Gender=Masc|Number=Sing	9	advcl	_	_
+20	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obj	_	_
+21	de	de	ADP	_	ADP___	25	case	_	_
+22	visite	visiter	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	nmod	_	_
+23	est-il	est-il	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	amod	_	_
+24	accordé	accorder	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	acl	_	_
+25	dans	dan	ADP	_	ADP___	25	case	_	_
+26	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	fixed	_	_
+27	cadre	cadrer	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	fixed	_	_
+28	de	de	ADP	_	ADP___	25	fixed	_	_
+29	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	30	det	_	_
+30	article	article	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	obl	_	_
+31	371	371	NUM	_	NUM__NumType=Card	33	nummod	_	_
+
+
+#-4 du code civil ?
+1	-	-	PUNCT	_	PUNCT___	9	punct	_	_
+2	4	4	NUM	_	NUM__NumType=Card	9	nummod	_	_
+3	du	du	DET	_	DET__Gender=Masc|Number=Sing	4	det	_	_
+4	code	coder	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	civil	civil	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	amod	_	_
+6	?	?	PUNCT	_	PUNCT___	9	punct	_	_
+
+

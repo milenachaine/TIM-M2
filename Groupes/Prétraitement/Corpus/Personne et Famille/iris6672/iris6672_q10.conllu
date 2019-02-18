@@ -1,0 +1,119 @@
+#Alors, en 2029 je dois aller chez un notaire avec la position suivante :
+1	Alors	Alors	ADV	_	ADV___	7	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+3	en	en	ADP	_	ADP___	4	case	_	_
+4	2029	2029	NUM	_	NUM__NumType=Card	7	obl	_	_
+5	je	il	PRON	_	PRON__Number=Sing|Person=1	7	nsubj	_	_
+6	dois	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	aller	aller	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+8	chez	chez	ADP	_	ADP___	10	case	_	_
+9	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	notaire	notaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+11	avec	avec	ADP	_	ADP___	13	case	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	position	position	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obl	_	_
+14	suivante	suivant	ADJ	_	ADJ__Gender=Fem|Number=Sing	13	amod	_	_
+15	:	:	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#- j'ai déjà opté (accepté) tacitement depuis belle lurette, par prise de possession du bien, paiement des taxes afférentes...
+1	-	-	PUNCT	_	PUNCT___	7	punct	_	_
+2	j'	il	PRON	_	PRON__Number=Sing|Person=1	7	nsubj	_	_
+3	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	déjà	déjà	ADV	_	ADV___	7	advmod	_	_
+5	opté	opter	ADV	_	ADV___	0	ROOT	_	_
+6	(	(	PUNCT	_	PUNCT___	7	punct	_	_
+7	accepté	accepter	NOUN	_	NOUN___	7	obl	_	_
+8	)	)	PUNCT	_	PUNCT___	10	punct	_	_
+9	tacitement	tacitement	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	advmod	_	_
+10	depuis	depuis	ADP	_	ADP___	7	case	_	_
+11	belle	beau	ADJ	_	ADJ__Gender=Fem|Number=Sing	13	amod	_	_
+12	lurette	lurette	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obl	_	_
+13	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+14	par	par	ADP	_	ADP___	13	case	_	_
+15	prise	priser	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obl	_	_
+16	de	de	ADP	_	ADP___	20	case	_	_
+17	possession	possession	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	nmod	_	_
+18	du	du	DET	_	DET__Gender=Masc|Number=Sing	20	det	_	_
+19	bien	bien	ADV	_	ADV___	20	obj	_	_
+20	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+21	paiement	paiement	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	conj	_	_
+22	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	20	det	_	_
+23	taxes	taxer	NOUN	_	NOUN__Gender=Masc|Number=Plur	20	nmod	_	_
+24	afférentes	afférent	ADJ	_	ADJ__Gender=Fem|Number=Plur	20	amod	_	_
+25	...	...	PUNCT	_	PUNCT___	27	punct	_	_
+
+
+#- ni mon frère ni mes neveux n'ont jamais opté tacitement, ils sont donc réputés renonçants après 30 anset que va-t-il se passer ensuite?
+1	-	-	PUNCT	_	PUNCT___	7	punct	_	_
+2	ni	ni	CCONJ	_	CCONJ___	7	cc	_	_
+3	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+4	frère	frère	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+5	ni	ni	CCONJ	_	CCONJ___	7	cc	_	_
+6	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	7	nmod:poss	_	_
+7	neveux	neveu	ADJ	_	ADJ__Gender=Masc	7	conj	_	_
+8	n'	ne	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+9	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	jamais	jamais	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+11	opté	opter	ADV	_	ADV___	0	ROOT	_	_
+12	tacitement	tacitement	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	advmod	_	_
+13	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+14	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	13	nsubj	_	_
+15	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+16	donc	donc	ADV	_	ADV___	20	advmod	_	_
+17	réputés	réputer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	20	ccomp	_	_
+18	renonçants	renonçants	NOUN	_	NOUN__Gender=Masc|Number=Plur	20	amod	_	_
+19	après	après	ADP	_	ADP___	20	case	_	_
+20	30	30	NUM	_	NUM__NumType=Card	20	nummod	_	_
+21	anset	anset	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obl	_	_
+22	que	que	SCONJ	_	SCONJ___	20	obj	_	_
+23	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl	_	_
+24	-	-	PUNCT	_	PUNCT___	20	punct	_	_
+25	t	t	NOUN	_	NOUN__Gender=Fem|Number=Plur	27	advmod	_	_
+26	-	-	PUNCT	_	PUNCT___	27	punct	_	_
+27	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	24	nsubj	_	_
+28	se	se	PRON	_	PRON__Person=3|Reflex=Yes	24	expl	_	_
+29	passer	prendre	VERB	_	VERB__VerbForm=Inf	30	conj	_	_
+30	ensuite	ensuite	ADV	_	ADV___	24	advmod	_	_
+31	?	?	PUNCT	_	PUNCT___	32	punct	_	_
+
+
+#meme apres 30 ans (en 2029) comme un notaire ne peut pas décréter que leurs droits sont perdus, il va me faire chercher mes neveux?
+1	meme	meme	ADV	_	ADV___	7	advmod	_	_
+2	apres	apres	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	amod	_	_
+3	30	30	NUM	_	NUM__NumType=Card	4	nummod	_	_
+4	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	nmod	_	_
+5	(	(	PUNCT	_	PUNCT___	7	punct	_	_
+6	en	en	ADP	_	ADP___	7	case	_	_
+7	2029	2029	NUM	_	NUM__NumType=Card	7	nummod	_	_
+8	)	)	PUNCT	_	PUNCT___	10	punct	_	_
+9	comme	comme	ADP	_	ADP___	10	case	_	_
+10	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+11	notaire	notaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nsubj	_	_
+12	ne	ne	ADV	_	ADV__Polarity=Neg	13	advmod	_	_
+13	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+14	pas	pas	ADV	_	ADV__Polarity=Neg	13	advmod	_	_
+15	décréter	décréter	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+16	que	que	SCONJ	_	SCONJ___	20	mark	_	_
+17	leurs	leur	DET	_	DET__Number=Plur|Poss=Yes	20	nmod:poss	_	_
+18	droits	droit	NOUN	_	NOUN__Gender=Masc|Number=Plur	20	nsubj	_	_
+19	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux:pass	_	_
+20	perdus	perdu	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	20	advcl	_	_
+21	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+22	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	20	nsubj	_	_
+23	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+24	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	20	expl	_	_
+25	faire	faire	VERB	_	VERB__VerbForm=Inf	27	ccomp	_	_
+26	chercher	chercher	VERB	_	VERB__VerbForm=Inf	27	xcomp	_	_
+27	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	24	nmod:poss	_	_
+28	neveux	neveu	ADJ	_	ADJ__Gender=Masc	24	obj	_	_
+29	?	?	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#c'est ca?
+1	c'	ce	PRON	_	PRON__Number=Sing|Person=3	7	nsubj:pass	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+3	ca	ca	PRON	_	PRON__PronType=Rel	0	ROOT	_	_
+4	?	?	PUNCT	_	PUNCT___	7	punct	_	_
+
+

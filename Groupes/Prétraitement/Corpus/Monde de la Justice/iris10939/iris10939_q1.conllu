@@ -1,0 +1,100 @@
+#Bonjour,Mon divorce a été prononcé fin  mars dernier.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	7	obl	_	_
+2	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+3	Mon	Mon	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+4	divorce	divorcer	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+5	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	7	aux:pass	_	_
+7	prononcé	prononcer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+8	fin	fin	NOUN	_	NOUN__Number=Sing	7	obj	_	_
+9	 	 	SPACE	_		8		_	_
+10	mars	mars	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+11	dernier	dernier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	10	amod	_	_
+12	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Mon épouse a fait appel de ce jugement fin avril et m'a  transmis ses arguments fin juillet.
+1	Mon	Mon	DET	_	DET__Number=Sing|Poss=Yes	7	nmod:poss	_	_
+2	épouse	époux	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nsubj	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	appel	appel	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+6	de	de	ADP	_	ADP___	7	case	_	_
+7	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+8	jugement	jugement	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+9	fin	fin	NOUN	_	NOUN__Number=Sing	8	det	_	_
+10	avril	avril	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+11	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+12	m'	se	PRON	_	PRON__Number=Sing|Person=1	7	iobj	_	_
+13	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	 	 	SPACE	_		16		_	_
+15	transmis	transmettre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	16	conj	_	_
+16	ses	son	DET	_	DET__Number=Plur|Poss=Yes	16	nmod:poss	_	_
+17	arguments	argument	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	obj	_	_
+18	fin	fin	NOUN	_	NOUN__Number=Sing	20	det	_	_
+19	juillet	juillet	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	nmod	_	_
+20	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Les miens en réponse ont été  transmis mi octobre (date limite pour répondre selon mon avocat).Je  souhaiterais savoir si mon épouse a une date limite pour répondre ou  cela peut-il durer plus longtemps ?
+1	Les	Les	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+2	miens	mien	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	nsubj	_	_
+3	en	en	ADP	_	ADP___	4	case	_	_
+4	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+5	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	7	aux:pass	_	_
+7	 	 	SPACE	_		7		_	_
+8	transmis	transmettre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	0	ROOT	_	_
+9	mi	mi	ADP	_	ADP___	8	case	_	_
+10	octobre	octobre	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+11	(	(	PUNCT	_	PUNCT___	10	punct	_	_
+12	date	dater	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obl	_	_
+13	limite	limiter	ADJ	_	ADJ__Gender=Fem|Number=Sing	14	nmod	_	_
+14	pour	pour	ADP	_	ADP___	16	mark	_	_
+15	répondre	répondre	VERB	_	VERB__VerbForm=Inf	16	advcl	_	_
+16	selon	selon	ADP	_	ADP___	16	case	_	_
+17	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	16	nmod:poss	_	_
+18	avocat).Je	avocat).Je	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obl	_	_
+19	 	 	SPACE	_		20		_	_
+20	souhaiterais	souhaiter	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	cc	_	_
+21	savoir	savoir	VERB	_	VERB__VerbForm=Inf	22	conj	_	_
+22	si	si	SCONJ	_	SCONJ___	20	mark	_	_
+23	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	27	nmod:poss	_	_
+24	épouse	époux	NOUN	_	NOUN__Gender=Fem|Number=Sing	27	nsubj	_	_
+25	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	ccomp	_	_
+26	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+27	date	dater	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obj	_	_
+28	limite	limiter	ADJ	_	ADJ__Gender=Fem|Number=Sing	29	nmod	_	_
+29	pour	pour	ADP	_	ADP___	27	mark	_	_
+30	répondre	répondre	VERB	_	VERB__VerbForm=Inf	31	advcl	_	_
+31	ou	ou	CCONJ	_	CCONJ___	29	cc	_	_
+32	 	 	SPACE	_		16		_	_
+33	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	34	nsubj	_	_
+34	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	conj	_	_
+35	-	-	PUNCT	_	PUNCT___	36	punct	_	_
+36	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	34	nsubj	_	_
+37	durer	durer	VERB	_	VERB__VerbForm=Inf	40	xcomp	_	_
+38	plus	plaire	ADV	_	ADV___	40	advmod	_	_
+39	longtemps	longtemps	ADV	_	ADV___	38	obj	_	_
+40	?	?	PUNCT	_	PUNCT___	40	punct	_	_
+
+
+#Et ensuite irons-nous devant la  cours d'appel ?
+1	Et	Et	CCONJ	_	CCONJ___	7	cc	_	_
+2	ensuite	ensuite	ADV	_	ADV___	7	advmod	_	_
+3	irons	aller	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+4	-	-	PUNCT	_	PUNCT___	7	punct	_	_
+5	nous	se	PRON	_	PRON__Number=Plur|Person=1	7	nmod	_	_
+6	devant	devoir	ADP	_	ADP___	7	cop	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+8	 	 	SPACE	_		7		_	_
+9	cours	courir	NOUN	_	NOUN__Gender=Masc	8	acl	_	_
+10	d'	de	ADP	_	ADP___	8	case	_	_
+11	appel	appel	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obl	_	_
+12	?	?	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#merci
+1	merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+
+

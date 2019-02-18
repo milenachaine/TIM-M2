@@ -1,0 +1,103 @@
+#Bonjour, nous sommes 3  associées (A,B et C) d'une SCI.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+3	nous	se	PRON	_	PRON__Number=Plur|Person=1	7	nsubj	_	_
+4	sommes	sommer	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	3	3	NUM	_	NUM__NumType=Card	7	nummod	_	_
+6	 	 	SPACE	_		5		_	_
+7	associées	associer	ADJ	_	ADJ__Gender=Fem|Number=Plur	1	acl	_	_
+8	(	(	PUNCT	_	PUNCT___	1	punct	_	_
+9	A	A	NOUN	_	NOUN___	1	nmod	_	_
+10	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+11	B	B	NOUN	_	NOUN___	9	conj	_	_
+12	et	et	CCONJ	_	CCONJ___	13	cc	_	_
+13	C	C	NOUN	_	NOUN___	9	conj	_	_
+14	)	)	PUNCT	_	PUNCT___	1	punct	_	_
+15	d'	de	ADP	_	ADP___	17	case	_	_
+16	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	SCI	SCI	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+18	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Nous devons désigner parmi nous (pour éviter de passer par la justice) un mandataire commun pour les parts indivises.
+1	Nous	Nous	PRON	_	PRON__Number=Plur|Person=1	1	nsubj	_	_
+2	devons	devon	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+3	désigner	désigner	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	parmi	parmi	ADP	_	ADP___	7	case	_	_
+5	nous	se	PRON	_	PRON__Number=Plur|Person=1|PronType=Prs	7	obl	_	_
+6	(	(	PUNCT	_	PUNCT___	5	punct	_	_
+7	pour	pour	ADP	_	ADP___	1	mark	_	_
+8	éviter	éviter	VERB	_	VERB__VerbForm=Inf	1	advcl	_	_
+9	de	de	ADP	_	ADP___	1	mark	_	_
+10	passer	prendre	VERB	_	VERB__VerbForm=Inf	11	xcomp	_	_
+11	par	par	ADP	_	ADP___	9	case	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	justice	justice	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obl	_	_
+14	)	)	PUNCT	_	PUNCT___	1	punct	_	_
+15	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	mandataire	mandataire	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obj	_	_
+17	commun	commun	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	amod	_	_
+18	pour	pour	ADP	_	ADP___	1	case	_	_
+19	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	21	det	_	_
+20	parts	part	NOUN	_	NOUN__Number=Plur	21	nmod	_	_
+21	indivises	indivis	ADJ	_	ADJ__Gender=Fem|Number=Plur	21	amod	_	_
+22	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Les associés A et B  sont d'accord pour donner mandat à B."C" n'a pas répondu.
+1	Les	Les	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+2	associés	associer	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	nsubj:pass	_	_
+3	A	A	NOUN	_	NOUN___	7	nmod	_	_
+4	et	et	CCONJ	_	CCONJ___	7	cc	_	_
+5	B	B	NOUN	_	NOUN___	7	conj	_	_
+6	 	 	SPACE	_		5		_	_
+7	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
+8	d'	de	ADP	_	ADP___	1	nsubj:pass	_	_
+9	accord	accord	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	fixed	_	_
+10	pour	pour	ADP	_	ADP___	11	mark	_	_
+11	donner	donner	VERB	_	VERB__VerbForm=Inf	9	advcl	_	_
+12	mandat	mandat	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+13	à	à	ADP	_	ADP___	9	case	_	_
+14	B."C	B."C	PROPN	_	PROPN__Gender=Masc|Number=Sing	1	nmod	_	_
+15	"	"	PUNCT	_	PUNCT___	17	punct	_	_
+16	n'	ne	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+17	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+18	pas	pas	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+19	répondu	répondre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+20	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#A et B détienne les 2/3 des parts indivises.
+1	A	A	NOUN	_	NOUN___	1	nsubj	_	_
+2	et	et	CCONJ	_	CCONJ___	7	cc	_	_
+3	B	B	NOUN	_	NOUN___	7	conj	_	_
+4	détienne	détenir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+6	2/3	2/3	PRON	_	PRON__NumType=Card|PronType=Rel	5	obj	_	_
+7	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	1	det	_	_
+8	parts	part	NOUN	_	NOUN__Number=Plur	1	obj	_	_
+9	indivises	indivis	ADJ	_	ADJ__Gender=Fem|Number=Plur	1	amod	_	_
+10	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Peut-on considérer que B est demblée mandataire commun ?
+1	Peut	Peut	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+2	-	-	PUNCT	_	PUNCT___	7	punct	_	_
+3	on	on	PRON	_	PRON__Number=Sing|Person=3	7	nsubj	_	_
+4	considérer	considérer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	que	que	SCONJ	_	SCONJ___	7	mark	_	_
+6	B	B	NOUN	_	NOUN___	5	nsubj	_	_
+7	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
+8	demblée	demblée	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	cop	_	_
+9	mandataire	mandataire	ADJ	_	ADJ__Number=Sing	1	ccomp	_	_
+10	commun	commun	ADJ	_	ADJ__Gender=Masc|Number=Sing	11	amod	_	_
+11	?	?	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Merci de vos réponses
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	de	de	ADP	_	ADP___	7	case	_	_
+3	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	7	nmod:poss	_	_
+4	réponses	réponse	NOUN	_	NOUN__Gender=Fem|Number=Plur	7	nmod	_	_
+
+

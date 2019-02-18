@@ -1,0 +1,94 @@
+#Soit quelque chose m'échappe, soit l'employeur s'est trompé.
+1	Soit	Soit	CCONJ	_	CCONJ___	5	mark	_	_
+2	quelque	quelque	DET	_	DET__Number=Sing	5	advmod	_	_
+3	chose	chose	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	fixed	_	_
+4	m'	se	PRON	_	PRON__Number=Sing|Person=1	5	nmod:poss	_	_
+5	échappe	échapper	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+7	soit	être	CCONJ	_	CCONJ___	9	cc	_	_
+8	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nsubj	_	_
+10	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	12	expl	_	_
+11	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	trompé	tromper	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+13	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Tel que c'est écrit il doit payer 37 heures semaines, soit 160,3 heures par mois.
+1	Tel	Tel	PROPN	_	PROPN__Gender=Masc|Number=Sing	5	mark	_	_
+2	que	que	SCONJ	_	SCONJ___	5	fixed	_	_
+3	c'	ce	PRON	_	PRON__Number=Sing|Person=3	2	nsubj	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	écrit	écrire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	advmod	_	_
+6	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+7	doit	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	payer	payer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+9	37	37	NUM	_	NUM__NumType=Card	12	nummod	_	_
+10	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	12	obj	_	_
+11	semaines	semaine	ADJ	_	ADJ__Gender=Fem|Number=Plur	12	advmod	_	_
+12	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+13	soit	être	CCONJ	_	CCONJ___	5	cc	_	_
+14	160,3	160,3	NUM	_	NUM__NumType=Card	21	nummod	_	_
+15	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	14	obl	_	_
+16	par	par	ADP	_	ADP___	21	case	_	_
+17	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	21	nmod	_	_
+18	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Mais la ça ne colle plus avec l'horaire annuel.1610 h par an ça colle en gros avec un 35 h vu qu'on travaille plus ou moins 47 semaines dans l'année (moins quelques jours fériés)Pour un 37 h il aurait du partir sur une basse de 1700 par an environ.
+1	Mais	Mais	CCONJ	_	CCONJ___	5	cc	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+3	ça	ça	PROPN	_	PROPN__Gender=Fem|Number=Sing	2	nsubj	_	_
+4	ne	ne	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+5	colle	coller	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	plus	plaire	ADV	_	ADV___	5	advmod	_	_
+7	avec	avec	ADP	_	ADP___	9	case	_	_
+8	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	horaire	horaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	fixed	_	_
+10	annuel.1610	annuel.1610	NOUN	_	NOUN___	12	det	_	_
+11	h	h	NOUN	_	NOUN___	12	obl	_	_
+12	par	par	ADP	_	ADP___	5	case	_	_
+13	an	an	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+14	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	21	det	_	_
+15	colle	coller	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	obj	_	_
+16	en	en	ADP	_	ADP___	21	mark	_	_
+17	gros	gros	ADJ	_	ADJ__Gender=Masc	21	advcl	_	_
+18	avec	avec	ADP	_	ADP___	21	case	_	_
+19	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	35	35	NUM	_	NUM__NumType=Card	21	nummod	_	_
+21	h	h	NOUN	_	NOUN___	21	obl	_	_
+22	vu	voir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	acl	_	_
+23	qu'	que	SCONJ	_	SCONJ___	21	mark	_	_
+24	on	on	PRON	_	PRON__Number=Sing|Person=3	21	nsubj	_	_
+25	travaille	travailler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	ccomp	_	_
+26	plus	plaire	ADV	_	ADV__Polarity=Neg	28	advmod	_	_
+27	ou	ou	CCONJ	_	CCONJ___	28	fixed	_	_
+28	moins	moins	ADV	_	ADV___	21	advmod	_	_
+29	47	47	NUM	_	NUM__NumType=Card	30	nummod	_	_
+30	semaines	semaine	NOUN	_	NOUN__Gender=Fem|Number=Plur	28	conj	_	_
+31	dans	dan	ADP	_	ADP___	21	case	_	_
+32	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	36	det	_	_
+33	année	année	NOUN	_	NOUN__Gender=Fem|Number=Sing	34	nmod	_	_
+34	(	(	PUNCT	_	PUNCT___	36	punct	_	_
+35	moins	moins	ADV	_	ADV___	36	advmod	_	_
+36	quelques	quelque	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	36	det	_	_
+37	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	42	nsubj	_	_
+38	fériés)Pour	fériés)Pour	VERB	_	VERB__Tense=Pres|VerbForm=Part	40	case	_	_
+39	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	37	37	NUM	_	NUM__NumType=Card	37	nummod	_	_
+41	h	h	NOUN	_	NOUN___	42	nmod	_	_
+42	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	36	nsubj	_	_
+43	aurait	avoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	aux	_	_
+44	du	du	DET	_	DET__Gender=Masc|Number=Sing	42	obj	_	_
+45	partir	partir	VERB	_	VERB__VerbForm=Inf	46	xcomp	_	_
+46	sur	sur	ADP	_	ADP___	36	mark	_	_
+47	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+48	basse	bas	NOUN	_	NOUN__Gender=Fem|Number=Sing	46	obl	_	_
+49	de	de	ADP	_	ADP___	52	case	_	_
+50	1700	1700	NUM	_	NUM__NumType=Card	52	nmod	_	_
+51	par	par	ADP	_	ADP___	52	case	_	_
+52	an	an	NOUN	_	NOUN__Gender=Masc|Number=Sing	36	obl	_	_
+53	environ	environ	ADV	_	ADV___	52	advmod	_	_
+54	.	.	PUNCT	_	PUNCT___	56	punct	_	_
+
+

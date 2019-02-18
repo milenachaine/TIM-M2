@@ -1,0 +1,86 @@
+#Bonjour,Confirmez
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	Confirmez	Confirmez	PROPN	_	PROPN___	1	conj	_	_
+
+
+#-vous que le tribunal s'est basé sur les faux ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	3	iobj	_	_
+3	que	que	PRON	_	PRON__PronType=Rel	1	mark	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+5	tribunal	tribunal	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nsubj	_	_
+6	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	11	expl	_	_
+7	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	basé	baser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+9	sur	sur	ADP	_	ADP___	11	case	_	_
+10	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	11	det	_	_
+11	faux	faillir	ADJ	_	ADJ__Gender=Masc	11	obl	_	_
+12	?	?	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Le jugement énonce t-il bien, pour débouter le requérant, que les attestations sont probantes ?
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	jugement	jugement	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	amod	_	_
+3	énonce	énoncer	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+4	t-il	t-il	ADV	_	ADV___	0	ROOT	_	_
+5	bien	bien	ADV	_	ADV___	11	advmod	_	_
+6	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+7	pour	pour	ADP	_	ADP___	8	mark	_	_
+8	débouter	débouter	VERB	_	VERB__VerbForm=Inf	11	advcl	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	requérant	requérir	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+11	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+12	que	que	SCONJ	_	SCONJ___	14	mark	_	_
+13	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	14	det	_	_
+14	attestations	attestation	NOUN	_	NOUN__Gender=Fem|Number=Plur	11	nsubj	_	_
+15	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+16	probantes	probant	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	18	ccomp	_	_
+17	?	?	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Je présume plutôt que le juge s'est basé sur l'avis de l'Expert, n'est-ce pas ?
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	présume	présumer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	plutôt	plutôt	ADV	_	ADV___	1	advmod	_	_
+4	que	que	SCONJ	_	SCONJ___	11	mark	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+6	juge	juger	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nsubj	_	_
+7	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	8	expl	_	_
+8	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+9	basé	baser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	ccomp	_	_
+10	sur	sur	ADP	_	ADP___	11	case	_	_
+11	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+12	avis	avis	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obl	_	_
+13	de	de	ADP	_	ADP___	14	case	_	_
+14	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+15	Expert	Expert	PROPN	_	PROPN___	11	nmod	_	_
+16	,	,	PUNCT	_	PUNCT___	18	punct	_	_
+17	n'	ne		_	ADV	18	advmod	_	_
+18	est	être		_	VERB	19	parataxis	_	_
+19	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	19	nsubj	_	_
+20	pas	pas	ADV	_	ADV__Polarity=Neg	19	advmod	_	_
+21	?	?	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Dans ce cas, je ne vois pas d'autre issue que de demander une contre expertise.
+1	Dans	Dans	ADP	_	ADP___	1	case	_	_
+2	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+4	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+5	je	il	PRON	_	PRON__Number=Sing|Person=1	11	nsubj	_	_
+6	ne	ne	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+7	vois	voir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	fixed	_	_
+8	pas	pas	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+9	d'	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	11	advmod	_	_
+10	autre	autre	ADJ	_	ADJ__Number=Sing	11	fixed	_	_
+11	issue	issu	ADJ	_	ADJ__Gender=Fem|Number=Sing	0	ROOT	_	_
+12	que	que	SCONJ	_	SCONJ___	14	mark	_	_
+13	de	de	ADP	_	ADP___	14	mark	_	_
+14	demander	demander	VERB	_	VERB__VerbForm=Inf	11	ccomp	_	_
+15	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+16	contre	contrer	ADP	_	ADP___	18	case	_	_
+17	expertise	expertiser	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	obj	_	_
+18	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+

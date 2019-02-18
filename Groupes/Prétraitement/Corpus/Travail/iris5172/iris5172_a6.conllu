@@ -1,0 +1,150 @@
+#Bonjour,A
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	A	A	NOUN	_	NOUN___	1	conj	_	_
+
+
+#-t-on des précisions sur les lieux de travail?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	t	t	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+3	-	-	PUNCT	_	PUNCT___	1	fixed	_	_
+4	on	on	PRON	_	PRON__Number=Sing|Person=3	5	fixed	_	_
+5	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
+6	précisions	précision	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	obj	_	_
+7	sur	sur	ADP	_	ADP___	5	case	_	_
+8	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+9	lieux	lieu	ADJ	_	ADJ__Gender=Masc	5	nmod	_	_
+10	de	de	ADP	_	ADP___	12	case	_	_
+11	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nmod	_	_
+12	?	?	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#En effet un déplacement de Mantes-la-Jolie à Roissy est considéré comme faisant partie du même bassin géographique () mais un déplacement de Paris aux Ulis, non ().Du
+1	En	En	ADP	_	ADP___	1	advmod	_	_
+2	effet	effet	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	fixed	_	_
+3	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+4	déplacement	déplacement	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+5	de	de	ADP	_	ADP___	5	case	_	_
+6	Mantes-la-Jolie	Mantes-la-Jolie	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+7	à	à	ADP	_	ADP___	5	case	_	_
+8	Roissy	Roissy	PROPN	_	PROPN__Gender=Masc|Number=Sing	9	nmod	_	_
+9	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+10	considéré	considérer	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	cop	_	_
+11	comme	comme	ADP	_	ADP___	12	mark	_	_
+12	faisant	faire	VERB	_	VERB__Tense=Pres|VerbForm=Part	0	ROOT	_	_
+13	partie	partir	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	xcomp	_	_
+14	du	du	DET	_	DET__Gender=Masc|Number=Sing	12	det	_	_
+15	même	même	ADJ	_	ADJ__Number=Sing	5	amod	_	_
+16	bassin	bassin	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obj	_	_
+17	géographique	géographique	ADJ	_	ADJ__Number=Sing	16	amod	_	_
+18	(	(	PUNCT	_	PUNCT___	19	punct	_	_
+19	)	)	PUNCT	_	PUNCT___	27	punct	_	_
+20	mais	mai	CCONJ	_	CCONJ___	21	cc	_	_
+21	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+22	déplacement	déplacement	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	conj	_	_
+23	de	de	ADP	_	ADP___	21	case	_	_
+24	Paris	Paris	PROPN	_	PROPN__Gender=Masc|Number=Sing	27	nmod	_	_
+25	aux	aux	ADP	_	ADP___	27	aux:pass	_	_
+26	Ulis	Ulis	PROPN	_	PROPN__Gender=Masc|Number=Sing	27	nmod	_	_
+27	,	,	PUNCT	_	PUNCT___	27	punct	_	_
+28	non	non	ADV	_	ADV___	27	conj	_	_
+29	(	(	PUNCT	_	PUNCT___	31	punct	_	_
+30	)	)	PUNCT	_	PUNCT___	31	punct	_	_
+31	.Du	.Du	PUNCT	_	PUNCT___	27	punct	_	_
+
+
+#coup en l'absence de clause de mobilité :
+1	coup	coup	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	en	en	ADP	_	ADP___	3	case	_	_
+3	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+4	absence	absence	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obl	_	_
+5	de	de	ADP	_	ADP___	5	case	_	_
+6	clause	clause	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+7	de	de	ADP	_	ADP___	5	case	_	_
+8	mobilité	mobilité	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nmod	_	_
+9	:	:	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#-ou c'est le même bassin géographique
+1	-ou	-ou	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	c'	ce	PRON	_	PRON__Number=Sing|Person=3	3	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	même	même	ADJ	_	ADJ__Number=Sing	5	amod	_	_
+6	bassin	bassin	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+7	géographique	géographique	ADJ	_	ADJ__Number=Sing	5	amod	_	_
+
+
+#-> conditions de travail changeables par l'employeur discrétionnairement
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	>	>	PRON	_	PRON__PronType=Rel	3	nummod	_	_
+3	conditions	condition	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+4	de	de	ADP	_	ADP___	5	case	_	_
+5	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+6	changeables	changeables	ADJ	_	ADJ__Number=Plur	5	amod	_	_
+7	par	par	ADP	_	ADP___	5	case	_	_
+8	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+10	discrétionnairement	discrétionnairement	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	nmod	_	_
+
+
+#-> refus abusif
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	>	>	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	refus	refus	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	abusif	abusif	ADJ	_	ADJ__Gender=Masc|Number=Sing	5	amod	_	_
+
+
+#-> licenciement pour faute tout à fait possible-ou pas le même bassin géographique -> droit de refuser -> seul le licenciement économique est envisageable et à condition de le justifier correctement (ce qui pour l'instant ne me semble pas avoir été fait)Bonne journée
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	>	>	PRON	_	PRON__PronType=Rel	3	nsubj	_	_
+3	licenciement	licenciement	ADV	_	ADV___	0	ROOT	_	_
+4	pour	pour	ADP	_	ADP___	5	case	_	_
+5	faute	fauter	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+6	tout	tout	ADV	_	ADV___	5	advmod	_	_
+7	à	à	ADP	_	ADP___	5	fixed	_	_
+8	fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	fixed	_	_
+9	possible	possible	ADJ	_	ADJ__Number=Sing	5	amod	_	_
+10	-	-	PUNCT	_	PUNCT___	12	punct	_	_
+11	ou	ou	CCONJ	_	CCONJ___	12	cc	_	_
+12	pas	pas	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+13	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	même	même	ADJ	_	ADJ__Number=Sing	12	amod	_	_
+15	bassin	bassin	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	conj	_	_
+16	géographique	géographique	ADJ	_	ADJ__Number=Sing	19	amod	_	_
+17	-	-	PUNCT	_	PUNCT___	16	punct	_	_
+18	>	>	PRON	_	PRON__PronType=Rel	19	det	_	_
+19	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	nmod	_	_
+20	de	de	ADP	_	ADP___	21	mark	_	_
+21	refuser	refuser	VERB	_	VERB__VerbForm=Inf	19	acl	_	_
+22	-	-	PUNCT	_	PUNCT___	23	punct	_	_
+23	>	>	PRON	_	PRON__PronType=Rel	21	nmod	_	_
+24	seul	seul	ADJ	_	ADJ__Gender=Masc|Number=Sing	27	amod	_	_
+25	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+26	licenciement	licenciement	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	nsubj	_	_
+27	économique	économique	ADJ	_	ADJ__Number=Sing	27	amod	_	_
+28	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+29	envisageable	envisageable	ADJ	_	ADJ__Number=Sing	31	conj	_	_
+30	et	et	CCONJ	_	CCONJ___	31	cc	_	_
+31	à	à	ADP	_	ADP___	27	mark	_	_
+32	condition	condition	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	fixed	_	_
+33	de	de	ADP	_	ADP___	27	fixed	_	_
+34	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+35	justifier	justifier	NOUN	_	NOUN__Gender=Masc|Number=Sing	37	conj	_	_
+36	correctement	correctement	ADV	_	ADV___	37	advmod	_	_
+37	(	(	PUNCT	_	PUNCT___	27	punct	_	_
+38	ce	ce	PRON	_	PRON__PronType=Rel	39	iobj	_	_
+39	qui	qui	PRON	_	PRON__PronType=Rel	37	nsubj	_	_
+40	pour	pour	ADP	_	ADP___	41	advmod	_	_
+41	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	37	fixed	_	_
+42	instant	instant	NOUN	_	NOUN__Gender=Masc|Number=Sing	41	fixed	_	_
+43	ne	ne	ADV	_	ADV___	41	advmod	_	_
+44	me	se	PRON	_	PRON__Number=Sing|Person=1	37	iobj	_	_
+45	semble	sembler	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+46	pas	pas	ADV	_	ADV__Polarity=Neg	27	advmod	_	_
+47	avoir	avoir	AUX	_	AUX__VerbForm=Inf	47	aux	_	_
+48	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	50	cop	_	_
+49	fait)Bonne	fait)Bonne	ADJ	_	ADJ__Gender=Fem|Number=Sing	50	det	_	_
+50	journée	journée	NOUN	_	NOUN__Gender=Fem|Number=Sing	47	acl:relcl	_	_
+
+

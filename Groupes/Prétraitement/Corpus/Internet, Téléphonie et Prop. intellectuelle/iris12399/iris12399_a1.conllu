@@ -1,0 +1,72 @@
+#Bonjour,En principe non.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	En	En	ADP	_	ADP___	1	nmod	_	_
+4	principe	principe	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	fixed	_	_
+5	non	non	ADV	_	ADV___	3	fixed	_	_
+6	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#En effet, il est aujourd'hui admis que  le propriétaire de l'oeuvre originale n'a aucun droit de propriété  intellectuelle sur celle-ci.
+1	En	En	ADP	_	ADP___	1	advmod	_	_
+2	effet	effet	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+6	aujourd'hui	aujourd'huie	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	advmod	_	_
+7	admis	admettre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	0	ROOT	_	_
+8	que	que	SCONJ	_	SCONJ___	7	mark	_	_
+9	 	 	SPACE	_		13		_	_
+10	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+11	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	13	nsubj	_	_
+12	de	de	ADP	_	ADP___	13	case	_	_
+13	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+14	oeuvre	oeuvrer	NOUN	_	NOUN__Number=Sing	23	nmod	_	_
+15	originale	original	ADJ	_	ADJ__Gender=Fem|Number=Sing	14	amod	_	_
+16	n'	ne	ADV	_	ADV___	17	advmod	_	_
+17	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	ccomp	_	_
+18	aucun	aucun	DET	_	DET__Gender=Masc|Number=Sing	20	det	_	_
+19	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obj	_	_
+20	de	de	ADP	_	ADP___	17	case	_	_
+21	propriété	propriété	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	nmod	_	_
+22	 	 	SPACE	_		23		_	_
+23	intellectuelle	intellectuel	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	amod	_	_
+24	sur	sur	ADP	_	ADP___	25	case	_	_
+25	celle-ci	celui-ci	PRON	_	PRON__Gender=Fem|Number=Sing|PronType=Dem	23	nmod	_	_
+26	.	.	PUNCT	_	PUNCT___	27	punct	_	_
+
+
+#Donc sauf disposition contractuelle  contraire les propriétaires
+1	Donc	Donc	ADV	_	ADV___	1	advmod	_	_
+2	sauf	sauf	ADP	_	ADP___	1	case	_	_
+3	disposition	disposition	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	contractuelle	contractuel	ADJ	_	ADJ__Gender=Fem|Number=Sing	3	amod	_	_
+5	 	 	SPACE	_		3		_	_
+6	contraire	contraire	VERB	_	VERB__VerbForm=Inf	1	amod	_	_
+7	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	13	det	_	_
+8	propriétaires	propriétaire	NOUN	_	NOUN__Number=Plur	7	obj	_	_
+
+
+#des oeuvres originales - qui ne possèdent  qu'un support - n'ont pas leur mot à dire.
+1	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	1	det	_	_
+2	oeuvres	oeuvrer	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	nsubj	_	_
+3	originales	original	ADJ	_	ADJ__Gender=Fem|Number=Plur	1	amod	_	_
+4	-	-	PUNCT	_	PUNCT___	3	punct	_	_
+5	qui	qui	PRON	_	PRON__PronType=Rel	3	nsubj	_	_
+6	ne	ne	ADV	_	ADV___	1	advmod	_	_
+7	possèdent	posséder	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+8	 	 	SPACE	_		7		_	_
+9	qu'	que	SCONJ	_	SCONJ___	13	advmod	_	_
+10	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+11	support	support	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+12	-	-	PUNCT	_	PUNCT___	13	punct	_	_
+13	n'	ne	ADV	_	ADV__Polarity=Neg	13	advmod	_	_
+14	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+15	pas	pas	ADV	_	ADV__Polarity=Neg	14	advmod	_	_
+16	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	17	nmod:poss	_	_
+17	mot	mot	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+18	à	à	ADP	_	ADP___	20	mark	_	_
+19	dire	dire	VERB	_	VERB__VerbForm=Inf	20	xcomp	_	_
+20	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+

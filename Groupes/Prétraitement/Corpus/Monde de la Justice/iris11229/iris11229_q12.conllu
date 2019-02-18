@@ -1,0 +1,78 @@
+#Bonjour,Dans un mémoire en défense,
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Dans	Dans	ADP	_	ADP___	5	case	_	_
+4	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	mémoire	mémoire	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+6	en	en	ADP	_	ADP___	7	case	_	_
+7	défense	défense	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+8	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#le rédacteur écrit "10 rue des lilas" au lieu de "12 rue des lilas" ; l'adresse étant celle où un PC a été accordé et pour lequel une requête en annulation a été formulée.
+1	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	rédacteur	rédacteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	écrit	écrire	ADJ	_	ADJ__Gender=Masc|Number=Sing	5	amod	_	_
+4	"	"	PUNCT	_	PUNCT___	5	punct	_	_
+5	10	10	NUM	_	NUM__NumType=Card	1	nummod	_	_
+6	rue	ruer	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	appos	_	_
+7	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
+8	lilas	lilas	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	amod	_	_
+9	"	"	PUNCT	_	PUNCT___	10	punct	_	_
+10	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	29	nmod	_	_
+11	lieu	lieu	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	fixed	_	_
+12	de	de	ADP	_	ADP___	10	case	_	_
+13	"	"	PUNCT	_	PUNCT___	14	punct	_	_
+14	12	12	NUM	_	NUM__NumType=Card	10	nummod	_	_
+15	rue	ruer	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nmod	_	_
+16	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
+17	lilas	lilas	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	amod	_	_
+18	"	"	PUNCT	_	PUNCT___	14	punct	_	_
+19	;	;	PUNCT	_	PUNCT___	18	punct	_	_
+20	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	23	obj	_	_
+21	adresse	adresser	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	nsubj:pass	_	_
+22	étant	être	AUX	_	AUX__Tense=Pres|VerbForm=Part	23	aux:pass	_	_
+23	celle	celui	PRON	_	PRON__Gender=Fem|Number=Sing|PronType=Dem	18	obl	_	_
+24	où	où	PRON	_	PRON__PronType=Rel	25	iobj	_	_
+25	un	un	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	23	det	_	_
+26	PC	PC	PROPN	_	PROPN__Gender=Masc|Number=Sing	14	nsubj:pass	_	_
+27	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+28	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	29	aux:pass	_	_
+29	accordé	accorder	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	47	acl:relcl	_	_
+30	et	et	CCONJ	_	CCONJ___	31	cc	_	_
+31	pour	pour	ADP	_	ADP___	29	case	_	_
+32	lequel	lequel	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	37	obl	_	_
+33	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	requête	requête	NOUN	_	NOUN__Gender=Fem|Number=Sing	37	conj	_	_
+35	en	en	ADP	_	ADP___	37	case	_	_
+36	annulation	annulation	NOUN	_	NOUN__Gender=Fem|Number=Sing	37	obl	_	_
+37	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
+38	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	42	aux:pass	_	_
+39	formulée	formuler	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+40	.	.	PUNCT	_	PUNCT___	42	punct	_	_
+
+
+#Cette erreur "de plume" est-elle susceptible de rendre caduc le mémoire ?
+1	Cette	Cette	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	1	det	_	_
+2	erreur	erreur	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	"	"	PUNCT	_	PUNCT___	5	punct	_	_
+4	de	de	ADP	_	ADP___	5	case	_	_
+5	plume	plumer	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	nmod	_	_
+6	"	"	PUNCT	_	PUNCT___	7	punct	_	_
+7	est-elle	est-elle	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	appos	_	_
+8	susceptible	susceptible	ADJ	_	ADJ__Number=Sing	1	amod	_	_
+9	de	de	ADP	_	ADP___	10	mark	_	_
+10	rendre	rendre	VERB	_	VERB__VerbForm=Inf	29	nmod	_	_
+11	caduc	caduc	VERB	_	VERB__VerbForm=Inf	10	xcomp	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+13	mémoire	mémoire	NOUN	_	NOUN__Number=Sing	14	obj	_	_
+14	?	?	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Merci à vous.
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	à	à	ADP	_	ADP___	1	case	_	_
+3	vous	se	PRON	_	PRON__Number=Plur|Person=2|PronType=Prs	5	nmod	_	_
+4	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+

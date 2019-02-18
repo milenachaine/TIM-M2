@@ -1,0 +1,198 @@
+#Bonjour,Poursuite du scénario impossible.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Poursuite	Poursuite	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+4	du	du	DET	_	DET__Gender=Masc|Number=Sing	5	det	_	_
+5	scénario	scénario	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obj	_	_
+6	impossible	impossible	ADJ	_	ADJ__Number=Sing	5	amod	_	_
+7	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Aujourd’hui le notaire nous présente un projet (presque propre) avec 8 mois de retard.
+1	Aujourd’	Aujourd’	ADP	_	ADP___	1	advmod	_	_
+2	hui	hui	NOUN	_	NOUN___	1	fixed	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+4	notaire	notaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+5	nous	se	PRON	_	PRON__Number=Plur|Person=1	3	iobj	_	_
+6	présente	présenter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+8	projet	projet	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+9	(	(	PUNCT	_	PUNCT___	8	punct	_	_
+10	presque	presque	ADV	_	ADV___	11	advmod	_	_
+11	propre	propre	ADJ	_	ADJ__Number=Sing	13	amod	_	_
+12	)	)	PUNCT	_	PUNCT___	13	punct	_	_
+13	avec	avec	ADP	_	ADP___	13	case	_	_
+14	8	8	NUM	_	NUM__NumType=Card	15	nummod	_	_
+15	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	obl	_	_
+16	de	de	ADP	_	ADP___	15	case	_	_
+17	retard	retard	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nmod	_	_
+18	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Ce projet liquidatif doit être validé  par les héritiers lors d’une rencontre à son étude.
+1	Ce	Ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	1	det	_	_
+2	projet	projet	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	liquidatif	liquidatif	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	amod	_	_
+4	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	être	être	AUX	_	AUX__VerbForm=Inf	3	aux:pass	_	_
+6	validé	valider	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	xcomp	_	_
+7	 	 	SPACE	_		1		_	_
+8	par	par	ADP	_	ADP___	13	case	_	_
+9	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+10	héritiers	héritier	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	obl	_	_
+11	lors	lors	ADV	_	ADV___	13	mark	_	_
+12	d’	d’	PUNCT	_	PUNCT___	13	nmod	_	_
+13	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+14	rencontre	rencontrer	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obj	_	_
+15	à	à	ADP	_	ADP___	13	case	_	_
+16	son	son	DET	_	DET__Number=Sing|Poss=Yes	15	nmod:poss	_	_
+17	étude	étude	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	nmod	_	_
+18	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Pour essayer d’en finir nous avons décidé d'accepter le projet, mais le courrier d’accompagnement précise :Le problème c’est que mon frère depuis le début de la procédure en plus des manœuvres dilatoires a refusé de donner le moindre centime, et que dans le cas présent il ne va pas se présenter et pas payer.
+1	Pour	Pour	ADP	_	ADP___	1	mark	_	_
+2	essayer	essayer	VERB	_	VERB__VerbForm=Inf	1	acl	_	_
+3	d’	d’	PUNCT	_	PUNCT___	1	obj	_	_
+4	en	en	PRON	_	PRON__Person=3	5	mark	_	_
+5	finir	finir	VERB	_	VERB__VerbForm=Inf	3	advcl	_	_
+6	nous	se	PRON	_	PRON__Number=Plur|Person=1	5	nsubj	_	_
+7	avons	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
+8	décidé	décider	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	xcomp	_	_
+9	d'	de	ADP	_	ADP___	8	mark	_	_
+10	accepter	accepter	VERB	_	VERB__VerbForm=Inf	11	xcomp	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	projet	projet	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+13	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+14	mais	mai	CCONJ	_	CCONJ___	15	cc	_	_
+15	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+16	courrier	courrier	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nsubj	_	_
+17	d’	d’	ADP	_	ADP___	18	amod	_	_
+18	accompagnement	accompagnement	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	advmod	_	_
+19	précise	préciser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+20	:	:	PUNCT	_	PUNCT___	22	punct	_	_
+21	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	problème	problème	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nsubj	_	_
+23	c’	c’	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	ccomp	_	_
+24	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+25	que	que	SCONJ	_	SCONJ___	13	advmod	_	_
+26	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	27	nmod:poss	_	_
+27	frère	frère	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	nsubj	_	_
+28	depuis	depuis	ADP	_	ADP___	27	case	_	_
+29	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+30	début	début	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	obl	_	_
+31	de	de	ADP	_	ADP___	29	case	_	_
+32	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+33	procédure	procédure	NOUN	_	NOUN__Gender=Fem|Number=Sing	35	nmod	_	_
+34	en	en	ADP	_	ADP___	35	case	_	_
+35	plus	plaire	ADV	_	ADV___	31	fixed	_	_
+36	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	37	det	_	_
+37	manœuvres	manœuvres	NOUN	_	NOUN__Gender=Fem|Number=Plur	35	nsubj	_	_
+38	dilatoires	dilatoire	ADJ	_	ADJ__Number=Plur	39	amod	_	_
+39	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	aux	_	_
+40	refusé	refuser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	42	ccomp	_	_
+41	de	de	ADP	_	ADP___	42	mark	_	_
+42	donner	donner	VERB	_	VERB__VerbForm=Inf	39	xcomp	_	_
+43	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+44	moindre	moindre	ADJ	_	ADJ__Number=Sing	45	amod	_	_
+45	centime	centime	ADJ	_	ADJ__Gender=Fem|Number=Sing	62	obj	_	_
+46	,	,	PUNCT	_	PUNCT___	45	punct	_	_
+47	et	et	CCONJ	_	CCONJ___	48	cc	_	_
+48	que	que	SCONJ	_	SCONJ___	45	mark	_	_
+49	dans	dan	ADP	_	ADP___	51	case	_	_
+50	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	48	obl	_	_
+52	présent	présent	ADJ	_	ADJ__Gender=Masc|Number=Sing	53	conj	_	_
+53	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	51	nsubj	_	_
+54	ne	ne	ADV	_	ADV__Polarity=Neg	55	advmod	_	_
+55	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	53	xcomp	_	_
+56	pas	pas	ADV	_	ADV__Polarity=Neg	45	advmod	_	_
+57	se	se	PRON	_	PRON__Person=3|Reflex=Yes	59	expl	_	_
+58	présenter	poster	VERB	_	VERB__VerbForm=Inf	59	xcomp	_	_
+59	et	et	CCONJ	_	CCONJ___	62	cc	_	_
+60	pas	pas	ADV	_	ADV__Polarity=Neg	59	advmod	_	_
+61	payer	payer	VERB	_	VERB__VerbForm=Inf	62	conj	_	_
+62	.	.	PUNCT	_	PUNCT___	62	punct	_	_
+
+
+#Pour son absence et la non signature, un constat de difficulté sera transmis au juge, mais pour payer, là il ne va pas provisionner préalablement au rendez-vous.
+1	Pour	Pour	ADP	_	ADP___	1	case	_	_
+2	son	son	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+3	absence	absence	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obl	_	_
+4	et	et	CCONJ	_	CCONJ___	5	cc	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+6	non	non	ADV	_	ADV___	5	advmod	_	_
+7	signature	signature	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	conj	_	_
+8	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+9	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+10	constat	constat	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nsubj:pass	_	_
+11	de	de	ADP	_	ADP___	13	case	_	_
+12	difficulté	difficulté	ADJ	_	ADJ__Gender=Masc|Number=Plur	13	nmod	_	_
+13	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	13	aux:pass	_	_
+14	transmis	transmettre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+15	au	au	PRON	_	PRON__PronType=Rel	13	det	_	_
+16	juge	juger	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obl	_	_
+17	,	,	PUNCT	_	PUNCT___	18	punct	_	_
+18	mais	mai	CCONJ	_	CCONJ___	15	cc	_	_
+19	pour	pour	ADP	_	ADP___	15	mark	_	_
+20	payer	payer	VERB	_	VERB__VerbForm=Inf	22	conj	_	_
+21	,	,	PUNCT	_	PUNCT___	22	punct	_	_
+22	là	là	SCONJ	_	SCONJ___	13	advmod	_	_
+23	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	24	nsubj	_	_
+24	ne	ne	ADV	_	ADV__Polarity=Neg	22	advmod	_	_
+25	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+26	pas	pas	ADV	_	ADV__Polarity=Neg	27	advmod	_	_
+27	provisionner	provisionner	VERB	_	VERB__VerbForm=Inf	29	ccomp	_	_
+28	préalablement	préalablement	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	advmod	_	_
+29	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	29	expl	_	_
+30	rendez	rendre	VERB	_	VERB__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	obj	_	_
+31	-	-	PUNCT	_	PUNCT___	29	punct	_	_
+32	vous	se	PRON	_	PRON__Number=Plur|Person=2	31	obj	_	_
+33	.	.	PUNCT	_	PUNCT___	35	punct	_	_
+
+
+#Comment cela va se passer ?
+1	Comment	Comment	ADV	_	ADV__PronType=Int	1	advmod	_	_
+2	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	1	nsubj	_	_
+3	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+4	se	se	PRON	_	PRON__Person=3|Reflex=Yes	5	expl	_	_
+5	passer	prendre	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+6	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Est-ce que c'est nous qui allons payer pour tout ?
+1	Est	être		_	VERB	0	ROOT	_	_
+2	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	1	amod	_	_
+3	que	que	SCONJ	_	SCONJ___	1	mark	_	_
+4	c'	ce	PRON	_	PRON__Number=Sing|Person=3	5	nsubj	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+6	nous	se	PRON	_	PRON__Number=Plur|Person=1	5	expl	_	_
+7	qui	qui	PRON	_	PRON__PronType=Rel	1	nsubj	_	_
+8	allons	aller	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+9	payer	payer	VERB	_	VERB__VerbForm=Inf	8	acl	_	_
+10	pour	pour	ADP	_	ADP___	11	case	_	_
+11	tout	tout	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	13	obl	_	_
+12	?	?	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Est-ce que le processus va encore être interrompu ?
+1	Est	être		_	VERB	0	ROOT	_	_
+2	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	1	amod	_	_
+3	que	que	SCONJ	_	SCONJ___	1	mark	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	processus	processus	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+6	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	_
+7	encore	encore	ADV	_	ADV___	1	advmod	_	_
+8	être	être	AUX	_	AUX__VerbForm=Inf	13	aux:pass	_	_
+9	interrompu	interrompre	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	xcomp	_	_
+10	?	?	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Merci de votre attention.
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	de	de	ADP	_	ADP___	1	case	_	_
+3	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+4	attention	attention	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+5	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+

@@ -1,0 +1,87 @@
+#Concernant la donation, est-ce que ce fut une donation-partage ?
+1	Concernant	Concernant	VERB	_	VERB__Tense=Pres|VerbForm=Part	0	ROOT	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	donation	donation	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obj	_	_
+4	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+5	est	être		_	VERB	1	conj	_	_
+6	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	5	nsubj	_	_
+7	que	que	SCONJ	_	SCONJ___	11	mark	_	_
+8	ce	ce	PRON	_	PRON__Number=Sing|Person=3	11	nsubj	_	_
+9	fut	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	_
+10	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	donation-partage	donation-partage	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	ccomp	_	_
+12	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#C'est bien elle, et non votre père, qui a payé les 3000€ en contrepartie à chacune des deux autres sœurs ?
+1	C'	C'	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	bien	bien	ADV	_	ADV___	1	advmod	_	_
+4	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	ROOT	_	_
+5	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+6	et	et	CCONJ	_	CCONJ___	5	cc	_	_
+7	non	non	ADV	_	ADV___	11	conj	_	_
+8	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	11	nmod:poss	_	_
+9	père	père	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+10	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+11	qui	qui	PRON	_	PRON__PronType=Rel	5	nsubj	_	_
+12	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+13	payé	payer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+14	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	16	det	_	_
+15	3000	3000	NUM	_	NUM__NumType=Card	16	nummod	_	_
+16	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	obj	_	_
+17	en	en	ADP	_	ADP___	16	case	_	_
+18	contrepartie	contrepartie	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	fixed	_	_
+19	à	à	ADP	_	ADP___	16	case	_	_
+20	chacune	chacun	PRON	_	PRON__Gender=Fem|PronType=Rel	21	obl	_	_
+21	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	19	det	_	_
+22	deux	deux	NUM	_	NUM__NumType=Card	16	nummod	_	_
+23	autres	autre	ADJ	_	ADJ__Number=Plur	25	amod	_	_
+24	sœurs	sœurs	NOUN	_	NOUN__Gender=Masc|Number=Plur	25	obj	_	_
+25	?	?	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#De sorte que chaque enfant a en fait reçu 3000€ (elle reçoit le terrain 9000€ et elle paye 6000€, donc elle reçoit en net 3000€).Si c'est une donation-partage, elle n'est pas rapportable.
+1	De	De	ADP	_	ADP___	1	case	_	_
+2	sorte	sortir	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	que	que	SCONJ	_	SCONJ___	1	mark	_	_
+4	chaque	chaque	DET	_	DET__Number=Sing	1	det	_	_
+5	enfant	enfant	NOUN	_	NOUN__Number=Sing	1	nsubj	_	_
+6	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+7	en	en	ADP	_	ADP___	11	advmod	_	_
+8	fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	fixed	_	_
+9	reçu	recevoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	ccomp	_	_
+10	3000	3000	NUM	_	NUM__NumType=Card	11	nummod	_	_
+11	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	obj	_	_
+12	(	(	PUNCT	_	PUNCT___	1	punct	_	_
+13	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	16	nsubj	_	_
+14	reçoit	recevoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	parataxis	_	_
+15	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	terrain	terrain	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obj	_	_
+17	9000	9000	NUM	_	NUM__NumType=Card	16	nummod	_	_
+18	€	€	NOUN	_	NOUN__Gender=Masc	19	obj	_	_
+19	et	et	CCONJ	_	CCONJ___	16	cc	_	_
+20	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	21	nsubj	_	_
+21	paye	payer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+22	6000	6000	NUM	_	NUM__NumType=Card	16	nummod	_	_
+23	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	25	obl	_	_
+24	,	,	PUNCT	_	PUNCT___	25	punct	_	_
+25	donc	donc	ADV	_	ADV___	16	advmod	_	_
+26	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	28	nsubj	_	_
+27	reçoit	recevoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	conj	_	_
+28	en	en	ADP	_	ADP___	25	case	_	_
+29	net	net	NOUN	_	NOUN__Gender=Masc|Number=Sing	32	obl	_	_
+30	3000€).Si	3000€).Si	NUM	_	NUM__NumType=Card	29	conj	_	_
+31	c'	ce	PRON	_	PRON__Number=Sing|Person=3	32	nsubj	_	_
+32	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+33	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+34	donation-partage	donation-partage	NOUN	_	NOUN__Gender=Masc|Number=Sing	36	nmod	_	_
+35	,	,	PUNCT	_	PUNCT___	36	punct	_	_
+36	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	25	nsubj	_	_
+37	n'	ne	ADV	_	ADV__Polarity=Neg	16	advmod	_	_
+38	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	cop	_	_
+39	pas	pas	ADV	_	ADV__Polarity=Neg	39	advmod	_	_
+40	rapportable	rapportable	ADJ	_	ADJ__Number=Sing	46	conj	_	_
+41	.	.	PUNCT	_	PUNCT___	42	punct	_	_
+
+

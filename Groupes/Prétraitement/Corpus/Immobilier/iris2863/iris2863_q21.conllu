@@ -1,0 +1,157 @@
+#Bonjour Adrone
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	Adrone	Adrone	PROPN	_	PROPN___	1	flat:name	_	_
+
+
+#,Le propriétaire du lot A est aussi le propriétaire actuel du lot B qui est l objet de la vente.
+1	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+2	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+3	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	12	nsubj	_	_
+4	du	du	DET	_	DET__Gender=Masc|Number=Sing	5	det	_	_
+5	lot	lot	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nmod	_	_
+6	A	A	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	nmod	_	_
+7	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+8	aussi	aussi	ADV	_	ADV___	7	advmod	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+10	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	0	ROOT	_	_
+11	actuel	actuel	ADJ	_	ADJ__Gender=Masc|Number=Sing	12	amod	_	_
+12	du	du	DET	_	DET__Gender=Masc|Number=Sing	12	det	_	_
+13	lot	lot	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nmod	_	_
+14	B	B	NOUN	_	NOUN___	15	nmod	_	_
+15	qui	qui	PRON	_	PRON__PronType=Rel	12	nsubj	_	_
+16	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+17	l	l	ADP	_	ADP___	19	acl:relcl	_	_
+18	objet	objet	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	advmod	_	_
+19	de	de	ADP	_	ADP___	12	case	_	_
+20	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+21	vente	venter	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	obl	_	_
+22	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#En 2013 ce propriétaire a vendu le lot C.
+1	En	En	ADP	_	ADP___	1	case	_	_
+2	2013	2013	NUM	_	NUM__NumType=Card	1	nummod	_	_
+3	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
+4	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	5	nsubj	_	_
+5	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+6	vendu	vendre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+8	lot	lot	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+9	C.	C.	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nmod	_	_
+
+
+#Cf plan de division fait par un géomètre.
+1	Cf	Cf	ADJ	_	ADJ__Gender=Fem|Number=Plur	1	case	_	_
+2	plan	plan	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	de	de	ADP	_	ADP___	12	case	_	_
+4	division	division	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+5	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
+6	par	par	ADP	_	ADP___	7	case	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+8	géomètre	géomètre	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+9	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Le chemin réalisé est en fait sur le lot B et non sur la limite de propriété.
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	chemin	chemin	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	réalisé	réaliser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	en	en	ADP	_	ADP___	12	case	_	_
+6	fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	fixed	_	_
+7	sur	sur	ADP	_	ADP___	5	case	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+9	lot	lot	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obl	_	_
+10	B	B	NOUN	_	NOUN___	12	nmod	_	_
+11	et	et	CCONJ	_	CCONJ___	12	cc	_	_
+12	non	non	ADV	_	ADV___	12	conj	_	_
+13	sur	sur	ADP	_	ADP___	12	case	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	limite	limiter	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+16	de	de	ADP	_	ADP___	15	case	_	_
+17	propriété	propriété	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	nmod	_	_
+18	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Ce qui fait que ni dans l'acte de vente du lot c ni dans notre compromis n a été établi de servitude de passage au profil du lot C sur le lot B.Effectivement le propriétaire actuel du lot b prétexte qu il n a pas les sous pour refaire un chemin au bon endroit et qu'il nous propose de refaire venir un géomètre pour délimiter le lot B au niveau du chemin existantEst ce plus clair?Merci beaucoup
+1	Ce	Ce	PRON	_	PRON__PronType=Rel	0	ROOT	_	_
+2	qui	qui	PRON	_	PRON__PronType=Rel	1	nsubj	_	_
+3	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+4	que	que	SCONJ	_	SCONJ___	5	mark	_	_
+5	ni	ni	CCONJ	_	CCONJ___	12	cc	_	_
+6	dans	dan	ADP	_	ADP___	7	case	_	_
+7	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+8	acte	acte	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+9	de	de	ADP	_	ADP___	12	case	_	_
+10	vente	venter	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+11	du	du	DET	_	DET__Gender=Masc|Number=Sing	12	det	_	_
+12	lot	lot	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+13	c	c	NOUN	_	NOUN___	12	nmod	_	_
+14	ni	ni	CCONJ	_	CCONJ___	15	cc	_	_
+15	dans	dan	ADP	_	ADP___	12	case	_	_
+16	notre	notre	DET	_	DET__Number=Sing|Poss=Yes	15	nmod:poss	_	_
+17	compromis	compromettre	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	conj	_	_
+18	n	ne	NOUN	_	NOUN___	19	nsubj:pass	_	_
+19	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+20	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	19	aux:pass	_	_
+21	établi	établir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	23	ccomp	_	_
+22	de	de	ADP	_	ADP___	23	case	_	_
+23	servitude	servitude	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	nummod	_	_
+24	de	de	ADP	_	ADP___	12	case	_	_
+25	passage	passage	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	nmod	_	_
+26	au	au	PRON	_	PRON__PronType=Rel	30	obj	_	_
+27	profil	profil	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	amod	_	_
+28	du	du	DET	_	DET__Gender=Masc|Number=Sing	30	det	_	_
+29	lot	lot	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	obj	_	_
+30	C	C	NOUN	_	NOUN___	30	nmod	_	_
+31	sur	sur	ADP	_	ADP___	32	case	_	_
+32	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+33	lot	lot	NOUN	_	NOUN__Gender=Masc|Number=Sing	32	nmod	_	_
+34	B.Effectivement	B.Effectivement	ADV	_	ADV___	35	obl	_	_
+35	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+36	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	37	obj	_	_
+37	actuel	actuel	ADJ	_	ADJ__Gender=Masc|Number=Sing	35	amod	_	_
+38	du	du	DET	_	DET__Gender=Masc|Number=Sing	35	det	_	_
+39	lot	lot	NOUN	_	NOUN__Gender=Masc|Number=Sing	41	nmod	_	_
+40	b	b	NOUN	_	NOUN___	41	nmod	_	_
+41	prétexte	prétexter	NOUN	_	NOUN__Number=Sing	38	conj	_	_
+42	qu	qu	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	mark	_	_
+43	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	44	nsubj	_	_
+44	n	ne	PRON	_	PRON__Person=3	44	fixed	_	_
+45	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	ccomp	_	_
+46	pas	pas	ADV	_	ADV__Polarity=Neg	51	advmod	_	_
+47	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	51	det	_	_
+48	sous	sou	ADP	_	ADP___	47	obj	_	_
+49	pour	pour	ADP	_	ADP___	51	mark	_	_
+50	refaire	refaire	VERB	_	VERB__VerbForm=Inf	51	advcl	_	_
+51	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+52	chemin	chemin	NOUN	_	NOUN__Gender=Masc|Number=Sing	51	obj	_	_
+53	au	au	PRON	_	PRON__PronType=Rel	54	det	_	_
+54	bon	bon	ADJ	_	ADJ__Gender=Masc|Number=Sing	51	fixed	_	_
+55	endroit	endroit	NOUN	_	NOUN__Gender=Masc|Number=Sing	57	nmod	_	_
+56	et	et	CCONJ	_	CCONJ___	57	cc	_	_
+57	qu'	que	SCONJ	_	SCONJ___	51	mark	_	_
+58	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	59	nsubj	_	_
+59	nous	se	PRON	_	PRON__Number=Plur|Person=1	57	iobj	_	_
+60	propose	proposer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	conj	_	_
+61	de	de	ADP	_	ADP___	61	mark	_	_
+62	refaire	refaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	63	xcomp	_	_
+63	venir	venir	VERB	_	VERB__VerbForm=Inf	61	xcomp	_	_
+64	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	81	det	_	_
+65	géomètre	géomètre	NOUN	_	NOUN__Gender=Masc|Number=Sing	68	obj	_	_
+66	pour	pour	ADP	_	ADP___	68	mark	_	_
+67	délimiter	délimiter	VERB	_	VERB__VerbForm=Inf	68	advcl	_	_
+68	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	81	det	_	_
+69	lot	lot	NOUN	_	NOUN__Gender=Masc|Number=Sing	70	obj	_	_
+70	B	B	NOUN	_	NOUN___	68	nmod	_	_
+71	au	au	NOUN	_	NOUN___	72	expl	_	_
+72	niveau	niveau	NOUN	_	NOUN__Gender=Masc|Number=Sing	70	xcomp	_	_
+73	du	du	DET	_	DET__Gender=Masc|Number=Sing	72	det	_	_
+74	chemin	chemin	NOUN	_	NOUN__Gender=Masc|Number=Sing	77	obj	_	_
+75	existantEst	existantEst	ADJ	_	ADJ__Gender=Fem|Number=Plur	77	amod	_	_
+76	ce	ce	PRON	_	PRON__PronType=Rel	77	det	_	_
+77	plus	plaire	ADV	_	ADV___	68	advmod	_	_
+78	clair?Merci	clair?Merci	VERB	_	VERB__VerbForm=Inf	81	obj	_	_
+79	beaucoup	beaucoup	ADV	_	ADV___	81	punct	_	_
+
+

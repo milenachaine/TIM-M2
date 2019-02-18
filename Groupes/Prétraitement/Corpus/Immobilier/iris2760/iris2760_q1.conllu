@@ -1,0 +1,238 @@
+#Bonjour,Je voudrais avoir votre avis éclairé sur la situation suivante
+1	Bonjour	Bonjour	PROPN	_	PROPN___	5	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+3	Je	Je	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+4	voudrais	vouloir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	avoir	avoir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+6	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	7	nmod:poss	_	_
+7	avis	avis	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+8	éclairé	éclairer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+9	sur	sur	ADP	_	ADP___	11	case	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+12	suivante	suivant	ADJ	_	ADJ__Gender=Fem|Number=Sing	11	amod	_	_
+
+
+#-Ma locatrice me dit qu'elle n'a plus d'eau chaude-Je lui envois un ami qui règle mes petits problèmes le lendemain.-
+1	-	-	PUNCT	_	PUNCT___	5	punct	_	_
+2	Ma	Ma	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	5	nmod:poss	_	_
+3	locatrice	locatrice	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nsubj	_	_
+4	me	se	PRON	_	PRON__Number=Sing|Person=1	5	iobj	_	_
+5	dit	dire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	qu'	que	SCONJ	_	SCONJ___	7	mark	_	_
+7	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	5	nsubj	_	_
+8	n'	ne	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+9	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+10	plus	plaire	ADV	_	ADV__Polarity=Neg	11	det	_	_
+11	d'	de	ADP	_	ADP___	8	fixed	_	_
+12	eau	eau	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obj	_	_
+13	chaude	chaud	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	nmod	_	_
+14	-	-	PUNCT	_	PUNCT___	15	punct	_	_
+15	Je	Je	PRON	_	PRON__Number=Sing|Person=1	17	nsubj	_	_
+16	lui	luire	PRON	_	PRON__Number=Sing|Person=3	17	iobj	_	_
+17	envois	envoi	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	ccomp	_	_
+18	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+19	ami	ami	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obj	_	_
+20	qui	qui	PRON	_	PRON__PronType=Rel	21	nsubj	_	_
+21	règle	régler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+22	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	24	nmod:poss	_	_
+23	petits	petit	ADJ	_	ADJ__Gender=Masc|Number=Plur	22	amod	_	_
+24	problèmes	problème	NOUN	_	NOUN__Gender=Masc|Number=Plur	21	obj	_	_
+25	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+26	lendemain	lendemain	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	nmod	_	_
+27	.-	.-	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#Ils conviennent d'un RV, locatrice absente...
+1	Ils	Ils	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	5	nsubj	_	_
+2	conviennent	convenir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	d'	de	ADP	_	ADP___	5	case	_	_
+4	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	RV	RV	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+6	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+7	locatrice	locatrice	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	conj	_	_
+8	absente	absenter	ADJ	_	ADJ__Gender=Fem|Number=Sing	7	amod	_	_
+9	...	...	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#-il décide de reveni un peu plus tard, (période de férié).-Entre temps elle me donne un numéro d'un dépanneur que je finis par appeler (ben oui sans eau chaude je me doute que c'est pas facile).-Je les mets en contact, elle doit prendre RV.
+1	-il	-il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+2	décide	décider	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	de	de	ADP	_	ADP___	5	mark	_	_
+4	reveni	reveni	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	xcomp	_	_
+5	un	un	DET	_	DET__Gender=Masc|Number=Sing	5	advmod	_	_
+6	peu	peu	ADV	_	ADV___	7	advmod	_	_
+7	plus	plaire	ADV	_	ADV___	5	fixed	_	_
+8	tard	tard	ADV	_	ADV___	7	fixed	_	_
+9	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+10	(	(	PUNCT	_	PUNCT___	11	punct	_	_
+11	période	période	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+12	de	de	ADP	_	ADP___	11	case	_	_
+13	férié).-Entre	férié).-Entre	VERB	_	VERB__VerbForm=Inf	17	amod	_	_
+14	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nmod	_	_
+15	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	17	nsubj	_	_
+16	me	se	PRON	_	PRON__Number=Sing|Person=1	17	iobj	_	_
+17	donne	donner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	parataxis	_	_
+18	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+19	numéro	numéro	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obj	_	_
+20	d'	de	ADP	_	ADP___	21	case	_	_
+21	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+22	dépanneur	dépanneur	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	nmod	_	_
+23	que	que	PRON	_	PRON__PronType=Rel	22	obj	_	_
+24	je	il	PRON	_	PRON__Number=Sing|Person=1	21	nsubj	_	_
+25	finis	finir	VERB	_	VERB__Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	24	acl:relcl	_	_
+26	par	par	ADP	_	ADP___	24	mark	_	_
+27	appeler	appeler	VERB	_	VERB__VerbForm=Inf	29	xcomp	_	_
+28	(	(	PUNCT	_	PUNCT___	29	punct	_	_
+29	ben	ben	CCONJ	_	CCONJ___	17	case	_	_
+30	oui	oui	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	31	obl	_	_
+31	sans	sans	ADP	_	ADP___	29	case	_	_
+32	eau	eau	NOUN	_	NOUN__Gender=Fem|Number=Sing	33	obl	_	_
+33	chaude	chaud	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	nmod	_	_
+34	je	il	PRON	_	PRON__Number=Sing|Person=1	36	nsubj	_	_
+35	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	36	iobj	_	_
+36	doute	douter	NOUN	_	NOUN__Gender=Masc|Number=Sing	33	nmod	_	_
+37	que	que	SCONJ	_	SCONJ___	38	mark	_	_
+38	c'	ce	PRON	_	PRON__Number=Sing|Person=3	36	nsubj	_	_
+39	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+40	pas	pas	ADV	_	ADV__Polarity=Neg	41	advmod	_	_
+41	facile).-Je	facile).-Je	ADJ	_	ADJ__Gender=Fem|Number=Plur	41	acl:relcl	_	_
+42	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	44	det	_	_
+43	mets	mettre	NOUN	_	NOUN__Gender=Masc|Number=Plur	44	obj	_	_
+44	en	en	ADP	_	ADP___	41	case	_	_
+45	contact	contact	NOUN	_	NOUN__Gender=Masc|Number=Sing	46	obl	_	_
+46	,	,	PUNCT	_	PUNCT___	41	punct	_	_
+47	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	46	nsubj	_	_
+48	doit	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	aux	_	_
+49	prendre	prendre	VERB	_	VERB__VerbForm=Inf	50	parataxis	_	_
+50	RV	RV	PROPN	_	PROPN___	50	obj	_	_
+51	.	.	PUNCT	_	PUNCT___	52	punct	_	_
+
+
+#Elle me dit le jour même il passera Lundi.-
+1	Elle	Elle	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	5	nsubj	_	_
+2	me	se	PRON	_	PRON__Number=Sing|Person=1	5	iobj	_	_
+3	dit	dire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+6	même	même	ADV	_	ADV___	7	advmod	_	_
+7	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+8	passera	passer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	advcl	_	_
+9	Lundi	Lundi	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+10	.-	.-	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Aujourd'hui (Lundi) je reçois une mise en demeure pour la réparation de la situation.
+1	Aujourd'	Aujourd'	ADP	_	ADP___	5	advmod	_	_
+2	hui	hui	NOUN	_	NOUN___	5	fixed	_	_
+3	(	(	PUNCT	_	PUNCT___	5	punct	_	_
+4	Lundi	Lundi	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+5	)	)	PUNCT	_	PUNCT___	5	punct	_	_
+6	je	il	PRON	_	PRON__Number=Sing|Person=1	7	nsubj	_	_
+7	reçois	recevoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+9	mise	miser	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obj	_	_
+10	en	en	ADP	_	ADP___	11	case	_	_
+11	demeure	demeurer	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+12	pour	pour	ADP	_	ADP___	11	case	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+14	réparation	réparation	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	nmod	_	_
+15	de	de	ADP	_	ADP___	17	case	_	_
+16	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	nmod	_	_
+18	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Ce que je trouve bizarre c'est que la lettre à été envoyée après la prise de Rv...
+1	Ce	Ce	PRON	_	PRON__PronType=Rel	5	nsubj:pass	_	_
+2	que	que	PRON	_	PRON__PronType=Rel	5	mark	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+4	trouve	trouver	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	bizarre	bizarre	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	acl:relcl	_	_
+6	c'	ce	PRON	_	PRON__Number=Sing|Person=3	7	mark	_	_
+7	est	être	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	fixed	_	_
+8	que	que	SCONJ	_	SCONJ___	7	fixed	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	lettre	lettre	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nsubj:pass	_	_
+11	à	à	ADP	_	ADP___	8	case	_	_
+12	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	11	aux:pass	_	_
+13	envoyée	envoyer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+14	après	après	ADP	_	ADP___	15	case	_	_
+15	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	prise	priser	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	obl	_	_
+17	de	de	ADP	_	ADP___	17	case	_	_
+18	Rv	Rv	PROPN	_	PROPN__Gender=Masc|Number=Sing	21	nmod	_	_
+19	...	...	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#-Aujourd(hui lundi je téléphone au plombier qui me dit"je devais passé samedi, mais elle n'était pas là.
+1	-Aujourd(hui	-Aujourd(hui	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	punct	_	_
+2	lundi	lundi	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+4	téléphone	téléphoner	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	au	au	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	5	expl	_	_
+6	plombier	plombier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	obj	_	_
+7	qui	qui	PRON	_	PRON__PronType=Rel	5	nsubj	_	_
+8	me	se	PRON	_	PRON__Number=Sing|Person=1	7	obj	_	_
+9	dit"je	dit"je	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	acl:relcl	_	_
+10	devais	devoir	ADJ	_	ADJ__Gender=Masc	11	aux	_	_
+11	passé	passer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+12	samedi	samedi	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+13	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+14	mais	mai	CCONJ	_	CCONJ___	15	cc	_	_
+15	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	17	nsubj	_	_
+16	n'	ne	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+17	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	cop	_	_
+18	pas	pas	ADV	_	ADV__Polarity=Neg	21	advmod	_	_
+19	là	là	ADV	_	ADV___	21	conj	_	_
+20	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Elle devait donc me rappeler aujourd'hui -lundi-, mais toujours pas d'appel..."Donc elle me met en demeure mais évite tous les RV des dépanneurs...
+1	Elle	Elle	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	5	nsubj	_	_
+2	devait	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+3	donc	donc	ADV	_	ADV___	5	advmod	_	_
+4	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	5	expl	_	_
+5	rappeler	rappeler	VERB	_	VERB__VerbForm=Inf	5	advcl	_	_
+6	aujourd'hui	aujourd'huie	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+7	-lundi-	-lundi-	PUNCT	_	PUNCT___	5	iobj	_	_
+8	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+9	mais	mai	CCONJ	_	CCONJ___	11	cc	_	_
+10	toujours	toujours	ADV	_	ADV___	11	advmod	_	_
+11	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+12	d'	de	ADP	_	ADP___	11	case	_	_
+13	appel	appel	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	conj	_	_
+14	...	...	PUNCT	_	PUNCT___	15	punct	_	_
+15	"Donc	"Donc	PUNCT	_	PUNCT___	17	punct	_	_
+16	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	17	nsubj	_	_
+17	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	17	expl	_	_
+18	met	mettre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+19	en	en	ADP	_	ADP___	21	case	_	_
+20	demeure	demeurer	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	obl	_	_
+21	mais	mai	CCONJ	_	CCONJ___	17	cc	_	_
+22	évite	éviter	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	conj	_	_
+23	tous	tout	ADJ	_	ADJ__Gender=Masc|Number=Plur	22	amod	_	_
+24	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	21	det	_	_
+25	RV	RV	NOUN	_	NOUN__Number=Plur	24	nmod	_	_
+26	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	24	det	_	_
+27	dépanneurs	dépanneur	NOUN	_	NOUN__Gender=Masc|Number=Plur	29	obj	_	_
+28	...	...	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#Que dois-je faire?Vous remerciant par avance,Bien à vous,LC
+1	Que	Que	PRON	_	PRON__PronType=Int	5	mark	_	_
+2	dois	devoir	NUM	_	NUM__NumType=Card	5	aux	_	_
+3	-	-	PUNCT	_	PUNCT___	5	punct	_	_
+4	je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+5	faire?Vous	faire?Vous	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	5	iobj	_	_
+6	remerciant	remercier	VERB	_	VERB__Tense=Pres|VerbForm=Part	0	ROOT	_	_
+7	par	par	ADP	_	ADP___	5	case	_	_
+8	avance	avancer	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obl	_	_
+9	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+10	Bien	Bien	ADV	_	ADV___	11	case	_	_
+11	à	à	ADP	_	ADP___	8	fixed	_	_
+12	vous	se	PRON	_	PRON__Number=Plur|Person=2|PronType=Prs	11	obl	_	_
+13	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+14	LC	LC	PROPN	_	PROPN__Gender=Fem|Number=Sing	15	obl	_	_
+
+

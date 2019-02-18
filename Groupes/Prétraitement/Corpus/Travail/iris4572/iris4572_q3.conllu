@@ -1,0 +1,290 @@
+#Bonsoir à tous,je reviens à la charge avec 2 exemples.
+1	Bonsoir	Bonsoir	VERB	_	VERB__VerbForm=Inf	6	acl	_	_
+2	à	à	ADP	_	ADP___	3	case	_	_
+3	tous	tout	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Rel	1	obl	_	_
+4	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+5	je	il	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+6	reviens	revenir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	à	à	ADP	_	ADP___	9	case	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	charge	charger	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obl	_	_
+10	avec	avec	ADP	_	ADP___	12	case	_	_
+11	2	2	NUM	_	NUM__NumType=Card	12	nummod	_	_
+12	exemples	exemple	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	obl	_	_
+13	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Si vous pouviez me donner la façon de procéder, je vous serai infiniment reconnaissant...1er exemple: (Je suis toujours sur la même base que celle précisée plus haut, 39H/semaine avec 4h supp.
+1	Si	Si	SCONJ	_	SCONJ___	6	mark	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	3	nsubj	_	_
+3	pouviez	pouvoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	aux	_	_
+4	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	6	iobj	_	_
+5	donner	donner	VERB	_	VERB__VerbForm=Inf	6	advcl	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+7	façon	façon	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obj	_	_
+8	de	de	ADP	_	ADP___	9	case	_	_
+9	procéder	procéder	VERB	_	VERB__VerbForm=Inf	6	nmod	_	_
+10	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+11	je	il	PRON	_	PRON__Number=Sing|Person=1	12	nsubj	_	_
+12	vous	se	PRON	_	PRON__Number=Plur|Person=2	6	obj	_	_
+13	serai	être	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	cop	_	_
+14	infiniment	infiniment	ADV	_	ADV___	18	ccomp	_	_
+15	reconnaissant	reconnaître	VERB	_	VERB__Tense=Pres|VerbForm=Part	18	acl	_	_
+16	...	...	PUNCT	_	PUNCT___	18	punct	_	_
+17	1er	1er	ADJ	_	ADJ__NumType=Ord	18	amod	_	_
+18	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+19	:	:	PUNCT	_	PUNCT___	20	punct	_	_
+20	(	(	PUNCT	_	PUNCT___	18	punct	_	_
+21	Je	Je	PRON	_	PRON__Number=Sing|Person=1	22	nsubj	_	_
+22	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	cop	_	_
+23	toujours	toujours	ADV	_	ADV___	26	advmod	_	_
+24	sur	sur	ADP	_	ADP___	26	case	_	_
+25	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	même	même	ADJ	_	ADJ__Number=Sing	30	amod	_	_
+27	base	baser	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	parataxis	_	_
+28	que	que	SCONJ	_	SCONJ___	26	case	_	_
+29	celle	celui	PRON	_	PRON__Gender=Fem|Number=Sing|PronType=Dem	26	dep	_	_
+30	précisée	préciser	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	31	acl	_	_
+31	plus	plaire	ADV	_	ADV___	31	advmod	_	_
+32	haut	haut	ADJ	_	ADJ__Gender=Masc|Number=Sing	31	nummod	_	_
+33	,	,	PUNCT	_	PUNCT___	31	punct	_	_
+34	39H	39H	NOUN	_	NOUN__NumType=Card	40	iobj	_	_
+35	/	/	PUNCT	_	PUNCT___	40	fixed	_	_
+36	semaine	semaine	NOUN	_	NOUN__Gender=Fem|Number=Sing	40	nmod	_	_
+37	avec	avec	ADP	_	ADP___	40	case	_	_
+38	4h	4h	PRON	_	PRON__NumType=Card|PronType=Rel	40	nmod	_	_
+39	supp	supp	ADJ	_	ADJ__Number=Sing	40	amod	_	_
+40	.	.	PUNCT	_	PUNCT___	31	punct	_	_
+
+
+#payées à 125%, le reste des heures supp, s'il y en a, sont récupérées.)Lundi temps de travail normal 8h, effectué 10h, donc +2hMardi à vendredi : arrêt maladie, donc 3x8h +1x7h = 31h décomptés du salaire.
+1	payées	payer	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	6	acl	_	_
+2	à	à	ADP	_	ADP___	3	case	_	_
+3	125	125	NUM	_	NUM__NumType=Card	1	nummod	_	_
+4	%	%	NOUN	_	NOUN__Gender=Masc	6	obl	_	_
+5	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+7	reste	rester	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	nsubj	_	_
+8	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	9	det	_	_
+9	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	6	obj	_	_
+10	supp	supp	ADJ	_	ADJ__Number=Sing	12	amod	_	_
+11	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+12	s'	si	SCONJ	_	SCONJ___	6	mark	_	_
+13	il	il	PRON	_	PRON__Number=Sing|Person=3	6	nsubj	_	_
+14	y	yu	PRON	_	PRON__Person=3	18	fixed	_	_
+15	en	en	PRON	_	PRON__Person=3	18	fixed	_	_
+16	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	fixed	_	_
+17	,	,	PUNCT	_	PUNCT___	18	punct	_	_
+18	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	aux:pass	_	_
+19	récupérées.)Lundi	récupérées.)Lundi	VERB	_	VERB__VerbForm=Inf	20	nsubj	_	_
+20	temps	temps	NOUN	_	NOUN__Gender=Masc	18	advmod	_	_
+21	de	de	ADP	_	ADP___	22	case	_	_
+22	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	nmod	_	_
+23	normal	normal	ADJ	_	ADJ__Gender=Masc|Number=Sing	26	amod	_	_
+24	8h	8h	NUM	_	NUM__NumType=Card	26	cop	_	_
+25	,	,	PUNCT	_	PUNCT___	26	punct	_	_
+26	effectué	effectuer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	acl	_	_
+27	10h	10h	PRON	_	PRON__NumType=Card|PronType=Rel	26	amod	_	_
+28	,	,	PUNCT	_	PUNCT___	26	punct	_	_
+29	donc	donc	ADV	_	ADV___	26	advmod	_	_
+30	+	+	ADP	_	ADP___	31	case	_	_
+31	2hMardi	2hMardi	NUM	_	NUM__NumType=Card	31	nmod	_	_
+32	à	à	ADP	_	ADP___	31	case	_	_
+33	vendredi	vendredi	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	obl	_	_
+34	:	:	PUNCT	_	PUNCT___	40	punct	_	_
+35	arrêt	arrêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	40	nsubj	_	_
+36	maladie	maladie	NOUN	_	NOUN__Gender=Fem|Number=Sing	40	amod	_	_
+37	,	,	PUNCT	_	PUNCT___	40	punct	_	_
+38	donc	donc	ADV	_	ADV___	40	advmod	_	_
+39	3x8h	3x8h	NOUN	_	NOUN__NumType=Card	40	conj	_	_
+40	+	+	ADP	_	ADP___	31	case	_	_
+41	1x7h	1x7h	NOUN	_	NOUN__NumType=Card	42	nmod	_	_
+42	=	=	VERB	_	VERB__Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+43	31h	31h	ADJ	_	ADJ__NumType=Ord	42	obj	_	_
+44	décomptés	décompter	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	45	acl	_	_
+45	du	du	DET	_	DET__Gender=Masc|Number=Sing	52	det	_	_
+46	salaire	salaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	45	obj	_	_
+47	.	.	PUNCT	_	PUNCT___	45	punct	_	_
+
+
+#Que deviennent les 2h en plus effectuées le Lundi ?
+1	Que	Que	PRON	_	PRON__PronType=Int	6	obj	_	_
+2	deviennent	devenir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+4	2h	2h	PRON	_	PRON__NumType=Card|PronType=Rel	0	ROOT	_	_
+5	en	en	ADP	_	ADP___	6	advmod	_	_
+6	plus	plaire	ADV	_	ADV___	6	fixed	_	_
+7	effectuées	effectuer	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	9	acl	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Lundi	Lundi	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+10	?	?	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#2e exemple:Lundi
+1	2e	2e	NUM	_	NUM__NumType=Card	0	ROOT	_	_
+2	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	amod	_	_
+3	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+4	Lundi	Lundi	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	appos	_	_
+
+
+#Récupération donc 8h décomptées de mon compte récupération, pas de perte de salaire.
+1	Récupération	Récupération	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	donc	donc	ADV	_	ADV___	3	nmod	_	_
+3	8h	8h	NUM	_	NUM__NumType=Card	1	aux:pass	_	_
+4	décomptées	décompter	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	6	acl	_	_
+5	de	de	ADP	_	ADP___	6	case	_	_
+6	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+7	compte	compter	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obl	_	_
+8	récupération	récupération	ADJ	_	ADJ__Number=Sing	9	amod	_	_
+9	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+10	pas	pas	ADV	_	ADV___	12	advmod	_	_
+11	de	de	ADP	_	ADP___	12	det	_	_
+12	perte	perte	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+13	de	de	ADP	_	ADP___	6	case	_	_
+14	salaire	salaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	nmod	_	_
+15	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Mardi à vendredi travaillés, soit 3x8h + 1x7h = 31h théoriques, réellement effectuée 37h soit +6h.
+1	Mardi	Mardi	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	à	à	ADP	_	ADP___	3	case	_	_
+3	vendredi	vendredi	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+4	travaillés	travailler	ADJ	_	ADJ__Gender=Masc|Number=Plur	6	acl	_	_
+5	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+6	soit	être	CCONJ	_	CCONJ___	6	cc	_	_
+7	3x8h	3x8h	NOUN	_	NOUN__NumType=Card	9	conj	_	_
+8	+	+	ADP	_	ADP___	9	case	_	_
+9	1x7h	1x7h	NOUN	_	NOUN__NumType=Card	6	obl	_	_
+10	=	=	VERB	_	VERB__Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	12	amod	_	_
+11	31h	31h	NUM	_	NUM__NumType=Card	12	obj	_	_
+12	théoriques	théorique	ADJ	_	ADJ__Number=Plur	6	amod	_	_
+13	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+14	réellement	réellement	ADV	_	ADV___	18	advmod	_	_
+15	effectuée	effectuer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	18	conj	_	_
+16	37h	37h	PRON	_	PRON__Number=Sing|Person=3	18	amod	_	_
+17	soit	être	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cc	_	_
+18	+	+	ADP	_	ADP___	26	case	_	_
+19	6h	6h	NOUN	_	NOUN__NumType=Card	20	conj	_	_
+20	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Est ce qu'il faut compter sur une base de 39h, donc on intègre les 8h de récupération, ce qui amène le calcul à 39h + 6h, soit 6h supplémentaires à mettre sur le compte récupération.
+1	Est	Est	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	6	cop	_	_
+2	ce	ce	PRON	_	PRON__PronType=Rel	0	ROOT	_	_
+3	qu'	que	SCONJ	_	SCONJ___	1	mark	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+5	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+6	compter	compter	VERB	_	VERB__VerbForm=Inf	6	xcomp	_	_
+7	sur	sur	ADP	_	ADP___	9	case	_	_
+8	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	base	baser	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obl	_	_
+10	de	de	ADP	_	ADP___	12	case	_	_
+11	39h	39h	PRON	_	PRON__NumType=Card|PronType=Rel	12	nmod	_	_
+12	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+13	donc	donc	ADV	_	ADV___	6	advmod	_	_
+14	on	on	PRON	_	PRON__Number=Sing|Person=3	18	nsubj	_	_
+15	intègre	intégrer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	18	acl:relcl	_	_
+16	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	18	det	_	_
+17	8h	8h	ADJ	_	ADJ__NumType=Card	18	obj	_	_
+18	de	de	ADP	_	ADP___	26	case	_	_
+19	récupération	récupération	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	nmod	_	_
+20	,	,	PUNCT	_	PUNCT___	18	punct	_	_
+21	ce	ce	PRON	_	PRON__PronType=Rel	22	iobj	_	_
+22	qui	qui	PRON	_	PRON__PronType=Rel	20	nsubj	_	_
+23	amène	amener	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	_
+24	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	calcul	calcul	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	obj	_	_
+26	à	à	ADP	_	ADP___	30	case	_	_
+27	39h	39h	ADJ	_	ADJ__NumType=Ord	26	nmod	_	_
+28	+	+	ADP	_	ADP___	26	case	_	_
+29	6h	6h	NUM	_	NUM__NumType=Card	26	nmod	_	_
+30	,	,	PUNCT	_	PUNCT___	31	punct	_	_
+31	soit	être	CCONJ	_	CCONJ___	31	cc	_	_
+32	6h	6h	DET	_	DET___	31	conj	_	_
+33	supplémentaires	supplémentaire	ADJ	_	ADJ__Number=Plur	31	amod	_	_
+34	à	à	ADP	_	ADP___	40	mark	_	_
+35	mettre	mettre	VERB	_	VERB__VerbForm=Inf	40	acl	_	_
+36	sur	sur	ADP	_	ADP___	40	case	_	_
+37	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+38	compte	compter	NOUN	_	NOUN__Gender=Masc|Number=Sing	40	obl	_	_
+39	récupération	récupération	ADJ	_	ADJ__Number=Sing	40	amod	_	_
+40	.	.	PUNCT	_	PUNCT___	31	punct	_	_
+
+
+#OU est ce qu'il faut compter sur la base de 31h, et dans ce cas le calcul serait (accrochons nous) :31h + 4h (non suuplémentaires car inférieur à 35h et comptées au taux 1) + 2h supplémentaires (donc bonifiées au taux 1.25 car c'est des heures après les 35h)Bonjour la prise de tête mais je compte sur vous !
+1	OU	OU	CCONJ	_	CCONJ___	6	cc	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	ce	ce	PRON	_	PRON__PronType=Rel	0	ROOT	_	_
+4	qu'	que	PRON	_	PRON__PronType=Rel	6	obj	_	_
+5	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+6	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+7	compter	compter	VERB	_	VERB__VerbForm=Inf	9	xcomp	_	_
+8	sur	sur	ADP	_	ADP___	9	case	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+10	base	baser	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obl	_	_
+11	de	de	ADP	_	ADP___	12	case	_	_
+12	31h	31h	NUM	_	NUM__NumType=Card	6	nmod	_	_
+13	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+14	et	et	CCONJ	_	CCONJ___	18	cc	_	_
+15	dans	dan	ADP	_	ADP___	18	case	_	_
+16	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
+17	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	conj	_	_
+18	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+19	calcul	calcul	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	orphan	_	_
+20	serait	être	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+21	(	(	PUNCT	_	PUNCT___	22	punct	_	_
+22	accrochons	accrocher	NOUN	_	NOUN__Gender=Fem|Number=Plur	20	acl	_	_
+23	nous	se	PRON	_	PRON__Number=Plur|Person=1	26	nmod	_	_
+24	)	)	PUNCT	_	PUNCT___	26	punct	_	_
+25	:	:	PUNCT	_	PUNCT___	26	punct	_	_
+26	31h	31h	NOUN	_	NOUN__NumType=Card	30	acl	_	_
+27	+	+	ADP	_	ADP___	26	case	_	_
+28	4h	4h	NUM	_	NUM__NumType=Card	26	nmod	_	_
+29	(	(	PUNCT	_	PUNCT___	26	punct	_	_
+30	non	non	ADV	_	ADV___	31	advmod	_	_
+31	suuplémentaires	suuplémentaires	NOUN	_	NOUN__Gender=Masc|Number=Plur	31	amod	_	_
+32	car	car	CCONJ	_	CCONJ___	31	cc	_	_
+33	inférieur	inférieur	ADJ	_	ADJ__Gender=Masc|Number=Sing	31	conj	_	_
+34	à	à	ADP	_	ADP___	40	case	_	_
+35	35h	35h	PRON	_	PRON__PronType=Int	40	nmod	_	_
+36	et	et	CCONJ	_	CCONJ___	40	cc	_	_
+37	comptées	compter	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	40	conj	_	_
+38	au	au	DET	_	DET__Number=Plur|PronType=Dem	40	case	_	_
+39	taux	taux	NOUN	_	NOUN__Gender=Masc|Number=Plur	40	obl	_	_
+40	1	1	NUM	_	NUM__NumType=Card	31	nummod	_	_
+41	)	)	PUNCT	_	PUNCT___	42	punct	_	_
+42	+	+	ADP	_	ADP___	40	case	_	_
+43	2h	2h	NUM	_	NUM__NumType=Card	42	nmod	_	_
+44	supplémentaires	supplémentaire	NOUN	_	NOUN__Number=Plur	45	amod	_	_
+45	(	(	PUNCT	_	PUNCT___	52	punct	_	_
+46	donc	donc	ADV	_	ADV___	45	advmod	_	_
+47	bonifiées	bonifier	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	45	cop	_	_
+48	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	47	det	_	_
+49	taux	taux	NOUN	_	NOUN__Gender=Masc|Number=Sing	47	nmod	_	_
+50	1.25	1.25	NUM	_	NUM__NumType=Card	51	nummod	_	_
+51	car	car	CCONJ	_	CCONJ___	47	cc	_	_
+52	c'	ce	PRON	_	PRON__Number=Sing|Person=3	42	nsubj	_	_
+53	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
+54	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	95	det	_	_
+55	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	57	conj	_	_
+56	après	après	ADP	_	ADP___	57	case	_	_
+57	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	54	det	_	_
+58	35h)Bonjour	35h)Bonjour	ADP	_	ADP___	95	nmod	_	_
+59	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	60	det	_	_
+60	prise	priser	NOUN	_	NOUN__Gender=Fem|Number=Sing	95	nmod	_	_
+61	de	de	ADP	_	ADP___	62	case	_	_
+62	tête	tête	NOUN	_	NOUN__Gender=Fem|Number=Sing	60	nmod	_	_
+63	mais	mai	CCONJ	_	CCONJ___	62	cc	_	_
+64	je	il	PRON	_	PRON__Number=Sing|Person=1	60	nsubj	_	_
+65	compte	compter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	95	conj	_	_
+66	sur	sur	ADP	_	ADP___	95	case	_	_
+67	vous	se	PRON	_	PRON__Number=Plur|Person=2|PronType=Prs	66	obl	_	_
+68	!	!	PUNCT	_	PUNCT___	66	punct	_	_
+
+
+#Merci d'avance
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	d'	de	ADP	_	ADP___	3	case	_	_
+3	avance	avancer	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+
+

@@ -1,0 +1,91 @@
+#Bonjour,Non, absolument pas.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Non	Non	ADV	_	ADV___	1	nmod	_	_
+4	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+5	absolument	absolument	ADV	_	ADV___	6	advmod	_	_
+6	pas	pas	ADV	_	ADV__Polarity=Neg	3	fixed	_	_
+7	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Par ailleurs, la requalification en licenciement pour faute lourde est juridiquement impossible.
+1	Par	Par	ADP	_	ADP___	1	advmod	_	_
+2	ailleurs	ailleurs	ADV	_	ADV___	1	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	requalification	requalification	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nsubj	_	_
+6	en	en	ADP	_	ADP___	3	case	_	_
+7	licenciement	licenciement	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+8	pour	pour	ADP	_	ADP___	14	case	_	_
+9	faute	fauter	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+10	lourde	lourd	ADJ	_	ADJ__Number=Sing	14	amod	_	_
+11	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	juridiquement	juridiquement	ADV	_	ADV___	14	advmod	_	_
+13	impossible	impossible	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+14	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Comme vous le dites, contractuellement, vous n'étiez qu'auxiliaire de vie, et n'aviez donc aucune responsabilité particulière concernant la gestion du personnel.
+1	Comme	Comme	SCONJ	_	SCONJ___	1	mark	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+4	dites	dit	AUX	_	AUX__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	6	advcl	_	_
+5	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+6	contractuellement	contractuellement	ADV	_	ADV___	3	advmod	_	_
+7	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+8	vous	se	PRON	_	PRON__Number=Plur|Person=2	14	nsubj	_	_
+9	n'	ne	ADV	_	ADV___	8	advmod	_	_
+10	étiez	être	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
+11	qu'	que	SCONJ	_	SCONJ___	12	mark	_	_
+12	auxiliaire	auxiliaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	ccomp	_	_
+13	de	de	ADP	_	ADP___	14	case	_	_
+14	vie	vie	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obl	_	_
+15	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+16	et	et	CCONJ	_	CCONJ___	14	cc	_	_
+17	n'	ne	ADV	_	ADV___	16	advmod	_	_
+18	aviez	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	conj	_	_
+19	donc	donc	ADV	_	ADV___	20	advmod	_	_
+20	aucune	aucun	DET	_	DET__Gender=Fem|Number=Sing	20	det	_	_
+21	responsabilité	responsabilité	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obj	_	_
+22	particulière	particulier	ADJ	_	ADJ__Gender=Fem|Number=Sing	25	amod	_	_
+23	concernant	concerner	VERB	_	VERB__Tense=Pres|VerbForm=Part	25	acl	_	_
+24	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	gestion	gestion	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	obj	_	_
+26	du	du	DET	_	DET__Gender=Masc|Number=Sing	31	det	_	_
+27	personnel	personnel	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	nmod	_	_
+28	.	.	PUNCT	_	PUNCT___	31	punct	_	_
+
+
+#Non plus.
+1	Non	Non	ADV	_	ADV___	1	advmod	_	_
+2	plus	plaire	ADV	_	ADV___	0	ROOT	_	_
+3	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Laissez tomber, c'est du flan tout ça.
+1	Laissez	Laissez	VERB	_	VERB__Mood=Ind|VerbForm=Fin	1	advmod	_	_
+2	tomber	tomber	VERB	_	VERB__VerbForm=Inf	1	acl	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	c'	ce	PRON	_	PRON__Number=Sing|Person=3	6	nsubj	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	du	du	DET	_	DET__Gender=Masc|Number=Sing	3	det	_	_
+7	flan	flan	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+8	tout	tout	ADJ	_	ADJ__Gender=Masc|Number=Sing	14	advmod	_	_
+9	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	obj	_	_
+10	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Il ne peut rien contre vous.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	ne	ne	ADV	_	ADV___	1	advmod	_	_
+3	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	6	obj	_	_
+5	contre	contrer	ADP	_	ADP___	6	case	_	_
+6	vous	se	PRON	_	PRON__Number=Plur|Person=2|PronType=Prs	3	obl	_	_
+7	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Cdt
+1	Cdt	Cdt	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+
+

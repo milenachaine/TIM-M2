@@ -1,0 +1,76 @@
+#Bonjour,Comme l'a expliqué Putzi, il y a au plus 4 trimestres par an, que vous gagnez 30.000 ou 60.000 euros.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	6	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+3	Comme	Comme	SCONJ	_	SCONJ___	6	mark	_	_
+4	l'	le	PRON	_	PRON__Number=Sing|Person=3	6	obj	_	_
+5	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	expliqué	expliquer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+7	Putzi	Putzi	PROPN	_	PROPN___	6	obj	_	_
+8	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+9	il	il	PRON	_	PRON__Number=Sing|Person=3	6	conj	_	_
+10	y	yu	PRON	_	PRON__Person=3	9	fixed	_	_
+11	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	fixed	_	_
+12	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	9	fixed	_	_
+13	plus	plaire	ADV	_	ADV___	9	fixed	_	_
+14	4	4	NUM	_	NUM__NumType=Card	15	nummod	_	_
+15	trimestres	trimestre	NOUN	_	NOUN__Gender=Fem|Number=Plur	9	obj	_	_
+16	par	par	ADP	_	ADP___	17	case	_	_
+17	an	an	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nmod	_	_
+18	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+19	que	que	SCONJ	_	SCONJ___	21	mark	_	_
+20	vous	se	PRON	_	PRON__Number=Plur|Person=2	21	nsubj	_	_
+21	gagnez	gagner	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+22	30.000	30.000	NUM	_	NUM__NumType=Card	25	nummod	_	_
+23	ou	ou	CCONJ	_	CCONJ___	24	cc	_	_
+24	60.000	60.000	NUM	_	NUM__NumType=Card	22	conj	_	_
+25	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	21	obj	_	_
+26	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Vous dites avoir travaillé en France 28 ans, ça fait donc 28*
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	6	nsubj	_	_
+2	dites	dit	PRON	_	PRON__Number=Plur|Person=2	6	aux	_	_
+3	avoir	avoir	AUX	_	AUX__VerbForm=Inf	6	aux	_	_
+4	travaillé	travailler	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+5	en	en	ADP	_	ADP___	6	case	_	_
+6	France	France	PROPN	_	PROPN__Gender=Fem|Number=Sing	6	obl	_	_
+7	28	28	NUM	_	NUM__NumType=Card	6	nummod	_	_
+8	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	obl	_	_
+9	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+10	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	nsubj	_	_
+11	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+12	donc	donc	ADV	_	ADV___	9	advmod	_	_
+13	28	28	NUM	_	NUM__NumType=Card	9	nummod	_	_
+14	*	*	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	punct	_	_
+
+
+#4=112 trimestres (en comptant les années calendaires continues, un peu plus ou moins si vous commencez ou terminez en cours d'un trimestre).
+1	4=112	4=112	NUM	_	NUM__NumType=Card	6	advmod	_	_
+2	trimestres	trimestre	NOUN	_	NOUN__Gender=Fem|Number=Plur	6	amod	_	_
+3	(	(	PUNCT	_	PUNCT___	6	punct	_	_
+4	en	en	ADP	_	ADP___	6	mark	_	_
+5	comptant	compter	VERB	_	VERB__Tense=Pres|VerbForm=Part	6	advcl	_	_
+6	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	6	det	_	_
+7	années	année	NOUN	_	NOUN__Gender=Fem|Number=Plur	6	obj	_	_
+8	calendaires	calendaires	ADJ	_	ADJ__Gender=Fem|Number=Plur	9	amod	_	_
+9	continues	continuer	ADJ	_	ADJ__Gender=Fem|Number=Plur	6	amod	_	_
+10	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+11	un	un	DET	_	DET__Gender=Masc|Number=Sing	9	advmod	_	_
+12	peu	peu	ADV	_	ADV___	9	fixed	_	_
+13	plus	plaire	ADV	_	ADV___	9	fixed	_	_
+14	ou	ou	CCONJ	_	CCONJ___	15	fixed	_	_
+15	moins	moins	ADV	_	ADV___	9	fixed	_	_
+16	si	si	SCONJ	_	SCONJ___	17	mark	_	_
+17	vous	se	PRON	_	PRON__Number=Plur|Person=2	15	nsubj	_	_
+18	commencez	commencer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+19	ou	ou	CCONJ	_	CCONJ___	21	cc	_	_
+20	terminez	terminer	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	21	conj	_	_
+21	en	en	ADP	_	ADP___	9	case	_	_
+22	cours	courir	NOUN	_	NOUN__Gender=Masc	25	fixed	_	_
+23	d'	de	ADP	_	ADP___	24	fixed	_	_
+24	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+25	trimestre	trimestre	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obl	_	_
+26	)	)	PUNCT	_	PUNCT___	6	punct	_	_
+27	.	.	PUNCT	_	PUNCT___	30	punct	_	_
+
+

@@ -1,0 +1,86 @@
+#Bonjour Ribould,
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	Ribould	Ribould	PROPN	_	PROPN___	1	flat:name	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Non, le Père Noel ne passera pas chez moi le 13 novembre.
+1	Non	Non	ADV	_	ADV___	1	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+4	Père	Père	PROPN	_	PROPN__Gender=Masc|Number=Sing	10	nsubj	_	_
+5	Noel	Noel	PROPN	_	PROPN___	10	flat:name	_	_
+6	ne	ne	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+7	passera	passer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+8	pas	pas	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+9	chez	chez	ADP	_	ADP___	10	case	_	_
+10	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	10	obl	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+12	13	13	NUM	_	NUM__NumType=Card	13	nummod	_	_
+13	novembre	novembre	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+14	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Vu mon dernier relevé de compte, il a pris un peu d'avance et s'est rendu directement à ma banque (où il a d'ailleurs entonné un très beau cantique aux employés pour s'excuser du remboursement en pièces de 2 centimes).Donc, fin de l'histoire.
+1	Vu	Vu	ADP	_	ADP___	1	acl	_	_
+2	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+3	dernier	dernier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	1	amod	_	_
+4	relevé	relever	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	obj	_	_
+5	de	de	ADP	_	ADP___	10	case	_	_
+6	compte	compter	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+7	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+8	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+9	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	pris	prendre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	0	ROOT	_	_
+11	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+12	peu	peu	ADV	_	ADV___	13	obj	_	_
+13	d'	de	ADP	_	ADP___	10	case	_	_
+14	avance	avancer	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nmod	_	_
+15	et	et	CCONJ	_	CCONJ___	16	cc	_	_
+16	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	10	expl	_	_
+17	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+18	rendu	rendre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	conj	_	_
+19	directement	directement	ADV	_	ADV___	21	advmod	_	_
+20	à	à	ADP	_	ADP___	21	case	_	_
+21	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	18	nmod:poss	_	_
+22	banque	banque	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	obl	_	_
+23	(	(	PUNCT	_	PUNCT___	21	punct	_	_
+24	où	où	PRON	_	PRON__PronType=Rel	27	iobj	_	_
+25	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	27	nsubj	_	_
+26	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	d'	de	ADP	_	ADP___	27	advmod	_	_
+28	ailleurs	ailleurs	NOUN	_	NOUN__Gender=Masc	29	fixed	_	_
+29	entonné	entonner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	advcl	_	_
+30	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	très	très	ADV	_	ADV___	29	advmod	_	_
+32	beau	beau	ADJ	_	ADJ__Gender=Masc|Number=Sing	35	obj	_	_
+33	cantique	cantique	ADJ	_	ADJ__Number=Sing	35	aux:pass	_	_
+34	aux	aux	ADP	_	ADP___	35	aux	_	_
+35	employés	employer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	27	ccomp	_	_
+36	pour	pour	ADP	_	ADP___	35	mark	_	_
+37	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	39	expl	_	_
+38	excuser	excuser	VERB	_	VERB__VerbForm=Inf	39	advcl	_	_
+39	du	du	DET	_	DET__Gender=Masc|Number=Sing	35	det	_	_
+40	remboursement	remboursement	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	obj	_	_
+41	en	en	ADP	_	ADP___	43	case	_	_
+42	pièces	pièce	NOUN	_	NOUN__Gender=Fem|Number=Plur	43	nmod	_	_
+43	de	de	ADP	_	ADP___	46	case	_	_
+44	2	2	NUM	_	NUM__NumType=Card	46	nummod	_	_
+45	centimes).Donc	centimes).Donc	NOUN	_	NOUN___	44	nmod	_	_
+46	,	,	PUNCT	_	PUNCT___	27	punct	_	_
+47	fin	fin	NOUN	_	NOUN__Number=Sing	49	obj	_	_
+48	de	de	ADP	_	ADP___	49	case	_	_
+49	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	46	det	_	_
+50	histoire	histoire	NOUN	_	NOUN__Gender=Fem|Number=Sing	52	nmod	_	_
+51	.	.	PUNCT	_	PUNCT___	52	punct	_	_
+
+
+#Et encore merci a tous !
+1	Et	Et	CCONJ	_	CCONJ___	1	cc	_	_
+2	encore	encore	ADV	_	ADV___	1	advmod	_	_
+3	merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+4	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	tous	tout	ADJ	_	ADJ__Gender=Masc|Number=Plur	10	iobj	_	_
+6	!	!	PUNCT	_	PUNCT___	7	punct	_	_
+
+

@@ -1,0 +1,153 @@
+#Bonjour,Votre nom patronymique ne changera jamais.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+3	Votre	Votre	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+4	nom	nom	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nsubj	_	_
+5	patronymique	patronymique	ADJ	_	ADJ__Number=Sing	4	amod	_	_
+6	ne	ne	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+7	changera	changer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	1	conj	_	_
+8	jamais	jamais	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+9	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Vous voudriez donc vous faire appeler, par exemple : Madame Nadège Veuve
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+2	voudriez	vouloir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	donc	donc	ADV	_	ADV___	4	advmod	_	_
+4	vous	se	PRON	_	PRON__Number=Plur|Person=2	7	obj	_	_
+5	faire	faire	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+6	appeler	appeler	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+7	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+8	par	par	ADP	_	ADP___	7	advmod	_	_
+9	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	fixed	_	_
+10	:	:	PUNCT	_	PUNCT___	11	punct	_	_
+11	Madame	Madame	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obl	_	_
+12	Nadège	Nadège	X	_	X___	11	flat:name	_	_
+13	Veuve	Veuve	X	_	X___	14	flat:name	_	_
+
+
+#Dupond épouse Durand ou Mme Nadège Dupond
+1	Dupond	Dupond	PROPN	_	PROPN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	épouse	époux	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	amod	_	_
+3	Durand	Durand	PROPN	_	PROPN___	4	flat:name	_	_
+4	ou	ou	CCONJ	_	CCONJ___	7	cc	_	_
+5	Mme	Mme	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	conj	_	_
+6	Nadège	Nadège	PROPN	_	PROPN__Gender=Masc|Number=Sing	7	flat:name	_	_
+7	Dupond	Dupond	PROPN	_	PROPN___	1	flat:name	_	_
+
+
+#-Durand ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	Durand	Durand	PROPN	_	PROPN___	0	ROOT	_	_
+3	?	?	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Si on peut comprendre votre volonté de "respect" vis à vis de vos deux maris, cela risque de vous poser problèmes pour toutes vos formalités administratives : si certains organismes accepteront les deux noms, ce ne sera pas systématique (exemple : pour la sécurité sociale, vous serez sous votre nom patronymique, épouse (votre nouveau mari).Les demi-frères et demi-sœurs ne seront que les enfants que vous aurez avec votre nouveau mari (pas les enfants de votre mari) et ces enfants ne pourront porter que le nom de leur père mais pas celui de votre défunt mari.
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	on	on	PRON	_	PRON__Number=Sing|Person=3	7	nsubj	_	_
+3	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	comprendre	comprendre	VERB	_	VERB__VerbForm=Inf	7	advcl	_	_
+5	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+6	volonté	volonté	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+7	de	de	ADP	_	ADP___	1	case	_	_
+8	"	"	PUNCT	_	PUNCT___	7	punct	_	_
+9	respect	respect	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+10	"	"	PUNCT	_	PUNCT___	11	punct	_	_
+11	vis	voir	NOUN	_	NOUN__Gender=Fem	11	case	_	_
+12	à	à	ADP	_	ADP___	11	fixed	_	_
+13	vis	voir	NOUN	_	NOUN__Gender=Fem	14	fixed	_	_
+14	de	de	ADP	_	ADP___	11	fixed	_	_
+15	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	14	nmod:poss	_	_
+16	deux	deux	NUM	_	NUM__NumType=Card	11	nummod	_	_
+17	maris	mari	NOUN	_	NOUN__Gender=Fem|Number=Plur	11	nmod	_	_
+18	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+19	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	11	nsubj	_	_
+20	risque	risquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+21	de	de	ADP	_	ADP___	20	mark	_	_
+22	vous	se	PRON	_	PRON__Number=Plur|Person=2	20	iobj	_	_
+23	poser	poser	VERB	_	VERB__VerbForm=Inf	23	xcomp	_	_
+24	problèmes	problème	NOUN	_	NOUN__Gender=Masc|Number=Plur	23	obj	_	_
+25	pour	pour	ADP	_	ADP___	23	case	_	_
+26	toutes	toute	ADJ	_	ADJ__Gender=Fem|Number=Plur	27	amod	_	_
+27	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	23	nmod:poss	_	_
+28	formalités	formalité	NOUN	_	NOUN__Gender=Fem|Number=Plur	27	obl	_	_
+29	administratives	administratif	ADJ	_	ADJ__Gender=Fem|Number=Plur	28	amod	_	_
+30	:	:	PUNCT	_	PUNCT___	31	punct	_	_
+31	si	si	SCONJ	_	SCONJ___	31	mark	_	_
+32	certains	certain	DET	_	DET__Gender=Masc|Number=Plur	31	det	_	_
+33	organismes	organisme	ADJ	_	ADJ__Number=Plur	36	nsubj	_	_
+34	accepteront	accepter	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	36	advcl	_	_
+35	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	36	det	_	_
+36	deux	deux	NUM	_	NUM__NumType=Card	52	nummod	_	_
+37	noms	nom	NOUN	_	NOUN__Gender=Masc|Number=Plur	38	obj	_	_
+38	,	,	PUNCT	_	PUNCT___	36	punct	_	_
+39	ce	ce	PRON	_	PRON__PronType=Rel	41	nsubj	_	_
+40	ne	ne	ADV	_	ADV__Polarity=Neg	41	advmod	_	_
+41	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	38	cop	_	_
+42	pas	pas	ADV	_	ADV__Polarity=Neg	41	advmod	_	_
+43	systématique	systématique	ADJ	_	ADJ__Number=Sing	49	amod	_	_
+44	(	(	PUNCT	_	PUNCT___	43	punct	_	_
+45	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	43	obl	_	_
+46	:	:	PUNCT	_	PUNCT___	43	punct	_	_
+47	pour	pour	ADP	_	ADP___	49	case	_	_
+48	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
+49	sécurité	sécurité	NOUN	_	NOUN__Gender=Fem|Number=Sing	38	obl	_	_
+50	sociale	social	ADJ	_	ADJ__Gender=Fem|Number=Sing	52	amod	_	_
+51	,	,	PUNCT	_	PUNCT___	52	punct	_	_
+52	vous	se	PRON	_	PRON__Number=Plur|Person=2	52	nsubj	_	_
+53	serez	être	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	55	acl:relcl	_	_
+54	sous	sou	ADP	_	ADP___	55	case	_	_
+55	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	52	nmod:poss	_	_
+56	nom	nom	NOUN	_	NOUN__Gender=Masc|Number=Sing	55	obl	_	_
+57	patronymique	patronymique	ADJ	_	ADJ__Number=Sing	60	amod	_	_
+58	,	,	PUNCT	_	PUNCT___	60	punct	_	_
+59	épouse	époux	NOUN	_	NOUN__Gender=Fem|Number=Sing	60	appos	_	_
+60	(	(	PUNCT	_	PUNCT___	55	punct	_	_
+61	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	60	advmod	_	_
+62	nouveau	nouveau	NOUN	_	NOUN__Gender=Masc|Number=Sing	52	fixed	_	_
+63	mari).Les	mari).Les	PUNCT	_	PUNCT___	66	nsubj	_	_
+64	demi-frères	demi-frère	NOUN	_	NOUN__Gender=Fem|Number=Plur	65	amod	_	_
+65	et	et	CCONJ	_	CCONJ___	66	cc	_	_
+66	demi-sœurs	demi-sœurs	NOUN	_	NOUN__Gender=Masc|Number=Plur	52	conj	_	_
+67	ne	ne	ADV	_	ADV__Polarity=Neg	69	advmod	_	_
+68	seront	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	69	obj	_	_
+69	que	que	SCONJ	_	SCONJ___	66	advmod	_	_
+70	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	69	det	_	_
+71	enfants	enfant	NOUN	_	NOUN__Number=Plur	75	nmod	_	_
+72	que	que	PRON	_	PRON__PronType=Rel	75	obj	_	_
+73	vous	se	PRON	_	PRON__Number=Plur|Person=2	75	nsubj	_	_
+74	aurez	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	75	acl:relcl	_	_
+75	avec	avec	ADP	_	ADP___	69	case	_	_
+76	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	75	nmod:poss	_	_
+77	nouveau	nouveau	ADJ	_	ADJ__Gender=Masc|Number=Sing	75	amod	_	_
+78	mari	mari	NOUN	_	NOUN__Gender=Masc|Number=Sing	75	obl	_	_
+79	(	(	PUNCT	_	PUNCT___	81	punct	_	_
+80	pas	pas	ADV	_	ADV__Polarity=Neg	81	appos	_	_
+81	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	75	det	_	_
+82	enfants	enfant	NOUN	_	NOUN__Number=Plur	81	appos	_	_
+83	de	de	ADP	_	ADP___	85	case	_	_
+84	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	85	nmod:poss	_	_
+85	mari	mari	NOUN	_	NOUN__Gender=Masc|Number=Sing	69	nmod	_	_
+86	)	)	PUNCT	_	PUNCT___	88	punct	_	_
+87	et	et	CCONJ	_	CCONJ___	88	cc	_	_
+88	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	85	det	_	_
+89	enfants	enfant	NOUN	_	NOUN__Number=Plur	88	nsubj	_	_
+90	ne	ne	ADV	_	ADV___	88	advmod	_	_
+91	pourront	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	88	aux	_	_
+92	porter	porter	VERB	_	VERB__VerbForm=Inf	91	conj	_	_
+93	que	que	SCONJ	_	SCONJ___	95	advmod	_	_
+94	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	93	det	_	_
+95	nom	nom	NOUN	_	NOUN__Gender=Masc|Number=Sing	100	fixed	_	_
+96	de	de	ADP	_	ADP___	95	case	_	_
+97	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	98	nmod:poss	_	_
+98	père	père	NOUN	_	NOUN__Gender=Masc|Number=Sing	96	nmod	_	_
+99	mais	mai	CCONJ	_	CCONJ___	100	cc	_	_
+100	pas	pas	ADV	_	ADV___	85	advmod	_	_
+101	celui	celui	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Dem	103	conj	_	_
+102	de	de	ADP	_	ADP___	103	case	_	_
+103	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	100	nmod:poss	_	_
+104	défunt	défunt	ADJ	_	ADJ__Number=Sing	106	amod	_	_
+105	mari	mari	NOUN	_	NOUN__Gender=Masc|Number=Sing	106	nmod	_	_
+106	.	.	PUNCT	_	PUNCT___	103	punct	_	_
+
+

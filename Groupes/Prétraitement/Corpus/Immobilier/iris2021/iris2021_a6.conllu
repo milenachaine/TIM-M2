@@ -1,0 +1,67 @@
+#Sauf si c'est le maire ou le préfet qui demande la visite de la commission de sécurité.
+1	Sauf	Sauf	ADP	_	ADP___	6	case	_	_
+2	si	si	SCONJ	_	SCONJ___	6	mark	_	_
+3	c'	ce	PRON	_	PRON__Number=Sing|Person=3	6	nsubj	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	maire	maire	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+7	ou	ou	CCONJ	_	CCONJ___	9	cc	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	préfet	préfet	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	conj	_	_
+10	qui	qui	PRON	_	PRON__PronType=Rel	11	nsubj	_	_
+11	demande	demander	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	visite	visiter	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obj	_	_
+14	de	de	ADP	_	ADP___	16	case	_	_
+15	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	commission	commission	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nmod	_	_
+17	de	de	ADP	_	ADP___	18	case	_	_
+18	sécurité	sécurité	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nmod	_	_
+19	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Et vu qu'on parle de gamins, on ne prend pas de pincettes pour assurer leur vérité.
+1	Et	Et	CCONJ	_	CCONJ___	6	cc	_	_
+2	vu	voir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	mark	_	_
+3	qu'	que	SCONJ	_	SCONJ___	6	mark	_	_
+4	on	on	PRON	_	PRON__Number=Sing|Person=3	6	nsubj	_	_
+5	parle	parler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+6	de	de	ADP	_	ADP___	6	case	_	_
+7	gamins	gamin	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	obl	_	_
+8	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+9	on	on	PRON	_	PRON__Number=Sing|Person=3	6	nsubj	_	_
+10	ne	ne	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+11	prend	prendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+12	pas	pas	ADV	_	ADV__Polarity=Neg	13	advmod	_	_
+13	de	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
+14	pincettes	pincette	NOUN	_	NOUN__Gender=Fem|Number=Plur	16	obj	_	_
+15	pour	pour	ADP	_	ADP___	16	mark	_	_
+16	assurer	avoir	VERB	_	VERB__VerbForm=Inf	13	advcl	_	_
+17	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	18	nmod:poss	_	_
+18	vérité	vérité	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obj	_	_
+19	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Et si c'est l'un de eux ou les deux qui demandent cette visite, elle se fera.
+1	Et	Et	CCONJ	_	CCONJ___	6	cc	_	_
+2	si	si	SCONJ	_	SCONJ___	6	mark	_	_
+3	c'	ce	PRON	_	PRON__Number=Sing|Person=3	6	nsubj	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	un	un	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	6	obl	_	_
+7	de	de	ADP	_	ADP___	9	case	_	_
+8	eux	lui	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	nmod	_	_
+9	ou	ou	CCONJ	_	CCONJ___	6	cc	_	_
+10	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	11	det	_	_
+11	deux	deux	NUM	_	NUM__NumType=Card	9	conj	_	_
+12	qui	qui	PRON	_	PRON__PronType=Rel	13	nsubj	_	_
+13	demandent	demander	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+14	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	16	det	_	_
+15	visite	visiter	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obj	_	_
+16	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+17	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	18	nsubj	_	_
+18	se	se	PRON	_	PRON__Person=3|Reflex=Yes	16	expl	_	_
+19	fera	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+20	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+

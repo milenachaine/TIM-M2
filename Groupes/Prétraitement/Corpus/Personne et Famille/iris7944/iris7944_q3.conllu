@@ -1,0 +1,184 @@
+#D’accord je commence à comprendre.
+1	D’	D’	ADP	_	ADP___	4	nsubj	_	_
+2	accord	accord	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	fixed	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+4	commence	commencer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	à	à	ADP	_	ADP___	6	mark	_	_
+6	comprendre	comprendre	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+7	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Mais alors le calcul suivant est-il juste ?
+1	Mais	Mais	CCONJ	_	CCONJ___	4	cc	_	_
+2	alors	alors	ADV	_	ADV___	1	advmod	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	calcul	calcul	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	suivant	suivre	VERB	_	VERB__Tense=Pres|VerbForm=Part	6	acl	_	_
+6	est-il	est-il	ADV	_	ADV___	4	amod	_	_
+7	juste	juste	ADV	_	ADV___	4	advmod	_	_
+8	?	?	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#300 000 euros (valeur du legs)
+1	300	300	NUM	_	NUM__NumType=Card	4	nummod	_	_
+2	000	000	NUM	_	NUM__NumType=Card	1	nummod	_	_
+3	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+4	(	(	PUNCT	_	PUNCT___	4	punct	_	_
+5	valeur	valeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	appos	_	_
+6	du	du	DET	_	DET__Gender=Masc|Number=Sing	4	det	_	_
+7	legs	legs	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+8	)	)	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#- 182 250 (RH du légataire) = 117 750.Ces 117 750€ absorbent donc entièrement sa réserve.
+1	-	-	PUNCT	_	PUNCT___	4	punct	_	_
+2	182	182	NUM	_	NUM__NumType=Card	1	nummod	_	_
+3	250	250	NUM	_	NUM__NumType=Card	4	nsubj	_	_
+4	(	(	PUNCT	_	PUNCT___	4	punct	_	_
+5	RH	RH	PROPN	_	PROPN___	6	appos	_	_
+6	du	du	DET	_	DET__Gender=Masc|Number=Sing	4	det	_	_
+7	légataire	légataire	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	amod	_	_
+8	)	)	PUNCT	_	PUNCT___	11	punct	_	_
+9	=	=	VERB	_	VERB__Mood=Ind|Person=3|VerbForm=Fin	0	ROOT	_	_
+10	117	117	NUM	_	NUM__NumType=Card	11	obj	_	_
+11	750.Ces	750.Ces	PUNCT	_	PUNCT___	11	obj	_	_
+12	117	117	NUM	_	NUM__NumType=Card	11	nummod	_	_
+13	750	750	NUM	_	NUM__NumType=Card	11	nummod	_	_
+14	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	nsubj	_	_
+15	absorbent	absorber	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+16	donc	donc	ADV	_	ADV___	18	advmod	_	_
+17	entièrement	entièrement	ADV	_	ADV___	18	advmod	_	_
+18	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	18	nmod:poss	_	_
+19	réserve	réserver	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	obj	_	_
+20	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Si j’ai bien compris le reste s’impute alors sur la QD, soit 182 250 (QD) - 117 750 (l’excédant) = 64500€. (Nouvelle valeur de la QD)Mais alors 2 questions :-pourquoi le légataire doit-il indemniser les autres héritiers réservataires alors que le legs n’a réduit que QD et la propre RH du légataire ?
+1	Si	Si	SCONJ	_	SCONJ___	4	mark	_	_
+2	j’	j’	PRON	_	PRON__Person=3	1	nsubj	_	_
+3	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	bien	bien	ADV	_	ADV___	4	advmod	_	_
+5	compris	comprendre	ADJ	_	ADJ__Gender=Masc	6	advcl	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+7	reste	rester	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	case	_	_
+8	s’	s’	ADJ	_	ADJ__Gender=Masc|Number=Sing	11	obl	_	_
+9	impute	imputer	ADJ	_	ADJ__Gender=Fem|Number=Sing	11	amod	_	_
+10	alors	alors	ADV	_	ADV___	11	advmod	_	_
+11	sur	sur	ADP	_	ADP___	11	case	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+13	QD	QD	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obl	_	_
+14	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+15	soit	être	CCONJ	_	CCONJ___	11	cc	_	_
+16	182	182	NUM	_	NUM__NumType=Card	18	nummod	_	_
+17	250	250	NUM	_	NUM__NumType=Card	18	nummod	_	_
+18	(	(	PUNCT	_	PUNCT___	18	punct	_	_
+19	QD	QD	NOUN	_	NOUN___	18	appos	_	_
+20	)	)	PUNCT	_	PUNCT___	18	punct	_	_
+21	-	-	PUNCT	_	PUNCT___	22	punct	_	_
+22	117	117	NUM	_	NUM__NumType=Card	20	nmod	_	_
+23	750	750	NUM	_	NUM__NumType=Card	18	conj	_	_
+24	(	(	PUNCT	_	PUNCT___	32	punct	_	_
+25	l’	l’	NOUN	_	NOUN___	26	appos	_	_
+26	excédant	excéder	VERB	_	VERB__Tense=Pres|VerbForm=Part	32	nmod	_	_
+27	)	)	PUNCT	_	PUNCT___	26	punct	_	_
+28	=	=	VERB	_	VERB__Mood=Ind|Person=3|VerbForm=Fin	26	amod	_	_
+29	64500€.	64500€.	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	obj	_	_
+30	(	(	PUNCT	_	PUNCT___	28	punct	_	_
+31	Nouvelle	Nouvelle	ADJ	_	ADJ__Gender=Fem|Number=Sing	26	amod	_	_
+32	valeur	valeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	32	obl	_	_
+33	de	de	ADP	_	ADP___	32	case	_	_
+34	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+35	QD)Mais	QD)Mais	NOUN	_	NOUN__Gender=Fem|Number=Sing	34	nmod	_	_
+36	alors	alors	ADV	_	ADV___	37	punct	_	_
+37	2	2	NUM	_	NUM__NumType=Card	38	nummod	_	_
+38	questions	question	NOUN	_	NOUN__Gender=Fem|Number=Plur	32	obj	_	_
+39	:	:	PUNCT	_	PUNCT___	38	punct	_	_
+40	-pourquoi	-pourquoi	ADV	_	ADV__PronType=Int	42	nsubj	_	_
+41	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	légataire	légataire	NOUN	_	NOUN__Number=Sing	32	nsubj	_	_
+43	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
+44	-	-	PUNCT	_	PUNCT___	48	punct	_	_
+45	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	48	nsubj	_	_
+46	indemniser	indemniser	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+47	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	48	det	_	_
+48	autres	autre	ADJ	_	ADJ__Number=Plur	89	amod	_	_
+49	héritiers	héritier	NOUN	_	NOUN__Gender=Masc|Number=Plur	50	obj	_	_
+50	réservataires	réservataires	ADJ	_	ADJ__Number=Plur	51	amod	_	_
+51	alors	alors	ADV	_	ADV___	48	mark	_	_
+52	que	que	SCONJ	_	SCONJ___	51	fixed	_	_
+53	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+54	legs	legs	NOUN	_	NOUN__Gender=Masc|Number=Sing	56	nsubj	_	_
+55	n’	n’	ADJ	_	ADJ__Number=Plur	56	amod	_	_
+56	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	48	aux	_	_
+57	réduit	réduire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	48	advcl	_	_
+58	que	que	SCONJ	_	SCONJ___	60	mark	_	_
+59	QD	QD	ADJ	_	ADJ__Gender=Fem|Number=Sing	60	obj	_	_
+60	et	et	CCONJ	_	CCONJ___	66	cc	_	_
+61	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	60	det	_	_
+62	propre	propre	ADJ	_	ADJ__Number=Sing	60	amod	_	_
+63	RH	RH	PROPN	_	PROPN___	60	conj	_	_
+64	du	du	DET	_	DET__Gender=Masc|Number=Sing	60	det	_	_
+65	légataire	légataire	NOUN	_	NOUN__Gender=Masc|Number=Sing	60	nsubj	_	_
+66	?	?	PUNCT	_	PUNCT___	48	punct	_	_
+
+
+#(À moins que l’imputation du legs se fasse sur la réserve globale ?
+1	(	(	PUNCT	_	PUNCT___	4	punct	_	_
+2	À	À	ADP	_	ADP___	1	mark	_	_
+3	moins	moins	ADV	_	ADV___	4	fixed	_	_
+4	que	que	SCONJ	_	SCONJ___	4	fixed	_	_
+5	l’	l’	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	imputation	imputation	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nsubj	_	_
+7	du	du	DET	_	DET__Gender=Masc|Number=Sing	4	det	_	_
+8	legs	legs	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+9	se	se	PRON	_	PRON__Person=3|Reflex=Yes	11	expl	_	_
+10	fasse	faire	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+11	sur	sur	ADP	_	ADP___	11	case	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+13	réserve	réserver	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obl	_	_
+14	globale	global	ADJ	_	ADJ__Gender=Fem|Number=Sing	13	amod	_	_
+15	?	?	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#)
+1	)	)	PUNCT	_	PUNCT___	0	ROOT	_	_
+
+
+#- si la QD est de 64500€ la conjointe survivante peut-elle avoir droit à son fameux 1/4 de pleine propriété des biens prévu par la loi ?
+1	-	-	PUNCT	_	PUNCT___	4	punct	_	_
+2	si	si	SCONJ	_	SCONJ___	1	mark	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	QD	QD	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nsubj	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	de	de	ADP	_	ADP___	4	case	_	_
+7	64500	64500	NUM	_	NUM__NumType=Card	4	nummod	_	_
+8	€	€	CCONJ	_	CCONJ___	11	advmod	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	conjointe	conjoint	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nsubj	_	_
+11	survivante	survivant	ADJ	_	ADJ__Gender=Fem|Number=Sing	11	amod	_	_
+12	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+13	-	-	PUNCT	_	PUNCT___	11	punct	_	_
+14	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	13	nsubj	_	_
+15	avoir	avoir	VERB	_	VERB__VerbForm=Inf	11	aux	_	_
+16	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+17	à	à	ADP	_	ADP___	18	case	_	_
+18	son	son	DET	_	DET__Number=Sing|Poss=Yes	18	nmod:poss	_	_
+19	fameux	fameux	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nmod	_	_
+20	1/4	1/4	NOUN	_	NOUN__NumType=Card	18	nmod	_	_
+21	de	de	ADP	_	ADP___	22	case	_	_
+22	pleine	plein	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	nmod	_	_
+23	propriété	propriété	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	amod	_	_
+24	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	32	det	_	_
+25	biens	bien	NOUN	_	NOUN__Gender=Masc|Number=Plur	26	obj	_	_
+26	prévu	prévoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	acl	_	_
+27	par	par	ADP	_	ADP___	26	case	_	_
+28	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+29	loi	loi	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	obl	_	_
+30	?	?	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#Merci...
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	...	...	PUNCT	_	PUNCT___	1	punct	_	_
+
+

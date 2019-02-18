@@ -1,0 +1,70 @@
+#Bonjour,Voulez
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	Voulez	Voulez	PROPN	_	PROPN___	1	conj	_	_
+
+
+#-vous dire que c'est votre fille qui veut donner son bien en location et qu'elle souhaite que vous la représentiez ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	3	iobj	_	_
+3	dire	dire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	que	que	SCONJ	_	SCONJ___	6	mark	_	_
+5	c'	ce	PRON	_	PRON__Number=Sing|Person=3	6	nsubj	_	_
+6	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+7	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	11	nmod:poss	_	_
+8	fille	fille	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nsubj	_	_
+9	qui	qui	PRON	_	PRON__PronType=Rel	11	nsubj	_	_
+10	veut	vouloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	donner	donner	VERB	_	VERB__VerbForm=Inf	14	ccomp	_	_
+12	son	son	DET	_	DET__Number=Sing|Poss=Yes	13	nmod:poss	_	_
+13	bien	bien	ADV	_	ADV___	14	obj	_	_
+14	en	en	ADP	_	ADP___	6	case	_	_
+15	location	location	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obl	_	_
+16	et	et	CCONJ	_	CCONJ___	14	cc	_	_
+17	qu'	que	PRON	_	PRON__PronType=Rel	18	mark	_	_
+18	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	14	nsubj	_	_
+19	souhaite	souhaiter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	conj	_	_
+20	que	que	SCONJ	_	SCONJ___	22	mark	_	_
+21	vous	se	PRON	_	PRON__Number=Plur|Person=2	22	nsubj	_	_
+22	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	obj	_	_
+23	représentiez	représenter	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	ccomp	_	_
+24	?	?	PUNCT	_	PUNCT___	26	punct	_	_
+
+
+#Ou que c'est elle la locataire ?
+1	Ou	Ou	CCONJ	_	CCONJ___	1	cc	_	_
+2	que	que	SCONJ	_	SCONJ___	3	mark	_	_
+3	c'	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	6	dep	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+7	locataire	locataire	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+8	?	?	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Parce que signer le bail, oui, mais l'acte de cautionnement n'a pas à être signé par le propriétaire.
+1	Parce	Parce	SCONJ	_	SCONJ___	1	mark	_	_
+2	que	que	SCONJ	_	SCONJ___	3	fixed	_	_
+3	signer	signer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+6	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+7	oui	oui	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obl	_	_
+8	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+9	mais	mai	CCONJ	_	CCONJ___	11	cc	_	_
+10	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	acte	acte	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nsubj:pass	_	_
+12	de	de	ADP	_	ADP___	13	case	_	_
+13	cautionnement	cautionnement	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nmod	_	_
+14	n'	ne	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+15	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	pas	pas	ADV	_	ADV__Polarity=Neg	14	advmod	_	_
+17	à	à	ADP	_	ADP___	18	mark	_	_
+18	être	être	AUX	_	AUX__VerbForm=Inf	14	aux:pass	_	_
+19	signé	signer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	22	conj	_	_
+20	par	par	ADP	_	ADP___	22	case	_	_
+21	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	14	obl	_	_
+23	.	.	PUNCT	_	PUNCT___	26	punct	_	_
+
+

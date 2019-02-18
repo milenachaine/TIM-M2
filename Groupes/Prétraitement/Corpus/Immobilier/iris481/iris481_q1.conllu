@@ -1,0 +1,234 @@
+#bonjour,voici mon problème :
+1	bonjour	bonjour	NOUN	_	NOUN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	voici	voici	ADP	_	ADP___	1	conj	_	_
+4	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+5	problème	problème	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obj	_	_
+6	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Nous avons acheté une maison en décembre 2017.
+1	Nous	Nous	PRON	_	PRON__Number=Plur|Person=1	1	nsubj	_	_
+2	avons	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	acheté	acheter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obj	_	_
+6	en	en	ADP	_	ADP___	1	case	_	_
+7	décembre	décembre	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obl	_	_
+8	2017	2017	NUM	_	NUM__NumType=Card	9	nummod	_	_
+9	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Cette maison présentait quelques fissures qui on évolué en 1 an.
+1	Cette	Cette	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	1	det	_	_
+2	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+3	présentait	présenter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+4	quelques	quelque	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
+5	fissures	fissurer	NOUN	_	NOUN__Gender=Fem|Number=Plur	3	obj	_	_
+6	qui	qui	PRON	_	PRON__PronType=Rel	1	nsubj	_	_
+7	on	on	PRON	_	PRON__Number=Sing|Person=3	9	iobj	_	_
+8	évolué	évoluer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+9	en	en	ADP	_	ADP___	9	case	_	_
+10	1	1	NUM	_	NUM__NumType=Card	11	nummod	_	_
+11	an	an	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obl	_	_
+12	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Par ailleurs, nous savions que l'ancien propriétaire avait déclaré un sinistre du même ordre contre le constructeur au titre de la garantie dommages ouvrages en 2014.L'expert qui est passé cette semaine pour constater les défauts était le même que celui de 2014.
+1	Par	Par	ADP	_	ADP___	1	advmod	_	_
+2	ailleurs	ailleurs	ADV	_	ADV___	3	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	nous	se	PRON	_	PRON__Number=Plur|Person=1	5	nsubj	_	_
+5	savions	savoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	que	que	SCONJ	_	SCONJ___	1	mark	_	_
+7	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+8	ancien	ancien	ADJ	_	ADJ__Gender=Masc|Number=Sing	9	amod	_	_
+9	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	9	nsubj	_	_
+10	avait	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	déclaré	déclarer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	ccomp	_	_
+12	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	sinistre	sinistre	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+14	du	du	DET	_	DET__Gender=Masc|Number=Sing	13	det	_	_
+15	même	même	ADJ	_	ADJ__Number=Sing	9	amod	_	_
+16	ordre	ordre	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obj	_	_
+17	contre	contrer	ADP	_	ADP___	18	case	_	_
+18	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+19	constructeur	constructeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	nmod	_	_
+20	au	au	PRON	_	PRON__PronType=Rel	18	case	_	_
+21	titre	titrer	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	nmod	_	_
+22	de	de	ADP	_	ADP___	23	case	_	_
+23	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+24	garantie	garantir	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	nmod	_	_
+25	dommages	dommage	NOUN	_	NOUN__Gender=Masc|Number=Plur	26	amod	_	_
+26	ouvrages	ouvrage	ADJ	_	ADJ__Gender=Masc|Number=Plur	23	amod	_	_
+27	en	en	ADP	_	ADP___	18	mark	_	_
+28	2014.L'	2014.L'	NUM	_	NUM__NumType=Card	32	fixed	_	_
+29	expert	expert	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	fixed	_	_
+30	qui	qui	PRON	_	PRON__PronType=Rel	32	nsubj	_	_
+31	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
+32	passé	passer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	advcl	_	_
+33	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	38	det	_	_
+34	semaine	semaine	NOUN	_	NOUN__Gender=Fem|Number=Sing	36	obl	_	_
+35	pour	pour	ADP	_	ADP___	36	mark	_	_
+36	constater	constater	VERB	_	VERB__VerbForm=Inf	38	advcl	_	_
+37	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	38	det	_	_
+38	défauts	défaut	NOUN	_	NOUN__Gender=Masc|Number=Plur	32	obj	_	_
+39	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	40	cop	_	_
+40	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+41	même	même	ADV	_	ADV___	43	advmod	_	_
+42	que	que	SCONJ	_	SCONJ___	43	fixed	_	_
+43	celui	celui	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Dem	40	appos	_	_
+44	de	de	ADP	_	ADP___	46	case	_	_
+45	2014	2014	NUM	_	NUM__NumType=Card	46	nmod	_	_
+46	.	.	PUNCT	_	PUNCT___	43	punct	_	_
+
+
+#Il fût surpris de constater l'apparition de nouvelles fissures sur une façade alors même qu'il avait accepté la prise en charge de la réfection en 2014.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj:pass	_	_
+2	fût	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	iobj	_	_
+3	surpris	surprendre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+4	de	de	ADP	_	ADP___	5	mark	_	_
+5	constater	constater	VERB	_	VERB__VerbForm=Inf	3	xcomp	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+7	apparition	apparition	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obj	_	_
+8	de	de	ADP	_	ADP___	9	case	_	_
+9	nouvelles	nouvelle	ADJ	_	ADJ__Gender=Fem|Number=Plur	9	amod	_	_
+10	fissures	fissurer	NOUN	_	NOUN__Gender=Fem|Number=Plur	11	nmod	_	_
+11	sur	sur	ADP	_	ADP___	9	case	_	_
+12	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	façade	façade	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nmod	_	_
+14	alors	alors	ADV	_	ADV___	13	advmod	_	_
+15	même	même	ADV	_	ADV___	9	fixed	_	_
+16	qu'	que	SCONJ	_	SCONJ___	17	mark	_	_
+17	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	18	nsubj	_	_
+18	avait	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	aux	_	_
+19	accepté	accepter	ADP	_	ADP___	20	advmod	_	_
+20	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+21	prise	priser	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	obj	_	_
+22	en	en	ADP	_	ADP___	23	advmod	_	_
+23	charge	charger	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	fixed	_	_
+24	de	de	ADP	_	ADP___	26	case	_	_
+25	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	réfection	réfection	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	nmod	_	_
+27	en	en	ADP	_	ADP___	18	case	_	_
+28	2014	2014	NUM	_	NUM__NumType=Card	32	nmod	_	_
+29	.	.	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#Nous avons donc téléphoné à l entreprise car le revêtement appliqué était garanti 10 ans.
+1	Nous	Nous	PRON	_	PRON__Number=Plur|Person=1	1	nsubj	_	_
+2	avons	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	donc	donc	ADV	_	ADV___	1	advmod	_	_
+4	téléphoné	téléphoner	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	advmod	_	_
+5	à	à	ADP	_	ADP___	3	case	_	_
+6	l	l	NOUN	_	NOUN___	1	fixed	_	_
+7	entreprise	entreprendre	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obl	_	_
+8	car	car	CCONJ	_	CCONJ___	9	cc	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+10	revêtement	revêtement	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nsubj	_	_
+11	appliqué	appliquer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+12	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	cop	_	_
+13	garanti	garantir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+14	10	10	NUM	_	NUM__NumType=Card	13	nummod	_	_
+15	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	obj	_	_
+16	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#L'artisan nous a répondu qu'il n'avait pas appliqué le revêtement indiqué sur le devis car l'ancien propriétaire lui avait demandé une simple peinture.
+1	L'	L'	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+2	artisan	artisan	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+3	nous	se	PRON	_	PRON__Number=Plur|Person=1	1	nsubj	_	_
+4	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	répondu	répondre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+6	qu'	que	SCONJ	_	SCONJ___	1	mark	_	_
+7	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
+8	n'	ne	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+9	avait	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+10	pas	pas	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+11	appliqué	appliquer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	ccomp	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	revêtement	revêtement	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+14	indiqué	indiquer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	amod	_	_
+15	sur	sur	ADP	_	ADP___	9	case	_	_
+16	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	devis	devis	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obl	_	_
+18	car	car	CCONJ	_	CCONJ___	18	cc	_	_
+19	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	ancien	ancien	ADJ	_	ADJ__Gender=Masc|Number=Sing	18	amod	_	_
+21	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	23	nsubj	_	_
+22	lui	luire	PRON	_	PRON__Number=Sing|Person=3	23	iobj	_	_
+23	avait	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	aux	_	_
+24	demandé	demander	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	conj	_	_
+25	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	simple	simple	ADJ	_	ADJ__Number=Sing	23	amod	_	_
+27	peinture	peinture	ADJ	_	ADJ__Gender=Fem|Number=Sing	18	obj	_	_
+28	.	.	PUNCT	_	PUNCT___	32	punct	_	_
+
+
+#Ce dernier a en effet perçu une indemnité de 6000 euros basée sur le devis et n'a fait des travaux que pour 2000 euros .Puis
+1	Ce	Ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	1	det	_	_
+2	dernier	dernier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	3	nsubj	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+4	en	en	ADP	_	ADP___	5	advmod	_	_
+5	effet	effet	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	fixed	_	_
+6	perçu	percevoir	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+7	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	indemnité	indemnité	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obj	_	_
+9	de	de	ADP	_	ADP___	9	case	_	_
+10	6000	6000	NUM	_	NUM__NumType=Card	11	nummod	_	_
+11	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	nmod	_	_
+12	basée	baser	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
+13	sur	sur	ADP	_	ADP___	9	case	_	_
+14	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+15	devis	devis	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obl	_	_
+16	et	et	CCONJ	_	CCONJ___	17	cc	_	_
+17	n'	ne	ADV	_	ADV___	18	advmod	_	_
+18	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+19	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	conj	_	_
+20	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	18	det	_	_
+21	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	23	obj	_	_
+22	que	que	SCONJ	_	SCONJ___	23	advmod	_	_
+23	pour	pour	ADP	_	ADP___	20	case	_	_
+24	2000	2000	NUM	_	NUM__NumType=Card	26	nummod	_	_
+25	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	26	advcl	_	_
+26	.Puis	.Puis	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#-je me retourner contre l'ancien propriétaire qui n'a pas fait les travaux demandés par l'expert ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+3	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	1	expl	_	_
+4	retourner	retourner	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	contre	contrer	ADP	_	ADP___	3	case	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+7	ancien	ancien	ADJ	_	ADJ__Gender=Masc|Number=Sing	9	amod	_	_
+8	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	9	obl	_	_
+9	qui	qui	PRON	_	PRON__PronType=Rel	9	nsubj	_	_
+10	n'	ne	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+11	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+12	pas	pas	ADV	_	ADV__Polarity=Neg	13	advmod	_	_
+13	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+14	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	13	det	_	_
+15	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	obj	_	_
+16	demandés	demander	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	17	acl	_	_
+17	par	par	ADP	_	ADP___	18	case	_	_
+18	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+19	expert	expert	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obl	_	_
+20	?	?	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#si oui, quelle est la procédure ?
+1	si	si	SCONJ	_	SCONJ___	1	mark	_	_
+2	oui	oui	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	quelle	quel	DET	_	DET__Gender=Fem|Number=Sing|PronType=Int	5	amod	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+7	procédure	procédure	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nsubj	_	_
+8	?	?	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#merci
+1	merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+
+

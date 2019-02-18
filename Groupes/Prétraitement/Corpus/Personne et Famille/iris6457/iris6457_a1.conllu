@@ -1,0 +1,86 @@
+#avec des enfant d'un premier mariage pour votre conjoint, pas d'autre choix que le ¼ en pleine propriété.
+1	avec	avec	ADP	_	ADP___	3	case	_	_
+2	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	3	det	_	_
+3	enfant	enfant	NOUN	_	NOUN__Number=Sing	0	ROOT	_	_
+4	d'	de	ADP	_	ADP___	7	case	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	premier	premier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	7	amod	_	_
+7	mariage	mariage	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nmod	_	_
+8	pour	pour	ADP	_	ADP___	10	case	_	_
+9	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+10	conjoint	conjoindre	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nmod	_	_
+11	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+12	pas	pas	ADV	_	ADV___	3	advmod	_	_
+13	d'	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	15	det	_	_
+14	autre	autre	ADJ	_	ADJ__Number=Sing	15	amod	_	_
+15	choix	choix	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nmod	_	_
+16	que	que	SCONJ	_	SCONJ___	18	obj	_	_
+17	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	¼	¼	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	acl	_	_
+19	en	en	ADP	_	ADP___	20	case	_	_
+20	pleine	plein	ADJ	_	ADJ__Gender=Fem|Number=Sing	18	nmod	_	_
+21	propriété	propriété	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	amod	_	_
+22	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Testament obligatoire (ou donation au dernier vivant), pour que vous puissiez opter pour de l'usufruit.
+1	Testament	Testament	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	obligatoire	obligatoire	ADJ	_	ADJ__Number=Sing	3	amod	_	_
+3	(	(	PUNCT	_	PUNCT___	3	punct	_	_
+4	ou	ou	CCONJ	_	CCONJ___	7	cc	_	_
+5	donation	donation	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	conj	_	_
+6	au	au	PRON	_	PRON__PronType=Rel	7	det	_	_
+7	dernier	dernier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
+8	vivant	vivre	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+9	)	)	PUNCT	_	PUNCT___	10	punct	_	_
+10	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+11	pour	pour	ADP	_	ADP___	12	mark	_	_
+12	que	que	SCONJ	_	SCONJ___	3	fixed	_	_
+13	vous	se	PRON	_	PRON__Number=Plur|Person=2	15	nsubj	_	_
+14	puissiez	pouvoir	AUX	_	AUX__Mood=Cnd|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	opter	opter	VERB	_	VERB__VerbForm=Inf	3	advcl	_	_
+16	pour	pour	ADP	_	ADP___	18	case	_	_
+17	de	de	ADP	_	ADP___	18	fixed	_	_
+18	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+19	usufruit	usufruit	NOUN	_	NOUN__Number=Sing	20	obl	_	_
+20	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Sans enfant en commun, parents décédés, c'est le conjoint survivant qui hérite de tout.
+1	Sans	Sans	ADP	_	ADP___	3	case	_	_
+2	enfant	enfant	NOUN	_	NOUN__Number=Sing	3	obl	_	_
+3	en	en	ADP	_	ADP___	3	case	_	_
+4	commun	commun	ADJ	_	ADJ__Gender=Masc|Number=Sing	7	nmod	_	_
+5	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+6	parents	parent	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	conj	_	_
+7	décédés	décéder	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	amod	_	_
+8	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+9	c'	ce	PRON	_	PRON__Number=Sing|Person=3	10	nsubj	_	_
+10	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	conjoint	conjoindre	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+13	survivant	survivre	VERB	_	VERB__Tense=Pres|VerbForm=Part	15	acl	_	_
+14	qui	qui	PRON	_	PRON__PronType=Rel	15	nsubj	_	_
+15	hérite	hériter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+16	de	de	ADP	_	ADP___	18	fixed	_	_
+17	tout	tout	ADV	_	ADV___	18	fixed	_	_
+18	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Mais vous pouvez aussi faire un testament pour qu'il en soit autrement.
+1	Mais	Mais	CCONJ	_	CCONJ___	3	cc	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	3	nsubj	_	_
+3	pouvez	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
+4	aussi	aussi	ADV	_	ADV___	7	advmod	_	_
+5	faire	faire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	testament	testament	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obj	_	_
+8	pour	pour	ADP	_	ADP___	10	mark	_	_
+9	qu'	que	SCONJ	_	SCONJ___	10	fixed	_	_
+10	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+11	en	en	PRON	_	PRON__Person=3	12	advcl	_	_
+12	soit	être	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	fixed	_	_
+13	autrement	autrement	ADV	_	ADV___	15	advmod	_	_
+14	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+

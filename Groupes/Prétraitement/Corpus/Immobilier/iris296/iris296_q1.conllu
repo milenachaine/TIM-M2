@@ -1,0 +1,94 @@
+#bonjour,Pas d'augmentation de loyer depuis 3 ou 4 ans.
+1	bonjour	bonjour	NOUN	_	NOUN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	Pas	Pas	ADV	_	ADV___	1	conj	_	_
+4	d'	de	ADP	_	ADP___	5	case	_	_
+5	augmentation	augmentation	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+6	de	de	ADP	_	ADP___	7	mark	_	_
+7	loyer	loyer	VERB	_	VERB__VerbForm=Inf	5	acl	_	_
+8	depuis	depuis	ADP	_	ADP___	12	case	_	_
+9	3	3	NUM	_	NUM__NumType=Card	12	nummod	_	_
+10	ou	ou	CCONJ	_	CCONJ___	11	cc	_	_
+11	4	4	NUM	_	NUM__NumType=Card	9	conj	_	_
+12	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	obl	_	_
+13	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Bail notarié signé le 1/7/2008 pour un loyer de 240 euros/mois.
+1	Bail	Bail	PROPN	_	PROPN___	0	ROOT	_	_
+2	notarié	notarier	ADJ	_	ADJ__Gender=Masc|Number=Sing	3	amod	_	_
+3	signé	signer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	1/7/2008	1/7/2008	NOUN	_	NOUN__NumType=Card	1	obj	_	_
+6	pour	pour	ADP	_	ADP___	7	case	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+8	loyer	loyer	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obl	_	_
+9	de	de	ADP	_	ADP___	12	case	_	_
+10	240	240	NUM	_	NUM__NumType=Card	11	nummod	_	_
+11	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	nmod	_	_
+12	/	/	ADP	_	ADP___	7	case	_	_
+13	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	nmod	_	_
+14	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#REVISION
+1	REVISION	REVISION	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+
+
+#DU
+1	DU	DU	ADP	_	ADP___	0	ROOT	_	_
+
+
+#LOYER : indice 1er trimestre 2008 soit 115.12 (IRL)"l'indice servant de référence
+1	LOYER	LOYER	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	:	:	PUNCT	_	PUNCT___	3	punct	_	_
+3	indice	indice	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+4	1er	1er	ADJ	_	ADJ__NumType=Ord	5	amod	_	_
+5	trimestre	trimestre	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	acl	_	_
+6	2008	2008	NUM	_	NUM__NumType=Card	7	nmod	_	_
+7	soit	être	CCONJ	_	CCONJ___	5	cc	_	_
+8	115.12	115.12	NOUN	_	NOUN__NumType=Card	12	conj	_	_
+9	(	(	PUNCT	_	PUNCT___	12	punct	_	_
+10	IRL)"l'	IRL)"l'	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	amod	_	_
+11	indice	indice	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	appos	_	_
+12	servant	servir	VERB	_	VERB__Tense=Pres|VerbForm=Part	7	acl	_	_
+13	de	de	ADP	_	ADP___	1	case	_	_
+14	référence	référence	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obl	_	_
+
+
+#au calcul de chaque modification périodique sera l'indice moyen du même trimestre de l'année considérée".QUESTION : quand et à quelle hauteur fixer le nouveau loyer ?
+1	au	au	PRON	_	PRON__PronType=Rel	1	obj	_	_
+2	calcul	calcul	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	de	de	ADP	_	ADP___	1	case	_	_
+4	chaque	chaque	DET	_	DET__Number=Sing	5	det	_	_
+5	modification	modification	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+6	périodique	périodique	ADJ	_	ADJ__Number=Sing	7	amod	_	_
+7	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	cop	_	_
+8	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+9	indice	indice	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obl	_	_
+10	moyen	moyen	ADJ	_	ADJ__Gender=Masc|Number=Sing	11	amod	_	_
+11	du	du	DET	_	DET__Gender=Masc|Number=Sing	9	det	_	_
+12	même	même	ADJ	_	ADJ__Number=Sing	7	amod	_	_
+13	trimestre	trimestre	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	amod	_	_
+14	de	de	ADP	_	ADP___	14	case	_	_
+15	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+16	année	année	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obl	_	_
+17	considérée".QUESTION	considérée".QUESTION	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	nmod	_	_
+18	:	:	PUNCT	_	PUNCT___	16	punct	_	_
+19	quand	quand	SCONJ	_	SCONJ___	21	mark	_	_
+20	et	et	CCONJ	_	CCONJ___	21	cc	_	_
+21	à	à	ADP	_	ADP___	16	mark	_	_
+22	quelle	quel	DET	_	DET__Gender=Fem|Number=Sing|PronType=Int	24	det	_	_
+23	hauteur	hauteur	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	fixed	_	_
+24	fixer	fixer	ADJ	_	ADJ__Gender=Fem|Number=Sing	21	advcl	_	_
+25	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	nouveau	nouveau	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	fixed	_	_
+27	loyer	loyer	VERB	_	VERB__VerbForm=Inf	14	obj	_	_
+28	?	?	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#cordialement.
+1	cordialement	cordialement	ADV	_	ADV___	0	ROOT	_	_
+2	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+

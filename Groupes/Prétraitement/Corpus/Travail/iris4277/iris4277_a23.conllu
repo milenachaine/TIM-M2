@@ -1,0 +1,135 @@
+#Bonsoir
+1	Bonsoir	Bonsoir	NUM	_	NUM__NumType=Card	0	ROOT	_	_
+
+
+#Vegeta49Les faits de vol dans la caisse
+1	Vegeta49Les	Vegeta49Les	DET	_	DET__Number=Plur	1	det	_	_
+2	faits	fait	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+3	de	de	ADP	_	ADP___	3	case	_	_
+4	vol	vol	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+5	dans	dan	ADP	_	ADP___	3	case	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	caisse	caisse	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+
+
+#ont-ils été quantifiés et datés ?
+1	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+2	-	-	PUNCT	_	PUNCT___	3	punct	_	_
+3	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	3	nsubj	_	_
+4	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	5	cop	_	_
+5	quantifiés	quantifier	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+6	et	et	CCONJ	_	CCONJ___	8	cc	_	_
+7	datés	dater	ADJ	_	ADJ__Gender=Masc|Number=Plur	8	conj	_	_
+8	?	?	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#La lettre de licenciement n'en parle étonnamment pas.
+1	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	lettre	lettre	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+3	de	de	ADP	_	ADP___	3	case	_	_
+4	licenciement	licenciement	ADV	_	ADV___	5	nmod	_	_
+5	n'	ne	ADV	_	ADV___	3	advmod	_	_
+6	en	en	ADP	_	ADP___	8	iobj	_	_
+7	parle	parler	ADJ	_	ADJ__Gender=Masc	0	ROOT	_	_
+8	étonnamment	étonnamment	ADV	_	ADV___	3	advmod	_	_
+9	pas	pas	ADV	_	ADV__Polarity=Neg	13	advmod	_	_
+10	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#La période de mise à pied pouvait permettre à votre ex-employeur de vérifier s'il y avait eu vol dans sa caisse compte tenu de ce qu'il vous reprochait par ailleursJ'avoue que c'est un différend plutôt difficile à trancher, même si je m'en tiens à mes précédentes observations concernant les termes du litige fixés par votre lettre de licenciement.
+1	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	période	période	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+3	de	de	ADP	_	ADP___	3	case	_	_
+4	mise	miser	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+5	à	à	ADP	_	ADP___	3	case	_	_
+6	pied	pied	NOUN	_	NOUN__Number=Sing	8	nmod	_	_
+7	pouvait	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	permettre	permettre	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+9	à	à	ADP	_	ADP___	13	case	_	_
+10	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	13	nmod:poss	_	_
+11	ex	ex	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obl	_	_
+12	-	-	PUNCT	_	PUNCT___	13	punct	_	_
+13	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	appos	_	_
+14	de	de	ADP	_	ADP___	15	case	_	_
+15	vérifier	vérifier	VERB	_	VERB__VerbForm=Inf	13	nmod	_	_
+16	s'	si	SCONJ	_	SCONJ___	13	mark	_	_
+17	il	il	PRON	_	PRON__Number=Sing|Person=3	18	nsubj	_	_
+18	y	yu	PRON	_	PRON__Person=3	23	expl	_	_
+19	avait	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	aux	_	_
+20	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	advcl	_	_
+21	vol	vol	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	obj	_	_
+22	dans	dan	ADP	_	ADP___	23	case	_	_
+23	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	23	nmod:poss	_	_
+24	caisse	caisse	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	obl	_	_
+25	compte	compter	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	case	_	_
+26	tenu	tenir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	fixed	_	_
+27	de	de	ADP	_	ADP___	28	fixed	_	_
+28	ce	ce	PRON	_	PRON__PronType=Rel	34	obj	_	_
+29	qu'	que	SCONJ	_	SCONJ___	30	obj	_	_
+30	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	28	nsubj	_	_
+31	vous	se	PRON	_	PRON__Number=Plur|Person=2	32	iobj	_	_
+32	reprochait	reprocher	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	30	acl:relcl	_	_
+33	par	par	ADP	_	ADP___	34	case	_	_
+34	ailleursJ'	ailleursJ'	NOUN	_	NOUN__Gender=Fem|Number=Sing	34	det	_	_
+35	avoue	avouer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	obl	_	_
+36	que	que	SCONJ	_	SCONJ___	37	mark	_	_
+37	c'	ce	PRON	_	PRON__Number=Sing|Person=3	34	nsubj	_	_
+38	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	cop	_	_
+39	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+40	différend	différend	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	ccomp	_	_
+41	plutôt	plutôt	ADV	_	ADV___	39	advmod	_	_
+42	difficile	difficile	ADJ	_	ADJ__Number=Sing	46	amod	_	_
+43	à	à	ADP	_	ADP___	46	mark	_	_
+44	trancher	trancher	VERB	_	VERB__VerbForm=Inf	46	xcomp	_	_
+45	,	,	PUNCT	_	PUNCT___	46	punct	_	_
+46	même	même	ADV	_	ADV___	34	mark	_	_
+47	si	si	SCONJ	_	SCONJ___	46	fixed	_	_
+48	je	il	PRON	_	PRON__Number=Sing|Person=1	50	nsubj	_	_
+49	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	50	expl	_	_
+50	en	en	PRON	_	PRON__Person=3	46	expl	_	_
+51	tiens	tien	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	54	obl	_	_
+52	à	à	ADP	_	ADP___	51	case	_	_
+53	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	51	nmod:poss	_	_
+54	précédentes	précédent	ADJ	_	ADJ__Gender=Fem|Number=Plur	46	obl	_	_
+55	observations	observation	NOUN	_	NOUN__Gender=Fem|Number=Plur	58	obl	_	_
+56	concernant	concerner	VERB	_	VERB__Tense=Pres|VerbForm=Part	58	acl	_	_
+57	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	58	det	_	_
+58	termes	terme	NOUN	_	NOUN__Gender=Masc|Number=Plur	54	obj	_	_
+59	du	du	DET	_	DET__Gender=Masc|Number=Sing	61	det	_	_
+60	litige	litige	NOUN	_	NOUN__Gender=Fem|Number=Sing	61	amod	_	_
+61	fixés	fixer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	58	nmod	_	_
+62	par	par	ADP	_	ADP___	66	case	_	_
+63	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	66	nmod:poss	_	_
+64	lettre	lettre	NOUN	_	NOUN__Gender=Fem|Number=Sing	66	nmod	_	_
+65	de	de	ADP	_	ADP___	66	case	_	_
+66	licenciement	licenciement	NOUN	_	NOUN__Gender=Masc|Number=Sing	61	nmod	_	_
+67	.	.	PUNCT	_	PUNCT___	68	punct	_	_
+
+
+#Je vous conseille toujours la procédure prudhomale avec un meilleur avocat que celui qui vous a conseillé jusque là.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	3	iobj	_	_
+3	conseille	conseiller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	toujours	toujours	ADV	_	ADV___	5	advmod	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+6	procédure	procédure	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+7	prudhomale	prudhomale	ADJ	_	ADJ__Gender=Fem|Number=Sing	8	amod	_	_
+8	avec	avec	ADP	_	ADP___	3	case	_	_
+9	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+10	meilleur	meilleur	ADJ	_	ADJ__Gender=Masc|Number=Sing	13	amod	_	_
+11	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+12	que	que	SCONJ	_	SCONJ___	13	case	_	_
+13	celui	celui	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Dem	13	nmod	_	_
+14	qui	qui	PRON	_	PRON__PronType=Rel	15	nsubj	_	_
+15	vous	se	PRON	_	PRON__Number=Plur|Person=2	13	iobj	_	_
+16	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+17	conseillé	conseiller	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	acl:relcl	_	_
+18	jusque	jusque	ADJ	_	ADJ__Number=Sing	23	xcomp	_	_
+19	là	là	ADV	_	ADV___	20	iobj	_	_
+20	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Cordialement
+1	Cordialement	Cordialement	ADV	_	ADV___	0	ROOT	_	_
+
+

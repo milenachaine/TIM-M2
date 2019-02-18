@@ -1,0 +1,358 @@
+#Bonjour,Je compte attaquer mon avocat étant donnée la gestion calamiteuse de mon dossier.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Je	Je	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+4	compte	compter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	nmod	_	_
+5	attaquer	attaquer	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+6	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	7	nmod:poss	_	_
+7	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+8	étant	être	AUX	_	AUX__Tense=Pres|VerbForm=Part	9	aux:pass	_	_
+9	donnée	donner	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	advcl	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	gestion	gestion	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obj	_	_
+12	calamiteuse	calamiteux	ADJ	_	ADJ__Gender=Fem|Number=Sing	11	amod	_	_
+13	de	de	ADP	_	ADP___	15	case	_	_
+14	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	15	nmod:poss	_	_
+15	dossier	dossier	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+16	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Je souhaite obtenir le remboursement de ses honoraires (1), demander qu'il prenne à sa charge 2000 euros auxquels je suis condamné suite au rejet par ordonnance du TA d'une première requête (2) et enfin demander des DI (3).Je compte l'assigner au TI.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	souhaite	souhaiter	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	obtenir	obtenir	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+5	remboursement	remboursement	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obj	_	_
+6	de	de	ADP	_	ADP___	7	case	_	_
+7	ses	son	DET	_	DET__Number=Plur|Poss=Yes	5	nmod:poss	_	_
+8	honoraires	honoraire	NOUN	_	NOUN__Gender=Fem|Number=Plur	9	nmod	_	_
+9	(	(	PUNCT	_	PUNCT___	5	punct	_	_
+10	1	1	NUM	_	NUM__NumType=Card	11	nummod	_	_
+11	)	)	PUNCT	_	PUNCT___	9	punct	_	_
+12	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+13	demander	demander	VERB	_	VERB__VerbForm=Inf	15	conj	_	_
+14	qu'	que	SCONJ	_	SCONJ___	15	mark	_	_
+15	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	11	nsubj	_	_
+16	prenne	prendre	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+17	à	à	ADP	_	ADP___	18	case	_	_
+18	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	18	nmod:poss	_	_
+19	charge	charger	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	obl	_	_
+20	2000	2000	NUM	_	NUM__NumType=Card	21	nummod	_	_
+21	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	19	nmod	_	_
+22	auxquels	auxquels	ADJ	_	ADJ__Gender=Masc|Number=Plur	24	amod	_	_
+23	je	il	PRON	_	PRON__Number=Sing|Person=1	24	nsubj:pass	_	_
+24	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	aux:pass	_	_
+25	condamné	condamner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	advcl	_	_
+26	suite	suite	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	mark	_	_
+27	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	19	fixed	_	_
+28	rejet	rejet	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	obl	_	_
+29	par	par	ADP	_	ADP___	18	case	_	_
+30	ordonnance	ordonnancer	NOUN	_	NOUN__Number=Sing	32	obl	_	_
+31	du	du	ADJ	_	ADJ__Gender=Masc|Number=Sing	32	det	_	_
+32	TA	TA	PROPN	_	PROPN__Gender=Masc|Number=Sing	29	obj	_	_
+33	d'	de	ADP	_	ADP___	35	case	_	_
+34	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	première	premier	ADJ	_	ADJ__Gender=Fem|Number=Sing|NumType=Ord	32	amod	_	_
+36	requête	requête	NOUN	_	NOUN__Gender=Fem|Number=Sing	37	nmod	_	_
+37	(	(	PUNCT	_	PUNCT___	35	punct	_	_
+38	2	2	NUM	_	NUM__NumType=Card	37	nummod	_	_
+39	)	)	PUNCT	_	PUNCT___	41	punct	_	_
+40	et	et	CCONJ	_	CCONJ___	41	cc	_	_
+41	enfin	enfin	ADV	_	ADV___	29	advmod	_	_
+42	demander	demander	VERB	_	VERB__VerbForm=Inf	44	conj	_	_
+43	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	42	det	_	_
+44	DI	DI	NOUN	_	NOUN__Gender=Masc|Number=Plur	41	obj	_	_
+45	(	(	PUNCT	_	PUNCT___	46	punct	_	_
+46	3).Je	3).Je	NUM	_	NUM__NumType=Card	44	nummod	_	_
+47	compte	compter	NOUN	_	NOUN__Gender=Masc|Number=Sing	48	appos	_	_
+48	l'	le	PRON	_	PRON__Number=Sing|Person=3	44	obj	_	_
+49	assigner	assigner	VERB	_	VERB__VerbForm=Inf	52	xcomp	_	_
+50	au	au	ADV	_	ADV__PronType=Int	52	det	_	_
+51	TI	TI	PROPN	_	PROPN___	52	obl	_	_
+52	.	.	PUNCT	_	PUNCT___	48	punct	_	_
+
+
+#Est-ce que je peux mettre (1), (2) et (3) dans le "paquet TI", ou est-ce que le (1) doit (obligatoirement ?
+1	Est	être		_	VERB	0	ROOT	_	_
+2	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	1	amod	_	_
+3	que	que	SCONJ	_	SCONJ___	4	mark	_	_
+4	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+5	peux	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+6	mettre	mettre	VERB	_	VERB__VerbForm=Inf	7	acl:relcl	_	_
+7	(	(	PUNCT	_	PUNCT___	5	punct	_	_
+8	1	1	NUM	_	NUM__NumType=Card	9	iobj	_	_
+9	)	)	PUNCT	_	PUNCT___	5	punct	_	_
+10	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+11	(	(	PUNCT	_	PUNCT___	9	punct	_	_
+12	2	2	NUM	_	NUM__NumType=Card	11	nummod	_	_
+13	)	)	PUNCT	_	PUNCT___	15	punct	_	_
+14	et	et	CCONJ	_	CCONJ___	15	cc	_	_
+15	(	(	PUNCT	_	PUNCT___	11	punct	_	_
+16	3	3	NUM	_	NUM__NumType=Card	1	conj	_	_
+17	)	)	PUNCT	_	PUNCT___	18	punct	_	_
+18	dans	dan	ADP	_	ADP___	18	case	_	_
+19	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+20	"	"	PUNCT	_	PUNCT___	21	punct	_	_
+21	paquet	paquet	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	amod	_	_
+22	TI	TI	PROPN	_	PROPN___	24	nmod	_	_
+23	"	"	PUNCT	_	PUNCT___	24	punct	_	_
+24	,	,	PUNCT	_	PUNCT___	21	punct	_	_
+25	ou	ou	CCONJ	_	CCONJ___	19	cc	_	_
+26	est	être		_	VERB	19	conj	_	_
+27	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	19	nsubj	_	_
+28	que	que	SCONJ	_	SCONJ___	29	mark	_	_
+29	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+30	(	(	PUNCT	_	PUNCT___	32	punct	_	_
+31	1	1	NUM	_	NUM__NumType=Card	32	nsubj	_	_
+32	)	)	PUNCT	_	PUNCT___	29	punct	_	_
+33	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	ccomp	_	_
+34	(	(	PUNCT	_	PUNCT___	35	punct	_	_
+35	obligatoirement	obligatoirement	ADV	_	ADV___	32	iobj	_	_
+36	?	?	PUNCT	_	PUNCT___	37	punct	_	_
+
+
+#) passer par le bâtonnier ?
+1	)	)	PUNCT	_	PUNCT___	1	punct	_	_
+2	passer	prendre	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+3	par	par	ADP	_	ADP___	4	case	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+5	bâtonnier	bâtonnier	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+6	?	?	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#En résumé :
+1	En	En	ADP	_	ADP___	1	case	_	_
+2	résumé	résumer	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	:	:	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#- (1) + (2) + (3) au TIou- (1) au bâtonnier ET (2) + (3) au
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	(	(	PUNCT	_	PUNCT___	1	punct	_	_
+3	1	1	NUM	_	NUM__NumType=Card	0	ROOT	_	_
+4	)	)	PUNCT	_	PUNCT___	1	punct	_	_
+5	+	+	ADP	_	ADP___	4	nmod	_	_
+6	(	(	PUNCT	_	PUNCT___	7	punct	_	_
+7	2	2	NUM	_	NUM__NumType=Card	5	nummod	_	_
+8	)	)	PUNCT	_	PUNCT___	9	punct	_	_
+9	+	+	ADP	_	ADP___	5	nmod	_	_
+10	(	(	PUNCT	_	PUNCT___	11	punct	_	_
+11	3	3	NUM	_	NUM__NumType=Card	9	nummod	_	_
+12	)	)	PUNCT	_	PUNCT___	11	punct	_	_
+13	au	au	PRON	_	PRON__PronType=Rel	15	case	_	_
+14	TIou-	TIou-	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	nmod	_	_
+15	(	(	PUNCT	_	PUNCT___	11	punct	_	_
+16	1	1	NUM	_	NUM__NumType=Card	1	nummod	_	_
+17	)	)	PUNCT	_	PUNCT___	18	punct	_	_
+18	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
+19	bâtonnier	bâtonnier	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nmod	_	_
+20	ET	ET	CCONJ	_	CCONJ___	21	cc	_	_
+21	(	(	PUNCT	_	PUNCT___	19	punct	_	_
+22	2	2	NUM	_	NUM__NumType=Card	24	conj	_	_
+23	)	)	PUNCT	_	PUNCT___	24	punct	_	_
+24	+	+	ADP	_	ADP___	21	nmod	_	_
+25	(	(	PUNCT	_	PUNCT___	19	punct	_	_
+26	3	3	NUM	_	NUM__NumType=Card	19	nummod	_	_
+27	)	)	PUNCT	_	PUNCT___	19	punct	_	_
+28	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	29	nmod	_	_
+
+
+#TIDes sanctions disciplinaires ne me paraissent par illogiques non plus ;
+1	TIDes	TIDes	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	nsubj	_	_
+2	sanctions	sanction	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	amod	_	_
+3	disciplinaires	disciplinaire	ADJ	_	ADJ__Number=Plur	4	amod	_	_
+4	ne	ne	ADV	_	ADV___	1	advmod	_	_
+5	me	se	PRON	_	PRON__Number=Sing|Person=1	4	expl	_	_
+6	paraissent	paraître	ADV	_	ADV___	0	ROOT	_	_
+7	par	par	ADP	_	ADP___	5	case	_	_
+8	illogiques	illogique	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	obl	_	_
+9	non	non	ADV	_	ADV___	5	advmod	_	_
+10	plus	plaire	ADV	_	ADV___	11	advmod	_	_
+11	;	;	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#cela passe-t-il également pas le bâtonnier ?
+1	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	1	nsubj	_	_
+2	passe	passer		_	VERB	0	ROOT	_	_
+3	-t	t	PART	_	PART___	4	expl	_	_
+4	-il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+5	également	également	ADV	_	ADV___	4	advmod	_	_
+6	pas	pas	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+8	bâtonnier	bâtonnier	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+9	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Par avance merci.
+1	Par	Par	ADP	_	ADP___	1	case	_	_
+2	avance	avancer	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	amod	_	_
+4	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Rappel synthétique de la situationAffaire 1 : à ma demande, saisi du TA pour requête visant à annuler un PC => irrecevable car notification oubliée par mon avocat => rejet + condamnation à payer 2000 euros (au titre de l'article L761-1)Affaire 2 : l'affaire 1 était encore pendante, mon avocat prend l'initiative unilatérale et sans jamais m'en avertir de lancer un second recours (pour excès de pouvoir) pour demander l'annulation d'un PCM et d'un PD survenus entretemps ;
+1	Rappel	Rappel	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+2	synthétique	synthétique	ADJ	_	ADJ__Number=Sing	1	amod	_	_
+3	de	de	ADP	_	ADP___	4	case	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+5	situationAffaire	situationAffaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+6	1	1	NUM	_	NUM__NumType=Card	7	nummod	_	_
+7	:	:	PUNCT	_	PUNCT___	5	punct	_	_
+8	à	à	ADP	_	ADP___	9	case	_	_
+9	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	5	nmod:poss	_	_
+10	demande	demander	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obl	_	_
+11	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+12	saisi	saisir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	conj	_	_
+13	du	du	DET	_	DET__Gender=Masc|Number=Sing	15	det	_	_
+14	TA	TA	PROPN	_	PROPN__Gender=Masc|Number=Sing	15	obl	_	_
+15	pour	pour	ADP	_	ADP___	11	case	_	_
+16	requête	requête	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	advcl	_	_
+17	visant	viser	VERB	_	VERB__Tense=Pres|VerbForm=Part	18	acl	_	_
+18	à	à	ADP	_	ADP___	18	mark	_	_
+19	annuler	annuler	VERB	_	VERB__VerbForm=Inf	18	xcomp	_	_
+20	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	PC	PC	PROPN	_	PROPN__Gender=Masc|Number=Sing	19	obj	_	_
+22	=	=	VERB	_	VERB__Mood=Ind|Person=3|VerbForm=Fin	24	amod	_	_
+23	>	>	DET	_	DET___	24	obj	_	_
+24	irrecevable	irrecevable	ADJ	_	ADJ__Number=Sing	21	obj	_	_
+25	car	car	CCONJ	_	CCONJ___	19	cc	_	_
+26	notification	notification	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	conj	_	_
+27	oubliée	oublier	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	19	acl	_	_
+28	par	par	ADP	_	ADP___	29	case	_	_
+29	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	18	nmod:poss	_	_
+30	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	32	obl	_	_
+31	=	=	VERB	_	VERB__Mood=Ind|Person=3|VerbForm=Fin	32	conj	_	_
+32	>	>	PRON	_	PRON__Number=Sing|Person=1	29	obj	_	_
+33	rejet	rejet	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	35	obj	_	_
+34	+	+	ADP	_	ADP___	35	case	_	_
+35	condamnation	condamnation	NOUN	_	NOUN__Gender=Fem|Number=Sing	32	obl	_	_
+36	à	à	ADP	_	ADP___	37	mark	_	_
+37	payer	payer	VERB	_	VERB__VerbForm=Inf	35	acl	_	_
+38	2000	2000	NUM	_	NUM__NumType=Card	37	nummod	_	_
+39	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	41	obj	_	_
+40	(	(	PUNCT	_	PUNCT___	41	punct	_	_
+41	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	29	det	_	_
+42	titre	titrer	NOUN	_	NOUN__Gender=Masc|Number=Sing	44	appos	_	_
+43	de	de	ADP	_	ADP___	42	case	_	_
+44	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	41	det	_	_
+45	article	article	NOUN	_	NOUN__Gender=Masc|Number=Sing	46	nmod	_	_
+46	L761	L761	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	amod	_	_
+47	-	-	PUNCT	_	PUNCT___	48	punct	_	_
+48	1)Affaire	1)Affaire	NUM	_	NUM__NumType=Card	44	amod	_	_
+49	2	2	NUM	_	NUM__NumType=Card	52	nummod	_	_
+50	:	:	PUNCT	_	PUNCT___	52	punct	_	_
+51	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	52	det	_	_
+52	affaire	affairer	NOUN	_	NOUN__Gender=Fem|Number=Sing	48	nsubj	_	_
+53	1	1	NUM	_	NUM__NumType=Card	52	nummod	_	_
+54	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	52	cop	_	_
+55	encore	encore	ADV	_	ADV___	52	advmod	_	_
+56	pendante	pendant	ADJ	_	ADJ__Gender=Fem|Number=Sing	0	ROOT	_	_
+57	,	,	PUNCT	_	PUNCT___	58	punct	_	_
+58	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	29	nmod:poss	_	_
+59	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	60	nsubj	_	_
+60	prend	prendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	58	advcl	_	_
+61	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	60	det	_	_
+62	initiative	initiative	NOUN	_	NOUN__Gender=Fem|Number=Sing	63	obj	_	_
+63	unilatérale	unilatéral	ADJ	_	ADJ__Gender=Fem|Number=Sing	60	amod	_	_
+64	et	et	CCONJ	_	CCONJ___	65	cc	_	_
+65	sans	sans	ADP	_	ADP___	58	case	_	_
+66	jamais	jamais	ADV	_	ADV___	67	conj	_	_
+67	m'	se	PRON	_	PRON__Number=Sing|Person=1	65	amod	_	_
+68	en	en	PRON	_	PRON__Person=3	18	iobj	_	_
+69	avertir	avertir	VERB	_	VERB__VerbForm=Inf	69	fixed	_	_
+70	de	de	ADP	_	ADP___	69	mark	_	_
+71	lancer	lancer	VERB	_	VERB__VerbForm=Inf	74	xcomp	_	_
+72	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	74	det	_	_
+73	second	second	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	74	amod	_	_
+74	recours	recourir	NOUN	_	NOUN__Gender=Masc|Number=Sing	69	obj	_	_
+75	(	(	PUNCT	_	PUNCT___	74	punct	_	_
+76	pour	pour	ADP	_	ADP___	74	case	_	_
+77	excès	excès	NOUN	_	NOUN__Gender=Masc|Number=Plur	74	nmod	_	_
+78	de	de	ADP	_	ADP___	80	case	_	_
+79	pouvoir	pouvoir	NOUN	_	NOUN__Gender=Masc|Number=Sing	78	nmod	_	_
+80	)	)	PUNCT	_	PUNCT___	69	punct	_	_
+81	pour	pour	ADP	_	ADP___	69	mark	_	_
+82	demander	demander	VERB	_	VERB__VerbForm=Inf	84	advcl	_	_
+83	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	82	det	_	_
+84	annulation	annulation	NOUN	_	NOUN__Gender=Fem|Number=Sing	69	obj	_	_
+85	d'	de	ADP	_	ADP___	69	case	_	_
+86	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	90	det	_	_
+87	PCM	PCM	NOUN	_	NOUN__Gender=Masc|Number=Sing	90	nmod	_	_
+88	et	et	CCONJ	_	CCONJ___	89	cc	_	_
+89	d'	de	ADP	_	ADP___	90	case	_	_
+90	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	69	det	_	_
+91	PD	PD	PROPN	_	PROPN__Gender=Masc|Number=Sing	90	conj	_	_
+92	survenus	survenir	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	94	acl	_	_
+93	entretemps	entretemps	NOUN	_	NOUN__Gender=Masc|Number=Plur	94	amod	_	_
+94	;	;	PUNCT	_	PUNCT___	69	punct	_	_
+
+
+#je compte demander mon désistement car PCM et PD n'apporte pas de modification substantielles au regard du PCI, ce qui, selon moi, remet en cause mon intérêt à agir (sur les PCM et PD)Je précise au passage que mon avocat attaque le PD sans même l'avoir eu en main et donc lu (il disposait uniquement du PCM).
+1	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	compte	compter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	demander	demander	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+5	désistement	désistement	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obj	_	_
+6	car	car	CCONJ	_	CCONJ___	7	cc	_	_
+7	PCM	PCM	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	conj	_	_
+8	et	et	CCONJ	_	CCONJ___	9	cc	_	_
+9	PD	PD	PROPN	_	PROPN__Gender=Masc|Number=Sing	5	nsubj	_	_
+10	n'	ne	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+11	apporte	apporter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+12	pas	pas	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+13	de	de	DET	_	DET__Definite=Ind|Number=Sing|PronType=Art	15	det	_	_
+14	modification	modification	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obj	_	_
+15	substantielles	substantiel	ADJ	_	ADJ__Gender=Fem|Number=Plur	11	amod	_	_
+16	au	au	DET	_	DET__Number=Plur|PronType=Dem	1	iobj	_	_
+17	regard	regard	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	advcl	_	_
+18	du	du	DET	_	DET__Gender=Masc|Number=Sing	18	det	_	_
+19	PCI	PCI	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obj	_	_
+20	,	,	PUNCT	_	PUNCT___	21	punct	_	_
+21	ce	ce	PRON	_	PRON__PronType=Rel	19	iobj	_	_
+22	qui	qui	PRON	_	PRON__PronType=Rel	24	nsubj	_	_
+23	,	,	PUNCT	_	PUNCT___	24	punct	_	_
+24	selon	selon	ADP	_	ADP___	21	case	_	_
+25	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	19	obl	_	_
+26	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+27	remet	remettre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+28	en	en	ADP	_	ADP___	29	iobj	_	_
+29	cause	causer	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	fixed	_	_
+30	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	32	nmod:poss	_	_
+31	intérêt	intérêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	32	obj	_	_
+32	à	à	ADP	_	ADP___	29	mark	_	_
+33	agir	agir	VERB	_	VERB__VerbForm=Inf	35	acl	_	_
+34	(	(	PUNCT	_	PUNCT___	35	punct	_	_
+35	sur	sur	ADP	_	ADP___	32	case	_	_
+36	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	37	det	_	_
+37	PCM	PCM	NOUN	_	NOUN__Gender=Masc|Number=Plur	35	obl	_	_
+38	et	et	CCONJ	_	CCONJ___	37	cc	_	_
+39	PD)Je	PD)Je	PROPN	_	PROPN___	41	iobj	_	_
+40	précise	préciser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	conj	_	_
+41	au	au	NOUN	_	NOUN___	29	det	_	_
+42	passage	passage	NOUN	_	NOUN__Gender=Masc|Number=Sing	44	obj	_	_
+43	que	que	SCONJ	_	SCONJ___	42	mark	_	_
+44	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	41	nmod:poss	_	_
+45	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	46	nsubj	_	_
+46	attaque	attaquer	NOUN	_	NOUN__Gender=Fem|Number=Sing	44	amod	_	_
+47	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	PD	PD	PROPN	_	PROPN__Gender=Masc|Number=Sing	44	nmod	_	_
+49	sans	sans	ADP	_	ADP___	52	mark	_	_
+50	même	même	ADV	_	ADV___	52	fixed	_	_
+51	l'	le	PRON	_	PRON__Number=Sing|Person=3	52	obj	_	_
+52	avoir	avoir	AUX	_	AUX__VerbForm=Inf	48	aux	_	_
+53	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	52	ccomp	_	_
+54	en	en	ADP	_	ADP___	52	case	_	_
+55	main	main	NOUN	_	NOUN__Gender=Fem|Number=Sing	52	obl	_	_
+56	et	et	CCONJ	_	CCONJ___	58	advmod	_	_
+57	donc	donc	ADV	_	ADV___	58	advmod	_	_
+58	lu	lire	PROPN	_	PROPN___	29	mark	_	_
+59	(	(	PUNCT	_	PUNCT___	60	fixed	_	_
+60	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	58	nsubj	_	_
+61	disposait	disposer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	60	advcl	_	_
+62	uniquement	uniquement	ADV	_	ADV___	63	advmod	_	_
+63	du	du	DET	_	DET__Gender=Masc|Number=Sing	60	det	_	_
+64	PCM	PCM	PROPN	_	PROPN__Gender=Masc|Number=Sing	65	obj	_	_
+65	)	)	PUNCT	_	PUNCT___	58	punct	_	_
+66	.	.	PUNCT	_	PUNCT___	67	punct	_	_
+
+

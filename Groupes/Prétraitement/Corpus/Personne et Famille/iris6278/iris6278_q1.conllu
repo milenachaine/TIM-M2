@@ -1,0 +1,162 @@
+#Bonjour, je suis nu propriétaire d'une maison familiale suite à une donation partage effectuée il y a 20 ans.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	6	case	_	_
+2	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+4	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	nu	nu	ADV	_	ADV___	6	det	_	_
+6	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	0	ROOT	_	_
+7	d'	de	ADP	_	ADP___	9	case	_	_
+8	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+10	familiale	familial	ADJ	_	ADJ__Gender=Fem|Number=Sing	9	amod	_	_
+11	suite	suite	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	case	_	_
+12	à	à	ADP	_	ADP___	11	fixed	_	_
+13	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	donation	donation	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+15	partage	partager	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	amod	_	_
+16	effectuée	effectuer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
+17	il	il	PRON	_	PRON__Number=Sing|Person=3	21	case	_	_
+18	y	yu	PRON	_	PRON__Person=3	17	fixed	_	_
+19	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	fixed	_	_
+20	20	20	NUM	_	NUM__NumType=Card	21	nummod	_	_
+21	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	obl	_	_
+22	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Ma mère possède l'usufruit de la maison qu'elle loue actuellement.
+1	Ma	Ma	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	6	nmod:poss	_	_
+2	mère	mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nsubj	_	_
+3	possède	posséder	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+5	usufruit	usufruit	NOUN	_	NOUN__Number=Sing	6	obj	_	_
+6	de	de	ADP	_	ADP___	6	case	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nmod	_	_
+9	qu'	que	PRON	_	PRON__PronType=Rel	6	obj	_	_
+10	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	9	nsubj	_	_
+11	loue	louer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+12	actuellement	actuellement	ADV	_	ADV___	11	advmod	_	_
+13	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Je souhaiterais racheter l'usufruit de la maison à ma mère.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+2	souhaiterais	souhaiter	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	racheter	racheter	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+5	usufruit	usufruit	NOUN	_	NOUN__Number=Sing	6	obj	_	_
+6	de	de	ADP	_	ADP___	6	case	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nmod	_	_
+9	à	à	ADP	_	ADP___	6	case	_	_
+10	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	9	nmod:poss	_	_
+11	mère	mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nmod	_	_
+12	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#J'ai lu que la valeur fiscale de l'usufruit est calculé selon un barème de l'age de l'usufruitier (ici 30% puisque ma mère à 77 ans).2 questions :
+1	J'	J'	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+2	ai	avoir	PROPN	_	PROPN___	0	ROOT	_	_
+3	lu	lire	PROPN	_	PROPN___	6	obj	_	_
+4	que	que	PRON	_	PRON__PronType=Rel	6	mark	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	valeur	valeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nsubj	_	_
+7	fiscale	fiscal	ADJ	_	ADJ__Gender=Fem|Number=Sing	9	amod	_	_
+8	de	de	ADP	_	ADP___	9	case	_	_
+9	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+10	usufruit	usufruit	NOUN	_	NOUN__Number=Sing	9	nmod	_	_
+11	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+12	calculé	calculer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	ccomp	_	_
+13	selon	selon	ADP	_	ADP___	14	case	_	_
+14	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+15	barème	barème	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obl	_	_
+16	de	de	ADP	_	ADP___	14	case	_	_
+17	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+18	age	age	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	nmod	_	_
+19	de	de	ADP	_	ADP___	17	case	_	_
+20	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	usufruitier	usufruitier	NOUN	_	NOUN__Number=Sing	16	nmod	_	_
+22	(	(	PUNCT	_	PUNCT___	6	punct	_	_
+23	ici	ici	ADV	_	ADV___	24	advmod	_	_
+24	30	30	NUM	_	NUM__NumType=Card	25	nummod	_	_
+25	%	%	NOUN	_	NOUN__Gender=Masc	25	obl	_	_
+26	puisque	puisque	SCONJ	_	SCONJ___	27	case	_	_
+27	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	25	nmod:poss	_	_
+28	mère	mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	dep	_	_
+29	à	à	ADP	_	ADP___	30	case	_	_
+30	77	77	NUM	_	NUM__NumType=Card	27	nummod	_	_
+31	ans).2	ans).2	NOUN	_	NOUN__Gender=Fem|Number=Plur	33	obl	_	_
+32	questions	question	NOUN	_	NOUN__Gender=Fem|Number=Plur	33	obl	_	_
+33	:	:	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#- Est-ce que la valeur fiscale sert uniquement à calculer les droits d'imposition;
+1	-	-	PUNCT	_	PUNCT___	6	punct	_	_
+2	Est	être		_	VERB	0	ROOT	_	_
+3	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	6	nsubj	_	_
+4	que	que	SCONJ	_	SCONJ___	6	fixed	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	valeur	valeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	fixed	_	_
+7	fiscale	fiscal	ADJ	_	ADJ__Gender=Fem|Number=Sing	9	amod	_	_
+8	sert	servir	VERB	_	VERB__VerbForm=Inf	9	acl	_	_
+9	uniquement	uniquement	ADV	_	ADV___	6	advmod	_	_
+10	à	à	ADP	_	ADP___	9	mark	_	_
+11	calculer	calculer	VERB	_	VERB__VerbForm=Inf	14	acl	_	_
+12	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	11	det	_	_
+13	droits	droit	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	obj	_	_
+14	d'	de	ADP	_	ADP___	6	case	_	_
+15	imposition	imposition	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nmod	_	_
+16	;	;	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#mais quels sont-ils ?
+1	mais	mai	CCONJ	_	CCONJ___	6	cc	_	_
+2	quels	quel	ADJ	_	ADJ__Gender=Masc|Number=Plur	0	ROOT	_	_
+3	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	-	-	PUNCT	_	PUNCT___	6	punct	_	_
+5	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	6	cop	_	_
+6	?	?	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#- Comment est déterminé le prix de l'achat de l'usufruit entre moi et ma mère ?
+1	-	-	PUNCT	_	PUNCT___	6	punct	_	_
+2	Comment	Comment	ADV	_	ADV__PronType=Int	6	advmod	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+4	déterminé	déterminer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	prix	prix	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+7	de	de	ADP	_	ADP___	9	case	_	_
+8	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	achat	achat	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nmod	_	_
+10	de	de	ADP	_	ADP___	9	case	_	_
+11	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+12	usufruit	usufruit	NOUN	_	NOUN__Number=Sing	11	nmod	_	_
+13	entre	entrer	ADP	_	ADP___	14	case	_	_
+14	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	6	nmod	_	_
+15	et	et	CCONJ	_	CCONJ___	14	cc	_	_
+16	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	14	nmod:poss	_	_
+17	mère	mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	conj	_	_
+18	?	?	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#y-a-t-il une règle ?
+1	y	yu	PRON	_	PRON__Person=3	6	advmod	_	_
+2	-	-	PUNCT	_	PUNCT___	6	fixed	_	_
+3	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	fixed	_	_
+4	-	-	PUNCT	_	PUNCT___	6	punct	_	_
+5	t	t	NOUN	_	NOUN__Gender=Fem|Number=Plur	6	fixed	_	_
+6	-	-	PUNCT	_	PUNCT___	6	punct	_	_
+7	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
+8	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	règle	régler	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+10	?	?	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#merci bcp pour vos réponse
+1	merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	bcp	bcp	SCONJ	_	SCONJ___	6	amod	_	_
+3	pour	pour	ADP	_	ADP___	6	case	_	_
+4	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	6	nmod:poss	_	_
+5	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+
+

@@ -1,0 +1,154 @@
+#Classement d'une parcelle :
+1	Classement	Classement	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	d'	de	ADP	_	ADP___	4	case	_	_
+3	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	parcelle	parcelle	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+5	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Chaque terrain est classé dans une zone par le PLU i soit :zone U (Urbaine) constructiblezone AU (A Urbaniser) constructible sous conditionzone A (Agricole) inconstructible sauf pour une exploitation agricolezone
+1	Chaque	Chaque	DET	_	DET__Number=Sing	1	det	_	_
+2	terrain	terrain	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	classé	classer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+5	dans	dan	ADP	_	ADP___	1	case	_	_
+6	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	zone	zone	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obl	_	_
+8	par	par	ADP	_	ADP___	9	case	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+10	PLU	PLU	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nmod	_	_
+11	i	ie	NOUN	_	NOUN___	12	amod	_	_
+12	soit	être	CCONJ	_	CCONJ___	9	cc	_	_
+13	:	:	PUNCT	_	PUNCT___	15	punct	_	_
+14	zone	zone	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	conj	_	_
+15	U	U	ADJ	_	ADJ___	12	amod	_	_
+16	(	(	PUNCT	_	PUNCT___	15	punct	_	_
+17	Urbaine	Urbaine	PROPN	_	PROPN___	19	appos	_	_
+18	)	)	PUNCT	_	PUNCT___	19	punct	_	_
+19	constructiblezone	constructiblezone	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	parataxis	_	_
+20	AU	AU	PROPN	_	PROPN___	19	nmod	_	_
+21	(	(	PUNCT	_	PUNCT___	19	punct	_	_
+22	A	A	NOUN	_	NOUN___	19	appos	_	_
+23	Urbaniser	Urbaniser	X	_	X___	19	flat:name	_	_
+24	)	)	PUNCT	_	PUNCT___	9	punct	_	_
+25	constructible	constructible	ADJ	_	ADJ__Number=Sing	24	amod	_	_
+26	sous	sou	ADP	_	ADP___	24	case	_	_
+27	conditionzone	conditionzone	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	nmod	_	_
+28	A	A	NOUN	_	NOUN___	27	nmod	_	_
+29	(	(	PUNCT	_	PUNCT___	24	punct	_	_
+30	Agricole	Agricole	PROPN	_	PROPN___	24	nmod	_	_
+31	)	)	PUNCT	_	PUNCT___	32	punct	_	_
+32	inconstructible	inconstructible	ADJ	_	ADJ__Number=Sing	30	amod	_	_
+33	sauf	sauf	ADP	_	ADP___	32	case	_	_
+34	pour	pour	ADP	_	ADP___	30	case	_	_
+35	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+36	exploitation	exploitation	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	nmod	_	_
+37	agricolezone	agricolezone	ADJ	_	ADJ__Gender=Masc|Number=Sing	24	amod	_	_
+
+
+#N (Naturelle) inconstructible sauf exceptions.
+1	N	N	NOUN	_	NOUN___	1	nsubj	_	_
+2	(	(	PUNCT	_	PUNCT___	4	punct	_	_
+3	Naturelle	Naturelle	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+4	)	)	PUNCT	_	PUNCT___	1	punct	_	_
+5	inconstructible	inconstructible	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+6	sauf	sauf	ADP	_	ADP___	7	case	_	_
+7	exceptions	exception	NOUN	_	NOUN__Gender=Fem|Number=Plur	9	nmod	_	_
+8	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Tous ceux qui veulent, c'est la définition du mot "publique"
+1	Tous	Tous	ADJ	_	ADJ__Gender=Masc|Number=Plur	1	amod	_	_
+2	ceux	celui	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Dem	4	nsubj	_	_
+3	qui	qui	PRON	_	PRON__PronType=Rel	4	nsubj	_	_
+4	veulent	vouloir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+5	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+6	c'	ce	PRON	_	PRON__Number=Sing|Person=3	7	nsubj	_	_
+7	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	définition	définition	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+10	du	du	DET	_	DET__Gender=Masc|Number=Sing	12	advmod	_	_
+11	mot	mot	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	amod	_	_
+12	"	"	PUNCT	_	PUNCT___	9	punct	_	_
+13	publique"	publique"	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	conj	_	_
+
+
+#....
+1	....	....	PUNCT	_	PUNCT___	0	ROOT	_	_
+
+
+#L'enquête publique est justement le bon moment pour faire part de votre désaccord.
+1	L'	L'	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+2	enquête	enquêter	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nsubj	_	_
+3	publique	public	ADJ	_	ADJ__Gender=Fem|Number=Sing	4	amod	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+5	justement	justement	ADV	_	ADV___	1	advmod	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	bon	bon	ADJ	_	ADJ__Gender=Masc|Number=Sing	9	amod	_	_
+8	moment	moment	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+9	pour	pour	ADP	_	ADP___	9	mark	_	_
+10	faire	faire	VERB	_	VERB__VerbForm=Inf	12	advcl	_	_
+11	part	partir	NOUN	_	NOUN__Number=Sing	12	obj	_	_
+12	de	de	ADP	_	ADP___	9	case	_	_
+13	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	15	nmod:poss	_	_
+14	désaccord	désaccord	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obl	_	_
+15	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Prenez rendez-vous avec le commissaire enquêteur, personne neutre nommée par le tribunal administratif, et exposez-lui votre désaccord.
+1	Prenez	Prenez	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	nsubj	_	_
+2	rendez-vous	rendez-vous	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	amod	_	_
+3	avec	avec	ADP	_	ADP___	4	case	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+5	commissaire	commissaire	NOUN	_	NOUN__Number=Sing	1	nmod	_	_
+6	enquêteur	enquêteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+7	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+8	personne	personne	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+9	neutre	neutre	ADJ	_	ADJ__Number=Sing	9	aux	_	_
+10	nommée	nommer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
+11	par	par	ADP	_	ADP___	12	case	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+13	tribunal	tribunal	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obl	_	_
+14	administratif	administratif	ADJ	_	ADJ__Gender=Masc|Number=Sing	15	amod	_	_
+15	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+16	et	et	CCONJ	_	CCONJ___	15	cc	_	_
+17	exposez	exposer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	conj	_	_
+18	-	-	PUNCT	_	PUNCT___	19	punct	_	_
+19	lui	luire	PRON	_	PRON__Number=Sing|Person=3	9	obl	_	_
+20	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	19	nmod:poss	_	_
+21	désaccord	désaccord	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obj	_	_
+22	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Il est utile de rajouter qu'il faut des arguments nombreux et sérieux, pas uniquement du "j'ai pas envie de voir de nouvelles maisons".
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	utile	utile	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+4	de	de	ADP	_	ADP___	1	mark	_	_
+5	rajouter	rajouter	VERB	_	VERB__VerbForm=Inf	1	xcomp	_	_
+6	qu'	que	SCONJ	_	SCONJ___	7	mark	_	_
+7	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
+8	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+9	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	9	det	_	_
+10	arguments	argument	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	obj	_	_
+11	nombreux	nombreux	ADJ	_	ADJ__Gender=Masc	12	amod	_	_
+12	et	et	CCONJ	_	CCONJ___	9	cc	_	_
+13	sérieux	sérieux	ADJ	_	ADJ__Gender=Masc	15	conj	_	_
+14	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+15	pas	pas	ADV	_	ADV___	12	advmod	_	_
+16	uniquement	uniquement	ADV	_	ADV___	15	advmod	_	_
+17	du	du	DET	_	DET__Gender=Masc|Number=Sing	19	obl	_	_
+18	"	"	PUNCT	_	PUNCT___	19	punct	_	_
+19	j'	il	PRON	_	PRON__Number=Sing|Person=1	9	nsubj	_	_
+20	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	aux	_	_
+21	pas	pas	ADV	_	ADV__Polarity=Neg	19	advmod	_	_
+22	envie	envier	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	ccomp	_	_
+23	de	de	ADP	_	ADP___	19	mark	_	_
+24	voir	voir	VERB	_	VERB__VerbForm=Inf	9	xcomp	_	_
+25	de	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	24	det	_	_
+26	nouvelles	nouvelle	ADJ	_	ADJ__Gender=Fem|Number=Plur	24	amod	_	_
+27	maisons	maison	NOUN	_	NOUN__Gender=Fem|Number=Plur	24	obj	_	_
+28	"	"	PUNCT	_	PUNCT___	27	punct	_	_
+29	.	.	PUNCT	_	PUNCT___	24	punct	_	_
+
+

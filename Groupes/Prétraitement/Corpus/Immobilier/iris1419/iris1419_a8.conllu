@@ -1,0 +1,212 @@
+#Bonjour,Il existe des frais communs, dont les locataires paient leur quote-part, et les frais individuels, liés à un compteur et abonnement individuel.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	4	mark	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+4	existe	exister	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
+6	frais	frai	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	obj	_	_
+7	communs	commun	ADV	_	ADV___	6	amod	_	_
+8	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+9	dont	dont	PRON	_	PRON__PronType=Rel	11	dep	_	_
+10	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	11	det	_	_
+11	locataires	locataire	NOUN	_	NOUN__Number=Plur	12	nsubj	_	_
+12	paient	payer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+13	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	14	nmod:poss	_	_
+14	quote-part	quote-part	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obl	_	_
+15	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+16	et	et	CCONJ	_	CCONJ___	18	cc	_	_
+17	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	18	det	_	_
+18	frais	frai	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	conj	_	_
+19	individuels	individuel	ADJ	_	ADJ__Gender=Masc|Number=Plur	18	amod	_	_
+20	,	,	PUNCT	_	PUNCT___	21	punct	_	_
+21	liés	lier	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	18	acl	_	_
+22	à	à	ADP	_	ADP___	24	case	_	_
+23	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	compteur	compteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obl	_	_
+25	et	et	CCONJ	_	CCONJ___	26	cc	_	_
+26	abonnement	abonnement	ADV	_	ADV___	18	conj	_	_
+27	individuel	individuel	ADJ	_	ADJ__Gender=Masc|Number=Sing	26	amod	_	_
+28	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Les charges locatives sont définies comme "".Or, il s'agit dans votre cas d'un compteur.
+1	Les	Les	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+2	charges	charger	NOUN	_	NOUN__Gender=Fem|Number=Plur	4	nsubj:pass	_	_
+3	locatives	locatif	ADJ	_	ADJ__Gender=Fem|Number=Plur	4	amod	_	_
+4	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+5	définies	définir	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+6	comme	comme	ADP	_	ADP___	4	case	_	_
+7	"	"	PUNCT	_	PUNCT___	6	punct	_	_
+8	"	"	PUNCT	_	PUNCT___	6	punct	_	_
+9	.Or	.Or	PUNCT	_	PUNCT___	11	nmod	_	_
+10	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+11	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
+12	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	6	expl	_	_
+13	agit	agir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	conj	_	_
+14	dans	dan	ADP	_	ADP___	12	case	_	_
+15	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+16	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obl	_	_
+17	d'	de	ADP	_	ADP___	18	case	_	_
+18	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+19	compteur	compteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nmod	_	_
+20	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Il est donc parfaitement normal qu'il ne soit pas compté dans les charges.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	donc	donc	ADV	_	ADV___	4	advmod	_	_
+4	parfaitement	parfaitement	ADV	_	ADV___	4	advmod	_	_
+5	normal	normal	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+6	qu'	que	SCONJ	_	SCONJ___	4	mark	_	_
+7	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+8	ne	ne	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+9	soit	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+10	pas	pas	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+11	compté	compter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	ccomp	_	_
+12	dans	dan	ADP	_	ADP___	6	case	_	_
+13	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	14	det	_	_
+14	charges	charger	NOUN	_	NOUN__Gender=Fem|Number=Plur	12	obl	_	_
+15	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Tout comme, par exemple, l’électricité : vous payez la quote-part de l'éclairage des escaliers en provisions sur les charges, et à coté, vous avez votre propre abonnement.
+1	Tout	Tout	ADV	_	ADV___	4	advmod	_	_
+2	comme	comme	SCONJ	_	SCONJ___	4	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	4	fixed	_	_
+4	par	par	ADP	_	ADP___	4	advmod	_	_
+5	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	fixed	_	_
+6	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+7	l’	l’	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+8	électricité	électricité	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obl	_	_
+9	:	:	PUNCT	_	PUNCT___	11	punct	_	_
+10	vous	se	PRON	_	PRON__Number=Plur|Person=2	11	nsubj	_	_
+11	payez	payer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	12	advcl	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+13	quote-part	quote-part	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obj	_	_
+14	de	de	ADP	_	ADP___	12	case	_	_
+15	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+16	éclairage	éclairage	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nmod	_	_
+17	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	18	det	_	_
+18	escaliers	escalier	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	obj	_	_
+19	en	en	ADP	_	ADP___	18	case	_	_
+20	provisions	provision	NOUN	_	NOUN__Gender=Fem|Number=Plur	21	nmod	_	_
+21	sur	sur	ADP	_	ADP___	18	case	_	_
+22	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	24	det	_	_
+23	charges	charger	NOUN	_	NOUN__Gender=Fem|Number=Plur	24	nmod	_	_
+24	,	,	PUNCT	_	PUNCT___	21	punct	_	_
+25	et	et	CCONJ	_	CCONJ___	26	cc	_	_
+26	à	à	ADP	_	ADP___	18	case	_	_
+27	coté	coter	VERB	_	VERB__VerbForm=Inf	26	conj	_	_
+28	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+29	vous	se	PRON	_	PRON__Number=Plur|Person=2	30	nsubj	_	_
+30	avez	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+31	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	30	nmod:poss	_	_
+32	propre	propre	ADJ	_	ADJ__Number=Sing	33	amod	_	_
+33	abonnement	abonnement	ADV	_	ADV___	33	obj	_	_
+34	.	.	PUNCT	_	PUNCT___	37	punct	_	_
+
+
+#L'individualisation
+1	L'	L'	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+2	individualisation	individualisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+
+
+#des contrats de fourniture d'eau en copropriété a été prévue par la loi SRU pour notamment responsabiliser les gaspilleurs.
+1	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
+2	contrats	contrat	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	nsubj:pass	_	_
+3	de	de	ADP	_	ADP___	4	case	_	_
+4	fourniture	fourniture	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+5	d'	de	ADP	_	ADP___	6	case	_	_
+6	eau	eau	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+7	en	en	ADP	_	ADP___	6	case	_	_
+8	copropriété	copropriété	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+9	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	11	aux:pass	_	_
+11	prévue	prévoir	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+12	par	par	ADP	_	ADP___	6	case	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	loi	loi	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obl	_	_
+15	SRU	SRU	NOUN	_	NOUN__Number=Plur	4	nmod	_	_
+16	pour	pour	ADP	_	ADP___	18	mark	_	_
+17	notamment	notamment	ADV	_	ADV___	18	advmod	_	_
+18	responsabiliser	responsabiliser	VERB	_	VERB__VerbForm=Inf	4	advcl	_	_
+19	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	18	det	_	_
+20	gaspilleurs	gaspilleur	NOUN	_	NOUN__Gender=Masc|Number=Plur	21	obj	_	_
+21	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Puisque au départ, vous avez payé le bailleur et non directement la compagnie, vous pouvez demander l'ensemble des factures pour lesquelles vous avez déjà payé, c'est l'obligation pour le bailleur.
+1	Puisque	Puisque	SCONJ	_	SCONJ___	4	mark	_	_
+2	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	fixed	_	_
+3	départ	départir	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	fixed	_	_
+4	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+5	vous	se	PRON	_	PRON__Number=Plur|Person=2	6	nsubj	_	_
+6	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
+7	payé	payer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+9	bailleur	bailleur	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+10	et	et	CCONJ	_	CCONJ___	11	cc	_	_
+11	non	non	ADV	_	ADV___	12	advmod	_	_
+12	directement	directement	ADV	_	ADV___	6	advmod	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	compagnie	compagnie	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	conj	_	_
+15	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+16	vous	se	PRON	_	PRON__Number=Plur|Person=2	18	nsubj	_	_
+17	pouvez	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	demander	demander	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+19	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+20	ensemble	ensemble	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obj	_	_
+21	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	18	det	_	_
+22	factures	facturer	NOUN	_	NOUN__Gender=Fem|Number=Plur	24	nmod	_	_
+23	pour	pour	ADP	_	ADP___	24	case	_	_
+24	lesquelles	lequel	PRON	_	PRON__Gender=Fem|Number=Plur	21	obl	_	_
+25	vous	se	PRON	_	PRON__Number=Plur|Person=2	26	nsubj	_	_
+26	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	18	aux	_	_
+27	déjà	déjà	ADV	_	ADV___	26	advmod	_	_
+28	payé	payer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+29	,	,	PUNCT	_	PUNCT___	30	punct	_	_
+30	c'	ce	PRON	_	PRON__Number=Sing|Person=3	33	nsubj	_	_
+31	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+32	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	33	det	_	_
+33	obligation	obligation	NOUN	_	NOUN__Gender=Fem|Number=Sing	33	obj	_	_
+34	pour	pour	ADP	_	ADP___	37	case	_	_
+35	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+36	bailleur	bailleur	NOUN	_	NOUN__Gender=Masc|Number=Sing	37	nmod	_	_
+37	.	.	PUNCT	_	PUNCT___	33	punct	_	_
+
+
+#En revanche, pour vos provisions sur charges locatives, il faut demander de prendre connaissance des justificatifs (l'envoi n'est pas obligatoire) après la régularisation annuelle.
+1	En	En	ADP	_	ADP___	4	advmod	_	_
+2	revanche	revanche	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	pour	pour	ADP	_	ADP___	4	case	_	_
+5	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	6	nmod:poss	_	_
+6	provisions	provision	NOUN	_	NOUN__Gender=Fem|Number=Plur	4	obl	_	_
+7	sur	sur	ADP	_	ADP___	6	case	_	_
+8	charges	charger	NOUN	_	NOUN__Gender=Fem|Number=Plur	6	nmod	_	_
+9	locatives	locatif	ADJ	_	ADJ__Gender=Fem|Number=Plur	11	amod	_	_
+10	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+11	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
+12	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+13	demander	demander	VERB	_	VERB__VerbForm=Inf	14	xcomp	_	_
+14	de	de	ADP	_	ADP___	12	mark	_	_
+15	prendre	prendre	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+16	connaissance	connaissance	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	obj	_	_
+17	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	18	det	_	_
+18	justificatifs	justificatif	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	nsubj	_	_
+19	(	(	PUNCT	_	PUNCT___	18	punct	_	_
+20	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	envoi	envoi	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	appos	_	_
+22	n'	ne	ADV	_	ADV__Polarity=Neg	24	advmod	_	_
+23	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+24	pas	pas	ADV	_	ADV__Polarity=Neg	21	advmod	_	_
+25	obligatoire	obligatoire	ADJ	_	ADJ__Number=Sing	26	xcomp	_	_
+26	)	)	PUNCT	_	PUNCT___	18	punct	_	_
+27	après	après	ADP	_	ADP___	26	case	_	_
+28	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+29	régularisation	régularisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	obl	_	_
+30	annuelle	annuel	ADJ	_	ADJ__Gender=Fem|Number=Sing	33	amod	_	_
+31	.	.	PUNCT	_	PUNCT___	30	punct	_	_
+
+

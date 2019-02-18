@@ -1,0 +1,70 @@
+#Bonjour,Je suis auto
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Je	Je	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+4	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	auto	auto	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	acl:relcl	_	_
+
+
+#- entrepreneur, BIC prestataire de service.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	entrepreneur	entrepreneur	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+4	BIC	BIC	PROPN	_	PROPN___	5	conj	_	_
+5	prestataire	prestataire	NOUN	_	NOUN__Number=Sing	1	amod	_	_
+6	de	de	ADP	_	ADP___	7	case	_	_
+7	service	service	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+8	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#J'aimerais passer en AERL.Je possède un compte en banque pour particulier dédié.
+1	J'	J'	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	aimerais	aimer	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+3	passer	prendre	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+4	en	en	ADP	_	ADP___	5	case	_	_
+5	AERL.Je	AERL.Je	PROPN	_	PROPN__Gender=Masc|Number=Sing	1	obl	_	_
+6	possède	posséder	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	xcomp	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+8	compte	compter	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+9	en	en	ADP	_	ADP___	7	case	_	_
+10	banque	banque	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nmod	_	_
+11	pour	pour	ADP	_	ADP___	12	mark	_	_
+12	particulier	particulier	ADJ	_	ADJ__Gender=Masc|Number=Sing	10	fixed	_	_
+13	dédié	dédier	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	advcl	_	_
+14	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Est il obligatoire d'avoir un compte "professionnel"?Car pour ce que je fais avec mon compte existant, cela me convient très bien.
+1	Est	Est	ADV	_	ADV___	1	cop	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+3	obligatoire	obligatoire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	d'	de	ADP	_	ADP___	5	mark	_	_
+5	avoir	avoir	VERB	_	VERB__VerbForm=Inf	1	xcomp	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	compte	compter	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+8	"	"	PUNCT	_	PUNCT___	9	punct	_	_
+9	professionnel"?Car	professionnel"?Car	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	xcomp	_	_
+10	pour	pour	ADP	_	ADP___	9	case	_	_
+11	ce	ce	PRON	_	PRON__PronType=Rel	12	obl	_	_
+12	que	que	PRON	_	PRON__PronType=Rel	10	obj	_	_
+13	je	il	PRON	_	PRON__Number=Sing|Person=1	7	nsubj	_	_
+14	fais	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+15	avec	avec	ADP	_	ADP___	15	case	_	_
+16	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	15	nmod:poss	_	_
+17	compte	compter	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obl	_	_
+18	existant	exister	ADJ	_	ADJ__Gender=Masc|Number=Sing	16	acl	_	_
+19	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+20	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	21	nsubj	_	_
+21	me	se	PRON	_	PRON__Number=Sing|Person=1	19	expl	_	_
+22	convient	convier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	parataxis	_	_
+23	très	très	ADV	_	ADV___	21	advmod	_	_
+24	bien	bien	ADV	_	ADV___	26	advmod	_	_
+25	.	.	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#Bien à vousHenri
+1	Bien	Bien	ADV	_	ADV___	0	ROOT	_	_
+2	à	à	ADP	_	ADP___	1	fixed	_	_
+3	vousHenri	vousHenri	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	fixed	_	_
+
+

@@ -1,0 +1,61 @@
+#Bonjour,Non ce n'est pas le même voisin.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Non	Non	ADV	_	ADV___	10	advmod	_	_
+4	ce	ce	PRON	_	PRON__PronType=Rel	10	nsubj	_	_
+5	n'	ne	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+6	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+7	pas	pas	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	même	même	ADV	_	ADV___	10	amod	_	_
+10	voisin	voisin	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	acl:relcl	_	_
+11	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Oui, le locataire a règlé son bref séjour.
+1	Oui	Oui	PROPN	_	PROPN__Gender=Masc|Number=Sing	1	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+4	locataire	locataire	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nsubj	_	_
+5	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+6	règlé	règlé	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+7	son	son	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+8	bref	bref	ADV	_	ADV___	10	obj	_	_
+9	séjour	séjour	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	acl	_	_
+10	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Il n'a pas été menacé.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj:pass	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+5	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	10	aux:pass	_	_
+6	menacé	menacer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+7	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Le voisin lui a interdit de stationner son véhicule à cet endroit et l'a obligé à déplacer son véhicule.
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	voisin	voisin	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	amod	_	_
+3	lui	luire	PRON	_	PRON__Number=Sing|Person=3	10	nsubj	_	_
+4	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+5	interdit	interdire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
+6	de	de	ADP	_	ADP___	10	mark	_	_
+7	stationner	stationner	VERB	_	VERB__VerbForm=Inf	10	xcomp	_	_
+8	son	son	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+9	véhicule	véhiculer	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+10	à	à	ADP	_	ADP___	1	case	_	_
+11	cet	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	1	det	_	_
+12	endroit	endroit	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obl	_	_
+13	et	et	CCONJ	_	CCONJ___	17	cc	_	_
+14	l'	le	PRON	_	PRON__Number=Sing|Person=3	15	obj	_	_
+15	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	obligé	obliger	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	conj	_	_
+17	à	à	ADP	_	ADP___	17	mark	_	_
+18	déplacer	déplacer	VERB	_	VERB__VerbForm=Inf	19	xcomp	_	_
+19	son	son	DET	_	DET__Number=Sing|Poss=Yes	17	nmod:poss	_	_
+20	véhicule	véhiculer	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obj	_	_
+21	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+

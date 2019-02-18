@@ -1,0 +1,60 @@
+#Bonsoir,Oui pourquoi pas, en anonymisant les noms
+1	Bonsoir	Bonsoir	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Oui	Oui	PROPN	_	PROPN__Gender=Masc|Number=Sing	1	nmod	_	_
+4	pourquoi	pourquoi	ADV	_	ADV___	8	advmod	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	4	fixed	_	_
+6	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+7	en	en	ADP	_	ADP___	8	mark	_	_
+8	anonymisant	anonymisant	VERB	_	VERB__Tense=Pres|VerbForm=Part	3	acl	_	_
+9	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	10	det	_	_
+10	noms	nom	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obj	_	_
+
+
+#.. de manière à ce qu'on apprécie si ce jugement nécessite une requête ou pas.
+1	..	..	PUNCT	_	PUNCT___	0	ROOT	_	_
+2	de	de	ADP	_	ADP___	1	case	_	_
+3	manière	manière	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obl	_	_
+4	à	à	ADP	_	ADP___	8	case	_	_
+5	ce	ce	PRON	_	PRON__PronType=Rel	4	obl	_	_
+6	qu'	que	SCONJ	_	SCONJ___	8	obj	_	_
+7	on	on	PRON	_	PRON__Number=Sing|Person=3	8	nsubj	_	_
+8	apprécie	apprécier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+9	si	si	SCONJ	_	SCONJ___	10	mark	_	_
+10	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+11	jugement	jugement	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nsubj	_	_
+12	nécessite	nécessiter	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+13	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+14	requête	requête	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obj	_	_
+15	ou	ou	CCONJ	_	CCONJ___	11	cc	_	_
+16	pas	pas	ADV	_	ADV__Polarity=Neg	18	conj	_	_
+17	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Précisez si les passages sur les "faux" se trouvent dans l'exposé des prétentions, la discussion ou bien le dispositif?
+1	Précisez	Précisez	VERB	_	VERB__Mood=Ind|VerbForm=Fin	1	advmod	_	_
+2	si	si	SCONJ	_	SCONJ___	1	mark	_	_
+3	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+4	passages	passage	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+5	sur	sur	ADP	_	ADP___	4	case	_	_
+6	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+7	"	"	PUNCT	_	PUNCT___	8	punct	_	_
+8	faux	faillir	ADJ	_	ADJ__Gender=Masc	3	amod	_	_
+9	"	"	PUNCT	_	PUNCT___	10	punct	_	_
+10	se	se	PRON	_	PRON__Person=3|Reflex=Yes	8	expl	_	_
+11	trouvent	trouver	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	nmod	_	_
+12	dans	dan	ADP	_	ADP___	13	case	_	_
+13	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+14	exposé	exposer	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obl	_	_
+15	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
+16	prétentions	prétention	NOUN	_	NOUN__Gender=Fem|Number=Plur	18	nmod	_	_
+17	,	,	PUNCT	_	PUNCT___	18	punct	_	_
+18	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+19	discussion	discussion	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	conj	_	_
+20	ou	ou	CCONJ	_	CCONJ___	21	cc	_	_
+21	bien	bien	ADV	_	ADV___	22	advmod	_	_
+22	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+23	dispositif	dispositif	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	conj	_	_
+24	?	?	PUNCT	_	PUNCT___	22	punct	_	_
+
+

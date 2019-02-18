@@ -1,0 +1,225 @@
+#Bonjour Ribould.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	Ribould	Ribould	PROPN	_	PROPN___	1	flat:name	_	_
+3	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Peut-être que je ne me suis pas fait comprendre.
+1	Peut	Peut	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+2	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+3	être	être	AUX	_	AUX__VerbForm=Inf	0	ROOT	_	_
+4	que	que	SCONJ	_	SCONJ___	6	mark	_	_
+5	je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+6	ne	ne	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+7	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	13	iobj	_	_
+8	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+9	pas	pas	ADV	_	ADV__Polarity=Neg	13	advmod	_	_
+10	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	ccomp	_	_
+11	comprendre	comprendre	VERB	_	VERB__VerbForm=Inf	13	xcomp	_	_
+12	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Supposons que l'arnaqueur s'appelle monsieur XMonsieur X vous doit  1000 euros, et souhaite vous le rembourser en procédant à un virement bancaire.
+1	Supposons	Supposons	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	mark	_	_
+2	que	que	SCONJ	_	SCONJ___	1	mark	_	_
+3	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+4	arnaqueur	arnaqueur	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nsubj	_	_
+5	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	4	expl	_	_
+6	appelle	appeler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+7	monsieur	monsieur	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+8	XMonsieur	XMonsieur	ADJ	_	ADJ__Gender=Masc|Number=Sing	13	nmod	_	_
+9	X	X	NOUN	_	NOUN___	13	nmod	_	_
+10	vous	se	PRON	_	PRON__Number=Plur|Person=2	13	iobj	_	_
+11	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+12	 	 	SPACE	_		13		_	_
+13	1000	1000	NUM	_	NUM__NumType=Card	6	nummod	_	_
+14	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	obj	_	_
+15	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+16	et	et	CCONJ	_	CCONJ___	21	cc	_	_
+17	souhaite	souhaiter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	conj	_	_
+18	vous	se	PRON	_	PRON__Number=Plur|Person=2	19	nsubj	_	_
+19	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	21	obj	_	_
+20	rembourser	rembourser	VERB	_	VERB__VerbForm=Inf	21	xcomp	_	_
+21	en	en	ADP	_	ADP___	26	mark	_	_
+22	procédant	procéder	VERB	_	VERB__Tense=Pres|VerbForm=Part	21	obl	_	_
+23	à	à	ADP	_	ADP___	22	case	_	_
+24	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+25	virement	virement	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	obl	_	_
+26	bancaire	bancaire	ADJ	_	ADJ__Number=Sing	26	amod	_	_
+27	.	.	PUNCT	_	PUNCT___	26	punct	_	_
+
+
+#De ce fait il vous demande votre RIB.Une fois en possession de votre RIB, plutôt que de vous faire un virement, monsieur X sort son chéquier et édite un chèque à votre ordre, il inscrit votre numéro de compte sur le dos du chèque, signe le chèque à votre place (avec une signature quelconque), puis va déposer le chèque dans le guichet de votre banque et tout ceci à votre insu.
+1	De	De	ADP	_	ADP___	1	mark	_	_
+2	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	1	fixed	_	_
+3	fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	punct	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+5	vous	se	PRON	_	PRON__Number=Plur|Person=2	4	iobj	_	_
+6	demande	demander	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	13	nmod:poss	_	_
+8	RIB.Une	RIB.Une	ADJ	_	ADJ__Gender=Masc|Number=Sing	13	obj	_	_
+9	fois	foi	NOUN	_	NOUN__Gender=Fem	13	fixed	_	_
+10	en	en	ADP	_	ADP___	13	case	_	_
+11	possession	possession	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nmod	_	_
+12	de	de	ADP	_	ADP___	13	case	_	_
+13	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+14	RIB	RIB	PROPN	_	PROPN___	13	nmod	_	_
+15	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+16	plutôt	plutôt	ADV	_	ADV___	21	advmod	_	_
+17	que	que	SCONJ	_	SCONJ___	21	mark	_	_
+18	de	de	ADP	_	ADP___	19	mark	_	_
+19	vous	se	PRON	_	PRON__Number=Plur|Person=2	21	iobj	_	_
+20	faire	faire	VERB	_	VERB__VerbForm=Inf	21	xcomp	_	_
+21	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+22	virement	virement	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obj	_	_
+23	,	,	PUNCT	_	PUNCT___	22	punct	_	_
+24	monsieur	monsieur	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	conj	_	_
+25	X	X	NOUN	_	NOUN___	26	amod	_	_
+26	sort	sortir	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	nmod	_	_
+27	son	son	DET	_	DET__Number=Sing|Poss=Yes	26	nmod:poss	_	_
+28	chéquier	chéquier	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	nmod	_	_
+29	et	et	CCONJ	_	CCONJ___	26	cc	_	_
+30	édite	éditer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	conj	_	_
+31	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	chèque	chèque	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	obj	_	_
+33	à	à	ADP	_	ADP___	35	case	_	_
+34	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	35	nmod:poss	_	_
+35	ordre	ordre	NOUN	_	NOUN__Gender=Masc|Number=Sing	32	obl	_	_
+36	,	,	PUNCT	_	PUNCT___	37	punct	_	_
+37	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	35	nsubj	_	_
+38	inscrit	inscrire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	conj	_	_
+39	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	40	nmod:poss	_	_
+40	numéro	numéro	NOUN	_	NOUN__Gender=Masc|Number=Sing	35	obj	_	_
+41	de	de	ADP	_	ADP___	40	case	_	_
+42	compte	compter	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	nmod	_	_
+43	sur	sur	ADP	_	ADP___	48	case	_	_
+44	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+45	dos	dos	NOUN	_	NOUN__Gender=Masc|Number=Sing	48	obl	_	_
+46	du	du	DET	_	DET__Gender=Masc|Number=Sing	48	det	_	_
+47	chèque	chèque	NOUN	_	NOUN__Gender=Masc|Number=Sing	48	amod	_	_
+48	,	,	PUNCT	_	PUNCT___	48	punct	_	_
+49	signe	signer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	50	conj	_	_
+50	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+51	chèque	chèque	NOUN	_	NOUN__Gender=Masc|Number=Sing	50	obj	_	_
+52	à	à	ADP	_	ADP___	53	case	_	_
+53	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	50	nmod:poss	_	_
+54	place	placer	NOUN	_	NOUN__Gender=Fem|Number=Sing	56	obl	_	_
+55	(	(	PUNCT	_	PUNCT___	56	punct	_	_
+56	avec	avec	ADP	_	ADP___	53	case	_	_
+57	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
+58	signature	signature	NOUN	_	NOUN__Gender=Fem|Number=Sing	62	obl	_	_
+59	quelconque	quelconque	ADJ	_	ADJ__Number=Sing	62	amod	_	_
+60	)	)	PUNCT	_	PUNCT___	62	punct	_	_
+61	,	,	PUNCT	_	PUNCT___	62	punct	_	_
+62	puis	pouvoir	CCONJ	_	CCONJ___	48	cc	_	_
+63	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	64	conj	_	_
+64	déposer	déposer	VERB	_	VERB__VerbForm=Inf	62	xcomp	_	_
+65	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	66	det	_	_
+66	chèque	chèque	NOUN	_	NOUN__Gender=Masc|Number=Sing	64	obj	_	_
+67	dans	dan	ADP	_	ADP___	66	case	_	_
+68	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	66	det	_	_
+69	guichet	guichet	NOUN	_	NOUN__Gender=Masc|Number=Sing	70	obl	_	_
+70	de	de	ADP	_	ADP___	66	case	_	_
+71	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	72	nmod:poss	_	_
+72	banque	banque	NOUN	_	NOUN__Gender=Fem|Number=Sing	66	nmod	_	_
+73	et	et	CCONJ	_	CCONJ___	74	cc	_	_
+74	tout	tout	ADJ	_	ADJ__Gender=Masc|Number=Sing	72	det	_	_
+75	ceci	ceci	PRON	_	PRON__Number=Sing|PronType=Dem	77	conj	_	_
+76	à	à	ADP	_	ADP___	77	case	_	_
+77	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	72	nmod:poss	_	_
+78	insu	insu	NOUN	_	NOUN__Gender=Fem|Number=Sing	80	nmod	_	_
+79	.	.	PUNCT	_	PUNCT___	80	punct	_	_
+
+
+#La banque crédite votre compte du montant (7000 euros) sans vérifier quoi que ce soit.
+1	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	banque	banque	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+3	crédite	créditer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+5	compte	compter	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obj	_	_
+6	du	du	DET	_	DET__Gender=Masc|Number=Sing	6	det	_	_
+7	montant	monter	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+8	(	(	PUNCT	_	PUNCT___	13	punct	_	_
+9	7000	7000	NUM	_	NUM__NumType=Card	13	nummod	_	_
+10	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	obl	_	_
+11	)	)	PUNCT	_	PUNCT___	13	punct	_	_
+12	sans	sans	ADP	_	ADP___	13	mark	_	_
+13	vérifier	vérifier	VERB	_	VERB__VerbForm=Inf	6	advcl	_	_
+14	quoi	quoi	PRON	_	PRON__PronType=Rel	13	obj	_	_
+15	que	que	SCONJ	_	SCONJ___	6	mark	_	_
+16	ce	ce	PRON	_	PRON__Number=Sing|Person=3	21	nsubj	_	_
+17	soit	être	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	punct	_	_
+18	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Une fois l'argent sur votre compte, monsieur X vous réclame la différence.
+1	Une	Une	DET	_	DET__Gender=Fem|Number=Sing	1	det	_	_
+2	fois	foi	NOUN	_	NOUN__Gender=Fem	1	fixed	_	_
+3	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+4	argent	argent	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nsubj	_	_
+5	sur	sur	ADP	_	ADP___	4	case	_	_
+6	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+7	compte	compter	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+8	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+9	monsieur	monsieur	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	conj	_	_
+10	X	X	NOUN	_	NOUN___	13	amod	_	_
+11	vous	se	PRON	_	PRON__Number=Plur|Person=2	13	iobj	_	_
+12	réclame	réclamer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+14	différence	différence	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obj	_	_
+15	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#De votre côté n'ayant endossé aucun chèque, la seule manière de justifier cette somme dans votre compte est de penser que monsieur X  a effectué un virement comme promis.
+1	De	De	ADP	_	ADP___	1	case	_	_
+2	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+3	côté	côté	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+4	n'	ne	ADV	_	ADV___	6	advmod	_	_
+5	ayant	avoir	AUX	_	AUX__Tense=Pres|VerbForm=Part	4	aux	_	_
+6	endossé	endosser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+7	aucun	aucun	DET	_	DET__Gender=Masc|Number=Sing	13	det	_	_
+8	chèque	chèque	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+9	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+11	seule	seul	ADJ	_	ADJ__Gender=Fem|Number=Sing	13	amod	_	_
+12	manière	manière	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nsubj	_	_
+13	de	de	ADP	_	ADP___	6	mark	_	_
+14	justifier	justifier	VERB	_	VERB__VerbForm=Inf	13	acl	_	_
+15	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+16	somme	sommer	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	obj	_	_
+17	dans	dan	ADP	_	ADP___	21	case	_	_
+18	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	19	nmod:poss	_	_
+19	compte	compter	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obl	_	_
+20	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	de	de	ADP	_	ADP___	26	mark	_	_
+22	penser	penser	VERB	_	VERB__VerbForm=Inf	21	conj	_	_
+23	que	que	SCONJ	_	SCONJ___	22	mark	_	_
+24	monsieur	monsieur	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	nsubj	_	_
+25	X	X	NOUN	_	NOUN___	26	amod	_	_
+26	 	 	SPACE	_		26		_	_
+27	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+28	effectué	effectuer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	ccomp	_	_
+29	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+30	virement	virement	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	obj	_	_
+31	comme	comme	ADP	_	ADP___	32	mark	_	_
+32	promis	promettre	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Card	26	advcl	_	_
+33	.	.	PUNCT	_	PUNCT___	35	punct	_	_
+
+
+#voilà pourquoi dans ma tête je pensais qu'il s'agit d'un virement
+1	voilà	voilà	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+2	pourquoi	pourquoi	ADV	_	ADV___	1	obj	_	_
+3	dans	dan	ADP	_	ADP___	1	case	_	_
+4	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	6	nmod:poss	_	_
+5	tête	tête	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obl	_	_
+6	je	il	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+7	pensais	penser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+8	qu'	que	SCONJ	_	SCONJ___	13	mark	_	_
+9	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	13	nsubj	_	_
+10	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	13	expl	_	_
+11	agit	agir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	ccomp	_	_
+12	d'	de	ADP	_	ADP___	13	case	_	_
+13	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+14	virement	virement	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+
+

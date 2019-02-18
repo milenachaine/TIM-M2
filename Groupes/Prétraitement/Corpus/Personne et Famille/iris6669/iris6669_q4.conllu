@@ -1,0 +1,76 @@
+#Bonjour,Nous avons rendu visite au notaire et une estimation des biens va être faite par celui
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+3	Nous	Nous	PRON	_	PRON__Number=Plur|Person=1	5	nsubj	_	_
+4	avons	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	rendu	rendre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+6	visite	visiter	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obj	_	_
+7	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	8	obj	_	_
+8	notaire	notaire	ADJ	_	ADJ__Number=Sing	1	nmod	_	_
+9	et	et	CCONJ	_	CCONJ___	11	cc	_	_
+10	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	estimation	estimation	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	conj	_	_
+12	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	13	det	_	_
+13	biens	bien	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	nmod	_	_
+14	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl	_	_
+15	être	être	AUX	_	AUX__VerbForm=Inf	16	aux:pass	_	_
+16	faite	fait	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	14	xcomp	_	_
+17	par	par	ADP	_	ADP___	18	case	_	_
+18	celui	celui	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Dem	16	obl	_	_
+
+
+#-ciIl va donc estimer les deux maisons (valeur immobilière donc )
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	ciIl	ciIl	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Dem	5	punct	_	_
+3	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	donc	donc	ADV	_	ADV___	5	advmod	_	_
+5	estimer	estimer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+6	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+7	deux	deux	NUM	_	NUM__NumType=Card	8	nummod	_	_
+8	maisons	maison	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	obj	_	_
+9	(	(	PUNCT	_	PUNCT___	11	punct	_	_
+10	valeur	valeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	appos	_	_
+11	immobilière	immobilier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	amod	_	_
+12	donc	donc	ADV	_	ADV___	13	advmod	_	_
+13	)	)	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Les véhicules également (carte grise déjà fourni)Par contre, va t-il estimer le mobilier également ?
+1	Les	Les	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+2	véhicules	véhiculer	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	nsubj	_	_
+3	également	également	ADV	_	ADV___	5	advmod	_	_
+4	(	(	PUNCT	_	PUNCT___	5	punct	_	_
+5	carte	carte	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	appos	_	_
+6	grise	griser	ADJ	_	ADJ__Gender=Fem|Number=Sing	5	amod	_	_
+7	déjà	déjà	ADV	_	ADV___	8	advmod	_	_
+8	fourni)Par	fourni)Par	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+9	contre	contrer	ADP	_	ADP___	11	fixed	_	_
+10	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+11	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+12	t-il	t-il	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	aux	_	_
+13	estimer	estimer	VERB	_	VERB__VerbForm=Inf	11	xcomp	_	_
+14	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+15	mobilier	mobilier	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obj	_	_
+16	également	également	ADV	_	ADV___	14	amod	_	_
+17	?	?	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#(meubles, outillage de jardinerie , motoculteur par exemple, outillage électrique, électroménager etc)Merci
+1	(	(	PUNCT	_	PUNCT___	1	punct	_	_
+2	meubles	meubler	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+3	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+4	outillage	outillage	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	conj	_	_
+5	de	de	ADP	_	ADP___	1	case	_	_
+6	jardinerie	jardinerie	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+7	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+8	motoculteur	motoculteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	conj	_	_
+9	par	par	ADP	_	ADP___	11	case	_	_
+10	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+11	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+12	outillage	outillage	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	conj	_	_
+13	électrique	électrique	ADJ	_	ADJ__Number=Sing	11	amod	_	_
+14	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+15	électroménager	électroménager	VERB	_	VERB__VerbForm=Inf	16	conj	_	_
+16	etc)Merci	etc)Merci	ADP	_	ADP___	14	xcomp	_	_
+
+

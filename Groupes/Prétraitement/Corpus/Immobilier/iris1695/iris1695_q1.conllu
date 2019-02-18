@@ -1,0 +1,193 @@
+#Bonjour,Je suis propriétaire d'un appartement dans un immeuble parisien ancien en copropriété.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Je	Je	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+4	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	1	nmod	_	_
+6	d'	de	ADP	_	ADP___	8	case	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+9	dans	dan	ADP	_	ADP___	11	case	_	_
+10	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	immeuble	immeuble	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+12	parisien	parisien	ADJ	_	ADJ__Gender=Masc|Number=Sing	11	amod	_	_
+13	ancien	ancien	ADJ	_	ADJ__Gender=Masc|Number=Sing	11	amod	_	_
+14	en	en	ADP	_	ADP___	15	case	_	_
+15	copropriété	copropriété	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obl	_	_
+16	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Dans ma salle de bain (en travaux), il existe un mur en biais qui correspond à un placard chez le voisin et qui n'apparait pas sur le cadastre.
+1	Dans	Dans	ADP	_	ADP___	1	case	_	_
+2	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	1	nmod:poss	_	_
+3	salle	salle	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obl	_	_
+4	de	de	ADP	_	ADP___	5	case	_	_
+5	bain	bain	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+6	(	(	PUNCT	_	PUNCT___	8	punct	_	_
+7	en	en	ADP	_	ADP___	8	case	_	_
+8	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	nmod	_	_
+9	)	)	PUNCT	_	PUNCT___	11	punct	_	_
+10	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+11	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+12	existe	exister	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+13	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+14	mur	mur	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obj	_	_
+15	en	en	ADP	_	ADP___	13	mark	_	_
+16	biais	biais	NOUN	_	NOUN__Gender=Masc	1	fixed	_	_
+17	qui	qui	PRON	_	PRON__PronType=Rel	19	nsubj	_	_
+18	correspond	correspondre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	advcl	_	_
+19	à	à	ADP	_	ADP___	28	case	_	_
+20	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	placard	placard	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obl	_	_
+22	chez	chez	ADP	_	ADP___	19	case	_	_
+23	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	voisin	voisin	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obl	_	_
+25	et	et	CCONJ	_	CCONJ___	19	cc	_	_
+26	qui	qui	PRON	_	PRON__PronType=Rel	28	nsubj	_	_
+27	n'	ne	ADV	_	ADV__Polarity=Neg	28	advmod	_	_
+28	apparait	apparait	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	conj	_	_
+29	pas	pas	ADV	_	ADV__Polarity=Neg	30	advmod	_	_
+30	sur	sur	ADP	_	ADP___	28	case	_	_
+31	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+32	cadastre	cadastre	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	obl	_	_
+33	.	.	PUNCT	_	PUNCT___	34	punct	_	_
+
+
+#Je souhaiterais racheter ce placard, d'une surface au maximum de 1m2 afin de faciliter l'aménagement de ma salle de bain.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	souhaiterais	souhaiter	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	racheter	racheter	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	placard	placard	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+6	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+7	d'	de	ADP	_	ADP___	8	case	_	_
+8	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+9	surface	surface	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obl	_	_
+10	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	11	case	_	_
+11	maximum	maximum	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+12	de	de	ADP	_	ADP___	11	case	_	_
+13	1m2	1m2	PRON	_	PRON__NumType=Card|PronType=Rel	11	nmod	_	_
+14	afin	afin	ADP	_	ADP___	15	mark	_	_
+15	de	de	ADP	_	ADP___	13	fixed	_	_
+16	faciliter	faciliter	VERB	_	VERB__VerbForm=Inf	1	advcl	_	_
+17	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+18	aménagement	aménagement	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obj	_	_
+19	de	de	ADP	_	ADP___	28	case	_	_
+20	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	21	nmod:poss	_	_
+21	salle	salle	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	nmod	_	_
+22	de	de	ADP	_	ADP___	19	case	_	_
+23	bain	bain	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	nmod	_	_
+24	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Est
+1	Est	Est	ADV	_	ADV___	0	ROOT	_	_
+
+
+#-ce que c'est possible ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	ce	ce	PRON	_	PRON__PronType=Rel	0	ROOT	_	_
+3	que	que	PRON	_	PRON__PronType=Rel	5	obj	_	_
+4	c'	ce	PRON	_	PRON__Number=Sing|Person=3	5	nsubj	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+6	possible	possible	ADJ	_	ADJ__Number=Sing	8	acl:relcl	_	_
+7	?	?	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Doit-on passer chez un notaire et une procédure classique d'achat ?
+1	Doit	Doit	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+2	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+3	on	on	PRON	_	PRON__Number=Sing|Person=3	5	nsubj	_	_
+4	passer	prendre	VERB	_	VERB__VerbForm=Part	0	ROOT	_	_
+5	chez	chez	ADP	_	ADP___	1	case	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	notaire	notaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+8	et	et	CCONJ	_	CCONJ___	5	cc	_	_
+9	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	procédure	procédure	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	conj	_	_
+11	classique	classique	ADJ	_	ADJ__Gender=Fem|Number=Sing	5	amod	_	_
+12	d'	de	ADP	_	ADP___	11	case	_	_
+13	achat	achat	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+14	?	?	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Ou est-ce qu'une procédure "amiable sans rédaction d'acte de vente" peut s'envisager ?
+1	Ou	Ou	CCONJ	_	CCONJ___	1	cc	_	_
+2	est	être		_	VERB	1	cop	_	_
+3	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	5	nsubj	_	_
+4	qu'	que	ADV	_	ADV___	5	mark	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+6	procédure	procédure	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nsubj	_	_
+7	"	"	PUNCT	_	PUNCT___	8	punct	_	_
+8	amiable	amiable	ADJ	_	ADJ__Number=Sing	5	amod	_	_
+9	sans	sans	ADP	_	ADP___	11	case	_	_
+10	rédaction	rédaction	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+11	d'	de	ADP	_	ADP___	5	case	_	_
+12	acte	acte	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+13	de	de	ADP	_	ADP___	11	case	_	_
+14	vente	venter	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	nmod	_	_
+15	"	"	PUNCT	_	PUNCT___	13	punct	_	_
+16	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+17	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	19	expl	_	_
+18	envisager	envisager	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+19	?	?	PUNCT	_	PUNCT___	28	punct	_	_
+20	 	 	SPACE	_		21		_	_
+
+
+#Avez-
+1	Avez	Avez	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+2	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#vous une idée d'un prix d'achat (prix au m2 parisien ?
+1	vous	se	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+2	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+3	idée	idée	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nsubj	_	_
+4	d'	de	ADP	_	ADP___	5	case	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+6	prix	prix	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+7	d'	de	ADP	_	ADP___	8	case	_	_
+8	achat	achat	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+9	(	(	PUNCT	_	PUNCT___	11	punct	_	_
+10	prix	prix	NOUN	_	NOUN__Gender=Masc	11	nsubj	_	_
+11	au	au	PRON	_	PRON__PronType=Rel	5	det	_	_
+12	m2	m2	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+13	parisien	parisien	ADJ	_	ADJ__Gender=Masc|Number=Sing	11	amod	_	_
+14	?	?	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#) ?
+1	)	)	PUNCT	_	PUNCT___	0	ROOT	_	_
+2	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Est-ce que le fait que ce placard n'apparaisse sur aucun plan est "normal" ?
+1	Est	être		_	VERB	0	ROOT	_	_
+2	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	1	amod	_	_
+3	que	que	SCONJ	_	SCONJ___	5	mark	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+6	que	que	SCONJ	_	SCONJ___	8	mark	_	_
+7	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	placard	placard	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+9	n'	ne	ADV	_	ADV___	11	advmod	_	_
+10	apparaisse	apparaître	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+11	sur	sur	ADP	_	ADP___	5	case	_	_
+12	aucun	aucun	DET	_	DET__Gender=Masc|Number=Sing	11	det	_	_
+13	plan	plan	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obl	_	_
+14	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	"	"	PUNCT	_	PUNCT___	13	punct	_	_
+16	normal	normal	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	acl:relcl	_	_
+17	"	"	PUNCT	_	PUNCT___	19	punct	_	_
+18	?	?	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Merci pour vos avis éclairés !
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	pour	pour	ADP	_	ADP___	1	case	_	_
+3	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	5	nmod:poss	_	_
+4	avis	avis	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+5	éclairés	éclairer	ADJ	_	ADJ__Gender=Masc|Number=Plur	1	acl	_	_
+6	!	!	PUNCT	_	PUNCT___	8	punct	_	_
+
+

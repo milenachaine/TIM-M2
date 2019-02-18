@@ -1,0 +1,333 @@
+#Bonjour,Mon ami a reçu ça aujourd'hui...
+1	Bonjour	Bonjour	PROPN	_	PROPN___	6	mark	_	_
+2	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+3	Mon	Mon	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+4	ami	ami	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nsubj	_	_
+5	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	reçu	recevoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+7	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	obj	_	_
+8	aujourd'	aujourd'	ADP	_	ADP___	7	advmod	_	_
+9	hui	hui	NOUN	_	NOUN___	8	fixed	_	_
+10	...	...	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Pouvez
+1	Pouvez	Pouvez	ADJ	_	ADJ__Gender=Fem|Number=Plur	0	ROOT	_	_
+
+
+#-vous m'éclairer ?
+1	-	-	PUNCT	_	PUNCT___	6	punct	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	6	nsubj	_	_
+3	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	4	expl	_	_
+4	éclairer	éclairer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	?	?	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Sachant qu'il était dans le logement de janv. 14 à août 14.Facture
+1	Sachant	Sachant	VERB	_	VERB__Tense=Pres|VerbForm=Part	0	ROOT	_	_
+2	qu'	que	SCONJ	_	SCONJ___	6	mark	_	_
+3	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+4	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+5	dans	dan	ADP	_	ADP___	6	case	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+7	logement	logement	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	ccomp	_	_
+8	de	de	ADP	_	ADP___	7	case	_	_
+9	janv.	janvier	VERB	_	VERB__VerbForm=Inf	8	nmod	_	_
+10	14	14	NUM	_	NUM__NumType=Card	6	nummod	_	_
+11	à	à	ADP	_	ADP___	11	case	_	_
+12	août	août	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obl	_	_
+13	14.Facture	14.Facture	NUM	_	NUM__NumType=Card	15	amod	_	_
+
+
+#1 datée du 18/8/15 sur la période : 31/12/14 à 30/06/15Facture 2 datée du 2/3/15 sur la période :
+1	1	1	NUM	_	NUM__NumType=Card	6	nummod	_	_
+2	datée	dater	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+3	du	du	DET	_	DET__Gender=Masc|Number=Sing	4	det	_	_
+4	18/8/15	18/8/15	PRON	_	PRON__NumType=Card|PronType=Rel	6	obj	_	_
+5	sur	sur	ADP	_	ADP___	6	case	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+7	période	période	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obl	_	_
+8	:	:	PUNCT	_	PUNCT___	7	punct	_	_
+9	31/12/14	31/12/14	NUM	_	NUM__NumType=Card	8	acl	_	_
+10	à	à	ADP	_	ADP___	6	case	_	_
+11	30/06/15Facture	30/06/15Facture	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+12	2	2	NUM	_	NUM__NumType=Card	15	nummod	_	_
+13	datée	dater	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	xcomp	_	_
+14	du	du	DET	_	DET__Gender=Masc|Number=Sing	15	det	_	_
+15	2/3/15	2/3/15	PRON	_	PRON__NumType=Card|PronType=Rel	15	obl	_	_
+16	sur	sur	ADP	_	ADP___	15	case	_	_
+17	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+18	période	période	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	obl	_	_
+19	:	:	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#2/1/14 à 30/6/14Facture 3 datée du 16/2/15 sur la période : 30/6/14 à 31/12/14La personne qui a envoyé le mail en quote a joint une demande de transfert d'abonnement que mon ami a signé en entrant dans le logement.
+1	2/1/14	2/1/14	NUM	_	NUM__NumType=Card	6	nummod	_	_
+2	à	à	ADP	_	ADP___	6	case	_	_
+3	30/6/14Facture	30/6/14Facture	NUM	_	NUM__NumType=Card	4	nmod	_	_
+4	3	3	NUM	_	NUM__NumType=Card	6	nummod	_	_
+5	datée	dater	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+6	du	du	DET	_	DET__Gender=Masc|Number=Sing	6	det	_	_
+7	16/2/15	16/2/15	PRON	_	PRON__NumType=Card|PronType=Rel	6	obj	_	_
+8	sur	sur	ADP	_	ADP___	7	case	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+10	période	période	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obl	_	_
+11	:	:	PUNCT	_	PUNCT___	11	punct	_	_
+12	30/6/14	30/6/14	NOUN	_	NOUN__NumType=Card	15	nmod	_	_
+13	à	à	ADP	_	ADP___	15	case	_	_
+14	31/12/14La	31/12/14La	NUM	_	NUM__NumType=Card	15	det	_	_
+15	personne	personne	NOUN	_	NOUN__Number=Sing	15	nmod	_	_
+16	qui	qui	PRON	_	PRON__PronType=Rel	15	nsubj	_	_
+17	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+18	envoyé	envoyer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	acl:relcl	_	_
+19	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+20	mail	mail	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	obj	_	_
+21	en	en	ADP	_	ADP___	23	mark	_	_
+22	quote	quote	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	fixed	_	_
+23	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+24	joint	joindre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	advcl	_	_
+25	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+26	demande	demander	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	obj	_	_
+27	de	de	ADP	_	ADP___	28	case	_	_
+28	transfert	transfert	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	nmod	_	_
+29	d'	de	ADP	_	ADP___	28	case	_	_
+30	abonnement	abonnement	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	nmod	_	_
+31	que	que	SCONJ	_	SCONJ___	31	mark	_	_
+32	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	33	nmod:poss	_	_
+33	ami	ami	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	nsubj	_	_
+34	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
+35	signé	signer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	36	advcl	_	_
+36	en	en	ADP	_	ADP___	31	mark	_	_
+37	entrant	entrer	VERB	_	VERB__Tense=Pres|VerbForm=Part	31	xcomp	_	_
+38	dans	dan	ADP	_	ADP___	31	case	_	_
+39	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	logement	logement	NOUN	_	NOUN__Gender=Masc|Number=Sing	38	obl	_	_
+41	.	.	PUNCT	_	PUNCT___	40	punct	_	_
+
+
+#Du coup il semble dire que la signature de ce document annule la prescription ?
+1	Du	Du	DET	_	DET__Gender=Masc|Number=Sing	6	det	_	_
+2	coup	coup	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nsubj	_	_
+3	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+4	semble	sembler	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	dire	dire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+6	que	que	SCONJ	_	SCONJ___	6	mark	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+8	signature	signature	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	ccomp	_	_
+9	de	de	ADP	_	ADP___	8	case	_	_
+10	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+11	document	document	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+12	annule	annuler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	amod	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	prescription	prescription	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obj	_	_
+15	?	?	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Apriori mon ami me dit qu'en 2015, quand il a pu récupérer son dépôt de garantie, l'ancien propriétaire a envoyé les dites factures à notre adresse.
+1	Apriori	Apriori	X	_	X___	6	acl	_	_
+2	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+3	ami	ami	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obj	_	_
+4	me	se	PRON	_	PRON__Number=Sing|Person=1	6	iobj	_	_
+5	dit	dire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	qu'	que	SCONJ	_	SCONJ___	6	mark	_	_
+7	en	en	ADP	_	ADP___	6	case	_	_
+8	2015	2015	NUM	_	NUM__NumType=Card	7	nummod	_	_
+9	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+10	quand	quand	SCONJ	_	SCONJ___	6	mark	_	_
+11	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	11	nsubj	_	_
+12	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+13	pu	pouvoir	AUX	_	AUX__Tense=Past|VerbForm=Part	15	aux	_	_
+14	récupérer	récupérer	VERB	_	VERB__VerbForm=Part	15	ccomp	_	_
+15	son	son	DET	_	DET__Number=Sing|Poss=Yes	15	nmod:poss	_	_
+16	dépôt	dépôt	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obj	_	_
+17	de	de	ADP	_	ADP___	17	case	_	_
+18	garantie	garantir	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	nmod	_	_
+19	,	,	PUNCT	_	PUNCT___	23	punct	_	_
+20	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+21	ancien	ancien	ADJ	_	ADJ__Gender=Masc|Number=Sing	23	amod	_	_
+22	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	23	nsubj	_	_
+23	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+24	envoyé	envoyer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	conj	_	_
+25	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	23	det	_	_
+26	dites	dit	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	23	amod	_	_
+27	factures	facturer	NOUN	_	NOUN__Gender=Fem|Number=Plur	28	obj	_	_
+28	à	à	ADP	_	ADP___	26	mark	_	_
+29	notre	notre	DET	_	DET__Number=Sing|Poss=Yes	28	nmod:poss	_	_
+30	adresse	adresser	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	obl	_	_
+31	.	.	PUNCT	_	PUNCT___	31	punct	_	_
+
+
+#Sur conseil de l'huissier qui s'était chargé de leur affaire, il avait renvoyé un courrier en RAR en disant qu'il s'était renseigné à son départ auprès du service des eaux, que ce n'était pas au locataire mais au propriétaire de régler ces factures, et que certaines ne concernaient même pas les périodes où il résidait dans le logement.
+1	Sur	Sur	ADP	_	ADP___	6	case	_	_
+2	conseil	conseil	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obl	_	_
+3	de	de	ADP	_	ADP___	4	case	_	_
+4	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+5	huissier	huissier	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nmod	_	_
+6	qui	qui	PRON	_	PRON__PronType=Rel	6	nsubj	_	_
+7	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	6	expl	_	_
+8	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+9	chargé	charger	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+10	de	de	ADP	_	ADP___	6	case	_	_
+11	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	11	nmod:poss	_	_
+12	affaire	affairer	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obl	_	_
+13	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+14	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	15	nsubj	_	_
+15	avait	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	aux	_	_
+16	renvoyé	renvoyer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+17	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+18	courrier	courrier	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	obj	_	_
+19	en	en	ADP	_	ADP___	23	case	_	_
+20	RAR	RAR	PROPN	_	PROPN___	23	obl	_	_
+21	en	en	ADP	_	ADP___	23	mark	_	_
+22	disant	dire	VERB	_	VERB__Tense=Pres|VerbForm=Part	23	advcl	_	_
+23	qu'	que	SCONJ	_	SCONJ___	17	mark	_	_
+24	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	25	nsubj	_	_
+25	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	23	expl	_	_
+26	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	aux	_	_
+27	renseigné	renseigner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	28	ccomp	_	_
+28	à	à	ADP	_	ADP___	26	case	_	_
+29	son	son	DET	_	DET__Number=Sing|Poss=Yes	28	nmod:poss	_	_
+30	départ	départir	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	obl	_	_
+31	auprès	auprès	ADP	_	ADP___	31	case	_	_
+32	du	du	DET	_	DET__Gender=Masc|Number=Sing	33	det	_	_
+33	service	service	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	obl	_	_
+34	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	36	det	_	_
+35	eaux	eau	NOUN	_	NOUN__Gender=Fem|Number=Plur	36	nmod	_	_
+36	,	,	PUNCT	_	PUNCT___	31	punct	_	_
+37	que	que	SCONJ	_	SCONJ___	31	advmod	_	_
+38	ce	ce	PRON	_	PRON__Number=Sing|Person=3	31	fixed	_	_
+39	n'	ne	ADV	_	ADV__Polarity=Neg	40	advmod	_	_
+40	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	38	cop	_	_
+41	pas	pas	ADV	_	ADV__Polarity=Neg	40	advmod	_	_
+42	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	38	fixed	_	_
+43	locataire	locataire	NOUN	_	NOUN__Gender=Fem|Number=Sing	44	amod	_	_
+44	mais	mai	CCONJ	_	CCONJ___	42	cc	_	_
+45	au	au	PRON	_	PRON__PronType=Rel	47	det	_	_
+46	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	47	conj	_	_
+47	de	de	ADP	_	ADP___	42	mark	_	_
+48	régler	régler	VERB	_	VERB__VerbForm=Inf	38	acl	_	_
+49	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	53	det	_	_
+50	factures	facturer	NOUN	_	NOUN__Gender=Fem|Number=Plur	51	obj	_	_
+51	,	,	PUNCT	_	PUNCT___	49	punct	_	_
+52	et	et	CCONJ	_	CCONJ___	51	cc	_	_
+53	que	que	SCONJ	_	SCONJ___	53	mark	_	_
+54	certaines	certains	DET	_	DET__Gender=Fem|Number=Plur	55	nsubj	_	_
+55	ne	ne	ADV	_	ADV___	53	advmod	_	_
+56	concernaient	concerner	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	58	conj	_	_
+57	même	même	ADV	_	ADV___	58	advmod	_	_
+58	pas	pas	ADV	_	ADV__Polarity=Neg	53	advmod	_	_
+59	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	53	det	_	_
+60	périodes	période	NOUN	_	NOUN__Gender=Fem|Number=Plur	53	obj	_	_
+61	où	où	PRON	_	PRON__PronType=Rel	63	iobj	_	_
+62	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	63	nsubj	_	_
+63	résidait	résider	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	60	acl:relcl	_	_
+64	dans	dan	ADP	_	ADP___	66	case	_	_
+65	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	66	det	_	_
+66	logement	logement	NOUN	_	NOUN__Gender=Masc|Number=Sing	63	obl	_	_
+67	.	.	PUNCT	_	PUNCT___	68	punct	_	_
+
+
+#Du coup, si le propriétaire a envoyé ces documents, cela annule-t-
+1	Du	Du	DET	_	DET__Gender=Masc|Number=Sing	6	det	_	_
+2	coup	coup	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obl	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	si	si	SCONJ	_	SCONJ___	6	mark	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	6	nsubj	_	_
+7	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+8	envoyé	envoyer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+9	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	8	det	_	_
+10	documents	document	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	obj	_	_
+11	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+12	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	15	nsubj	_	_
+13	annule	annuler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	parataxis	_	_
+14	-	-	PUNCT	_	PUNCT___	15	punct	_	_
+15	t	t	NOUN	_	NOUN__Gender=Fem|Number=Plur	15	obl	_	_
+16	-	-	PUNCT	_	PUNCT___	15	fixed	_	_
+
+
+#il la prescription ?
+1	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	6	case	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+3	prescription	prescription	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	?	?	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Est-ce que le silence qui a suivi notre réponse par RAR (silence de trois ans quand même) peut "plaider en notre faveur" ?
+1	Est	être		_	VERB	6	nsubj	_	_
+2	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	6	amod	_	_
+3	que	que	SCONJ	_	SCONJ___	4	mark	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	silence	silence	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	dep	_	_
+6	qui	qui	PRON	_	PRON__PronType=Rel	6	nsubj	_	_
+7	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+8	suivi	suivre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+9	notre	notre	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+10	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obj	_	_
+11	par	par	ADP	_	ADP___	11	case	_	_
+12	RAR	RAR	PROPN	_	PROPN___	15	nmod	_	_
+13	(	(	PUNCT	_	PUNCT___	15	punct	_	_
+14	silence	silence	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	appos	_	_
+15	de	de	ADP	_	ADP___	15	case	_	_
+16	trois	trois	NUM	_	NUM__NumType=Card	15	nummod	_	_
+17	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	17	nmod	_	_
+18	quand	quand	SCONJ	_	SCONJ___	23	advmod	_	_
+19	même	même	ADV	_	ADV___	23	fixed	_	_
+20	)	)	PUNCT	_	PUNCT___	23	punct	_	_
+21	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+22	"	"	PUNCT	_	PUNCT___	23	punct	_	_
+23	plaider	plaider	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+24	en	en	ADP	_	ADP___	25	case	_	_
+25	notre	notre	DET	_	DET__Number=Sing|Poss=Yes	23	nmod:poss	_	_
+26	faveur	faveur	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	obl	_	_
+27	"	"	PUNCT	_	PUNCT___	28	punct	_	_
+28	?	?	PUNCT	_	PUNCT___	26	punct	_	_
+
+
+#N'ayant pas eu de réponse, nous avons considéré, pour être honnête, que le propriétaire n'avait pas été content d'avoir dû restituer le DG et qu'il voulait récupérer des sous où il pouvait...Merci de votre aide
+1	N'	N'	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+2	ayant	avoir	AUX	_	AUX__Tense=Pres|VerbForm=Part	6	aux	_	_
+3	pas	pas	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+4	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	_	_
+5	de	de	DET	_	DET__Definite=Ind|Number=Sing|PronType=Art	6	det	_	_
+6	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obj	_	_
+7	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+8	nous	se	PRON	_	PRON__Number=Plur|Person=1	7	nsubj	_	_
+9	avons	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+10	considéré	considérer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+11	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+12	pour	pour	ADP	_	ADP___	15	mark	_	_
+13	être	être	AUX	_	AUX__VerbForm=Inf	15	cop	_	_
+14	honnête	honnête	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obl	_	_
+15	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+16	que	que	SCONJ	_	SCONJ___	15	mark	_	_
+17	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+18	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	23	nsubj	_	_
+19	n'	ne	ADV	_	ADV__Polarity=Neg	23	advmod	_	_
+20	avait	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	aux	_	_
+21	pas	pas	ADV	_	ADV__Polarity=Neg	23	advmod	_	_
+22	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	23	cop	_	_
+23	content	conter	ADV	_	ADV___	17	ccomp	_	_
+24	d'	de	ADP	_	ADP___	25	mark	_	_
+25	avoir	avoir	AUX	_	AUX__VerbForm=Inf	23	aux	_	_
+26	dû	devoir	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	aux	_	_
+27	restituer	restituer	VERB	_	VERB__VerbForm=Inf	28	xcomp	_	_
+28	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+29	DG	DG	PROPN	_	PROPN___	28	obj	_	_
+30	et	et	CCONJ	_	CCONJ___	31	cc	_	_
+31	qu'	que	SCONJ	_	SCONJ___	31	mark	_	_
+32	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	33	nsubj	_	_
+33	voulait	vouloir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	31	aux	_	_
+34	récupérer	récupérer	VERB	_	VERB__VerbForm=Inf	36	conj	_	_
+35	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	36	det	_	_
+36	sous	sou	NOUN	_	NOUN__Gender=Masc|Number=Plur	31	case	_	_
+37	où	où	PRON	_	PRON__PronType=Rel	31	obj	_	_
+38	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	31	nsubj	_	_
+39	pouvait	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	40	aux	_	_
+40	...	...	PUNCT	_	PUNCT___	38	punct	_	_
+41	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	40	obj	_	_
+42	de	de	ADP	_	ADP___	38	case	_	_
+43	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	44	nmod:poss	_	_
+44	aide	aider	NOUN	_	NOUN__Number=Sing	42	nmod	_	_
+
+

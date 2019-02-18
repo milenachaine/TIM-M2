@@ -1,0 +1,69 @@
+#Bonjour,Vous devez savoir si c'est toujours la même société ou bien une société différente : numéro RCS identique ou pas ?
+1	Bonjour	Bonjour	PROPN	_	PROPN___	5	acl	_	_
+2	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+3	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	5	nsubj	_	_
+4	devez	devoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	savoir	savoir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+6	si	si	SCONJ	_	SCONJ___	12	mark	_	_
+7	c'	ce	PRON	_	PRON__Number=Sing|Person=3	12	nsubj	_	_
+8	est	être	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+9	toujours	toujours	ADV	_	ADV___	12	advmod	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	même	même	ADJ	_	ADJ__Number=Sing	12	amod	_	_
+12	société	société	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	ccomp	_	_
+13	ou	ou	CCONJ	_	CCONJ___	16	cc	_	_
+14	bien	bien	ADV	_	ADV___	13	advmod	_	_
+15	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	société	société	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	conj	_	_
+17	différente	différent	ADJ	_	ADJ__Gender=Fem|Number=Sing	16	amod	_	_
+18	:	:	PUNCT	_	PUNCT___	12	punct	_	_
+19	numéro	numéro	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	appos	_	_
+20	RCS	RCS	ADP	_	ADP___	19	nmod	_	_
+21	identique	identique	ADJ	_	ADJ__Number=Sing	20	amod	_	_
+22	ou	ou	CCONJ	_	CCONJ___	23	cc	_	_
+23	pas	pas	ADV	_	ADV__Polarity=Neg	20	conj	_	_
+24	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Si c'est un numéro différent, en effet c'est illégal.
+1	Si	Si	SCONJ	_	SCONJ___	5	mark	_	_
+2	c'	ce	PRON	_	PRON__Number=Sing|Person=3	5	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	numéro	numéro	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+6	différent	différent	ADV	_	ADV___	12	advmod	_	_
+7	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+8	en	en	ADP	_	ADP___	12	advmod	_	_
+9	effet	effet	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	fixed	_	_
+10	c'	ce	PRON	_	PRON__Number=Sing|Person=3	12	nsubj:pass	_	_
+11	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	illégal	illégal	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+13	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Le mandat n'est plus valide et vous devez faire une AG pour désigner un nouveau syndic (le repreneur peut candidater)
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+2	mandat	mandat	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+3	n'	ne	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+4	est	être	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	plus	plaire	ADV	_	ADV___	5	advmod	_	_
+6	valide	valider	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+7	et	et	CCONJ	_	CCONJ___	12	cc	_	_
+8	vous	se	PRON	_	PRON__Number=Plur|Person=2	12	nsubj	_	_
+9	devez	devoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	12	aux	_	_
+10	faire	faire	VERB	_	VERB__VerbForm=Inf	12	conj	_	_
+11	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	AG	AG	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obj	_	_
+13	pour	pour	ADP	_	ADP___	16	mark	_	_
+14	désigner	désigner	VERB	_	VERB__VerbForm=Inf	13	advcl	_	_
+15	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	nouveau	nouveau	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+17	syndic	syndic	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	amod	_	_
+18	(	(	PUNCT	_	PUNCT___	12	punct	_	_
+19	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+20	repreneur	repreneur	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	nsubj	_	_
+21	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+22	candidater	candidater	VERB	_	VERB__VerbForm=Inf	23	parataxis	_	_
+23	)	)	PUNCT	_	PUNCT___	20	punct	_	_
+
+

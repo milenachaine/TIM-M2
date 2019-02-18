@@ -1,0 +1,375 @@
+#Bonjour ,Voici la situation : maison construite sur le lot voisin à 6m de la nôtre.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	5	case	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	Voici	Voici	VERB	_	VERB__Mood=Ind|VerbForm=Fin	1	conj	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+6	:	:	PUNCT	_	PUNCT___	5	punct	_	_
+7	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	acl	_	_
+8	construite	construire	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	obj	_	_
+9	sur	sur	ADP	_	ADP___	11	case	_	_
+10	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	lot	lot	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+12	voisin	voisin	ADJ	_	ADJ__Gender=Masc|Number=Sing	11	amod	_	_
+13	à	à	ADP	_	ADP___	15	case	_	_
+14	6	6	NUM	_	NUM__NumType=Card	15	nummod	_	_
+15	m	m	NOUN	_	NOUN__Gender=Masc	8	obl	_	_
+16	de	de	ADP	_	ADP___	18	case	_	_
+17	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	nôtre	nôtre	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	nmod	_	_
+19	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#A l'origine, les 2 terrains sont au même niveau.
+1	A	A	ADP	_	ADP___	5	case	_	_
+2	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	origine	origine	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+5	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+6	2	2	NUM	_	NUM__NumType=Card	5	nummod	_	_
+7	terrains	terrain	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	nsubj	_	_
+8	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+9	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	11	expl	_	_
+10	même	même	ADJ	_	ADJ__Number=Sing	11	fixed	_	_
+11	niveau	niveau	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	conj	_	_
+12	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Nos futurs voisins (ou leur constructeur qui d'ailleurs est
+1	Nos	Nos	DET	_	DET__Number=Plur|Poss=Yes	5	nmod:poss	_	_
+2	futurs	futur	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+3	voisins	voisin	ADJ	_	ADJ__Gender=Masc|Number=Plur	1	amod	_	_
+4	(	(	PUNCT	_	PUNCT___	5	punct	_	_
+5	ou	ou	CCONJ	_	CCONJ___	5	cc	_	_
+6	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+7	constructeur	constructeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	conj	_	_
+8	qui	qui	PRON	_	PRON__PronType=Rel	7	punct	_	_
+9	d'	de	ADP	_	ADP___	11	fixed	_	_
+10	ailleurs	ailleurs	NOUN	_	NOUN__Gender=Masc	11	fixed	_	_
+11	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	fixed	_	_
+
+
+#le même que le notre) décident de surélever leur maison (environ 0,8m - 1m de + que la nôtre - les 2 sont de plain pied).
+1	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	ROOT	_	_
+2	même	même	ADV	_	ADV___	3	fixed	_	_
+3	que	que	SCONJ	_	SCONJ___	1	mark	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	notre	notre	DET	_	DET__Number=Sing|Poss=Yes	5	nsubj	_	_
+6	)	)	PUNCT	_	PUNCT___	5	punct	_	_
+7	décident	décider	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	de	de	ADP	_	ADP___	7	case	_	_
+9	surélever	surélever	VERB	_	VERB__VerbForm=Inf	11	amod	_	_
+10	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	11	nmod:poss	_	_
+11	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+12	(	(	PUNCT	_	PUNCT___	11	punct	_	_
+13	environ	environ	ADV	_	ADV___	15	advmod	_	_
+14	0,8	0,8	NUM	_	NUM__NumType=Card	15	nummod	_	_
+15	m	m	NOUN	_	NOUN__Gender=Masc	8	obj	_	_
+16	-	-	PUNCT	_	PUNCT___	18	punct	_	_
+17	1	1	NUM	_	NUM__NumType=Card	18	nummod	_	_
+18	m	m	NOUN	_	NOUN__Gender=Masc	15	appos	_	_
+19	de	de	ADP	_	ADP___	5	case	_	_
+20	+	+	NOUN	_	NOUN___	22	nmod	_	_
+21	que	que	SCONJ	_	SCONJ___	22	fixed	_	_
+22	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+23	nôtre	nôtre	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	acl:relcl	_	_
+24	-	-	PUNCT	_	PUNCT___	26	punct	_	_
+25	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	26	det	_	_
+26	2	2	NUM	_	NUM__NumType=Card	30	nsubj	_	_
+27	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+28	de	de	ADP	_	ADP___	30	case	_	_
+29	plain	plain	ADJ	_	ADJ__Gender=Fem|Number=Sing	28	nummod	_	_
+30	pied	pied	ADJ	_	ADJ___	22	conj	_	_
+31	)	)	PUNCT	_	PUNCT___	22	punct	_	_
+32	.	.	PUNCT	_	PUNCT___	33	punct	_	_
+
+
+#Forcément, ils ont du rajouter de la terre pour couvrir les fondations, ce qui fait qu'on a un talus entre les 2 lots.
+1	Forcément	Forcément	ADV	_	ADV___	5	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	1	nsubj	_	_
+4	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	du	du	DET	_	DET__Gender=Masc|Number=Sing	5	obj	_	_
+6	rajouter	rajouter	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+7	de	de	ADP	_	ADP___	5	case	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+9	terre	terrer	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obl	_	_
+10	pour	pour	ADP	_	ADP___	11	mark	_	_
+11	couvrir	couvrir	VERB	_	VERB__VerbForm=Inf	8	advcl	_	_
+12	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	11	det	_	_
+13	fondations	fondation	NOUN	_	NOUN__Gender=Fem|Number=Plur	15	obj	_	_
+14	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+15	ce	ce	PRON	_	PRON__PronType=Rel	8	iobj	_	_
+16	qui	qui	PRON	_	PRON__PronType=Rel	18	nsubj	_	_
+17	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+18	qu'	que	SCONJ	_	SCONJ___	15	mark	_	_
+19	on	on	PRON	_	PRON__Number=Sing|Person=3	5	nsubj	_	_
+20	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	ccomp	_	_
+21	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	talus	talus	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	obj	_	_
+23	entre	entrer	ADP	_	ADP___	30	case	_	_
+24	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	26	det	_	_
+25	2	2	NUM	_	NUM__NumType=Card	26	nummod	_	_
+26	lots	lot	NOUN	_	NOUN__Gender=Masc|Number=Plur	30	obl	_	_
+27	.	.	PUNCT	_	PUNCT___	30	punct	_	_
+28	 	 	SPACE	_		30		_	_
+
+
+#Ils ont prévu de faire une murette  de soutenement pour séparer nos 2 terrains et nous demandent de participer aux frais.
+1	Ils	Ils	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	5	nsubj	_	_
+2	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	prévu	prévoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	de	de	ADP	_	ADP___	5	mark	_	_
+5	faire	faire	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+6	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+7	murette	murette	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obj	_	_
+8	 	 	SPACE	_		7		_	_
+9	de	de	ADP	_	ADP___	11	case	_	_
+10	soutenement	soutenement	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+11	pour	pour	ADP	_	ADP___	8	mark	_	_
+12	séparer	séparer	VERB	_	VERB__VerbForm=Inf	11	advcl	_	_
+13	nos	notre	DET	_	DET__Number=Plur|Poss=Yes	15	nmod:poss	_	_
+14	2	2	NUM	_	NUM__NumType=Card	15	nummod	_	_
+15	terrains	terrain	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obj	_	_
+16	et	et	CCONJ	_	CCONJ___	18	cc	_	_
+17	nous	se	PRON	_	PRON__Number=Plur|Person=1	18	nsubj	_	_
+18	demandent	demander	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	_
+19	de	de	ADP	_	ADP___	5	mark	_	_
+20	participer	participer	VERB	_	VERB__VerbForm=Inf	22	xcomp	_	_
+21	aux	aux	DET	_	DET__Number=Plur	22	nmod:poss	_	_
+22	frais	frai	NOUN	_	NOUN__Gender=Masc|Number=Plur	22	obj	_	_
+23	.	.	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#Or, nous n'avons jamais envisagé de faire un mur pour les clôtures entre voisins, simple grillage a été chiffré dans notre projet de construction.
+1	Or	Or	CCONJ	_	CCONJ___	5	cc	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	nous	se	PRON	_	PRON__Number=Plur|Person=1	1	nsubj	_	_
+4	n'	ne	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+5	avons	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+6	jamais	jamais	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+7	envisagé	envisager	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+8	de	de	ADP	_	ADP___	7	mark	_	_
+9	faire	faire	VERB	_	VERB__VerbForm=Inf	11	xcomp	_	_
+10	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	mur	mur	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+12	pour	pour	ADP	_	ADP___	11	case	_	_
+13	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	15	det	_	_
+14	clôtures	clôturer	NOUN	_	NOUN__Number=Plur	15	nmod	_	_
+15	entre	entrer	ADP	_	ADP___	8	case	_	_
+16	voisins	voisin	ADJ	_	ADJ__Gender=Masc|Number=Plur	18	nmod	_	_
+17	,	,	PUNCT	_	PUNCT___	18	punct	_	_
+18	simple	simple	ADJ	_	ADJ__Number=Sing	15	amod	_	_
+19	grillage	grillager	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+20	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+21	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	22	aux:pass	_	_
+22	chiffré	chiffrer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	22	advcl	_	_
+23	dans	dan	ADP	_	ADP___	30	case	_	_
+24	notre	notre	DET	_	DET__Number=Sing|Poss=Yes	26	nmod:poss	_	_
+25	projet	projet	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	obl	_	_
+26	de	de	ADP	_	ADP___	30	case	_	_
+27	construction	construction	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	nmod	_	_
+28	.	.	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#Le coût de ces 2 séparations n'étant pas le même, je me demande si je suis suis obligée d'en payer la moitié comme prétendent nos futurs voisins?
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+2	coût	coût	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+3	de	de	ADP	_	ADP___	1	case	_	_
+4	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	5	det	_	_
+5	2	2	NUM	_	NUM__NumType=Card	5	nummod	_	_
+6	séparations	séparation	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	nmod	_	_
+7	n'	ne	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+8	étant	être	AUX	_	AUX__Tense=Pres|VerbForm=Part	7	acl	_	_
+9	pas	pas	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+10	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	même	même	ADV	_	ADV___	8	obj	_	_
+12	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+13	je	il	PRON	_	PRON__Number=Sing|Person=1	15	nsubj	_	_
+14	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	15	expl	_	_
+15	demande	demander	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+16	si	si	SCONJ	_	SCONJ___	18	mark	_	_
+17	je	il	PRON	_	PRON__Number=Sing|Person=1	18	nsubj:pass	_	_
+18	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
+19	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+20	obligée	obliger	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	22	ccomp	_	_
+21	d'	de	ADP	_	ADP___	22	mark	_	_
+22	en	en	PRON	_	PRON__Person=3	22	iobj	_	_
+23	payer	payer	VERB	_	VERB__VerbForm=Inf	30	xcomp	_	_
+24	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	moitié	moitié	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	obj	_	_
+26	comme	comme	ADP	_	ADP___	30	mark	_	_
+27	prétendent	prétendre	ADV	_	ADV___	30	advcl	_	_
+28	nos	notre	DET	_	DET__Number=Plur|Poss=Yes	30	nmod:poss	_	_
+29	futurs	futur	NOUN	_	NOUN__Gender=Masc|Number=Plur	28	obj	_	_
+30	voisins	voisin	ADJ	_	ADJ__Gender=Masc|Number=Plur	22	amod	_	_
+31	?	?	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#Je me dis que c'était leur décision de faire leur maison plus haute et de rajouter de la terre sur leur terrain.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+2	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	3	expl	_	_
+3	dis	dire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	que	que	SCONJ	_	SCONJ___	5	fixed	_	_
+5	c'	ce	PRON	_	PRON__Number=Sing|Person=3	5	nsubj	_	_
+6	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+7	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+8	décision	décision	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obl	_	_
+9	de	de	ADP	_	ADP___	11	mark	_	_
+10	faire	faire	VERB	_	VERB__VerbForm=Inf	11	acl	_	_
+11	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+12	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obj	_	_
+13	plus	plaire	ADV	_	ADV___	15	advmod	_	_
+14	haute	haut	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	amod	_	_
+15	et	et	CCONJ	_	CCONJ___	8	cc	_	_
+16	de	de	ADP	_	ADP___	18	mark	_	_
+17	rajouter	rajouter	VERB	_	VERB__VerbForm=Inf	18	conj	_	_
+18	de	de	ADP	_	ADP___	15	case	_	_
+19	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+20	terre	terrer	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	obl	_	_
+21	sur	sur	ADP	_	ADP___	22	case	_	_
+22	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	22	nmod:poss	_	_
+23	terrain	terrain	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	nmod	_	_
+24	.	.	PUNCT	_	PUNCT___	26	punct	_	_
+
+
+#Pour moi, si le mur mitoyen est en même temps un mur de soutenement, c'est au propriétaire du terrain qui surplombe le terrain du voisin de supporter le surcoût (je suis prête à payer la moitié d'une simple clôture/grillage ).Est
+1	Pour	Pour	ADP	_	ADP___	5	case	_	_
+2	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	3	obl	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	si	si	SCONJ	_	SCONJ___	5	mark	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+6	mur	mur	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+7	mitoyen	mitoyen	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	amod	_	_
+8	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+9	en	en	ADP	_	ADP___	11	advmod	_	_
+10	même	même	ADJ	_	ADJ__Number=Sing	11	fixed	_	_
+11	temps	temps	NOUN	_	NOUN__Gender=Masc	8	fixed	_	_
+12	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+13	mur	mur	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	advcl	_	_
+14	de	de	ADP	_	ADP___	15	case	_	_
+15	soutenement	soutenement	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+16	,	,	PUNCT	_	PUNCT___	18	punct	_	_
+17	c'	ce	PRON	_	PRON__Number=Sing|Person=3	18	nsubj	_	_
+18	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+19	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	advmod	_	_
+20	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	0	ROOT	_	_
+21	du	du	DET	_	DET__Gender=Masc|Number=Sing	22	det	_	_
+22	terrain	terrain	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	obj	_	_
+23	qui	qui	PRON	_	PRON__PronType=Rel	30	nsubj	_	_
+24	surplombe	surplomber	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	_
+25	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	terrain	terrain	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	obj	_	_
+27	du	du	DET	_	DET__Gender=Masc|Number=Sing	30	det	_	_
+28	voisin	voisin	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	obj	_	_
+29	de	de	ADP	_	ADP___	28	mark	_	_
+30	supporter	supporter	VERB	_	VERB__VerbForm=Inf	22	advcl	_	_
+31	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+32	surcoût	surcoût	NOUN	_	NOUN__Gender=Masc|Number=Sing	33	obj	_	_
+33	(	(	PUNCT	_	PUNCT___	33	punct	_	_
+34	je	il	PRON	_	PRON__Number=Sing|Person=1	33	nsubj	_	_
+35	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	33	cop	_	_
+36	prête	prêter	ADJ	_	ADJ__Gender=Fem|Number=Sing	38	acl:relcl	_	_
+37	à	à	ADP	_	ADP___	38	mark	_	_
+38	payer	payer	VERB	_	VERB__VerbForm=Inf	33	xcomp	_	_
+39	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+40	moitié	moitié	NOUN	_	NOUN__Gender=Fem|Number=Sing	39	obj	_	_
+41	d'	de	ADP	_	ADP___	40	case	_	_
+42	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+43	simple	simple	ADJ	_	ADJ__Number=Sing	43	amod	_	_
+44	clôture	clôturer	NOUN	_	NOUN__Gender=Fem|Number=Sing	43	nmod	_	_
+45	/	/	ADP	_	ADP___	49	case	_	_
+46	grillage	grillager	NOUN	_	NOUN__Gender=Masc|Number=Sing	47	nmod	_	_
+47	)	)	PUNCT	_	PUNCT___	49	punct	_	_
+48	.Est	.Est	PUNCT	_	PUNCT___	47	punct	_	_
+
+
+#-ce que qqun d'entre vous a déjà rencontré le même problème?
+1	-	-	PUNCT	_	PUNCT___	5	punct	_	_
+2	ce	ce	PRON	_	PRON__PronType=Rel	0	ROOT	_	_
+3	que	que	PRON	_	PRON__PronType=Rel	1	mark	_	_
+4	qqun	qqun	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	acl:relcl	_	_
+5	d'	de	ADP	_	ADP___	5	mark	_	_
+6	entre	entrer	ADP	_	ADP___	5	fixed	_	_
+7	vous	se	PRON	_	PRON__Number=Plur|Person=2	5	iobj	_	_
+8	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+9	déjà	déjà	ADV	_	ADV___	11	advmod	_	_
+10	rencontré	rencontrer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+12	même	même	ADJ	_	ADJ__Number=Sing	11	amod	_	_
+13	problème	problème	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obj	_	_
+14	?	?	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Je ne veux pas que cette situation génère des problèmes avec nos futurs voisins mais je ne vois pas pourquoi j'aurais à participer aux frais de cette clôture alors que à la base (au moment où on a fait construire) ce besoin n'existait pas et il a été créé pour que LEUR projet de construction puisse fonctionner.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+2	ne	ne	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+3	veux	vouloir	ADJ	_	ADJ__Gender=Masc	0	ROOT	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+5	que	que	SCONJ	_	SCONJ___	5	mark	_	_
+6	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+7	situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nsubj	_	_
+8	génère	générer	ADJ	_	ADJ__Gender=Fem|Number=Sing	7	amod	_	_
+9	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
+10	problèmes	problème	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	nmod	_	_
+11	avec	avec	ADP	_	ADP___	8	case	_	_
+12	nos	notre	DET	_	DET__Number=Plur|Poss=Yes	11	nmod:poss	_	_
+13	futurs	futur	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	nmod	_	_
+14	voisins	voisin	ADJ	_	ADJ__Gender=Masc|Number=Plur	15	amod	_	_
+15	mais	mai	CCONJ	_	CCONJ___	8	cc	_	_
+16	je	il	PRON	_	PRON__Number=Sing|Person=1	18	nsubj	_	_
+17	ne	ne	ADV	_	ADV__Polarity=Neg	18	advmod	_	_
+18	vois	voir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	fixed	_	_
+19	pas	pas	ADV	_	ADV__Polarity=Neg	5	fixed	_	_
+20	pourquoi	pourquoi	ADV	_	ADV___	22	conj	_	_
+21	j'	il	PRON	_	PRON__Number=Sing|Person=1	22	nsubj	_	_
+22	aurais	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	ccomp	_	_
+23	à	à	ADP	_	ADP___	30	mark	_	_
+24	participer	participer	VERB	_	VERB__VerbForm=Inf	26	xcomp	_	_
+25	aux	aux	ADP	_	ADP___	26	nmod:poss	_	_
+26	frais	frai	NOUN	_	NOUN__Gender=Masc|Number=Plur	30	obj	_	_
+27	de	de	ADP	_	ADP___	30	case	_	_
+28	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	30	det	_	_
+29	clôture	clôturer	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	obl	_	_
+30	alors	alors	ADV	_	ADV___	22	advmod	_	_
+31	que	que	SCONJ	_	SCONJ___	22	fixed	_	_
+32	à	à	ADP	_	ADP___	33	case	_	_
+33	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+34	base	baser	NOUN	_	NOUN__Gender=Fem|Number=Sing	33	obl	_	_
+35	(	(	PUNCT	_	PUNCT___	33	punct	_	_
+36	au	au	NOUN	_	NOUN___	38	iobj	_	_
+37	moment	moment	NOUN	_	NOUN__Gender=Masc|Number=Sing	38	nmod	_	_
+38	où	où	PRON	_	PRON__PronType=Rel	33	iobj	_	_
+39	on	on	PRON	_	PRON__Number=Sing|Person=3	33	nsubj	_	_
+40	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	aux	_	_
+41	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	40	acl:relcl	_	_
+42	construire	construire	ADJ	_	ADJ__Number=Sing	39	xcomp	_	_
+43	)	)	PUNCT	_	PUNCT___	43	punct	_	_
+44	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	43	det	_	_
+45	besoin	besoin	NOUN	_	NOUN__Gender=Masc|Number=Sing	49	nsubj	_	_
+46	n'	ne	ADV	_	ADV__Polarity=Neg	47	advmod	_	_
+47	existait	exister	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	49	acl:relcl	_	_
+48	pas	pas	ADV	_	ADV__Polarity=Neg	47	advmod	_	_
+49	et	et	CCONJ	_	CCONJ___	43	cc	_	_
+50	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	53	nsubj:pass	_	_
+51	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	53	aux	_	_
+52	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	53	aux:pass	_	_
+53	créé	créer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	49	conj	_	_
+54	pour	pour	ADP	_	ADP___	49	mark	_	_
+55	que	que	SCONJ	_	SCONJ___	57	fixed	_	_
+56	LEUR	LEUR	DET	_	DET__Number=Sing|Poss=Yes	57	nmod:poss	_	_
+57	projet	projet	NOUN	_	NOUN__Gender=Masc|Number=Sing	49	nsubj	_	_
+58	de	de	ADP	_	ADP___	57	case	_	_
+59	construction	construction	NOUN	_	NOUN__Gender=Fem|Number=Sing	60	nmod	_	_
+60	puisse	pouvoir	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	57	aux	_	_
+61	fonctionner	fonctionner	VERB	_	VERB__VerbForm=Inf	62	advcl	_	_
+62	.	.	PUNCT	_	PUNCT___	60	punct	_	_
+
+
+#Votre avis SVP?
+1	Votre	Votre	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+2	avis	avis	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	SVP	SVP	NOUN	_	NOUN___	1	flat:name	_	_
+4	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+

@@ -1,0 +1,205 @@
+#En fait, Madame G accuse Madame K de violence sur son fils
+1	En	En	ADP	_	ADP___	6	advmod	_	_
+2	fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+4	Madame	Madame	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nsubj	_	_
+5	G	G	NOUN	_	NOUN___	4	flat:name	_	_
+6	accuse	accuser	ADJ	_	ADJ__Gender=Fem|Number=Sing	0	ROOT	_	_
+7	Madame	Madame	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obj	_	_
+8	K	K	NOUN	_	NOUN___	7	flat:name	_	_
+9	de	de	ADP	_	ADP___	10	case	_	_
+10	violence	violence	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+11	sur	sur	ADP	_	ADP___	13	case	_	_
+12	son	son	DET	_	DET__Number=Sing|Poss=Yes	13	nmod:poss	_	_
+13	fils	fil	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+
+
+#A.Elle le fait via Monsieur D : "ta femme frappe notre fils
+1	A.Elle	A.Elle	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	nsubj	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	obj	_	_
+3	fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	via	via	ADP	_	ADP___	6	case	_	_
+5	Monsieur	Monsieur	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+6	D	D	NOUN	_	NOUN___	6	nmod	_	_
+7	:	:	PUNCT	_	PUNCT___	6	punct	_	_
+8	"	"	PUNCT	_	PUNCT___	7	punct	_	_
+9	ta	ton	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	femme	femme	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+11	frappe	frapper	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl	_	_
+12	notre	notre	DET	_	DET__Number=Sing|Poss=Yes	13	nmod:poss	_	_
+13	fils	fil	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+
+
+#- il avait des bleus quand il est rentré" etc...
+1	-	-	PUNCT	_	PUNCT___	6	punct	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+3	avait	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+4	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
+5	bleus	bleu	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	obj	_	_
+6	quand	quand	SCONJ	_	SCONJ___	6	mark	_	_
+7	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+8	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+9	rentré	rentrer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	acl	_	_
+10	"	"	PUNCT	_	PUNCT___	7	punct	_	_
+11	etc	etc	ADV	_	ADV___	13	advmod	_	_
+12	...	...	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#A , probablement manipulé par sa maman, dit des phrases comme : "elle m'a tapé - elle me fait mal" etc...
+1	A	A	NOUN	_	NOUN___	6	aux	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	probablement	probablement	ADV	_	ADV___	6	advmod	_	_
+4	manipulé	manipuler	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+5	par	par	ADP	_	ADP___	4	case	_	_
+6	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	6	nmod:poss	_	_
+7	maman	maman	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obl	_	_
+8	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+9	dit	dire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+10	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
+11	phrases	phraser	NOUN	_	NOUN__Gender=Fem|Number=Plur	13	obj	_	_
+12	comme	comme	ADP	_	ADP___	13	acl	_	_
+13	:	:	PUNCT	_	PUNCT___	10	punct	_	_
+14	"	"	PUNCT	_	PUNCT___	16	punct	_	_
+15	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	16	nsubj	_	_
+16	m'	se	PRON	_	PRON__Number=Sing|Person=1	16	expl	_	_
+17	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	tapé	taper	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	ccomp	_	_
+19	-	-	PUNCT	_	PUNCT___	18	punct	_	_
+20	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	16	nsubj	_	_
+21	me	se	PRON	_	PRON__Number=Sing|Person=1	23	expl	_	_
+22	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	parataxis	_	_
+23	mal	mal	ADV	_	ADV___	16	advmod	_	_
+24	"	"	PUNCT	_	PUNCT___	23	punct	_	_
+25	etc	etc	ADV	_	ADV___	26	obj	_	_
+26	...	...	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#En parlant de Madame K.Madame G provoque aussi Madame K en l'appelant sur son portable !
+1	En	En	ADP	_	ADP___	6	case	_	_
+2	parlant	parler	VERB	_	VERB__Tense=Pres|VerbForm=Part	1	fixed	_	_
+3	de	de	ADP	_	ADP___	6	fixed	_	_
+4	Madame	Madame	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obl	_	_
+5	K.Madame	K.Madame	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+6	G	G	NOUN	_	NOUN___	6	nmod	_	_
+7	provoque	provoquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	aussi	aussi	ADV	_	ADV___	7	advmod	_	_
+9	Madame	Madame	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obj	_	_
+10	K	K	PRON	_	PRON__PronType=Rel	7	flat:name	_	_
+11	en	en	ADP	_	ADP___	13	case	_	_
+12	l'	le	PRON	_	PRON__Number=Sing|Person=3	13	det	_	_
+13	appelant	appeler	VERB	_	VERB__Tense=Pres|VerbForm=Part	10	obl	_	_
+14	sur	sur	ADP	_	ADP___	16	case	_	_
+15	son	son	DET	_	DET__Number=Sing|Poss=Yes	16	nmod:poss	_	_
+16	portable	portable	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nmod	_	_
+17	!	!	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Et avant que Madame K ne s'écarte de A, c'était de façon direct quand Madame K allait chercher A chez sa mère (ce qu'elle ne fait plus maintenant).
+1	Et	Et	CCONJ	_	CCONJ___	6	cc	_	_
+2	avant	avant	ADP	_	ADP___	1	mark	_	_
+3	que	que	SCONJ	_	SCONJ___	6	fixed	_	_
+4	Madame	Madame	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nsubj	_	_
+5	K	K	PROPN	_	PROPN___	4	flat:name	_	_
+6	ne	ne	ADV	_	ADV___	6	advmod	_	_
+7	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	6	expl	_	_
+8	écarte	écarter	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	advcl	_	_
+9	de	de	ADP	_	ADP___	10	case	_	_
+10	A	A	NOUN	_	NOUN___	7	obl	_	_
+11	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+12	c'	ce	PRON	_	PRON__Number=Sing|Person=3	13	nsubj	_	_
+13	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
+14	de	de	ADP	_	ADP___	16	case	_	_
+15	façon	façon	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+16	direct	direct	ADJ	_	ADJ__Gender=Masc|Number=Sing	16	amod	_	_
+17	quand	quand	SCONJ	_	SCONJ___	18	mark	_	_
+18	Madame	Madame	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nsubj	_	_
+19	K	K	PRON	_	PRON__PronType=Rel	18	flat:name	_	_
+20	allait	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	acl:relcl	_	_
+21	chercher	chercher	VERB	_	VERB__VerbForm=Inf	23	xcomp	_	_
+22	A	A	NOUN	_	NOUN___	23	obj	_	_
+23	chez	chez	ADP	_	ADP___	16	case	_	_
+24	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	23	nmod:poss	_	_
+25	mère	mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	obl	_	_
+26	(	(	PUNCT	_	PUNCT___	24	punct	_	_
+27	ce	ce	PRON	_	PRON__PronType=Rel	29	appos	_	_
+28	qu'	que	PRON	_	PRON__PronType=Rel	29	obj	_	_
+29	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	29	nsubj	_	_
+30	ne	ne	ADV	_	ADV__Polarity=Neg	31	advmod	_	_
+31	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	acl:relcl	_	_
+32	plus	plaire	ADV	_	ADV___	35	advmod	_	_
+33	maintenant	maintenir	ADV	_	ADV___	35	obj	_	_
+34	)	)	PUNCT	_	PUNCT___	35	punct	_	_
+35	.	.	PUNCT	_	PUNCT___	31	punct	_	_
+
+
+#Madame G appelle aussi le fixe du couple D et K...
+1	Madame	Madame	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nsubj	_	_
+2	G	G	NOUN	_	NOUN___	1	flat:name	_	_
+3	appelle	appeler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	aussi	aussi	ADV	_	ADV___	6	advmod	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	obj	_	_
+6	fixe	fixer	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	xcomp	_	_
+7	du	du	DET	_	DET__Gender=Masc|Number=Sing	6	det	_	_
+8	couple	coupler	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+9	D	D	NOUN	_	NOUN___	10	nmod	_	_
+10	et	et	CCONJ	_	CCONJ___	7	cc	_	_
+11	K	K	NOUN	_	NOUN__Number=Plur	13	conj	_	_
+12	...	...	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Quand c'est K qui décroche elle "l'enchaine" : "ca va pas se passer comme ça, tu n'as pas a frapper mon fils" etc...
+1	Quand	Quand	SCONJ	_	SCONJ___	6	mark	_	_
+2	c'	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	K	K	NOUN	_	NOUN__Number=Plur	6	advcl	_	_
+5	qui	qui	PRON	_	PRON__PronType=Rel	4	nsubj	_	_
+6	décroche	décrocher	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+7	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	"	"	PUNCT	_	PUNCT___	7	punct	_	_
+9	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	enchaine	enchaine	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+11	"	"	PUNCT	_	PUNCT___	13	punct	_	_
+12	:	:	PUNCT	_	PUNCT___	13	punct	_	_
+13	"	"	PUNCT	_	PUNCT___	10	punct	_	_
+14	ca	ca	PRON	_	PRON__PronType=Rel	16	aux	_	_
+15	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	nsubj	_	_
+16	pas	pas	ADV	_	ADV__Polarity=Neg	16	advmod	_	_
+17	se	se	PRON	_	PRON__Person=3|Reflex=Yes	18	expl	_	_
+18	passer	prendre	VERB	_	VERB__VerbForm=Part	16	advcl	_	_
+19	comme	comme	SCONJ	_	SCONJ___	18	case	_	_
+20	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	16	obl	_	_
+21	,	,	PUNCT	_	PUNCT___	23	punct	_	_
+22	tu	taire	PROPN	_	PROPN__Gender=Masc|Number=Sing	23	nsubj	_	_
+23	n'	ne	ADV	_	ADV__Polarity=Neg	16	advmod	_	_
+24	as	avoir	PRON	_	PRON__Number=Sing|Person=3	23	aux	_	_
+25	pas	pas	ADV	_	ADV___	26	advmod	_	_
+26	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+27	frapper	frapper	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+28	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	29	nmod:poss	_	_
+29	fils	fil	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	obj	_	_
+30	"	"	PUNCT	_	PUNCT___	31	punct	_	_
+31	etc	etc	ADV	_	ADV___	29	obj	_	_
+32	...	...	PUNCT	_	PUNCT___	35	punct	_	_
+
+
+#Et Madame K ne se laisse pas faire, et commence a etre à bout !!!
+1	Et	Et	CCONJ	_	CCONJ___	6	cc	_	_
+2	Madame	Madame	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+3	K	K	PROPN	_	PROPN___	6	flat:name	_	_
+4	ne	ne	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+5	se	se	PRON	_	PRON__Person=3|Reflex=Yes	4	obj	_	_
+6	laisse	laisser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	pas	pas	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+8	faire	faire	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+9	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+10	et	et	CCONJ	_	CCONJ___	7	cc	_	_
+11	commence	commencer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+12	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	etre	etre	VERB	_	VERB__VerbForm=Inf	10	parataxis	_	_
+14	à	à	ADP	_	ADP___	16	case	_	_
+15	bout	bouillir	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obl	_	_
+16	!	!	PUNCT	_	PUNCT___	16	punct	_	_
+17	!	!	PUNCT	_	PUNCT___	18	punct	_	_
+18	!	!	PUNCT	_	PUNCT___	16	punct	_	_
+
+

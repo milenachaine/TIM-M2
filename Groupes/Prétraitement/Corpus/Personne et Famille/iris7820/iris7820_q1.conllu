@@ -1,0 +1,77 @@
+#bonjour, je souhaite faire un don inférieur à 7000 euros à une personne vivant en Italie.
+1	bonjour	bonjour	NOUN	_	NOUN___	5	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+4	souhaite	souhaiter	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	faire	faire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	don	don	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+8	inférieur	inférieur	ADJ	_	ADJ__Gender=Masc|Number=Sing	7	amod	_	_
+9	à	à	ADP	_	ADP___	11	case	_	_
+10	7000	7000	NUM	_	NUM__NumType=Card	11	nummod	_	_
+11	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	nmod	_	_
+12	à	à	ADP	_	ADP___	14	case	_	_
+13	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	personne	personne	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obl	_	_
+15	vivant	vivre	VERB	_	VERB__Tense=Pres|VerbForm=Part	14	acl	_	_
+16	en	en	ADP	_	ADP___	17	case	_	_
+17	Italie	Italie	PROPN	_	PROPN__Gender=Fem|Number=Sing	15	obl	_	_
+18	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Comment puis-je faire en toute légalité ?
+1	Comment	Comment	ADV	_	ADV__PronType=Int	5	advmod	_	_
+2	puis-je	puis-je	AUX	_	AUX__Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	nsubj	_	_
+3	faire	faire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	en	en	ADP	_	ADP___	5	case	_	_
+5	toute	tout	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+6	légalité	légalité	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obl	_	_
+7	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#dois-je le déclarer au fisc ?
+1	dois	devoir	NUM	_	NUM__NumType=Card	5	aux	_	_
+2	-	-	PUNCT	_	PUNCT___	5	punct	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+4	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	obj	_	_
+5	déclarer	déclarer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+6	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	fisc	fisc	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+8	?	?	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#la personne qui va recevoir ce don doit elle le déclarer en Italie ?
+1	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+2	personne	personne	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nsubj	_	_
+3	qui	qui	PRON	_	PRON__PronType=Rel	5	nsubj	_	_
+4	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	recevoir	recevoir	VERB	_	VERB__VerbForm=Inf	5	acl:relcl	_	_
+6	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	don	don	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+8	doit	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+9	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	11	nsubj	_	_
+10	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	11	obj	_	_
+11	déclarer	déclarer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+12	en	en	ADP	_	ADP___	14	case	_	_
+13	Italie	Italie	PROPN	_	PROPN__Gender=Fem|Number=Sing	14	obl	_	_
+14	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#et va elle payer des droits ?
+1	et	et	CCONJ	_	CCONJ___	5	cc	_	_
+2	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	5	iobj	_	_
+4	payer	payer	VERB	_	VERB__VerbForm=Part	5	xcomp	_	_
+5	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
+6	droits	droit	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	obj	_	_
+7	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#merci beaucoup de vos réponses
+1	merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	beaucoup	beaucoup	ADV	_	ADV___	5	advmod	_	_
+3	de	de	ADP	_	ADP___	5	case	_	_
+4	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	5	nmod:poss	_	_
+5	réponses	réponse	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	nmod	_	_
+
+

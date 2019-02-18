@@ -1,0 +1,169 @@
+#Le pré-état daté indique des sommes, qui elles mêmes découlent des décisions d'AG.
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	pré-état	pré-état	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+3	daté	dater	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4	indique	indiquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
+6	sommes	sommer	NOUN	_	NOUN__Number=Plur	4	obj	_	_
+7	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+8	qui	qui	PRON	_	PRON__PronType=Rel	11	nsubj	_	_
+9	elles	lui	PRON	_	PRON__Gender=Fem|Number=Plur|Person=3	11	nsubj	_	_
+10	mêmes	même	ADJ	_	ADJ__Number=Plur	11	aux	_	_
+11	découlent	découler	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+12	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	13	det	_	_
+13	décisions	décision	NOUN	_	NOUN__Gender=Fem|Number=Plur	11	obj	_	_
+14	d'	de	ADP	_	ADP___	15	case	_	_
+15	AG	AG	PROPN	_	PROPN___	13	nmod	_	_
+16	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Si l'état daté indique des sommes sans correspondane avec des décisions d'AG, alors il est erroné.
+1	Si	Si	SCONJ	_	SCONJ___	2	mark	_	_
+2	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+3	état	état	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	nsubj	_	_
+4	daté	dater	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+5	indique	indiquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+6	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
+7	sommes	sommer	NOUN	_	NOUN__Number=Plur	6	obj	_	_
+8	sans	sans	ADP	_	ADP___	11	case	_	_
+9	correspondane	correspondane	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+10	avec	avec	ADP	_	ADP___	11	case	_	_
+11	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
+12	décisions	décision	NOUN	_	NOUN__Gender=Fem|Number=Plur	13	nmod	_	_
+13	d'	de	ADP	_	ADP___	11	case	_	_
+14	AG	AG	PROPN	_	PROPN___	15	nmod	_	_
+15	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+16	alors	alors	ADV	_	ADV___	4	advmod	_	_
+17	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	21	nsubj	_	_
+18	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	erroné	erroné	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+20	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Non, je dis pas ça.
+1	Non	Non	ADV	_	ADV___	2	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	2	nsubj	_	_
+4	dis	dire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	6	fixed	_	_
+6	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	0	ROOT	_	_
+7	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Vous pouvez voter des travaux sans devis, et si personne ne conteste la décision devant le tribunal dans les deux mois c'est bon.
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	2	nsubj	_	_
+2	pouvez	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	voter	voter	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
+5	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	obj	_	_
+6	sans	sans	ADP	_	ADP___	4	case	_	_
+7	devis	devis	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obl	_	_
+8	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+9	et	et	CCONJ	_	CCONJ___	11	cc	_	_
+10	si	si	SCONJ	_	SCONJ___	11	mark	_	_
+11	personne	personne	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+12	ne	ne	ADV	_	ADV___	13	advmod	_	_
+13	conteste	contester	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	décision	décision	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obj	_	_
+16	devant	devoir	ADP	_	ADP___	4	case	_	_
+17	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+18	tribunal	tribunal	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	nmod	_	_
+19	dans	dan	ADP	_	ADP___	21	case	_	_
+20	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	19	det	_	_
+21	deux	deux	NUM	_	NUM__NumType=Card	35	nummod	_	_
+22	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	23	obl	_	_
+23	c'	ce	PRON	_	PRON__Number=Sing|Person=3	21	nsubj	_	_
+24	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+25	bon	bon	ADJ	_	ADJ__Gender=Masc|Number=Sing	23	acl	_	_
+26	.	.	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#Par contre le syndic ne PEUT PAS appeler une somme de provisions qui n'ait pas été décidée par l'AG.
+1	Par	Par	ADP	_	ADP___	2	case	_	_
+2	contre	contrer	ADP	_	ADP___	4	fixed	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+4	syndic	syndic	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	ne	ne	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+6	PEUT	PEUT	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+7	PAS	PAS	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+8	appeler	appeler	VERB	_	VERB__VerbForm=Inf	11	acl	_	_
+9	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	somme	sommer	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obj	_	_
+11	de	de	ADP	_	ADP___	6	case	_	_
+12	provisions	provision	NOUN	_	NOUN__Gender=Fem|Number=Plur	13	nmod	_	_
+13	qui	qui	PRON	_	PRON__PronType=Rel	11	nsubj:pass	_	_
+14	n'	ne	ADV	_	ADV__Polarity=Neg	15	advmod	_	_
+15	ait	avoir	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+16	pas	pas	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+17	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	21	aux:pass	_	_
+18	décidée	décider	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	19	acl:relcl	_	_
+19	par	par	ADP	_	ADP___	21	case	_	_
+20	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+21	AG	AG	PROPN	_	PROPN__Number=Sing	35	obl	_	_
+22	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Donc là vous vous noyez avec vos histoire de devis.
+1	Donc	Donc	ADV	_	ADV___	2	advmod	_	_
+2	là	là	ADV	_	ADV___	4	det	_	_
+3	vous	se	PRON	_	PRON__Number=Plur|Person=2	2	nsubj	_	_
+4	vous	se	PRON	_	PRON__Number=Plur|Person=2	4	iobj	_	_
+5	noyez	noyer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	advmod	_	_
+6	avec	avec	ADP	_	ADP___	4	case	_	_
+7	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	6	nmod:poss	_	_
+8	histoire	histoire	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+9	de	de	ADP	_	ADP___	11	case	_	_
+10	devis	devis	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+11	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Parce que moi je vois ni somme
+1	Parce	Parce	SCONJ	_	SCONJ___	2	mark	_	_
+2	que	que	SCONJ	_	SCONJ___	4	fixed	_	_
+3	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	2	fixed	_	_
+4	je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+5	vois	voir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	ni	ni	CCONJ	_	CCONJ___	4	cc	_	_
+7	somme	sommer	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+
+
+#nid'
+1	nid'	nid'	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+
+
+#appel
+1	appel	appel	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+
+
+#des provisions dans votre résolution.
+1	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	2	det	_	_
+2	provisions	provision	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+3	dans	dan	ADP	_	ADP___	2	case	_	_
+4	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+5	résolution	résolution	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+6	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+7	 	 	SPACE	_		6		_	_
+
+
+#Vous avez TOUT recopié ?
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	2	nsubj	_	_
+2	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	TOUT	TOUT	PROPN	_	PROPN___	2	amod	_	_
+4	recopié	recopier	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	?	?	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Parce que le "par exemple" m'inquiète...
+1	Parce	Parce	SCONJ	_	SCONJ___	2	mark	_	_
+2	que	que	SCONJ	_	SCONJ___	4	fixed	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+4	"	"	PUNCT	_	PUNCT___	4	nsubj	_	_
+5	par	par	ADP	_	ADP___	6	advmod	_	_
+6	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	fixed	_	_
+7	"	"	PUNCT	_	PUNCT___	6	punct	_	_
+8	m'	se	PRON	_	PRON__Number=Sing|Person=1	11	nsubj	_	_
+9	inquiète	inquiéter	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+10	...	...	PUNCT	_	PUNCT___	11	punct	_	_
+
+

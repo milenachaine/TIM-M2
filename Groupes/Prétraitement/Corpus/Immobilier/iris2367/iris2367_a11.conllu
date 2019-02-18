@@ -1,0 +1,119 @@
+#Pour faire simple à mon avis :
+1	Pour	Pour	ADP	_	ADP___	2	mark	_	_
+2	faire	faire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+3	simple	simple	ADJ	_	ADJ__Number=Sing	2	obj	_	_
+4	à	à	ADP	_	ADP___	6	case	_	_
+5	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+6	avis	avis	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	obl	_	_
+7	:	:	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#- soit vous voulez vraiment partir et donc vous  demandez à partir sans préavis quand vous aurez trouvé votre bonheur ;
+1	-	-	PUNCT	_	PUNCT___	2	punct	_	_
+2	soit	être	CCONJ	_	CCONJ___	2	cc	_	_
+3	vous	se	PRON	_	PRON__Number=Plur|Person=2	2	nsubj	_	_
+4	voulez	vouloir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	vraiment	vraiment	ADV	_	ADV___	6	advmod	_	_
+6	partir	partir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+7	et	et	CCONJ	_	CCONJ___	2	cc	_	_
+8	donc	donc	ADV	_	ADV___	11	advmod	_	_
+9	vous	se	PRON	_	PRON__Number=Plur|Person=2	11	nsubj	_	_
+10	 	 	SPACE	_		11		_	_
+11	demandez	demander	ADJ	_	ADJ__Number=Plur	13	conj	_	_
+12	à	à	ADP	_	ADP___	13	case	_	_
+13	partir	partir	VERB	_	VERB__VerbForm=Inf	13	fixed	_	_
+14	sans	sans	ADP	_	ADP___	18	fixed	_	_
+15	préavis	préavis	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obl	_	_
+16	quand	quand	SCONJ	_	SCONJ___	18	mark	_	_
+17	vous	se	PRON	_	PRON__Number=Plur|Person=2	16	nsubj	_	_
+18	aurez	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	13	advcl	_	_
+19	trouvé	trouver	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	xcomp	_	_
+20	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	19	nmod:poss	_	_
+21	bonheur	bonheur	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obj	_	_
+22	;	;	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#- soit vous n'êtes pas pressée et vous demandez à ce que  les éléments d'inconfort que vous avez repérés soient améliorés par le  bailleur, qui sentira donc que vous n'êtes pas pressée et amènera  lui-même peut-être la négociation.
+1	-	-	PUNCT	_	PUNCT___	2	punct	_	_
+2	soit	être	CCONJ	_	CCONJ___	2	aux:pass	_	_
+3	vous	se	PRON	_	PRON__Number=Plur|Person=2	2	nsubj	_	_
+4	n'	ne	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+5	êtes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	pas	pas	ADV	_	ADV__Polarity=Neg	2	advmod	_	_
+7	pressée	presser	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+8	et	et	CCONJ	_	CCONJ___	11	cc	_	_
+9	vous	se	PRON	_	PRON__Number=Plur|Person=2	11	iobj	_	_
+10	demandez	demander	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	11	conj	_	_
+11	à	à	ADP	_	ADP___	13	case	_	_
+12	ce	ce	PRON	_	PRON__PronType=Rel	13	obl	_	_
+13	que	que	PRON	_	PRON__PronType=Rel	13	mark	_	_
+14	 	 	SPACE	_		18		_	_
+15	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	14	det	_	_
+16	éléments	élément	NOUN	_	NOUN__Gender=Masc|Number=Plur	18	nsubj:pass	_	_
+17	d'	de	ADP	_	ADP___	16	case	_	_
+18	inconfort	inconfort	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+19	que	que	SCONJ	_	SCONJ___	22	mark	_	_
+20	vous	se	PRON	_	PRON__Number=Plur|Person=2	19	nsubj	_	_
+21	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	19	aux	_	_
+22	repérés	repérer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	18	acl:relcl	_	_
+23	soient	être	AUX	_	AUX__Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	aux:pass	_	_
+24	améliorés	améliorer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	25	acl	_	_
+25	par	par	ADP	_	ADP___	13	case	_	_
+26	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+27	 	 	SPACE	_		28		_	_
+28	bailleur	bailleur	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	obl	_	_
+29	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+30	qui	qui	PRON	_	PRON__PronType=Rel	36	nsubj	_	_
+31	sentira	sentir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	36	ccomp	_	_
+32	donc	donc	ADV	_	ADV___	36	advmod	_	_
+33	que	que	SCONJ	_	SCONJ___	36	mark	_	_
+34	vous	se	PRON	_	PRON__Number=Plur|Person=2	36	nsubj	_	_
+35	n'	ne	ADV	_	ADV__Polarity=Neg	36	advmod	_	_
+36	êtes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	36	aux:pass	_	_
+37	pas	pas	ADV	_	ADV__Polarity=Neg	39	advmod	_	_
+38	pressée	presser	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	39	ccomp	_	_
+39	et	et	CCONJ	_	CCONJ___	36	cc	_	_
+40	amènera	amener	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	41	conj	_	_
+41	 	 	SPACE	_		39		_	_
+42	lui-même	lui-même	PRON	_	PRON__PronType=Rel	53	advmod	_	_
+43	peut-être	peut-être	ADV	_	ADV___	42	advmod	_	_
+44	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	négociation	négociation	NOUN	_	NOUN__Gender=Fem|Number=Sing	53	obj	_	_
+46	.	.	PUNCT	_	PUNCT___	47	punct	_	_
+
+
+#En tout  cas pour une agence il peut être très pénible de vendre un bien occupé,  a fortiori quand les horaires de visites sont hors horaires de bureau.
+1	En	En	ADP	_	ADP___	2	advmod	_	_
+2	tout	tout	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	2	fixed	_	_
+3	 	 	SPACE	_		2		_	_
+4	cas	cas	NOUN	_	NOUN__Gender=Masc	6	fixed	_	_
+5	pour	pour	ADP	_	ADP___	6	case	_	_
+6	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+7	agence	agencer	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	obl	_	_
+8	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	11	nsubj	_	_
+9	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+10	être	être	AUX	_	AUX__VerbForm=Inf	11	cop	_	_
+11	très	très	ADV	_	ADV___	13	advmod	_	_
+12	pénible	pénible	ADJ	_	ADJ__Number=Sing	13	xcomp	_	_
+13	de	de	ADP	_	ADP___	13	mark	_	_
+14	vendre	vendre	VERB	_	VERB__VerbForm=Inf	18	xcomp	_	_
+15	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+16	bien	bien	ADV	_	ADV___	18	amod	_	_
+17	occupé	occuper	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	16	obj	_	_
+18	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+19	 	 	SPACE	_		22		_	_
+20	a	avoir	X	_	X___	19	advmod	_	_
+21	fortiori	fortiori	X	_	X___	19	fixed	_	_
+22	quand	quand	SCONJ	_	SCONJ___	18	mark	_	_
+23	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	25	det	_	_
+24	horaires	horaire	NOUN	_	NOUN__Gender=Masc|Number=Plur	25	nsubj	_	_
+25	de	de	ADP	_	ADP___	13	case	_	_
+26	visites	visiter	NOUN	_	NOUN__Gender=Fem|Number=Plur	25	nmod	_	_
+27	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+28	hors	hors	ADP	_	ADP___	26	case	_	_
+29	horaires	horaire	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	obl	_	_
+30	de	de	ADP	_	ADP___	36	case	_	_
+31	bureau	bureau	NOUN	_	NOUN__Gender=Masc|Number=Sing	36	nmod	_	_
+32	.	.	PUNCT	_	PUNCT___	36	punct	_	_
+
+

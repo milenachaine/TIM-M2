@@ -1,0 +1,234 @@
+#Bonjour,Mes parents ont un studio àsitué dans un petit immeuble ancien.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+3	Mes	Mes	DET	_	DET__Number=Plur|Poss=Yes	4	nmod:poss	_	_
+4	parents	parent	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	nsubj	_	_
+5	ont	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	studio	studio	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+8	àsitué	àsitué	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	case	_	_
+9	dans	dan	ADP	_	ADP___	12	case	_	_
+10	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	petit	petit	ADJ	_	ADJ__Gender=Masc|Number=Sing	12	amod	_	_
+12	immeuble	immeuble	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+13	ancien	ancien	ADJ	_	ADJ__Gender=Masc|Number=Sing	12	amod	_	_
+14	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Chaque propriétaire a un grenier indépendant.
+1	Chaque	Chaque	DET	_	DET__Number=Sing	1	det	_	_
+2	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	5	nsubj	_	_
+3	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	grenier	grenier	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+6	indépendant	indépendant	ADJ	_	ADJ__Gender=Masc|Number=Sing	7	amod	_	_
+7	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Le problème est qu'un des propriétaires occupe un grenier d'environ 12m2 qui n'est pas à lui (la propriétaire est au courant mais elle s'en fout).De plus, il a rénové ce grenier sans avertir les co-propriétaires alors qu"il n'est pas à lui et en plus qu'il est interdit de faire un logement dans un grenier (et donc d'y habiter).Puis ce personnage loue de manière saisonnière ce grenier aménagé, c'est encore interdit.
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	problème	problème	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	qu'	que	SCONJ	_	SCONJ___	5	mark	_	_
+5	un	un	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	1	det	_	_
+6	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
+7	propriétaires	propriétaire	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	nsubj	_	_
+8	occupe	occuper	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+9	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+10	grenier	grenier	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+11	d'	de	ADP	_	ADP___	12	case	_	_
+12	environ	environ	ADV	_	ADV___	1	advmod	_	_
+13	12m2	12m2	NUM	_	NUM__NumType=Card	12	nmod	_	_
+14	qui	qui	PRON	_	PRON__PronType=Rel	1	nsubj	_	_
+15	n'	ne	ADV	_	ADV__Polarity=Neg	16	advmod	_	_
+16	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	pas	pas	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+18	à	à	ADP	_	ADP___	19	case	_	_
+19	lui	luire	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	acl:relcl	_	_
+20	(	(	PUNCT	_	PUNCT___	19	punct	_	_
+21	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+22	propriétaire	propriétaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	nsubj	_	_
+23	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
+24	au	au	NOUN	_	NOUN__Number=Plur	29	advmod	_	_
+25	courant	courir	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	parataxis	_	_
+26	mais	mai	CCONJ	_	CCONJ___	28	cc	_	_
+27	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	28	nsubj	_	_
+28	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	29	expl	_	_
+29	en	en	ADP	_	ADP___	29	case	_	_
+30	fout).De	fout).De	ADV	_	ADV___	31	conj	_	_
+31	plus	plaire	ADV	_	ADV___	29	advmod	_	_
+32	,	,	PUNCT	_	PUNCT___	34	punct	_	_
+33	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	34	nsubj	_	_
+34	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
+35	rénové	rénover	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	40	parataxis	_	_
+36	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	40	det	_	_
+37	grenier	grenier	NOUN	_	NOUN__Gender=Masc|Number=Sing	40	obj	_	_
+38	sans	sans	ADP	_	ADP___	37	mark	_	_
+39	avertir	avertir	VERB	_	VERB__VerbForm=Inf	40	advcl	_	_
+40	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	34	det	_	_
+41	co-propriétaires	co-propriétaire	NOUN	_	NOUN__Gender=Masc|Number=Plur	29	obj	_	_
+42	alors	alors	ADV	_	ADV___	43	advmod	_	_
+43	qu"il	qu"il	SCONJ	_	SCONJ___	46	acl	_	_
+44	n'	ne	ADV	_	ADV__Polarity=Neg	46	advmod	_	_
+45	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	cop	_	_
+46	pas	pas	ADV	_	ADV__Polarity=Neg	29	advmod	_	_
+47	à	à	ADP	_	ADP___	51	case	_	_
+48	lui	luire	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Prs	50	nsubj	_	_
+49	et	et	CCONJ	_	CCONJ___	50	cc	_	_
+50	en	en	ADP	_	ADP___	51	conj	_	_
+51	plus	plaire	ADV	_	ADV___	46	fixed	_	_
+52	qu'	que	SCONJ	_	SCONJ___	46	mark	_	_
+53	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	56	nsubj	_	_
+54	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	56	cop	_	_
+55	interdit	interdire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	56	acl:relcl	_	_
+56	de	de	ADP	_	ADP___	29	mark	_	_
+57	faire	faire	VERB	_	VERB__VerbForm=Inf	58	xcomp	_	_
+58	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
+59	logement	logement	ADV	_	ADV___	60	obj	_	_
+60	dans	dan	ADP	_	ADP___	56	case	_	_
+61	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	62	det	_	_
+62	grenier	grenier	NOUN	_	NOUN__Gender=Masc|Number=Sing	60	nmod	_	_
+63	(	(	PUNCT	_	PUNCT___	64	punct	_	_
+64	et	et	CCONJ	_	CCONJ___	60	cc	_	_
+65	donc	donc	ADV	_	ADV___	69	advmod	_	_
+66	d'	de	ADP	_	ADP___	69	case	_	_
+67	y	yu	PRON	_	PRON__Person=3	66	fixed	_	_
+68	habiter).Puis	habiter).Puis	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	69	fixed	_	_
+69	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	64	det	_	_
+70	personnage	personnage	NOUN	_	NOUN__Gender=Masc|Number=Sing	71	conj	_	_
+71	loue	louer	ADJ	_	ADJ__Gender=Masc|Number=Sing	69	amod	_	_
+72	de	de	ADP	_	ADP___	71	case	_	_
+73	manière	manière	NOUN	_	NOUN__Gender=Fem|Number=Sing	76	nmod	_	_
+74	saisonnière	saisonnier	ADJ	_	ADJ__Gender=Fem|Number=Sing	76	amod	_	_
+75	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	76	det	_	_
+76	grenier	grenier	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	amod	_	_
+77	aménagé	aménager	ADJ	_	ADJ__Gender=Masc|Number=Sing	78	amod	_	_
+78	,	,	PUNCT	_	PUNCT___	76	punct	_	_
+79	c'	ce	PRON	_	PRON__Number=Sing|Person=3	80	nsubj	_	_
+80	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	78	cop	_	_
+81	encore	encore	ADV	_	ADV___	83	advmod	_	_
+82	interdit	interdire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	83	parataxis	_	_
+83	.	.	PUNCT	_	PUNCT___	80	punct	_	_
+
+
+#Quel action faut
+1	Quel	Quel	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	det	_	_
+2	action	action	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	amod	_	_
+
+
+#-il mener contre lui s'il vous plaît ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+3	mener	mener	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	contre	contrer	ADP	_	ADP___	5	case	_	_
+5	lui	luire	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obl	_	_
+6	s'	si	SCONJ	_	SCONJ___	7	obj	_	_
+7	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+8	vous	se	PRON	_	PRON__Number=Plur|Person=2	12	obj	_	_
+9	plaît	plaire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+10	?	?	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Pour finir, il n'y a plus de syndic de co-propriété depuis 6 mois car ce dernier n'effectuait pas les tâches pour lesquelles il était payé.
+1	Pour	Pour	ADP	_	ADP___	1	mark	_	_
+2	finir	finir	VERB	_	VERB__VerbForm=Inf	5	advcl	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+5	n'	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+6	y	yu	PRON	_	PRON__Person=3	7	expl	_	_
+7	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advmod	_	_
+8	plus	plaire	ADV	_	ADV__Polarity=Neg	12	det	_	_
+9	de	de	DET	_	DET__Definite=Ind|Number=Sing|PronType=Art	12	fixed	_	_
+10	syndic	syndic	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+11	de	de	ADP	_	ADP___	12	case	_	_
+12	co-propriété	co-propriété	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+13	depuis	depuis	ADP	_	ADP___	12	case	_	_
+14	6	6	NUM	_	NUM__NumType=Card	1	nummod	_	_
+15	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	obl	_	_
+16	car	car	CCONJ	_	CCONJ___	17	cc	_	_
+17	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
+18	dernier	dernier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	19	nsubj	_	_
+19	n'	ne	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+20	effectuait	effectuer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+21	pas	pas	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+22	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	23	det	_	_
+23	tâches	tâcher	NOUN	_	NOUN__Gender=Fem|Number=Plur	29	obj	_	_
+24	pour	pour	ADP	_	ADP___	29	case	_	_
+25	lesquelles	lequel	PRON	_	PRON__Gender=Fem|Number=Plur|PronType=Rel	29	obl	_	_
+26	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	28	nsubj	_	_
+27	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	cop	_	_
+28	payé	payer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	acl:relcl	_	_
+29	.	.	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#Les co-propriétaires ont arrêté de payer mais ensuite la justice a donné raison au Syndic.
+1	Les	Les	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+2	co-propriétaires	co-propriétaire	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	nsubj:pass	_	_
+3	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	arrêté	arrêter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	de	de	ADP	_	ADP___	1	mark	_	_
+6	payer	payer	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+7	mais	mai	CCONJ	_	CCONJ___	5	cc	_	_
+8	ensuite	ensuite	ADV	_	ADV___	12	conj	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+10	justice	justice	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obj	_	_
+11	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	donné	donner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	_
+13	raison	raison	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obj	_	_
+14	au	au	PRON	_	PRON__PronType=Rel	1	det	_	_
+15	Syndic	Syndic	PROPN	_	PROPN___	16	obl	_	_
+16	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Donc pour avoir un nouveau syndic, il faut que chacun paie les sommes dûes.
+1	Donc	Donc	ADV	_	ADV___	1	advmod	_	_
+2	pour	pour	ADP	_	ADP___	5	mark	_	_
+3	avoir	avoir	VERB	_	VERB__VerbForm=Inf	4	advcl	_	_
+4	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	nouveau	nouveau	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+6	syndic	syndic	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	amod	_	_
+7	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+8	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
+9	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+10	que	que	SCONJ	_	SCONJ___	12	mark	_	_
+11	chacun	chacun	PRON	_	PRON__Gender=Masc|PronType=Rel	12	nsubj	_	_
+12	paie	payer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+13	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	12	obj	_	_
+14	sommes	sommer	NOUN	_	NOUN__Number=Plur	1	cop	_	_
+15	dûes	dûes	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obj	_	_
+16	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Malheureusement, les autres propriétaires ne veulent pas.
+1	Malheureusement	Malheureusement	ADV	_	ADV___	1	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+3	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+4	autres	autre	ADJ	_	ADJ__Number=Plur	5	amod	_	_
+5	propriétaires	propriétaire	NOUN	_	NOUN__Number=Plur	1	nsubj	_	_
+6	ne	ne	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+7	veulent	vouloir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	pas	pas	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+9	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Que faire au niveau justice s'il vous plaît ?
+1	Que	Que	PRON	_	PRON__PronType=Int	1	obj	_	_
+2	faire	faire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+3	au	au	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	4	advmod	_	_
+4	niveau	niveau	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+5	justice	justice	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	flat:name	_	_
+6	s'	si	SCONJ	_	SCONJ___	7	obj	_	_
+7	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+8	vous	se	PRON	_	PRON__Number=Plur|Person=2	12	expl	_	_
+9	plaît	plaire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+10	?	?	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Merci à vous.
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	à	à	ADP	_	ADP___	5	case	_	_
+3	vous	se	PRON	_	PRON__Number=Plur|Person=2|PronType=Prs	4	nmod	_	_
+4	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+

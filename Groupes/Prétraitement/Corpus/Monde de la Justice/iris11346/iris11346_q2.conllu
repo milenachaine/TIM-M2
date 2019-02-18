@@ -1,0 +1,114 @@
+#Bonjour,Non
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Non	Non	ADV	_	ADV___	1	nmod	_	_
+
+
+#, ce n'est pas mon cas.
+1	,	,	PUNCT	_	PUNCT___	0	ROOT	_	_
+2	ce	ce	PRON	_	PRON__PronType=Rel	1	det	_	_
+3	n'	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+6	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+7	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	fixed	_	_
+8	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Je n'ai pas de précision qui permettrait de mieux définir la situation.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+3	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+5	de	de	DET	_	DET__Definite=Ind|Number=Sing|PronType=Art	10	det	_	_
+6	précision	précision	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obj	_	_
+7	qui	qui	PRON	_	PRON__PronType=Rel	10	nsubj	_	_
+8	permettrait	permettre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	acl:relcl	_	_
+9	de	de	ADP	_	ADP___	10	mark	_	_
+10	mieux	mieux	ADV	_	ADV___	4	advmod	_	_
+11	définir	définir	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obj	_	_
+14	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Mais étant actuellement aux prud'hommes contre mon employeur cette discussion m'inquiète.
+1	Mais	Mais	CCONJ	_	CCONJ___	1	cc	_	_
+2	étant	être	AUX	_	AUX__Tense=Pres|VerbForm=Part	1	cop	_	_
+3	actuellement	actuellement	ADV	_	ADV___	1	advmod	_	_
+4	aux	aux	ADP	_	ADP___	0	ROOT	_	_
+5	prud'hommes	prud'homme	NOUN	_	NOUN__Number=Plur	10	obj	_	_
+6	contre	contrer	ADP	_	ADP___	10	case	_	_
+7	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+8	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obl	_	_
+9	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+10	discussion	discussion	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obj	_	_
+11	m'	se	PRON	_	PRON__Number=Sing|Person=1	4	case	_	_
+12	inquiète	inquiéter	ADJ	_	ADJ__Gender=Fem|Number=Sing	14	amod	_	_
+13	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Je pose la question parce que cette situation me parait tellement improbable mais m'a été affirmée avec tellement de certitude que maintenant j'ai un doute pour la suite et l'issue de "ma" procédure en cours, même si tout semble bien se dérouler pour moi, jusqu'à ce jour.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	pose	poser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+4	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obj	_	_
+5	parce	parce	SCONJ	_	SCONJ___	10	mark	_	_
+6	que	que	SCONJ	_	SCONJ___	10	fixed	_	_
+7	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+8	situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nsubj	_	_
+9	me	se	PRON	_	PRON__Number=Sing|Person=1	10	iobj	_	_
+10	parait	parer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	advcl	_	_
+11	tellement	tellement	ADV	_	ADV___	4	advmod	_	_
+12	improbable	improbable	ADJ	_	ADJ__Number=Sing	14	amod	_	_
+13	mais	mai	CCONJ	_	CCONJ___	14	cc	_	_
+14	m'	se	PRON	_	PRON__Number=Sing|Person=1	14	nsubj:pass	_	_
+15	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+16	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	17	aux:pass	_	_
+17	affirmée	affirmer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	14	conj	_	_
+18	avec	avec	ADP	_	ADP___	19	case	_	_
+19	tellement	tellement	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obl	_	_
+20	de	de	ADP	_	ADP___	22	case	_	_
+21	certitude	certitude	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	nmod	_	_
+22	que	que	SCONJ	_	SCONJ___	19	mark	_	_
+23	maintenant	maintenir	ADV	_	ADV___	24	fixed	_	_
+24	j'	il	PRON	_	PRON__Number=Sing|Person=1	22	nsubj	_	_
+25	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
+26	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+27	doute	douter	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	obj	_	_
+28	pour	pour	ADP	_	ADP___	29	case	_	_
+29	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+30	suite	suite	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	obl	_	_
+31	et	et	CCONJ	_	CCONJ___	33	cc	_	_
+32	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	33	conj	_	_
+33	issue	issu	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	fixed	_	_
+34	de	de	ADP	_	ADP___	35	case	_	_
+35	"	"	PUNCT	_	PUNCT___	29	punct	_	_
+36	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	37	nmod:poss	_	_
+37	"	"	PUNCT	_	PUNCT___	35	punct	_	_
+38	procédure	procédure	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	nmod	_	_
+39	en	en	ADP	_	ADP___	40	case	_	_
+40	cours	courir	NOUN	_	NOUN__Gender=Masc	40	advcl	_	_
+41	,	,	PUNCT	_	PUNCT___	42	punct	_	_
+42	même	même	ADV	_	ADV___	40	mark	_	_
+43	si	si	SCONJ	_	SCONJ___	48	fixed	_	_
+44	tout	tout	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	43	advmod	_	_
+45	semble	sembler	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	aux:pass	_	_
+46	bien	bien	ADV	_	ADV___	48	advmod	_	_
+47	se	se	PRON	_	PRON__Person=3|Reflex=Yes	48	expl	_	_
+48	dérouler	dérouler	VERB	_	VERB__VerbForm=Inf	40	advcl	_	_
+49	pour	pour	ADP	_	ADP___	48	case	_	_
+50	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	49	obl	_	_
+51	,	,	PUNCT	_	PUNCT___	55	punct	_	_
+52	jusqu'	jusque	ADP	_	ADP___	55	case	_	_
+53	à	à	ADP	_	ADP___	55	fixed	_	_
+54	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	55	det	_	_
+55	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	48	obl	_	_
+56	.	.	PUNCT	_	PUNCT___	57	punct	_	_
+
+
+#Bonne journée
+1	Bonne	Bonne	ADJ	_	ADJ__Gender=Fem|Number=Sing	1	amod	_	_
+2	journée	journée	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+
+

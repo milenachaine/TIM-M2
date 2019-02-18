@@ -1,0 +1,87 @@
+#Voici deux choses que l'adil ma souligné :" 170 dont 90 de chauffage centrale, 30 de provisions d'eau et 50 de provisions d'électricité "
+1	Voici	Voici	VERB	_	VERB__Mood=Ind|VerbForm=Fin	0	ROOT	_	_
+2	deux	deux	NUM	_	NUM__NumType=Card	3	nummod	_	_
+3	choses	chose	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	obj	_	_
+4	que	que	PRON	_	PRON__PronType=Rel	8	mark	_	_
+5	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	adil	adil	PROPN	_	PROPN__Number=Sing	8	nsubj	_	_
+7	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	8	nmod:poss	_	_
+8	souligné	souligner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+9	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+10	"	"	PUNCT	_	PUNCT___	11	punct	_	_
+11	170	170	NUM	_	NUM__NumType=Card	1	conj	_	_
+12	dont	dont	PRON	_	PRON__PronType=Rel	13	dep	_	_
+13	90	90	PRON	_	PRON__NumType=Card|PronType=Rel	11	acl:relcl	_	_
+14	de	de	ADP	_	ADP___	15	case	_	_
+15	chauffage	chauffage	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+16	centrale	central	ADJ	_	ADJ__Gender=Fem|Number=Sing	15	amod	_	_
+17	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+18	30	30	NOUN	_	NOUN__NumType=Card	11	nummod	_	_
+19	de	de	ADP	_	ADP___	20	case	_	_
+20	provisions	provision	NOUN	_	NOUN__Gender=Fem|Number=Plur	18	nmod	_	_
+21	d'	de	ADP	_	ADP___	22	case	_	_
+22	eau	eau	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	nmod	_	_
+23	et	et	CCONJ	_	CCONJ___	24	cc	_	_
+24	50	50	PRON	_	PRON__PronType=Rel	22	conj	_	_
+25	de	de	ADP	_	ADP___	26	case	_	_
+26	provisions	provision	NOUN	_	NOUN__Gender=Fem|Number=Plur	22	nmod	_	_
+27	d'	de	ADP	_	ADP___	28	case	_	_
+28	électricité	électricité	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	nmod	_	_
+29	"	"	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Il ne mentionne donc pas que le chauffage est sous forme de provision mais ne mentionne pas non plus quil est sous forme de forfait.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	ne	ne	ADV	_	ADV___	3	advmod	_	_
+3	mentionne	mentionner	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	donc	donc	ADV	_	ADV___	8	advmod	_	_
+5	pas	pas	ADV	_	ADV___	6	advmod	_	_
+6	que	que	SCONJ	_	SCONJ___	8	mark	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	chauffage	chauffage	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+9	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+10	sous	sou	ADP	_	ADP___	11	case	_	_
+11	forme	former	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	fixed	_	_
+12	de	de	ADP	_	ADP___	13	fixed	_	_
+13	provision	provision	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obj	_	_
+14	mais	mai	CCONJ	_	CCONJ___	15	cc	_	_
+15	ne	ne	ADV	_	ADV__Polarity=Neg	13	advmod	_	_
+16	mentionne	mentionner	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	conj	_	_
+17	pas	pas	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+18	non	non	ADV	_	ADV___	11	advmod	_	_
+19	plus	plaire	ADV	_	ADV___	20	advmod	_	_
+20	quil	quil	PRON	_	PRON__Number=Sing|PronType=Rel	18	obj	_	_
+21	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+22	sous	sou	ADP	_	ADP___	20	case	_	_
+23	forme	former	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	fixed	_	_
+24	de	de	ADP	_	ADP___	22	fixed	_	_
+25	forfait	forfaire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	xcomp	_	_
+26	.	.	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#Et deuxieme autre points, sur les quittance de loyer, il met les sommes du chauffage dans les PROVISIONS SUR CHARGES.
+1	Et	Et	CCONJ	_	CCONJ___	1	cc	_	_
+2	deuxieme	deuxieme	ADV	_	ADV___	3	advcl	_	_
+3	autre	autre	ADJ	_	ADJ__Number=Sing	1	amod	_	_
+4	points	point	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obj	_	_
+5	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+6	sur	sur	ADP	_	ADP___	8	case	_	_
+7	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+8	quittance	quittance	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obl	_	_
+9	de	de	ADP	_	ADP___	1	mark	_	_
+10	loyer	loyer	VERB	_	VERB__VerbForm=Inf	11	acl	_	_
+11	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+12	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	13	nsubj	_	_
+13	met	mettre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+14	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	15	det	_	_
+15	sommes	sommer	NOUN	_	NOUN__Number=Plur	13	obj	_	_
+16	du	du	DET	_	DET__Gender=Masc|Number=Sing	15	det	_	_
+17	chauffage	chauffage	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+18	dans	dan	ADP	_	ADP___	11	case	_	_
+19	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	20	det	_	_
+20	PROVISIONS	PROVISIONS	NOUN	_	NOUN__Gender=Fem|Number=Plur	18	nmod	_	_
+21	SUR	SUR	ADP	_	ADP___	22	case	_	_
+22	CHARGES	CHARGES	PROPN	_	PROPN___	20	nmod	_	_
+23	.	.	PUNCT	_	PUNCT___	24	punct	_	_
+
+

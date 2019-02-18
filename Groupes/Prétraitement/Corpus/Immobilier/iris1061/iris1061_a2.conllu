@@ -1,0 +1,140 @@
+#Bonjour,Et vous etes combien de copros..... ?
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Et	Et	CCONJ	_	CCONJ___	5	cc	_	_
+4	vous	se	PRON	_	PRON__Number=Plur|Person=2	5	nsubj	_	_
+5	etes	etes	ADJ	_	ADJ__Gender=Fem|Number=Plur	1	conj	_	_
+6	combien	combien	ADV	_	ADV__PronType=Int	8	cop	_	_
+7	de	de	ADP	_	ADP___	8	case	_	_
+8	copros	copros	ADJ	_	ADJ__Gender=Masc	1	nmod	_	_
+9	.....	.....	PUNCT	_	PUNCT___	1	nmod	_	_
+10	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Pour agrandir il faut "rogner" sur des parties communes, donc s'il y  plus de copros dans le syndicat il faudra l'accord d'au moins la moitié des copros représentant au moins les 2/3 des tantièmes...
+1	Pour	Pour	ADP	_	ADP___	1	mark	_	_
+2	agrandir	agrandir	VERB	_	VERB__VerbForm=Inf	1	advcl	_	_
+3	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+4	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	"	"	PUNCT	_	PUNCT___	1	punct	_	_
+6	rogner	rogner	VERB	_	VERB__VerbForm=Inf	8	xcomp	_	_
+7	"	"	PUNCT	_	PUNCT___	8	punct	_	_
+8	sur	sur	ADP	_	ADP___	1	case	_	_
+9	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	1	det	_	_
+10	parties	partir	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	obl	_	_
+11	communes	commune	ADJ	_	ADJ__Gender=Fem|Number=Plur	12	amod	_	_
+12	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+13	donc	donc	ADV	_	ADV___	14	advmod	_	_
+14	s'	si	SCONJ	_	SCONJ___	14	expl	_	_
+15	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	16	nsubj	_	_
+16	y	yu	PRON	_	PRON__Person=3	14	fixed	_	_
+17	 	 	SPACE	_		16		_	_
+18	plus	plaire	ADV	_	ADV___	20	advmod	_	_
+19	de	de	ADP	_	ADP___	20	det	_	_
+20	copros	copros	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	obj	_	_
+21	dans	dan	ADP	_	ADP___	20	case	_	_
+22	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+23	syndicat	syndicat	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	nmod	_	_
+24	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	25	nsubj	_	_
+25	faudra	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	35	parataxis	_	_
+26	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+27	accord	accord	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	obj	_	_
+28	d'	de	ADP	_	ADP___	25	case	_	_
+29	au	au	NOUN	_	NOUN__Number=Plur	30	fixed	_	_
+30	moins	moins	ADV	_	ADV___	25	fixed	_	_
+31	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+32	moitié	moitié	NOUN	_	NOUN__Gender=Fem|Number=Sing	33	nmod	_	_
+33	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	25	det	_	_
+34	copros	copros	NOUN	_	NOUN__Gender=Masc|Number=Plur	35	obj	_	_
+35	représentant	représenter	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	advmod	_	_
+36	au	au	PRON	_	PRON__PronType=Rel	37	fixed	_	_
+37	moins	moins	ADV	_	ADV___	35	fixed	_	_
+38	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	42	det	_	_
+39	2/3	2/3	PRON	_	PRON__NumType=Card|PronType=Rel	38	conj	_	_
+40	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	38	det	_	_
+41	tantièmes	tantième	NOUN	_	NOUN__Gender=Masc|Number=Plur	42	obj	_	_
+42	...	...	PUNCT	_	PUNCT___	37	punct	_	_
+
+
+#Vous ne pouvez pas vendre à la copropriété quelque chose qui lui appartient déjà aujourd'hui .... il y a transformation d'un "espaces verts" (peut-être) en parking commun.
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+2	ne	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+3	pouvez	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+5	vendre	vendre	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+6	à	à	ADP	_	ADP___	8	case	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	copropriété	copropriété	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obl	_	_
+9	quelque	quelque	DET	_	DET__Number=Sing	1	amod	_	_
+10	chose	chose	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	fixed	_	_
+11	qui	qui	PRON	_	PRON__PronType=Rel	12	nsubj	_	_
+12	lui	luire	PRON	_	PRON__Number=Sing|Person=3	14	iobj	_	_
+13	appartient	appartenir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+14	déjà	déjà	ADV	_	ADV___	14	advmod	_	_
+15	aujourd'hui	aujourd'huie	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	16	obj	_	_
+16	....	....	PUNCT	_	PUNCT___	14	punct	_	_
+17	il	il	PRON	_	PRON__Number=Sing|Person=3	16	nsubj	_	_
+18	y	yu	PRON	_	PRON__Person=3	20	iobj	_	_
+19	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	transformation	transformation	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obj	_	_
+21	d'	de	ADP	_	ADP___	20	case	_	_
+22	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+23	"	"	PUNCT	_	PUNCT___	25	punct	_	_
+24	espaces	espace	NOUN	_	NOUN__Gender=Fem|Number=Plur	25	amod	_	_
+25	verts	vert	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	35	nmod	_	_
+26	"	"	PUNCT	_	PUNCT___	25	punct	_	_
+27	(	(	PUNCT	_	PUNCT___	26	punct	_	_
+28	peut-être	peut-être	ADV	_	ADV___	25	nmod	_	_
+29	)	)	PUNCT	_	PUNCT___	30	punct	_	_
+30	en	en	ADP	_	ADP___	25	case	_	_
+31	parking	parking	NOUN	_	NOUN__Gender=Masc|Number=Sing	33	nmod	_	_
+32	commun	commun	ADJ	_	ADJ__Gender=Masc|Number=Sing	33	amod	_	_
+33	.	.	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#Ce qui est important à savoir, c'est combien de copros sont dans ce syndicat : les 4 dont vous parlez dans votre post, ou bien ces 4 sont de cas particuliers parmi X autres copros ?
+1	Ce	Ce	PRON	_	PRON__PronType=Rel	1	det	_	_
+2	qui	qui	PRON	_	PRON__PronType=Rel	1	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	important	importer	ADJ	_	ADJ__Gender=Masc|Number=Sing	5	acl:relcl	_	_
+5	à	à	ADP	_	ADP___	1	mark	_	_
+6	savoir	savoir	VERB	_	VERB__VerbForm=Inf	8	xcomp	_	_
+7	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+8	c'	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+9	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+10	combien	combien	ADV	_	ADV__PronType=Int	1	advmod	_	_
+11	de	de	ADP	_	ADP___	12	case	_	_
+12	copros	copros	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	nsubj	_	_
+13	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	dans	dan	ADP	_	ADP___	14	case	_	_
+15	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	16	det	_	_
+16	syndicat	syndicat	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+17	:	:	PUNCT	_	PUNCT___	16	punct	_	_
+18	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	20	det	_	_
+19	4	4	NUM	_	NUM__NumType=Card	20	appos	_	_
+20	dont	dont	PRON	_	PRON__PronType=Rel	16	iobj	_	_
+21	vous	se	PRON	_	PRON__Number=Plur|Person=2	20	nsubj	_	_
+22	parlez	parler	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+23	dans	dan	ADP	_	ADP___	25	case	_	_
+24	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	25	nmod:poss	_	_
+25	post	post	NOUN	_	NOUN__Gender=Fem|Number=Sing	35	obl	_	_
+26	,	,	PUNCT	_	PUNCT___	25	punct	_	_
+27	ou	ou	CCONJ	_	CCONJ___	26	cc	_	_
+28	bien	bien	ADV	_	ADV___	25	advmod	_	_
+29	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	30	det	_	_
+30	4	4	NUM	_	NUM__NumType=Card	25	nummod	_	_
+31	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	_
+32	de	de	ADP	_	ADP___	33	case	_	_
+33	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Plur	25	nmod	_	_
+34	particuliers	particulier	NOUN	_	NOUN__Gender=Masc|Number=Plur	35	acl	_	_
+35	parmi	parmi	ADP	_	ADP___	14	case	_	_
+36	X	X	NOUN	_	NOUN___	37	det	_	_
+37	autres	autre	ADJ	_	ADJ__Number=Plur	35	fixed	_	_
+38	copros	copros	NOUN	_	NOUN__Gender=Masc|Number=Plur	42	obl	_	_
+39	?	?	PUNCT	_	PUNCT___	38	punct	_	_
+
+
+#...
+1	...	...	PUNCT	_	PUNCT___	0	ROOT	_	_
+
+

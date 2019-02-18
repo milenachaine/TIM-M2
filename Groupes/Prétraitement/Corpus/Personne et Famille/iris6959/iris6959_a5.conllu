@@ -1,0 +1,641 @@
+#Ces calculs n'ont aucun sens.
+1	Ces	Ces	DET	_	DET__Number=Plur|PronType=Dem	2	det	_	_
+2	calculs	calcul	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	nsubj	_	_
+3	n'	ne	ADV	_	ADV___	4	advmod	_	_
+4	ont	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	aucun	aucun	DET	_	DET__Gender=Masc|Number=Sing	6	det	_	_
+6	sens	sentir	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obj	_	_
+7	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Il n'existe qu'une seule quotité disponible, et elle se calcule au décès.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+3	existe	exister	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	qu'	que	SCONJ	_	SCONJ___	4	advmod	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	seule	seul	ADJ	_	ADJ__Gender=Fem|Number=Sing	4	amod	_	_
+7	quotité	quotité	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obj	_	_
+8	disponible	disponible	ADJ	_	ADJ__Number=Sing	10	amod	_	_
+9	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+10	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+11	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	14	nsubj	_	_
+12	se	se	PRON	_	PRON__Person=3|Reflex=Yes	14	expl	_	_
+13	calcule	calculer	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+14	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	10	case	_	_
+15	décès	décès	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obl	_	_
+16	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#La masse de calcul de la quotité disponible, ce sont les biens du défunt au décès, auxquels on intègre toutes les donations.
+1	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	masse	masser	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nsubj	_	_
+3	de	de	ADP	_	ADP___	4	case	_	_
+4	calcul	calcul	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+5	de	de	ADP	_	ADP___	6	case	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+7	quotité	quotité	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+8	disponible	disponible	ADJ	_	ADJ__Number=Sing	10	amod	_	_
+9	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+10	ce	ce	PRON	_	PRON__Number=Sing|Person=3	10	nsubj	_	_
+11	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+12	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	14	det	_	_
+13	biens	bien	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	nsubj	_	_
+14	du	du	DET	_	DET__Gender=Masc|Number=Sing	10	det	_	_
+15	défunt	défunt	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obj	_	_
+16	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	10	case	_	_
+17	décès	décès	NOUN	_	NOUN__Gender=Masc|Number=Plur	20	nmod	_	_
+18	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+19	auxquels	auxquels	ADJ	_	ADJ__Gender=Masc|Number=Plur	20	amod	_	_
+20	on	on	PRON	_	PRON__Number=Sing|Person=3	10	nsubj	_	_
+21	intègre	intégrer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+22	toutes	toute	ADJ	_	ADJ__Gender=Fem|Number=Plur	20	amod	_	_
+23	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	10	det	_	_
+24	donations	donation	NOUN	_	NOUN__Gender=Fem|Number=Plur	25	obj	_	_
+25	.	.	PUNCT	_	PUNCT___	36	punct	_	_
+
+
+#On n'intègre donc les primes versées (et non la valeur au décès du contrat) que si elles sont regardées comme des donations, parce que manifestement exagérées.
+1	On	On	PRON	_	PRON__Number=Sing|Person=3	2	nsubj	_	_
+2	n'	ne	ADV	_	ADV___	4	advmod	_	_
+3	intègre	intégrer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	donc	donc	ADV	_	ADV___	4	advmod	_	_
+5	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	6	det	_	_
+6	primes	primer	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	nsubj	_	_
+7	versées	verser	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
+8	(	(	PUNCT	_	PUNCT___	10	punct	_	_
+9	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+10	non	non	ADV	_	ADV___	10	conj	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+12	valeur	valeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	appos	_	_
+13	au	au	PRON	_	PRON__PronType=Rel	14	iobj	_	_
+14	décès	décès	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	ccomp	_	_
+15	du	du	DET	_	DET__Gender=Masc|Number=Sing	14	det	_	_
+16	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+17	)	)	PUNCT	_	PUNCT___	20	punct	_	_
+18	que	que	SCONJ	_	SCONJ___	20	mark	_	_
+19	si	si	SCONJ	_	SCONJ___	20	mark	_	_
+20	elles	lui	PRON	_	PRON__Gender=Fem|Number=Plur|Person=3	10	nsubj:pass	_	_
+21	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux:pass	_	_
+22	regardées	regarder	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	20	advcl	_	_
+23	comme	comme	ADP	_	ADP___	10	case	_	_
+24	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	25	det	_	_
+25	donations	donation	NOUN	_	NOUN__Gender=Fem|Number=Plur	36	obl	_	_
+26	,	,	PUNCT	_	PUNCT___	27	punct	_	_
+27	parce	parce	SCONJ	_	SCONJ___	25	mark	_	_
+28	que	que	SCONJ	_	SCONJ___	30	fixed	_	_
+29	manifestement	manifestement	ADV	_	ADV___	30	advmod	_	_
+30	exagérées	exagérer	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	27	advcl	_	_
+31	.	.	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#On ne peut donc aucunement comparer les primes versées à une quotité disponible qui n'existe pas au moment du versement, et qu'on ne sait pas encore calculer tant qu'on a pas déterminé si les primes devaient ou non être intégrées à la masse de son calcul…
+1	On	On	PRON	_	PRON__Number=Sing|Person=3	2	nsubj	_	_
+2	ne	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+3	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	donc	donc	ADV	_	ADV___	4	advmod	_	_
+5	aucunement	aucunement	ADV	_	ADV___	6	advmod	_	_
+6	comparer	comparer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+7	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+8	primes	primer	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	obj	_	_
+9	versées	verser	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	10	acl	_	_
+10	à	à	ADP	_	ADP___	10	case	_	_
+11	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+12	quotité	quotité	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obl	_	_
+13	disponible	disponible	ADJ	_	ADJ__Number=Sing	14	amod	_	_
+14	qui	qui	PRON	_	PRON__PronType=Rel	10	nsubj	_	_
+15	n'	ne	ADV	_	ADV__Polarity=Neg	14	advmod	_	_
+16	existe	exister	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+17	pas	pas	ADV	_	ADV__Polarity=Neg	20	advmod	_	_
+18	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	20	det	_	_
+19	moment	moment	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	obj	_	_
+20	du	du	DET	_	DET__Gender=Masc|Number=Sing	10	det	_	_
+21	versement	versement	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	obj	_	_
+22	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+23	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+24	qu'	que	SCONJ	_	SCONJ___	25	mark	_	_
+25	on	on	PRON	_	PRON__Number=Sing|Person=3	36	nsubj	_	_
+26	ne	ne	ADV	_	ADV__Polarity=Neg	27	advmod	_	_
+27	sait	savoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+28	pas	pas	ADV	_	ADV__Polarity=Neg	30	advmod	_	_
+29	encore	encore	ADV	_	ADV___	30	fixed	_	_
+30	calculer	calculer	VERB	_	VERB__VerbForm=Inf	27	conj	_	_
+31	tant	tant	ADV	_	ADV___	30	advmod	_	_
+32	qu'	que	SCONJ	_	SCONJ___	25	fixed	_	_
+33	on	on	PRON	_	PRON__Number=Sing|Person=3	36	nsubj	_	_
+34	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
+35	pas	pas	ADV	_	ADV__Polarity=Neg	36	advmod	_	_
+36	déterminé	déterminer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	44	acl	_	_
+37	si	si	SCONJ	_	SCONJ___	38	mark	_	_
+38	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	36	det	_	_
+39	primes	primer	NOUN	_	NOUN__Gender=Masc|Number=Plur	40	nsubj	_	_
+40	devaient	devoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	38	ccomp	_	_
+41	ou	ou	CCONJ	_	CCONJ___	36	cc	_	_
+42	non	non	ADV	_	ADV___	36	conj	_	_
+43	être	être	AUX	_	AUX__VerbForm=Inf	44	aux:pass	_	_
+44	intégrées	intégrer	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	44	xcomp	_	_
+45	à	à	ADP	_	ADP___	47	case	_	_
+46	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
+47	masse	masser	NOUN	_	NOUN__Gender=Fem|Number=Sing	44	obl	_	_
+48	de	de	ADP	_	ADP___	44	case	_	_
+49	son	son	DET	_	DET__Number=Sing|Poss=Yes	51	nmod:poss	_	_
+50	calcul	calcul	NOUN	_	NOUN__Gender=Masc|Number=Sing	51	nmod	_	_
+51	…	…	ADJ	_	ADJ___	51	punct	_	_
+
+
+#Bref toute comparaison à la quotité disponible est vouée à l'échec pour justifier du caractère manifestement exagéré des primes versées.
+1	Bref	Bref	ADV	_	ADV___	2	advmod	_	_
+2	toute	tout	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	comparaison	comparaison	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+4	à	à	ADP	_	ADP___	4	case	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	quotité	quotité	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+7	disponible	disponible	ADJ	_	ADJ__Number=Sing	4	amod	_	_
+8	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+9	vouée	vouer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+10	à	à	ADP	_	ADP___	10	case	_	_
+11	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+12	échec	échec	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obl	_	_
+13	pour	pour	ADP	_	ADP___	14	mark	_	_
+14	justifier	justifier	VERB	_	VERB__VerbForm=Inf	10	advcl	_	_
+15	du	du	DET	_	DET__Gender=Masc|Number=Sing	14	det	_	_
+16	caractère	caractère	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+17	manifestement	manifestement	ADV	_	ADV___	20	advmod	_	_
+18	exagéré	exagérer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	xcomp	_	_
+19	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	20	det	_	_
+20	primes	primer	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	obj	_	_
+21	versées	verser	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	22	acl	_	_
+22	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Illustrations (avec 3 enfants, QD du quart) :1)
+1	Illustrations	Illustrations	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+2	(	(	PUNCT	_	PUNCT___	4	punct	_	_
+3	avec	avec	ADP	_	ADP___	4	case	_	_
+4	3	3	NUM	_	NUM__NumType=Card	4	nummod	_	_
+5	enfants	enfant	NOUN	_	NOUN__Number=Plur	6	nmod	_	_
+6	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+7	QD	QD	ADJ	_	ADJ__Gender=Fem|Number=Sing	4	acl	_	_
+8	du	du	DET	_	DET__Gender=Masc|Number=Sing	10	det	_	_
+9	quart	quart	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+10	)	)	PUNCT	_	PUNCT___	10	punct	_	_
+11	:1	:1	NOUN	_	NOUN___	14	advmod	_	_
+12	)	)	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Le souscripteur possède un patrimoine de 100000, qu'il verse intégralement sur un contrat d'assurance-vie.
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	souscripteur	souscripteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+3	possède	posséder	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+5	patrimoine	patrimoine	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+6	de	de	ADP	_	ADP___	4	case	_	_
+7	100000	100000	NUM	_	NUM__NumType=Card	4	nmod	_	_
+8	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+9	qu'	que	SCONJ	_	SCONJ___	10	mark	_	_
+10	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
+11	verse	verser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+12	intégralement	intégralement	ADV	_	ADV___	14	advmod	_	_
+13	sur	sur	ADP	_	ADP___	14	case	_	_
+14	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+15	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obl	_	_
+16	d'	de	ADP	_	ADP___	10	case	_	_
+17	assurance	assurance	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	nmod	_	_
+18	-	-	PUNCT	_	PUNCT___	20	punct	_	_
+19	vie	vie	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obl	_	_
+20	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Clairement, il se dépouille, et ces 100000 pourront certainement être qualifiées de manifestement exagérées par rapport à son patrimoine au moment du versement.
+1	Clairement	Clairement	ADV	_	ADV___	2	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+4	se	se	PRON	_	PRON__Person=3|Reflex=Yes	4	expl	_	_
+5	dépouille	dépouiller	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+6	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+7	et	et	CCONJ	_	CCONJ___	4	cc	_	_
+8	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	10	det	_	_
+9	100000	100000	NUM	_	NUM__NumType=Card	10	nsubj	_	_
+10	pourront	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	10	nsubj	_	_
+11	certainement	certainement	ADV	_	ADV___	14	advmod	_	_
+12	être	être	AUX	_	AUX__VerbForm=Inf	14	aux:pass	_	_
+13	qualifiées	qualifier	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	14	xcomp	_	_
+14	de	de	ADP	_	ADP___	10	mark	_	_
+15	manifestement	manifestement	ADV	_	ADV___	14	advmod	_	_
+16	exagérées	exagérer	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	10	acl	_	_
+17	par	par	ADP	_	ADP___	20	case	_	_
+18	rapport	rapport	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	fixed	_	_
+19	à	à	ADP	_	ADP___	20	fixed	_	_
+20	son	son	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+21	patrimoine	patrimoine	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	obl	_	_
+22	au	au	PRON	_	PRON__PronType=Rel	20	obj	_	_
+23	moment	moment	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+24	du	du	DET	_	DET__Gender=Masc|Number=Sing	25	det	_	_
+25	versement	versement	NOUN	_	NOUN__Gender=Masc|Number=Sing	36	obj	_	_
+26	.	.	PUNCT	_	PUNCT___	27	punct	_	_
+
+
+#Plus tard, il gagne à la loterie 900000 et tel est son patrimoine à son décès.
+1	Plus	Plus	ADV	_	ADV___	2	advmod	_	_
+2	tard	tard	ADV	_	ADV___	4	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+5	gagne	gagner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	à	à	ADP	_	ADP___	4	case	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+8	loterie	loterie	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obl	_	_
+9	900000	900000	NUM	_	NUM__NumType=Card	10	nummod	_	_
+10	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+11	tel	tel	ADJ	_	ADJ__Gender=Masc|Number=Sing	14	conj	_	_
+12	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	son	son	DET	_	DET__Number=Sing|Poss=Yes	14	nmod:poss	_	_
+14	patrimoine	patrimoine	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+15	à	à	ADP	_	ADP___	14	case	_	_
+16	son	son	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+17	décès	décès	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	nmod	_	_
+18	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#La masse de calcul de la QD, c'est 900000 + 100000 de primes manifestement exagérées = 1000000.
+1	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	masse	masser	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nsubj	_	_
+3	de	de	ADP	_	ADP___	4	case	_	_
+4	calcul	calcul	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+5	de	de	ADP	_	ADP___	6	case	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+7	QD	QD	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+8	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+9	c'	ce	PRON	_	PRON__Number=Sing|Person=3	10	nsubj	_	_
+10	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+11	900000	900000	NUM	_	NUM__NumType=Card	14	nummod	_	_
+12	+	+	ADP	_	ADP___	14	case	_	_
+13	100000	100000	NUM	_	NUM__NumType=Card	14	nmod	_	_
+14	de	de	ADP	_	ADP___	10	case	_	_
+15	primes	primer	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	nmod	_	_
+16	manifestement	manifestement	ADV	_	ADV___	10	advmod	_	_
+17	exagérées	exagérer	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	20	acl	_	_
+18	=	=	VERB	_	VERB__Mood=Ind|Person=3|VerbForm=Fin	0	ROOT	_	_
+19	1000000	1000000	NUM	_	NUM__NumType=Card	20	nummod	_	_
+20	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#La QD du quart vaut 250000, et les primes versées 100000 ne dépassent pas la QD 250000, bien qu'elles soient manifestement exagérées.2)
+1	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	QD	QD	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	det	_	_
+3	du	du	DET	_	DET__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	quart	quart	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+5	vaut	valoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+6	250000	250000	NUM	_	NUM__NumType=Card	4	nummod	_	_
+7	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+8	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+9	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	10	det	_	_
+10	primes	primer	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	nsubj	_	_
+11	versées	verser	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	14	acl	_	_
+12	100000	100000	NUM	_	NUM__NumType=Card	14	nummod	_	_
+13	ne	ne	ADV	_	ADV__Polarity=Neg	14	advmod	_	_
+14	dépassent	dépasser	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+15	pas	pas	ADV	_	ADV__Polarity=Neg	14	advmod	_	_
+16	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+17	QD	QD	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obj	_	_
+18	250000	250000	NUM	_	NUM__NumType=Card	20	nummod	_	_
+19	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+20	bien	bien	ADV	_	ADV___	10	mark	_	_
+21	qu'	que	SCONJ	_	SCONJ___	22	fixed	_	_
+22	elles	lui	PRON	_	PRON__Gender=Fem|Number=Plur|Person=3	20	nsubj	_	_
+23	soient	être	AUX	_	AUX__Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+24	manifestement	manifestement	ADV	_	ADV___	25	advmod	_	_
+25	exagérées.2	exagérées.2	PROPN	_	PROPN___	36	advcl	_	_
+26	)	)	PUNCT	_	PUNCT___	27	punct	_	_
+
+
+#Le souscripteur possède un patrimoine de 1000000, dont il verse 100000 sur un contrat d'assurance-vie.
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	souscripteur	souscripteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+3	possède	posséder	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+5	patrimoine	patrimoine	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+6	de	de	ADP	_	ADP___	4	case	_	_
+7	1000000	1000000	NUM	_	NUM__NumType=Card	4	nmod	_	_
+8	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+9	dont	dont	PRON	_	PRON__PronType=Rel	10	iobj	_	_
+10	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
+11	verse	verser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	parataxis	_	_
+12	100000	100000	NUM	_	NUM__NumType=Card	14	nummod	_	_
+13	sur	sur	ADP	_	ADP___	14	case	_	_
+14	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+15	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obl	_	_
+16	d'	de	ADP	_	ADP___	10	case	_	_
+17	assurance	assurance	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	nmod	_	_
+18	-	-	PUNCT	_	PUNCT___	20	punct	_	_
+19	vie	vie	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	appos	_	_
+20	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Clairement, il ne se dépouille pas, et ces 100000 ne pourront pas être qualifiées de manifestement exagérées par rapport à son patrimoine au moment du versement.
+1	Clairement	Clairement	ADV	_	ADV___	2	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+4	ne	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+5	se	se	PRON	_	PRON__Person=3|Reflex=Yes	6	expl	_	_
+6	dépouille	dépouiller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	pas	pas	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+8	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+9	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+10	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	10	det	_	_
+11	100000	100000	NUM	_	NUM__NumType=Card	14	nsubj	_	_
+12	ne	ne	ADV	_	ADV__Polarity=Neg	14	advmod	_	_
+13	pourront	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	14	conj	_	_
+14	pas	pas	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+15	être	être	AUX	_	AUX__VerbForm=Inf	14	aux:pass	_	_
+16	qualifiées	qualifier	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	10	xcomp	_	_
+17	de	de	ADP	_	ADP___	20	mark	_	_
+18	manifestement	manifestement	ADV	_	ADV___	20	advmod	_	_
+19	exagérées	exagérer	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	20	acl	_	_
+20	par	par	ADP	_	ADP___	10	case	_	_
+21	rapport	rapport	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	fixed	_	_
+22	à	à	ADP	_	ADP___	20	fixed	_	_
+23	son	son	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+24	patrimoine	patrimoine	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	obl	_	_
+25	au	au	PRON	_	PRON__PronType=Rel	36	obj	_	_
+26	moment	moment	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	obl	_	_
+27	du	du	DET	_	DET__Gender=Masc|Number=Sing	25	det	_	_
+28	versement	versement	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	obj	_	_
+29	.	.	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#Plus tard, il dépense les 900000 qui lui restaient et son patrimoine est vide à son décès.
+1	Plus	Plus	ADV	_	ADV___	2	advmod	_	_
+2	tard	tard	ADV	_	ADV___	4	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+5	dépense	dépenser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+7	900000	900000	NUM	_	NUM__NumType=Card	4	iobj	_	_
+8	qui	qui	PRON	_	PRON__PronType=Rel	10	nsubj	_	_
+9	lui	luire	PRON	_	PRON__Number=Sing|Person=3	10	iobj	_	_
+10	restaient	rester	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+11	et	et	CCONJ	_	CCONJ___	14	cc	_	_
+12	son	son	DET	_	DET__Number=Sing|Poss=Yes	14	nmod:poss	_	_
+13	patrimoine	patrimoine	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nsubj	_	_
+14	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+15	vide	vider	ADJ	_	ADJ__Number=Sing	14	conj	_	_
+16	à	à	ADP	_	ADP___	10	case	_	_
+17	son	son	DET	_	DET__Number=Sing|Poss=Yes	20	nmod:poss	_	_
+18	décès	décès	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obl	_	_
+19	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#La masse de calcul de la QD, c'est 0 (rien au décès) + 0 (pas de primes manifestement exagérées) = 0.
+1	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	masse	masser	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nsubj	_	_
+3	de	de	ADP	_	ADP___	4	case	_	_
+4	calcul	calcul	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+5	de	de	ADP	_	ADP___	6	case	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+7	QD	QD	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+8	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+9	c'	ce	PRON	_	PRON__Number=Sing|Person=3	10	nsubj	_	_
+10	est	être	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+11	0	0	NUM	_	NUM__NumType=Card	14	nummod	_	_
+12	(	(	PUNCT	_	PUNCT___	14	punct	_	_
+13	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	14	appos	_	_
+14	au	au	PRON	_	PRON__PronType=Rel	10	case	_	_
+15	décès	décès	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	nmod	_	_
+16	)	)	PUNCT	_	PUNCT___	10	punct	_	_
+17	+	+	ADP	_	ADP___	20	case	_	_
+18	0	0	NUM	_	NUM__NumType=Card	20	nmod	_	_
+19	(	(	PUNCT	_	PUNCT___	20	punct	_	_
+20	pas	pas	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+21	de	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	22	det	_	_
+22	primes	primer	NOUN	_	NOUN__Gender=Masc|Number=Plur	20	nmod	_	_
+23	manifestement	manifestement	ADV	_	ADV___	10	advmod	_	_
+24	exagérées	exagérer	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	25	amod	_	_
+25	)	)	PUNCT	_	PUNCT___	36	punct	_	_
+26	=	=	VERB	_	VERB__Mood=Ind|Person=3|VerbForm=Fin	0	ROOT	_	_
+27	0	0	NUM	_	NUM__NumType=Card	25	obj	_	_
+28	.	.	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#La QD du quart vaut 0, et les primes versées 100000 dépassent allègrement la QD 0, bien qu'elles ne soient pas manifestement exagérées.
+1	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	QD	QD	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	det	_	_
+3	du	du	DET	_	DET__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	quart	quart	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+5	vaut	valoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+6	0	0	NUM	_	NUM__NumType=Card	4	nummod	_	_
+7	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+8	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+9	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	10	det	_	_
+10	primes	primer	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	nsubj	_	_
+11	versées	verser	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	14	acl	_	_
+12	100000	100000	NUM	_	NUM__NumType=Card	14	nummod	_	_
+13	dépassent	dépasser	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+14	allègrement	allègrement	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	xcomp	_	_
+15	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+16	QD	QD	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obj	_	_
+17	0	0	NUM	_	NUM__NumType=Card	20	nummod	_	_
+18	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+19	bien	bien	ADV	_	ADV___	20	mark	_	_
+20	qu'	que	SCONJ	_	SCONJ___	10	fixed	_	_
+21	elles	lui	PRON	_	PRON__Gender=Fem|Number=Plur|Person=3	22	nsubj:pass	_	_
+22	ne	ne	ADV	_	ADV__Polarity=Neg	20	advmod	_	_
+23	soient	être	AUX	_	AUX__Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+24	pas	pas	ADV	_	ADV__Polarity=Neg	25	advmod	_	_
+25	manifestement	manifestement	ADV	_	ADV___	36	advmod	_	_
+26	exagérées	exagérer	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	27	acl	_	_
+27	.	.	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#Il n'y a donc aucune corrélation entre le caractère manifestement exagéré des primes versées et leur comparaison avec la quotité disponible.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+3	y	yu	PRON	_	PRON__Person=3	4	expl	_	_
+4	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	donc	donc	ADV	_	ADV___	6	advmod	_	_
+6	aucune	aucun	DET	_	DET__Gender=Fem|Number=Sing	4	det	_	_
+7	corrélation	corrélation	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obj	_	_
+8	entre	entrer	ADP	_	ADP___	10	case	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	caractère	caractère	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+11	manifestement	manifestement	ADV	_	ADV___	14	advmod	_	_
+12	exagéré	exagérer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
+13	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
+14	primes	primer	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	obj	_	_
+15	versées	verser	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	14	acl	_	_
+16	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+17	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	20	nmod:poss	_	_
+18	comparaison	comparaison	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	conj	_	_
+19	avec	avec	ADP	_	ADP___	20	case	_	_
+20	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+21	quotité	quotité	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	nmod	_	_
+22	disponible	disponible	ADJ	_	ADJ__Number=Sing	20	amod	_	_
+23	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Au demeurant, comme indiqué dans le précédent message, le calcul de la quotité disponible ne vous concerne pas, parce que si les primes sont manifestement exagérées, alors elles seront rapportables à la masse de partage, qui est celle du partage à égalité entre les héritiers.
+1	Au	Au	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	demeurant	demeurer	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	comme	comme	ADP	_	ADP___	4	mark	_	_
+5	indiqué	indiquer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	_	_
+6	dans	dan	ADP	_	ADP___	4	case	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+8	précédent	précédent	ADJ	_	ADJ__Gender=Masc|Number=Sing	10	obl	_	_
+9	message	message	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+10	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+12	calcul	calcul	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nsubj	_	_
+13	de	de	ADP	_	ADP___	14	case	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+15	quotité	quotité	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nmod	_	_
+16	disponible	disponible	ADJ	_	ADJ__Number=Sing	10	amod	_	_
+17	ne	ne	ADV	_	ADV___	20	advmod	_	_
+18	vous	se	PRON	_	PRON__Number=Plur|Person=2	20	obj	_	_
+19	concerne	concerner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+20	pas	pas	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+21	,	,	PUNCT	_	PUNCT___	22	punct	_	_
+22	parce	parce	SCONJ	_	SCONJ___	20	mark	_	_
+23	que	que	SCONJ	_	SCONJ___	10	fixed	_	_
+24	si	si	SCONJ	_	SCONJ___	25	mark	_	_
+25	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	36	det	_	_
+26	primes	primer	NOUN	_	NOUN__Gender=Masc|Number=Plur	27	nsubj:pass	_	_
+27	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	aux:pass	_	_
+28	manifestement	manifestement	ADV	_	ADV___	30	advmod	_	_
+29	exagérées	exagérer	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	30	advcl	_	_
+30	,	,	PUNCT	_	PUNCT___	27	punct	_	_
+31	alors	alors	ADV	_	ADV___	30	advmod	_	_
+32	elles	lui	PRON	_	PRON__Gender=Fem|Number=Plur|Person=3	25	nsubj	_	_
+33	seront	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	36	aux:pass	_	_
+34	rapportables	rapportables	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	36	advcl	_	_
+35	à	à	ADP	_	ADP___	36	case	_	_
+36	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+37	masse	masser	NOUN	_	NOUN__Gender=Fem|Number=Sing	38	obl	_	_
+38	de	de	ADP	_	ADP___	36	case	_	_
+39	partage	partager	NOUN	_	NOUN__Gender=Masc|Number=Sing	40	nmod	_	_
+40	,	,	PUNCT	_	PUNCT___	38	punct	_	_
+41	qui	qui	PRON	_	PRON__PronType=Rel	36	nsubj	_	_
+42	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux:pass	_	_
+43	celle	celui	PRON	_	PRON__Gender=Fem|Number=Sing|PronType=Dem	44	acl:relcl	_	_
+44	du	du	DET	_	DET__Gender=Masc|Number=Sing	44	det	_	_
+45	partage	partager	NOUN	_	NOUN__Gender=Masc|Number=Sing	47	nsubj:pass	_	_
+46	à	à	ADP	_	ADP___	47	case	_	_
+47	égalité	égalité	NOUN	_	NOUN__Gender=Fem|Number=Sing	44	nmod	_	_
+48	entre	entrer	ADP	_	ADP___	44	case	_	_
+49	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	51	det	_	_
+50	héritiers	héritier	NOUN	_	NOUN__Gender=Masc|Number=Plur	51	nmod	_	_
+51	.	.	PUNCT	_	PUNCT___	51	punct	_	_
+
+
+#Disons (mais là ça devient plus technique)
+1	Disons	Disons	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+2	(	(	PUNCT	_	PUNCT___	4	punct	_	_
+3	mais	mai	CCONJ	_	CCONJ___	4	cc	_	_
+4	là	là	ADV	_	ADV___	4	det	_	_
+5	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	_
+6	devient	devenir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+7	plus	plaire	ADV	_	ADV___	4	advmod	_	_
+8	technique	technique	ADJ	_	ADJ__Number=Sing	10	conj	_	_
+9	)	)	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#que ce calcul de la quotité disponible peut avoir un sens en cas d'autres donations faites à des non-héritiers, ou faites hors part à des héritiers, ou en cas de legs, qui s'imputent sur la quotité disponible.
+1	que	que	SCONJ	_	SCONJ___	2	mark	_	_
+2	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+3	calcul	calcul	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+4	de	de	ADP	_	ADP___	4	case	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	quotité	quotité	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+7	disponible	disponible	ADJ	_	ADJ__Number=Sing	4	amod	_	_
+8	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	avoir	avoir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+10	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+11	sens	sentir	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obj	_	_
+12	en	en	ADP	_	ADP___	14	case	_	_
+13	cas	cas	NOUN	_	NOUN__Gender=Masc	14	fixed	_	_
+14	d'	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
+15	autres	autre	ADJ	_	ADJ__Number=Plur	14	amod	_	_
+16	donations	donation	NOUN	_	NOUN__Gender=Fem|Number=Plur	10	obl	_	_
+17	faites	fait	ADJ	_	ADJ__Gender=Fem|Number=Plur	20	amod	_	_
+18	à	à	ADP	_	ADP___	20	case	_	_
+19	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	20	det	_	_
+20	non-héritiers	non-héritiers	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	obl	_	_
+21	,	,	PUNCT	_	PUNCT___	22	punct	_	_
+22	ou	ou	CCONJ	_	CCONJ___	20	cc	_	_
+23	faites	fait	ADJ	_	ADJ__Gender=Fem|Number=Plur	10	conj	_	_
+24	hors	hors	ADP	_	ADP___	25	case	_	_
+25	part	partir	NOUN	_	NOUN__Number=Sing	36	fixed	_	_
+26	à	à	ADP	_	ADP___	27	fixed	_	_
+27	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	25	det	_	_
+28	héritiers	héritier	NOUN	_	NOUN__Gender=Masc|Number=Plur	30	obl	_	_
+29	,	,	PUNCT	_	PUNCT___	30	punct	_	_
+30	ou	ou	CCONJ	_	CCONJ___	27	cc	_	_
+31	en	en	ADP	_	ADP___	30	case	_	_
+32	cas	cas	NOUN	_	NOUN__Gender=Masc	25	fixed	_	_
+33	de	de	ADP	_	ADP___	36	fixed	_	_
+34	legs	legs	NOUN	_	NOUN__Gender=Masc|Number=Sing	36	conj	_	_
+35	,	,	PUNCT	_	PUNCT___	36	punct	_	_
+36	qui	qui	PRON	_	PRON__PronType=Rel	44	nsubj	_	_
+37	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	38	expl	_	_
+38	imputent	imputer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	36	acl:relcl	_	_
+39	sur	sur	ADP	_	ADP___	40	case	_	_
+40	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+41	quotité	quotité	NOUN	_	NOUN__Gender=Fem|Number=Sing	36	obl	_	_
+42	disponible	disponible	ADJ	_	ADJ__Number=Sing	36	amod	_	_
+43	.	.	PUNCT	_	PUNCT___	44	punct	_	_
+
+
+#Si les primes versées sont manifestement exagérées, elles participent, en tant que donation, dans le calcul des imputations pour savoir comment est consommée la quotité disponible au fur et à mesure des donations.
+1	Si	Si	SCONJ	_	SCONJ___	2	mark	_	_
+2	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+3	primes	primer	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	nsubj:pass	_	_
+4	versées	verser	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
+5	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	manifestement	manifestement	ADV	_	ADV___	4	advmod	_	_
+7	exagérées	exagérer	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	4	advcl	_	_
+8	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+9	elles	lui	PRON	_	PRON__Gender=Fem|Number=Plur|Person=3	10	nsubj	_	_
+10	participent	participer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+11	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+12	en	en	ADP	_	ADP___	14	case	_	_
+13	tant	tant	ADV	_	ADV___	14	fixed	_	_
+14	que	que	SCONJ	_	SCONJ___	10	fixed	_	_
+15	donation	donation	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obl	_	_
+16	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+17	dans	dan	ADP	_	ADP___	20	case	_	_
+18	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	calcul	calcul	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	advcl	_	_
+20	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
+21	imputations	imputation	NOUN	_	NOUN__Gender=Fem|Number=Plur	22	obj	_	_
+22	pour	pour	ADP	_	ADP___	20	mark	_	_
+23	savoir	savoir	VERB	_	VERB__VerbForm=Inf	10	advcl	_	_
+24	comment	comment	ADV	_	ADV__PronType=Int	25	advmod	_	_
+25	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux:pass	_	_
+26	consommée	consommer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	27	ccomp	_	_
+27	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+28	quotité	quotité	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	obj	_	_
+29	disponible	disponible	ADJ	_	ADJ__Number=Sing	30	amod	_	_
+30	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	27	amod	_	_
+31	fur	fur	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	fixed	_	_
+32	et	et	CCONJ	_	CCONJ___	25	fixed	_	_
+33	à	à	ADP	_	ADP___	36	fixed	_	_
+34	mesure	mesurer	NOUN	_	NOUN__Gender=Fem|Number=Sing	36	fixed	_	_
+35	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	36	det	_	_
+36	donations	donation	NOUN	_	NOUN__Gender=Fem|Number=Plur	44	nsubj	_	_
+37	.	.	PUNCT	_	PUNCT___	38	punct	_	_
+
+
+#Mais ceci est sans effet sur leur caractère rapportable au partage.
+1	Mais	Mais	CCONJ	_	CCONJ___	2	cc	_	_
+2	ceci	ceci	PRON	_	PRON__Number=Sing|PronType=Dem	4	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	sans	sans	ADP	_	ADP___	4	advmod	_	_
+5	effet	effet	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	fixed	_	_
+6	sur	sur	ADP	_	ADP___	4	case	_	_
+7	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+8	caractère	caractère	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	amod	_	_
+9	rapportable	rapportable	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+10	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+11	partage	partager	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obj	_	_
+12	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+

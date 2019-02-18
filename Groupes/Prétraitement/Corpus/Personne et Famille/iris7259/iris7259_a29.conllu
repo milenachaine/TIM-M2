@@ -1,0 +1,93 @@
+#en mairie il y a souvent des consultations gratuites.
+1	en	en	ADP	_	ADP___	2	case	_	_
+2	mairie	mairie	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	il	il	PRON	_	PRON__Number=Sing|Person=3	2	amod	_	_
+4	y	yu	PRON	_	PRON__Person=3	3	fixed	_	_
+5	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	fixed	_	_
+6	souvent	souvent	ADV	_	ADV___	3	advmod	_	_
+7	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
+8	consultations	consultation	NOUN	_	NOUN__Gender=Fem|Number=Plur	3	obj	_	_
+9	gratuites	gratuit	ADJ	_	ADJ__Number=Plur	8	amod	_	_
+10	.	.	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#Si votre frère renonce, c'est sa fille qui "prend sa place".
+1	Si	Si	SCONJ	_	SCONJ___	2	mark	_	_
+2	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	2	nmod:poss	_	_
+3	frère	frère	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	obl	_	_
+4	renonce	renoncer	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	amod	_	_
+5	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+6	c'	ce	PRON	_	PRON__Number=Sing|Person=3	3	nsubj	_	_
+7	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	3	nmod:poss	_	_
+9	fille	fille	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+10	qui	qui	PRON	_	PRON__PronType=Rel	2	nsubj	_	_
+11	"	"	PUNCT	_	PUNCT___	19	punct	_	_
+12	prend	prendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+13	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	19	nmod:poss	_	_
+14	place	placer	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obj	_	_
+15	"	"	PUNCT	_	PUNCT___	19	punct	_	_
+16	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Si elle est majeure elle renonce à son tour ou pas.
+1	Si	Si	SCONJ	_	SCONJ___	2	mark	_	_
+2	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	majeure	majeur	ADJ	_	ADJ__Gender=Fem|Number=Sing	3	advmod	_	_
+5	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
+6	renonce	renoncer	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+7	à	à	ADP	_	ADP___	8	case	_	_
+8	son	son	DET	_	DET__Number=Sing|Poss=Yes	3	nmod:poss	_	_
+9	tour	tour	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+10	ou	ou	CCONJ	_	CCONJ___	2	cc	_	_
+11	pas	pas	ADV	_	ADV__Polarity=Neg	19	conj	_	_
+12	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Si elle est mineure (ce qui semble être le cas) votre frère doit demander la renonciation pour le compte de sa fille, ce choix sera validé ou non, dans l'intérêt de l'enfant, par un juge.
+1	Si	Si	SCONJ	_	SCONJ___	2	mark	_	_
+2	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	mineure	mineur	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	advcl	_	_
+5	(	(	PUNCT	_	PUNCT___	3	punct	_	_
+6	ce	ce	PRON	_	PRON__PronType=Rel	3	iobj	_	_
+7	qui	qui	PRON	_	PRON__PronType=Rel	8	nsubj	_	_
+8	semble	sembler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+9	être	être	AUX	_	AUX__VerbForm=Inf	8	cop	_	_
+10	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+11	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obl	_	_
+12	)	)	PUNCT	_	PUNCT___	13	punct	_	_
+13	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	19	nmod:poss	_	_
+14	frère	frère	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nsubj	_	_
+15	doit	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+16	demander	demander	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+17	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	renonciation	renonciation	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obj	_	_
+19	pour	pour	ADP	_	ADP___	19	case	_	_
+20	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	compte	compter	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	nmod	_	_
+22	de	de	ADP	_	ADP___	19	case	_	_
+23	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	24	nmod:poss	_	_
+24	fille	fille	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	nmod	_	_
+25	,	,	PUNCT	_	PUNCT___	22	punct	_	_
+26	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	19	det	_	_
+27	choix	choix	NOUN	_	NOUN__Gender=Masc|Number=Sing	32	nsubj	_	_
+28	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	32	cop	_	_
+29	validé	valider	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	32	conj	_	_
+30	ou	ou	CCONJ	_	CCONJ___	32	cc	_	_
+31	non	non	ADV	_	ADV___	32	conj	_	_
+32	,	,	PUNCT	_	PUNCT___	32	punct	_	_
+33	dans	dan	ADP	_	ADP___	35	case	_	_
+34	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	35	det	_	_
+35	intérêt	intérêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	32	obl	_	_
+36	de	de	ADP	_	ADP___	37	case	_	_
+37	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	35	det	_	_
+38	enfant	enfant	NOUN	_	NOUN__Number=Sing	32	nmod	_	_
+39	,	,	PUNCT	_	PUNCT___	42	punct	_	_
+40	par	par	ADP	_	ADP___	42	case	_	_
+41	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	juge	juger	NOUN	_	NOUN__Gender=Masc|Number=Sing	54	obl	_	_
+43	.	.	PUNCT	_	PUNCT___	42	punct	_	_
+
+

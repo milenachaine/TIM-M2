@@ -1,0 +1,45 @@
+#Tout bon pour moi.
+1	Tout	Tout	ADV	_	ADV___	2	advmod	_	_
+2	bon	bon	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	pour	pour	ADP	_	ADP___	4	case	_	_
+4	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	2	obl	_	_
+5	.	.	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#C'est à dire ?
+1	C'	C'	PRON	_	PRON__Number=Sing|Person=3	2	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+3	à	à	ADP	_	ADP___	4	mark	_	_
+4	dire	dire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	?	?	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#Parce que ce qu'ils m'ont fait et me font toujours ne vaut pas 1200 €.
+1	Parce	Parce	SCONJ	_	SCONJ___	2	mark	_	_
+2	que	que	SCONJ	_	SCONJ___	2	fixed	_	_
+3	ce	ce	PRON	_	PRON__PronType=Rel	4	fixed	_	_
+4	qu'	que	PRON	_	PRON__PronType=Rel	2	obj	_	_
+5	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	2	nsubj	_	_
+6	m'	se	PRON	_	PRON__Number=Sing|Person=1	9	expl	_	_
+7	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+9	et	et	CCONJ	_	CCONJ___	9	cc	_	_
+10	me	se	PRON	_	PRON__Number=Sing|Person=1	9	expl	_	_
+11	font	faire	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+12	toujours	toujours	ADV	_	ADV___	11	advmod	_	_
+13	ne	ne	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+14	vaut	valoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	xcomp	_	_
+15	pas	pas	ADV	_	ADV__Polarity=Neg	18	advmod	_	_
+16	1200	1200	NUM	_	NUM__NumType=Card	18	nummod	_	_
+17	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	18	obj	_	_
+18	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Mon avocat demandé 15000€
+1	Mon	Mon	DET	_	DET__Number=Sing|Poss=Yes	2	nmod:poss	_	_
+2	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	demandé	demander	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+4	15000	15000	NUM	_	NUM__NumType=Card	2	punct	_	_
+5	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	2	nmod	_	_
+
+

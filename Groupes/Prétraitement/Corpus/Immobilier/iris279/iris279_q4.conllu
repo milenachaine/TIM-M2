@@ -1,0 +1,122 @@
+#Bonsoir
+1	Bonsoir	Bonsoir	NUM	_	NUM__NumType=Card	0	ROOT	_	_
+
+
+#VincentBLa SCI dont je suis la gérante
+1	VincentBLa	VincentBLa	ADJ	_	ADJ__Gender=Masc|Number=Plur	0	ROOT	_	_
+2	SCI	SCI	PROPN	_	PROPN___	2	nmod	_	_
+3	dont	dont	PRON	_	PRON__PronType=Rel	2	dep	_	_
+4	je	il	PRON	_	PRON__Number=Sing|Person=1	8	nsubj	_	_
+5	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	gérante	gérant	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	acl:relcl	_	_
+
+
+#-statutaire a établi un bail commercial à une société commerciale depuis 2008;Cette société commerciale a déplacé son siège social dans une commune voisine et n'a pas déclaré d'établissement secondaire.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	statutaire	statutaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	nsubj	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+4	établi	établir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	xcomp	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+6	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+7	commercial	commercial	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	amod	_	_
+8	à	à	ADP	_	ADP___	2	case	_	_
+9	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	société	société	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	nmod	_	_
+11	commerciale	commercial	ADJ	_	ADJ__Gender=Fem|Number=Sing	12	amod	_	_
+12	depuis	depuis	ADP	_	ADP___	10	case	_	_
+13	2008;Cette	2008;Cette	NUM	_	NUM__NumType=Card	14	nummod	_	_
+14	société	société	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+15	commerciale	commercial	ADJ	_	ADJ__Gender=Fem|Number=Sing	14	amod	_	_
+16	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	déplacé	déplacer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+18	son	son	DET	_	DET__Number=Sing|Poss=Yes	14	nmod:poss	_	_
+19	siège	siéger	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obj	_	_
+20	social	social	ADJ	_	ADJ__Gender=Masc|Number=Sing	22	amod	_	_
+21	dans	dan	ADP	_	ADP___	22	case	_	_
+22	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+23	commune	commun	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	obl	_	_
+24	voisine	voisiner	ADJ	_	ADJ__Gender=Fem|Number=Sing	25	amod	_	_
+25	et	et	CCONJ	_	CCONJ___	25	cc	_	_
+26	n'	ne	ADV	_	ADV__Polarity=Neg	27	advmod	_	_
+27	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+28	pas	pas	ADV	_	ADV__Polarity=Neg	27	advmod	_	_
+29	déclaré	déclarer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	31	conj	_	_
+30	d'	de	ADP	_	ADP___	31	case	_	_
+31	établissement	établissement	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	obj	_	_
+32	secondaire	secondaire	ADJ	_	ADJ__Number=Sing	31	amod	_	_
+33	.	.	PUNCT	_	PUNCT___	37	punct	_	_
+
+
+#Cette société commerciale est radiée pour cessation d'activité.
+1	Cette	Cette	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	1	det	_	_
+2	société	société	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+3	commerciale	commercial	ADJ	_	ADJ__Gender=Fem|Number=Sing	2	amod	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+5	radiée	radier	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+6	pour	pour	ADP	_	ADP___	8	case	_	_
+7	cessation	cessation	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+8	d'	de	ADP	_	ADP___	2	case	_	_
+9	activité	activité	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+10	.	.	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#Ma question: que devient le bail commercial qui lie la SCI à cette société commerciale qui n' existe plus, donc plus de représentant légal, que devient-il?Pour quelle raison il paie au CARPA quand il veut bien :je ne peux pas répondre pour quelle raison il ne paie pas régulièrement
+1	Ma	Ma	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	nsubj	_	_
+3	:	:	PUNCT	_	PUNCT___	2	punct	_	_
+4	que	que	PRON	_	PRON__PronType=Rel	8	mark	_	_
+5	devient	devenir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nsubj	_	_
+8	commercial	commercial	ADJ	_	ADJ__Gender=Masc|Number=Sing	2	amod	_	_
+9	qui	qui	PRON	_	PRON__PronType=Rel	10	nsubj	_	_
+10	lie	lier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	SCI	SCI	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obj	_	_
+13	à	à	ADP	_	ADP___	14	case	_	_
+14	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+15	société	société	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obl	_	_
+16	commerciale	commercial	ADJ	_	ADJ__Gender=Fem|Number=Sing	18	amod	_	_
+17	qui	qui	PRON	_	PRON__PronType=Rel	18	nsubj	_	_
+18	n	ne	NOUN	_	NOUN___	14	acl:relcl	_	_
+19	'	'	PUNCT	_	PUNCT___	18	punct	_	_
+20	existe	exister	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+21	plus	plaire	ADV	_	ADV__Polarity=Neg	22	advmod	_	_
+22	,	,	PUNCT	_	PUNCT___	18	punct	_	_
+23	donc	donc	ADV	_	ADV___	22	advmod	_	_
+24	plus	plaire	ADV	_	ADV___	25	advmod	_	_
+25	de	de	ADP	_	ADP___	25	det	_	_
+26	représentant	représenter	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	obl	_	_
+27	légal	légal	ADJ	_	ADJ__Gender=Masc|Number=Sing	25	amod	_	_
+28	,	,	PUNCT	_	PUNCT___	27	punct	_	_
+29	que	que	PRON	_	PRON__PronType=Rel	31	obj	_	_
+30	devient	devenir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
+31	-	-	PUNCT	_	PUNCT___	25	punct	_	_
+32	il?Pour	il?Pour	ADV	_	ADV___	31	case	_	_
+33	quelle	quel	DET	_	DET__Gender=Fem|Number=Sing|PronType=Int	37	det	_	_
+34	raison	raison	NOUN	_	NOUN__Gender=Fem|Number=Sing	37	obl	_	_
+35	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	37	nsubj	_	_
+36	paie	payer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	ccomp	_	_
+37	au	au	PRON	_	PRON__PronType=Rel	25	case	_	_
+38	CARPA	CARPA	PROPN	_	PROPN__Gender=Fem|Number=Sing	39	obl	_	_
+39	quand	quand	SCONJ	_	SCONJ___	37	mark	_	_
+40	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	39	nsubj	_	_
+41	veut	vouloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	advcl	_	_
+42	bien	bien	ADV	_	ADV___	43	advmod	_	_
+43	:	:	PUNCT	_	PUNCT___	46	punct	_	_
+44	je	il	PRON	_	PRON__Number=Sing|Person=1	43	nsubj	_	_
+45	ne	ne	ADV	_	ADV__Polarity=Neg	46	advmod	_	_
+46	peux	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	46	aux	_	_
+47	pas	pas	ADV	_	ADV__Polarity=Neg	48	advmod	_	_
+48	répondre	répondre	VERB	_	VERB__VerbForm=Inf	46	xcomp	_	_
+49	pour	pour	ADP	_	ADP___	50	case	_	_
+50	quelle	quel	DET	_	DET__Gender=Fem|Number=Sing|PronType=Int	48	det	_	_
+51	raison	raison	NOUN	_	NOUN__Gender=Fem|Number=Sing	46	obl	_	_
+52	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	53	nsubj	_	_
+53	ne	ne	ADV	_	ADV__Polarity=Neg	71	advmod	_	_
+54	paie	payer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	53	parataxis	_	_
+55	pas	pas	ADV	_	ADV__Polarity=Neg	58	advmod	_	_
+56	régulièrement	régulièrement	ADV	_	ADV___	58	advmod	_	_
+
+

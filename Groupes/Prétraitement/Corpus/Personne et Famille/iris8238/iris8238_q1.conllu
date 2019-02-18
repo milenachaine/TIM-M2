@@ -1,0 +1,162 @@
+#Bonjour, je voudrais savoir deux choses :
+1	Bonjour	Bonjour	PROPN	_	PROPN___	5	obl	_	_
+2	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+4	voudrais	vouloir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	savoir	savoir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+6	deux	deux	NUM	_	NUM__NumType=Card	7	nummod	_	_
+7	choses	chose	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	obj	_	_
+8	:	:	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#- Les frais de Notaire sont soustraits de l' actif de la succession ?
+1	-	-	PUNCT	_	PUNCT___	5	punct	_	_
+2	Les	Les	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+3	frais	frai	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	nsubj:pass	_	_
+4	de	de	ADP	_	ADP___	5	case	_	_
+5	Notaire	Notaire	PROPN	_	PROPN__Gender=Masc|Number=Sing	5	nmod	_	_
+6	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	soustraits	soustraire	ADJ	_	ADJ__Gender=Masc|Number=Plur	0	ROOT	_	_
+8	de	de	ADP	_	ADP___	5	case	_	_
+9	l	l	NOUN	_	NOUN___	11	obl	_	_
+10	'	'	PUNCT	_	PUNCT___	11	punct	_	_
+11	actif	actif	ADJ	_	ADJ__Gender=Masc|Number=Sing	15	appos	_	_
+12	de	de	ADP	_	ADP___	13	case	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+14	succession	succession	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	nmod	_	_
+15	?	?	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#comme par exemple les Frais d' Obsèques.
+1	comme	comme	ADP	_	ADP___	5	case	_	_
+2	par	par	ADP	_	ADP___	5	fixed	_	_
+3	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	fixed	_	_
+4	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+5	Frais	Frais	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+6	d	d	NOUN	_	NOUN___	7	flat:name	_	_
+7	'	'	PUNCT	_	PUNCT___	5	punct	_	_
+8	Obsèques	Obsèques	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	appos	_	_
+9	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Sans tenir compte d' une Assurance Vie voir ma question ci-dessous...
+1	Sans	Sans	ADP	_	ADP___	5	mark	_	_
+2	tenir	tenir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+3	compte	compter	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+4	d	d	NOUN	_	NOUN___	5	obl	_	_
+5	'	'	PUNCT	_	PUNCT___	5	punct	_	_
+6	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Assurance	Assurance	PROPN	_	PROPN__Gender=Fem|Number=Sing	5	obj	_	_
+8	Vie	Vie	X	_	X___	5	flat:name	_	_
+9	voir	voir	VERB	_	VERB__VerbForm=Inf	11	xcomp	_	_
+10	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	11	nmod:poss	_	_
+11	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obj	_	_
+12	ci	ci	PRON	_	PRON__PronType=Rel	13	advmod	_	_
+13	-	-	PUNCT	_	PUNCT___	11	fixed	_	_
+14	dessous	dessous	ADV	_	ADV___	15	fixed	_	_
+15	...	...	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#- Il y à une Assurance Vie qui sera traitée indépendamment du Notaire il n' intervient pas cette Assurance paye directement aux Impots les Droits de Succession
+1	-	-	PUNCT	_	PUNCT___	5	punct	_	_
+2	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+3	y	yu	PRON	_	PRON__Person=3	5	case	_	_
+4	à	à	ADP	_	ADP___	5	fixed	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+6	Assurance	Assurance	PROPN	_	PROPN__Gender=Fem|Number=Sing	7	nmod	_	_
+7	Vie	Vie	X	_	X___	5	flat:name	_	_
+8	qui	qui	PRON	_	PRON__PronType=Rel	5	nsubj:pass	_	_
+9	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	aux:pass	_	_
+10	traitée	traiter	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	acl:relcl	_	_
+11	indépendamment	indépendamment	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	advmod	_	_
+12	du	du	DET	_	DET__Gender=Masc|Number=Sing	13	det	_	_
+13	Notaire	Notaire	PROPN	_	PROPN__Gender=Masc|Number=Sing	11	obj	_	_
+14	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	15	nsubj	_	_
+15	n	ne	NOUN	_	NOUN___	15	fixed	_	_
+16	'	'	PUNCT	_	PUNCT___	17	fixed	_	_
+17	intervient	intervenir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+18	pas	pas	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+19	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	17	det	_	_
+20	Assurance	Assurance	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	obj	_	_
+21	paye	payer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+22	directement	directement	ADV	_	ADV___	17	advmod	_	_
+23	aux	aux	ADJ	_	ADJ___	15	det	_	_
+24	Impots	Impots	NOUN	_	NOUN__Gender=Masc|Number=Plur	28	conj	_	_
+25	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	24	det	_	_
+26	Droits	Droits	NOUN	_	NOUN__Gender=Masc|Number=Plur	25	obj	_	_
+27	de	de	ADP	_	ADP___	28	case	_	_
+28	Succession	Succession	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	nmod	_	_
+
+
+#donc normalement n' y à aucun Frais de Notaire pour celle-ci ?
+1	donc	donc	ADV	_	ADV___	5	advmod	_	_
+2	normalement	normalement	ADV	_	ADV___	5	advmod	_	_
+3	n	ne	NOUN	_	NOUN___	0	ROOT	_	_
+4	'	'	PUNCT	_	PUNCT___	5	punct	_	_
+5	y	yu	PRON	_	PRON__Person=3	5	advmod	_	_
+6	à	à	ADP	_	ADP___	7	case	_	_
+7	aucun	aucun	DET	_	DET__Gender=Masc|Number=Sing	5	det	_	_
+8	Frais	Frais	PROPN	_	PROPN__Gender=Masc|Number=Sing	5	obl	_	_
+9	de	de	ADP	_	ADP___	11	case	_	_
+10	Notaire	Notaire	PROPN	_	PROPN__Gender=Masc|Number=Sing	11	nmod	_	_
+11	pour	pour	ADP	_	ADP___	15	case	_	_
+12	celle-ci	celui-ci	PRON	_	PRON__Gender=Fem|Number=Sing|PronType=Dem	13	nmod	_	_
+13	?	?	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Merci pour vos renseignements.
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	pour	pour	ADP	_	ADP___	5	case	_	_
+3	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	5	nmod:poss	_	_
+4	renseignements	renseignement	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	nmod	_	_
+5	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Une autre question pour l' Acte de notoriété :
+1	Une	Une	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+2	autre	autre	ADJ	_	ADJ__Number=Sing	5	amod	_	_
+3	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	pour	pour	ADP	_	ADP___	5	case	_	_
+5	l	l	NOUN	_	NOUN___	5	nmod	_	_
+6	'	'	PUNCT	_	PUNCT___	7	punct	_	_
+7	Acte	Acte	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	appos	_	_
+8	de	de	ADP	_	ADP___	5	case	_	_
+9	notoriété	notoriété	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+10	:	:	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Ma mère était re mariée ( sans enfants ) donc elle avais deux livrets, j' ai celui de mes parents c 'est bien celui-là qu' il faut ?
+1	Ma	Ma	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	5	amod	_	_
+2	mère	mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nsubj	_	_
+3	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux:pass	_	_
+4	re	r	ADP	_	ADP___	5	obj	_	_
+5	mariée	marier	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+6	(	(	PUNCT	_	PUNCT___	7	punct	_	_
+7	sans	sans	ADP	_	ADP___	5	case	_	_
+8	enfants	enfant	NOUN	_	NOUN__Number=Plur	5	obl	_	_
+9	)	)	PUNCT	_	PUNCT___	11	punct	_	_
+10	donc	donc	ADV	_	ADV___	11	advmod	_	_
+11	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+12	avais	avoir	NOUN	_	NOUN___	13	conj	_	_
+13	deux	deux	NUM	_	NUM__NumType=Card	11	nummod	_	_
+14	livrets	livret	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	obj	_	_
+15	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+16	j	j	PRON	_	PRON__PronType=Rel	17	obl	_	_
+17	'	'	PUNCT	_	PUNCT___	15	punct	_	_
+18	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	_
+19	celui	celui	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Dem	17	obl	_	_
+20	de	de	ADP	_	ADP___	22	case	_	_
+21	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	22	nmod:poss	_	_
+22	parents	parent	NOUN	_	NOUN__Gender=Masc|Number=Plur	17	nmod	_	_
+23	c	c	PRON	_	PRON__PronType=Rel	15	amod	_	_
+24	'	'	PUNCT	_	PUNCT___	28	punct	_	_
+25	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+26	bien	bien	ADV	_	ADV___	25	advmod	_	_
+27	celui-là	celui-là	SCONJ	_	SCONJ___	28	conj	_	_
+28	qu	qu	PRON	_	PRON__PronType=Rel	28	fixed	_	_
+29	'	'	PUNCT	_	PUNCT___	28	punct	_	_
+30	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	28	nsubj	_	_
+31	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	obl	_	_
+32	?	?	PUNCT	_	PUNCT___	28	punct	_	_
+
+

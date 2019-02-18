@@ -1,0 +1,72 @@
+#Qu'on vous dit : Bien, le bonjourQu'est
+1	Qu'	Qu'	PRON	_	PRON__PronType=Int	4	obj	_	_
+2	on	on	PRON	_	PRON__Number=Sing|Person=3	4	nsubj	_	_
+3	vous	se	PRON	_	PRON__Number=Plur|Person=2	4	iobj	_	_
+4	dit	dire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	:	:	PUNCT	_	PUNCT___	4	punct	_	_
+6	Bien	Bien	ADV	_	ADV___	4	advmod	_	_
+7	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	bonjourQu'	bonjourQu'	PROPN	_	PROPN__Gender=Masc|Number=Sing	10	nsubj	_	_
+10	est	être	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	fixed	_	_
+
+
+#-ce que vous entendez pas "cagnotte" ?
+1	-	-	PUNCT	_	PUNCT___	4	punct	_	_
+2	ce	ce	PRON	_	PRON__PronType=Rel	0	ROOT	_	_
+3	que	que	PRON	_	PRON__PronType=Rel	4	obj	_	_
+4	vous	se	PRON	_	PRON__Number=Plur|Person=2	4	nsubj	_	_
+5	entendez	entendre	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+6	pas	pas	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+7	"	"	PUNCT	_	PUNCT___	10	punct	_	_
+8	cagnotte	cagnotte	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	9	obj	_	_
+9	"	"	PUNCT	_	PUNCT___	10	punct	_	_
+10	?	?	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Si vous bénéficiez d'un avantage occulte (pour l'URSSAF !
+1	Si	Si	SCONJ	_	SCONJ___	4	mark	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	4	nsubj	_	_
+3	bénéficiez	bénéficier	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	d'	de	ADP	_	ADP___	4	case	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+6	avantage	avantager	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+7	occulte	occulter	ADJ	_	ADJ__Number=Sing	10	amod	_	_
+8	(	(	PUNCT	_	PUNCT___	9	punct	_	_
+9	pour	pour	ADP	_	ADP___	10	case	_	_
+10	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+11	URSSAF	URSSAF	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obl	_	_
+12	!	!	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#) donc non écrit, votre employeur aura d'autant plus de facilité à ne pas honorer son engagement, ou à y mettre fin sans formalisme.
+1	)	)	PUNCT	_	PUNCT___	4	punct	_	_
+2	donc	donc	ADV	_	ADV___	4	advmod	_	_
+3	non	non	ADV	_	ADV___	4	advmod	_	_
+4	écrit	écrire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
+5	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+6	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+7	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nsubj	_	_
+8	aura	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+9	d'	de	ADP	_	ADP___	10	case	_	_
+10	autant	autant	ADV	_	ADV___	6	fixed	_	_
+11	plus	plaire	ADV	_	ADV___	12	fixed	_	_
+12	de	de	ADP	_	ADP___	12	fixed	_	_
+13	facilité	faciliter	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obj	_	_
+14	à	à	ADP	_	ADP___	15	mark	_	_
+15	ne	ne	ADV	_	ADV___	12	advmod	_	_
+16	pas	pas	ADV	_	ADV___	15	fixed	_	_
+17	honorer	honorer	VERB	_	VERB__VerbForm=Inf	18	xcomp	_	_
+18	son	son	DET	_	DET__Number=Sing|Poss=Yes	15	nmod:poss	_	_
+19	engagement	engagement	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obj	_	_
+20	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+21	ou	ou	CCONJ	_	CCONJ___	23	cc	_	_
+22	à	à	ADP	_	ADP___	23	mark	_	_
+23	y	yu	PRON	_	PRON__Person=3	23	iobj	_	_
+24	mettre	mettre	VERB	_	VERB__VerbForm=Inf	26	conj	_	_
+25	fin	fin	NOUN	_	NOUN__Number=Sing	26	obj	_	_
+26	sans	sans	ADP	_	ADP___	23	case	_	_
+27	formalisme	formalisme	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	obl	_	_
+28	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+

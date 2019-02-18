@@ -1,0 +1,112 @@
+#Bonjour, bien sur que
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	bien	bien	ADV	_	ADV___	1	advmod	_	_
+4	sur	sur	ADP	_	ADP___	3	fixed	_	_
+5	que	que	SCONJ	_	SCONJ___	4	fixed	_	_
+
+
+#si il y a plusieurs diamètres possibles.
+1	si	si	SCONJ	_	SCONJ___	1	mark	_	_
+2	il	il	PRON	_	PRON__Number=Sing|Person=3	0	ROOT	_	_
+3	y	yu	PRON	_	PRON__Person=3	1	fixed	_	_
+4	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	fixed	_	_
+5	plusieurs	plusieurs	DET	_	DET__Number=Plur	4	det	_	_
+6	diamètres	diamètre	NOUN	_	NOUN__Gender=Fem|Number=Plur	7	obj	_	_
+7	possibles	possible	ADJ	_	ADJ__Number=Plur	7	amod	_	_
+8	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Pour la pose d'un sanibroyeur il faut un diamètre minimum de 100.
+1	Pour	Pour	ADP	_	ADP___	1	case	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+3	pose	poser	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obl	_	_
+4	d'	de	ADP	_	ADP___	3	case	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+6	sanibroyeur	sanibroyeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+7	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+8	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+9	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+10	diamètre	diamètre	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+11	minimum	minimum	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	amod	_	_
+12	de	de	ADP	_	ADP___	11	case	_	_
+13	100	100	PRON	_	PRON__NumType=Card|PronType=Rel	7	nmod	_	_
+14	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Nous avons une descente EU de 75 qui est utilisée pour le sanibroyeur.
+1	Nous	Nous	PRON	_	PRON__Number=Plur|Person=1	1	nsubj	_	_
+2	avons	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+4	descente	descente	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	amod	_	_
+5	EU	EU	NOUN	_	NOUN___	4	obj	_	_
+6	de	de	ADP	_	ADP___	7	case	_	_
+7	75	75	PRON	_	PRON__NumType=Card|PronType=Rel	7	nmod	_	_
+8	qui	qui	PRON	_	PRON__PronType=Rel	7	nsubj:pass	_	_
+9	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+10	utilisée	utiliser	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	advcl	_	_
+11	pour	pour	ADP	_	ADP___	7	case	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+13	sanibroyeur	sanibroyeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+14	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Techniquement c'est "contre-indiqué" cela ne fait pas un pli.
+1	Techniquement	Techniquement	ADV	_	ADV___	1	nsubj:pass	_	_
+2	c'	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+4	"	"	PUNCT	_	PUNCT___	3	punct	_	_
+5	contre-indiqué	contre-indiquer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+6	"	"	PUNCT	_	PUNCT___	7	punct	_	_
+7	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	7	nsubj	_	_
+8	ne	ne	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+9	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
+10	pas	pas	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+11	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+12	pli	pli	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+13	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Dires de professionnels (archi et plombier).Vous avez entierement raison, s'y ajoute le problème de tartre.
+1	Dires	Dires	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+2	de	de	ADP	_	ADP___	1	case	_	_
+3	professionnels	professionnel	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	nmod	_	_
+4	(	(	PUNCT	_	PUNCT___	3	punct	_	_
+5	archi	archi	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+6	et	et	CCONJ	_	CCONJ___	7	cc	_	_
+7	plombier).Vous	plombier).Vous	PRON	_	PRON__Number=Plur|Person=1	7	nsubj	_	_
+8	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	7	conj	_	_
+9	entierement	entierement	ADV	_	ADV___	7	advmod	_	_
+10	raison	raison	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obj	_	_
+11	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+12	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	11	case	_	_
+13	y	yu	PRON	_	PRON__Person=3	7	fixed	_	_
+14	ajoute	ajouter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	fixed	_	_
+15	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	problème	problème	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obl	_	_
+17	de	de	ADP	_	ADP___	19	case	_	_
+18	tartre	tartre	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	nmod	_	_
+19	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Mais cela n'a rien à voir, c'est juste un facteur indépendant ou .... aggravant !
+1	Mais	Mais	CCONJ	_	CCONJ___	1	cc	_	_
+2	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	1	nsubj	_	_
+3	n'	ne	ADV	_	ADV___	1	advmod	_	_
+4	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	4	obj	_	_
+6	à	à	ADP	_	ADP___	7	mark	_	_
+7	voir	voir	VERB	_	VERB__VerbForm=Inf	7	acl	_	_
+8	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+9	c'	ce	PRON	_	PRON__Number=Sing|Person=3	7	nsubj	_	_
+10	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	juste	juste	ADV	_	ADV___	7	advmod	_	_
+12	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+13	facteur	facteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+14	indépendant	indépendant	ADJ	_	ADJ__Gender=Masc|Number=Sing	16	amod	_	_
+15	ou	ou	CCONJ	_	CCONJ___	16	cc	_	_
+16	....	....	PUNCT	_	PUNCT___	21	conj	_	_
+17	aggravant	aggraver	VERB	_	VERB__Tense=Pres|VerbForm=Part	19	acl	_	_
+18	!	!	PUNCT	_	PUNCT___	19	punct	_	_
+
+

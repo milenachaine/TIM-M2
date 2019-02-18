@@ -1,0 +1,152 @@
+#Bonsoir à tous !
+1	Bonsoir	Bonsoir	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	à	à	ADP	_	ADP___	3	case	_	_
+3	tous	tout	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Rel	1	obl	_	_
+4	!	!	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Voici mon problème :
+1	Voici	Voici	VERB	_	VERB__Mood=Ind|VerbForm=Fin	0	ROOT	_	_
+2	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	3	nmod:poss	_	_
+3	problème	problème	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+4	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Notre  bureau est situé à une 5/10 mètres d'un lavage auto !
+1	Notre	Notre	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	 	 	SPACE	_		3		_	_
+3	bureau	bureau	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj:pass	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
+5	situé	situer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+6	à	à	ADP	_	ADP___	7	case	_	_
+7	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+8	5/10	5/10	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	amod	_	_
+9	mètres	métrer	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	obl	_	_
+10	d'	de	ADP	_	ADP___	9	case	_	_
+11	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	lavage	lavage	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+13	auto	auto	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	amod	_	_
+14	!	!	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Toute la journée c'est un bruit continu deet aspirateurs, nous n'en pouvons plus !!
+1	Toute	Toute	ADJ	_	ADJ__Gender=Fem|Number=Sing	1	amod	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	journée	journée	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	c'	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	bruit	bruire	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	amod	_	_
+8	continu	continu	ADJ	_	ADJ__Gender=Masc|Number=Sing	5	nmod	_	_
+9	deet	deet	ADP	_	ADP___	11	amod	_	_
+10	aspirateurs	aspirateur	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	amod	_	_
+11	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+12	nous	se	PRON	_	PRON__Number=Plur|Person=1	13	nsubj	_	_
+13	n'	ne	ADV	_	ADV___	13	advmod	_	_
+14	en	en	PRON	_	PRON__Person=3	17	expl	_	_
+15	pouvons	pouvoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	17	fixed	_	_
+16	plus	plaire	ADV	_	ADV___	17	advmod	_	_
+17	!	!	PUNCT	_	PUNCT___	13	punct	_	_
+18	!	!	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Pour tout vous dire, nous (ma collègue et moi) travaillons en tant que gestionnaire de paie dans un cabinet d'expert comptable, nous avons besoin de CALME ou tout au moins d'un bruit cohérent à une zone commerciale (à proximité !)
+1	Pour	Pour	ADP	_	ADP___	1	mark	_	_
+2	tout	tout	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	fixed	_	_
+3	vous	se	PRON	_	PRON__Number=Plur|Person=2	1	iobj	_	_
+4	dire	dire	VERB	_	VERB__VerbForm=Inf	1	advcl	_	_
+5	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+6	nous	se	PRON	_	PRON__Number=Plur|Person=1	7	nsubj	_	_
+7	(	(	PUNCT	_	PUNCT___	5	punct	_	_
+8	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	5	nmod:poss	_	_
+9	collègue	collègue	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	conj	_	_
+10	et	et	CCONJ	_	CCONJ___	9	cc	_	_
+11	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	13	conj	_	_
+12	)	)	PUNCT	_	PUNCT___	13	punct	_	_
+13	travaillons	travailler	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	obl	_	_
+14	en	en	ADP	_	ADP___	17	case	_	_
+15	tant	tant	ADV	_	ADV___	17	fixed	_	_
+16	que	que	SCONJ	_	SCONJ___	17	fixed	_	_
+17	gestionnaire	gestionnaire	NOUN	_	NOUN__Number=Sing	13	nmod	_	_
+18	de	de	ADP	_	ADP___	20	case	_	_
+19	paie	payer	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	nmod	_	_
+20	dans	dan	ADP	_	ADP___	17	case	_	_
+21	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+22	cabinet	cabinet	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+23	d'	de	ADP	_	ADP___	25	case	_	_
+24	expert	expert	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	nmod	_	_
+25	comptable	comptable	ADJ	_	ADJ__Number=Sing	25	amod	_	_
+26	,	,	PUNCT	_	PUNCT___	30	punct	_	_
+27	nous	se	PRON	_	PRON__Number=Plur|Person=1	30	nsubj	_	_
+28	avons	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+29	besoin	besoin	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	obj	_	_
+30	de	de	ADP	_	ADP___	25	case	_	_
+31	CALME	CALME	PROPN	_	PROPN___	30	obl	_	_
+32	ou	ou	CCONJ	_	CCONJ___	30	cc	_	_
+33	tout	tout	ADJ	_	ADJ__Gender=Masc|Number=Sing	25	advmod	_	_
+34	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	37	fixed	_	_
+35	moins	moins	ADV	_	ADV___	37	fixed	_	_
+36	d'	de	ADP	_	ADP___	37	case	_	_
+37	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+38	bruit	bruire	NOUN	_	NOUN__Gender=Masc|Number=Sing	37	conj	_	_
+39	cohérent	cohérent	ADV	_	ADV___	25	advmod	_	_
+40	à	à	ADP	_	ADP___	25	case	_	_
+41	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+42	zone	zone	NOUN	_	NOUN__Gender=Fem|Number=Sing	41	obl	_	_
+43	commerciale	commercial	ADJ	_	ADJ__Gender=Fem|Number=Sing	44	amod	_	_
+44	(	(	PUNCT	_	PUNCT___	53	punct	_	_
+45	à	à	ADP	_	ADP___	53	case	_	_
+46	proximité	proximité	NOUN	_	NOUN__Gender=Fem|Number=Sing	53	obl	_	_
+47	!	!	PUNCT	_	PUNCT___	49	punct	_	_
+48	)	)	PUNCT	_	PUNCT___	49	punct	_	_
+
+
+#Que pouvons nous faire pour faire limiter ce bruit permanent ?
+1	Que	Que	SCONJ	_	SCONJ___	1	obj	_	_
+2	pouvons	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	nous	se	PRON	_	PRON__Number=Plur|Person=1|Reflex=Yes	1	nsubj	_	_
+4	faire	faire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	pour	pour	ADP	_	ADP___	5	mark	_	_
+6	faire	faire	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+7	limiter	limiter	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+8	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+9	bruit	bruire	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+10	permanent	permanent	ADJ	_	ADJ__Gender=Masc|Number=Sing	9	amod	_	_
+11	?	?	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#?
+1	?	?	PUNCT	_	PUNCT___	0	ROOT	_	_
+
+
+#Fenêtres ouvertes c'est impossible de se concentrer, fenêtres fermées... ben il fait chaud !!!
+1	Fenêtres	Fenêtres	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	obl	_	_
+2	ouvertes	ouvrir	ADJ	_	ADJ__Gender=Fem|Number=Plur	3	amod	_	_
+3	c'	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+5	impossible	impossible	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+6	de	de	ADP	_	ADP___	7	mark	_	_
+7	se	se	PRON	_	PRON__Person=3|Reflex=Yes	5	expl	_	_
+8	concentrer	concentrer	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+9	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+10	fenêtres	fenêtre	NOUN	_	NOUN__Gender=Fem|Number=Plur	9	obj	_	_
+11	fermées	fermer	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	13	acl	_	_
+12	...	...	PUNCT	_	PUNCT___	13	punct	_	_
+13	ben	ben	CCONJ	_	CCONJ___	13	parataxis	_	_
+14	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	17	nsubj	_	_
+15	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	parataxis	_	_
+16	chaud	chaud	VERB	_	VERB__VerbForm=Inf	17	obj	_	_
+17	!	!	PUNCT	_	PUNCT___	13	punct	_	_
+18	!	!	PUNCT	_	PUNCT___	20	punct	_	_
+19	!	!	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Merci d'avance de vos conseilsFréd
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	d'	de	ADP	_	ADP___	3	case	_	_
+3	avance	avancer	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+4	de	de	ADP	_	ADP___	1	case	_	_
+5	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	5	nmod:poss	_	_
+6	conseilsFréd	conseilsFréd	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+
+

@@ -1,0 +1,145 @@
+#ok , et en reprenant l'exemple de depart, si les "100" au lieu de rester à la fin, avaient été donnés à un petit-fils.
+1	ok	ok	CCONJ	_	CCONJ___	5	nsubj	_	_
+2	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+3	et	et	CCONJ	_	CCONJ___	5	cc	_	_
+4	en	en	ADP	_	ADP___	5	iobj	_	_
+5	reprenant	reprendre	VERB	_	VERB__Tense=Pres|VerbForm=Part	0	ROOT	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+8	de	de	ADP	_	ADP___	9	case	_	_
+9	depart	depart	NOUN	_	NOUN__Number=Sing	7	nmod	_	_
+10	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+11	si	si	SCONJ	_	SCONJ___	19	mark	_	_
+12	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	17	det	_	_
+13	"	"	PUNCT	_	PUNCT___	17	punct	_	_
+14	100	100	PRON	_	PRON__NumType=Card|PronType=Rel	17	nummod	_	_
+15	"	"	PUNCT	_	PUNCT___	17	punct	_	_
+16	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	17	amod	_	_
+17	lieu	lieu	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	fixed	_	_
+18	de	de	ADP	_	ADP___	11	fixed	_	_
+19	rester	rester	VERB	_	VERB__VerbForm=Inf	26	advcl	_	_
+20	à	à	ADP	_	ADP___	22	case	_	_
+21	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	fin	fin	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obl	_	_
+23	,	,	PUNCT	_	PUNCT___	26	punct	_	_
+24	avaient	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	26	aux	_	_
+25	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	26	aux:pass	_	_
+26	donnés	donner	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	5	acl	_	_
+27	à	à	ADP	_	ADP___	31	case	_	_
+28	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	fixed	_	_
+29	petit	petit	ADJ	_	ADJ__Gender=Masc|Number=Sing	27	fixed	_	_
+30	-	-	PUNCT	_	PUNCT___	27	fixed	_	_
+31	fils	fil	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	obl	_	_
+32	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#J'aurais envie de dire :200 + 100
+1	J'	J'	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+2	aurais	avoir	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	amod	_	_
+3	envie	envier	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	de	de	ADP	_	ADP___	5	mark	_	_
+5	dire	dire	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+6	:	:	PUNCT	_	PUNCT___	7	punct	_	_
+7	200	200	PRON	_	PRON__NumType=Card|PronType=Rel	5	nummod	_	_
+8	+	+	ADP	_	ADP___	9	case	_	_
+9	100	100	PRON	_	PRON__NumType=Card|PronType=Rel	7	nmod	_	_
+10	 	 	SPACE	_		5		_	_
+
+
+#-> masse = 300Qd = 100 consommé par la donation au petit fils.le frere n'a pas reserve on reduit ou rapporte la  derniere donation ....
+1	-	-	PUNCT	_	PUNCT___	5	punct	_	_
+2	>	>	PRON	_	PRON__PronType=Rel	5	nsubj	_	_
+3	masse	masser	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	amod	_	_
+4	=	=	VERB	_	VERB__Mood=Ind|Person=3|VerbForm=Fin	5	advmod	_	_
+5	300Qd	300Qd	PRON	_	PRON__Number=Sing|Person=1	5	obj	_	_
+6	=	=	VERB	_	VERB__Mood=Ind|Person=3|VerbForm=Fin	7	nsubj	_	_
+7	100	100	NUM	_	NUM__NumType=Card	5	obj	_	_
+8	consommé	consommer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	xcomp	_	_
+9	par	par	ADP	_	ADP___	7	case	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+11	donation	donation	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obl	_	_
+12	au	au	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	det	_	_
+13	petit	petit	ADJ	_	ADJ__Gender=Masc|Number=Sing	17	amod	_	_
+14	fils.le	fils.le	ADJ	_	ADJ__Gender=Masc|Number=Sing	17	obl	_	_
+15	frere	frere	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	amod	_	_
+16	n'	ne	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+17	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+18	pas	pas	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+19	reserve	reserve	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+20	on	on	PRON	_	PRON__Number=Sing|Person=3	22	nsubj	_	_
+21	reduit	reduit	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	obj	_	_
+22	ou	ou	CCONJ	_	CCONJ___	19	cc	_	_
+23	rapporte	rapporter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	conj	_	_
+24	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	obj	_	_
+25	 	 	SPACE	_		26		_	_
+26	derniere	derniere	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	amod	_	_
+27	donation	donation	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	obj	_	_
+28	....	....	PUNCT	_	PUNCT___	27	punct	_	_
+
+
+#- si c 'et ma donation la derniere, je donne 100 a mon frere,on a notre reserve chacun, le petit fisl conserve ...
+1	-	-	PUNCT	_	PUNCT___	5	punct	_	_
+2	si	si	SCONJ	_	SCONJ___	5	mark	_	_
+3	c	c	NOUN	_	NOUN___	5	nsubj	_	_
+4	'	'	PUNCT	_	PUNCT___	5	punct	_	_
+5	et	et	CCONJ	_	CCONJ___	5	cc	_	_
+6	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	7	nmod:poss	_	_
+7	donation	donation	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	conj	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	obj	_	_
+9	derniere	derniere	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	amod	_	_
+10	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+11	je	il	PRON	_	PRON__Number=Sing|Person=1	19	nsubj	_	_
+12	donne	donner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+13	100	100	PRON	_	PRON__NumType=Card|PronType=Rel	17	obj	_	_
+14	a	avoir	ADP	_	ADP___	17	advmod	_	_
+15	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	17	nmod:poss	_	_
+16	frere	frere	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obj	_	_
+17	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+18	on	on	PRON	_	PRON__Number=Sing|Person=3	11	nsubj	_	_
+19	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+20	notre	notre	DET	_	DET__Number=Sing|Poss=Yes	22	nmod:poss	_	_
+21	reserve	reserve	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	parataxis	_	_
+22	chacun	chacun	PRON	_	PRON__Gender=Masc|PronType=Rel	19	amod	_	_
+23	,	,	PUNCT	_	PUNCT___	26	punct	_	_
+24	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	petit	petit	ADJ	_	ADJ__Gender=Masc|Number=Sing	26	amod	_	_
+26	fisl	fisl	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	conj	_	_
+27	conserve	conserver	ADJ	_	ADJ__Gender=Masc|Number=Sing	31	xcomp	_	_
+28	...	...	PUNCT	_	PUNCT___	27	punct	_	_
+
+
+#- si c 'est la donation petit-fils en dernier, elle reduite, on retombe dans le 1er cas..
+1	-	-	PUNCT	_	PUNCT___	5	punct	_	_
+2	si	si	SCONJ	_	SCONJ___	5	mark	_	_
+3	c	c	NOUN	_	NOUN___	5	nsubj:pass	_	_
+4	'	'	PUNCT	_	PUNCT___	5	punct	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	donation	donation	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+8	petit-fils	petit-fils	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	amod	_	_
+9	en	en	ADP	_	ADP___	7	case	_	_
+10	dernier	dernier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	5	nmod	_	_
+11	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+12	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	17	nsubj	_	_
+13	reduite	reduite	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	advcl	_	_
+14	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+15	on	on	PRON	_	PRON__Number=Sing|Person=3	17	nsubj	_	_
+16	retombe	retomber	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+17	dans	dan	ADP	_	ADP___	11	case	_	_
+18	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+19	1er	1er	ADJ	_	ADJ__NumType=Ord	26	amod	_	_
+20	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	obl	_	_
+21	..	..	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#C'est ca ?
+1	C'	C'	PRON	_	PRON__Number=Sing|Person=3	5	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	ca	ca	PRON	_	PRON__PronType=Rel	0	ROOT	_	_
+4	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#merci
+1	merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+
+

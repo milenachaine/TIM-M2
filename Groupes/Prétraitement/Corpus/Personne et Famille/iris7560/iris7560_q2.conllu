@@ -1,0 +1,108 @@
+#Bonjour, merci pour votre réponse.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+4	pour	pour	ADP	_	ADP___	6	case	_	_
+5	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+6	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nmod	_	_
+7	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#J'ai omis quelques éléments.
+1	J'	J'	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	omis	omettre	ADJ	_	ADJ__Gender=Fem|Number=Plur	0	ROOT	_	_
+4	quelques	quelque	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
+5	éléments	élément	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	obj	_	_
+6	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Le bien appartenait à mes grands-parents, qui l'on cédé à mes parents en conservant l'usufruit.
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	bien	bien	ADV	_	ADV___	1	nsubj	_	_
+3	appartenait	appartenir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+4	à	à	ADP	_	ADP___	6	case	_	_
+5	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	6	nmod:poss	_	_
+6	grands-parents	grands-parents	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	obl	_	_
+7	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+8	qui	qui	PRON	_	PRON__PronType=Rel	10	nsubj:pass	_	_
+9	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	10	obj	_	_
+10	on	on	PRON	_	PRON__Number=Sing|Person=3	10	fixed	_	_
+11	cédé	céder	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl:relcl	_	_
+12	à	à	ADP	_	ADP___	10	case	_	_
+13	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	10	nmod:poss	_	_
+14	parents	parent	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	obl	_	_
+15	en	en	ADP	_	ADP___	16	mark	_	_
+16	conservant	conserver	VERB	_	VERB__Tense=Pres|VerbForm=Part	16	advcl	_	_
+17	l'	le	PRON	_	PRON__Number=Sing|Person=3	19	det	_	_
+18	usufruit	usufruit	NOUN	_	NOUN__Number=Sing	19	obj	_	_
+19	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Mon grand-père est décédé.
+1	Mon	Mon	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	grand-père	grand-père	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj:pass	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
+4	décédé	décéder	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+5	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Au décès de mon père (contrat de mariage de mes parents en communauté de bien), ma soeur et moi avons reçu chacune 25 % de la nue-propriété.
+1	Au	Au	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	décès	décès	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	de	de	ADP	_	ADP___	1	case	_	_
+4	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+5	père	père	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nmod	_	_
+6	(	(	PUNCT	_	PUNCT___	3	punct	_	_
+7	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	appos	_	_
+8	de	de	ADP	_	ADP___	10	case	_	_
+9	mariage	mariage	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+10	de	de	ADP	_	ADP___	10	case	_	_
+11	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	12	nmod:poss	_	_
+12	parents	parent	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	nmod	_	_
+13	en	en	ADP	_	ADP___	10	case	_	_
+14	communauté	communauté	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	nmod	_	_
+15	de	de	ADP	_	ADP___	16	case	_	_
+16	bien	bien	ADV	_	ADV___	16	nmod	_	_
+17	)	)	PUNCT	_	PUNCT___	19	punct	_	_
+18	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+19	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	16	nmod:poss	_	_
+20	soeur	soeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nsubj	_	_
+21	et	et	CCONJ	_	CCONJ___	24	cc	_	_
+22	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	24	conj	_	_
+23	avons	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	22	aux	_	_
+24	reçu	recevoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl	_	_
+25	chacune	chacun	PRON	_	PRON__Gender=Fem|PronType=Rel	27	det	_	_
+26	25	25	NUM	_	NUM__NumType=Card	27	nummod	_	_
+27	%	%	NOUN	_	NOUN__Gender=Masc	24	obj	_	_
+28	de	de	ADP	_	ADP___	29	case	_	_
+29	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+30	nue-propriété	nue-propriété	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	nmod	_	_
+31	.	.	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#Je pense que ma mère possède l'usufruit sur nos parts.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	pense	penser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	que	que	SCONJ	_	SCONJ___	1	mark	_	_
+4	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	6	nmod:poss	_	_
+5	mère	mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nsubj	_	_
+6	possède	posséder	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+7	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+8	usufruit	usufruit	VERB	_	VERB__VerbForm=Inf	10	obj	_	_
+9	sur	sur	ADP	_	ADP___	10	case	_	_
+10	nos	notre	DET	_	DET__Number=Plur|Poss=Yes	10	nmod:poss	_	_
+11	parts	part	NOUN	_	NOUN__Number=Plur	12	nmod	_	_
+12	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Je souhaiterai acheter uniquement la nue-propriété.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	souhaiterai	souhaiter	AUX	_	AUX__Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	acheter	acheter	VERB	_	VERB__VerbForm=Inf	1	xcomp	_	_
+4	uniquement	uniquement	ADV	_	ADV___	6	advmod	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	nue-propriété	nue-propriété	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obj	_	_
+7	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+

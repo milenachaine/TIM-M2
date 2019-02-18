@@ -1,0 +1,67 @@
+#Votre employeur a du faire une erreur.
+1	Votre	Votre	DET	_	DET__Number=Sing|Poss=Yes	2	nmod:poss	_	_
+2	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	du	du	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	obj	_	_
+5	faire	faire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+6	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	erreur	erreur	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obj	_	_
+8	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Normalement il doit repartir des IJSS qu'il perçoit, donc en net, pour reconstituer le brut.
+1	Normalement	Normalement	ADV	_	ADV___	2	advmod	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+3	doit	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	repartir	repartir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
+6	IJSS	IJSS	NOUN	_	NOUN__Gender=Fem|Number=Plur	7	obj	_	_
+7	qu'	que	PRON	_	PRON__PronType=Rel	5	obj	_	_
+8	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+9	perçoit	percevoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+10	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+11	donc	donc	ADV	_	ADV___	12	advmod	_	_
+12	en	en	ADP	_	ADP___	12	case	_	_
+13	net	net	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obl	_	_
+14	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+15	pour	pour	ADP	_	ADP___	17	mark	_	_
+16	reconstituer	reconstituer	VERB	_	VERB__VerbForm=Inf	17	advcl	_	_
+17	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+18	brut	brut	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obj	_	_
+19	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Dans votre cas on a l'impression qu'il est reparti du brut (?) donc qu'en fait il vous imputer 2 fois la CSG et la CRDS.
+1	Dans	Dans	ADP	_	ADP___	2	case	_	_
+2	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+3	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+4	on	on	PRON	_	PRON__Number=Sing|Person=3	5	nsubj	_	_
+5	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	impression	impression	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obj	_	_
+8	qu'	que	PRON	_	PRON__PronType=Rel	5	mark	_	_
+9	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
+10	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
+11	reparti	repartir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	ccomp	_	_
+12	du	du	DET	_	DET__Gender=Masc|Number=Sing	12	det	_	_
+13	brut	brut	PROPN	_	PROPN__Gender=Masc|Number=Sing	14	obj	_	_
+14	(	(	PUNCT	_	PUNCT___	12	punct	_	_
+15	?	?	PUNCT	_	PUNCT___	17	punct	_	_
+16	)	)	PUNCT	_	PUNCT___	17	punct	_	_
+17	donc	donc	ADV	_	ADV___	14	advmod	_	_
+18	qu'	que	SCONJ	_	SCONJ___	17	mark	_	_
+19	en	en	ADP	_	ADP___	21	advmod	_	_
+20	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	fixed	_	_
+21	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	17	nsubj	_	_
+22	vous	se	PRON	_	PRON__Number=Plur|Person=2	12	iobj	_	_
+23	imputer	imputer	VERB	_	VERB__VerbForm=Inf	24	advcl	_	_
+24	2	2	NUM	_	NUM__NumType=Card	12	nummod	_	_
+25	fois	foi	NOUN	_	NOUN__Gender=Fem|Number=Plur	26	obj	_	_
+26	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+27	CSG	CSG	PROPN	_	PROPN__Gender=Fem|Number=Sing	12	obj	_	_
+28	et	et	CCONJ	_	CCONJ___	30	cc	_	_
+29	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	CRDS	CRDS	PROPN	_	PROPN__Gender=Fem|Number=Sing	32	conj	_	_
+31	.	.	PUNCT	_	PUNCT___	32	punct	_	_
+
+

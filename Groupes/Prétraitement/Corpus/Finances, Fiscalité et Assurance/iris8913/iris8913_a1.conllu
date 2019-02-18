@@ -1,0 +1,75 @@
+#Bonjour,Je me pose la même question...
+1	Bonjour	Bonjour	PROPN	_	PROPN___	5	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+3	Je	Je	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+4	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	5	iobj	_	_
+5	pose	poser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	même	même	ADJ	_	ADJ__Number=Sing	8	amod	_	_
+8	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obj	_	_
+9	...	...	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Solution : vous attendez lundi ou mardi que votre banque soit ouverte et vous leur téléphonez pour leur poser la question...
+1	Solution	Solution	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nsubj	_	_
+2	:	:	PUNCT	_	PUNCT___	5	punct	_	_
+3	vous	se	PRON	_	PRON__Number=Plur|Person=2	5	nsubj	_	_
+4	attendez	attendre	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	lundi	lundi	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+6	ou	ou	CCONJ	_	CCONJ___	8	cc	_	_
+7	mardi	mardi	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	conj	_	_
+8	que	que	SCONJ	_	SCONJ___	5	mark	_	_
+9	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+10	banque	banque	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nsubj:pass	_	_
+11	soit	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+12	ouverte	ouvrir	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	ccomp	_	_
+13	et	et	CCONJ	_	CCONJ___	13	cc	_	_
+14	vous	se	PRON	_	PRON__Number=Plur|Person=2	13	nsubj	_	_
+15	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	16	nmod:poss	_	_
+16	téléphonez	téléphoner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	14	conj	_	_
+17	pour	pour	ADP	_	ADP___	21	mark	_	_
+18	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	19	nmod:poss	_	_
+19	poser	poser	VERB	_	VERB__VerbForm=Inf	21	advcl	_	_
+20	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obj	_	_
+22	...	...	PUNCT	_	PUNCT___	25	punct	_	_
+23	 	 	SPACE	_		25		_	_
+
+
+#En attendant leur réponse, par précaution, ne cliquez plus sur aucun lien de ce mail et ne renseignez surtout rien de ce qui peut vous avoir été demandé si vous avez cliqué
+1	En	En	ADP	_	ADP___	5	mark	_	_
+2	attendant	attendre	VERB	_	VERB__Tense=Pres|VerbForm=Part	5	advcl	_	_
+3	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+4	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obj	_	_
+5	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+6	par	par	ADP	_	ADP___	8	case	_	_
+7	précaution	précaution	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+8	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+9	ne	ne	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+10	cliquez	cliquer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+11	plus	plaire	ADV	_	ADV___	10	advmod	_	_
+12	sur	sur	ADP	_	ADP___	13	case	_	_
+13	aucun	aucun	DET	_	DET__Gender=Masc|Number=Sing	13	det	_	_
+14	lien	lien	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+15	de	de	ADP	_	ADP___	16	case	_	_
+16	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+17	mail	mail	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	nmod	_	_
+18	et	et	CCONJ	_	CCONJ___	19	cc	_	_
+19	ne	ne	ADV	_	ADV__Polarity=Neg	21	advmod	_	_
+20	renseignez	renseigner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	21	conj	_	_
+21	surtout	surtout	ADV	_	ADV___	13	advmod	_	_
+22	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	25	obj	_	_
+23	de	de	ADP	_	ADP___	25	case	_	_
+24	ce	ce	PRON	_	PRON__PronType=Rel	25	obl	_	_
+25	qui	qui	PRON	_	PRON__PronType=Rel	21	nsubj:pass	_	_
+26	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+27	vous	se	PRON	_	PRON__Number=Plur|Person=2	28	iobj	_	_
+28	avoir	avoir	AUX	_	AUX__VerbForm=Inf	21	aux	_	_
+29	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	30	aux:pass	_	_
+30	demandé	demander	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	28	acl:relcl	_	_
+31	si	si	SCONJ	_	SCONJ___	13	mark	_	_
+32	vous	se	PRON	_	PRON__Number=Plur|Person=2	31	nsubj	_	_
+33	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	34	aux	_	_
+34	cliqué	cliquer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	42	ccomp	_	_
+
+

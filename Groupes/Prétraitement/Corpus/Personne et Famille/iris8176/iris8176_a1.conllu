@@ -1,0 +1,82 @@
+#Bonjour,Est
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	Est	Est	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+
+
+#-ce réellement le patrimoine de la succession (soit uniquement le patrimoine de votre père décédé) ou le patrimoine du couple ?
+1	-	-	PUNCT	_	PUNCT___	0	ROOT	_	_
+2	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	réellement	réellement	ADV	_	ADV___	1	fixed	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+5	patrimoine	patrimoine	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nmod	_	_
+6	de	de	ADP	_	ADP___	4	case	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	succession	succession	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+9	(	(	PUNCT	_	PUNCT___	11	punct	_	_
+10	soit	être	CCONJ	_	CCONJ___	11	cc	_	_
+11	uniquement	uniquement	ADV	_	ADV___	8	advmod	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+13	patrimoine	patrimoine	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	conj	_	_
+14	de	de	ADP	_	ADP___	16	case	_	_
+15	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	16	nmod:poss	_	_
+16	père	père	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nmod	_	_
+17	décédé	décéder	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	acl	_	_
+18	)	)	PUNCT	_	PUNCT___	19	punct	_	_
+19	ou	ou	CCONJ	_	CCONJ___	16	cc	_	_
+20	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+21	patrimoine	patrimoine	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	conj	_	_
+22	du	du	DET	_	DET__Gender=Masc|Number=Sing	24	det	_	_
+23	couple	coupler	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	nmod	_	_
+24	?	?	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#De plus, en dehors de la maison (toit familial), il semble que les autres biens sont des biens propres (acquis avant mariage ou reçus par donations ou héritages) : quels sont les bien propres qui appartenaient à votre père ?
+1	De	De	ADP	_	ADP___	1	advmod	_	_
+2	plus	plaire	ADV	_	ADV___	3	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	en	en	ADP	_	ADP___	4	case	_	_
+5	dehors	dehors	ADP	_	ADP___	6	fixed	_	_
+6	de	de	ADP	_	ADP___	4	fixed	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obl	_	_
+9	(	(	PUNCT	_	PUNCT___	11	punct	_	_
+10	toit	toit	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	appos	_	_
+11	familial	familial	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	amod	_	_
+12	)	)	PUNCT	_	PUNCT___	6	punct	_	_
+13	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+14	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	16	nsubj	_	_
+15	semble	sembler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+16	que	que	SCONJ	_	SCONJ___	6	mark	_	_
+17	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	19	det	_	_
+18	autres	autre	ADJ	_	ADJ__Number=Plur	19	amod	_	_
+19	biens	bien	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	nsubj	_	_
+20	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+21	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
+22	biens	bien	NOUN	_	NOUN__Gender=Masc|Number=Plur	24	ccomp	_	_
+23	propres	propre	ADJ	_	ADJ__Number=Plur	24	amod	_	_
+24	(	(	PUNCT	_	PUNCT___	6	punct	_	_
+25	acquis	acquérir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	acl	_	_
+26	avant	avant	ADP	_	ADP___	24	case	_	_
+27	mariage	mariage	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+28	ou	ou	CCONJ	_	CCONJ___	42	cc	_	_
+29	reçus	reçu	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	28	conj	_	_
+30	par	par	ADP	_	ADP___	42	case	_	_
+31	donations	donation	NOUN	_	NOUN__Gender=Fem|Number=Plur	35	obl	_	_
+32	ou	ou	CCONJ	_	CCONJ___	31	cc	_	_
+33	héritages	héritage	ADJ	_	ADJ___	31	conj	_	_
+34	)	)	PUNCT	_	PUNCT___	35	punct	_	_
+35	:	:	PUNCT	_	PUNCT___	42	punct	_	_
+36	quels	quel	ADJ	_	ADJ__Gender=Masc|Number=Plur	35	obj	_	_
+37	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	35	cop	_	_
+38	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	37	det	_	_
+39	bien	bien	ADV	_	ADV___	35	advmod	_	_
+40	propres	propre	ADJ	_	ADJ__Number=Plur	42	nsubj	_	_
+41	qui	qui	PRON	_	PRON__PronType=Rel	42	nsubj	_	_
+42	appartenaient	appartenir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	42	acl:relcl	_	_
+43	à	à	ADP	_	ADP___	49	case	_	_
+44	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	46	nmod:poss	_	_
+45	père	père	NOUN	_	NOUN__Gender=Masc|Number=Sing	46	obl	_	_
+46	?	?	PUNCT	_	PUNCT___	49	punct	_	_
+
+

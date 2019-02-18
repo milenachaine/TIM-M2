@@ -1,0 +1,127 @@
+#Bonjour,Qui perçoit la rente d'invalidité de la CPAM ?
+1	Bonjour	Bonjour	PROPN	_	PROPN___	4	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	Qui	Qui	PRON	_	PRON__PronType=Int	4	nsubj	_	_
+4	perçoit	percevoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	rente	rente	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obj	_	_
+7	d'	de	ADP	_	ADP___	8	case	_	_
+8	invalidité	invalidité	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+9	de	de	ADP	_	ADP___	11	case	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	CPAM	CPAM	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+12	?	?	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Vous, donc +/- 50% de votre salaire.
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	4	nsubj	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	donc	donc	ADV	_	ADV___	4	advmod	_	_
+4	+	+	ADP	_	ADP___	4	case	_	_
+5	/-	/-	PUNCT	_	PUNCT___	0	ROOT	_	_
+6	50	50	NUM	_	NUM__NumType=Card	4	nummod	_	_
+7	%	%	NOUN	_	NOUN__Gender=Masc	8	obj	_	_
+8	de	de	ADP	_	ADP___	6	case	_	_
+9	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	11	nmod:poss	_	_
+10	salaire	salaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+11	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Si vous bénéficiez d'un régime de prévoyance, ledit régime va verser sa prestation à l'employeur qui va la retraiter sur votre bulletin de salaire avant de vous donner le reliquat (diminué de la cotisation mutuelle que vous devez en totalité, vu que vous êtes en suspension de contrat de travail).L'employeur a adressé le dossier un peu tard à la prévoyance, qui peu mettre de 4 à 5 semaines pour instruire le dossier.
+1	Si	Si	SCONJ	_	SCONJ___	4	mark	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	4	nsubj	_	_
+3	bénéficiez	bénéficier	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+4	d'	de	ADP	_	ADP___	4	case	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	régime	régime	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+7	de	de	ADP	_	ADP___	8	case	_	_
+8	prévoyance	prévoyance	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+9	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+10	ledit	ledit	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	advmod	_	_
+11	régime	régime	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nsubj	_	_
+12	va	aller	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+13	verser	verser	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+14	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	17	nmod:poss	_	_
+15	prestation	prestation	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	obj	_	_
+16	à	à	ADP	_	ADP___	17	case	_	_
+17	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+18	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obl	_	_
+19	qui	qui	PRON	_	PRON__PronType=Rel	17	nsubj	_	_
+20	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
+21	la	le	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	22	obj	_	_
+22	retraiter	retraiter	VERB	_	VERB__VerbForm=Inf	19	xcomp	_	_
+23	sur	sur	ADP	_	ADP___	17	case	_	_
+24	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	26	nmod:poss	_	_
+25	bulletin	bulletin	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	obl	_	_
+26	de	de	ADP	_	ADP___	36	case	_	_
+27	salaire	salaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	nmod	_	_
+28	avant	avant	ADP	_	ADP___	29	mark	_	_
+29	de	de	ADP	_	ADP___	26	fixed	_	_
+30	vous	se	PRON	_	PRON__Number=Plur|Person=2	31	iobj	_	_
+31	donner	donner	VERB	_	VERB__VerbForm=Inf	29	advcl	_	_
+32	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+33	reliquat	reliquat	NOUN	_	NOUN__Gender=Masc|Number=Sing	36	obj	_	_
+34	(	(	PUNCT	_	PUNCT___	36	punct	_	_
+35	diminué	diminuer	NOUN	_	NOUN__Gender=Fem|Number=Plur	36	appos	_	_
+36	de	de	ADP	_	ADP___	36	case	_	_
+37	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	cotisation	cotisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	36	nmod	_	_
+39	mutuelle	mutuel	ADJ	_	ADJ__Gender=Fem|Number=Sing	41	amod	_	_
+40	que	que	SCONJ	_	SCONJ___	41	mark	_	_
+41	vous	se	PRON	_	PRON__Number=Plur|Person=2	36	nsubj	_	_
+42	devez	devoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	43	aux	_	_
+43	en	en	ADP	_	ADP___	41	case	_	_
+44	totalité	totalité	NOUN	_	NOUN__Gender=Fem|Number=Sing	45	acl:relcl	_	_
+45	,	,	PUNCT	_	PUNCT___	43	punct	_	_
+46	vu	voir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	48	cc	_	_
+47	que	que	SCONJ	_	SCONJ___	48	fixed	_	_
+48	vous	se	PRON	_	PRON__Number=Plur|Person=2	45	nsubj	_	_
+49	êtes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	50	cop	_	_
+50	en	en	ADP	_	ADP___	48	case	_	_
+51	suspension	suspension	NOUN	_	NOUN__Gender=Fem|Number=Sing	54	obl	_	_
+52	de	de	ADP	_	ADP___	51	case	_	_
+53	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	54	nmod	_	_
+54	de	de	ADP	_	ADP___	45	case	_	_
+55	travail).L'	travail).L'	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	56	nmod	_	_
+56	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	54	nsubj	_	_
+57	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	56	aux	_	_
+58	adressé	adresser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	56	acl	_	_
+59	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	61	det	_	_
+60	dossier	dossier	NOUN	_	NOUN__Gender=Masc|Number=Sing	61	obj	_	_
+61	un	un	DET	_	DET__Gender=Masc|Number=Sing	58	advmod	_	_
+62	peu	peu	ADV	_	ADV___	61	fixed	_	_
+63	tard	tard	ADV	_	ADV___	67	fixed	_	_
+64	à	à	ADP	_	ADP___	67	case	_	_
+65	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	67	det	_	_
+66	prévoyance	prévoyance	NOUN	_	NOUN__Gender=Fem|Number=Sing	67	obl	_	_
+67	,	,	PUNCT	_	PUNCT___	61	punct	_	_
+68	qui	qui	PRON	_	PRON__PronType=Rel	56	nsubj	_	_
+69	peu	peu	ADV	_	ADV___	74	advmod	_	_
+70	mettre	mettre	VERB	_	VERB__VerbForm=Inf	69	acl:relcl	_	_
+71	de	de	ADP	_	ADP___	74	case	_	_
+72	4	4	NUM	_	NUM__NumType=Card	74	nummod	_	_
+73	à	à	ADP	_	ADP___	74	case	_	_
+74	5	5	NUM	_	NUM__NumType=Card	54	nmod	_	_
+75	semaines	semaine	NOUN	_	NOUN__Gender=Fem|Number=Plur	76	obl	_	_
+76	pour	pour	ADP	_	ADP___	74	mark	_	_
+77	instruire	instruire	ADJ	_	ADJ__Number=Sing	78	advcl	_	_
+78	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	74	det	_	_
+79	dossier	dossier	NOUN	_	NOUN__Gender=Masc|Number=Sing	81	obj	_	_
+80	.	.	PUNCT	_	PUNCT___	81	punct	_	_
+
+
+#Ici, un bulletin de salaire négatif ne me surprend pas.
+1	Ici	Ici	ADV	_	ADV___	4	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	bulletin	bulletin	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+5	de	de	ADP	_	ADP___	6	case	_	_
+6	salaire	salaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+7	négatif	négatif	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	amod	_	_
+8	ne	ne	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+9	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	11	iobj	_	_
+10	surprend	surprendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+11	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+12	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+

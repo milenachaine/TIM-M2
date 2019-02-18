@@ -1,0 +1,228 @@
+#1.
+1	1	1	NUM	_	NUM__NumType=Card	0	ROOT	_	_
+2	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Mes déboires ont commencé bien avant le déménagement...
+1	Mes	Mes	DET	_	DET__Number=Plur|Poss=Yes	1	nmod:poss	_	_
+2	déboires	déboire	NOUN	_	NOUN__Number=Plur	1	nsubj	_	_
+3	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	commencé	commencer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	bien	bien	ADV	_	ADV___	6	advmod	_	_
+6	avant	avant	ADP	_	ADP___	6	case	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+8	déménagement	déménagement	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	obl	_	_
+9	...	...	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#SIRET créé en mars 2016, premier et dernier courrier de l'URSSAF pour retourner la liasse en avril 2016.
+1	SIRET	SIRET	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+2	créé	créer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+3	en	en	ADP	_	ADP___	4	case	_	_
+4	mars	mars	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obl	_	_
+5	2016	2016	NUM	_	NUM__NumType=Card	6	nummod	_	_
+6	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+7	premier	premier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	6	conj	_	_
+8	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+9	dernier	dernier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	10	conj	_	_
+10	courrier	courrier	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+11	de	de	ADP	_	ADP___	6	case	_	_
+12	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+13	URSSAF	URSSAF	NOUN	_	NOUN__Number=Sing	12	nmod	_	_
+14	pour	pour	ADP	_	ADP___	15	mark	_	_
+15	retourner	retourner	VERB	_	VERB__VerbForm=Inf	13	advcl	_	_
+16	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+17	liasse	lier	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	obj	_	_
+18	en	en	ADP	_	ADP___	16	case	_	_
+19	avril	avril	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obl	_	_
+20	2016	2016	NUM	_	NUM__NumType=Card	16	nummod	_	_
+21	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#J'ai déménage un an après en mars 2017, je leur ai pas signalé de déménagement, et en plus j'avais souscrit au service de transmission du courrier pendant 1 an.. mais rien, silence radio.
+1	J'	J'	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	déménage	déménager	ADV	_	ADV___	0	ROOT	_	_
+4	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	an	an	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+6	après	après	ADP	_	ADP___	6	punct	_	_
+7	en	en	ADP	_	ADP___	6	case	_	_
+8	mars	mars	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obl	_	_
+9	2017	2017	NUM	_	NUM__NumType=Card	10	nummod	_	_
+10	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+11	je	il	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+12	leur	lui	PRON	_	PRON__Number=Plur|Person=3	12	iobj	_	_
+13	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+14	pas	pas	ADV	_	ADV__Polarity=Neg	15	advmod	_	_
+15	signalé	signaler	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	ccomp	_	_
+16	de	de	ADP	_	ADP___	15	case	_	_
+17	déménagement	déménagement	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	18	nmod	_	_
+18	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+19	et	et	CCONJ	_	CCONJ___	20	cc	_	_
+20	en	en	ADP	_	ADP___	16	advmod	_	_
+21	plus	plaire	ADV	_	ADV___	13	fixed	_	_
+22	j'	il	PRON	_	PRON__Number=Sing|Person=1	24	nsubj	_	_
+23	avais	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	souscrit	souscrire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	conj	_	_
+25	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	26	det	_	_
+26	service	service	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+27	de	de	ADP	_	ADP___	28	case	_	_
+28	transmission	transmission	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	nmod	_	_
+29	du	du	DET	_	DET__Gender=Masc|Number=Sing	30	det	_	_
+30	courrier	courrier	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	amod	_	_
+31	pendant	pendre	ADP	_	ADP___	30	case	_	_
+32	1	1	NUM	_	NUM__NumType=Card	12	nummod	_	_
+33	an	an	NOUN	_	NOUN__Gender=Masc|Number=Sing	35	obl	_	_
+34	..	..	PUNCT	_	PUNCT___	35	punct	_	_
+35	mais	mai	CCONJ	_	CCONJ___	35	cc	_	_
+36	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	37	conj	_	_
+37	,	,	PUNCT	_	PUNCT___	35	punct	_	_
+38	silence	silence	NOUN	_	NOUN__Gender=Fem|Number=Sing	35	conj	_	_
+39	radio	radio	ADJ	_	ADJ__Gender=Masc|Number=Sing	40	amod	_	_
+40	.	.	PUNCT	_	PUNCT___	35	punct	_	_
+
+
+#Sans en être sûr, je commence à penser que cette absence d'enregistrement vient du fait que la CCI a refilé mon dossier à l'URSSAF (vu leur lettre), mais l'URSSAF a botté en touche.
+1	Sans	Sans	ADP	_	ADP___	1	case	_	_
+2	en	en	ADP	_	ADP___	1	obl	_	_
+3	être	être	AUX	_	AUX__VerbForm=Inf	4	fixed	_	_
+4	sûr	sûr	ADJ	_	ADJ__Gender=Masc|Number=Sing	6	fixed	_	_
+5	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+6	je	il	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+7	commence	commencer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	à	à	ADP	_	ADP___	10	mark	_	_
+9	penser	penser	VERB	_	VERB__VerbForm=Inf	10	xcomp	_	_
+10	que	que	SCONJ	_	SCONJ___	6	mark	_	_
+11	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+12	absence	absence	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nsubj	_	_
+13	d'	de	ADP	_	ADP___	12	case	_	_
+14	enregistrement	enregistrement	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nmod	_	_
+15	vient	venir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
+16	du	du	DET	_	DET__Gender=Masc|Number=Sing	15	det	_	_
+17	fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obj	_	_
+18	que	que	SCONJ	_	SCONJ___	16	mark	_	_
+19	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	CCI	CCI	PROPN	_	PROPN__Gender=Fem|Number=Sing	16	nsubj	_	_
+21	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+22	refilé	refiler	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	acl	_	_
+23	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	24	nmod:poss	_	_
+24	dossier	dossier	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obj	_	_
+25	à	à	ADP	_	ADP___	26	case	_	_
+26	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+27	URSSAF	URSSAF	PROPN	_	PROPN__Number=Sing	28	obl	_	_
+28	(	(	PUNCT	_	PUNCT___	26	punct	_	_
+29	vu	voir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	acl	_	_
+30	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	26	nmod:poss	_	_
+31	lettre	lettre	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	obj	_	_
+32	)	)	PUNCT	_	PUNCT___	12	punct	_	_
+33	,	,	PUNCT	_	PUNCT___	35	punct	_	_
+34	mais	mai	CCONJ	_	CCONJ___	35	cc	_	_
+35	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	35	det	_	_
+36	URSSAF	URSSAF	PROPN	_	PROPN__Number=Sing	37	nsubj	_	_
+37	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	aux	_	_
+38	botté	botter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	35	conj	_	_
+39	en	en	ADP	_	ADP___	40	case	_	_
+40	touche	toucher	ADJ	_	ADJ__Gender=Fem|Number=Sing	35	obl	_	_
+41	.	.	PUNCT	_	PUNCT___	40	punct	_	_
+
+
+#Je fais une activité assez inhabituelle, trader en compte propre.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	fais	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	activité	activité	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obj	_	_
+5	assez	assez	ADV	_	ADV___	6	advmod	_	_
+6	inhabituelle	inhabituel	ADJ	_	ADJ__Gender=Fem|Number=Sing	6	amod	_	_
+7	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+8	trader	trader	VERB	_	VERB__VerbForm=Inf	10	acl	_	_
+9	en	en	ADP	_	ADP___	10	case	_	_
+10	compte	compter	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obl	_	_
+11	propre	propre	ADJ	_	ADJ__Number=Sing	6	amod	_	_
+12	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Possible que ça ait fait cafouiller le processus.
+1	Possible	Possible	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+2	que	que	SCONJ	_	SCONJ___	1	mark	_	_
+3	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	_
+4	ait	avoir	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	ccomp	_	_
+6	cafouiller	cafouiller	VERB	_	VERB__VerbForm=Inf	6	xcomp	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+8	processus	processus	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+9	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Je vais quand même suivre votre conseil, téléphoner à l'URSSAF IDF et leur demander ce que je dois faire, si je dois prendre contact avec Lyon.2.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	vais	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	quand	quand	ADV	_	ADV___	4	mark	_	_
+4	même	même	ADV	_	ADV___	6	fixed	_	_
+5	suivre	suivre	VERB	_	VERB__VerbForm=Inf	6	advcl	_	_
+6	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+7	conseil	conseil	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+8	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+9	téléphoner	téléphoner	VERB	_	VERB__VerbForm=Inf	10	conj	_	_
+10	à	à	ADP	_	ADP___	6	case	_	_
+11	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+12	URSSAF	URSSAF	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obl	_	_
+13	IDF	IDF	PROPN	_	PROPN___	12	nmod	_	_
+14	et	et	CCONJ	_	CCONJ___	15	cc	_	_
+15	leur	lui	PRON	_	PRON__Number=Plur|Person=3	13	iobj	_	_
+16	demander	demander	VERB	_	VERB__VerbForm=Inf	15	conj	_	_
+17	ce	ce	PRON	_	PRON__PronType=Rel	18	obj	_	_
+18	que	que	PRON	_	PRON__PronType=Rel	16	obj	_	_
+19	je	il	PRON	_	PRON__Number=Sing|Person=1	20	nsubj	_	_
+20	dois	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+21	faire	faire	VERB	_	VERB__VerbForm=Inf	13	acl:relcl	_	_
+22	,	,	PUNCT	_	PUNCT___	24	punct	_	_
+23	si	si	SCONJ	_	SCONJ___	24	mark	_	_
+24	je	il	PRON	_	PRON__Number=Sing|Person=1	21	nsubj	_	_
+25	dois	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	prendre	prendre	VERB	_	VERB__VerbForm=Inf	13	advcl	_	_
+27	contact	contact	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	advmod	_	_
+28	avec	avec	ADP	_	ADP___	26	case	_	_
+29	Lyon.2	Lyon.2	PROPN	_	PROPN___	30	obl	_	_
+30	.	.	PUNCT	_	PUNCT___	26	punct	_	_
+
+
+#OK, dans le doute, et à moins d'un avis différent sur ce fil de discussion, je vais laisser cette case 5HY vide.
+1	OK	OK	X	_	X___	1	nsubj	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	dans	dan	ADP	_	ADP___	4	case	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	doute	douter	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	fixed	_	_
+6	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+7	et	et	CCONJ	_	CCONJ___	6	cc	_	_
+8	à	à	ADP	_	ADP___	10	advmod	_	_
+9	moins	moins	ADV	_	ADV___	10	fixed	_	_
+10	d'	de	ADP	_	ADP___	6	dep	_	_
+11	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+12	avis	avis	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obl	_	_
+13	différent	différent	ADV	_	ADV___	12	advmod	_	_
+14	sur	sur	ADP	_	ADP___	15	case	_	_
+15	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
+16	fil	fil	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obl	_	_
+17	de	de	ADP	_	ADP___	18	case	_	_
+18	discussion	discussion	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nmod	_	_
+19	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+20	je	il	PRON	_	PRON__Number=Sing|Person=1	16	nsubj	_	_
+21	vais	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+22	laisser	laisser	VERB	_	VERB__VerbForm=Inf	24	xcomp	_	_
+23	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	24	det	_	_
+24	case	caser	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	obj	_	_
+25	5HY	5HY	NUM	_	NUM__NumType=Card	26	det	_	_
+26	vide	vider	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+27	.	.	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#Pas envie de payer doubles cotisations...
+1	Pas	Pas	ADV	_	ADV___	1	nsubj	_	_
+2	envie	envier	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	de	de	ADP	_	ADP___	4	mark	_	_
+4	payer	payer	VERB	_	VERB__VerbForm=Inf	6	xcomp	_	_
+5	doubles	doubler	ADJ	_	ADJ__Gender=Fem|Number=Plur	6	det	_	_
+6	cotisations	cotisation	NOUN	_	NOUN__Gender=Fem|Number=Plur	6	obj	_	_
+7	...	...	PUNCT	_	PUNCT___	6	punct	_	_
+
+

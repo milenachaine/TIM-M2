@@ -1,0 +1,130 @@
+#RambotteTout dépend de l'interprétation de la clause faite par l'assureur, ou par un juge si vous contestez l'interprétation qu'en donne l'assureur.
+1	RambotteTout	RambotteTout	ADJ	_	ADJ__Gender=Masc|Number=Sing	2	advmod	_	_
+2	dépend	dépendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	de	de	ADP	_	ADP___	5	case	_	_
+4	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	interprétation	interprétation	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	obl	_	_
+6	de	de	ADP	_	ADP___	8	case	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	clause	clause	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+9	faite	fait	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
+10	par	par	ADP	_	ADP___	12	case	_	_
+11	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	assureur	assureur	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obl	_	_
+13	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+14	ou	ou	CCONJ	_	CCONJ___	17	cc	_	_
+15	par	par	ADP	_	ADP___	17	case	_	_
+16	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	juge	juger	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	conj	_	_
+18	si	si	SCONJ	_	SCONJ___	20	mark	_	_
+19	vous	se	PRON	_	PRON__Number=Plur|Person=2	20	nsubj	_	_
+20	contestez	contester	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+21	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+22	interprétation	interprétation	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obj	_	_
+23	qu'	que	PRON	_	PRON__PronType=Rel	25	obj	_	_
+24	en	en	PRON	_	PRON__Person=3	25	iobj	_	_
+25	donne	donner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
+26	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	27	det	_	_
+27	assureur	assureur	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	obj	_	_
+28	.	.	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#Sans ça pour avancer :1) avez-vous une descendance ?
+1	Sans	Sans	ADP	_	ADP___	2	case	_	_
+2	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	_
+3	pour	pour	ADP	_	ADP___	5	mark	_	_
+4	avancer	avancer	VERB	_	VERB__VerbForm=Inf	5	nmod	_	_
+5	:1	:1	NOUN	_	NOUN___	2	obj	_	_
+6	)	)	PUNCT	_	PUNCT___	8	punct	_	_
+7	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	-	-	PUNCT	_	PUNCT___	5	punct	_	_
+9	vous	se	PRON	_	PRON__Number=Plur|Person=2	8	expl	_	_
+10	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	descendance	descendance	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obj	_	_
+12	?	?	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Oui, qui a également renoncé2) êtes
+1	Oui	Oui	PROPN	_	PROPN__Gender=Masc|Number=Sing	2	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	2	punct	_	_
+3	qui	qui	PRON	_	PRON__PronType=Rel	5	nsubj	_	_
+4	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	également	également	ADV	_	ADV___	2	advmod	_	_
+6	renoncé2	renoncé2	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+7	)	)	PUNCT	_	PUNCT___	8	punct	_	_
+8	êtes	être	ADJ	_	ADJ__Gender=Fem|Number=Plur	5	punct	_	_
+
+
+#-vous fille unique de votre père ?
+1	-	-	PUNCT	_	PUNCT___	2	punct	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	2	nsubj	_	_
+3	fille	fille	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	unique	unique	ADJ	_	ADJ__Number=Sing	5	amod	_	_
+5	de	de	ADP	_	ADP___	2	case	_	_
+6	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+7	père	père	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+8	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Non mais mon frère est décédé avant mon père3) votre père était-il fils unique de ses parents ?
+1	Non	Non	ADV	_	ADV___	2	advmod	_	_
+2	mais	mai	CCONJ	_	CCONJ___	2	cc	_	_
+3	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+4	frère	frère	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
+6	décédé	décéder	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+7	avant	avant	ADP	_	ADP___	8	case	_	_
+8	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+9	père3	père3	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+10	)	)	PUNCT	_	PUNCT___	12	punct	_	_
+11	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	12	nmod:poss	_	_
+12	père	père	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nsubj	_	_
+13	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+14	-	-	PUNCT	_	PUNCT___	17	punct	_	_
+15	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	17	nsubj	_	_
+16	fils	fil	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	conj	_	_
+17	unique	unique	ADJ	_	ADJ__Number=Sing	5	amod	_	_
+18	de	de	ADP	_	ADP___	20	case	_	_
+19	ses	son	DET	_	DET__Number=Plur|Poss=Yes	20	nmod:poss	_	_
+20	parents	parent	NOUN	_	NOUN__Gender=Masc|Number=Plur	17	obl	_	_
+21	?	?	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#Non, un frère laissant deux héritiers4) votre grand-père paternel était-il déjà décédé au décès de votre père ?
+1	Non	Non	ADV	_	ADV___	2	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	2	punct	_	_
+3	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	frère	frère	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+5	laissant	laisser	VERB	_	VERB__Tense=Pres|VerbForm=Part	2	acl	_	_
+6	deux	deux	NUM	_	NUM__NumType=Card	8	nummod	_	_
+7	héritiers4	héritiers4	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obj	_	_
+8	)	)	PUNCT	_	PUNCT___	5	punct	_	_
+9	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+10	grand-père	grand-père	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	amod	_	_
+11	paternel	paternel	ADJ	_	ADJ__Gender=Masc|Number=Sing	12	nmod	_	_
+12	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux:pass	_	_
+13	-	-	PUNCT	_	PUNCT___	5	punct	_	_
+14	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	17	nsubj:pass	_	_
+15	déjà	déjà	ADV	_	ADV___	17	advmod	_	_
+16	décédé	décéder	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+17	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+18	décès	décès	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obl	_	_
+19	de	de	ADP	_	ADP___	20	case	_	_
+20	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	17	nmod:poss	_	_
+21	père	père	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	nmod	_	_
+22	?	?	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Oui5) date du décès de votre père - 2012
+1	Oui5	Oui5	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	nsubj	_	_
+2	)	)	PUNCT	_	PUNCT___	2	punct	_	_
+3	date	dater	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	du	du	DET	_	DET__Gender=Masc|Number=Sing	5	det	_	_
+5	décès	décès	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	obj	_	_
+6	de	de	ADP	_	ADP___	8	case	_	_
+7	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+8	père	père	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+9	-	-	PUNCT	_	PUNCT___	8	punct	_	_
+10	2012	2012	NUM	_	NUM__NumType=Card	12	nummod	_	_
+
+

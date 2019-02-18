@@ -1,0 +1,110 @@
+#Bonjour,Une question       concernant une succession future :
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Une	Une	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+5	      	      	SPACE	_	_SP	4		_	_
+6	concernant	concerner	VERB	_	VERB__Tense=Pres|VerbForm=Part	4	acl	_	_
+7	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	succession	succession	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obj	_	_
+9	future	futur	ADJ	_	ADJ__Gender=Fem|Number=Sing	8	amod	_	_
+10	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Mon père est       propriétaire à 90 % d'un appartement, les 10 % restant       sont à sa femme.
+1	Mon	Mon	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	père	père	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	      	      	SPACE	_	_SP	1		_	_
+5	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	0	ROOT	_	_
+6	à	à	ADP	_	ADP___	4	case	_	_
+7	90	90	NUM	_	NUM__NumType=Card	8	nummod	_	_
+8	%	%	NOUN	_	NOUN__Gender=Masc	6	obl	_	_
+9	d'	de	ADP	_	ADP___	8	case	_	_
+10	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+11	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nmod	_	_
+12	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+13	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	15	det	_	_
+14	10	10	NUM	_	NUM__NumType=Card	13	nummod	_	_
+15	%	%	NOUN	_	NOUN__Gender=Masc	15	obl	_	_
+16	restant	rester	VERB	_	VERB__Tense=Pres|VerbForm=Part	18	acl	_	_
+17	      	      	SPACE	_	_SP	18		_	_
+18	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+19	à	à	ADP	_	ADP___	21	case	_	_
+20	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	21	nmod:poss	_	_
+21	femme	femme	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	obl	_	_
+22	.	.	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#Cet appartement est       non habité.
+1	Cet	Cet	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	1	det	_	_
+2	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	      	      	SPACE	_	_SP	1		_	_
+5	non	non	ADV	_	ADV___	4	advmod	_	_
+6	habité	habiter	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+7	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#En cas de décès de       mon père, comment se passe la succession ?
+1	En	En	ADP	_	ADP___	1	case	_	_
+2	cas	cas	NOUN	_	NOUN__Gender=Masc	1	fixed	_	_
+3	de	de	ADP	_	ADP___	4	fixed	_	_
+4	décès	décès	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+5	de	de	ADP	_	ADP___	4	case	_	_
+6	      	      	SPACE	_	_SP	4		_	_
+7	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+8	père	père	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nmod	_	_
+9	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+10	comment	comment	ADV	_	ADV__PronType=Int	1	advmod	_	_
+11	se	se	PRON	_	PRON__Person=3|Reflex=Yes	12	expl	_	_
+12	passe	passer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	succession	succession	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obj	_	_
+15	?	?	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Nous sommes 3 enfants.
+1	Nous	Nous	PRON	_	PRON__Number=Plur|Person=1	1	nsubj	_	_
+2	sommes	sommer	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	3	3	NUM	_	NUM__NumType=Card	4	nummod	_	_
+4	enfants	enfant	NOUN	_	NOUN__Number=Plur	1	obj	_	_
+5	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Si sa femme voulait       occuper l'appartement, comment le récupérer pour le vendre par       exemple ?
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	1	nmod:poss	_	_
+3	femme	femme	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nsubj	_	_
+4	voulait	vouloir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	aux	_	_
+5	      	      	SPACE	_	_SP	4		_	_
+6	occuper	occuper	VERB	_	VERB__VerbForm=Inf	4	advcl	_	_
+7	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+9	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+10	comment	comment	ADV	_	ADV__PronType=Int	1	advmod	_	_
+11	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	12	obj	_	_
+12	récupérer	récupérer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+13	pour	pour	ADP	_	ADP___	15	mark	_	_
+14	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	obj	_	_
+15	vendre	vendre	VERB	_	VERB__VerbForm=Inf	15	advcl	_	_
+16	par	par	ADP	_	ADP___	18	case	_	_
+17	      	      	SPACE	_	_SP	18		_	_
+18	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obl	_	_
+19	?	?	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Merci à vous si       vous pouvez me donner des précisions
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	à	à	ADP	_	ADP___	1	case	_	_
+3	vous	se	PRON	_	PRON__Number=Plur|Person=2|PronType=Prs	4	nmod	_	_
+4	si	si	SCONJ	_	SCONJ___	1	mark	_	_
+5	      	      	SPACE	_	_SP	4		_	_
+6	vous	se	PRON	_	PRON__Number=Plur|Person=2	4	nsubj	_	_
+7	pouvez	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	6	expl	_	_
+9	donner	donner	VERB	_	VERB__VerbForm=Inf	8	acl	_	_
+10	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	1	det	_	_
+11	précisions	précision	NOUN	_	NOUN__Gender=Fem|Number=Plur	12	obj	_	_
+
+

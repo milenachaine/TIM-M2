@@ -1,0 +1,261 @@
+#Bonjour,Je suis locataire.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Je	Je	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+4	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	locataire	locataire	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	acl:relcl	_	_
+6	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#J'ai été cambriolé, ce qui m'a décider de  déménager.
+1	J'	J'	PRON	_	PRON__Number=Sing|Person=1	1	nsubj:pass	_	_
+2	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	5	aux:pass	_	_
+4	cambriolé	cambrioler	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+6	ce	ce	PRON	_	PRON__PronType=Rel	1	iobj	_	_
+7	qui	qui	PRON	_	PRON__PronType=Rel	10	nsubj	_	_
+8	m'	se	PRON	_	PRON__Number=Sing|Person=1	10	obj	_	_
+9	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	décider	décider	VERB	_	VERB__VerbForm=Inf	10	acl:relcl	_	_
+11	de	de	ADP	_	ADP___	10	mark	_	_
+12	 	 	SPACE	_		10		_	_
+13	déménager	déménager	VERB	_	VERB__VerbForm=Inf	16	xcomp	_	_
+14	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Ma porte se comporte de 3 serrure une en haut, une au milieu  et une en bas.
+1	Ma	Ma	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	porte	porter	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+3	se	se	PRON	_	PRON__Person=3|Reflex=Yes	5	expl	_	_
+4	comporte	comporter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	de	de	ADP	_	ADP___	1	case	_	_
+6	3	3	PRON	_	PRON__NumType=Card|PronType=Rel	1	nummod	_	_
+7	serrure	serrure	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	xcomp	_	_
+8	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	amod	_	_
+9	en	en	ADP	_	ADP___	10	case	_	_
+10	haut	haut	ADJ	_	ADJ__Gender=Masc|Number=Sing	10	fixed	_	_
+11	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+12	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+13	au	au	ADJ	_	ADJ__Gender=Fem|Number=Sing|NumType=Ord	16	amod	_	_
+14	milieu	milieu	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	appos	_	_
+15	 	 	SPACE	_		16		_	_
+16	et	et	CCONJ	_	CCONJ___	12	cc	_	_
+17	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	en	en	ADP	_	ADP___	17	case	_	_
+19	bas	bas	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	conj	_	_
+20	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Lors du cambriolage je n'avait fermé que le verrou du  haut.
+1	Lors	Lors	ADV	_	ADV___	1	case	_	_
+2	du	du	DET	_	DET__Gender=Masc|Number=Sing	1	det	_	_
+3	cambriolage	cambriolage	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+4	je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+5	n'	ne	ADV	_	ADV___	1	advmod	_	_
+6	avait	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	aux	_	_
+7	fermé	fermer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+8	que	que	SCONJ	_	SCONJ___	10	mark	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	verrou	verrou	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	ccomp	_	_
+11	du	du	DET	_	DET__Gender=Masc|Number=Sing	10	amod	_	_
+12	 	 	SPACE	_		10		_	_
+13	haut	haut	ADJ	_	ADJ__Gender=Masc|Number=Sing	16	amod	_	_
+14	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Donc le verrou endommagé est celui du haut.
+1	Donc	Donc	ADV	_	ADV___	1	advmod	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+3	verrou	verrou	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+4	endommagé	endommager	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+6	celui	celui	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+7	du	du	DET	_	DET__Gender=Masc|Number=Sing	10	det	_	_
+8	haut	haut	ADJ	_	ADJ__Gender=Masc|Number=Sing	10	obj	_	_
+9	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Le propriétaire veut changer la serrure d'en bas de la porte et me faire payer la serrure alors qu'elle a pas été touché.
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	1	nsubj	_	_
+3	veut	vouloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	changer	changer	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+6	serrure	serrure	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obj	_	_
+7	d'	de	ADP	_	ADP___	10	case	_	_
+8	en	en	ADP	_	ADP___	10	case	_	_
+9	bas	bas	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+10	de	de	ADP	_	ADP___	10	case	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+12	porte	porter	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+13	et	et	CCONJ	_	CCONJ___	16	cc	_	_
+14	me	se	PRON	_	PRON__Number=Sing|Person=1	16	obj	_	_
+15	faire	faire	VERB	_	VERB__VerbForm=Inf	16	conj	_	_
+16	payer	payer	VERB	_	VERB__VerbForm=Inf	12	xcomp	_	_
+17	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	serrure	serrure	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	obj	_	_
+19	alors	alors	ADV	_	ADV___	16	advmod	_	_
+20	qu'	que	SCONJ	_	SCONJ___	10	fixed	_	_
+21	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	22	nsubj:pass	_	_
+22	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+23	pas	pas	ADV	_	ADV__Polarity=Neg	24	advmod	_	_
+24	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	24	aux:pass	_	_
+25	touché	toucher	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	27	acl:relcl	_	_
+26	.	.	PUNCT	_	PUNCT___	27	punct	_	_
+
+
+#En suite, quand je suis rentré dans l'appartement, la porte d'entrée  avait une planche de bois entre le mur et la porte.
+1	En	En	ADP	_	ADP___	1	advmod	_	_
+2	suite	suite	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+4	quand	quand	SCONJ	_	SCONJ___	5	mark	_	_
+5	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj:pass	_	_
+6	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
+7	rentré	rentrer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	advcl	_	_
+8	dans	dan	ADP	_	ADP___	10	case	_	_
+9	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obl	_	_
+11	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+13	porte	porter	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	conj	_	_
+14	d'	de	ADP	_	ADP___	16	case	_	_
+15	entrée	entrer	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nmod	_	_
+16	 	 	SPACE	_		12		_	_
+17	avait	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+18	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+19	planche	plancher	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obj	_	_
+20	de	de	ADP	_	ADP___	10	case	_	_
+21	bois	boire	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	nmod	_	_
+22	entre	entrer	ADP	_	ADP___	24	case	_	_
+23	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	mur	mur	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	nmod	_	_
+25	et	et	CCONJ	_	CCONJ___	27	cc	_	_
+26	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	porte	porter	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	conj	_	_
+28	.	.	PUNCT	_	PUNCT___	27	punct	_	_
+
+
+#La planche est  vissé sur la porte.
+1	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	planche	plancher	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj:pass	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+4	 	 	SPACE	_		5		_	_
+5	vissé	visser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+6	sur	sur	ADP	_	ADP___	1	case	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+8	porte	porter	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obl	_	_
+9	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Lors de mon entrée, je l'ai dis, le propriétaire a  mis état moyen sur la porte.
+1	Lors	Lors	ADV	_	ADV___	1	case	_	_
+2	de	de	ADP	_	ADP___	1	fixed	_	_
+3	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+4	entrée	entrer	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obl	_	_
+5	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+6	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+7	l'	le	PRON	_	PRON__Number=Sing|Person=3	10	obj	_	_
+8	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	dis	dire	ADV	_	ADV___	10	advmod	_	_
+10	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+12	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	10	nsubj	_	_
+13	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+14	 	 	SPACE	_		16		_	_
+15	mis	mettre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	16	cop	_	_
+16	état	état	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+17	moyen	moyen	ADJ	_	ADJ__Gender=Masc|Number=Sing	19	amod	_	_
+18	sur	sur	ADP	_	ADP___	17	case	_	_
+19	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+20	porte	porter	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+21	.	.	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#Il me dis que c'est moi maintenant qui l'a  mis que je vais devoir payer une porte.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	me	se	PRON	_	PRON__Number=Sing|Person=1	1	expl	_	_
+3	dis	dire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	que	que	SCONJ	_	SCONJ___	5	mark	_	_
+5	c'	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+6	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+7	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	10	ccomp	_	_
+8	maintenant	maintenir	ADV	_	ADV___	10	advmod	_	_
+9	qui	qui	PRON	_	PRON__PronType=Rel	10	nsubj	_	_
+10	l'	le	PRON	_	PRON__Number=Sing|Person=3	10	obj	_	_
+11	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+12	 	 	SPACE	_		10		_	_
+13	mis	mettre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	16	ccomp	_	_
+14	que	que	SCONJ	_	SCONJ___	16	mark	_	_
+15	je	il	PRON	_	PRON__Number=Sing|Person=1	16	nsubj	_	_
+16	vais	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
+17	devoir	devoir	AUX	_	AUX__VerbForm=Inf	19	aux	_	_
+18	payer	payer	VERB	_	VERB__VerbForm=Inf	17	xcomp	_	_
+19	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+20	porte	porter	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obj	_	_
+21	.	.	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#J'aimerais savoir si des photos prisent avant mon entrée dedans peut  constituer une preuve ( j'avais envoyé les photo de mon appartement  avant d'emménagé à ma famille).Et comment faire pour qu'il me rende la caution?
+1	J'	J'	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	aimerais	aimer	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+3	savoir	savoir	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+4	si	si	SCONJ	_	SCONJ___	5	mark	_	_
+5	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	1	det	_	_
+6	photos	photo	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	nsubj	_	_
+7	prisent	priser	ADV	_	ADV___	10	advcl	_	_
+8	avant	avant	ADP	_	ADP___	10	case	_	_
+9	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+10	entrée	entrer	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obl	_	_
+11	dedans	dedans	ADP	_	ADP___	10	mark	_	_
+12	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+13	 	 	SPACE	_		16		_	_
+14	constituer	constituer	VERB	_	VERB__VerbForm=Inf	16	xcomp	_	_
+15	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	preuve	preuve	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obj	_	_
+17	(	(	PUNCT	_	PUNCT___	19	punct	_	_
+18	j'	il	PRON	_	PRON__Number=Sing|Person=1	17	nsubj	_	_
+19	avais	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+20	envoyé	envoyer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
+21	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	22	det	_	_
+22	photo	photo	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	obj	_	_
+23	de	de	ADP	_	ADP___	24	case	_	_
+24	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	24	nmod:poss	_	_
+25	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	nmod	_	_
+26	 	 	SPACE	_		27		_	_
+27	avant	avant	ADP	_	ADP___	24	mark	_	_
+28	d'	de	ADP	_	ADP___	27	fixed	_	_
+29	emménagé	emménager	VERB	_	VERB__VerbForm=Inf	30	advcl	_	_
+30	à	à	ADP	_	ADP___	28	case	_	_
+31	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	27	nmod:poss	_	_
+32	famille).Et	famille).Et	ADV	_	ADV__PronType=Int	34	obl	_	_
+33	comment	comment	ADV	_	ADV__PronType=Int	34	advmod	_	_
+34	faire	faire	VERB	_	VERB__VerbForm=Inf	27	acl	_	_
+35	pour	pour	ADP	_	ADP___	34	mark	_	_
+36	qu'	que	SCONJ	_	SCONJ___	39	fixed	_	_
+37	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	39	nsubj	_	_
+38	me	se	PRON	_	PRON__Number=Sing|Person=1	39	iobj	_	_
+39	rende	rendre	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	advcl	_	_
+40	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+41	caution	caution	NOUN	_	NOUN__Gender=Fem|Number=Sing	43	obj	_	_
+42	?	?	PUNCT	_	PUNCT___	43	punct	_	_
+
+
+#( j'ai bouché les trous et refait la peinture dans l'appartement)Merci et cordialement
+1	(	(	PUNCT	_	PUNCT___	1	punct	_	_
+2	j'	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+3	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	bouché	boucher	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+6	trous	trou	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	obj	_	_
+7	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+8	refait	refaire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	conj	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	peinture	peinture	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obj	_	_
+11	dans	dan	ADP	_	ADP___	10	case	_	_
+12	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+13	appartement)Merci	appartement)Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	nmod	_	_
+14	et	et	CCONJ	_	CCONJ___	16	cc	_	_
+15	cordialement	cordialement	ADV	_	ADV___	16	conj	_	_
+
+

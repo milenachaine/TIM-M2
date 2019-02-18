@@ -1,0 +1,104 @@
+#Cest le dernier etage dun immeuble de 7 etages, dont la surface au sol doit etre denviron 150m2 avec a chaque etage 2 a 3 appartements selon les niveaux.
+1	Cest	Cest	SCONJ	_	SCONJ___	0	ROOT	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	dernier	dernier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	_
+4	etage	etage	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+5	dun	dun	ADP	_	ADP___	4	nummod	_	_
+6	immeuble	immeuble	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	amod	_	_
+7	de	de	ADP	_	ADP___	9	case	_	_
+8	7	7	NUM	_	NUM__NumType=Card	9	nummod	_	_
+9	etages	etages	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	nmod	_	_
+10	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+11	dont	dont	PRON	_	PRON__PronType=Rel	16	iobj	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	surface	surface	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nsubj	_	_
+14	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	13	nmod	_	_
+15	sol	sol	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+16	doit	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	fixed	_	_
+17	etre	etre	VERB	_	VERB__VerbForm=Inf	19	cop	_	_
+18	denviron	denviron	ADV	_	ADV___	19	advmod	_	_
+19	150m2	150m2	NUM	_	NUM__NumType=Card	16	ccomp	_	_
+20	avec	avec	ADP	_	ADP___	23	case	_	_
+21	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	fixed	_	_
+22	chaque	chaque	DET	_	DET__Number=Sing	23	det	_	_
+23	etage	etage	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obl	_	_
+24	2	2	NUM	_	NUM__NumType=Card	23	nummod	_	_
+25	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	fixed	_	_
+26	3	3	NUM	_	NUM__NumType=Card	27	nummod	_	_
+27	appartements	appartement	NOUN	_	NOUN__Gender=Masc|Number=Plur	25	obj	_	_
+28	selon	selon	ADP	_	ADP___	30	case	_	_
+29	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	30	det	_	_
+30	niveaux	niveau	NOUN	_	NOUN__Gender=Masc|Number=Plur	19	obl	_	_
+31	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Lappartement da cote appartient au propriétaire du 3eme etage, cest une ancienne chambre de bonne qui lui sert de grenier...
+1	Lappartement	Lappartement	ADV	_	ADV___	1	nsubj	_	_
+2	da	da	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	nmod	_	_
+3	cote	coter	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	4	amod	_	_
+4	appartient	appartenir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	au	au	NOUN	_	NOUN___	4	advmod	_	_
+6	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	4	obj	_	_
+7	du	du	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	det	_	_
+8	3eme	3eme	NUM	_	NUM__NumType=Card	9	nummod	_	_
+9	etage	etage	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+10	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+11	cest	cest	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	appos	_	_
+12	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	ancienne	ancien	ADJ	_	ADJ__Gender=Fem|Number=Sing	16	amod	_	_
+14	chambre	chambrer	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nsubj	_	_
+15	de	de	ADP	_	ADP___	13	case	_	_
+16	bonne	bon	ADJ	_	ADJ__Gender=Fem|Number=Sing	10	nmod	_	_
+17	qui	qui	PRON	_	PRON__PronType=Rel	19	nsubj	_	_
+18	lui	luire	PRON	_	PRON__Number=Sing|Person=3	19	iobj	_	_
+19	sert	servir	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	acl:relcl	_	_
+20	de	de	ADP	_	ADP___	23	case	_	_
+21	grenier	grenier	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obl	_	_
+22	...	...	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Deplacer la cloison serait évidemment ideal pour moi, sans avoir a passer par tout ça.
+1	Deplacer	Deplacer	ADP	_	ADP___	1	acl	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	cloison	cloison	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obj	_	_
+4	serait	être	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
+5	évidemment	évidemment	ADV	_	ADV___	4	advmod	_	_
+6	ideal	ideal	ADV	_	ADV___	4	obl	_	_
+7	pour	pour	ADP	_	ADP___	9	case	_	_
+8	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	9	nmod	_	_
+9	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+10	sans	sans	ADP	_	ADP___	1	mark	_	_
+11	avoir	avoir	AUX	_	AUX__VerbForm=Inf	16	aux	_	_
+12	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	passer	prendre	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+14	par	par	ADP	_	ADP___	13	case	_	_
+15	tout	tout	ADJ	_	ADJ__Gender=Masc|Number=Sing	13	amod	_	_
+16	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	obl	_	_
+17	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Je vais essayer de convaincre mon voisin...
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	vais	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	essayer	essayer	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+4	de	de	ADP	_	ADP___	1	case	_	_
+5	convaincre	convaincre	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obl	_	_
+6	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+7	voisin	voisin	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+8	...	...	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#des idées pour y arriver ?
+1	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	1	det	_	_
+2	idées	idée	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+3	pour	pour	ADP	_	ADP___	4	case	_	_
+4	y	yu	PRON	_	PRON__Person=3	1	iobj	_	_
+5	arriver	avoir	VERB	_	VERB__VerbForm=Inf	4	nmod	_	_
+6	?	?	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Bonne soirée
+1	Bonne	Bonne	ADJ	_	ADJ__Gender=Fem|Number=Sing	1	amod	_	_
+2	soirée	soirée	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+
+

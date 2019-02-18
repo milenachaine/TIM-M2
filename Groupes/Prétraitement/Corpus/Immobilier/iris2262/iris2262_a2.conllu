@@ -1,0 +1,44 @@
+#Synthétisez :
+1	Synthétisez	Synthétisez	ADV	_	ADV___	0	ROOT	_	_
+2	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#- combien d'appartements dans l'immeuble ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	combien	combien	ADV	_	ADV__PronType=Int	0	ROOT	_	_
+3	d'	de	ADP	_	ADP___	4	case	_	_
+4	appartements	appartement	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	nmod	_	_
+5	dans	dan	ADP	_	ADP___	6	case	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+7	immeuble	immeuble	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nmod	_	_
+8	?	?	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#- combien y a-t-il de compteurs et que desservent-ils ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	combien	combien	ADV	_	ADV__PronType=Int	1	advmod	_	_
+3	y	yu	PRON	_	PRON__Person=3	4	expl	_	_
+4	a	avoir		_	VERB	4	aux	_	_
+5	-t	t	PART	_	PART___	6	expl	_	_
+6	-il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+7	de	de	ADP	_	ADP___	9	case	_	_
+8	compteurs	compteur	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	nmod	_	_
+9	et	et	CCONJ	_	CCONJ___	6	cc	_	_
+10	que	que	SCONJ	_	SCONJ___	4	mark	_	_
+11	desservent	desservir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	conj	_	_
+12	-	-	PUNCT	_	PUNCT___	23	punct	_	_
+13	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	0	ROOT	_	_
+14	?	?	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#- combien d'abonnements et pour qui ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	combien	combien	ADV	_	ADV__PronType=Int	1	advmod	_	_
+3	d'	de	ADP	_	ADP___	4	case	_	_
+4	abonnements	abonnement	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+5	et	et	CCONJ	_	CCONJ___	6	cc	_	_
+6	pour	pour	ADP	_	ADP___	4	case	_	_
+7	qui	qui	PRON	_	PRON__PronType=Rel	9	conj	_	_
+8	?	?	PUNCT	_	PUNCT___	9	punct	_	_
+
+

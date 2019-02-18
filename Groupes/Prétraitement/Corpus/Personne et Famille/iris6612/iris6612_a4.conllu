@@ -1,0 +1,321 @@
+#Le texte dit :
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	texte	texte	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+3	dit	dire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	:	:	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Les primes versées après 70 ans sont de 58700€ (à moins que ce soit déjà la fraction qui excède 30500€ ?
+1	Les	Les	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	2	det	_	_
+2	primes	primer	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	nsubj	_	_
+3	versées	verser	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	3	acl	_	_
+4	après	après	ADP	_	ADP___	3	case	_	_
+5	70	70	NUM	_	NUM__NumType=Card	6	nummod	_	_
+6	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	23	obl	_	_
+7	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+8	de	de	ADP	_	ADP___	10	case	_	_
+9	58700	58700	NUM	_	NUM__NumType=Card	10	nummod	_	_
+10	€	€	NOUN	_	NOUN___	7	obl	_	_
+11	(	(	PUNCT	_	PUNCT___	14	punct	_	_
+12	à	à	ADP	_	ADP___	14	mark	_	_
+13	moins	moins	ADV	_	ADV___	14	fixed	_	_
+14	que	que	SCONJ	_	SCONJ___	7	fixed	_	_
+15	ce	ce	PRON	_	PRON__Number=Sing|Person=3	14	nmod	_	_
+16	soit	être	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cc	_	_
+17	déjà	déjà	ADV	_	ADV___	16	advmod	_	_
+18	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+19	fraction	fraction	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+20	qui	qui	PRON	_	PRON__PronType=Rel	23	nsubj	_	_
+21	excède	excéder	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
+22	30500	30500	NUM	_	NUM__NumType=Card	23	nummod	_	_
+23	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	23	obj	_	_
+24	?	?	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#).La
+1	)	)	PUNCT	_	PUNCT___	2	punct	_	_
+2	.La	.La	PUNCT	_	PUNCT___	0	ROOT	_	_
+
+
+#fraction des primes versées après 70 ans qui excède
+1	fraction	fraction	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	3	det	_	_
+3	primes	primer	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	obj	_	_
+4	versées	verser	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	3	acl	_	_
+5	après	après	ADP	_	ADP___	6	case	_	_
+6	70	70	NUM	_	NUM__NumType=Card	23	nummod	_	_
+7	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	obl	_	_
+8	qui	qui	PRON	_	PRON__PronType=Rel	10	nsubj	_	_
+9	excède	excéder	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+
+
+#30500€ est donc 28200€.Les sommes que vous percevez donnent ouverture aux droits de succession à concurrence de 28000€. Comme vous percevez 91900€, seuls 28000€ sont soumis aux droits de succession.
+1	30500	30500	NUM	_	NUM__NumType=Card	2	nummod	_	_
+2	€	€	NOUN	_	NOUN__Gender=Masc	3	obl	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+4	donc	donc	ADV	_	ADV___	3	advmod	_	_
+5	28200€.Les	28200€.Les	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	6	nummod	_	_
+6	sommes	sommer	NOUN	_	NOUN__Number=Plur	0	ROOT	_	_
+7	que	que	PRON	_	PRON__PronType=Rel	6	mark	_	_
+8	vous	se	PRON	_	PRON__Number=Plur|Person=2	10	nsubj	_	_
+9	percevez	percevoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+10	donnent	donner	ADV	_	ADV___	7	advmod	_	_
+11	ouverture	ouverture	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obj	_	_
+12	aux	aux	ADP	_	ADP___	14	nummod	_	_
+13	droits	droit	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	obj	_	_
+14	de	de	ADP	_	ADP___	7	case	_	_
+15	succession	succession	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nmod	_	_
+16	à	à	ADP	_	ADP___	19	case	_	_
+17	concurrence	concurrencer	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nmod	_	_
+18	de	de	ADP	_	ADP___	16	case	_	_
+19	28000€.	28000€.	PRON	_	PRON__NumType=Card|PronType=Rel	14	nmod	_	_
+20	Comme	Comme	SCONJ	_	SCONJ___	23	mark	_	_
+21	vous	se	PRON	_	PRON__Number=Plur|Person=2	23	nsubj	_	_
+22	percevez	percevoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	23	advcl	_	_
+23	91900	91900	NUM	_	NUM__NumType=Card	23	obj	_	_
+24	€	€	NOUN	_	NOUN__Gender=Masc	25	obj	_	_
+25	,	,	PUNCT	_	PUNCT___	23	punct	_	_
+26	seuls	seul	ADJ	_	ADJ__Gender=Masc|Number=Plur	27	amod	_	_
+27	28000	28000	NUM	_	NUM__NumType=Card	25	obl	_	_
+28	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	23	nsubj:pass	_	_
+29	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	aux:pass	_	_
+30	soumis	soumettre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	30	acl	_	_
+31	aux	aux	ADJ	_	ADJ__Gender=Masc|Number=Plur	31	case	_	_
+32	droits	droit	NOUN	_	NOUN__Gender=Masc|Number=Plur	33	obj	_	_
+33	de	de	ADP	_	ADP___	31	case	_	_
+34	succession	succession	NOUN	_	NOUN__Gender=Fem|Number=Sing	33	nmod	_	_
+35	.	.	PUNCT	_	PUNCT___	37	punct	_	_
+
+
+#Mais si vous n'aviez perçu que 20000€ (un contrat qui aurait perdu de l'argent), vous ne seriez soumis que sur 20000€.En appliquant directement 55% sur cette somme, c'est comme si on vous appliquait votre taux marginal, sans l'abattement.
+1	Mais	Mais	CCONJ	_	CCONJ___	2	cc	_	_
+2	si	si	SCONJ	_	SCONJ___	3	mark	_	_
+3	vous	se	PRON	_	PRON__Number=Plur|Person=2	3	nsubj	_	_
+4	n'	ne	ADV	_	ADV___	3	advmod	_	_
+5	aviez	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	perçu	percevoir	ADJ	_	ADJ__Gender=Masc|Number=Sing	23	advcl	_	_
+7	que	que	SCONJ	_	SCONJ___	6	mark	_	_
+8	20000	20000	NUM	_	NUM__NumType=Card	10	nummod	_	_
+9	€	€	NOUN	_	NOUN___	10	obl	_	_
+10	(	(	PUNCT	_	PUNCT___	7	punct	_	_
+11	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+12	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	appos	_	_
+13	qui	qui	PRON	_	PRON__PronType=Rel	14	nsubj	_	_
+14	aurait	avoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+15	perdu	perdre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl:relcl	_	_
+16	de	de	ADP	_	ADP___	19	case	_	_
+17	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+18	argent	argent	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obl	_	_
+19	)	)	PUNCT	_	PUNCT___	14	punct	_	_
+20	,	,	PUNCT	_	PUNCT___	23	punct	_	_
+21	vous	se	PRON	_	PRON__Number=Plur|Person=2	23	nsubj	_	_
+22	ne	ne	ADV	_	ADV___	23	advmod	_	_
+23	seriez	être	VERB	_	VERB__VerbForm=Part	23	aux	_	_
+24	soumis	soumettre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	25	ccomp	_	_
+25	que	que	ADV	_	ADV___	23	mark	_	_
+26	sur	sur	ADP	_	ADP___	27	case	_	_
+27	20000€.En	20000€.En	PRON	_	PRON__NumType=Card|PronType=Rel	25	nummod	_	_
+28	appliquant	appliquer	VERB	_	VERB__Tense=Pres|VerbForm=Part	23	cop	_	_
+29	directement	directement	ADV	_	ADV___	30	advmod	_	_
+30	55	55	NUM	_	NUM__NumType=Card	30	nummod	_	_
+31	%	%	NOUN	_	NOUN__Gender=Masc	31	ccomp	_	_
+32	sur	sur	ADP	_	ADP___	33	case	_	_
+33	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	31	det	_	_
+34	somme	sommer	NOUN	_	NOUN__Gender=Fem|Number=Sing	33	nmod	_	_
+35	,	,	PUNCT	_	PUNCT___	37	punct	_	_
+36	c'	ce	PRON	_	PRON__Number=Sing|Person=3	37	nsubj	_	_
+37	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	cop	_	_
+38	comme	comme	ADV	_	ADV___	39	mark	_	_
+39	si	si	SCONJ	_	SCONJ___	37	mark	_	_
+40	on	on	PRON	_	PRON__Number=Sing|Person=3	41	nsubj	_	_
+41	vous	se	PRON	_	PRON__Number=Plur|Person=2	45	iobj	_	_
+42	appliquait	appliquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+43	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	44	nmod:poss	_	_
+44	taux	taux	NOUN	_	NOUN__Gender=Masc|Number=Sing	45	obj	_	_
+45	marginal	marginal	ADJ	_	ADJ__Gender=Masc|Number=Sing	45	amod	_	_
+46	,	,	PUNCT	_	PUNCT___	48	punct	_	_
+47	sans	sans	ADP	_	ADP___	48	case	_	_
+48	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	45	det	_	_
+49	abattement	abattement	NOUN	_	NOUN__Gender=Masc|Number=Sing	48	obl	_	_
+50	.	.	PUNCT	_	PUNCT___	48	punct	_	_
+
+
+#C'est-à-dire que si vous n'aviez rien en héritage, donc imposé uniquement sur les sommes perçues, on aurait oublié votre abattement.
+1	C'	C'	PRON	_	PRON__Number=Sing|Person=3	2	advmod	_	_
+2	est	être	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	fixed	_	_
+3	-	-	PUNCT	_	PUNCT___	3	fixed	_	_
+4	à	à	ADP	_	ADP___	3	fixed	_	_
+5	-	-	PUNCT	_	PUNCT___	6	fixed	_	_
+6	dire	dire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+7	que	que	SCONJ	_	SCONJ___	6	mark	_	_
+8	si	si	SCONJ	_	SCONJ___	10	mark	_	_
+9	vous	se	PRON	_	PRON__Number=Plur|Person=2	10	nsubj	_	_
+10	n'	ne	ADV	_	ADV___	7	advmod	_	_
+11	aviez	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+12	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	14	obj	_	_
+13	en	en	ADP	_	ADP___	14	case	_	_
+14	héritage	héritage	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+15	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+16	donc	donc	ADV	_	ADV___	19	advmod	_	_
+17	imposé	imposer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl	_	_
+18	uniquement	uniquement	ADV	_	ADV___	16	advmod	_	_
+19	sur	sur	ADP	_	ADP___	14	case	_	_
+20	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	23	det	_	_
+21	sommes	sommer	NOUN	_	NOUN__Number=Plur	23	obl	_	_
+22	perçues	perçu	ADJ	_	ADJ__Number=Plur	23	amod	_	_
+23	,	,	PUNCT	_	PUNCT___	23	punct	_	_
+24	on	on	PRON	_	PRON__Number=Sing|Person=3	25	nsubj	_	_
+25	aurait	avoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+26	oublié	oublier	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	ccomp	_	_
+27	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	25	nmod:poss	_	_
+28	abattement	abattement	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	obj	_	_
+29	.	.	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#Mais en fait, si c'est simple avec un seul bénéficiaire, je vois que j'ai un doute concernant un contrat avec plusieurs bénéficiaires, avec des proratas.
+1	Mais	Mais	CCONJ	_	CCONJ___	2	cc	_	_
+2	en	en	ADP	_	ADP___	3	case	_	_
+3	fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+5	si	si	SCONJ	_	SCONJ___	6	mark	_	_
+6	c'	ce	PRON	_	PRON__Number=Sing|Person=3	23	nsubj	_	_
+7	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+8	simple	simple	ADJ	_	ADJ__Number=Sing	10	advcl	_	_
+9	avec	avec	ADP	_	ADP___	10	case	_	_
+10	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+11	seul	seul	ADJ	_	ADJ__Gender=Masc|Number=Sing	14	amod	_	_
+12	bénéficiaire	bénéficiaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obl	_	_
+13	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+14	je	il	PRON	_	PRON__Number=Sing|Person=1	7	obj	_	_
+15	vois	voir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	fixed	_	_
+16	que	que	SCONJ	_	SCONJ___	19	mark	_	_
+17	j'	il	PRON	_	PRON__Number=Sing|Person=1	16	nsubj	_	_
+18	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	ccomp	_	_
+19	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+20	doute	douter	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	obj	_	_
+21	concernant	concerner	VERB	_	VERB__Tense=Pres|VerbForm=Part	23	acl	_	_
+22	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	obj	_	_
+24	avec	avec	ADP	_	ADP___	25	case	_	_
+25	plusieurs	plusieurs	DET	_	DET__Number=Plur	23	det	_	_
+26	bénéficiaires	bénéficiaire	NOUN	_	NOUN__Number=Plur	27	nmod	_	_
+27	,	,	PUNCT	_	PUNCT___	25	punct	_	_
+28	avec	avec	ADP	_	ADP___	23	case	_	_
+29	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	30	det	_	_
+30	proratas	proratas	NOUN	_	NOUN__Gender=Masc|Number=Plur	30	obl	_	_
+31	.	.	PUNCT	_	PUNCT___	31	punct	_	_
+
+
+#Car le point II de l'article gère un bénéficiaire de plusieurs contrats.
+1	Car	Car	PROPN	_	PROPN__Gender=Fem|Number=Sing	2	cc	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	point	poindre	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+4	II	II	ADJ	_	ADJ__NumType=Card	3	amod	_	_
+5	de	de	ADP	_	ADP___	6	case	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+7	article	article	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nmod	_	_
+8	gère	gérer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+9	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	bénéficiaire	bénéficiaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+11	de	de	ADP	_	ADP___	14	case	_	_
+12	plusieurs	plusieurs	DET	_	DET__Number=Plur	14	det	_	_
+13	contrats	contrat	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	nmod	_	_
+14	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Faut
+1	Faut	Faut	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+
+
+#-il faire ce calcul pour chaque bénéficiaire, en calculant au prorata une fraction des primes versées après 70 ans ?
+1	-	-	PUNCT	_	PUNCT___	2	punct	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+3	faire	faire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+5	calcul	calcul	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+6	pour	pour	ADP	_	ADP___	23	case	_	_
+7	chaque	chaque	DET	_	DET__Number=Sing	6	det	_	_
+8	bénéficiaire	bénéficiaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+9	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+10	en	en	ADP	_	ADP___	7	case	_	_
+11	calculant	calculer	VERB	_	VERB__Tense=Pres|VerbForm=Part	14	obl	_	_
+12	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	14	mark	_	_
+13	prorata	prorata	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl	_	_
+14	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+15	fraction	fraction	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obj	_	_
+16	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	19	det	_	_
+17	primes	primer	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	nmod	_	_
+18	versées	verser	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	16	acl	_	_
+19	après	après	ADP	_	ADP___	14	case	_	_
+20	70	70	NUM	_	NUM__NumType=Card	23	nummod	_	_
+21	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	23	obl	_	_
+22	?	?	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Et dans ce cas, les 58700€ sont-ils le total des primes versées après 70 ans, ou bien votre prorata des primes versées après 70 ans ?
+1	Et	Et	CCONJ	_	CCONJ___	2	cc	_	_
+2	dans	dan	ADP	_	ADP___	3	case	_	_
+3	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+4	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+6	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	23	det	_	_
+7	58700	58700	NUM	_	NUM__NumType=Card	6	nummod	_	_
+8	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	punct	_	_
+9	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl	_	_
+10	-	-	PUNCT	_	PUNCT___	7	punct	_	_
+11	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	14	punct	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	fixed	_	_
+13	total	total	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	fixed	_	_
+14	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
+15	primes	primer	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	appos	_	_
+16	versées	verser	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	19	acl	_	_
+17	après	après	ADP	_	ADP___	16	case	_	_
+18	70	70	NUM	_	NUM__NumType=Card	16	nummod	_	_
+19	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	obl	_	_
+20	,	,	PUNCT	_	PUNCT___	23	punct	_	_
+21	ou	ou	CCONJ	_	CCONJ___	23	cc	_	_
+22	bien	bien	ADV	_	ADV___	23	advmod	_	_
+23	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	23	nmod:poss	_	_
+24	prorata	prorata	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	conj	_	_
+25	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	23	det	_	_
+26	primes	primer	NOUN	_	NOUN__Gender=Masc|Number=Plur	27	obj	_	_
+27	versées	verser	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	25	acl	_	_
+28	après	après	ADP	_	ADP___	23	case	_	_
+29	70	70	NUM	_	NUM__NumType=Card	30	nummod	_	_
+30	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	30	obl	_	_
+31	?	?	PUNCT	_	PUNCT___	31	punct	_	_
+
+
+#Et donc chaque bénéficiaire voit-il, dans le calcul de son plafond, application du seuil de 30500€ pour la prise en compte des primes versées ?
+1	Et	Et	CCONJ	_	CCONJ___	2	cc	_	_
+2	donc	donc	ADV	_	ADV___	3	advmod	_	_
+3	chaque	chaque	DET	_	DET__Number=Sing	3	det	_	_
+4	bénéficiaire	bénéficiaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+5	voit	voir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	-	-	PUNCT	_	PUNCT___	23	punct	_	_
+7	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	6	obl	_	_
+8	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+9	dans	dan	ADP	_	ADP___	10	case	_	_
+10	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+11	calcul	calcul	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obl	_	_
+12	de	de	ADP	_	ADP___	14	case	_	_
+13	son	son	DET	_	DET__Number=Sing|Poss=Yes	14	nmod:poss	_	_
+14	plafond	plafond	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+15	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+16	application	application	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	appos	_	_
+17	du	du	DET	_	DET__Gender=Masc|Number=Sing	16	det	_	_
+18	seuil	seuil	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	nmod	_	_
+19	de	de	ADP	_	ADP___	14	case	_	_
+20	30500	30500	NUM	_	NUM__NumType=Card	23	nummod	_	_
+21	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	23	nmod	_	_
+22	pour	pour	ADP	_	ADP___	23	case	_	_
+23	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+24	prise	priser	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	nmod	_	_
+25	en	en	ADP	_	ADP___	23	case	_	_
+26	compte	compter	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	nmod	_	_
+27	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	25	det	_	_
+28	primes	primer	NOUN	_	NOUN__Gender=Masc|Number=Plur	23	obj	_	_
+29	versées	verser	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	30	acl	_	_
+30	?	?	PUNCT	_	PUNCT___	30	punct	_	_
+
+

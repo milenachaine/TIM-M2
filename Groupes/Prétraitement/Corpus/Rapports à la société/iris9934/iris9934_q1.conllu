@@ -1,0 +1,113 @@
+#p { margin
+1	p	p	NOUN	_	NOUN___	0	ROOT	_	_
+2	{	{	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	advmod	_	_
+3	margin	margin	ADJ	_	ADJ___	2	amod	_	_
+
+
+#-bottom: 0.25cm;
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	bottom	bottom	ADV	_	ADV___	1	nummod	_	_
+3	:	:	PUNCT	_	PUNCT___	2	punct	_	_
+4	0.25	0.25	NUM	_	NUM__NumType=Card	5	nummod	_	_
+5	cm	cm	NOUN	_	NOUN__Gender=Masc	0	ROOT	_	_
+6	;	;	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#line
+1	line	line	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+
+
+#-height: 120%;
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	height	height	ADV	_	ADV___	0	ROOT	_	_
+3	:	:	PUNCT	_	PUNCT___	2	punct	_	_
+4	120	120	NUM	_	NUM__NumType=Card	5	nummod	_	_
+5	%	%	NOUN	_	NOUN__Gender=Masc	8	nmod	_	_
+6	;	;	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#}a:link {  }   Bonjour,Je suis sur un terrain de loisirs chez un ami dans sa yourte de 20m2.On est tous les deux domiciliés au CCAS et n avons donc pas de boîte à lettres commune.
+1	}	}	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	nsubj	_	_
+2	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	nmod	_	_
+3	:	:	PUNCT	_	PUNCT___	2	punct	_	_
+4	link	link	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	amod	_	_
+5	{	{	NOUN	_	NOUN__Number=Plur	8	nmod	_	_
+6	 	 	SPACE	_		8		_	_
+7	}	}	PROPN	_	PROPN___	8	nsubj	_	_
+8	  	  	SPACE	_	_SP	8		_	_
+9	Bonjour	Bonjour	PROPN	_	PROPN___	8	nmod	_	_
+10	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+11	Je	Je	PRON	_	PRON__Number=Sing|Person=1	12	nsubj	_	_
+12	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	cop	_	_
+13	sur	sur	ADP	_	ADP___	12	case	_	_
+14	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	terrain	terrain	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	acl:relcl	_	_
+16	de	de	ADP	_	ADP___	12	case	_	_
+17	loisirs	loisir	NOUN	_	NOUN__Gender=Masc|Number=Plur	23	nmod	_	_
+18	chez	chez	ADP	_	ADP___	17	case	_	_
+19	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+20	ami	ami	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obl	_	_
+21	dans	dan	ADP	_	ADP___	17	case	_	_
+22	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	21	nmod:poss	_	_
+23	yourte	yourte	NOUN	_	NOUN__Gender=Fem|Number=Sing	46	nmod	_	_
+24	de	de	ADP	_	ADP___	23	case	_	_
+25	20m2.On	20m2.On	PRON	_	PRON__NumType=Card|PronType=Rel	23	nmod	_	_
+26	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+27	tous	tout	ADJ	_	ADJ__Gender=Masc|Number=Plur	31	advmod	_	_
+28	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	31	det	_	_
+29	deux	deux	NUM	_	NUM__NumType=Card	31	nummod	_	_
+30	domiciliés	domicilier	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+31	au	au	PRON	_	PRON__PronType=Rel	23	case	_	_
+32	CCAS	CCAS	PROPN	_	PROPN__Gender=Masc|Number=Sing	33	obl	_	_
+33	et	et	CCONJ	_	CCONJ___	31	cc	_	_
+34	n	ne	PRON	_	PRON__Person=3	36	conj	_	_
+35	avons	avons	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	36	punct	_	_
+36	donc	donc	ADV	_	ADV___	23	advmod	_	_
+37	pas	pas	ADV	_	ADV__Polarity=Neg	39	advmod	_	_
+38	de	de	DET	_	DET__Definite=Ind|Number=Sing|PronType=Art	39	det	_	_
+39	boîte	boîte	NOUN	_	NOUN__Gender=Fem|Number=Sing	36	obj	_	_
+40	à	à	ADP	_	ADP___	41	case	_	_
+41	lettres	lettre	NOUN	_	NOUN__Gender=Fem|Number=Plur	39	nmod	_	_
+42	commune	commun	ADJ	_	ADJ__Gender=Fem|Number=Sing	46	amod	_	_
+43	.	.	PUNCT	_	PUNCT___	46	punct	_	_
+
+
+#Pour la CAF, étons hors des clous si on ne se déclare pas en couple sachant que lui ne veut pas le faire -car il ne considère pas que lon forme un couple-.Merci beaucoup.
+1	Pour	Pour	ADP	_	ADP___	1	case	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+3	CAF	CAF	PROPN	_	PROPN__Gender=Fem|Number=Sing	2	obl	_	_
+4	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+5	étons	étons	NOUN	_	NOUN__Gender=Fem|Number=Plur	8	conj	_	_
+6	hors	hors	ADP	_	ADP___	8	case	_	_
+7	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
+8	clous	clou	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	nmod	_	_
+9	si	si	SCONJ	_	SCONJ___	8	mark	_	_
+10	on	on	PRON	_	PRON__Number=Sing|Person=3	10	nsubj	_	_
+11	ne	ne	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+12	se	se	PRON	_	PRON__Person=3|Reflex=Yes	12	expl	_	_
+13	déclare	déclarer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+14	pas	pas	ADV	_	ADV__Polarity=Neg	15	advmod	_	_
+15	en	en	ADP	_	ADP___	12	case	_	_
+16	couple	coupler	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obl	_	_
+17	sachant	savoir	ADJ	_	ADJ__Gender=Masc|Number=Sing	23	acl	_	_
+18	que	que	SCONJ	_	SCONJ___	17	mark	_	_
+19	lui	luire	PRON	_	PRON__Number=Sing|Person=3	17	nsubj	_	_
+20	ne	ne	ADV	_	ADV__Polarity=Neg	21	advmod	_	_
+21	veut	vouloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	ccomp	_	_
+22	pas	pas	ADV	_	ADV__Polarity=Neg	21	advmod	_	_
+23	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	46	obj	_	_
+24	faire	faire	VERB	_	VERB__VerbForm=Inf	23	xcomp	_	_
+25	-car	-car	SCONJ	_	SCONJ___	23	advmod	_	_
+26	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	23	nsubj	_	_
+27	ne	ne	ADV	_	ADV__Polarity=Neg	31	advmod	_	_
+28	considère	considérer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	parataxis	_	_
+29	pas	pas	ADV	_	ADV__Polarity=Neg	31	advmod	_	_
+30	que	que	SCONJ	_	SCONJ___	31	mark	_	_
+31	lon	lon	PRON	_	PRON__Number=Sing|Person=3	23	nsubj	_	_
+32	forme	former	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	ccomp	_	_
+33	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+34	couple-.Merci	couple-.Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	36	obj	_	_
+35	beaucoup	beaucoup	ADV	_	ADV___	36	amod	_	_
+36	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+

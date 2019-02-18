@@ -1,0 +1,160 @@
+#Bonjour à Tous.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	à	à	ADP	_	ADP___	3	case	_	_
+3	Tous	Tous	PROPN	_	PROPN__Gender=Masc|Number=Sing	1	obl	_	_
+4	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#J'ai besoin de vos connaissances.
+1	J'	J'	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ai	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	besoin	besoin	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+4	de	de	ADP	_	ADP___	1	case	_	_
+5	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	6	nmod:poss	_	_
+6	connaissances	connaissance	NOUN	_	NOUN__Gender=Fem|Number=Plur	6	obl	_	_
+7	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Dans le cadre d'un CDD conclu pour 6 mois avec une administration publique (tutelle) santé, formation, services sociaux hors sécurité sociale, pouvez vous confirmer, infirmer, compléter les sujets ci après ?
+1	Dans	Dans	ADP	_	ADP___	1	case	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	fixed	_	_
+3	cadre	cadrer	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	fixed	_	_
+4	d'	de	ADP	_	ADP___	1	fixed	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	CDD	CDD	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obl	_	_
+7	conclu	conclure	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+8	pour	pour	ADP	_	ADP___	10	case	_	_
+9	6	6	NUM	_	NUM__NumType=Card	10	nummod	_	_
+10	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	obl	_	_
+11	avec	avec	ADP	_	ADP___	6	case	_	_
+12	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+13	administration	administration	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obl	_	_
+14	publique	public	ADJ	_	ADJ__Gender=Fem|Number=Sing	12	amod	_	_
+15	(	(	PUNCT	_	PUNCT___	12	punct	_	_
+16	tutelle	tutelle	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	appos	_	_
+17	)	)	PUNCT	_	PUNCT___	41	punct	_	_
+18	santé	santé	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	nmod	_	_
+19	,	,	PUNCT	_	PUNCT___	21	punct	_	_
+20	formation	formation	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	conj	_	_
+21	,	,	PUNCT	_	PUNCT___	18	punct	_	_
+22	services	service	NOUN	_	NOUN__Gender=Masc|Number=Plur	24	conj	_	_
+23	sociaux	social	ADJ	_	ADJ__Gender=Masc|Number=Plur	24	amod	_	_
+24	hors	hors	ADP	_	ADP___	18	case	_	_
+25	sécurité	sécurité	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	nmod	_	_
+26	sociale	social	ADJ	_	ADJ__Gender=Fem|Number=Sing	24	amod	_	_
+27	,	,	PUNCT	_	PUNCT___	24	punct	_	_
+28	pouvez	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	vous	se	PRON	_	PRON__Number=Plur|Person=2	27	nsubj	_	_
+30	confirmer	confirmer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+31	,	,	PUNCT	_	PUNCT___	27	punct	_	_
+32	infirmer	infirmer	VERB	_	VERB__VerbForm=Inf	33	xcomp	_	_
+33	,	,	PUNCT	_	PUNCT___	27	punct	_	_
+34	compléter	compléter	VERB	_	VERB__VerbForm=Inf	33	conj	_	_
+35	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	36	det	_	_
+36	sujets	sujet	NOUN	_	NOUN__Gender=Masc|Number=Plur	33	obj	_	_
+37	ci	ci	PRON	_	PRON__PronType=Rel	36	case	_	_
+38	après	après	ADP	_	ADP___	41	obl	_	_
+39	?	?	PUNCT	_	PUNCT___	41	punct	_	_
+
+
+#- au terme du CDD pas de prime de précarité ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	3	nmod	_	_
+3	terme	terme	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	fixed	_	_
+4	du	du	DET	_	DET__Gender=Masc|Number=Sing	1	det	_	_
+5	CDD	CDD	PROPN	_	PROPN___	0	ROOT	_	_
+6	pas	pas	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+7	de	de	DET	_	DET__Definite=Ind|Number=Sing|PronType=Art	6	case	_	_
+8	prime	primer	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+9	de	de	ADP	_	ADP___	10	case	_	_
+10	précarité	précarité	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+11	?	?	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#- en cas de refus de renouvellement par le salarié pour raison perso : pas de droit au chomage ?
+1	-	-	PUNCT	_	PUNCT___	0	ROOT	_	_
+2	en	en	ADP	_	ADP___	3	case	_	_
+3	cas	cas	NOUN	_	NOUN__Gender=Masc	1	fixed	_	_
+4	de	de	ADP	_	ADP___	1	fixed	_	_
+5	refus	refus	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	punct	_	_
+6	de	de	ADP	_	ADP___	6	case	_	_
+7	renouvellement	renouvellement	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nmod	_	_
+8	par	par	ADP	_	ADP___	10	case	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	salarié	salarier	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nmod	_	_
+11	pour	pour	ADP	_	ADP___	6	case	_	_
+12	raison	raison	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	nmod	_	_
+13	perso	perso	ADJ	_	ADJ___	12	amod	_	_
+14	:	:	PUNCT	_	PUNCT___	12	punct	_	_
+15	pas	pas	ADV	_	ADV___	12	advmod	_	_
+16	de	de	ADP	_	ADP___	17	det	_	_
+17	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	41	nmod	_	_
+18	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	17	case	_	_
+19	chomage	chomage	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	nmod	_	_
+20	?	?	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#- au cours du CDD : accès à la mutuelle ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	au	au	DET	_	DET__Number=Plur|PronType=Dem	3	expl	_	_
+3	cours	courir	NOUN	_	NOUN__Gender=Masc	0	ROOT	_	_
+4	du	du	DET	_	DET__Gender=Masc|Number=Sing	1	det	_	_
+5	CDD	CDD	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+6	:	:	PUNCT	_	PUNCT___	6	punct	_	_
+7	accès	accès	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obl	_	_
+8	à	à	ADP	_	ADP___	10	case	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	mutuelle	mutuel	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+11	?	?	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#aux primes ?
+1	aux	aux	ADJ	_	ADJ__Gender=Masc|Number=Plur	1	nmod:poss	_	_
+2	primes	primer	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+3	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#aux tickets restau ?
+1	aux	aux	ADJ	_	ADJ__Gender=Masc|Number=Plur	1	amod	_	_
+2	tickets	ticket	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+3	restau	restau	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	acl	_	_
+4	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#- montant des charges salariales en % plus ou moins de 23 % ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	montant	monter	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	1	det	_	_
+4	charges	charger	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	obj	_	_
+5	salariales	salarial	ADJ	_	ADJ__Number=Plur	6	amod	_	_
+6	en	en	ADP	_	ADP___	6	case	_	_
+7	%	%	NOUN	_	NOUN__Gender=Masc	6	obl	_	_
+8	plus	plaire	ADV	_	ADV___	10	advmod	_	_
+9	ou	ou	CCONJ	_	CCONJ___	10	fixed	_	_
+10	moins	moins	ADV	_	ADV___	6	advmod	_	_
+11	de	de	ADP	_	ADP___	6	dep	_	_
+12	23	23	NUM	_	NUM__NumType=Card	17	nummod	_	_
+13	%	%	NOUN	_	NOUN__Gender=Masc	12	nmod	_	_
+14	?	?	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#- durée de la période d'essai ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	durée	durer	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	de	de	ADP	_	ADP___	1	case	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+5	période	période	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+6	d'	de	ADP	_	ADP___	6	case	_	_
+7	essai	essai	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+8	?	?	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#MERCI PAR AVANCE POUR VOS REPONSES
+1	MERCI	MERCI	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	PAR	PAR	ADP	_	ADP___	3	case	_	_
+3	AVANCE	AVANCE	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+4	POUR	POUR	ADP	_	ADP___	1	case	_	_
+5	VOS	VOS	NOUN	_	NOUN___	6	nmod:poss	_	_
+6	REPONSES	REPONSES	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+
+

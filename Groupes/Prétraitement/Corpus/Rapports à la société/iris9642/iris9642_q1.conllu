@@ -1,0 +1,71 @@
+#Salut tous.
+1	Salut	Salut	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+2	tous	tout	ADJ	_	ADJ__Gender=Masc|Number=Plur	1	amod	_	_
+3	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Exemple concret :Commande d'un appareil le 23/11Départ entrepot le 24/11Reception au point de retrait le 26/11Retrait effectif au point relais par le client le 13/12La facture récupérée sur le compte client est datée du 23/11 jour de la commande.
+1	Exemple	Exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	advmod	_	_
+2	concret	concret	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	amod	_	_
+3	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+4	Commande	Commande	PROPN	_	PROPN__Gender=Fem|Number=Sing	13	obl	_	_
+5	d'	de	ADP	_	ADP___	4	case	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+7	appareil	appareil	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	23/11Départ	23/11Départ	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nummod	_	_
+10	entrepot	entrepot	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	nsubj:pass	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	24/11Reception	24/11Reception	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+13	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	38	expl	_	_
+14	point	poindre	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nsubj	_	_
+15	de	de	ADP	_	ADP___	13	mark	_	_
+16	retrait	retraire	VERB	_	VERB__VerbForm=Inf	17	xcomp	_	_
+17	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+18	26/11Retrait	26/11Retrait	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	nummod	_	_
+19	effectif	effectif	ADJ	_	ADJ__Gender=Masc|Number=Sing	17	obj	_	_
+20	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	22	case	_	_
+21	point	poindre	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	obl	_	_
+22	relais	relais	ADJ	_	ADJ__Gender=Masc	19	acl	_	_
+23	par	par	ADP	_	ADP___	24	case	_	_
+24	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+25	client	client	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	obl	_	_
+26	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+27	13/12La	13/12La	ADJ	_	ADJ__NumType=Ord	28	nmod	_	_
+28	facture	facturer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	amod	_	_
+29	récupérée	récupérer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	30	acl	_	_
+30	sur	sur	ADP	_	ADP___	28	case	_	_
+31	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+32	compte	compter	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	obl	_	_
+33	client	client	ADV	_	ADV___	35	amod	_	_
+34	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	aux:pass	_	_
+35	datée	dater	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+36	du	du	DET	_	DET__Gender=Masc|Number=Sing	35	det	_	_
+37	23/11	23/11	NUM	_	NUM__NumType=Card	38	nummod	_	_
+38	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	38	obl	_	_
+39	de	de	ADP	_	ADP___	41	case	_	_
+40	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	commande	commander	NOUN	_	NOUN__Gender=Fem|Number=Sing	38	nmod	_	_
+42	.	.	PUNCT	_	PUNCT___	44	punct	_	_
+
+
+#Quand commence la garantie, quand commence le délais de retractation ?
+1	Quand	Quand	SCONJ	_	SCONJ___	1	mark	_	_
+2	commence	commencer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+4	garantie	garantir	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obj	_	_
+5	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+6	quand	quand	SCONJ	_	SCONJ___	5	mark	_	_
+7	commence	commencer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	délais	délai	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+10	de	de	ADP	_	ADP___	7	case	_	_
+11	retractation	retractation	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nmod	_	_
+12	?	?	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Maaaarci !
+1	Maaaarci	Maaaarci	PROPN	_	PROPN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	!	!	PUNCT	_	PUNCT___	1	punct	_	_
+
+

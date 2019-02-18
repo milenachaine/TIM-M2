@@ -1,0 +1,82 @@
+#Bonjour,Pas son épouse, en tout cas :La réponse n'est pas vraiment dans "Est-ce qu'il doit accepter" mais dans "peut
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Pas	Pas	ADV	_	ADV___	1	nmod	_	_
+4	son	son	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+5	épouse	époux	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obj	_	_
+6	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+7	en	en	ADP	_	ADP___	19	mark	_	_
+8	tout	tout	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	fixed	_	_
+9	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	fixed	_	_
+10	:	:	PUNCT	_	PUNCT___	7	fixed	_	_
+11	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	nsubj	_	_
+13	n'	ne	ADV	_	ADV__Polarity=Neg	19	advmod	_	_
+14	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+15	pas	pas	ADV	_	ADV__Polarity=Neg	16	advmod	_	_
+16	vraiment	vraiment	ADV	_	ADV___	19	advmod	_	_
+17	dans	dan	ADP	_	ADP___	19	case	_	_
+18	"	"	PUNCT	_	PUNCT___	19	punct	_	_
+19	Est	être		_	VERB	1	nmod	_	_
+20	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	19	amod	_	_
+21	qu'	que	SCONJ	_	SCONJ___	24	mark	_	_
+22	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	24	nsubj	_	_
+23	doit	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	accepter	accepter	VERB	_	VERB__VerbForm=Inf	19	acl	_	_
+25	"	"	PUNCT	_	PUNCT___	24	punct	_	_
+26	mais	mai	CCONJ	_	CCONJ___	29	cc	_	_
+27	dans	dan	ADP	_	ADP___	29	mark	_	_
+28	"	"	PUNCT	_	PUNCT___	29	punct	_	_
+29	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+
+
+#-il racheter sa part et continuer à payer le crédit seul ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+3	racheter	racheter	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	5	nmod:poss	_	_
+5	part	partir	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obj	_	_
+6	et	et	CCONJ	_	CCONJ___	1	cc	_	_
+7	continuer	continuer	VERB	_	VERB__VerbForm=Inf	19	conj	_	_
+8	à	à	ADP	_	ADP___	7	mark	_	_
+9	payer	payer	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+10	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+11	crédit	crédit	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+12	seul	seul	ADJ	_	ADJ__Gender=Masc|Number=Sing	19	advmod	_	_
+13	?	?	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Si oui, il pourra garder la maison.
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	oui	oui	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+5	pourra	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	1	aux	_	_
+6	garder	garder	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+8	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+9	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Sinon, il ne peut pas l'obliger à continuer à payer le crédit si elle veut vendre.
+1	Sinon	Sinon	ADV	_	ADV___	1	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+4	ne	ne	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+5	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+6	pas	pas	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+7	l'	le	PRON	_	PRON__Number=Sing|Person=3	19	det	_	_
+8	obliger	obliger	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+9	à	à	ADP	_	ADP___	7	mark	_	_
+10	continuer	continuer	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+11	à	à	ADP	_	ADP___	12	mark	_	_
+12	payer	payer	VERB	_	VERB__VerbForm=Inf	19	xcomp	_	_
+13	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+14	crédit	crédit	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obj	_	_
+15	si	si	SCONJ	_	SCONJ___	16	mark	_	_
+16	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	19	nsubj	_	_
+17	veut	vouloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	advcl	_	_
+18	vendre	vendre	ADJ	_	ADJ__Number=Sing	19	xcomp	_	_
+19	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+

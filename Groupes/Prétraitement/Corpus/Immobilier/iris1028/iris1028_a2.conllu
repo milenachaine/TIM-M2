@@ -1,0 +1,216 @@
+#Merci pour la règle.
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	pour	pour	ADP	_	ADP___	4	case	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	règle	régler	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+5	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Vous transformez votre garage en chambre.
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+2	transformez	transformer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+4	garage	garage	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+5	en	en	ADP	_	ADP___	1	case	_	_
+6	chambre	chambrer	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obl	_	_
+7	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Donc vous supprimez une place intégrée, mais en plus vous augmentez votre surface de plancher.
+1	Donc	Donc	ADV	_	ADV___	1	advmod	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	4	nsubj	_	_
+3	supprimez	supprimer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+5	place	placer	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obj	_	_
+6	intégrée	intégrer	ADJ	_	ADJ__Gender=Fem|Number=Sing	7	amod	_	_
+7	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+8	mais	mai	CCONJ	_	CCONJ___	9	cc	_	_
+9	en	en	ADP	_	ADP___	7	advmod	_	_
+10	plus	plaire	ADV	_	ADV___	11	fixed	_	_
+11	vous	se	PRON	_	PRON__Number=Plur|Person=2	7	iobj	_	_
+12	augmentez	augmenter	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	7	conj	_	_
+13	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	15	nmod:poss	_	_
+14	surface	surface	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obj	_	_
+15	de	de	ADP	_	ADP___	15	mark	_	_
+16	plancher	plancher	VERB	_	VERB__VerbForm=Inf	17	nmod	_	_
+17	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Est
+1	Est	Est	ADV	_	ADV___	0	ROOT	_	_
+
+
+#-ce que cette augmentation vous fait franchir un seuil nécessitant une place supplémentaire ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	ce	ce	PRON	_	PRON__PronType=Rel	0	ROOT	_	_
+3	que	que	PRON	_	PRON__PronType=Rel	4	mark	_	_
+4	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	1	det	_	_
+5	augmentation	augmentation	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+6	vous	se	PRON	_	PRON__Number=Plur|Person=2	7	iobj	_	_
+7	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+8	franchir	franchir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	xcomp	_	_
+9	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+10	seuil	seuil	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+11	nécessitant	nécessiter	VERB	_	VERB__Tense=Pres|VerbForm=Part	7	acl	_	_
+12	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+13	place	placer	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obj	_	_
+14	supplémentaire	supplémentaire	ADJ	_	ADJ__Number=Sing	15	amod	_	_
+15	?	?	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#(60 m² : 1 place ;
+1	(	(	PUNCT	_	PUNCT___	1	punct	_	_
+2	60	60	NUM	_	NUM__NumType=Card	4	nummod	_	_
+3	m²	m²	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+4	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+5	1	1	NUM	_	NUM__NumType=Card	1	nummod	_	_
+6	place	placer	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+7	;	;	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#120 m² : 2 places ;
+1	120	120	NUM	_	NUM__NumType=Card	1	nummod	_	_
+2	m²	m²	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+3	:	:	PUNCT	_	PUNCT___	4	punct	_	_
+4	2	2	NUM	_	NUM__NumType=Card	1	nummod	_	_
+5	places	placer	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	nmod	_	_
+6	;	;	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#180 m² : 3 places etc...
+1	180	180	NUM	_	NUM__NumType=Card	1	nummod	_	_
+2	m²	m²	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+3	:	:	PUNCT	_	PUNCT___	4	punct	_	_
+4	3	3	NUM	_	NUM__NumType=Card	1	nummod	_	_
+5	places	placer	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	nmod	_	_
+6	etc	etc	ADV	_	ADV___	7	nmod	_	_
+7	...	...	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Sur le type de stationnement, cette rédaction impose à l'instructeur de vérifier que la place de parking est intégrée à la construction, c'est à dire qu'elle est reliée à la construction principale.
+1	Sur	Sur	ADP	_	ADP___	1	case	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	type	typer	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+4	de	de	ADP	_	ADP___	1	case	_	_
+5	stationnement	stationnement	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+6	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+7	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+8	rédaction	rédaction	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nsubj	_	_
+9	impose	imposer	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+10	à	à	ADP	_	ADP___	11	case	_	_
+11	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+12	instructeur	instructeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obl	_	_
+13	de	de	ADP	_	ADP___	15	case	_	_
+14	vérifier	vérifier	VERB	_	VERB__VerbForm=Inf	15	nmod	_	_
+15	que	que	PRON	_	PRON__PronType=Rel	15	mark	_	_
+16	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	place	placer	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	nsubj:pass	_	_
+18	de	de	ADP	_	ADP___	17	case	_	_
+19	parking	parking	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nmod	_	_
+20	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux:pass	_	_
+21	intégrée	intégrer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	24	acl:relcl	_	_
+22	à	à	ADP	_	ADP___	21	case	_	_
+23	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	construction	construction	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obl	_	_
+25	,	,	PUNCT	_	PUNCT___	26	punct	_	_
+26	c'	ce	PRON	_	PRON__Number=Sing|Person=3	24	nsubj	_	_
+27	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+28	à	à	ADP	_	ADP___	26	mark	_	_
+29	dire	dire	VERB	_	VERB__VerbForm=Inf	15	parataxis	_	_
+30	qu'	que	SCONJ	_	SCONJ___	30	mark	_	_
+31	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	32	nsubj:pass	_	_
+32	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux:pass	_	_
+33	reliée	relier	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	37	ccomp	_	_
+34	à	à	ADP	_	ADP___	35	case	_	_
+35	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+36	construction	construction	NOUN	_	NOUN__Gender=Fem|Number=Sing	37	obl	_	_
+37	principale	principal	ADJ	_	ADJ__Gender=Fem|Number=Sing	32	amod	_	_
+38	.	.	PUNCT	_	PUNCT___	37	punct	_	_
+
+
+#Mon interprétation est que un appentis accolé est OK, un car-port isolé est interdit.
+1	Mon	Mon	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	interprétation	interprétation	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	que	que	SCONJ	_	SCONJ___	1	mark	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+6	appentis	appentis	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+7	accolé	accoler	ADJ	_	ADJ__Gender=Masc|Number=Sing	7	amod	_	_
+8	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	OK	OK	PROPN	_	PROPN___	0	ROOT	_	_
+10	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+11	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	conj	_	_
+12	car	car	CCONJ	_	CCONJ___	7	cc	_	_
+13	-	-	PUNCT	_	PUNCT___	15	punct	_	_
+14	port	port	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obl	_	_
+15	isolé	isoler	ADJ	_	ADJ__Gender=Masc|Number=Sing	15	amod	_	_
+16	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	interdit	interdire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	15	conj	_	_
+18	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Mais cette rédaction nécessiterait peut-être que vous preniez rendez-vous avec la personne en charge de l'urbanisme de votre commune afin qu'il précise ce qu'il entend par là.
+1	Mais	Mais	CCONJ	_	CCONJ___	1	cc	_	_
+2	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+3	rédaction	rédaction	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nsubj	_	_
+4	nécessiterait	nécessiter	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	peut-être	peut-être	ADV	_	ADV___	1	advmod	_	_
+6	que	que	SCONJ	_	SCONJ___	7	mark	_	_
+7	vous	se	PRON	_	PRON__Number=Plur|Person=2	7	nsubj	_	_
+8	preniez	prendre	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Imp|VerbForm=Fin	9	cop	_	_
+9	rendez-vous	rendez-vous	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	ccomp	_	_
+10	avec	avec	ADP	_	ADP___	11	case	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+12	personne	personne	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obl	_	_
+13	en	en	ADP	_	ADP___	15	advmod	_	_
+14	charge	charger	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	fixed	_	_
+15	de	de	ADP	_	ADP___	15	case	_	_
+16	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	urbanisme	urbanisme	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obl	_	_
+18	de	de	ADP	_	ADP___	17	case	_	_
+19	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	15	nmod:poss	_	_
+20	commune	commun	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	nmod	_	_
+21	afin	afin	ADP	_	ADP___	24	mark	_	_
+22	qu'	que	SCONJ	_	SCONJ___	21	fixed	_	_
+23	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	24	nsubj	_	_
+24	précise	préciser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+25	ce	ce	PRON	_	PRON__PronType=Rel	26	obj	_	_
+26	qu'	que	PRON	_	PRON__PronType=Rel	24	obj	_	_
+27	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	28	nsubj	_	_
+28	entend	entendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	_
+29	par	par	ADP	_	ADP___	15	case	_	_
+30	là	là	ADV	_	ADV___	30	obl	_	_
+31	.	.	PUNCT	_	PUNCT___	32	punct	_	_
+
+
+#Par contre je note qu'il y a un bonus pour les places en sous-sol.
+1	Par	Par	ADP	_	ADP___	1	mark	_	_
+2	contre	contrer	ADP	_	ADP___	4	fixed	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+4	note	noter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	qu'	que	SCONJ	_	SCONJ___	1	advmod	_	_
+6	il	il	PRON	_	PRON__Number=Sing|Person=3	7	advmod	_	_
+7	y	yu	PRON	_	PRON__Person=3	7	fixed	_	_
+8	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	fixed	_	_
+9	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+10	bonus	bonus	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+11	pour	pour	ADP	_	ADP___	7	case	_	_
+12	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+13	places	placer	NOUN	_	NOUN__Gender=Fem|Number=Plur	15	nmod	_	_
+14	en	en	ADP	_	ADP___	15	case	_	_
+15	sous-sol	sous-sol	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	nmod	_	_
+16	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Je ne connaissais pas, c'est intéressant...
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ne	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+3	connaissais	connaître	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+5	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+6	c'	ce	PRON	_	PRON__Number=Sing|Person=3	7	nsubj	_	_
+7	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+8	intéressant	intéresser	ADJ	_	ADJ__Gender=Masc|Number=Sing	9	conj	_	_
+9	...	...	PUNCT	_	PUNCT___	7	punct	_	_
+
+

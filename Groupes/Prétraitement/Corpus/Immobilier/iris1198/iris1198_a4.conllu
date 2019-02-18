@@ -1,0 +1,85 @@
+#Bonjour,Il dit ce qu'il veut :
+1	Bonjour	Bonjour	PROPN	_	PROPN___	4	mark	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+4	dit	dire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	ce	ce	PRON	_	PRON__PronType=Rel	4	iobj	_	_
+6	qu'	que	SCONJ	_	SCONJ___	8	obj	_	_
+7	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+8	veut	vouloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+9	:	:	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Soit vous avez le récépissé ou soit la lettre vous est retournée non délivrée.
+1	Soit	Soit	CCONJ	_	CCONJ___	4	mark	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	4	nsubj	_	_
+3	avez	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+5	récépissé	récépissé	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obj	_	_
+6	ou	ou	CCONJ	_	CCONJ___	8	cc	_	_
+7	soit	être	CCONJ	_	CCONJ___	8	cc	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+9	lettre	lettre	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+10	vous	se	PRON	_	PRON__Number=Plur|Person=2	12	nsubj:pass	_	_
+11	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
+12	retournée	retourner	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	conj	_	_
+13	non	non	ADV	_	ADV___	14	advmod	_	_
+14	délivrée	délivrer	ADJ	_	ADJ__Gender=Fem|Number=Sing	12	acl	_	_
+15	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Donc vous saurez ce qu'il en est.
+1	Donc	Donc	ADV	_	ADV___	4	advmod	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	4	nsubj	_	_
+3	saurez	savoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	ce	ce	PRON	_	PRON__PronType=Rel	4	obj	_	_
+5	qu'	que	PRON	_	PRON__PronType=Rel	4	obj	_	_
+6	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+7	en	en	PRON	_	PRON__Person=3	8	iobj	_	_
+8	est	être	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+9	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Si il ne retire pas ses lettres recommandées, vous pouvez faire délivrer le courrier par huissier.
+1	Si	Si	SCONJ	_	SCONJ___	4	mark	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+3	ne	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+4	retire	retirer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+6	ses	son	DET	_	DET__Number=Plur|Poss=Yes	8	nmod:poss	_	_
+7	lettres	lettre	NOUN	_	NOUN__Gender=Fem|Number=Plur	8	obj	_	_
+8	recommandées	recommander	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	acl	_	_
+9	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+10	vous	se	PRON	_	PRON__Number=Plur|Person=2	12	nsubj	_	_
+11	pouvez	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	faire	faire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+13	délivrer	délivrer	VERB	_	VERB__VerbForm=Inf	14	xcomp	_	_
+14	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+15	courrier	courrier	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obj	_	_
+16	par	par	ADP	_	ADP___	21	case	_	_
+17	huissier	huissier	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obl	_	_
+18	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Autre remarque : si le courant d'eau est fort, il risque bien d'endommager le portail ...
+1	Autre	Autre	ADJ	_	ADJ__Number=Sing	4	amod	_	_
+2	remarque	remarquer	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	:	:	PUNCT	_	PUNCT___	4	punct	_	_
+4	si	si	SCONJ	_	SCONJ___	4	mark	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+6	courant	courir	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	advcl	_	_
+7	d'	de	ADP	_	ADP___	8	case	_	_
+8	eau	eau	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+9	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advmod	_	_
+10	fort	fort	ADJ	_	ADJ__Gender=Masc|Number=Sing	12	advmod	_	_
+11	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+12	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
+13	risque	risquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl	_	_
+14	bien	bien	ADV	_	ADV___	12	advmod	_	_
+15	d'	de	ADP	_	ADP___	21	mark	_	_
+16	endommager	endommager	VERB	_	VERB__VerbForm=Inf	21	xcomp	_	_
+17	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	portail	portail	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obj	_	_
+19	...	...	PUNCT	_	PUNCT___	21	punct	_	_
+
+

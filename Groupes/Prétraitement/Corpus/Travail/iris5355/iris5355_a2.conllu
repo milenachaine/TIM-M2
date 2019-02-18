@@ -1,0 +1,56 @@
+#Pour le calcul du montant (et non de la durée)
+1	Pour	Pour	ADP	_	ADP___	3	case	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	calcul	calcul	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	du	du	DET	_	DET__Gender=Masc|Number=Sing	5	det	_	_
+5	montant	monter	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obj	_	_
+6	(	(	PUNCT	_	PUNCT___	3	punct	_	_
+7	et	et	CCONJ	_	CCONJ___	8	cc	_	_
+8	non	non	ADV	_	ADV___	11	advmod	_	_
+9	de	de	ADP	_	ADP___	11	case	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	durée	durer	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	conj	_	_
+12	)	)	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#pôle emploi ne prend en compte que des périodes réellement travaillées.
+1	pôle	pôle	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	advmod	_	_
+2	emploi	emploi	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+3	ne	ne	ADV	_	ADV___	3	advmod	_	_
+4	prend	prendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	en	en	ADP	_	ADP___	3	case	_	_
+6	compte	compter	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obl	_	_
+7	que	que	SCONJ	_	SCONJ___	8	mark	_	_
+8	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
+9	périodes	période	NOUN	_	NOUN__Gender=Fem|Number=Plur	11	nsubj:pass	_	_
+10	réellement	réellement	ADV	_	ADV___	11	advmod	_	_
+11	travaillées	travailler	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	3	ccomp	_	_
+12	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Pour le calcul de la durée du droit par contre, toutes les périodes sous contrat de travail sont prises en compte.
+1	Pour	Pour	ADP	_	ADP___	3	case	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	calcul	calcul	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obl	_	_
+4	de	de	ADP	_	ADP___	5	case	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+6	durée	durer	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nmod	_	_
+7	du	du	DET	_	DET__Gender=Masc|Number=Sing	8	det	_	_
+8	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+9	par	par	ADP	_	ADP___	11	case	_	_
+10	contre	contrer	ADP	_	ADP___	11	fixed	_	_
+11	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+12	toutes	toute	ADJ	_	ADJ__Gender=Fem|Number=Plur	3	amod	_	_
+13	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	16	det	_	_
+14	périodes	période	NOUN	_	NOUN__Gender=Fem|Number=Plur	16	nmod	_	_
+15	sous	sou	ADP	_	ADP___	16	case	_	_
+16	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	nmod	_	_
+17	de	de	ADP	_	ADP___	18	case	_	_
+18	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	nmod	_	_
+19	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux:pass	_	_
+20	prises	priser	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+21	en	en	ADP	_	ADP___	23	case	_	_
+22	compte	compter	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	obl	_	_
+23	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+

@@ -1,0 +1,114 @@
+#Bonjour,Les cas admis sont :Un contrat d’apprentissage est un emploi, donc le CDD ne sera pas le premier.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	14	case	_	_
+2	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+3	Les	Les	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+4	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	nsubj	_	_
+5	admis	admettre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	4	amod	_	_
+6	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+7	:	:	PUNCT	_	PUNCT___	6	punct	_	_
+8	Un	Un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nsubj	_	_
+10	d’	d’	PUNCT	_	PUNCT___	9	amod	_	_
+11	apprentissage	apprentissage	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	amod	_	_
+12	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	emploi	emploi	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+15	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+16	donc	donc	ADV	_	ADV___	23	advmod	_	_
+17	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	CDD	CDD	PROPN	_	PROPN___	23	nsubj	_	_
+19	ne	ne	ADV	_	ADV__Polarity=Neg	23	advmod	_	_
+20	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	23	cop	_	_
+21	pas	pas	ADV	_	ADV__Polarity=Neg	23	advmod	_	_
+22	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	premier	premier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	14	acl	_	_
+24	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Une simple perte d'emploi est exclue, car le congé doit être demandé pendant la période de perte d'emploi.
+1	Une	Une	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+2	simple	simple	ADJ	_	ADJ__Number=Sing	14	amod	_	_
+3	perte	perte	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+4	d'	de	ADP	_	ADP___	14	case	_	_
+5	emploi	emploi	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+6	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
+7	exclue	exclure	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+8	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+9	car	car	CCONJ	_	CCONJ___	14	cc	_	_
+10	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+11	congé	congé	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nsubj	_	_
+12	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+13	être	être	AUX	_	AUX__VerbForm=Inf	14	aux:pass	_	_
+14	demandé	demander	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	14	xcomp	_	_
+15	pendant	pendre	ADP	_	ADP___	14	case	_	_
+16	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+17	période	période	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	obl	_	_
+18	de	de	ADP	_	ADP___	23	case	_	_
+19	perte	perte	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	nmod	_	_
+20	d'	de	ADP	_	ADP___	23	case	_	_
+21	emploi	emploi	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	nmod	_	_
+22	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Il n'y avait aucun délai entre les deux.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	14	advmod	_	_
+3	y	yu	PRON	_	PRON__Person=3	4	expl	_	_
+4	avait	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+5	aucun	aucun	DET	_	DET__Gender=Masc|Number=Sing	4	det	_	_
+6	délai	délai	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obj	_	_
+7	entre	entrer	ADP	_	ADP___	6	case	_	_
+8	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+9	deux	deux	PRON	_	PRON__NumType=Card|PronType=Rel	14	nmod	_	_
+10	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Je doute donc que cela puisse se qualifier comme nouvel emploi consécutif à une perte d'emploi.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	14	nsubj	_	_
+2	doute	douter	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	donc	donc	ADV	_	ADV___	4	advmod	_	_
+4	que	que	SCONJ	_	SCONJ___	14	mark	_	_
+5	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	4	nsubj	_	_
+6	puisse	pouvoir	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+7	se	se	PRON	_	PRON__Person=3|Reflex=Yes	6	expl	_	_
+8	qualifier	qualifier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	ccomp	_	_
+9	comme	comme	ADV	_	ADV___	14	det	_	_
+10	nouvel	nouveau	ADJ	_	ADJ__Gender=Masc|Number=Sing	9	amod	_	_
+11	emploi	emploi	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obl	_	_
+12	consécutif	consécutif	ADJ	_	ADJ__Gender=Masc|Number=Sing	14	amod	_	_
+13	à	à	ADP	_	ADP___	14	case	_	_
+14	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+15	perte	perte	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obl	_	_
+16	d'	de	ADP	_	ADP___	23	case	_	_
+17	emploi	emploi	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nmod	_	_
+18	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Je dirais donc que c'est non.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	14	nsubj	_	_
+2	dirais	dire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	donc	donc	ADV	_	ADV___	4	advmod	_	_
+4	que	que	SCONJ	_	SCONJ___	14	mark	_	_
+5	c'	ce	PRON	_	PRON__Number=Sing|Person=3	4	nsubj	_	_
+6	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+7	non	non	ADV	_	ADV___	6	ccomp	_	_
+8	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#J'imagine, vous n'êtes pas dans une "zone tendue"?
+1	J'	J'	PRON	_	PRON__Number=Sing|Person=1	14	nsubj	_	_
+2	imagine	imaginer	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	amod	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	vous	se	PRON	_	PRON__Number=Plur|Person=2	14	nsubj	_	_
+5	n'	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+6	êtes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	14	cop	_	_
+7	pas	pas	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+8	dans	dan	ADP	_	ADP___	9	case	_	_
+9	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+10	"	"	PUNCT	_	PUNCT___	9	punct	_	_
+11	zone	zone	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+12	tendue	tendu	ADJ	_	ADJ__Gender=Fem|Number=Sing	14	amod	_	_
+13	"	"	PUNCT	_	PUNCT___	14	punct	_	_
+14	?	?	PUNCT	_	PUNCT___	14	punct	_	_
+
+

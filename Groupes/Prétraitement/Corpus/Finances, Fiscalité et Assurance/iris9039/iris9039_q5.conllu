@@ -1,0 +1,140 @@
+#Bonjour,Ce matin
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Ce	Ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	matin	matin	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+
+
+#j'ai eu la visite de l'expert auto mandaté par la compagnie adverse.
+1	j'	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+5	visite	visiter	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+6	de	de	ADP	_	ADP___	7	case	_	_
+7	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+8	expert	expert	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	amod	_	_
+9	auto	auto	X	_	X___	7	nmod	_	_
+10	mandaté	mandater	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
+11	par	par	ADP	_	ADP___	13	case	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	compagnie	compagnie	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obl	_	_
+14	adverse	adverse	ADJ	_	ADJ__Number=Sing	9	nmod	_	_
+15	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#" il ma dit moi je viens juste constater " ...
+1	"	"	PUNCT	_	PUNCT___	1	punct	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+3	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	4	nmod:poss	_	_
+4	dit	dire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	obl	_	_
+5	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	7	flat:name	_	_
+6	je	il	PRON	_	PRON__Number=Sing|Person=1	7	nsubj	_	_
+7	viens	venir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	juste	juste	ADV	_	ADV___	9	advmod	_	_
+9	constater	constater	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+10	"	"	PUNCT	_	PUNCT___	13	punct	_	_
+11	...	...	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Il est arrivé à 12h15 et reparti à 12h20.Le mec, j'ai bien vu qu'il en avait rien a foutre.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj:pass	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
+3	arrivé	arriver	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+4	à	à	ADP	_	ADP___	1	case	_	_
+5	12h15	12h15	NOUN	_	NOUN__NumType=Card	7	obl	_	_
+6	et	et	CCONJ	_	CCONJ___	7	cc	_	_
+7	reparti	repartir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
+8	à	à	ADP	_	ADP___	9	case	_	_
+9	12h20.Le	12h20.Le	NUM	_	NUM__NumType=Card	7	obl	_	_
+10	mec	mec	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	amod	_	_
+11	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+12	j'	il	PRON	_	PRON__Number=Sing|Person=1	13	nsubj	_	_
+13	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+14	bien	bien	ADV	_	ADV___	9	advmod	_	_
+15	vu	voir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	parataxis	_	_
+16	qu'	que	SCONJ	_	SCONJ___	17	mark	_	_
+17	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
+18	en	en	PRON	_	PRON__Person=3	17	iobj	_	_
+19	avait	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	ccomp	_	_
+20	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	23	nsubj	_	_
+21	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+22	foutre	foutre	VERB	_	VERB__VerbForm=Inf	23	advmod	_	_
+23	.	.	PUNCT	_	PUNCT___	26	punct	_	_
+
+
+#Je demandé des explications a l'assureur adverse, voici la réponse reçu hier : (!)
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	demandé	demander	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+3	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
+4	explications	explication	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	obj	_	_
+5	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advmod	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	assureur	assureur	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+8	adverse	adverse	ADJ	_	ADJ__Gender=Masc|Number=Sing	9	amod	_	_
+9	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+10	voici	voici	VERB	_	VERB__Mood=Ind|VerbForm=Fin	13	conj	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obj	_	_
+13	reçu	recevoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+14	hier	hier	ADV	_	ADV___	9	advmod	_	_
+15	:	:	PUNCT	_	PUNCT___	17	punct	_	_
+16	(	(	PUNCT	_	PUNCT___	17	punct	_	_
+17	!	!	PUNCT	_	PUNCT___	14	punct	_	_
+18	)	)	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Me concernant, sans êtres un PRO de l'AUTO, je n'ai jamais entendu dire ou lu que les assureurs avait une obligation légale de s'informer entre eux (?)
+1	Me	Me	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+2	concernant	concerner	VERB	_	VERB__Tense=Pres|VerbForm=Part	1	acl	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	sans	sans	ADP	_	ADP___	1	mark	_	_
+5	êtres	être	AUX	_	AUX__VerbForm=Inf	7	obl	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	PRO	PRO	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+8	de	de	ADP	_	ADP___	9	case	_	_
+9	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+10	AUTO	AUTO	PROPN	_	PROPN__Number=Sing	13	nmod	_	_
+11	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+12	je	il	PRON	_	PRON__Number=Sing|Person=1	13	nsubj	_	_
+13	n'	ne	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+14	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+15	jamais	jamais	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+16	entendu	entendre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+17	dire	dire	VERB	_	VERB__VerbForm=Inf	14	xcomp	_	_
+18	ou	ou	CCONJ	_	CCONJ___	17	cc	_	_
+19	lu	lire	PROPN	_	PROPN___	7	fixed	_	_
+20	que	que	SCONJ	_	SCONJ___	23	mark	_	_
+21	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	23	det	_	_
+22	assureurs	assureur	NOUN	_	NOUN__Gender=Masc|Number=Plur	23	nsubj	_	_
+23	avait	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	conj	_	_
+24	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+25	obligation	obligation	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	obj	_	_
+26	légale	légal	ADJ	_	ADJ__Gender=Fem|Number=Sing	26	amod	_	_
+27	de	de	ADP	_	ADP___	28	mark	_	_
+28	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	26	expl	_	_
+29	informer	informer	VERB	_	VERB__VerbForm=Inf	26	nmod	_	_
+30	entre	entrer	ADP	_	ADP___	26	case	_	_
+31	eux	lui	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3|PronType=Prs	33	obl	_	_
+32	(	(	PUNCT	_	PUNCT___	33	punct	_	_
+33	?	?	PUNCT	_	PUNCT___	33	punct	_	_
+34	)	)	PUNCT	_	PUNCT___	35	punct	_	_
+
+
+#Vous êtes d'accord avec moi c'est du "PIPO" cette réponse
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+2	êtes	être	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	d'	de	ADP	_	ADP___	0	ROOT	_	_
+4	accord	accord	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	fixed	_	_
+5	avec	avec	ADP	_	ADP___	7	case	_	_
+6	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	7	obl	_	_
+7	c'	ce	PRON	_	PRON__Number=Sing|Person=3	7	nsubj	_	_
+8	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	du	du	DET	_	DET__Gender=Masc|Number=Sing	7	det	_	_
+10	"	"	PUNCT	_	PUNCT___	13	punct	_	_
+11	PIPO	PIPO	PROPN	_	PROPN___	13	acl	_	_
+12	"	"	PUNCT	_	PUNCT___	13	punct	_	_
+13	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+14	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obj	_	_
+
+

@@ -1,0 +1,114 @@
+#Ah non ?
+1	Ah	Ah	ADV	_	ADV___	0	ROOT	_	_
+2	non	non	ADV	_	ADV___	1	advmod	_	_
+3	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Lisez ceci : le 2 de l'article 199 sexdecies du CGI.
+1	Lisez	Lisez	PROPN	_	PROPN___	0	ROOT	_	_
+2	ceci	ceci	PRON	_	PRON__Number=Sing|PronType=Dem	1	fixed	_	_
+3	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+5	2	2	NUM	_	NUM__NumType=Card	4	iobj	_	_
+6	de	de	ADP	_	ADP___	4	case	_	_
+7	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	article	article	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+9	199	199	NUM	_	NUM__NumType=Card	11	nummod	_	_
+10	sexdecies	sexdecies	NOUN	_	NOUN__Gender=Fem|Number=Plur	11	amod	_	_
+11	du	du	DET	_	DET__Gender=Masc|Number=Sing	8	det	_	_
+12	CGI	CGI	PROPN	_	PROPN___	11	obj	_	_
+13	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Vous vous coucherez moins bête ce soir.
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	1	iobj	_	_
+3	coucherez	coucher	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	moins	moins	ADV	_	ADV___	4	advmod	_	_
+5	bête	bête	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obj	_	_
+6	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+7	soir	soir	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+8	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Malheureusement il est le seul qui s'est trompé.
+1	Malheureusement	Malheureusement	ADV	_	ADV___	1	advmod	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	advmod	_	_
+5	seul	seul	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+6	qui	qui	PRON	_	PRON__PronType=Rel	4	nsubj	_	_
+7	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	8	expl	_	_
+8	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+9	trompé	tromper	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+10	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#La seule raison de cette réponse est le peu d'intérêt fiscal à effectuer une reprise sur la fraction de crédit à laquelle vous n'avez pas droit (l'interlocuteur n'a pas précisé que vous pouvez reporter le montant total des travaux).
+1	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	seule	seul	ADJ	_	ADJ__Gender=Fem|Number=Sing	1	amod	_	_
+3	raison	raison	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	de	de	ADP	_	ADP___	4	case	_	_
+5	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+6	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+7	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+9	peu	peu	ADV	_	ADV___	11	advmod	_	_
+10	d'	de	ADP	_	ADP___	11	case	_	_
+11	intérêt	intérêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+12	fiscal	fiscal	ADV	_	ADV___	11	amod	_	_
+13	à	à	ADP	_	ADP___	11	mark	_	_
+14	effectuer	effectuer	VERB	_	VERB__VerbForm=Inf	15	xcomp	_	_
+15	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+16	reprise	repriser	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obj	_	_
+17	sur	sur	ADP	_	ADP___	19	case	_	_
+18	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	fraction	fraction	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obl	_	_
+20	de	de	ADP	_	ADP___	21	case	_	_
+21	crédit	crédit	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	nmod	_	_
+22	à	à	ADP	_	ADP___	23	case	_	_
+23	laquelle	lequel	PRON	_	PRON__Gender=Fem|Number=Sing|PronType=Rel	21	obl	_	_
+24	vous	se	PRON	_	PRON__Number=Plur|Person=2	19	nsubj	_	_
+25	n'	ne	ADV	_	ADV__Polarity=Neg	29	advmod	_	_
+26	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	29	cop	_	_
+27	pas	pas	ADV	_	ADV__Polarity=Neg	29	advmod	_	_
+28	droit	droit	ADJ	_	ADJ__Gender=Masc|Number=Sing	29	acl:relcl	_	_
+29	(	(	PUNCT	_	PUNCT___	29	punct	_	_
+30	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	33	det	_	_
+31	interlocuteur	interlocuteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	33	nsubj	_	_
+32	n'	ne	ADV	_	ADV__Polarity=Neg	33	advmod	_	_
+33	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+34	pas	pas	ADV	_	ADV__Polarity=Neg	29	advmod	_	_
+35	précisé	préciser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	37	acl	_	_
+36	que	que	SCONJ	_	SCONJ___	37	mark	_	_
+37	vous	se	PRON	_	PRON__Number=Plur|Person=2	37	nsubj	_	_
+38	pouvez	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	40	aux	_	_
+39	reporter	reporter	VERB	_	VERB__VerbForm=Inf	40	ccomp	_	_
+40	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+41	montant	monter	NOUN	_	NOUN__Gender=Masc|Number=Sing	45	obj	_	_
+42	total	total	ADJ	_	ADJ__Gender=Masc|Number=Sing	43	amod	_	_
+43	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	45	det	_	_
+44	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	45	obj	_	_
+45	)	)	PUNCT	_	PUNCT___	40	punct	_	_
+46	.	.	PUNCT	_	PUNCT___	45	punct	_	_
+
+
+#Encore que...dans le cadre du droit de reprise, c'est fort possible.
+1	Encore	Encore	ADV	_	ADV___	1	advmod	_	_
+2	que	que	SCONJ	_	SCONJ___	1	mark	_	_
+3	...	...	PUNCT	_	PUNCT___	1	punct	_	_
+4	dans	dan	ADP	_	ADP___	4	case	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	fixed	_	_
+6	cadre	cadrer	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	fixed	_	_
+7	du	du	DET	_	DET__Gender=Masc|Number=Sing	8	det	_	_
+8	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+9	de	de	ADP	_	ADP___	11	case	_	_
+10	reprise	repriser	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+11	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+12	c'	ce	PRON	_	PRON__Number=Sing|Person=3	11	nsubj	_	_
+13	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+14	fort	fort	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	15	advmod	_	_
+15	possible	possible	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+16	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+

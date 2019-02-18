@@ -1,0 +1,84 @@
+#Bonjour,vous n'avez pas à régler une facture ne vous concernant car vous n'êtes pas Robert conformément à la Loi du 6 Fructidor
+1	Bonjour	Bonjour	PROPN	_	PROPN___	5	obl	_	_
+2	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+3	vous	se	PRON	_	PRON__Number=Plur|Person=2	5	nsubj	_	_
+4	n'	ne	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+5	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	pas	pas	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+7	à	à	ADP	_	ADP___	8	mark	_	_
+8	régler	régler	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+9	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	facture	facturer	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+11	ne	ne	ADV	_	ADV___	13	advmod	_	_
+12	vous	se	PRON	_	PRON__Number=Plur|Person=2	13	iobj	_	_
+13	concernant	concerner	VERB	_	VERB__Tense=Pres|VerbForm=Part	10	acl	_	_
+14	car	car	CCONJ	_	CCONJ___	19	cc	_	_
+15	vous	se	PRON	_	PRON__Number=Plur|Person=2	19	nsubj	_	_
+16	n'	ne	ADV	_	ADV__Polarity=Neg	19	advmod	_	_
+17	êtes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	19	cop	_	_
+18	pas	pas	ADV	_	ADV__Polarity=Neg	19	advmod	_	_
+19	Robert	Robert	PROPN	_	PROPN__Gender=Masc|Number=Sing	13	conj	_	_
+20	conformément	conformément	ADV	_	ADV___	19	advmod	_	_
+21	à	à	ADP	_	ADP___	23	case	_	_
+22	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	Loi	Loi	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obl	_	_
+24	du	du	DET	_	DET__Gender=Masc|Number=Sing	26	det	_	_
+25	6	6	NUM	_	NUM__NumType=Card	26	nummod	_	_
+26	Fructidor	Fructidor	PROPN	_	PROPN__Gender=Fem|Number=Sing	19	obj	_	_
+
+
+#An II (23 août 1794).
+1	An	An	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	II	II	ADJ	_	ADJ__NumType=Card	5	amod	_	_
+3	(	(	PUNCT	_	PUNCT___	5	punct	_	_
+4	23	23	NUM	_	NUM__NumType=Card	5	nummod	_	_
+5	août	août	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+6	1794	1794	NUM	_	NUM__NumType=Card	5	nummod	_	_
+7	)	)	PUNCT	_	PUNCT___	8	punct	_	_
+8	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Dans votre cas il s'agit d'un Vice de Forme qui entraine la nullité de l'acte.
+1	Dans	Dans	ADP	_	ADP___	5	case	_	_
+2	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+3	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+5	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	5	expl	_	_
+6	agit	agir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
+7	d'	de	ADP	_	ADP___	8	case	_	_
+8	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+9	Vice	Vice	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obl	_	_
+10	de	de	ADP	_	ADP___	8	case	_	_
+11	Forme	Forme	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nmod	_	_
+12	qui	qui	PRON	_	PRON__PronType=Rel	13	nsubj	_	_
+13	entraine	entraine	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+15	nullité	nullité	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obj	_	_
+16	de	de	ADP	_	ADP___	19	case	_	_
+17	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+18	acte	acte	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	nmod	_	_
+19	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#La société de recouvrement doit rectifier son erreur et vous envoyer une facture  établie à votre identité.
+1	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+2	société	société	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nsubj	_	_
+3	de	de	ADP	_	ADP___	5	case	_	_
+4	recouvrement	recouvrement	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+5	doit	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+6	rectifier	rectifier	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+7	son	son	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+8	erreur	erreur	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+9	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+10	vous	se	PRON	_	PRON__Number=Plur|Person=2	8	iobj	_	_
+11	envoyer	envoyer	VERB	_	VERB__VerbForm=Inf	13	conj	_	_
+12	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	facture	facturer	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obj	_	_
+14	 	 	SPACE	_		19		_	_
+15	établie	établir	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	19	acl	_	_
+16	à	à	ADP	_	ADP___	19	case	_	_
+17	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	19	nmod:poss	_	_
+18	identité	identité	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obl	_	_
+19	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+

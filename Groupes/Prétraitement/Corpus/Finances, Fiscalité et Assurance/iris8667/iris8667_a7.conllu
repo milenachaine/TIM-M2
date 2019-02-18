@@ -1,0 +1,86 @@
+#Ben
+1	Ben	Ben	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	0	ROOT	_	_
+
+
+#peut-etre que si.
+1	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+2	-	-	PUNCT	_	PUNCT___	4	punct	_	_
+3	etre	etre	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	que	que	SCONJ	_	SCONJ___	4	fixed	_	_
+5	si	si	SCONJ	_	SCONJ___	4	fixed	_	_
+6	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#En déclarant 30 000 Payés en 2018, quel déficit vous générez, lequel malgré l'année blanche est reportable?
+1	En	En	ADP	_	ADP___	1	case	_	_
+2	déclarant	déclarer	VERB	_	VERB__Tense=Pres|VerbForm=Part	4	fixed	_	_
+3	30	30	NUM	_	NUM__NumType=Card	2	nummod	_	_
+4	000	000	NUM	_	NUM__NumType=Card	4	nummod	_	_
+5	Payés	Payés	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	obl	_	_
+6	en	en	ADP	_	ADP___	5	case	_	_
+7	2018	2018	NUM	_	NUM__NumType=Card	4	nmod	_	_
+8	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+9	quel	quel	DET	_	DET__Gender=Masc|Number=Sing	8	det	_	_
+10	déficit	déficit	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nsubj	_	_
+11	vous	se	PRON	_	PRON__Number=Plur|Person=2	12	obj	_	_
+12	générez	générer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+13	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+14	lequel	lequel	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	12	obl	_	_
+15	malgré	malgré	ADP	_	ADP___	19	case	_	_
+16	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	année	année	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	nmod	_	_
+18	blanche	blanc	ADJ	_	ADJ__Gender=Fem|Number=Sing	19	amod	_	_
+19	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+20	reportable	reportable	ADJ	_	ADJ__Number=Sing	19	ccomp	_	_
+21	?	?	PUNCT	_	PUNCT___	27	punct	_	_
+
+
+#Si vous générez 30 000 euros de déficit reportable, et que 15 000 soient pris en compte en 2019 au titre des déductions de revenus focniers, c'est 45 000 utilisables.
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	4	nsubj	_	_
+3	générez	générer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	30	30	NUM	_	NUM__NumType=Card	4	nummod	_	_
+5	000	000	NUM	_	NUM__NumType=Card	4	nummod	_	_
+6	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	obj	_	_
+7	de	de	ADP	_	ADP___	4	case	_	_
+8	déficit	déficit	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nmod	_	_
+9	reportable	reportable	ADJ	_	ADJ__Number=Sing	8	amod	_	_
+10	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+11	et	et	CCONJ	_	CCONJ___	12	cc	_	_
+12	que	que	SCONJ	_	SCONJ___	19	mark	_	_
+13	15	15	NUM	_	NUM__NumType=Card	14	nummod	_	_
+14	000	000	NUM	_	NUM__NumType=Card	12	nsubj:pass	_	_
+15	soient	être	AUX	_	AUX__Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux:pass	_	_
+16	pris	prendre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part|Voice=Pass	17	conj	_	_
+17	en	en	ADP	_	ADP___	19	case	_	_
+18	compte	compter	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obl	_	_
+19	en	en	ADP	_	ADP___	19	case	_	_
+20	2019	2019	NUM	_	NUM__NumType=Card	19	nummod	_	_
+21	au	au	NOUN	_	NOUN__Gender=Masc|Number=Plur|NumType=Card	27	iobj	_	_
+22	titre	titrer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	obl	_	_
+23	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	24	det	_	_
+24	déductions	déduction	NOUN	_	NOUN__Gender=Fem|Number=Plur	21	obj	_	_
+25	de	de	ADP	_	ADP___	24	case	_	_
+26	revenus	revenu	NOUN	_	NOUN__Gender=Masc|Number=Plur	27	nmod	_	_
+27	focniers	focniers	ADJ	_	ADJ__Gender=Masc|Number=Plur	19	amod	_	_
+28	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+29	c'	ce	PRON	_	PRON__Number=Sing|Person=3	31	nsubj	_	_
+30	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
+31	45	45	NUM	_	NUM__NumType=Card	31	nummod	_	_
+32	000	000	NUM	_	NUM__NumType=Card	34	nummod	_	_
+33	utilisables	utilisable	NOUN	_	NOUN__Gender=Fem|Number=Plur	34	conj	_	_
+34	.	.	PUNCT	_	PUNCT___	31	punct	_	_
+
+
+#La question est: Pourrez vosu les utiliser?
+1	La	La	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	:	:	PUNCT	_	PUNCT___	4	punct	_	_
+5	Pourrez	Pourrez	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+6	vosu	vosu	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	xcomp	_	_
+7	les	le	PRON	_	PRON__Number=Plur|Person=3	4	obj	_	_
+8	utiliser	utiliser	VERB	_	VERB__VerbForm=Inf	12	xcomp	_	_
+9	?	?	PUNCT	_	PUNCT___	8	punct	_	_
+
+

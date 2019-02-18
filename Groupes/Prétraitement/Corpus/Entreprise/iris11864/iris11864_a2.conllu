@@ -1,0 +1,91 @@
+#Rappelle
+1	Rappelle	Rappelle	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+
+
+#-moi, tu bossais où avant ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	3	obl	_	_
+3	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+4	tu	taire	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nsubj	_	_
+5	bossais	bosser	ADJ	_	ADJ__Gender=Masc	0	ROOT	_	_
+6	où	où	PRON	_	PRON__PronType=Rel	6	advmod	_	_
+7	avant	avant	ADP	_	ADP___	6	advmod	_	_
+8	?	?	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#C'est agricole, pas commercial.
+1	C'	C'	PRON	_	PRON__Number=Sing|Person=3	1	nsubj:pass	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	agricole	agricole	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+4	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+6	commercial	commercial	ADJ	_	ADJ__Gender=Masc|Number=Sing	6	amod	_	_
+7	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Si vous avez moins de 50 ruches vous êtes apiculteur amateur :
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	3	nsubj	_	_
+3	avez	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	moins	moins	ADV	_	ADV___	6	advmod	_	_
+5	de	de	ADP	_	ADP___	6	case	_	_
+6	50	50	NUM	_	NUM__NumType=Card	6	nummod	_	_
+7	ruches	ruche	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	obj	_	_
+8	vous	se	PRON	_	PRON__Number=Plur|Person=2	6	iobj	_	_
+9	êtes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	cop	_	_
+10	apiculteur	apiculteur	ADJ	_	ADJ__Gender=Masc|Number=Sing	12	acl:relcl	_	_
+11	amateur	amateur	ADJ	_	ADJ__Gender=Masc|Number=Sing	12	amod	_	_
+12	:	:	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#- socialement vous n'êtes redevable d'aucune cotisation à la sécu agri, la MSA n'a donc rien à voir là-dedans.- fiscalement vous êtes au régime micro-BA.Vous devez faire un P0PL épicétou.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	socialement	socialement	ADV	_	ADV___	3	advmod	_	_
+3	vous	se	PRON	_	PRON__Number=Plur|Person=2	6	nsubj	_	_
+4	n'	ne	ADV	_	ADV___	6	advmod	_	_
+5	êtes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	redevable	redevable	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+7	d'	de	ADP	_	ADP___	6	case	_	_
+8	aucune	aucun	DET	_	DET__Gender=Fem|Number=Sing	6	det	_	_
+9	cotisation	cotisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obl	_	_
+10	à	à	ADP	_	ADP___	12	case	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	sécu	sécu	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	amod	_	_
+13	agri	agri	ADJ	_	ADJ__Gender=Masc|Number=Sing	12	nmod	_	_
+14	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+15	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+16	MSA	MSA	PROPN	_	PROPN__Gender=Fem|Number=Sing	12	nsubj	_	_
+17	n'	ne	ADV	_	ADV___	19	advmod	_	_
+18	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	conj	_	_
+19	donc	donc	ADV	_	ADV___	19	advmod	_	_
+20	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	19	obj	_	_
+21	à	à	ADP	_	ADP___	23	mark	_	_
+22	voir	voir	VERB	_	VERB__VerbForm=Inf	23	acl	_	_
+23	là	là	ADV	_	ADV___	19	obj	_	_
+24	-	-	PUNCT	_	PUNCT___	26	punct	_	_
+25	dedans.-	dedans.-	AUX	_	AUX__Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	punct	_	_
+26	fiscalement	fiscalement	ADV	_	ADV___	23	advmod	_	_
+27	vous	se	PRON	_	PRON__Number=Plur|Person=2	26	nsubj	_	_
+28	êtes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	19	cop	_	_
+29	au	au	PRON	_	PRON___	34	expl	_	_
+30	régime	régime	NOUN	_	NOUN__Gender=Masc|Number=Sing	34	conj	_	_
+31	micro	micro	ADJ	_	ADJ__Gender=Fem|Number=Sing	34	xcomp	_	_
+32	-	-	PUNCT	_	PUNCT___	34	punct	_	_
+33	BA.Vous	BA.Vous	PRON	_	PRON__Number=Plur|Person=2	34	nsubj	_	_
+34	devez	devoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	34	aux	_	_
+35	faire	faire	VERB	_	VERB__VerbForm=Inf	37	xcomp	_	_
+36	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	P0PL	P0PL	NOUN	_	NOUN__Gender=Masc|Number=Sing	34	amod	_	_
+38	épicétou	épicétou	ADJ	_	ADJ__Gender=Masc|Number=Sing	41	obj	_	_
+39	.	.	PUNCT	_	PUNCT___	41	punct	_	_
+
+
+#Problème réglé, question suivante.
+1	Problème	Problème	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+2	réglé	régler	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+4	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obl	_	_
+5	suivante	suivant	ADJ	_	ADJ__Gender=Fem|Number=Sing	6	amod	_	_
+6	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+

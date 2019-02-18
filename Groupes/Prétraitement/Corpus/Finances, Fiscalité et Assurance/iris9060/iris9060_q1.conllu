@@ -1,0 +1,97 @@
+#Bonjour,Nous sommes sur le point d'acheter une maison.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	4	acl	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	Nous	Nous	PRON	_	PRON__Number=Plur|Person=1	4	nsubj	_	_
+4	sommes	sommer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	sur	sur	ADP	_	ADP___	7	case	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	point	poindre	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+8	d'	de	ADP	_	ADP___	9	mark	_	_
+9	acheter	acheter	VERB	_	VERB__VerbForm=Inf	7	acl	_	_
+10	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obj	_	_
+12	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Nous l'avons trouvée sur le site d'un agent immobilier mandaté par le vendeur.
+1	Nous	Nous	PRON	_	PRON__Number=Plur|Person=1	4	nsubj	_	_
+2	l'	le	PRON	_	PRON__Number=Sing|Person=3	4	obj	_	_
+3	avons	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	trouvée	trouver	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	sur	sur	ADP	_	ADP___	7	case	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	site	site	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+8	d'	de	ADP	_	ADP___	9	case	_	_
+9	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+10	agent	agent	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+11	immobilier	immobilier	AUX	_	AUX__VerbForm=Inf	9	amod	_	_
+12	mandaté	mandater	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	acl	_	_
+13	par	par	ADP	_	ADP___	16	case	_	_
+14	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	vendeur	vendeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obl	_	_
+16	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Sa commission - due par le vendeur
+1	Sa	Sa	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	4	nmod:poss	_	_
+2	commission	commission	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	-	-	PUNCT	_	PUNCT___	4	punct	_	_
+4	due	dû	ADJ	_	ADJ__Gender=Fem|Number=Sing	4	acl	_	_
+5	par	par	ADP	_	ADP___	7	case	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	vendeur	vendeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+
+
+#- est bien sûr répercutée sur le prix global.
+1	-	-	PUNCT	_	PUNCT___	4	punct	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+3	bien	bien	ADV	_	ADV___	4	advmod	_	_
+4	sûr	sûr	ADJ	_	ADJ__Gender=Masc|Number=Sing	4	fixed	_	_
+5	répercutée	répercuter	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+6	sur	sur	ADP	_	ADP___	7	case	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+8	prix	prix	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obl	_	_
+9	global	global	ADJ	_	ADJ__Gender=Masc|Number=Sing	7	amod	_	_
+10	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#On me dit que nous allons payer les droits "de notaire" ET sur le prix de la maison, ET sur le prix de cette commission, est-ce exact?Je
+1	On	On	PRON	_	PRON__Number=Sing|Person=3	4	nsubj	_	_
+2	me	se	PRON	_	PRON__Number=Sing|Person=1	4	expl	_	_
+3	dit	dire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	que	que	SCONJ	_	SCONJ___	4	mark	_	_
+5	nous	se	PRON	_	PRON__Number=Plur|Person=1	7	nsubj	_	_
+6	allons	aller	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	payer	payer	VERB	_	VERB__VerbForm=Inf	4	ccomp	_	_
+8	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+9	droits	droit	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	obj	_	_
+10	"	"	PUNCT	_	PUNCT___	11	punct	_	_
+11	de	de	ADP	_	ADP___	9	case	_	_
+12	notaire	notaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obl	_	_
+13	"	"	PUNCT	_	PUNCT___	16	punct	_	_
+14	ET	ET	CCONJ	_	CCONJ___	16	cc	_	_
+15	sur	sur	ADP	_	ADP___	16	case	_	_
+16	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+17	prix	prix	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	conj	_	_
+18	de	de	ADP	_	ADP___	19	case	_	_
+19	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+20	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	nmod	_	_
+21	,	,	PUNCT	_	PUNCT___	22	punct	_	_
+22	ET	ET	CCONJ	_	CCONJ___	19	cc	_	_
+23	sur	sur	ADP	_	ADP___	22	case	_	_
+24	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+25	prix	prix	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	conj	_	_
+26	de	de	ADP	_	ADP___	27	case	_	_
+27	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	24	det	_	_
+28	commission	commission	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nmod	_	_
+29	,	,	PUNCT	_	PUNCT___	30	punct	_	_
+30	est	être		_	VERB	30	cop	_	_
+31	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	30	nsubj	_	_
+32	exact?Je	exact?Je	ADV	_	ADV___	30	ccomp	_	_
+
+
+#vous remercieAnda
+1	vous	se	PRON	_	PRON__Number=Plur|Person=2	4	iobj	_	_
+2	remercieAnda	remercieAnda	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+
+

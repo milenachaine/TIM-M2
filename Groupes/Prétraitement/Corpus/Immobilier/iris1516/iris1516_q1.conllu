@@ -1,0 +1,117 @@
+#Bonjour à tous,
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	à	à	ADP	_	ADP___	3	case	_	_
+3	tous	tout	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Rel	1	obl	_	_
+4	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Une fuite d'eau dont la localisation exacte est encore indéterminée provient de canalisations encastrées dans la dalle séparant 2 étages.
+1	Une	Une	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	fuite	fuite	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+3	d'	de	ADP	_	ADP___	1	case	_	_
+4	eau	eau	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+5	dont	dont	PRON	_	PRON__PronType=Rel	6	iobj	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+7	localisation	localisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nsubj	_	_
+8	exacte	exact	ADJ	_	ADJ__Gender=Fem|Number=Sing	6	amod	_	_
+9	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+10	encore	encore	ADV	_	ADV___	11	advmod	_	_
+11	indéterminée	indéterminé	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	15	acl:relcl	_	_
+12	provient	provenir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+13	de	de	ADP	_	ADP___	15	case	_	_
+14	canalisations	canalisation	NOUN	_	NOUN__Gender=Fem|Number=Plur	15	obl	_	_
+15	encastrées	encastrer	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	6	acl	_	_
+16	dans	dan	ADP	_	ADP___	16	case	_	_
+17	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	dalle	daller	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obl	_	_
+19	séparant	séparer	VERB	_	VERB__Tense=Pres|VerbForm=Part	18	acl	_	_
+20	2	2	NUM	_	NUM__NumType=Card	22	nummod	_	_
+21	étages	étager	NOUN	_	NOUN__Gender=Masc|Number=Plur	22	obj	_	_
+22	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Voici l'extrait de mon RdC :
+1	Voici	Voici	VERB	_	VERB__Mood=Ind|VerbForm=Fin	0	ROOT	_	_
+2	l'	le	PRON	_	PRON__Number=Sing|Person=3	3	det	_	_
+3	extrait	extraire	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+4	de	de	ADP	_	ADP___	1	case	_	_
+5	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+6	RdC	RdC	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	nmod	_	_
+7	:	:	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Les canalisations apparentes sont clairement privatives car "à l'intérieur" du local.
+1	Les	Les	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+2	canalisations	canalisation	NOUN	_	NOUN__Gender=Fem|Number=Plur	3	nsubj	_	_
+3	apparentes	apparenter	ADJ	_	ADJ__Gender=Fem|Number=Plur	1	amod	_	_
+4	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+5	clairement	clairement	ADV	_	ADV___	6	advmod	_	_
+6	privatives	privatif	ADJ	_	ADJ__Gender=Fem|Number=Plur	0	ROOT	_	_
+7	car	car	CCONJ	_	CCONJ___	8	cc	_	_
+8	"	"	PUNCT	_	PUNCT___	6	punct	_	_
+9	à	à	ADP	_	ADP___	15	case	_	_
+10	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	intérieur	intérieur	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	conj	_	_
+12	"	"	PUNCT	_	PUNCT___	11	punct	_	_
+13	du	du	DET	_	DET__Gender=Masc|Number=Sing	15	det	_	_
+14	local	local	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obj	_	_
+15	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Les canalisations encastrées dans la dalle de séparation des étages sont-elles privatives ?
+1	Les	Les	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+2	canalisations	canalisation	NOUN	_	NOUN__Gender=Fem|Number=Plur	3	nsubj	_	_
+3	encastrées	encastrer	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	1	acl	_	_
+4	dans	dan	ADP	_	ADP___	1	case	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	dalle	daller	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obl	_	_
+7	de	de	ADP	_	ADP___	8	case	_	_
+8	séparation	séparation	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+9	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	15	det	_	_
+10	étages	étager	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	obj	_	_
+11	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+12	-	-	PUNCT	_	PUNCT___	11	punct	_	_
+13	elles	lui	PRON	_	PRON__Gender=Fem|Number=Plur|Person=3	0	ROOT	_	_
+14	privatives	privatif	NOUN	_	NOUN__Gender=Fem|Number=Plur	15	amod	_	_
+15	?	?	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#et est-ce différent pour celles d'arrivée d'eau et celles d'évacuation ?
+1	et	et	CCONJ	_	CCONJ___	1	cc	_	_
+2	est	être		_	VERB	0	ROOT	_	_
+3	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+4	différent	différent	ADV	_	ADV___	1	advmod	_	_
+5	pour	pour	ADP	_	ADP___	6	case	_	_
+6	celles	celui	PRON	_	PRON__Gender=Fem|Number=Plur|PronType=Dem	16	obl	_	_
+7	d'	de	ADP	_	ADP___	8	case	_	_
+8	arrivée	arriver	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+9	d'	de	ADP	_	ADP___	15	case	_	_
+10	eau	eau	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+11	et	et	CCONJ	_	CCONJ___	15	cc	_	_
+12	celles	celui	PRON	_	PRON__Gender=Fem|Number=Plur|PronType=Dem	11	conj	_	_
+13	d'	de	ADP	_	ADP___	15	case	_	_
+14	évacuation	évacuation	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	nmod	_	_
+15	?	?	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Pouvez
+1	Pouvez	Pouvez	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+
+
+#-vous m'aider à décrypter ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	vous	se	PRON	_	PRON__Number=Plur|Person=2	3	nsubj	_	_
+3	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	1	expl	_	_
+4	aider	aider	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	à	à	ADP	_	ADP___	6	mark	_	_
+6	décrypter	décrypter	VERB	_	VERB__VerbForm=Inf	16	xcomp	_	_
+7	?	?	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Merci d'avance !
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	d'	de	ADP	_	ADP___	3	case	_	_
+3	avance	avancer	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+4	!	!	PUNCT	_	PUNCT___	1	punct	_	_
+
+

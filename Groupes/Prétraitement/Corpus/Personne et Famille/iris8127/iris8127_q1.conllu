@@ -1,0 +1,189 @@
+#Bonsoir à tous,J'ai une question pour bien comprendre le fonctionnement de la donation simple.
+1	Bonsoir	Bonsoir	VERB	_	VERB__VerbForm=Inf	6	acl	_	_
+2	à	à	ADP	_	ADP___	3	case	_	_
+3	tous	tout	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Rel	1	obl	_	_
+4	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+5	J'	J'	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+6	ai	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obj	_	_
+9	pour	pour	ADP	_	ADP___	11	mark	_	_
+10	bien	bien	ADV	_	ADV___	11	advmod	_	_
+11	comprendre	comprendre	VERB	_	VERB__VerbForm=Inf	6	advcl	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	fonctionnement	fonctionnement	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+14	de	de	ADP	_	ADP___	16	case	_	_
+15	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	donation	donation	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nmod	_	_
+17	simple	simple	ADJ	_	ADJ__Number=Sing	16	amod	_	_
+18	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Imaginons une famille avec deux enfants A et B.
+1	Imaginons	Imaginons	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+2	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	famille	famille	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+4	avec	avec	ADP	_	ADP___	6	case	_	_
+5	deux	deux	NUM	_	NUM__NumType=Card	6	nummod	_	_
+6	enfants	enfant	NOUN	_	NOUN__Number=Plur	6	nmod	_	_
+7	A	A	NOUN	_	NOUN___	8	nmod	_	_
+8	et	et	CCONJ	_	CCONJ___	6	cc	_	_
+9	B.	B.	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	conj	_	_
+
+
+#Les parents font une donation de 200 000 euros à chacun des deux enfants.
+1	Les	Les	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	6	det	_	_
+2	parents	parent	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	nsubj	_	_
+3	font	faire	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	donation	donation	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obj	_	_
+6	de	de	ADP	_	ADP___	6	case	_	_
+7	200	200	NUM	_	NUM__NumType=Card	8	nummod	_	_
+8	000	000	NUM	_	NUM__NumType=Card	6	nummod	_	_
+9	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	nmod	_	_
+10	à	à	ADP	_	ADP___	11	case	_	_
+11	chacun	chacun	PRON	_	PRON__Gender=Masc|PronType=Rel	6	obl	_	_
+12	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	13	det	_	_
+13	deux	deux	NUM	_	NUM__NumType=Card	11	nummod	_	_
+14	enfants	enfant	NOUN	_	NOUN__Number=Plur	16	nmod	_	_
+15	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Avec la donation, A achète une maison qui coûte 200 000 euros.
+1	Avec	Avec	ADP	_	ADP___	6	case	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	donation	donation	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obl	_	_
+4	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+5	A	A	NOUN	_	NOUN___	6	aux	_	_
+6	achète	acheter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obj	_	_
+9	qui	qui	PRON	_	PRON__PronType=Rel	11	nsubj	_	_
+10	coûte	coûter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+11	200	200	NUM	_	NUM__NumType=Card	6	nummod	_	_
+12	000	000	NUM	_	NUM__NumType=Card	13	nummod	_	_
+13	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	obj	_	_
+14	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Avec la donation, B investit les 200 000 euros en bourse.
+1	Avec	Avec	ADP	_	ADP___	6	case	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	donation	donation	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+4	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+5	B	B	NOUN	_	NOUN___	6	nmod	_	_
+6	investit	investir	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+7	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+8	200	200	NUM	_	NUM__NumType=Card	6	nummod	_	_
+9	000	000	NUM	_	NUM__NumType=Card	11	nummod	_	_
+10	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	obj	_	_
+11	en	en	ADP	_	ADP___	6	mark	_	_
+12	bourse	bourse	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	advcl	_	_
+13	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#À la succession, imaginons que le patrimoine des parents est de 400 000 euros, que la maison de A vaut 400 000 euros et que B a tout perdu.
+1	À	À	ADP	_	ADP___	6	case	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	succession	succession	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obl	_	_
+4	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+5	imaginons	imaginer	NOUN	_	NOUN__Gender=Fem|Number=Plur	6	conj	_	_
+6	que	que	SCONJ	_	SCONJ___	6	mark	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	patrimoine	patrimoine	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nsubj	_	_
+9	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
+10	parents	parent	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	nmod	_	_
+11	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+12	de	de	ADP	_	ADP___	13	case	_	_
+13	400	400	NUM	_	NUM__NumType=Card	11	nummod	_	_
+14	000	000	NUM	_	NUM__NumType=Card	16	nummod	_	_
+15	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	dep	_	_
+16	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+17	que	que	SCONJ	_	SCONJ___	16	mark	_	_
+18	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+19	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	nsubj	_	_
+20	de	de	ADP	_	ADP___	21	mark	_	_
+21	A	A	NOUN	_	NOUN___	19	aux	_	_
+22	vaut	valoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+23	400	400	NUM	_	NUM__NumType=Card	24	nummod	_	_
+24	000	000	NUM	_	NUM__NumType=Card	19	nummod	_	_
+25	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	24	obj	_	_
+26	et	et	CCONJ	_	CCONJ___	27	cc	_	_
+27	que	que	SCONJ	_	SCONJ___	19	obj	_	_
+28	B	B	PRON	_	PRON__Person=3	29	fixed	_	_
+29	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	tout	tout	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+31	perdu	perdre	NOUN	_	NOUN__Gender=Masc|Number=Plur	32	conj	_	_
+32	.	.	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#Si j'ai bien compris, normalement (c'est-à-dire suivant les règles de ré-évaluation), B devrait obtenir 400 000 euros.
+1	Si	Si	SCONJ	_	SCONJ___	6	mark	_	_
+2	j'	il	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+3	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
+4	bien	bien	ADV	_	ADV___	6	advmod	_	_
+5	compris	comprendre	ADJ	_	ADJ__Gender=Masc	6	advcl	_	_
+6	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+7	normalement	normalement	ADV	_	ADV___	8	advmod	_	_
+8	(	(	PUNCT	_	PUNCT___	6	punct	_	_
+9	c'est-à-dire	c'est-à-diree	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	amod	_	_
+10	suivant	suivre	VERB	_	VERB__Tense=Pres|VerbForm=Part	11	acl	_	_
+11	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	6	det	_	_
+12	règles	régler	NOUN	_	NOUN__Gender=Fem|Number=Plur	13	obj	_	_
+13	de	de	ADP	_	ADP___	11	case	_	_
+14	ré-évaluation	ré-évaluation	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nmod	_	_
+15	)	)	PUNCT	_	PUNCT___	16	punct	_	_
+16	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+17	B	B	NOUN	_	NOUN___	16	nsubj	_	_
+18	devrait	devoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+19	obtenir	obtenir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+20	400	400	NUM	_	NUM__NumType=Card	21	nummod	_	_
+21	000	000	NUM	_	NUM__NumType=Card	19	nummod	_	_
+22	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	24	obj	_	_
+23	.	.	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#Mais est-ce que A et B pourraient se mettre d'accord pour obtenir 200 000 euros chacun (c'est-à-dire en faisant "comme-ci" il y avait eu donation-partage) ?
+1	Mais	Mais	CCONJ	_	CCONJ___	6	cc	_	_
+2	est	être		_	VERB	0	ROOT	_	_
+3	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+4	que	que	SCONJ	_	SCONJ___	6	mark	_	_
+5	A	A	NOUN	_	NOUN___	6	advcl	_	_
+6	et	et	CCONJ	_	CCONJ___	6	cc	_	_
+7	B	B	NOUN	_	NOUN___	8	conj	_	_
+8	pourraient	pouvoir	AUX	_	AUX__Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+9	se	se	PRON	_	PRON__Person=3|Reflex=Yes	11	expl	_	_
+10	mettre	mettre	VERB	_	VERB__VerbForm=Inf	11	conj	_	_
+11	d'	de	ADP	_	ADP___	6	iobj	_	_
+12	accord	accord	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	fixed	_	_
+13	pour	pour	ADP	_	ADP___	11	mark	_	_
+14	obtenir	obtenir	VERB	_	VERB__VerbForm=Inf	16	advcl	_	_
+15	200	200	NUM	_	NUM__NumType=Card	16	obj	_	_
+16	000	000	NUM	_	NUM__NumType=Card	13	nummod	_	_
+17	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	obj	_	_
+18	chacun	chacun	PRON	_	PRON__Gender=Masc|PronType=Rel	6	amod	_	_
+19	(	(	PUNCT	_	PUNCT___	19	punct	_	_
+20	c'est-à-dire	c'est-à-diree	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	appos	_	_
+21	en	en	ADP	_	ADP___	19	mark	_	_
+22	faisant	faire	VERB	_	VERB__Tense=Pres|VerbForm=Part	24	acl	_	_
+23	"	"	PUNCT	_	PUNCT___	24	punct	_	_
+24	comme	comme	SCONJ	_	SCONJ___	19	advmod	_	_
+25	-	-	PUNCT	_	PUNCT___	24	fixed	_	_
+26	ci	ci	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Dem	27	mark	_	_
+27	"	"	PUNCT	_	PUNCT___	19	punct	_	_
+28	il	il	PRON	_	PRON__Number=Sing|Person=3	29	nsubj	_	_
+29	y	yu	PRON	_	PRON__Person=3	30	iobj	_	_
+30	avait	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	30	aux	_	_
+31	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	advcl	_	_
+32	donation-partage	donation-partage	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	obj	_	_
+33	)	)	PUNCT	_	PUNCT___	36	punct	_	_
+34	?	?	PUNCT	_	PUNCT___	36	punct	_	_
+
+
+#Merci d'avance !
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	d'	de	ADP	_	ADP___	3	case	_	_
+3	avance	avancer	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+4	!	!	PUNCT	_	PUNCT___	6	punct	_	_
+
+

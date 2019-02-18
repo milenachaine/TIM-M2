@@ -1,0 +1,84 @@
+#Bonjour,Quel intérêt ont les parents de X à héberger votre fils
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+3	Quel	Quel	DET	_	DET__Gender=Masc|Number=Sing	4	det	_	_
+4	intérêt	intérêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+5	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+6	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+7	parents	parent	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	obj	_	_
+8	de	de	ADP	_	ADP___	9	case	_	_
+9	X	X	NOUN	_	NOUN___	7	nmod	_	_
+10	à	à	ADP	_	ADP___	11	mark	_	_
+11	héberger	héberger	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+12	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	13	nmod:poss	_	_
+13	fils	fil	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+
+
+#s'il n'est pas le père de l'enfant ?
+1	s'	si	SCONJ	_	SCONJ___	1	case	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+3	n'	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	père	père	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+8	de	de	ADP	_	ADP___	9	case	_	_
+9	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+10	enfant	enfant	NOUN	_	NOUN__Number=Sing	11	nmod	_	_
+11	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Votre fils leur verse t-il un "loyer" quelconque ?
+1	Votre	Votre	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	fils	fil	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	nsubj	_	_
+3	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+4	verse	verser	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nsubj	_	_
+5	t-il	t-il	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	mark	_	_
+7	"	"	PUNCT	_	PUNCT___	5	punct	_	_
+8	loyer	loyer	VERB	_	VERB__VerbForm=Inf	9	xcomp	_	_
+9	"	"	PUNCT	_	PUNCT___	7	punct	_	_
+10	quelconque	quelconque	ADJ	_	ADJ__Number=Sing	11	amod	_	_
+11	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Quel âge ont ces jeunes ?
+1	Quel	Quel	DET	_	DET__Gender=Masc|Number=Sing	1	det	_	_
+2	âge	âge	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+3	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	5	det	_	_
+5	jeunes	jeune	NOUN	_	NOUN__Number=Plur	1	obj	_	_
+6	?	?	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Malheureusement, si votre fils est majeur, il est en droit de couper les ponts avec vous, même si ce n'est pas son intérêt.
+1	Malheureusement	Malheureusement	ADV	_	ADV___	1	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+3	si	si	SCONJ	_	SCONJ___	4	mark	_	_
+4	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+5	fils	fil	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+6	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	majeur	majeur	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+8	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+9	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+10	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	en	en	ADP	_	ADP___	5	case	_	_
+12	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	acl:relcl	_	_
+13	de	de	ADP	_	ADP___	11	mark	_	_
+14	couper	couper	VERB	_	VERB__VerbForm=Inf	20	acl	_	_
+15	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	20	det	_	_
+16	ponts	pont	NOUN	_	NOUN__Gender=Masc|Number=Plur	20	obj	_	_
+17	avec	avec	ADP	_	ADP___	20	case	_	_
+18	vous	se	PRON	_	PRON__Number=Plur|Person=2|PronType=Prs	20	obl	_	_
+19	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+20	même	même	ADV	_	ADV___	20	advmod	_	_
+21	si	si	SCONJ	_	SCONJ___	23	fixed	_	_
+22	ce	ce	PRON	_	PRON__Number=Sing|Person=3	23	nsubj	_	_
+23	n'	ne	ADV	_	ADV__Polarity=Neg	20	advmod	_	_
+24	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+25	pas	pas	ADV	_	ADV__Polarity=Neg	26	advmod	_	_
+26	son	son	DET	_	DET__Number=Sing|Poss=Yes	29	nmod:poss	_	_
+27	intérêt	intérêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	obl	_	_
+28	.	.	PUNCT	_	PUNCT___	29	punct	_	_
+
+

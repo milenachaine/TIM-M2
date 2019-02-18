@@ -1,0 +1,94 @@
+#Bonjour,Je suis animatrice sur la région Grand Est.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Je	Je	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+4	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	animatrice	animateur	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+6	sur	sur	ADP	_	ADP___	8	case	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	région	région	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+9	Grand	Grand	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	nmod	_	_
+10	Est	Est	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	flat:name	_	_
+11	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Mon contrat de travail mentionne bien qu'une voiture est mise à ma disposition, limitée à l'usage strictement professionnel.
+1	Mon	Mon	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	de	de	ADP	_	ADP___	5	case	_	_
+4	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+5	mentionne	mentionner	ADJ	_	ADJ__Gender=Fem|Number=Sing	1	amod	_	_
+6	bien	bien	ADV	_	ADV___	8	advmod	_	_
+7	qu'	que	SCONJ	_	SCONJ___	8	mark	_	_
+8	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+9	voiture	voiturer	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nsubj:pass	_	_
+10	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+11	mise	miser	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	acl:relcl	_	_
+12	à	à	ADP	_	ADP___	13	case	_	_
+13	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	13	nmod:poss	_	_
+14	disposition	disposition	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obl	_	_
+15	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+16	limitée	limiter	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	amod	_	_
+17	à	à	ADP	_	ADP___	16	case	_	_
+18	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+19	usage	usage	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obl	_	_
+20	strictement	strictement	ADV	_	ADV___	22	advmod	_	_
+21	professionnel	professionnel	ADJ	_	ADJ__Gender=Masc|Number=Sing	22	amod	_	_
+22	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Il est mentionné que le modèle et les caractéristiques de la voiture pourront être modifiés de façon unilatérale, mais pas que la voiture pourra m'être retirée.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj:pass	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
+3	mentionné	mentionner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+4	que	que	SCONJ	_	SCONJ___	5	mark	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+6	modèle	modeler	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nsubj	_	_
+7	et	et	CCONJ	_	CCONJ___	8	cc	_	_
+8	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+9	caractéristiques	caractéristique	NOUN	_	NOUN__Gender=Fem|Number=Plur	8	conj	_	_
+10	de	de	ADP	_	ADP___	9	case	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+12	voiture	voiturer	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nmod	_	_
+13	pourront	pouvoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	13	ccomp	_	_
+14	être	être	AUX	_	AUX__VerbForm=Inf	15	aux:pass	_	_
+15	modifiés	modifier	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	13	xcomp	_	_
+16	de	de	ADP	_	ADP___	15	case	_	_
+17	façon	façon	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obl	_	_
+18	unilatérale	unilatéral	ADJ	_	ADJ__Gender=Fem|Number=Sing	22	amod	_	_
+19	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+20	mais	mai	CCONJ	_	CCONJ___	22	cc	_	_
+21	pas	pas	ADV	_	ADV___	22	advmod	_	_
+22	que	que	SCONJ	_	SCONJ___	13	mark	_	_
+23	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+24	voiture	voiturer	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	nsubj	_	_
+25	pourra	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	22	aux	_	_
+26	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	22	conj	_	_
+27	être	être	AUX	_	AUX__VerbForm=Inf	22	aux:pass	_	_
+28	retirée	retirer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	30	xcomp	_	_
+29	.	.	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#Il n'est rien dit sur l'utilisation du véhicule personnel.
+1	Il	Il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	n'	ne	ADV	_	ADV___	1	advmod	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+4	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	5	nsubj	_	_
+5	dit	dire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	sur	sur	ADP	_	ADP___	8	case	_	_
+7	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	utilisation	utilisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obl	_	_
+9	du	du	DET	_	DET__Gender=Masc|Number=Sing	8	det	_	_
+10	véhicule	véhiculer	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nmod	_	_
+11	personnel	personnel	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	amod	_	_
+12	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Merci de votre aide.
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	de	de	ADP	_	ADP___	1	case	_	_
+3	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+4	aide	aider	NOUN	_	NOUN__Number=Sing	5	nmod	_	_
+5	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+

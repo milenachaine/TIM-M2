@@ -1,0 +1,208 @@
+#Bonjour,Dans mon entreprise, nous voudrions développer un produit, mais nous voulons être sûrs de ne pas enfreindre de brevet déjà déposé.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Dans	Dans	ADP	_	ADP___	5	case	_	_
+4	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+5	entreprise	entreprendre	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+6	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+7	nous	se	PRON	_	PRON__Number=Plur|Person=1	8	nsubj	_	_
+8	voudrions	vouloir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	nmod	_	_
+9	développer	développer	VERB	_	VERB__VerbForm=Inf	8	xcomp	_	_
+10	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	produit	produire	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+12	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+13	mais	mai	CCONJ	_	CCONJ___	17	cc	_	_
+14	nous	se	PRON	_	PRON__Number=Plur|Person=1	17	nsubj	_	_
+15	voulons	vouloir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	être	être	AUX	_	AUX__VerbForm=Inf	17	cop	_	_
+17	sûrs	sûr	ADJ	_	ADJ__Gender=Masc|Number=Plur	1	conj	_	_
+18	de	de	ADP	_	ADP___	21	mark	_	_
+19	ne	ne	ADV	_	ADV___	21	advmod	_	_
+20	pas	pas	ADV	_	ADV___	19	fixed	_	_
+21	enfreindre	enfreindre	VERB	_	VERB__VerbForm=Inf	17	xcomp	_	_
+22	de	de	ADP	_	ADP___	23	case	_	_
+23	brevet	brevet	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	obl	_	_
+24	déjà	déjà	ADV	_	ADV___	25	advmod	_	_
+25	déposé	déposer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	xcomp	_	_
+26	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Ce que je n'arrive pas à savoir, c'est si les claims/revendications autres  que le premier sont importants.
+1	Ce	Ce	PRON	_	PRON__PronType=Rel	0	ROOT	_	_
+2	que	que	PRON	_	PRON__PronType=Rel	1	mark	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+4	n'	ne	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+5	arrive	arriver	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+6	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+7	à	à	ADP	_	ADP___	8	mark	_	_
+8	savoir	savoir	VERB	_	VERB__VerbForm=Inf	1	xcomp	_	_
+9	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+10	c'	ce	PRON	_	PRON__Number=Sing|Person=3	11	nsubj	_	_
+11	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+12	si	si	SCONJ	_	SCONJ___	1	advmod	_	_
+13	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	17	det	_	_
+14	claims	claims	NOUN	_	NOUN__Gender=Masc|Number=Plur	17	conj	_	_
+15	/	/	ADP	_	ADP___	17	case	_	_
+16	revendications	revendication	NOUN	_	NOUN__Gender=Fem|Number=Plur	17	nmod	_	_
+17	autres	autre	ADJ	_	ADJ__Number=Plur	1	amod	_	_
+18	 	 	SPACE	_		21		_	_
+19	que	que	SCONJ	_	SCONJ___	21	mark	_	_
+20	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+21	premier	premier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	17	nsubj	_	_
+22	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+23	importants	important	ADJ	_	ADJ__Gender=Masc|Number=Plur	21	amod	_	_
+24	.	.	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#J'ai lu que seul le premier claim comptait mais cela me semble étrange.
+1	J'	J'	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ai	avoir	PROPN	_	PROPN___	0	ROOT	_	_
+3	lu	lire	PROPN	_	PROPN___	5	obj	_	_
+4	que	que	SCONJ	_	SCONJ___	5	mark	_	_
+5	seul	seul	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	amod	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	premier	premier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	8	amod	_	_
+8	claim	claim	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+9	comptait	compter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	ccomp	_	_
+10	mais	mai	CCONJ	_	CCONJ___	11	cc	_	_
+11	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	9	nsubj	_	_
+12	me	se	PRON	_	PRON__Number=Sing|Person=1	1	iobj	_	_
+13	semble	sembler	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+14	étrange	étrange	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	conj	_	_
+15	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Par exemple, si le brevet porte sur une boisson, et que le claim 1 dit :> Boisson avec 1 à 10g de sucres & 1 à 10g de protéinesEt le claim 2 :> Boisson selon claim 1, avec 1 à 10 g de lipides.
+1	Par	Par	ADP	_	ADP___	1	advmod	_	_
+2	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+4	si	si	SCONJ	_	SCONJ___	5	mark	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+6	brevet	brevet	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nsubj	_	_
+7	porte	porter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	sur	sur	ADP	_	ADP___	1	case	_	_
+9	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+10	boisson	boisson	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obl	_	_
+11	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+12	et	et	CCONJ	_	CCONJ___	1	cc	_	_
+13	que	que	SCONJ	_	SCONJ___	17	mark	_	_
+14	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+15	claim	claim	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	nsubj	_	_
+16	1	1	NUM	_	NUM__NumType=Card	17	nummod	_	_
+17	dit	dire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	_
+18	:>	:>	NUM	_	NUM__NumType=Card	21	punct	_	_
+19	Boisson	Boisson	PROPN	_	PROPN___	21	nmod	_	_
+20	avec	avec	ADP	_	ADP___	19	case	_	_
+21	1	1	NUM	_	NUM__NumType=Card	17	nummod	_	_
+22	à	à	ADP	_	ADP___	23	case	_	_
+23	10	10	NUM	_	NUM__NumType=Card	21	nmod	_	_
+24	g	g	NOUN	_	NOUN___	25	nmod	_	_
+25	de	de	ADP	_	ADP___	21	case	_	_
+26	sucres	sucrer	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	nmod	_	_
+27	&	&	CCONJ	_	CCONJ___	27	cc	_	_
+28	1	1	NUM	_	NUM__NumType=Card	31	nummod	_	_
+29	à	à	ADP	_	ADP___	31	case	_	_
+30	10	10	NUM	_	NUM__NumType=Card	31	nummod	_	_
+31	g	g	NOUN	_	NOUN___	27	conj	_	_
+32	de	de	ADP	_	ADP___	31	case	_	_
+33	protéinesEt	protéinesEt	NOUN	_	NOUN__Number=Sing	34	nmod	_	_
+34	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+35	claim	claim	NOUN	_	NOUN__Gender=Masc|Number=Sing	40	orphan	_	_
+36	2	2	NUM	_	NUM__NumType=Card	40	nummod	_	_
+37	:>	:>	NOUN	_	NOUN___	40	punct	_	_
+38	Boisson	Boisson	PROPN	_	PROPN___	40	nmod	_	_
+39	selon	selon	ADP	_	ADP___	40	case	_	_
+40	claim	claim	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	nmod	_	_
+41	1	1	NUM	_	NUM__NumType=Card	42	nummod	_	_
+42	,	,	PUNCT	_	PUNCT___	40	punct	_	_
+43	avec	avec	ADP	_	ADP___	42	case	_	_
+44	1	1	NUM	_	NUM__NumType=Card	43	nummod	_	_
+45	à	à	ADP	_	ADP___	49	case	_	_
+46	10	10	NUM	_	NUM__NumType=Card	47	nmod	_	_
+47	g	g	NOUN	_	NOUN___	49	nmod	_	_
+48	de	de	ADP	_	ADP___	49	case	_	_
+49	lipides	lipide	NOUN	_	NOUN__Gender=Fem|Number=Plur	40	nmod	_	_
+50	.	.	PUNCT	_	PUNCT___	27	punct	_	_
+
+
+#Si ma boisson contient 5g de sucres, 5g de protéines (comme le claim 1) mais 15g de lipides (donc à l'extérieur du claim 2), est-elle sous le brevet du concurrent ou puis-je la commercialiser ?
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	1	nmod:poss	_	_
+3	boisson	boisson	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nsubj	_	_
+4	contient	contenir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+5	5	5	NUM	_	NUM__NumType=Card	8	nummod	_	_
+6	g	g	NOUN	_	NOUN___	8	obj	_	_
+7	de	de	ADP	_	ADP___	8	case	_	_
+8	sucres	sucrer	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	nmod	_	_
+9	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+10	5	5	NUM	_	NUM__NumType=Card	11	nummod	_	_
+11	g	g	NOUN	_	NOUN___	9	conj	_	_
+12	de	de	ADP	_	ADP___	1	case	_	_
+13	protéines	protéine	NOUN	_	NOUN__Gender=Fem|Number=Plur	17	nmod	_	_
+14	(	(	PUNCT	_	PUNCT___	17	punct	_	_
+15	comme	comme	SCONJ	_	SCONJ___	17	case	_	_
+16	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	claim	claim	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+18	1	1	NUM	_	NUM__NumType=Card	21	nummod	_	_
+19	)	)	PUNCT	_	PUNCT___	21	punct	_	_
+20	mais	mai	CCONJ	_	CCONJ___	19	cc	_	_
+21	15	15	NUM	_	NUM__NumType=Card	17	nummod	_	_
+22	g	g	NOUN	_	NOUN___	23	nsubj	_	_
+23	de	de	ADP	_	ADP___	21	case	_	_
+24	lipides	lipide	NOUN	_	NOUN__Gender=Fem|Number=Plur	25	nmod	_	_
+25	(	(	PUNCT	_	PUNCT___	21	punct	_	_
+26	donc	donc	ADV	_	ADV___	1	advmod	_	_
+27	à	à	ADP	_	ADP___	27	case	_	_
+28	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	31	det	_	_
+29	extérieur	extérieur	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	nmod	_	_
+30	du	du	DET	_	DET__Gender=Masc|Number=Sing	31	det	_	_
+31	claim	claim	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	nmod	_	_
+32	2	2	NUM	_	NUM__NumType=Card	31	nummod	_	_
+33	)	)	PUNCT	_	PUNCT___	34	punct	_	_
+34	,	,	PUNCT	_	PUNCT___	31	punct	_	_
+35	est-elle	est-elle	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	40	appos	_	_
+36	sous	sou	ADP	_	ADP___	40	case	_	_
+37	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+38	brevet	brevet	NOUN	_	NOUN__Gender=Masc|Number=Sing	40	nmod	_	_
+39	du	du	DET	_	DET__Gender=Masc|Number=Sing	40	det	_	_
+40	concurrent	concurrent	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	nmod	_	_
+41	ou	ou	CCONJ	_	CCONJ___	42	cc	_	_
+42	puis-je	puis-je	PRON	_	PRON__PronType=Rel	40	conj	_	_
+43	la	le	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	42	obj	_	_
+44	commercialiser	commercialiser	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+45	?	?	PUNCT	_	PUNCT___	49	punct	_	_
+
+
+#Sachant que notre entreprise est en espagne, cela est-il différent de la France ou les règles sont les mêmes dans toute l'UE ?
+1	Sachant	Sachant	VERB	_	VERB__Tense=Pres|VerbForm=Part	1	acl	_	_
+2	que	que	SCONJ	_	SCONJ___	1	mark	_	_
+3	notre	notre	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+4	entreprise	entreprendre	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nsubj	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	en	en	ADP	_	ADP___	8	case	_	_
+7	espagne	espagne	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	ccomp	_	_
+8	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+9	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	8	nsubj	_	_
+10	est-il	est-il	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	nsubj	_	_
+11	différent	différent	ADV	_	ADV___	9	advmod	_	_
+12	de	de	ADP	_	ADP___	1	case	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+14	France	France	PROPN	_	PROPN__Gender=Fem|Number=Sing	17	obl	_	_
+15	ou	ou	CCONJ	_	CCONJ___	17	cc	_	_
+16	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	17	det	_	_
+17	règles	régler	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	conj	_	_
+18	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+19	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	21	det	_	_
+20	mêmes	même	ADJ	_	ADJ__Number=Plur	0	ROOT	_	_
+21	dans	dan	ADP	_	ADP___	17	case	_	_
+22	toute	tout	ADJ	_	ADJ__Gender=Fem|Number=Sing	23	amod	_	_
+23	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+24	UE	UE	PROPN	_	PROPN__Gender=Fem|Number=Sing	25	obl	_	_
+25	?	?	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Merci beaucoup
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	beaucoup	beaucoup	ADV	_	ADV___	1	amod	_	_
+
+

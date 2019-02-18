@@ -1,0 +1,108 @@
+#BonjourUn employeur
+1	BonjourUn	BonjourUn	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+2	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	amod	_	_
+
+
+#a-t-il le droit de demander au salarié d'avancer les frais de réparation (ou de franchise) lorsque celui ci utilise
+1	a	avoir		_	VERB	1	aux	_	_
+2	-t	t	PART	_	PART___	1	expl	_	_
+3	-il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	0	ROOT	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+6	de	de	ADP	_	ADP___	7	mark	_	_
+7	demander	demander	VERB	_	VERB__VerbForm=Inf	5	acl	_	_
+8	au	au	PRON	_	PRON__Number=Sing|Person=3	9	det	_	_
+9	salarié	salarier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	obj	_	_
+10	d'	de	ADP	_	ADP___	11	mark	_	_
+11	avancer	avancer	VERB	_	VERB__VerbForm=Inf	9	acl	_	_
+12	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	13	det	_	_
+13	frais	frai	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	obj	_	_
+14	de	de	ADP	_	ADP___	15	case	_	_
+15	réparation	réparation	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nmod	_	_
+16	(	(	PUNCT	_	PUNCT___	17	punct	_	_
+17	ou	ou	CCONJ	_	CCONJ___	15	cc	_	_
+18	de	de	ADP	_	ADP___	11	case	_	_
+19	franchise	franchise	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	conj	_	_
+20	)	)	PUNCT	_	PUNCT___	21	punct	_	_
+21	lorsque	lorsque	SCONJ	_	SCONJ___	11	case	_	_
+22	celui	celui	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Dem	11	nmod	_	_
+23	ci	ci	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Dem	24	case	_	_
+24	utilise	utiliser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+
+
+#un véhicule de location à titre professionnel ?
+1	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	véhicule	véhiculer	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	de	de	ADP	_	ADP___	5	case	_	_
+4	location	location	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+5	à	à	ADP	_	ADP___	5	case	_	_
+6	titre	titrer	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+7	professionnel	professionnel	ADJ	_	ADJ__Gender=Masc|Number=Sing	5	amod	_	_
+8	?	?	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Les véhicules sont réservés à notre nom (et payés par nous-même, puis remboursés par l'employeur) mais il existe des négociations tarifaires entre les loueurs et la société (sans qu'on puisse savoir si un contrat existe réellement)Il me semblait que non, mais je n'arrive pas à trouver de texte de loi certifiant celaEn vous remerciantCordialement
+1	Les	Les	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+2	véhicules	véhiculer	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	nsubj:pass	_	_
+3	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+4	réservés	réserver	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	à	à	ADP	_	ADP___	5	case	_	_
+6	notre	notre	DET	_	DET__Number=Sing|Poss=Yes	7	nmod:poss	_	_
+7	nom	nom	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+8	(	(	PUNCT	_	PUNCT___	9	punct	_	_
+9	et	et	CCONJ	_	CCONJ___	7	cc	_	_
+10	payés	payer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	conj	_	_
+11	par	par	ADP	_	ADP___	9	case	_	_
+12	nous-même	nous-même	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obl	_	_
+13	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+14	puis	pouvoir	CCONJ	_	CCONJ___	15	cc	_	_
+15	remboursés	rembourser	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	conj	_	_
+16	par	par	ADP	_	ADP___	17	case	_	_
+17	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+18	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obl	_	_
+19	)	)	PUNCT	_	PUNCT___	21	punct	_	_
+20	mais	mai	CCONJ	_	CCONJ___	21	cc	_	_
+21	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	11	nsubj	_	_
+22	existe	exister	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+23	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	24	det	_	_
+24	négociations	négociation	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	obj	_	_
+25	tarifaires	tarifaire	ADJ	_	ADJ__Number=Plur	26	amod	_	_
+26	entre	entrer	ADP	_	ADP___	5	case	_	_
+27	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	28	det	_	_
+28	loueurs	loueur	NOUN	_	NOUN__Gender=Masc|Number=Plur	28	nmod	_	_
+29	et	et	CCONJ	_	CCONJ___	30	cc	_	_
+30	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+31	société	société	NOUN	_	NOUN__Gender=Fem|Number=Sing	32	conj	_	_
+32	(	(	PUNCT	_	PUNCT___	30	punct	_	_
+33	sans	sans	ADP	_	ADP___	32	mark	_	_
+34	qu'	que	SCONJ	_	SCONJ___	28	fixed	_	_
+35	on	on	PRON	_	PRON__Number=Sing|Person=3	36	nsubj	_	_
+36	puisse	pouvoir	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	aux	_	_
+37	savoir	savoir	VERB	_	VERB__VerbForm=Inf	38	advcl	_	_
+38	si	si	SCONJ	_	SCONJ___	38	mark	_	_
+39	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+40	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	41	nsubj	_	_
+41	existe	exister	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	amod	_	_
+42	réellement)Il	réellement)Il	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	38	nsubj	_	_
+43	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	44	expl	_	_
+44	semblait	sembler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	38	ccomp	_	_
+45	que	que	ADV	_	ADV___	46	mark	_	_
+46	non	non	ADV	_	ADV___	44	ccomp	_	_
+47	,	,	PUNCT	_	PUNCT___	38	punct	_	_
+48	mais	mai	CCONJ	_	CCONJ___	49	cc	_	_
+49	je	il	PRON	_	PRON__Number=Sing|Person=1	38	nsubj	_	_
+50	n'	ne	ADV	_	ADV__Polarity=Neg	52	advmod	_	_
+51	arrive	arriver	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	52	conj	_	_
+52	pas	pas	ADV	_	ADV__Polarity=Neg	49	advmod	_	_
+53	à	à	ADP	_	ADP___	38	mark	_	_
+54	trouver	trouver	VERB	_	VERB__VerbForm=Inf	56	xcomp	_	_
+55	de	de	ADP	_	ADP___	56	case	_	_
+56	texte	texte	NOUN	_	NOUN__Gender=Masc|Number=Sing	38	obj	_	_
+57	de	de	ADP	_	ADP___	58	case	_	_
+58	loi	loi	NOUN	_	NOUN__Gender=Fem|Number=Sing	56	nmod	_	_
+59	certifiant	certifier	VERB	_	VERB__Tense=Pres|VerbForm=Part	58	acl	_	_
+60	celaEn	celaEn	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	62	obj	_	_
+61	vous	se	PRON	_	PRON__Number=Plur|Person=2	62	nsubj	_	_
+62	remerciantCordialement	remerciantCordialement	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	58	advmod	_	_
+
+

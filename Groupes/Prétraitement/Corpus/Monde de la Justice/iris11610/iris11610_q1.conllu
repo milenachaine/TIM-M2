@@ -1,0 +1,114 @@
+#Bonjour à tous et merci par avance.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	à	à	ADP	_	ADP___	3	case	_	_
+3	tous	tout	DET	_	DET__Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	1	obl	_	_
+4	et	et	CCONJ	_	CCONJ___	5	cc	_	_
+5	merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	conj	_	_
+6	par	par	ADP	_	ADP___	7	case	_	_
+7	avance	avancer	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+8	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#J'ai reçu un commandement de payer le 3 Avril pour un loyer plus une régularisation de charges locatives.
+1	J'	J'	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	reçu	recevoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	commandement	commandement	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obj	_	_
+6	de	de	ADP	_	ADP___	7	mark	_	_
+7	payer	payer	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+9	3	3	NUM	_	NUM__NumType=Card	11	nummod	_	_
+10	Avril	Avril	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+11	pour	pour	ADP	_	ADP___	11	case	_	_
+12	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	loyer	loyer	VERB	_	VERB__VerbForm=Inf	11	advcl	_	_
+14	plus	plaire	ADV	_	ADV___	15	advmod	_	_
+15	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+16	régularisation	régularisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	obj	_	_
+17	de	de	ADP	_	ADP___	18	case	_	_
+18	charges	charger	NOUN	_	NOUN__Gender=Fem|Number=Plur	15	nmod	_	_
+19	locatives	locatif	ADJ	_	ADJ__Gender=Fem|Number=Plur	21	amod	_	_
+20	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Or le loyer en question à été payé (un peu en retard) le 15 mars du mois précédant.
+1	Or	Or	CCONJ	_	CCONJ___	1	cc	_	_
+2	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	3	obj	_	_
+3	loyer	loyer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	en	en	ADP	_	ADP___	5	advmod	_	_
+5	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	fixed	_	_
+6	à	à	ADP	_	ADP___	7	mark	_	_
+7	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	5	aux:pass	_	_
+8	payé	payer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	xcomp	_	_
+9	(	(	PUNCT	_	PUNCT___	11	punct	_	_
+10	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	peu	peu	ADV	_	ADV___	11	nsubj	_	_
+12	en	en	ADP	_	ADP___	13	case	_	_
+13	retard	retard	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obl	_	_
+14	)	)	PUNCT	_	PUNCT___	15	punct	_	_
+15	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+16	15	15	NUM	_	NUM__NumType=Card	18	nummod	_	_
+17	mars	mars	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obl	_	_
+18	du	du	DET	_	DET__Gender=Masc|Number=Sing	15	det	_	_
+19	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	21	obj	_	_
+20	précédant	précéder	VERB	_	VERB__Tense=Pres|VerbForm=Part	21	acl	_	_
+21	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Reste la régularisation pour charges pas encore payée car la bailleresse réclame 6 ans d’arriéré...
+1	Reste	Reste	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	case	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	régularisation	régularisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	pour	pour	ADP	_	ADP___	5	case	_	_
+5	charges	charger	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nmod	_	_
+6	pas	pas	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+7	encore	encore	ADV	_	ADV___	5	fixed	_	_
+8	payée	payer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+9	car	car	CCONJ	_	CCONJ___	11	cc	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	bailleresse	bailleur	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nsubj	_	_
+12	réclame	réclamer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+13	6	6	NUM	_	NUM__NumType=Card	11	nummod	_	_
+14	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	obj	_	_
+15	d’	d’	PUNCT	_	PUNCT___	11	advcl	_	_
+16	arriéré	arriérer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	xcomp	_	_
+17	...	...	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Le commandement de payé est-il caduque ou dois-je demander à un avocat ?
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	commandement	commandement	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+3	de	de	ADP	_	ADP___	1	case	_	_
+4	payé	payer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	amod	_	_
+5	est-il	est-il	VERB	_	VERB__VerbForm=Inf	3	nmod	_	_
+6	caduque	caduc	ADJ	_	ADJ__Number=Sing	7	acl	_	_
+7	ou	ou	CCONJ	_	CCONJ___	5	cc	_	_
+8	dois	devoir	NUM	_	NUM__NumType=Card	1	conj	_	_
+9	-	-	PUNCT	_	PUNCT___	11	punct	_	_
+10	je	il	PRON	_	PRON__Number=Sing|Person=1	11	nsubj	_	_
+11	demander	demander	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+12	à	à	ADP	_	ADP___	13	case	_	_
+13	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+14	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obl	_	_
+15	?	?	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Merci encoreEdit: je ne sais pas si je suis dans la bonne section ?
+1	Merci	Merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+2	encoreEdit	encoreEdit	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	acl	_	_
+3	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+4	je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+5	ne	ne	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+6	sais	savoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	pas	pas	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+8	si	si	SCONJ	_	SCONJ___	1	mark	_	_
+9	je	il	PRON	_	PRON__Number=Sing|Person=1	11	nsubj	_	_
+10	suis	suivre	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	dans	dan	ADP	_	ADP___	11	case	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	bonne	bon	ADJ	_	ADJ__Gender=Fem|Number=Sing	11	amod	_	_
+14	section	section	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obj	_	_
+15	?	?	PUNCT	_	PUNCT___	11	punct	_	_
+
+

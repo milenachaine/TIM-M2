@@ -1,0 +1,150 @@
+#Bonjour,Quel âge avez vous ?
+1	Bonjour	Bonjour	PROPN	_	PROPN___	4	case	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	Quel	Quel	DET	_	DET__Gender=Masc|Number=Sing	4	det	_	_
+4	âge	âge	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	vous	se	PRON	_	PRON__Number=Plur|Person=2	4	nmod	_	_
+7	?	?	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Etiez
+1	Etiez	Etiez	X	_	X___	0	ROOT	_	_
+
+
+#vous déjà en invalidité catégorie 2 lors de votre mariage ?
+1	vous	se	PRON	_	PRON__Number=Plur|Person=2	4	nsubj	_	_
+2	déjà	déjà	ADV	_	ADV___	4	advmod	_	_
+3	en	en	ADP	_	ADP___	4	case	_	_
+4	invalidité	invalidité	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+5	catégorie	catégorie	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	case	_	_
+6	2	2	NUM	_	NUM__NumType=Card	4	nummod	_	_
+7	lors	lors	ADV	_	ADV___	4	fixed	_	_
+8	de	de	ADP	_	ADP___	8	case	_	_
+9	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	12	nmod:poss	_	_
+10	mariage	mariage	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nmod	_	_
+11	?	?	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Quel était votre métier avant votre invalidité ?
+1	Quel	Quel	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+3	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+4	métier	métier	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+5	avant	avant	ADP	_	ADP___	6	case	_	_
+6	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+7	invalidité	invalidité	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obl	_	_
+8	?	?	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Doit-on comprendre que vos parents vous ont fait, de leur vivant, donation (avec votre sœur) de la nue propriété des biens dont votre mère (seule) est usufruitière ?
+1	Doit	Doit	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	-	-	PUNCT	_	PUNCT___	4	punct	_	_
+3	on	on	PRON	_	PRON__Number=Sing|Person=3	4	nsubj	_	_
+4	comprendre	comprendre	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	que	que	SCONJ	_	SCONJ___	6	mark	_	_
+6	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	4	nmod:poss	_	_
+7	parents	parent	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	nsubj	_	_
+8	vous	se	PRON	_	PRON__Number=Plur|Person=2	8	obj	_	_
+9	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+10	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	ccomp	_	_
+11	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+12	de	de	ADP	_	ADP___	12	case	_	_
+13	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	14	nmod:poss	_	_
+14	vivant	vivre	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obl	_	_
+15	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+16	donation	donation	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	nsubj	_	_
+17	(	(	PUNCT	_	PUNCT___	18	punct	_	_
+18	avec	avec	ADP	_	ADP___	14	case	_	_
+19	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	12	nmod:poss	_	_
+20	sœur	sœur	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	nmod	_	_
+21	)	)	PUNCT	_	PUNCT___	20	punct	_	_
+22	de	de	ADP	_	ADP___	23	case	_	_
+23	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+24	nue	nu	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	nmod	_	_
+25	propriété	propriété	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	conj	_	_
+26	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	20	det	_	_
+27	biens	bien	NOUN	_	NOUN__Gender=Masc|Number=Plur	20	obj	_	_
+28	dont	dont	PRON	_	PRON__PronType=Rel	31	dep	_	_
+29	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	31	nmod:poss	_	_
+30	mère	mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	acl:relcl	_	_
+31	(	(	PUNCT	_	PUNCT___	31	punct	_	_
+32	seule	seul	ADJ	_	ADJ__Gender=Fem|Number=Sing	37	amod	_	_
+33	)	)	PUNCT	_	PUNCT___	34	punct	_	_
+34	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	cop	_	_
+35	usufruitière	usufruitier	ADJ	_	ADJ__Gender=Fem|Number=Sing	37	ccomp	_	_
+36	?	?	PUNCT	_	PUNCT___	37	punct	_	_
+
+
+#Cela veut-il dire que votre père occupe gratuitement la résidence secondaire ?
+1	Cela	Cela	PRON	_	PRON__Number=Sing|PronType=Dem	4	nsubj	_	_
+2	veut	vouloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	-	-	PUNCT	_	PUNCT___	4	punct	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+5	dire	dire	VERB	_	VERB__VerbForm=Inf	6	parataxis	_	_
+6	que	que	SCONJ	_	SCONJ___	4	mark	_	_
+7	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+8	père	père	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nsubj	_	_
+9	occupe	occuper	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	ccomp	_	_
+10	gratuitement	gratuitement	ADV	_	ADV___	12	advmod	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	résidence	résidence	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obj	_	_
+13	secondaire	secondaire	ADJ	_	ADJ__Number=Sing	14	amod	_	_
+14	?	?	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#L'estimation de 390 000 € représente-t-elle la valeur de la nue propriété totale ou de votre part de nue propriété ?
+1	L'	L'	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+2	estimation	estimation	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nsubj	_	_
+3	de	de	ADP	_	ADP___	4	case	_	_
+4	390	390	NUM	_	NUM__NumType=Card	4	nummod	_	_
+5	000	000	NUM	_	NUM__NumType=Card	6	nummod	_	_
+6	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	nmod	_	_
+7	représente	représenter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	-	-	PUNCT	_	PUNCT___	8	punct	_	_
+9	t	t	NOUN	_	NOUN__Gender=Fem|Number=Plur	12	obl	_	_
+10	-	-	PUNCT	_	PUNCT___	12	fixed	_	_
+11	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	12	punct	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+13	valeur	valeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nsubj	_	_
+14	de	de	ADP	_	ADP___	12	case	_	_
+15	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+16	nue	nu	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	amod	_	_
+17	propriété	propriété	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	nmod	_	_
+18	totale	total	ADJ	_	ADJ__Gender=Fem|Number=Sing	14	amod	_	_
+19	ou	ou	CCONJ	_	CCONJ___	12	cc	_	_
+20	de	de	ADP	_	ADP___	20	case	_	_
+21	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	20	nmod:poss	_	_
+22	part	partir	NOUN	_	NOUN__Number=Sing	23	conj	_	_
+23	de	de	ADP	_	ADP___	20	case	_	_
+24	nue	nu	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	det	_	_
+25	propriété	propriété	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	nmod	_	_
+26	?	?	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Lors du divorce, qu'a-t-il été décidé concernant le bien immobilier acheté en indivision avant votre mariage ?
+1	Lors	Lors	ADV	_	ADV___	4	case	_	_
+2	du	du	DET	_	DET__Gender=Masc|Number=Sing	4	det	_	_
+3	divorce	divorcer	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+4	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+5	qu'	que	PRON	_	PRON__PronType=Rel	6	mark	_	_
+6	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	punct	_	_
+7	-	-	PUNCT	_	PUNCT___	4	punct	_	_
+8	t	t	NOUN	_	NOUN__Gender=Fem|Number=Plur	8	fixed	_	_
+9	-	-	PUNCT	_	PUNCT___	12	punct	_	_
+10	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	12	nsubj:pass	_	_
+11	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	12	aux:pass	_	_
+12	décidé	décider	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+13	concernant	concerner	VERB	_	VERB__Tense=Pres|VerbForm=Part	14	xcomp	_	_
+14	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+15	bien	bien	ADV	_	ADV___	14	advmod	_	_
+16	immobilier	immobilier	AUX	_	AUX__VerbForm=Inf	18	obj	_	_
+17	acheté	acheter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	acl	_	_
+18	en	en	ADP	_	ADP___	14	case	_	_
+19	indivision	indivision	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obl	_	_
+20	avant	avant	ADP	_	ADP___	20	case	_	_
+21	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	20	nmod:poss	_	_
+22	mariage	mariage	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	obl	_	_
+23	?	?	PUNCT	_	PUNCT___	20	punct	_	_
+
+

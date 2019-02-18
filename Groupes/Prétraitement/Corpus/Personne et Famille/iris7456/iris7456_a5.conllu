@@ -1,0 +1,87 @@
+#Bonjour.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Votre grand--père  a bien maitrisé son sujet.
+1	Votre	Votre	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	grand	grand	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	amod	_	_
+3	--	--	PUNCT	_	PUNCT___	10	punct	_	_
+4	père	père	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nsubj	_	_
+5	 	 	SPACE	_		10		_	_
+6	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+7	bien	bien	ADV	_	ADV___	6	advmod	_	_
+8	maitrisé	maitrisé	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+9	son	son	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+10	sujet	sujet	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+11	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#je pense qu'il faut respecter ses choix.
+1	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	pense	penser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	qu'	que	SCONJ	_	SCONJ___	10	mark	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
+5	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+6	respecter	respecter	VERB	_	VERB__VerbForm=Inf	10	xcomp	_	_
+7	ses	son	DET	_	DET__Number=Plur|Poss=Yes	6	nmod:poss	_	_
+8	choix	choix	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	obj	_	_
+9	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Je pense que la donation sarkosy ne pose aucun problème.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	pense	penser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	que	que	SCONJ	_	SCONJ___	10	mark	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+5	donation	donation	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nsubj	_	_
+6	sarkosy	sarkosy	VERB	_	VERB__VerbForm=Inf	10	amod	_	_
+7	ne	ne	ADV	_	ADV___	6	advmod	_	_
+8	pose	poser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+9	aucun	aucun	DET	_	DET__Gender=Masc|Number=Sing	10	det	_	_
+10	problème	problème	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+11	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Vous devez accepter le bénéfice de l'assurance vie.
+1	Vous	Vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+2	devez	devoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	accepter	accepter	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+5	bénéfice	bénéfice	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+6	de	de	ADP	_	ADP___	10	case	_	_
+7	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+8	assurance	assurance	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+9	vie	vie	ADJ	_	ADJ__Gender=Fem|Number=Sing	10	nmod	_	_
+10	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Pour expliquer les branches : une famille avec 3 enfants , ça fait 3 branches futures.
+1	Pour	Pour	ADP	_	ADP___	1	mark	_	_
+2	expliquer	expliquer	VERB	_	VERB__VerbForm=Inf	1	advcl	_	_
+3	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	10	det	_	_
+4	branches	brancher	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	obj	_	_
+5	:	:	PUNCT	_	PUNCT___	10	punct	_	_
+6	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+7	famille	famille	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nsubj	_	_
+8	avec	avec	ADP	_	ADP___	10	case	_	_
+9	3	3	NUM	_	NUM__NumType=Card	10	nummod	_	_
+10	enfants	enfant	NOUN	_	NOUN__Number=Plur	10	nmod	_	_
+11	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+12	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	nsubj	_	_
+13	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+14	3	3	NUM	_	NUM__NumType=Card	15	nummod	_	_
+15	branches	brancher	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	obj	_	_
+16	futures	futur	NOUN	_	NOUN__Gender=Fem|Number=Plur	18	amod	_	_
+17	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#En espérant vous avoir aidéSalutations.
+1	En	En	ADP	_	ADP___	1	mark	_	_
+2	espérant	espérer	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	aux	_	_
+3	vous	se	PRON	_	PRON__Number=Plur|Person=2	10	nsubj	_	_
+4	avoir	avoir	AUX	_	AUX__VerbForm=Inf	0	ROOT	_	_
+5	aidéSalutations	aidéSalutations	NOUN	_	NOUN__Gender=Fem|Number=Plur	10	obj	_	_
+6	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+

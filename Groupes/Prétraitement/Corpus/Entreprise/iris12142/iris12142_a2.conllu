@@ -1,0 +1,95 @@
+#Règle d'or numéro 1 : ne jamais faire confiance.
+1	Règle	Règle	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	d'	de	ADP	_	ADP___	3	case	_	_
+3	or	or	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+4	numéro	numéro	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	nmod	_	_
+5	1	1	NUM	_	NUM__NumType=Card	4	nummod	_	_
+6	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+7	ne	ne	ADV	_	ADV___	8	advmod	_	_
+8	jamais	jamais	ADV	_	ADV___	9	aux	_	_
+9	faire	faire	VERB	_	VERB__VerbForm=Inf	1	parataxis	_	_
+10	confiance	confiance	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obj	_	_
+11	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Règle d'or numéro 2 : tout doit être acté par écrit, on fait ensuite, et pas le contraire.
+1	Règle	Règle	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	advmod	_	_
+2	d'	de	ADP	_	ADP___	3	case	_	_
+3	or	or	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+4	numéro	numéro	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	nmod	_	_
+5	2	2	NUM	_	NUM__NumType=Card	4	nummod	_	_
+6	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+7	tout	tout	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	8	advmod	_	_
+8	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+9	être	être	AUX	_	AUX__VerbForm=Inf	1	aux:pass	_	_
+10	acté	acté	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	xcomp	_	_
+11	par	par	ADP	_	ADP___	1	case	_	_
+12	écrit	écrire	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obl	_	_
+13	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+14	on	on	PRON	_	PRON__Number=Sing|Person=3	12	nsubj	_	_
+15	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+16	ensuite	ensuite	ADV	_	ADV___	15	advmod	_	_
+17	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+18	et	et	CCONJ	_	CCONJ___	19	cc	_	_
+19	pas	pas	ADV	_	ADV__Polarity=Neg	26	advmod	_	_
+20	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	contraire	contraire	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	conj	_	_
+22	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Les paroles s'envolent, seuls les écrits restent.
+1	Les	Les	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+2	paroles	parole	NOUN	_	NOUN__Number=Plur	3	nsubj	_	_
+3	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	1	expl	_	_
+4	envolent	envoler	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+6	seuls	seul	ADJ	_	ADJ__Gender=Masc|Number=Plur	1	amod	_	_
+7	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+8	écrits	écrit	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	acl	_	_
+9	restent	ruer	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	advmod	_	_
+10	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Règle d'or numéro 3 : ne jamais violer les deux premières règles.
+1	Règle	Règle	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	d'	de	ADP	_	ADP___	3	case	_	_
+3	or	or	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+4	numéro	numéro	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	nmod	_	_
+5	3	3	NUM	_	NUM__NumType=Card	4	nummod	_	_
+6	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+7	ne	ne	ADV	_	ADV___	8	advmod	_	_
+8	jamais	jamais	ADV	_	ADV___	9	fixed	_	_
+9	violer	violer	VERB	_	VERB__VerbForm=Inf	1	xcomp	_	_
+10	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+11	deux	deux	NUM	_	NUM__NumType=Card	1	nummod	_	_
+12	premières	premier	NOUN	_	NOUN__Gender=Fem|Number=Plur	19	amod	_	_
+13	règles	régler	NOUN	_	NOUN__Gender=Fem|Number=Plur	14	obj	_	_
+14	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Mais bon, tout n'est pas perdu, vous avez des atouts dans votre manche, il ne faudrait pas tarder.
+1	Mais	Mais	CCONJ	_	CCONJ___	1	cc	_	_
+2	bon	bon	ADJ	_	ADJ__Gender=Masc|Number=Sing	3	advcl	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	tout	tout	ADV	_	ADV___	1	advmod	_	_
+5	n'	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+6	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+7	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+8	perdu	perdre	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	obj	_	_
+9	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+10	vous	se	PRON	_	PRON__Number=Plur|Person=2	9	nsubj	_	_
+11	avez	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+12	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	19	det	_	_
+13	atouts	atout	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	obj	_	_
+14	dans	dan	ADP	_	ADP___	12	case	_	_
+15	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	12	nmod:poss	_	_
+16	manche	manche	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	nmod	_	_
+17	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+18	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	19	nsubj	_	_
+19	ne	ne	ADV	_	ADV__Polarity=Neg	26	advmod	_	_
+20	faudrait	falloir	VERB	_	VERB__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+21	pas	pas	ADV	_	ADV__Polarity=Neg	19	advmod	_	_
+22	tarder	tarder	VERB	_	VERB__VerbForm=Inf	23	xcomp	_	_
+23	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+

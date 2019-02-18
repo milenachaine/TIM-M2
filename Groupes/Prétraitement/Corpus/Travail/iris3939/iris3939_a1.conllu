@@ -1,0 +1,66 @@
+#Bonjour,Accident du travail, sur le lieu du travail, en présence de témoin ?
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	Accident	Accident	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	conj	_	_
+4	du	du	DET	_	DET__Gender=Masc|Number=Sing	5	det	_	_
+5	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+6	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+7	sur	sur	ADP	_	ADP___	9	case	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	lieu	lieu	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+10	du	du	DET	_	DET__Gender=Masc|Number=Sing	11	det	_	_
+11	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nmod	_	_
+12	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+13	en	en	ADP	_	ADP___	16	case	_	_
+14	présence	présence	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	fixed	_	_
+15	de	de	ADP	_	ADP___	13	fixed	_	_
+16	témoin	témoin	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	conj	_	_
+17	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+18	  	  	SPACE	_	_SP	17		_	_
+
+
+#combien de jour d'arrêt ?
+1	combien	combien	ADV	_	ADV__PronType=Int	1	advmod	_	_
+2	de	de	ADP	_	ADP___	3	case	_	_
+3	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	d'	de	ADP	_	ADP___	5	case	_	_
+5	arrêt	arrêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+6	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Pour l'accident de travail, l'indemnisation ne dépend pas de l'entreprise mais de la sécurité sociale.cet accident de travail a t-il été déclaré et accepté par la sécurité sociale ?
+1	Pour	Pour	ADP	_	ADP___	1	case	_	_
+2	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	accident	accident	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+4	de	de	ADP	_	ADP___	5	case	_	_
+5	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+6	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+7	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+8	indemnisation	indemnisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nsubj	_	_
+9	ne	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+10	dépend	dépendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+11	pas	pas	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+12	de	de	ADP	_	ADP___	16	case	_	_
+13	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+14	entreprise	entreprendre	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obl	_	_
+15	mais	mai	CCONJ	_	CCONJ___	13	cc	_	_
+16	de	de	ADP	_	ADP___	9	case	_	_
+17	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+18	sécurité	sécurité	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	conj	_	_
+19	sociale.cet	sociale.cet	ADP	_	ADP___	21	amod	_	_
+20	accident	accident	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obl	_	_
+21	de	de	ADP	_	ADP___	21	case	_	_
+22	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	nmod	_	_
+23	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+24	t-il	t-il	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	aux	_	_
+25	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	27	aux:pass	_	_
+26	déclaré	déclarer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	27	punct	_	_
+27	et	et	CCONJ	_	CCONJ___	34	cc	_	_
+28	accepté	accepter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	conj	_	_
+29	par	par	ADP	_	ADP___	27	case	_	_
+30	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+31	sécurité	sécurité	NOUN	_	NOUN__Gender=Fem|Number=Sing	32	obl	_	_
+32	sociale	social	ADJ	_	ADJ__Gender=Fem|Number=Sing	34	amod	_	_
+33	?	?	PUNCT	_	PUNCT___	34	punct	_	_
+
+

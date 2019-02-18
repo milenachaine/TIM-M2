@@ -1,0 +1,77 @@
+#Bonjour,Avez vous une trace de cet arrangement ?
+1	Bonjour	Bonjour	PROPN	_	PROPN___	6	case	_	_
+2	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+3	Avez	Avez	PROPN	_	PROPN__Gender=Masc|Number=Sing	6	cc	_	_
+4	vous	se	PRON	_	PRON__Number=Plur|Person=2	6	iobj	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	trace	tracer	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+7	de	de	ADP	_	ADP___	9	case	_	_
+8	cet	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+9	arrangement	arrangement	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nmod	_	_
+10	?	?	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#(sms, mail, courrier, ...)Avez vous du payer quelque chose ?
+1	(	(	PUNCT	_	PUNCT___	6	punct	_	_
+2	sms	sms	NOUN	_	NOUN___	6	obl	_	_
+3	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+4	mail	mail	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	conj	_	_
+5	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+6	courrier	courrier	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	conj	_	_
+7	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+8	...	...	PUNCT	_	PUNCT___	9	conj	_	_
+9	)	)	PUNCT	_	PUNCT___	6	punct	_	_
+10	Avez	Avez	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	aux	_	_
+11	vous	se	PRON	_	PRON__Number=Plur|Person=2	12	iobj	_	_
+12	du	du	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	obj	_	_
+13	payer	payer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+14	quelque	quelque	DET	_	DET__Number=Sing	12	obj	_	_
+15	chose	chose	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	fixed	_	_
+16	?	?	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Si oui, sous quelle forme ?
+1	Si	Si	SCONJ	_	SCONJ___	6	mark	_	_
+2	oui	oui	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+4	sous	sou	ADP	_	ADP___	6	case	_	_
+5	quelle	quel	DET	_	DET__Gender=Fem|Number=Sing|PronType=Int	6	det	_	_
+6	forme	former	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	conj	_	_
+7	?	?	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Je doute fortement que cette réparation ait été entrée dans la comptabilité de l'époque...
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+2	doute	douter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	fortement	fortement	ADV	_	ADV___	6	advmod	_	_
+4	que	que	SCONJ	_	SCONJ___	6	mark	_	_
+5	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	réparation	réparation	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+7	ait	avoir	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	9	aux:pass	_	_
+9	entrée	entrer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	ccomp	_	_
+10	dans	dan	ADP	_	ADP___	6	case	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	comptabilité	comptabilité	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obl	_	_
+13	de	de	ADP	_	ADP___	14	case	_	_
+14	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+15	époque	époque	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nmod	_	_
+16	...	...	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Je crains donc que vous ayez des moyens de pression assez limités.
+1	Je	Je	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+2	crains	craindre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	donc	donc	ADV	_	ADV___	6	advmod	_	_
+4	que	que	SCONJ	_	SCONJ___	6	mark	_	_
+5	vous	se	PRON	_	PRON__Number=Plur|Person=2	6	nsubj	_	_
+6	ayez	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+7	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	9	det	_	_
+8	moyens	moyen	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	obj	_	_
+9	de	de	ADP	_	ADP___	6	case	_	_
+10	pression	pression	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+11	assez	assez	ADV	_	ADV___	12	advmod	_	_
+12	limités	limiter	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	20	amod	_	_
+13	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+

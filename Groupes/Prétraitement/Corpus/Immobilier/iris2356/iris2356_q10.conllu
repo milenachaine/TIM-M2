@@ -1,0 +1,165 @@
+#Bonsoir, Voici en PJ un plan schématisé de la cour du 113;
+1	Bonsoir	Bonsoir	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	Voici	Voici	VERB	_	VERB__Mood=Ind|VerbForm=Fin	1	conj	_	_
+4	en	en	ADP	_	ADP___	5	case	_	_
+5	PJ	PJ	PROPN	_	PROPN___	3	obl	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	plan	plan	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+8	schématisé	schématiser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+9	de	de	ADP	_	ADP___	11	case	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	cour	cour	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+12	du	du	DET	_	DET__Gender=Masc|Number=Sing	13	case	_	_
+13	113	113	NUM	_	NUM__NumType=Card	11	nmod	_	_
+14	;	;	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#nos 3 poubelles sont actuellement entre les points A et B c'est à dire devant 2 des fenêtres de RDC du 111 (cuisine et chambre);
+1	nos	notre	DET	_	DET__Number=Plur|Poss=Yes	1	nmod:poss	_	_
+2	3	3	NUM	_	NUM__NumType=Card	3	nummod	_	_
+3	poubelles	poubelle	NOUN	_	NOUN__Number=Plur	1	nsubj	_	_
+4	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	actuellement	actuellement	ADV	_	ADV___	3	advmod	_	_
+6	entre	entrer	ADP	_	ADP___	7	case	_	_
+7	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+8	points	point	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	obl	_	_
+9	A	A	NOUN	_	NOUN___	11	nmod	_	_
+10	et	et	CCONJ	_	CCONJ___	11	cc	_	_
+11	B	B	NOUN	_	NOUN___	8	conj	_	_
+12	c'	ce	PRON	_	PRON__Number=Sing|Person=3	13	nsubj	_	_
+13	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+14	à	à	ADP	_	ADP___	1	mark	_	_
+15	dire	dire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+16	devant	devoir	ADP	_	ADP___	17	case	_	_
+17	2	2	NUM	_	NUM__NumType=Card	22	nummod	_	_
+18	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	22	det	_	_
+19	fenêtres	fenêtre	NOUN	_	NOUN__Gender=Fem|Number=Plur	22	obl	_	_
+20	de	de	ADP	_	ADP___	22	case	_	_
+21	RDC	RDC	PROPN	_	PROPN___	22	nmod	_	_
+22	du	du	DET	_	DET__Gender=Masc|Number=Sing	29	det	_	_
+23	111	111	PRON	_	PRON__NumType=Card|PronType=Rel	22	nummod	_	_
+24	(	(	PUNCT	_	PUNCT___	25	punct	_	_
+25	cuisine	cuisiner	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	appos	_	_
+26	et	et	CCONJ	_	CCONJ___	29	cc	_	_
+27	chambre	chambrer	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	conj	_	_
+28	)	)	PUNCT	_	PUNCT___	29	punct	_	_
+29	;	;	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#Les poubelles de Mme C sont juste à droite de la porte du 111 (à droite du point C) si on décale ses poubelles de 2.5 ou 3 m sur la droite ça nous permet de de mettre les nôtres à droite du point C (sans gêner Mme X qui est + loin sur la droite, mon schéma est faux sur ce point) .
+1	Les	Les	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+2	poubelles	poubelle	NOUN	_	NOUN__Gender=Fem|Number=Plur	3	nsubj	_	_
+3	de	de	ADP	_	ADP___	1	case	_	_
+4	Mme	Mme	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+5	C	C	NOUN	_	NOUN___	3	flat:name	_	_
+6	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	juste	juste	ADV	_	ADV___	0	ROOT	_	_
+8	à	à	ADP	_	ADP___	7	case	_	_
+9	droite	droit	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obl	_	_
+10	de	de	ADP	_	ADP___	11	case	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	obj	_	_
+12	porte	porter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	nmod	_	_
+13	du	du	DET	_	DET__Gender=Masc|Number=Sing	11	det	_	_
+14	111	111	NUM	_	NUM__NumType=Card	1	nummod	_	_
+15	(	(	PUNCT	_	PUNCT___	17	punct	_	_
+16	à	à	ADP	_	ADP___	17	case	_	_
+17	droite	droit	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	obl	_	_
+18	du	du	DET	_	DET__Gender=Masc|Number=Sing	22	det	_	_
+19	point	poindre	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	nmod	_	_
+20	C	C	NOUN	_	NOUN___	22	nmod	_	_
+21	)	)	PUNCT	_	PUNCT___	22	punct	_	_
+22	si	si	SCONJ	_	SCONJ___	29	mark	_	_
+23	on	on	PRON	_	PRON__Number=Sing|Person=3	22	nsubj	_	_
+24	décale	décaler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	advcl	_	_
+25	ses	son	DET	_	DET__Number=Plur|Poss=Yes	23	nmod:poss	_	_
+26	poubelles	poubelle	NOUN	_	NOUN__Gender=Fem|Number=Plur	29	obj	_	_
+27	de	de	ADP	_	ADP___	29	case	_	_
+28	2.5	2.5	NUM	_	NUM__NumType=Card	29	nummod	_	_
+29	ou	ou	CCONJ	_	CCONJ___	29	cc	_	_
+30	3	3	NUM	_	NUM__NumType=Card	33	conj	_	_
+31	m	m	NOUN	_	NOUN__Gender=Masc	33	nmod	_	_
+32	sur	sur	ADP	_	ADP___	33	case	_	_
+33	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+34	droite	droit	NOUN	_	NOUN__Gender=Fem|Number=Sing	35	nmod	_	_
+35	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	33	nsubj	_	_
+36	nous	se	PRON	_	PRON__Number=Plur|Person=1	37	iobj	_	_
+37	permet	permettre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	acl:relcl	_	_
+38	de	de	ADP	_	ADP___	37	mark	_	_
+39	de	de	ADP	_	ADP___	33	mark	_	_
+40	mettre	mettre	VERB	_	VERB__VerbForm=Inf	41	xcomp	_	_
+41	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	39	det	_	_
+42	nôtres	nôtre	PRON	_	PRON__PronType=Rel	29	obj	_	_
+43	à	à	ADP	_	ADP___	29	case	_	_
+44	droite	droit	NOUN	_	NOUN__Gender=Fem|Number=Sing	45	obl	_	_
+45	du	du	DET	_	DET__Gender=Masc|Number=Sing	50	det	_	_
+46	point	poindre	NOUN	_	NOUN__Gender=Masc|Number=Sing	47	obj	_	_
+47	C	C	NOUN	_	NOUN___	45	nmod	_	_
+48	(	(	PUNCT	_	PUNCT___	47	punct	_	_
+49	sans	sans	ADP	_	ADP___	50	mark	_	_
+50	gêner	gêner	VERB	_	VERB__VerbForm=Inf	50	advcl	_	_
+51	Mme	Mme	NOUN	_	NOUN__Gender=Fem|Number=Sing	52	obj	_	_
+52	X	X	NOUN	_	NOUN___	50	flat:name	_	_
+53	qui	qui	PRON	_	PRON__PronType=Rel	55	nsubj	_	_
+54	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	55	cop	_	_
+55	+	+	ADP	_	ADP___	52	advmod	_	_
+56	loin	loin	ADV	_	ADV___	57	fixed	_	_
+57	sur	sur	ADP	_	ADP___	55	case	_	_
+58	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
+59	droite	droit	NOUN	_	NOUN__Gender=Fem|Number=Sing	60	obj	_	_
+60	,	,	PUNCT	_	PUNCT___	50	punct	_	_
+61	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	62	nmod:poss	_	_
+62	schéma	schéma	NOUN	_	NOUN__Number=Sing	60	nsubj	_	_
+63	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	62	cop	_	_
+64	faux	faillir	ADJ	_	ADJ__Gender=Masc	50	conj	_	_
+65	sur	sur	ADP	_	ADP___	67	case	_	_
+66	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	67	det	_	_
+67	point	poindre	NOUN	_	NOUN__Gender=Masc|Number=Sing	50	obl	_	_
+68	)	)	PUNCT	_	PUNCT___	69	punct	_	_
+69	.	.	PUNCT	_	PUNCT___	67	punct	_	_
+
+
+#Le mur qui va de C à D n'a ni pote, ni fenêtre, ni au RDC ni au étages.
+1	Le	Le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	mur	mur	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+3	qui	qui	PRON	_	PRON__PronType=Rel	1	nsubj	_	_
+4	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+5	de	de	ADP	_	ADP___	3	case	_	_
+6	C	C	NOUN	_	NOUN___	7	obl	_	_
+7	à	à	ADP	_	ADP___	5	case	_	_
+8	D	D	NOUN	_	NOUN___	7	obl	_	_
+9	n'	ne	ADV	_	ADV___	11	advmod	_	_
+10	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+11	ni	ni	CCONJ	_	CCONJ___	8	cc	_	_
+12	pote	pote	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	conj	_	_
+13	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+14	ni	ni	CCONJ	_	CCONJ___	1	cc	_	_
+15	fenêtre	fenêtre	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	conj	_	_
+16	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+17	ni	ni	CCONJ	_	CCONJ___	22	cc	_	_
+18	au	au	AUX	_	AUX__Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	conj	_	_
+19	RDC	RDC	PROPN	_	PROPN___	22	nmod	_	_
+20	ni	ni	CCONJ	_	CCONJ___	22	cc	_	_
+21	au	au	PRON	_	PRON__Person=3	22	iobj	_	_
+22	étages	étager	ADJ	_	ADJ__Number=Plur	29	conj	_	_
+23	.	.	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#Ce mur de 12 m de long appartient à l'mmeuble voisin au 109.
+1	Ce	Ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	1	det	_	_
+2	mur	mur	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	de	de	ADP	_	ADP___	1	case	_	_
+4	12	12	NUM	_	NUM__NumType=Card	5	nummod	_	_
+5	m	m	NOUN	_	NOUN__Gender=Masc	3	nmod	_	_
+6	de	de	ADP	_	ADP___	7	case	_	_
+7	long	long	ADJ	_	ADJ__Gender=Masc|Number=Sing	5	fixed	_	_
+8	appartient	appartenir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	nmod	_	_
+9	à	à	ADP	_	ADP___	11	case	_	_
+10	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	mmeuble	mmeuble	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+12	voisin	voisin	ADJ	_	ADJ__Gender=Masc|Number=Sing	13	amod	_	_
+13	au	au	NOUN	_	NOUN___	11	fixed	_	_
+14	109	109	NUM	_	NUM__NumType=Card	1	amod	_	_
+15	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+

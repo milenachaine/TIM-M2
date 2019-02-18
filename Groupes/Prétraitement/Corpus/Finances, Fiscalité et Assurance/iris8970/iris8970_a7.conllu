@@ -1,0 +1,102 @@
+#Pour le vocabulaire : "héritier", pas "héréditier".Les héritiers de votre tante sont :
+1	Pour	Pour	ADP	_	ADP___	3	case	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	vocabulaire	vocabulaire	NOUN	_	NOUN__Number=Sing	16	obl	_	_
+4	:	:	PUNCT	_	PUNCT___	3	punct	_	_
+5	"	"	PUNCT	_	PUNCT___	6	punct	_	_
+6	héritier	héritier	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	appos	_	_
+7	"	"	PUNCT	_	PUNCT___	6	punct	_	_
+8	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+9	pas	pas	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+10	"	"	PUNCT	_	PUNCT___	12	punct	_	_
+11	héréditier".Les	héréditier".Les	PUNCT	_	PUNCT___	12	amod	_	_
+12	héritiers	héritier	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	nsubj	_	_
+13	de	de	ADP	_	ADP___	15	case	_	_
+14	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	15	nmod:poss	_	_
+15	tante	tante	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+16	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+17	:	:	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#- son conjoint survivant si elle était marié- sa descendance si elle en avait.
+1	-	-	PUNCT	_	PUNCT___	3	punct	_	_
+2	son	son	DET	_	DET__Number=Sing|Poss=Yes	3	nmod:poss	_	_
+3	conjoint	conjoindre	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	survivant	survivre	VERB	_	VERB__Tense=Pres|VerbForm=Part	3	acl	_	_
+5	si	si	SCONJ	_	SCONJ___	6	mark	_	_
+6	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
+7	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+8	marié-	marié-	ADP	_	ADP___	12	ccomp	_	_
+9	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	12	nmod:poss	_	_
+10	descendance	descendance	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obj	_	_
+11	si	si	SCONJ	_	SCONJ___	12	mark	_	_
+12	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	16	nsubj	_	_
+13	en	en	PRON	_	PRON__Person=3	15	expl	_	_
+14	avait	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	advcl	_	_
+15	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Si elle n'était ni mariée ni avec descendance, les héritiers suivant sont :
+1	Si	Si	SCONJ	_	SCONJ___	3	mark	_	_
+2	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	3	nsubj:pass	_	_
+3	n'	ne	ADV	_	ADV__Polarity=Neg	16	advmod	_	_
+4	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+5	ni	ni	CCONJ	_	CCONJ___	6	cc	_	_
+6	mariée	marier	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+7	ni	ni	CCONJ	_	CCONJ___	6	cc	_	_
+8	avec	avec	ADP	_	ADP___	12	case	_	_
+9	descendance	descendance	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obl	_	_
+10	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+11	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	12	det	_	_
+12	héritiers	héritier	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	nsubj	_	_
+13	suivant	suivre	AUX	_	AUX__Tense=Pres|VerbForm=Part	15	acl	_	_
+14	sont	être	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+15	:	:	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#- son père et sa mère s'ils sont vivants, mais on peut imaginer que non- sa fratrie, vivante ou représentée : décrivez la fratrie de votre tante (qui est vivant, qui est décédé avec des enfants).
+1	-	-	PUNCT	_	PUNCT___	3	punct	_	_
+2	son	son	DET	_	DET__Number=Sing|Poss=Yes	3	nmod:poss	_	_
+3	père	père	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obl	_	_
+4	et	et	CCONJ	_	CCONJ___	3	cc	_	_
+5	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	6	nmod:poss	_	_
+6	mère	mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+7	s'	si	SCONJ	_	SCONJ___	6	mark	_	_
+8	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	12	nsubj	_	_
+9	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+10	vivants	vivant	ADJ	_	ADJ__Gender=Masc|Number=Plur	12	conj	_	_
+11	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+12	mais	mai	CCONJ	_	CCONJ___	16	cc	_	_
+13	on	on	PRON	_	PRON__Number=Sing|Person=3	15	nsubj	_	_
+14	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	imaginer	imaginer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+16	que	que	SCONJ	_	SCONJ___	16	mark	_	_
+17	non-	non-	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	16	case	_	_
+18	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	20	nmod:poss	_	_
+19	fratrie	fratrie	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	ccomp	_	_
+20	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+21	vivante	vivant	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	conj	_	_
+22	ou	ou	CCONJ	_	CCONJ___	25	cc	_	_
+23	représentée	représenter	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	25	conj	_	_
+24	:	:	PUNCT	_	PUNCT___	25	punct	_	_
+25	décrivez	décrire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	21	parataxis	_	_
+26	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	fratrie	fratrie	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	obj	_	_
+28	de	de	ADP	_	ADP___	31	case	_	_
+29	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	31	nmod:poss	_	_
+30	tante	tante	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	nmod	_	_
+31	(	(	PUNCT	_	PUNCT___	25	punct	_	_
+32	qui	qui	PRON	_	PRON__PronType=Rel	20	nsubj	_	_
+33	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	aux:pass	_	_
+34	vivant	vivre	ADJ	_	ADJ__Gender=Masc|Number=Sing	38	acl:relcl	_	_
+35	,	,	PUNCT	_	PUNCT___	38	punct	_	_
+36	qui	qui	PRON	_	PRON__PronType=Rel	38	nsubj:pass	_	_
+37	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	aux:pass	_	_
+38	décédé	décéder	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	46	acl:relcl	_	_
+39	avec	avec	ADP	_	ADP___	41	case	_	_
+40	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	41	det	_	_
+41	enfants	enfant	NOUN	_	NOUN__Number=Plur	38	obl	_	_
+42	)	)	PUNCT	_	PUNCT___	46	punct	_	_
+43	.	.	PUNCT	_	PUNCT___	44	punct	_	_
+
+

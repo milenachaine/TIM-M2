@@ -1,0 +1,191 @@
+#Comment je déclare la sortie de l'article 100 bis ?
+1	Comment	Comment	ADV	_	ADV__PronType=Int	3	advmod	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+3	déclare	déclarer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	sortie	sortir	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obj	_	_
+6	de	de	ADP	_	ADP___	8	case	_	_
+7	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	article	article	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+9	100	100	NUM	_	NUM__NumType=Card	10	nummod	_	_
+10	bis	bis	NOUN	_	NOUN__Gender=Masc	5	nmod	_	_
+11	?	?	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#laquelle de ces 2 propositions est correcte ?
+1	laquelle	lequel	PRON	_	PRON__Gender=Fem|Number=Sing|PronType=Rel	3	obl	_	_
+2	de	de	ADP	_	ADP___	3	case	_	_
+3	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	3	det	_	_
+4	2	2	NUM	_	NUM__NumType=Card	5	nummod	_	_
+5	propositions	proposition	NOUN	_	NOUN__Gender=Fem|Number=Plur	3	nsubj	_	_
+6	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	correcte	correct	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+8	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Année	revenu		revenu a déclarer2015	40 000 €
+1	Année	Année	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+2					SPACE	_		3		_	_
+3	revenu	revenir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+4							SPACE	_	_SP	5		_	_
+5	revenu	revenir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	xcomp	_	_
+6	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	déclarer2015	déclarer2015	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+8					SPACE	_		5		_	_
+9	40	40	NUM	_	NUM__NumType=Card	10	nummod	_	_
+10	000	000	NUM	_	NUM__NumType=Card	5	nummod	_	_
+11	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	obj	_	_
+12					SPACE	_		18		_	_
+
+
+#Art 100bis  (40 000 €+40 000 €+40 000 €+)/3                =40 000 €2016	40 000 €
+1	Art	Art	PROPN	_	PROPN__Gender=Masc|Number=Sing	3	advmod	_	_
+2	100bis	100bis	NUM	_	NUM__NumType=Card	3	nummod	_	_
+3	 	 	SPACE	_		3		_	_
+4	(	(	PUNCT	_	PUNCT___	5	punct	_	_
+5	40	40	NUM	_	NUM__NumType=Card	3	nummod	_	_
+6	000	000	NUM	_	NUM__NumType=Card	8	nummod	_	_
+7	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	nmod	_	_
+8	+	+	ADP	_	ADP___	5	case	_	_
+9	40	40	NUM	_	NUM__NumType=Card	10	nmod	_	_
+10	000	000	NUM	_	NUM__NumType=Card	5	nummod	_	_
+11	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	nmod	_	_
+12	+	+	ADP	_	ADP___	18	case	_	_
+13	40	40	NUM	_	NUM__NumType=Card	16	nmod	_	_
+14	000	000	NUM	_	NUM__NumType=Card	16	nummod	_	_
+15	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	nmod	_	_
+16	+	+	ADP	_	ADP___	18	case	_	_
+17	)	)	PUNCT	_	PUNCT___	18	nmod	_	_
+18	/3	/3	NOUN	_	NOUN___	18	nsubj	_	_
+19	               	               	SPACE	_	_SP	18		_	_
+20	=	=	VERB	_	VERB__Mood=Ind|Person=3|VerbForm=Fin	0	ROOT	_	_
+21	40	40	NUM	_	NUM__NumType=Card	20	obj	_	_
+22	000	000	NUM	_	NUM__NumType=Card	20	nummod	_	_
+23	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	22	obl	_	_
+24	2016	2016	NUM	_	NUM__NumType=Card	22	nummod	_	_
+25					SPACE	_		26		_	_
+26	40	40	NUM	_	NUM__NumType=Card	26	nummod	_	_
+27	000	000	NUM	_	NUM__NumType=Card	26	nummod	_	_
+28	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	30	obj	_	_
+29					SPACE	_		30		_	_
+
+
+#Art 100bis  (40 000 €+40 000 €+40 000 €+)/3                =40 000 €2019	0 € 	 	                                                                                            0 €2020	0 € 		                                                                                            0 €ou alorsAnnée	revenu		revenu a déclarer2015	40 000 € 	Art 100bis  (40 000 €+40 000 €+40 000 €+)/3                =40 000 €2016	40 000 € 	Art 100bis  (40 000 €+40 000 €+40 000 €+)/3                =40 000 €2019	0 € 	 	0 €2020	0 € 		0 €
+1	Art	Art	PROPN	_	PROPN__Gender=Masc|Number=Sing	3	advmod	_	_
+2	100bis	100bis	NUM	_	NUM__NumType=Card	3	nummod	_	_
+3	 	 	SPACE	_		3		_	_
+4	(	(	PUNCT	_	PUNCT___	5	punct	_	_
+5	40	40	NUM	_	NUM__NumType=Card	3	nummod	_	_
+6	000	000	NUM	_	NUM__NumType=Card	8	nummod	_	_
+7	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	nmod	_	_
+8	+	+	ADP	_	ADP___	5	case	_	_
+9	40	40	NUM	_	NUM__NumType=Card	10	nmod	_	_
+10	000	000	NUM	_	NUM__NumType=Card	5	nummod	_	_
+11	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	nmod	_	_
+12	+	+	ADP	_	ADP___	18	case	_	_
+13	40	40	NUM	_	NUM__NumType=Card	16	nmod	_	_
+14	000	000	NUM	_	NUM__NumType=Card	16	nummod	_	_
+15	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	nmod	_	_
+16	+	+	ADP	_	ADP___	18	case	_	_
+17	)	)	PUNCT	_	PUNCT___	18	nmod	_	_
+18	/3	/3	NOUN	_	NOUN___	18	nsubj	_	_
+19	               	               	SPACE	_	_SP	18		_	_
+20	=	=	VERB	_	VERB__Mood=Ind|Person=3|VerbForm=Fin	0	ROOT	_	_
+21	40	40	NUM	_	NUM__NumType=Card	20	obj	_	_
+22	000	000	NUM	_	NUM__NumType=Card	20	nummod	_	_
+23	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	22	obl	_	_
+24	2019	2019	NUM	_	NUM__NumType=Card	22	nummod	_	_
+25					SPACE	_		26		_	_
+26	0	0	NUM	_	NUM__NumType=Card	26	nummod	_	_
+27	€	€	NOUN	_	NOUN___	26	nsubj	_	_
+28		 	                                                                                            		 	                                                                                            	SPACE	_	_SP	30		_	_
+29	0	0	NUM	_	NUM__NumType=Card	30	nummod	_	_
+30	€	€	NOUN	_	NOUN__Gender=Masc	26	appos	_	_
+31	2020	2020	NUM	_	NUM__NumType=Card	30	nummod	_	_
+32					SPACE	_		51		_	_
+33	0	0	NUM	_	NUM__NumType=Card	32	nummod	_	_
+34	€	€	NOUN	_	NOUN__Gender=Masc	33	nmod	_	_
+35			                                                                                            			                                                                                            	SPACE	_	_SP	32		_	_
+36	0	0	NUM	_	NUM__NumType=Card	46	nummod	_	_
+37	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	38	appos	_	_
+38	ou	ou	CCONJ	_	CCONJ___	36	cc	_	_
+39	alorsAnnée	alorsAnnée	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	40	conj	_	_
+40					SPACE	_		38		_	_
+41	revenu	revenir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	42	advcl	_	_
+42							SPACE	_	_SP	36		_	_
+43	revenu	revenir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	44	xcomp	_	_
+44	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	advmod	_	_
+45	déclarer2015	déclarer2015	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	46	nmod:poss	_	_
+46					SPACE	_		32		_	_
+47	40	40	NUM	_	NUM__NumType=Card	48	nummod	_	_
+48	000	000	NUM	_	NUM__NumType=Card	46	nummod	_	_
+49	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	51	obj	_	_
+50					SPACE	_		49		_	_
+51	Art	Art	PROPN	_	PROPN__Gender=Masc|Number=Sing	51	nmod	_	_
+52	100bis	100bis	NUM	_	NUM__NumType=Card	51	iobj	_	_
+53	 	 	SPACE	_		54		_	_
+54	(	(	PUNCT	_	PUNCT___	51	punct	_	_
+55	40	40	NUM	_	NUM__NumType=Card	54	appos	_	_
+56	000	000	NUM	_	NUM__NumType=Card	55	nummod	_	_
+57	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	59	nmod	_	_
+58	+	+	ADP	_	ADP___	59	case	_	_
+59	40	40	NUM	_	NUM__NumType=Card	51	nmod	_	_
+60	000	000	NUM	_	NUM__NumType=Card	59	nummod	_	_
+61	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	80	nmod	_	_
+62	+	+	ADP	_	ADP___	61	case	_	_
+63	40	40	NUM	_	NUM__NumType=Card	62	nmod	_	_
+64	000	000	NUM	_	NUM__NumType=Card	61	nummod	_	_
+65	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	75	nmod	_	_
+66	+	+	ADP	_	ADP___	67	nmod	_	_
+67	)	)	PUNCT	_	PUNCT___	65	punct	_	_
+68	/3	/3	NOUN	_	NOUN___	69	nsubj	_	_
+69	               	               	SPACE	_	_SP	67		_	_
+70	=	=	VERB	_	VERB__Mood=Ind|Person=3|VerbForm=Fin	71	parataxis	_	_
+71	40	40	NUM	_	NUM__NumType=Card	65	obj	_	_
+72	000	000	NUM	_	NUM__NumType=Card	73	nummod	_	_
+73	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	71	obj	_	_
+74	2016	2016	NUM	_	NUM__NumType=Card	75	nummod	_	_
+75					SPACE	_		61		_	_
+76	40	40	NUM	_	NUM__NumType=Card	77	nummod	_	_
+77	000	000	NUM	_	NUM__NumType=Card	75	nummod	_	_
+78	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	80	obj	_	_
+79					SPACE	_		78		_	_
+80	Art	Art	PROPN	_	PROPN__Gender=Masc|Number=Sing	80	nmod	_	_
+81	100bis	100bis	NUM	_	NUM__NumType=Card	80	nummod	_	_
+82	 	 	SPACE	_		83		_	_
+83	(	(	PUNCT	_	PUNCT___	80	punct	_	_
+84	40	40	NUM	_	NUM__NumType=Card	83	appos	_	_
+85	000	000	NUM	_	NUM__NumType=Card	84	nummod	_	_
+86	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	87	nmod	_	_
+87	+	+	ADP	_	ADP___	101	case	_	_
+88	40	40	NUM	_	NUM__NumType=Card	87	nmod	_	_
+89	000	000	NUM	_	NUM__NumType=Card	90	nummod	_	_
+90	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	87	nmod	_	_
+91	+	+	ADP	_	ADP___	90	case	_	_
+92	40	40	NUM	_	NUM__NumType=Card	91	nmod	_	_
+93	000	000	NUM	_	NUM__NumType=Card	94	nummod	_	_
+94	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	90	nmod	_	_
+95	+	+	ADP	_	ADP___	94	nmod	_	_
+96	)	)	PUNCT	_	PUNCT___	97	punct	_	_
+97	/3	/3	NOUN	_	NOUN___	87	nsubj	_	_
+98	               	               	SPACE	_	_SP	99		_	_
+99	=	=	VERB	_	VERB__Mood=Ind|Person=3|VerbForm=Fin	87	advcl	_	_
+100	40	40	NUM	_	NUM__NumType=Card	99	obj	_	_
+101	000	000	NUM	_	NUM__NumType=Card	80	nummod	_	_
+102	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	101	obj	_	_
+103	2019	2019	NUM	_	NUM__NumType=Card	101	nummod	_	_
+104					SPACE	_		101		_	_
+105	0	0	NUM	_	NUM__NumType=Card	128	nummod	_	_
+106	€	€	NOUN	_	NOUN__Gender=Masc	105	obj	_	_
+107		 			 		SPACE	_	_SP	109		_	_
+108	0	0	NUM	_	NUM__NumType=Card	109	nummod	_	_
+109	€	€	NOUN	_	NOUN__Gender=Masc	105	obj	_	_
+110	2020	2020	NUM	_	NUM__NumType=Card	109	nummod	_	_
+111					SPACE	_		109		_	_
+112	0	0	NUM	_	NUM__NumType=Card	111	nummod	_	_
+113	€	€	NOUN	_	NOUN__Gender=Masc	112	nmod	_	_
+114							SPACE	_	_SP	109		_	_
+115	0	0	NUM	_	NUM__NumType=Card	109	nummod	_	_
+116	€	€	NOUN	_	NOUN__Gender=Masc	117	obj	_	_
+
+
