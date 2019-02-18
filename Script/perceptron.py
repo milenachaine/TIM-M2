@@ -2,7 +2,7 @@
 
 import xml.etree.ElementTree as ET
 
-tree = ET.parse('../Groupes/Crawling/corpusIrisHuitCategories.xml')
+tree = ET.parse('../Groupes/Crawling/corpusIrisVersion3.xml')
 corpus = tree.getroot()
 
 import numpy, random
@@ -39,20 +39,29 @@ xdata.resize((nbdata,nbfeatures))
 xdata[:,-1] = 1
 weights = numpy.zeros((nbfeatures, 1))
 
-alpha = 0.01
+alpha = 0.1
 xindex = 0
+erreurlog = []
+nberreurs = nbdata
 for epoch in range(10000):
 	print('Epoch', epoch)
 	currentdata = xdata[xindex,:]
 	currentpred = numpy.heaviside(currentdata.dot(weights)[0,0], 0)
 	delta = (ydata[xindex,0] - currentpred)
 	if delta != 0:
-		print('Update weights', delta)
+		print('Update weights', delta, weights.sum())
 		weights += alpha*delta*currentdata.transpose()
 		zvalue = xdata.dot(weights)
 		ypred = numpy.heaviside(zvalue, 0)
 		erreur = ydata - ypred
-		print('Erreur', abs(erreur).sum())
+		nberreurs = abs(erreur).sum()
+		print('Erreur,', nberreurs)
+	erreurlog.append(nberreurs/nbdata)
 	xindex += 1
 	if xindex >= nbdata:
 		xindex = 0
+
+import matplotlib.pyplot as plt
+plt.plot(erreurlog)
+plt.ylabel('Taux d\'erreur')
+plt.show()
