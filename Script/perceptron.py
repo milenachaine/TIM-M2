@@ -39,11 +39,11 @@ xdata.resize((nbdata,nbfeatures))
 xdata[:,-1] = 1
 weights = numpy.zeros((nbfeatures, 1))
 
-alpha = 0.1
+alpha = 0.01
 xindex = 0
 erreurlog = []
 nberreurs = nbdata
-for epoch in range(10000):
+for epoch in range(100000):
 	print('Epoch', epoch)
 	currentdata = xdata[xindex,:]
 	currentpred = numpy.heaviside(currentdata.dot(weights)[0,0], 0)
