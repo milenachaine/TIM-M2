@@ -43,27 +43,29 @@ def main():
         train_test_split(X, Y, test_size=0.2, random_state=12)
 
     # pipeline
-    parameters = {
-        "n_estimators": 100,
-        "oob_score": True,
-        "random_state": 10,
-    }
-    rf = RandomForestClassifier(**parameters)
+    rf = RandomForestClassifier()
     vectorizer = TfidfVectorizer(max_features=FEATURE_SIZE)
-    tfidf_rf_clf = Pipeline([
+    pipeline = Pipeline([
         ('tfidf', vectorizer),
         ('rf', rf)
     ])
 
-    # TODO parameter tuning GridSearchCV
-    # tfidf_rf_clf = GridSearchCV(pipeline,parameters)
-
+    # parameter tuning
+    parameters = {
+        "rf__n_estimators": [20,40,60,80,100,],
+        "rf__oob_score": [True,],
+        "rf__random_state": [10,]
+    }
+    tfidf_rf_clf = GridSearchCV(pipeline,parameters)
     tfidf_rf_clf.fit(x_train,y_train)
+    print("BEST SCORE: ",tfidf_rf_clf.best_score_)
+    print("BEST PARAMETERS: ", tfidf_rf_clf.best_params_)
     y_pred = tfidf_rf_clf.predict(x_test)
     class_names = DOC_CLASS.values()
     # evaluation
     print(metrics.classification_report(y_test, y_pred,
                                      target_names=class_names))
+
 
     # save pipeline
     joblib.dump(tfidf_rf_clf, "tfidf_rf_clf")
