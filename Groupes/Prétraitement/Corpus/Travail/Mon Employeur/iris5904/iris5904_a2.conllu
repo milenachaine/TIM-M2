@@ -1,0 +1,200 @@
+#Bonjour, Je suis désolé, mais je ne comprends toujours pas.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj:pass	_	_
+4	suis	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	désolé	désolé	ADJ	_	ADJ__Number=Sing	1	acl:relcl	_	_
+6	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+7	mais	mais	CCONJ	_	CCONJ___	10	cc	_	_
+8	je	il	PRON	_	PRON__Number=Sing|Person=1	10	nsubj	_	_
+9	ne	ne	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+10	comprends	comprend	ADJ	_	ADJ__Gender=Masc|Number=Plur	1	conj	_	_
+11	toujours	toujours	ADV	_	ADV___	12	advmod	_	_
+12	pas	pas	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+13	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#A quoi correspond "soit ils me prennent 7h soit ils me prenne un cp" ?
+1	A	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+2	quoi	quoi	PRON	_	PRON__PronType=Int	1	obl	_	_
+3	correspond	correspondre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	"	"	PUNCT	_	PUNCT___	5	punct	_	_
+5	soit	être	CCONJ	_	CCONJ___	1	cc	_	_
+6	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	1	nsubj	_	_
+7	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	10	expl	_	_
+8	prennent	prendre	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	conj	_	_
+9	7h	7h	ADJ	_	ADJ__NumType=Ord	10	obj	_	_
+10	soit	être	CCONJ	_	CCONJ___	1	cc	_	_
+11	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	12	nsubj	_	_
+12	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	10	iobj	_	_
+13	prenne	prendre	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+14	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	cp	cp	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obj	_	_
+16	"	"	PUNCT	_	PUNCT___	16	punct	_	_
+17	?	?	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#A quel moment ?
+1	A	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	case	_	_
+2	quel	quel	DET	_	DET__Gender=Masc|Number=Sing	1	det	_	_
+3	moment	moment	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#A quel titre ?
+1	A	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	case	_	_
+2	quel	quel	DET	_	DET__Gender=Masc|Number=Sing	1	det	_	_
+3	titre	titre	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Le 1er janvier est un jour férié.
+1	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	1er	1er	ADJ	_	ADJ__NumType=Ord	1	amod	_	_
+3	janvier	janvier	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+6	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+7	férié	férié	ADJ	_	ADJ__Gender=Masc|Number=Sing	10	amod	_	_
+8	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Est
+1	Est	être		_	VERB	0	ROOT	_	_
+
+
+#-ce un jour travaillé dans votre entreprise?
+1	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	0	ROOT	_	_
+2	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+3	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+4	travaillé	travailler	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+5	dans	dan	ADP	_	ADP___	1	case	_	_
+6	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+7	entreprise	entreprise	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obl	_	_
+8	?	?	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Avez vous travaillé ?
+1	Avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	aux	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	expl	_	_
+3	travaillé	travailler	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#S'agit
+1	S'	si	PRON	_	PRON__Person=3|Reflex=Yes	1	expl	_	_
+2	agit	agir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
+
+
+#-il peut-être d'un jour de pont (lundi 31 décembre) ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	0	ROOT	_	_
+3	peut-être	peut-être	ADV	_	ADV___	5	fixed	_	_
+4	d'	de	ADP	_	ADP___	5	case	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+6	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+7	de	de	ADP	_	ADP___	10	case	_	_
+8	pont	pont	NOUN	_	NOUN__Gender=Fem|Number=Plur	10	nmod	_	_
+9	(	(	PUNCT	_	PUNCT___	10	punct	_	_
+10	lundi	lundi	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+11	31	31	NUM	_	NUM__NumType=Card	12	nummod	_	_
+12	décembre	décembre	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+13	)	)	PUNCT	_	PUNCT___	1	punct	_	_
+14	?	?	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Vous avez un décompte des jours acquis et pris de congés sur votre bulletin de paie de décembre et de janvier.
+1	Vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+2	avez	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	décompte	décompte	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+5	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	1	det	_	_
+6	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	obj	_	_
+7	acquis	acquis	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	acl	_	_
+8	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+9	pris	prendre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	10	conj	_	_
+10	de	de	ADP	_	ADP___	1	case	_	_
+11	congés	congé	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	obl	_	_
+12	sur	sur	ADP	_	ADP___	10	case	_	_
+13	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+14	bulletin	bulletin	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obl	_	_
+15	de	de	ADP	_	ADP___	16	case	_	_
+16	paie	paie	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nmod	_	_
+17	de	de	ADP	_	ADP___	16	case	_	_
+18	décembre	décembre	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	nmod	_	_
+19	et	et	CCONJ	_	CCONJ___	21	cc	_	_
+20	de	de	ADP	_	ADP___	21	case	_	_
+21	janvier	janvier	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	conj	_	_
+22	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Quel est ce décompte ?
+1	Quel	quel	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	obj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	5	nsubj	_	_
+4	décompte	décompte	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Est-ce qu'il est marqué qu'un tel ou tel jour a été pris à titre de congés payés?
+1	Est	être		_	VERB	1	obl	_	_
+2	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	1	amod	_	_
+3	qu'	que	SCONJ	_	SCONJ___	5	mark	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
+6	marqué	marquer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+7	qu'	que	SCONJ	_	SCONJ___	10	mark	_	_
+8	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	tel	tel	ADJ	_	ADJ__Gender=Masc|Number=Sing	10	nsubj:pass	_	_
+10	ou	ou	CCONJ	_	CCONJ___	1	cc	_	_
+11	tel	tel	ADJ	_	ADJ__Gender=Masc|Number=Sing	12	conj	_	_
+12	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	amod	_	_
+13	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+14	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	16	aux:pass	_	_
+15	pris	prendre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part|Voice=Pass	16	ccomp	_	_
+16	à	à	ADP	_	ADP___	16	case	_	_
+17	titre	titre	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obl	_	_
+18	de	de	ADP	_	ADP___	21	case	_	_
+19	congés	congé	ADJ	_	ADJ__Gender=Masc|Number=Plur	21	nmod	_	_
+20	payés	payer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	21	amod	_	_
+21	?	?	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Sachez que dans certains cas comme des ponts ou fermeture de l'entreprise, l'employeur peut imposer à l'ensemble des salariés la prise de jours de congés/RTT ou la récupération.
+1	Sachez	savoir	VERB	_	VERB__Mood=Ind|VerbForm=Fin	0	ROOT	_	_
+2	que	que	SCONJ	_	SCONJ___	1	mark	_	_
+3	dans	dan	ADP	_	ADP___	5	case	_	_
+4	certains	certain	DET	_	DET__Gender=Masc|Number=Plur	5	det	_	_
+5	cas	cas	NOUN	_	NOUN__Gender=Masc	1	obl	_	_
+6	comme	comme	ADP	_	ADP___	1	case	_	_
+7	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
+8	ponts	pont	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	nmod	_	_
+9	ou	ou	CCONJ	_	CCONJ___	10	cc	_	_
+10	fermeture	fermeture	VERB	_	VERB__VerbForm=Inf	1	conj	_	_
+11	de	de	ADP	_	ADP___	12	case	_	_
+12	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+13	entreprise	entreprise	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+14	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+15	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	nsubj	_	_
+17	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+18	imposer	imposer	VERB	_	VERB__VerbForm=Inf	21	ccomp	_	_
+19	à	à	ADP	_	ADP___	21	case	_	_
+20	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	ensemble	ensemble	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obl	_	_
+22	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	21	det	_	_
+23	salariés	salarié	NOUN	_	NOUN__Gender=Masc|Number=Plur	26	obj	_	_
+24	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	prise	prise	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	obj	_	_
+26	de	de	ADP	_	ADP___	16	case	_	_
+27	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	28	nmod	_	_
+28	de	de	ADP	_	ADP___	26	case	_	_
+29	congés	congé	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	nmod	_	_
+30	/	/	ADP	_	ADP___	16	case	_	_
+31	RTT	RTT	PROPN	_	PROPN___	33	nmod	_	_
+32	ou	ou	CCONJ	_	CCONJ___	33	cc	_	_
+33	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+34	récupération	récupération	NOUN	_	NOUN__Gender=Fem|Number=Sing	33	conj	_	_
+35	.	.	PUNCT	_	PUNCT___	37	punct	_	_
+
+

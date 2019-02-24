@@ -1,0 +1,110 @@
+#Du coup on est d'accord que je coche FERMETURE >
+1	Du	du	DET	_	DET__Gender=Masc|Number=Sing	2	det	_	_
+2	coup	coup	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+3	on	on	PRON	_	PRON__Number=Sing|Person=3	5	nsubj	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	d'	de	ADP	_	ADP___	0	ROOT	_	_
+6	accord	accord	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	fixed	_	_
+7	que	que	SCONJ	_	SCONJ___	9	mark	_	_
+8	je	il	PRON	_	PRON__Number=Sing|Person=1	9	nsubj	_	_
+9	coche	cocher	VERB	_	VERB__Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+10	FERMETURE	fermeture	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	advmod	_	_
+11	>	>	ADJ	_	ADJ__Gender=Masc|Number=Sing	9	obj	_	_
+
+
+#Etablissement Principal (identique au siège, mais formellement le siège lui n'est pas fermé puisque je ne ferme que l'établissement principal - pour rappel la fois précédente j'avais coché "Siège
+1	Etablissement	etablissement	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	nsubj	_	_
+2	Principal	Principal	PROPN	_	PROPN___	5	flat:name	_	_
+3	(	(	PUNCT	_	PUNCT___	5	punct	_	_
+4	identique	identique	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	appos	_	_
+5	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	case	_	_
+6	siège	siège	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+7	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+8	mais	mais	CCONJ	_	CCONJ___	9	cc	_	_
+9	formellement	formellement	ADV	_	ADV___	5	conj	_	_
+10	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+11	siège	siège	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nmod	_	_
+12	lui	luire	PRON	_	PRON__Number=Sing|Person=3	31	iobj	_	_
+13	n'	ne	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+14	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
+15	pas	pas	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+16	fermé	fermer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	acl:relcl	_	_
+17	puisque	puisque	SCONJ	_	SCONJ___	15	mark	_	_
+18	je	il	PRON	_	PRON__Number=Sing|Person=1	12	nsubj	_	_
+19	ne	ne	ADV	_	ADV__Polarity=Neg	20	advmod	_	_
+20	ferme	fermer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+21	que	que	SCONJ	_	SCONJ___	22	mark	_	_
+22	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+23	établissement	établissement	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	ccomp	_	_
+24	principal	principal	ADJ	_	ADJ__Gender=Masc|Number=Sing	27	amod	_	_
+25	-	-	PUNCT	_	PUNCT___	27	punct	_	_
+26	pour	pour	ADP	_	ADP___	27	case	_	_
+27	rappel	rappel	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	obl	_	_
+28	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+29	fois	fois	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	obl	_	_
+30	précédente	précédent	ADJ	_	ADJ__Gender=Fem|Number=Sing	31	amod	_	_
+31	j'	il	PRON	_	PRON__Number=Sing|Person=1	31	nsubj	_	_
+32	avais	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	34	aux	_	_
+33	coché	cocher	ADJ	_	ADJ__Gender=Masc|Number=Sing	34	ccomp	_	_
+34	"	"	PUNCT	_	PUNCT___	31	punct	_	_
+35	Siège	siège	NOUN	_	NOUN__Gender=Masc|Number=Sing	34	obl	_	_
+
+
+#- Etablissement Principal" ce qui a été refusé puisque la liquidation a lieu au siège).
+1	-	-	PUNCT	_	PUNCT___	2	punct	_	_
+2	Etablissement	etablissement	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	Principal	principal	ADJ	_	ADJ__Gender=Masc|Number=Sing	5	flat:name	_	_
+4	"	"	PUNCT	_	PUNCT___	5	punct	_	_
+5	ce	ce	PRON	_	PRON__PronType=Rel	5	nmod	_	_
+6	qui	qui	PRON	_	PRON__PronType=Rel	5	nsubj:pass	_	_
+7	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	9	aux:pass	_	_
+9	refusé	refuser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	acl:relcl	_	_
+10	puisque	puisque	SCONJ	_	SCONJ___	9	advmod	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+12	liquidation	liquidation	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	obl	_	_
+13	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	nmod	_	_
+14	lieu	lieu	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+15	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	12	det	_	_
+16	siège	siège	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obj	_	_
+17	)	)	PUNCT	_	PUNCT___	15	punct	_	_
+18	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Ou alors je ne ferme rien et je fermerai "Siège
+1	Ou	Ou	CCONJ	_	CCONJ___	2	cc	_	_
+2	alors	alors	ADV	_	ADV___	5	advmod	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+4	ne	ne	ADV	_	ADV___	5	advmod	_	_
+5	ferme	ferme	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+6	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	5	obj	_	_
+7	et	et	CCONJ	_	CCONJ___	9	cc	_	_
+8	je	il	PRON	_	PRON__Number=Sing|Person=1	9	nsubj	_	_
+9	fermerai	fermer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	5	conj	_	_
+10	"	"	PUNCT	_	PUNCT___	9	punct	_	_
+11	Siège	siège	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nmod	_	_
+
+
+#-Etablissement principal" au moment de la liquidation ?
+1	-	-	PUNCT	_	PUNCT___	2	punct	_	_
+2	Etablissement	etablissement	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	principal	principal	ADJ	_	ADJ__Gender=Masc|Number=Sing	5	amod	_	_
+4	"	"	PUNCT	_	PUNCT___	5	punct	_	_
+5	au	au	PRON	_	PRON__PronType=Rel	5	det	_	_
+6	moment	moment	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+7	de	de	ADP	_	ADP___	9	case	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	liquidation	liquidation	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+10	?	?	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Par avance merci pour votre réponse.
+1	Par	Par	ADP	_	ADP___	2	case	_	_
+2	avance	avance	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	amod	_	_
+4	pour	pour	ADP	_	ADP___	5	case	_	_
+5	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+6	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obl	_	_
+7	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
