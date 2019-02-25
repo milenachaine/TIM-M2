@@ -12,7 +12,7 @@ print('Il y a', nbdata, 'données')
 import numpy, random
 random.shuffle(docs)
 
-classes = {
+classes = [
 "Entreprise",
 "Finances, Fiscalité et Assurance",
 "Immobilier",
@@ -21,9 +21,9 @@ classes = {
 "Personne et Famille",
 "Rapports à la société",
 "Travail",
-}
+]
 
-subclasses = {
+subclasses = [
 "Assurances",
 "Banque",
 "Citoyens et Administration",
@@ -53,56 +53,45 @@ subclasses = {
 "Urbanisme",
 "Vie commune Rupture",
 "Voisinage",
-}
+]
 
 import sklearn
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.model_selection import train_test_split
 
-for tgtclass in classes:
-
-	print('Classe:', tgtclass)
-
-	ydata = []
-	xdatatext = []
-	datacount = 0
-	for doc in docs:
-		questions = ''
-		for child in doc:
-			if child.tag == 'question':
-				questions += '\n'+child.text.strip()
-		if len(questions) > 10 and questions not in xdatatext:
+ydata = []
+xdatatext = []
+datacount = 0
+for doc in docs:
+	questions = ''
+	for child in doc:
+		if child.tag == 'question':
+			questions += '\n'+child.text.strip()
+	if len(questions) > 10 and questions not in xdatatext:
+		docclass = doc.attrib['class']
+		if docclass in classes:
 			xdatatext.append(questions)
-			if doc.attrib['class'] == tgtclass or doc.attrib['subclass'] == tgtclass:
-				ydata.append(1)
-			else:
-				ydata.append(0)
+			ydata.append(classes.index(docclass))
 			datacount += 1
-	nbdata = datacount
-	print('- après filtrage il reste ', nbdata, 'données')
-	ydata = numpy.asarray(ydata)
-	print('- il y a', ydata.sum(), 'données de la classe', tgtclass)
+nbdata = datacount
+print('- après filtrage il reste ', nbdata, 'données')
+ydata = numpy.asarray(ydata)
+#print('- il y a', ydata.sum(), 'données de la classe', tgtclass)
 
-	# for i in range(nbdata):
-	# 	print('DEBUG')
-	# 	print(xdatatext[i], ydata[i])
-	# 	print('END')
+vectorizer = CountVectorizer()
+xdata = vectorizer.fit_transform(xdatatext)
+nbfeatures = xdata.shape[1]
+print('- la vectorisation donne', nbfeatures, 'features')
 
-	vectorizer = CountVectorizer()
-	xdata = vectorizer.fit_transform(xdatatext)
-	nbfeatures = xdata.shape[1]
-	print('- la vectorisation donne', nbfeatures, 'features')
-
-	xdata, xdatatest, ydata, ydatatest = train_test_split(xdata, ydata, test_size=0.3, random_state=0)
-	nbdatatest = xdatatest.shape[0]
-	print('- le split écarte', nbdatatest, 'données pour le test (', ydatatest.sum(), ' de la classe)')
-
-	from sklearn.ensemble import AdaBoostClassifier
-	from sklearn.tree import DecisionTreeClassifier
-	model = AdaBoostClassifier(DecisionTreeClassifier(max_depth=1), algorithm="SAMME", n_estimators=200)
-	model.fit(xdata, ydata)
-	ypredtest = model.predict(xdatatest)
-	ypredtest = ypredtest.reshape(ydatatest.shape)
-	ypredtest = numpy.rint(ypredtest)
-	nberreurs = abs(ydatatest - ypredtest).sum()
-	print('=> erreur de classification', str(100*nberreurs/nbdatatest)+'%')
+xdata, xdatatest, ydata, ydatatest = train_test_split(xdata, ydata, test_size=0.3, random_state=0)
+nbdatatest = xdatatest.shape[0]
+print('- le split écarte', nbdatatest, 'données pour le test (', ydatatest.sum(), ' de la classe)')
+from sklearn.ensemble import AdaBoostClassifier
+from sklearn.tree import DecisionTreeClassifier
+model = AdaBoostClassifier(DecisionTreeClassifier(max_depth=1), algorithm="SAMME", n_estimators=200)
+model.fit(xdata, ydata)
+ypredtest = model.predict(xdatatest)
+ypredtest = ypredtest.reshape(ydatatest.shape)
+ypredtest = numpy.rint(ypredtest)
+nberreurs = numpy.minimum(abs(ydatatest - ypredtest), 1).sum()
+print('=> erreur de classification', str(100*nberreurs/nbdatatest)+'%')
