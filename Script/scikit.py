@@ -13,14 +13,14 @@ import numpy, random
 random.shuffle(docs)
 
 classes = {
-    "immobilier": "imm",
-    "travail": "trv",
-    "personne et famille": "per",
-    "finances, fiscalité et assurance": "fin",
-    "rapports à la société": "soc",
-    "monde de la justice": "jus",
-    "entreprise": "ent",
-    "internet, téléphonie et prop. intellectuelle": "int"
+"Entreprise",
+"Finances, Fiscalité et Assurance",
+"Immobilier",
+"Internet, Téléphonie et Prop. intellectuelle",
+"Monde de la Justice",
+"Personne et Famille",
+"Rapports à la société",
+"Travail",
 }
 
 subclasses = {
@@ -55,7 +55,11 @@ subclasses = {
 "Voisinage",
 }
 
-for tgtclass in subclasses:
+import sklearn
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.model_selection import train_test_split
+
+for tgtclass in classes:
 
 	print('Classe:', tgtclass)
 
@@ -67,29 +71,31 @@ for tgtclass in subclasses:
 		for child in doc:
 			if child.tag == 'question':
 				questions += '\n'+child.text.strip()
-		if len(questions) > 10:
-			if doc.attrib['subclass'] == tgtclass:
+		if len(questions) > 10 and questions not in xdatatext:
+			xdatatext.append(questions)
+			if doc.attrib['class'] == tgtclass or doc.attrib['subclass'] == tgtclass:
 				ydata.append(1)
 			else:
 				ydata.append(0)
-			xdatatext.append(questions)
 			datacount += 1
 	nbdata = datacount
 	print('- après filtrage il reste ', nbdata, 'données')
 	ydata = numpy.asarray(ydata)
 	print('- il y a', ydata.sum(), 'données de la classe', tgtclass)
 
-	import sklearn
-	from sklearn.feature_extraction.text import CountVectorizer
+	# for i in range(nbdata):
+	# 	print('DEBUG')
+	# 	print(xdatatext[i], ydata[i])
+	# 	print('END')
+
 	vectorizer = CountVectorizer()
 	xdata = vectorizer.fit_transform(xdatatext)
 	nbfeatures = xdata.shape[1]
 	print('- la vectorisation donne', nbfeatures, 'features')
 
-	from sklearn.model_selection import train_test_split
 	xdata, xdatatest, ydata, ydatatest = train_test_split(xdata, ydata, test_size=0.3, random_state=0)
 	nbdatatest = xdatatest.shape[0]
-	print('- le split écarte', nbdatatest, 'données pour le test')
+	print('- le split écarte', nbdatatest, 'données pour le test (', ydatatest.sum(), ' de la classe)')
 
 	from sklearn.ensemble import AdaBoostClassifier
 	from sklearn.tree import DecisionTreeClassifier
@@ -99,4 +105,4 @@ for tgtclass in subclasses:
 	ypredtest = ypredtest.reshape(ydatatest.shape)
 	ypredtest = numpy.rint(ypredtest)
 	nberreurs = abs(ydatatest - ypredtest).sum()
-	print('=> erreur de classification', nberreurs/nbdatatest)
+	print('=> erreur de classification', str(100*nberreurs/nbdatatest)+'%')
