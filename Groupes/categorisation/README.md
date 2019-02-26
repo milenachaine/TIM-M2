@@ -29,12 +29,12 @@
 * Entraînement d'un modèle
     * Modèle : [tfidf_rf_clf](tfidf_rf_clf)
     * Script : [cat.py](cat.py)
-    * Corpus d'entraînement : 80% du corpus(../Crawling/corpusIrisVersion3.xml)
-    * *Features* : 500 tfidf des mots
+    * Corpus d'entraînement : [80% du corpusIrisVersion3](../Crawling/corpusIrisVersion3.xml)
+    * *Features* : 500 tfidf des mots avec les meilleurs scores
     * Classifier : [Ramdom Forest](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
     * Paramétrage : [GridSearchCV](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html)
     * Evaluation : cf [eval.md](eval.md)
-    * Test : un petit teste, cf [test_model.py](test_model.py)
+    * Test : un petit test avec un nouvel jeu de données, cf [test_model.py](test_model.py)
 
 ## 5. TODO
 (MAJ 19/02/2019)
