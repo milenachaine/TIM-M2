@@ -1,7 +1,7 @@
 #!/bin/env python3
 
 import xml.etree.ElementTree as ET
-tree = ET.parse('../Groupes/Crawling/corpusIrisVersion3.xml')
+tree = ET.parse('../Groupes/Crawling/corpusIrisVersion4.xml')
 corpus = tree.getroot()
 docs = []
 for doc in corpus:
@@ -85,7 +85,7 @@ print('- la vectorisation donne', nbfeatures, 'features')
 
 xdata, xdatatest, ydata, ydatatest = train_test_split(xdata, ydata, test_size=0.3, random_state=0)
 nbdatatest = xdatatest.shape[0]
-print('- le split écarte', nbdatatest, 'données pour le test (', ydatatest.sum(), ' de la classe)')
+print('- le split écarte', nbdatatest, 'données pour le test')
 from sklearn.ensemble import AdaBoostClassifier
 from sklearn.tree import DecisionTreeClassifier
 model = AdaBoostClassifier(DecisionTreeClassifier(max_depth=1), algorithm="SAMME", n_estimators=200)
