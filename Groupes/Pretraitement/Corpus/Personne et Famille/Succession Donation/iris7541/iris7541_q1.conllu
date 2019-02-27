@@ -1,0 +1,361 @@
+#Bonjour à tous, je vous expose mon problème :
+1	Bonjour	Bonjour	PROPN	_	PROPN___	7	acl	_	_
+2	à	à	ADP	_	ADP___	3	case	_	_
+3	tous	tout	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Rel	1	obl	_	_
+4	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+5	je	il	PRON	_	PRON__Number=Sing|Person=1	7	nsubj	_	_
+6	vous	vous	PRON	_	PRON__Number=Plur|Person=2	7	iobj	_	_
+7	expose	exposer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	9	nmod:poss	_	_
+9	problème	problème	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+10	:	:	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Mon père est décédé en 2018 laissant 2 enfants d'un premier lit (dont je fais partie) et 2 enfants d'un second lit.
+1	Mon	mon	DET	_	DET__Number=Sing|Poss=Yes	7	nmod:poss	_	_
+2	père	père	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
+4	décédé	décéder	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+5	en	en	ADP	_	ADP___	7	case	_	_
+6	2018	2018	NUM	_	NUM__NumType=Card	7	nummod	_	_
+7	laissant	laisser	VERB	_	VERB__Tense=Pres|VerbForm=Part	7	acl	_	_
+8	2	2	NUM	_	NUM__NumType=Card	9	nummod	_	_
+9	enfants	enfant	NOUN	_	NOUN__Number=Plur	7	obj	_	_
+10	d'	de	ADP	_	ADP___	7	case	_	_
+11	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	premier	premier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	14	amod	_	_
+13	lit	lit	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nmod	_	_
+14	(	(	PUNCT	_	PUNCT___	14	punct	_	_
+15	dont	dont	PRON	_	PRON__PronType=Rel	16	dep	_	_
+16	je	il	PRON	_	PRON__Number=Sing|Person=1	14	nsubj	_	_
+17	fais	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	parataxis	_	_
+18	partie	partie	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obj	_	_
+19	)	)	PUNCT	_	PUNCT___	17	punct	_	_
+20	et	et	CCONJ	_	CCONJ___	23	cc	_	_
+21	2	2	NUM	_	NUM__NumType=Card	23	nummod	_	_
+22	enfants	enfant	NOUN	_	NOUN__Number=Plur	23	conj	_	_
+23	d'	de	ADP	_	ADP___	19	case	_	_
+24	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+25	second	second	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	27	amod	_	_
+26	lit	lit	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	nmod	_	_
+27	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#1er mariage avec ma mère en séparation de biens et achat d'un appartement dont ils détenaient chacun 50%.
+1	1er	1er	ADJ	_	ADJ__NumType=Ord	7	amod	_	_
+2	mariage	mariage	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	avec	avec	ADP	_	ADP___	1	case	_	_
+4	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	7	nmod:poss	_	_
+5	mère	mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+6	en	en	ADP	_	ADP___	7	case	_	_
+7	séparation	séparation	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+8	de	de	ADP	_	ADP___	9	case	_	_
+9	biens	bien	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	nmod	_	_
+10	et	et	CCONJ	_	CCONJ___	7	cc	_	_
+11	achat	achat	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+12	d'	de	ADP	_	ADP___	14	case	_	_
+13	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nmod	_	_
+15	dont	dont	PRON	_	PRON__PronType=Rel	16	dep	_	_
+16	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	14	nsubj	_	_
+17	détenaient	détenir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+18	chacun	chacun	PRON	_	PRON__Gender=Masc|PronType=Rel	19	obj	_	_
+19	50	50	NUM	_	NUM__NumType=Card	17	nummod	_	_
+20	%	%	NOUN	_	NOUN__Gender=Masc	23	obj	_	_
+21	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#2ème mariage en participation aux acquêts et achat d'un deuxième appartement plus 2 studios détenus chacun à 50%.
+1	2ème	2ème	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	nummod	_	_
+2	mariage	mariage	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	en	en	ADP	_	ADP___	1	case	_	_
+4	participation	participation	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+5	aux	aux	ADP	_	ADP___	7	case	_	_
+6	acquêts	acquêt	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+7	et	et	CCONJ	_	CCONJ___	7	cc	_	_
+8	achat	achat	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+9	d'	de	ADP	_	ADP___	7	case	_	_
+10	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+11	deuxième	deuxième	ADJ	_	ADJ__Number=Sing|NumType=Ord	12	amod	_	_
+12	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nmod	_	_
+13	plus	plus	ADV	_	ADV___	14	advmod	_	_
+14	2	2	NUM	_	NUM__NumType=Card	14	nummod	_	_
+15	studios	studio	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	amod	_	_
+16	détenus	détenir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	acl	_	_
+17	chacun	chacun	PRON	_	PRON__Gender=Masc|PronType=Rel	14	obj	_	_
+18	à	à	ADP	_	ADP___	19	case	_	_
+19	50	50	NUM	_	NUM__NumType=Card	17	nummod	_	_
+20	%	%	NOUN	_	NOUN__Gender=Masc	23	obl	_	_
+21	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Mon père lors de ce 2ème mariage fait un acte de donation entre époux et en plus un testament.
+1	Mon	mon	DET	_	DET__Number=Sing|Poss=Yes	7	nmod:poss	_	_
+2	père	père	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+3	lors	lors	ADV	_	ADV___	1	case	_	_
+4	de	de	ADP	_	ADP___	7	fixed	_	_
+5	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+6	2ème	2èm	ADJ	_	ADJ__NumType=Ord	7	nummod	_	_
+7	mariage	mariage	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+8	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+9	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+10	acte	acte	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+11	de	de	ADP	_	ADP___	12	case	_	_
+12	donation	donation	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nmod	_	_
+13	entre	entrer	ADP	_	ADP___	14	case	_	_
+14	époux	époux	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nmod	_	_
+15	et	et	CCONJ	_	CCONJ___	16	cc	_	_
+16	en	en	ADP	_	ADP___	14	case	_	_
+17	plus	plus	ADV	_	ADV___	14	fixed	_	_
+18	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	testament	testament	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	conj	_	_
+20	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Dont je vous reproduit l'essentiel ci-après : "...
+1	Dont	dont	PRON	_	PRON__PronType=Rel	7	iobj	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+3	vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	iobj	_	_
+4	reproduit	reproduire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+6	essentiel	essentiel	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+7	ci-après	ci-après	ADP	_	ADP___	7	nmod	_	_
+8	:	:	PUNCT	_	PUNCT___	9	punct	_	_
+9	"	"	PUNCT	_	PUNCT___	7	punct	_	_
+10	...	...	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Je... confirme la donation entre époux que j'ai faîte à mon épouse ...
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	7	nsubj	_	_
+2	...	...	PUNCT	_	PUNCT___	3	punct	_	_
+3	confirme	confirmer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+5	donation	donation	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+6	entre	entrer	ADP	_	ADP___	7	case	_	_
+7	époux	époux	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	acl	_	_
+8	que	que	SCONJ	_	SCONJ___	9	obj	_	_
+9	j'	il	PRON	_	PRON__Number=Sing|Person=1	7	nsubj	_	_
+10	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+11	faîte	faîte	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
+12	à	à	ADP	_	ADP___	14	case	_	_
+13	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	14	nmod:poss	_	_
+14	épouse	épouse	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obl	_	_
+15	...	...	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Toutefois j'entends que celle-ci ne s'applique pas à mes droits dans l'appartement { Adresse de l'appartement acheté avec sa 1ère épouse}" .
+1	Toutefois	toutefois	ADV	_	ADV___	7	advmod	_	_
+2	j'	il	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+3	entends	entendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	que	que	SCONJ	_	SCONJ___	7	mark	_	_
+5	celle-ci	celui-ci	PRON	_	PRON__Gender=Fem|Number=Sing|PronType=Dem	7	nsubj	_	_
+6	ne	ne	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+7	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	7	expl	_	_
+8	applique	appliquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+9	pas	pas	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+10	à	à	ADP	_	ADP___	7	case	_	_
+11	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	12	nmod:poss	_	_
+12	droits	droit	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	obl	_	_
+13	dans	dan	ADP	_	ADP___	14	case	_	_
+14	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+15	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	nmod	_	_
+16	{	{	CCONJ	_	CCONJ___	14	nmod	_	_
+17	Adresse	adresse	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	amod	_	_
+18	de	de	ADP	_	ADP___	19	case	_	_
+19	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+20	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	nmod	_	_
+21	acheté	acheter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	acl	_	_
+22	avec	avec	ADP	_	ADP___	23	case	_	_
+23	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	19	nmod:poss	_	_
+24	1ère	1ère	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	amod	_	_
+25	épouse	épouse	NOUN	_	NOUN__Gender=Fem|Number=Sing	27	obl	_	_
+26	}	}	PROPN	_	PROPN___	27	nmod	_	_
+27	"	"	PUNCT	_	PUNCT___	14	punct	_	_
+28	.	.	PUNCT	_	PUNCT___	27	punct	_	_
+
+
+#" Les droits de mes deux premiers enfants dans ma succession seront pris par priorité sur les droits ci-dessus désignés puis si cela est insuffisant, sur mes droits immobiliers dans le studio { Adresse du 1er studio}, puis sur ceux dépendant du studio { Adresse du 2ème studio}et enfin sur mes liquidités.
+1	"	"	PUNCT	_	PUNCT___	7	punct	_	_
+2	Les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	3	det	_	_
+3	droits	droit	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	nsubj:pass	_	_
+4	de	de	ADP	_	ADP___	7	case	_	_
+5	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	7	nmod:poss	_	_
+6	deux	deux	NUM	_	NUM__NumType=Card	7	nummod	_	_
+7	premiers	premier	ADJ	_	ADJ__Gender=Masc|Number=Plur|NumType=Ord	7	amod	_	_
+8	enfants	enfant	NOUN	_	NOUN__Number=Plur	9	nmod	_	_
+9	dans	dan	ADP	_	ADP___	7	case	_	_
+10	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	7	nmod:poss	_	_
+11	succession	succession	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+12	seront	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	14	aux:pass	_	_
+13	pris	prendre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+14	par	par	ADP	_	ADP___	14	case	_	_
+15	priorité	priorité	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obl	_	_
+16	sur	sur	ADP	_	ADP___	14	case	_	_
+17	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	14	det	_	_
+18	droits	droit	NOUN	_	NOUN__Gender=Masc|Number=Plur	19	obl	_	_
+19	ci-dessus	ci-dessu	ADJ	_	ADJ__Gender=Masc|Number=Plur	17	amod	_	_
+20	désignés	désigner	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	23	amod	_	_
+21	puis	pouvoir	CCONJ	_	CCONJ___	23	cc	_	_
+22	si	si	SCONJ	_	SCONJ___	23	mark	_	_
+23	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	19	nsubj	_	_
+24	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+25	insuffisant	insuffisant	ADJ	_	ADJ__Gender=Masc|Number=Sing	27	conj	_	_
+26	,	,	PUNCT	_	PUNCT___	27	punct	_	_
+27	sur	sur	ADP	_	ADP___	14	case	_	_
+28	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	27	nmod:poss	_	_
+29	droits	droit	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	obl	_	_
+30	immobiliers	immobilier	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	32	amod	_	_
+31	dans	dan	ADP	_	ADP___	32	case	_	_
+32	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+33	studio	studio	NOUN	_	NOUN__Gender=Masc|Number=Sing	36	nmod	_	_
+34	{	{	CCONJ	_	CCONJ___	36	punct	_	_
+35	Adresse	adresser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	xcomp	_	_
+36	du	du	DET	_	DET__Gender=Masc|Number=Sing	32	det	_	_
+37	1er	1er	ADJ	_	ADJ__NumType=Ord	14	obj	_	_
+38	studio	studio	NOUN	_	NOUN__Gender=Masc|Number=Sing	39	amod	_	_
+39	}	}	PROPN	_	PROPN___	39	obj	_	_
+40	,	,	PUNCT	_	PUNCT___	42	punct	_	_
+41	puis	pouvoir	CCONJ	_	CCONJ___	42	cc	_	_
+42	sur	sur	ADP	_	ADP___	39	case	_	_
+43	ceux	celui	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Dem	44	obl	_	_
+44	dépendant	dépendre	VERB	_	VERB__Tense=Pres|VerbForm=Part	42	acl	_	_
+45	du	du	DET	_	DET__Gender=Masc|Number=Sing	46	det	_	_
+46	studio	studio	NOUN	_	NOUN__Gender=Masc|Number=Sing	44	obj	_	_
+47	{	{	CCONJ	_	CCONJ___	48	obj	_	_
+48	Adresse	adresser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	conj	_	_
+49	du	du	DET	_	DET__Gender=Masc|Number=Sing	51	det	_	_
+50	2ème	2ème	NOUN	_	NOUN__Gender=Masc|Number=Sing|NumType=Card	51	nummod	_	_
+51	studio}et	studio}et	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	44	obj	_	_
+52	enfin	enfin	ADV	_	ADV___	54	advmod	_	_
+53	sur	sur	ADP	_	ADP___	54	case	_	_
+54	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	51	nmod:poss	_	_
+55	liquidités	liquidité	NOUN	_	NOUN__Gender=Fem|Number=Plur	54	obl	_	_
+56	.	.	PUNCT	_	PUNCT___	57	punct	_	_
+
+
+#" "Le surplus de mes biens et droits, une fois prélevé le nécessaire pour désintéresser les enfants de mon premier mariage ainsi qu'il a été dit, reviendra aux enfants de mon second mariage grévé des droits d'épouse survivante de leur mère.
+1	"	"	PUNCT	_	PUNCT___	7	punct	_	_
+2	"	"	PUNCT	_	PUNCT___	3	punct	_	_
+3	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+4	surplus	surplus	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	de	de	ADP	_	ADP___	7	case	_	_
+6	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	7	nmod:poss	_	_
+7	biens	bien	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	nmod	_	_
+8	et	et	CCONJ	_	CCONJ___	9	cc	_	_
+9	droits	droit	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	conj	_	_
+10	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+11	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	fois	fois	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	appos	_	_
+13	prélevé	prélever	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	amod	_	_
+14	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+15	nécessaire	nécessaire	ADJ	_	ADJ__Number=Sing	16	amod	_	_
+16	pour	pour	ADP	_	ADP___	14	mark	_	_
+17	désintéresser	désintéresser	VERB	_	VERB__VerbForm=Inf	14	advcl	_	_
+18	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	19	det	_	_
+19	enfants	enfant	NOUN	_	NOUN__Number=Plur	17	obj	_	_
+20	de	de	ADP	_	ADP___	23	case	_	_
+21	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	23	nmod:poss	_	_
+22	premier	premier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	23	amod	_	_
+23	mariage	mariage	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	nmod	_	_
+24	ainsi	ainsi	ADV	_	ADV___	14	cc	_	_
+25	qu'	que	SCONJ	_	SCONJ___	27	fixed	_	_
+26	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	27	nsubj:pass	_	_
+27	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+28	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	27	aux:pass	_	_
+29	dit	dire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	14	conj	_	_
+30	,	,	PUNCT	_	PUNCT___	32	punct	_	_
+31	reviendra	revenir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	32	acl	_	_
+32	aux	aux	ADP	_	ADP___	14	nummod	_	_
+33	enfants	enfant	NOUN	_	NOUN__Number=Plur	36	nmod	_	_
+34	de	de	ADP	_	ADP___	36	case	_	_
+35	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	36	nmod:poss	_	_
+36	second	second	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	32	amod	_	_
+37	mariage	mariage	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nmod	_	_
+38	grévé	gréver	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	39	amod	_	_
+39	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	39	det	_	_
+40	droits	droit	NOUN	_	NOUN__Gender=Masc|Number=Plur	42	obj	_	_
+41	d'	de	ADP	_	ADP___	42	case	_	_
+42	épouse	épouse	NOUN	_	NOUN__Gender=Fem|Number=Sing	39	nmod	_	_
+43	survivante	survivant	ADJ	_	ADJ__Gender=Fem|Number=Sing	44	amod	_	_
+44	de	de	ADP	_	ADP___	42	case	_	_
+45	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	46	nmod:poss	_	_
+46	mère	mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	44	nmod	_	_
+47	.	.	PUNCT	_	PUNCT___	48	punct	_	_
+
+
+#" Ma belle mère a choisi l'option de 25% en pleine propriété et 75 % en usufruit.
+1	"	"	PUNCT	_	PUNCT___	7	punct	_	_
+2	Ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	3	nmod:poss	_	_
+3	belle	bel	ADJ	_	ADJ__Gender=Fem|Number=Sing	1	amod	_	_
+4	mère	mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nsubj	_	_
+5	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	choisi	choisir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+7	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+8	option	option	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obj	_	_
+9	de	de	ADP	_	ADP___	7	case	_	_
+10	25	25	NUM	_	NUM__NumType=Card	7	nummod	_	_
+11	%	%	NOUN	_	NOUN__Gender=Masc	12	nmod	_	_
+12	en	en	ADP	_	ADP___	14	case	_	_
+13	pleine	plein	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	nmod	_	_
+14	propriété	propriété	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	amod	_	_
+15	et	et	CCONJ	_	CCONJ___	16	cc	_	_
+16	75	75	NUM	_	NUM__NumType=Card	14	nummod	_	_
+17	%	%	NOUN	_	NOUN__Gender=Masc	14	conj	_	_
+18	en	en	ADP	_	ADP___	19	case	_	_
+19	usufruit	usufruit	VERB	_	VERB__VerbForm=Inf	17	nmod	_	_
+20	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Ma question est de savoir comment déterminer ce à quoi doit s'appliquer son option et comment déterminer la part de chacun des 4 enfants.
+1	Ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	7	nmod:poss	_	_
+2	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+4	de	de	ADP	_	ADP___	7	mark	_	_
+5	savoir	savoir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+6	comment	comment	ADV	_	ADV__PronType=Int	7	advmod	_	_
+7	déterminer	déterminer	VERB	_	VERB__VerbForm=Inf	7	ccomp	_	_
+8	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	9	obj	_	_
+9	à	à	ADP	_	ADP___	7	case	_	_
+10	quoi	quoi	PRON	_	PRON__PronType=Int	7	obl	_	_
+11	doit	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	14	expl	_	_
+13	appliquer	appliquer	VERB	_	VERB__VerbForm=Inf	14	acl:relcl	_	_
+14	son	son	DET	_	DET__Number=Sing|Poss=Yes	14	nmod:poss	_	_
+15	option	option	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obj	_	_
+16	et	et	CCONJ	_	CCONJ___	14	cc	_	_
+17	comment	comment	ADV	_	ADV__PronType=Int	14	advmod	_	_
+18	déterminer	déterminer	VERB	_	VERB__VerbForm=Inf	19	conj	_	_
+19	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+20	part	part	NOUN	_	NOUN__Number=Sing	23	obj	_	_
+21	de	de	ADP	_	ADP___	23	case	_	_
+22	chacun	chacun	PRON	_	PRON__Gender=Masc|PronType=Rel	23	obl	_	_
+23	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	19	det	_	_
+24	4	4	NUM	_	NUM__NumType=Card	14	nummod	_	_
+25	enfants	enfant	NOUN	_	NOUN__Number=Plur	27	nmod	_	_
+26	.	.	PUNCT	_	PUNCT___	27	punct	_	_
+
+
+#Merci à l'avance à ceux qui pourront m'aider dans ma recherche de réponses.
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	à	à	ADP	_	ADP___	3	case	_	_
+3	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+4	avance	avance	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+5	à	à	ADP	_	ADP___	7	case	_	_
+6	ceux	celui	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Dem	7	nmod	_	_
+7	qui	qui	PRON	_	PRON__PronType=Rel	7	nsubj	_	_
+8	pourront	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	9	aux	_	_
+9	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	7	expl	_	_
+10	aider	aider	VERB	_	VERB__VerbForm=Inf	7	acl:relcl	_	_
+11	dans	dan	ADP	_	ADP___	12	case	_	_
+12	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	14	nmod:poss	_	_
+13	recherche	recherche	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obl	_	_
+14	de	de	ADP	_	ADP___	14	case	_	_
+15	réponses	réponse	NOUN	_	NOUN__Gender=Fem|Number=Plur	16	nmod	_	_
+16	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#A bientôt
+1	A	a	NOUN	_	NOUN___	0	ROOT	_	_
+2	bientôt	bientôt	ADV	_	ADV___	3	advmod	_	_
+
+

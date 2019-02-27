@@ -1,0 +1,136 @@
+#bonjour, Pourquoi est
+1	bonjour	bonjour	NOUN	_	NOUN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Pourquoi	pourquoi	ADV	_	ADV__PronType=Int	1	advmod	_	_
+4	est	être		_	VERB	3	fixed	_	_
+
+
+#-ce l'agence qui a besoin de papier?
+1	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	1	det	_	_
+2	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+3	agence	agence	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	qui	qui	PRON	_	PRON__PronType=Rel	3	nsubj	_	_
+5	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+6	besoin	besoin	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+7	de	de	ADP	_	ADP___	7	case	_	_
+8	papier	papier	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obl	_	_
+9	?	?	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#C'est plutôt le notaire normalement...
+1	C'	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+2	est	être	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	plutôt	plutôt	ADV	_	ADV___	1	advmod	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+5	notaire	notaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+6	normalement	normalement	ADV	_	ADV___	7	advmod	_	_
+7	...	...	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Pour vous répondre brièvement: Vous n'êtes obligé à rien.
+1	Pour	Pour	ADP	_	ADP___	1	mark	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	obj	_	_
+3	répondre	répondre	VERB	_	VERB__VerbForm=Inf	1	advcl	_	_
+4	brièvement	brièvement	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	advmod	_	_
+5	:	:	PUNCT	_	PUNCT___	7	punct	_	_
+6	Vous	vous	PRON	_	PRON__Number=Plur|Person=2	7	nsubj:pass	_	_
+7	n'	ne	ADV	_	ADV___	7	advmod	_	_
+8	êtes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	obligé	obliger	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+10	à	à	ADP	_	ADP___	9	case	_	_
+11	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	12	obl	_	_
+12	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#L'avenant pour repousser la date de réitération est un "nouveau contrat" réclamant le consentement des deux parties.
+1	L'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+2	avenant	avenant	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	pour	pour	ADP	_	ADP___	1	mark	_	_
+4	repousser	repousser	VERB	_	VERB__VerbForm=Inf	3	xcomp	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	date	date	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+7	de	de	ADP	_	ADP___	7	case	_	_
+8	réitération	réitération	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nmod	_	_
+9	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+10	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+11	"	"	PUNCT	_	PUNCT___	12	punct	_	_
+12	nouveau	nouveau	ADJ	_	ADJ__Gender=Masc|Number=Sing	9	amod	_	_
+13	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+14	"	"	PUNCT	_	PUNCT___	18	punct	_	_
+15	réclamant	réclamer	VERB	_	VERB__Tense=Pres|VerbForm=Part	18	acl	_	_
+16	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	consentement	consentement	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obj	_	_
+18	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	18	det	_	_
+19	deux	deux	NUM	_	NUM__NumType=Card	18	nummod	_	_
+20	parties	party	NOUN	_	NOUN__Gender=Fem|Number=Plur	18	obj	_	_
+21	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Il peut être signé à tous moments en effet.
+1	Il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	être	être	AUX	_	AUX__VerbForm=Inf	1	aux:pass	_	_
+4	signé	signer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	xcomp	_	_
+5	à	à	ADP	_	ADP___	7	case	_	_
+6	tous	tout	DET	_	DET__Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	moments	moment	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	obl	_	_
+8	en	en	ADP	_	ADP___	9	advmod	_	_
+9	effet	effet	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	fixed	_	_
+10	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#votre refus de signature pourrait à terme empêcher la vente, mais cela ne reste qu'une hypothèse parmi tant d'autres.
+1	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	refus	refus	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	de	de	ADP	_	ADP___	1	case	_	_
+4	signature	signature	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nmod	_	_
+5	pourrait	pouvoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	à	à	ADP	_	ADP___	7	advmod	_	_
+7	terme	terme	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	fixed	_	_
+8	empêcher	empêcher	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+10	vente	vente	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obj	_	_
+11	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+12	mais	mais	CCONJ	_	CCONJ___	9	cc	_	_
+13	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	7	nsubj	_	_
+14	ne	ne	ADV	_	ADV___	18	advmod	_	_
+15	reste	rester	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	_
+16	qu'	que	SCONJ	_	SCONJ___	18	advmod	_	_
+17	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	hypothèse	hypothèse	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	obj	_	_
+19	parmi	parmi	ADP	_	ADP___	18	case	_	_
+20	tant	tant	ADV	_	ADV___	18	advmod	_	_
+21	d'	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	23	fixed	_	_
+22	autres	autre	ADJ	_	ADJ__Number=Plur	23	fixed	_	_
+23	.	.	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#Tout semble porter à croire qu'un intervenant à votre vente a un peu dormi depuis la signature du compromis...
+1	Tout	tout	ADV	_	ADV___	1	advmod	_	_
+2	semble	sembler	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
+3	porter	porter	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	à	à	ADP	_	ADP___	3	mark	_	_
+5	croire	croire	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+6	qu'	que	SCONJ	_	SCONJ___	7	mark	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+8	intervenant	intervenant	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	ccomp	_	_
+9	à	à	ADP	_	ADP___	7	case	_	_
+10	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	9	nmod:poss	_	_
+11	vente	vente	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+12	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+13	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	advmod	_	_
+14	peu	peu	ADV	_	ADV___	18	fixed	_	_
+15	dormi	dormir	ADP	_	ADP___	18	acl	_	_
+16	depuis	depuis	ADP	_	ADP___	18	case	_	_
+17	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	signature	signature	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	obl	_	_
+19	du	du	DET	_	DET__Gender=Masc|Number=Sing	18	det	_	_
+20	compromis	compromis	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obj	_	_
+21	...	...	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Cordialement,
+1	Cordialement	cordialement	ADV	_	ADV___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+
+
