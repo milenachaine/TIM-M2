@@ -14,6 +14,7 @@ from sklearn.externals import joblib
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
+from pandas_ml import ConfusionMatrix
 
 FEATURE_SIZE = 1000
 DOC_CLASS = {
@@ -59,10 +60,10 @@ def main():
 
     tfidf_rf_clf.fit(x_train,y_train)
     y_pred = tfidf_rf_clf.predict(x_test)
-    class_names = DOC_CLASS.values()
+
     # evaluation
-    print(metrics.classification_report(y_test, y_pred,
-                                     target_names=class_names))
+    print(metrics.classification_report(y_test, y_pred))
+    print(ConfusionMatrix(y_test,y_pred))
 
     # save pipeline
     joblib.dump(tfidf_rf_clf, "tfidf_rf_clf")
