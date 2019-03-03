@@ -1,0 +1,277 @@
+#Bonjour, Je viens d'acheter un appartement auprès d'une agence immobilière, qui cumule les gaffes :
+1	Bonjour	Bonjour	PROPN	_	PROPN___	4	mark	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	Je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+4	viens	venir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	d'	de	ADP	_	ADP___	6	mark	_	_
+6	acheter	acheter	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+9	auprès	auprès	ADP	_	ADP___	12	case	_	_
+10	d'	de	ADP	_	ADP___	9	fixed	_	_
+11	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	agence	agence	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obl	_	_
+13	immobilière	immobilier	ADJ	_	ADJ__Gender=Fem|Number=Sing	12	amod	_	_
+14	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+15	qui	qui	PRON	_	PRON__PronType=Rel	16	nsubj	_	_
+16	cumule	cumuler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+17	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	18	det	_	_
+18	gaffes	gaffe	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	obj	_	_
+19	:	:	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#- Ils nous ont fait visiter le mauvais parking, 2 fois (inclus dans l'appartement).
+1	-	-	PUNCT	_	PUNCT___	4	punct	_	_
+2	Ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	4	nsubj	_	_
+3	nous	nous	PRON	_	PRON__Number=Plur|Person=1	4	obj	_	_
+4	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+5	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+6	visiter	visiter	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	mauvais	mauvais	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+9	parking	parking	ADJ	_	ADJ__Gender=Masc|Number=Sing	12	amod	_	_
+10	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+11	2	2	NUM	_	NUM__NumType=Card	12	nummod	_	_
+12	fois	fois	NOUN	_	NOUN__Gender=Fem|Number=Plur	6	obl	_	_
+13	(	(	PUNCT	_	PUNCT___	12	punct	_	_
+14	inclus	inclure	ADV	_	ADV___	6	appos	_	_
+15	dans	dan	ADP	_	ADP___	16	case	_	_
+16	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+17	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nmod	_	_
+18	)	)	PUNCT	_	PUNCT___	16	punct	_	_
+19	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Or le véritable parking, n'a pas les mêmes caractéristiques (pas de lumière ni de prise de courant) - Dans le véritable parking, il y a une fuite.
+1	Or	Or	CCONJ	_	CCONJ___	4	cc	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	véritable	véritable	ADJ	_	ADJ__Number=Sing	4	amod	_	_
+4	parking	parking	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+5	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+6	n'	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+7	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	pas	pas	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+9	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	12	det	_	_
+10	mêmes	même	ADJ	_	ADJ__Number=Plur	9	amod	_	_
+11	caractéristiques	caractéristique	NOUN	_	NOUN__Gender=Fem|Number=Plur	12	obj	_	_
+12	(	(	PUNCT	_	PUNCT___	6	punct	_	_
+13	pas	pas	ADV	_	ADV___	12	advmod	_	_
+14	de	de	ADP	_	ADP___	6	case	_	_
+15	lumière	lumière	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nmod	_	_
+16	ni	ni	CCONJ	_	CCONJ___	6	cc	_	_
+17	de	de	ADP	_	ADP___	18	case	_	_
+18	prise	prise	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	conj	_	_
+19	de	de	ADP	_	ADP___	4	mark	_	_
+20	courant	courant	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	nmod	_	_
+21	)	)	PUNCT	_	PUNCT___	24	punct	_	_
+22	-	-	PUNCT	_	PUNCT___	24	punct	_	_
+23	Dans	Dans	ADP	_	ADP___	24	case	_	_
+24	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+25	véritable	véritable	ADJ	_	ADJ__Number=Sing	24	amod	_	_
+26	parking	parking	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	obl	_	_
+27	,	,	PUNCT	_	PUNCT___	25	punct	_	_
+28	il	il	PRON	_	PRON__Number=Sing|Person=3	27	conj	_	_
+29	y	yu	PRON	_	PRON__Person=3	27	fixed	_	_
+30	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	fixed	_	_
+31	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+32	fuite	fuite	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	obj	_	_
+33	.	.	PUNCT	_	PUNCT___	31	punct	_	_
+
+
+#Nous l'avons donc signaler et l'agence a dit se charger de faire le lien avec le syndic et de s'assurer que la facture soit réglé par l'ancien propriétaire.
+1	Nous	nous	PRON	_	PRON__Number=Plur|Person=1	4	nsubj	_	_
+2	l'	le	PRON	_	PRON__Number=Sing|Person=3	4	obj	_	_
+3	avons	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	donc	donc	ADV	_	ADV___	4	advmod	_	_
+5	signaler	signaler	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+6	et	et	CCONJ	_	CCONJ___	4	cc	_	_
+7	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	agence	agence	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nsubj	_	_
+9	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+10	dit	dire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	aux	_	_
+11	se	se	PRON	_	PRON__Person=3|Reflex=Yes	12	expl	_	_
+12	charger	charger	VERB	_	VERB__VerbForm=Inf	6	xcomp	_	_
+13	de	de	ADP	_	ADP___	12	mark	_	_
+14	faire	faire	VERB	_	VERB__VerbForm=Inf	6	xcomp	_	_
+15	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	lien	lien	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+17	avec	avec	ADP	_	ADP___	18	case	_	_
+18	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+19	syndic	syndic	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+20	et	et	CCONJ	_	CCONJ___	24	cc	_	_
+21	de	de	ADP	_	ADP___	24	mark	_	_
+22	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	24	expl	_	_
+23	assurer	assurer	VERB	_	VERB__VerbForm=Inf	24	conj	_	_
+24	que	que	SCONJ	_	SCONJ___	24	mark	_	_
+25	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+26	facture	facture	NOUN	_	NOUN__Gender=Fem|Number=Sing	27	nsubj:pass	_	_
+27	soit	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux:pass	_	_
+28	réglé	régler	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	27	ccomp	_	_
+29	par	par	ADP	_	ADP___	27	case	_	_
+30	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	31	det	_	_
+31	ancien	ancien	ADJ	_	ADJ__Gender=Masc|Number=Sing	25	amod	_	_
+32	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	31	obl	_	_
+33	.	.	PUNCT	_	PUNCT___	31	punct	_	_
+
+
+#OR j'ai appelé aujourd'hui le syndic, et celui ci dit n'avoir aucune nouvelle de l'agence (alors que cela fait une semaine et que celle ci prétends y avoir été)
+1	OR	OR	CCONJ	_	CCONJ___	4	cc	_	_
+2	j'	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+3	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	appelé	appeler	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	cop	_	_
+5	aujourd'hui	aujourd'huie	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+7	syndic	syndic	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+8	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+9	et	et	CCONJ	_	CCONJ___	12	cc	_	_
+10	celui	celui	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Dem	9	conj	_	_
+11	ci	ci	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	case	_	_
+12	dit	dire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	fixed	_	_
+13	n'	ne	ADV	_	ADV___	12	advmod	_	_
+14	avoir	avoir	VERB	_	VERB__VerbForm=Inf	6	acl	_	_
+15	aucune	aucun	DET	_	DET__Gender=Fem|Number=Sing	16	det	_	_
+16	nouvelle	nouveau	ADJ	_	ADJ__Gender=Fem|Number=Sing	6	obj	_	_
+17	de	de	ADP	_	ADP___	18	case	_	_
+18	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+19	agence	agence	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+20	(	(	PUNCT	_	PUNCT___	24	punct	_	_
+21	alors	alors	ADV	_	ADV___	24	mark	_	_
+22	que	que	SCONJ	_	SCONJ___	24	fixed	_	_
+23	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	24	nsubj	_	_
+24	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	advcl	_	_
+25	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+26	semaine	semaine	NOUN	_	NOUN__Gender=Fem|Number=Sing	27	obj	_	_
+27	et	et	CCONJ	_	CCONJ___	25	cc	_	_
+28	que	que	SCONJ	_	SCONJ___	27	mark	_	_
+29	celle	celui	PRON	_	PRON__Gender=Fem|Number=Sing|PronType=Dem	27	nsubj	_	_
+30	ci	ci	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	31	case	_	_
+31	prétends	prétend	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	nmod	_	_
+32	y	yu	PRON	_	PRON__Person=3	31	expl	_	_
+33	avoir	avoir	AUX	_	AUX__VerbForm=Inf	31	conj	_	_
+34	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	36	acl	_	_
+35	)	)	PUNCT	_	PUNCT___	36	punct	_	_
+
+
+#- L'ancien propriétaire n'a pas amenée le double de la clé d'appartement ni les bip pour acceder au parking à la signature de l'acte de vente, et l'agence ne les as toujours pas récupérer, presque une semaine et demi après !
+1	-	-	PUNCT	_	PUNCT___	4	punct	_	_
+2	L'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+3	ancien	ancien	ADJ	_	ADJ__Gender=Masc|Number=Sing	4	amod	_	_
+4	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	4	nsubj	_	_
+5	n'	ne	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+6	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+7	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+8	amenée	amener	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+10	double	double	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+11	de	de	ADP	_	ADP___	12	case	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+13	clé	clé	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+14	d'	de	ADP	_	ADP___	6	case	_	_
+15	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	nmod	_	_
+16	ni	ni	CCONJ	_	CCONJ___	6	cc	_	_
+17	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	18	det	_	_
+18	bip	bip	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	conj	_	_
+19	pour	pour	ADP	_	ADP___	4	mark	_	_
+20	acceder	acceder	VERB	_	VERB__VerbForm=Inf	24	advcl	_	_
+21	au	au	PRON	_	PRON___	24	det	_	_
+22	parking	parking	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	obj	_	_
+23	à	à	ADP	_	ADP___	24	case	_	_
+24	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+25	signature	signature	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	obl	_	_
+26	de	de	ADP	_	ADP___	27	case	_	_
+27	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+28	acte	acte	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	nmod	_	_
+29	de	de	ADP	_	ADP___	27	case	_	_
+30	vente	vente	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	nmod	_	_
+31	,	,	PUNCT	_	PUNCT___	25	punct	_	_
+32	et	et	CCONJ	_	CCONJ___	31	cc	_	_
+33	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	31	det	_	_
+34	agence	agence	NOUN	_	NOUN__Gender=Fem|Number=Sing	36	nsubj	_	_
+35	ne	ne	ADV	_	ADV__Polarity=Neg	36	advmod	_	_
+36	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	33	det	_	_
+37	as	as	NOUN	_	NOUN__Gender=Masc|Number=Plur	31	nmod	_	_
+38	toujours	toujours	ADV	_	ADV___	24	advmod	_	_
+39	pas	pas	ADV	_	ADV__Polarity=Neg	42	advmod	_	_
+40	récupérer	récupérer	VERB	_	VERB__VerbForm=Inf	42	parataxis	_	_
+41	,	,	PUNCT	_	PUNCT___	42	punct	_	_
+42	presque	presque	ADV	_	ADV___	45	conj	_	_
+43	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+44	semaine	semaine	NOUN	_	NOUN__Gender=Fem|Number=Sing	45	obj	_	_
+45	et	et	CCONJ	_	CCONJ___	45	cc	_	_
+46	demi	demi	NOUN	_	NOUN__Gender=Masc|Number=Sing	45	conj	_	_
+47	après	après	ADP	_	ADP___	49	advmod	_	_
+48	!	!	PUNCT	_	PUNCT___	49	punct	_	_
+
+
+#- Il faut continuellement les relancer.
+1	-	-	PUNCT	_	PUNCT___	4	punct	_	_
+2	Il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+3	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	continuellement	continuellemer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	xcomp	_	_
+5	les	le	PRON	_	PRON__Number=Plur|Person=3	6	det	_	_
+6	relancer	relancer	VERB	_	VERB__VerbForm=Inf	4	obj	_	_
+7	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Je dosi les appeler deux fois par jour !
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+2	dosi	dosi	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	4	obj	_	_
+4	appeler	appeler	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+5	deux	deux	NUM	_	NUM__NumType=Card	6	nummod	_	_
+6	fois	fois	NOUN	_	NOUN__Gender=Fem|Number=Plur	4	obj	_	_
+7	par	par	ADP	_	ADP___	8	case	_	_
+8	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nmod	_	_
+9	!	!	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Y a t'il des recours, pour demander un "remboursement" d'une partie des frais d'agence (très élevée) dans ce genre de cas ?
+1	Y	yu	PRON	_	PRON__Person=3	4	case	_	_
+2	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	fixed	_	_
+3	t'	t	SCONJ	_	SCONJ___	4	advmod	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	fixed	_	_
+5	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
+6	recours	recours	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+7	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+8	pour	pour	ADP	_	ADP___	6	mark	_	_
+9	demander	demander	VERB	_	VERB__VerbForm=Inf	12	advcl	_	_
+10	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+11	"	"	PUNCT	_	PUNCT___	12	punct	_	_
+12	remboursement	remboursement	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+13	"	"	PUNCT	_	PUNCT___	12	punct	_	_
+14	d'	de	ADP	_	ADP___	6	case	_	_
+15	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	partie	partie	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+17	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	18	det	_	_
+18	frais	frais	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	obj	_	_
+19	d'	de	ADP	_	ADP___	4	case	_	_
+20	agence	agence	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	nmod	_	_
+21	(	(	PUNCT	_	PUNCT___	24	punct	_	_
+22	très	très	ADV	_	ADV___	24	advmod	_	_
+23	élevée	élevé	ADJ	_	ADJ__Gender=Fem|Number=Sing	24	amod	_	_
+24	)	)	PUNCT	_	PUNCT___	24	punct	_	_
+25	dans	dan	ADP	_	ADP___	24	case	_	_
+26	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	27	det	_	_
+27	genre	genre	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	obl	_	_
+28	de	de	ADP	_	ADP___	27	case	_	_
+29	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Plur	27	nmod	_	_
+30	?	?	PUNCT	_	PUNCT___	31	punct	_	_
+
+
+#Au moins histoire d'avoir de quoi faire pression...
+1	Au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	det	_	_
+2	moins	moins	ADV	_	ADV___	4	advmod	_	_
+3	histoire	histoire	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	d'	de	ADP	_	ADP___	4	mark	_	_
+5	avoir	avoir	VERB	_	VERB__VerbForm=Inf	6	aux	_	_
+6	de	de	ADP	_	ADP___	4	case	_	_
+7	quoi	quoi	PRON	_	PRON__PronType=Int	8	obl	_	_
+8	faire	faire	VERB	_	VERB__VerbForm=Inf	6	acl	_	_
+9	pression	pression	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obj	_	_
+10	...	...	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Merci
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+
+

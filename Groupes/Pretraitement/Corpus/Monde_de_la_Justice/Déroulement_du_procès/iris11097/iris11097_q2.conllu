@@ -1,0 +1,72 @@
+#Edit :
+1	Edit	edit	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Nous rentrons du vétérinaire qui va essayer d'avoir des infos demain.
+1	Nous	nous	PRON	_	PRON__Number=Plur|Person=1	1	nsubj	_	_
+2	rentrons	rentrer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	du	du	DET	_	DET__Gender=Masc|Number=Sing	4	det	_	_
+4	vétérinaire	vétérinaire	NOUN	_	NOUN__Number=Sing	4	obj	_	_
+5	qui	qui	PRON	_	PRON__PronType=Rel	6	nsubj	_	_
+6	va	aller	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+7	essayer	essayer	VERB	_	VERB__VerbForm=Inf	9	acl:relcl	_	_
+8	d'	de	ADP	_	ADP___	9	mark	_	_
+9	avoir	avoir	VERB	_	VERB__VerbForm=Inf	6	xcomp	_	_
+10	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
+11	infos	info	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obj	_	_
+12	demain	demain	ADV	_	ADV___	13	amod	_	_
+13	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Elle a vu qu'Ulysse était enregistré à la date du 05 janvier en fourrière.
+1	Elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	1	nsubj	_	_
+2	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	vu	voir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	qu'	que	SCONJ	_	SCONJ___	4	mark	_	_
+5	Ulysse	Ulysse	PROPN	_	PROPN__Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+6	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux:pass	_	_
+7	enregistré	enregistrer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	ccomp	_	_
+8	à	à	ADP	_	ADP___	9	case	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+10	date	date	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obl	_	_
+11	du	du	DET	_	DET__Gender=Masc|Number=Sing	9	det	_	_
+12	05	05	NUM	_	NUM__NumType=Card	13	nummod	_	_
+13	janvier	janvier	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obl	_	_
+14	en	en	ADP	_	ADP___	13	case	_	_
+15	fourrière	fourrière	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obl	_	_
+16	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#C'est à dire sans propriétaire, sans identification.
+1	C'	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	à	à	ADP	_	ADP___	4	mark	_	_
+4	dire	dire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	sans	sans	ADP	_	ADP___	6	case	_	_
+6	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	4	obl	_	_
+7	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+8	sans	sans	ADP	_	ADP___	9	case	_	_
+9	identification	identification	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+10	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Alors que son tatouage est visible et que je me suis signalé à la police.
+1	Alors	alors	ADV	_	ADV___	1	mark	_	_
+2	que	que	SCONJ	_	SCONJ___	1	fixed	_	_
+3	son	son	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+4	tatouage	tatouage	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	visible	visible	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+7	et	et	CCONJ	_	CCONJ___	9	cc	_	_
+8	que	que	SCONJ	_	SCONJ___	9	mark	_	_
+9	je	il	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+10	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	11	expl	_	_
+11	suis	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+12	signalé	signaler	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	conj	_	_
+13	à	à	ADP	_	ADP___	11	case	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+15	police	police	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obl	_	_
+16	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+

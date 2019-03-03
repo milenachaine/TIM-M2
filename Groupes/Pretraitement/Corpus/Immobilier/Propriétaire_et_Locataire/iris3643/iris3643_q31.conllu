@@ -1,0 +1,252 @@
+#Bonsoir Dompp.
+1	Bonsoir	Bonsoir	PROPN	_	PROPN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	Dompp	Dompp	PROPN	_	PROPN___	1	flat:name	_	_
+3	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Cela confirme ce que je lis.
+1	Cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	1	nsubj	_	_
+2	confirme	confirmer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	ce	ce	PRON	_	PRON__PronType=Rel	1	obj	_	_
+4	que	que	PRON	_	PRON__PronType=Rel	5	obj	_	_
+5	je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+6	lis	lire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+7	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Ce qui n'est pas notre cas, mais redites mois si je me trompe.
+1	Ce	ce	PRON	_	PRON__PronType=Rel	0	ROOT	_	_
+2	qui	qui	PRON	_	PRON__PronType=Rel	1	nsubj	_	_
+3	n'	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+6	notre	notre	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+7	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	acl:relcl	_	_
+8	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+9	mais	mais	CCONJ	_	CCONJ___	6	cc	_	_
+10	redites	redite	AUX	_	AUX__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	conj	_	_
+11	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	iobj	_	_
+12	si	si	SCONJ	_	SCONJ___	17	mark	_	_
+13	je	il	PRON	_	PRON__Number=Sing|Person=1	17	nsubj	_	_
+14	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	17	expl	_	_
+15	trompe	trompe	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	advcl	_	_
+16	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Le vendeur ne vend pas à une tierce personne en nous maintenant en tant que locataire.
+1	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	vendeur	vendeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	ne	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+4	vend	vendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+6	à	à	ADP	_	ADP___	5	case	_	_
+7	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	tierce	tierce	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obl	_	_
+9	personne	personn	ADJ	_	ADJ__Gender=Fem|Number=Sing	6	amod	_	_
+10	en	en	ADP	_	ADP___	5	case	_	_
+11	nous	nous	PRON	_	PRON__Number=Plur|Person=1	11	obl	_	_
+12	maintenant	maintenant	ADV	_	ADV___	17	advmod	_	_
+13	en	en	ADP	_	ADP___	17	mark	_	_
+14	tant	tant	ADV	_	ADV___	17	fixed	_	_
+15	que	que	SCONJ	_	SCONJ___	17	fixed	_	_
+16	locataire	locataire	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obl	_	_
+17	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Il nous la vend à nous, les locataires.
+1	Il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	nous	nous	PRON	_	PRON__Number=Plur|Person=1	1	iobj	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	obj	_	_
+4	vend	vendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	à	à	ADP	_	ADP___	5	case	_	_
+6	nous	nous	PRON	_	PRON__Number=Plur|Person=1	5	obl	_	_
+7	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+8	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+9	locataires	locataire	NOUN	_	NOUN__Number=Plur	6	obj	_	_
+10	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#---------- Message ajouté à 20h27 ---------- Précédent message à 20h24
+1	----------	----------	DET	_	DET___	1	det	_	_
+2	Message	message	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	ajouté	ajouter	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	acl	_	_
+4	à	à	ADP	_	ADP___	5	case	_	_
+5	20h27	20h27	NUM	_	NUM__NumType=Card	5	nummod	_	_
+6	----------	----------	ADJ	_	ADJ__NumType=Ord	5	obl	_	_
+7	Précédent	précédent	ADJ	_	ADJ__Gender=Masc|Number=Sing	9	nmod	_	_
+8	message	message	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	flat:name	_	_
+9	à	à	ADP	_	ADP___	6	case	_	_
+10	20h24	20h24	NUM	_	NUM__NumType=Card	5	obl	_	_
+
+
+#----------
+1	----------	----------	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	0	ROOT	_	_
+
+
+#Mon interrogation est que si cette lettre pour congé est impérative, elle ne doit pas faire apparaître la commission de l'agent.
+1	Mon	mon	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	interrogation	interrogation	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+4	que	que	SCONJ	_	SCONJ___	5	advmod	_	_
+5	si	si	SCONJ	_	SCONJ___	5	mark	_	_
+6	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+7	lettre	lettre	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nsubj	_	_
+8	pour	pour	ADP	_	ADP___	9	case	_	_
+9	congé	congé	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nmod	_	_
+10	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+11	impérative	impératif	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	advcl	_	_
+12	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+13	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	17	nsubj	_	_
+14	ne	ne	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+15	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	pas	pas	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+17	faire	faire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+18	apparaître	apparaître	VERB	_	VERB__VerbForm=Inf	11	xcomp	_	_
+19	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	commission	commission	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obj	_	_
+21	de	de	ADP	_	ADP___	20	case	_	_
+22	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+23	agent	agent	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	nmod	_	_
+24	.	.	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#Lorsqu'il est fondé sur la décision de vendre le logement, le congé doit, à peine de nullité, indiquer le prix et les conditions de la vente projetée.
+1	Lorsqu'	Lorsqu'	SCONJ	_	SCONJ___	1	mark	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj:pass	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
+4	fondé	fonder	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	advcl	_	_
+5	sur	sur	ADP	_	ADP___	5	case	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+7	décision	décision	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obl	_	_
+8	de	de	ADP	_	ADP___	9	mark	_	_
+9	vendre	vendre	VERB	_	VERB__VerbForm=Inf	6	acl	_	_
+10	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+11	logement	logement	ADV	_	ADV___	11	obj	_	_
+12	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+13	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+14	congé	congé	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	nsubj	_	_
+15	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+17	à	à	ADP	_	ADP___	11	case	_	_
+18	peine	peiner	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obl	_	_
+19	de	de	ADP	_	ADP___	20	case	_	_
+20	nullité	nullité	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+21	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+22	indiquer	indiquer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+23	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	prix	prix	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	obj	_	_
+25	et	et	CCONJ	_	CCONJ___	20	cc	_	_
+26	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	11	det	_	_
+27	conditions	condition	NOUN	_	NOUN__Gender=Fem|Number=Plur	28	conj	_	_
+28	de	de	ADP	_	ADP___	30	case	_	_
+29	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	vente	vente	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	nmod	_	_
+31	projetée	projeter	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	30	amod	_	_
+32	.	.	PUNCT	_	PUNCT___	34	punct	_	_
+
+
+#Toutefois, le prix proposé ne peut inclure la commission d'agence.
+1	Toutefois	toutefois	ADV	_	ADV___	1	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+4	prix	prix	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+5	proposé	proposer	ADJ	_	ADJ__Gender=Masc|Number=Sing	5	acl	_	_
+6	ne	ne	ADV	_	ADV___	5	advmod	_	_
+7	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	inclure	inclure	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+10	commission	commission	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obj	_	_
+11	d'	de	ADP	_	ADP___	11	case	_	_
+12	agence	agence	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	nmod	_	_
+13	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#En location vide, le locataire qui a reçu un congé pour vente et qui accepte l'offre de vente formulée par le propriétaire ne peut se voir imposer le paiement de la commission d'agence.
+1	En	En	ADP	_	ADP___	1	case	_	_
+2	location	location	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	vide	vide	ADJ	_	ADJ__Number=Sing	1	amod	_	_
+4	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+6	locataire	locataire	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	appos	_	_
+7	qui	qui	PRON	_	PRON__PronType=Rel	9	nsubj	_	_
+8	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	reçu	recevoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+10	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+11	congé	congé	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+12	pour	pour	ADP	_	ADP___	17	case	_	_
+13	vente	vente	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	obl	_	_
+14	et	et	CCONJ	_	CCONJ___	17	cc	_	_
+15	qui	qui	PRON	_	PRON__PronType=Rel	17	nsubj	_	_
+16	accepte	accepter	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	conj	_	_
+17	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+18	offre	offre	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obj	_	_
+19	de	de	ADP	_	ADP___	20	case	_	_
+20	vente	vente	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+21	formulée	formuler	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	acl	_	_
+22	par	par	ADP	_	ADP___	25	case	_	_
+23	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	25	obl	_	_
+25	ne	ne	ADV	_	ADV___	20	advmod	_	_
+26	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+27	se	se	PRON	_	PRON__Person=3|Reflex=Yes	28	expl	_	_
+28	voir	voir	VERB	_	VERB__VerbForm=Inf	30	xcomp	_	_
+29	imposer	imposer	VERB	_	VERB__VerbForm=Inf	30	xcomp	_	_
+30	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+31	paiement	paiement	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	obj	_	_
+32	de	de	ADP	_	ADP___	34	case	_	_
+33	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	commission	commission	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	nmod	_	_
+35	d'	de	ADP	_	ADP___	34	case	_	_
+36	agence	agence	NOUN	_	NOUN__Gender=Fem|Number=Sing	37	nmod	_	_
+37	.	.	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#Cela reviendrait à augmenter le prix de vente du bien.
+1	Cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	1	nsubj	_	_
+2	reviendrait	revenir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+3	à	à	ADP	_	ADP___	1	mark	_	_
+4	augmenter	augmenter	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+6	prix	prix	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+7	de	de	ADP	_	ADP___	9	case	_	_
+8	vente	vente	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obl	_	_
+9	du	du	DET	_	DET__Gender=Masc|Number=Sing	6	det	_	_
+10	bien	bien	ADV	_	ADV___	5	obj	_	_
+11	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#C'est la solution adoptée par la Cour de cassation dans un arrêt du 3 juillet 2013.
+1	C'	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+4	solution	solution	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+5	adoptée	adopter	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+6	par	par	ADP	_	ADP___	5	case	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	Cour	cour	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obl	_	_
+9	de	de	ADP	_	ADP___	6	case	_	_
+10	cassation	cassation	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+11	dans	dan	ADP	_	ADP___	11	case	_	_
+12	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+13	arrêt	arrêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obl	_	_
+14	du	du	DET	_	DET__Gender=Masc|Number=Sing	17	det	_	_
+15	3	3	NUM	_	NUM__NumType=Card	17	nummod	_	_
+16	juillet	juillet	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	nmod	_	_
+17	2013	2013	NUM	_	NUM__NumType=Card	11	nummod	_	_
+18	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#N° de pourvoi: 12
+1	N	n	NOUN	_	NOUN___	0	ROOT	_	_
+2	°	°	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+3	de	de	ADP	_	ADP___	1	case	_	_
+4	pourvoi	pourvoi	VERB	_	VERB__VerbForm=Inf	5	nmod	_	_
+5	:	:	PUNCT	_	PUNCT___	5	punct	_	_
+6	12	12	NUM	_	NUM__NumType=Card	5	nummod	_	_
+
+
+#-19442
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	19442	19442	NUM	_	NUM__NumType=Card	0	ROOT	_	_
+
+

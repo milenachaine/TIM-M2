@@ -1,0 +1,279 @@
+#Si, si: BAJ "section cour d'appel".
+1	Si	Si	SCONJ	_	SCONJ___	2	mark	_	_
+2	,	,	PUNCT	_	PUNCT___	0	ROOT	_	_
+3	si	si	SCONJ	_	SCONJ___	5	mark	_	_
+4	:	:	PUNCT	_	PUNCT___	5	punct	_	_
+5	BAJ	baj	NOUN	_	NOUN___	2	fixed	_	_
+6	"	"	PUNCT	_	PUNCT___	7	punct	_	_
+7	section	section	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+8	cour	cour	ADJ	_	ADJ__Number=Sing	7	nmod	_	_
+9	d'	de	ADP	_	ADP___	10	case	_	_
+10	appel	appel	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+11	"	"	PUNCT	_	PUNCT___	5	punct	_	_
+12	.	.	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#(comme précise YomYom : affaire civile, pas pour saisir le TA)
+1	(	(	PUNCT	_	PUNCT___	2	punct	_	_
+2	comme	comme	ADP	_	ADP___	2	mark	_	_
+3	précise	préciser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+4	YomYom	YomYom	PROPN	_	PROPN___	5	nsubj	_	_
+5	:	:	PUNCT	_	PUNCT___	2	punct	_	_
+6	affaire	affaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+7	civile	civil	ADJ	_	ADJ__Gender=Fem|Number=Sing	5	amod	_	_
+8	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+9	pas	pas	ADV	_	ADV___	10	advmod	_	_
+10	pour	pour	ADP	_	ADP___	7	mark	_	_
+11	saisir	saisir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+13	TA	TA	PROPN	_	PROPN__Gender=Masc|Number=Sing	23	obj	_	_
+14	)	)	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Son adresse est effectivement la même que celle du TGI.
+1	Son	son	DET	_	DET__Number=Sing|Poss=Yes	2	nmod:poss	_	_
+2	adresse	adresse	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	effectivement	effectivement	ADV	_	ADV___	5	advmod	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+6	même	même	ADV	_	ADV___	0	ROOT	_	_
+7	que	que	SCONJ	_	SCONJ___	5	mark	_	_
+8	celle	celui	PRON	_	PRON__Gender=Fem|Number=Sing|PronType=Dem	7	dep	_	_
+9	du	du	DET	_	DET__Gender=Masc|Number=Sing	10	det	_	_
+10	TGI	tgi	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+11	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#La section compte un secrétaire (le greffier en chef ou désigné par celui-ci) et des fonctionnaires distincts
+1	La	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	section	section	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	compte	compter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	amod	_	_
+4	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	secrétaire	secrétaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	nmod	_	_
+6	(	(	PUNCT	_	PUNCT___	7	punct	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+8	greffier	greffier	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+9	en	en	ADP	_	ADP___	10	case	_	_
+10	chef	chef	NOUN	_	NOUN__Number=Sing	7	nmod	_	_
+11	ou	ou	CCONJ	_	CCONJ___	5	cc	_	_
+12	désigné	désigner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+13	par	par	ADP	_	ADP___	23	case	_	_
+14	celui-ci	celui-ci	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Dem	15	obl	_	_
+15	)	)	PUNCT	_	PUNCT___	23	punct	_	_
+16	et	et	CCONJ	_	CCONJ___	15	cc	_	_
+17	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	18	det	_	_
+18	fonctionnaires	fonctionnaire	NOUN	_	NOUN__Number=Plur	15	conj	_	_
+19	distincts	distinct	ADP	_	ADP___	18	nmod	_	_
+
+
+#Cf.
+1	Cf	cf	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+2	.	.	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#article 16 pour l'organigramme: un magistrat du siège comme Président, le Greffier en chef et 2 fonctionnairees (on a des _fonctionnaires_ face à l'usager) Plus 2 auxiliaires dont au moins un avocat (je suppose que c'est lui qui reçoit la délégation des art.
+1	article	article	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	obl	_	_
+2	16	16	NUM	_	NUM__NumType=Card	2	nummod	_	_
+3	pour	pour	ADP	_	ADP___	5	case	_	_
+4	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	organigramme	organigramme	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	nmod	_	_
+6	:	:	PUNCT	_	PUNCT___	7	punct	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+8	magistrat	magistrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nsubj	_	_
+9	du	du	DET	_	DET__Gender=Masc|Number=Sing	10	det	_	_
+10	siège	siège	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+11	comme	comme	ADP	_	ADP___	5	case	_	_
+12	Président	président	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	nmod	_	_
+13	,	,	PUNCT	_	PUNCT___	23	punct	_	_
+14	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Greffier	greffier	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	conj	_	_
+16	en	en	ADP	_	ADP___	15	case	_	_
+17	chef	chef	NOUN	_	NOUN__Number=Sing	18	nmod	_	_
+18	et	et	CCONJ	_	CCONJ___	15	cc	_	_
+19	2	2	NUM	_	NUM__NumType=Card	18	nummod	_	_
+20	fonctionnairees	fonctionnaireer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	conj	_	_
+21	(	(	PUNCT	_	PUNCT___	23	punct	_	_
+22	on	on	PRON	_	PRON__Number=Sing|Person=3	23	nsubj	_	_
+23	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+24	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	25	det	_	_
+25	_	_	NOUN	_	NOUN__Gender=Masc|Number=Plur	23	amod	_	_
+26	fonctionnaires	fonctionnaire	NOUN	_	NOUN__Number=Plur	23	obj	_	_
+27	_	_	ADP	_	ADP___	28	amod	_	_
+28	face	face	NOUN	_	NOUN__Gender=Fem|Number=Sing	32	case	_	_
+29	à	à	ADP	_	ADP___	32	fixed	_	_
+30	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	31	det	_	_
+31	usager	usager	VERB	_	VERB__VerbForm=Inf	32	advcl	_	_
+32	)	)	PUNCT	_	PUNCT___	32	punct	_	_
+33	Plus	plus	ADV	_	ADV___	34	advmod	_	_
+34	2	2	NUM	_	NUM__NumType=Card	32	nummod	_	_
+35	auxiliaires	auxiliaire	NOUN	_	NOUN__Gender=Fem|Number=Plur	36	obl	_	_
+36	dont	dont	PRON	_	PRON__PronType=Rel	34	advmod	_	_
+37	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	32	fixed	_	_
+38	moins	moins	ADV	_	ADV___	39	acl:relcl	_	_
+39	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+40	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	39	obj	_	_
+41	(	(	PUNCT	_	PUNCT___	42	punct	_	_
+42	je	il	PRON	_	PRON__Number=Sing|Person=1	39	nsubj	_	_
+43	suppose	supposer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	39	parataxis	_	_
+44	que	que	SCONJ	_	SCONJ___	45	mark	_	_
+45	c'	ce	PRON	_	PRON__Number=Sing|Person=3	39	nsubj	_	_
+46	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	cop	_	_
+47	lui	luire	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Prs	45	ccomp	_	_
+48	qui	qui	PRON	_	PRON__PronType=Rel	49	nsubj	_	_
+49	reçoit	recevoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	acl:relcl	_	_
+50	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
+51	délégation	délégation	NOUN	_	NOUN__Gender=Fem|Number=Sing	49	obj	_	_
+52	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	39	det	_	_
+53	art	art	NOUN	_	NOUN__Gender=Masc|Number=Plur	55	nmod	_	_
+54	.	.	PUNCT	_	PUNCT___	55	punct	_	_
+
+
+#77.78)
+1	77.78	77.78	NOUN	_	NOUN__NumType=Card	0	ROOT	_	_
+2	)	)	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#Plus un représentant des usagers (pour les services d'accès au droit) Jepense que dans les petits bareaux, l'avocat membre du bureau est le bâtonnier lui-même qui s'autodésigne.
+1	Plus	Plus	ADP	_	ADP___	2	advmod	_	_
+2	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+3	représentant	représentant	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
+5	usagers	usager	NOUN	_	NOUN__Gender=Masc|Number=Plur	2	nmod	_	_
+6	(	(	PUNCT	_	PUNCT___	7	punct	_	_
+7	pour	pour	ADP	_	ADP___	5	case	_	_
+8	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+9	services	service	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	nmod	_	_
+10	d'	de	ADP	_	ADP___	7	case	_	_
+11	accès	accès	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+12	au	au	PRON	_	PRON__PronType=Rel	2	case	_	_
+13	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	nmod	_	_
+14	)	)	PUNCT	_	PUNCT___	15	punct	_	_
+15	Jepense	Jepense	PROPN	_	PROPN___	23	nmod	_	_
+16	que	que	SCONJ	_	SCONJ___	15	mark	_	_
+17	dans	dan	ADP	_	ADP___	18	case	_	_
+18	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	15	det	_	_
+19	petits	petit	ADJ	_	ADJ__Gender=Masc|Number=Plur	18	amod	_	_
+20	bareaux	bareaux	NOUN	_	NOUN__Gender=Masc|Number=Plur	23	nmod	_	_
+21	,	,	PUNCT	_	PUNCT___	23	punct	_	_
+22	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+23	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	nsubj	_	_
+24	membre	membre	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	amod	_	_
+25	du	du	DET	_	DET__Gender=Masc|Number=Sing	23	det	_	_
+26	bureau	bureau	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	nmod	_	_
+27	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+28	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+29	bâtonnier	bâtonnier	NOUN	_	NOUN__Gender=Masc|Number=Sing	32	conj	_	_
+30	lui-même	lui-même	PRON	_	PRON__PronType=Rel	31	iobj	_	_
+31	qui	qui	PRON	_	PRON__PronType=Rel	32	nsubj	_	_
+32	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	32	expl	_	_
+33	autodésigne	autodésigne	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	acl:relcl	_	_
+34	.	.	PUNCT	_	PUNCT___	32	punct	_	_
+
+
+#Mais il n'agit pas en qualité de bâtonnier: il agit en tant qu'avocat membre du bureau.
+1	Mais	Mais	CCONJ	_	CCONJ___	2	cc	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+3	n'	ne	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+4	agit	agir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	2	advmod	_	_
+6	en	en	ADP	_	ADP___	7	case	_	_
+7	qualité	qualité	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obl	_	_
+8	de	de	ADP	_	ADP___	7	case	_	_
+9	bâtonnier	bâtonnier	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+10	:	:	PUNCT	_	PUNCT___	7	punct	_	_
+11	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+12	agit	agir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+13	en	en	ADP	_	ADP___	23	case	_	_
+14	tant	tant	ADV	_	ADV___	15	fixed	_	_
+15	qu'	que	SCONJ	_	SCONJ___	23	fixed	_	_
+16	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obl	_	_
+17	membre	membre	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	amod	_	_
+18	du	du	DET	_	DET__Gender=Masc|Number=Sing	15	det	_	_
+19	bureau	bureau	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nmod	_	_
+20	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#L'avocat membre du Bureau, c'est un professionnel de droit privé.
+1	L'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	2	det	_	_
+2	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	membre	membre	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	amod	_	_
+4	du	du	DET	_	DET__Gender=Masc|Number=Sing	5	det	_	_
+5	Bureau	bureau	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	nmod	_	_
+6	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+7	c'	ce	PRON	_	PRON__Number=Sing|Person=3	5	nsubj	_	_
+8	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+9	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	professionnel	professionnel	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	conj	_	_
+11	de	de	ADP	_	ADP___	5	case	_	_
+12	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	nmod	_	_
+13	privé	privé	ADJ	_	ADJ__Gender=Masc|Number=Sing	23	amod	_	_
+14	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Il n'a pas à intervenir devant les Usagers, quand bien même il exerce de bâtonnier devant ses confrères.
+1	Il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	2	advmod	_	_
+3	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+5	à	à	ADP	_	ADP___	2	mark	_	_
+6	intervenir	intervenir	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+7	devant	devoir	ADP	_	ADP___	5	case	_	_
+8	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+9	Usagers	usager	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	obl	_	_
+10	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+11	quand	quand	ADV	_	ADV___	5	advmod	_	_
+12	bien	bien	ADV	_	ADV___	2	advmod	_	_
+13	même	même	ADV	_	ADV___	23	fixed	_	_
+14	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	15	nsubj	_	_
+15	exerce	exercer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	obj	_	_
+16	de	de	ADP	_	ADP___	15	case	_	_
+17	bâtonnier	bâtonnier	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nmod	_	_
+18	devant	devoir	ADP	_	ADP___	15	case	_	_
+19	ses	son	DET	_	DET__Number=Plur|Poss=Yes	18	nmod:poss	_	_
+20	confrères	confrère	NOUN	_	NOUN__Gender=Masc|Number=Plur	23	obl	_	_
+21	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#A propos: pour les avocats, il existe un "organisme professionnel" distinct du barreau, ou bien c'est tous le barreaux sont adscrits au même organisme pro-, l'Ordre National des Barreaux je suppose ?
+1	A	A	ADP	_	ADP___	2	advmod	_	_
+2	propos	propos	NOUN	_	NOUN__Gender=Masc|Number=Plur	2	fixed	_	_
+3	:	:	PUNCT	_	PUNCT___	5	punct	_	_
+4	pour	pour	ADP	_	ADP___	5	case	_	_
+5	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	2	det	_	_
+6	avocats	avocat	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	obl	_	_
+7	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+8	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+9	existe	exister	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+10	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+11	"	"	PUNCT	_	PUNCT___	5	punct	_	_
+12	organisme	organisme	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	obj	_	_
+13	professionnel	professionnel	ADJ	_	ADJ__Gender=Masc|Number=Sing	23	amod	_	_
+14	"	"	PUNCT	_	PUNCT___	15	punct	_	_
+15	distinct	distinct	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	acl	_	_
+16	du	du	DET	_	DET__Gender=Masc|Number=Sing	15	det	_	_
+17	barreau	barreau	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obj	_	_
+18	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+19	ou	ou	CCONJ	_	CCONJ___	18	cc	_	_
+20	bien	bien	ADV	_	ADV___	23	advmod	_	_
+21	c'	ce	PRON	_	PRON__Number=Sing|Person=3	23	nsubj	_	_
+22	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+23	tous	tou	ADJ	_	ADJ__Gender=Masc|Number=Plur	23	amod	_	_
+24	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	barreaux	barreau	NOUN	_	NOUN__Gender=Masc|Number=Plur	23	conj	_	_
+26	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux:pass	_	_
+27	adscrits	adscrit	ADJ	_	ADJ__Gender=Masc|Number=Plur	28	conj	_	_
+28	au	au	PRON	_	PRON___	32	det	_	_
+29	même	même	ADJ	_	ADJ__Number=Sing	32	amod	_	_
+30	organisme	organisme	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	obj	_	_
+31	pro-	pro-	NOUN	_	NOUN___	32	advmod	_	_
+32	,	,	PUNCT	_	PUNCT___	32	punct	_	_
+33	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	34	det	_	_
+34	Ordre	ordre	NOUN	_	NOUN__Gender=Masc|Number=Sing	32	nsubj	_	_
+35	National	National	PROPN	_	PROPN___	36	nmod	_	_
+36	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	34	det	_	_
+37	Barreaux	barreau	NOUN	_	NOUN__Gender=Masc|Number=Plur	32	nmod	_	_
+38	je	il	PRON	_	PRON__Number=Sing|Person=1	39	nsubj	_	_
+39	suppose	supposer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	39	advcl	_	_
+40	?	?	PUNCT	_	PUNCT___	39	punct	_	_
+
+

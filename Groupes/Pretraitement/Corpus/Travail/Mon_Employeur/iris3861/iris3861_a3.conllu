@@ -1,0 +1,289 @@
+#A voir ce qui est mis dans la transac, mais le rappel des heures supplémentaires devrait être traité comme du salaire, donc imposable.
+1	A	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	voir	voir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+3	ce	ce	PRON	_	PRON__PronType=Rel	2	obj	_	_
+4	qui	qui	PRON	_	PRON__PronType=Rel	6	nsubj:pass	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	mis	mettre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part|Voice=Pass	3	acl:relcl	_	_
+7	dans	dan	ADP	_	ADP___	9	case	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	transac	transac	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obl	_	_
+10	,	,	PUNCT	_	PUNCT___	2	punct	_	_
+11	mais	mais	CCONJ	_	CCONJ___	17	cc	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	rappel	rappel	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	nsubj	_	_
+14	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	15	det	_	_
+15	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	17	nsubj	_	_
+16	supplémentaires	supplémentaire	ADJ	_	ADJ__Number=Plur	15	amod	_	_
+17	devrait	devoir	VERB	_	VERB__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+18	être	être	AUX	_	AUX__VerbForm=Inf	19	aux:pass	_	_
+19	traité	traiter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	xcomp	_	_
+20	comme	comme	ADP	_	ADP___	22	case	_	_
+21	du	du	DET	_	DET__Gender=Masc|Number=Sing	22	det	_	_
+22	salaire	salaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obl	_	_
+23	,	,	PUNCT	_	PUNCT___	22	punct	_	_
+24	donc	donc	ADV	_	ADV___	25	advmod	_	_
+25	imposable	imposable	ADJ	_	ADJ__Number=Sing	22	amod	_	_
+26	.	.	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#Pour les dommages et intérêts, c'est un peu plus compliqué en fonction des préjudices évoqués :
+1	Pour	Pour	ADP	_	ADP___	2	case	_	_
+2	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	2	det	_	_
+3	dommages	dommage	NOUN	_	NOUN__Gender=Masc|Number=Plur	2	obl	_	_
+4	et	et	CCONJ	_	CCONJ___	6	cc	_	_
+5	intérêts	intérêt	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	conj	_	_
+6	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+7	c'	ce	PRON	_	PRON__Number=Sing|Person=3	9	nsubj	_	_
+8	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	un	un	DET	_	DET__Gender=Masc|Number=Sing	6	advmod	_	_
+10	peu	peu	ADV	_	ADV___	2	fixed	_	_
+11	plus	plus	ADV	_	ADV___	17	advmod	_	_
+12	compliqué	compliquer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+13	en	en	ADP	_	ADP___	17	case	_	_
+14	fonction	fonction	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	fixed	_	_
+15	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	17	det	_	_
+16	préjudices	préjudice	NOUN	_	NOUN__Gender=Fem|Number=Plur	15	obl	_	_
+17	évoqués	évoqué	ADJ	_	ADJ__Gender=Masc|Number=Plur	2	amod	_	_
+18	:	:	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#- si une partie des préjudices provient de la contestation de la rupture du contrat de travail, les dommages et intérêts afférents feront masse avec les indemnités de licenciement.
+1	-	-	PUNCT	_	PUNCT___	2	punct	_	_
+2	si	si	SCONJ	_	SCONJ___	2	mark	_	_
+3	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+4	partie	partie	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nsubj	_	_
+5	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
+6	préjudices	préjudice	NOUN	_	NOUN__Gender=Fem|Number=Plur	3	nmod	_	_
+7	provient	provenir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	amod	_	_
+8	de	de	ADP	_	ADP___	9	case	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+10	contestation	contestation	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	nmod	_	_
+11	de	de	ADP	_	ADP___	17	case	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	rupture	rupture	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	nmod	_	_
+14	du	du	DET	_	DET__Gender=Masc|Number=Sing	15	det	_	_
+15	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	nmod	_	_
+16	de	de	ADP	_	ADP___	15	case	_	_
+17	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	nmod	_	_
+18	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+19	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	17	det	_	_
+20	dommages	dommage	NOUN	_	NOUN__Gender=Masc|Number=Plur	22	nsubj	_	_
+21	et	et	CCONJ	_	CCONJ___	22	cc	_	_
+22	intérêts	intérêt	NOUN	_	NOUN__Gender=Masc|Number=Plur	19	conj	_	_
+23	afférents	afférent	ADJ	_	ADJ__Gender=Masc|Number=Plur	22	amod	_	_
+24	feront	faire	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	25	cop	_	_
+25	masse	masser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+26	avec	avec	ADP	_	ADP___	2	case	_	_
+27	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	29	det	_	_
+28	indemnités	indemnité	NOUN	_	NOUN__Gender=Fem|Number=Plur	29	obl	_	_
+29	de	de	ADP	_	ADP___	38	case	_	_
+30	licenciement	licenciement	ADV	_	ADV___	31	nmod	_	_
+31	.	.	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#Tout ce qui dépassera 2 fois le dernier salaire annuel sera imposable;
+1	Tout	tout	ADJ	_	ADJ__Gender=Masc|Number=Sing	2	amod	_	_
+2	ce	ce	PRON	_	PRON__PronType=Rel	2	nsubj	_	_
+3	qui	qui	PRON	_	PRON__PronType=Rel	2	nsubj	_	_
+4	dépassera	dépasser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	acl:relcl	_	_
+5	2	2	NUM	_	NUM__NumType=Card	6	nummod	_	_
+6	fois	fois	NOUN	_	NOUN__Gender=Fem|Number=Plur	3	nmod	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	dernier	dernier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	9	amod	_	_
+9	salaire	salair	ADJ	_	ADJ__Number=Sing	6	obj	_	_
+10	annuel	annuel	ADJ	_	ADJ__Gender=Masc|Number=Sing	2	amod	_	_
+11	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	17	cop	_	_
+12	imposable	imposable	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+13	;	;	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#- si une partie des préjudices provient des conditions d'exécution du contrat de travail, ces dommages et intérêts devraient être non imposables.
+1	-	-	PUNCT	_	PUNCT___	2	punct	_	_
+2	si	si	SCONJ	_	SCONJ___	2	mark	_	_
+3	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+4	partie	partie	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nsubj	_	_
+5	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
+6	préjudices	préjudice	NOUN	_	NOUN__Gender=Fem|Number=Plur	3	nmod	_	_
+7	provient	provenir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+8	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	9	det	_	_
+9	conditions	condition	NOUN	_	NOUN__Gender=Fem|Number=Plur	6	obj	_	_
+10	d'	de	ADP	_	ADP___	2	case	_	_
+11	exécution	exécution	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	nmod	_	_
+12	du	du	DET	_	DET__Gender=Masc|Number=Sing	13	det	_	_
+13	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obj	_	_
+14	de	de	ADP	_	ADP___	15	case	_	_
+15	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	nmod	_	_
+16	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+17	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	2	det	_	_
+18	dommages	dommage	NOUN	_	NOUN__Gender=Masc|Number=Plur	19	nsubj	_	_
+19	et	et	CCONJ	_	CCONJ___	17	cc	_	_
+20	intérêts	intérêt	NOUN	_	NOUN__Gender=Masc|Number=Plur	22	conj	_	_
+21	devraient	devoir	VERB	_	VERB__Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+22	être	être	AUX	_	AUX__VerbForm=Inf	19	cop	_	_
+23	non	non	ADV	_	ADV___	22	advmod	_	_
+24	imposables	imposable	ADJ	_	ADJ__Number=Plur	25	xcomp	_	_
+25	.	.	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#C'est la raison pour laquelle il vous sera sûrement proposé, pour les dommages et intérêts, voire le rappel des heures supplémentaires, en fonction des sommes en jeu, de tout faire passer comme une réparation suite à des mauvaises conditions d'exécution du contrat de travail (préjudice moral lié au mauvais paiement des heures sup, à une pression excessive du management etc...).
+1	C'	ce	PRON	_	PRON__Number=Sing|Person=3	2	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+4	raison	raison	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+5	pour	pour	ADP	_	ADP___	6	case	_	_
+6	laquelle	lequel	PRON	_	PRON__Gender=Fem|Number=Sing|PronType=Rel	3	obl	_	_
+7	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
+8	vous	vous	PRON	_	PRON__Number=Plur|Person=2	9	iobj	_	_
+9	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	aux	_	_
+10	sûrement	sûrement	ADV	_	ADV___	2	advmod	_	_
+11	proposé	proposer	ADJ	_	ADJ__Gender=Masc|Number=Sing	17	acl:relcl	_	_
+12	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+13	pour	pour	ADP	_	ADP___	17	case	_	_
+14	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	15	det	_	_
+15	dommages	dommage	NOUN	_	NOUN__Gender=Masc|Number=Plur	17	obl	_	_
+16	et	et	CCONJ	_	CCONJ___	15	cc	_	_
+17	intérêts	intérêt	NOUN	_	NOUN__Gender=Masc|Number=Plur	2	conj	_	_
+18	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+19	voire	voire	CCONJ	_	CCONJ___	17	amod	_	_
+20	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	rappel	rappel	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	nmod	_	_
+22	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	19	det	_	_
+23	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	22	obj	_	_
+24	supplémentaires	supplémentaire	ADJ	_	ADJ__Number=Plur	25	amod	_	_
+25	,	,	PUNCT	_	PUNCT___	22	punct	_	_
+26	en	en	ADP	_	ADP___	2	case	_	_
+27	fonction	fonction	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	fixed	_	_
+28	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	29	det	_	_
+29	sommes	somme	NOUN	_	NOUN__Number=Plur	38	nmod	_	_
+30	en	en	ADP	_	ADP___	31	case	_	_
+31	jeu	jeu	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	nmod	_	_
+32	,	,	PUNCT	_	PUNCT___	38	punct	_	_
+33	de	de	ADP	_	ADP___	38	mark	_	_
+34	tout	tout	ADV	_	ADV___	38	obj	_	_
+35	faire	faire	VERB	_	VERB__VerbForm=Inf	38	conj	_	_
+36	passer	prendre	VERB	_	VERB__VerbForm=Inf	35	xcomp	_	_
+37	comme	comme	ADP	_	ADP___	38	case	_	_
+38	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+39	réparation	réparation	NOUN	_	NOUN__Gender=Fem|Number=Sing	42	obl	_	_
+40	suite	suite	NOUN	_	NOUN__Gender=Fem|Number=Sing	39	case	_	_
+41	à	à	ADP	_	ADP___	42	fixed	_	_
+42	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	38	det	_	_
+43	mauvaises	mauvais	NOUN	_	NOUN__Gender=Fem|Number=Plur	42	amod	_	_
+44	conditions	condition	NOUN	_	NOUN__Gender=Fem|Number=Plur	38	nmod	_	_
+45	d'	de	ADP	_	ADP___	69	case	_	_
+46	exécution	exécution	NOUN	_	NOUN__Gender=Fem|Number=Sing	69	nmod	_	_
+47	du	du	DET	_	DET__Gender=Masc|Number=Sing	48	det	_	_
+48	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	69	nmod	_	_
+49	de	de	ADP	_	ADP___	50	case	_	_
+50	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	48	nmod	_	_
+51	(	(	PUNCT	_	PUNCT___	50	punct	_	_
+52	préjudice	préjudice	NOUN	_	NOUN__Gender=Fem|Number=Sing	54	appos	_	_
+53	moral	moral	ADJ	_	ADJ__Gender=Masc|Number=Sing	54	amod	_	_
+54	lié	lier	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	50	acl	_	_
+55	au	au	DET	_	DET__Number=Plur|PronType=Dem	57	case	_	_
+56	mauvais	mauvais	ADJ	_	ADJ___	57	nmod	_	_
+57	paiement	paiement	NOUN	_	NOUN__Gender=Masc|Number=Sing	54	xcomp	_	_
+58	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	59	det	_	_
+59	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	54	obj	_	_
+60	sup	sup	ADJ	_	ADJ__Gender=Masc|Number=Sing	61	amod	_	_
+61	,	,	PUNCT	_	PUNCT___	59	punct	_	_
+62	à	à	ADP	_	ADP___	69	case	_	_
+63	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	64	det	_	_
+64	pression	pression	NOUN	_	NOUN__Gender=Fem|Number=Sing	69	nmod	_	_
+65	excessive	excessif	ADJ	_	ADJ__Gender=Fem|Number=Sing	66	amod	_	_
+66	du	du	DET	_	DET__Gender=Masc|Number=Sing	64	det	_	_
+67	management	management	NOUN	_	NOUN__Gender=Masc|Number=Sing	66	obj	_	_
+68	etc	etc	ADV	_	ADV___	69	advmod	_	_
+69	...	...	PUNCT	_	PUNCT___	69	punct	_	_
+70	)	)	PUNCT	_	PUNCT___	72	punct	_	_
+71	.	.	PUNCT	_	PUNCT___	72	punct	_	_
+
+
+#Quitte à gonfler les sommes.
+1	Quitte	quitte	ADJ	_	ADJ__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	à	à	ADP	_	ADP___	2	mark	_	_
+3	gonfler	gonfler	VERB	_	VERB__VerbForm=Inf	2	xcomp	_	_
+4	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	6	det	_	_
+5	sommes	somme	NOUN	_	NOUN__Number=Plur	6	obj	_	_
+6	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Le risque est que les URSSAF, en cas de contrôle, fassent une lecture différente de ces dommages et intérêts et considèrent qu'il s'agit d'une rémunération déguisée,donc soumise à cotisations et imposables.
+1	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	risque	risque	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	que	que	SCONJ	_	SCONJ___	6	mark	_	_
+5	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	6	det	_	_
+6	URSSAF	URSSAF	PROPN	_	PROPN__Gender=Masc|Number=Sing	3	nsubj	_	_
+7	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+8	en	en	ADP	_	ADP___	9	case	_	_
+9	cas	cas	NOUN	_	NOUN__Gender=Masc	6	fixed	_	_
+10	de	de	ADP	_	ADP___	2	fixed	_	_
+11	contrôle	contrôler	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obl	_	_
+12	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+13	fassent	faire	ADV	_	ADV___	0	ROOT	_	_
+14	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	lecture	lecture	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	obj	_	_
+16	différente	différent	ADJ	_	ADJ__Gender=Fem|Number=Sing	15	amod	_	_
+17	de	de	ADP	_	ADP___	2	case	_	_
+18	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	19	det	_	_
+19	dommages	dommage	NOUN	_	NOUN__Gender=Masc|Number=Plur	17	nmod	_	_
+20	et	et	CCONJ	_	CCONJ___	22	cc	_	_
+21	intérêts	intérêt	NOUN	_	NOUN__Gender=Masc|Number=Plur	22	conj	_	_
+22	et	et	CCONJ	_	CCONJ___	19	cc	_	_
+23	considèrent	considérer	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	conj	_	_
+24	qu'	que	SCONJ	_	SCONJ___	25	mark	_	_
+25	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	22	nsubj	_	_
+26	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	2	expl	_	_
+27	agit	agir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	29	acl:relcl	_	_
+28	d'	de	ADP	_	ADP___	29	case	_	_
+29	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+30	rémunération	rémunération	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	obl	_	_
+31	déguisée	déguiser	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	29	amod	_	_
+32	,	,	PUNCT	_	PUNCT___	38	punct	_	_
+33	donc	donc	ADV	_	ADV___	38	advmod	_	_
+34	soumise	soumis	ADJ	_	ADJ__Gender=Fem|Number=Sing	38	acl	_	_
+35	à	à	ADP	_	ADP___	38	case	_	_
+36	cotisations	cotisation	NOUN	_	NOUN__Gender=Fem|Number=Plur	35	obl	_	_
+37	et	et	CCONJ	_	CCONJ___	38	cc	_	_
+38	imposables	imposable	ADJ	_	ADJ__Number=Plur	38	conj	_	_
+39	.	.	PUNCT	_	PUNCT___	42	punct	_	_
+
+
+#Comme souvent répété sur site, la rédaction de la transaction est primordiale pour garantir au mieux les conditions d'exonération sociale et fiscale des indemnités transactionnelles...
+1	Comme	Comme	ADP	_	ADP___	2	mark	_	_
+2	souvent	souvent	ADV	_	ADV___	2	advmod	_	_
+3	répété	répéter	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	advcl	_	_
+4	sur	sur	ADP	_	ADP___	6	case	_	_
+5	site	site	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obl	_	_
+6	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	rédaction	rédaction	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nsubj	_	_
+9	de	de	ADP	_	ADP___	6	case	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+11	transaction	transaction	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	nmod	_	_
+12	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	primordiale	primordial	ADJ	_	ADJ__Gender=Fem|Number=Sing	0	ROOT	_	_
+14	pour	pour	ADP	_	ADP___	15	mark	_	_
+15	garantir	garantir	VERB	_	VERB__VerbForm=Inf	17	advcl	_	_
+16	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	15	advmod	_	_
+17	mieux	mieux	ADV	_	ADV___	2	amod	_	_
+18	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	19	det	_	_
+19	conditions	condition	NOUN	_	NOUN__Gender=Fem|Number=Plur	17	obj	_	_
+20	d'	de	ADP	_	ADP___	22	case	_	_
+21	exonération	exonération	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	nmod	_	_
+22	sociale	social	ADJ	_	ADJ__Gender=Fem|Number=Sing	19	amod	_	_
+23	et	et	CCONJ	_	CCONJ___	22	cc	_	_
+24	fiscale	fiscal	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	conj	_	_
+25	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	22	det	_	_
+26	indemnités	indemnité	NOUN	_	NOUN__Gender=Fem|Number=Plur	2	nmod	_	_
+27	transactionnelles	transactionnel	ADJ	_	ADJ__Number=Plur	29	amod	_	_
+28	...	...	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#Cdlt.
+1	Cdlt	Cdlt	PROPN	_	PROPN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	.	.	PUNCT	_	PUNCT___	2	punct	_	_
+
+

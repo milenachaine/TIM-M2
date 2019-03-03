@@ -1,0 +1,314 @@
+#Vous dites qu'elle était propriétaire.
+1	Vous	vous	PRON	_	PRON__Number=Plur|Person=2	2	nsubj	_	_
+2	dites	dire	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	qu'	que	SCONJ	_	SCONJ___	6	mark	_	_
+4	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	6	nsubj	_	_
+5	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+6	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	2	ccomp	_	_
+7	.	.	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#Vous savez de quel bien ?
+1	Vous	vous	PRON	_	PRON__Number=Plur|Person=2	2	nsubj	_	_
+2	savez	savoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	de	de	ADP	_	ADP___	6	case	_	_
+4	quel	quel	DET	_	DET__Gender=Masc|Number=Sing|PronType=Int	6	det	_	_
+5	bien	bien	ADV	_	ADV___	6	obj	_	_
+6	?	?	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#Si oui, demande de renseignements directement sur le bien (référence cadastrale à renseigner), sinon, sur la personne (état civil à renseigner).
+1	Si	Si	SCONJ	_	SCONJ___	2	mark	_	_
+2	oui	oui	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	obl	_	_
+3	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+4	demande	demander	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	de	de	ADP	_	ADP___	6	case	_	_
+6	renseignements	renseignement	NOUN	_	NOUN__Gender=Masc|Number=Plur	2	nmod	_	_
+7	directement	directement	ADV	_	ADV___	2	advmod	_	_
+8	sur	sur	ADP	_	ADP___	9	case	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+10	bien	bien	ADV	_	ADV___	12	obl	_	_
+11	(	(	PUNCT	_	PUNCT___	12	punct	_	_
+12	référence	référence	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	appos	_	_
+13	cadastrale	cadastral	ADJ	_	ADJ__Gender=Fem|Number=Sing	9	amod	_	_
+14	à	à	ADP	_	ADP___	15	mark	_	_
+15	renseigner	renseigner	VERB	_	VERB__VerbForm=Inf	17	xcomp	_	_
+16	)	)	PUNCT	_	PUNCT___	17	punct	_	_
+17	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+18	sinon	sinon	ADV	_	ADV___	19	conj	_	_
+19	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+20	sur	sur	ADP	_	ADP___	19	case	_	_
+21	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	personne	personne	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	obl	_	_
+23	(	(	PUNCT	_	PUNCT___	19	punct	_	_
+24	état	état	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	acl	_	_
+25	civil	civil	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	19	obj	_	_
+26	à	à	ADP	_	ADP___	25	mark	_	_
+27	renseigner	renseigner	VERB	_	VERB__VerbForm=Inf	28	xcomp	_	_
+28	)	)	PUNCT	_	PUNCT___	19	punct	_	_
+29	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Formulaire en ligne (peu onéreux), à renvoyer en deux exemplaires au bureau du service de la publicité foncière du lieu de situation du bien (ou du lieu potentiel de situation du bien dont elle était propriétaire, si vous ignorez ce bien : il faut donc avoir une petite idée de où elle était propriétaire, pour ne pas faire une demande dans chaque bureau en France…).
+1	Formulaire	Formulaire	PROPN	_	PROPN__Gender=Masc|Number=Sing	2	nsubj	_	_
+2	en	en	ADP	_	ADP___	2	case	_	_
+3	ligne	ligne	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+4	(	(	PUNCT	_	PUNCT___	6	punct	_	_
+5	peu	peu	ADV	_	ADV___	6	advmod	_	_
+6	onéreux	onéreux	ADJ	_	ADJ__Gender=Masc	2	amod	_	_
+7	)	)	PUNCT	_	PUNCT___	2	punct	_	_
+8	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+9	à	à	ADP	_	ADP___	9	mark	_	_
+10	renvoyer	renvoyer	VERB	_	VERB__VerbForm=Inf	12	conj	_	_
+11	en	en	ADP	_	ADP___	12	case	_	_
+12	deux	deux	NUM	_	NUM__NumType=Card	9	nummod	_	_
+13	exemplaires	exemplaire	ADJ	_	ADJ__Number=Plur	9	amod	_	_
+14	au	au	PRON	_	PRON__PronType=Rel	15	amod	_	_
+15	bureau	bureau	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obl	_	_
+16	du	du	DET	_	DET__Gender=Masc|Number=Sing	17	det	_	_
+17	service	service	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obj	_	_
+18	de	de	ADP	_	ADP___	19	case	_	_
+19	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+20	publicité	publicité	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	nmod	_	_
+21	foncière	foncier	ADJ	_	ADJ__Gender=Fem|Number=Sing	23	amod	_	_
+22	du	du	DET	_	DET__Gender=Masc|Number=Sing	23	det	_	_
+23	lieu	lieu	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obj	_	_
+24	de	de	ADP	_	ADP___	19	case	_	_
+25	situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	nmod	_	_
+26	du	du	DET	_	DET__Gender=Masc|Number=Sing	25	det	_	_
+27	bien	bien	ADV	_	ADV___	28	advmod	_	_
+28	(	(	PUNCT	_	PUNCT___	19	punct	_	_
+29	ou	ou	CCONJ	_	CCONJ___	17	cc	_	_
+30	du	du	DET	_	DET__Gender=Masc|Number=Sing	31	det	_	_
+31	lieu	lieu	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	conj	_	_
+32	potentiel	potentiel	ADJ	_	ADJ__Gender=Masc|Number=Sing	31	amod	_	_
+33	de	de	ADP	_	ADP___	35	case	_	_
+34	situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	35	nmod	_	_
+35	du	du	DET	_	DET__Gender=Masc|Number=Sing	0	ROOT	_	_
+36	bien	bien	ADV	_	ADV___	35	advmod	_	_
+37	dont	dont	PRON	_	PRON__PronType=Rel	35	iobj	_	_
+38	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	37	nsubj	_	_
+39	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	40	cop	_	_
+40	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	37	ccomp	_	_
+41	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+42	si	si	SCONJ	_	SCONJ___	17	mark	_	_
+43	vous	vous	PRON	_	PRON__Number=Plur|Person=2	77	nsubj	_	_
+44	ignorez	ignorer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	45	advcl	_	_
+45	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	43	det	_	_
+46	bien	bien	ADV	_	ADV___	43	obj	_	_
+47	:	:	PUNCT	_	PUNCT___	48	punct	_	_
+48	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	43	nsubj	_	_
+49	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	parataxis	_	_
+50	donc	donc	ADV	_	ADV___	52	advmod	_	_
+51	avoir	avoir	VERB	_	VERB__VerbForm=Inf	52	xcomp	_	_
+52	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+53	petite	petit	ADJ	_	ADJ__Gender=Fem|Number=Sing	55	amod	_	_
+54	idée	idée	NOUN	_	NOUN__Gender=Fem|Number=Sing	55	obj	_	_
+55	de	de	ADP	_	ADP___	57	case	_	_
+56	où	où	PRON	_	PRON__PronType=Rel	57	iobj	_	_
+57	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	52	nsubj	_	_
+58	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	59	cop	_	_
+59	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	57	ccomp	_	_
+60	,	,	PUNCT	_	PUNCT___	62	punct	_	_
+61	pour	pour	ADP	_	ADP___	62	mark	_	_
+62	ne	ne	ADV	_	ADV___	59	advmod	_	_
+63	pas	pas	ADV	_	ADV___	62	fixed	_	_
+64	faire	faire	VERB	_	VERB__VerbForm=Inf	65	advcl	_	_
+65	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	63	det	_	_
+66	demande	demande	NOUN	_	NOUN__Gender=Fem|Number=Sing	67	obj	_	_
+67	dans	dan	ADP	_	ADP___	65	case	_	_
+68	chaque	chaque	DET	_	DET__Number=Sing	69	det	_	_
+69	bureau	bureau	NOUN	_	NOUN__Gender=Masc|Number=Sing	57	obl	_	_
+70	en	en	ADP	_	ADP___	57	case	_	_
+71	France	France	PROPN	_	PROPN__Gender=Fem|Number=Sing	73	nmod	_	_
+72	…	…	ADJ	_	ADJ___	73	amod	_	_
+73	)	)	PUNCT	_	PUNCT___	57	punct	_	_
+74	.	.	PUNCT	_	PUNCT___	73	punct	_	_
+
+
+#C'est comme cela que vous devriez en apprendre le plus sur ce qui s'est passé, si le bien est toujours à son nom 22 après, ou bien si il y a eu une mutation de propriété suite à décès (par exemple au profit d'un légataire universel vous ayant évincé de la succession, sans que vous ayez besoin d'en être averti).
+1	C'	ce	PRON	_	PRON__Number=Sing|Person=3	2	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+3	comme	comme	SCONJ	_	SCONJ___	6	case	_	_
+4	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	6	obl	_	_
+5	que	que	PRON	_	PRON__PronType=Rel	6	obj	_	_
+6	vous	vous	PRON	_	PRON__Number=Plur|Person=2	2	nsubj	_	_
+7	devriez	devoir	AUX	_	AUX__Mood=Cnd|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	aux	_	_
+8	en	en	PRON	_	PRON__Person=3	9	expl	_	_
+9	apprendre	avoir	VERB	_	VERB__VerbForm=Inf	9	acl:relcl	_	_
+10	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	plus	plus	ADV	_	ADV___	12	obj	_	_
+12	sur	sur	ADP	_	ADP___	9	case	_	_
+13	ce	ce	PRON	_	PRON__PronType=Rel	9	obl	_	_
+14	qui	qui	PRON	_	PRON__PronType=Rel	15	nsubj	_	_
+15	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	17	expl	_	_
+16	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	passé	passer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl:relcl	_	_
+18	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+19	si	si	SCONJ	_	SCONJ___	17	mark	_	_
+20	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+21	bien	bien	ADV	_	ADV___	23	nsubj	_	_
+22	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	fixed	_	_
+23	toujours	toujours	ADV	_	ADV___	19	fixed	_	_
+24	à	à	ADP	_	ADP___	19	case	_	_
+25	son	son	DET	_	DET__Number=Sing|Poss=Yes	19	nmod:poss	_	_
+26	nom	nom	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	fixed	_	_
+27	22	22	NUM	_	NUM__NumType=Card	28	nummod	_	_
+28	après	après	ADP	_	ADP___	19	fixed	_	_
+29	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+30	ou	ou	CCONJ	_	CCONJ___	31	cc	_	_
+31	bien	bien	ADV	_	ADV___	17	advmod	_	_
+32	si	si	SCONJ	_	SCONJ___	31	mark	_	_
+33	il	il	PRON	_	PRON__Number=Sing|Person=3	35	nsubj	_	_
+34	y	yu	PRON	_	PRON__Person=3	35	fixed	_	_
+35	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
+36	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+37	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+38	mutation	mutation	NOUN	_	NOUN__Gender=Fem|Number=Sing	37	obj	_	_
+39	de	de	ADP	_	ADP___	40	case	_	_
+40	propriété	propriété	NOUN	_	NOUN__Gender=Masc|Number=Sing	37	nmod	_	_
+41	suite	suite	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	case	_	_
+42	à	à	ADP	_	ADP___	17	fixed	_	_
+43	décès	décès	NOUN	_	NOUN__Gender=Masc|Number=Sing	77	nmod	_	_
+44	(	(	PUNCT	_	PUNCT___	45	punct	_	_
+45	par	par	ADP	_	ADP___	43	case	_	_
+46	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	43	fixed	_	_
+47	au	au	PRON	_	PRON__PronType=Rel	48	fixed	_	_
+48	profit	profit	NOUN	_	NOUN__Gender=Masc|Number=Sing	43	fixed	_	_
+49	d'	de	ADP	_	ADP___	43	fixed	_	_
+50	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+51	légataire	légatair	ADJ	_	ADJ__Number=Sing	52	obl	_	_
+52	universel	universel	NOUN	_	NOUN__Gender=Masc|Number=Sing	43	amod	_	_
+53	vous	vous	PRON	_	PRON__Number=Plur|Person=2	55	iobj	_	_
+54	ayant	avoir	AUX	_	AUX__Tense=Pres|VerbForm=Part	55	aux	_	_
+55	évincé	évincer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	57	acl:relcl	_	_
+56	de	de	ADP	_	ADP___	57	case	_	_
+57	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	52	det	_	_
+58	succession	succession	NOUN	_	NOUN__Gender=Fem|Number=Sing	59	obl	_	_
+59	,	,	PUNCT	_	PUNCT___	57	punct	_	_
+60	sans	sans	ADP	_	ADP___	62	mark	_	_
+61	que	que	SCONJ	_	SCONJ___	62	fixed	_	_
+62	vous	vous	PRON	_	PRON__Number=Plur|Person=2	59	nsubj	_	_
+63	ayez	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	62	advcl	_	_
+64	besoin	besoin	NOUN	_	NOUN__Gender=Masc|Number=Sing	65	obj	_	_
+65	d'	de	ADP	_	ADP___	63	mark	_	_
+66	en	en	PRON	_	PRON__Person=3	67	iobj	_	_
+67	être	être	AUX	_	AUX__VerbForm=Inf	65	aux:pass	_	_
+68	averti	avertir	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	69	xcomp	_	_
+69	)	)	PUNCT	_	PUNCT___	57	punct	_	_
+70	.	.	PUNCT	_	PUNCT___	57	punct	_	_
+
+
+#Remarque : c'est la mort qui ouvre les successions, donc personne n'a jamais ouvert une succession.
+1	Remarque	remarqu	ADJ	_	ADJ__Number=Sing	2	nsubj	_	_
+2	:	:	PUNCT	_	PUNCT___	2	punct	_	_
+3	c'	ce	PRON	_	PRON__Number=Sing|Person=3	6	nsubj	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	mort	mort	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	nmod	_	_
+7	qui	qui	PRON	_	PRON__PronType=Rel	2	nsubj	_	_
+8	ouvre	ouvrir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+9	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+10	successions	succession	NOUN	_	NOUN__Gender=Fem|Number=Plur	12	obj	_	_
+11	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+12	donc	donc	ADV	_	ADV___	9	advmod	_	_
+13	personne	personne	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nsubj	_	_
+14	n'	ne	ADV	_	ADV__Polarity=Neg	15	advmod	_	_
+15	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	jamais	jamais	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+17	ouvert	ouvrir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+18	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	succession	succession	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	obj	_	_
+20	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Et donc la succession s'est ouverte il y a 22 ans.
+1	Et	Et	CCONJ	_	CCONJ___	2	cc	_	_
+2	donc	donc	ADV	_	ADV___	2	advmod	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+4	succession	succession	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nsubj	_	_
+5	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	6	expl	_	_
+6	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+7	ouverte	ouvrir	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+8	il	il	PRON	_	PRON__Number=Sing|Person=3	9	case	_	_
+9	y	yu	PRON	_	PRON__Person=3	9	fixed	_	_
+10	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	fixed	_	_
+11	22	22	NUM	_	NUM__NumType=Card	12	nummod	_	_
+12	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	obl	_	_
+13	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Après, il se peut que personne ne s'en soit occupé.
+1	Après	Après	ADP	_	ADP___	2	mark	_	_
+2	,	,	PUNCT	_	PUNCT___	2	punct	_	_
+3	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+4	se	se	PRON	_	PRON__Person=3|Reflex=Yes	6	expl	_	_
+5	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	que	que	SCONJ	_	SCONJ___	2	advmod	_	_
+7	personne	personne	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	nsubj:pass	_	_
+8	ne	ne	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+9	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	9	expl	_	_
+10	en	en	PRON	_	PRON__Person=3	12	iobj	_	_
+11	soit	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
+12	occupé	occuper	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+13	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Pourquoi ce sujet aurait-il dû être abordé par un notaire ?
+1	Pourquoi	pourquoi	ADV	_	ADV__PronType=Int	2	advmod	_	_
+2	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+3	sujet	sujet	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nsubj	_	_
+4	aurait	avoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	-	-	PUNCT	_	PUNCT___	6	punct	_	_
+6	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+7	dû	devoir	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+8	être	être	AUX	_	AUX__VerbForm=Inf	9	aux:pass	_	_
+9	abordé	aborder	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	xcomp	_	_
+10	par	par	ADP	_	ADP___	12	case	_	_
+11	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	notaire	notaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obl	_	_
+13	?	?	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Un notaire ne recherche pas toutes les successions collatérales éventuelles non traitées dont le défunt aurait pu être héritier.
+1	Un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	notaire	notaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	nsubj	_	_
+3	ne	ne	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+4	recherche	rechercher	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+6	toutes	tout	ADJ	_	ADJ__Gender=Fem|Number=Plur	2	amod	_	_
+7	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	2	det	_	_
+8	successions	succession	NOUN	_	NOUN__Gender=Fem|Number=Plur	9	obj	_	_
+9	collatérales	collatéral	ADJ	_	ADJ__Gender=Fem|Number=Plur	9	amod	_	_
+10	éventuelles	éventuel	ADJ	_	ADJ__Gender=Fem|Number=Plur	12	amod	_	_
+11	non	non	ADV	_	ADV___	12	advmod	_	_
+12	traitées	traiter	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	9	acl	_	_
+13	dont	dont	PRON	_	PRON__PronType=Rel	9	dep	_	_
+14	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	défunt	défunt	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	nsubj	_	_
+16	aurait	avoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	pu	pouvoir	VERB	_	VERB__Tense=Past|VerbForm=Part	17	acl:relcl	_	_
+18	être	être	AUX	_	AUX__VerbForm=Inf	19	aux:pass	_	_
+19	héritier	héritier	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	xcomp	_	_
+20	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Sinon, on en finit pas… C'est aux héritiers de penser à cela.
+1	Sinon	sinon	ADV	_	ADV___	2	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	2	punct	_	_
+3	on	on	PRON	_	PRON__Number=Sing|Person=3	6	nsubj	_	_
+4	en	en	PRON	_	PRON__Person=3	6	dep	_	_
+5	finit	finir	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	fixed	_	_
+6	pas	pas	ADV	_	ADV__Polarity=Neg	2	fixed	_	_
+7	…	…	PUNCT	_	PUNCT___	2	punct	_	_
+8	C'	ce	PRON	_	PRON__Number=Sing|Person=3	9	nsubj	_	_
+9	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+10	aux	aux	DET	_	DET__Number=Plur	12	nummod	_	_
+11	héritiers	héritier	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+12	de	de	ADP	_	ADP___	9	mark	_	_
+13	penser	penser	VERB	_	VERB__VerbForm=Inf	9	xcomp	_	_
+14	à	à	ADP	_	ADP___	15	case	_	_
+15	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	17	obl	_	_
+16	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+

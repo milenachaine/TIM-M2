@@ -1,0 +1,319 @@
+#Désolé je reprends avec un exemple numérique, votre convention antérieure et uniquement le patrimoine de mon père (50% de la valeur des biens réels) : 1/
+1	Désolé	Désolé	PROPN	_	PROPN___	3	nsubj	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+3	reprends	reprendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	avec	avec	ADP	_	ADP___	6	case	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obl	_	_
+7	numérique	numérique	ADJ	_	ADJ__Number=Sing	6	amod	_	_
+8	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+9	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+10	convention	convention	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obj	_	_
+11	antérieure	antérieur	ADJ	_	ADJ__Gender=Fem|Number=Sing	10	acl	_	_
+12	et	et	CCONJ	_	CCONJ___	15	cc	_	_
+13	uniquement	uniquement	ADV	_	ADV___	15	advmod	_	_
+14	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	patrimoine	patrimoine	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	conj	_	_
+16	de	de	ADP	_	ADP___	18	case	_	_
+17	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	18	nmod:poss	_	_
+18	père	père	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nmod	_	_
+19	(	(	PUNCT	_	PUNCT___	10	punct	_	_
+20	50	50	NUM	_	NUM__NumType=Card	21	nummod	_	_
+21	%	%	NOUN	_	NOUN__Gender=Masc	10	nmod	_	_
+22	de	de	ADP	_	ADP___	24	case	_	_
+23	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	valeur	valeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	nmod	_	_
+25	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	26	det	_	_
+26	biens	bien	NOUN	_	NOUN__Gender=Masc|Number=Plur	21	nmod	_	_
+27	réels	réel	ADJ	_	ADJ__Gender=Masc|Number=Plur	26	amod	_	_
+28	)	)	PUNCT	_	PUNCT___	10	punct	_	_
+29	:	:	PUNCT	_	PUNCT___	3	punct	_	_
+30	1/	1/	NUM	_	NUM__NumType=Card	3	parataxis	_	_
+
+
+#Masse de calcul des droits à 25 % en propriété sur l'ensemble du patrimoine soit
+1	Masse	Masse	PROPN	_	PROPN___	0	ROOT	_	_
+2	de	de	ADP	_	ADP___	3	case	_	_
+3	calcul	calcul	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nmod	_	_
+4	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
+5	droits	droit	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	obj	_	_
+6	à	à	ADP	_	ADP___	3	case	_	_
+7	25	25	NUM	_	NUM__NumType=Card	6	nummod	_	_
+8	%	%	NOUN	_	NOUN__Gender=Masc	3	nmod	_	_
+9	en	en	ADP	_	ADP___	10	case	_	_
+10	propriété	propriété	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nmod	_	_
+11	sur	sur	ADP	_	ADP___	10	case	_	_
+12	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+13	ensemble	ensemble	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nmod	_	_
+14	du	du	DET	_	DET__Gender=Masc|Number=Sing	15	det	_	_
+15	patrimoine	patrimoine	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+16	soit	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	nmod	_	_
+
+
+#Bien (1) {appart:50 000} + Biens (2)
+1	Bien	bien	ADV	_	ADV___	0	ROOT	_	_
+2	(	(	PUNCT	_	PUNCT___	3	punct	_	_
+3	1	1	NUM	_	NUM__NumType=Card	3	nummod	_	_
+4	)	)	PUNCT	_	PUNCT___	6	punct	_	_
+5	{	{	CCONJ	_	CCONJ___	6	nmod	_	_
+6	appart:50	appart:50	VERB	_	VERB__VerbForm=Inf	3	dep	_	_
+7	000	000	NUM	_	NUM__NumType=Card	6	nummod	_	_
+8	}	}	NOUN	_	NOUN__Gender=Fem|Number=Plur	3	obj	_	_
+9	+	+	ADP	_	ADP___	10	case	_	_
+10	Biens	Biens	PROPN	_	PROPN___	3	nmod	_	_
+11	(	(	PUNCT	_	PUNCT___	10	punct	_	_
+12	2	2	NUM	_	NUM__NumType=Card	15	appos	_	_
+13	)	)	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#{appart:60 000;
+1	{	{	CCONJ	_	CCONJ___	3	advmod	_	_
+2	appart:60	appart:60	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	000	000	NUM	_	NUM__NumType=Card	3	obj	_	_
+4	;	;	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#studio1:10 000;
+1	studio1:10	studio1:10	ADP	_	ADP___	0	ROOT	_	_
+2	000	000	NUM	_	NUM__NumType=Card	3	nummod	_	_
+3	;	;	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#studio2:10 000;
+1	studio2:10	studio2:10	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+2	000	000	NUM	_	NUM__NumType=Card	3	iobj	_	_
+3	;	;	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Liquidités: 30 000}= 160 000
+1	Liquidités	Liquidités	PROPN	_	PROPN___	0	ROOT	_	_
+2	:	:	PUNCT	_	PUNCT___	3	punct	_	_
+3	30	30	NUM	_	NUM__NumType=Card	3	nummod	_	_
+4	000}=	000}=	PUNCT	_	PUNCT___	6	nummod	_	_
+5	160	160	NUM	_	NUM__NumType=Card	6	nmod	_	_
+6	000	000	NUM	_	NUM__NumType=Card	3	nummod	_	_
+
+
+#Les droits en propriété de la veuve sont du quart soit 40 000.
+1	Les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	3	det	_	_
+2	droits	droit	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	nsubj	_	_
+3	en	en	ADP	_	ADP___	3	case	_	_
+4	propriété	propriété	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nmod	_	_
+5	de	de	ADP	_	ADP___	6	case	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+7	veuve	veuve	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+8	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+9	du	du	DET	_	DET__Gender=Masc|Number=Sing	10	det	_	_
+10	quart	quart	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+11	soit	être	CCONJ	_	CCONJ___	10	cc	_	_
+12	40	40	NUM	_	NUM__NumType=Card	15	conj	_	_
+13	000	000	NUM	_	NUM__NumType=Card	15	nummod	_	_
+14	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#La réserve en propriété de chaque héritier est de 30000 (3/16 de 160 000).
+1	La	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	réserve	réserve	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	en	en	ADP	_	ADP___	3	case	_	_
+4	propriété	propriété	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nmod	_	_
+5	de	de	ADP	_	ADP___	6	case	_	_
+6	chaque	chaque	DET	_	DET__Number=Sing	3	det	_	_
+7	héritier	héritier	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nmod	_	_
+8	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+9	de	de	ADP	_	ADP___	10	case	_	_
+10	30000	30000	NUM	_	NUM__NumType=Card	3	nummod	_	_
+11	(	(	PUNCT	_	PUNCT___	10	punct	_	_
+12	3/16	3/16	NOUN	_	NOUN__NumType=Card	15	appos	_	_
+13	de	de	ADP	_	ADP___	15	case	_	_
+14	160	160	NUM	_	NUM__NumType=Card	15	nummod	_	_
+15	000	000	NUM	_	NUM__NumType=Card	11	nmod	_	_
+16	)	)	PUNCT	_	PUNCT___	18	punct	_	_
+17	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#2/ "Ensuite il y a la masse d'exercice des ces droits en propriété, et le testament exclut qu'ils puissent s'exercer sur la propriété Bien(1) du premier mariage.
+1	2/	2/	NUM	_	NUM__NumType=Card	0	ROOT	_	_
+2	"	"	PUNCT	_	PUNCT___	3	punct	_	_
+3	Ensuite	ensuite	ADV	_	ADV___	3	advmod	_	_
+4	il	il	PRON	_	PRON__Number=Sing|Person=3	6	nmod	_	_
+5	y	yu	PRON	_	PRON__Person=3	6	fixed	_	_
+6	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	fixed	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+8	masse	masse	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obj	_	_
+9	d'	de	ADP	_	ADP___	10	case	_	_
+10	exercice	exercice	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nmod	_	_
+11	des	un	ADP	_	ADP___	10	case	_	_
+12	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	15	det	_	_
+13	droits	droit	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	nmod	_	_
+14	en	en	ADP	_	ADP___	15	case	_	_
+15	propriété	propriété	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+16	,	,	PUNCT	_	PUNCT___	18	punct	_	_
+17	et	et	CCONJ	_	CCONJ___	18	cc	_	_
+18	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+19	testament	testament	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nsubj	_	_
+20	exclut	exclure	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	conj	_	_
+21	qu'	que	SCONJ	_	SCONJ___	10	mark	_	_
+22	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	24	nsubj	_	_
+23	puissent	pouvoir	AUX	_	AUX__Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	21	expl	_	_
+25	exercer	exercer	VERB	_	VERB__VerbForm=Inf	26	ccomp	_	_
+26	sur	sur	ADP	_	ADP___	21	case	_	_
+27	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+28	propriété	propriété	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obl	_	_
+29	Bien(1	Bien(1	PROPN	_	PROPN___	3	nmod	_	_
+30	)	)	PUNCT	_	PUNCT___	3	punct	_	_
+31	du	du	DET	_	DET__Gender=Masc|Number=Sing	31	det	_	_
+32	premier	premier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	33	amod	_	_
+33	mariage	mariage	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	obj	_	_
+34	.	.	PUNCT	_	PUNCT___	35	punct	_	_
+
+
+#" soit 160 000 - 50 000 = 110 000 Donc les enfants de (1) récupèrent la pleine propriété du Bien (1) : 50 000 + 10 000 de liquidités.
+1	"	"	PUNCT	_	PUNCT___	3	punct	_	_
+2	soit	être	CCONJ	_	CCONJ___	3	cc	_	_
+3	160	160	NUM	_	NUM__NumType=Card	3	nummod	_	_
+4	000	000	NUM	_	NUM__NumType=Card	0	ROOT	_	_
+5	-	-	PUNCT	_	PUNCT___	6	punct	_	_
+6	50	50	NUM	_	NUM__NumType=Card	3	nummod	_	_
+7	000	000	NUM	_	NUM__NumType=Card	6	nsubj	_	_
+8	=	=	VERB	_	VERB__Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	3	dep	_	_
+9	110	110	NUM	_	NUM__NumType=Card	10	nummod	_	_
+10	000	000	NUM	_	NUM__NumType=Card	3	nummod	_	_
+11	Donc	donc	ADV	_	ADV___	10	acl:relcl	_	_
+12	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	15	det	_	_
+13	enfants	enfant	NOUN	_	NOUN__Number=Plur	15	nsubj	_	_
+14	de	de	ADP	_	ADP___	15	nmod	_	_
+15	(	(	PUNCT	_	PUNCT___	11	punct	_	_
+16	1	1	PRON	_	PRON__NumType=Card|PronType=Rel	18	nummod	_	_
+17	)	)	PUNCT	_	PUNCT___	18	punct	_	_
+18	récupèrent	récupérer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+19	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+20	pleine	plein	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	obj	_	_
+21	propriété	propriéter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl	_	_
+22	du	du	DET	_	DET__Gender=Masc|Number=Sing	24	det	_	_
+23	Bien	bien	ADV	_	ADV___	24	obj	_	_
+24	(	(	PUNCT	_	PUNCT___	21	punct	_	_
+25	1	1	NUM	_	NUM__NumType=Card	26	nummod	_	_
+26	)	)	PUNCT	_	PUNCT___	21	punct	_	_
+27	:	:	PUNCT	_	PUNCT___	26	punct	_	_
+28	50	50	NUM	_	NUM__NumType=Card	10	nummod	_	_
+29	000	000	NUM	_	NUM__NumType=Card	3	conj	_	_
+30	+	+	ADP	_	ADP___	3	case	_	_
+31	10	10	NUM	_	NUM__NumType=Card	31	nmod	_	_
+32	000	000	PRON	_	PRON__NumType=Card|PronType=Rel	33	nummod	_	_
+33	de	de	ADP	_	ADP___	31	case	_	_
+34	liquidités	liquidité	NOUN	_	NOUN__Gender=Fem|Number=Plur	35	nmod	_	_
+35	.	.	PUNCT	_	PUNCT___	33	punct	_	_
+
+
+#L'exercice des droits en propriété de la veuve sont de 110 000 /4 = 27 500 et sur les 82 500 restant 30% d'usufruit soit 24750 pour la veuve et 70% de nu-propriété soit 57750 pour les enfants de (2) Et donc on constate qu'il manque 2 250 pour remplir les 2 parts de 3/16 des enfants de (2) en nu-propriété.
+1	L'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+2	exercice	exercice	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+3	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	3	det	_	_
+4	droits	droit	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	nmod	_	_
+5	en	en	ADP	_	ADP___	6	case	_	_
+6	propriété	propriété	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nmod	_	_
+7	de	de	ADP	_	ADP___	6	case	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+9	veuve	veuve	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+10	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+11	de	de	ADP	_	ADP___	10	case	_	_
+12	110	110	NUM	_	NUM__NumType=Card	15	nummod	_	_
+13	000	000	NUM	_	NUM__NumType=Card	15	nsubj	_	_
+14	/4	/4	NOUN	_	NOUN___	15	nsubj	_	_
+15	=	=	VERB	_	VERB__Mood=Ind|Person=3|VerbForm=Fin	0	ROOT	_	_
+16	27	27	NUM	_	NUM__NumType=Card	18	obj	_	_
+17	500	500	NUM	_	NUM__NumType=Card	18	iobj	_	_
+18	et	et	CCONJ	_	CCONJ___	15	cc	_	_
+19	sur	sur	ADP	_	ADP___	10	case	_	_
+20	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	21	det	_	_
+21	82	82	NUM	_	NUM__NumType=Card	10	conj	_	_
+22	500	500	NUM	_	NUM__NumType=Card	24	nummod	_	_
+23	restant	rester	VERB	_	VERB__Tense=Pres|VerbForm=Part	24	acl	_	_
+24	30	30	NUM	_	NUM__NumType=Card	21	nummod	_	_
+25	%	%	NOUN	_	NOUN__Gender=Masc	26	obj	_	_
+26	d'	de	ADP	_	ADP___	21	case	_	_
+27	usufruit	usufruit	VERB	_	VERB__VerbForm=Inf	26	nmod	_	_
+28	soit	être	CCONJ	_	CCONJ___	10	cc	_	_
+29	24750	24750	NUM	_	NUM__NumType=Card	3	nummod	_	_
+30	pour	pour	ADP	_	ADP___	3	case	_	_
+31	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+32	veuve	veuve	NOUN	_	NOUN__Gender=Fem|Number=Sing	33	obl	_	_
+33	et	et	CCONJ	_	CCONJ___	31	cc	_	_
+34	70	70	NUM	_	NUM__NumType=Card	35	nummod	_	_
+35	%	%	NOUN	_	NOUN__Gender=Masc	33	conj	_	_
+36	de	de	ADP	_	ADP___	38	case	_	_
+37	nu	nu	ADV	_	ADV___	38	det	_	_
+38	-	-	PUNCT	_	PUNCT___	35	punct	_	_
+39	propriété	propriété	NOUN	_	NOUN__Gender=Masc|Number=Sing	40	nmod	_	_
+40	soit	être	CCONJ	_	CCONJ___	35	cop	_	_
+41	57750	57750	NUM	_	NUM__NumType=Card	43	nummod	_	_
+42	pour	pour	ADP	_	ADP___	43	case	_	_
+43	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	31	det	_	_
+44	enfants	enfant	NOUN	_	NOUN__Number=Plur	45	obl	_	_
+45	de	de	ADP	_	ADP___	43	case	_	_
+46	(	(	PUNCT	_	PUNCT___	31	punct	_	_
+47	2	2	NUM	_	NUM__NumType=Card	47	nummod	_	_
+48	)	)	PUNCT	_	PUNCT___	47	punct	_	_
+49	Et	Et	CCONJ	_	CCONJ___	47	cc	_	_
+50	donc	donc	ADV	_	ADV___	47	advmod	_	_
+51	on	on	PRON	_	PRON__Number=Sing|Person=3	47	nsubj	_	_
+52	constate	constater	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	conj	_	_
+53	qu'	que	SCONJ	_	SCONJ___	54	mark	_	_
+54	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	52	nsubj	_	_
+55	manque	manquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	56	ccomp	_	_
+56	2	2	NUM	_	NUM__NumType=Card	54	nummod	_	_
+57	250	250	NUM	_	NUM__NumType=Card	54	obj	_	_
+58	pour	pour	ADP	_	ADP___	54	mark	_	_
+59	remplir	remplir	VERB	_	VERB__VerbForm=Inf	54	advcl	_	_
+60	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	61	det	_	_
+61	2	2	NUM	_	NUM__NumType=Card	61	nummod	_	_
+62	parts	part	NOUN	_	NOUN__Number=Plur	61	obj	_	_
+63	de	de	ADP	_	ADP___	61	case	_	_
+64	3/16	3/16	PRON	_	PRON__NumType=Card|PronType=Rel	64	nmod	_	_
+65	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	64	det	_	_
+66	enfants	enfant	NOUN	_	NOUN__Number=Plur	64	nmod	_	_
+67	de	de	ADP	_	ADP___	67	case	_	_
+68	(	(	PUNCT	_	PUNCT___	67	punct	_	_
+69	2	2	NUM	_	NUM__NumType=Card	67	obj	_	_
+70	)	)	PUNCT	_	PUNCT___	70	punct	_	_
+71	en	en	ADP	_	ADP___	70	case	_	_
+72	nu	nu	ADV	_	ADV___	73	fixed	_	_
+73	-	-	PUNCT	_	PUNCT___	74	punct	_	_
+74	propriété	propriété	NOUN	_	NOUN__Gender=Masc|Number=Sing	70	obl	_	_
+75	.	.	PUNCT	_	PUNCT___	74	punct	_	_
+
+
+#Comment peut-on traiter ce problème ?
+1	Comment	comment	ADV	_	ADV__PronType=Int	3	advmod	_	_
+2	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	-	-	PUNCT	_	PUNCT___	3	punct	_	_
+4	on	on	PRON	_	PRON__Number=Sing|Person=3	6	nsubj	_	_
+5	traiter	traiter	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+6	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+7	problème	problème	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+8	?	?	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Pour le régime de la participation aux acquêts je vous confirme que la Notaire s'arrache les cheveux.
+1	Pour	Pour	ADP	_	ADP___	3	case	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	régime	régime	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obl	_	_
+4	de	de	ADP	_	ADP___	6	case	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	participation	participation	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nmod	_	_
+7	aux	aux	ADP	_	ADP___	6	case	_	_
+8	acquêts	acquêt	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nmod	_	_
+9	je	il	PRON	_	PRON__Number=Sing|Person=1	10	nsubj	_	_
+10	vous	vous	PRON	_	PRON__Number=Plur|Person=2	3	iobj	_	_
+11	confirme	confirmer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+12	que	que	SCONJ	_	SCONJ___	15	mark	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	Notaire	Notaire	PROPN	_	PROPN__Gender=Fem|Number=Sing	15	nsubj	_	_
+15	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	11	expl	_	_
+16	arrache	arracher	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	ccomp	_	_
+17	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	18	det	_	_
+18	cheveux	cheveu	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	obj	_	_
+19	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+

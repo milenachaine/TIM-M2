@@ -1,23 +1,177 @@
-#prescription combat titres efficacement caractère "public" pas compris... avocat car TGI stop les hirondelles sentent la moutarde
-1	prescription	prescription	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	advmod	_	_
-2	combat	combat	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	amod	_	_
-3	titres	titrer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	amod	_	_
-4	efficacement	efficacement	ADV	_	ADV___	3	advmod	_	_
-5	caractère	caractère	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	amod	_	_
-6	"	"	PUNCT	_	PUNCT___	7	punct	_	_
-7	public	public	ADJ	_	ADJ__Gender=Masc|Number=Sing	3	amod	_	_
-8	"	"	PUNCT	_	PUNCT___	1	punct	_	_
-9	pas	pas	ADV	_	ADV___	12	advmod	_	_
-10	compris	compris	ADJ	_	ADJ__Gender=Masc	9	fixed	_	_
-11	...	...	PUNCT	_	PUNCT___	12	punct	_	_
-12	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
-13	car	car	CCONJ	_	CCONJ___	14	cc	_	_
-14	TGI	tgi	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	12	conj	_	_
-15	stop	stop	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	case	_	_
-16	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	17	det	_	_
-17	hirondelles	hirondelle	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	nmod	_	_
-18	sentent	sentir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	advmod	_	_
+#0,60, c'est pour une fenêtre implantée sur la facade donnant sur votre fonds (perpendiculaire à la limite séparative).
+1	0,60	0,60	NUM	_	NUM__NumType=Card	8	nummod	_	_
+2	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+3	c'	ce	PRON	_	PRON__Number=Sing|Person=3	7	nsubj	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	pour	pour	ADP	_	ADP___	7	case	_	_
+6	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	fenêtre	fenêtre	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	amod	_	_
+8	implantée	implanter	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+9	sur	sur	ADP	_	ADP___	11	case	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	facade	facade	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+12	donnant	donner	VERB	_	VERB__Tense=Pres|VerbForm=Part	11	acl	_	_
+13	sur	sur	ADP	_	ADP___	15	case	_	_
+14	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	15	nmod:poss	_	_
+15	fonds	fonds	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	obl	_	_
+16	(	(	PUNCT	_	PUNCT___	8	punct	_	_
+17	perpendiculaire	perpendiculaire	NOUN	_	NOUN__Number=Sing	8	acl	_	_
+18	à	à	ADP	_	ADP___	20	case	_	_
 19	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	moutarde	moutarde	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	obj	_	_
+20	limite	limite	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	obl	_	_
+21	séparative	séparatif	ADJ	_	ADJ__Gender=Fem|Number=Sing	20	amod	_	_
+22	)	)	PUNCT	_	PUNCT___	8	punct	_	_
+23	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Votre terrasse jouxte le limite et crée une vue droite (vous pouvez tranquilou vous appuyer sur votre garde-corps en zieutant sur sa parcelle).
+1	Votre	votre	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+2	terrasse	terrasse	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	amod	_	_
+3	jouxte	jouxter	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nsubj	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+5	limite	limite	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+6	et	et	CCONJ	_	CCONJ___	7	cc	_	_
+7	crée	créer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+8	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+9	vue	vue	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obj	_	_
+10	droite	droite	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	amod	_	_
+11	(	(	PUNCT	_	PUNCT___	8	punct	_	_
+12	vous	vous	PRON	_	PRON__Number=Plur|Person=2	11	nsubj	_	_
+13	pouvez	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	tranquilou	tranquilou	ADJ	_	ADJ__Gender=Fem|Number=Sing	15	parataxis	_	_
+15	vous	vous	PRON	_	PRON__Number=Plur|Person=2	12	expl	_	_
+16	appuyer	avoir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+17	sur	sur	ADP	_	ADP___	8	case	_	_
+18	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	20	nmod:poss	_	_
+19	garde-corps	garde-corps	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obl	_	_
+20	en	en	ADP	_	ADP___	17	case	_	_
+21	zieutant	zieuter	VERB	_	VERB__Tense=Pres|VerbForm=Part	20	fixed	_	_
+22	sur	sur	ADP	_	ADP___	8	case	_	_
+23	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	8	nmod:poss	_	_
+24	parcelle	parcelle	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	obl	_	_
+25	)	)	PUNCT	_	PUNCT___	26	punct	_	_
+26	.	.	PUNCT	_	PUNCT___	39	punct	_	_
+
+
+#Vous devez donc soit reculer de 1,80m, soit mettre un pare-vue de cette hauteur.
+1	Vous	vous	PRON	_	PRON__Number=Plur|Person=2	8	nsubj	_	_
+2	devez	devoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	7	aux	_	_
+3	donc	donc	ADV	_	ADV___	7	advmod	_	_
+4	soit	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+5	reculer	reculer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+6	de	de	ADP	_	ADP___	7	case	_	_
+7	1,80	1,80	NUM	_	NUM__NumType=Card	8	nummod	_	_
+8	m	m	NOUN	_	NOUN__Gender=Masc	8	obl	_	_
+9	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+10	soit	être	CCONJ	_	CCONJ___	11	cc	_	_
+11	mettre	mettre	VERB	_	VERB__VerbForm=Inf	8	conj	_	_
+12	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+13	pare-vue	pare-vue	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obj	_	_
+14	de	de	ADP	_	ADP___	15	case	_	_
+15	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+16	hauteur	hauteur	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+17	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Et compléter par la suppression de la vue latérale (quand vous êtes appuyée sur le garde-corps donnant sur votre terrain/copropriété) en prolongeant le pare-vue de 0,60m ou par un retour sur votre terrasse de 0,60m.
+1	Et	Et	CCONJ	_	CCONJ___	8	cc	_	_
+2	compléter	compléter	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+3	par	par	ADP	_	ADP___	7	case	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+5	suppression	suppression	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obl	_	_
+6	de	de	ADP	_	ADP___	7	case	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	vue	vue	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+9	latérale	latéral	ADJ	_	ADJ__Gender=Fem|Number=Sing	11	amod	_	_
+10	(	(	PUNCT	_	PUNCT___	11	punct	_	_
+11	quand	quand	SCONJ	_	SCONJ___	8	mark	_	_
+12	vous	vous	PRON	_	PRON__Number=Plur|Person=2	11	nsubj:pass	_	_
+13	êtes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
+14	appuyée	appuyer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	15	advcl	_	_
+15	sur	sur	ADP	_	ADP___	12	case	_	_
+16	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+17	garde-corps	garde-corps	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+18	donnant	donner	VERB	_	VERB__Tense=Pres|VerbForm=Part	20	acl	_	_
+19	sur	sur	ADP	_	ADP___	20	case	_	_
+20	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	17	nmod:poss	_	_
+21	terrain	terrain	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obl	_	_
+22	/	/	ADP	_	ADP___	8	case	_	_
+23	copropriété	copropriété	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+24	)	)	PUNCT	_	PUNCT___	26	punct	_	_
+25	en	en	ADP	_	ADP___	26	mark	_	_
+26	prolongeant	prolonger	VERB	_	VERB__Tense=Pres|VerbForm=Part	39	advcl	_	_
+27	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	pare-vue	pare-vue	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	obj	_	_
+29	de	de	ADP	_	ADP___	30	case	_	_
+30	0,60	0,60	NUM	_	NUM__NumType=Card	26	nummod	_	_
+31	m	m	NOUN	_	NOUN___	32	nmod	_	_
+32	ou	ou	CCONJ	_	CCONJ___	30	cc	_	_
+33	par	par	ADP	_	ADP___	32	case	_	_
+34	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+35	retour	retour	NOUN	_	NOUN__Gender=Masc|Number=Sing	37	conj	_	_
+36	sur	sur	ADP	_	ADP___	37	case	_	_
+37	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	26	nmod:poss	_	_
+38	terrasse	terrasse	NOUN	_	NOUN__Gender=Fem|Number=Sing	39	nmod	_	_
+39	de	de	ADP	_	ADP___	39	case	_	_
+40	0,60	0,60	NUM	_	NUM__NumType=Card	42	nummod	_	_
+41	m	m	NOUN	_	NOUN___	42	nmod	_	_
+42	.	.	PUNCT	_	PUNCT___	39	punct	_	_
+
+
+#---------- Message ajouté à 22h16 ---------- Précédent message à 22h14 ----------
+1	----------	----------	DET	_	DET___	8	det	_	_
+2	Message	message	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	ajouté	ajouter	ADJ	_	ADJ__Gender=Masc|Number=Sing	7	amod	_	_
+4	à	à	ADP	_	ADP___	7	case	_	_
+5	22h16	22h16	NUM	_	NUM__NumType=Card	7	nummod	_	_
+6	----------	----------	PRON	_	PRON__Number=Sing|Person=3	7	obl	_	_
+7	Précédent	précédent	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	nmod	_	_
+8	message	message	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	flat:name	_	_
+9	à	à	ADP	_	ADP___	11	case	_	_
+10	22h14	22h14	NUM	_	NUM__NumType=Card	11	nummod	_	_
+11	----------	----------	PRON	_	PRON__Number=Sing|Person=3	8	nmod	_	_
+
+
+#La terrasse faisant 2,5m de large, cela remettrait le projet en question si je dois arrêter mon plancher 1,8m avant...
+1	La	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+2	terrasse	terrasse	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nsubj	_	_
+3	faisant	faire	VERB	_	VERB__Tense=Pres|VerbForm=Part	7	acl	_	_
+4	2,5	2,5	NUM	_	NUM__NumType=Card	7	nummod	_	_
+5	m	m	NOUN	_	NOUN__Gender=Masc	7	obj	_	_
+6	de	de	ADP	_	ADP___	7	case	_	_
+7	large	large	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+8	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+9	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	11	nsubj	_	_
+10	remettrait	remettre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+12	projet	projet	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+13	en	en	ADP	_	ADP___	15	advmod	_	_
+14	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	fixed	_	_
+15	si	si	SCONJ	_	SCONJ___	12	mark	_	_
+16	je	il	PRON	_	PRON__Number=Sing|Person=1	8	nsubj	_	_
+17	dois	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+18	arrêter	arrêter	VERB	_	VERB__VerbForm=Inf	20	advcl	_	_
+19	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	20	nmod:poss	_	_
+20	plancher	plancher	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	amod	_	_
+21	1,8	1,8	NUM	_	NUM__NumType=Card	20	nummod	_	_
+22	m	m	NOUN	_	NOUN__Gender=Masc	8	obj	_	_
+23	avant	avant	ADP	_	ADP___	8	case	_	_
+24	...	...	PUNCT	_	PUNCT___	26	punct	_	_
+
+
+#Il vaut mieux le remettre en question qu'avoir à le demolir...
+1	Il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+2	vaut	valoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	mieux	mieux	ADV	_	ADV___	7	advmod	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	obj	_	_
+5	remettre	remettre	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+6	en	en	ADP	_	ADP___	7	advmod	_	_
+7	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	fixed	_	_
+8	qu'	que	PRON	_	PRON__PronType=Rel	8	mark	_	_
+9	avoir	avoir	VERB	_	VERB__VerbForm=Inf	11	acl:relcl	_	_
+10	à	à	ADP	_	ADP___	11	case	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+12	demolir	demolir	VERB	_	VERB__VerbForm=Inf	11	xcomp	_	_
+13	...	...	PUNCT	_	PUNCT___	15	punct	_	_
 
 

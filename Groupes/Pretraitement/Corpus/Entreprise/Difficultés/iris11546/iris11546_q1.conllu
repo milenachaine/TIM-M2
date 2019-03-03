@@ -1,0 +1,534 @@
+#Bonjour, Je suis locataire
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+4	suis	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	locataire	locatair	ADJ	_	ADJ__Number=Sing	1	acl:relcl	_	_
+
+
+#-gérant d'un fonds de commerce (dans la restauration) depuis 7 ans.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	gérant	gérer	VERB	_	VERB__Tense=Pres|VerbForm=Part	0	ROOT	_	_
+3	d'	de	ADP	_	ADP___	5	case	_	_
+4	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	fonds	fonds	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	obl	_	_
+6	de	de	ADP	_	ADP___	7	case	_	_
+7	commerce	commerce	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+8	(	(	PUNCT	_	PUNCT___	10	punct	_	_
+9	dans	dan	ADP	_	ADP___	10	case	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+11	restauration	restauration	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obl	_	_
+12	)	)	PUNCT	_	PUNCT___	10	punct	_	_
+13	depuis	depuis	ADP	_	ADP___	7	case	_	_
+14	7	7	NUM	_	NUM__NumType=Card	16	nummod	_	_
+15	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	obl	_	_
+16	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Depuis 1 an, je négocie la reprise du fonds de commerce.
+1	Depuis	Depuis	ADP	_	ADP___	1	case	_	_
+2	1	1	NUM	_	NUM__NumType=Card	1	nummod	_	_
+3	an	an	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+4	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+5	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+6	négocie	négocier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	obj	_	_
+8	reprise	reprise	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obj	_	_
+9	du	du	DET	_	DET__Gender=Masc|Number=Sing	10	det	_	_
+10	fonds	fonds	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	obj	_	_
+11	de	de	ADP	_	ADP___	12	case	_	_
+12	commerce	commerce	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+13	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#J'apprends alors que le propriétaire du fonds n'a pas renouvelé son bail commercial.
+1	J'	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	apprends	apprend	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+3	alors	alors	ADV	_	ADV___	5	advmod	_	_
+4	que	que	SCONJ	_	SCONJ___	5	mark	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+6	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	7	nsubj	_	_
+7	du	du	DET	_	DET__Gender=Masc|Number=Sing	7	det	_	_
+8	fonds	fonds	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	nmod	_	_
+9	n'	ne	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+10	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+11	pas	pas	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+12	renouvelé	renouveler	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	ccomp	_	_
+13	son	son	DET	_	DET__Number=Sing|Poss=Yes	7	nmod:poss	_	_
+14	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obj	_	_
+15	commercial	commercial	ADJ	_	ADJ__Gender=Masc|Number=Sing	16	amod	_	_
+16	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#J'insiste pour qu'il le renouvelle afin de me permettre de racheter le fonds.
+1	J'	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	insiste	insister	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	pour	pour	ADP	_	ADP___	5	mark	_	_
+4	qu'	que	SCONJ	_	SCONJ___	5	fixed	_	_
+5	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+6	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	7	det	_	_
+7	renouvelle	renouveler	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+8	afin	afin	ADP	_	ADP___	10	mark	_	_
+9	de	de	ADP	_	ADP___	10	fixed	_	_
+10	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	7	iobj	_	_
+11	permettre	permettre	VERB	_	VERB__VerbForm=Inf	12	advcl	_	_
+12	de	de	ADP	_	ADP___	10	mark	_	_
+13	racheter	racheter	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+14	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	fonds	fonds	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	obj	_	_
+16	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Sans résultat.
+1	Sans	Sans	ADP	_	ADP___	1	case	_	_
+2	résultat	résultat	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Récemment, je reçois une LR : il ne souhaite pas renouveler le contrat de location
+1	Récemment	récemment	ADV	_	ADV___	1	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+4	reçois	recevoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+6	LR	lr	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+7	:	:	PUNCT	_	PUNCT___	7	punct	_	_
+8	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
+9	ne	ne	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+10	souhaite	souhaiter	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
+11	pas	pas	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+12	renouveler	renouveler	VERB	_	VERB__VerbForm=Inf	10	xcomp	_	_
+13	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+14	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obj	_	_
+15	de	de	ADP	_	ADP___	16	case	_	_
+16	location	location	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+
+
+#-gérance (sans motif).
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	gérance	gérance	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	(	(	PUNCT	_	PUNCT___	5	punct	_	_
+4	sans	sans	ADP	_	ADP___	5	case	_	_
+5	motif	motif	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+6	)	)	PUNCT	_	PUNCT___	7	punct	_	_
+7	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#J'ai essayé de le contacter mais sans succès.
+1	J'	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	essayé	essayer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	de	de	ADP	_	ADP___	5	mark	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	obj	_	_
+6	contacter	contacter	VERB	_	VERB__VerbForm=Inf	7	obl	_	_
+7	mais	mais	CCONJ	_	CCONJ___	7	cc	_	_
+8	sans	sans	ADP	_	ADP___	10	case	_	_
+9	succès	succès	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	conj	_	_
+10	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Problème : il y a un salarié que j'ai recruté en CDI.
+1	Problème	problème	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	advmod	_	_
+2	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+3	il	il	PRON	_	PRON__Number=Sing|Person=3	0	ROOT	_	_
+4	y	yu	PRON	_	PRON__Person=3	5	fixed	_	_
+5	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	fixed	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	salarié	salarié	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+8	que	que	SCONJ	_	SCONJ___	10	obj	_	_
+9	j'	il	PRON	_	PRON__Number=Sing|Person=1	10	nsubj	_	_
+10	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+11	recruté	recruter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl:relcl	_	_
+12	en	en	ADP	_	ADP___	10	case	_	_
+13	CDI	cdi	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+14	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Je ne sais pas si l'exploitation du fonds continue.
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ne	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+3	sais	savoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+5	si	si	SCONJ	_	SCONJ___	1	mark	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	exploitation	exploitation	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+8	du	du	DET	_	DET__Gender=Masc|Number=Sing	10	det	_	_
+9	fonds	fonds	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	nmod	_	_
+10	continue	continuer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	amod	_	_
+11	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Dois
+1	Dois	Dois	NUM	_	NUM__NumType=Card	0	ROOT	_	_
+
+
+#-je faire un licenciement ou transférer le CDI à mon bailleur ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+3	faire	faire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	licenciement	licenciement	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+6	ou	ou	CCONJ	_	CCONJ___	7	cc	_	_
+7	transférer	transférer	VERB	_	VERB__VerbForm=Inf	7	conj	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	CDI	cdi	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+10	à	à	ADP	_	ADP___	7	case	_	_
+11	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	12	nmod:poss	_	_
+12	bailleur	bailleur	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obl	_	_
+13	?	?	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Je m'informe auprès d'un avocat qui pense que le propriétaire aurait perdu son fonds :
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	1	expl	_	_
+3	informe	informer	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	auprès	auprès	ADP	_	ADP___	5	case	_	_
+5	d'	de	ADP	_	ADP___	1	fixed	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+8	qui	qui	PRON	_	PRON__PronType=Rel	10	nsubj	_	_
+9	pense	penser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+10	que	que	SCONJ	_	SCONJ___	7	mark	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	10	nsubj	_	_
+13	aurait	avoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+14	perdu	perdre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	ccomp	_	_
+15	son	son	DET	_	DET__Number=Sing|Poss=Yes	16	nmod:poss	_	_
+16	fonds	fonds	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	obj	_	_
+17	:	:	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#- car il ne l'a pas exploité pendant 2 ans.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	car	car	CCONJ	_	CCONJ___	1	cc	_	_
+3	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+4	ne	ne	ADV	_	ADV___	5	advmod	_	_
+5	l'	le	PRON	_	PRON__Number=Sing|Person=3	1	obj	_	_
+6	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	pas	pas	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+8	exploité	exploité	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+9	pendant	pendre	ADP	_	ADP___	10	case	_	_
+10	2	2	NUM	_	NUM__NumType=Card	7	nummod	_	_
+11	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	obl	_	_
+12	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Le propriétaire est héritier : cette condition est elle applicable ?
+1	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	1	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	héritier	héritier	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+6	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	condition	condition	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nsubj	_	_
+8	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	10	nsubj	_	_
+10	applicable	applicable	ADJ	_	ADJ__Number=Sing	7	parataxis	_	_
+11	?	?	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Son père avait exploité le fonds pendant 3 ans.
+1	Son	son	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	père	père	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	avait	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+4	exploité	exploiter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+6	fonds	fonds	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+7	pendant	pendre	ADP	_	ADP___	7	case	_	_
+8	3	3	NUM	_	NUM__NumType=Card	10	nummod	_	_
+9	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	obl	_	_
+10	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#- Le bail commercial comporte une clause d'interdiction de sous-location.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+3	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+4	commercial	commercial	ADJ	_	ADJ__Gender=Masc|Number=Sing	5	amod	_	_
+5	comporte	comporter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	clause	clause	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+8	d'	de	ADP	_	ADP___	10	case	_	_
+9	interdiction	interdiction	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+10	de	de	ADP	_	ADP___	7	case	_	_
+11	sous-location	sous-location	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+12	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Le contrat de location
+1	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	de	de	ADP	_	ADP___	5	case	_	_
+4	location	location	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+
+
+#-gérance serait illicite car l'autorisation n'a pas été obtenue.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	gérance	gérance	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj:pass	_	_
+3	serait	être	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+4	illicite	illicite	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+5	car	car	CCONJ	_	CCONJ___	1	cc	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	autorisation	autorisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+8	n'	ne	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+9	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	pas	pas	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+11	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	12	aux:pass	_	_
+12	obtenue	obtenir	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	conj	_	_
+13	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#La location
+1	La	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	location	location	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+
+
+#-gérance est elle une sous-location ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	gérance	gérance	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	5	case	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+6	sous-location	sous-location	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+7	?	?	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Y a t'il une obligation d'autorisation du propriétaire des murs ?
+1	Y	yu	PRON	_	PRON__Person=3	1	case	_	_
+2	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	fixed	_	_
+3	t'	t	SCONJ	_	SCONJ___	5	advmod	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	fixed	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+6	obligation	obligation	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+7	d'	de	ADP	_	ADP___	7	case	_	_
+8	autorisation	autorisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+9	du	du	DET	_	DET__Gender=Masc|Number=Sing	10	det	_	_
+10	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	7	nmod	_	_
+11	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	12	det	_	_
+12	murs	mur	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	nmod	_	_
+13	?	?	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Depuis, le propriétaire des murs me propose un bail précaire avec paiement d'un pas de porte.
+1	Depuis	depuis	ADV	_	ADV___	1	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	5	nsubj	_	_
+5	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	1	det	_	_
+6	murs	mur	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	nmod	_	_
+7	me	se	PRON	_	PRON__Number=Sing|Person=1	7	iobj	_	_
+8	propose	proposer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+9	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+11	précaire	précaire	ADJ	_	ADJ__Number=Sing	12	amod	_	_
+12	avec	avec	ADP	_	ADP___	10	case	_	_
+13	paiement	paiement	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+14	d'	de	ADP	_	ADP___	16	case	_	_
+15	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	pas	pas	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+17	de	de	ADP	_	ADP___	7	case	_	_
+18	porte	porte	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	nmod	_	_
+19	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Questions :
+1	Questions	question	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+2	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#- Le propriétaire des murs a-t-il le droit de faire cette offre ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+3	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	5	nsubj	_	_
+4	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
+5	murs	mur	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	nmod	_	_
+6	a	avoir		_	VERB	7	aux	_	_
+7	-t	t	PART	_	PART___	7	expl	_	_
+8	-il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	0	ROOT	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+11	de	de	ADP	_	ADP___	12	mark	_	_
+12	faire	faire	VERB	_	VERB__VerbForm=Inf	10	acl	_	_
+13	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+14	offre	offre	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obj	_	_
+15	?	?	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#- Pourquoi ne pas proposer un bail commercial ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	Pourquoi	pourquoi	ADV	_	ADV__PronType=Int	1	advmod	_	_
+3	ne	ne	ADV	_	ADV___	5	advmod	_	_
+4	pas	pas	ADV	_	ADV___	5	fixed	_	_
+5	proposer	proposer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+8	commercial	commercial	ADJ	_	ADJ__Gender=Masc|Number=Sing	10	amod	_	_
+9	?	?	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Qu'est devenu le fonds de commerce ?
+1	Qu'	que	PRON	_	PRON__PronType=Int	1	obj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
+3	devenu	devenir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	fonds	fonds	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	obj	_	_
+6	de	de	ADP	_	ADP___	7	case	_	_
+7	commerce	commerce	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+8	?	?	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#- Dois-je licencier le salarié ou son CDI doit être repris pas l'actuel propriétaire du fonds ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	Dois	Dois	NUM	_	NUM__NumType=Card	1	advmod	_	_
+3	-	-	PUNCT	_	PUNCT___	5	punct	_	_
+4	je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+5	licencier	licencier	VERB	_	VERB__Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	salarié	salarié	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+8	ou	ou	CCONJ	_	CCONJ___	10	cc	_	_
+9	son	son	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+10	CDI	cdi	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nsubj	_	_
+11	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+12	être	être	AUX	_	AUX__VerbForm=Inf	10	aux:pass	_	_
+13	repris	reprendre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part|Voice=Pass	7	xcomp	_	_
+14	pas	pas	ADV	_	ADV__Polarity=Neg	16	advmod	_	_
+15	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	actuel	actuel	ADJ	_	ADJ__Gender=Masc|Number=Sing	7	obj	_	_
+17	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	7	amod	_	_
+18	du	du	DET	_	DET__Gender=Masc|Number=Sing	20	det	_	_
+19	fonds	fonds	NOUN	_	NOUN__Gender=Masc|Number=Plur	20	obj	_	_
+20	?	?	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Si le fonds n'existe plus, qui doit faire le licenciement ?
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+3	fonds	fonds	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	nsubj	_	_
+4	n'	ne	ADV	_	ADV___	5	advmod	_	_
+5	existe	exister	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+6	plus	plus	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+7	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+8	qui	qui	PRON	_	PRON__PronType=Rel	10	nsubj	_	_
+9	doit	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	faire	faire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	licenciement	licenciement	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+13	?	?	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#- Quels sont les pièges à éviter avec un bail précaire ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	Quels	quel	ADJ	_	ADJ__Gender=Masc|Number=Plur	0	ROOT	_	_
+3	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+5	pièges	piège	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	nsubj	_	_
+6	à	à	ADP	_	ADP___	7	mark	_	_
+7	éviter	éviter	VERB	_	VERB__VerbForm=Inf	7	acl	_	_
+8	avec	avec	ADP	_	ADP___	10	case	_	_
+9	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+11	précaire	précaire	ADJ	_	ADJ__Number=Sing	12	amod	_	_
+12	?	?	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#(je n'ai pour le moment aucun élément :
+1	(	(	PUNCT	_	PUNCT___	1	punct	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+3	n'	ne	ADV	_	ADV___	5	advmod	_	_
+4	ai	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	pour	pour	ADP	_	ADP___	1	case	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	moment	moment	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+8	aucun	aucun	DET	_	DET__Gender=Masc|Number=Sing	10	det	_	_
+9	élément	élément	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+10	:	:	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#prix, conditions...)
+1	prix	prix	NOUN	_	NOUN__Gender=Masc	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	conditions	condition	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	conj	_	_
+4	...	...	PUNCT	_	PUNCT___	5	nummod	_	_
+5	)	)	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#- Si je refuse le bail précaire, que devient ma clause de non-concurrence si le fonds n'existe plus - Si mon contrat de location
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+4	refuse	refuser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+6	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+7	précaire	précaire	ADJ	_	ADJ__Number=Sing	7	amod	_	_
+8	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+9	que	que	PRON	_	PRON__PronType=Rel	10	mark	_	_
+10	devient	devenir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+11	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	12	nmod:poss	_	_
+12	clause	clause	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	ccomp	_	_
+13	de	de	ADP	_	ADP___	7	case	_	_
+14	non-concurrence	non-concurrence	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nmod	_	_
+15	si	si	SCONJ	_	SCONJ___	16	mark	_	_
+16	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+17	fonds	fonds	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	nsubj	_	_
+18	n'	ne	ADV	_	ADV___	20	advmod	_	_
+19	existe	exister	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+20	plus	plus	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+21	-	-	PUNCT	_	PUNCT___	7	punct	_	_
+22	Si	Si	SCONJ	_	SCONJ___	24	case	_	_
+23	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	24	nmod:poss	_	_
+24	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	obl	_	_
+25	de	de	ADP	_	ADP___	27	case	_	_
+26	location	location	NOUN	_	NOUN__Gender=Fem|Number=Sing	27	nmod	_	_
+
+
+#-gérance était invalide, ai-je droit à des indemnités de la part du propriétaire du fonds ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	gérance	gérance	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+3	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+4	invalide	invalide	ADJ	_	ADJ__Number=Sing	5	advcl	_	_
+5	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+6	ai	avoir	PROPN	_	PROPN___	7	aux	_	_
+7	-	-	PUNCT	_	PUNCT___	7	punct	_	_
+8	je	il	PRON	_	PRON__Number=Sing|Person=1	10	nsubj	_	_
+9	droit	droit	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+10	à	à	ADP	_	ADP___	7	case	_	_
+11	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	12	det	_	_
+12	indemnités	indemnité	NOUN	_	NOUN__Gender=Fem|Number=Plur	10	obl	_	_
+13	de	de	ADP	_	ADP___	7	case	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	fixed	_	_
+15	part	part	NOUN	_	NOUN__Number=Sing	16	fixed	_	_
+16	du	du	DET	_	DET__Gender=Masc|Number=Sing	7	det	_	_
+17	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	7	obl	_	_
+18	du	du	DET	_	DET__Gender=Masc|Number=Sing	20	det	_	_
+19	fonds	fonds	NOUN	_	NOUN__Gender=Masc|Number=Plur	20	nmod	_	_
+20	?	?	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Voilà beaucoup de questions .
+1	Voilà	voilà	VERB	_	VERB__Mood=Ind|VerbForm=Fin	0	ROOT	_	_
+2	beaucoup	beaucoup	ADV	_	ADV___	1	det	_	_
+3	de	de	ADP	_	ADP___	5	fixed	_	_
+4	questions	question	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	obj	_	_
+5	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#J'espère que vous pourrez m'éclairer.
+1	J'	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	espère	espérer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	que	que	SCONJ	_	SCONJ___	5	mark	_	_
+4	vous	vous	PRON	_	PRON__Number=Plur|Person=2	5	nsubj	_	_
+5	pourrez	pouvoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+6	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	7	mark	_	_
+7	éclairer	éclairer	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+8	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#En vous remerciant par avance.
+1	En	En	ADP	_	ADP___	1	mark	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	iobj	_	_
+3	remerciant	remercier	VERB	_	VERB__Tense=Pres|VerbForm=Part	0	ROOT	_	_
+4	par	par	ADP	_	ADP___	5	case	_	_
+5	avance	avance	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obl	_	_
+6	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+

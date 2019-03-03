@@ -1,0 +1,152 @@
+#Bonjour à tous!
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	à	à	ADP	_	ADP___	3	case	_	_
+3	tous	tout	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Rel	1	obl	_	_
+4	!	!	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Voici la situation :
+1	Voici	voici	VERB	_	VERB__Mood=Ind|VerbForm=Fin	0	ROOT	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obj	_	_
+4	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#-2003 : constitution SCI familiale, 4 personnes, 5 parts par personnes (mes 2 parents, mon mari et moi-même).
+1	-2003	-2003	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+2	:	:	PUNCT	_	PUNCT___	3	punct	_	_
+3	constitution	constitution	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+4	SCI	sci	ADJ	_	ADJ___	1	nmod	_	_
+5	familiale	familial	ADJ	_	ADJ__Gender=Fem|Number=Sing	5	amod	_	_
+6	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+7	4	4	NUM	_	NUM__NumType=Card	5	nummod	_	_
+8	personnes	personne	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	conj	_	_
+9	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+10	5	5	NUM	_	NUM__NumType=Card	9	nummod	_	_
+11	parts	part	NOUN	_	NOUN__Number=Plur	9	conj	_	_
+12	par	par	ADP	_	ADP___	11	case	_	_
+13	personnes	personne	NOUN	_	NOUN__Gender=Fem|Number=Plur	11	nmod	_	_
+14	(	(	PUNCT	_	PUNCT___	16	punct	_	_
+15	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	16	nmod:poss	_	_
+16	2	2	NUM	_	NUM__NumType=Card	9	nummod	_	_
+17	parents	parent	NOUN	_	NOUN__Gender=Masc|Number=Plur	19	nmod	_	_
+18	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+19	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	9	nmod:poss	_	_
+20	mari	mari	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	conj	_	_
+21	et	et	CCONJ	_	CCONJ___	19	cc	_	_
+22	moi-même	moi-même	NOUN	_	NOUN___	9	conj	_	_
+23	)	)	PUNCT	_	PUNCT___	25	punct	_	_
+24	.	.	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#Achat studio.
+1	Achat	achat	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	studio	studio	ADJ	_	ADJ__Gender=Masc|Number=Sing	3	amod	_	_
+3	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Prix= 29 000E. 2015 : réfection totale du studio.
+1	Prix=	prix=	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	amod	_	_
+2	29	29	NUM	_	NUM__NumType=Card	3	nummod	_	_
+3	000E.	000E.	NUM	_	NUM__NumType=Card	1	nmod	_	_
+4	2015	2015	NUM	_	NUM__NumType=Card	1	nummod	_	_
+5	:	:	PUNCT	_	PUNCT___	5	punct	_	_
+6	réfection	réfection	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+7	totale	total	ADJ	_	ADJ__Gender=Fem|Number=Sing	5	amod	_	_
+8	du	du	DET	_	DET__Gender=Masc|Number=Sing	5	det	_	_
+9	studio	studio	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	amod	_	_
+10	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Parents injectent 30000E en numéraire pour réaliser les travaux.
+1	Parents	parent	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	nsubj	_	_
+2	injectent	injecter	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	30000E	30000e	PRON	_	PRON__NumType=Card|PronType=Rel	1	obj	_	_
+4	en	en	ADP	_	ADP___	1	case	_	_
+5	numéraire	numéraire	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obl	_	_
+6	pour	pour	ADP	_	ADP___	7	mark	_	_
+7	réaliser	réaliser	VERB	_	VERB__VerbForm=Inf	5	advcl	_	_
+8	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+9	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	obj	_	_
+10	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Montant travaux=30000E 2016 :
+1	Montant	montant	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	travaux=30000E	travaux=30000e	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	nmod	_	_
+3	2016	2016	NUM	_	NUM__NumType=Card	1	nummod	_	_
+4	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#valeur studio après travaux = 80000E 2018 : Parents décident de donner leurs 10parts (la totalité) à mon frère (nous sommes 2 enfants) et de me donner l'équivalent en numéraire pour compenser.
+1	valeur	valeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+2	studio	studio	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	amod	_	_
+3	après	après	ADP	_	ADP___	1	case	_	_
+4	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+5	=	=	VERB	_	VERB__Mood=Ind|Person=3|VerbForm=Fin	5	cop	_	_
+6	80000E	80000E	NUM	_	NUM__NumType=Card	7	nmod	_	_
+7	2018	2018	NUM	_	NUM__NumType=Card	5	nummod	_	_
+8	:	:	PUNCT	_	PUNCT___	5	punct	_	_
+9	Parents	parent	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	nsubj	_	_
+10	décident	décider	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+11	de	de	ADP	_	ADP___	9	mark	_	_
+12	donner	donner	VERB	_	VERB__VerbForm=Inf	11	xcomp	_	_
+13	leurs	leur	DET	_	DET__Number=Plur|Poss=Yes	11	nmod:poss	_	_
+14	10parts	10part	ADJ	_	ADJ__NumType=Card	16	obj	_	_
+15	(	(	PUNCT	_	PUNCT___	16	punct	_	_
+16	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+17	totalité	totalité	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obj	_	_
+18	)	)	PUNCT	_	PUNCT___	19	punct	_	_
+19	à	à	ADP	_	ADP___	9	case	_	_
+20	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	21	nmod:poss	_	_
+21	frère	frère	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obl	_	_
+22	(	(	PUNCT	_	PUNCT___	9	punct	_	_
+23	nous	nous	PRON	_	PRON__Number=Plur|Person=1	25	nsubj	_	_
+24	sommes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	25	parataxis	_	_
+25	2	2	NUM	_	NUM__NumType=Card	9	nummod	_	_
+26	enfants	enfant	NOUN	_	NOUN__Number=Plur	28	obj	_	_
+27	)	)	PUNCT	_	PUNCT___	28	punct	_	_
+28	et	et	CCONJ	_	CCONJ___	9	cc	_	_
+29	de	de	ADP	_	ADP___	30	mark	_	_
+30	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	28	iobj	_	_
+31	donner	donner	VERB	_	VERB__VerbForm=Inf	9	conj	_	_
+32	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+33	équivalent	équivalent	NOUN	_	NOUN__Gender=Masc|Number=Sing	33	obj	_	_
+34	en	en	ADP	_	ADP___	33	case	_	_
+35	numéraire	numéraire	NOUN	_	NOUN__Gender=Fem|Number=Sing	33	obl	_	_
+36	pour	pour	ADP	_	ADP___	41	mark	_	_
+37	compenser	compenser	VERB	_	VERB__VerbForm=Inf	38	advcl	_	_
+38	.	.	PUNCT	_	PUNCT___	41	punct	_	_
+
+
+#Question : comment calculer la somme qui me revient en compensation des 10 parts données à mon frère?
+1	Question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	:	:	PUNCT	_	PUNCT___	3	punct	_	_
+3	comment	comment	ADV	_	ADV__PronType=Int	1	advmod	_	_
+4	calculer	calculer	VERB	_	VERB__VerbForm=Inf	1	acl	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+6	somme	sommer	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+7	qui	qui	PRON	_	PRON__PronType=Rel	5	nsubj	_	_
+8	me	se	PRON	_	PRON__Number=Sing|Person=1	5	iobj	_	_
+9	revient	revenir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+10	en	en	ADP	_	ADP___	9	case	_	_
+11	compensation	compensation	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obl	_	_
+12	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
+13	10	10	NUM	_	NUM__NumType=Card	11	nummod	_	_
+14	parts	part	NOUN	_	NOUN__Number=Plur	16	obj	_	_
+15	données	donner	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	16	amod	_	_
+16	à	à	ADP	_	ADP___	9	case	_	_
+17	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	19	nmod:poss	_	_
+18	frère	frère	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obl	_	_
+19	?	?	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Merci beaucoup pour votre aide!
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	beaucoup	beaucoup	ADV	_	ADV___	3	advmod	_	_
+3	pour	pour	ADP	_	ADP___	1	case	_	_
+4	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+5	aide	aide	NOUN	_	NOUN__Number=Sing	5	nmod	_	_
+6	!	!	PUNCT	_	PUNCT___	7	punct	_	_
+
+

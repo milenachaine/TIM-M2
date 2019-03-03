@@ -1,0 +1,424 @@
+#Bonjour à tous, Je reviens avec quelques interrogations sur les successions :
+1	Bonjour	Bonjour	PROPN	_	PROPN___	6	acl	_	_
+2	à	à	ADP	_	ADP___	3	case	_	_
+3	tous	tout	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Rel	1	obl	_	_
+4	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+5	Je	il	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+6	reviens	revenir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	avec	avec	ADP	_	ADP___	9	case	_	_
+8	quelques	quelque	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	9	det	_	_
+9	interrogations	interrogation	NOUN	_	NOUN__Gender=Fem|Number=Plur	6	obl	_	_
+10	sur	sur	ADP	_	ADP___	12	case	_	_
+11	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	12	det	_	_
+12	successions	succession	NOUN	_	NOUN__Gender=Fem|Number=Plur	9	nmod	_	_
+13	:	:	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Ma maman est décédée mi-septembre.
+1	Ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	6	nmod:poss	_	_
+2	maman	maman	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
+4	décédée	décéder	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	mi-septembre	mi-septembre	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obl	_	_
+6	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#La déclaration de succession aurait donc dû être faite le 31 mars au plus tard mais malgré des relances régulières depuis fin janvier voyant que rien ne bougeait, le notaire et son clerc ont laissé filer l'échéance.
+1	La	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+2	déclaration	déclaration	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+3	de	de	ADP	_	ADP___	1	case	_	_
+4	succession	succession	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+5	aurait	avoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	donc	donc	ADV	_	ADV___	6	advmod	_	_
+7	dû	devoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+8	être	être	AUX	_	AUX__VerbForm=Inf	9	aux:pass	_	_
+9	faite	faire	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	xcomp	_	_
+10	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	31	31	NUM	_	NUM__NumType=Card	12	nummod	_	_
+12	mars	mars	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obl	_	_
+13	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	6	amod	_	_
+14	plus	plus	ADV	_	ADV___	15	fixed	_	_
+15	tard	tard	ADV	_	ADV___	17	fixed	_	_
+16	mais	mais	CCONJ	_	CCONJ___	17	cc	_	_
+17	malgré	malgré	ADP	_	ADP___	17	case	_	_
+18	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	17	det	_	_
+19	relances	relance	NOUN	_	NOUN__Gender=Fem|Number=Plur	17	conj	_	_
+20	régulières	régulier	ADJ	_	ADJ__Gender=Fem|Number=Plur	21	amod	_	_
+21	depuis	depuis	ADP	_	ADP___	26	case	_	_
+22	fin	fin	NOUN	_	NOUN__Number=Sing	23	det	_	_
+23	janvier	janvier	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obl	_	_
+24	voyant	voyant	ADJ	_	ADJ__Gender=Masc|Number=Sing	26	acl	_	_
+25	que	que	SCONJ	_	SCONJ___	26	mark	_	_
+26	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	26	nsubj	_	_
+27	ne	ne	ADV	_	ADV___	28	advmod	_	_
+28	bougeait	bouger	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	ccomp	_	_
+29	,	,	PUNCT	_	PUNCT___	31	punct	_	_
+30	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	notaire	notaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	conj	_	_
+32	et	et	CCONJ	_	CCONJ___	31	cc	_	_
+33	son	son	DET	_	DET__Number=Sing|Poss=Yes	32	nmod:poss	_	_
+34	clerc	clerc	NOUN	_	NOUN__Gender=Masc|Number=Sing	32	conj	_	_
+35	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	38	aux	_	_
+36	laissé	laisser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	38	conj	_	_
+37	filer	filer	VERB	_	VERB__VerbForm=Inf	38	xcomp	_	_
+38	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	31	det	_	_
+39	échéance	échéance	NOUN	_	NOUN__Gender=Fem|Number=Sing	38	obj	_	_
+40	.	.	PUNCT	_	PUNCT___	42	punct	_	_
+
+
+#Nous venons juste de recevoir le projet de déclaration et l'acte de notoriété, assortis d'une procuration pour moi car j'habite loin, après que je me suis un peu "énervée".
+1	Nous	nous	PRON	_	PRON__Number=Plur|Person=1	6	nsubj	_	_
+2	venons	venir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	juste	juste	ADV	_	ADV___	1	advmod	_	_
+4	de	de	ADP	_	ADP___	6	mark	_	_
+5	recevoir	recevoir	VERB	_	VERB__VerbForm=Inf	6	xcomp	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+7	projet	projet	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+8	de	de	ADP	_	ADP___	9	case	_	_
+9	déclaration	déclaration	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+10	et	et	CCONJ	_	CCONJ___	12	cc	_	_
+11	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	acte	acte	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	conj	_	_
+13	de	de	ADP	_	ADP___	6	case	_	_
+14	notoriété	notoriété	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nmod	_	_
+15	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+16	assortis	assortir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl	_	_
+17	d'	de	ADP	_	ADP___	17	case	_	_
+18	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+19	procuration	procuration	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	obl	_	_
+20	pour	pour	ADP	_	ADP___	21	case	_	_
+21	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	26	nmod	_	_
+22	car	car	CCONJ	_	CCONJ___	23	cc	_	_
+23	j'	il	PRON	_	PRON__Number=Sing|Person=1	21	nsubj	_	_
+24	habite	habiter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	26	conj	_	_
+25	loin	loin	ADV	_	ADV___	26	advmod	_	_
+26	,	,	PUNCT	_	PUNCT___	26	punct	_	_
+27	après	après	ADP	_	ADP___	28	mark	_	_
+28	que	que	SCONJ	_	SCONJ___	26	fixed	_	_
+29	je	il	PRON	_	PRON__Number=Sing|Person=1	31	nsubj	_	_
+30	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	31	iobj	_	_
+31	suis	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	28	cop	_	_
+32	un	un	DET	_	DET__Gender=Masc|Number=Sing	31	advmod	_	_
+33	peu	peu	ADV	_	ADV___	32	fixed	_	_
+34	"	"	PUNCT	_	PUNCT___	32	punct	_	_
+35	énervée	énervé	ADJ	_	ADJ__Gender=Fem|Number=Sing	38	advcl	_	_
+36	"	"	PUNCT	_	PUNCT___	38	punct	_	_
+37	.	.	PUNCT	_	PUNCT___	38	punct	_	_
+
+
+#Nous sommes 3 co-héritiers : mon frère, notre papa (dont mon frère est tuteur car malade d'Alzheimer) et moi.
+1	Nous	nous	PRON	_	PRON__Number=Plur|Person=1	6	nsubj	_	_
+2	sommes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	3	3	NUM	_	NUM__NumType=Card	1	nummod	_	_
+4	co-héritiers	co-héritier	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	obj	_	_
+5	:	:	PUNCT	_	PUNCT___	6	punct	_	_
+6	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+7	frère	frère	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+8	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+9	notre	notre	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+10	papa	papa	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	conj	_	_
+11	(	(	PUNCT	_	PUNCT___	12	punct	_	_
+12	dont	dont	PRON	_	PRON__PronType=Rel	9	dep	_	_
+13	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+14	frère	frère	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nsubj	_	_
+15	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	tuteur	tuteur	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	acl:relcl	_	_
+17	car	car	CCONJ	_	CCONJ___	17	cc	_	_
+18	malade	malade	ADJ	_	ADJ__Number=Sing	17	conj	_	_
+19	d'	de	ADP	_	ADP___	17	case	_	_
+20	Alzheimer	alzheimer	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	nmod	_	_
+21	)	)	PUNCT	_	PUNCT___	26	punct	_	_
+22	et	et	CCONJ	_	CCONJ___	23	cc	_	_
+23	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	21	conj	_	_
+24	.	.	PUNCT	_	PUNCT___	26	punct	_	_
+
+
+#Nous avons de très bonnes relations.
+1	Nous	nous	PRON	_	PRON__Number=Plur|Person=1	6	nsubj	_	_
+2	avons	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	de	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	1	det	_	_
+4	très	très	ADV	_	ADV___	6	advmod	_	_
+5	bonnes	bon	ADJ	_	ADJ__Gender=Fem|Number=Plur	6	amod	_	_
+6	relations	relation	NOUN	_	NOUN__Gender=Fem|Number=Plur	6	obj	_	_
+7	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#La succession est sans complexité.
+1	La	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+2	succession	succession	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+4	sans	sans	ADP	_	ADP___	6	case	_	_
+5	complexité	complexité	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+6	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#- quelles sont les potentielles conséquences d'une déclaration de succession tardive ?
+1	-	-	PUNCT	_	PUNCT___	6	punct	_	_
+2	quelles	quell	ADJ	_	ADJ__Gender=Fem|Number=Plur	3	nsubj	_	_
+3	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+4	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	6	det	_	_
+5	potentielles	potentiel	ADJ	_	ADJ__Gender=Fem|Number=Plur	0	ROOT	_	_
+6	conséquences	conséquence	NOUN	_	NOUN__Gender=Fem|Number=Plur	6	acl	_	_
+7	d'	de	ADP	_	ADP___	9	case	_	_
+8	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	déclaration	déclaration	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+10	de	de	ADP	_	ADP___	12	case	_	_
+11	succession	succession	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+12	tardive	tardif	ADJ	_	ADJ__Gender=Fem|Number=Sing	9	amod	_	_
+13	?	?	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#- je pense donner procuration à mon frère, mais j'ai lu ici et là des avis contraires sur le fait de donner procuration à un co-héritier.
+1	-	-	PUNCT	_	PUNCT___	6	punct	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+3	pense	penser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
+4	donner	donner	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	procuration	procuration	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obj	_	_
+6	à	à	ADP	_	ADP___	6	case	_	_
+7	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	9	nmod:poss	_	_
+8	frère	frère	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nmod	_	_
+9	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+10	mais	mais	CCONJ	_	CCONJ___	12	cc	_	_
+11	j'	il	PRON	_	PRON__Number=Sing|Person=1	12	nsubj	_	_
+12	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	conj	_	_
+13	lu	lire	PROPN	_	PROPN___	6	case	_	_
+14	ici	ici	ADV	_	ADV___	15	obj	_	_
+15	et	et	CCONJ	_	CCONJ___	17	cc	_	_
+16	là	là	ADV	_	ADV___	17	advmod	_	_
+17	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	17	det	_	_
+18	avis	avis	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	conj	_	_
+19	contraires	contraire	ADJ	_	ADJ__Number=Plur	17	amod	_	_
+20	sur	sur	ADP	_	ADP___	21	case	_	_
+21	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+22	fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	obl	_	_
+23	de	de	ADP	_	ADP___	21	mark	_	_
+24	donner	donner	VERB	_	VERB__VerbForm=Inf	26	acl	_	_
+25	procuration	procuration	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	obj	_	_
+26	à	à	ADP	_	ADP___	26	case	_	_
+27	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	co-héritier	co-héritier	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	obl	_	_
+29	.	.	PUNCT	_	PUNCT___	31	punct	_	_
+
+
+#Qu'en pensez-vous ?
+1	Qu'	que	PRON	_	PRON__PronType=Int	6	obj	_	_
+2	en	en	PRON	_	PRON__Person=3	3	expl	_	_
+3	pensez	penser	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	-	-	PUNCT	_	PUNCT___	6	punct	_	_
+5	vous	vous	PRON	_	PRON__Number=Plur|Person=2	6	obj	_	_
+6	?	?	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#- visiblement il est habituel d'avoir "tout clerc de l'office notarial" comme mandataire spécial aussi.
+1	-	-	PUNCT	_	PUNCT___	6	punct	_	_
+2	visiblement	visiblement	ADV	_	ADV___	3	advmod	_	_
+3	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	habituel	habituel	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+6	d'	de	ADP	_	ADP___	6	mark	_	_
+7	avoir	avoir	VERB	_	VERB__VerbForm=Inf	9	xcomp	_	_
+8	"	"	PUNCT	_	PUNCT___	9	punct	_	_
+9	tout	tout	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+10	clerc	clerc	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+11	de	de	ADP	_	ADP___	12	case	_	_
+12	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+13	office	office	NOUN	_	NOUN__Number=Sing	6	nmod	_	_
+14	notarial	notarial	ADJ	_	ADJ__Gender=Masc|Number=Sing	15	amod	_	_
+15	"	"	PUNCT	_	PUNCT___	17	punct	_	_
+16	comme	comme	ADP	_	ADP___	17	case	_	_
+17	mandataire	mandatair	ADJ	_	ADJ__Number=Sing	17	advcl	_	_
+18	spécial	spécial	ADJ	_	ADJ__Gender=Masc|Number=Sing	17	amod	_	_
+19	aussi	aussi	ADV	_	ADV___	17	advmod	_	_
+20	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#En tout cas il est mentionné comme tel sur la procuration reçue.
+1	En	En	ADP	_	ADP___	6	advmod	_	_
+2	tout	tout	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	fixed	_	_
+3	cas	cas	NOUN	_	NOUN__Gender=Masc	1	fixed	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	6	nsubj:pass	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	mentionné	mentionner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+7	comme	comme	ADP	_	ADP___	9	mark	_	_
+8	tel	tel	ADJ	_	ADJ__Gender=Masc|Number=Sing	9	advcl	_	_
+9	sur	sur	ADP	_	ADP___	6	case	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	procuration	procuration	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obl	_	_
+12	reçue	reçu	ADJ	_	ADJ__Number=Sing	9	acl	_	_
+13	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#J'ai zéro confiance dans les notaires, voire une aversion viscérale... 0 Quel intérêt ?
+1	J'	il	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+2	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	zéro	zéro	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	confiance	confiance	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obj	_	_
+5	dans	dan	ADP	_	ADP___	6	case	_	_
+6	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	6	det	_	_
+7	notaires	notaire	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	obl	_	_
+8	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+9	voire	voire	CCONJ	_	CCONJ___	6	conj	_	_
+10	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	aversion	aversion	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obj	_	_
+12	viscérale	viscéral	ADJ	_	ADJ__Gender=Fem|Number=Sing	9	amod	_	_
+13	...	...	PUNCT	_	PUNCT___	6	punct	_	_
+14	0	0	NUM	_	NUM__NumType=Card	15	nummod	_	_
+15	Quel	quel	ADJ	_	ADJ__Gender=Masc|Number=Sing	17	det	_	_
+16	intérêt	intérêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	nmod	_	_
+17	?	?	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Est-ce obligatoire ?
+1	Est	être		_	VERB	6	cop	_	_
+2	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	3	nsubj	_	_
+3	obligatoire	obligatoire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	?	?	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#S'il n'y a pas de clerc mandaté, mon mandataire va-t-il se retrouver avec des tâches administratives à accomplir hors simples signatures de documents ?
+1	S'	S'	SCONJ	_	SCONJ___	6	mark	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+3	n'	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+4	y	yu	PRON	_	PRON__Person=3	6	expl	_	_
+5	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+6	pas	pas	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+7	de	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	9	det	_	_
+8	clerc	clerc	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	obj	_	_
+9	mandaté	mandater	ADJ	_	ADJ___	6	acl	_	_
+10	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+11	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	12	nmod:poss	_	_
+12	mandataire	mandataire	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+13	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	_
+14	-	-	PUNCT	_	PUNCT___	15	punct	_	_
+15	t	t	NOUN	_	NOUN__Gender=Fem|Number=Plur	17	fixed	_	_
+16	-	-	PUNCT	_	PUNCT___	17	punct	_	_
+17	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	17	nsubj	_	_
+18	se	se	PRON	_	PRON__Person=3|Reflex=Yes	17	expl	_	_
+19	retrouver	retrouver	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+20	avec	avec	ADP	_	ADP___	21	case	_	_
+21	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	26	det	_	_
+22	tâches	tâche	NOUN	_	NOUN__Gender=Fem|Number=Plur	23	obl	_	_
+23	administratives	administratif	ADJ	_	ADJ__Gender=Fem|Number=Plur	21	amod	_	_
+24	à	à	ADP	_	ADP___	26	mark	_	_
+25	accomplir	accomplir	VERB	_	VERB__VerbForm=Inf	26	acl	_	_
+26	hors	hors	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	26	case	_	_
+27	simples	simple	ADJ	_	ADJ__Number=Plur	28	amod	_	_
+28	signatures	signatur	ADJ	_	ADJ__Number=Plur	26	obj	_	_
+29	de	de	ADP	_	ADP___	31	case	_	_
+30	documents	document	NOUN	_	NOUN__Gender=Masc|Number=Plur	31	nmod	_	_
+31	?	?	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#- le projet de déclaration de succession ne comporte pas une donation reçue il y a 3 ans dont j'ai retrouvé trace après notre entrevue avec le notaire suite au décès grâce au document de déclaration de don manuel.
+1	-	-	PUNCT	_	PUNCT___	6	punct	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	projet	projet	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+4	de	de	ADP	_	ADP___	6	case	_	_
+5	déclaration	déclaration	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+6	de	de	ADP	_	ADP___	6	case	_	_
+7	succession	succession	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nmod	_	_
+8	ne	ne	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+9	comporte	comporter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+10	pas	pas	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+11	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	donation	donation	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obj	_	_
+13	reçue	reçu	ADJ	_	ADJ__Gender=Fem|Number=Sing	6	acl	_	_
+14	il	il	PRON	_	PRON__Number=Sing|Person=3	15	case	_	_
+15	y	yu	PRON	_	PRON__Person=3	17	fixed	_	_
+16	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	fixed	_	_
+17	3	3	NUM	_	NUM__NumType=Card	17	nummod	_	_
+18	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	17	obl	_	_
+19	dont	dont	PRON	_	PRON__PronType=Rel	17	iobj	_	_
+20	j'	il	PRON	_	PRON__Number=Sing|Person=1	21	nsubj	_	_
+21	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	26	aux	_	_
+22	retrouvé	retrouver	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	acl:relcl	_	_
+23	trace	tracer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	obj	_	_
+24	après	après	ADP	_	ADP___	26	case	_	_
+25	notre	notre	DET	_	DET__Number=Sing|Poss=Yes	26	nmod:poss	_	_
+26	entrevue	entrevue	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	obl	_	_
+27	avec	avec	ADP	_	ADP___	28	case	_	_
+28	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+29	notaire	notair	ADJ	_	ADJ__Number=Sing	31	nmod	_	_
+30	suite	suite	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	case	_	_
+31	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	28	fixed	_	_
+32	décès	décès	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	obl	_	_
+33	grâce	grâce	NOUN	_	NOUN__Gender=Fem|Number=Sing	32	case	_	_
+34	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	32	det	_	_
+35	document	document	NOUN	_	NOUN__Gender=Masc|Number=Sing	38	nmod	_	_
+36	de	de	ADP	_	ADP___	38	case	_	_
+37	déclaration	déclaration	NOUN	_	NOUN__Gender=Fem|Number=Sing	38	nmod	_	_
+38	de	de	ADP	_	ADP___	31	case	_	_
+39	don	don	NOUN	_	NOUN__Gender=Masc|Number=Sing	38	nmod	_	_
+40	manuel	manuel	ADJ	_	ADJ__Gender=Masc|Number=Sing	42	amod	_	_
+41	.	.	PUNCT	_	PUNCT___	42	punct	_	_
+
+
+#Mon frère a reçu la même donation à l'époque mais ne l'a pas déclarée.
+1	Mon	mon	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+2	frère	frère	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+4	reçu	recevoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	même	même	ADJ	_	ADJ__Number=Sing	6	amod	_	_
+7	donation	donation	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obj	_	_
+8	à	à	ADP	_	ADP___	9	case	_	_
+9	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+10	époque	époque	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obl	_	_
+11	mais	mais	CCONJ	_	CCONJ___	12	cc	_	_
+12	ne	ne	ADV	_	ADV___	9	advmod	_	_
+13	l'	le	PRON	_	PRON__Number=Sing|Person=3	6	fixed	_	_
+14	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	fixed	_	_
+15	pas	pas	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+16	déclarée	déclarer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	conj	_	_
+17	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Que risque-t-on à ne pas signaler cette donation, sachant que son montant ne nous ferait pas basculer du côté "payeur de frais de succession" ?
+1	Que	que	PRON	_	PRON__PronType=Int	6	det	_	_
+2	risque	risquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+4	t	t	NOUN	_	NOUN__Gender=Fem|Number=Plur	6	advmod	_	_
+5	-	-	PUNCT	_	PUNCT___	6	fixed	_	_
+6	on	on	PRON	_	PRON__Number=Sing|Person=3	6	fixed	_	_
+7	à	à	ADP	_	ADP___	9	mark	_	_
+8	ne	ne	ADV	_	ADV___	9	advmod	_	_
+9	pas	pas	ADV	_	ADV___	6	fixed	_	_
+10	signaler	signaler	VERB	_	VERB__VerbForm=Inf	12	acl	_	_
+11	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+12	donation	donation	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obj	_	_
+13	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+14	sachant	savoir	VERB	_	VERB__Tense=Pres|VerbForm=Part	15	acl	_	_
+15	que	que	SCONJ	_	SCONJ___	17	mark	_	_
+16	son	son	DET	_	DET__Number=Sing|Poss=Yes	17	nmod:poss	_	_
+17	montant	montant	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	nsubj	_	_
+18	ne	ne	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+19	nous	nous	PRON	_	PRON__Number=Plur|Person=1	17	iobj	_	_
+20	ferait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	aux	_	_
+21	pas	pas	ADV	_	ADV__Polarity=Neg	26	advmod	_	_
+22	basculer	basculer	VERB	_	VERB__VerbForm=Inf	23	ccomp	_	_
+23	du	du	DET	_	DET__Gender=Masc|Number=Sing	21	det	_	_
+24	côté	côté	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	obj	_	_
+25	"	"	PUNCT	_	PUNCT___	26	punct	_	_
+26	payeur	payeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	obl	_	_
+27	de	de	ADP	_	ADP___	28	case	_	_
+28	frais	frais	NOUN	_	NOUN__Gender=Masc|Number=Plur	26	nmod	_	_
+29	de	de	ADP	_	ADP___	31	case	_	_
+30	succession	succession	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	nmod	_	_
+31	"	"	PUNCT	_	PUNCT___	28	punct	_	_
+32	?	?	PUNCT	_	PUNCT___	31	punct	_	_
+
+
+#Merci d'avance pour votre aide !
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	d'	de	ADP	_	ADP___	3	case	_	_
+3	avance	avance	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+4	pour	pour	ADP	_	ADP___	6	case	_	_
+5	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+6	aide	aide	NOUN	_	NOUN__Number=Sing	6	nmod	_	_
+7	!	!	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Niine
+1	Niine	Niine	PROPN	_	PROPN__Gender=Fem|Number=Sing	0	ROOT	_	_
+
+

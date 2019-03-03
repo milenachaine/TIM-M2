@@ -1,0 +1,92 @@
+#Bonjour.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Mon employeur hormis l'absence de rémunération d'heures de maladie et dispense..
+1	Mon	mon	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	hormis	hormis	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	4	acl	_	_
+4	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+5	absence	absence	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obj	_	_
+6	de	de	ADP	_	ADP___	7	case	_	_
+7	rémunération	rémunération	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+8	d'	de	ADP	_	ADP___	9	case	_	_
+9	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	7	nmod	_	_
+10	de	de	ADP	_	ADP___	11	case	_	_
+11	maladie	maladie	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nmod	_	_
+12	et	et	CCONJ	_	CCONJ___	13	cc	_	_
+13	dispense	dispenser	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	conj	_	_
+14	..	..	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#...veut me faire rembourser des travaux administratifs qu'il a commandé au cabinet d'exper comptable...
+1	...	...	PUNCT	_	PUNCT___	1	punct	_	_
+2	veut	vouloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	me	se	PRON	_	PRON__Number=Sing|Person=1	4	obj	_	_
+4	faire	faire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	rembourser	rembourser	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+6	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
+7	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	obj	_	_
+8	administratifs	administratif	ADJ	_	ADJ__Gender=Masc|Number=Plur	9	amod	_	_
+9	qu'	que	SCONJ	_	SCONJ___	7	obj	_	_
+10	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	11	nsubj	_	_
+11	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+12	commandé	commander	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	advcl	_	_
+13	au	au	DET	_	DET__Number=Plur|PronType=Dem	11	det	_	_
+14	cabinet	cabinet	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obj	_	_
+15	d'	de	ADP	_	ADP___	13	mark	_	_
+16	exper	exper	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+17	comptable	comptable	ADJ	_	ADJ__Number=Sing	20	amod	_	_
+18	...	...	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#En a t il le droit ?
+1	En	En	ADP	_	ADP___	1	case	_	_
+2	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	fixed	_	_
+3	t	t	NOUN	_	NOUN___	4	fixed	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	fixed	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+6	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+7	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Peut il me faire supporter ces frais ...de 7440 .. qui n'ont rien à voir avec les travaux comptables que j'ai effectués correctement...
+1	Peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+3	me	se	PRON	_	PRON__Number=Sing|Person=1	4	obj	_	_
+4	faire	faire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	supporter	supporter	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+6	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	7	det	_	_
+7	frais	frais	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	obj	_	_
+8	...	...	PUNCT	_	PUNCT___	9	punct	_	_
+9	de	de	ADP	_	ADP___	7	case	_	_
+10	7440	7440	NUM	_	NUM__NumType=Card	11	nummod	_	_
+11			PUNCT	_	PUNCT___	9	acl	_	_
+12	..	..	PUNCT	_	PUNCT___	13	punct	_	_
+13	qui	qui	PRON	_	PRON__PronType=Rel	11	nsubj	_	_
+14	n'	ne	ADV	_	ADV___	15	advmod	_	_
+15	ont	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	parataxis	_	_
+16	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	4	obj	_	_
+17	à	à	ADP	_	ADP___	20	mark	_	_
+18	voir	voir	VERB	_	VERB__VerbForm=Inf	20	acl	_	_
+19	avec	avec	ADP	_	ADP___	20	case	_	_
+20	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	20	det	_	_
+21	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	20	obl	_	_
+22	comptables	comptable	ADJ	_	ADJ__Gender=Fem|Number=Plur	23	amod	_	_
+23	que	que	PRON	_	PRON__PronType=Rel	21	mark	_	_
+24	j'	il	PRON	_	PRON__Number=Sing|Person=1	23	nsubj	_	_
+25	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	28	aux	_	_
+26	effectués	effectuer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	28	ccomp	_	_
+27	correctement	correctement	ADV	_	ADV___	28	advmod	_	_
+28	...	...	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Merci de votre aide Cordialement
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	de	de	ADP	_	ADP___	1	case	_	_
+3	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+4	aide	aide	NOUN	_	NOUN__Number=Sing	4	nmod	_	_
+5	Cordialement	Cordialement	PROPN	_	PROPN__Gender=Masc|Number=Sing	4	nmod	_	_
+
+

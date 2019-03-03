@@ -1,0 +1,71 @@
+#Bonjour, le propriétaire âgé de 83 ans est mon voisin.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	11	nsubj	_	_
+5	âgé	âgé	ADJ	_	ADJ__Gender=Masc|Number=Sing	4	amod	_	_
+6	de	de	ADP	_	ADP___	8	case	_	_
+7	83	83	NUM	_	NUM__NumType=Card	8	nummod	_	_
+8	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	nmod	_	_
+9	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	11	nmod:poss	_	_
+11	voisin	voisin	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	conj	_	_
+12	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#J'ai bien noté .
+1	J'	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+3	bien	bien	ADV	_	ADV___	4	advmod	_	_
+4	noté	noter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Les murs sont tachés mais nous les aurions lavés si la peinture était lessivable.
+1	Les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+2	murs	mur	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	nsubj:pass	_	_
+3	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	tachés	tacher	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+5	mais	mais	CCONJ	_	CCONJ___	4	cc	_	_
+6	nous	nous	PRON	_	PRON__Number=Plur|Person=1	8	nsubj	_	_
+7	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+8	aurions	aurion	NOUN	_	NOUN__Gender=Fem|Number=Plur	4	conj	_	_
+9	lavés	laver	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	acl	_	_
+10	si	si	SCONJ	_	SCONJ___	11	mark	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+12	peinture	peinture	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+13	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	cop	_	_
+14	lessivable	lessivable	ADJ	_	ADJ__Number=Sing	16	advcl	_	_
+15	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Nous exigeons la présentation d'une facture un devis n'a aucune valeur à nos yeux.
+1	Nous	nous	PRON	_	PRON__Number=Plur|Person=1	1	nsubj	_	_
+2	exigeons	exiger	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	présentation	présentation	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obj	_	_
+5	d'	de	ADP	_	ADP___	4	case	_	_
+6	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	facture	facture	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+8	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+9	devis	devis	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nsubj	_	_
+10	n'	ne	ADV	_	ADV___	11	advmod	_	_
+11	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+12	aucune	aucun	DET	_	DET__Gender=Fem|Number=Sing	1	det	_	_
+13	valeur	valeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obj	_	_
+14	à	à	ADP	_	ADP___	16	case	_	_
+15	nos	notre	DET	_	DET__Number=Plur|Poss=Yes	16	nmod:poss	_	_
+16	yeux	oeil	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	obl	_	_
+17	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Sans facture nous ne paierons pas.
+1	Sans	Sans	ADP	_	ADP___	1	case	_	_
+2	facture	facture	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obl	_	_
+3	nous	nous	PRON	_	PRON__Number=Plur|Person=1	4	nsubj	_	_
+4	ne	ne	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+5	paierons	payer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+7	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+

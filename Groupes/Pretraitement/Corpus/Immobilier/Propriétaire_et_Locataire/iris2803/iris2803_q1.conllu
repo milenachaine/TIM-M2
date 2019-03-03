@@ -1,0 +1,285 @@
+#Bonjour, J'ai besoin de vos conseils.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	4	acl	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	J'	J'	PROPN	_	PROPN___	4	nsubj	_	_
+4	ai	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	besoin	besoin	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obj	_	_
+6	de	de	ADP	_	ADP___	8	case	_	_
+7	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	8	nmod:poss	_	_
+8	conseils	conseil	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	obl	_	_
+9	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#- je suis propriétaire d'un appartement que je loue à travers une agence depuis 2013
+1	-	-	PUNCT	_	PUNCT___	4	punct	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+3	suis	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	0	ROOT	_	_
+5	d'	de	ADP	_	ADP___	4	case	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+8	que	que	SCONJ	_	SCONJ___	4	obj	_	_
+9	je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+10	loue	louer	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+11	à	à	ADP	_	ADP___	13	case	_	_
+12	travers	travers	NOUN	_	NOUN__Gender=Masc	13	fixed	_	_
+13	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+14	agence	agence	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obl	_	_
+15	depuis	depuis	ADP	_	ADP___	16	case	_	_
+16	2013	2013	NUM	_	NUM__NumType=Card	13	nmod	_	_
+
+
+#- j'avais signé une assurance loyers impayés en 2013 à travers l'agence, sommes deux signataires, moi et l'agence.
+1	-	-	PUNCT	_	PUNCT___	4	punct	_	_
+2	j'	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+3	avais	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	signé	signer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+6	assurance	assurance	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+7	loyers	loyer	ADJ	_	ADJ__Gender=Masc|Number=Plur	8	obj	_	_
+8	impayés	impayer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
+9	en	en	ADP	_	ADP___	4	case	_	_
+10	2013	2013	NUM	_	NUM__NumType=Card	13	nummod	_	_
+11	à	à	ADP	_	ADP___	13	case	_	_
+12	travers	travers	NOUN	_	NOUN__Gender=Masc	13	fixed	_	_
+13	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+14	agence	agence	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obl	_	_
+15	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+16	sommes	somme	NOUN	_	NOUN__Number=Plur	13	cop	_	_
+17	deux	deux	NUM	_	NUM__NumType=Card	19	nummod	_	_
+18	signataires	signataire	NOUN	_	NOUN__Gender=Masc|Number=Plur	19	conj	_	_
+19	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+20	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	23	conj	_	_
+21	et	et	CCONJ	_	CCONJ___	20	cc	_	_
+22	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+23	agence	agence	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	conj	_	_
+24	.	.	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#- fin dec 2017 l'agence immobilière a remplacé les contrats d'assurance loyers impayés par un contrat groupe auprès d'une autre assurance au 01 Jan 2018.
+1	-	-	PUNCT	_	PUNCT___	4	punct	_	_
+2	fin	fin	NOUN	_	NOUN__Number=Sing	4	obl	_	_
+3	dec	dec	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	mark	_	_
+4	2017	2017	NUM	_	NUM__NumType=Card	4	nummod	_	_
+5	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+6	agence	agence	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nsubj	_	_
+7	immobilière	immobilier	ADJ	_	ADJ__Gender=Fem|Number=Sing	8	amod	_	_
+8	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+9	remplacé	remplacer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+10	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	13	det	_	_
+11	contrats	contrat	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	obj	_	_
+12	d'	de	ADP	_	ADP___	13	case	_	_
+13	assurance	assurance	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nmod	_	_
+14	loyers	loyer	ADJ	_	ADJ__Gender=Masc|Number=Plur	16	obj	_	_
+15	impayés	impayer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	acl	_	_
+16	par	par	ADP	_	ADP___	13	case	_	_
+17	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obl	_	_
+19	groupe	groupe	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	amod	_	_
+20	auprès	auprès	ADP	_	ADP___	23	case	_	_
+21	d'	de	ADP	_	ADP___	20	fixed	_	_
+22	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	autre	autre	ADJ	_	ADJ__Number=Sing	19	amod	_	_
+24	assurance	assurance	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	obl	_	_
+25	au	au	PRON	_	PRON__PronType=Rel	23	case	_	_
+26	01	01	NUM	_	NUM__NumType=Card	29	nummod	_	_
+27	Jan	Jan	PROPN	_	PROPN___	29	obl	_	_
+28	2018	2018	NUM	_	NUM__NumType=Card	29	nummod	_	_
+29	.	.	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#- le locataire ne paie plus le loyer depuis Janvier 2018 et 1 mois de loyer en 2017.
+1	-	-	PUNCT	_	PUNCT___	4	punct	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	locataire	locataire	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+4	ne	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+5	paie	payer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	plus	plus	ADV	_	ADV___	8	advmod	_	_
+7	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	8	obj	_	_
+8	loyer	loyer	VERB	_	VERB__VerbForm=Inf	4	obj	_	_
+9	depuis	depuis	ADP	_	ADP___	4	case	_	_
+10	Janvier	janvier	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+11	2018	2018	NUM	_	NUM__NumType=Card	13	nummod	_	_
+12	et	et	CCONJ	_	CCONJ___	13	cc	_	_
+13	1	1	NUM	_	NUM__NumType=Card	13	nummod	_	_
+14	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	conj	_	_
+15	de	de	ADP	_	ADP___	16	mark	_	_
+16	loyer	loyer	VERB	_	VERB__VerbForm=Inf	13	acl	_	_
+17	en	en	ADP	_	ADP___	19	case	_	_
+18	2017	2017	NUM	_	NUM__NumType=Card	19	obl	_	_
+19	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#1 - je n'arrive pas à obtenir le contrat groupe ainsi que les conditions de ce contrat auprès de l'agence 2
+1	1	1	NUM	_	NUM__NumType=Card	4	advmod	_	_
+2	-	-	PUNCT	_	PUNCT___	4	fixed	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+4	n'	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+5	arrive	arriver	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+7	à	à	ADP	_	ADP___	8	mark	_	_
+8	obtenir	obtenir	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+10	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+11	groupe	groupe	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	amod	_	_
+12	ainsi	ainsi	ADV	_	ADV___	13	cc	_	_
+13	que	que	SCONJ	_	SCONJ___	13	fixed	_	_
+14	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	16	det	_	_
+15	conditions	condition	NOUN	_	NOUN__Gender=Fem|Number=Plur	16	conj	_	_
+16	de	de	ADP	_	ADP___	13	case	_	_
+17	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	19	det	_	_
+18	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	nmod	_	_
+19	auprès	auprès	ADP	_	ADP___	16	case	_	_
+20	de	de	ADP	_	ADP___	23	fixed	_	_
+21	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+22	agence	agence	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	obl	_	_
+23	2	2	NUM	_	NUM__NumType=Card	19	nummod	_	_
+
+
+#- je n'ai jamais autorisé l'agence immobilière de changer mon contrat assurance loyers impayés par un contrat groupe 3
+1	-	-	PUNCT	_	PUNCT___	4	punct	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+3	n'	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+4	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+5	jamais	jamais	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+6	autorisé	autoriser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+7	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	agence	agence	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obj	_	_
+9	immobilière	immobilier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	amod	_	_
+10	de	de	ADP	_	ADP___	13	mark	_	_
+11	changer	changer	VERB	_	VERB__VerbForm=Inf	13	xcomp	_	_
+12	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	13	nmod:poss	_	_
+13	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+14	assurance	assuranc	ADJ	_	ADJ__Number=Sing	16	amod	_	_
+15	loyers	loyer	ADJ	_	ADJ__Gender=Masc|Number=Plur	16	obj	_	_
+16	impayés	impayer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	xcomp	_	_
+17	par	par	ADP	_	ADP___	19	case	_	_
+18	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obl	_	_
+20	groupe	groupe	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	amod	_	_
+21	3	3	NUM	_	NUM__NumType=Card	20	nummod	_	_
+
+
+#- le nouvel assureur que j'ai contacté me dit que puisque c'est un contrat "groupe" il ne me connait pas, il ne connait que l'agence, et ne répond pas à mes emails.
+1	-	-	PUNCT	_	PUNCT___	4	punct	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	nouvel	nouvel	ADJ	_	ADJ__Gender=Masc|Number=Sing	4	amod	_	_
+4	assureur	assureur	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+5	que	que	SCONJ	_	SCONJ___	4	mark	_	_
+6	j'	il	PRON	_	PRON__Number=Sing|Person=1	8	nsubj	_	_
+7	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	contacté	contacter	ADJ	_	ADJ__Gender=Masc|Number=Sing	4	acl:relcl	_	_
+9	me	se	PRON	_	PRON__Number=Sing|Person=1	4	iobj	_	_
+10	dit	dire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+11	que	que	SCONJ	_	SCONJ___	13	mark	_	_
+12	puisque	puisque	SCONJ	_	SCONJ___	13	mark	_	_
+13	c'	ce	PRON	_	PRON__Number=Sing|Person=3	13	nsubj	_	_
+14	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+17	"	"	PUNCT	_	PUNCT___	19	punct	_	_
+18	groupe	groupe	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	amod	_	_
+19	"	"	PUNCT	_	PUNCT___	16	punct	_	_
+20	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	23	nsubj	_	_
+21	ne	ne	ADV	_	ADV___	20	advmod	_	_
+22	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	23	expl	_	_
+23	connait	conner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	advcl	_	_
+24	pas	pas	ADV	_	ADV__Polarity=Neg	25	advmod	_	_
+25	,	,	PUNCT	_	PUNCT___	23	punct	_	_
+26	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	29	nsubj	_	_
+27	ne	ne	ADV	_	ADV___	29	advmod	_	_
+28	connait	conner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	ccomp	_	_
+29	que	que	SCONJ	_	SCONJ___	29	punct	_	_
+30	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	31	det	_	_
+31	agence	agence	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	obj	_	_
+32	,	,	PUNCT	_	PUNCT___	33	punct	_	_
+33	et	et	CCONJ	_	CCONJ___	31	cc	_	_
+34	ne	ne	ADV	_	ADV__Polarity=Neg	35	advmod	_	_
+35	répond	répondre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	conj	_	_
+36	pas	pas	ADV	_	ADV__Polarity=Neg	39	advmod	_	_
+37	à	à	ADP	_	ADP___	36	case	_	_
+38	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	39	nmod:poss	_	_
+39	emails	email	NOUN	_	NOUN__Gender=Fem|Number=Sing	33	obl	_	_
+40	.	.	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#4
+1	4	4	NUM	_	NUM__NumType=Card	0	ROOT	_	_
+
+
+#- une lettre d'huissier de justice a quand même été envoyée par l'assureur au locataire pour le paiement des dettes locatives mais l'huissier dit que l'assureur n'a pas confirmé qu'il prendra en charge ce sinistre 5 - le nouvel assureur ne répond pas à l'agence immobilière pour la couverture de ce sinistre.
+1	-	-	PUNCT	_	PUNCT___	4	punct	_	_
+2	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	lettre	lettre	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+4	d'	de	ADP	_	ADP___	4	case	_	_
+5	huissier	huissier	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+6	de	de	ADP	_	ADP___	8	case	_	_
+7	justice	justice	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+8	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+9	quand	quand	ADV	_	ADV___	4	advmod	_	_
+10	même	même	ADV	_	ADV___	13	advmod	_	_
+11	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	13	aux:pass	_	_
+12	envoyée	envoyer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+13	par	par	ADP	_	ADP___	13	case	_	_
+14	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+15	assureur	assureur	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obl	_	_
+16	au	au	PRON	_	PRON__PronType=Rel	13	obj	_	_
+17	locataire	locataire	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	amod	_	_
+18	pour	pour	ADP	_	ADP___	19	case	_	_
+19	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+20	paiement	paiement	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	obl	_	_
+21	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	20	det	_	_
+22	dettes	dette	NOUN	_	NOUN__Gender=Fem|Number=Plur	23	nmod	_	_
+23	locatives	locative	NOUN	_	NOUN__Gender=Masc|Number=Plur	19	amod	_	_
+24	mais	mais	CCONJ	_	CCONJ___	25	cc	_	_
+25	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+26	huissier	huissier	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	conj	_	_
+27	dit	dire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	acl	_	_
+28	que	que	SCONJ	_	SCONJ___	29	mark	_	_
+29	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	29	det	_	_
+30	assureur	assureur	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	nsubj	_	_
+31	n'	ne	ADV	_	ADV__Polarity=Neg	29	advmod	_	_
+32	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	_
+33	pas	pas	ADV	_	ADV__Polarity=Neg	31	advmod	_	_
+34	confirmé	confirmer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	35	ccomp	_	_
+35	qu'	que	SCONJ	_	SCONJ___	33	mark	_	_
+36	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	39	nsubj	_	_
+37	prendra	prendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	36	ccomp	_	_
+38	en	en	ADP	_	ADP___	39	iobj	_	_
+39	charge	charge	NOUN	_	NOUN__Gender=Fem|Number=Sing	33	fixed	_	_
+40	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	29	det	_	_
+41	sinistre	sinistre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	obl	_	_
+42	5	5	NUM	_	NUM__NumType=Card	43	nummod	_	_
+43	-	-	PUNCT	_	PUNCT___	29	punct	_	_
+44	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	nouvel	nouvel	ADJ	_	ADJ__Gender=Masc|Number=Sing	43	amod	_	_
+46	assureur	assureur	NOUN	_	NOUN__Gender=Masc|Number=Sing	48	nsubj	_	_
+47	ne	ne	ADV	_	ADV__Polarity=Neg	48	advmod	_	_
+48	répond	répondre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	advcl	_	_
+49	pas	pas	ADV	_	ADV__Polarity=Neg	29	advmod	_	_
+50	à	à	ADP	_	ADP___	58	case	_	_
+51	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	58	det	_	_
+52	agence	agence	NOUN	_	NOUN__Gender=Fem|Number=Sing	58	obl	_	_
+53	immobilière	immobilier	ADJ	_	ADJ__Gender=Fem|Number=Sing	52	amod	_	_
+54	pour	pour	ADP	_	ADP___	55	case	_	_
+55	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	58	det	_	_
+56	couverture	couverture	NOUN	_	NOUN__Gender=Fem|Number=Sing	55	nmod	_	_
+57	de	de	ADP	_	ADP___	58	case	_	_
+58	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	58	det	_	_
+59	sinistre	sinistre	VERB	_	VERB__VerbForm=Inf	60	nmod	_	_
+60	.	.	PUNCT	_	PUNCT___	58	punct	_	_
+
+
+#que me conseillez vous ?
+1	que	que	SCONJ	_	SCONJ___	4	obj	_	_
+2	me	se	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+3	conseillez	conseiller	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	vous	vous	PRON	_	PRON__Number=Plur|Person=2	4	obj	_	_
+5	?	?	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#merci thomas23
+1	merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	thomas23	thomas23	ADJ	_	ADJ___	4	nmod	_	_
+
+

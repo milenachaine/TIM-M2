@@ -1,0 +1,158 @@
+#Bonjour, Selon ce calculateur, https://france-inflation.com/calculateur_inflation.php, compte tenu de l'inflation, 22 000 F en 1986
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Selon	Selon	ADP	_	ADP___	5	case	_	_
+4	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	calculateur	calculateur	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+6	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+7	https://france-inflation.com/calculateur_inflation.php	https://france-inflation.com/calculateur_inflation.php	NOUN	_	NOUN__Gender=Fem|Number=Plur	13	advmod	_	_
+8	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+9	compte	compte	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	case	_	_
+10	tenu	tenir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	fixed	_	_
+11	de	de	ADP	_	ADP___	9	fixed	_	_
+12	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	inflation	inflation	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	conj	_	_
+14	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+15	22	22	NUM	_	NUM__NumType=Card	17	nummod	_	_
+16	000	000	NUM	_	NUM__NumType=Card	17	nummod	_	_
+17	F	f	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	conj	_	_
+18	en	en	ADP	_	ADP___	19	case	_	_
+19	1986	1986	NUM	_	NUM__NumType=Card	17	nummod	_	_
+
+
+#représentent ~5300 € à ce jour.
+1	représentent	représenter	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+2	~5300	~5300	PROPN	_	PROPN___	1	obj	_	_
+3	€	€	CCONJ	_	CCONJ___	5	obl	_	_
+4	à	à	ADP	_	ADP___	5	case	_	_
+5	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	1	det	_	_
+6	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+7	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Avec un taux d'intérêts fixe à 1,75 % et un cours du $ à 1,16, on arrive à un montant ~de 9000 $.
+1	Avec	Avec	ADP	_	ADP___	1	case	_	_
+2	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+3	taux	taux	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+4	d'	de	ADP	_	ADP___	5	case	_	_
+5	intérêts	intérêt	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	nmod	_	_
+6	fixe	fixe	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	acl	_	_
+7	à	à	ADP	_	ADP___	13	case	_	_
+8	1,75	1,75	NUM	_	NUM__NumType=Card	7	nummod	_	_
+9	%	%	NOUN	_	NOUN__Gender=Masc	13	obl	_	_
+10	et	et	CCONJ	_	CCONJ___	9	cc	_	_
+11	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+12	cours	cours	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	conj	_	_
+13	du	du	DET	_	DET__Gender=Masc|Number=Sing	5	det	_	_
+14	$	$	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	orphan	_	_
+15	à	à	ADP	_	ADP___	17	case	_	_
+16	1,16	1,16	NUM	_	NUM__NumType=Card	17	orphan	_	_
+17	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+18	on	on	PRON	_	PRON__Number=Sing|Person=3	19	nsubj	_	_
+19	arrive	arriver	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+20	à	à	ADP	_	ADP___	20	case	_	_
+21	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+22	montant	montant	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obl	_	_
+23	~de	~de	VERB	_	VERB__Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	nmod	_	_
+24	9000	9000	NUM	_	NUM__NumType=Card	25	nummod	_	_
+25	$	$	NOUN	_	NOUN__Gender=Masc	22	punct	_	_
+26	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Si de mémoire la somme initiale était bien de 22 000 F, la somme réclamée par votre amie est plus que correcte quand on sait qu'en 1986, le taux de rémunération du livret A était de 4,5 % HISTORIQUE TAUX
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	de	de	ADP	_	ADP___	1	case	_	_
+3	mémoire	mémoire	NOUN	_	NOUN__Number=Sing	5	nsubj	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	somme	sommer	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+6	initiale	initial	ADJ	_	ADJ__Gender=Fem|Number=Sing	13	amod	_	_
+7	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	cop	_	_
+8	bien	bien	ADV	_	ADV___	7	advmod	_	_
+9	de	de	ADP	_	ADP___	13	case	_	_
+10	22	22	NUM	_	NUM__NumType=Card	9	nummod	_	_
+11	000	000	NUM	_	NUM__NumType=Card	9	nummod	_	_
+12	F	f	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	obl	_	_
+13	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+15	somme	sommer	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	nsubj	_	_
+16	réclamée	réclamer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	acl	_	_
+17	par	par	ADP	_	ADP___	1	case	_	_
+18	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	19	nmod:poss	_	_
+19	amie	amie	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	obl	_	_
+20	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+21	plus	plus	ADV	_	ADV___	0	ROOT	_	_
+22	que	que	SCONJ	_	SCONJ___	20	mark	_	_
+23	correcte	correct	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	dep	_	_
+24	quand	quand	SCONJ	_	SCONJ___	25	mark	_	_
+25	on	on	PRON	_	PRON__Number=Sing|Person=3	22	nsubj	_	_
+26	sait	savoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+27	qu'	que	SCONJ	_	SCONJ___	29	advmod	_	_
+28	en	en	ADP	_	ADP___	29	case	_	_
+29	1986	1986	NUM	_	NUM__NumType=Card	45	nummod	_	_
+30	,	,	PUNCT	_	PUNCT___	31	punct	_	_
+31	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+32	taux	taux	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	nsubj	_	_
+33	de	de	ADP	_	ADP___	35	case	_	_
+34	rémunération	rémunération	NOUN	_	NOUN__Gender=Fem|Number=Sing	35	nmod	_	_
+35	du	du	DET	_	DET__Gender=Masc|Number=Sing	32	det	_	_
+36	livret	livret	NOUN	_	NOUN__Gender=Masc|Number=Sing	38	amod	_	_
+37	A	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	nmod	_	_
+38	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	32	cop	_	_
+39	de	de	ADP	_	ADP___	40	case	_	_
+40	4,5	4,5	NUM	_	NUM__NumType=Card	38	nummod	_	_
+41	%	%	NOUN	_	NOUN__Gender=Masc	42	ccomp	_	_
+42	HISTORIQUE	historique	NOUN	_	NOUN__Gender=Masc|Number=Sing	38	nmod	_	_
+43	TAUX	taux	NOUN	_	NOUN__Gender=Masc|Number=Sing	45	amod	_	_
+
+
+#DU LIVRET
+1	DU	DU	ADP	_	ADP___	1	det	_	_
+2	LIVRET	livret	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+
+
+#A depuis 1974
+1	A	a	NOUN	_	NOUN___	0	ROOT	_	_
+2	depuis	depuis	ADP	_	ADP___	1	case	_	_
+3	1974	1974	NUM	_	NUM__NumType=Card	5	nummod	_	_
+
+
+#---------- Message ajouté à 16h53 ---------- Précédent message à 16h51
+1	----------	----------	ADJ	_	ADJ__NumType=Ord	1	det	_	_
+2	Message	message	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	ajouté	ajouter	ADJ	_	ADJ__Gender=Masc|Number=Sing	5	amod	_	_
+4	à	à	ADP	_	ADP___	5	case	_	_
+5	16h53	16h53	PRON	_	PRON__NumType=Card|PronType=Rel	1	det	_	_
+6	----------	----------	PRON	_	PRON__Number=Sing|Person=3	13	obl	_	_
+7	Précédent	précédent	ADJ	_	ADJ__Gender=Masc|Number=Sing	13	nmod	_	_
+8	message	message	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	flat:name	_	_
+9	à	à	ADP	_	ADP___	13	case	_	_
+10	16h51	16h51	NUM	_	NUM__NumType=Card	9	nmod	_	_
+
+
+#---------- Inutile d'écrire à la banque puisqu'elle n'est tenue de conserver les archives des écritures sur comptes que 10 ans.
+1	----------	----------	PRON	_	PRON__PronType=Int	1	det	_	_
+2	Inutile	inutile	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	d'	de	ADP	_	ADP___	5	case	_	_
+4	écrire	écrire	VERB	_	VERB__VerbForm=Inf	5	nmod	_	_
+5	à	à	ADP	_	ADP___	1	case	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+7	banque	banque	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nmod	_	_
+8	puisqu'	puisque	SCONJ	_	SCONJ___	7	mark	_	_
+9	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	13	nsubj:pass	_	_
+10	n'	ne	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+11	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+12	tenue	tenir	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	acl:relcl	_	_
+13	de	de	ADP	_	ADP___	5	mark	_	_
+14	conserver	conserver	VERB	_	VERB__VerbForm=Inf	17	xcomp	_	_
+15	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	17	det	_	_
+16	archives	archive	NOUN	_	NOUN__Gender=Fem|Number=Plur	17	obj	_	_
+17	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	1	det	_	_
+18	écritures	écriture	NOUN	_	NOUN__Gender=Fem|Number=Plur	19	obj	_	_
+19	sur	sur	ADP	_	ADP___	17	case	_	_
+20	comptes	compte	NOUN	_	NOUN__Gender=Masc|Number=Plur	20	nmod	_	_
+21	que	que	SCONJ	_	SCONJ___	20	mark	_	_
+22	10	10	NUM	_	NUM__NumType=Card	20	nummod	_	_
+23	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	25	nmod	_	_
+24	.	.	PUNCT	_	PUNCT___	25	punct	_	_
+
+

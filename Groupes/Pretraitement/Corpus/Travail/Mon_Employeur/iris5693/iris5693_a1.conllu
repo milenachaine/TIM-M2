@@ -1,0 +1,187 @@
+#Bonjour, Les forfaits en jour n'ont pas de RTT mais des jours de repos compensateurs - chez nous on appelle ça les JRS.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	4	acl	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	Les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+4	forfaits	forfait	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	nsubj	_	_
+5	en	en	ADP	_	ADP___	6	case	_	_
+6	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+7	n'	ne	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+8	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+9	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+10	de	de	ADP	_	ADP___	11	case	_	_
+11	RTT	RTT	PROPN	_	PROPN___	8	obj	_	_
+12	mais	mais	CCONJ	_	CCONJ___	14	cc	_	_
+13	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
+14	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	conj	_	_
+15	de	de	ADP	_	ADP___	16	case	_	_
+16	repos	repos	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nmod	_	_
+17	compensateurs	compensateur	ADJ	_	ADJ__Gender=Masc|Number=Plur	16	amod	_	_
+18	-	-	PUNCT	_	PUNCT___	8	punct	_	_
+19	chez	chez	ADP	_	ADP___	22	mark	_	_
+20	nous	nous	PRON	_	PRON__Number=Plur|Person=1	22	nsubj	_	_
+21	on	on	PRON	_	PRON__Number=Sing|Person=3	22	nsubj	_	_
+22	appelle	appeler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+23	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	22	xcomp	_	_
+24	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	25	det	_	_
+25	JRS	JRS	PROPN	_	PROPN___	22	obj	_	_
+26	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Les contrats à temps partiel n'ont pas le droit aux RTT car ils sont là pour compenser le travail effectué au delà de 35h.
+1	Les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+2	contrats	contrat	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	nsubj	_	_
+3	à	à	ADP	_	ADP___	4	case	_	_
+4	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+5	partiel	partiel	ADJ	_	ADJ___	6	amod	_	_
+6	n'	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+7	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+10	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+11	aux	aux	ADP	_	ADP___	8	amod	_	_
+12	RTT	RTT	PROPN	_	PROPN___	14	nmod	_	_
+13	car	car	CCONJ	_	CCONJ___	14	cc	_	_
+14	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	11	nsubj	_	_
+15	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	_
+16	là	là	ADV	_	ADV___	14	iobj	_	_
+17	pour	pour	ADP	_	ADP___	16	mark	_	_
+18	compenser	compenser	VERB	_	VERB__VerbForm=Inf	8	advcl	_	_
+19	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+20	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	obj	_	_
+21	effectué	effectuer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	acl	_	_
+22	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	8	case	_	_
+23	delà	delà	ADV	_	ADV___	22	fixed	_	_
+24	de	de	ADP	_	ADP___	25	fixed	_	_
+25	35h	35h	PRON	_	PRON__NumType=Card|PronType=Rel	22	obl	_	_
+26	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Par contre, en forfait jours que ce soit en forfait jour complet ou réduit vous avez droits à des jours de repos afin de ne pas travailler plus de 193.5 jours sur l'année y compris avec vos 28 CP.
+1	Par	Par	ADP	_	ADP___	4	case	_	_
+2	contre	contrer	ADP	_	ADP___	4	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	0	ROOT	_	_
+4	en	en	PRON	_	PRON__Person=3	8	mark	_	_
+5	forfait	forfaire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	fixed	_	_
+6	jours	jour	ADV	_	ADV___	4	nsubj	_	_
+7	que	que	SCONJ	_	SCONJ___	8	mark	_	_
+8	ce	ce	PRON	_	PRON__Number=Sing|Person=3	8	nsubj	_	_
+9	soit	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cc	_	_
+10	en	en	PRON	_	PRON__Person=3	11	expl	_	_
+11	forfait	forfaire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	ccomp	_	_
+12	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obj	_	_
+13	complet	complet	ADJ	_	ADJ__Gender=Masc|Number=Sing	14	amod	_	_
+14	ou	ou	CCONJ	_	CCONJ___	11	cc	_	_
+15	réduit	réduit	ADJ	_	ADJ__Gender=Masc|Number=Sing	16	conj	_	_
+16	vous	vous	PRON	_	PRON__Number=Plur|Person=2	14	nsubj	_	_
+17	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	16	aux	_	_
+18	droits	droit	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obl	_	_
+19	à	à	ADP	_	ADP___	22	case	_	_
+20	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	22	det	_	_
+21	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	22	obl	_	_
+22	de	de	ADP	_	ADP___	8	case	_	_
+23	repos	repos	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	nmod	_	_
+24	afin	afin	ADP	_	ADP___	25	mark	_	_
+25	de	de	ADP	_	ADP___	22	fixed	_	_
+26	ne	ne	ADV	_	ADV___	8	advmod	_	_
+27	pas	pas	ADV	_	ADV___	28	fixed	_	_
+28	travailler	travailler	VERB	_	VERB__VerbForm=Inf	33	advcl	_	_
+29	plus	plus	ADV	_	ADV___	30	advmod	_	_
+30	de	de	ADP	_	ADP___	28	dep	_	_
+31	193.5	193.5	NUM	_	NUM__NumType=Card	30	nummod	_	_
+32	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	33	obj	_	_
+33	sur	sur	ADP	_	ADP___	33	case	_	_
+34	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	33	det	_	_
+35	année	année	NOUN	_	NOUN__Gender=Fem|Number=Sing	36	nmod	_	_
+36	y	yu	PRON	_	PRON__Person=3	33	advmod	_	_
+37	compris	compris	ADJ	_	ADJ__Gender=Masc	36	fixed	_	_
+38	avec	avec	ADP	_	ADP___	36	case	_	_
+39	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	41	nmod:poss	_	_
+40	28	28	NUM	_	NUM__NumType=Card	41	nummod	_	_
+41	CP	cp	NOUN	_	NOUN___	33	obl	_	_
+42	.	.	PUNCT	_	PUNCT___	41	punct	_	_
+
+
+#Le nombre de jours varie tous les ans en fonction du calendrier des jours fériés.
+1	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+2	nombre	nombre	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+3	de	de	ADP	_	ADP___	4	case	_	_
+4	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	nmod	_	_
+5	varie	varier	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+6	tous	tou	ADJ	_	ADJ__Gender=Masc|Number=Plur	4	amod	_	_
+7	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+8	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obj	_	_
+9	en	en	ADP	_	ADP___	8	case	_	_
+10	fonction	fonction	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	fixed	_	_
+11	du	du	DET	_	DET__Gender=Masc|Number=Sing	8	det	_	_
+12	calendrier	calendrier	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obl	_	_
+13	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
+14	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	obj	_	_
+15	fériés	férier	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	amod	_	_
+16	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Pour la question 3, le nombre de jours de CP n'étant pas proratisé par rapport à votre temps de travail, vous devez poser 5 jours par semaine.
+1	Pour	Pour	ADP	_	ADP___	4	case	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obl	_	_
+4	3	3	NUM	_	NUM__NumType=Card	8	nummod	_	_
+5	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+7	nombre	nombre	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nsubj	_	_
+8	de	de	ADP	_	ADP___	8	case	_	_
+9	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	nmod	_	_
+10	de	de	ADP	_	ADP___	11	case	_	_
+11	CP	cp	NOUN	_	NOUN___	8	nmod	_	_
+12	n'	ne	ADV	_	ADV__Polarity=Neg	14	advmod	_	_
+13	étant	être	AUX	_	AUX__Tense=Pres|VerbForm=Part	14	aux:pass	_	_
+14	pas	pas	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+15	proratisé	proratiser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	16	advcl	_	_
+16	par	par	ADP	_	ADP___	14	case	_	_
+17	rapport	rapport	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	fixed	_	_
+18	à	à	ADP	_	ADP___	8	fixed	_	_
+19	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	22	nmod:poss	_	_
+20	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	obl	_	_
+21	de	de	ADP	_	ADP___	22	case	_	_
+22	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+23	,	,	PUNCT	_	PUNCT___	22	punct	_	_
+24	vous	vous	PRON	_	PRON__Number=Plur|Person=2	25	nsubj	_	_
+25	devez	devoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	22	aux	_	_
+26	poser	poser	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+27	5	5	NUM	_	NUM__NumType=Card	28	nummod	_	_
+28	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	33	obj	_	_
+29	par	par	ADP	_	ADP___	30	case	_	_
+30	semaine	semaine	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	obl	_	_
+31	.	.	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#Pour les autres points, il faudrait que je prenne davantage de temps pour vous répondre mais je suis un peu juste là ...
+1	Pour	Pour	ADP	_	ADP___	4	case	_	_
+2	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+3	autres	autre	ADJ	_	ADJ__Number=Plur	4	amod	_	_
+4	points	point	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obl	_	_
+5	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+6	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+7	faudrait	falloir	VERB	_	VERB__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	que	que	SCONJ	_	SCONJ___	8	mark	_	_
+9	je	il	PRON	_	PRON__Number=Sing|Person=1	8	nsubj	_	_
+10	prenne	prendre	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+11	davantage	davantage	ADV	_	ADV___	8	det	_	_
+12	de	de	ADP	_	ADP___	14	fixed	_	_
+13	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	obj	_	_
+14	pour	pour	ADP	_	ADP___	11	mark	_	_
+15	vous	vous	PRON	_	PRON__Number=Plur|Person=2	16	iobj	_	_
+16	répondre	répondre	VERB	_	VERB__VerbForm=Inf	14	advcl	_	_
+17	mais	mais	CCONJ	_	CCONJ___	16	cc	_	_
+18	je	il	PRON	_	PRON__Number=Sing|Person=1	8	nsubj	_	_
+19	suis	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	cop	_	_
+20	un	un	DET	_	DET__Gender=Masc|Number=Sing	22	advmod	_	_
+21	peu	peu	ADV	_	ADV___	22	fixed	_	_
+22	juste	juste	ADV	_	ADV___	8	conj	_	_
+23	là	là	ADV	_	ADV___	22	iobj	_	_
+24	...	...	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#Cdlt
+1	Cdlt	Cdlt	PROPN	_	PROPN__Gender=Masc|Number=Sing	0	ROOT	_	_
+
+

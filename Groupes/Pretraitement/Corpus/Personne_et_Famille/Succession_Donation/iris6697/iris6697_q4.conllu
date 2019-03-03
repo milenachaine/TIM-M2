@@ -1,0 +1,438 @@
+#Bonjour Rambotte Merci pour votre réponse.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	Rambotte	rambotte	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	flat:name	_	_
+3	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	flat:name	_	_
+4	pour	pour	ADP	_	ADP___	6	case	_	_
+5	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+6	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+7	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Voici donc les détails ;
+1	Voici	voici	VERB	_	VERB__Mood=Ind|VerbForm=Fin	0	ROOT	_	_
+2	donc	donc	ADV	_	ADV___	1	advmod	_	_
+3	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	2	det	_	_
+4	détails	détail	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	obj	_	_
+5	;	;	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Actif brut :205 000
+1	Actif	actif	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	brut	brut	ADJ	_	ADJ__Gender=Masc|Number=Plur	1	amod	_	_
+3	:	:	PUNCT	_	PUNCT___	2	punct	_	_
+4	205	205	NUM	_	NUM__NumType=Card	6	nummod	_	_
+5	000	000	NUM	_	NUM__NumType=Card	6	nmod	_	_
+
+
+#Tous ses biens ( indivis et personnels ) , ses comptes, ses actions et cette maison à 180 000 (celle qui part au bénéfice de la légataire universelle) passif de succession: 350 000
+1	Tous	tou	ADJ	_	ADJ__Gender=Masc|Number=Plur	1	amod	_	_
+2	ses	son	DET	_	DET__Number=Plur|Poss=Yes	1	nmod:poss	_	_
+3	biens	bien	NOUN	_	NOUN__Gender=Masc|Number=Plur	2	nsubj	_	_
+4	(	(	PUNCT	_	PUNCT___	6	punct	_	_
+5	indivis	indivi	NOUN	_	NOUN__Gender=Fem|Number=Plur	6	appos	_	_
+6	et	et	CCONJ	_	CCONJ___	1	cc	_	_
+7	personnels	personnel	ADJ	_	ADJ__Gender=Masc|Number=Plur	1	conj	_	_
+8	)	)	PUNCT	_	PUNCT___	8	punct	_	_
+9	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+10	ses	son	DET	_	DET__Number=Plur|Poss=Yes	11	nmod:poss	_	_
+11	comptes	compte	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	conj	_	_
+12	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+13	ses	son	DET	_	DET__Number=Plur|Poss=Yes	13	nmod:poss	_	_
+14	actions	action	NOUN	_	NOUN__Gender=Fem|Number=Plur	13	nmod	_	_
+15	et	et	CCONJ	_	CCONJ___	13	cc	_	_
+16	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	17	det	_	_
+17	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	conj	_	_
+18	à	à	ADP	_	ADP___	20	case	_	_
+19	180	180	NUM	_	NUM__NumType=Card	20	nummod	_	_
+20	000	000	NUM	_	NUM__NumType=Card	49	orphan	_	_
+21	(	(	PUNCT	_	PUNCT___	20	punct	_	_
+22	celle	celui	PRON	_	PRON__Gender=Fem|Number=Sing|PronType=Dem	20	appos	_	_
+23	qui	qui	PRON	_	PRON__PronType=Rel	24	nsubj	_	_
+24	part	part	NOUN	_	NOUN__Number=Sing	22	acl:relcl	_	_
+25	au	au	PRON	_	PRON__PronType=Rel	20	det	_	_
+26	bénéfice	bénéfice	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	nmod	_	_
+27	de	de	ADP	_	ADP___	28	case	_	_
+28	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+29	légataire	légataire	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	nmod	_	_
+30	universelle	universel	ADJ	_	ADJ__Gender=Fem|Number=Sing	31	amod	_	_
+31	)	)	PUNCT	_	PUNCT___	28	punct	_	_
+32	passif	passif	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+33	de	de	ADP	_	ADP___	34	case	_	_
+34	succession	succession	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	obl	_	_
+35	:	:	PUNCT	_	PUNCT___	37	punct	_	_
+36	350	350	NUM	_	NUM__NumType=Card	37	nummod	_	_
+37	000	000	PRON	_	PRON__NumType=Card|PronType=Rel	34	nummod	_	_
+
+
+#Dans ce passif : Les taxes foncière le prorata des IR,les frais funéraires,les créances (reconnaissance de dettes + justificatif bancaire),des comptes bancaires débiteurs, et cette même maison à 180 000 ( la même que celle qui est dans l'actif et qui est au bénéfice de la légataire universelle, elle figure donc dans l'actif puis dans le passif ) Actif net : Moins - 145 000 Pas de donation de son vivant.
+1	Dans	Dans	ADP	_	ADP___	1	case	_	_
+2	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	1	obl	_	_
+3	passif	passif	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	:	:	PUNCT	_	PUNCT___	6	punct	_	_
+5	Les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	6	det	_	_
+6	taxes	taxe	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	nsubj	_	_
+7	foncière	foncier	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	amod	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	obj	_	_
+9	prorata	prorater	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	_
+10	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
+11	IR	IR	PROPN	_	PROPN___	8	obj	_	_
+12	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+13	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	13	det	_	_
+14	frais	frais	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	conj	_	_
+15	funéraires	funéraire	ADJ	_	ADJ__Number=Plur	13	amod	_	_
+16	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+17	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	13	det	_	_
+18	créances	créance	NOUN	_	NOUN__Gender=Fem|Number=Plur	20	conj	_	_
+19	(	(	PUNCT	_	PUNCT___	20	punct	_	_
+20	reconnaissance	reconnaissance	NOUN	_	NOUN__Gender=Fem|Number=Sing	49	appos	_	_
+21	de	de	ADP	_	ADP___	20	case	_	_
+22	dettes	dette	NOUN	_	NOUN__Gender=Fem|Number=Plur	20	nmod	_	_
+23	+	+	ADP	_	ADP___	24	case	_	_
+24	justificatif	justificatif	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	nmod	_	_
+25	bancaire),des	bancaire),des	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	20	amod	_	_
+26	comptes	compte	NOUN	_	NOUN__Gender=Masc|Number=Plur	28	amod	_	_
+27	bancaires	bancaire	ADJ	_	ADJ__Number=Plur	28	amod	_	_
+28	débiteurs	débiteur	ADJ	_	ADJ__Number=Plur	20	amod	_	_
+29	,	,	PUNCT	_	PUNCT___	31	punct	_	_
+30	et	et	CCONJ	_	CCONJ___	31	cc	_	_
+31	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	28	det	_	_
+32	même	même	ADJ	_	ADJ__Number=Sing	34	amod	_	_
+33	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	34	conj	_	_
+34	à	à	ADP	_	ADP___	28	case	_	_
+35	180	180	NUM	_	NUM__NumType=Card	37	nummod	_	_
+36	000	000	NUM	_	NUM__NumType=Card	37	orphan	_	_
+37	(	(	PUNCT	_	PUNCT___	34	punct	_	_
+38	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+39	même	même	ADV	_	ADV___	37	fixed	_	_
+40	que	que	SCONJ	_	SCONJ___	41	fixed	_	_
+41	celle	celui	PRON	_	PRON__Gender=Fem|Number=Sing|PronType=Dem	39	nsubj	_	_
+42	qui	qui	PRON	_	PRON__PronType=Rel	43	nsubj	_	_
+43	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	cop	_	_
+44	dans	dan	ADP	_	ADP___	46	case	_	_
+45	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	46	det	_	_
+46	actif	actif	ADJ	_	ADJ__Gender=Masc|Number=Sing	43	acl:relcl	_	_
+47	et	et	CCONJ	_	CCONJ___	46	cc	_	_
+48	qui	qui	PRON	_	PRON__PronType=Rel	37	nsubj	_	_
+49	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	49	cop	_	_
+50	au	au	PRON	_	PRON__PronType=Rel	51	amod	_	_
+51	bénéfice	bénéfice	NOUN	_	NOUN__Gender=Masc|Number=Sing	49	conj	_	_
+52	de	de	ADP	_	ADP___	49	case	_	_
+53	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	54	det	_	_
+54	légataire	légataire	NOUN	_	NOUN__Gender=Fem|Number=Sing	49	nmod	_	_
+55	universelle	universel	ADJ	_	ADJ__Gender=Fem|Number=Sing	56	amod	_	_
+56	,	,	PUNCT	_	PUNCT___	57	punct	_	_
+57	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	57	nsubj	_	_
+58	figure	figurer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	63	acl:relcl	_	_
+59	donc	donc	ADV	_	ADV___	60	advmod	_	_
+60	dans	dan	ADP	_	ADP___	63	case	_	_
+61	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	60	det	_	_
+62	actif	actif	ADJ	_	ADJ__Gender=Masc|Number=Sing	63	obl	_	_
+63	puis	pouvoir	CCONJ	_	CCONJ___	57	cc	_	_
+64	dans	dan	ADP	_	ADP___	65	case	_	_
+65	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	63	det	_	_
+66	passif	passif	ADJ	_	ADJ__Gender=Masc|Number=Sing	65	conj	_	_
+67	)	)	PUNCT	_	PUNCT___	68	punct	_	_
+68	Actif	actif	ADJ	_	ADJ__Gender=Masc|Number=Sing	65	obj	_	_
+69	net	net	ADJ	_	ADJ__Gender=Masc|Number=Sing	68	amod	_	_
+70	:	:	PUNCT	_	PUNCT___	65	punct	_	_
+71	Moins	moins	ADV	_	ADV___	72	advmod	_	_
+72	-	-	PUNCT	_	PUNCT___	65	punct	_	_
+73	145	145	NUM	_	NUM__NumType=Card	72	nummod	_	_
+74	000	000	NUM	_	NUM__NumType=Card	72	nummod	_	_
+75	Pas	pas	NOUN	_	NOUN__Gender=Masc|Number=Plur	76	obl	_	_
+76	de	de	ADP	_	ADP___	74	case	_	_
+77	donation	donation	NOUN	_	NOUN__Gender=Fem|Number=Sing	78	obl	_	_
+78	de	de	ADP	_	ADP___	76	case	_	_
+79	son	son	DET	_	DET__Number=Sing|Poss=Yes	74	nmod:poss	_	_
+80	vivant	vivre	NOUN	_	NOUN__Gender=Masc|Number=Sing	72	nmod	_	_
+81	.	.	PUNCT	_	PUNCT___	80	punct	_	_
+
+
+#En revanche des bijoux mentionnés dans le testaments ont disparu.
+1	En	En	ADP	_	ADP___	1	advmod	_	_
+2	revanche	revanche	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	fixed	_	_
+3	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	2	det	_	_
+4	bijoux	bijou	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	nsubj	_	_
+5	mentionnés	mentionner	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	acl	_	_
+6	dans	dan	ADP	_	ADP___	1	case	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+8	testaments	testament	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obl	_	_
+9	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+10	disparu	disparaître	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+11	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Aucune mention de cela nul part.
+1	Aucune	aucun	DET	_	DET__Gender=Fem|Number=Sing	1	det	_	_
+2	mention	mention	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	de	de	ADP	_	ADP___	2	case	_	_
+4	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	6	nmod	_	_
+5	nul	nul	ADJ	_	ADJ__Gender=Masc|Number=Sing	6	amod	_	_
+6	part	part	NOUN	_	NOUN__Number=Sing	1	fixed	_	_
+7	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Pas de liquidation
+1	Pas	pas	ADV	_	ADV___	0	ROOT	_	_
+2	de	de	ADP	_	ADP___	1	case	_	_
+3	liquidation	liquidation	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	nmod	_	_
+
+
+#du régime matrimonial , nous étions sous le régime de la séparation de bien.
+1	du	du	DET	_	DET__Gender=Masc|Number=Sing	1	det	_	_
+2	régime	régime	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+3	matrimonial	matrimonial	ADJ	_	ADJ__Gender=Masc|Number=Sing	2	amod	_	_
+4	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+5	nous	nous	PRON	_	PRON__Number=Plur|Person=1	6	nsubj	_	_
+6	étions	être	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+7	sous	sou	ADP	_	ADP___	1	case	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+9	régime	régime	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+10	de	de	ADP	_	ADP___	11	case	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+12	séparation	séparation	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+13	de	de	ADP	_	ADP___	13	case	_	_
+14	bien	bien	ADV	_	ADV___	13	nmod	_	_
+15	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Nos comptes se règlent dans la partie de l'indivision et des créances.
+1	Nos	notre	DET	_	DET__Number=Plur|Poss=Yes	1	nmod:poss	_	_
+2	comptes	compte	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	nsubj	_	_
+3	se	se	PRON	_	PRON__Person=3|Reflex=Yes	2	expl	_	_
+4	règlent	régler	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	dans	dan	ADP	_	ADP___	6	case	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+7	partie	partie	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obl	_	_
+8	de	de	ADP	_	ADP___	8	case	_	_
+9	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+10	indivision	indivision	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+11	et	et	CCONJ	_	CCONJ___	8	cc	_	_
+12	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
+13	créances	créance	NOUN	_	NOUN__Gender=Fem|Number=Plur	13	conj	_	_
+14	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#L'acte de notoriété indique bien que Mme X est légataire universelle, elle recoit la maison, et son mobilier et est chargé de reverser le reste aux associations mentionnées Moi : héritier réservataire et les association : légataire à titre universelle payons le passif d’après ce document car la somme de nos parts englobe l'intégralité du passif Pour la légataire universelle : 180 000 €uros (la maison) elle doit 60 % de cette sommes aux impôts ( 60 %) mais pas de passif pour elle selon ce document et pas de mentions non plus de legs excessif ou quoi que ce soit.
+1	L'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+2	acte	acte	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	de	de	ADP	_	ADP___	2	case	_	_
+4	notoriété	notoriété	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nmod	_	_
+5	indique	indiquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+6	bien	bien	ADV	_	ADV___	1	advmod	_	_
+7	que	que	SCONJ	_	SCONJ___	1	mark	_	_
+8	Mme	mme	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+9	X	x	NOUN	_	NOUN___	8	flat:name	_	_
+10	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	légataire	légatair	ADJ	_	ADJ__Number=Sing	8	conj	_	_
+12	universelle	universel	ADJ	_	ADJ__Gender=Fem|Number=Sing	8	amod	_	_
+13	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+14	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	13	nsubj	_	_
+15	recoit	recoit	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+16	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obj	_	_
+18	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+19	et	et	CCONJ	_	CCONJ___	20	cc	_	_
+20	son	son	DET	_	DET__Number=Sing|Poss=Yes	49	nmod:poss	_	_
+21	mobilier	mobilier	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	conj	_	_
+22	et	et	CCONJ	_	CCONJ___	20	cc	_	_
+23	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux:pass	_	_
+24	chargé	charger	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	conj	_	_
+25	de	de	ADP	_	ADP___	20	mark	_	_
+26	reverser	reverser	VERB	_	VERB__VerbForm=Inf	28	xcomp	_	_
+27	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	reste	reste	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obj	_	_
+29	aux	aux	ADP	_	ADP___	31	amod	_	_
+30	associations	association	NOUN	_	NOUN__Gender=Fem|Number=Plur	31	nsubj	_	_
+31	mentionnées	mentionner	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	28	amod	_	_
+32	Moi	Moi	NUM	_	NUM__NumType=Card	34	nmod	_	_
+33	 	  	SPACE	_		34		_	_
+34	:	:	PUNCT	_	PUNCT___	28	punct	_	_
+35	héritier	héritier	NOUN	_	NOUN__Gender=Masc|Number=Sing	37	appos	_	_
+36	réservataire	réservataire	NOUN	_	NOUN__Gender=Masc|Number=Sing	37	amod	_	_
+37	et	et	CCONJ	_	CCONJ___	34	cc	_	_
+38	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	37	det	_	_
+39	association	association	NOUN	_	NOUN__Gender=Fem|Number=Sing	37	conj	_	_
+40	 	  	SPACE	_		41		_	_
+41	:	:	PUNCT	_	PUNCT___	39	punct	_	_
+42	légataire	légataire	NOUN	_	NOUN__Gender=Fem|Number=Sing	43	appos	_	_
+43	à	à	ADP	_	ADP___	39	case	_	_
+44	titre	titre	NOUN	_	NOUN__Gender=Masc|Number=Sing	46	nmod	_	_
+45	universelle	universel	ADJ	_	ADJ__Gender=Fem|Number=Sing	46	det	_	_
+46	payons	payon	NOUN	_	NOUN__Gender=Fem|Number=Plur	43	amod	_	_
+47	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+48	passif	passif	ADJ	_	ADJ__Gender=Masc|Number=Sing	37	advcl	_	_
+49	d’	d’	PROPN	_	PROPN___	49	amod	_	_
+50	après	après	ADP	_	ADP___	51	case	_	_
+51	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	49	det	_	_
+52	document	document	NOUN	_	NOUN__Gender=Masc|Number=Sing	49	obl	_	_
+53	car	car	CCONJ	_	CCONJ___	54	cc	_	_
+54	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
+55	somme	sommer	NOUN	_	NOUN__Gender=Fem|Number=Sing	56	nsubj	_	_
+56	de	de	ADP	_	ADP___	57	case	_	_
+57	nos	notre	DET	_	DET__Number=Plur|Poss=Yes	57	nmod:poss	_	_
+58	parts	part	NOUN	_	NOUN__Number=Plur	63	nmod	_	_
+59	englobe	englober	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	60	acl	_	_
+60	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	63	det	_	_
+61	intégralité	intégralité	NOUN	_	NOUN__Gender=Fem|Number=Sing	60	obj	_	_
+62	du	du	DET	_	DET__Gender=Masc|Number=Sing	63	obj	_	_
+63	passif	passif	ADJ	_	ADJ__Gender=Masc|Number=Sing	57	obj	_	_
+64	Pour	Pour	ADP	_	ADP___	65	case	_	_
+65	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	63	det	_	_
+66	légataire	légataire	NOUN	_	NOUN__Gender=Fem|Number=Sing	65	obl	_	_
+67	universelle	universel	ADJ	_	ADJ__Gender=Fem|Number=Sing	68	amod	_	_
+68	 	  	SPACE	_		65		_	_
+69	:	:	PUNCT	_	PUNCT___	68	punct	_	_
+70	180	180	NUM	_	NUM__NumType=Card	65	nummod	_	_
+71	000	000	NUM	_	NUM__NumType=Card	72	nummod	_	_
+72	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	65	nsubj	_	_
+73	uros	uro	ADJ	_	ADJ___	72	nmod	_	_
+74	(	(	PUNCT	_	PUNCT___	72	punct	_	_
+75	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	76	det	_	_
+76	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	74	appos	_	_
+77	)	)	PUNCT	_	PUNCT___	78	punct	_	_
+78	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	76	nsubj	_	_
+79	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	74	parataxis	_	_
+80	60	60	NUM	_	NUM__NumType=Card	72	nummod	_	_
+81	%	%	NOUN	_	NOUN__Gender=Masc	80	nsubj	_	_
+82	de	de	ADP	_	ADP___	80	case	_	_
+83	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	63	det	_	_
+84	sommes	somme	NOUN	_	NOUN__Number=Plur	87	nmod	_	_
+85	aux	aux	ADJ	_	ADJ__Gender=Masc|Number=Plur	87	aux	_	_
+86	impôts	impôt	NOUN	_	NOUN__Gender=Masc|Number=Plur	87	obj	_	_
+87	(	(	PUNCT	_	PUNCT___	57	punct	_	_
+88	60	60	NUM	_	NUM__NumType=Card	90	nummod	_	_
+89	%	%	NOUN	_	NOUN__Gender=Masc	90	obj	_	_
+90	)	)	PUNCT	_	PUNCT___	87	punct	_	_
+91	mais	mais	CCONJ	_	CCONJ___	90	cc	_	_
+92	pas	pas	ADV	_	ADV__Polarity=Neg	95	advmod	_	_
+93	de	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	92	mark	_	_
+94	passif	passif	ADJ	_	ADJ__Gender=Masc|Number=Sing	92	conj	_	_
+95	pour	pour	ADP	_	ADP___	112	case	_	_
+96	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	100	obl	_	_
+97	selon	selon	ADP	_	ADP___	100	case	_	_
+98	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	100	det	_	_
+99	document	document	NOUN	_	NOUN__Gender=Masc|Number=Sing	100	nmod	_	_
+100	et	et	CCONJ	_	CCONJ___	95	cc	_	_
+101	pas	pas	ADV	_	ADV__Polarity=Neg	105	advmod	_	_
+102	de	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	105	case	_	_
+103	mentions	mention	NOUN	_	NOUN__Gender=Fem|Number=Plur	105	conj	_	_
+104	non	non	ADV	_	ADV___	105	advmod	_	_
+105	plus	plus	ADV	_	ADV___	100	det	_	_
+106	de	de	ADP	_	ADP___	108	fixed	_	_
+107	legs	legs	NOUN	_	NOUN__Gender=Masc|Number=Sing	108	nmod	_	_
+108	excessif	excessif	ADJ	_	ADJ__Gender=Masc|Number=Sing	105	amod	_	_
+109	ou	ou	CCONJ	_	CCONJ___	108	cc	_	_
+110	quoi	quoi	PRON	_	PRON__PronType=Int	112	conj	_	_
+111	que	que	SCONJ	_	SCONJ___	112	mark	_	_
+112	ce	ce	PRON	_	PRON__Number=Sing|Person=3	57	dep	_	_
+113	soit	être	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	112	fixed	_	_
+114	.	.	PUNCT	_	PUNCT___	116	punct	_	_
+
+
+#Le notaire me dit que l'article qui dit qu'elle doit demander l'entrée en possession par l’héritier réservataire n'est pas important.
+1	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	notaire	notaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	me	se	PRON	_	PRON__Number=Sing|Person=1	2	iobj	_	_
+4	dit	dire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	que	que	SCONJ	_	SCONJ___	6	mark	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+7	article	article	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+8	qui	qui	PRON	_	PRON__PronType=Rel	8	nsubj	_	_
+9	dit	dire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+10	qu'	que	SCONJ	_	SCONJ___	11	mark	_	_
+11	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	8	nsubj	_	_
+12	doit	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+13	demander	demander	VERB	_	VERB__VerbForm=Inf	13	ccomp	_	_
+14	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+15	entrée	entrée	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obj	_	_
+16	en	en	ADP	_	ADP___	17	case	_	_
+17	possession	possession	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nmod	_	_
+18	par	par	ADP	_	ADP___	20	case	_	_
+19	l’	l’	DET	_	DET__Number=Sing|Poss=Yes	20	det	_	_
+20	héritier	héritier	VERB	_	VERB__VerbForm=Inf	49	obl	_	_
+21	réservataire	réservataire	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	amod	_	_
+22	n'	ne	ADV	_	ADV__Polarity=Neg	20	advmod	_	_
+23	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+24	pas	pas	ADV	_	ADV__Polarity=Neg	22	advmod	_	_
+25	important	important	ADJ	_	ADJ__Gender=Masc|Number=Sing	20	ccomp	_	_
+26	.	.	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#Je lui avait demandé de garder les clefs de cette maison et poser des scellés , rien n' a été fait 6 mois que je demande un entretien, sans le moindres succès !
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	lui	luire	PRON	_	PRON__Number=Sing|Person=3	1	iobj	_	_
+3	avait	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+4	demandé	demander	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	de	de	ADP	_	ADP___	6	mark	_	_
+6	garder	garder	VERB	_	VERB__VerbForm=Inf	1	xcomp	_	_
+7	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+8	clefs	clef	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obj	_	_
+9	de	de	ADP	_	ADP___	8	case	_	_
+10	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
+11	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+12	et	et	CCONJ	_	CCONJ___	8	cc	_	_
+13	poser	poser	VERB	_	VERB__VerbForm=Inf	13	conj	_	_
+14	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	13	det	_	_
+15	scellés	scellé	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	obj	_	_
+16	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+17	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	13	nsubj	_	_
+18	n	ne	PRON	_	PRON__PronType=Rel	20	nmod	_	_
+19	'	'	PUNCT	_	PUNCT___	20	fixed	_	_
+20	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	49	aux	_	_
+21	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	20	aux:pass	_	_
+22	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	20	parataxis	_	_
+23	6	6	NUM	_	NUM__NumType=Card	24	nummod	_	_
+24	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	22	obl	_	_
+25	que	que	PRON	_	PRON__PronType=Rel	20	obj	_	_
+26	je	il	PRON	_	PRON__Number=Sing|Person=1	28	nsubj	_	_
+27	demande	demander	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	28	advcl	_	_
+28	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+29	entretien	entretien	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	obj	_	_
+30	,	,	PUNCT	_	PUNCT___	31	punct	_	_
+31	sans	sans	ADP	_	ADP___	28	case	_	_
+32	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+33	moindres	moindre	ADJ	_	ADJ__Number=Plur	34	obl	_	_
+34	succès	succès	NOUN	_	NOUN__Gender=Masc|Number=Plur	28	amod	_	_
+35	 	  	SPACE	_		37		_	_
+36	!	!	PUNCT	_	PUNCT___	37	punct	_	_
+
+
+#Le notaire est le mien !!
+1	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	notaire	notaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	mien	mien	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+6	!	!	PUNCT	_	PUNCT___	1	punct	_	_
+7	!	!	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#( ceci dit je le connais peu, mais c'est bien moi qui lui ai confié le dossier de cette succession ) !!
+1	(	(	PUNCT	_	PUNCT___	1	punct	_	_
+2	ceci	ceci	PRON	_	PRON__Number=Sing|PronType=Dem	0	ROOT	_	_
+3	dit	dire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	_
+4	je	il	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	connais	connai	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+7	peu	peu	ADV	_	ADV___	1	advmod	_	_
+8	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+9	mais	mais	CCONJ	_	CCONJ___	8	cc	_	_
+10	c'	ce	PRON	_	PRON__Number=Sing|Person=3	11	nsubj	_	_
+11	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+12	bien	bien	ADV	_	ADV___	8	advmod	_	_
+13	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	13	conj	_	_
+14	qui	qui	PRON	_	PRON__PronType=Rel	13	nsubj	_	_
+15	lui	luire	PRON	_	PRON__Number=Sing|Person=3	13	iobj	_	_
+16	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	confié	confier	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+18	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	dossier	dossier	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obj	_	_
+20	de	de	ADP	_	ADP___	49	case	_	_
+21	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	20	det	_	_
+22	succession	succession	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	nmod	_	_
+23	)	)	PUNCT	_	PUNCT___	24	punct	_	_
+24	!	!	PUNCT	_	PUNCT___	22	punct	_	_
+25	!	!	PUNCT	_	PUNCT___	20	punct	_	_
+
+

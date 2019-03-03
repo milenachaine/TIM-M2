@@ -1,0 +1,150 @@
+#Bonjour, Je souhaite vendre une parcelle de bois ( inscrite comme telle au cadastre) de 2 hectares.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+4	souhaite	souhaiter	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+5	vendre	vendre	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+6	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	parcelle	parcelle	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obj	_	_
+8	de	de	ADP	_	ADP___	9	case	_	_
+9	bois	bois	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	nmod	_	_
+10	(	(	PUNCT	_	PUNCT___	7	punct	_	_
+11	inscrite	inscrire	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	appos	_	_
+12	comme	comme	ADP	_	ADP___	13	mark	_	_
+13	telle	tel	ADJ	_	ADJ__Gender=Fem|Number=Sing	11	advcl	_	_
+14	au	au	ADV	_	ADV__PronType=Int	13	iobj	_	_
+15	cadastre	cadastre	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obj	_	_
+16	)	)	PUNCT	_	PUNCT___	13	punct	_	_
+17	de	de	ADP	_	ADP___	19	case	_	_
+18	2	2	NUM	_	NUM__NumType=Card	19	nummod	_	_
+19	hectares	hectare	NOUN	_	NOUN__Gender=Fem|Number=Plur	13	obl	_	_
+20	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Je dois donc informer les propriétaires des parcelles boisées contiguës.
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	dois	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	donc	donc	ADV	_	ADV___	4	advmod	_	_
+4	informer	informer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+6	propriétaires	propriétaire	NOUN	_	NOUN__Number=Plur	7	obj	_	_
+7	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
+8	parcelles	parcelle	NOUN	_	NOUN__Gender=Fem|Number=Plur	9	obj	_	_
+9	boisées	boisé	ADJ	_	ADJ__Gender=Fem|Number=Plur	7	amod	_	_
+10	contiguës	contiguë	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	amod	_	_
+11	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Je l'ai fait par LR avec AR à tous les propriétaires ( 5)
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	l'	le	PRON	_	PRON__Number=Sing|Person=3	1	obj	_	_
+3	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	par	par	ADP	_	ADP___	4	case	_	_
+6	LR	lr	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obl	_	_
+7	avec	avec	ADP	_	ADP___	5	case	_	_
+8	AR	ar	NOUN	_	NOUN___	9	nmod	_	_
+9	à	à	ADP	_	ADP___	7	case	_	_
+10	tous	tou	ADJ	_	ADJ__Gender=Masc|Number=Plur	7	amod	_	_
+11	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+12	propriétaires	propriétaire	NOUN	_	NOUN__Number=Plur	13	obl	_	_
+13	(	(	PUNCT	_	PUNCT___	11	punct	_	_
+14	5	5	NUM	_	NUM__NumType=Card	13	appos	_	_
+15	)	)	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Mes questions sont les suivantes: 1)
+1	Mes	mon	DET	_	DET__Number=Plur|Poss=Yes	1	nmod:poss	_	_
+2	questions	question	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	nsubj	_	_
+3	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+5	suivantes	suivant	ADJ	_	ADJ__Gender=Fem|Number=Plur	0	ROOT	_	_
+6	:	:	PUNCT	_	PUNCT___	7	punct	_	_
+7	1	1	NUM	_	NUM__NumType=Card	5	nummod	_	_
+8	)	)	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Des Lettres me reviennent " destinataire n'habite pas à l'adresse indiquée".
+1	Des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	1	det	_	_
+2	Lettres	lettre	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	nsubj	_	_
+3	me	se	PRON	_	PRON__Number=Sing|Person=1	4	iobj	_	_
+4	reviennent	revenir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	"	"	PUNCT	_	PUNCT___	4	punct	_	_
+6	destinataire	destinataire	VERB	_	VERB__VerbForm=Inf	7	acl	_	_
+7	n'	ne	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+8	habite	habiter	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	obl	_	_
+9	pas	pas	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+10	à	à	ADP	_	ADP___	7	case	_	_
+11	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+12	adresse	adresse	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obl	_	_
+13	indiquée	indiquer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
+14	"	"	PUNCT	_	PUNCT___	13	punct	_	_
+15	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#2)
+1	2	2	NUM	_	NUM__NumType=Card	0	ROOT	_	_
+2	)	)	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Pour d'autres je n'ai pas de réponse dans le délai de 2 mois.
+1	Pour	Pour	ADP	_	ADP___	1	case	_	_
+2	d'	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	1	det	_	_
+3	autres	autre	ADJ	_	ADJ__Number=Plur	4	fixed	_	_
+4	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+5	n'	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+6	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	pas	pas	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+8	de	de	DET	_	DET__Definite=Ind|Number=Sing|PronType=Art	9	det	_	_
+9	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+10	dans	dan	ADP	_	ADP___	7	case	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+12	délai	délai	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+13	de	de	ADP	_	ADP___	11	case	_	_
+14	2	2	NUM	_	NUM__NumType=Card	13	nummod	_	_
+15	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	nmod	_	_
+16	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Je suppose que pour le point 2 j'ai rempli mes obligations vis à vis du Code Rural Mais qu'en est-il du point 1??
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	suppose	supposer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	que	que	SCONJ	_	SCONJ___	4	mark	_	_
+4	pour	pour	ADP	_	ADP___	1	case	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+6	point	point	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+7	2	2	NUM	_	NUM__NumType=Card	5	nummod	_	_
+8	j'	il	PRON	_	PRON__Number=Sing|Person=1	9	nsubj	_	_
+9	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+10	rempli	remplir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	ccomp	_	_
+11	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	7	nmod:poss	_	_
+12	obligations	obligation	NOUN	_	NOUN__Gender=Fem|Number=Plur	13	obj	_	_
+13	vis	voir	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	11	case	_	_
+14	à	à	ADP	_	ADP___	13	fixed	_	_
+15	vis	vis	NOUN	_	NOUN__Gender=Fem	13	fixed	_	_
+16	du	du	DET	_	DET__Gender=Masc|Number=Sing	13	det	_	_
+17	Code	code	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obl	_	_
+18	Rural	Rural	PROPN	_	PROPN___	19	nmod	_	_
+19	Mais	Mais	CCONJ	_	CCONJ___	13	cc	_	_
+20	qu'	que	PRON	_	PRON__PronType=Rel	1	mark	_	_
+21	en	en	PRON	_	PRON__Person=3	24	case	_	_
+22	est-il	est-il	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	conj	_	_
+23	du	du	DET	_	DET__Gender=Masc|Number=Sing	24	det	_	_
+24	point	point	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	obj	_	_
+25	1	1	NUM	_	NUM__NumType=Card	26	nummod	_	_
+26	?	?	PUNCT	_	PUNCT___	24	punct	_	_
+27	?	?	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#Merci pour vos infos.
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	pour	pour	ADP	_	ADP___	1	case	_	_
+3	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	4	nmod:poss	_	_
+4	infos	info	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+5	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Stubai
+1	Stubai	stubai	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+
+

@@ -1,0 +1,70 @@
+#Bonjour, Ah ?
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Ah	ah	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+4	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Pasque si on change d'avocat ça va changer kekchose ?
+1	Pasque	Pasque	PROPN	_	PROPN___	1	advmod	_	_
+2	si	si	SCONJ	_	SCONJ___	1	mark	_	_
+3	on	on	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+4	change	change	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	advcl	_	_
+5	d'	de	ADP	_	ADP___	8	case	_	_
+6	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+7	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	amod	_	_
+8	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+9	changer	changer	VERB	_	VERB__VerbForm=Inf	10	xcomp	_	_
+10	kekchose	kekchose	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+11	?	?	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Seriously...
+1	Seriously	Seriously	PROPN	_	PROPN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	...	...	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Sur le délai, pour autant que je sache il n'y en n'a pas.
+1	Sur	Sur	ADP	_	ADP___	1	case	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+3	délai	délai	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+5	pour	pour	ADP	_	ADP___	8	mark	_	_
+6	autant	autant	ADV	_	ADV___	8	fixed	_	_
+7	que	que	SCONJ	_	SCONJ___	8	fixed	_	_
+8	je	il	PRON	_	PRON__Number=Sing|Person=1	12	nsubj	_	_
+9	sache	savoir	VERB	_	VERB__Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+10	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+11	n'	ne	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+12	y	yu	PRON	_	PRON__Person=3	12	expl	_	_
+13	en	en	PRON	_	PRON__Person=3	12	fixed	_	_
+14	n'	ne	ADV	_	ADV__Polarity=Neg	13	advmod	_	_
+15	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+16	pas	pas	ADV	_	ADV__Polarity=Neg	16	advmod	_	_
+17	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Mais s'il y a déjà eu un refus, les chances d'avoir satisfaction sur 2de demande sont inexistantes.
+1	Mais	Mais	CCONJ	_	CCONJ___	1	cc	_	_
+2	s'	si	SCONJ	_	SCONJ___	1	expl	_	_
+3	il	il	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+4	y	yu	PRON	_	PRON__Person=3	1	fixed	_	_
+5	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+6	déjà	déjà	ADV	_	ADV___	8	advmod	_	_
+7	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+8	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+9	refus	refus	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+10	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+11	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	10	det	_	_
+12	chances	chance	NOUN	_	NOUN__Gender=Fem|Number=Plur	12	conj	_	_
+13	d'	de	ADP	_	ADP___	12	mark	_	_
+14	avoir	avoir	VERB	_	VERB__VerbForm=Inf	13	aux	_	_
+15	satisfaction	satisfaction	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obl	_	_
+16	sur	sur	ADP	_	ADP___	16	case	_	_
+17	2de	2de	NOUN	_	NOUN__NumType=Card	16	amod	_	_
+18	demande	demander	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	nmod	_	_
+19	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+20	inexistantes	inexistant	ADJ	_	ADJ__Gender=Fem|Number=Plur	20	conj	_	_
+21	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+

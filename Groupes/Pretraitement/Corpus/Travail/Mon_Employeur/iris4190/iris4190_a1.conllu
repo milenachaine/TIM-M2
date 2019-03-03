@@ -1,0 +1,223 @@
+#Bonjour, Dans quelles FP travaillez vous : état, collectivité territoriale ou autre ?
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+3	Dans	Dans	ADP	_	ADP___	5	case	_	_
+4	quelles	quel	DET	_	DET__Gender=Fem|Number=Plur|PronType=Int	5	det	_	_
+5	FP	FP	PROPN	_	PROPN__Gender=Fem|Number=Sing	6	obl	_	_
+6	travaillez	travailler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	conj	_	_
+7	vous	vous	PRON	_	PRON__Number=Plur|Person=2	9	iobj	_	_
+8	:	:	PUNCT	_	PUNCT___	9	punct	_	_
+9	état	état	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	xcomp	_	_
+10	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+11	collectivité	collectivité	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	conj	_	_
+12	territoriale	territorial	ADJ	_	ADJ__Gender=Fem|Number=Sing	11	amod	_	_
+13	ou	ou	CCONJ	_	CCONJ___	14	cc	_	_
+14	autre	autre	ADJ	_	ADJ__Number=Sing	9	conj	_	_
+15	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Dans la FPT par exemple les ATI ( IPP donc) et les retraites par invalidité sont traitées dans le même organisme CNRACL dont une branche correspond aux ATIACL : https://www.cnracl.retraites.fr/nous...racl-et-atiacl
+1	Dans	Dans	ADP	_	ADP___	1	case	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+3	FPT	FPT	PROPN	_	PROPN__Gender=Fem|Number=Sing	5	obl	_	_
+4	par	par	ADP	_	ADP___	5	case	_	_
+5	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	fixed	_	_
+6	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+7	ATI	ati	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	nmod	_	_
+8	(	(	PUNCT	_	PUNCT___	9	punct	_	_
+9	IPP	IPP	PROPN	_	PROPN___	6	appos	_	_
+10	donc	donc	ADV	_	ADV___	11	amod	_	_
+11	)	)	PUNCT	_	PUNCT___	9	punct	_	_
+12	et	et	CCONJ	_	CCONJ___	11	cc	_	_
+13	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	14	det	_	_
+14	retraites	retraite	NOUN	_	NOUN__Gender=Fem|Number=Plur	9	conj	_	_
+15	par	par	ADP	_	ADP___	1	case	_	_
+16	invalidité	invalidité	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	nmod	_	_
+17	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux:pass	_	_
+18	traitées	traiter	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+19	dans	dan	ADP	_	ADP___	22	case	_	_
+20	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+21	même	même	ADJ	_	ADJ__Number=Sing	22	amod	_	_
+22	organisme	organisme	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obl	_	_
+23	CNRACL	cnracl	ADJ	_	ADJ___	22	nummod	_	_
+24	dont	dont	PRON	_	PRON__PronType=Rel	22	dep	_	_
+25	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+26	branche	branche	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	acl:relcl	_	_
+27	correspond	correspondre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	amod	_	_
+28	aux	aux	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	case	_	_
+29	ATIACL	atiacl	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	nmod	_	_
+30	:	:	PUNCT	_	PUNCT___	31	punct	_	_
+31	https://www.cnracl.retraites.fr/nous...racl-et-atiacl	https://www.cnracl.retraites.fr/nous...racl-et-atiacl	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	appos	_	_
+
+
+#Ce doit être idem je suppose pour les autres corps de fonctionnaire.
+1	Ce	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+2	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	être	être	AUX	_	AUX__VerbForm=Inf	5	aux:pass	_	_
+4	idem	idem	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	xcomp	_	_
+5	je	il	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+6	suppose	supposer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	xcomp	_	_
+7	pour	pour	ADP	_	ADP___	9	case	_	_
+8	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+9	autres	autre	ADJ	_	ADJ__Number=Plur	6	amod	_	_
+10	corps	corps	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obl	_	_
+11	de	de	ADP	_	ADP___	9	case	_	_
+12	fonctionnaire	fonctionnaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+13	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Donc pas de souci que cela passe par le service des retraites.
+1	Donc	donc	ADV	_	ADV___	1	advmod	_	_
+2	pas	pas	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+3	de	de	ADP	_	ADP___	5	det	_	_
+4	souci	souci	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+5	que	que	SCONJ	_	SCONJ___	6	mark	_	_
+6	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	1	nsubj	_	_
+7	passe	passer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+8	par	par	ADP	_	ADP___	9	case	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+10	service	service	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obl	_	_
+11	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	9	det	_	_
+12	retraites	retraite	NOUN	_	NOUN__Gender=Fem|Number=Plur	11	nmod	_	_
+13	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Par contre pour votre mémoire il faut rester factuel et ne pas rentrer par les propos oraux que vous prêtez au médecin qui vous a vu.
+1	Par	Par	ADP	_	ADP___	1	case	_	_
+2	contre	contrer	ADP	_	ADP___	6	fixed	_	_
+3	pour	pour	ADP	_	ADP___	5	case	_	_
+4	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+5	mémoire	mémoire	NOUN	_	NOUN__Number=Sing	6	obl	_	_
+6	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+7	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	rester	rester	AUX	_	AUX__VerbForm=Inf	9	cop	_	_
+9	factuel	factuel	ADJ	_	ADJ__Gender=Masc|Number=Sing	6	xcomp	_	_
+10	et	et	CCONJ	_	CCONJ___	11	cc	_	_
+11	ne	ne	ADV	_	ADV___	9	advmod	_	_
+12	pas	pas	ADV	_	ADV___	11	fixed	_	_
+13	rentrer	rentrer	VERB	_	VERB__VerbForm=Inf	14	conj	_	_
+14	par	par	ADP	_	ADP___	9	case	_	_
+15	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+16	propos	propos	NOUN	_	NOUN__Gender=Masc|Number=Plur	18	obl	_	_
+17	oraux	oral	ADJ	_	ADJ__Gender=Masc|Number=Plur	18	amod	_	_
+18	que	que	SCONJ	_	SCONJ___	33	obj	_	_
+19	vous	vous	PRON	_	PRON__Number=Plur|Person=2	22	nsubj	_	_
+20	prêtez	prêter	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	19	ccomp	_	_
+21	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	22	case	_	_
+22	médecin	médecin	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obj	_	_
+23	qui	qui	PRON	_	PRON__PronType=Rel	22	nsubj	_	_
+24	vous	vous	PRON	_	PRON__Number=Plur|Person=2	22	obj	_	_
+25	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+26	vu	voir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	acl:relcl	_	_
+27	.	.	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#Rester factuel veut dire qu'il faut d'abord obtenir l'expertise puis la montrer à un médecin de recours, un médecin spécialisé dans le dommage corporel pour qu'il voit si l'évaluation des taux est correct.
+1	Rester	rester	AUX	_	AUX__VerbForm=Inf	1	cop	_	_
+2	factuel	factuel	ADJ	_	ADJ__Gender=Masc|Number=Sing	6	nsubj	_	_
+3	veut	vouloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	dire	dire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	qu'	que	SCONJ	_	SCONJ___	6	mark	_	_
+6	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+7	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+8	d'	de	ADP	_	ADP___	9	mark	_	_
+9	abord	abord	ADV	_	ADV___	6	fixed	_	_
+10	obtenir	obtenir	VERB	_	VERB__VerbForm=Inf	11	xcomp	_	_
+11	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+12	expertise	expertise	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obj	_	_
+13	puis	pouvoir	CCONJ	_	CCONJ___	14	cc	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	obj	_	_
+15	montrer	montrer	VERB	_	VERB__VerbForm=Inf	1	conj	_	_
+16	à	à	ADP	_	ADP___	18	case	_	_
+17	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	médecin	médecin	NOUN	_	NOUN__Gender=Masc|Number=Sing	33	obl	_	_
+19	de	de	ADP	_	ADP___	22	case	_	_
+20	recours	recours	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	nmod	_	_
+21	,	,	PUNCT	_	PUNCT___	22	punct	_	_
+22	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+23	médecin	médecin	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	appos	_	_
+24	spécialisé	spécialisé	ADJ	_	ADJ__Gender=Masc|Number=Sing	22	acl	_	_
+25	dans	dan	ADP	_	ADP___	24	case	_	_
+26	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+27	dommage	dommage	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	obl	_	_
+28	corporel	corporel	ADJ	_	ADJ__Gender=Masc|Number=Sing	29	amod	_	_
+29	pour	pour	ADP	_	ADP___	22	mark	_	_
+30	qu'	que	SCONJ	_	SCONJ___	31	fixed	_	_
+31	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	18	nsubj	_	_
+32	voit	voir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	advcl	_	_
+33	si	si	SCONJ	_	SCONJ___	33	mark	_	_
+34	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	37	det	_	_
+35	évaluation	évaluation	NOUN	_	NOUN__Gender=Fem|Number=Sing	37	nsubj	_	_
+36	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	37	det	_	_
+37	taux	taux	NOUN	_	NOUN__Gender=Masc|Number=Plur	33	nmod	_	_
+38	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	cop	_	_
+39	correct	correct	ADJ	_	ADJ__Gender=Masc|Number=Sing	41	obj	_	_
+40	.	.	PUNCT	_	PUNCT___	41	punct	_	_
+
+
+#Par ailleurs vous écrivez "je baisse les taux des précédents experts parce-qu’ils ont fait n importe quoi".
+1	Par	Par	ADP	_	ADP___	1	advmod	_	_
+2	ailleurs	ailleurs	ADV	_	ADV___	6	fixed	_	_
+3	vous	vous	PRON	_	PRON__Number=Plur|Person=2	5	nsubj	_	_
+4	écrivez	écrire	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	"	"	PUNCT	_	PUNCT___	6	punct	_	_
+6	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+7	baisse	baisser	VERB	_	VERB__Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+9	taux	taux	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	obj	_	_
+10	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
+11	précédents	précédent	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	nmod	_	_
+12	experts	expert	NOUN	_	NOUN__Number=Plur	11	cc	_	_
+13	parce	parce	SCONJ	_	SCONJ___	14	fixed	_	_
+14	-	-	PUNCT	_	PUNCT___	9	fixed	_	_
+15	qu’	qu’	PRON	_	PRON__PronType=Rel	1	fixed	_	_
+16	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	18	nsubj	_	_
+17	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	advcl	_	_
+19	n	n	NOUN	_	NOUN___	22	obj	_	_
+20	importe	importer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	fixed	_	_
+21	quoi	quoi	PRON	_	PRON__PronType=Int	22	fixed	_	_
+22	"	"	PUNCT	_	PUNCT___	18	punct	_	_
+23	.	.	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#Rappelez que pour baisser un taux, il ne suffit pas qu'il ait été surévalué au départ, mais il faut bien démontrer une amélioration des séquelles, ce qui bien que rare peut arriver.
+1	Rappelez	rappeler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	acl	_	_
+2	que	que	ADV	_	ADV___	6	mark	_	_
+3	pour	pour	ADP	_	ADP___	5	mark	_	_
+4	baisser	baisser	VERB	_	VERB__VerbForm=Inf	5	acl	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	taux	taux	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+7	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+8	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
+9	ne	ne	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+10	suffit	suffire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
+11	pas	pas	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+12	qu'	que	SCONJ	_	SCONJ___	11	mark	_	_
+13	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	14	nsubj:pass	_	_
+14	ait	avoir	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+15	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	1	aux:pass	_	_
+16	surévalué	surévaluer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	ccomp	_	_
+17	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	18	case	_	_
+18	départ	départ	NOUN	_	NOUN__Gender=Masc|Number=Sing	33	obl	_	_
+19	,	,	PUNCT	_	PUNCT___	22	punct	_	_
+20	mais	mais	CCONJ	_	CCONJ___	19	cc	_	_
+21	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	22	nsubj	_	_
+22	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	_
+23	bien	bien	ADV	_	ADV___	22	advmod	_	_
+24	démontrer	démontrer	VERB	_	VERB__VerbForm=Inf	22	xcomp	_	_
+25	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+26	amélioration	amélioration	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	obj	_	_
+27	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	29	det	_	_
+28	séquelles	séquelle	NOUN	_	NOUN__Number=Plur	29	amod	_	_
+29	,	,	PUNCT	_	PUNCT___	22	punct	_	_
+30	ce	ce	PRON	_	PRON__PronType=Rel	31	iobj	_	_
+31	qui	qui	PRON	_	PRON__PronType=Rel	18	nsubj	_	_
+32	bien	bien	ADV	_	ADV___	33	fixed	_	_
+33	que	que	SCONJ	_	SCONJ___	33	fixed	_	_
+34	rare	rare	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	37	cop	_	_
+35	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	aux	_	_
+36	arriver	arriver	VERB	_	VERB__VerbForm=Inf	37	acl:relcl	_	_
+37	.	.	PUNCT	_	PUNCT___	33	punct	_	_
+
+

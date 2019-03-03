@@ -1,0 +1,138 @@
+#Selon l'article D.3141
+1	Selon	Selon	ADP	_	ADP___	3	case	_	_
+2	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	article	article	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	D.3141	D.3141	PROPN	_	PROPN___	3	nmod	_	_
+
+
+#-6 du code du travail (d'ordre public)
+1	-	-	PUNCT	_	PUNCT___	3	punct	_	_
+2	6	6	NUM	_	NUM__NumType=Card	3	nummod	_	_
+3	du	du	DET	_	DET__Gender=Masc|Number=Sing	3	det	_	_
+4	code	code	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	du	du	DET	_	DET__Gender=Masc|Number=Sing	8	det	_	_
+6	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+7	(	(	PUNCT	_	PUNCT___	8	punct	_	_
+8	d'	de	ADP	_	ADP___	8	case	_	_
+9	ordre	ordre	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+10	public	public	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	amod	_	_
+11	)	)	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#"l'ordre des départs en congés est communiqué, par tout moyen, à chaque salarié un mois avant son départ".
+1	"	"	PUNCT	_	PUNCT___	3	punct	_	_
+2	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	ordre	ordre	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+4	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	3	det	_	_
+5	départs	départ	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obj	_	_
+6	en	en	ADP	_	ADP___	8	case	_	_
+7	congés	congé	ADJ	_	ADJ__Gender=Masc|Number=Plur	8	nmod	_	_
+8	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+9	communiqué	communiquer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+10	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+11	par	par	ADP	_	ADP___	8	case	_	_
+12	tout	tout	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	moyen	moyen	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	obl	_	_
+14	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+15	à	à	ADP	_	ADP___	8	case	_	_
+16	chaque	chaque	DET	_	DET__Number=Sing	18	det	_	_
+17	salarié	salarier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	obl	_	_
+18	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+19	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	nmod	_	_
+20	avant	avant	ADP	_	ADP___	18	case	_	_
+21	son	son	DET	_	DET__Number=Sing|Poss=Yes	22	nmod:poss	_	_
+22	départ	départ	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nmod	_	_
+23	"	"	PUNCT	_	PUNCT___	24	punct	_	_
+24	.	.	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#Cela veut dire que le salarié doit transmettre sa demande (en principe, écrite) au moins un mois et dix jours (à titre indicatif) avant la date de départ en congés souhaitée afin que l'employeur puisse donner sa réponse dans le délai légal.
+1	Cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	3	nsubj	_	_
+2	veut	vouloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	dire	dire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	que	que	SCONJ	_	SCONJ___	3	mark	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+6	salarié	salarié	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nsubj	_	_
+7	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	transmettre	transmettre	VERB	_	VERB__VerbForm=Inf	8	ccomp	_	_
+9	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	10	nmod:poss	_	_
+10	demande	demande	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+11	(	(	PUNCT	_	PUNCT___	8	punct	_	_
+12	en	en	ADP	_	ADP___	13	case	_	_
+13	principe	principe	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+14	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+15	écrite	écrit	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	conj	_	_
+16	)	)	PUNCT	_	PUNCT___	18	punct	_	_
+17	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	18	case	_	_
+18	moins	moins	ADV	_	ADV___	24	fixed	_	_
+19	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obl	_	_
+21	et	et	CCONJ	_	CCONJ___	22	cc	_	_
+22	dix	dix	NUM	_	NUM__NumType=Card	18	nummod	_	_
+23	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	24	conj	_	_
+24	(	(	PUNCT	_	PUNCT___	24	punct	_	_
+25	à	à	ADP	_	ADP___	24	case	_	_
+26	titre	titre	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	obl	_	_
+27	indicatif	indicatif	ADJ	_	ADJ__Gender=Masc|Number=Sing	28	amod	_	_
+28	)	)	PUNCT	_	PUNCT___	24	punct	_	_
+29	avant	avant	ADP	_	ADP___	24	case	_	_
+30	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+31	date	date	NOUN	_	NOUN__Gender=Fem|Number=Sing	32	obl	_	_
+32	de	de	ADP	_	ADP___	24	case	_	_
+33	départ	départ	NOUN	_	NOUN__Gender=Masc|Number=Sing	34	nmod	_	_
+34	en	en	ADP	_	ADP___	32	case	_	_
+35	congés	congé	ADJ	_	ADJ__Gender=Masc|Number=Plur	37	nmod	_	_
+36	souhaitée	souhaiter	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	37	acl	_	_
+37	afin	afin	ADP	_	ADP___	34	mark	_	_
+38	que	que	SCONJ	_	SCONJ___	24	fixed	_	_
+39	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	24	det	_	_
+40	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	42	nsubj	_	_
+41	puisse	pouvoir	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	aux	_	_
+42	donner	donner	VERB	_	VERB__VerbForm=Inf	42	advcl	_	_
+43	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	47	nmod:poss	_	_
+44	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	45	obj	_	_
+45	dans	dan	ADP	_	ADP___	47	case	_	_
+46	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
+47	délai	délai	NOUN	_	NOUN__Gender=Masc|Number=Sing	42	nmod	_	_
+48	légal	légal	ADJ	_	ADJ__Gender=Masc|Number=Sing	49	amod	_	_
+49	.	.	PUNCT	_	PUNCT___	47	punct	_	_
+
+
+#Si, comme vous l'indiquez, il y a un litige sur le formulaire, où votre employeur soupçonne une falsification, le problème est différent.
+1	Si	Si	SCONJ	_	SCONJ___	3	mark	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	comme	comme	SCONJ	_	SCONJ___	3	mark	_	_
+4	vous	vous	PRON	_	PRON__Number=Plur|Person=2	3	nsubj	_	_
+5	l'	le	PRON	_	PRON__Number=Sing|Person=3	8	det	_	_
+6	indiquez	indiquer	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Dem	8	advcl	_	_
+7	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+8	il	il	PRON	_	PRON__Number=Sing|Person=3	8	advcl	_	_
+9	y	yu	PRON	_	PRON__Person=3	10	fixed	_	_
+10	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	fixed	_	_
+11	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+12	litige	litige	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+13	sur	sur	ADP	_	ADP___	8	case	_	_
+14	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+15	formulaire	formulaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+16	,	,	PUNCT	_	PUNCT___	18	punct	_	_
+17	où	où	PRON	_	PRON__PronType=Rel	18	iobj	_	_
+18	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	24	nmod:poss	_	_
+19	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	nsubj	_	_
+20	soupçonne	soupçonner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+21	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	falsification	falsification	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	obj	_	_
+23	,	,	PUNCT	_	PUNCT___	24	punct	_	_
+24	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+25	problème	problème	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	nsubj	_	_
+26	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+27	différent	différent	ADV	_	ADV___	0	ROOT	_	_
+28	.	.	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#Celui-ci est-il raturé ?
+1	Celui-ci	celui-ci	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Dem	0	ROOT	_	_
+2	est-il	est-il	AUX	_	AUX__Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	amod	_	_
+3	raturé	raturer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	xcomp	_	_
+4	?	?	PUNCT	_	PUNCT___	3	punct	_	_
+
+

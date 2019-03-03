@@ -1,0 +1,400 @@
+#Incroyable, mais vrai !
+1	Incroyable	incroyable	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	mais	mais	CCONJ	_	CCONJ___	4	cc	_	_
+4	vrai	vrai	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	conj	_	_
+5	!	!	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Avec la Sécu, une année équivaut parfois à cinq trimestres.
+1	Avec	Avec	ADP	_	ADP___	1	case	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+3	Sécu	sécu	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+6	année	année	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	appos	_	_
+7	équivaut	équivaloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	amod	_	_
+8	parfois	parfois	ADV	_	ADV___	8	advmod	_	_
+9	à	à	ADP	_	ADP___	8	case	_	_
+10	cinq	cinq	NUM	_	NUM__NumType=Card	11	nummod	_	_
+11	trimestres	trimestre	NOUN	_	NOUN__Gender=Fem|Number=Plur	8	obl	_	_
+12	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#C'est ainsi qu'une année de service national permet de valider jusqu'à cinq trimestres pour sa retraite.
+1	C'	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	ainsi	ainsi	ADV	_	ADV___	4	advmod	_	_
+4	qu'	que	SCONJ	_	SCONJ___	1	fixed	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+6	année	année	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nsubj	_	_
+7	de	de	ADP	_	ADP___	8	case	_	_
+8	service	service	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+9	national	national	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	amod	_	_
+10	permet	permettre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+11	de	de	ADP	_	ADP___	8	mark	_	_
+12	valider	valider	VERB	_	VERB__VerbForm=Inf	11	xcomp	_	_
+13	jusqu'	jusque	ADP	_	ADP___	12	case	_	_
+14	à	à	ADP	_	ADP___	16	fixed	_	_
+15	cinq	cinq	NUM	_	NUM__NumType=Card	16	nummod	_	_
+16	trimestres	trimestre	NOUN	_	NOUN__Gender=Fem|Number=Plur	12	obj	_	_
+17	pour	pour	ADP	_	ADP___	8	case	_	_
+18	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	27	nmod:poss	_	_
+19	retraite	retraite	NOUN	_	NOUN__Gender=Fem|Number=Sing	27	nmod	_	_
+20	.	.	PUNCT	_	PUNCT___	27	punct	_	_
+
+
+#Explication : les périodes de service national étant retenues de date à date par tranche de 90 jours en totalisant tous les jours de service, une année de service permet de valider 4,05 trimestres (365 jours divisés par 90) et, comme le résultat doit être arrondi au chiffre entier supérieur, on obtient bien 5 trimestres de la sécu.
+1	Explication	explication	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+3	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+4	périodes	période	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	nsubj:pass	_	_
+5	de	de	ADP	_	ADP___	1	case	_	_
+6	service	service	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+7	national	national	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	amod	_	_
+8	étant	être	AUX	_	AUX__Tense=Pres|VerbForm=Part	8	aux:pass	_	_
+9	retenues	retenir	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	acl	_	_
+10	de	de	ADP	_	ADP___	11	case	_	_
+11	date	date	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+12	à	à	ADP	_	ADP___	11	case	_	_
+13	date	date	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+14	par	par	ADP	_	ADP___	16	case	_	_
+15	tranche	tranche	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obl	_	_
+16	de	de	ADP	_	ADP___	12	case	_	_
+17	90	90	NUM	_	NUM__NumType=Card	8	nummod	_	_
+18	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	27	nmod	_	_
+19	en	en	ADP	_	ADP___	27	mark	_	_
+20	totalisant	totaliser	VERB	_	VERB__Tense=Pres|VerbForm=Part	27	advcl	_	_
+21	tous	tou	ADJ	_	ADJ__Gender=Masc|Number=Plur	20	amod	_	_
+22	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	23	det	_	_
+23	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	27	obj	_	_
+24	de	de	ADP	_	ADP___	25	case	_	_
+25	service	service	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	nmod	_	_
+26	,	,	PUNCT	_	PUNCT___	25	punct	_	_
+27	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+28	année	année	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	appos	_	_
+29	de	de	ADP	_	ADP___	27	case	_	_
+30	service	service	NOUN	_	NOUN__Gender=Masc|Number=Sing	33	nmod	_	_
+31	permet	permettre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	amod	_	_
+32	de	de	ADP	_	ADP___	33	mark	_	_
+33	valider	valider	VERB	_	VERB__VerbForm=Inf	29	xcomp	_	_
+34	4,05	4,05	NUM	_	NUM__NumType=Card	36	nummod	_	_
+35	trimestres	trimestre	NOUN	_	NOUN__Gender=Fem|Number=Plur	36	obj	_	_
+36	(	(	PUNCT	_	PUNCT___	33	punct	_	_
+37	365	365	NUM	_	NUM__NumType=Card	27	nummod	_	_
+38	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	38	appos	_	_
+39	divisés	diviser	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	38	acl	_	_
+40	par	par	ADP	_	ADP___	41	case	_	_
+41	90	90	NUM	_	NUM__NumType=Card	46	obl	_	_
+42	)	)	PUNCT	_	PUNCT___	43	punct	_	_
+43	et	et	CCONJ	_	CCONJ___	41	cc	_	_
+44	,	,	PUNCT	_	PUNCT___	43	punct	_	_
+45	comme	comme	SCONJ	_	SCONJ___	46	case	_	_
+46	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+47	résultat	résultat	NOUN	_	NOUN__Gender=Masc|Number=Sing	48	nsubj	_	_
+48	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	conj	_	_
+49	être	être	AUX	_	AUX__VerbForm=Inf	50	aux:pass	_	_
+50	arrondi	arrondi	NOUN	_	NOUN__Gender=Masc|Number=Sing	48	obl	_	_
+51	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	52	case	_	_
+52	chiffre	chiffre	NOUN	_	NOUN__Gender=Masc|Number=Sing	46	obl	_	_
+53	entier	entier	ADJ	_	ADJ__Gender=Masc|Number=Sing	55	amod	_	_
+54	supérieur	supérieur	ADJ	_	ADJ__Gender=Masc|Number=Sing	55	obj	_	_
+55	,	,	PUNCT	_	PUNCT___	52	punct	_	_
+56	on	on	PRON	_	PRON__Number=Sing|Person=3	57	nsubj	_	_
+57	obtient	obtenir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	46	ccomp	_	_
+58	bien	bien	ADV	_	ADV___	60	advmod	_	_
+59	5	5	NUM	_	NUM__NumType=Card	60	nummod	_	_
+60	trimestres	trimestre	NOUN	_	NOUN__Gender=Fem|Number=Plur	57	obj	_	_
+61	de	de	ADP	_	ADP___	62	case	_	_
+62	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	60	det	_	_
+63	sécu	sécu	NOUN	_	NOUN__Gender=Fem|Number=Sing	60	nmod	_	_
+64	.	.	PUNCT	_	PUNCT___	65	punct	_	_
+
+
+#Ce 5ème trimestre peut être placé, dans l'intérêt de l'assuré, au début ou à la fin de sa période de service militaire.
+1	Ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	1	det	_	_
+2	5ème	5èm	ADJ	_	ADJ__Number=Sing|NumType=Ord	1	nummod	_	_
+3	trimestre	trimestre	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+4	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	être	être	AUX	_	AUX__VerbForm=Inf	1	aux:pass	_	_
+6	placé	placer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	xcomp	_	_
+7	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+8	dans	dan	ADP	_	ADP___	8	case	_	_
+9	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+10	intérêt	intérêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obl	_	_
+11	de	de	ADP	_	ADP___	8	case	_	_
+12	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+13	assuré	assurer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	nmod	_	_
+14	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+15	au	au	DET	_	DET__Number=Plur|PronType=Dem	16	det	_	_
+16	début	début	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	conj	_	_
+17	ou	ou	CCONJ	_	CCONJ___	8	cc	_	_
+18	à	à	ADP	_	ADP___	27	case	_	_
+19	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+20	fin	fin	NOUN	_	NOUN__Gender=Fem|Number=Sing	27	conj	_	_
+21	de	de	ADP	_	ADP___	20	case	_	_
+22	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	23	nmod:poss	_	_
+23	période	période	NOUN	_	NOUN__Gender=Fem|Number=Sing	27	nmod	_	_
+24	de	de	ADP	_	ADP___	25	case	_	_
+25	service	service	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	nmod	_	_
+26	militaire	militaire	ADJ	_	ADJ__Number=Sing	25	amod	_	_
+27	.	.	PUNCT	_	PUNCT___	27	punct	_	_
+
+
+#Ce qui n'est pas neutre.
+1	Ce	ce	PRON	_	PRON__PronType=Rel	0	ROOT	_	_
+2	qui	qui	PRON	_	PRON__PronType=Rel	1	nsubj	_	_
+3	n'	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+6	neutre	neutre	PRON	_	PRON__Number=Sing|PronType=Rel	8	acl:relcl	_	_
+7	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#---------- Message ajouté à 14h28 ---------- Précédent message à 14h27 ---------- 40 jours !
+1	----------	----------	DET	_	DET___	1	det	_	_
+2	Message	message	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	ajouté	ajouter	ADJ	_	ADJ__Gender=Masc|Number=Sing	4	amod	_	_
+4	à	à	ADP	_	ADP___	1	case	_	_
+5	14h28	14h28	NUM	_	NUM__NumType=Card	1	obl	_	_
+6	----------	----------	PRON	_	PRON___	8	dep	_	_
+7	Précédent	précédent	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	nmod	_	_
+8	message	message	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	flat:name	_	_
+9	à	à	ADP	_	ADP___	8	case	_	_
+10	14h27	14h27	NUM	_	NUM__NumType=Card	11	nummod	_	_
+11	----------	----------	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	8	det	_	_
+12	40	40	NUM	_	NUM__NumType=Card	11	nummod	_	_
+13	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	nmod	_	_
+14	!	!	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#ça vaut bien un trimestre !
+1	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	1	nsubj	_	_
+2	vaut	valoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	bien	bien	ADV	_	ADV___	4	advmod	_	_
+4	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+5	trimestre	trimestre	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+6	!	!	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#;-)
+1	;-)	;-)	NOUN	_	NOUN__Gender=Masc	0	ROOT	_	_
+
+
+#---------- Message ajouté à 14h36 ---------- Précédent message à 14h28
+1	----------	----------	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	det	_	_
+2	Message	message	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	ajouté	ajouter	ADJ	_	ADJ__Gender=Masc|Number=Sing	4	acl	_	_
+4	à	à	ADP	_	ADP___	1	case	_	_
+5	14h36	14h36	NUM	_	NUM__NumType=Card	1	nummod	_	_
+6	----------	----------	PRON	_	PRON__Number=Sing|Person=3	8	nmod	_	_
+7	Précédent	précédent	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	nmod	_	_
+8	message	message	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	flat:name	_	_
+9	à	à	ADP	_	ADP___	8	case	_	_
+10	14h28	14h28	NOUN	_	NOUN__NumType=Card	11	nmod	_	_
+
+
+#---------- C'est ma situation à 10 ans près.
+1	----------	----------	PRON	_	PRON__Number=Sing|Person=3	1	punct	_	_
+2	C'	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	1	nmod:poss	_	_
+5	situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+6	à	à	ADP	_	ADP___	8	case	_	_
+7	10	10	NUM	_	NUM__NumType=Card	8	nummod	_	_
+8	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	nmod	_	_
+9	près	près	ADP	_	ADP___	8	advmod	_	_
+10	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Je suis parti du 1er Avril 1980 au 10 mai 1981.
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	suis	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
+3	parti	partir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	du	du	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	det	_	_
+5	1er	1er	ADJ	_	ADJ__NumType=Ord	1	amod	_	_
+6	Avril	avril	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+7	1980	1980	NUM	_	NUM__NumType=Card	8	nummod	_	_
+8	au	au	NOUN	_	NOUN___	8	case	_	_
+9	10	10	NUM	_	NUM__NumType=Card	8	nummod	_	_
+10	mai	mai	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obl	_	_
+11	1981	1981	NUM	_	NUM__NumType=Card	8	nummod	_	_
+12	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Je pourrais placer ce 5ème trimestre au 1er trimestre avant mon incorporation..
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	pourrais	pouvoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	placer	placer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	1	det	_	_
+5	5ème	5ème	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	iobj	_	_
+6	trimestre	trimestre	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+7	au	au	PRON	_	PRON__PronType=Rel	8	case	_	_
+8	1er	1er	ADJ	_	ADJ__NumType=Ord	8	amod	_	_
+9	trimestre	trimestre	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	acl	_	_
+10	avant	avant	ADP	_	ADP___	11	case	_	_
+11	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+12	incorporation	incorporation	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obl	_	_
+13	..	..	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Prenons l’exemple d’un assuré qui a effectué son service militaire du 1er avril 1971 au 31 mars 1972.
+1	Prenons	prenon	NOUN	_	NOUN__Number=Plur	1	nsubj	_	_
+2	l’	l’	PRON	_	PRON__Number=Sing|Person=3	1	det	_	_
+3	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	fixed	_	_
+4	d’	d’	ADP	_	ADP___	0	ROOT	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+6	assuré	assuré	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+7	qui	qui	PRON	_	PRON__PronType=Rel	8	nsubj	_	_
+8	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+9	effectué	effectuer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+10	son	son	DET	_	DET__Number=Sing|Poss=Yes	11	nmod:poss	_	_
+11	service	service	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+12	militaire	militaire	ADJ	_	ADJ__Number=Sing	11	amod	_	_
+13	du	du	ADJ	_	ADJ__Gender=Masc|Number=Sing	12	det	_	_
+14	1er	1er	ADJ	_	ADJ__NumType=Ord	16	amod	_	_
+15	avril	avril	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obj	_	_
+16	1971	1971	NUM	_	NUM__NumType=Card	12	nummod	_	_
+17	au	au	NOUN	_	NOUN___	8	case	_	_
+18	31	31	NUM	_	NUM__NumType=Card	27	nummod	_	_
+19	mars	mars	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	obl	_	_
+20	1972	1972	NUM	_	NUM__NumType=Card	27	nummod	_	_
+21	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Cela représente 366 jours de service qui se transforment en 5 trimestres de la Sécu (366/90 = 4,06).
+1	Cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	1	nsubj	_	_
+2	représente	représenter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	366	366	NUM	_	NUM__NumType=Card	4	nummod	_	_
+4	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	obj	_	_
+5	de	de	ADP	_	ADP___	1	case	_	_
+6	service	service	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+7	qui	qui	PRON	_	PRON__PronType=Rel	8	nsubj	_	_
+8	se	se	PRON	_	PRON__Person=3|Reflex=Yes	8	expl	_	_
+9	transforment	transformer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+10	en	en	ADP	_	ADP___	11	case	_	_
+11	5	5	NUM	_	NUM__NumType=Card	8	nummod	_	_
+12	trimestres	trimestre	NOUN	_	NOUN__Gender=Fem|Number=Plur	11	obl	_	_
+13	de	de	ADP	_	ADP___	12	case	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	Sécu	sécu	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nmod	_	_
+16	(	(	PUNCT	_	PUNCT___	12	punct	_	_
+17	366/90	366/90	NUM	_	NUM__NumType=Card	8	obl	_	_
+18	=	=	VERB	_	VERB__Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	27	amod	_	_
+19	4,06	4,06	NUM	_	NUM__NumType=Card	27	obj	_	_
+20	)	)	PUNCT	_	PUNCT___	27	punct	_	_
+21	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#3 trimestres sont attribués à l’année 1971 et 1 trimestre à l’année 1972 tandis que le cinquième peut être attribué sur l’année 1971 ou sur l’année 1972, selon l’intérêt de l’assuré.
+1	3	3	NUM	_	NUM__NumType=Card	1	nummod	_	_
+2	trimestres	trimestre	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	nsubj:pass	_	_
+3	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	attribués	attribuer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+5	à	à	ADP	_	ADP___	1	case	_	_
+6	l’	l’	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	année	année	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+8	1971	1971	NUM	_	NUM__NumType=Card	8	nummod	_	_
+9	et	et	CCONJ	_	CCONJ___	8	cc	_	_
+10	1	1	NUM	_	NUM__NumType=Card	11	nummod	_	_
+11	trimestre	trimestre	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	conj	_	_
+12	à	à	ADP	_	ADP___	11	case	_	_
+13	l’	l’	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+14	année	année	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obl	_	_
+15	1972	1972	NUM	_	NUM__NumType=Card	16	nummod	_	_
+16	tandis	tandis	ADV	_	ADV___	12	mark	_	_
+17	que	que	SCONJ	_	SCONJ___	8	fixed	_	_
+18	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+19	cinquième	cinquième	ADJ	_	ADJ__Number=Sing|NumType=Ord	27	nsubj	_	_
+20	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	advcl	_	_
+21	être	être	AUX	_	AUX__VerbForm=Inf	20	aux:pass	_	_
+22	attribué	attribuer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	23	xcomp	_	_
+23	sur	sur	ADP	_	ADP___	27	case	_	_
+24	l’	l’	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	année	année	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	obl	_	_
+26	1971	1971	NUM	_	NUM__NumType=Card	25	nummod	_	_
+27	ou	ou	CCONJ	_	CCONJ___	27	cc	_	_
+28	sur	sur	ADP	_	ADP___	29	case	_	_
+29	l’	l’	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+30	année	année	NOUN	_	NOUN__Gender=Fem|Number=Sing	33	conj	_	_
+31	1972	1972	NUM	_	NUM__NumType=Card	30	nummod	_	_
+32	,	,	PUNCT	_	PUNCT___	33	punct	_	_
+33	selon	selon	ADP	_	ADP___	29	case	_	_
+34	l’	l’	DET	_	DET__Number=Sing|Poss=Yes	36	det	_	_
+35	intérêt	intérêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	36	obl	_	_
+36	de	de	ADP	_	ADP___	33	case	_	_
+37	l’	l’	PROPN	_	PROPN__Gender=Masc|Number=Sing	27	det	_	_
+38	assuré	assurer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	38	nmod	_	_
+39	.	.	PUNCT	_	PUNCT___	38	punct	_	_
+
+
+#3 cas de figure sont alors possibles (je ne mets que le 1er car je suis dans cette situation)
+1	3	3	NUM	_	NUM__NumType=Card	1	nummod	_	_
+2	cas	cas	NOUN	_	NOUN__Gender=Masc	1	nsubj	_	_
+3	de	de	ADP	_	ADP___	4	case	_	_
+4	figure	figure	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+5	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+6	alors	alors	ADV	_	ADV___	8	advmod	_	_
+7	possibles	possible	ADJ	_	ADJ__Number=Plur	0	ROOT	_	_
+8	(	(	PUNCT	_	PUNCT___	8	punct	_	_
+9	je	il	PRON	_	PRON__Number=Sing|Person=1	8	nsubj	_	_
+10	ne	ne	ADV	_	ADV___	11	advmod	_	_
+11	mets	mettre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
+12	que	que	SCONJ	_	SCONJ___	11	mark	_	_
+13	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+14	1er	1er	ADJ	_	ADJ__NumType=Ord	16	ccomp	_	_
+15	car	car	CCONJ	_	CCONJ___	16	cc	_	_
+16	je	il	PRON	_	PRON__Number=Sing|Person=1	12	nsubj	_	_
+17	suis	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	cop	_	_
+18	dans	dan	ADP	_	ADP___	27	case	_	_
+19	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	27	det	_	_
+20	situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	27	conj	_	_
+21	)	)	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#- L’assuré n’a pas travaillé en 1971 avant son service militaire : le cinquième trimestre sera reporté sur cette année et l’assuré totalisera alors 4 trimestres en 1971 et au moins 1 trimestre en 1972 grâce au service national.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	L’	L’	PROPN	_	PROPN__Gender=Fem|Number=Sing	1	nsubj:pass	_	_
+3	assuré	assurer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	acl	_	_
+4	n’	n’	ADJ	_	ADJ__Number=Plur	1	acl	_	_
+5	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+6	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+7	travaillé	travailler	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+8	en	en	ADP	_	ADP___	8	case	_	_
+9	1971	1971	NUM	_	NUM__NumType=Card	8	nummod	_	_
+10	avant	avant	ADP	_	ADP___	11	case	_	_
+11	son	son	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+12	service	service	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obl	_	_
+13	militaire	militaire	ADJ	_	ADJ__Number=Sing	12	amod	_	_
+14	:	:	PUNCT	_	PUNCT___	16	punct	_	_
+15	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	cinquième	cinquième	ADJ	_	ADJ__Number=Sing|NumType=Ord	12	amod	_	_
+17	trimestre	trimestre	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+18	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	27	aux:pass	_	_
+19	reporté	reporter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	27	ccomp	_	_
+20	sur	sur	ADP	_	ADP___	27	case	_	_
+21	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	20	det	_	_
+22	année	année	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	obl	_	_
+23	et	et	CCONJ	_	CCONJ___	27	cc	_	_
+24	l’	l’	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	25	det	_	_
+25	assuré	assurer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	23	conj	_	_
+26	totalisera	totaliser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	25	acl	_	_
+27	alors	alors	ADV	_	ADV___	27	advmod	_	_
+28	4	4	NUM	_	NUM__NumType=Card	29	nummod	_	_
+29	trimestres	trimestre	NOUN	_	NOUN__Gender=Fem|Number=Plur	27	obj	_	_
+30	en	en	ADP	_	ADP___	33	case	_	_
+31	1971	1971	NUM	_	NUM__NumType=Card	30	nummod	_	_
+32	et	et	CCONJ	_	CCONJ___	33	cc	_	_
+33	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	29	fixed	_	_
+34	moins	moins	ADV	_	ADV___	36	conj	_	_
+35	1	1	NUM	_	NUM__NumType=Card	36	nummod	_	_
+36	trimestre	trimestre	NOUN	_	NOUN__Gender=Masc|Number=Sing	33	dep	_	_
+37	en	en	ADP	_	ADP___	27	case	_	_
+38	1972	1972	NUM	_	NUM__NumType=Card	38	nummod	_	_
+39	grâce	grâce	NOUN	_	NOUN__Gender=Fem|Number=Sing	38	case	_	_
+40	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	41	fixed	_	_
+41	service	service	NOUN	_	NOUN__Gender=Masc|Number=Sing	46	conj	_	_
+42	national	national	ADJ	_	ADJ__Gender=Masc|Number=Sing	43	amod	_	_
+43	.	.	PUNCT	_	PUNCT___	41	punct	_	_
+
+

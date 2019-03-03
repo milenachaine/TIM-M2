@@ -1,0 +1,86 @@
+#Bonjour, Puis-je vendre en un seul lot mon terrain sur lequel se trouve ma résidence principale de 130m2 + un deuxième maison de 80m2 ( que je loue occasionnellement) ?
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	Puis-je	puis-je	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+4	vendre	vendre	VERB	_	VERB__VerbForm=Inf	1	acl	_	_
+5	en	en	ADP	_	ADP___	8	case	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	seul	seul	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	amod	_	_
+8	lot	lot	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+9	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+10	terrain	terrain	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+11	sur	sur	ADP	_	ADP___	12	case	_	_
+12	lequel	lequel	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	14	obl	_	_
+13	se	se	PRON	_	PRON__Person=3|Reflex=Yes	14	expl	_	_
+14	trouve	trouver	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+15	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	16	nmod:poss	_	_
+16	résidence	résidence	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obj	_	_
+17	principale	principal	ADJ	_	ADJ__Gender=Fem|Number=Sing	16	amod	_	_
+18	de	de	ADP	_	ADP___	19	case	_	_
+19	130m2	130m2	NOUN	_	NOUN__NumType=Card	16	nmod	_	_
+20	+	+	ADP	_	ADP___	23	case	_	_
+21	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	deuxième	deuxième	ADJ	_	ADJ__Number=Sing|NumType=Ord	23	amod	_	_
+23	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nmod	_	_
+24	de	de	ADP	_	ADP___	25	case	_	_
+25	80m2	80m2	NUM	_	NUM__NumType=Card	23	nmod	_	_
+26	(	(	PUNCT	_	PUNCT___	14	punct	_	_
+27	que	que	SCONJ	_	SCONJ___	29	mark	_	_
+28	je	il	PRON	_	PRON__Number=Sing|Person=1	29	nsubj	_	_
+29	loue	louer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+30	occasionnellement	occasionnellement	ADV	_	ADV___	29	advmod	_	_
+31	)	)	PUNCT	_	PUNCT___	1	punct	_	_
+32	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Si oui comment serais je taxé ?
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	oui	oui	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+3	comment	comment	ADV	_	ADV__PronType=Int	4	advmod	_	_
+4	serais	être	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	cop	_	_
+5	je	il	PRON	_	PRON__Number=Sing|Person=1	8	nsubj	_	_
+6	taxé	taxer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	?	?	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#En tant que résidence principale sur l'ensemble ?
+1	En	En	ADP	_	ADP___	1	case	_	_
+2	tant	tant	ADV	_	ADV___	4	fixed	_	_
+3	que	que	SCONJ	_	SCONJ___	4	fixed	_	_
+4	résidence	résidence	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+5	principale	principal	ADJ	_	ADJ__Gender=Fem|Number=Sing	8	amod	_	_
+6	sur	sur	ADP	_	ADP___	8	case	_	_
+7	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	ensemble	ensemble	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+9	?	?	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#( Exonération de plus value) ou dois je obligatoirement séparer les 2 biens avant la vente ?
+1	(	(	PUNCT	_	PUNCT___	1	punct	_	_
+2	Exonération	exonération	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obl	_	_
+3	de	de	ADP	_	ADP___	4	case	_	_
+4	plus	plus	ADV	_	ADV___	1	advmod	_	_
+5	value	valu	ADJ	_	ADJ__Gender=Fem|Number=Sing	8	nmod	_	_
+6	)	)	PUNCT	_	PUNCT___	8	punct	_	_
+7	ou	ou	CCONJ	_	CCONJ___	8	cc	_	_
+8	dois	devoir	NUM	_	NUM__NumType=Card	4	aux	_	_
+9	je	il	PRON	_	PRON__Number=Sing|Person=1	10	nsubj	_	_
+10	obligatoirement	obligatoiremer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	advmod	_	_
+11	séparer	séparer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+12	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	14	det	_	_
+13	2	2	NUM	_	NUM__NumType=Card	14	nummod	_	_
+14	biens	bien	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obj	_	_
+15	avant	avant	ADP	_	ADP___	16	case	_	_
+16	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+17	vente	vente	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obl	_	_
+18	?	?	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Je vous remercie d'avance
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	4	obj	_	_
+3	remercie	remercier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	d'	de	ADP	_	ADP___	1	case	_	_
+5	avance	avance	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+
+

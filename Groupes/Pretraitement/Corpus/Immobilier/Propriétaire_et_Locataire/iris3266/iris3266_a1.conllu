@@ -1,0 +1,273 @@
+#Bonjour, Ces 600 € sont
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Ces	ce	DET	_	DET__Number=Plur|PronType=Dem	4	det	_	_
+4	600	600	NUM	_	NUM__NumType=Card	5	nummod	_	_
+5	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	nsubj	_	_
+6	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	acl	_	_
+
+
+#-ils le résultat des charges non payées depuis 2 ans ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	1	nsubj	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	résultat	résultat	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
+6	charges	charge	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	obj	_	_
+7	non	non	ADV	_	ADV___	10	advmod	_	_
+8	payées	payer	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	10	acl	_	_
+9	depuis	depuis	ADP	_	ADP___	10	case	_	_
+10	2	2	NUM	_	NUM__NumType=Card	10	nummod	_	_
+11	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	obl	_	_
+12	?	?	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Que contenaient vos courriers recommandés ?
+1	Que	que	PRON	_	PRON__PronType=Int	1	mark	_	_
+2	contenaient	contenir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+3	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	4	nmod:poss	_	_
+4	courriers	courrier	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	amod	_	_
+5	recommandés	recommander	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	obj	_	_
+6	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#C'est au propriétaire de justifier (par copie des documents émanant du syndic) les charges récupérables.
+1	C'	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	au	au	NOUN	_	NOUN__Number=Plur	4	det	_	_
+4	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	0	ROOT	_	_
+5	de	de	ADP	_	ADP___	6	mark	_	_
+6	justifier	justifier	VERB	_	VERB__VerbForm=Inf	1	nmod	_	_
+7	(	(	PUNCT	_	PUNCT___	10	punct	_	_
+8	par	par	ADP	_	ADP___	10	case	_	_
+9	copie	copie	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+10	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
+11	documents	document	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	obj	_	_
+12	émanant	émaner	VERB	_	VERB__Tense=Pres|VerbForm=Part	10	acl	_	_
+13	du	du	DET	_	DET__Gender=Masc|Number=Sing	14	det	_	_
+14	syndic	syndic	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+15	)	)	PUNCT	_	PUNCT___	17	punct	_	_
+16	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	17	det	_	_
+17	charges	charge	NOUN	_	NOUN__Gender=Fem|Number=Plur	14	obj	_	_
+18	récupérables	récupérable	ADJ	_	ADJ__Gender=Fem|Number=Plur	10	amod	_	_
+19	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#La simple mention dans un courrier (ou un mail) du fait que "les charges augmentent" ne suffit pas !
+1	La	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	simple	simple	ADJ	_	ADJ__Number=Sing	1	amod	_	_
+3	mention	mention	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nsubj	_	_
+4	dans	dan	ADP	_	ADP___	5	case	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	courrier	courrier	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+7	(	(	PUNCT	_	PUNCT___	10	punct	_	_
+8	ou	ou	CCONJ	_	CCONJ___	10	cc	_	_
+9	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	mail	mail	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	conj	_	_
+11	)	)	PUNCT	_	PUNCT___	12	punct	_	_
+12	du	du	DET	_	DET__Gender=Masc|Number=Sing	10	det	_	_
+13	fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nsubj	_	_
+14	que	que	SCONJ	_	SCONJ___	12	mark	_	_
+15	"	"	PUNCT	_	PUNCT___	17	punct	_	_
+16	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	17	det	_	_
+17	charges	charge	NOUN	_	NOUN__Gender=Fem|Number=Plur	14	nsubj	_	_
+18	augmentent	augmenter	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+19	"	"	PUNCT	_	PUNCT___	20	punct	_	_
+20	ne	ne	ADV	_	ADV__Polarity=Neg	20	advmod	_	_
+21	suffit	suffire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
+22	pas	pas	ADV	_	ADV__Polarity=Neg	23	advmod	_	_
+23	!	!	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Avez
+1	Avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+
+
+#-vous reçu ces documents ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+3	reçu	recevoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	5	det	_	_
+5	documents	document	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	obj	_	_
+6	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Si oui, vous pouvez aller les faire vérifier par l'ADIL de votre département.
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	oui	oui	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	vous	vous	PRON	_	PRON__Number=Plur|Person=2	5	nsubj	_	_
+5	pouvez	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	aller	aller	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+7	les	le	PRON	_	PRON__Number=Plur|Person=3	10	det	_	_
+8	faire	faire	VERB	_	VERB__VerbForm=Inf	10	obj	_	_
+9	vérifier	vérifier	VERB	_	VERB__VerbForm=Inf	10	xcomp	_	_
+10	par	par	ADP	_	ADP___	10	case	_	_
+11	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	ADIL	ADIL	PROPN	_	PROPN__Number=Sing	10	obl	_	_
+13	de	de	ADP	_	ADP___	14	case	_	_
+14	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	12	nmod:poss	_	_
+15	département	département	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	nmod	_	_
+16	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Oui, l'aide au logement peut être supprimée si le bailleur indique que vous n'êtes pas à jour de vos paiements.
+1	Oui	Oui	PROPN	_	PROPN__Gender=Masc|Number=Sing	1	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	aide	aide	NOUN	_	NOUN__Number=Sing	5	nsubj	_	_
+5	au	au	PRON	_	PRON__PronType=Rel	6	iobj	_	_
+6	logement	logement	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	1	advmod	_	_
+7	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	être	être	AUX	_	AUX__VerbForm=Inf	10	aux:pass	_	_
+9	supprimée	supprimer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	xcomp	_	_
+10	si	si	SCONJ	_	SCONJ___	10	mark	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	bailleur	bailleur	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nsubj	_	_
+13	indique	indiquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+14	que	que	SCONJ	_	SCONJ___	12	mark	_	_
+15	vous	vous	PRON	_	PRON__Number=Plur|Person=2	17	nsubj	_	_
+16	n'	ne	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+17	êtes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
+18	pas	pas	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+19	à	à	ADP	_	ADP___	20	case	_	_
+20	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obl	_	_
+21	de	de	ADP	_	ADP___	23	case	_	_
+22	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	23	nmod:poss	_	_
+23	paiements	paiement	NOUN	_	NOUN__Gender=Masc|Number=Plur	20	obl	_	_
+24	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Une fois que vous serez certain que les charges sont bien dues, vous pouvez demander un échelonnement supplémentaire, compte tenu du fait que vous n'avez pas obtenu les justificatifs (si c'est bien le cas).
+1	Une	un	DET	_	DET__Gender=Fem|Number=Sing	1	advmod	_	_
+2	fois	fois	NOUN	_	NOUN__Gender=Fem	1	fixed	_	_
+3	que	que	PRON	_	PRON__PronType=Rel	4	mark	_	_
+4	vous	vous	PRON	_	PRON__Number=Plur|Person=2	5	nsubj	_	_
+5	serez	être	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	certain	certain	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	advcl	_	_
+7	que	que	SCONJ	_	SCONJ___	10	mark	_	_
+8	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	10	det	_	_
+9	charges	charge	NOUN	_	NOUN__Gender=Fem|Number=Plur	10	nsubj	_	_
+10	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+11	bien	bien	ADV	_	ADV___	12	advmod	_	_
+12	dues	du	ADJ	_	ADJ__Gender=Fem|Number=Plur	10	ccomp	_	_
+13	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+14	vous	vous	PRON	_	PRON__Number=Plur|Person=2	12	nsubj	_	_
+15	pouvez	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	demander	demander	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+17	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+18	échelonnement	échelonnement	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+19	supplémentaire	supplémentaire	ADJ	_	ADJ__Number=Sing	20	amod	_	_
+20	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+21	compte	compte	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	advmod	_	_
+22	tenu	tenir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	fixed	_	_
+23	du	du	DET	_	DET__Gender=Masc|Number=Sing	20	det	_	_
+24	fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obl	_	_
+25	que	que	SCONJ	_	SCONJ___	28	mark	_	_
+26	vous	vous	PRON	_	PRON__Number=Plur|Person=2	28	nsubj	_	_
+27	n'	ne	ADV	_	ADV__Polarity=Neg	28	advmod	_	_
+28	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	28	aux	_	_
+29	pas	pas	ADV	_	ADV__Polarity=Neg	30	advmod	_	_
+30	obtenu	obtenir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	acl:relcl	_	_
+31	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	28	det	_	_
+32	justificatifs	justificatif	NOUN	_	NOUN__Gender=Masc|Number=Plur	33	obj	_	_
+33	(	(	PUNCT	_	PUNCT___	28	punct	_	_
+34	si	si	SCONJ	_	SCONJ___	35	mark	_	_
+35	c'	ce	PRON	_	PRON__Number=Sing|Person=3	28	nsubj	_	_
+36	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	cop	_	_
+37	bien	bien	ADV	_	ADV___	38	advmod	_	_
+38	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+39	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	obl	_	_
+40	)	)	PUNCT	_	PUNCT___	41	punct	_	_
+41	.	.	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#Une procédure d'expulsion pour impayés prend énormément de temps et il y a une conciliation avant, donc pas de panique.
+1	Une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	procédure	procédure	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+3	d'	de	ADP	_	ADP___	4	case	_	_
+4	expulsion	expulsion	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+5	pour	pour	ADP	_	ADP___	6	mark	_	_
+6	impayés	impayé	PUNCT	_	PUNCT___	1	nmod	_	_
+7	prend	prendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	énormément	énormément	ADV	_	ADV___	10	advmod	_	_
+9	de	de	ADP	_	ADP___	10	case	_	_
+10	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	nmod	_	_
+11	et	et	CCONJ	_	CCONJ___	12	cc	_	_
+12	il	il	PRON	_	PRON__Number=Sing|Person=3	10	case	_	_
+13	y	yu	PRON	_	PRON__Person=3	14	fixed	_	_
+14	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	fixed	_	_
+15	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	conciliation	conciliation	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	obj	_	_
+17	avant	avant	ADP	_	ADP___	14	case	_	_
+18	,	,	PUNCT	_	PUNCT___	10	nmod	_	_
+19	donc	donc	ADV	_	ADV___	20	advmod	_	_
+20	pas	pas	ADV	_	ADV___	20	advmod	_	_
+21	de	de	DET	_	DET__Definite=Ind|Number=Sing|PronType=Art	23	det	_	_
+22	panique	panique	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	nmod	_	_
+23	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Par contre, il semble que les charges pour votre logement aient été sous-évaluées et il serait donc bien de "faire un geste" en payant au moins une partie de ce que vous devez, puis d'accepter une provision plus importante chaque mois, pour éviter que le problème se reproduise dans les années à venir.
+1	Par	Par	ADP	_	ADP___	1	advmod	_	_
+2	contre	contrer	ADP	_	ADP___	1	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+5	semble	sembler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	que	que	SCONJ	_	SCONJ___	1	mark	_	_
+7	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	10	det	_	_
+8	charges	charge	NOUN	_	NOUN__Gender=Fem|Number=Plur	10	nsubj:pass	_	_
+9	pour	pour	ADP	_	ADP___	10	case	_	_
+10	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+11	logement	logement	ADV	_	ADV___	12	advmod	_	_
+12	aient	avoir	AUX	_	AUX__Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+13	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	14	aux:pass	_	_
+14	sous-évaluées	sous-évaluer	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	12	ccomp	_	_
+15	et	et	CCONJ	_	CCONJ___	17	cc	_	_
+16	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	17	nsubj	_	_
+17	serait	être	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+18	donc	donc	ADV	_	ADV___	10	advmod	_	_
+19	bien	bien	ADV	_	ADV___	20	advmod	_	_
+20	de	de	ADP	_	ADP___	20	fixed	_	_
+21	"	"	PUNCT	_	PUNCT___	23	punct	_	_
+22	faire	faire	VERB	_	VERB__VerbForm=Inf	23	conj	_	_
+23	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+24	geste	geste	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obj	_	_
+25	"	"	PUNCT	_	PUNCT___	28	punct	_	_
+26	en	en	ADP	_	ADP___	28	mark	_	_
+27	payant	payer	VERB	_	VERB__Tense=Pres|VerbForm=Part	28	advcl	_	_
+28	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	28	fixed	_	_
+29	moins	moins	ADV	_	ADV___	30	xcomp	_	_
+30	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+31	partie	partie	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	obj	_	_
+32	de	de	ADP	_	ADP___	33	case	_	_
+33	ce	ce	PRON	_	PRON__PronType=Rel	28	nmod	_	_
+34	que	que	PRON	_	PRON__PronType=Rel	35	obj	_	_
+35	vous	vous	PRON	_	PRON__Number=Plur|Person=2	28	nsubj	_	_
+36	devez	devoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	35	acl:relcl	_	_
+37	,	,	PUNCT	_	PUNCT___	38	punct	_	_
+38	puis	pouvoir	CCONJ	_	CCONJ___	36	cc	_	_
+39	d'	de	ADP	_	ADP___	28	mark	_	_
+40	accepter	accepter	VERB	_	VERB__VerbForm=Inf	41	conj	_	_
+41	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+42	provision	provision	NOUN	_	NOUN__Gender=Fem|Number=Sing	41	obj	_	_
+43	plus	plus	ADV	_	ADV___	28	advmod	_	_
+44	importante	important	ADJ	_	ADJ__Gender=Fem|Number=Sing	46	amod	_	_
+45	chaque	chaque	DET	_	DET__Number=Sing	46	det	_	_
+46	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Sing	56	obj	_	_
+47	,	,	PUNCT	_	PUNCT___	49	punct	_	_
+48	pour	pour	ADP	_	ADP___	49	mark	_	_
+49	éviter	éviter	VERB	_	VERB__VerbForm=Inf	46	advcl	_	_
+50	que	que	SCONJ	_	SCONJ___	46	mark	_	_
+51	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	53	det	_	_
+52	problème	problème	NOUN	_	NOUN__Gender=Masc|Number=Sing	53	nsubj	_	_
+53	se	se	PRON	_	PRON__Person=3|Reflex=Yes	46	expl	_	_
+54	reproduise	reproduire	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	ccomp	_	_
+55	dans	dan	ADP	_	ADP___	56	case	_	_
+56	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	64	det	_	_
+57	années	année	NOUN	_	NOUN__Gender=Fem|Number=Plur	61	obl	_	_
+58	à	à	ADP	_	ADP___	61	mark	_	_
+59	venir	venir	VERB	_	VERB__VerbForm=Inf	60	acl	_	_
+60	.	.	PUNCT	_	PUNCT___	61	punct	_	_
+
+

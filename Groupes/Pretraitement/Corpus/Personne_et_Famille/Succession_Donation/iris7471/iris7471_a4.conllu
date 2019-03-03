@@ -1,0 +1,125 @@
+#Une solution amiable : dans le partage
+1	Une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	solution	solution	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	amiable	amiable	ADJ	_	ADJ__Number=Sing	2	amod	_	_
+4	:	:	PUNCT	_	PUNCT___	2	punct	_	_
+5	dans	dan	ADP	_	ADP___	7	case	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	partage	partage	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	nmod	_	_
+
+
+#du prix, il reçoit les 900€ litigieux.
+1	du	du	DET	_	DET__Gender=Masc|Number=Sing	2	det	_	_
+2	prix	prix	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	nsubj	_	_
+3	,	,	PUNCT	_	PUNCT___	2	punct	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+5	reçoit	recevoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+7	900	900	NUM	_	NUM__NumType=Card	2	nummod	_	_
+8	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	obj	_	_
+9	litigieux	litigieux	ADJ	_	ADJ__Gender=Masc	12	amod	_	_
+10	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Par exemple, si vous êtes 4 : Prix de vente exigé par le récalcitrant 40000 => part de chacun 10000.
+1	Par	Par	ADP	_	ADP___	2	advmod	_	_
+2	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	2	punct	_	_
+4	si	si	SCONJ	_	SCONJ___	2	mark	_	_
+5	vous	vous	PRON	_	PRON__Number=Plur|Person=2	7	nsubj	_	_
+6	êtes	être	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	4	4	NUM	_	NUM__NumType=Card	0	ROOT	_	_
+8	:	:	PUNCT	_	PUNCT___	9	punct	_	_
+9	Prix	prix	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nsubj	_	_
+10	de	de	ADP	_	ADP___	12	case	_	_
+11	vente	vente	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+12	exigé	exiger	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
+13	par	par	ADP	_	ADP___	15	case	_	_
+14	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	récalcitrant	récalcitrant	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obl	_	_
+16	40000	40000	NUM	_	NUM__NumType=Card	15	nummod	_	_
+17	=	=	VERB	_	VERB__Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	12	parataxis	_	_
+18	>	>	ADJ	_	ADJ__Gender=Masc|Number=Sing	24	obj	_	_
+19	part	part	NOUN	_	NOUN__Number=Sing	18	fixed	_	_
+20	de	de	ADP	_	ADP___	24	case	_	_
+21	chacun	chacun	PRON	_	PRON__Gender=Masc|PronType=Rel	24	obl	_	_
+22	10000	10000	NUM	_	NUM__NumType=Card	24	nummod	_	_
+23	.	.	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#Prix d'achat accepté par votre acquéreur 36400 => part de chacun 9100 (900 de différence).
+1	Prix	prix	NOUN	_	NOUN__Gender=Masc	2	obl	_	_
+2	d'	de	ADP	_	ADP___	2	case	_	_
+3	achat	achat	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	nmod	_	_
+4	accepté	accepter	ADP	_	ADP___	2	acl	_	_
+5	par	par	ADP	_	ADP___	7	case	_	_
+6	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	7	nmod:poss	_	_
+7	acquéreur	acquéreur	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	obl	_	_
+8	36400	36400	NUM	_	NUM__NumType=Card	9	nummod	_	_
+9	=	=	VERB	_	VERB__Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+10	>	>	ADJ	_	ADJ__Gender=Masc|Number=Sing	12	obj	_	_
+11	part	part	NOUN	_	NOUN__Number=Sing	12	obj	_	_
+12	de	de	ADP	_	ADP___	12	case	_	_
+13	chacun	chacun	PRON	_	PRON__Gender=Masc|PronType=Rel	15	obl	_	_
+14	9100	9100	NUM	_	NUM__NumType=Card	15	nummod	_	_
+15	(	(	PUNCT	_	PUNCT___	12	punct	_	_
+16	900	900	NUM	_	NUM__NumType=Card	15	appos	_	_
+17	de	de	ADP	_	ADP___	12	case	_	_
+18	différence	différence	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	nmod	_	_
+19	)	)	PUNCT	_	PUNCT___	18	punct	_	_
+20	.	.	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#Vous partagez les 36400 du prix de vente ainsi : 10000 pour lui, et 8800 pour chacun des 3 autres.
+1	Vous	vous	PRON	_	PRON__Number=Plur|Person=2	2	nsubj	_	_
+2	partagez	partager	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	2	det	_	_
+4	36400	36400	NUM	_	NUM__NumType=Card	2	nummod	_	_
+5	du	du	DET	_	DET__Gender=Masc|Number=Sing	7	det	_	_
+6	prix	prix	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	punct	_	_
+7	de	de	ADP	_	ADP___	2	case	_	_
+8	vente	vente	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nmod	_	_
+9	ainsi	ainsi	ADV	_	ADV___	12	advmod	_	_
+10	:	:	PUNCT	_	PUNCT___	12	punct	_	_
+11	10000	10000	NUM	_	NUM__NumType=Card	12	iobj	_	_
+12	pour	pour	ADP	_	ADP___	12	case	_	_
+13	lui	luire	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nmod	_	_
+14	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+15	et	et	CCONJ	_	CCONJ___	12	cc	_	_
+16	8800	8800	NUM	_	NUM__NumType=Card	15	conj	_	_
+17	pour	pour	ADP	_	ADP___	12	case	_	_
+18	chacun	chacun	PRON	_	PRON__Gender=Masc|PronType=Rel	24	obl	_	_
+19	des	un	ADP	_	ADP___	18	det	_	_
+20	3	3	NUM	_	NUM__NumType=Card	24	nummod	_	_
+21	autres	autre	ADJ	_	ADJ__Number=Plur	24	nmod	_	_
+22	.	.	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#L'histoire est ainsi réglée immédiatement, sans les coûts d'un procès, où au final, vous auriez eu moins que 8800.
+1	L'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	2	det	_	_
+2	histoire	histoire	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	ainsi	ainsi	ADV	_	ADV___	2	advmod	_	_
+5	réglée	régler	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+6	immédiatement	immédiatement	ADV	_	ADV___	7	advmod	_	_
+7	,	,	PUNCT	_	PUNCT___	2	punct	_	_
+8	sans	sans	ADP	_	ADP___	9	case	_	_
+9	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	12	det	_	_
+10	coûts	coût	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	obl	_	_
+11	d'	de	ADP	_	ADP___	12	case	_	_
+12	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+13	procès	procès	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nmod	_	_
+14	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+15	où	où	PRON	_	PRON__PronType=Rel	12	iobj	_	_
+16	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	15	obl	_	_
+17	final	final	ADJ	_	ADJ__Gender=Masc|Number=Sing	12	amod	_	_
+18	,	,	PUNCT	_	PUNCT___	24	punct	_	_
+19	vous	vous	PRON	_	PRON__Number=Plur|Person=2	18	nsubj	_	_
+20	auriez	avoir	AUX	_	AUX__Mood=Cnd|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	24	aux	_	_
+21	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	acl:relcl	_	_
+22	moins	moins	ADV	_	ADV___	24	advmod	_	_
+23	que	que	SCONJ	_	SCONJ___	24	mark	_	_
+24	8800	8800	NUM	_	NUM__NumType=Card	24	obj	_	_
+25	.	.	PUNCT	_	PUNCT___	24	punct	_	_
+
+

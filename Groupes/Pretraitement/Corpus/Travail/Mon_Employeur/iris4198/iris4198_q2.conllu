@@ -1,0 +1,167 @@
+#Bonjour, Accident le 19 à 18h, rv avec médecin traitant à 11h le 21.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	5	case	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	Accident	accident	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	conj	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	19	19	PRON	_	PRON__NumType=Card|PronType=Rel	0	ROOT	_	_
+6	à	à	ADP	_	ADP___	7	case	_	_
+7	18h	18h	PRON	_	PRON__Number=Sing|Person=1	5	nmod	_	_
+8	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+9	rv	rv	CCONJ	_	CCONJ___	11	cc	_	_
+10	avec	avec	ADP	_	ADP___	11	case	_	_
+11	médecin	médecin	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	conj	_	_
+12	traitant	traiter	VERB	_	VERB__Tense=Pres|VerbForm=Part	11	acl	_	_
+13	à	à	ADP	_	ADP___	14	case	_	_
+14	11h	11h	NUM	_	NUM__NumType=Card	12	obl	_	_
+15	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	21	21	NUM	_	NUM__NumType=Card	12	obl	_	_
+17	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Pas de dispo avant, chez moi ces délais dont plus que raisonnables.
+1	Pas	pas	ADV	_	ADV___	0	ROOT	_	_
+2	de	de	ADP	_	ADP___	3	case	_	_
+3	dispo	dispo	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+4	avant	avant	ADP	_	ADP___	5	advmod	_	_
+5	,	,	PUNCT	_	PUNCT___	5	fixed	_	_
+6	chez	chez	ADP	_	ADP___	7	case	_	_
+7	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	5	nmod	_	_
+8	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	5	det	_	_
+9	délais	délai	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	obj	_	_
+10	dont	dont	PRON	_	PRON__PronType=Rel	11	advmod	_	_
+11	plus	plus	ADV	_	ADV___	5	acl:relcl	_	_
+12	que	que	SCONJ	_	SCONJ___	11	mark	_	_
+13	raisonnables	raisonnable	ADJ	_	ADJ__Gender=Fem|Number=Plur	14	dep	_	_
+14	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Employeur prévenu à 8h le 20 respect des 24h ok.
+1	Employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+2	prévenu	prévenir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+3	à	à	ADP	_	ADP___	1	case	_	_
+4	8h	8h	NUM	_	NUM__NumType=Card	5	cop	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+6	20	20	NUM	_	NUM__NumType=Card	7	nummod	_	_
+7	respect	respect	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+8	des	un	ADP	_	ADP___	5	det	_	_
+9	24h	24h	ADJ	_	ADJ__NumType=Ord	11	amod	_	_
+10	ok	ok	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obl	_	_
+11	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#À part la mention « dans les plus brefs délais »
+1	À	À	ADP	_	ADP___	5	case	_	_
+2	part	part	NOUN	_	NOUN__Number=Sing	3	fixed	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+4	mention	mention	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+5	«	«	PUNCT	_	PUNCT___	5	punct	_	_
+6	 	  	SPACE	_		7		_	_
+7	dans	dan	ADP	_	ADP___	5	case	_	_
+8	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+9	plus	plus	ADV	_	ADV___	11	advmod	_	_
+10	brefs	bref	ADJ	_	ADJ__Gender=Masc|Number=Plur	11	amod	_	_
+11	délais	délai	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	nmod	_	_
+12	 	  	SPACE	_		11		_	_
+13	»	»	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#aucun délai n’est indiqué https://www.ameli.fr/assure/droits-d...travail-trajet Quant aux témoins, j’aimerais comprendre le législateur : vous marchez pour vous rendre à vous travail, vous êtes seul, vous tombez ou vous revenez de votre travail.
+1	aucun	aucun	DET	_	DET__Gender=Masc|Number=Sing	5	det	_	_
+2	délai	délai	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+3	n’	n’	ADJ	_	ADJ__Number=Plur	1	amod	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	indiqué	indiquer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	det	_	_
+6	https://www.ameli.fr/assure/droits-d...travail-trajet	https://www.ameli.fr/assure/droits-d...travail-trajet	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+7	Quant	quant	ADV	_	ADV___	5	case	_	_
+8	aux	aux	ADJ	_	ADJ__Gender=Masc|Number=Plur	5	fixed	_	_
+9	témoins	témoin	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	nmod	_	_
+10	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+11	j’	j’	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	nsubj	_	_
+12	aimerais	aimerai	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	acl	_	_
+13	comprendre	comprendre	VERB	_	VERB__VerbForm=Inf	14	xcomp	_	_
+14	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+15	législateur	législateur	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obj	_	_
+16	:	:	PUNCT	_	PUNCT___	12	punct	_	_
+17	vous	vous	PRON	_	PRON__Number=Plur|Person=2	5	nsubj	_	_
+18	marchez	marcher	VERB	_	VERB__VerbForm=Inf	18	obl	_	_
+19	pour	pour	ADP	_	ADP___	20	mark	_	_
+20	vous	vous	PRON	_	PRON__Number=Plur|Person=2|Reflex=Yes	18	expl	_	_
+21	rendre	rendre	VERB	_	VERB__VerbForm=Inf	24	advcl	_	_
+22	à	à	ADP	_	ADP___	21	case	_	_
+23	vous	vous	PRON	_	PRON__Number=Plur|Person=2	24	det	_	_
+24	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obl	_	_
+25	,	,	PUNCT	_	PUNCT___	26	punct	_	_
+26	vous	vous	PRON	_	PRON__Number=Plur|Person=2	24	nsubj	_	_
+27	êtes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	28	cop	_	_
+28	seul	seul	ADJ	_	ADJ__Gender=Masc|Number=Sing	26	advmod	_	_
+29	,	,	PUNCT	_	PUNCT___	30	punct	_	_
+30	vous	vous	PRON	_	PRON__Number=Plur|Person=2	28	nsubj	_	_
+31	tombez	tomber	ADJ	_	ADJ__Gender=Masc|Number=Sing	18	conj	_	_
+32	ou	ou	CCONJ	_	CCONJ___	33	cc	_	_
+33	vous	vous	PRON	_	PRON__Number=Plur|Person=2	33	nsubj	_	_
+34	revenez	revenir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	38	conj	_	_
+35	de	de	ADP	_	ADP___	38	case	_	_
+36	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	38	nmod:poss	_	_
+37	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	38	obl	_	_
+38	.	.	PUNCT	_	PUNCT___	33	punct	_	_
+
+
+#Quels témoins les arbres et les oiseaux ?
+1	Quels	quel	ADJ	_	ADJ__Gender=Masc|Number=Plur	5	det	_	_
+2	témoins	témoin	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+3	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+4	arbres	arbre	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	amod	_	_
+5	et	et	CCONJ	_	CCONJ___	5	cc	_	_
+6	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+7	oiseaux	oiseau	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	conj	_	_
+8	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Encore faudrait-il savoir que l’accident de trajet est reconnu.
+1	Encore	encore	ADV	_	ADV___	5	advmod	_	_
+2	faudrait	falloir	VERB	_	VERB__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+5	savoir	savoir	VERB	_	VERB__VerbForm=Inf	5	parataxis	_	_
+6	que	que	SCONJ	_	SCONJ___	7	mark	_	_
+7	l’	l’	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+8	accident	accident	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+9	de	de	ADP	_	ADP___	11	case	_	_
+10	trajet	trajet	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+11	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+12	reconnu	reconnaître	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	ccomp	_	_
+13	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Si mon employeur ne me l’avait pas dit, j’aurais tout au plus été voir mon médecin pour examen et radio et serais en arrêt maladie.
+1	Si	Si	SCONJ	_	SCONJ___	5	mark	_	_
+2	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	3	nmod:poss	_	_
+3	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+4	ne	ne	ADV	_	ADV___	5	advmod	_	_
+5	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	5	expl	_	_
+6	l’	l’	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	7	iobj	_	_
+7	avait	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+8	pas	pas	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+9	dit	dire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	_	_
+10	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+11	j’	j’	PROPN	_	PROPN__Gender=Masc|Number=Sing	5	obl	_	_
+12	aurais	aurai	ADJ	_	ADJ__Gender=Masc	11	amod	_	_
+13	tout	tout	ADJ	_	ADJ__Gender=Masc|Number=Sing	14	advmod	_	_
+14	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	fixed	_	_
+15	plus	plus	ADV	_	ADV___	16	advmod	_	_
+16	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	12	aux:pass	_	_
+17	voir	voir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+18	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	18	nmod:poss	_	_
+19	médecin	médecin	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obj	_	_
+20	pour	pour	ADP	_	ADP___	18	case	_	_
+21	examen	examen	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	nmod	_	_
+22	et	et	CCONJ	_	CCONJ___	21	cc	_	_
+23	radio	radio	NOUN	_	NOUN__Gender=Masc|Number=Plur	24	conj	_	_
+24	et	et	CCONJ	_	CCONJ___	18	cc	_	_
+25	serais	être	PUNCT	_	PUNCT___	26	cop	_	_
+26	en	en	ADP	_	ADP___	24	case	_	_
+27	arrêt	arrêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	conj	_	_
+28	maladie	maladie	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	amod	_	_
+29	.	.	PUNCT	_	PUNCT___	30	punct	_	_
+
+

@@ -1,0 +1,88 @@
+#Bonjour Pour mon info , que se passe t'il , par exemple une chaudiere qu'il faut changer , dans un logement dont le locataire ne paie plus le loyer .
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	Pour	Pour	ADP	_	ADP___	4	case	_	_
+3	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+4	info	info	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+5	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+6	que	que	SCONJ	_	SCONJ___	8	mark	_	_
+7	se	se	PRON	_	PRON__Person=3|Reflex=Yes	8	expl	_	_
+8	passe	passer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+9	t'	t	SCONJ	_	SCONJ___	10	det	_	_
+10	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	8	obj	_	_
+11	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+12	par	par	ADP	_	ADP___	15	advmod	_	_
+13	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	fixed	_	_
+14	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	chaudiere	chaudiere	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+16	qu'	que	SCONJ	_	SCONJ___	18	obj	_	_
+17	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	18	nsubj	_	_
+18	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+19	changer	changer	VERB	_	VERB__VerbForm=Inf	18	xcomp	_	_
+20	,	,	PUNCT	_	PUNCT___	18	punct	_	_
+21	dans	dan	ADP	_	ADP___	23	case	_	_
+22	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	logement	logement	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obl	_	_
+24	dont	dont	PRON	_	PRON__PronType=Rel	26	dep	_	_
+25	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	locataire	locataire	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	nsubj	_	_
+27	ne	ne	ADV	_	ADV__Polarity=Neg	28	advmod	_	_
+28	paie	payer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
+29	plus	plus	ADV	_	ADV___	31	advmod	_	_
+30	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	31	obj	_	_
+31	loyer	loyer	VERB	_	VERB__VerbForm=Inf	28	obj	_	_
+32	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Je prends le pire des cas , le locataire envoie une LRAR pour remplacer la chaudiere , on suppose egalement qu'il est sous commandement de payer .
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	prends	prendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	pire	pire	NOUN	_	NOUN__Number=Sing	1	obj	_	_
+5	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	1	det	_	_
+6	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obj	_	_
+7	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+9	locataire	locataire	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nsubj	_	_
+10	envoie	envoyer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+11	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+12	LRAR	lrar	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obj	_	_
+13	pour	pour	ADP	_	ADP___	12	mark	_	_
+14	remplacer	remplacer	VERB	_	VERB__VerbForm=Inf	15	advcl	_	_
+15	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+16	chaudiere	chaudiere	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	obj	_	_
+17	,	,	PUNCT	_	PUNCT___	18	punct	_	_
+18	on	on	PRON	_	PRON__Number=Sing|Person=3	15	nsubj	_	_
+19	suppose	supposer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	parataxis	_	_
+20	egalement	egalement	ADV	_	ADV___	18	advmod	_	_
+21	qu'	que	SCONJ	_	SCONJ___	23	mark	_	_
+22	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	23	nsubj	_	_
+23	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+24	sous	sou	ADP	_	ADP___	26	expl	_	_
+25	commandement	commandement	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	fixed	_	_
+26	de	de	ADP	_	ADP___	28	mark	_	_
+27	payer	payer	VERB	_	VERB__VerbForm=Inf	28	ccomp	_	_
+28	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Le proprietaire doit il faire des travaux et on prends le cas extreme , nous sommes en hiver ?
+1	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	proprietaire	proprietaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+3	doit	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+5	faire	faire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+6	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
+7	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obj	_	_
+8	et	et	CCONJ	_	CCONJ___	1	cc	_	_
+9	on	on	PRON	_	PRON__Number=Sing|Person=3	10	nsubj	_	_
+10	prends	prendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+12	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nmod	_	_
+13	extreme	extreme	ADV	_	ADV___	12	amod	_	_
+14	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+15	nous	nous	PRON	_	PRON__Number=Plur|Person=1	8	nsubj	_	_
+16	sommes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	en	en	ADP	_	ADP___	18	expl	_	_
+18	hiver	hiver	VERB	_	VERB__VerbForm=Inf	15	parataxis	_	_
+19	?	?	PUNCT	_	PUNCT___	18	punct	_	_
+
+

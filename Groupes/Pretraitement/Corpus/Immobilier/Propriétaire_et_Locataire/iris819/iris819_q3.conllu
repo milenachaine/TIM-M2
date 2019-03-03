@@ -1,0 +1,406 @@
+#Bonsoir Rambotte,
+1	Bonsoir	Bonsoir	PROPN	_	PROPN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	Rambotte	rambotte	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	flat:name	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Je vais essayer d’être simple, concis et surtout compréhensible.
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	vais	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	essayer	essayer	VERB	_	VERB__VerbForm=Inf	1	xcomp	_	_
+4	d’	d’	PUNCT	_	PUNCT___	5	xcomp	_	_
+5	être	être	AUX	_	AUX__VerbForm=Inf	5	cop	_	_
+6	simple	simple	ADJ	_	ADJ__Number=Sing	5	xcomp	_	_
+7	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+8	concis	concis	ADJ	_	ADJ__Gender=Masc	9	obl	_	_
+9	et	et	CCONJ	_	CCONJ___	7	cc	_	_
+10	surtout	surtout	ADV	_	ADV___	6	advmod	_	_
+11	compréhensible	compréhensible	ADJ	_	ADJ__Number=Sing	6	conj	_	_
+12	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Un couple non marié ont acheté une maison en commun (50-50).
+1	Un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	couple	couple	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	non	non	ADV	_	ADV___	1	advmod	_	_
+4	marié	marié	ADJ	_	ADJ__Gender=Masc|Number=Sing	5	amod	_	_
+5	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+6	acheté	acheter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+7	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+8	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obj	_	_
+9	en	en	ADP	_	ADP___	7	case	_	_
+10	commun	commun	ADJ	_	ADJ__Gender=Masc|Number=Sing	6	nmod	_	_
+11	(	(	PUNCT	_	PUNCT___	6	punct	_	_
+12	50	50	NUM	_	NUM__NumType=Card	14	nummod	_	_
+13	-	-	PUNCT	_	PUNCT___	14	punct	_	_
+14	50	50	NUM	_	NUM__NumType=Card	6	nmod	_	_
+15	)	)	PUNCT	_	PUNCT___	5	punct	_	_
+16	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Un testament olographe à été rédigé l'un envers l'autre et inversement pour laisser l'usufruit sur sa part au conjoint survivant.
+1	Un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	testament	testament	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj:pass	_	_
+3	olographe	olographe	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	amod	_	_
+4	à	à	ADP	_	ADP___	5	mark	_	_
+5	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	5	aux:pass	_	_
+6	rédigé	rédiger	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+7	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+8	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	envers	envers	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	obl	_	_
+10	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+11	autre	autre	PRON	_	PRON__Number=Sing|PronType=Rel	6	nmod	_	_
+12	et	et	CCONJ	_	CCONJ___	14	cc	_	_
+13	inversement	inversement	ADV	_	ADV___	14	conj	_	_
+14	pour	pour	ADP	_	ADP___	6	mark	_	_
+15	laisser	laisser	VERB	_	VERB__VerbForm=Inf	5	advcl	_	_
+16	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	usufruit	usufruit	VERB	_	VERB__VerbForm=Inf	21	obj	_	_
+18	sur	sur	ADP	_	ADP___	19	case	_	_
+19	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	17	nmod:poss	_	_
+20	part	part	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	nmod	_	_
+21	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	21	case	_	_
+22	conjoint	conjoindre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl	_	_
+23	survivant	survivre	VERB	_	VERB__Tense=Pres|VerbForm=Part	21	acl	_	_
+24	.	.	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#Un testament ologaphe à été rédigé par Monsieur léguant la totalité de ses bien meubles et immeubles à sa fille adoptive simple et l'usufruit des biens meubles à Madame (sa conjointe).
+1	Un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	testament	testament	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj:pass	_	_
+3	ologaphe	ologaphe	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	amod	_	_
+4	à	à	ADP	_	ADP___	5	mark	_	_
+5	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	5	aux:pass	_	_
+6	rédigé	rédiger	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+7	par	par	ADP	_	ADP___	6	case	_	_
+8	Monsieur	monsieur	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obl	_	_
+9	léguant	léguer	VERB	_	VERB__Tense=Pres|VerbForm=Part	7	acl	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+11	totalité	totalité	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obj	_	_
+12	de	de	ADP	_	ADP___	14	case	_	_
+13	ses	son	DET	_	DET__Number=Plur|Poss=Yes	14	nmod:poss	_	_
+14	bien	bien	ADV	_	ADV___	6	advmod	_	_
+15	meubles	meuble	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	nmod	_	_
+16	et	et	CCONJ	_	CCONJ___	17	cc	_	_
+17	immeubles	immeubler	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	advmod	_	_
+18	à	à	ADP	_	ADP___	19	case	_	_
+19	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	17	nmod:poss	_	_
+20	fille	fille	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	conj	_	_
+21	adoptive	adoptif	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	amod	_	_
+22	simple	simple	ADJ	_	ADJ__Number=Sing	23	amod	_	_
+23	et	et	CCONJ	_	CCONJ___	21	cc	_	_
+24	l'	le	PRON	_	PRON__Number=Sing|Person=3	25	det	_	_
+25	usufruit	usufruit	VERB	_	VERB__VerbForm=Inf	23	conj	_	_
+26	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	21	det	_	_
+27	biens	bien	NOUN	_	NOUN__Gender=Masc|Number=Plur	21	obj	_	_
+28	meubles	meuble	ADJ	_	ADJ__Number=Plur	29	amod	_	_
+29	à	à	ADP	_	ADP___	27	case	_	_
+30	Madame	madame	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	nmod	_	_
+31	(	(	PUNCT	_	PUNCT___	21	punct	_	_
+32	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	33	nmod:poss	_	_
+33	conjointe	conjoint	NOUN	_	NOUN__Gender=Fem|Number=Sing	37	appos	_	_
+34	)	)	PUNCT	_	PUNCT___	33	punct	_	_
+35	.	.	PUNCT	_	PUNCT___	37	punct	_	_
+
+
+#Monsieur décède et sa fille adoptive reçoit le leg du testament.
+1	Monsieur	monsieur	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+2	décède	décèd	ADJ	_	ADJ__Number=Sing	1	amod	_	_
+3	et	et	CCONJ	_	CCONJ___	1	cc	_	_
+4	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	5	nmod:poss	_	_
+5	fille	fille	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	conj	_	_
+6	adoptive	adoptif	ADJ	_	ADJ__Gender=Fem|Number=Sing	5	amod	_	_
+7	reçoit	recevoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	leg	leg	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	det	_	_
+10	du	du	DET	_	DET__Gender=Masc|Number=Sing	6	det	_	_
+11	testament	testament	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+12	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#La fille adoptive décède à son tour laissant son mari et deux enfants.
+1	La	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	fille	fille	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+3	adoptive	adoptif	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	amod	_	_
+4	décède	décéder	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	à	à	ADP	_	ADP___	5	case	_	_
+6	son	son	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+7	tour	tour	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obl	_	_
+8	laissant	laisser	VERB	_	VERB__Tense=Pres|VerbForm=Part	9	xcomp	_	_
+9	son	son	DET	_	DET__Number=Sing|Poss=Yes	7	nmod:poss	_	_
+10	mari	mari	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+11	et	et	CCONJ	_	CCONJ___	6	cc	_	_
+12	deux	deux	NUM	_	NUM__NumType=Card	14	nummod	_	_
+13	enfants	enfant	NOUN	_	NOUN__Number=Plur	14	conj	_	_
+14	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Les parents
+1	Les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+2	parents	parent	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+
+
+#des deux enfants étant mariés sans contrat + donation au dernier du vivant.
+1	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	1	det	_	_
+2	deux	deux	NUM	_	NUM__NumType=Card	1	nummod	_	_
+3	enfants	enfant	NOUN	_	NOUN__Number=Plur	1	nsubj	_	_
+4	étant	être	AUX	_	AUX__Tense=Pres|VerbForm=Part	5	aux:pass	_	_
+5	mariés	marier	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	5	acl	_	_
+6	sans	sans	ADP	_	ADP___	5	case	_	_
+7	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obl	_	_
+8	+	+	ADP	_	ADP___	9	case	_	_
+9	donation	donation	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+10	au	au	PRON	_	PRON__PronType=Rel	6	obj	_	_
+11	dernier	dernier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	0	ROOT	_	_
+12	du	du	DET	_	DET__Gender=Masc|Number=Sing	14	det	_	_
+13	vivant	vivre	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obj	_	_
+14	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Le conjoint survivant opte à ce moment pour 100% en usufruit des biens de sa femme.
+1	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	conjoint	conjoint	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	survivant	survivre	VERB	_	VERB__Tense=Pres|VerbForm=Part	1	acl	_	_
+4	opte	opter	ADV	_	ADV___	5	obj	_	_
+5	à	à	ADP	_	ADP___	5	case	_	_
+6	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+7	moment	moment	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obl	_	_
+8	pour	pour	ADP	_	ADP___	9	case	_	_
+9	100	100	NUM	_	NUM__NumType=Card	7	nummod	_	_
+10	%	%	NOUN	_	NOUN__Gender=Masc	6	obl	_	_
+11	en	en	ADP	_	ADP___	6	mark	_	_
+12	usufruit	usufruit	VERB	_	VERB__VerbForm=Inf	14	advcl	_	_
+13	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
+14	biens	bien	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	obj	_	_
+15	de	de	ADP	_	ADP___	5	case	_	_
+16	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	17	nmod:poss	_	_
+17	femme	femme	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	nmod	_	_
+18	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Un des enfants décède et n'était pas marié ni d'enfant.
+1	Un	un	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	1	det	_	_
+2	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	1	det	_	_
+3	enfants	enfant	NOUN	_	NOUN__Number=Plur	0	ROOT	_	_
+4	décède	décéder	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	_
+5	et	et	CCONJ	_	CCONJ___	5	cc	_	_
+6	n'	ne	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+7	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+8	pas	pas	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+9	marié	marié	ADJ	_	ADJ__Gender=Masc|Number=Sing	7	conj	_	_
+10	ni	ni	CCONJ	_	CCONJ___	6	cc	_	_
+11	d'	de	ADP	_	ADP___	6	case	_	_
+12	enfant	enfant	NOUN	_	NOUN__Number=Sing	14	conj	_	_
+13	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#L'enfant restant recueille, une part de celle de son frère et le père recueille une part également de son fils décédé.
+1	L'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+2	enfant	enfant	NOUN	_	NOUN__Number=Sing	0	ROOT	_	_
+3	restant	rester	VERB	_	VERB__Tense=Pres|VerbForm=Part	1	cop	_	_
+4	recueille	recueill	ADJ	_	ADJ__Gender=Fem|Number=Sing	5	acl	_	_
+5	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+6	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+7	part	part	NOUN	_	NOUN__Number=Sing	6	conj	_	_
+8	de	de	ADP	_	ADP___	9	case	_	_
+9	celle	celui	PRON	_	PRON__Gender=Fem|Number=Sing|PronType=Dem	7	nmod	_	_
+10	de	de	ADP	_	ADP___	6	case	_	_
+11	son	son	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+12	frère	frère	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nmod	_	_
+13	et	et	CCONJ	_	CCONJ___	14	cc	_	_
+14	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+15	père	père	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	conj	_	_
+16	recueille	recueill	ADJ	_	ADJ__Gender=Fem|Number=Sing	17	amod	_	_
+17	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	amod	_	_
+18	part	part	NOUN	_	NOUN__Number=Sing	19	fixed	_	_
+19	également	également	ADV	_	ADV___	17	advmod	_	_
+20	de	de	ADP	_	ADP___	21	case	_	_
+21	son	son	DET	_	DET__Number=Sing|Poss=Yes	21	nmod:poss	_	_
+22	fils	fils	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	nmod	_	_
+23	décédé	décéder	ADJ	_	ADJ__Gender=Masc|Number=Sing	21	acl	_	_
+24	.	.	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#La femme du couple non marié plus haut décède laissant 1 testament authentique léguant la quotité dispo à des tiers, puis après un olographe annulant le précédant testament authentique.
+1	La	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	femme	femme	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	du	du	DET	_	DET__Gender=Masc|Number=Sing	1	det	_	_
+4	couple	couple	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	amod	_	_
+5	non	non	ADV	_	ADV___	5	advmod	_	_
+6	marié	marié	ADJ	_	ADJ__Gender=Masc|Number=Sing	5	amod	_	_
+7	plus	plus	ADV	_	ADV___	6	advmod	_	_
+8	haut	haut	ADJ	_	ADJ__Gender=Masc|Number=Sing	9	amod	_	_
+9	décède	décéder	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	nmod	_	_
+10	laissant	laisser	ADJ	_	ADJ__Gender=Masc|Number=Sing	6	acl	_	_
+11	1	1	NUM	_	NUM__NumType=Card	6	nummod	_	_
+12	testament	testament	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obj	_	_
+13	authentique	authentique	ADJ	_	ADJ__Number=Sing	14	amod	_	_
+14	léguant	léguer	VERB	_	VERB__Tense=Pres|VerbForm=Part	6	acl	_	_
+15	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+16	quotité	quotité	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	obj	_	_
+17	dispo	dispo	ADV	_	ADV___	21	amod	_	_
+18	à	à	ADP	_	ADP___	19	case	_	_
+19	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	17	det	_	_
+20	tiers	tiers	NOUN	_	NOUN__Gender=Masc|Number=Plur	21	nmod	_	_
+21	,	,	PUNCT	_	PUNCT___	21	punct	_	_
+22	puis	pouvoir	CCONJ	_	CCONJ___	23	cc	_	_
+23	après	après	ADP	_	ADP___	21	case	_	_
+24	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	olographe	olographe	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	conj	_	_
+26	annulant	annuler	VERB	_	VERB__Tense=Pres|VerbForm=Part	21	acl	_	_
+27	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+28	précédant	précéder	ADJ	_	ADJ__Gender=Masc|Number=Sing	29	obj	_	_
+29	testament	testament	ADV	_	ADV___	27	advmod	_	_
+30	authentique	authentique	ADJ	_	ADJ__Number=Sing	21	amod	_	_
+31	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#L'enfant vient en représentation de sa mère décédée.
+1	L'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+2	enfant	enfant	NOUN	_	NOUN__Number=Sing	1	nsubj	_	_
+3	vient	venir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	en	en	ADP	_	ADP___	5	case	_	_
+5	représentation	représentation	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obl	_	_
+6	de	de	ADP	_	ADP___	5	case	_	_
+7	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	6	nmod:poss	_	_
+8	mère	mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nmod	_	_
+9	décédée	décéder	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	amod	_	_
+10	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Néanmoins compte tenu d'une succession bloquée et en cours au TGI, l'enfant en représentation souhaite mettre en location la maison (il est nu-propriétaire et son père usufruitier et nu-propriétaire) afin d'une part d'éviter une maison à l'abandon et qui pourrait s’abîmer sans vie à l'intérieur et afin de lui permettre de payer les différentes factures de cette maison.
+1	Néanmoins	néanmoins	ADV	_	ADV___	1	advmod	_	_
+2	compte	compte	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	case	_	_
+3	tenu	tenir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	fixed	_	_
+4	d'	de	ADP	_	ADP___	5	fixed	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+6	succession	succession	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obl	_	_
+7	bloquée	bloquer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+8	et	et	CCONJ	_	CCONJ___	9	cc	_	_
+9	en	en	ADP	_	ADP___	7	case	_	_
+10	cours	cours	NOUN	_	NOUN__Gender=Masc	6	fixed	_	_
+11	au	au	PRON	_	PRON__PronType=Rel	6	det	_	_
+12	TGI	tgi	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+13	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+14	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+15	enfant	enfant	NOUN	_	NOUN__Number=Sing	5	nsubj	_	_
+16	en	en	ADP	_	ADP___	17	case	_	_
+17	représentation	représentation	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	nmod	_	_
+18	souhaite	souhaiter	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	nmod	_	_
+19	mettre	mettre	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+20	en	en	ADP	_	ADP___	21	case	_	_
+21	location	location	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	obl	_	_
+22	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	obj	_	_
+24	(	(	PUNCT	_	PUNCT___	25	punct	_	_
+25	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	23	nsubj	_	_
+26	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+27	nu-propriétaire	nu-propriétair	ADJ	_	ADJ__Number=Sing	21	parataxis	_	_
+28	et	et	CCONJ	_	CCONJ___	29	cc	_	_
+29	son	son	DET	_	DET__Number=Sing|Poss=Yes	27	nmod:poss	_	_
+30	père	père	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	conj	_	_
+31	usufruitier	usufruitier	ADJ	_	ADJ__Gender=Masc|Number=Sing	21	amod	_	_
+32	et	et	CCONJ	_	CCONJ___	33	cc	_	_
+33	nu-propriétaire	nu-propriétair	ADJ	_	ADJ__Number=Sing	37	conj	_	_
+34	)	)	PUNCT	_	PUNCT___	33	punct	_	_
+35	afin	afin	ADP	_	ADP___	37	mark	_	_
+36	d'	de	ADP	_	ADP___	37	fixed	_	_
+37	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	37	fixed	_	_
+38	part	part	NOUN	_	NOUN__Number=Sing	40	fixed	_	_
+39	d'	de	ADP	_	ADP___	40	fixed	_	_
+40	éviter	éviter	VERB	_	VERB__VerbForm=Inf	37	advcl	_	_
+41	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	40	obj	_	_
+43	à	à	ADP	_	ADP___	44	case	_	_
+44	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	42	det	_	_
+45	abandon	abandon	NOUN	_	NOUN__Number=Sing	46	nmod	_	_
+46	et	et	CCONJ	_	CCONJ___	37	cc	_	_
+47	qui	qui	PRON	_	PRON__PronType=Rel	48	nsubj	_	_
+48	pourrait	pouvoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	fixed	_	_
+49	s’	s’	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	51	conj	_	_
+50	abîmer	abîmer	VERB	_	VERB__VerbForm=Inf	51	acl	_	_
+51	sans	sans	ADP	_	ADP___	48	case	_	_
+52	vie	vie	NOUN	_	NOUN__Gender=Fem|Number=Sing	53	obl	_	_
+53	à	à	ADP	_	ADP___	48	case	_	_
+54	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	53	det	_	_
+55	intérieur	intérieur	NOUN	_	NOUN__Gender=Masc|Number=Sing	37	obl	_	_
+56	et	et	CCONJ	_	CCONJ___	57	cc	_	_
+57	afin	afin	ADP	_	ADP___	61	mark	_	_
+58	de	de	ADP	_	ADP___	57	fixed	_	_
+59	lui	luire	PRON	_	PRON__Number=Sing|Person=3	61	iobj	_	_
+60	permettre	permettre	VERB	_	VERB__VerbForm=Inf	61	conj	_	_
+61	de	de	ADP	_	ADP___	61	mark	_	_
+62	payer	payer	VERB	_	VERB__VerbForm=Inf	63	xcomp	_	_
+63	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	61	det	_	_
+64	différentes	différent	ADJ	_	ADJ__Gender=Fem|Number=Plur	63	amod	_	_
+65	factures	facture	NOUN	_	NOUN__Gender=Fem|Number=Plur	66	obj	_	_
+66	de	de	ADP	_	ADP___	64	case	_	_
+67	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	70	det	_	_
+68	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	70	nmod	_	_
+69	.	.	PUNCT	_	PUNCT___	70	punct	_	_
+
+
+#L’usufruitier peut-il mettre en location sans forcement demander l'avis des nu-propriétaire existant?
+1	L’	L’	PROPN	_	PROPN__Gender=Fem|Number=Sing	1	nsubj	_	_
+2	usufruitier	usufruitier	VERB	_	VERB__VerbForm=Inf	1	amod	_	_
+3	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+4	-	-	PUNCT	_	PUNCT___	5	punct	_	_
+5	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+6	mettre	mettre	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+7	en	en	ADP	_	ADP___	6	case	_	_
+8	location	location	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obl	_	_
+9	sans	sans	ADP	_	ADP___	7	case	_	_
+10	forcement	forcemer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	obl	_	_
+11	demander	demander	VERB	_	VERB__VerbForm=Inf	6	xcomp	_	_
+12	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+13	avis	avis	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obj	_	_
+14	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
+15	nu-propriétaire	nu-propriétair	ADJ	_	ADJ__Number=Sing	5	obj	_	_
+16	existant	exister	VERB	_	VERB__Tense=Pres|VerbForm=Part	17	acl	_	_
+17	?	?	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Compte tenu des la procédure judiciaire en cours les tiers ne sont pour le moment pas bénéficiaire à moins le la justice en décide autrement.
+1	Compte	compte	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+2	tenu	tenir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+3	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	1	det	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	procédure	procédure	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obj	_	_
+6	judiciaire	judiciaire	ADJ	_	ADJ__Number=Sing	5	amod	_	_
+7	en	en	ADP	_	ADP___	6	case	_	_
+8	cours	cours	NOUN	_	NOUN__Gender=Masc	9	fixed	_	_
+9	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+10	tiers	tiers	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	nmod	_	_
+11	ne	ne	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+12	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	pour	pour	ADP	_	ADP___	14	case	_	_
+14	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+15	moment	moment	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+16	pas	pas	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+17	bénéficiaire	bénéficiaire	VERB	_	VERB__VerbForm=Inf	21	amod	_	_
+18	à	à	ADP	_	ADP___	19	case	_	_
+19	moins	moins	ADV	_	ADV___	17	fixed	_	_
+20	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+22	justice	justice	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	obl	_	_
+23	en	en	PRON	_	PRON__Person=3	21	case	_	_
+24	décide	décider	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	advcl	_	_
+25	autrement	autrement	ADV	_	ADV___	23	advmod	_	_
+26	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#J'espère avoir pu être suffisamment compréhensible.
+1	J'	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	espère	espérer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	avoir	avoir	AUX	_	AUX__VerbForm=Inf	1	aux	_	_
+4	pu	pouvoir	VERB	_	VERB__Tense=Past|VerbForm=Part	5	aux	_	_
+5	être	être	AUX	_	AUX__VerbForm=Inf	5	cop	_	_
+6	suffisamment	suffisamment	ADV	_	ADV___	5	advmod	_	_
+7	compréhensible	compréhensible	ADJ	_	ADJ__Number=Sing	6	ccomp	_	_
+8	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Phil
+1	Phil	phil	ADV	_	ADV___	0	ROOT	_	_
+
+

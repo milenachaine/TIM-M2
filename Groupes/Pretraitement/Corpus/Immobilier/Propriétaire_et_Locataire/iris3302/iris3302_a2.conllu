@@ -1,0 +1,161 @@
+#Bjr
+1	Bjr	Bjr	PROPN	_	PROPN__Gender=Masc|Number=Sing	0	ROOT	_	_
+
+
+#Par exemple pour un départ au 31 Mars....
+1	Par	Par	ADP	_	ADP___	0	ROOT	_	_
+2	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	fixed	_	_
+3	pour	pour	ADP	_	ADP___	2	case	_	_
+4	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	départ	départ	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obl	_	_
+6	au	au	PRON	_	PRON__PronType=Rel	2	case	_	_
+7	31	31	NUM	_	NUM__NumType=Card	9	nummod	_	_
+8	Mars	mars	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nmod	_	_
+9	....	....	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Loyer mars, APL versé le 5 avril à l'ancien, proprio.
+1	Loyer	Loyer	X	_	X___	1	amod	_	_
+2	mars	mars	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	advmod	_	_
+3	,	,	PUNCT	_	PUNCT___	2	punct	_	_
+4	APL	APL	PROPN	_	PROPN___	6	nsubj	_	_
+5	versé	verser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+7	5	5	NUM	_	NUM__NumType=Card	9	nummod	_	_
+8	avril	avril	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+9	à	à	ADP	_	ADP___	6	case	_	_
+10	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	2	det	_	_
+11	ancien	ancien	ADJ	_	ADJ__Gender=Masc|Number=Sing	12	obl	_	_
+12	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+13	proprio	proprio	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obl	_	_
+14	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Loyer avril nouveau proprio, le 5 mai APL versé au nouveau proprio (ou à vous) C'est la règle.
+1	Loyer	loyer	VERB	_	VERB__VerbForm=Inf	1	det	_	_
+2	avril	avril	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	obl	_	_
+3	nouveau	nouveau	ADJ	_	ADJ__Gender=Masc|Number=Sing	2	amod	_	_
+4	proprio	proprio	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	acl	_	_
+5	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+7	5	5	NUM	_	NUM__NumType=Card	9	nummod	_	_
+8	mai	mai	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nsubj	_	_
+9	APL	APL	PROPN	_	PROPN___	6	nmod	_	_
+10	versé	verser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+11	au	au	PRON	_	PRON__PronType=Rel	12	det	_	_
+12	nouveau	nouveau	ADJ	_	ADJ__Gender=Masc|Number=Sing	15	amod	_	_
+13	proprio	proprio	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obj	_	_
+14	(	(	PUNCT	_	PUNCT___	15	punct	_	_
+15	ou	ou	CCONJ	_	CCONJ___	15	cc	_	_
+16	à	à	ADP	_	ADP___	18	case	_	_
+17	vous	vous	PRON	_	PRON__Number=Plur|Person=2|PronType=Prs	18	conj	_	_
+18	)	)	PUNCT	_	PUNCT___	15	punct	_	_
+19	C'	ce	PRON	_	PRON__Number=Sing|Person=3	21	nsubj	_	_
+20	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+22	règle	règle	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	parataxis	_	_
+23	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Eventuellement, l'ancien Propriétaire en fonction des comptes, vous rembourse la CAF trop perçue , .......d'après ce que j'ai compris.
+1	Eventuellement	Eventuellement	PROPN	_	PROPN___	1	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	2	punct	_	_
+3	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	2	det	_	_
+4	ancien	ancien	ADJ	_	ADJ__Gender=Masc|Number=Sing	6	amod	_	_
+5	Propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	6	nsubj	_	_
+6	en	en	ADP	_	ADP___	2	case	_	_
+7	fonction	fonction	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	fixed	_	_
+8	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	9	det	_	_
+9	comptes	compte	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	nmod	_	_
+10	,	,	PUNCT	_	PUNCT___	2	punct	_	_
+11	vous	vous	PRON	_	PRON__Number=Plur|Person=2	12	nsubj	_	_
+12	rembourse	rembourser	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	CAF	CAF	PROPN	_	PROPN__Gender=Fem|Number=Sing	15	obj	_	_
+15	trop	trop	ADV	_	ADV___	15	advmod	_	_
+16	perçue	percevoir	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	xcomp	_	_
+17	,	,	PUNCT	_	PUNCT___	18	punct	_	_
+18	.......	.......	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	punct	_	_
+19	d'	de	ADP	_	ADP___	21	case	_	_
+20	après	après	ADP	_	ADP___	21	fixed	_	_
+21	ce	ce	PRON	_	PRON__PronType=Rel	15	nmod	_	_
+22	que	que	PRON	_	PRON__PronType=Rel	15	obj	_	_
+23	j'	il	PRON	_	PRON__Number=Sing|Person=1	15	nsubj	_	_
+24	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
+25	compris	compris	ADJ	_	ADJ__Gender=Masc	26	acl:relcl	_	_
+26	.	.	PUNCT	_	PUNCT___	34	punct	_	_
+
+
+#Vous parlez d'un départ au 13.
+1	Vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+2	parlez	parler	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	d'	de	ADP	_	ADP___	2	case	_	_
+4	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	départ	départ	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obl	_	_
+6	au	au	PRON	_	PRON__PronType=Rel	2	case	_	_
+7	13	13	NUM	_	NUM__NumType=Card	9	nmod	_	_
+8	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#La CAF ne fait pas de prorata.
+1	La	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	CAF	CAF	PROPN	_	PROPN__Gender=Fem|Number=Sing	2	nsubj	_	_
+3	ne	ne	ADV	_	ADV__Polarity=Neg	2	advmod	_	_
+4	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+6	de	de	DET	_	DET__Definite=Ind|Number=Sing|PronType=Art	2	mark	_	_
+7	prorata	prorata	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	xcomp	_	_
+8	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Elle versera à l'ancien proprio l'APL en totalité.
+1	Elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	1	nsubj	_	_
+2	versera	verser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+3	à	à	ADP	_	ADP___	2	case	_	_
+4	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+5	ancien	ancien	ADJ	_	ADJ__Gender=Masc|Number=Sing	6	amod	_	_
+6	proprio	proprio	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	obl	_	_
+7	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+8	APL	APL	PROPN	_	PROPN__Number=Sing	9	obj	_	_
+9	en	en	ADP	_	ADP___	6	case	_	_
+10	totalité	totalité	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	nmod	_	_
+11	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#C'est la règle.
+1	C'	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+4	règle	règle	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+5	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Sauf cas particulier si vous intégrez un logement social dont l'organisme réussi à se faire verser la CAF immédiatement...... Je ne sais pourquoi.
+1	Sauf	Sauf	ADP	_	ADP___	1	advmod	_	_
+2	cas	cas	NOUN	_	NOUN__Gender=Masc	2	fixed	_	_
+3	particulier	particulier	ADJ	_	ADJ__Gender=Masc|Number=Sing	2	fixed	_	_
+4	si	si	SCONJ	_	SCONJ___	6	mark	_	_
+5	vous	vous	PRON	_	PRON__Number=Plur|Person=2	6	nsubj	_	_
+6	intégrez	intégrer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	logement	logement	ADV	_	ADV___	9	obj	_	_
+9	social	social	ADJ	_	ADJ__Gender=Masc|Number=Sing	6	amod	_	_
+10	dont	dont	PRON	_	PRON__PronType=Rel	2	dep	_	_
+11	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	organisme	organisme	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nsubj	_	_
+13	réussi	réussi	ADJ	_	ADJ__Gender=Masc|Number=Sing	15	acl:relcl	_	_
+14	à	à	ADP	_	ADP___	15	mark	_	_
+15	se	se	PRON	_	PRON__Person=3|Reflex=Yes	15	obj	_	_
+16	faire	faire	VERB	_	VERB__VerbForm=Inf	18	xcomp	_	_
+17	verser	verser	VERB	_	VERB__VerbForm=Inf	18	xcomp	_	_
+18	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+19	CAF	CAF	PROPN	_	PROPN__Gender=Fem|Number=Sing	21	obj	_	_
+20	immédiatement	immédiatement	ADV	_	ADV___	21	advmod	_	_
+21	......	......	PUNCT	_	PUNCT___	15	punct	_	_
+22	Je	il	PRON	_	PRON__Number=Sing|Person=1	15	nsubj	_	_
+23	ne	ne	ADV	_	ADV___	15	advmod	_	_
+24	sais	savoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+25	pourquoi	pourquoi	ADV	_	ADV___	26	advmod	_	_
+26	.	.	PUNCT	_	PUNCT___	34	punct	_	_
+
+

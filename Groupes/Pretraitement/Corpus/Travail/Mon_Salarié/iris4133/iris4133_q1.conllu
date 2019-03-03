@@ -1,0 +1,89 @@
+#Bonjour, Je m'occupe d'une amie qui est âgée et qui déclare chaque mois son employée de maison.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+4	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	5	expl	_	_
+5	occupe	occuper	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+6	d'	de	ADP	_	ADP___	8	case	_	_
+7	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	amie	amie	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obl	_	_
+9	qui	qui	PRON	_	PRON__PronType=Rel	11	nsubj:pass	_	_
+10	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+11	âgée	âger	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	acl:relcl	_	_
+12	et	et	CCONJ	_	CCONJ___	14	cc	_	_
+13	qui	qui	PRON	_	PRON__PronType=Rel	14	nsubj	_	_
+14	déclare	déclarer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+15	chaque	chaque	DET	_	DET__Number=Sing	16	det	_	_
+16	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obj	_	_
+17	son	son	DET	_	DET__Number=Sing|Poss=Yes	18	nmod:poss	_	_
+18	employée	employer	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obj	_	_
+19	de	de	ADP	_	ADP___	20	case	_	_
+20	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	nmod	_	_
+21	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Cependant celle-ci n'a pas travaillé ce mois-ci (problème de santé).
+1	Cependant	cependant	ADV	_	ADV___	1	advmod	_	_
+2	celle-ci	celui-ci	PRON	_	PRON__Gender=Fem|Number=Sing|PronType=Dem	1	nsubj	_	_
+3	n'	ne	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+4	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+6	travaillé	travailler	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+7	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+9	-	-	PUNCT	_	PUNCT___	11	punct	_	_
+10	ci	ci	PRON	_	PRON__PronType=Rel	11	det	_	_
+11	(	(	PUNCT	_	PUNCT___	8	punct	_	_
+12	problème	problème	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obl	_	_
+13	de	de	ADP	_	ADP___	14	case	_	_
+14	santé	santé	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+15	)	)	PUNCT	_	PUNCT___	16	punct	_	_
+16	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Comment la déclarer sur le compte employeur CESU?
+1	Comment	comment	ADV	_	ADV__PronType=Int	1	advmod	_	_
+2	la	le	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	1	obj	_	_
+3	déclarer	déclarer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	sur	sur	ADP	_	ADP___	5	case	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+6	compte	compte	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+7	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	amod	_	_
+8	CESU	CESU	PROPN	_	PROPN___	5	nmod	_	_
+9	?	?	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Car on ne peut pas rentrer 0h.
+1	Car	Car	PROPN	_	PROPN__Gender=Fem|Number=Sing	1	cc	_	_
+2	on	on	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+3	ne	ne	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+4	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+6	rentrer	rentrer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+7	0h	0h	PRON	_	PRON__Number=Sing|Person=1	8	obj	_	_
+8	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Du coup, doit-on ne pas faire de déclaration et ignorer les relances?
+1	Du	du	DET	_	DET__Gender=Masc|Number=Sing	1	det	_	_
+2	coup	coup	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+4	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+6	on	on	PRON	_	PRON__Number=Sing|Person=3	8	nsubj	_	_
+7	ne	ne	ADV	_	ADV___	8	advmod	_	_
+8	pas	pas	ADV	_	ADV___	5	fixed	_	_
+9	faire	faire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+10	de	de	ADP	_	ADP___	11	det	_	_
+11	déclaration	déclaration	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+12	et	et	CCONJ	_	CCONJ___	14	cc	_	_
+13	ignorer	ignorer	VERB	_	VERB__VerbForm=Inf	14	conj	_	_
+14	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	11	det	_	_
+15	relances	relance	NOUN	_	NOUN__Gender=Fem|Number=Plur	16	obj	_	_
+16	?	?	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Merci
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+
+

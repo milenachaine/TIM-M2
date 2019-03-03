@@ -1,0 +1,216 @@
+#Bonjour, Un de mes locataires partis avec une dette a saisi la commission de surendettement.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	12	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+3	Un	un	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	7	det	_	_
+4	de	de	ADP	_	ADP___	6	case	_	_
+5	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	6	nmod:poss	_	_
+6	locataires	locataire	NOUN	_	NOUN__Number=Plur	3	nmod	_	_
+7	partis	parti	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	nsubj	_	_
+8	avec	avec	ADP	_	ADP___	10	case	_	_
+9	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	dette	dette	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obl	_	_
+11	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	saisi	saisir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	commission	commission	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obj	_	_
+15	de	de	ADP	_	ADP___	16	case	_	_
+16	surendettement	surendettement	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nmod	_	_
+17	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Je recherche plus d'informations sur le mode de calcul des charges:
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	12	nsubj	_	_
+2	recherche	rechercher	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	plus	plus	ADV	_	ADV___	7	det	_	_
+4	d'	de	ADP	_	ADP___	6	fixed	_	_
+5	informations	information	NOUN	_	NOUN__Gender=Fem|Number=Plur	6	obj	_	_
+6	sur	sur	ADP	_	ADP___	3	case	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+8	mode	mode	NOUN	_	NOUN__Number=Sing	10	nmod	_	_
+9	de	de	ADP	_	ADP___	10	case	_	_
+10	calcul	calcul	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	xcomp	_	_
+11	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	12	det	_	_
+12	charges	charge	NOUN	_	NOUN__Gender=Fem|Number=Plur	12	obj	_	_
+13	:	:	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Ressources:
+1	Ressources	ressource	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+2	:	:	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Apl + RSA = 740 Charges: forfait chauffage = 75 Forfait enfant = 229,50 (droit de visite)
+1	Apl	Apl	PROPN	_	PROPN___	12	nsubj	_	_
+2	+	+	ADP	_	ADP___	12	case	_	_
+3	RSA	RSA	PROPN	_	PROPN___	7	nmod	_	_
+4	=	=	VERB	_	VERB__Mood=Ind|Person=3|VerbForm=Fin	0	ROOT	_	_
+5	740	740	NUM	_	NUM__NumType=Card	6	obj	_	_
+6	Charges	charge	NOUN	_	NOUN__Gender=Fem|Number=Plur	3	obj	_	_
+7	:	:	PUNCT	_	PUNCT___	12	punct	_	_
+8	forfait	forfaire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	conj	_	_
+9	chauffage	chauffage	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+10	=	=	VERB	_	VERB__Mood=Ind|Person=3|VerbForm=Fin	12	acl	_	_
+11	75	75	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nummod	_	_
+12	Forfait	forfaire	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	obj	_	_
+13	enfant	enfant	NOUN	_	NOUN__Number=Sing	14	acl	_	_
+14	=	=	VERB	_	VERB__Mood=Ind|Person=3|VerbForm=Fin	12	amod	_	_
+15	229,50	229,50	NUM	_	NUM__NumType=Card	16	obj	_	_
+16	(	(	PUNCT	_	PUNCT___	14	punct	_	_
+17	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	appos	_	_
+18	de	de	ADP	_	ADP___	19	case	_	_
+19	visite	visiter	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	nmod	_	_
+20	)	)	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#Forfait habitation= = 106 Forfait de base = 551 logement = 340 Total Charges = 1301 D'où une capacité de remboursement de - 561 Dette globale: environ 7000 N'est pas inclus dans les ressources le chèque énergie d'une valeur de 144?
+1	Forfait	forfaire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	nsubj	_	_
+2	habitation=	habitation=	PROPN	_	PROPN__Gender=Masc|Number=Sing	12	flat:name	_	_
+3	=	=	VERB	_	VERB__Mood=Ind|Person=3|VerbForm=Fin	0	ROOT	_	_
+4	106	106	PRON	_	PRON__NumType=Card|PronType=Rel	6	obj	_	_
+5	Forfait	forfaire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	obj	_	_
+6	de	de	ADP	_	ADP___	3	case	_	_
+7	base	base	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+8	=	=	VERB	_	VERB__Mood=Ind|Person=3|VerbForm=Fin	10	advmod	_	_
+9	551	551	NUM	_	NUM__NumType=Card	10	nsubj	_	_
+10	logement	logement	NOUN	_	NOUN__Gender=Masc|Number=Sing|NumType=Card	12	advmod	_	_
+11	=	=	VERB	_	VERB__Mood=Ind|Person=3|VerbForm=Fin	12	conj	_	_
+12	340	340	NUM	_	NUM__NumType=Card	12	obj	_	_
+13	Total	Total	X	_	X___	14	punct	_	_
+14	Charges	Charges	PROPN	_	PROPN___	12	nsubj	_	_
+15	=	=	VERB	_	VERB__Mood=Ind|Person=3|VerbForm=Fin	16	parataxis	_	_
+16	1301	1301	NOUN	_	NOUN__NumType=Card	14	obj	_	_
+17	D'	D'	ADP	_	ADP___	12	iobj	_	_
+18	où	où	PRON	_	PRON__PronType=Rel	19	fixed	_	_
+19	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+20	capacité	capacité	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	obj	_	_
+21	de	de	ADP	_	ADP___	20	case	_	_
+22	remboursement	remboursement	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	nmod	_	_
+23	de	de	ADP	_	ADP___	25	case	_	_
+24	-	-	PUNCT	_	PUNCT___	25	punct	_	_
+25	561	561	NUM	_	NUM__NumType=Card	22	nummod	_	_
+26	Dette	dette	NOUN	_	NOUN__Gender=Fem|Number=Sing	27	nmod	_	_
+27	globale	global	ADJ	_	ADJ__Gender=Fem|Number=Sing	19	amod	_	_
+28	:	:	PUNCT	_	PUNCT___	29	punct	_	_
+29	environ	environ	ADV	_	ADV___	27	advmod	_	_
+30	7000	7000	NUM	_	NUM__NumType=Card	19	nsubj	_	_
+31	N'	ne	ADV	_	ADV__Polarity=Neg	31	advmod	_	_
+32	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
+33	pas	pas	ADV	_	ADV__Polarity=Neg	36	advmod	_	_
+34	inclus	inclure	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	35	conj	_	_
+35	dans	dan	ADP	_	ADP___	33	case	_	_
+36	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	36	det	_	_
+37	ressources	ressource	NOUN	_	NOUN__Gender=Fem|Number=Plur	36	obl	_	_
+38	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+39	chèque	chèque	NOUN	_	NOUN__Gender=Masc|Number=Sing	36	obj	_	_
+40	énergie	énergie	NOUN	_	NOUN__Gender=Fem|Number=Sing	36	amod	_	_
+41	d'	de	ADP	_	ADP___	40	case	_	_
+42	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+43	valeur	valeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	44	nmod	_	_
+44	de	de	ADP	_	ADP___	42	case	_	_
+45	144	144	PRON	_	PRON__NumType=Card|PronType=Rel	41	nmod	_	_
+46	?	?	PUNCT	_	PUNCT___	41	punct	_	_
+
+
+#Y a-t-il d'autres aides à laquelles pourrait prétendre la personne?
+1	Y	yu	PRON	_	PRON__Person=3	12	case	_	_
+2	a	avoir		_	VERB	12	aux	_	_
+3	-t	t	PART	_	PART___	7	expl	_	_
+4	-il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+5	d'	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
+6	autres	autre	ADJ	_	ADJ__Number=Plur	3	fixed	_	_
+7	aides	aide	NOUN	_	NOUN__Number=Plur	12	nmod	_	_
+8	à	à	ADP	_	ADP___	10	case	_	_
+9	laquelles	laquell	ADJ	_	ADJ__Gender=Fem|Number=Plur	10	nmod	_	_
+10	pourrait	pouvoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	prétendre	prétendre	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+13	personne	personne	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obj	_	_
+14	?	?	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Concernant le forfait de base et le forfait habitation: https://particuliers.banque-france.f.../93-budget.pdf
+1	Concernant	concerner	VERB	_	VERB__Tense=Pres|VerbForm=Part	0	ROOT	_	_
+2	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	12	det	_	_
+3	forfait	forfaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+4	de	de	ADP	_	ADP___	6	case	_	_
+5	base	base	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+6	et	et	CCONJ	_	CCONJ___	3	cc	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+8	forfait	forfaire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	conj	_	_
+9	habitation	habitation	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+10	:	:	PUNCT	_	PUNCT___	12	punct	_	_
+11	https://particuliers.banque-france.f.../93-budget.pdf	https://particuliers.banque-france.f.../93-budget.pdf	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	appos	_	_
+
+
+#Pour le forfait logement il s'agit d'une valeur maximale Pour le forfait de base il semble que ce soit une valeur moyenne.
+1	Pour	Pour	ADP	_	ADP___	12	mark	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	obj	_	_
+3	forfait	forfaire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	obl	_	_
+4	logement	logement	ADV	_	ADV___	6	advmod	_	_
+5	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+6	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	3	expl	_	_
+7	agit	agir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
+8	d'	de	ADP	_	ADP___	10	case	_	_
+9	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	valeur	valeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obl	_	_
+11	maximale	maximal	ADJ	_	ADJ__Gender=Fem|Number=Sing	12	amod	_	_
+12	Pour	Pour	ADP	_	ADP___	12	case	_	_
+13	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	forfait	forfaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obl	_	_
+15	de	de	ADP	_	ADP___	16	case	_	_
+16	base	base	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nmod	_	_
+17	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
+18	semble	sembler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	parataxis	_	_
+19	que	que	SCONJ	_	SCONJ___	19	mark	_	_
+20	ce	ce	PRON	_	PRON__Number=Sing|Person=3	22	nsubj	_	_
+21	soit	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+22	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+23	valeur	valeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	ccomp	_	_
+24	moyenne	moyen	ADJ	_	ADJ__Gender=Fem|Number=Sing	25	amod	_	_
+25	.	.	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#Auriez
+1	Auriez	avoir	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+
+
+#-vous également plus d'informations sur les autres forfaits?
+1	-	-	PUNCT	_	PUNCT___	12	punct	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	12	nsubj	_	_
+3	également	également	ADV	_	ADV___	7	advmod	_	_
+4	plus	plus	ADV	_	ADV__Polarity=Neg	6	det	_	_
+5	d'	de	ADP	_	ADP___	6	fixed	_	_
+6	informations	information	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+7	sur	sur	ADP	_	ADP___	12	case	_	_
+8	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	10	det	_	_
+9	autres	autre	ADJ	_	ADJ__Number=Plur	10	amod	_	_
+10	forfaits	forfait	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	nmod	_	_
+11	?	?	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Sur quelles bases sont-ils établis?
+1	Sur	Sur	ADP	_	ADP___	12	case	_	_
+2	quelles	quel	DET	_	DET__Gender=Fem|Number=Plur|PronType=Int	12	det	_	_
+3	bases	base	NOUN	_	NOUN__Gender=Fem|Number=Plur	7	obl	_	_
+4	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+5	-	-	PUNCT	_	PUNCT___	6	punct	_	_
+6	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	3	nsubj	_	_
+7	établis	établir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+8	?	?	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Sont
+1	Sont	être	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+
+
+#-ce des valeurs moyennes ou maximales?
+1	-	-	PUNCT	_	PUNCT___	12	punct	_	_
+2	ce	ce	PRON	_	PRON__PronType=Rel	12	det	_	_
+3	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
+4	valeurs	valeur	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+5	moyennes	moyen	ADJ	_	ADJ__Gender=Fem|Number=Plur	6	amod	_	_
+6	ou	ou	CCONJ	_	CCONJ___	3	cc	_	_
+7	maximales	maximale	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	conj	_	_
+8	?	?	PUNCT	_	PUNCT___	10	punct	_	_
+
+

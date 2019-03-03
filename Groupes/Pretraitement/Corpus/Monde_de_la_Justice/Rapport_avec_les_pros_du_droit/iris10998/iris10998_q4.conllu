@@ -1,0 +1,255 @@
+#Enfin, 12 lignes qui disent quoi ?
+1	Enfin	enfin	ADV	_	ADV___	4	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	12	12	NUM	_	NUM__NumType=Card	4	nummod	_	_
+4	lignes	ligne	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+5	qui	qui	PRON	_	PRON__PronType=Rel	6	nsubj	_	_
+6	disent	dire	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	quoi	quoi	PRON	_	PRON__PronType=Int	6	obj	_	_
+8	?	?	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#! C'est ça ?
+1	!	!	PUNCT	_	PUNCT___	4	punct	_	_
+2	C'	ce	PRON	_	PRON__Number=Sing|Person=3	4	nsubj:pass	_	_
+3	est	être	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	0	ROOT	_	_
+5	?	?	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#(je reprends votre première réponse)
+1	(	(	PUNCT	_	PUNCT___	4	punct	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+3	reprends	reprendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+5	première	premier	ADJ	_	ADJ__Gender=Fem|Number=Sing|NumType=Ord	6	amod	_	_
+6	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obj	_	_
+7	)	)	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#----------- Me Bâtonnier " l'avocat fait de la rétention, " "il s'agit d'un soucis déontologique"
+1	-----------	-----------	PUNCT	_	PUNCT___	4	nsubj	_	_
+2	Me	se	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+3	Bâtonnier	Bâtonnier	PROPN	_	PROPN__Gender=Masc|Number=Sing	4	flat:name	_	_
+4	"	"	PUNCT	_	PUNCT___	4	punct	_	_
+5	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+7	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	amod	_	_
+8	de	de	ADP	_	ADP___	4	case	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+10	rétention	rétention	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+11	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+12	"	"	PUNCT	_	PUNCT___	12	punct	_	_
+13	"	"	PUNCT	_	PUNCT___	12	punct	_	_
+14	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	16	nsubj	_	_
+15	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	16	expl	_	_
+16	agit	agir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
+17	d'	de	ADP	_	ADP___	19	case	_	_
+18	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	soucis	souci	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obl	_	_
+20	déontologique	déontologique	ADJ	_	ADJ__Number=Sing	16	amod	_	_
+21	"	"	PUNCT	_	PUNCT___	36	punct	_	_
+
+
+#En pièces jointes, contrat, jugements, exécutions, LRAR de relance, Médiateur.
+1	En	En	ADP	_	ADP___	4	case	_	_
+2	pièces	pièce	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+3	jointes	joindre	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	4	amod	_	_
+4	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+5	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	conj	_	_
+6	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+7	jugements	jugement	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	conj	_	_
+8	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+9	exécutions	exécution	NOUN	_	NOUN__Gender=Fem|Number=Plur	12	conj	_	_
+10	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+11	LRAR	LRAR	PROPN	_	PROPN___	12	conj	_	_
+12	de	de	ADP	_	ADP___	12	case	_	_
+13	relance	relance	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+14	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+15	Médiateur	Médiateur	PROPN	_	PROPN___	16	conj	_	_
+16	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Vous voudrez prendre les mesures qui s'imposent et me répondre dans les plus brefs délais possibles Je vous prie d'agréer , Maître...
+1	Vous	vous	PRON	_	PRON__Number=Plur|Person=2	4	nsubj	_	_
+2	voudrez	vouloir	AUX	_	AUX__Mood=Cnd|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	prendre	prendre	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+5	mesures	mesure	NOUN	_	NOUN__Gender=Fem|Number=Plur	6	obj	_	_
+6	qui	qui	PRON	_	PRON__PronType=Rel	4	nsubj	_	_
+7	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	6	expl	_	_
+8	imposent	imposer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+9	et	et	CCONJ	_	CCONJ___	12	cc	_	_
+10	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	12	expl	_	_
+11	répondre	répondre	VERB	_	VERB__VerbForm=Inf	12	conj	_	_
+12	dans	dan	ADP	_	ADP___	12	case	_	_
+13	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	12	det	_	_
+14	plus	plus	ADV	_	ADV___	16	advmod	_	_
+15	brefs	bref	ADJ	_	ADJ__Gender=Masc|Number=Plur	16	amod	_	_
+16	délais	délai	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	obl	_	_
+17	possibles	possible	ADJ	_	ADJ__Number=Plur	19	amod	_	_
+18	Je	il	PRON	_	PRON__Number=Sing|Person=1	19	nsubj	_	_
+19	vous	vous	PRON	_	PRON__Number=Plur|Person=2	16	iobj	_	_
+20	prie	prier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+21	d'	de	ADP	_	ADP___	36	case	_	_
+22	agréer	agréer	VERB	_	VERB__VerbForm=Inf	21	obl	_	_
+23	,	,	PUNCT	_	PUNCT___	22	punct	_	_
+24	Maître	maître	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	conj	_	_
+25	...	...	PUNCT	_	PUNCT___	26	punct	_	_
+
+
+#etc.
+1	etc.	etc.	ADV	_	ADV___	0	ROOT	_	_
+
+
+#--------- Très bien, si c'est tout, ce sera fait en 1-2 jours.
+1	---------	---------	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	advmod	_	_
+2	Très	très	ADV	_	ADV___	4	advmod	_	_
+3	bien	bien	ADV	_	ADV___	4	advmod	_	_
+4	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+5	si	si	SCONJ	_	SCONJ___	6	mark	_	_
+6	c'	ce	PRON	_	PRON__Number=Sing|Person=3	4	nsubj	_	_
+7	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+8	tout	tout	ADV	_	ADV___	4	advcl	_	_
+9	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+10	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	12	nsubj	_	_
+11	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	aux	_	_
+12	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+13	en	en	ADP	_	ADP___	12	case	_	_
+14	1	1	NUM	_	NUM__NumType=Card	16	nummod	_	_
+15	-	-	PUNCT	_	PUNCT___	16	punct	_	_
+16	2	2	NUM	_	NUM__NumType=Card	16	nummod	_	_
+17	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	19	obl	_	_
+18	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#En LRAR.
+1	En	En	ADP	_	ADP___	4	case	_	_
+2	LRAR	LRAR	PROPN	_	PROPN___	0	ROOT	_	_
+3	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#On peut utiliser un courriel (si je le trouve)?
+1	On	on	PRON	_	PRON__Number=Sing|Person=3	4	nsubj	_	_
+2	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	utiliser	utiliser	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+5	courriel	courriel	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+6	(	(	PUNCT	_	PUNCT___	4	punct	_	_
+7	si	si	SCONJ	_	SCONJ___	6	mark	_	_
+8	je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+9	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	12	obj	_	_
+10	trouve	trouver	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	advcl	_	_
+11	)	)	PUNCT	_	PUNCT___	12	punct	_	_
+12	?	?	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Ensuite (je doute fort d'avoir une réponse), je fais un dossier BAJ avec dépaysement.
+1	Ensuite	ensuite	ADV	_	ADV___	4	advmod	_	_
+2	(	(	PUNCT	_	PUNCT___	4	punct	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+4	doute	doute	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	advmod	_	_
+5	fort	fort	ADJ	_	ADJ__Gender=Masc|Number=Sing	6	advmod	_	_
+6	d'	de	ADP	_	ADP___	4	fixed	_	_
+7	avoir	avoir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+8	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+9	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obj	_	_
+10	)	)	PUNCT	_	PUNCT___	12	punct	_	_
+11	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+12	je	il	PRON	_	PRON__Number=Sing|Person=1	12	nsubj	_	_
+13	fais	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	conj	_	_
+14	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	dossier	dossier	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obj	_	_
+16	BAJ	BAJ	PROPN	_	PROPN___	16	nmod	_	_
+17	avec	avec	ADP	_	ADP___	19	case	_	_
+18	dépaysement	dépaysement	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	nmod	_	_
+19	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Et on me donne un avocat limitrophe.
+1	Et	Et	CCONJ	_	CCONJ___	4	cc	_	_
+2	on	on	PRON	_	PRON__Number=Sing|Person=3	4	nsubj	_	_
+3	me	se	PRON	_	PRON__Number=Sing|Person=1	4	expl	_	_
+4	donne	donner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obj	_	_
+7	limitrophe	limitrophe	ADJ	_	ADJ__Gender=Masc|Number=Sing	6	amod	_	_
+8	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Très bien.
+1	Très	très	ADV	_	ADV___	4	advmod	_	_
+2	bien	bien	ADV	_	ADV___	0	ROOT	_	_
+3	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#(Merci Yomyom) (Je ne comprends pas en quoi la déontologie de l'avocat me concerne.
+1	(	(	PUNCT	_	PUNCT___	4	punct	_	_
+2	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+3	Yomyom	Yomyom	PROPN	_	PROPN___	4	flat:name	_	_
+4	)	)	PUNCT	_	PUNCT___	4	punct	_	_
+5	(	(	PUNCT	_	PUNCT___	6	punct	_	_
+6	Je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+7	ne	ne	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+8	comprends	comprend	ADJ	_	ADJ__Gender=Masc|Number=Plur	4	acl:relcl	_	_
+9	pas	pas	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+10	en	en	ADP	_	ADP___	12	case	_	_
+11	quoi	quoi	PRON	_	PRON__PronType=Rel	12	obl	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+13	déontologie	déontologie	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nsubj	_	_
+14	de	de	ADP	_	ADP___	16	case	_	_
+15	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	nmod	_	_
+17	me	se	PRON	_	PRON__Number=Sing|Person=1	19	obj	_	_
+18	concerne	concerner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+19	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Pourquoi je dois passer par le bâtonnier, alors que les juges sont là pour ça.
+1	Pourquoi	pourquoi	ADV	_	ADV__PronType=Int	4	advmod	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+3	dois	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	passer	prendre	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	par	par	ADP	_	ADP___	6	case	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+7	bâtonnier	bâtonnier	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obl	_	_
+8	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+9	alors	alors	ADV	_	ADV___	12	mark	_	_
+10	que	que	SCONJ	_	SCONJ___	12	fixed	_	_
+11	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	12	det	_	_
+12	juges	juge	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	nsubj	_	_
+13	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+14	là	là	ADV	_	ADV___	16	iobj	_	_
+15	pour	pour	ADP	_	ADP___	16	case	_	_
+16	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	16	advcl	_	_
+17	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Pourquoi ce n'est pas au juge d'informer si besoin le bâtonnier, de même qu'il informe le procureur si nécessaire ?)
+1	Pourquoi	pourquoi	ADV	_	ADV__PronType=Int	4	advmod	_	_
+2	ce	ce	PRON	_	PRON__Number=Sing|Person=3	4	det	_	_
+3	n'	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+6	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	det	_	_
+7	juge	juger	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
+8	d'	de	ADP	_	ADP___	4	mark	_	_
+9	informer	informer	VERB	_	VERB__VerbForm=Inf	12	acl	_	_
+10	si	si	SCONJ	_	SCONJ___	12	punct	_	_
+11	besoin	besoin	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nmod	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+13	bâtonnier	bâtonnier	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nmod	_	_
+14	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+15	de	de	ADP	_	ADP___	16	mark	_	_
+16	même	même	ADV	_	ADV___	16	fixed	_	_
+17	qu'	que	SCONJ	_	SCONJ___	19	fixed	_	_
+18	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	19	nsubj	_	_
+19	informe	informer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	_
+20	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+21	procureur	procureur	NOUN	_	NOUN__Gender=Masc|Number=Sing	36	obj	_	_
+22	si	si	SCONJ	_	SCONJ___	21	mark	_	_
+23	nécessaire	nécessaire	ADJ	_	ADJ__Number=Sing	22	advcl	_	_
+24	?	?	PUNCT	_	PUNCT___	22	punct	_	_
+25	)	)	PUNCT	_	PUNCT___	26	punct	_	_
+
+

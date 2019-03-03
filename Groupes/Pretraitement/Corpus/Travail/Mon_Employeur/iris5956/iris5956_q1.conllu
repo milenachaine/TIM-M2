@@ -1,0 +1,121 @@
+#Bonjour
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+
+
+#En 2009 mon employeur (X)... ma fait une avance sur frais de 300,00 fusionner depuis de plus de deux ans par le groupe (Y).... j'ai reçu une LR/AR m'informer qu'il s'avait fait une saisie de mon salaire de ces 300,00 €.
+1	En	En	ADP	_	ADP___	1	case	_	_
+2	2009	2009	NUM	_	NUM__NumType=Card	3	nummod	_	_
+3	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+4	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+5	(	(	PUNCT	_	PUNCT___	11	punct	_	_
+6	X	x	NOUN	_	NOUN___	5	appos	_	_
+7	)	)	PUNCT	_	PUNCT___	5	punct	_	_
+8	...	...	PUNCT	_	PUNCT___	5	punct	_	_
+9	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	11	nmod:poss	_	_
+10	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+11	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+12	avance	avance	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obj	_	_
+13	sur	sur	ADP	_	ADP___	11	case	_	_
+14	frais	frais	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	nmod	_	_
+15	de	de	ADP	_	ADP___	13	case	_	_
+16	300,00	300,00	PRON	_	PRON__NumType=Card|PronType=Rel	17	nmod	_	_
+17	fusionner	fusionner	VERB	_	VERB__VerbForm=Inf	15	amod	_	_
+18	depuis	depuis	ADP	_	ADP___	13	case	_	_
+19	de	de	ADP	_	ADP___	24	case	_	_
+20	plus	plus	ADV	_	ADV___	24	advmod	_	_
+21	de	de	ADP	_	ADP___	24	dep	_	_
+22	deux	deux	NUM	_	NUM__NumType=Card	24	nummod	_	_
+23	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	24	obl	_	_
+24	par	par	ADP	_	ADP___	18	case	_	_
+25	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+26	groupe	groupe	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	nmod	_	_
+27	(	(	PUNCT	_	PUNCT___	24	punct	_	_
+28	Y	y	NOUN	_	NOUN___	27	appos	_	_
+29	)	)	PUNCT	_	PUNCT___	27	punct	_	_
+30	....	....	PUNCT	_	PUNCT___	27	punct	_	_
+31	j'	il	PRON	_	PRON__Number=Sing|Person=1	11	nsubj	_	_
+32	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	34	aux	_	_
+33	reçu	recevoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	34	parataxis	_	_
+34	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+35	LR	lr	NOUN	_	NOUN__Gender=Fem|Number=Sing	36	obj	_	_
+36	/	/	PUNCT	_	PUNCT___	34	fixed	_	_
+37	AR	ar	NOUN	_	NOUN___	34	obl	_	_
+38	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	34	obj	_	_
+39	informer	informer	VERB	_	VERB__VerbForm=Inf	40	xcomp	_	_
+40	qu'	que	SCONJ	_	SCONJ___	34	mark	_	_
+41	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	45	nsubj	_	_
+42	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	45	expl	_	_
+43	avait	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	45	aux	_	_
+44	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	45	ccomp	_	_
+45	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+46	saisie	saisie	NOUN	_	NOUN__Gender=Fem|Number=Sing	47	obj	_	_
+47	de	de	ADP	_	ADP___	45	case	_	_
+48	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	50	nmod:poss	_	_
+49	salaire	salaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	50	nmod	_	_
+50	de	de	ADP	_	ADP___	47	case	_	_
+51	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	54	det	_	_
+52	300,00	300,00	NUM	_	NUM__NumType=Card	54	nummod	_	_
+53	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	54	nmod	_	_
+54	.	.	PUNCT	_	PUNCT___	50	punct	_	_
+
+
+#Est ce que il sont ce droit de ce faire rembourser aujourd'hui + 8 ans et sans délai de prévenance.
+1	Est	être	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	1	cop	_	_
+2	ce	ce	PRON	_	PRON__PronType=Rel	0	ROOT	_	_
+3	que	que	SCONJ	_	SCONJ___	5	mark	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+5	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+6	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+7	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	acl:relcl	_	_
+8	de	de	ADP	_	ADP___	5	mark	_	_
+9	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	11	obj	_	_
+10	faire	faire	VERB	_	VERB__VerbForm=Inf	11	nmod	_	_
+11	rembourser	rembourser	VERB	_	VERB__VerbForm=Inf	11	xcomp	_	_
+12	aujourd'hui	aujourd'huie	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obj	_	_
+13	+	+	ADP	_	ADP___	11	case	_	_
+14	8	8	NUM	_	NUM__NumType=Card	15	nummod	_	_
+15	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	obl	_	_
+16	et	et	CCONJ	_	CCONJ___	17	cc	_	_
+17	sans	sans	ADP	_	ADP___	15	case	_	_
+18	délai	délai	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	conj	_	_
+19	de	de	ADP	_	ADP___	24	case	_	_
+20	prévenance	prévenance	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	nmod	_	_
+21	.	.	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#Il sont fait cela à d'autres collègues, il était d'usage dans l'entreprise d'avoir cette avance.
+1	Il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	5	obj	_	_
+5	à	à	ADP	_	ADP___	11	case	_	_
+6	d'	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
+7	autres	autre	ADJ	_	ADJ__Number=Plur	5	fixed	_	_
+8	collègues	collègue	NOUN	_	NOUN__Number=Plur	5	obl	_	_
+9	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+10	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	11	nsubj	_	_
+11	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	cop	_	_
+12	d'	de	ADP	_	ADP___	13	case	_	_
+13	usage	usage	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+14	dans	dan	ADP	_	ADP___	15	case	_	_
+15	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+16	entreprise	entreprise	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	obl	_	_
+17	d'	de	ADP	_	ADP___	15	mark	_	_
+18	avoir	avoir	VERB	_	VERB__VerbForm=Inf	13	acl	_	_
+19	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	24	det	_	_
+20	avance	avance	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	obj	_	_
+21	.	.	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#Merci de votre retour.
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	de	de	ADP	_	ADP___	3	case	_	_
+3	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+4	retour	retour	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+5	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Kaci
+1	Kaci	Kaci	PROPN	_	PROPN__Gender=Masc|Number=Sing	0	ROOT	_	_
+
+

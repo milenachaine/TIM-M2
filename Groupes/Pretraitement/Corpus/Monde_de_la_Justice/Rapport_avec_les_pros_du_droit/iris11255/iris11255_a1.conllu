@@ -1,0 +1,61 @@
+#Bonjour
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+
+
+#Qu'il envoie ce texte au syndic n'a pas de sens, puisque le syndic ne vote pas;
+1	Qu'	que	PRON	_	PRON__PronType=Int	1	obj	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+3	envoie	envoyer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+5	texte	texte	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+6	au	au	PRON	_	PRON__PronType=Rel	4	advmod	_	_
+7	syndic	syndic	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+8	n'	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+9	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl	_	_
+10	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+11	de	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
+12	sens	sens	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	obj	_	_
+13	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+14	puisque	puisque	SCONJ	_	SCONJ___	10	mark	_	_
+15	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+16	syndic	syndic	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	nsubj	_	_
+17	ne	ne	ADV	_	ADV__Polarity=Neg	19	advmod	_	_
+18	vote	vote	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	advcl	_	_
+19	pas	pas	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+20	;	;	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Serait
+1	Serait	être	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+
+
+#-il possible d'avoir copie de la phrase que vous évoquez?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+3	possible	possible	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+4	d'	de	ADP	_	ADP___	4	mark	_	_
+5	avoir	avoir	AUX	_	AUX__VerbForm=Inf	6	aux	_	_
+6	copie	copie	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	xcomp	_	_
+7	de	de	ADP	_	ADP___	8	case	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+9	phrase	phrase	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+10	que	que	SCONJ	_	SCONJ___	8	obj	_	_
+11	vous	vous	PRON	_	PRON__Number=Plur|Person=2	10	nsubj	_	_
+12	évoquez	évoquer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+13	?	?	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Je soupconne qu'il parle plutot d'abus de majorité.
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	soupconne	soupconne	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	qu'	que	SCONJ	_	SCONJ___	4	mark	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+5	parle	parler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+6	plutot	plutot	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	xcomp	_	_
+7	d'	de	ADP	_	ADP___	8	case	_	_
+8	abus	abus	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+9	de	de	ADP	_	ADP___	10	case	_	_
+10	majorité	majorité	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+11	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+

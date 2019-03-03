@@ -1,0 +1,186 @@
+#Bonsoir, Suite à une décision d'AG, un co-gérant de SARL a cédé l'intégralité de ses parts.
+1	Bonsoir	Bonsoir	PROPN	_	PROPN___	15	acl	_	_
+2	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+3	Suite	suite	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	case	_	_
+4	à	à	ADP	_	ADP___	3	fixed	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	décision	décision	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obl	_	_
+7	d'	de	ADP	_	ADP___	8	case	_	_
+8	AG	AG	PROPN	_	PROPN___	6	nmod	_	_
+9	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+10	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	co-gérant	co-gérant	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nsubj	_	_
+12	de	de	ADP	_	ADP___	13	case	_	_
+13	SARL	SARL	PROPN	_	PROPN__Gender=Masc|Number=Sing	11	nmod	_	_
+14	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	cédé	céder	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+16	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	intégralité	intégralité	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obj	_	_
+18	de	de	ADP	_	ADP___	20	case	_	_
+19	ses	son	DET	_	DET__Number=Plur|Poss=Yes	20	nmod:poss	_	_
+20	parts	part	NOUN	_	NOUN__Number=Plur	17	nmod	_	_
+21	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Ce dernier a continué à travailler (fonctions qui excèdent une gérance classique) pendant cinq ans :
+1	Ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
+2	dernier	dernier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	6	nsubj	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	continué	continuer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	à	à	ADP	_	ADP___	6	mark	_	_
+6	travailler	travailler	VERB	_	VERB__VerbForm=Inf	1	xcomp	_	_
+7	(	(	PUNCT	_	PUNCT___	8	punct	_	_
+8	fonctions	fonction	NOUN	_	NOUN__Gender=Fem|Number=Plur	6	obl	_	_
+9	qui	qui	PRON	_	PRON__PronType=Rel	15	nsubj	_	_
+10	excèdent	excéder	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+11	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+12	gérance	gérance	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obj	_	_
+13	classique	classique	ADJ	_	ADJ__Gender=Fem|Number=Sing	11	amod	_	_
+14	)	)	PUNCT	_	PUNCT___	15	punct	_	_
+15	pendant	pendre	ADP	_	ADP___	15	case	_	_
+16	cinq	cinq	NUM	_	NUM__NumType=Card	17	nummod	_	_
+17	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	obl	_	_
+18	:	:	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#- Première année : aucune rémunération mais versement du prix de cession en plusieurs fois
+1	-	-	PUNCT	_	PUNCT___	15	punct	_	_
+2	Première	premier	ADJ	_	ADJ__Gender=Fem|Number=Sing|NumType=Ord	6	amod	_	_
+3	année	année	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	:	:	PUNCT	_	PUNCT___	3	punct	_	_
+5	aucune	aucun	DET	_	DET__Gender=Fem|Number=Sing	6	det	_	_
+6	rémunération	rémunération	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+7	mais	mais	CCONJ	_	CCONJ___	8	cc	_	_
+8	versement	versement	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	conj	_	_
+9	du	du	DET	_	DET__Gender=Masc|Number=Sing	15	det	_	_
+10	prix	prix	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+11	de	de	ADP	_	ADP___	15	case	_	_
+12	cession	cession	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nmod	_	_
+13	en	en	ADP	_	ADP___	11	advmod	_	_
+14	plusieurs	plusieurs	DET	_	DET__Number=Plur	15	fixed	_	_
+15	fois	fois	NOUN	_	NOUN__Gender=Fem|Number=Plur	15	fixed	_	_
+
+
+#- De la deuxième à aujourd'hui : versement d'une rémunération mensuelle par les associés (sans qu'une décision ne soit venue acter cette rémunération).
+1	-	-	PUNCT	_	PUNCT___	15	punct	_	_
+2	De	De	ADP	_	ADP___	6	case	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+4	deuxième	deuxième	ADJ	_	ADJ__Number=Sing|NumType=Ord	0	ROOT	_	_
+5	à	à	ADP	_	ADP___	6	case	_	_
+6	aujourd'hui	aujourd'huie	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+7	:	:	PUNCT	_	PUNCT___	8	punct	_	_
+8	versement	versement	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	appos	_	_
+9	d'	de	ADP	_	ADP___	15	case	_	_
+10	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	rémunération	rémunération	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	nmod	_	_
+12	mensuelle	mensuel	ADJ	_	ADJ__Gender=Fem|Number=Sing	13	amod	_	_
+13	par	par	ADP	_	ADP___	11	case	_	_
+14	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	15	det	_	_
+15	associés	associé	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	obl	_	_
+16	(	(	PUNCT	_	PUNCT___	17	punct	_	_
+17	sans	sans	ADP	_	ADP___	15	mark	_	_
+18	qu'	que	SCONJ	_	SCONJ___	20	fixed	_	_
+19	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	décision	décision	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	nsubj	_	_
+21	ne	ne	ADV	_	ADV___	15	advmod	_	_
+22	soit	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	venue	venir	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	25	aux	_	_
+24	acter	acter	VERB	_	VERB__VerbForm=Inf	25	advcl	_	_
+25	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	25	det	_	_
+26	rémunération	rémunération	NOUN	_	NOUN__Gender=Fem|Number=Sing	27	obj	_	_
+27	)	)	PUNCT	_	PUNCT___	25	punct	_	_
+28	.	.	PUNCT	_	PUNCT___	27	punct	_	_
+
+
+#Les associés estiment aujourd'hui ne plus avoir à rémunérer ce gérant et souhaitent qu'il ne soit plus co-gérant.
+1	Les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	15	det	_	_
+2	associés	associé	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	nsubj	_	_
+3	estiment	estimer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	aujourd'hui	aujourd'huie	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	3	obj	_	_
+5	ne	ne	ADV	_	ADV___	6	advmod	_	_
+6	plus	plus	ADV	_	ADV___	1	fixed	_	_
+7	avoir	avoir	VERB	_	VERB__VerbForm=Inf	8	obj	_	_
+8	à	à	ADP	_	ADP___	6	mark	_	_
+9	rémunérer	rémunérer	VERB	_	VERB__VerbForm=Inf	15	xcomp	_	_
+10	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+11	gérant	gérant	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obj	_	_
+12	et	et	CCONJ	_	CCONJ___	13	cc	_	_
+13	souhaitent	souhaiter	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+14	qu'	que	SCONJ	_	SCONJ___	15	mark	_	_
+15	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	15	nsubj	_	_
+16	ne	ne	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+17	soit	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+18	plus	plus	ADV	_	ADV___	20	advmod	_	_
+19	co-gérant	co-gérant	ADJ	_	ADJ__Gender=Masc|Number=Sing	20	ccomp	_	_
+20	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#1/ Peut on faire valoir l'existence d'un travail distinct si l'on considère qu'il y avait des fonctions salariées distinctes d'une gérance classique, une rémunération et un lien de subordination (perte qualité associé notamment).
+1	1/	1/	NUM	_	NUM__NumType=Card	15	nsubj	_	_
+2	Peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	on	on	PRON	_	PRON__Number=Sing|Person=3	6	nsubj	_	_
+4	faire	faire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	valoir	valoir	VERB	_	VERB__VerbForm=Inf	6	xcomp	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+7	existence	existence	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+8	d'	de	ADP	_	ADP___	6	case	_	_
+9	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+10	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+11	distinct	distinct	ADJ	_	ADJ__Gender=Masc|Number=Sing	15	acl	_	_
+12	si	si	SCONJ	_	SCONJ___	13	mark	_	_
+13	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	11	nsubj	_	_
+14	on	on	PRON	_	PRON__Number=Sing|Person=3	15	fixed	_	_
+15	considère	considérer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	ccomp	_	_
+16	qu'	que	SCONJ	_	SCONJ___	17	mark	_	_
+17	il	il	PRON	_	PRON__Number=Sing|Person=3	15	nsubj	_	_
+18	y	yu	PRON	_	PRON__Person=3	20	fixed	_	_
+19	avait	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	ccomp	_	_
+20	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	17	det	_	_
+21	fonctions	fonction	NOUN	_	NOUN__Gender=Fem|Number=Plur	15	obj	_	_
+22	salariées	salarier	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	23	cop	_	_
+23	distinctes	distinct	ADJ	_	ADJ__Gender=Fem|Number=Plur	25	amod	_	_
+24	d'	de	ADP	_	ADP___	25	case	_	_
+25	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+26	gérance	gérance	NOUN	_	NOUN__Gender=Fem|Number=Sing	27	nmod	_	_
+27	classique	classique	ADJ	_	ADJ__Gender=Fem|Number=Sing	25	amod	_	_
+28	,	,	PUNCT	_	PUNCT___	27	punct	_	_
+29	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+30	rémunération	rémunération	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	obj	_	_
+31	et	et	CCONJ	_	CCONJ___	29	cc	_	_
+32	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	lien	lien	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	conj	_	_
+34	de	de	ADP	_	ADP___	33	case	_	_
+35	subordination	subordination	NOUN	_	NOUN__Gender=Fem|Number=Sing	27	nmod	_	_
+36	(	(	PUNCT	_	PUNCT___	38	punct	_	_
+37	perte	perte	NOUN	_	NOUN__Gender=Fem|Number=Sing	38	appos	_	_
+38	qualité	qualité	NOUN	_	NOUN__Gender=Fem|Number=Sing	27	amod	_	_
+39	associé	associer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	acl	_	_
+40	notamment	notamment	ADV	_	ADV___	42	advmod	_	_
+41	)	)	PUNCT	_	PUNCT___	42	punct	_	_
+42	.	.	PUNCT	_	PUNCT___	42	punct	_	_
+
+
+#2/Peut-on s'opposer à un arrêt brutal de la rémunération qui a été versée pendant un long moment ?
+1	2/Peut	2/Peut	NUM	_	NUM__NumType=Card	0	ROOT	_	_
+2	-	-	PUNCT	_	PUNCT___	6	fixed	_	_
+3	on	on	PRON	_	PRON__Number=Sing|Person=3	6	nsubj	_	_
+4	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	3	expl	_	_
+5	opposer	opposer	VERB	_	VERB__VerbForm=Inf	6	xcomp	_	_
+6	à	à	ADP	_	ADP___	1	case	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	arrêt	arrêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obl	_	_
+9	brutal	brutal	ADJ	_	ADJ__Gender=Masc|Number=Sing	15	amod	_	_
+10	de	de	ADP	_	ADP___	11	case	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+12	rémunération	rémunération	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nmod	_	_
+13	qui	qui	PRON	_	PRON__PronType=Rel	11	nsubj:pass	_	_
+14	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	15	aux:pass	_	_
+16	versée	verser	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	acl:relcl	_	_
+17	pendant	pendre	ADP	_	ADP___	15	case	_	_
+18	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	long	long	ADJ	_	ADJ__Gender=Masc|Number=Sing	20	amod	_	_
+20	moment	moment	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obl	_	_
+21	?	?	PUNCT	_	PUNCT___	15	punct	_	_
+
+

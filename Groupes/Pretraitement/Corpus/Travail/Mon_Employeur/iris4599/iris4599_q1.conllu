@@ -1,0 +1,99 @@
+#Bonjour, salarié dans une SAS qui a 2 branches pour faire simple.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	salarié	salarier	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	nmod	_	_
+4	dans	dan	ADP	_	ADP___	6	case	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	SAS	SAS	PROPN	_	PROPN__Gender=Fem|Number=Sing	3	nmod	_	_
+7	qui	qui	PRON	_	PRON__PronType=Rel	8	nsubj	_	_
+8	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	2	2	NUM	_	NUM__NumType=Card	10	nummod	_	_
+10	branches	branche	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obj	_	_
+11	pour	pour	ADP	_	ADP___	12	mark	_	_
+12	faire	faire	VERB	_	VERB__VerbForm=Inf	8	advcl	_	_
+13	simple	simple	ADJ	_	ADJ__Number=Sing	12	obj	_	_
+14	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#La branche A et la B, la A est bientôt vendu.
+1	La	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	branche	branche	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obl	_	_
+3	A	a	NOUN	_	NOUN___	1	nmod	_	_
+4	et	et	CCONJ	_	CCONJ___	6	cc	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	B	B	PROPN	_	PROPN__Gender=Fem|Number=Sing	3	conj	_	_
+7	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+9	A	A	PROPN	_	PROPN__Gender=Fem|Number=Sing	10	nsubj:pass	_	_
+10	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+11	bientôt	bientôt	ADV	_	ADV___	12	advmod	_	_
+12	vendu	vendre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+13	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Les employés de la branche B peuvent être contre leur volonté( la plupart) rattaché à une SCOP ?
+1	Les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+2	employés	employé	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	nsubj	_	_
+3	de	de	ADP	_	ADP___	1	case	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	branche	branche	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+6	B	b	NOUN	_	NOUN___	3	nmod	_	_
+7	peuvent	pouvoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	être	être	AUX	_	AUX__VerbForm=Inf	6	cop	_	_
+9	contre	contrer	ADP	_	ADP___	10	case	_	_
+10	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+11	volonté	volonté	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	xcomp	_	_
+12	(	(	PUNCT	_	PUNCT___	8	punct	_	_
+13	la	le	DET	_	DET__Gender=Fem|Number=Sing	12	iobj	_	_
+14	plupart	plupart	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	fixed	_	_
+15	)	)	PUNCT	_	PUNCT___	16	punct	_	_
+16	rattaché	rattacher	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	conj	_	_
+17	à	à	ADP	_	ADP___	16	case	_	_
+18	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	SCOP	SCOP	PROPN	_	PROPN___	20	obl	_	_
+20	?	?	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#celle-ci n'existe pas a ce jour.
+1	celle-ci	celui-ci	PRON	_	PRON__Gender=Fem|Number=Sing|PronType=Dem	1	nsubj	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+3	existe	exister	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+5	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advmod	_	_
+6	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+7	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+8	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#L'employeur nous a parlé de çà il y a peu.
+1	L'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+2	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	nous	nous	PRON	_	PRON__Number=Plur|Person=1	1	nsubj	_	_
+4	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	parlé	parler	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+6	de	de	ADP	_	ADP___	3	advmod	_	_
+7	çà	çà	PRON	_	PRON__Gender=Fem|Number=Sing|PronType=Dem	8	fixed	_	_
+8	il	il	PRON	_	PRON__Number=Sing|Person=3	6	fixed	_	_
+9	y	yu	PRON	_	PRON__Person=3	10	fixed	_	_
+10	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	fixed	_	_
+11	peu	peu	ADV	_	ADV___	12	fixed	_	_
+12	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#difficile d'être plus clair sans donner trop de détails et de nom Merci
+1	difficile	difficile	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+2	d'	de	ADP	_	ADP___	1	mark	_	_
+3	être	être	AUX	_	AUX__VerbForm=Inf	1	cop	_	_
+4	plus	plus	ADV	_	ADV___	6	advmod	_	_
+5	clair	clair	ADJ	_	ADJ__Gender=Masc|Number=Sing	6	xcomp	_	_
+6	sans	sans	ADP	_	ADP___	3	mark	_	_
+7	donner	donner	VERB	_	VERB__VerbForm=Inf	8	advcl	_	_
+8	trop	trop	ADV	_	ADV___	6	det	_	_
+9	de	de	ADP	_	ADP___	10	fixed	_	_
+10	détails	détail	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+11	et	et	CCONJ	_	CCONJ___	12	cc	_	_
+12	de	de	ADP	_	ADP___	8	case	_	_
+13	nom	nom	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	conj	_	_
+14	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	flat:name	_	_
+
+

@@ -1,0 +1,99 @@
+#Ficoba, f de fichier;
+1	Ficoba	Ficoba	PROPN	_	PROPN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	f	f	NOUN	_	NOUN___	1	conj	_	_
+4	de	de	ADP	_	ADP___	5	case	_	_
+5	fichier	fichier	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nmod	_	_
+6	;	;	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#A 150 euros, il y a du y avoir deux recherches.
+1	A	a	NOUN	_	NOUN___	1	case	_	_
+2	150	150	NUM	_	NUM__NumType=Card	3	nummod	_	_
+3	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	obl	_	_
+4	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+5	il	il	PRON	_	PRON__Number=Sing|Person=3	3	nsubj	_	_
+6	y	yu	PRON	_	PRON__Person=3	1	fixed	_	_
+7	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	fixed	_	_
+8	du	du	DET	_	DET__Gender=Masc|Number=Sing	9	advmod	_	_
+9	y	yu	PRON	_	PRON__Person=3	16	fixed	_	_
+10	avoir	avoir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+11	deux	deux	NUM	_	NUM__NumType=Card	16	nummod	_	_
+12	recherches	recherche	NOUN	_	NOUN__Gender=Fem|Number=Plur	11	obj	_	_
+13	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#je soupconne cette personne de tout mettre sur un autre compte (sa femme ?) et laisser le sien au minima Soupconner, peut-etre mais il faut pouvoir le prouver;
+1	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	soupconne	soupconne	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	1	det	_	_
+4	personne	personne	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obj	_	_
+5	de	de	ADP	_	ADP___	3	mark	_	_
+6	tout	tout	ADV	_	ADV___	1	advmod	_	_
+7	mettre	mettre	VERB	_	VERB__VerbForm=Inf	9	acl	_	_
+8	sur	sur	ADP	_	ADP___	9	case	_	_
+9	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+10	autre	autre	ADJ	_	ADJ__Number=Sing	16	amod	_	_
+11	compte	compte	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obl	_	_
+12	(	(	PUNCT	_	PUNCT___	11	punct	_	_
+13	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	11	nmod:poss	_	_
+14	femme	femme	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obl	_	_
+15	?	?	PUNCT	_	PUNCT___	14	punct	_	_
+16	)	)	PUNCT	_	PUNCT___	16	punct	_	_
+17	et	et	CCONJ	_	CCONJ___	18	cc	_	_
+18	laisser	laisser	VERB	_	VERB__VerbForm=Inf	16	conj	_	_
+19	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+20	sien	sien	ADJ	_	ADJ__Gender=Masc|Number=Sing	21	obj	_	_
+21	au	au	PRON	_	PRON__PronType=Rel	21	case	_	_
+22	minima	minimum	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	nmod	_	_
+23	Soupconner	Soupconner	PROPN	_	PROPN__Gender=Masc|Number=Sing	21	flat:name	_	_
+24	,	,	PUNCT	_	PUNCT___	26	punct	_	_
+25	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	fixed	_	_
+26	-	-	PUNCT	_	PUNCT___	23	fixed	_	_
+27	etre	etre	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	fixed	_	_
+28	mais	mais	CCONJ	_	CCONJ___	30	cc	_	_
+29	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	30	nsubj	_	_
+30	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	conj	_	_
+31	pouvoir	pouvoir	VERB	_	VERB__VerbForm=Inf	26	xcomp	_	_
+32	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	obj	_	_
+33	prouver	prouver	VERB	_	VERB__VerbForm=Inf	26	xcomp	_	_
+34	;	;	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#par contre il travaille Oui, mais si c'est du salariat c'ets assez simple, sinon, savoir sur quel compte est recu le revenu est une autre paire de manche.
+1	par	par	ADP	_	ADP___	1	mark	_	_
+2	contre	contrer	ADP	_	ADP___	3	fixed	_	_
+3	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+4	travaille	travailler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	Oui	Oui	PROPN	_	PROPN__Gender=Masc|Number=Sing	3	obj	_	_
+6	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+7	mais	mais	CCONJ	_	CCONJ___	9	cc	_	_
+8	si	si	SCONJ	_	SCONJ___	9	mark	_	_
+9	c'	ce	PRON	_	PRON__Number=Sing|Person=3	16	nsubj	_	_
+10	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+11	du	du	DET	_	DET__Gender=Masc|Number=Sing	16	det	_	_
+12	salariat	salariat	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nsubj	_	_
+13	c'	ce	PRON	_	PRON__Number=Sing|Person=3	11	nsubj	_	_
+14	ets	ets	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+15	assez	assez	ADV	_	ADV___	14	advmod	_	_
+16	simple	simple	ADJ	_	ADJ__Number=Sing	16	advmod	_	_
+17	,	,	PUNCT	_	PUNCT___	18	punct	_	_
+18	sinon	sinon	ADV	_	ADV___	16	advmod	_	_
+19	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+20	savoir	savoir	VERB	_	VERB__VerbForm=Inf	21	conj	_	_
+21	sur	sur	ADP	_	ADP___	21	case	_	_
+22	quel	quel	DET	_	DET__Gender=Masc|Number=Sing|PronType=Int	23	det	_	_
+23	compte	compte	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obl	_	_
+24	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux:pass	_	_
+25	recu	recu	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	26	advcl	_	_
+26	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+27	revenu	revenu	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	nsubj	_	_
+28	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+29	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	autre	autre	ADJ	_	ADJ__Number=Sing	26	amod	_	_
+31	paire	pair	ADJ	_	ADJ__Number=Sing	26	obl	_	_
+32	de	de	ADP	_	ADP___	33	case	_	_
+33	manche	manche	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	nmod	_	_
+34	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+

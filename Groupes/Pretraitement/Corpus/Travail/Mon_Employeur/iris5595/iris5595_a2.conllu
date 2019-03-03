@@ -1,0 +1,163 @@
+#S'agissant d'un accident de travail sauf erreur de ma part le salaire journalier de base se calcule sur le dernier mois de salaire et non pas sur les 3 derniers mois.
+1	S'	si	PRON	_	PRON__Person=3|Reflex=Yes	2	expl	_	_
+2	agissant	agir	VERB	_	VERB__Tense=Pres|VerbForm=Part	19	acl	_	_
+3	d'	de	ADP	_	ADP___	5	case	_	_
+4	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	accident	accident	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	obl	_	_
+6	de	de	ADP	_	ADP___	7	case	_	_
+7	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+8	sauf	sauf	ADP	_	ADP___	9	case	_	_
+9	erreur	erreur	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+10	de	de	ADP	_	ADP___	12	case	_	_
+11	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	12	nmod:poss	_	_
+12	part	part	NOUN	_	NOUN__Number=Sing	9	nmod	_	_
+13	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	salaire	salaire	NOUN	_	NOUN__Number=Sing	19	nsubj	_	_
+15	journalier	journalier	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	amod	_	_
+16	de	de	ADP	_	ADP___	17	case	_	_
+17	base	base	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	nmod	_	_
+18	se	se	PRON	_	PRON__Person=3|Reflex=Yes	19	expl	_	_
+19	calcule	calculer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+20	sur	sur	ADP	_	ADP___	23	case	_	_
+21	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	dernier	dernier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	23	amod	_	_
+23	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obl	_	_
+24	de	de	ADP	_	ADP___	25	case	_	_
+25	salaire	salaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	nmod	_	_
+26	et	et	CCONJ	_	CCONJ___	27	cc	_	_
+27	non	non	ADV	_	ADV___	25	conj	_	_
+28	pas	pas	ADV	_	ADV___	27	fixed	_	_
+29	sur	sur	ADP	_	ADP___	33	case	_	_
+30	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	33	det	_	_
+31	3	3	NUM	_	NUM__NumType=Card	33	nummod	_	_
+32	derniers	dernier	ADJ	_	ADJ__Gender=Masc|Number=Plur|NumType=Ord	33	amod	_	_
+33	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	23	nmod	_	_
+34	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Ce salaire journalier (plafonné à 331,36 ) est calculé en divisant par 30,42 le montant du salaire brut perçu le mois précédant le début de l'arrêt.
+1	Ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	salaire	salaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	amod	_	_
+3	journalier	journalier	ADJ	_	ADJ__Gender=Masc|Number=Sing	5	nsubj	_	_
+4	(	(	PUNCT	_	PUNCT___	5	punct	_	_
+5	plafonné	plafonner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+6	à	à	ADP	_	ADP___	7	case	_	_
+7	331,36	331,36	NUM	_	NUM__NumType=Card	5	obl	_	_
+8			ADJ	_	ADJ__Gender=Masc|Number=Plur|NumType=Ord	9	obl	_	_
+9	)	)	PUNCT	_	PUNCT___	5	punct	_	_
+10	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	calculé	calculer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+12	en	en	ADP	_	ADP___	9	case	_	_
+13	divisant	diviser	VERB	_	VERB__Tense=Pres|VerbForm=Part	14	advcl	_	_
+14	par	par	ADP	_	ADP___	19	case	_	_
+15	30,42	30,42	NUM	_	NUM__NumType=Card	14	obl	_	_
+16	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	montant	montant	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obl	_	_
+18	du	du	DET	_	DET__Gender=Masc|Number=Sing	19	det	_	_
+19	salaire	salaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	amod	_	_
+20	brut	brut	ADJ	_	ADJ__Number=Sing	23	obj	_	_
+21	perçu	percevoir	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	case	_	_
+22	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obl	_	_
+24	précédant	précéder	VERB	_	VERB__Tense=Pres|VerbForm=Part	25	acl	_	_
+25	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+26	début	début	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	obj	_	_
+27	de	de	ADP	_	ADP___	25	case	_	_
+28	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	27	det	_	_
+29	arrêt	arrêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	33	nmod	_	_
+30	.	.	PUNCT	_	PUNCT___	33	punct	_	_
+
+
+#Ensuite les 28 premiers jours les IJ sont de 60% de ce salaire journalier de référence sans pouvoir dépasser le gain journalier net ( salaire journalier de référence -21%) dans la limite maximale de 198 euros .
+1	Ensuite	ensuite	ADV	_	ADV___	2	advmod	_	_
+2	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	19	det	_	_
+3	28	28	NUM	_	NUM__NumType=Card	5	nummod	_	_
+4	premiers	premier	ADJ	_	ADJ__Gender=Masc|Number=Plur|NumType=Ord	5	amod	_	_
+5	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	2	obl	_	_
+6	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+7	IJ	ij	NOUN	_	NOUN__Number=Plur	5	nsubj	_	_
+8	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	de	de	ADP	_	ADP___	5	case	_	_
+10	60	60	NUM	_	NUM__NumType=Card	12	nummod	_	_
+11	%	%	NOUN	_	NOUN__Gender=Masc	0	ROOT	_	_
+12	de	de	ADP	_	ADP___	9	case	_	_
+13	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+14	salaire	salaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	amod	_	_
+15	journalier	journalier	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	nmod	_	_
+16	de	de	ADP	_	ADP___	17	case	_	_
+17	référence	référence	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	nmod	_	_
+18	sans	sans	ADP	_	ADP___	19	mark	_	_
+19	pouvoir	pouvoir	AUX	_	AUX__VerbForm=Inf	19	aux	_	_
+20	dépasser	dépasser	VERB	_	VERB__VerbForm=Inf	23	advcl	_	_
+21	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	gain	gain	ADJ	_	ADJ__Gender=Masc|Number=Sing	23	amod	_	_
+23	journalier	journalier	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obj	_	_
+24	net	net	ADJ	_	ADJ__Gender=Masc|Number=Sing	25	amod	_	_
+25	(	(	PUNCT	_	PUNCT___	23	punct	_	_
+26	salaire	salaire	NOUN	_	NOUN__Number=Sing	27	amod	_	_
+27	journalier	journalier	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	appos	_	_
+28	de	de	ADP	_	ADP___	27	case	_	_
+29	référence	référence	NOUN	_	NOUN__Gender=Fem|Number=Sing	33	nmod	_	_
+30	-21	-21	PROPN	_	PROPN___	33	cop	_	_
+31	%	%	NOUN	_	NOUN__Gender=Masc	33	nmod	_	_
+32	)	)	PUNCT	_	PUNCT___	33	punct	_	_
+33	dans	dan	ADP	_	ADP___	23	case	_	_
+34	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+35	limite	limite	NOUN	_	NOUN__Gender=Fem|Number=Sing	37	obl	_	_
+36	maximale	maximal	ADJ	_	ADJ__Gender=Fem|Number=Sing	37	amod	_	_
+37	de	de	ADP	_	ADP___	45	case	_	_
+38	198	198	NUM	_	NUM__NumType=Card	37	nummod	_	_
+39	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	37	nmod	_	_
+40	.	.	PUNCT	_	PUNCT___	41	punct	_	_
+
+
+#Ensuite elles passent à 80% de ce salaire journalier de référence sans pouvoir dépasser le gain journalier net ( salaire journalier de référence -21%) dans la limite maximale de 265 euros.
+1	Ensuite	ensuite	ADV	_	ADV___	2	advmod	_	_
+2	elles	lui	PRON	_	PRON__Gender=Fem|Number=Plur|Person=3	19	nsubj	_	_
+3	passent	passer	ADV	_	ADV___	0	ROOT	_	_
+4	à	à	ADP	_	ADP___	5	case	_	_
+5	80	80	NUM	_	NUM__NumType=Card	2	nummod	_	_
+6	%	%	NOUN	_	NOUN__Gender=Masc	7	obl	_	_
+7	de	de	ADP	_	ADP___	5	case	_	_
+8	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+9	salaire	salaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+10	journalier	journalier	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	amod	_	_
+11	de	de	ADP	_	ADP___	12	case	_	_
+12	référence	référence	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nmod	_	_
+13	sans	sans	ADP	_	ADP___	14	mark	_	_
+14	pouvoir	pouvoir	AUX	_	AUX__VerbForm=Inf	19	aux	_	_
+15	dépasser	dépasser	VERB	_	VERB__VerbForm=Inf	14	advcl	_	_
+16	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	gain	gain	ADJ	_	ADJ__Gender=Masc|Number=Sing	15	amod	_	_
+18	journalier	journalier	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obj	_	_
+19	net	net	ADJ	_	ADJ__Gender=Masc|Number=Sing	19	amod	_	_
+20	(	(	PUNCT	_	PUNCT___	23	punct	_	_
+21	salaire	salaire	NOUN	_	NOUN__Number=Sing	23	amod	_	_
+22	journalier	journalier	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	appos	_	_
+23	de	de	ADP	_	ADP___	19	case	_	_
+24	référence	référence	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	nmod	_	_
+25	-21	-21	PROPN	_	PROPN___	23	cop	_	_
+26	%	%	NOUN	_	NOUN__Gender=Masc	27	nmod	_	_
+27	)	)	PUNCT	_	PUNCT___	25	punct	_	_
+28	dans	dan	ADP	_	ADP___	27	case	_	_
+29	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+30	limite	limite	NOUN	_	NOUN__Gender=Fem|Number=Sing	33	obl	_	_
+31	maximale	maximal	ADJ	_	ADJ__Gender=Fem|Number=Sing	33	amod	_	_
+32	de	de	ADP	_	ADP___	33	case	_	_
+33	265	265	NUM	_	NUM__NumType=Card	23	nummod	_	_
+34	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	19	nmod	_	_
+35	.	.	PUNCT	_	PUNCT___	37	punct	_	_
+
+
+#Concernant l'employeur, voir le message de 911
+1	Concernant	concerner	VERB	_	VERB__Tense=Pres|VerbForm=Part	0	ROOT	_	_
+2	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+3	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+4	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+5	voir	voir	VERB	_	VERB__VerbForm=Inf	2	acl	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	message	message	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+8	de	de	ADP	_	ADP___	9	case	_	_
+9	911	911	NUM	_	NUM__NumType=Card	5	nmod	_	_
+
+

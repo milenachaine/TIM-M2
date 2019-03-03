@@ -1,0 +1,108 @@
+#Bonjour
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+
+
+#Vous indiquez être usufruitière pour 3/4, qui possède le 1/4 restant.
+1	Vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+2	indiquez	indiquer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	être	être	AUX	_	AUX__VerbForm=Inf	3	aux:pass	_	_
+4	usufruitière	usufruitier	ADJ	_	ADJ__Gender=Fem|Number=Sing	5	xcomp	_	_
+5	pour	pour	ADP	_	ADP___	3	case	_	_
+6	3/4	3/4	NUM	_	NUM__NumType=Card	7	obl	_	_
+7	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+8	qui	qui	PRON	_	PRON__PronType=Rel	3	nsubj	_	_
+9	possède	posséder	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	parataxis	_	_
+10	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+11	1/4	1/4	ADJ	_	ADJ__NumType=Ord	12	obj	_	_
+12	restant	rester	VERB	_	VERB__Tense=Pres|VerbForm=Part	10	acl	_	_
+13	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#L'huissier ne peut pas saisir des meubles qui ne lui (votre fils) appartiennent pas.
+1	L'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+2	huissier	huissier	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+3	ne	ne	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+4	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+6	saisir	saisir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+7	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
+8	meubles	meuble	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	obj	_	_
+9	qui	qui	PRON	_	PRON__PronType=Rel	10	nsubj	_	_
+10	ne	ne	ADV	_	ADV___	3	advmod	_	_
+11	lui	luire	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	acl:relcl	_	_
+12	(	(	PUNCT	_	PUNCT___	10	punct	_	_
+13	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	12	nmod:poss	_	_
+14	fils	fils	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obj	_	_
+15	)	)	PUNCT	_	PUNCT___	16	punct	_	_
+16	appartiennent	appartenir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	parataxis	_	_
+17	pas	pas	ADV	_	ADV__Polarity=Neg	20	advmod	_	_
+18	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#L'huissier peut agir sur la part de nu-propriété appartenant à votre fils et -mais ca prendra du temps- forcer a une vente.
+1	L'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+2	huissier	huissier	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+3	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+4	agir	agir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	sur	sur	ADP	_	ADP___	3	case	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	fixed	_	_
+7	part	part	NOUN	_	NOUN__Number=Sing	5	fixed	_	_
+8	de	de	ADP	_	ADP___	3	fixed	_	_
+9	nu	nu	ADV	_	ADV___	10	det	_	_
+10	-	-	PUNCT	_	PUNCT___	3	punct	_	_
+11	propriété	propriété	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obl	_	_
+12	appartenant	appartenir	VERB	_	VERB__Tense=Pres|VerbForm=Part	10	acl	_	_
+13	à	à	ADP	_	ADP___	12	case	_	_
+14	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	3	nmod:poss	_	_
+15	fils	fils	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obl	_	_
+16	et	et	CCONJ	_	CCONJ___	20	cc	_	_
+17	-mais	-mais	CCONJ	_	CCONJ___	20	punct	_	_
+18	ca	ca	CCONJ	_	CCONJ___	20	aux	_	_
+19	prendra	prendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	20	conj	_	_
+20	du	du	DET	_	DET__Gender=Masc|Number=Sing	20	det	_	_
+21	temps-	temps-	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	obj	_	_
+22	forcer	forcer	VERB	_	VERB__VerbForm=Inf	20	amod	_	_
+23	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	advmod	_	_
+24	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	vente	vente	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	obj	_	_
+26	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#La situation étant difficile pour le créancier, la vente risque de se faire a tres faible valeur, et le rachat potentiellement n'ayant d'intérêt que pour les autres enfants et vous même
+1	La	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	étant	être	AUX	_	AUX__Tense=Pres|VerbForm=Part	3	cop	_	_
+4	difficile	difficile	ADJ	_	ADJ__Number=Sing	5	acl	_	_
+5	pour	pour	ADP	_	ADP___	3	case	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	créancier	créancier	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+8	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	vente	vente	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	appos	_	_
+11	risque	risquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	amod	_	_
+12	de	de	ADP	_	ADP___	10	mark	_	_
+13	se	se	PRON	_	PRON__Person=3|Reflex=Yes	12	expl	_	_
+14	faire	faire	VERB	_	VERB__VerbForm=Inf	3	acl	_	_
+15	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	det	_	_
+16	tres	tr	ADJ	_	ADJ__Number=Plur	20	advmod	_	_
+17	faible	faible	ADJ	_	ADJ__Number=Sing	20	amod	_	_
+18	valeur	valeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obj	_	_
+19	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+20	et	et	CCONJ	_	CCONJ___	20	cc	_	_
+21	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	rachat	rachat	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	nsubj	_	_
+23	potentiellement	potentiellement	ADV	_	ADV___	25	advmod	_	_
+24	n'	ne	ADV	_	ADV___	25	advmod	_	_
+25	ayant	avoir	VERB	_	VERB__Tense=Pres|VerbForm=Part	22	acl	_	_
+26	d'	de	ADP	_	ADP___	20	case	_	_
+27	intérêt	intérêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	obl	_	_
+28	que	que	SCONJ	_	SCONJ___	20	mark	_	_
+29	pour	pour	ADP	_	ADP___	20	case	_	_
+30	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	20	det	_	_
+31	autres	autre	ADJ	_	ADJ__Number=Plur	30	amod	_	_
+32	enfants	enfant	NOUN	_	NOUN__Number=Plur	20	obl	_	_
+33	et	et	CCONJ	_	CCONJ___	34	cc	_	_
+34	vous	vous	PRON	_	PRON__Number=Plur|Person=2	36	conj	_	_
+35	même	même	ADV	_	ADV___	36	advmod	_	_
+
+

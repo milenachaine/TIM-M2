@@ -1,0 +1,111 @@
+#Bonjour à tous, Je vous expose mon cas.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	7	acl	_	_
+2	à	à	ADP	_	ADP___	3	case	_	_
+3	tous	tout	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Rel	1	obl	_	_
+4	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+5	Je	il	PRON	_	PRON__Number=Sing|Person=1	7	nsubj	_	_
+6	vous	vous	PRON	_	PRON__Number=Plur|Person=2	7	iobj	_	_
+7	expose	exposer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	9	nmod:poss	_	_
+9	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+10	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Un salarié (non cadré) a été embauche avec un CDD de 3 mois et période d'essai.
+1	Un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+2	salarié	salarié	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+3	(	(	PUNCT	_	PUNCT___	1	punct	_	_
+4	non	non	ADV	_	ADV___	7	advmod	_	_
+5	cadré	cadrer	ADJ	_	ADJ___	7	acl	_	_
+6	)	)	PUNCT	_	PUNCT___	7	punct	_	_
+7	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+8	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	9	aux:pass	_	_
+9	embauche	embaucher	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+10	avec	avec	ADP	_	ADP___	7	case	_	_
+11	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	CDD	cdd	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obl	_	_
+13	de	de	ADP	_	ADP___	12	case	_	_
+14	3	3	NUM	_	NUM__NumType=Card	15	nummod	_	_
+15	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	nmod	_	_
+16	et	et	CCONJ	_	CCONJ___	12	cc	_	_
+17	période	période	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	conj	_	_
+18	d'	de	ADP	_	ADP___	19	case	_	_
+19	essai	essai	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	nmod	_	_
+20	.	.	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#A l'issu du CDD, un CDI est signé sur le même poste avec également une période d'essai.
+1	A	A	ADP	_	ADP___	7	case	_	_
+2	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	issu	issu	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+4	du	du	DET	_	DET__Gender=Masc|Number=Sing	7	det	_	_
+5	CDD	cdd	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+6	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+8	CDI	cdi	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nsubj:pass	_	_
+9	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+10	signé	signer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+11	sur	sur	ADP	_	ADP___	12	case	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+13	même	même	ADV	_	ADV___	12	amod	_	_
+14	poste	poste	NOUN	_	NOUN__Number=Sing	15	obl	_	_
+15	avec	avec	ADP	_	ADP___	12	case	_	_
+16	également	également	ADV	_	ADV___	12	obl	_	_
+17	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	période	période	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obj	_	_
+19	d'	de	ADP	_	ADP___	19	case	_	_
+20	essai	essai	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	nmod	_	_
+21	.	.	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#Ma question : la période du deuxième contrat (CDI) est-elle licite et applicable.
+1	Ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	7	nmod:poss	_	_
+2	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+5	période	période	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+6	du	du	DET	_	DET__Gender=Masc|Number=Sing	7	det	_	_
+7	deuxième	deuxième	ADJ	_	ADJ__Number=Sing|NumType=Ord	7	amod	_	_
+8	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nmod	_	_
+9	(	(	PUNCT	_	PUNCT___	7	punct	_	_
+10	CDI	cdi	NOUN	_	NOUN___	7	appos	_	_
+11	)	)	PUNCT	_	PUNCT___	12	punct	_	_
+12	est-elle	est-ell	ADJ	_	ADJ__Gender=Fem|Number=Sing	19	acl	_	_
+13	licite	liciter	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	amod	_	_
+14	et	et	CCONJ	_	CCONJ___	15	cc	_	_
+15	applicable	applicable	ADJ	_	ADJ__Number=Sing	12	conj	_	_
+16	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Autrement dit, le salarié peut-il être remercié sans indemnités au motif qu'il étaient à l'essai ?
+1	Autrement	autrement	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nsubj	_	_
+2	dit	dire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+5	salarié	salarié	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nsubj	_	_
+6	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	nmod	_	_
+7	-	-	PUNCT	_	PUNCT___	7	punct	_	_
+8	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	9	nsubj:pass	_	_
+9	être	être	AUX	_	AUX__VerbForm=Inf	7	aux:pass	_	_
+10	remercié	remercier	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	xcomp	_	_
+11	sans	sans	ADP	_	ADP___	12	case	_	_
+12	indemnités	indemniter	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	19	obl	_	_
+13	au	au	PRON	_	PRON___	12	nsubj	_	_
+14	motif	motif	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+15	qu'	que	SCONJ	_	SCONJ___	12	mark	_	_
+16	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
+17	étaient	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	19	cop	_	_
+18	à	à	ADP	_	ADP___	19	case	_	_
+19	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+20	essai	essai	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	obl	_	_
+21	?	?	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#Merci pour vos réponses.
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	pour	pour	ADP	_	ADP___	3	case	_	_
+3	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	1	nmod:poss	_	_
+4	réponses	réponse	NOUN	_	NOUN__Gender=Fem|Number=Plur	7	nmod	_	_
+5	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+

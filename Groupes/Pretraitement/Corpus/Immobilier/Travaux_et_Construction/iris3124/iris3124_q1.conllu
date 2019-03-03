@@ -1,0 +1,185 @@
+#Bonjour, Mon voisin possède des chiens que je souhaite isoler des miens.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	5	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	Mon	mon	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+4	voisin	voisin	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	amod	_	_
+5	possède	posséder	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
+7	chiens	chien	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	obj	_	_
+8	que	que	PRON	_	PRON__PronType=Rel	11	obj	_	_
+9	je	il	PRON	_	PRON__Number=Sing|Person=1	11	nsubj	_	_
+10	souhaite	souhaiter	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	isoler	isoler	VERB	_	VERB__VerbForm=Inf	7	acl:relcl	_	_
+12	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	13	det	_	_
+13	miens	mien	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	obj	_	_
+14	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Il est propriétaire du talus qui sépare nos deux terrains.
+1	Il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	0	ROOT	_	_
+4	du	du	DET	_	DET__Gender=Masc|Number=Sing	5	det	_	_
+5	talus	talus	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+6	qui	qui	PRON	_	PRON__PronType=Rel	7	nsubj	_	_
+7	sépare	séparer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+8	nos	notre	DET	_	DET__Number=Plur|Poss=Yes	11	nmod:poss	_	_
+9	deux	deux	NUM	_	NUM__NumType=Card	11	nummod	_	_
+10	terrains	terrain	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	obj	_	_
+11	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Je lui ai demandé de faire le nécessaire pour que ses chiens ne passent pas chez moi .... sans succès.
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+2	lui	luire	PRON	_	PRON__Number=Sing|Person=3	3	iobj	_	_
+3	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	demandé	demander	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	de	de	ADP	_	ADP___	5	mark	_	_
+6	faire	faire	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+8	nécessaire	nécessaire	ADJ	_	ADJ__Number=Sing	11	obj	_	_
+9	pour	pour	ADP	_	ADP___	11	mark	_	_
+10	que	que	SCONJ	_	SCONJ___	11	fixed	_	_
+11	ses	son	DET	_	DET__Number=Plur|Poss=Yes	7	nmod:poss	_	_
+12	chiens	chien	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	nsubj	_	_
+13	ne	ne	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+14	passent	passer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+15	pas	pas	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+16	chez	chez	ADP	_	ADP___	17	case	_	_
+17	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	17	obl	_	_
+18	....	....	PUNCT	_	PUNCT___	19	punct	_	_
+19	sans	sans	ADP	_	ADP___	17	case	_	_
+20	succès	succès	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obl	_	_
+21	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Je voudrais donc faire une palissade.
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+2	voudrais	vouloir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	donc	donc	ADV	_	ADV___	5	advmod	_	_
+4	faire	faire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+6	palissade	palissade	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+7	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Pouvez
+1	Pouvez	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+
+
+#-vous me dire, d'après le schéma que je vous ai joint, si la position de cette future séparation serait correcte ?
+1	-	-	PUNCT	_	PUNCT___	5	punct	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	3	nsubj	_	_
+3	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	5	expl	_	_
+4	dire	dire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+6	d'	de	ADP	_	ADP___	7	case	_	_
+7	après	après	ADP	_	ADP___	5	fixed	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+9	schéma	schéma	NOUN	_	NOUN__Number=Sing	11	obl	_	_
+10	que	que	SCONJ	_	SCONJ___	11	obj	_	_
+11	je	il	PRON	_	PRON__Number=Sing|Person=1	7	nsubj	_	_
+12	vous	vous	PRON	_	PRON__Number=Plur|Person=2	13	iobj	_	_
+13	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+14	joint	joint	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	acl:relcl	_	_
+15	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+16	si	si	SCONJ	_	SCONJ___	17	mark	_	_
+17	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+18	position	position	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	nsubj:pass	_	_
+19	de	de	ADP	_	ADP___	17	case	_	_
+20	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	21	det	_	_
+21	future	futur	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	nmod	_	_
+22	séparation	séparation	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	nmod	_	_
+23	serait	être	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+24	correcte	correct	ADJ	_	ADJ__Gender=Masc|Number=Sing	21	ccomp	_	_
+25	?	?	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Je ne la mets pas sur la limite de propriété pour qu'il ne prétende pas dans quelques années que cette clôture lui appartient.
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+2	ne	ne	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	mets	mettre	AUX	_	AUX__Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	pas	pas	ADV	_	ADV___	5	advmod	_	_
+6	sur	sur	ADP	_	ADP___	7	case	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+8	limite	limite	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obl	_	_
+9	de	de	ADP	_	ADP___	11	case	_	_
+10	propriété	propriété	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+11	pour	pour	ADP	_	ADP___	7	mark	_	_
+12	qu'	que	SCONJ	_	SCONJ___	13	fixed	_	_
+13	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	11	nsubj	_	_
+14	ne	ne	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+15	prétende	prétendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+16	pas	pas	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+17	dans	dan	ADP	_	ADP___	17	case	_	_
+18	quelques	quelque	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	19	det	_	_
+19	années	année	NOUN	_	NOUN__Gender=Fem|Number=Plur	17	obl	_	_
+20	que	que	PRON	_	PRON__PronType=Rel	21	mark	_	_
+21	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	17	det	_	_
+22	clôture	clôture	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	nsubj	_	_
+23	lui	luire	PRON	_	PRON__Number=Sing|Person=3	24	iobj	_	_
+24	appartient	appartenir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	ccomp	_	_
+25	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Je pense mettre chacun des poteaux des extrémités à toucher son garage et les plaques.
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+2	pense	penser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	mettre	mettre	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	chacun	chacun	PRON	_	PRON__Gender=Masc|PronType=Rel	5	obj	_	_
+5	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
+6	poteaux	poteau	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	obj	_	_
+7	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
+8	extrémités	extrémité	NOUN	_	NOUN__Gender=Fem|Number=Plur	11	obj	_	_
+9	à	à	ADP	_	ADP___	11	mark	_	_
+10	toucher	toucher	VERB	_	VERB__VerbForm=Inf	11	nmod	_	_
+11	son	son	DET	_	DET__Number=Sing|Poss=Yes	7	nmod:poss	_	_
+12	garage	garage	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+13	et	et	CCONJ	_	CCONJ___	11	cc	_	_
+14	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+15	plaques	plaque	NOUN	_	NOUN__Gender=Fem|Number=Plur	17	conj	_	_
+16	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#C'est-à-dire que la clôture en elle-même serait à environ 5 cm de sa limite de propriété.
+1	C'est-à-dire	c'est-à-dir	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+2	que	que	PRON	_	PRON__PronType=Rel	3	obj	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	obj	_	_
+4	clôture	clôture	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nsubj	_	_
+5	en	en	ADP	_	ADP___	5	case	_	_
+6	elle-même	lui-même	PRON	_	PRON__PronType=Rel	7	obl	_	_
+7	serait	être	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+8	à	à	ADP	_	ADP___	11	case	_	_
+9	environ	environ	ADV	_	ADV___	11	advmod	_	_
+10	5	5	NUM	_	NUM__NumType=Card	11	nummod	_	_
+11	cm	cm	NOUN	_	NOUN__Gender=Masc	7	obl	_	_
+12	de	de	ADP	_	ADP___	13	case	_	_
+13	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	11	nmod:poss	_	_
+14	limite	limite	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+15	de	de	ADP	_	ADP___	17	case	_	_
+16	propriété	propriété	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	nmod	_	_
+17	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Est-ce Correct ?
+1	Est	être		_	VERB	0	ROOT	_	_
+2	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	3	punct	_	_
+3	Correct	Correct	PROPN	_	PROPN__Gender=Masc|Number=Sing	5	nmod	_	_
+4	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#D'avance, merci pour votre aide Belle journée à vous
+1	D'	D'	ADP	_	ADP___	5	case	_	_
+2	avance	avance	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+4	merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	appos	_	_
+5	pour	pour	ADP	_	ADP___	5	case	_	_
+6	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	7	nmod:poss	_	_
+7	aide	aide	NOUN	_	NOUN__Number=Sing	5	nmod	_	_
+8	Belle	Belle	PROPN	_	PROPN___	11	nmod	_	_
+9	journée	journée	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+10	à	à	ADP	_	ADP___	11	case	_	_
+11	vous	vous	PRON	_	PRON__Number=Plur|Person=2|PronType=Prs	7	nmod	_	_
+
+

@@ -1,0 +1,179 @@
+#Bonjour à tous, Voilà mon cas :
+1	Bonjour	Bonjour	PROPN	_	PROPN___	5	advmod	_	_
+2	à	à	ADP	_	ADP___	3	case	_	_
+3	tous	tout	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Rel	1	obl	_	_
+4	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+5	Voilà	voilà	VERB	_	VERB__Mood=Ind|VerbForm=Fin	0	ROOT	_	_
+6	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	7	nmod:poss	_	_
+7	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+8	:	:	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#- Arrêt maladie à partir du 09/10/2015
+1	-	-	PUNCT	_	PUNCT___	5	punct	_	_
+2	Arrêt	arrêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	amod	_	_
+3	maladie	maladie	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	à	à	ADP	_	ADP___	5	mark	_	_
+5	partir	partir	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+6	du	du	DET	_	DET__Gender=Masc|Number=Sing	7	det	_	_
+7	09/10/2015	09/10/2015	NOUN	_	NOUN__Gender=Masc|Number=Sing|NumType=Card	5	obj	_	_
+
+
+#- invalidité cat 2 à partir du 01/07/2018
+1	-	-	PUNCT	_	PUNCT___	5	punct	_	_
+2	invalidité	invaliditer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+3	cat	cat	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	nsubj	_	_
+4	2	2	NUM	_	NUM__NumType=Card	5	nummod	_	_
+5	à	à	ADP	_	ADP___	5	mark	_	_
+6	partir	partir	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+7	du	du	DET	_	DET__Gender=Masc|Number=Sing	5	iobj	_	_
+8	01/07/2018	01/07/2018	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nummod	_	_
+
+
+#- demande ald avec rétroactivité jamais demandé par mon médecin traitant le 10/07/2018 et accepte avec une rétroactivité à partir du 01/10/2017 (ald 100% exonérante) Étant donné que la sécu avait déjà envoyé le revenu a déclaré en 2017 et que la déclaration avait été faite j'ai voulu effectué une correction pour la période du 1/10/2017 au 31/12/2017 au services des impôts.
+1	-	-	PUNCT	_	PUNCT___	5	punct	_	_
+2	demande	demander	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	amod	_	_
+3	ald	ald	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	avec	avec	ADP	_	ADP___	5	case	_	_
+5	rétroactivité	rétroactivité	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+6	jamais	jamais	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+7	demandé	demander	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+8	par	par	ADP	_	ADP___	5	case	_	_
+9	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+10	médecin	médecin	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obl	_	_
+11	traitant	traiter	VERB	_	VERB__Tense=Pres|VerbForm=Part	11	acl	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	10/07/2018	10/07/2018	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+14	et	et	CCONJ	_	CCONJ___	15	cc	_	_
+15	accepte	accepter	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+16	avec	avec	ADP	_	ADP___	17	case	_	_
+17	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+18	rétroactivité	rétroactivité	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	obl	_	_
+19	à	à	ADP	_	ADP___	18	case	_	_
+20	partir	partir	VERB	_	VERB__VerbForm=Inf	21	fixed	_	_
+21	du	du	DET	_	DET__Gender=Masc|Number=Sing	18	det	_	_
+22	01/10/2017	01/10/2017	NOUN	_	NOUN__Gender=Masc|Number=Sing|NumType=Card	18	nmod	_	_
+23	(	(	PUNCT	_	PUNCT___	17	punct	_	_
+24	ald	ald	ADP	_	ADP___	26	appos	_	_
+25	100	100	NUM	_	NUM__NumType=Card	26	nummod	_	_
+26	%	%	NOUN	_	NOUN__Gender=Masc	26	obj	_	_
+27	exonérante	exonérant	ADJ	_	ADJ__Gender=Fem|Number=Sing	28	amod	_	_
+28	)	)	PUNCT	_	PUNCT___	26	punct	_	_
+29	Étant	être	VERB	_	VERB__Tense=Pres|VerbForm=Part	30	mark	_	_
+30	donné	donner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	fixed	_	_
+31	que	que	SCONJ	_	SCONJ___	33	fixed	_	_
+32	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	sécu	sécu	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	nsubj	_	_
+34	avait	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	33	aux	_	_
+35	déjà	déjà	ADV	_	ADV___	36	advmod	_	_
+36	envoyé	envoyer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	34	advcl	_	_
+37	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	revenu	revenu	NOUN	_	NOUN__Gender=Masc|Number=Sing	34	obj	_	_
+39	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	aux	_	_
+40	déclaré	déclarer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	41	parataxis	_	_
+41	en	en	ADP	_	ADP___	38	case	_	_
+42	2017	2017	NUM	_	NUM__NumType=Card	45	obl	_	_
+43	et	et	CCONJ	_	CCONJ___	42	cc	_	_
+44	que	que	SCONJ	_	SCONJ___	45	mark	_	_
+45	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+46	déclaration	déclaration	NOUN	_	NOUN__Gender=Fem|Number=Sing	41	nsubj:pass	_	_
+47	avait	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	41	aux	_	_
+48	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	49	aux:pass	_	_
+49	faite	faire	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	47	conj	_	_
+50	j'	il	PRON	_	PRON__Number=Sing|Person=1	47	nsubj	_	_
+51	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	41	aux	_	_
+52	voulu	vouloir	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	59	aux	_	_
+53	effectué	effectuer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	52	xcomp	_	_
+54	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	52	det	_	_
+55	correction	correction	NOUN	_	NOUN__Gender=Fem|Number=Sing	56	obj	_	_
+56	pour	pour	ADP	_	ADP___	59	case	_	_
+57	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	59	det	_	_
+58	période	période	NOUN	_	NOUN__Gender=Fem|Number=Sing	59	obl	_	_
+59	du	du	DET	_	DET__Gender=Masc|Number=Sing	38	det	_	_
+60	1/10/2017	1/10/2017	NUM	_	NUM__NumType=Card	61	obj	_	_
+61	au	au	NOUN	_	NOUN___	59	case	_	_
+62	31/12/2017	31/12/2017	NOUN	_	NOUN__NumType=Card	63	obl	_	_
+63	au	au	PRON	_	PRON__Person=3|Reflex=Yes	59	case	_	_
+64	services	service	NOUN	_	NOUN__Gender=Masc|Number=Plur	65	obl	_	_
+65	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	63	det	_	_
+66	impôts	impôt	NOUN	_	NOUN__Gender=Masc|Number=Plur	72	nmod	_	_
+67	.	.	PUNCT	_	PUNCT___	72	punct	_	_
+
+
+#Ils m'ont demandé un justificatif de la part de la cpam.
+1	Ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	5	nsubj	_	_
+2	m'	se	PRON	_	PRON__Number=Sing|Person=1	3	iobj	_	_
+3	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+4	demandé	demander	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+6	justificatif	justificatif	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+7	de	de	ADP	_	ADP___	5	case	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	fixed	_	_
+9	part	part	NOUN	_	NOUN__Number=Sing	10	fixed	_	_
+10	de	de	ADP	_	ADP___	11	fixed	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+12	cpam	cpam	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nmod	_	_
+13	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Après 4 appels et 5 mails il n'en démorde pas et me dise que les ijss sont à déclarer sur l'impot Sur le revenu !
+1	Après	Après	ADP	_	ADP___	5	case	_	_
+2	4	4	NUM	_	NUM__NumType=Card	3	nummod	_	_
+3	appels	appel	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+4	et	et	CCONJ	_	CCONJ___	5	cc	_	_
+5	5	5	NUM	_	NUM__NumType=Card	5	nummod	_	_
+6	mails	mail	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	conj	_	_
+7	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+8	n'	ne	ADV	_	ADV___	5	advmod	_	_
+9	en	en	ADP	_	ADP___	10	case	_	_
+10	démorde	démordre	NOUN	_	NOUN__Number=Sing	11	acl:relcl	_	_
+11	pas	pas	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+12	et	et	CCONJ	_	CCONJ___	13	cc	_	_
+13	me	se	PRON	_	PRON__Number=Sing|Person=1	11	expl	_	_
+14	dise	dire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	_
+15	que	que	SCONJ	_	SCONJ___	11	mark	_	_
+16	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	17	det	_	_
+17	ijss	ijs	NOUN	_	NOUN__Gender=Fem|Number=Plur	17	nsubj	_	_
+18	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+19	à	à	ADP	_	ADP___	18	mark	_	_
+20	déclarer	déclarer	VERB	_	VERB__VerbForm=Inf	21	ccomp	_	_
+21	sur	sur	ADP	_	ADP___	18	case	_	_
+22	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+23	impot	impot	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obl	_	_
+24	Sur	Sur	ADP	_	ADP___	26	case	_	_
+25	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	revenu	revenu	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	obl	_	_
+27	!	!	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#Est-ce normal ?
+1	Est	être		_	VERB	0	ROOT	_	_
+2	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	3	nsubj	_	_
+3	normal	normal	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	amod	_	_
+4	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#D'autres Personnes ont elles été dans cette situation et quelles solutions avez vous trouver ?
+1	D'	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
+2	autres	autre	ADJ	_	ADJ__Number=Plur	3	fixed	_	_
+3	Personnes	personne	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	nsubj	_	_
+4	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	elles	lui	PRON	_	PRON__Gender=Fem|Number=Plur|Person=3	5	nsubj	_	_
+6	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	7	cop	_	_
+7	dans	dan	ADP	_	ADP___	5	case	_	_
+8	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+9	situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obj	_	_
+10	et	et	CCONJ	_	CCONJ___	11	cc	_	_
+11	quelles	quel	DET	_	DET__Gender=Fem|Number=Plur|PronType=Int	11	det	_	_
+12	solutions	solution	NOUN	_	NOUN__Gender=Fem|Number=Plur	13	nsubj	_	_
+13	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	11	aux	_	_
+14	vous	vous	PRON	_	PRON__Number=Plur|Person=2	15	expl	_	_
+15	trouver	trouver	VERB	_	VERB__VerbForm=Inf	11	conj	_	_
+16	?	?	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Cordialement!
+1	Cordialement	cordialement	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	!	!	PUNCT	_	PUNCT___	3	punct	_	_
+
+

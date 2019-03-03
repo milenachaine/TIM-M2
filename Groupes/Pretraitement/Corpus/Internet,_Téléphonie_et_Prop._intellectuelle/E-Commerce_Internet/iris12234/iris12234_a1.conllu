@@ -1,0 +1,59 @@
+#Bonjour, ...mais je maintiens me demande concernant le contexte...
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	...	...	PUNCT	_	PUNCT___	1	punct	_	_
+4	mais	mais	CCONJ	_	CCONJ___	6	cc	_	_
+5	je	il	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+6	maintiens	maintenir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_
+7	me	se	PRON	_	PRON__Number=Sing|Person=1	8	iobj	_	_
+8	demande	demander	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+9	concernant	concerner	VERB	_	VERB__Tense=Pres|VerbForm=Part	8	xcomp	_	_
+10	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	contexte	contexte	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+12	...	...	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#En effet, "on" est certainement aux fraises.
+1	En	En	ADP	_	ADP___	1	advmod	_	_
+2	effet	effet	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	"	"	PUNCT	_	PUNCT___	6	punct	_	_
+5	on	on	PRON	_	PRON__Number=Sing|Person=3	6	nsubj	_	_
+6	"	"	PUNCT	_	PUNCT___	1	punct	_	_
+7	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	certainement	certainement	ADV	_	ADV___	6	advmod	_	_
+9	aux	aux	ADJ	_	ADJ__Gender=Masc|Number=Plur	8	cop	_	_
+10	fraises	fraise	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+11	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Mais dans certains cas particuliers, ma réponse sera plus hésitante ;
+1	Mais	Mais	CCONJ	_	CCONJ___	1	cc	_	_
+2	dans	dan	ADP	_	ADP___	1	case	_	_
+3	certains	certain	DET	_	DET__Gender=Masc|Number=Plur	1	det	_	_
+4	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	obl	_	_
+5	particuliers	particulier	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	amod	_	_
+6	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+7	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	8	nmod:poss	_	_
+8	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nsubj	_	_
+9	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	cop	_	_
+10	plus	plus	ADV	_	ADV___	11	advmod	_	_
+11	hésitante	hésitant	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+12	;	;	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#un exemple : l'adresse mail pro... d'un avocat !
+1	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+4	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+5	adresse	adresse	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	aux	_	_
+6	mail	mail	ADP	_	ADP___	1	acl	_	_
+7	pro	pro	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	advmod	_	_
+8	...	...	PUNCT	_	PUNCT___	6	punct	_	_
+9	d'	de	ADP	_	ADP___	8	case	_	_
+10	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obl	_	_
+12	!	!	PUNCT	_	PUNCT___	1	punct	_	_
+
+

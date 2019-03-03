@@ -1,0 +1,326 @@
+#Bonjour, Je viens vers vous aujourd'hui car j'ai un problème.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	Je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+4	viens	venir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	acl	_	_
+5	vers	ver	ADP	_	ADP___	7	case	_	_
+6	vous	vous	PRON	_	PRON__Number=Plur|Person=2	7	nsubj	_	_
+7	aujourd'hui	aujourd'huie	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	obl	_	_
+8	car	car	CCONJ	_	CCONJ___	10	cc	_	_
+9	j'	il	PRON	_	PRON__Number=Sing|Person=1	10	nsubj	_	_
+10	ai	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_
+11	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	problème	problème	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+13	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Je suis accusé d'avoir détruit une barrière forestière lors d'une soirée.
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj:pass	_	_
+2	suis	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+3	accusé	accuser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+4	d'	de	ADP	_	ADP___	1	mark	_	_
+5	avoir	avoir	AUX	_	AUX__VerbForm=Inf	7	aux	_	_
+6	détruit	détruire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	xcomp	_	_
+7	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+8	barrière	barrière	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obj	_	_
+9	forestière	forestier	ADJ	_	ADJ__Gender=Fem|Number=Sing	10	amod	_	_
+10	lors	lors	ADV	_	ADV___	1	case	_	_
+11	d'	de	ADP	_	ADP___	12	fixed	_	_
+12	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+13	soirée	soirée	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obl	_	_
+14	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Pourquoi je suis accusé ?
+1	Pourquoi	pourquoi	ADV	_	ADV__PronType=Int	1	advmod	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj:pass	_	_
+3	suis	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	accusé	accuser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+5	?	?	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Parce que j'ai fais l'erreur de donner mon nom au propriétaire afin qu'il n'appelle pas la gendarmerie sur le coup et pour éviter à mes amis de perdre leurs permis.
+1	Parce	Parce	SCONJ	_	SCONJ___	1	mark	_	_
+2	que	que	SCONJ	_	SCONJ___	4	fixed	_	_
+3	j'	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+4	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
+5	fais	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	erreur	erreur	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obj	_	_
+8	de	de	ADP	_	ADP___	10	mark	_	_
+9	donner	donner	VERB	_	VERB__VerbForm=Inf	10	acl	_	_
+10	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+11	nom	nom	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+12	au	au	PRON	_	PRON__PronType=Rel	10	expl	_	_
+13	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	0	ROOT	_	_
+14	afin	afin	ADP	_	ADP___	16	mark	_	_
+15	qu'	que	SCONJ	_	SCONJ___	16	fixed	_	_
+16	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	16	nsubj	_	_
+17	n'	ne	ADV	_	ADV__Polarity=Neg	19	advmod	_	_
+18	appelle	appeler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	advcl	_	_
+19	pas	pas	ADV	_	ADV__Polarity=Neg	16	advmod	_	_
+20	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	gendarmerie	gendarmerie	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obj	_	_
+22	sur	sur	ADP	_	ADP___	21	case	_	_
+23	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+24	coup	coup	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	obl	_	_
+25	et	et	CCONJ	_	CCONJ___	26	cc	_	_
+26	pour	pour	ADP	_	ADP___	19	mark	_	_
+27	éviter	éviter	VERB	_	VERB__VerbForm=Inf	16	conj	_	_
+28	à	à	ADP	_	ADP___	31	case	_	_
+29	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	31	nmod:poss	_	_
+30	amis	ami	NOUN	_	NOUN__Gender=Masc|Number=Plur	31	obl	_	_
+31	de	de	ADP	_	ADP___	31	mark	_	_
+32	perdre	perdre	VERB	_	VERB__VerbForm=Inf	31	xcomp	_	_
+33	leurs	leur	DET	_	DET__Number=Plur|Poss=Yes	37	nmod:poss	_	_
+34	permis	permis	NOUN	_	NOUN__Gender=Masc|Number=Plur	33	obj	_	_
+35	.	.	PUNCT	_	PUNCT___	37	punct	_	_
+
+
+#J'étais dans un démarche d'honnêteté, mais après lorsque j'ai reçu un émail du propriétaire?/garde forestier?
+1	J'	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	étais	être	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+3	dans	dan	ADP	_	ADP___	4	case	_	_
+4	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+5	démarche	démarcher	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+6	d'	de	ADP	_	ADP___	7	case	_	_
+7	honnêteté	honnêteté	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+8	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+9	mais	mais	CCONJ	_	CCONJ___	10	cc	_	_
+10	après	après	ADP	_	ADP___	1	mark	_	_
+11	lorsque	lorsque	SCONJ	_	SCONJ___	12	fixed	_	_
+12	j'	il	PRON	_	PRON__Number=Sing|Person=1	10	nsubj	_	_
+13	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
+14	reçu	recevoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	conj	_	_
+15	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	émail	émail	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obj	_	_
+17	du	du	DET	_	DET__Gender=Masc|Number=Sing	19	det	_	_
+18	propriétaire?/garde	propriétaire?/garde	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obj	_	_
+19	forestier	forestier	ADJ	_	ADJ__Gender=Masc|Number=Sing	16	amod	_	_
+20	?	?	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#j'ai tt nié en disant que qqcn avait dû donner mon identité.
+1	j'	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	tt	tt	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	det	_	_
+4	nié	nier	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+5	en	en	ADP	_	ADP___	7	mark	_	_
+6	disant	dire	VERB	_	VERB__Tense=Pres|VerbForm=Part	7	advcl	_	_
+7	que	que	SCONJ	_	SCONJ___	4	mark	_	_
+8	qqcn	qqcn	SCONJ	_	SCONJ___	10	nsubj	_	_
+9	avait	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+10	dû	devoir	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	aux	_	_
+11	donner	donner	VERB	_	VERB__VerbForm=Inf	12	ccomp	_	_
+12	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+13	identité	identité	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obj	_	_
+14	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#J'ai été contacté par la gendarmerie par mail il y a de ça 3 mois, j'avais précisé que je ne voulais plus être dérangé par cette affaire.
+1	J'	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj:pass	_	_
+2	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	4	aux:pass	_	_
+4	contacté	contacter	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	par	par	ADP	_	ADP___	7	case	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	gendarmerie	gendarmerie	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obl	_	_
+8	par	par	ADP	_	ADP___	10	case	_	_
+9	mail	mail	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obl	_	_
+10	il	il	PRON	_	PRON__Number=Sing|Person=3	1	case	_	_
+11	y	yu	PRON	_	PRON__Person=3	12	fixed	_	_
+12	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	fixed	_	_
+13	de	de	ADP	_	ADP___	1	fixed	_	_
+14	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	16	nmod	_	_
+15	3	3	NUM	_	NUM__NumType=Card	16	nummod	_	_
+16	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	nmod	_	_
+17	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+18	j'	il	PRON	_	PRON__Number=Sing|Person=1	19	nsubj	_	_
+19	avais	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+20	précisé	préciser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	conj	_	_
+21	que	que	SCONJ	_	SCONJ___	19	mark	_	_
+22	je	il	PRON	_	PRON__Number=Sing|Person=1	21	nsubj	_	_
+23	ne	ne	ADV	_	ADV__Polarity=Neg	26	advmod	_	_
+24	voulais	vouloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	23	ccomp	_	_
+25	plus	plus	ADV	_	ADV___	26	advmod	_	_
+26	être	être	AUX	_	AUX__VerbForm=Inf	19	aux:pass	_	_
+27	dérangé	déranger	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	16	xcomp	_	_
+28	par	par	ADP	_	ADP___	31	case	_	_
+29	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	31	det	_	_
+30	affaire	affaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	obl	_	_
+31	.	.	PUNCT	_	PUNCT___	31	punct	_	_
+
+
+#Sauf qu'hier j'ai reçu un appel de la gendarmerie pour cette affaires.
+1	Sauf	Sauf	ADP	_	ADP___	1	mark	_	_
+2	qu'	que	SCONJ	_	SCONJ___	4	fixed	_	_
+3	hier	hier	ADV	_	ADV___	4	punct	_	_
+4	j'	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+5	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	reçu	recevoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+8	appel	appel	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+9	de	de	ADP	_	ADP___	10	case	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+11	gendarmerie	gendarmerie	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+12	pour	pour	ADP	_	ADP___	10	case	_	_
+13	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	1	det	_	_
+14	affaires	affaire	NOUN	_	NOUN__Gender=Fem|Number=Plur	16	obl	_	_
+15	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Ils m'ont demandé de me rendre en Gendarmerie samedi, mais au final nous aurons un entretien téléphonique ce soir.
+1	Ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	1	nsubj	_	_
+2	m'	se	PRON	_	PRON__Number=Sing|Person=1	4	expl	_	_
+3	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	demandé	demander	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	de	de	ADP	_	ADP___	7	mark	_	_
+6	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	7	expl	_	_
+7	rendre	rendre	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+8	en	en	ADP	_	ADP___	10	case	_	_
+9	Gendarmerie	gendarmerie	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obl	_	_
+10	samedi	samedi	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obj	_	_
+11	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+12	mais	mais	CCONJ	_	CCONJ___	10	cc	_	_
+13	au	au	PRON	_	PRON__PronType=Rel	1	advmod	_	_
+14	final	final	ADJ	_	ADJ__Gender=Masc|Number=Sing	16	nsubj	_	_
+15	nous	nous	PRON	_	PRON__Number=Plur|Person=1	16	iobj	_	_
+16	aurons	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	16	conj	_	_
+17	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	entretien	entretien	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obj	_	_
+19	téléphonique	téléphonique	ADJ	_	ADJ__Number=Sing	16	amod	_	_
+20	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	21	det	_	_
+21	soir	soir	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	nmod	_	_
+22	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Je suis étudiant et je n'ai pas les moyens de rembourser une barrière forestière que je n'ai pas cassée et qui coûte 1200e.
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	suis	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+3	étudiant	étudiant	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	et	et	CCONJ	_	CCONJ___	1	cc	_	_
+5	je	il	PRON	_	PRON__Number=Sing|Person=1	7	nsubj	_	_
+6	n'	ne	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+7	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	_
+8	pas	pas	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+9	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	10	det	_	_
+10	moyens	moyen	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	obj	_	_
+11	de	de	ADP	_	ADP___	12	mark	_	_
+12	rembourser	rembourser	VERB	_	VERB__VerbForm=Inf	10	acl	_	_
+13	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+14	barrière	barrière	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obj	_	_
+15	forestière	forestier	ADJ	_	ADJ__Gender=Fem|Number=Sing	16	amod	_	_
+16	que	que	SCONJ	_	SCONJ___	16	mark	_	_
+17	je	il	PRON	_	PRON__Number=Sing|Person=1	19	nsubj	_	_
+18	n'	ne	ADV	_	ADV__Polarity=Neg	19	advmod	_	_
+19	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+20	pas	pas	ADV	_	ADV__Polarity=Neg	21	advmod	_	_
+21	cassée	casser	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	19	ccomp	_	_
+22	et	et	CCONJ	_	CCONJ___	21	cc	_	_
+23	qui	qui	PRON	_	PRON__PronType=Rel	26	nsubj	_	_
+24	coûte	coûter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	conj	_	_
+25	1200e	1200e	NOUN	_	NOUN__NumType=Card	26	obj	_	_
+26	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#J'aimerais donc savoir quelle démarche je dois adopter dans cette affaire.
+1	J'	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	aimerais	aimer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	donc	donc	ADV	_	ADV___	4	advmod	_	_
+4	savoir	savoir	VERB	_	VERB__VerbForm=Inf	1	xcomp	_	_
+5	quelle	quel	DET	_	DET__Gender=Fem|Number=Sing|PronType=Int	7	det	_	_
+6	démarche	démarcher	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nsubj	_	_
+7	je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+8	dois	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	adopter	adopter	VERB	_	VERB__VerbForm=Inf	10	ccomp	_	_
+10	dans	dan	ADP	_	ADP___	1	case	_	_
+11	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+12	affaire	affaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obl	_	_
+13	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Est
+1	Est	être	ADV	_	ADV___	0	ROOT	_	_
+
+
+#-il possible de me faire condamné pour cet acte que je n'ai pas commis ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+3	possible	possible	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+4	de	de	ADP	_	ADP___	1	mark	_	_
+5	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	7	iobj	_	_
+6	faire	faire	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+7	condamné	condamner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	xcomp	_	_
+8	pour	pour	ADP	_	ADP___	10	case	_	_
+9	cet	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+10	acte	acte	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+11	que	que	SCONJ	_	SCONJ___	12	mark	_	_
+12	je	il	PRON	_	PRON__Number=Sing|Person=1	10	nsubj	_	_
+13	n'	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+14	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	pas	pas	ADV	_	ADV__Polarity=Neg	16	advmod	_	_
+16	commis	commettre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+17	?	?	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Dois
+1	Dois	Dois	NUM	_	NUM__NumType=Card	0	ROOT	_	_
+
+
+#-je continuer de nier et de dire que qqcn à donné mon identité?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+3	continuer	continuer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	de	de	ADP	_	ADP___	1	case	_	_
+5	nier	nier	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+6	et	et	CCONJ	_	CCONJ___	7	cc	_	_
+7	de	de	ADP	_	ADP___	4	mark	_	_
+8	dire	dire	VERB	_	VERB__VerbForm=Inf	10	conj	_	_
+9	que	que	SCONJ	_	SCONJ___	10	mark	_	_
+10	qqcn	qqcn	SCONJ	_	SCONJ___	1	ccomp	_	_
+11	à	à	ADP	_	ADP___	12	mark	_	_
+12	donné	donner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
+13	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+14	identité	identité	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nsubj	_	_
+15	?	?	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Dois
+1	Dois	Dois	NUM	_	NUM__NumType=Card	0	ROOT	_	_
+
+
+#-je être honnête et dire la vérité ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+3	être	être	AUX	_	AUX__VerbForm=Inf	4	cop	_	_
+4	honnête	honnête	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+5	et	et	CCONJ	_	CCONJ___	7	cc	_	_
+6	dire	dire	VERB	_	VERB__VerbForm=Inf	7	conj	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+8	vérité	vérité	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obj	_	_
+9	?	?	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Je vous remercie d'avance de vos réponse, j'ai grand besoin de conseils.
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	4	obj	_	_
+3	remercie	remercier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	d'	de	ADP	_	ADP___	1	case	_	_
+5	avance	avance	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obl	_	_
+6	de	de	ADP	_	ADP___	7	case	_	_
+7	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	4	nmod:poss	_	_
+8	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+9	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+10	j'	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+11	ai	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	parataxis	_	_
+12	grand	grand	ADJ	_	ADJ__Gender=Masc|Number=Sing	10	amod	_	_
+13	besoin	besoin	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+14	de	de	ADP	_	ADP___	16	case	_	_
+15	conseils	conseil	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	nmod	_	_
+16	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Tristan
+1	Tristan	Tristan	PROPN	_	PROPN___	0	ROOT	_	_
+
+

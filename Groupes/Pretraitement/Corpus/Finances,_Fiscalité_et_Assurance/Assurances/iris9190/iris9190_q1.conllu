@@ -1,0 +1,213 @@
+#Bonjour, Je viens vers vous aujourd'hui car j'ai un problème avec mes assurances .
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	Je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+4	viens	venir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	acl	_	_
+5	vers	ver	ADP	_	ADP___	7	case	_	_
+6	vous	vous	PRON	_	PRON__Number=Plur|Person=2	7	nsubj	_	_
+7	aujourd'hui	aujourd'huie	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	obl	_	_
+8	car	car	CCONJ	_	CCONJ___	10	cc	_	_
+9	j'	il	PRON	_	PRON__Number=Sing|Person=1	10	nsubj	_	_
+10	ai	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_
+11	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	problème	problème	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+13	avec	avec	ADP	_	ADP___	15	case	_	_
+14	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	15	nmod:poss	_	_
+15	assurances	assurance	NOUN	_	NOUN__Gender=Fem|Number=Plur	12	nmod	_	_
+16	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Actuellement assuré chez XX pour ma voiture, et YY pour mon assurance habitation, j'ai souhaiter changer pour regrouper l'assurance voiture et habitation chez XX .
+1	Actuellement	Actuellement	PROPN	_	PROPN__Gender=Masc|Number=Sing	1	advmod	_	_
+2	assuré	assurer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	obl	_	_
+3	chez	chez	ADP	_	ADP___	4	case	_	_
+4	XX	xx	NOUN	_	NOUN___	1	advcl	_	_
+5	pour	pour	ADP	_	ADP___	7	case	_	_
+6	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	7	nmod:poss	_	_
+7	voiture	voiture	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obl	_	_
+8	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+9	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+10	YY	YY	PROPN	_	PROPN__Gender=Masc|Number=Sing	1	conj	_	_
+11	pour	pour	ADP	_	ADP___	12	case	_	_
+12	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+13	assurance	assurance	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	nmod	_	_
+14	habitation	habitation	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	nmod	_	_
+15	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+16	j'	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+17	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	souhaiter	souhaiter	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+19	changer	changer	VERB	_	VERB__VerbForm=Inf	20	xcomp	_	_
+20	pour	pour	ADP	_	ADP___	18	mark	_	_
+21	regrouper	regrouper	VERB	_	VERB__VerbForm=Inf	23	advcl	_	_
+22	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+23	assurance	assurance	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obj	_	_
+24	voiture	voitur	ADJ	_	ADJ__Gender=Fem|Number=Sing	18	amod	_	_
+25	et	et	CCONJ	_	CCONJ___	26	cc	_	_
+26	habitation	habitation	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	conj	_	_
+27	chez	chez	ADP	_	ADP___	29	mark	_	_
+28	XX	xx	NOUN	_	NOUN__NumType=Card	29	obl	_	_
+29	.	.	PUNCT	_	PUNCT___	26	punct	_	_
+
+
+#Lors de la souscription, J'avertie XX que je suis assuré chez YY depuis 10 ans, mais que mon contrat habitation a été modifié parce que j'ai déménagé cet été , XX m'assure qu'il n'y aura aucun problème , nous envoyons donc la lettre de résiliation à YY .
+1	Lors	lors	ADV	_	ADV___	1	case	_	_
+2	de	de	ADP	_	ADP___	4	fixed	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	souscription	souscription	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obl	_	_
+5	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+6	J'	il	PRON	_	PRON__Number=Sing|Person=1	7	nsubj:pass	_	_
+7	avertie	avertir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	amod	_	_
+8	XX	XX	PROPN	_	PROPN___	10	amod	_	_
+9	que	que	SCONJ	_	SCONJ___	10	mark	_	_
+10	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj:pass	_	_
+11	suis	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
+12	assuré	assurer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+13	chez	chez	ADP	_	ADP___	15	case	_	_
+14	YY	YY	PROPN	_	PROPN__Gender=Masc|Number=Sing	15	obl	_	_
+15	depuis	depuis	ADP	_	ADP___	12	case	_	_
+16	10	10	NUM	_	NUM__NumType=Card	1	nummod	_	_
+17	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	18	obl	_	_
+18	,	,	PUNCT	_	PUNCT___	34	punct	_	_
+19	mais	mais	CCONJ	_	CCONJ___	20	cc	_	_
+20	que	que	SCONJ	_	SCONJ___	18	mark	_	_
+21	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	23	nmod:poss	_	_
+22	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	nsubj	_	_
+23	habitation	habitation	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	amod	_	_
+24	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+25	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	26	aux:pass	_	_
+26	modifié	modifier	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	conj	_	_
+27	parce	parce	SCONJ	_	SCONJ___	29	mark	_	_
+28	que	que	SCONJ	_	SCONJ___	29	fixed	_	_
+29	j'	il	PRON	_	PRON__Number=Sing|Person=1	26	nsubj	_	_
+30	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	29	aux	_	_
+31	déménagé	déménager	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	34	advcl	_	_
+32	cet	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	34	det	_	_
+33	été	été	NOUN	_	NOUN__Gender=Masc|Number=Sing	34	obj	_	_
+34	,	,	PUNCT	_	PUNCT___	34	punct	_	_
+35	XX	XX	PROPN	_	PROPN___	34	conj	_	_
+36	m'	se	PRON	_	PRON__Number=Sing|Person=1	37	expl	_	_
+37	assure	assurer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	xcomp	_	_
+38	qu'	que	SCONJ	_	SCONJ___	39	mark	_	_
+39	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	37	nsubj	_	_
+40	n'	ne	ADV	_	ADV___	39	advmod	_	_
+41	y	yu	PRON	_	PRON__Person=3	42	expl	_	_
+42	aura	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	40	ccomp	_	_
+43	aucun	aucun	DET	_	DET__Gender=Masc|Number=Sing	44	det	_	_
+44	problème	problème	NOUN	_	NOUN__Gender=Masc|Number=Sing	37	obj	_	_
+45	,	,	PUNCT	_	PUNCT___	34	punct	_	_
+46	nous	nous	PRON	_	PRON__Number=Plur|Person=1	49	nsubj	_	_
+47	envoyons	envoyer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	46	conj	_	_
+48	donc	donc	ADV	_	ADV___	49	advmod	_	_
+49	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	57	det	_	_
+50	lettre	lettre	NOUN	_	NOUN__Gender=Fem|Number=Sing	57	obj	_	_
+51	de	de	ADP	_	ADP___	57	case	_	_
+52	résiliation	résiliation	NOUN	_	NOUN__Gender=Fem|Number=Sing	51	nmod	_	_
+53	à	à	ADP	_	ADP___	51	case	_	_
+54	YY	YY	PROPN	_	PROPN__Gender=Masc|Number=Sing	57	nmod	_	_
+55	.	.	PUNCT	_	PUNCT___	57	punct	_	_
+
+
+#J'ai reçu hier un courrier de YY m'expliquant que ma résiliation était refusée dans le cadre de la loi H car mon contrat n'avait pas 1 an ... XX me dit par téléphone qu'ils ne peuvent rien faire pour moi, mais maintiennent que je peux résilier vu que ce n'était qu'une modification de contrat ( déménagement ) .
+1	J'	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	reçu	recevoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	hier	hier	ADV	_	ADV___	1	advmod	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	courrier	courrier	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+7	de	de	ADP	_	ADP___	4	case	_	_
+8	YY	YY	PROPN	_	PROPN__Gender=Masc|Number=Sing	10	nmod	_	_
+9	m'	se	PRON	_	PRON__Number=Sing|Person=1	10	iobj	_	_
+10	expliquant	expliquer	VERB	_	VERB__Tense=Pres|VerbForm=Part	1	xcomp	_	_
+11	que	que	SCONJ	_	SCONJ___	12	mark	_	_
+12	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	10	nmod:poss	_	_
+13	résiliation	résiliation	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	nsubj:pass	_	_
+14	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	aux:pass	_	_
+15	refusée	refuser	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	ccomp	_	_
+16	dans	dan	ADP	_	ADP___	1	case	_	_
+17	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	fixed	_	_
+18	cadre	cadre	NOUN	_	NOUN__Gender=Masc|Number=Sing	34	fixed	_	_
+19	de	de	ADP	_	ADP___	20	fixed	_	_
+20	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+21	loi	loi	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	obl	_	_
+22	H	h	NOUN	_	NOUN___	23	nmod	_	_
+23	car	car	CCONJ	_	CCONJ___	20	cc	_	_
+24	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	18	nmod:poss	_	_
+25	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	nsubj	_	_
+26	n'	ne	ADV	_	ADV__Polarity=Neg	18	advmod	_	_
+27	avait	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	conj	_	_
+28	pas	pas	ADV	_	ADV__Polarity=Neg	29	advmod	_	_
+29	1	1	NUM	_	NUM__NumType=Card	26	nummod	_	_
+30	an	an	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	obj	_	_
+31	...	...	PUNCT	_	PUNCT___	34	punct	_	_
+32	XX	XX	NUM	_	NUM__NumType=Card	34	parataxis	_	_
+33	me	se	PRON	_	PRON__Number=Sing|Person=1	34	iobj	_	_
+34	dit	dire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	conj	_	_
+35	par	par	ADP	_	ADP___	34	case	_	_
+36	téléphone	téléphoner	NOUN	_	NOUN__Gender=Masc|Number=Sing	37	obl	_	_
+37	qu'	que	SCONJ	_	SCONJ___	35	mark	_	_
+38	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	39	nsubj	_	_
+39	ne	ne	ADV	_	ADV___	37	advmod	_	_
+40	peuvent	pouvoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	39	acl:relcl	_	_
+41	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	42	obj	_	_
+42	faire	faire	VERB	_	VERB__VerbForm=Inf	40	acl	_	_
+43	pour	pour	ADP	_	ADP___	44	case	_	_
+44	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	37	obl	_	_
+45	,	,	PUNCT	_	PUNCT___	34	punct	_	_
+46	mais	mais	CCONJ	_	CCONJ___	49	cc	_	_
+47	maintiennent	maintenir	ADV	_	ADV___	46	advmod	_	_
+48	que	que	SCONJ	_	SCONJ___	49	mark	_	_
+49	je	il	PRON	_	PRON__Number=Sing|Person=1	57	nsubj	_	_
+50	peux	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	57	aux	_	_
+51	résilier	résilier	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	57	det	_	_
+52	vu	voir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	51	mark	_	_
+53	que	que	SCONJ	_	SCONJ___	51	fixed	_	_
+54	ce	ce	PRON	_	PRON__Number=Sing|Person=3	57	nsubj	_	_
+55	n'	ne	ADV	_	ADV___	57	advmod	_	_
+56	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	57	cop	_	_
+57	qu'	que	ADV	_	ADV___	57	advmod	_	_
+58	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	59	det	_	_
+59	modification	modification	NOUN	_	NOUN__Gender=Fem|Number=Sing	57	conj	_	_
+60	de	de	ADP	_	ADP___	62	case	_	_
+61	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	62	nmod	_	_
+62	(	(	PUNCT	_	PUNCT___	57	punct	_	_
+63	déménagement	déménagemer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	57	appos	_	_
+64	)	)	PUNCT	_	PUNCT___	71	punct	_	_
+65	.	.	PUNCT	_	PUNCT___	71	punct	_	_
+
+
+#Ils me conseillent de saisir un médiateur si mon ancienne assurance ne change pas d'avis .
+1	Ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	1	nsubj	_	_
+2	me	se	PRON	_	PRON__Number=Sing|Person=1	4	expl	_	_
+3	conseillent	conseiller	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+4	de	de	ADP	_	ADP___	1	mark	_	_
+5	saisir	saisir	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	médiateur	médiateur	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obj	_	_
+8	si	si	SCONJ	_	SCONJ___	10	case	_	_
+9	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+10	ancienne	ancien	ADJ	_	ADJ__Gender=Fem|Number=Sing	1	amod	_	_
+11	assurance	assurance	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obl	_	_
+12	ne	ne	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+13	change	change	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	amod	_	_
+14	pas	pas	ADV	_	ADV__Polarity=Neg	15	advmod	_	_
+15	d'	de	ADP	_	ADP___	12	case	_	_
+16	avis	avis	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+17	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Qu'en pensez vous ?
+1	Qu'	que	PRON	_	PRON__PronType=Int	1	obj	_	_
+2	en	en	PRON	_	PRON__Person=3	4	expl	_	_
+3	pensez	penser	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	vous	vous	PRON	_	PRON__Number=Plur|Person=2	0	ROOT	_	_
+5	?	?	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Merci, et bonne journée
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	et	et	CCONJ	_	CCONJ___	4	cc	_	_
+4	bonne	bon	ADJ	_	ADJ__Gender=Fem|Number=Sing	1	amod	_	_
+5	journée	journée	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	conj	_	_
+
+

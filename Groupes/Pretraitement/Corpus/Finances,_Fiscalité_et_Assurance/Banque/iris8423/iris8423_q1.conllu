@@ -1,0 +1,216 @@
+#Bonjour, Je suis marié et j'ai deux fils, Eric et Paul :
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+4	suis	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	marié	marié	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	acl:relcl	_	_
+6	et	et	CCONJ	_	CCONJ___	8	cc	_	_
+7	j'	il	PRON	_	PRON__Number=Sing|Person=1	8	nsubj	_	_
+8	ai	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	_
+9	deux	deux	NUM	_	NUM__NumType=Card	10	nummod	_	_
+10	fils	fils	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obj	_	_
+11	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+12	Eric	Eric	PROPN	_	PROPN__Gender=Masc|Number=Sing	10	conj	_	_
+13	et	et	CCONJ	_	CCONJ___	14	cc	_	_
+14	Paul	Paul	PROPN	_	PROPN__Gender=Masc|Number=Sing	10	conj	_	_
+15	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Eric est marié sans contrat de mariage et a un fils Jean.
+1	Eric	Eric	PROPN	_	PROPN__Gender=Masc|Number=Sing	1	nsubj:pass	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
+3	marié	marié	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	sans	sans	ADP	_	ADP___	5	case	_	_
+5	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+6	de	de	ADP	_	ADP___	8	case	_	_
+7	mariage	mariage	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+8	et	et	CCONJ	_	CCONJ___	5	cc	_	_
+9	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+10	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+11	fils	fils	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+12	Jean	Jean	PROPN	_	PROPN__Gender=Fem|Number=Sing	10	nmod	_	_
+13	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Paul est marié sous le régime de la séparation des biens et a une fille Marie.
+1	Paul	Paul	PROPN	_	PROPN__Gender=Masc|Number=Sing	1	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
+3	marié	marié	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	sous	sou	ADP	_	ADP___	5	case	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+6	régime	régime	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+7	de	de	ADP	_	ADP___	8	case	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+9	séparation	séparation	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+10	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
+11	biens	bien	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	nmod	_	_
+12	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+13	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+14	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+15	fille	fille	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obj	_	_
+16	Marie	marier	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	nmod	_	_
+17	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Ma clause bénéficiaire désigne « mes enfants Eric et Paul par parts égales, vivants ou représentés » Lors de mon décès : a/
+1	Ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	clause	clause	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+3	bénéficiaire	bénéficiaire	ADJ	_	ADJ__Number=Sing	5	amod	_	_
+4	désigne	désigner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	«	«	PUNCT	_	PUNCT___	1	punct	_	_
+6	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	8	nmod:poss	_	_
+7	enfants	enfant	NOUN	_	NOUN__Number=Plur	8	obj	_	_
+8	Eric	Eric	PROPN	_	PROPN__Gender=Masc|Number=Sing	5	flat:name	_	_
+9	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+10	Paul	Paul	PROPN	_	PROPN__Gender=Masc|Number=Sing	8	conj	_	_
+11	par	par	ADP	_	ADP___	12	case	_	_
+12	parts	part	NOUN	_	NOUN__Number=Plur	10	nmod	_	_
+13	égales	égal	ADJ	_	ADJ__Gender=Fem|Number=Plur	14	amod	_	_
+14	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+15	vivants	vivant	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	conj	_	_
+16	ou	ou	CCONJ	_	CCONJ___	18	cc	_	_
+17	représentés	représenter	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	18	conj	_	_
+18	»	»	PUNCT	_	PUNCT___	18	punct	_	_
+19	Lors	lors	ADV	_	ADV___	20	case	_	_
+20	de	de	ADP	_	ADP___	18	fixed	_	_
+21	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	22	nmod:poss	_	_
+22	décès	décès	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obl	_	_
+23	:	:	PUNCT	_	PUNCT___	24	punct	_	_
+24	a/	a/	ADV	_	ADV___	18	obl	_	_
+
+
+#Si Eric est prédécédé : sa part ira-t-elle bien à 100% à son fils Jean ?
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	Eric	Eric	PROPN	_	PROPN__Gender=Masc|Number=Sing	1	nsubj:pass	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+4	prédécédé	prédécéder	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+5	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+6	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	8	nmod:poss	_	_
+7	part	part	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	fixed	_	_
+8	ira	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	parataxis	_	_
+9	-	-	PUNCT	_	PUNCT___	10	punct	_	_
+10	t	t	NOUN	_	NOUN__Gender=Fem|Number=Plur	8	obl	_	_
+11	-	-	PUNCT	_	PUNCT___	12	punct	_	_
+12	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	10	fixed	_	_
+13	bien	bien	ADV	_	ADV___	14	advmod	_	_
+14	à	à	ADP	_	ADP___	10	case	_	_
+15	100	100	NUM	_	NUM__NumType=Card	1	nummod	_	_
+16	%	%	NOUN	_	NOUN__Gender=Masc	18	nmod	_	_
+17	à	à	ADP	_	ADP___	18	case	_	_
+18	son	son	DET	_	DET__Number=Sing|Poss=Yes	18	nmod:poss	_	_
+19	fils	fils	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	nmod	_	_
+20	Jean	Jean	PROPN	_	PROPN__Gender=Fem|Number=Sing	18	nmod	_	_
+21	?	?	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#b/
+1	b/	b/	ADV	_	ADV___	0	ROOT	_	_
+
+
+#Si Eric et son fils
+1	Si	Si	SCONJ	_	SCONJ___	1	case	_	_
+2	Eric	Eric	PROPN	_	PROPN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	et	et	CCONJ	_	CCONJ___	5	cc	_	_
+4	son	son	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+5	fils	fils	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	conj	_	_
+
+
+#Jean sont prédécédés, leur part ira-t-elle bien à mon autre fils Paul ?
+1	Jean	Jean	PROPN	_	PROPN__Gender=Fem|Number=Sing	1	nsubj	_	_
+2	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	prédécédés	prédécéder	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+5	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+6	part	part	NOUN	_	NOUN__Number=Sing	8	nsubj	_	_
+7	ira	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	parataxis	_	_
+8	-	-	PUNCT	_	PUNCT___	5	punct	_	_
+9	t	t	NOUN	_	NOUN__Gender=Fem|Number=Plur	10	parataxis	_	_
+10	-	-	PUNCT	_	PUNCT___	8	fixed	_	_
+11	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	12	punct	_	_
+12	bien	bien	ADV	_	ADV___	10	advmod	_	_
+13	à	à	ADP	_	ADP___	14	case	_	_
+14	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+15	autre	autre	ADJ	_	ADJ__Number=Sing	1	amod	_	_
+16	fils	fils	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obl	_	_
+17	Paul	Paul	PROPN	_	PROPN__Gender=Masc|Number=Sing	18	nmod	_	_
+18	?	?	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Dans le même esprit a/
+1	Dans	Dans	ADP	_	ADP___	1	case	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+3	même	même	ADJ	_	ADJ__Number=Sing	5	amod	_	_
+4	esprit	esprit	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	a/	a/	ADV	_	ADV___	1	nmod	_	_
+
+
+#Si Paul est prédécédé : sa part ira-t-elle bien à 100% à sa fille Marie ?
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	Paul	Paul	PROPN	_	PROPN__Gender=Masc|Number=Sing	1	nsubj:pass	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+4	prédécédé	prédécéder	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+5	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+6	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	8	nmod:poss	_	_
+7	part	part	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	fixed	_	_
+8	ira	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	parataxis	_	_
+9	-	-	PUNCT	_	PUNCT___	10	punct	_	_
+10	t	t	NOUN	_	NOUN__Gender=Fem|Number=Plur	8	obl	_	_
+11	-	-	PUNCT	_	PUNCT___	12	fixed	_	_
+12	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	10	fixed	_	_
+13	bien	bien	ADV	_	ADV___	14	advmod	_	_
+14	à	à	ADP	_	ADP___	10	case	_	_
+15	100	100	NUM	_	NUM__NumType=Card	1	nummod	_	_
+16	%	%	NOUN	_	NOUN__Gender=Masc	18	nmod	_	_
+17	à	à	ADP	_	ADP___	18	case	_	_
+18	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	18	nmod:poss	_	_
+19	fille	fille	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	nmod	_	_
+20	Marie	marier	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	nmod	_	_
+21	?	?	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#b/
+1	b/	b/	ADV	_	ADV___	0	ROOT	_	_
+
+
+#Si Paul et sa fille Marie sont prédécédés, leur part ira
+1	Si	Si	SCONJ	_	SCONJ___	1	case	_	_
+2	Paul	Paul	PROPN	_	PROPN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	et	et	CCONJ	_	CCONJ___	5	cc	_	_
+4	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	5	nmod:poss	_	_
+5	fille	fille	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	conj	_	_
+6	Marie	marier	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+7	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	prédécédés	prédécéder	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	ROOT	_	_
+9	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+10	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+11	part	part	NOUN	_	NOUN__Number=Sing	12	nsubj	_	_
+12	ira	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	10	parataxis	_	_
+
+
+#-t-elle bien à mon autre fils Eric ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	t	t	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+3	-	-	PUNCT	_	PUNCT___	5	punct	_	_
+4	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	5	fixed	_	_
+5	bien	bien	ADV	_	ADV___	1	advmod	_	_
+6	à	à	ADP	_	ADP___	8	case	_	_
+7	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+8	autre	autre	ADJ	_	ADJ__Number=Sing	5	amod	_	_
+9	fils	fils	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obl	_	_
+10	Eric	Eric	PROPN	_	PROPN__Gender=Masc|Number=Sing	8	nmod	_	_
+11	?	?	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Merci de vos réponses à ces 4 cas de figure
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	de	de	ADP	_	ADP___	1	case	_	_
+3	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	5	nmod:poss	_	_
+4	réponses	réponse	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	nmod	_	_
+5	à	à	ADP	_	ADP___	1	case	_	_
+6	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	8	det	_	_
+7	4	4	NUM	_	NUM__NumType=Card	8	nummod	_	_
+8	cas	cas	NOUN	_	NOUN__Gender=Masc	5	nmod	_	_
+9	de	de	ADP	_	ADP___	10	case	_	_
+10	figure	figure	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+
+

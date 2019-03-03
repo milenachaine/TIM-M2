@@ -1,0 +1,64 @@
+#CQFD
+1	CQFD	cqfd	ADV	_	ADV__PronType=Int	0	ROOT	_	_
+
+
+#On paye un impôt pour une période P sur une base P-1 et P-2 pour ajuster ensuite - ou pas - en espérant ne pas trop se tromper.
+1	On	on	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	paye	payer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+4	impôt	impôt	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+5	pour	pour	ADP	_	ADP___	3	case	_	_
+6	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	période	période	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+8	P	p	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+9	sur	sur	ADP	_	ADP___	8	case	_	_
+10	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	base	base	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+12	P-1	p-1	ADJ	_	ADJ___	5	amod	_	_
+13	et	et	CCONJ	_	CCONJ___	12	cc	_	_
+14	P-2	p-2	PRON	_	PRON__Number=Plur|Person=1	15	conj	_	_
+15	pour	pour	ADP	_	ADP___	12	mark	_	_
+16	ajuster	ajuster	VERB	_	VERB__VerbForm=Inf	17	advcl	_	_
+17	ensuite	ensuite	ADV	_	ADV___	3	advmod	_	_
+18	-	-	PUNCT	_	PUNCT___	17	punct	_	_
+19	ou	ou	CCONJ	_	CCONJ___	17	cc	_	_
+20	pas	pas	ADV	_	ADV__Polarity=Neg	29	advmod	_	_
+21	-	-	PUNCT	_	PUNCT___	20	punct	_	_
+22	en	en	ADP	_	ADP___	20	mark	_	_
+23	espérant	espérer	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	fixed	_	_
+24	ne	ne	ADV	_	ADV___	23	advmod	_	_
+25	pas	pas	ADV	_	ADV___	26	fixed	_	_
+26	trop	trop	ADV	_	ADV___	23	advmod	_	_
+27	se	se	PRON	_	PRON__Person=3|Reflex=Yes	29	expl	_	_
+28	tromper	tromper	VERB	_	VERB__VerbForm=Inf	29	conj	_	_
+29	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Même type de logique pour les emplois à domicile, les dons...
+1	Même	même	ADJ	_	ADJ__Number=Sing	1	advmod	_	_
+2	type	type	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	de	de	ADP	_	ADP___	3	mark	_	_
+4	logique	logique	ADJ	_	ADJ__Number=Sing	5	nmod	_	_
+5	pour	pour	ADP	_	ADP___	3	case	_	_
+6	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+7	emplois	emploi	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	nmod	_	_
+8	à	à	ADP	_	ADP___	5	case	_	_
+9	domicile	domicile	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+10	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+11	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	12	det	_	_
+12	dons	don	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	nmod	_	_
+13	...	...	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Efficacité de la réforme, quand tu nous tiens
+1	Efficacité	efficacité	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	de	de	ADP	_	ADP___	3	case	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+4	réforme	réforme	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+5	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+6	quand	quand	SCONJ	_	SCONJ___	8	mark	_	_
+7	tu	tu	PROPN	_	PROPN__Gender=Masc|Number=Sing	8	nsubj	_	_
+8	nous	nous	PRON	_	PRON__Number=Plur|Person=1	5	expl	_	_
+9	tiens	tenir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+
+

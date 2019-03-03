@@ -1,0 +1,99 @@
+#Bonjour, J'aimerai me faire appeler Dupond
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	J'	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+4	aimerai	aimer	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	conj	_	_
+5	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	6	expl	_	_
+6	faire	faire	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+7	appeler	appeler	VERB	_	VERB__VerbForm=Inf	6	xcomp	_	_
+8	Dupond	Dupond	PROPN	_	PROPN__Gender=Masc|Number=Sing	6	obl	_	_
+
+
+#-Durand comme nom d'usage.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	Durand	Durand	PROPN	_	PROPN___	0	ROOT	_	_
+3	comme	comme	ADP	_	ADP___	4	case	_	_
+4	nom	nom	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+5	d'	de	ADP	_	ADP___	6	case	_	_
+6	usage	usage	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+7	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Pour les enfants de mon compagnon, je comprends très bien qu'ils gardent le nom de leur papa et que mes enfants gardent le nom de leur papa.
+1	Pour	Pour	ADP	_	ADP___	1	case	_	_
+2	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+3	enfants	enfant	NOUN	_	NOUN__Number=Plur	4	obl	_	_
+4	de	de	ADP	_	ADP___	1	case	_	_
+5	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+6	compagnon	compagnon	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+7	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+8	je	il	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+9	comprends	comprendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+10	très	très	ADV	_	ADV___	10	advmod	_	_
+11	bien	bien	ADV	_	ADV___	12	advmod	_	_
+12	qu'	que	SCONJ	_	SCONJ___	10	mark	_	_
+13	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	14	nsubj	_	_
+14	gardent	garder	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	12	dep	_	_
+15	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+16	nom	nom	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obj	_	_
+17	de	de	ADP	_	ADP___	18	case	_	_
+18	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	24	nmod:poss	_	_
+19	papa	papa	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	nmod	_	_
+20	et	et	CCONJ	_	CCONJ___	21	cc	_	_
+21	que	que	SCONJ	_	SCONJ___	18	mark	_	_
+22	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	24	nmod:poss	_	_
+23	enfants	enfant	NOUN	_	NOUN__Number=Plur	24	nsubj	_	_
+24	gardent	garder	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	conj	_	_
+25	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	nom	nom	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	obj	_	_
+27	de	de	ADP	_	ADP___	29	case	_	_
+28	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	29	nmod:poss	_	_
+29	papa	papa	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	nmod	_	_
+30	.	.	PUNCT	_	PUNCT___	31	punct	_	_
+
+
+#Mais vu leurs âges, ils ont du mal à comprendre pourquoi je changerai de nom en cas de remariage.
+1	Mais	Mais	CCONJ	_	CCONJ___	1	cc	_	_
+2	vu	voir	ADP	_	ADP___	4	advcl	_	_
+3	leurs	leur	DET	_	DET__Number=Plur|Poss=Yes	4	nmod:poss	_	_
+4	âges	âge	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	obj	_	_
+5	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+6	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	4	nsubj	_	_
+7	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	du	du	DET	_	DET__Gender=Masc|Number=Sing	6	det	_	_
+9	mal	mal	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+10	à	à	ADP	_	ADP___	10	mark	_	_
+11	comprendre	comprendre	VERB	_	VERB__VerbForm=Inf	12	xcomp	_	_
+12	pourquoi	pourquoi	ADV	_	ADV__PronType=Int	10	advmod	_	_
+13	je	il	PRON	_	PRON__Number=Sing|Person=1	14	nsubj	_	_
+14	changerai	changer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	12	advcl	_	_
+15	de	de	ADP	_	ADP___	10	case	_	_
+16	nom	nom	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nmod	_	_
+17	en	en	ADP	_	ADP___	18	case	_	_
+18	cas	cas	NOUN	_	NOUN__Gender=Masc	24	fixed	_	_
+19	de	de	ADP	_	ADP___	21	fixed	_	_
+20	remariage	remariage	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	nmod	_	_
+21	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Après cela peut être un travail psy mais en gardant le nom cela pourrait être plus simple.
+1	Après	Après	ADP	_	ADP___	1	mark	_	_
+2	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	4	nsubj	_	_
+3	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+4	être	être	AUX	_	AUX__VerbForm=Inf	1	cop	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obj	_	_
+7	psy	psy	ADJ	_	ADJ___	6	nmod	_	_
+8	mais	mais	CCONJ	_	CCONJ___	6	cc	_	_
+9	en	en	ADP	_	ADP___	10	mark	_	_
+10	gardant	garder	VERB	_	VERB__Tense=Pres|VerbForm=Part	10	conj	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	nom	nom	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+13	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	14	nsubj	_	_
+14	pourrait	pouvoir	VERB	_	VERB__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+15	être	être	AUX	_	AUX__VerbForm=Inf	10	cop	_	_
+16	plus	plus	ADV	_	ADV___	18	advmod	_	_
+17	simple	simple	ADJ	_	ADJ__Number=Sing	18	xcomp	_	_
+18	.	.	PUNCT	_	PUNCT___	24	punct	_	_
+
+

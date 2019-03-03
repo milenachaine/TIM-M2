@@ -1,0 +1,116 @@
+#Bonjour Actuellement
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	Actuellement	Actuellement	PROPN	_	PROPN___	1	flat:name	_	_
+
+
+#, nous obligeons les salariés à poser un jour de repos lorsqu'ils ont travaillé plus de 6 jours consécutifs.
+1	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+2	nous	nous	PRON	_	PRON__Number=Plur|Person=1	1	nsubj	_	_
+3	obligeons	obliger	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+5	salariés	salarié	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	obj	_	_
+6	à	à	ADP	_	ADP___	7	mark	_	_
+7	poser	poser	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+8	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+10	de	de	ADP	_	ADP___	11	case	_	_
+11	repos	repos	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nmod	_	_
+12	lorsqu'	lorsque	SCONJ	_	SCONJ___	13	mark	_	_
+13	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	11	nsubj	_	_
+14	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+15	travaillé	travailler	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	advcl	_	_
+16	plus	plus	ADV	_	ADV___	17	advmod	_	_
+17	de	de	ADP	_	ADP___	9	case	_	_
+18	6	6	NUM	_	NUM__NumType=Card	17	nummod	_	_
+19	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	21	obl	_	_
+20	consécutifs	consécutif	ADJ	_	ADJ__Gender=Masc|Number=Plur	21	amod	_	_
+21	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Hors en période de compétition importante, les entraineurs ne souhaitent pas bénéficier de ce jour de repos.
+1	Hors	Hors	ADP	_	ADP___	1	case	_	_
+2	en	en	ADP	_	ADP___	1	fixed	_	_
+3	période	période	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obl	_	_
+4	de	de	ADP	_	ADP___	5	case	_	_
+5	compétition	compétition	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+6	importante	important	ADJ	_	ADJ__Gender=Fem|Number=Sing	7	amod	_	_
+7	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+8	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+9	entraineurs	entraineur	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	nsubj	_	_
+10	ne	ne	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+11	souhaitent	souhaiter	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+12	pas	pas	ADV	_	ADV__Polarity=Neg	13	advmod	_	_
+13	bénéficier	bénéficier	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+14	de	de	ADP	_	ADP___	17	case	_	_
+15	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
+16	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obl	_	_
+17	de	de	ADP	_	ADP___	9	case	_	_
+18	repos	repos	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	nmod	_	_
+19	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Peuvent
+1	Peuvent	pouvoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+
+
+#-ils venir de façon bénévole?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	1	nsubj	_	_
+3	venir	venir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	de	de	ADP	_	ADP___	5	case	_	_
+5	façon	façon	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obl	_	_
+6	bénévole	bénévole	ADJ	_	ADJ__Gender=Fem|Number=Sing	7	amod	_	_
+7	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Peut-on leur faire un avenant de contrat de travail mentionnant le fait qu'ils ne désirent pas prendre ce jour?
+1	Peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+2	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+3	on	on	PRON	_	PRON__Number=Sing|Person=3	5	nsubj	_	_
+4	leur	lui	PRON	_	PRON__Number=Plur|Person=3	5	iobj	_	_
+5	faire	faire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	avenant	avenant	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+8	de	de	ADP	_	ADP___	9	case	_	_
+9	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+10	de	de	ADP	_	ADP___	11	case	_	_
+11	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nmod	_	_
+12	mentionnant	mentionner	VERB	_	VERB__Tense=Pres|VerbForm=Part	13	acl	_	_
+13	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+14	fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obj	_	_
+15	qu'	que	SCONJ	_	SCONJ___	17	obj	_	_
+16	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	17	nsubj	_	_
+17	ne	ne	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+18	désirent	désirer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+19	pas	pas	ADV	_	ADV__Polarity=Neg	21	advmod	_	_
+20	prendre	prendre	VERB	_	VERB__VerbForm=Inf	21	xcomp	_	_
+21	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
+22	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obj	_	_
+23	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Dans ce cas si oui, est-ce que cela dédouane le club juridiquement?
+1	Dans	Dans	ADP	_	ADP___	1	case	_	_
+2	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	1	det	_	_
+3	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+4	si	si	SCONJ	_	SCONJ___	5	mark	_	_
+5	oui	oui	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+6	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+7	est	être		_	VERB	0	ROOT	_	_
+8	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	9	nsubj	_	_
+9	que	que	SCONJ	_	SCONJ___	5	mark	_	_
+10	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	11	nsubj	_	_
+11	dédouane	dédouan	ADJ	_	ADJ__Gender=Fem|Number=Sing	9	ccomp	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	club	club	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+14	juridiquement	juridiquement	ADV	_	ADV___	17	advmod	_	_
+15	?	?	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Merci de votre aide
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	de	de	ADP	_	ADP___	1	case	_	_
+3	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+4	aide	aide	NOUN	_	NOUN__Number=Sing	5	nmod	_	_
+
+

@@ -1,0 +1,90 @@
+#La représentation ne joue que dans la descendance du défunt et dans la descendance de la fratrie du défunt.
+1	La	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	représentation	représentation	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nsubj	_	_
+3	ne	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+4	joue	jouer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	que	que	SCONJ	_	SCONJ___	4	advmod	_	_
+6	dans	dan	ADP	_	ADP___	8	case	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	descendance	descendance	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obl	_	_
+9	du	du	DET	_	DET__Gender=Masc|Number=Sing	10	det	_	_
+10	défunt	défunt	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+11	et	et	CCONJ	_	CCONJ___	14	cc	_	_
+12	dans	dan	ADP	_	ADP___	14	case	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	descendance	descendance	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	conj	_	_
+15	de	de	ADP	_	ADP___	17	case	_	_
+16	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	fratrie	fratrie	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nmod	_	_
+18	du	du	DET	_	DET__Gender=Masc|Number=Sing	19	det	_	_
+19	défunt	défunt	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	conj	_	_
+20	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Elle ne joue pas dans les autres branches collatérales, ce sont les héritiers de plus proche degré qui l'emportent.
+1	Elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+2	ne	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+3	joue	jouer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+5	dans	dan	ADP	_	ADP___	4	case	_	_
+6	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+7	autres	autre	ADJ	_	ADJ__Number=Plur	8	amod	_	_
+8	branches	branche	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	obl	_	_
+9	collatérales	collatéral	ADJ	_	ADJ__Number=Plur	10	amod	_	_
+10	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+11	ce	ce	PRON	_	PRON__Number=Sing|Person=3	14	nsubj	_	_
+12	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	14	det	_	_
+14	héritiers	héritier	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	obl	_	_
+15	de	de	ADP	_	ADP___	17	mark	_	_
+16	plus	plus	ADV	_	ADV___	17	advmod	_	_
+17	proche	proche	ADJ	_	ADJ__Number=Sing	14	acl	_	_
+18	degré	degré	NOUN	_	NOUN__Gender=Masc|Number=Plur	19	mark	_	_
+19	qui	qui	PRON	_	PRON__PronType=Rel	8	nsubj	_	_
+20	l'	le	PRON	_	PRON__Number=Sing|Person=3	4	obj	_	_
+21	emportent	emporter	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
+22	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Vous ne pouvez donc être héritier par représentation que si le défunt est un des membres de la fratrie de votre grand-mère.
+1	Vous	vous	PRON	_	PRON__Number=Plur|Person=2	2	nsubj	_	_
+2	ne	ne	ADV	_	ADV___	4	advmod	_	_
+3	pouvez	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	donc	donc	ADV	_	ADV___	4	advmod	_	_
+5	être	être	AUX	_	AUX__VerbForm=Inf	4	aux:pass	_	_
+6	héritier	héritier	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	xcomp	_	_
+7	par	par	ADP	_	ADP___	8	case	_	_
+8	représentation	représentation	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obl	_	_
+9	que	que	SCONJ	_	SCONJ___	10	fixed	_	_
+10	si	si	SCONJ	_	SCONJ___	8	mark	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+12	défunt	défunt	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nsubj	_	_
+13	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+15	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	17	det	_	_
+16	membres	membre	NOUN	_	NOUN__Gender=Masc|Number=Plur	17	dep	_	_
+17	de	de	ADP	_	ADP___	14	case	_	_
+18	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	fratrie	fratrie	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+20	de	de	ADP	_	ADP___	4	case	_	_
+21	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	23	nmod:poss	_	_
+22	grand-mère	grand-mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	nmod	_	_
+23	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Et il semble que vous connaissez la composition complète de cette fratrie.
+1	Et	Et	CCONJ	_	CCONJ___	2	cc	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+3	semble	sembler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	que	que	SCONJ	_	SCONJ___	4	mark	_	_
+5	vous	vous	PRON	_	PRON__Number=Plur|Person=2	4	nsubj	_	_
+6	connaissez	connaître	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	composition	composition	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obj	_	_
+9	complète	complet	ADJ	_	ADJ__Gender=Fem|Number=Sing	10	amod	_	_
+10	de	de	ADP	_	ADP___	8	case	_	_
+11	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	14	det	_	_
+12	fratrie	fratrie	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nmod	_	_
+13	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+

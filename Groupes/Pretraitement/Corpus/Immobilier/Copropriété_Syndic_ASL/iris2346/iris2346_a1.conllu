@@ -1,0 +1,79 @@
+#Bonjour, Il faut vérifier deux choses : * Le syndic a été désigné par l'AG.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	4	obl	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	Il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+4	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	vérifier	vérifier	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+6	deux	deux	NUM	_	NUM__NumType=Card	7	nummod	_	_
+7	choses	chose	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	obj	_	_
+8	:	:	PUNCT	_	PUNCT___	4	punct	_	_
+9	*	*	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	14	mark	_	_
+10	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	syndic	syndic	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nsubj:pass	_	_
+12	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	14	aux:pass	_	_
+14	désigné	désigner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	advcl	_	_
+15	par	par	ADP	_	ADP___	17	case	_	_
+16	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	AG	AG	PROPN	_	PROPN__Number=Sing	14	obl	_	_
+18	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#A l'ordre du jour était joint un projet de contrat avec la désignation précise du syndic * sur ce contrat doit être inscrit un n° de siret
+1	A	A	ADP	_	ADP___	4	aux	_	_
+2	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	4	obj	_	_
+3	ordre	ordre	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+4	du	du	DET	_	DET__Gender=Masc|Number=Sing	4	det	_	_
+5	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obj	_	_
+6	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux:pass	_	_
+7	joint	joindre	ADV	_	ADV___	0	ROOT	_	_
+8	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+9	projet	projet	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obj	_	_
+10	de	de	ADP	_	ADP___	11	case	_	_
+11	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nmod	_	_
+12	avec	avec	ADP	_	ADP___	14	case	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	désignation	désignation	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obl	_	_
+15	précise	préciser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+16	du	du	DET	_	DET__Gender=Masc|Number=Sing	17	det	_	_
+17	syndic	syndic	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obj	_	_
+18	*	*	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	4	mark	_	_
+19	sur	sur	ADP	_	ADP___	21	case	_	_
+20	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	21	det	_	_
+21	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	obl	_	_
+22	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	advcl	_	_
+23	être	être	AUX	_	AUX__VerbForm=Inf	21	aux:pass	_	_
+24	inscrit	inscrire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	25	xcomp	_	_
+25	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+26	n°	numéro	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	obl	_	_
+27	de	de	ADP	_	ADP___	25	case	_	_
+28	siret	siret	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	nmod	_	_
+
+
+#Si l'un des 2 éléments a changé, alors il doit y avoir nouveau passage devant l'AG avec éventuelle mise en concurrence
+1	Si	Si	SCONJ	_	SCONJ___	4	mark	_	_
+2	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+3	un	un	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	4	nsubj	_	_
+4	des	un	ADP	_	ADP___	4	det	_	_
+5	2	2	NUM	_	NUM__NumType=Card	4	nummod	_	_
+6	éléments	élément	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	nmod	_	_
+7	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+8	changé	changer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
+9	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+10	alors	alors	ADV	_	ADV___	11	advmod	_	_
+11	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
+12	doit	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	y	yu	PRON	_	PRON__Person=3	14	expl	_	_
+14	avoir	avoir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+15	nouveau	nouveau	ADJ	_	ADJ__Gender=Masc|Number=Sing	17	amod	_	_
+16	passage	passage	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obj	_	_
+17	devant	devoir	ADP	_	ADP___	14	case	_	_
+18	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+19	AG	AG	PROPN	_	PROPN__Number=Sing	21	obl	_	_
+20	avec	avec	ADP	_	ADP___	21	case	_	_
+21	éventuelle	éventuel	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	nmod	_	_
+22	mise	mettre	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	23	acl	_	_
+23	en	en	ADP	_	ADP___	21	case	_	_
+24	concurrence	concurrence	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	obl	_	_
+
+

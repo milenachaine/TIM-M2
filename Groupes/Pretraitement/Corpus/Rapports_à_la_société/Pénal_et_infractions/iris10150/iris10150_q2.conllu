@@ -1,0 +1,86 @@
+#PS :
+1	PS	PS	PROPN	_	PROPN___	0	ROOT	_	_
+2	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Si l'agresseur s'excuse, cela peut-il atténuer la sentence ?
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+3	agresseur	agresseur	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nsubj	_	_
+4	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	5	expl	_	_
+5	excuse	excus	ADJ	_	ADJ__Gender=Fem|Number=Sing	7	advcl	_	_
+6	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+7	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	13	nsubj	_	_
+8	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+9	-	-	PUNCT	_	PUNCT___	13	punct	_	_
+10	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	13	nsubj	_	_
+11	atténuer	atténuer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	sentence	sentence	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obj	_	_
+14	?	?	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#(si la plainte est portée malgré les excuses) PPS :
+1	(	(	PUNCT	_	PUNCT___	1	punct	_	_
+2	si	si	SCONJ	_	SCONJ___	1	mark	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+4	plainte	plainte	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+6	portée	porter	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+7	malgré	malgré	ADP	_	ADP___	13	case	_	_
+8	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+9	excuses	excuse	NOUN	_	NOUN__Gender=Fem|Number=Plur	13	obl	_	_
+10	)	)	PUNCT	_	PUNCT___	13	punct	_	_
+11	PPS	PPS	X	_	X___	13	obl	_	_
+12	:	:	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Une main courante a déjà été déposée à l'encontre de l'auteur (pour des affaires de litige familial, rien àvoir), cela peut-il être retenu contre lui ?
+1	Une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	main	main	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj:pass	_	_
+3	courante	courant	ADJ	_	ADJ__Gender=Fem|Number=Sing	7	amod	_	_
+4	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	déjà	déjà	ADV	_	ADV___	7	advmod	_	_
+6	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	7	aux:pass	_	_
+7	déposée	déposer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+8	à	à	ADP	_	ADP___	7	case	_	_
+9	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	13	fixed	_	_
+10	encontre	encontre	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	fixed	_	_
+11	de	de	ADP	_	ADP___	13	fixed	_	_
+12	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	auteur	auteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+14	(	(	PUNCT	_	PUNCT___	15	punct	_	_
+15	pour	pour	ADP	_	ADP___	13	case	_	_
+16	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	13	det	_	_
+17	affaires	affaire	NOUN	_	NOUN__Gender=Fem|Number=Plur	22	obl	_	_
+18	de	de	ADP	_	ADP___	22	case	_	_
+19	litige	litige	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	amod	_	_
+20	familial	familial	ADJ	_	ADJ__Gender=Masc|Number=Sing	22	nmod	_	_
+21	,	,	PUNCT	_	PUNCT___	22	punct	_	_
+22	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	22	obl	_	_
+23	àvoir	àvoir	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	acl	_	_
+24	)	)	PUNCT	_	PUNCT___	25	punct	_	_
+25	,	,	PUNCT	_	PUNCT___	22	punct	_	_
+26	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	22	nsubj	_	_
+27	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+28	-	-	PUNCT	_	PUNCT___	22	punct	_	_
+29	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	30	nsubj:pass	_	_
+30	être	être	AUX	_	AUX__VerbForm=Inf	35	aux:pass	_	_
+31	retenu	retenir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	30	conj	_	_
+32	contre	contrer	ADP	_	ADP___	35	case	_	_
+33	lui	luire	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	obl	_	_
+34	?	?	PUNCT	_	PUNCT___	35	punct	_	_
+
+
+#?
+1	?	?	PUNCT	_	PUNCT___	0	ROOT	_	_
+
+
+#SVP!!!!
+1	SVP	svp	NOUN	_	NOUN___	0	ROOT	_	_
+2	!	!	PUNCT	_	PUNCT___	1	punct	_	_
+3	!	!	PUNCT	_	PUNCT___	7	punct	_	_
+4	!	!	PUNCT	_	PUNCT___	5	punct	_	_
+5	!	!	PUNCT	_	PUNCT___	7	punct	_	_
+
+

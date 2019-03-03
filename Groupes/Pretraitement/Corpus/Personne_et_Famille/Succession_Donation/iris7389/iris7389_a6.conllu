@@ -1,0 +1,58 @@
+#Bonjour.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Votre grand-père a donné 6*7000+60000 à ses petits enfants, soit 102000.
+1	Votre	votre	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	grand-père	grand-père	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	donné	donner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	6	6	NUM	_	NUM__NumType=Card	6	nummod	_	_
+6	*	*	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	obj	_	_
+7	7000	7000	NUM	_	NUM__NumType=Card	8	nummod	_	_
+8	+	+	ADP	_	ADP___	6	case	_	_
+9	60000	60000	NUM	_	NUM__NumType=Card	8	nmod	_	_
+10	à	à	ADP	_	ADP___	11	case	_	_
+11	ses	son	DET	_	DET__Number=Plur|Poss=Yes	9	nmod:poss	_	_
+12	petits	petit	ADJ	_	ADJ__Gender=Masc|Number=Plur	15	amod	_	_
+13	enfants	enfant	NOUN	_	NOUN__Number=Plur	15	nmod	_	_
+14	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+15	soit	être	CCONJ	_	CCONJ___	9	cc	_	_
+16	102000	102000	NUM	_	NUM__NumType=Card	6	conj	_	_
+17	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Cette somme dépasse peut-être 1/4 de sa succession, ce qui pourrait poser problème.
+1	Cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	1	det	_	_
+2	somme	sommer	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+3	dépasse	dépasser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	peut-être	peut-être	ADV	_	ADV___	6	advmod	_	_
+5	1/4	1/4	NOUN	_	NOUN__NumType=Card	6	obj	_	_
+6	de	de	ADP	_	ADP___	6	case	_	_
+7	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	8	nmod:poss	_	_
+8	succession	succession	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+9	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+10	ce	ce	PRON	_	PRON__PronType=Rel	11	iobj	_	_
+11	qui	qui	PRON	_	PRON__PronType=Rel	9	nsubj	_	_
+12	pourrait	pouvoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+13	poser	poser	VERB	_	VERB__VerbForm=Inf	15	acl:relcl	_	_
+14	problème	problème	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	advmod	_	_
+15	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#D'où l'idée du notaire.
+1	D'	D'	ADP	_	ADP___	0	ROOT	_	_
+2	où	où	PRON	_	PRON__PronType=Rel	1	fixed	_	_
+3	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	idée	idée	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	fixed	_	_
+5	du	du	DET	_	DET__Gender=Masc|Number=Sing	6	det	_	_
+6	notaire	notaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	amod	_	_
+7	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Salutations.
+1	Salutations	salutation	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+2	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+

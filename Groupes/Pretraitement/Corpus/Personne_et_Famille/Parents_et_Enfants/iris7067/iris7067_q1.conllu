@@ -1,0 +1,179 @@
+#Bonjour
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+
+
+#Ma fille habite chez sa maman sur Paris.
+1	Ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	fille	fille	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	habite	habiter	ADV	_	ADV___	3	nmod	_	_
+4	chez	chez	ADP	_	ADP___	3	case	_	_
+5	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	7	nmod:poss	_	_
+6	maman	maman	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obl	_	_
+7	sur	sur	ADP	_	ADP___	3	case	_	_
+8	Paris	Paris	PROPN	_	PROPN__Gender=Masc|Number=Sing	9	nmod	_	_
+9	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Je vis sur Lyon de mon côté.
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	vis	voir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	sur	sur	ADP	_	ADP___	3	case	_	_
+4	Lyon	Lyon	PROPN	_	PROPN__Gender=Masc|Number=Sing	3	obl	_	_
+5	de	de	ADP	_	ADP___	7	case	_	_
+6	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	7	nmod:poss	_	_
+7	côté	côté	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obl	_	_
+8	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Elle doit descendre me voir environ toutes les 3 semaines (en théorie).
+1	Elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	1	nsubj	_	_
+2	doit	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	descendre	descendre	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	3	expl	_	_
+5	voir	voir	VERB	_	VERB__VerbForm=Inf	7	advcl	_	_
+6	environ	environ	ADV	_	ADV___	7	advmod	_	_
+7	toutes	tout	ADJ	_	ADJ__Gender=Fem|Number=Plur	3	amod	_	_
+8	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+9	3	3	NUM	_	NUM__NumType=Card	7	nummod	_	_
+10	semaines	semaine	NOUN	_	NOUN__Gender=Fem|Number=Plur	3	obj	_	_
+11	(	(	PUNCT	_	PUNCT___	12	punct	_	_
+12	en	en	ADP	_	ADP___	12	case	_	_
+13	théorie	théorie	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nmod	_	_
+14	)	)	PUNCT	_	PUNCT___	12	punct	_	_
+15	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Mon ex épouse va déménager bientôt mais en restant sur la région parisienne.
+1	Mon	mon	DET	_	DET__Number=Sing|Poss=Yes	0	ROOT	_	_
+2	ex	ex	CCONJ	_	CCONJ___	3	amod	_	_
+3	épouse	épouse	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	conj	_	_
+4	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl	_	_
+5	déménager	déménager	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+6	bientôt	bientôt	ADV	_	ADV___	7	advmod	_	_
+7	mais	mais	CCONJ	_	CCONJ___	3	cc	_	_
+8	en	en	ADP	_	ADP___	9	mark	_	_
+9	restant	rester	VERB	_	VERB__Tense=Pres|VerbForm=Part	7	conj	_	_
+10	sur	sur	ADP	_	ADP___	3	case	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	région	région	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obl	_	_
+13	parisienne	parisien	ADJ	_	ADJ__Gender=Fem|Number=Sing	14	amod	_	_
+14	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Elle me demande d'annuler sa descente sur lyon en mars car elle a besoin de notre fille pour les préparatifs visiblement.
+1	Elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	1	nsubj	_	_
+2	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	3	expl	_	_
+3	demande	demander	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	d'	de	ADP	_	ADP___	3	mark	_	_
+5	annuler	annuler	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+6	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	7	nmod:poss	_	_
+7	descente	descente	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obj	_	_
+8	sur	sur	ADP	_	ADP___	9	case	_	_
+9	lyon	lyon	VERB	_	VERB__VerbForm=Inf	7	obl	_	_
+10	en	en	ADP	_	ADP___	3	case	_	_
+11	mars	mars	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obl	_	_
+12	car	car	CCONJ	_	CCONJ___	12	cc	_	_
+13	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	14	nsubj	_	_
+14	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+15	besoin	besoin	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obj	_	_
+16	de	de	ADP	_	ADP___	17	case	_	_
+17	notre	notre	DET	_	DET__Number=Sing|Poss=Yes	12	nmod:poss	_	_
+18	fille	fille	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obl	_	_
+19	pour	pour	ADP	_	ADP___	21	case	_	_
+20	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	21	det	_	_
+21	préparatifs	préparatif	NOUN	_	NOUN__Gender=Masc|Number=Plur	21	nmod	_	_
+22	visiblement	visiblement	ADV	_	ADV___	23	advmod	_	_
+23	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#En gros, je ne verrai pas ma fille pendant 7 semaines.
+1	En	En	ADP	_	ADP___	1	advmod	_	_
+2	gros	gros	ADJ	_	ADJ__Gender=Masc	3	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+4	je	il	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+5	ne	ne	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+6	verrai	voir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+7	pas	pas	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+8	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	9	nmod:poss	_	_
+9	fille	fille	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+10	pendant	pendre	ADP	_	ADP___	3	case	_	_
+11	7	7	NUM	_	NUM__NumType=Card	12	nummod	_	_
+12	semaines	semaine	NOUN	_	NOUN__Gender=Fem|Number=Plur	12	obl	_	_
+13	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Ce déménagement peut il être un motif sérieux de non présentation d'enfant?
+1	Ce	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+2	déménagement	déménagemer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	advmod	_	_
+3	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+5	être	être	AUX	_	AUX__VerbForm=Inf	7	cop	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	motif	motif	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+8	sérieux	sérieux	ADJ	_	ADJ__Gender=Masc	9	amod	_	_
+9	de	de	ADP	_	ADP___	7	case	_	_
+10	non	non	ADV	_	ADV___	3	advmod	_	_
+11	présentation	présentation	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+12	d'	de	ADP	_	ADP___	12	case	_	_
+13	enfant	enfant	NOUN	_	NOUN__Number=Sing	14	nmod	_	_
+14	?	?	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Elle m'annonce quand même qu'une compensation de 2 jours serait prévu en été.
+1	Elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	1	nsubj	_	_
+2	m'	se	PRON	_	PRON__Number=Sing|Person=1	3	expl	_	_
+3	annonce	annoncer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	quand	quand	ADV	_	ADV___	3	mark	_	_
+5	même	même	ADV	_	ADV___	7	fixed	_	_
+6	qu'	que	SCONJ	_	SCONJ___	7	fixed	_	_
+7	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+8	compensation	compensation	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nsubj:pass	_	_
+9	de	de	ADP	_	ADP___	7	case	_	_
+10	2	2	NUM	_	NUM__NumType=Card	3	nummod	_	_
+11	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	nmod	_	_
+12	serait	être	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
+13	prévu	prévoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	advcl	_	_
+14	en	en	ADP	_	ADP___	12	case	_	_
+15	été	été	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obl	_	_
+16	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Alors que je travaille à plein temps et donc je ne la verrai pas plus.
+1	Alors	alors	ADV	_	ADV___	1	mark	_	_
+2	que	que	SCONJ	_	SCONJ___	3	fixed	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+4	travaille	travailler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	à	à	ADP	_	ADP___	7	case	_	_
+6	plein	plein	ADJ	_	ADJ__Gender=Masc|Number=Sing	7	amod	_	_
+7	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obl	_	_
+8	et	et	CCONJ	_	CCONJ___	9	cc	_	_
+9	donc	donc	ADV	_	ADV___	7	advmod	_	_
+10	je	il	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+11	ne	ne	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+13	verrai	voir	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	conj	_	_
+14	pas	pas	ADV	_	ADV___	12	advmod	_	_
+15	plus	plus	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+16	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Je ne peux rallonger mes congés indéfiniment.
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ne	ne	ADV	_	ADV___	3	advmod	_	_
+3	peux	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+4	rallonger	rallonger	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	7	nmod:poss	_	_
+6	congés	congé	ADJ	_	ADJ__Gender=Masc|Number=Plur	7	obj	_	_
+7	indéfiniment	indéfiniment	ADV	_	ADV___	3	advmod	_	_
+8	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#merci de votre conseil à suivre
+1	merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	de	de	ADP	_	ADP___	3	case	_	_
+3	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	3	nmod:poss	_	_
+4	conseil	conseil	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nmod	_	_
+5	à	à	ADP	_	ADP___	7	mark	_	_
+6	suivre	suivre	VERB	_	VERB__VerbForm=Inf	7	acl	_	_
+
+

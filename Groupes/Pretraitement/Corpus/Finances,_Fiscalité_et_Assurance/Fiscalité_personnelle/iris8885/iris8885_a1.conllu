@@ -1,0 +1,178 @@
+#Bonjour Techniquement on est dans l'erreur.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	7	case	_	_
+2	Techniquement	Techniquement	PROPN	_	PROPN___	1	flat:name	_	_
+3	on	on	PRON	_	PRON__Number=Sing|Person=3	7	nsubj	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	dans	dan	ADP	_	ADP___	7	case	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	erreur	erreur	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+8	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Si vous achetez 200 000 FAI de 20 000 inclus, alors vous achetez 200 000 d'immobilier, et payez des droits de mutations et la prestation du notaire sur 200 000
+1	Si	Si	SCONJ	_	SCONJ___	7	mark	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+3	achetez	acheter	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+4	200	200	NUM	_	NUM__NumType=Card	7	nummod	_	_
+5	000	000	NUM	_	NUM__NumType=Card	7	nummod	_	_
+6	FAI	FAI	PROPN	_	PROPN__Gender=Fem|Number=Sing	7	obj	_	_
+7	de	de	ADP	_	ADP___	7	case	_	_
+8	20	20	NUM	_	NUM__NumType=Card	7	nummod	_	_
+9	000	000	NUM	_	NUM__NumType=Card	11	nummod	_	_
+10	inclus	inclu	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	obj	_	_
+11	,	,	PUNCT	_	PUNCT___	22	punct	_	_
+12	alors	alors	ADV	_	ADV___	14	advmod	_	_
+13	vous	vous	PRON	_	PRON__Number=Plur|Person=2	14	nsubj	_	_
+14	achetez	acheter	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+15	200	200	NUM	_	NUM__NumType=Card	17	nummod	_	_
+16	000	000	PRON	_	PRON__NumType=Card|PronType=Rel	17	obj	_	_
+17	d'	de	ADP	_	ADP___	18	mark	_	_
+18	immobilier	immobilier	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	amod	_	_
+19	,	,	PUNCT	_	PUNCT___	22	punct	_	_
+20	et	et	CCONJ	_	CCONJ___	22	cc	_	_
+21	payez	payer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	conj	_	_
+22	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	22	det	_	_
+23	droits	droit	NOUN	_	NOUN__Gender=Masc|Number=Plur	24	obj	_	_
+24	de	de	ADP	_	ADP___	22	case	_	_
+25	mutations	mutation	NOUN	_	NOUN__Gender=Masc|Number=Plur	26	nmod	_	_
+26	et	et	CCONJ	_	CCONJ___	24	cc	_	_
+27	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+28	prestation	prestation	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	conj	_	_
+29	du	du	DET	_	DET__Gender=Masc|Number=Sing	22	det	_	_
+30	notaire	notaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	obj	_	_
+31	sur	sur	ADP	_	ADP___	29	case	_	_
+32	200	200	NUM	_	NUM__NumType=Card	33	nmod	_	_
+33	000	000	NUM	_	NUM__NumType=Card	31	nummod	_	_
+
+
+#Le vendeur prélève 20 000 qu'il paye à son agence, 300 qu'il paye à la femme de ménage, 600 au diagnostiqueur, etc....
+1	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+2	vendeur	vendeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	prélève	prélever	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	20	20	NUM	_	NUM__NumType=Card	7	nummod	_	_
+5	000	000	NUM	_	NUM__NumType=Card	7	iobj	_	_
+6	qu'	que	SCONJ	_	SCONJ___	7	obj	_	_
+7	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+8	paye	payer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+9	à	à	ADP	_	ADP___	11	case	_	_
+10	son	son	DET	_	DET__Number=Sing|Poss=Yes	11	nmod:poss	_	_
+11	agence	agence	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	obl	_	_
+12	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+13	300	300	NUM	_	NUM__NumType=Card	14	iobj	_	_
+14	qu'	que	SCONJ	_	SCONJ___	11	mark	_	_
+15	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	17	nsubj	_	_
+16	paye	payer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+17	à	à	ADP	_	ADP___	18	case	_	_
+18	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+19	femme	femme	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	obl	_	_
+20	de	de	ADP	_	ADP___	22	case	_	_
+21	ménage	ménage	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	nmod	_	_
+22	,	,	PUNCT	_	PUNCT___	22	punct	_	_
+23	600	600	NUM	_	NUM__NumType=Card	24	nummod	_	_
+24	au	au	ADJ	_	ADJ__Gender=Masc|Number=Plur|NumType=Ord	22	case	_	_
+25	diagnostiqueur	diagnostiqueur	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	conj	_	_
+26	,	,	PUNCT	_	PUNCT___	24	punct	_	_
+27	etc	etc	ADV	_	ADV___	24	advmod	_	_
+28	....	....	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#Vous pouvez ne payer que 180 000 avec frais de notaires et droits de mutations, puis 20 000 à l'agence, mais il faut que vous soyez le client donc que vous ayez préalablement au compromis signé chez l'agence un mandat de recherche de 20 000 euros.
+1	Vous	vous	PRON	_	PRON__Number=Plur|Person=2	7	nsubj	_	_
+2	pouvez	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	ne	ne	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+4	payer	payer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	que	que	SCONJ	_	SCONJ___	7	advmod	_	_
+6	180	180	NUM	_	NUM__NumType=Card	7	nummod	_	_
+7	000	000	PRON	_	PRON__NumType=Card|PronType=Rel	7	obj	_	_
+8	avec	avec	ADP	_	ADP___	7	case	_	_
+9	frais	frais	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	nmod	_	_
+10	de	de	ADP	_	ADP___	11	case	_	_
+11	notaires	notair	ADJ	_	ADJ__Number=Plur	22	nmod	_	_
+12	et	et	CCONJ	_	CCONJ___	14	cc	_	_
+13	droits	droit	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	conj	_	_
+14	de	de	ADP	_	ADP___	11	case	_	_
+15	mutations	mutation	NOUN	_	NOUN__Gender=Masc|Number=Plur	17	nmod	_	_
+16	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+17	puis	pouvoir	CCONJ	_	CCONJ___	18	cc	_	_
+18	20	20	NUM	_	NUM__NumType=Card	11	nummod	_	_
+19	000	000	PRON	_	PRON__NumType=Card|PronType=Rel	22	conj	_	_
+20	à	à	ADP	_	ADP___	22	case	_	_
+21	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+22	agence	agence	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	nmod	_	_
+23	,	,	PUNCT	_	PUNCT___	24	punct	_	_
+24	mais	mais	CCONJ	_	CCONJ___	22	cc	_	_
+25	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	26	nsubj	_	_
+26	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	conj	_	_
+27	que	que	SCONJ	_	SCONJ___	24	mark	_	_
+28	vous	vous	PRON	_	PRON__Number=Plur|Person=2	29	nsubj	_	_
+29	soyez	être	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	22	cop	_	_
+30	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	client	client	ADV	_	ADV___	29	ccomp	_	_
+32	donc	donc	ADV	_	ADV___	33	advmod	_	_
+33	que	que	SCONJ	_	SCONJ___	31	mark	_	_
+34	vous	vous	PRON	_	PRON__Number=Plur|Person=2	36	nsubj	_	_
+35	ayez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	36	acl:relcl	_	_
+36	préalablement	préalablement	ADV	_	ADV___	31	advmod	_	_
+37	au	au	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	38	det	_	_
+38	compromis	compromis	NOUN	_	NOUN__Gender=Masc|Number=Plur	29	obl	_	_
+39	signé	signer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	40	acl	_	_
+40	chez	chez	ADP	_	ADP___	38	case	_	_
+41	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+42	agence	agence	NOUN	_	NOUN__Gender=Fem|Number=Sing	43	obl	_	_
+43	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	mandat	mandat	NOUN	_	NOUN__Gender=Masc|Number=Sing	44	obj	_	_
+45	de	de	ADP	_	ADP___	44	case	_	_
+46	recherche	recherche	NOUN	_	NOUN__Gender=Fem|Number=Sing	44	nmod	_	_
+47	de	de	ADP	_	ADP___	49	case	_	_
+48	20	20	NUM	_	NUM__NumType=Card	49	nummod	_	_
+49	000	000	NUM	_	NUM__NumType=Card	46	nummod	_	_
+50	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	52	nmod	_	_
+51	.	.	PUNCT	_	PUNCT___	52	punct	_	_
+
+
+#le prix de 180 000 n'est plsu un prix FAI.
+1	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+2	prix	prix	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	de	de	ADP	_	ADP___	7	mark	_	_
+4	180	180	NUM	_	NUM__NumType=Card	7	nummod	_	_
+5	000	000	NUM	_	NUM__NumType=Card	7	nummod	_	_
+6	n'	ne	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+7	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+8	plsu	plsu	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+9	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	prix	prix	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+11	FAI	FAI	PROPN	_	PROPN___	22	amod	_	_
+12	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Comme les 20 000 ne passent pas par la compta du notaire, l'agence doit avoir confiance en vous, puisque personne ne garanti sa créance.
+1	Comme	Comme	ADP	_	ADP___	7	mark	_	_
+2	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+3	20	20	NUM	_	NUM__NumType=Card	7	advmod	_	_
+4	000	000	NUM	_	NUM__NumType=Card	7	nsubj	_	_
+5	ne	ne	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+6	passent	passer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+7	pas	pas	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+8	par	par	ADP	_	ADP___	7	case	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	compta	compter	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obl	_	_
+11	du	du	DET	_	DET__Gender=Masc|Number=Sing	22	det	_	_
+12	notaire	notaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	amod	_	_
+13	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+14	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+15	agence	agence	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	nsubj	_	_
+16	doit	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	avoir	avoir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+18	confiance	confiance	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obj	_	_
+19	en	en	ADP	_	ADP___	22	case	_	_
+20	vous	vous	PRON	_	PRON__Number=Plur|Person=2	22	obl	_	_
+21	,	,	PUNCT	_	PUNCT___	22	punct	_	_
+22	puisque	puisque	SCONJ	_	SCONJ___	22	mark	_	_
+23	personne	personne	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	nsubj	_	_
+24	ne	ne	ADV	_	ADV___	22	advmod	_	_
+25	garanti	garantir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	26	conj	_	_
+26	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	24	nmod:poss	_	_
+27	créance	créance	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	obj	_	_
+28	.	.	PUNCT	_	PUNCT___	29	punct	_	_
+
+

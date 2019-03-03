@@ -1,0 +1,191 @@
+#Bonjour, Qu'est
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Qu'	que	PRON	_	PRON__PronType=Int	1	nmod	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+
+
+#-il prévu dans l'accord transactionnel?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+3	prévu	prévoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	dans	dan	ADP	_	ADP___	3	case	_	_
+5	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+6	accord	accord	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+7	transactionnel	transactionnel	ADJ	_	ADJ__Gender=Masc|Number=Sing	7	amod	_	_
+8	?	?	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Normalement, si cet accord est rédigé correctement, il doit y avoir une date ou un délai de paiement prévu dans le corps du document...
+1	Normalement	normalement	ADV	_	ADV___	1	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	si	si	SCONJ	_	SCONJ___	1	mark	_	_
+4	cet	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+5	accord	accord	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+6	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	rédigé	rédiger	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	advcl	_	_
+8	correctement	correctement	ADV	_	ADV___	10	advmod	_	_
+9	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+10	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+11	doit	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+12	y	yu	PRON	_	PRON__Person=3	7	expl	_	_
+13	avoir	avoir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+14	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+15	date	date	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obj	_	_
+16	ou	ou	CCONJ	_	CCONJ___	17	cc	_	_
+17	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	délai	délai	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	conj	_	_
+19	de	de	ADP	_	ADP___	25	case	_	_
+20	paiement	paiement	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	nmod	_	_
+21	prévu	prévoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	acl	_	_
+22	dans	dan	ADP	_	ADP___	25	case	_	_
+23	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	corps	corps	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	obl	_	_
+25	du	du	DET	_	DET__Gender=Masc|Number=Sing	25	det	_	_
+26	document	document	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	nmod	_	_
+27	...	...	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#Par principe, on peut tout à fait signer un accord transactionnel et prévoir le versement de l'indemnité plus tard, sous un délai convenu.
+1	Par	Par	ADP	_	ADP___	1	case	_	_
+2	principe	principe	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	on	on	PRON	_	PRON__Number=Sing|Person=3	3	nsubj	_	_
+5	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	tout	tout	ADV	_	ADV___	7	advmod	_	_
+7	à	à	ADP	_	ADP___	7	fixed	_	_
+8	fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	fixed	_	_
+9	signer	signer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+10	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+11	accord	accord	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+12	transactionnel	transactionnel	ADJ	_	ADJ__Gender=Masc|Number=Sing	7	amod	_	_
+13	et	et	CCONJ	_	CCONJ___	19	cc	_	_
+14	prévoir	prévoir	VERB	_	VERB__VerbForm=Inf	19	conj	_	_
+15	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+16	versement	versement	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obj	_	_
+17	de	de	ADP	_	ADP___	19	case	_	_
+18	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	indemnité	indemnité	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	nmod	_	_
+20	plus	plus	ADV	_	ADV___	19	advmod	_	_
+21	tard	tard	ADV	_	ADV___	25	fixed	_	_
+22	,	,	PUNCT	_	PUNCT___	25	punct	_	_
+23	sous	sou	ADP	_	ADP___	25	case	_	_
+24	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	délai	délai	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	obl	_	_
+26	convenu	convenir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	acl	_	_
+27	.	.	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#En effet, l'absence de paiement de l'indemnité rend la transaction caduque;
+1	En	En	ADP	_	ADP___	1	advmod	_	_
+2	effet	effet	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+5	absence	absence	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nsubj	_	_
+6	de	de	ADP	_	ADP___	7	case	_	_
+7	paiement	paiement	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+8	de	de	ADP	_	ADP___	10	case	_	_
+9	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	indemnité	indemnité	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+11	rend	rendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+13	transaction	transaction	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obj	_	_
+14	caduque	caduc	ADJ	_	ADJ__Number=Sing	19	amod	_	_
+15	;	;	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#c'est donc un élément substantiel de l'accord.
+1	c'	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	donc	donc	ADV	_	ADV___	1	advmod	_	_
+4	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+5	élément	élément	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+6	substantiel	substantiel	ADJ	_	ADJ__Gender=Masc|Number=Sing	7	amod	_	_
+7	de	de	ADP	_	ADP___	7	case	_	_
+8	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+9	accord	accord	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+10	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Par ailleurs, compte tenu du calendrier mentionné, votre employeur vous devra également un bulletin de paie qui mentionne l'indemnité transactionnelle et les charges afférentes.
+1	Par	Par	ADP	_	ADP___	1	advmod	_	_
+2	ailleurs	ailleurs	ADV	_	ADV___	1	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	compte	compte	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	advmod	_	_
+5	tenu	tenir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	fixed	_	_
+6	du	du	DET	_	DET__Gender=Masc|Number=Sing	7	det	_	_
+7	calendrier	calendrier	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+8	mentionné	mentionner	ADJ	_	ADJ__Gender=Masc|Number=Sing	10	acl	_	_
+9	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+10	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	7	nmod:poss	_	_
+11	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nsubj	_	_
+12	vous	vous	PRON	_	PRON__Number=Plur|Person=2	7	nsubj	_	_
+13	devra	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+14	également	également	ADV	_	ADV___	19	advmod	_	_
+15	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+16	bulletin	bulletin	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obj	_	_
+17	de	de	ADP	_	ADP___	19	case	_	_
+18	paie	paie	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	nmod	_	_
+19	qui	qui	PRON	_	PRON__PronType=Rel	25	nsubj	_	_
+20	mentionne	mentionner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+21	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+22	indemnité	indemnité	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	obj	_	_
+23	transactionnelle	transactionnel	ADJ	_	ADJ__Gender=Fem|Number=Sing	25	amod	_	_
+24	et	et	CCONJ	_	CCONJ___	25	cc	_	_
+25	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	25	det	_	_
+26	charges	charge	NOUN	_	NOUN__Gender=Fem|Number=Plur	27	conj	_	_
+27	afférentes	afférent	ADJ	_	ADJ__Gender=Fem|Number=Plur	25	amod	_	_
+28	.	.	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#Et normalement, sur votre attestation pôle emploi, il doit être mentionné qu'une transaction est en cours de négociation...
+1	Et	Et	CCONJ	_	CCONJ___	1	cc	_	_
+2	normalement	normalement	ADV	_	ADV___	1	advmod	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	sur	sur	ADP	_	ADP___	3	case	_	_
+5	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	7	nmod:poss	_	_
+6	attestation	attestation	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	amod	_	_
+7	pôle	pôl	ADJ	_	ADJ__Gender=Fem|Number=Sing|NumType=Ord	7	obl	_	_
+8	emploi	emploi	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	amod	_	_
+9	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+10	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+11	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+12	être	être	AUX	_	AUX__VerbForm=Inf	7	aux:pass	_	_
+13	mentionné	mentionner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	19	xcomp	_	_
+14	qu'	que	SCONJ	_	SCONJ___	19	mark	_	_
+15	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+16	transaction	transaction	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	nsubj	_	_
+17	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+18	en	en	ADP	_	ADP___	19	case	_	_
+19	cours	cours	NOUN	_	NOUN__Gender=Masc	25	fixed	_	_
+20	de	de	ADP	_	ADP___	19	fixed	_	_
+21	négociation	négociation	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	obl	_	_
+22	...	...	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#Evitez l'envoi de chèque par courrier;
+1	Evitez	eviter	VERB	_	VERB__Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+2	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+3	envoi	envoi	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+4	de	de	ADP	_	ADP___	3	case	_	_
+5	chèque	chèque	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+6	par	par	ADP	_	ADP___	7	case	_	_
+7	courrier	courrier	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+8	;	;	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#préférez la remise en main propre.
+1	préférez	préférer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+3	remise	remise	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obj	_	_
+4	en	en	ADP	_	ADP___	3	advmod	_	_
+5	main	main	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	fixed	_	_
+6	propre	propre	ADJ	_	ADJ__Number=Sing	7	fixed	_	_
+7	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Cdlt.
+1	Cdlt	cdlt	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+2	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+

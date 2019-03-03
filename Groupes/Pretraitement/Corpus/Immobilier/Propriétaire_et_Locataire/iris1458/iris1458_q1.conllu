@@ -1,0 +1,333 @@
+#bonjour, je recherche de l'aide, car je ne sais pas comment agir et quel est mon bon droit.
+1	bonjour	bonjour	NOUN	_	NOUN___	4	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+4	recherche	recherche	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+5	de	de	ADP	_	ADP___	7	case	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	aide	aide	NOUN	_	NOUN__Number=Sing	4	obl	_	_
+8	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+9	car	car	CCONJ	_	CCONJ___	12	cc	_	_
+10	je	il	PRON	_	PRON__Number=Sing|Person=1	12	nsubj	_	_
+11	ne	ne	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+12	sais	savoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	_
+13	pas	pas	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+14	comment	comment	ADV	_	ADV__PronType=Int	15	advmod	_	_
+15	agir	agir	VERB	_	VERB__VerbForm=Inf	12	ccomp	_	_
+16	et	et	CCONJ	_	CCONJ___	21	cc	_	_
+17	quel	quel	ADJ	_	ADJ__Gender=Masc|Number=Sing	21	nsubj	_	_
+18	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+19	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	21	nmod:poss	_	_
+20	bon	bon	ADJ	_	ADJ__Gender=Masc|Number=Sing	21	amod	_	_
+21	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	conj	_	_
+22	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#ma mère est décédée il y a 3 ans.
+1	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	4	nmod:poss	_	_
+2	mère	mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	décédée	décéder	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+5	il	il	PRON	_	PRON__Number=Sing|Person=3	7	case	_	_
+6	y	yu	PRON	_	PRON__Person=3	7	fixed	_	_
+7	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	fixed	_	_
+8	3	3	NUM	_	NUM__NumType=Card	4	nummod	_	_
+9	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	obl	_	_
+10	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#elle était pacsée avec un homme qui n'est pas mon père.
+1	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	4	nsubj	_	_
+2	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+3	pacsée	pacser	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+4	avec	avec	ADP	_	ADP___	4	case	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	homme	homme	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+7	qui	qui	PRON	_	PRON__PronType=Rel	4	nsubj	_	_
+8	n'	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+9	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+10	pas	pas	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+11	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	12	nmod:poss	_	_
+12	père	père	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	acl:relcl	_	_
+13	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#mon frère et moi même, avons hérité d'un appartement, tous les papiers ont été fait chez le notaire, dans le cadre de la succession.
+1	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+2	frère	frère	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+3	et	et	CCONJ	_	CCONJ___	4	cc	_	_
+4	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	4	conj	_	_
+5	même	même	ADV	_	ADV___	7	advmod	_	_
+6	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+7	avons	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+8	hérité	hériter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	punct	_	_
+9	d'	de	ADP	_	ADP___	12	case	_	_
+10	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obl	_	_
+12	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+13	tous	tou	ADJ	_	ADJ__Gender=Masc|Number=Plur	12	amod	_	_
+14	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	15	det	_	_
+15	papiers	papier	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	nsubj	_	_
+16	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+17	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	21	aux:pass	_	_
+18	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+19	chez	chez	ADP	_	ADP___	21	case	_	_
+20	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	notaire	notaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obl	_	_
+22	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+23	dans	dan	ADP	_	ADP___	24	case	_	_
+24	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	fixed	_	_
+25	cadre	cadre	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	fixed	_	_
+26	de	de	ADP	_	ADP___	26	fixed	_	_
+27	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+28	succession	succession	NOUN	_	NOUN__Gender=Fem|Number=Sing	27	obl	_	_
+29	.	.	PUNCT	_	PUNCT___	27	punct	_	_
+
+
+#le conjoint de notre mère, est âgé un peu malade et désespéré.
+1	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+2	conjoint	conjoint	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+3	de	de	ADP	_	ADP___	4	case	_	_
+4	notre	notre	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+5	mère	mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+6	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+7	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+8	âgé	âgé	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+9	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+10	peu	peu	ADV	_	ADV___	12	advmod	_	_
+11	malade	malade	ADJ	_	ADJ__Number=Sing	12	advmod	_	_
+12	et	et	CCONJ	_	CCONJ___	4	cc	_	_
+13	désespéré	désespérer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	conj	_	_
+14	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Nous n'avions que très très peu de contact avec cette personne.
+1	Nous	nous	PRON	_	PRON__Number=Plur|Person=1	4	nsubj	_	_
+2	n'	ne	ADV	_	ADV___	4	advmod	_	_
+3	avions	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+4	que	que	ADV	_	ADV___	4	advmod	_	_
+5	très	très	ADV	_	ADV___	7	advmod	_	_
+6	très	très	ADV	_	ADV___	7	advmod	_	_
+7	peu	peu	ADV	_	ADV___	4	det	_	_
+8	de	de	ADP	_	ADP___	4	fixed	_	_
+9	contact	contact	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+10	avec	avec	ADP	_	ADP___	12	case	_	_
+11	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+12	personne	personne	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obl	_	_
+13	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#au moment du décès, nous ne sommes pas vu lui demander des quitter cet appartement ou il vivait avec ma mère depuis presque 10 ans.
+1	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	_
+2	moment	momer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+3	du	du	DET	_	DET__Gender=Masc|Number=Sing	4	det	_	_
+4	décès	décès	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obj	_	_
+5	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+6	nous	nous	PRON	_	PRON__Number=Plur|Person=1	7	nsubj	_	_
+7	ne	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+8	sommes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+9	pas	pas	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+10	vu	voir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	aux	_	_
+11	lui	luire	PRON	_	PRON__Number=Sing|Person=3	12	iobj	_	_
+12	demander	demander	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+13	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	12	mark	_	_
+14	quitter	quitter	VERB	_	VERB__VerbForm=Inf	15	xcomp	_	_
+15	cet	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
+16	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obj	_	_
+17	ou	ou	CCONJ	_	CCONJ___	21	cc	_	_
+18	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	21	nsubj	_	_
+19	vivait	vivre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	conj	_	_
+20	avec	avec	ADP	_	ADP___	21	case	_	_
+21	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	15	nmod:poss	_	_
+22	mère	mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obl	_	_
+23	depuis	depuis	ADP	_	ADP___	24	case	_	_
+24	presque	presque	ADV	_	ADV___	26	advmod	_	_
+25	10	10	NUM	_	NUM__NumType=Card	26	nummod	_	_
+26	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	26	obl	_	_
+27	.	.	PUNCT	_	PUNCT___	31	punct	_	_
+
+
+#seulement voila, le temps passe, et avec mon frère, nous devons payer tous les frais de cet appartement, les frais, les taxes et impôts... nous sommes en train d'être dépassé par le coût de cet appartement, qui vient perturber fortement notre équilibre budgétaire familial à chacun.
+1	seulement	seulement	ADV	_	ADV___	4	advmod	_	_
+2	voila	voiler	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obl	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+5	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nsubj	_	_
+6	passe	pass	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+7	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+8	et	et	CCONJ	_	CCONJ___	4	cc	_	_
+9	avec	avec	ADP	_	ADP___	12	case	_	_
+10	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	12	nmod:poss	_	_
+11	frère	frère	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obl	_	_
+12	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+13	nous	nous	PRON	_	PRON__Number=Plur|Person=1	12	nsubj	_	_
+14	devons	devon	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	payer	payer	VERB	_	VERB__VerbForm=Inf	12	acl	_	_
+16	tous	tou	ADJ	_	ADJ__Gender=Masc|Number=Plur	21	amod	_	_
+17	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	21	det	_	_
+18	frais	frais	NOUN	_	NOUN__Gender=Masc|Number=Plur	21	obj	_	_
+19	de	de	ADP	_	ADP___	21	case	_	_
+20	cet	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	21	det	_	_
+21	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nmod	_	_
+22	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+23	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	24	det	_	_
+24	frais	frais	NOUN	_	NOUN__Gender=Masc|Number=Plur	26	conj	_	_
+25	,	,	PUNCT	_	PUNCT___	26	punct	_	_
+26	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	26	det	_	_
+27	taxes	taxe	NOUN	_	NOUN__Gender=Masc|Number=Plur	31	obj	_	_
+28	et	et	CCONJ	_	CCONJ___	27	cc	_	_
+29	impôts	impôt	NOUN	_	NOUN__Gender=Masc|Number=Plur	27	conj	_	_
+30	...	...	PUNCT	_	PUNCT___	31	punct	_	_
+31	nous	nous	PRON	_	PRON__Number=Plur|Person=1	26	nsubj	_	_
+32	sommes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	26	parataxis	_	_
+33	en	en	ADP	_	ADP___	35	mark	_	_
+34	train	train	NOUN	_	NOUN__Gender=Masc|Number=Sing	35	fixed	_	_
+35	d'	de	ADP	_	ADP___	35	fixed	_	_
+36	être	être	AUX	_	AUX__VerbForm=Inf	38	fixed	_	_
+37	dépassé	dépasser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	38	obl	_	_
+38	par	par	ADP	_	ADP___	35	case	_	_
+39	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+40	coût	coût	NOUN	_	NOUN__Gender=Masc|Number=Sing	44	obl	_	_
+41	de	de	ADP	_	ADP___	44	case	_	_
+42	cet	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	44	det	_	_
+43	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	44	nmod	_	_
+44	,	,	PUNCT	_	PUNCT___	38	punct	_	_
+45	qui	qui	PRON	_	PRON__PronType=Rel	35	nsubj	_	_
+46	vient	venir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	acl:relcl	_	_
+47	perturber	perturber	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	53	xcomp	_	_
+48	fortement	fortement	ADV	_	ADV___	49	advmod	_	_
+49	notre	notre	DET	_	DET__Number=Sing|Poss=Yes	47	nmod:poss	_	_
+50	équilibre	équilibre	NOUN	_	NOUN__Gender=Masc|Number=Sing	49	obj	_	_
+51	budgétaire	budgétaire	ADJ	_	ADJ__Number=Sing	53	amod	_	_
+52	familial	familial	ADJ	_	ADJ__Gender=Masc|Number=Sing	53	amod	_	_
+53	à	à	ADP	_	ADP___	63	case	_	_
+54	chacun	chacun	PRON	_	PRON__Gender=Masc|PronType=Rel	56	nmod	_	_
+55	.	.	PUNCT	_	PUNCT___	56	punct	_	_
+
+
+#nous venons de contacter cette personne, pour lui demander de payer une partie des frais, voir tout.
+1	nous	nous	PRON	_	PRON__Number=Plur|Person=1	4	nsubj	_	_
+2	venons	venir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	de	de	ADP	_	ADP___	4	mark	_	_
+4	contacter	contacter	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+5	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+6	personne	personne	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+7	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+8	pour	pour	ADP	_	ADP___	4	mark	_	_
+9	lui	luire	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	iobj	_	_
+10	demander	demander	VERB	_	VERB__VerbForm=Inf	12	advcl	_	_
+11	de	de	ADP	_	ADP___	12	mark	_	_
+12	payer	payer	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+13	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+14	partie	partie	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obj	_	_
+15	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	12	det	_	_
+16	frais	frais	NOUN	_	NOUN__Gender=Masc|Number=Plur	21	obj	_	_
+17	,	,	PUNCT	_	PUNCT___	21	punct	_	_
+18	voir	voir	VERB	_	VERB__VerbForm=Inf	21	parataxis	_	_
+19	tout	tout	ADV	_	ADV___	21	advmod	_	_
+20	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Il nous a rigolé au nez, en disant qu'il était chez lui, et qu'il ne payerai rien.... nous avons contacté sa fille, mais il refuse de lui parler.
+1	Il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+2	nous	nous	PRON	_	PRON__Number=Plur|Person=1	4	nsubj	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	rigolé	rigoler	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	au	au	DET	_	DET__Number=Plur|PronType=Dem	7	det	_	_
+6	nez	nez	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+7	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+8	en	en	ADP	_	ADP___	4	mark	_	_
+9	disant	dire	VERB	_	VERB__Tense=Pres|VerbForm=Part	12	fixed	_	_
+10	qu'	que	SCONJ	_	SCONJ___	12	fixed	_	_
+11	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
+12	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+13	chez	chez	ADP	_	ADP___	12	case	_	_
+14	lui	luire	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obl	_	_
+15	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+16	et	et	CCONJ	_	CCONJ___	21	cc	_	_
+17	qu'	que	SCONJ	_	SCONJ___	21	mark	_	_
+18	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	21	nsubj	_	_
+19	ne	ne	ADV	_	ADV___	21	advmod	_	_
+20	payerai	payer	ADJ	_	ADJ__Gender=Masc|Number=Sing	21	conj	_	_
+21	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	15	obj	_	_
+22	....	....	PUNCT	_	PUNCT___	4	nsubj	_	_
+23	nous	nous	PRON	_	PRON__Number=Plur|Person=1	24	iobj	_	_
+24	avons	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	26	aux	_	_
+25	contacté	contacter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	ccomp	_	_
+26	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	26	nmod:poss	_	_
+27	fille	fille	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	obj	_	_
+28	,	,	PUNCT	_	PUNCT___	27	punct	_	_
+29	mais	mais	CCONJ	_	CCONJ___	27	cc	_	_
+30	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	31	nsubj	_	_
+31	refuse	refuser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	conj	_	_
+32	de	de	ADP	_	ADP___	26	mark	_	_
+33	lui	luire	PRON	_	PRON__Number=Sing|Person=3	35	iobj	_	_
+34	parler	parler	VERB	_	VERB__VerbForm=Inf	35	xcomp	_	_
+35	.	.	PUNCT	_	PUNCT___	35	punct	_	_
+
+
+#légalement, nous n'avons aucun contrat ni rien qui légalise sa présence dans l'appartement.
+1	légalement	légalement	ADV	_	ADV___	4	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	nous	nous	PRON	_	PRON__Number=Plur|Person=1	4	nsubj	_	_
+4	n'	ne	ADV	_	ADV___	4	advmod	_	_
+5	avons	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	aucun	aucun	DET	_	DET__Gender=Masc|Number=Sing	7	det	_	_
+7	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obj	_	_
+8	ni	ni	CCONJ	_	CCONJ___	4	cc	_	_
+9	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	12	conj	_	_
+10	qui	qui	PRON	_	PRON__PronType=Rel	12	nsubj	_	_
+11	légalise	légaliser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+12	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	4	nmod:poss	_	_
+13	présence	présence	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obj	_	_
+14	dans	dan	ADP	_	ADP___	15	case	_	_
+15	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+16	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obl	_	_
+17	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#nous aimerions vendre ce bien.
+1	nous	nous	PRON	_	PRON__Number=Plur|Person=1	4	nsubj	_	_
+2	aimerions	aimer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	vendre	vendre	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+4	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+5	bien	bien	ADV	_	ADV___	7	obj	_	_
+6	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#sommes nous pris au piège de devoir payer?
+1	sommes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+2	nous	nous	PRON	_	PRON__Number=Plur|Person=1	4	nsubj	_	_
+3	pris	prendre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	au	au	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	4	mark	_	_
+5	piège	piège	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	xcomp	_	_
+6	de	de	ADP	_	ADP___	7	mark	_	_
+7	devoir	devoir	AUX	_	AUX__VerbForm=Inf	4	aux	_	_
+8	payer	payer	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+9	?	?	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#merci par avance pour toute réponse qui pourra nous aider à sortir, nous l'espérons de cette difficile situation.
+1	merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	par	par	ADP	_	ADP___	4	case	_	_
+3	avance	avance	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+4	pour	pour	ADP	_	ADP___	4	case	_	_
+5	toute	tout	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+7	qui	qui	PRON	_	PRON__PronType=Rel	4	nsubj	_	_
+8	pourra	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	aux	_	_
+9	nous	nous	PRON	_	PRON__Number=Plur|Person=1|Reflex=Yes	12	expl	_	_
+10	aider	aider	VERB	_	VERB__VerbForm=Inf	12	acl:relcl	_	_
+11	à	à	ADP	_	ADP___	12	mark	_	_
+12	sortir	sortir	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+13	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+14	nous	nous	PRON	_	PRON__Number=Plur|Person=1	15	nsubj	_	_
+15	l'	le	PRON	_	PRON__Number=Sing|Person=3	12	det	_	_
+16	espérons	espéron	NOUN	_	NOUN__Gender=Fem|Number=Plur	21	nmod	_	_
+17	de	de	ADP	_	ADP___	21	case	_	_
+18	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	21	det	_	_
+19	difficile	difficile	ADJ	_	ADJ__Number=Sing	21	amod	_	_
+20	situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	nmod	_	_
+21	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+

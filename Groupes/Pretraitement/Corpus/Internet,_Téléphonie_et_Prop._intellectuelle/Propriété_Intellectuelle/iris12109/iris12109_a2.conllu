@@ -1,0 +1,71 @@
+#Bonjour.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Prêter un DVD à un collègue de travail reste dans la sphère privée.
+1	Prêter	prêter	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+2	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+3	DVD	dvd	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obj	_	_
+4	à	à	ADP	_	ADP___	5	case	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+6	collègue	collègue	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+7	de	de	ADP	_	ADP___	8	case	_	_
+8	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nmod	_	_
+9	reste	rester	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	dans	dan	ADP	_	ADP___	8	case	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+12	sphère	sphère	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obl	_	_
+13	privée	privé	ADJ	_	ADJ__Gender=Fem|Number=Sing	14	acl	_	_
+14	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Par contre, créer un club ouvert à tous de prêt de CD, livres ou DVD, même sans cotisation, sort de la sphère privée et entre dans la sphère publique...
+1	Par	Par	ADP	_	ADP___	1	advmod	_	_
+2	contre	contrer	ADP	_	ADP___	1	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+4	créer	créer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+6	club	club	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+7	ouvert	ouvrir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	amod	_	_
+8	à	à	ADP	_	ADP___	3	case	_	_
+9	tous	tou	ADJ	_	ADJ__Gender=Masc|Number=Plur	10	det	_	_
+10	de	de	ADP	_	ADP___	8	fixed	_	_
+11	prêt	prêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obl	_	_
+12	de	de	ADP	_	ADP___	14	case	_	_
+13	CD	CD	PROPN	_	PROPN___	14	nmod	_	_
+14	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+15	livres	livre	NOUN	_	NOUN__Number=Plur	14	appos	_	_
+16	ou	ou	CCONJ	_	CCONJ___	3	cc	_	_
+17	DVD	dvd	NOUN	_	NOUN___	20	conj	_	_
+18	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+19	même	même	ADV	_	ADV___	20	advmod	_	_
+20	sans	sans	ADP	_	ADP___	20	case	_	_
+21	cotisation	cotisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	obl	_	_
+22	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+23	sort	sort	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	appos	_	_
+24	de	de	ADP	_	ADP___	27	case	_	_
+25	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+26	sphère	sphère	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	nmod	_	_
+27	privée	privé	ADJ	_	ADJ__Gender=Fem|Number=Sing	23	acl	_	_
+28	et	et	CCONJ	_	CCONJ___	29	cc	_	_
+29	entre	entrer	ADP	_	ADP___	27	case	_	_
+30	dans	dan	ADP	_	ADP___	27	case	_	_
+31	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+32	sphère	sphère	NOUN	_	NOUN__Gender=Fem|Number=Sing	33	conj	_	_
+33	publique	public	ADJ	_	ADJ__Gender=Fem|Number=Sing	31	amod	_	_
+34	...	...	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Et ça, ce n'est pas permis...
+1	Et	Et	CCONJ	_	CCONJ___	1	cc	_	_
+2	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	0	ROOT	_	_
+3	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+4	ce	ce	PRON	_	PRON__PronType=Rel	5	obj	_	_
+5	n'	ne	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+6	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+7	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+8	permis	permettre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	3	acl	_	_
+9	...	...	PUNCT	_	PUNCT___	10	punct	_	_
+
+

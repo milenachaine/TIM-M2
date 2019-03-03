@@ -1,0 +1,342 @@
+#Bonjour, Je suis copropriétaire d'un appartement qui fait partie d'un immeuble de 63 lots.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+4	suis	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	copropriétaire	copropriétair	ADJ	_	ADJ__Number=Sing	1	acl:relcl	_	_
+6	d'	de	ADP	_	ADP___	8	case	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+9	qui	qui	PRON	_	PRON__PronType=Rel	10	nsubj	_	_
+10	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	partie	partie	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obj	_	_
+12	d'	de	ADP	_	ADP___	14	case	_	_
+13	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	immeuble	immeuble	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obl	_	_
+15	de	de	ADP	_	ADP___	17	case	_	_
+16	63	63	NUM	_	NUM__NumType=Card	17	nummod	_	_
+17	lots	lot	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	nmod	_	_
+18	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#L'immeuble a la forme d'un "L".
+1	L'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+2	immeuble	immeuble	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	forme	forme	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obj	_	_
+6	d'	de	ADP	_	ADP___	8	case	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	"	"	PUNCT	_	PUNCT___	5	punct	_	_
+9	L	l	NOUN	_	NOUN___	10	nmod	_	_
+10	"	"	PUNCT	_	PUNCT___	8	punct	_	_
+11	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Une partie de cet "L" a 2 étages et l'autre partie en a 3.
+1	Une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	partie	partie	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+3	de	de	ADP	_	ADP___	5	case	_	_
+4	cet	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	"	"	PUNCT	_	PUNCT___	1	punct	_	_
+6	L	l	NOUN	_	NOUN___	8	nmod	_	_
+7	"	"	PUNCT	_	PUNCT___	8	punct	_	_
+8	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+9	2	2	NUM	_	NUM__NumType=Card	10	nummod	_	_
+10	étages	étage	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obj	_	_
+11	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+12	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+13	autre	autre	ADJ	_	ADJ__Number=Sing	14	amod	_	_
+14	partie	partie	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	conj	_	_
+15	en	en	ADP	_	ADP___	17	case	_	_
+16	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+17	3	3	NUM	_	NUM__NumType=Card	14	nummod	_	_
+18	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#J'habite au 3ème étage, à la jonction des deux côtés de cet"L".
+1	J'	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	habite	habiter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	flat:name	_	_
+3	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+4	3ème	3èm	ADJ	_	ADJ__Number=Sing|NumType=Ord	5	nummod	_	_
+5	étage	étage	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+6	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+7	à	à	ADP	_	ADP___	8	case	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+9	jonction	jonction	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obl	_	_
+10	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
+11	deux	deux	NUM	_	NUM__NumType=Card	10	nummod	_	_
+12	côtés	côté	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	obj	_	_
+13	de	de	ADP	_	ADP___	14	case	_	_
+14	cet"L	cet"l	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+15	"	"	PUNCT	_	PUNCT___	17	punct	_	_
+16	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Le conseil syndical souhaite surélever l'immeuble pour financer les travaux d'isolation thermique, en profitant de la loi Alur qui facilite la surélévation (plus besoin d'unanimité lors du vote en AG).
+1	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	conseil	conseil	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	syndical	syndical	ADJ	_	ADJ__Gender=Masc|Number=Sing	5	amod	_	_
+4	souhaite	souhaiter	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	surélever	surélever	VERB	_	VERB__VerbForm=Inf	1	advmod	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+7	immeuble	immeuble	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+8	pour	pour	ADP	_	ADP___	5	mark	_	_
+9	financer	financer	VERB	_	VERB__VerbForm=Inf	10	advcl	_	_
+10	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+11	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	obj	_	_
+12	d'	de	ADP	_	ADP___	14	case	_	_
+13	isolation	isolation	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nmod	_	_
+14	thermique	thermique	ADJ	_	ADJ__Number=Sing	10	amod	_	_
+15	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+16	en	en	ADP	_	ADP___	17	case	_	_
+17	profitant	profiter	VERB	_	VERB__Tense=Pres|VerbForm=Part	14	fixed	_	_
+18	de	de	ADP	_	ADP___	1	case	_	_
+19	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	loi	loi	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	obl	_	_
+21	Alur	alur	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	nmod	_	_
+22	qui	qui	PRON	_	PRON__PronType=Rel	23	nsubj	_	_
+23	facilite	faciliter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+24	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+25	surélévation	surélévation	NOUN	_	NOUN__Gender=Fem|Number=Sing	27	obj	_	_
+26	(	(	PUNCT	_	PUNCT___	27	punct	_	_
+27	plus	plaire	ADP	_	ADP___	23	advmod	_	_
+28	besoin	besoin	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	appos	_	_
+29	d'	de	ADP	_	ADP___	21	case	_	_
+30	unanimité	unanimité	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	nmod	_	_
+31	lors	lors	ADV	_	ADV___	37	case	_	_
+32	du	du	DET	_	DET__Gender=Masc|Number=Sing	35	det	_	_
+33	vote	vote	NOUN	_	NOUN__Gender=Masc|Number=Sing	35	obl	_	_
+34	en	en	ADP	_	ADP___	35	case	_	_
+35	AG	AG	PROPN	_	PROPN___	31	nmod	_	_
+36	)	)	PUNCT	_	PUNCT___	35	punct	_	_
+37	.	.	PUNCT	_	PUNCT___	37	punct	_	_
+
+
+#Cette surélévation présente pour moi deux inconvénients: 1) la nouvelle construction va obturer la fenêtre de ma salle de bain (même si une distance de 60cm sera respectée, la vue sera complètement obturée) 2) deux fenêtres de mon salon et deux de ma cuisine vont perdre la vue dégagée sur des collines que j'ai actuellement.
+1	Cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	1	det	_	_
+2	surélévation	surélévation	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+3	présente	présent	ADJ	_	ADJ__Gender=Fem|Number=Sing	5	amod	_	_
+4	pour	pour	ADP	_	ADP___	5	case	_	_
+5	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	1	nmod	_	_
+6	deux	deux	NUM	_	NUM__NumType=Card	8	nummod	_	_
+7	inconvénients	inconvénient	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	nmod	_	_
+8	:	:	PUNCT	_	PUNCT___	5	punct	_	_
+9	1	1	NUM	_	NUM__NumType=Card	10	nummod	_	_
+10	)	)	PUNCT	_	PUNCT___	8	punct	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+12	nouvelle	nouveau	ADJ	_	ADJ__Gender=Fem|Number=Sing	14	amod	_	_
+13	construction	construction	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nmod	_	_
+14	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl	_	_
+15	obturer	obturer	VERB	_	VERB__VerbForm=Inf	17	xcomp	_	_
+16	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	fenêtre	fenêtre	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obj	_	_
+18	de	de	ADP	_	ADP___	1	case	_	_
+19	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	20	nmod:poss	_	_
+20	salle	salle	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	nmod	_	_
+21	de	de	ADP	_	ADP___	21	case	_	_
+22	bain	bain	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	nmod	_	_
+23	(	(	PUNCT	_	PUNCT___	21	punct	_	_
+24	même	même	ADV	_	ADV___	27	mark	_	_
+25	si	si	SCONJ	_	SCONJ___	27	fixed	_	_
+26	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	distance	distance	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	nsubj:pass	_	_
+28	de	de	ADP	_	ADP___	27	case	_	_
+29	60	60	NUM	_	NUM__NumType=Card	21	nummod	_	_
+30	cm	cm	NOUN	_	NOUN__Gender=Masc	31	nmod	_	_
+31	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	37	aux:pass	_	_
+32	respectée	respecter	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	35	advcl	_	_
+33	,	,	PUNCT	_	PUNCT___	35	punct	_	_
+34	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	vue	vue	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	nsubj:pass	_	_
+36	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	35	aux:pass	_	_
+37	complètement	complètement	ADV	_	ADV___	37	advmod	_	_
+38	obturée	obturer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	39	conj	_	_
+39	)	)	PUNCT	_	PUNCT___	37	punct	_	_
+40	2	2	NUM	_	NUM__NumType=Card	43	nummod	_	_
+41	)	)	PUNCT	_	PUNCT___	43	punct	_	_
+42	deux	deux	NUM	_	NUM__NumType=Card	43	nummod	_	_
+43	fenêtres	fenêtre	NOUN	_	NOUN__Gender=Fem|Number=Plur	39	nmod	_	_
+44	de	de	ADP	_	ADP___	45	case	_	_
+45	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	37	nmod:poss	_	_
+46	salon	salon	NOUN	_	NOUN__Gender=Masc|Number=Sing	45	nmod	_	_
+47	et	et	CCONJ	_	CCONJ___	37	cc	_	_
+48	deux	deux	NUM	_	NUM__NumType=Card	52	conj	_	_
+49	de	de	ADP	_	ADP___	48	case	_	_
+50	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	52	nmod:poss	_	_
+51	cuisine	cuisine	NOUN	_	NOUN__Gender=Fem|Number=Sing	52	nmod	_	_
+52	vont	aller	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+53	perdre	perdre	VERB	_	VERB__VerbForm=Inf	52	xcomp	_	_
+54	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	56	det	_	_
+55	vue	vue	NOUN	_	NOUN__Gender=Fem|Number=Sing	56	obj	_	_
+56	dégagée	dégager	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	52	obj	_	_
+57	sur	sur	ADP	_	ADP___	59	case	_	_
+58	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	59	det	_	_
+59	collines	colline	NOUN	_	NOUN__Gender=Fem|Number=Plur	52	obl	_	_
+60	que	que	PRON	_	PRON__PronType=Rel	61	obj	_	_
+61	j'	il	PRON	_	PRON__Number=Sing|Person=1	59	nsubj	_	_
+62	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	52	advcl	_	_
+63	actuellement	actuellement	ADV	_	ADV___	52	advmod	_	_
+64	.	.	PUNCT	_	PUNCT___	65	punct	_	_
+
+
+#Mon salon a des portes fenêtres d'un côté, mais les deux petites fenêtres qui se trouvent du côté opposé vont perdre leur belle vue et en partie l'ensoleillement du matin.
+1	Mon	mon	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	salon	salon	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
+5	portes	porte	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	obj	_	_
+6	fenêtres	fenêtr	ADJ	_	ADJ__Gender=Fem|Number=Plur	8	amod	_	_
+7	d'	de	ADP	_	ADP___	8	case	_	_
+8	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+9	côté	côté	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+10	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+11	mais	mais	CCONJ	_	CCONJ___	10	cc	_	_
+12	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	14	det	_	_
+13	deux	deux	NUM	_	NUM__NumType=Card	14	nummod	_	_
+14	petites	petit	ADJ	_	ADJ__Gender=Fem|Number=Plur	10	amod	_	_
+15	fenêtres	fenêtre	NOUN	_	NOUN__Gender=Fem|Number=Plur	17	conj	_	_
+16	qui	qui	PRON	_	PRON__PronType=Rel	17	nsubj	_	_
+17	se	se	PRON	_	PRON__Person=3|Reflex=Yes	14	expl	_	_
+18	trouvent	trouver	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+19	du	du	DET	_	DET__Gender=Masc|Number=Sing	20	det	_	_
+20	côté	côté	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obj	_	_
+21	opposé	opposé	ADJ	_	ADJ__Gender=Masc|Number=Sing	21	amod	_	_
+22	vont	aller	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	amod	_	_
+23	perdre	perdre	VERB	_	VERB__VerbForm=Inf	21	xcomp	_	_
+24	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	27	nmod:poss	_	_
+25	belle	bel	ADJ	_	ADJ__Gender=Fem|Number=Sing	27	amod	_	_
+26	vue	vue	NOUN	_	NOUN__Gender=Fem|Number=Sing	27	obj	_	_
+27	et	et	CCONJ	_	CCONJ___	23	cc	_	_
+28	en	en	ADP	_	ADP___	27	advmod	_	_
+29	partie	partie	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	fixed	_	_
+30	l'	le	PRON	_	PRON__Number=Sing|Person=3	31	det	_	_
+31	ensoleillement	ensoleillemer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	conj	_	_
+32	du	du	DET	_	DET__Gender=Masc|Number=Sing	35	det	_	_
+33	matin	matin	NOUN	_	NOUN__Gender=Masc|Number=Sing	35	obj	_	_
+34	.	.	PUNCT	_	PUNCT___	35	punct	_	_
+
+
+#Comment puis-je m'opposer à ce projet?
+1	Comment	comment	ADV	_	ADV__PronType=Int	1	advmod	_	_
+2	puis-je	puis-je	ADV	_	ADV___	1	nsubj	_	_
+3	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	5	expl	_	_
+4	opposer	opposer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	à	à	ADP	_	ADP___	1	case	_	_
+6	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+7	projet	projet	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+8	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Je ne sais pas comment vont voter mes voisins, mais je pense que sur les 63 lots
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ne	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+3	sais	savoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+5	comment	comment	ADV	_	ADV__PronType=Int	1	advmod	_	_
+6	vont	aller	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+7	voter	voter	VERB	_	VERB__VerbForm=Inf	8	xcomp	_	_
+8	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	5	nmod:poss	_	_
+9	voisins	voisin	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	obj	_	_
+10	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+11	mais	mais	CCONJ	_	CCONJ___	10	cc	_	_
+12	je	il	PRON	_	PRON__Number=Sing|Person=1	14	nsubj	_	_
+13	pense	penser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	conj	_	_
+14	que	que	SCONJ	_	SCONJ___	10	advmod	_	_
+15	sur	sur	ADP	_	ADP___	17	case	_	_
+16	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	17	det	_	_
+17	63	63	NUM	_	NUM__NumType=Card	14	nummod	_	_
+18	lots	lot	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	obl	_	_
+
+
+#il n'y a que seulement deux ou trois lots qui seront gênés, comme moi, par cette surélévation.
+1	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+3	y	yu	PRON	_	PRON__Person=3	5	expl	_	_
+4	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	que	que	ADV	_	ADV___	1	advmod	_	_
+6	seulement	seulement	ADV	_	ADV___	8	advmod	_	_
+7	deux	deux	NUM	_	NUM__NumType=Card	8	obj	_	_
+8	ou	ou	CCONJ	_	CCONJ___	5	cc	_	_
+9	trois	trois	NUM	_	NUM__NumType=Card	10	nummod	_	_
+10	lots	lot	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	conj	_	_
+11	qui	qui	PRON	_	PRON__PronType=Rel	10	nsubj:pass	_	_
+12	seront	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	14	aux:pass	_	_
+13	gênés	gêner	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	14	acl:relcl	_	_
+14	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+15	comme	comme	ADP	_	ADP___	17	case	_	_
+16	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	17	advcl	_	_
+17	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+18	par	par	ADP	_	ADP___	1	case	_	_
+19	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	20	det	_	_
+20	surélévation	surélévation	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	obl	_	_
+21	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#J'ai acheté cet appartement pour sa position, pour sa vue dégagée que j'ai actuellement de TOUTES les fenêtres de l'appartement et je pense que sa valeur va subir une baisse à cause de cette surélévation.
+1	J'	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	acheté	acheter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	cet	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+6	pour	pour	ADP	_	ADP___	8	case	_	_
+7	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	8	nmod:poss	_	_
+8	position	position	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+9	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+10	pour	pour	ADP	_	ADP___	8	case	_	_
+11	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	10	nmod:poss	_	_
+12	vue	vue	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obl	_	_
+13	dégagée	dégager	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	amod	_	_
+14	que	que	SCONJ	_	SCONJ___	10	mark	_	_
+15	j'	il	PRON	_	PRON__Number=Sing|Person=1	17	nsubj	_	_
+16	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	ccomp	_	_
+17	actuellement	actuellement	ADV	_	ADV___	14	advmod	_	_
+18	de	de	ADP	_	ADP___	1	case	_	_
+19	TOUTES	tout	ADJ	_	ADJ__Gender=Fem|Number=Plur	20	amod	_	_
+20	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	21	det	_	_
+21	fenêtres	fenêtre	NOUN	_	NOUN__Gender=Fem|Number=Plur	21	obj	_	_
+22	de	de	ADP	_	ADP___	23	case	_	_
+23	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+24	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	nmod	_	_
+25	et	et	CCONJ	_	CCONJ___	27	cc	_	_
+26	je	il	PRON	_	PRON__Number=Sing|Person=1	27	nsubj	_	_
+27	pense	penser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	conj	_	_
+28	que	que	SCONJ	_	SCONJ___	27	mark	_	_
+29	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	21	nmod:poss	_	_
+30	valeur	valeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	nsubj	_	_
+31	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	ccomp	_	_
+32	subir	subir	VERB	_	VERB__VerbForm=Inf	35	xcomp	_	_
+33	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+34	baisse	baisse	NOUN	_	NOUN__Gender=Fem|Number=Sing	35	obj	_	_
+35	à	à	ADP	_	ADP___	31	advmod	_	_
+36	cause	cause	NOUN	_	NOUN__Gender=Fem|Number=Sing	35	fixed	_	_
+37	de	de	ADP	_	ADP___	37	case	_	_
+38	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	39	det	_	_
+39	surélévation	surélévation	NOUN	_	NOUN__Gender=Fem|Number=Sing	37	nmod	_	_
+40	.	.	PUNCT	_	PUNCT___	43	punct	_	_
+
+
+#Comment procéder pour m'opposer et pour arrêter ce projet?
+1	Comment	comment	ADV	_	ADV__PronType=Int	1	advmod	_	_
+2	procéder	procéder	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+3	pour	pour	ADP	_	ADP___	5	mark	_	_
+4	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	5	expl	_	_
+5	opposer	opposer	VERB	_	VERB__VerbForm=Inf	1	advcl	_	_
+6	et	et	CCONJ	_	CCONJ___	8	cc	_	_
+7	pour	pour	ADP	_	ADP___	8	mark	_	_
+8	arrêter	arrêter	VERB	_	VERB__VerbForm=Inf	5	conj	_	_
+9	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+10	projet	projet	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+11	?	?	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Merci d'avance pour vos conseils.
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	d'	de	ADP	_	ADP___	1	case	_	_
+3	avance	avance	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+4	pour	pour	ADP	_	ADP___	5	case	_	_
+5	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	1	nmod:poss	_	_
+6	conseils	conseil	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	nmod	_	_
+7	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+

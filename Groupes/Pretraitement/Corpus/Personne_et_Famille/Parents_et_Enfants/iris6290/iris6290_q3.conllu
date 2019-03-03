@@ -1,0 +1,592 @@
+#Bonjour MI44, merci pour votre conseil.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	MI44	MI44	PROPN	_	PROPN__Gender=Masc|Number=Sing	1	flat:name	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	appos	_	_
+5	pour	pour	ADP	_	ADP___	7	case	_	_
+6	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	7	nmod:poss	_	_
+7	conseil	conseil	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+8	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#L'orthophoniste refuse, le compte rendu est destiné au medecin prescripteur et à personne d'autre, si les parents demandent le compte rendu, ils y ont bien sûr droit aussi, ils en ont une copie, et point.
+1	L'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+2	orthophoniste	orthophoniste	NOUN	_	NOUN__Number=Sing	1	nsubj	_	_
+3	refuse	refuser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	compte	compte	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+7	rendu	rendre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+8	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
+9	destiné	destiner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	acl	_	_
+10	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	11	case	_	_
+11	medecin	medecin	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obl	_	_
+12	prescripteur	prescripteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	amod	_	_
+13	et	et	CCONJ	_	CCONJ___	14	cc	_	_
+14	à	à	ADP	_	ADP___	17	case	_	_
+15	personne	personne	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	conj	_	_
+16	d'	de	ADP	_	ADP___	17	case	_	_
+17	autre	autre	ADJ	_	ADJ__Number=Sing	11	nmod	_	_
+18	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+19	si	si	SCONJ	_	SCONJ___	17	mark	_	_
+20	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	19	det	_	_
+21	parents	parent	NOUN	_	NOUN__Gender=Masc|Number=Plur	23	nsubj	_	_
+22	demandent	demander	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	advcl	_	_
+23	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+24	compte	compte	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	obj	_	_
+25	rendu	rendre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	amod	_	_
+26	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+27	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	30	nsubj	_	_
+28	y	yu	PRON	_	PRON__Person=3	29	fixed	_	_
+29	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	fixed	_	_
+30	bien	bien	ADV	_	ADV___	45	advmod	_	_
+31	sûr	sûr	ADJ	_	ADJ__Gender=Masc|Number=Sing	32	fixed	_	_
+32	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	obl	_	_
+33	aussi	aussi	ADV	_	ADV___	32	advmod	_	_
+34	,	,	PUNCT	_	PUNCT___	30	punct	_	_
+35	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	40	nsubj	_	_
+36	en	en	PRON	_	PRON__Person=3	35	expl	_	_
+37	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	35	conj	_	_
+38	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+39	copie	copie	NOUN	_	NOUN__Gender=Fem|Number=Sing	38	obj	_	_
+40	,	,	PUNCT	_	PUNCT___	30	punct	_	_
+41	et	et	CCONJ	_	CCONJ___	40	cc	_	_
+42	point	point	NOUN	_	NOUN__Gender=Masc|Number=Sing	45	conj	_	_
+43	.	.	PUNCT	_	PUNCT___	45	punct	_	_
+
+
+#Il n'y a pas 36 versions d'un compte rendu, sa seule obligation est le compte rendu au prescripteur, elle est dans son droit (NGAP des actes d'Orthophonie).
+1	Il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+3	y	yu	PRON	_	PRON__Person=3	4	expl	_	_
+4	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+6	36	36	NUM	_	NUM__NumType=Card	7	nummod	_	_
+7	versions	version	NOUN	_	NOUN__Gender=Fem|Number=Plur	4	obj	_	_
+8	d'	de	ADP	_	ADP___	1	case	_	_
+9	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	compte	compte	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+11	rendu	rendre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	amod	_	_
+12	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+13	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	14	nmod:poss	_	_
+14	seule	seul	ADJ	_	ADJ__Gender=Fem|Number=Sing	17	amod	_	_
+15	obligation	obligation	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nsubj	_	_
+16	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+18	compte	compte	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	iobj	_	_
+19	rendu	rendre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl	_	_
+20	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	19	det	_	_
+21	prescripteur	prescripteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	obj	_	_
+22	,	,	PUNCT	_	PUNCT___	23	punct	_	_
+23	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	19	nsubj	_	_
+24	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+25	dans	dan	ADP	_	ADP___	23	case	_	_
+26	son	son	DET	_	DET__Number=Sing|Poss=Yes	11	nmod:poss	_	_
+27	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	obj	_	_
+28	(	(	PUNCT	_	PUNCT___	29	punct	_	_
+29	NGAP	ngap	NOUN	_	NOUN__Gender=Fem|Number=Plur	30	obj	_	_
+30	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	45	det	_	_
+31	actes	acte	NOUN	_	NOUN__Gender=Masc|Number=Plur	32	obj	_	_
+32	d'	de	ADP	_	ADP___	30	case	_	_
+33	Orthophonie	Orthophonie	PROPN	_	PROPN___	32	nmod	_	_
+34	)	)	PUNCT	_	PUNCT___	30	punct	_	_
+35	.	.	PUNCT	_	PUNCT___	40	punct	_	_
+
+
+#Je donne ce compte rendu ou je ne donne rien.... elle, elle pense que je ne devrais rien donner, et je serais dans mon droit de ne rien donner.
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	donne	donner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	compte	compte	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+5	rendu	rendre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	amod	_	_
+6	ou	ou	CCONJ	_	CCONJ___	7	cc	_	_
+7	je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+8	ne	ne	ADV	_	ADV___	1	advmod	_	_
+9	donne	donner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+10	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	11	obj	_	_
+11	....	....	PUNCT	_	PUNCT___	11	obl	_	_
+12	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+13	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+14	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	17	nsubj	_	_
+15	pense	penser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+16	que	que	SCONJ	_	SCONJ___	17	mark	_	_
+17	je	il	PRON	_	PRON__Number=Sing|Person=1	11	nsubj	_	_
+18	ne	ne	ADV	_	ADV__Polarity=Neg	19	advmod	_	_
+19	devrais	devoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	_
+20	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	19	nsubj	_	_
+21	donner	donner	VERB	_	VERB__VerbForm=Inf	23	ccomp	_	_
+22	,	,	PUNCT	_	PUNCT___	23	punct	_	_
+23	et	et	CCONJ	_	CCONJ___	19	cc	_	_
+24	je	il	PRON	_	PRON__Number=Sing|Person=1	25	nsubj	_	_
+25	serais	être	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	conj	_	_
+26	dans	dan	ADP	_	ADP___	11	case	_	_
+27	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	30	nmod:poss	_	_
+28	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	obl	_	_
+29	de	de	ADP	_	ADP___	30	mark	_	_
+30	ne	ne	ADV	_	ADV___	45	advmod	_	_
+31	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	32	fixed	_	_
+32	donner	donner	VERB	_	VERB__VerbForm=Inf	30	acl	_	_
+33	.	.	PUNCT	_	PUNCT___	32	punct	_	_
+
+
+#Aux autres, Merci pour vos contributions négatives et jugements!
+1	Aux	aux	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	0	ROOT	_	_
+2	autres	autre	ADJ	_	ADJ__Number=Plur	1	amod	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	conj	_	_
+5	pour	pour	ADP	_	ADP___	7	case	_	_
+6	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	7	nmod:poss	_	_
+7	contributions	contribution	NOUN	_	NOUN__Gender=Fem|Number=Plur	4	nmod	_	_
+8	négatives	négatif	ADJ	_	ADJ__Number=Plur	1	amod	_	_
+9	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+10	jugements	jugement	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	conj	_	_
+11	!	!	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#(non, je n'ai pas dit conseil!) Je ne sais pas ce que valent vos connaissances juridiques, mais, vos connaissances en matière médicales et paramédicales laissent à désirer.
+1	(	(	PUNCT	_	PUNCT___	1	punct	_	_
+2	non	non	ADV	_	ADV___	1	advmod	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+5	n'	ne	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+6	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	pas	pas	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+8	dit	dire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+9	conseil	conseil	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+10	!	!	PUNCT	_	PUNCT___	11	punct	_	_
+11	)	)	PUNCT	_	PUNCT___	11	punct	_	_
+12	Je	il	PRON	_	PRON__Number=Sing|Person=1	11	nsubj	_	_
+13	ne	ne	ADV	_	ADV__Polarity=Neg	14	advmod	_	_
+14	sais	savoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	parataxis	_	_
+15	pas	pas	ADV	_	ADV__Polarity=Neg	14	advmod	_	_
+16	ce	ce	PRON	_	PRON__PronType=Rel	17	obj	_	_
+17	que	que	PRON	_	PRON__PronType=Rel	11	obj	_	_
+18	valent	valoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+19	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	17	nmod:poss	_	_
+20	connaissances	connaissance	NOUN	_	NOUN__Gender=Fem|Number=Plur	19	obj	_	_
+21	juridiques	juridique	ADJ	_	ADJ__Number=Plur	23	amod	_	_
+22	,	,	PUNCT	_	PUNCT___	23	punct	_	_
+23	mais	mais	CCONJ	_	CCONJ___	19	cc	_	_
+24	,	,	PUNCT	_	PUNCT___	25	punct	_	_
+25	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	23	nmod:poss	_	_
+26	connaissances	connaissance	NOUN	_	NOUN__Gender=Fem|Number=Plur	11	conj	_	_
+27	en	en	ADP	_	ADP___	30	case	_	_
+28	matière	matière	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	fixed	_	_
+29	médicales	médical	ADJ	_	ADJ__Gender=Fem|Number=Plur	30	nmod	_	_
+30	et	et	CCONJ	_	CCONJ___	45	cc	_	_
+31	paramédicales	paramédical	ADJ	_	ADJ__Number=Plur	32	conj	_	_
+32	laissent	laisser	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	advmod	_	_
+33	à	à	ADP	_	ADP___	32	mark	_	_
+34	désirer	désirer	VERB	_	VERB__VerbForm=Inf	30	xcomp	_	_
+35	.	.	PUNCT	_	PUNCT___	40	punct	_	_
+
+
+#C'est dommage d'asséner des "conseils" et des contre vérités sans s'être renseigné.
+1	C'	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj:pass	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
+3	dommage	dommag	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	d'	de	ADP	_	ADP___	1	mark	_	_
+5	asséner	asséner	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+6	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
+7	"	"	PUNCT	_	PUNCT___	4	punct	_	_
+8	conseils	conseil	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	obj	_	_
+9	"	"	PUNCT	_	PUNCT___	10	punct	_	_
+10	et	et	CCONJ	_	CCONJ___	11	cc	_	_
+11	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
+12	contre	contrer	ADP	_	ADP___	11	case	_	_
+13	vérités	vériter	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	14	conj	_	_
+14	sans	sans	ADP	_	ADP___	17	case	_	_
+15	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	14	expl	_	_
+16	être	être	AUX	_	AUX__VerbForm=Inf	17	aux:pass	_	_
+17	renseigné	renseigner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	advcl	_	_
+18	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Juste pour info, les orthophonistes sont des auxiliaires médicaux comme le kiné, l'infirmière, qu'ils sont titulaires d'un Bac +5, qu'ils travaillent dans des services hyperpointus de réanimation pédiatrique, néonatologie, neurologie, cancérologie....
+1	Juste	juste	ADV	_	ADV___	1	advmod	_	_
+2	pour	pour	ADP	_	ADP___	1	mark	_	_
+3	info	info	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+5	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+6	orthophonistes	orthophoniste	NOUN	_	NOUN__Number=Plur	7	nsubj	_	_
+7	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+8	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	1	det	_	_
+9	auxiliaires	auxiliaire	NOUN	_	NOUN__Gender=Fem|Number=Plur	10	obj	_	_
+10	médicaux	médical	ADJ	_	ADJ__Gender=Masc|Number=Plur	11	amod	_	_
+11	comme	comme	SCONJ	_	SCONJ___	11	case	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+13	kiné	kiné	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nmod	_	_
+14	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+15	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+16	infirmière	infirmier	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	conj	_	_
+17	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+18	qu'	que	PRON	_	PRON__PronType=Rel	19	mark	_	_
+19	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	17	nsubj	_	_
+20	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+21	titulaires	titulaire	ADJ	_	ADJ__Number=Plur	23	ccomp	_	_
+22	d'	de	ADP	_	ADP___	23	case	_	_
+23	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+24	Bac	Bac	PROPN	_	PROPN__Gender=Masc|Number=Sing	25	obl	_	_
+25	+	+	ADP	_	ADP___	23	case	_	_
+26	5	5	NUM	_	NUM__NumType=Card	11	nmod	_	_
+27	,	,	PUNCT	_	PUNCT___	30	punct	_	_
+28	qu'	que	PRON	_	PRON__PronType=Rel	29	mark	_	_
+29	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	30	nsubj	_	_
+30	travaillent	travailler	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	45	acl:relcl	_	_
+31	dans	dan	ADP	_	ADP___	32	case	_	_
+32	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	30	det	_	_
+33	services	service	NOUN	_	NOUN__Gender=Masc|Number=Plur	32	obl	_	_
+34	hyperpointus	hyperpointu	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	amod	_	_
+35	de	de	ADP	_	ADP___	40	case	_	_
+36	réanimation	réanimation	NOUN	_	NOUN__Gender=Fem|Number=Sing	35	nmod	_	_
+37	pédiatrique	pédiatrique	ADJ	_	ADJ__Number=Sing	35	amod	_	_
+38	,	,	PUNCT	_	PUNCT___	40	punct	_	_
+39	néonatologie	néonatologie	NOUN	_	NOUN__Gender=Fem|Number=Sing	38	conj	_	_
+40	,	,	PUNCT	_	PUNCT___	30	punct	_	_
+41	neurologie	neurologie	NOUN	_	NOUN__Gender=Fem|Number=Sing	40	conj	_	_
+42	,	,	PUNCT	_	PUNCT___	45	punct	_	_
+43	cancérologie	cancérologie	NOUN	_	NOUN__Gender=Fem|Number=Sing	45	conj	_	_
+44	....	....	PUNCT	_	PUNCT___	45	punct	_	_
+
+
+#Ils travaillent sur prescription mais sont autonomes pour le choix de leur bilan, leur choix de rééducation...
+1	Ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	1	nsubj	_	_
+2	travaillent	travailler	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	sur	sur	ADP	_	ADP___	4	case	_	_
+4	prescription	prescription	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obl	_	_
+5	mais	mais	CCONJ	_	CCONJ___	7	cc	_	_
+6	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	autonomes	autonome	ADJ	_	ADJ__Number=Plur	4	conj	_	_
+8	pour	pour	ADP	_	ADP___	1	case	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	choix	choix	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obl	_	_
+11	de	de	ADP	_	ADP___	11	case	_	_
+12	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	11	nmod:poss	_	_
+13	bilan	bilan	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nmod	_	_
+14	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+15	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	14	nmod:poss	_	_
+16	choix	choix	NOUN	_	NOUN__Gender=Masc|Number=Plur	17	obj	_	_
+17	de	de	ADP	_	ADP___	11	case	_	_
+18	rééducation	rééducation	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	nmod	_	_
+19	...	...	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Pour info encore, un handicap, grand ou petit, chez un enfant ne tombe pas du ciel (sauf accident), il trouve son origine dans le développement et parfois même en anténatal.
+1	Pour	Pour	ADP	_	ADP___	1	mark	_	_
+2	info	info	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	_
+3	encore	encore	ADV	_	ADV___	4	advmod	_	_
+4	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	handicap	handicap	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+7	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+8	grand	grand	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	amod	_	_
+9	ou	ou	CCONJ	_	CCONJ___	10	cc	_	_
+10	petit	petit	ADJ	_	ADJ__Gender=Masc|Number=Sing	11	conj	_	_
+11	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+12	chez	chez	ADP	_	ADP___	11	case	_	_
+13	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	enfant	enfant	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obl	_	_
+15	ne	ne	ADV	_	ADV__Polarity=Neg	14	advmod	_	_
+16	tombe	tomber	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl	_	_
+17	pas	pas	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+18	du	du	DET	_	DET__Gender=Masc|Number=Sing	19	det	_	_
+19	ciel	ciel	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obj	_	_
+20	(	(	PUNCT	_	PUNCT___	19	punct	_	_
+21	sauf	sauf	ADP	_	ADP___	23	case	_	_
+22	accident	accident	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	nmod	_	_
+23	)	)	PUNCT	_	PUNCT___	19	punct	_	_
+24	,	,	PUNCT	_	PUNCT___	25	punct	_	_
+25	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	23	nsubj	_	_
+26	trouve	trouver	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+27	son	son	DET	_	DET__Number=Sing|Poss=Yes	30	nmod:poss	_	_
+28	origine	origine	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	obj	_	_
+29	dans	dan	ADP	_	ADP___	30	case	_	_
+30	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+31	développement	développement	NOUN	_	NOUN__Gender=Masc|Number=Sing	32	obl	_	_
+32	et	et	CCONJ	_	CCONJ___	30	cc	_	_
+33	parfois	parfois	ADV	_	ADV___	32	advmod	_	_
+34	même	même	ADV	_	ADV___	30	conj	_	_
+35	en	en	ADP	_	ADP___	40	case	_	_
+36	anténatal	anténatal	ADJ	_	ADJ__Gender=Masc|Number=Sing	35	obl	_	_
+37	.	.	PUNCT	_	PUNCT___	35	punct	_	_
+
+
+#En savoir le maximum sur le développement permet d'y repérer des retards, de chercher l'origine et de proposer une rééducation adéquate.
+1	En	En	ADP	_	ADP___	1	case	_	_
+2	savoir	savoir	VERB	_	VERB__VerbForm=Inf	1	fixed	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	maximum	maximum	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	advcl	_	_
+5	sur	sur	ADP	_	ADP___	7	case	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	développement	développement	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+8	permet	permettre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl	_	_
+9	d'	de	ADP	_	ADP___	10	mark	_	_
+10	y	yu	PRON	_	PRON__Person=3	11	iobj	_	_
+11	repérer	repérer	VERB	_	VERB__VerbForm=Inf	11	xcomp	_	_
+12	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
+13	retards	retard	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	obj	_	_
+14	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+15	de	de	ADP	_	ADP___	14	mark	_	_
+16	chercher	chercher	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+17	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+18	origine	origine	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obj	_	_
+19	et	et	CCONJ	_	CCONJ___	17	cc	_	_
+20	de	de	ADP	_	ADP___	19	mark	_	_
+21	proposer	proposer	VERB	_	VERB__VerbForm=Inf	23	conj	_	_
+22	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	rééducation	rééducation	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obj	_	_
+24	adéquate	adéquat	ADJ	_	ADJ__Gender=Fem|Number=Sing	25	amod	_	_
+25	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Un enfant opéré à la naissance ou né prématurément ou avec contexte malformatif aura des difficultés différentes de celui qui est sourd, ou "juste" dyslexique, la rééducation ne prendra pas les mêmes axes, d'où les questions sur le développement et l'accouchement.
+1	Un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	enfant	enfant	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	opéré	opérer	ADV	_	ADV___	4	acl	_	_
+4	à	à	ADP	_	ADP___	1	case	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	naissance	naissance	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obl	_	_
+7	ou	ou	CCONJ	_	CCONJ___	4	cc	_	_
+8	né	naître	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	_
+9	prématurément	prématurémer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	advmod	_	_
+10	ou	ou	CCONJ	_	CCONJ___	11	cc	_	_
+11	avec	avec	ADP	_	ADP___	11	case	_	_
+12	contexte	contexte	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obl	_	_
+13	malformatif	malformatif	ADJ	_	ADJ__Gender=Masc|Number=Sing	14	amod	_	_
+14	aura	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+15	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
+16	difficultés	difficulté	NOUN	_	NOUN__Gender=Fem|Number=Plur	17	obj	_	_
+17	différentes	différent	ADJ	_	ADJ__Gender=Fem|Number=Plur	11	det	_	_
+18	de	de	ADP	_	ADP___	19	case	_	_
+19	celui	celui	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Dem	17	nmod	_	_
+20	qui	qui	PRON	_	PRON__PronType=Rel	19	nsubj	_	_
+21	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+22	sourd	sourd	ADJ	_	ADJ__Number=Sing	23	acl:relcl	_	_
+23	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+24	ou	ou	CCONJ	_	CCONJ___	25	cc	_	_
+25	"	"	PUNCT	_	PUNCT___	23	punct	_	_
+26	juste	juste	ADV	_	ADV___	11	amod	_	_
+27	"	"	PUNCT	_	PUNCT___	30	punct	_	_
+28	dyslexique	dyslexique	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	conj	_	_
+29	,	,	PUNCT	_	PUNCT___	30	punct	_	_
+30	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+31	rééducation	rééducation	NOUN	_	NOUN__Gender=Fem|Number=Sing	32	nsubj	_	_
+32	ne	ne	ADV	_	ADV__Polarity=Neg	30	advmod	_	_
+33	prendra	prendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	32	acl	_	_
+34	pas	pas	ADV	_	ADV__Polarity=Neg	30	advmod	_	_
+35	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	40	det	_	_
+36	mêmes	même	ADJ	_	ADJ__Number=Plur	35	amod	_	_
+37	axes	ax	ADJ	_	ADJ__Number=Plur	35	obj	_	_
+38	,	,	PUNCT	_	PUNCT___	40	punct	_	_
+39	d'	de	ADP	_	ADP___	38	punct	_	_
+40	où	où	PRON	_	PRON__PronType=Rel	30	fixed	_	_
+41	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	40	det	_	_
+42	questions	question	NOUN	_	NOUN__Gender=Fem|Number=Plur	45	obj	_	_
+43	sur	sur	ADP	_	ADP___	45	case	_	_
+44	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	développement	développement	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+46	et	et	CCONJ	_	CCONJ___	47	cc	_	_
+47	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	45	det	_	_
+48	accouchement	accouchement	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	conj	_	_
+49	.	.	PUNCT	_	PUNCT___	50	punct	_	_
+
+
+#Oui, j'en sais beaucoup sur le parcours médical et paramédical..
+1	Oui	Oui	PROPN	_	PROPN__Gender=Masc|Number=Sing	1	obl	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	j'	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+4	en	en	PRON	_	PRON__Person=3	1	dep	_	_
+5	sais	savoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	beaucoup	beaucoup	ADV	_	ADV___	7	advmod	_	_
+7	sur	sur	ADP	_	ADP___	4	case	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+9	parcours	parcours	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obl	_	_
+10	médical	médical	ADJ	_	ADJ__Gender=Masc|Number=Sing	11	amod	_	_
+11	et	et	CCONJ	_	CCONJ___	11	cc	_	_
+12	paramédical	paramédical	ADJ	_	ADJ__Gender=Masc|Number=Sing	11	conj	_	_
+13	..	..	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#ça sent la cavalerie?
+1	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	1	nsubj	_	_
+2	sent	sentir	ADV	_	ADV___	0	ROOT	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	cavalerie	cavalerie	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obj	_	_
+5	?	?	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Ou alors, ça fait longtemps que je galère!
+1	Ou	Ou	CCONJ	_	CCONJ___	1	cc	_	_
+2	alors	alors	ADV	_	ADV___	1	advmod	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	1	nsubj	_	_
+5	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	longtemps	longtemps	ADV	_	ADV___	7	advmod	_	_
+7	que	que	SCONJ	_	SCONJ___	4	mark	_	_
+8	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+9	galère	galérer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+10	!	!	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Quant aux relations entre parents dans la situation d'un enfant handicapé, vous pouvez aussi aller faire un tour sur le web...
+1	Quant	quant	ADV	_	ADV___	1	case	_	_
+2	aux	aux	ADP	_	ADP___	1	fixed	_	_
+3	relations	relation	NOUN	_	NOUN__Gender=Fem|Number=Plur	4	obl	_	_
+4	entre	entrer	ADP	_	ADP___	1	case	_	_
+5	parents	parent	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	nmod	_	_
+6	dans	dan	ADP	_	ADP___	7	case	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+8	situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+9	d'	de	ADP	_	ADP___	10	case	_	_
+10	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	enfant	enfant	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+12	handicapé	handicaper	PUNCT	_	PUNCT___	11	amod	_	_
+13	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+14	vous	vous	PRON	_	PRON__Number=Plur|Person=2	17	nsubj	_	_
+15	pouvez	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	14	aux	_	_
+16	aussi	aussi	ADV	_	ADV___	17	advmod	_	_
+17	aller	aller	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+18	faire	faire	VERB	_	VERB__VerbForm=Inf	19	xcomp	_	_
+19	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+20	tour	tour	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obj	_	_
+21	sur	sur	ADP	_	ADP___	23	case	_	_
+22	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	web	web	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	nmod	_	_
+24	...	...	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#vous y apprendrez que la plupart des couples n'y survivent pas...
+1	vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+2	y	yu	PRON	_	PRON__Person=3	1	iobj	_	_
+3	apprendrez	apprendre	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+4	que	que	SCONJ	_	SCONJ___	1	mark	_	_
+5	la	le	DET	_	DET__Gender=Fem|Number=Sing	7	nsubj	_	_
+6	plupart	plupart	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	fixed	_	_
+7	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
+8	couples	couple	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	nsubj	_	_
+9	n'	ne	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+10	y	yu	PRON	_	PRON__Person=3	11	iobj	_	_
+11	survivent	survivre	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+12	pas	pas	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+13	...	...	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Comme d'autres, nous avons un pied dans la tombe!
+1	Comme	Comme	ADP	_	ADP___	1	mark	_	_
+2	d'	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	1	advmod	_	_
+3	autres	autre	ADJ	_	ADJ__Number=Plur	4	fixed	_	_
+4	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+5	nous	nous	PRON	_	PRON__Number=Plur|Person=1	7	nsubj	_	_
+6	avons	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+8	pied	pied	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+9	dans	dan	ADP	_	ADP___	10	case	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	tombe	tombe	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obl	_	_
+12	!	!	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Je ne vous souhaite pas un jour de vous retrouver avec un enfant ou un parent en situation de handicap.
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ne	ne	ADV	_	ADV___	1	advmod	_	_
+3	vous	vous	PRON	_	PRON__Number=Plur|Person=2	4	iobj	_	_
+4	souhaite	souhaiter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obj	_	_
+8	de	de	ADP	_	ADP___	1	mark	_	_
+9	vous	vous	PRON	_	PRON__Number=Plur|Person=2	10	iobj	_	_
+10	retrouver	retrouver	VERB	_	VERB__VerbForm=Inf	11	nmod	_	_
+11	avec	avec	ADP	_	ADP___	11	case	_	_
+12	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+13	enfant	enfant	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obl	_	_
+14	ou	ou	CCONJ	_	CCONJ___	17	cc	_	_
+15	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+16	parent	parent	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	conj	_	_
+17	en	en	ADP	_	ADP___	11	case	_	_
+18	situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	nmod	_	_
+19	de	de	ADP	_	ADP___	17	case	_	_
+20	handicap	handicap	NOUN	_	NOUN__Gender=Fem|Number=Plur	19	nmod	_	_
+21	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Mais si ça vous arrivait vous pourrez alors goûter aux joies de la culpabilité, des jugements des bien pensants et des conseils erronés de gens qui pensent savoir et qui ne savent pas, avec une palme d'or pour les enseignants!
+1	Mais	Mais	CCONJ	_	CCONJ___	1	cc	_	_
+2	si	si	SCONJ	_	SCONJ___	1	mark	_	_
+3	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	_
+4	vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	iobj	_	_
+5	arrivait	arriver	VERB	_	VERB__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	vous	vous	PRON	_	PRON__Number=Plur|Person=2	7	iobj	_	_
+7	pourrez	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+8	alors	alors	ADV	_	ADV___	1	advmod	_	_
+9	goûter	goûter	VERB	_	VERB__VerbForm=Inf	10	xcomp	_	_
+10	aux	aux	ADP	_	ADP___	11	aux	_	_
+11	joies	joie	NOUN	_	NOUN__Gender=Fem|Number=Plur	11	obj	_	_
+12	de	de	ADP	_	ADP___	11	case	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	culpabilité	culpabilité	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	nmod	_	_
+15	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+16	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	17	det	_	_
+17	jugements	jugement	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	conj	_	_
+18	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	19	det	_	_
+19	bien	bien	ADV	_	ADV___	17	amod	_	_
+20	pensants	pensant	NOUN	_	NOUN__Gender=Masc|Number=Plur	19	amod	_	_
+21	et	et	CCONJ	_	CCONJ___	23	cc	_	_
+22	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	23	det	_	_
+23	conseils	conseil	NOUN	_	NOUN__Gender=Masc|Number=Plur	19	conj	_	_
+24	erronés	erroner	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	25	amod	_	_
+25	de	de	ADP	_	ADP___	23	case	_	_
+26	gens	gens	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	nmod	_	_
+27	qui	qui	PRON	_	PRON__PronType=Rel	30	nsubj	_	_
+28	pensent	penser	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	acl:relcl	_	_
+29	savoir	savoir	VERB	_	VERB__VerbForm=Inf	30	xcomp	_	_
+30	et	et	CCONJ	_	CCONJ___	45	cc	_	_
+31	qui	qui	PRON	_	PRON__PronType=Rel	32	nsubj	_	_
+32	ne	ne	ADV	_	ADV__Polarity=Neg	30	advmod	_	_
+33	savent	savoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	conj	_	_
+34	pas	pas	ADV	_	ADV__Polarity=Neg	30	advmod	_	_
+35	,	,	PUNCT	_	PUNCT___	40	punct	_	_
+36	avec	avec	ADP	_	ADP___	35	case	_	_
+37	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+38	palme	palme	NOUN	_	NOUN__Gender=Fem|Number=Sing	40	obl	_	_
+39	d'	de	ADP	_	ADP___	38	case	_	_
+40	or	or	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	nmod	_	_
+41	pour	pour	ADP	_	ADP___	40	case	_	_
+42	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	45	det	_	_
+43	enseignants	enseignant	NOUN	_	NOUN__Gender=Masc|Number=Plur	45	nmod	_	_
+44	!	!	PUNCT	_	PUNCT___	45	punct	_	_
+
+
+#Et, qui sait, rencontrer une orthophoniste?
+1	Et	Et	CCONJ	_	CCONJ___	1	cc	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	qui	qui	PRON	_	PRON__PronType=Rel	4	nsubj	_	_
+4	sait	savoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+5	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+6	rencontrer	rencontrer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+7	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+8	orthophoniste	orthophoniste	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obj	_	_
+9	?	?	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Sur ce je vous laisse à vos certitudes et à votre suffisance et je quitte le groupe.
+1	Sur	Sur	ADP	_	ADP___	1	case	_	_
+2	ce	ce	PRON	_	PRON__PronType=Rel	1	obl	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+4	vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	iobj	_	_
+5	laisse	laisser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	à	à	ADP	_	ADP___	7	case	_	_
+7	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	4	nmod:poss	_	_
+8	certitudes	certitude	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	obl	_	_
+9	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+10	à	à	ADP	_	ADP___	11	case	_	_
+11	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	11	nmod:poss	_	_
+12	suffisance	suffisance	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	conj	_	_
+13	et	et	CCONJ	_	CCONJ___	14	cc	_	_
+14	je	il	PRON	_	PRON__Number=Sing|Person=1	17	nsubj	_	_
+15	quitte	quitter	VERB	_	VERB__Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	conj	_	_
+16	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	groupe	groupe	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+18	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+

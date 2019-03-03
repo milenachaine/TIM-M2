@@ -1,0 +1,58 @@
+#Comment faire simple...
+1	Comment	comment	ADV	_	ADV__PronType=Int	2	advmod	_	_
+2	faire	faire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+3	simple	simple	ADJ	_	ADJ__Number=Sing	2	obj	_	_
+4	...	...	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#quand on fait compliqué... Merci à Ribould.
+1	quand	quand	SCONJ	_	SCONJ___	2	mark	_	_
+2	on	on	PRON	_	PRON__Number=Sing|Person=3	2	nsubj	_	_
+3	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	compliqué	compliquer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	xcomp	_	_
+5	...	...	PUNCT	_	PUNCT___	7	punct	_	_
+6	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+7	à	à	ADP	_	ADP___	7	case	_	_
+8	Ribould	Ribould	PROPN	_	PROPN___	7	nmod	_	_
+9	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Voilettes n'a rien compris, c'est pas grave, le greffier qui gére les saisies dispose d'un ***
+1	Voilettes	Voilettes	PROPN	_	PROPN__Gender=Masc|Number=Sing	2	nsubj	_	_
+2	n'	ne	ADV	_	ADV___	2	advmod	_	_
+3	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	2	advmod	_	_
+5	compris	compris	ADJ	_	ADJ__Gender=Masc	7	acl	_	_
+6	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+7	c'	ce	PRON	_	PRON__Number=Sing|Person=3	7	nsubj	_	_
+8	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+9	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+10	grave	grave	ADJ	_	ADJ__Number=Sing	8	obj	_	_
+11	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+13	greffier	greffier	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+14	qui	qui	PRON	_	PRON__PronType=Rel	16	nsubj	_	_
+15	gére	gére	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+16	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	16	det	_	_
+17	saisies	saisie	NOUN	_	NOUN__Gender=Fem|Number=Plur	23	obj	_	_
+18	dispose	disposer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	amod	_	_
+19	d'	de	ADP	_	ADP___	23	case	_	_
+20	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+21	*	*	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	nmod	_	_
+22	*	*	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	23	obj	_	_
+23	*	*	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	16	fixed	_	_
+
+
+#***r chinois et s'en sortira.
+1	*	*	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+2	*	*	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	punct	_	_
+3	*	*	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	cop	_	_
+4	r	r	PRON	_	PRON__Person=3|Reflex=Yes	2	advmod	_	_
+5	chinois	chinois	ADJ	_	ADJ__Gender=Masc	7	punct	_	_
+6	et	et	CCONJ	_	CCONJ___	7	cc	_	_
+7	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	7	expl	_	_
+8	en	en	PRON	_	PRON__Person=3	7	case	_	_
+9	sortira	sortir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	conj	_	_
+10	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+

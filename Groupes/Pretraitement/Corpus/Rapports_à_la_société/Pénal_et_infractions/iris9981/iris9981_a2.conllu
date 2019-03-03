@@ -1,0 +1,64 @@
+#Demandez votre solde de points ici : https://www.telepoints.info/ Et demandez à la banque les détails de la transaction qui vous inquiète.
+1	Demandez	demander	VERB	_	VERB__Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+2	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	3	nmod:poss	_	_
+3	solde	solde	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+4	de	de	ADP	_	ADP___	5	case	_	_
+5	points	point	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	nmod	_	_
+6	ici	ici	ADV	_	ADV___	3	nmod	_	_
+7	:	:	PUNCT	_	PUNCT___	8	punct	_	_
+8	https://www.telepoints.info/	https://www.telepoints.info/	NOUN	_	NOUN___	1	obj	_	_
+9	Et	Et	CCONJ	_	CCONJ___	10	cc	_	_
+10	demandez	demander	ADJ	_	ADJ__Number=Plur	1	conj	_	_
+11	à	à	ADP	_	ADP___	13	case	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	banque	banque	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obl	_	_
+14	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	15	det	_	_
+15	détails	détail	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	obj	_	_
+16	de	de	ADP	_	ADP___	18	case	_	_
+17	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	transaction	transaction	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	nmod	_	_
+19	qui	qui	PRON	_	PRON__PronType=Rel	21	nsubj	_	_
+20	vous	vous	PRON	_	PRON__Number=Plur|Person=2	21	iobj	_	_
+21	inquiète	inquiet	ADJ	_	ADJ__Gender=Fem|Number=Sing	18	acl:relcl	_	_
+22	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#mais si c'est un proche (hypothèse) qui a eu une amende sur son propre permis et l'a payé avec votre carte ...
+1	mais	mais	CCONJ	_	CCONJ___	1	cc	_	_
+2	si	si	SCONJ	_	SCONJ___	3	mark	_	_
+3	c'	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+6	proche	proche	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+7	(	(	PUNCT	_	PUNCT___	8	punct	_	_
+8	hypothèse	hypothèse	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	appos	_	_
+9	)	)	PUNCT	_	PUNCT___	10	punct	_	_
+10	qui	qui	PRON	_	PRON__PronType=Rel	1	nsubj	_	_
+11	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+13	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+14	amende	amende	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obj	_	_
+15	sur	sur	ADP	_	ADP___	10	case	_	_
+16	son	son	DET	_	DET__Number=Sing|Poss=Yes	18	nmod:poss	_	_
+17	propre	propre	ADJ	_	ADJ__Number=Sing	18	amod	_	_
+18	permis	permettre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	15	obl	_	_
+19	et	et	CCONJ	_	CCONJ___	21	cc	_	_
+20	l'	le	PRON	_	PRON__Number=Sing|Person=3	21	obj	_	_
+21	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+22	payé	payer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	_
+23	avec	avec	ADP	_	ADP___	28	case	_	_
+24	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	28	nmod:poss	_	_
+25	carte	carte	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	obl	_	_
+26	...	...	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#vous n'en saurez pas plus.
+1	vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+2	n'	ne	ADV	_	ADV___	3	advmod	_	_
+3	en	en	PRON	_	PRON__Person=3	1	expl	_	_
+4	saurez	savoir	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+5	pas	pas	ADV	_	ADV___	3	advmod	_	_
+6	plus	plus	ADV	_	ADV___	3	advmod	_	_
+7	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+

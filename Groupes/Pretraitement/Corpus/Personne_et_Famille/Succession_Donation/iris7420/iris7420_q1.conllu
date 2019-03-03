@@ -1,0 +1,110 @@
+#Bonsoir, Père décédé en 2015
+1	Bonsoir	Bonsoir	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	Père	Père	PROPN	_	PROPN__Gender=Masc|Number=Sing	1	conj	_	_
+4	décédé	décéder	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	acl	_	_
+5	en	en	ADP	_	ADP___	6	case	_	_
+6	2015	2015	NUM	_	NUM__NumType=Card	4	nummod	_	_
+
+
+#Mère décédée en 2018 (vente d'un bien immo en 2016)
+1	Mère	mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	décédée	décéder	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+3	en	en	ADP	_	ADP___	1	case	_	_
+4	2018	2018	NUM	_	NUM__NumType=Card	3	nummod	_	_
+5	(	(	PUNCT	_	PUNCT___	6	punct	_	_
+6	vente	vente	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	appos	_	_
+7	d'	de	ADP	_	ADP___	7	case	_	_
+8	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+9	bien	bien	ADV	_	ADV___	10	advmod	_	_
+10	immo	immo	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	nmod	_	_
+11	en	en	ADP	_	ADP___	7	case	_	_
+12	2016	2016	NUM	_	NUM__NumType=Card	7	nummod	_	_
+13	)	)	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Dans la cadre d'une succession, à la demande d'un ou des héritiers réservataire, - le notaire est'il dans l'obligation de transmettre les documents d'une succession antérieur, exp: celle du père est décédé 3 ans avant la mère ?
+1	Dans	Dans	ADP	_	ADP___	1	case	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	fixed	_	_
+3	cadre	cadre	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	fixed	_	_
+4	d'	de	ADP	_	ADP___	3	fixed	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	succession	succession	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obl	_	_
+7	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+8	à	à	ADP	_	ADP___	7	case	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	demande	demande	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+11	d'	de	ADP	_	ADP___	7	case	_	_
+12	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	nmod	_	_
+13	ou	ou	CCONJ	_	CCONJ___	16	cc	_	_
+14	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	16	det	_	_
+15	héritiers	héritier	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	conj	_	_
+16	réservataire	réservataire	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	amod	_	_
+17	,	,	PUNCT	_	PUNCT___	18	punct	_	_
+18	-	-	PUNCT	_	PUNCT___	16	punct	_	_
+19	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+20	notaire	notair	ADJ	_	ADJ__Number=Sing	25	nsubj	_	_
+21	est'	est'	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	nsubj:pass	_	_
+22	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	20	obj	_	_
+23	dans	dan	ADP	_	ADP___	20	case	_	_
+24	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+25	obligation	obligation	NOUN	_	NOUN__Gender=Fem|Number=Sing	60	obl	_	_
+26	de	de	ADP	_	ADP___	25	mark	_	_
+27	transmettre	transmettre	VERB	_	VERB__VerbForm=Inf	29	acl	_	_
+28	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	29	det	_	_
+29	documents	document	NOUN	_	NOUN__Gender=Masc|Number=Plur	25	obj	_	_
+30	d'	de	ADP	_	ADP___	31	case	_	_
+31	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+32	succession	succession	NOUN	_	NOUN__Gender=Fem|Number=Sing	34	nmod	_	_
+33	antérieur	antérieur	NOUN	_	NOUN__Gender=Masc|Number=Sing	34	amod	_	_
+34	,	,	PUNCT	_	PUNCT___	31	punct	_	_
+35	exp	exp	NOUN	_	NOUN__Gender=Masc|Number=Sing	34	appos	_	_
+36	:	:	PUNCT	_	PUNCT___	31	punct	_	_
+37	celle	celui	PRON	_	PRON__Gender=Fem|Number=Sing|PronType=Dem	40	appos	_	_
+38	du	du	DET	_	DET__Gender=Masc|Number=Sing	39	det	_	_
+39	père	père	NOUN	_	NOUN__Gender=Masc|Number=Sing	40	nmod	_	_
+40	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	60	aux:pass	_	_
+41	décédé	décéder	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+42	3	3	NUM	_	NUM__NumType=Card	44	nummod	_	_
+43	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	44	obl	_	_
+44	avant	avant	ADP	_	ADP___	40	case	_	_
+45	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+46	mère	mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	44	obl	_	_
+47	?	?	PUNCT	_	PUNCT___	48	punct	_	_
+
+
+#- le notaire est'il dans l'obligation de transmettre les documents d'une vente de bien immo effectuée 2 ans avant le décès?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	notaire	notair	ADJ	_	ADJ__Number=Sing	1	nsubj	_	_
+4	est'	est'	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+5	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	6	obj	_	_
+6	dans	dan	ADP	_	ADP___	4	case	_	_
+7	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+8	obligation	obligation	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obl	_	_
+9	de	de	ADP	_	ADP___	10	mark	_	_
+10	transmettre	transmettre	VERB	_	VERB__VerbForm=Inf	8	acl	_	_
+11	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+12	documents	document	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	obj	_	_
+13	d'	de	ADP	_	ADP___	16	case	_	_
+14	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	vente	vente	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obl	_	_
+16	de	de	ADP	_	ADP___	12	case	_	_
+17	bien	bien	ADV	_	ADV___	18	advmod	_	_
+18	immo	immo	AUX	_	AUX__VerbForm=Inf	16	nmod	_	_
+19	effectuée	effectuer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+20	2	2	NUM	_	NUM__NumType=Card	25	nummod	_	_
+21	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	20	obl	_	_
+22	avant	avant	ADP	_	ADP___	20	case	_	_
+23	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+24	décès	décès	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	obl	_	_
+25	?	?	PUNCT	_	PUNCT___	60	punct	_	_
+
+
+#Merci de vos réponses
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	de	de	ADP	_	ADP___	3	case	_	_
+3	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	1	nmod:poss	_	_
+4	réponses	réponse	NOUN	_	NOUN__Gender=Fem|Number=Plur	3	nmod	_	_
+
+

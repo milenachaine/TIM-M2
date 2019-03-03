@@ -1,0 +1,208 @@
+#Bonjour, il y a un process précis : dans un premier temps, vous envoyez une LRAR demandant d’effectuer la livraison dans un délai supplémentaire "raisonnable" (une date qui est encore supportable pour vous, 1 mois par exemple).
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	il	il	PRON	_	PRON__Number=Sing|Person=3	1	conj	_	_
+4	y	yu	PRON	_	PRON__Person=3	3	fixed	_	_
+5	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	fixed	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	process	proces	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obj	_	_
+8	précis	précis	ADJ	_	ADJ__Gender=Masc	7	amod	_	_
+9	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+10	dans	dan	ADP	_	ADP___	13	case	_	_
+11	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	premier	premier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	13	amod	_	_
+13	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obl	_	_
+14	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+15	vous	vous	PRON	_	PRON__Number=Plur|Person=2	16	nsubj	_	_
+16	envoyez	envoyer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	acl	_	_
+17	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	LRAR	lrar	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obj	_	_
+19	demandant	demander	VERB	_	VERB__Tense=Pres|VerbForm=Part	18	acl	_	_
+20	d’	d’	PUNCT	_	PUNCT___	18	amod	_	_
+21	effectuer	effectuer	VERB	_	VERB__VerbForm=Inf	20	xcomp	_	_
+22	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	livraison	livraison	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	obj	_	_
+24	dans	dan	ADP	_	ADP___	26	case	_	_
+25	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	délai	délai	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obl	_	_
+27	supplémentaire	supplémentaire	ADJ	_	ADJ__Number=Sing	26	amod	_	_
+28	"	"	PUNCT	_	PUNCT___	29	punct	_	_
+29	raisonnable	raisonnable	ADJ	_	ADJ__Number=Sing	26	amod	_	_
+30	"	"	PUNCT	_	PUNCT___	16	punct	_	_
+31	(	(	PUNCT	_	PUNCT___	33	punct	_	_
+32	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	date	date	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+34	qui	qui	PRON	_	PRON__PronType=Rel	37	nsubj	_	_
+35	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	cop	_	_
+36	encore	encore	ADV	_	ADV___	37	advmod	_	_
+37	supportable	supportable	ADJ	_	ADJ__Number=Sing	33	acl:relcl	_	_
+38	pour	pour	ADP	_	ADP___	39	case	_	_
+39	vous	vous	PRON	_	PRON__Number=Plur|Person=2|PronType=Prs	37	obl	_	_
+40	,	,	PUNCT	_	PUNCT___	37	punct	_	_
+41	1	1	NUM	_	NUM__NumType=Card	42	nummod	_	_
+42	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	37	obl	_	_
+43	par	par	ADP	_	ADP___	44	case	_	_
+44	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	42	nmod	_	_
+45	)	)	PUNCT	_	PUNCT___	1	punct	_	_
+46	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#ce n’est que dans l’hypothèse où le professionnel ne se serait pas exécuté durant ce nouveau délai, que vous annulerez la commande.
+1	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	1	det	_	_
+2	n’	n’	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	nsubj:pass	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
+4	que	que	SCONJ	_	SCONJ___	3	mark	_	_
+5	dans	dan	ADP	_	ADP___	3	case	_	_
+6	l’	l’	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	hypothèse	hypothèse	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obl	_	_
+8	où	où	PRON	_	PRON__PronType=Rel	7	iobj	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+10	professionnel	professionnel	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nsubj:pass	_	_
+11	ne	ne	ADV	_	ADV__Polarity=Neg	13	advmod	_	_
+12	se	se	PRON	_	PRON__Person=3|Reflex=Yes	13	expl	_	_
+13	serait	être	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+14	pas	pas	ADV	_	ADV__Polarity=Neg	16	advmod	_	_
+15	exécuté	exécuter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+16	durant	durer	ADP	_	ADP___	1	case	_	_
+17	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
+18	nouveau	nouveau	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	amod	_	_
+19	délai	délai	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obl	_	_
+20	,	,	PUNCT	_	PUNCT___	18	punct	_	_
+21	que	que	SCONJ	_	SCONJ___	20	mark	_	_
+22	vous	vous	PRON	_	PRON__Number=Plur|Person=2	23	nsubj	_	_
+23	annulerez	annuler	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	21	advcl	_	_
+24	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	commande	commande	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	obj	_	_
+26	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#le contrat de vente est considéré comme résolu (vente annulée) à réception de la lettre informant le professionnel de cette résolution, à moins qu’il ne se soit exécuté entre l’envoi du courrier par le consommateur et sa réception.
+1	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+3	de	de	ADP	_	ADP___	1	case	_	_
+4	vente	vente	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nmod	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+6	considéré	considérer	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	cop	_	_
+7	comme	comme	ADP	_	ADP___	3	mark	_	_
+8	résolu	résoudre	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+9	(	(	PUNCT	_	PUNCT___	1	punct	_	_
+10	vente	vente	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obl	_	_
+11	annulée	annuler	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
+12	)	)	PUNCT	_	PUNCT___	13	punct	_	_
+13	à	à	ADP	_	ADP___	16	case	_	_
+14	réception	réception	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nmod	_	_
+15	de	de	ADP	_	ADP___	16	case	_	_
+16	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+17	lettre	lettre	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	nmod	_	_
+18	informant	informer	VERB	_	VERB__Tense=Pres|VerbForm=Part	16	acl	_	_
+19	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+20	professionnel	professionnel	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obj	_	_
+21	de	de	ADP	_	ADP___	20	case	_	_
+22	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	23	det	_	_
+23	résolution	résolution	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	nmod	_	_
+24	,	,	PUNCT	_	PUNCT___	26	punct	_	_
+25	à	à	ADP	_	ADP___	26	mark	_	_
+26	moins	moins	ADV	_	ADV___	21	fixed	_	_
+27	qu’	qu’	SCONJ	_	SCONJ___	26	fixed	_	_
+28	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	29	nsubj:pass	_	_
+29	ne	ne	ADV	_	ADV__Polarity=Neg	26	advmod	_	_
+30	se	se	PRON	_	PRON__Person=3|Reflex=Yes	16	expl	_	_
+31	soit	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	_
+32	exécuté	exécuter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	acl:relcl	_	_
+33	entre	entrer	ADP	_	ADP___	1	case	_	_
+34	l’	l’	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3|PronType=Prs	37	det	_	_
+35	envoi	envoi	NOUN	_	NOUN__Gender=Masc|Number=Sing	37	obl	_	_
+36	du	du	DET	_	DET__Gender=Masc|Number=Sing	37	det	_	_
+37	courrier	courrier	NOUN	_	NOUN__Gender=Masc|Number=Sing	33	nmod	_	_
+38	par	par	ADP	_	ADP___	39	case	_	_
+39	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+40	consommateur	consommateur	NOUN	_	NOUN__Gender=Masc|Number=Sing	37	nmod	_	_
+41	et	et	CCONJ	_	CCONJ___	42	cc	_	_
+42	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	37	nmod:poss	_	_
+43	réception	réception	NOUN	_	NOUN__Gender=Fem|Number=Sing	44	conj	_	_
+44	.	.	PUNCT	_	PUNCT___	42	punct	_	_
+
+
+#(vous ne pouvez pas annuler si vous n'avez pas demandé préalablement un nouveau délai).
+1	(	(	PUNCT	_	PUNCT___	1	punct	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	3	nsubj	_	_
+3	ne	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+4	pouvez	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+6	annuler	annuler	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+7	si	si	SCONJ	_	SCONJ___	3	mark	_	_
+8	vous	vous	PRON	_	PRON__Number=Plur|Person=2	7	nsubj	_	_
+9	n'	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+10	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	13	aux	_	_
+11	pas	pas	ADV	_	ADV__Polarity=Neg	13	advmod	_	_
+12	demandé	demander	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	advcl	_	_
+13	préalablement	préalablement	ADV	_	ADV___	16	advmod	_	_
+14	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	nouveau	nouveau	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	amod	_	_
+16	délai	délai	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+17	)	)	PUNCT	_	PUNCT___	18	punct	_	_
+18	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Je suis moi aussi passé par là : retard de livraison de 3 mois.
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	suis	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	0	ROOT	_	_
+4	aussi	aussi	ADV	_	ADV___	3	advmod	_	_
+5	passé	passer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+6	par	par	ADP	_	ADP___	7	case	_	_
+7	là	là	ADV	_	ADV___	3	obl	_	_
+8	:	:	PUNCT	_	PUNCT___	7	punct	_	_
+9	retard	retard	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	appos	_	_
+10	de	de	ADP	_	ADP___	13	case	_	_
+11	livraison	livraison	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nmod	_	_
+12	de	de	ADP	_	ADP___	13	case	_	_
+13	3	3	NUM	_	NUM__NumType=Card	16	nummod	_	_
+14	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	nmod	_	_
+15	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Cela a été traité à l'amiable avec un dédommagement sous forme d'entretien (révisions) gratuit pendant 2 ans.
+1	Cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	1	nsubj:pass	_	_
+2	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	1	aux:pass	_	_
+4	traité	traiter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+5	à	à	ADP	_	ADP___	3	case	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	amiable	amiable	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obl	_	_
+8	avec	avec	ADP	_	ADP___	7	case	_	_
+9	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+10	dédommagement	dédommagement	ADV	_	ADV___	13	obl	_	_
+11	sous	sou	ADP	_	ADP___	13	case	_	_
+12	forme	forme	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	fixed	_	_
+13	d'	de	ADP	_	ADP___	16	fixed	_	_
+14	entretien	entretien	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	nmod	_	_
+15	(	(	PUNCT	_	PUNCT___	16	punct	_	_
+16	révisions	révision	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	appos	_	_
+17	)	)	PUNCT	_	PUNCT___	18	punct	_	_
+18	gratuit	gratuit	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	amod	_	_
+19	pendant	pendre	ADP	_	ADP___	18	case	_	_
+20	2	2	NUM	_	NUM__NumType=Card	18	nummod	_	_
+21	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	20	obl	_	_
+22	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Si vous tenez vraiment à ce véhicule, c'est ce qu'il faut faire.
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	3	nsubj	_	_
+3	tenez	tenir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+4	vraiment	vraiment	ADV	_	ADV___	3	advmod	_	_
+5	à	à	ADP	_	ADP___	3	case	_	_
+6	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	véhicule	véhicule	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obl	_	_
+8	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+9	c'	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+10	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11	ce	ce	PRON	_	PRON__PronType=Rel	0	ROOT	_	_
+12	qu'	que	PRON	_	PRON__PronType=Rel	13	obj	_	_
+13	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	16	nsubj	_	_
+14	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+15	faire	faire	VERB	_	VERB__VerbForm=Inf	16	xcomp	_	_
+16	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+

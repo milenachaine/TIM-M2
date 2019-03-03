@@ -1,0 +1,82 @@
+#Bonjour, Sinon, vous êtes sur que vous recevez vos feuilles de paie en A3 ?
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	Sinon	sinon	ADV	_	ADV___	1	conj	_	_
+4	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+5	vous	vous	PRON	_	PRON__Number=Plur|Person=2	6	nsubj	_	_
+6	êtes	être	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	conj	_	_
+7	sur	sur	ADP	_	ADP___	10	mark	_	_
+8	que	que	SCONJ	_	SCONJ___	7	fixed	_	_
+9	vous	vous	PRON	_	PRON__Number=Plur|Person=2	10	nsubj	_	_
+10	recevez	recevoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+11	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	12	nmod:poss	_	_
+12	feuilles	feuille	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	obj	_	_
+13	de	de	ADP	_	ADP___	14	case	_	_
+14	paie	paie	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+15	en	en	ADP	_	ADP___	16	case	_	_
+16	A3	a3	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nmod	_	_
+17	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Parce que le A3 c'est 29,7cm X 42cm...
+1	Parce	Parce	SCONJ	_	SCONJ___	1	mark	_	_
+2	que	que	SCONJ	_	SCONJ___	3	fixed	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+4	A3	a3	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	nsubj	_	_
+5	c'	ce	PRON	_	PRON__Number=Sing|Person=3	6	nsubj	_	_
+6	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+7	29,7	29,7	NUM	_	NUM__NumType=Card	10	nummod	_	_
+8	cm	cm	NOUN	_	NOUN__Gender=Masc	0	ROOT	_	_
+9	X	x	NOUN	_	NOUN___	10	nmod	_	_
+10	42	42	NUM	_	NUM__NumType=Card	6	nummod	_	_
+11	cm	cm	NOUN	_	NOUN__Gender=Masc	12	nmod	_	_
+12	...	...	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Même dans une BAL normalisée, soit Hauteur : 260 mm
+1	Même	même	ADV	_	ADV___	1	advmod	_	_
+2	dans	dan	ADP	_	ADP___	3	case	_	_
+3	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+4	BAL	bal	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+5	normalisée	normalisé	ADJ	_	ADJ__Gender=Fem|Number=Sing	6	acl	_	_
+6	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+7	soit	être	CCONJ	_	CCONJ___	10	cc	_	_
+8	Hauteur	hauteur	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	conj	_	_
+9	:	:	PUNCT	_	PUNCT___	10	punct	_	_
+10	260	260	NUM	_	NUM__NumType=Card	6	nummod	_	_
+11	mm	mm	NOUN	_	NOUN__Gender=Masc	12	nmod	_	_
+
+
+#Largeur : 260 mm Profondeur : 340 mm ça rentre pas...
+1	Largeur	Largeur	PROPN	_	PROPN___	0	ROOT	_	_
+2	:	:	PUNCT	_	PUNCT___	3	punct	_	_
+3	260	260	NUM	_	NUM__NumType=Card	1	nummod	_	_
+4	mm	mm	NOUN	_	NOUN__Gender=Masc	6	nsubj	_	_
+5	Profondeur	Profondeur	PROPN	_	PROPN__Gender=Masc|Number=Sing	6	nmod	_	_
+6	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+7	340	340	NUM	_	NUM__NumType=Card	10	nummod	_	_
+8	mm	mm	NOUN	_	NOUN__Gender=Masc	7	nsubj	_	_
+9	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	obj	_	_
+10	rentre	rentrer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	nmod	_	_
+11	pas	pas	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+12	...	...	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Et dans une chemise classique non plus... faut acheter un carton à dessin...
+1	Et	Et	CCONJ	_	CCONJ___	1	cc	_	_
+2	dans	dan	ADP	_	ADP___	3	case	_	_
+3	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+4	chemise	chemise	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+5	classique	classique	ADJ	_	ADJ__Gender=Fem|Number=Sing	6	amod	_	_
+6	non	non	ADV	_	ADV___	1	advmod	_	_
+7	plus	plus	ADV	_	ADV___	10	fixed	_	_
+8	...	...	PUNCT	_	PUNCT___	7	punct	_	_
+9	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl	_	_
+10	acheter	acheter	VERB	_	VERB__VerbForm=Inf	6	xcomp	_	_
+11	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	carton	carton	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+13	à	à	ADP	_	ADP___	14	case	_	_
+14	dessin	dessin	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obl	_	_
+15	...	...	PUNCT	_	PUNCT___	16	punct	_	_
+
+

@@ -1,0 +1,104 @@
+#Bonjour Ribould, Merci pour votre réponse.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	Ribould	Ribould	PROPN	_	PROPN___	1	flat:name	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	appos	_	_
+5	pour	pour	ADP	_	ADP___	7	case	_	_
+6	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	7	nmod:poss	_	_
+7	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+8	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#C'est 2017, excusez moi.
+1	C'	ce	PRON	_	PRON__Number=Sing|Person=3	1	advmod	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	2017	2017	NUM	_	NUM__NumType=Card	1	nummod	_	_
+4	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+5	excusez	excuser	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	aux	_	_
+6	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	0	ROOT	_	_
+7	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Par 20 mensualités, je parle de 20 déclarations qui n'ont pas été effectuées (et oui, il s'agit de 2000 EUR générés pour l'ensemble de mon activité, principalement à l'été 2017).
+1	Par	Par	ADP	_	ADP___	1	case	_	_
+2	20	20	NUM	_	NUM__NumType=Card	1	nummod	_	_
+3	mensualités	mensualité	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	obl	_	_
+4	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+5	je	il	PRON	_	PRON__Number=Sing|Person=1	7	nsubj	_	_
+6	parle	parler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	de	de	ADP	_	ADP___	4	case	_	_
+8	20	20	NUM	_	NUM__NumType=Card	1	nummod	_	_
+9	déclarations	déclaration	NOUN	_	NOUN__Gender=Fem|Number=Plur	14	obl	_	_
+10	qui	qui	PRON	_	PRON__PronType=Rel	11	nsubj:pass	_	_
+11	n'	ne	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+12	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	pas	pas	ADV	_	ADV__Polarity=Neg	14	advmod	_	_
+14	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	14	aux:pass	_	_
+15	effectuées	effectuer	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	14	acl:relcl	_	_
+16	(	(	PUNCT	_	PUNCT___	18	punct	_	_
+17	et	et	CCONJ	_	CCONJ___	18	cc	_	_
+18	oui	oui	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	conj	_	_
+19	,	,	PUNCT	_	PUNCT___	21	punct	_	_
+20	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	21	nsubj	_	_
+21	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	21	expl	_	_
+22	agit	agir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	conj	_	_
+23	de	de	ADP	_	ADP___	24	case	_	_
+24	2000	2000	NUM	_	NUM__NumType=Card	21	nummod	_	_
+25	EUR	eur	NOUN	_	NOUN__Gender=Masc|Number=Plur	30	obl	_	_
+26	générés	généré	ADJ	_	ADJ__Gender=Masc|Number=Plur	30	acl	_	_
+27	pour	pour	ADP	_	ADP___	30	case	_	_
+28	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	30	det	_	_
+29	ensemble	ensemble	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	obl	_	_
+30	de	de	ADP	_	ADP___	24	case	_	_
+31	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	30	nmod:poss	_	_
+32	activité	activité	NOUN	_	NOUN__Gender=Fem|Number=Sing	33	nmod	_	_
+33	,	,	PUNCT	_	PUNCT___	30	punct	_	_
+34	principalement	principalement	ADV	_	ADV___	37	advmod	_	_
+35	à	à	ADP	_	ADP___	37	case	_	_
+36	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	37	det	_	_
+37	été	été	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	nmod	_	_
+38	2017	2017	NUM	_	NUM__NumType=Card	40	nummod	_	_
+39	)	)	PUNCT	_	PUNCT___	40	punct	_	_
+40	.	.	PUNCT	_	PUNCT___	37	punct	_	_
+
+
+#Et non, je n'ai pas radié mon entreprise, ni fait ce calcul.
+1	Et	Et	CCONJ	_	CCONJ___	1	cc	_	_
+2	non	non	ADV	_	ADV___	1	advmod	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+5	n'	ne	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+6	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	pas	pas	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+8	radié	radier	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+9	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	14	nmod:poss	_	_
+10	entreprise	entreprise	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obj	_	_
+11	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+12	ni	ni	CCONJ	_	CCONJ___	14	cc	_	_
+13	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	conj	_	_
+14	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+15	calcul	calcul	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obj	_	_
+16	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Pourriez
+1	Pourriez	Pourriez	PROPN	_	PROPN__Gender=Fem|Number=Sing	0	ROOT	_	_
+
+
+#-vous m'éclairer un peu sur la nature exacte de ce calcul ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+3	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	1	expl	_	_
+4	éclairer	éclairer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	peu	peu	ADV	_	ADV___	7	obj	_	_
+7	sur	sur	ADP	_	ADP___	4	case	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+9	nature	nature	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obl	_	_
+10	exacte	exact	ADJ	_	ADJ__Gender=Fem|Number=Sing	11	amod	_	_
+11	de	de	ADP	_	ADP___	9	case	_	_
+12	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+13	calcul	calcul	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nmod	_	_
+14	?	?	PUNCT	_	PUNCT___	14	punct	_	_
+
+

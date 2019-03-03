@@ -1,0 +1,86 @@
+#Bonjour, Pour vous aider un peu :
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Pour	Pour	ADP	_	ADP___	5	mark	_	_
+4	vous	vous	PRON	_	PRON__Number=Plur|Person=2	5	iobj	_	_
+5	aider	aider	VERB	_	VERB__VerbForm=Inf	1	advcl	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	peu	peu	ADV	_	ADV___	5	obj	_	_
+8	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Vous écrivez : Comment le savez vous ?
+1	Vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+2	écrivez	écrire	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	:	:	PUNCT	_	PUNCT___	5	punct	_	_
+4	Comment	comment	ADV	_	ADV__PronType=Int	5	advmod	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+6	savez	savoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+7	vous	vous	PRON	_	PRON__Number=Plur|Person=2	5	iobj	_	_
+8	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Relisez
+1	Relisez	Relisez	PROPN	_	PROPN__Gender=Masc|Number=Sing	0	ROOT	_	_
+
+
+#la phrase du jugement qui dit que vous avez 1 mois.
+1	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	phrase	phrase	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	du	du	DET	_	DET__Gender=Masc|Number=Sing	5	det	_	_
+4	jugement	jugement	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+5	qui	qui	PRON	_	PRON__PronType=Rel	1	nsubj	_	_
+6	dit	dire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+7	que	que	SCONJ	_	SCONJ___	5	mark	_	_
+8	vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+9	avez	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+10	1	1	NUM	_	NUM__NumType=Card	10	nummod	_	_
+11	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	obj	_	_
+12	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Le jugement indique sans doute que vous devez donner votre nouvelle adresse dans un délai de 1 mois à votre ex.
+1	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	jugement	jugement	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	indique	indiquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	sans	sans	ADP	_	ADP___	5	advmod	_	_
+5	doute	doute	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	fixed	_	_
+6	que	que	SCONJ	_	SCONJ___	7	mark	_	_
+7	vous	vous	PRON	_	PRON__Number=Plur|Person=2	5	nsubj	_	_
+8	devez	devoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	aux	_	_
+9	donner	donner	VERB	_	VERB__VerbForm=Inf	10	ccomp	_	_
+10	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+11	nouvelle	nouveau	ADJ	_	ADJ__Gender=Fem|Number=Sing	10	amod	_	_
+12	adresse	adresse	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obj	_	_
+13	dans	dan	ADP	_	ADP___	14	case	_	_
+14	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+15	délai	délai	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obl	_	_
+16	de	de	ADP	_	ADP___	10	case	_	_
+17	1	1	NUM	_	NUM__NumType=Card	17	nummod	_	_
+18	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	19	nmod	_	_
+19	à	à	ADP	_	ADP___	19	case	_	_
+20	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	21	nmod:poss	_	_
+21	ex	ex	NOUN	_	NOUN__Number=Sing	19	nmod	_	_
+22	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Mais est-ce que le jugement demande le nom de la personne qui habite avec vous ?
+1	Mais	Mais	CCONJ	_	CCONJ___	1	cc	_	_
+2	est	être		_	VERB	0	ROOT	_	_
+3	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	5	nsubj	_	_
+4	que	que	SCONJ	_	SCONJ___	5	obj	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+6	jugement	jugement	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nsubj	_	_
+7	demande	demander	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+9	nom	nom	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+10	de	de	ADP	_	ADP___	10	case	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+12	personne	personne	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nmod	_	_
+13	qui	qui	PRON	_	PRON__PronType=Rel	14	nsubj	_	_
+14	habite	habiter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+15	avec	avec	ADP	_	ADP___	14	case	_	_
+16	vous	vous	PRON	_	PRON__Number=Plur|Person=2|PronType=Prs	10	obl	_	_
+17	?	?	PUNCT	_	PUNCT___	17	punct	_	_
+
+

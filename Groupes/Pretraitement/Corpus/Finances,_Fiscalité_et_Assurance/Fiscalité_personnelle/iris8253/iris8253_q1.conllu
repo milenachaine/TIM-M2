@@ -1,0 +1,94 @@
+#Bonjour, Marié en communauté je possède des titres en commun avec mon épouse.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	7	nsubj	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Marié	Marié	PROPN	_	PROPN__Gender=Masc|Number=Sing	1	nmod	_	_
+4	en	en	ADP	_	ADP___	5	case	_	_
+5	communauté	communauté	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+6	je	il	PRON	_	PRON__Number=Sing|Person=1	7	nsubj	_	_
+7	possède	posséder	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	9	det	_	_
+9	titres	titre	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	obj	_	_
+10	en	en	ADP	_	ADP___	11	case	_	_
+11	commun	commun	ADJ	_	ADJ__Gender=Masc|Number=Sing	9	nmod	_	_
+12	avec	avec	ADP	_	ADP___	14	case	_	_
+13	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	14	nmod:poss	_	_
+14	épouse	épouse	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obl	_	_
+15	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Chacun de nous est titulaire d'un PEA.
+1	Chacun	chacun	PRON	_	PRON__Gender=Masc|PronType=Rel	0	ROOT	_	_
+2	de	de	ADP	_	ADP___	1	case	_	_
+3	nous	nous	PRON	_	PRON__Number=Plur|Person=1	1	nsubj	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	titulaire	titulaire	NOUN	_	NOUN__Number=Sing	1	nmod	_	_
+6	d'	de	ADP	_	ADP___	7	case	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+8	PEA	PEA	PROPN	_	PROPN___	9	nmod	_	_
+9	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Au premier décès, le PEA du décédé sera évidemment clos.
+1	Au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+2	premier	premier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	1	amod	_	_
+3	décès	décès	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+4	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+6	PEA	PEA	PROPN	_	PROPN___	7	nsubj:pass	_	_
+7	du	du	DET	_	DET__Gender=Masc|Number=Sing	7	det	_	_
+8	décédé	décédé	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nmod	_	_
+9	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	cop	_	_
+10	évidemment	évidemment	ADV	_	ADV___	11	advmod	_	_
+11	clos	clore	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+12	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Mais quel sera l'effet sur le PEA du survivant ?
+1	Mais	Mais	CCONJ	_	CCONJ___	7	cc	_	_
+2	quel	quel	DET	_	DET__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	1	cop	_	_
+4	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	effet	effet	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+6	sur	sur	ADP	_	ADP___	7	case	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+8	PEA	PEA	PROPN	_	PROPN___	9	nmod	_	_
+9	du	du	DET	_	DET__Gender=Masc|Number=Sing	7	obj	_	_
+10	survivant	survivant	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	acl	_	_
+11	?	?	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Pourra
+1	Pourra	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+
+
+#-t-il être conservé en l'état, sans changement ?
+1	-	-	PUNCT	_	PUNCT___	7	punct	_	_
+2	t	t	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	advmod	_	_
+3	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj:pass	_	_
+5	être	être	AUX	_	AUX__VerbForm=Inf	1	aux:pass	_	_
+6	conservé	conserver	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	acl	_	_
+7	en	en	ADP	_	ADP___	7	case	_	_
+8	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	état	état	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+10	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+11	sans	sans	ADP	_	ADP___	9	mark	_	_
+12	changement	changement	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+13	?	?	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Ou bien sera-t-il lui aussi obligatoirement clôturé ?
+1	Ou	Ou	CCONJ	_	CCONJ___	7	cc	_	_
+2	bien	bien	ADV	_	ADV___	1	advmod	_	_
+3	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	1	aux:pass	_	_
+4	-	-	PUNCT	_	PUNCT___	5	punct	_	_
+5	t	t	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	advmod	_	_
+6	-	-	PUNCT	_	PUNCT___	7	punct	_	_
+7	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	7	nsubj:pass	_	_
+8	lui	luire	PRON	_	PRON__Number=Sing|Person=3	9	fixed	_	_
+9	aussi	aussi	ADV	_	ADV___	7	advmod	_	_
+10	obligatoirement	obligatoirement	ADV	_	ADV___	11	advmod	_	_
+11	clôturé	clôturer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+12	?	?	PUNCT	_	PUNCT___	14	punct	_	_
+
+

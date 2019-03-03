@@ -1,0 +1,193 @@
+#Bonjour, Elle vient de recevoir son bulletin et seulement 6h sont payées ainsi que ce dimanche manquant.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	4	obl	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	Elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	4	nsubj	_	_
+4	vient	venir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	de	de	ADP	_	ADP___	6	mark	_	_
+6	recevoir	recevoir	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+7	son	son	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+8	bulletin	bulletin	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+9	et	et	CCONJ	_	CCONJ___	11	cc	_	_
+10	seulement	seulement	ADV	_	ADV___	11	advmod	_	_
+11	6h	6h	DET	_	DET___	13	nsubj:pass	_	_
+12	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+13	payées	payer	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	4	conj	_	_
+14	ainsi	ainsi	ADV	_	ADV___	13	advmod	_	_
+15	que	que	SCONJ	_	SCONJ___	14	fixed	_	_
+16	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
+17	dimanche	dimanche	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+18	manquant	manquant	ADJ	_	ADJ__Gender=Masc|Number=Sing	17	amod	_	_
+19	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Donc il manque 09H00.
+1	Donc	donc	ADV	_	ADV___	4	advmod	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+3	manque	manquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	09H00	09H00	NUM	_	NUM__NumType=Card	4	obj	_	_
+5	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Adressez une LRAR à l'employeur indiquant qu'en août vous lui avez signalé qu'à la lecture de votre fiche de salaire du mois de juillet 2018
+1	Adressez	Adressez	PROPN	_	PROPN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	LRAR	lrar	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obj	_	_
+4	à	à	ADP	_	ADP___	4	case	_	_
+5	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+7	indiquant	indiquer	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	acl	_	_
+8	qu'	que	SCONJ	_	SCONJ___	6	mark	_	_
+9	en	en	ADP	_	ADP___	11	case	_	_
+10	août	août	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obl	_	_
+11	vous	vous	PRON	_	PRON__Number=Plur|Person=2	13	iobj	_	_
+12	lui	luire	PRON	_	PRON__Number=Sing|Person=3	13	iobj	_	_
+13	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
+14	signalé	signaler	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+15	qu'	que	SCONJ	_	SCONJ___	14	mark	_	_
+16	à	à	ADP	_	ADP___	17	case	_	_
+17	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+18	lecture	lecture	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	dep	_	_
+19	de	de	ADP	_	ADP___	4	case	_	_
+20	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	22	nmod:poss	_	_
+21	fiche	fiche	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	nmod	_	_
+22	de	de	ADP	_	ADP___	22	case	_	_
+23	salaire	salaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	nmod	_	_
+24	du	du	DET	_	DET__Gender=Masc|Number=Sing	22	det	_	_
+25	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	obj	_	_
+26	de	de	ADP	_	ADP___	27	case	_	_
+27	juillet	juillet	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	nmod	_	_
+28	2018	2018	NUM	_	NUM__NumType=Card	30	nummod	_	_
+
+
+#, il manquait xxxxx heures de travail, à savoir :
+1	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+3	manquait	manquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+4	xxxxx	xxxxx	NUM	_	NUM__NumType=Card	4	obj	_	_
+5	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	6	obj	_	_
+6	de	de	ADP	_	ADP___	4	case	_	_
+7	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+8	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+9	à	à	ADP	_	ADP___	11	acl	_	_
+10	savoir	savoir	VERB	_	VERB__VerbForm=Inf	11	fixed	_	_
+11	:	:	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#- xxx heure le xx juillet - xxx heures le xxx juillet - xxx heures le dimanche xx juillet qu'il s'était engagé à régulariser sur le bulletin de salaire du mois d'août.
+1	-	-	PUNCT	_	PUNCT___	4	punct	_	_
+2	xxx	xxx	ADV	_	ADV___	4	amod	_	_
+3	heure	heure	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+5	xx	xx	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	juillet	juillet	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+7	-	-	PUNCT	_	PUNCT___	8	punct	_	_
+8	xxx	xxx	ADV	_	ADV___	6	case	_	_
+9	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	11	nmod	_	_
+10	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	xxx	xxx	ADV	_	ADV___	13	amod	_	_
+12	juillet	juillet	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+13	-	-	PUNCT	_	PUNCT___	4	punct	_	_
+14	xxx	xxx	ADV	_	ADV___	13	amod	_	_
+15	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	14	nmod	_	_
+16	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	dimanche	dimanche	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+18	xx	xx	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	17	case	_	_
+19	juillet	juillet	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+20	qu'	que	SCONJ	_	SCONJ___	22	mark	_	_
+21	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	22	nsubj	_	_
+22	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	22	expl	_	_
+23	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	aux	_	_
+24	engagé	engager	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	22	acl:relcl	_	_
+25	à	à	ADP	_	ADP___	25	mark	_	_
+26	régulariser	régulariser	VERB	_	VERB__VerbForm=Inf	27	xcomp	_	_
+27	sur	sur	ADP	_	ADP___	25	case	_	_
+28	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+29	bulletin	bulletin	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	obl	_	_
+30	de	de	ADP	_	ADP___	25	case	_	_
+31	salaire	salaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	nmod	_	_
+32	du	du	DET	_	DET__Gender=Masc|Number=Sing	38	det	_	_
+33	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Sing	34	obj	_	_
+34	d'	de	ADP	_	ADP___	38	case	_	_
+35	août	août	NOUN	_	NOUN__Gender=Masc|Number=Sing	38	nmod	_	_
+36	.	.	PUNCT	_	PUNCT___	38	punct	_	_
+
+
+#Or, il s'avère que sur les xxx heures manquantes seules 6H00 de travail l'ont été.
+1	Or	Or	CCONJ	_	CCONJ___	4	cc	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+4	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	4	expl	_	_
+5	avère	avérer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	que	que	SCONJ	_	SCONJ___	4	mark	_	_
+7	sur	sur	ADP	_	ADP___	8	case	_	_
+8	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	6	det	_	_
+9	xxx	xxx	ADV	_	ADV___	11	amod	_	_
+10	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	11	nmod	_	_
+11	manquantes	manquant	ADJ	_	ADJ__Number=Plur	13	amod	_	_
+12	seules	seul	ADJ	_	ADJ__Gender=Fem|Number=Plur	13	amod	_	_
+13	6H00	6h00	ADJ	_	ADJ__NumType=Card	4	ccomp	_	_
+14	de	de	ADP	_	ADP___	13	case	_	_
+15	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nmod	_	_
+16	l'	le	PRON	_	PRON__Number=Sing|Person=3	17	obj	_	_
+17	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+18	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	17	acl:relcl	_	_
+19	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Vous terminez votre courrier en lui demandant de bien vouloir procéder à la régularisation des heures manquantes sur la fiche de salaire du mois d'octobre.
+1	Vous	vous	PRON	_	PRON__Number=Plur|Person=2	4	nsubj	_	_
+2	terminez	terminer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+4	courrier	courrier	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obj	_	_
+5	en	en	ADP	_	ADP___	6	case	_	_
+6	lui	luire	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
+7	demandant	demander	VERB	_	VERB__Tense=Pres|VerbForm=Part	8	acl	_	_
+8	de	de	ADP	_	ADP___	6	mark	_	_
+9	bien	bien	ADV	_	ADV___	11	advmod	_	_
+10	vouloir	vouloir	AUX	_	AUX__VerbForm=Inf	11	aux	_	_
+11	procéder	procéder	VERB	_	VERB__VerbForm=Inf	13	xcomp	_	_
+12	à	à	ADP	_	ADP___	13	case	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+14	régularisation	régularisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obl	_	_
+15	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
+16	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	17	obj	_	_
+17	manquantes	manquant	ADJ	_	ADJ__Gender=Fem|Number=Plur	13	amod	_	_
+18	sur	sur	ADP	_	ADP___	17	case	_	_
+19	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+20	fiche	fiche	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	nmod	_	_
+21	de	de	ADP	_	ADP___	22	case	_	_
+22	salaire	salaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	nmod	_	_
+23	du	du	DET	_	DET__Gender=Masc|Number=Sing	22	det	_	_
+24	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	obj	_	_
+25	d'	de	ADP	_	ADP___	25	case	_	_
+26	octobre	octobre	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	nmod	_	_
+27	.	.	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#Ce courrier pourra vous servir si d'aventure l'assureur considère que les 6H00 ont été travaillées en Août et non en juillet.
+1	Ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+2	courrier	courrier	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+3	pourra	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	aux	_	_
+4	vous	vous	PRON	_	PRON__Number=Plur|Person=2	4	iobj	_	_
+5	servir	servir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+6	si	si	SCONJ	_	SCONJ___	4	mark	_	_
+7	d'	de	ADP	_	ADP___	8	case	_	_
+8	aventure	aventure	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	advcl	_	_
+9	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+10	assureur	assureur	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+11	considère	considérer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	amod	_	_
+12	que	que	SCONJ	_	SCONJ___	13	mark	_	_
+13	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+14	6H00	6h00	ADJ	_	ADJ__NumType=Card	13	nsubj:pass	_	_
+15	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+16	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	17	aux:pass	_	_
+17	travaillées	travailler	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	13	acl:relcl	_	_
+18	en	en	ADP	_	ADP___	17	case	_	_
+19	Août	août	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+20	et	et	CCONJ	_	CCONJ___	22	cc	_	_
+21	non	non	ADV	_	ADV___	22	conj	_	_
+22	en	en	ADP	_	ADP___	22	case	_	_
+23	juillet	juillet	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	obl	_	_
+24	.	.	PUNCT	_	PUNCT___	22	punct	_	_
+
+

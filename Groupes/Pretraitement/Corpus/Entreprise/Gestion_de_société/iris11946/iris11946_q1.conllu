@@ -1,0 +1,142 @@
+#Bonjour
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+
+
+#Je cherche à déterminer si un Gérant d'une SARL est majoritaire dans le cas suivant : Une SARL holding est composée de 2 actionnaires A et B (personnes physiques).
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	cherche	chercher	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	à	à	ADP	_	ADP___	3	mark	_	_
+4	déterminer	déterminer	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+5	si	si	SCONJ	_	SCONJ___	3	mark	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+7	Gérant	gérant	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nsubj	_	_
+8	d'	de	ADP	_	ADP___	13	case	_	_
+9	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	SARL	SARL	PROPN	_	PROPN__Gender=Fem|Number=Sing	11	nmod	_	_
+11	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+12	majoritaire	majoritaire	ADJ	_	ADJ__Number=Sing	13	ccomp	_	_
+13	dans	dan	ADP	_	ADP___	5	case	_	_
+14	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obl	_	_
+16	suivant	suivant	ADJ	_	ADJ__Gender=Masc|Number=Sing	13	acl	_	_
+17	:	:	PUNCT	_	PUNCT___	16	punct	_	_
+18	Une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+19	SARL	SARL	PROPN	_	PROPN__Gender=Fem|Number=Sing	20	nsubj:pass	_	_
+20	holding	holding	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	amod	_	_
+21	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux:pass	_	_
+22	composée	composer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	23	ccomp	_	_
+23	de	de	ADP	_	ADP___	3	case	_	_
+24	2	2	NUM	_	NUM__NumType=Card	26	nummod	_	_
+25	actionnaires	actionnaire	NOUN	_	NOUN__Gender=Fem|Number=Plur	26	obl	_	_
+26	A	a	NOUN	_	NOUN___	23	nmod	_	_
+27	et	et	CCONJ	_	CCONJ___	26	cc	_	_
+28	B	b	NOUN	_	NOUN___	29	conj	_	_
+29	(	(	PUNCT	_	PUNCT___	27	punct	_	_
+30	personnes	personne	NOUN	_	NOUN__Gender=Fem|Number=Plur	23	obl	_	_
+31	physiques	physique	ADJ	_	ADJ__Number=Plur	23	amod	_	_
+32	)	)	PUNCT	_	PUNCT___	31	punct	_	_
+33	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#A est minoritaire avec 1% des parts sociales et est Gérant de la SARL holding (donc minoritaire)
+1	A	a	NOUN	_	NOUN___	1	aux	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	minoritaire	minoritaire	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+4	avec	avec	ADP	_	ADP___	5	case	_	_
+5	1	1	NUM	_	NUM__NumType=Card	3	nummod	_	_
+6	%	%	NOUN	_	NOUN__Gender=Masc	13	obl	_	_
+7	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
+8	parts	part	NOUN	_	NOUN__Number=Plur	13	nmod	_	_
+9	sociales	social	ADJ	_	ADJ__Gender=Fem|Number=Plur	11	amod	_	_
+10	et	et	CCONJ	_	CCONJ___	11	cc	_	_
+11	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+12	Gérant	Gérant	PROPN	_	PROPN__Gender=Masc|Number=Sing	13	conj	_	_
+13	de	de	ADP	_	ADP___	5	case	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	SARL	SARL	PROPN	_	PROPN__Gender=Fem|Number=Sing	16	obl	_	_
+16	holding	holding	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	amod	_	_
+17	(	(	PUNCT	_	PUNCT___	16	punct	_	_
+18	donc	donc	ADV	_	ADV___	13	advmod	_	_
+19	minoritaire	minoritaire	ADJ	_	ADJ__Number=Sing	20	appos	_	_
+20	)	)	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Une SARL filiale est composée de 5 associés, dont une personne morale, la SARL holding précédente qui possède 75% des parts sociales.
+1	Une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	SARL	SARL	PROPN	_	PROPN__Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+3	filiale	filiale	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	amod	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	composée	composer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+6	de	de	ADP	_	ADP___	13	case	_	_
+7	5	5	NUM	_	NUM__NumType=Card	8	nummod	_	_
+8	associés	associé	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	obl	_	_
+9	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+10	dont	dont	PRON	_	PRON__PronType=Rel	11	dep	_	_
+11	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+12	personne	personne	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	acl:relcl	_	_
+13	morale	moral	ADJ	_	ADJ__Gender=Fem|Number=Sing	5	amod	_	_
+14	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+15	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	SARL	SARL	PROPN	_	PROPN__Gender=Fem|Number=Sing	13	conj	_	_
+17	holding	holding	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	amod	_	_
+18	précédente	précédent	ADJ	_	ADJ__Gender=Fem|Number=Sing	13	amod	_	_
+19	qui	qui	PRON	_	PRON__PronType=Rel	20	nsubj	_	_
+20	possède	posséder	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
+21	75	75	NUM	_	NUM__NumType=Card	20	nummod	_	_
+22	%	%	NOUN	_	NOUN__Gender=Masc	23	obj	_	_
+23	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	3	det	_	_
+24	parts	part	NOUN	_	NOUN__Number=Plur	26	nmod	_	_
+25	sociales	social	ADJ	_	ADJ__Gender=Fem|Number=Plur	26	amod	_	_
+26	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Le gérant de la SARL filiale est la meme personne A (gérant de la SARL holding)
+1	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	gérant	gérant	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+3	de	de	ADP	_	ADP___	3	case	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	SARL	SARL	PROPN	_	PROPN__Gender=Fem|Number=Sing	3	nmod	_	_
+6	filiale	filial	ADJ	_	ADJ__Gender=Fem|Number=Sing	13	amod	_	_
+7	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+9	meme	meme	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+10	personne	personn	ADJ	_	ADJ__Gender=Fem|Number=Sing	11	amod	_	_
+11	A	a	NOUN	_	NOUN___	8	nmod	_	_
+12	(	(	PUNCT	_	PUNCT___	13	punct	_	_
+13	gérant	gérer	VERB	_	VERB__Tense=Pres|VerbForm=Part	5	acl	_	_
+14	de	de	ADP	_	ADP___	16	case	_	_
+15	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	SARL	SARL	PROPN	_	PROPN__Gender=Fem|Number=Sing	13	obl	_	_
+17	holding	holding	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	amod	_	_
+18	)	)	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Cette personne A est elle considérée comme gérante Majoritaire ou Minoritaire de la SARL filiale ?
+1	Cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	1	det	_	_
+2	personne	personne	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+3	A	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	nmod	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+6	considérée	considérer	AUX	_	AUX__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	cop	_	_
+7	comme	comme	ADP	_	ADP___	8	case	_	_
+8	gérante	gérant	ADJ	_	ADJ__Gender=Fem|Number=Sing	0	ROOT	_	_
+9	Majoritaire	majoritaire	ADJ	_	ADJ__Number=Sing	11	obj	_	_
+10	ou	ou	CCONJ	_	CCONJ___	11	cc	_	_
+11	Minoritaire	Minoritaire	PROPN	_	PROPN__Gender=Masc|Number=Sing	8	conj	_	_
+12	de	de	ADP	_	ADP___	13	case	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+14	SARL	SARL	PROPN	_	PROPN__Gender=Fem|Number=Sing	16	nmod	_	_
+15	filiale	filial	ADJ	_	ADJ__Gender=Fem|Number=Sing	16	amod	_	_
+16	?	?	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Merci d'avance pour vos réponses M
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	d'	de	ADP	_	ADP___	3	case	_	_
+3	avance	avance	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nmod	_	_
+4	pour	pour	ADP	_	ADP___	5	case	_	_
+5	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	3	nmod:poss	_	_
+6	réponses	réponse	NOUN	_	NOUN__Gender=Fem|Number=Plur	13	nmod	_	_
+7	M	M	CCONJ	_	CCONJ___	8	nmod	_	_
+
+

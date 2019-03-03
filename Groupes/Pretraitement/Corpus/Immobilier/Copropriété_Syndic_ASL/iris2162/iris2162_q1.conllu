@@ -1,0 +1,264 @@
+#Bonjour, Il existe un compteur non raccordé dans mon logement.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	4	nsubj	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	Il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+4	existe	exister	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	compteur	compteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obj	_	_
+7	non	non	ADV	_	ADV___	8	advmod	_	_
+8	raccordé	raccorder	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+9	dans	dan	ADP	_	ADP___	11	case	_	_
+10	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	11	nmod:poss	_	_
+11	logement	logement	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+12	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Mon copropriétaire demande à # Fournisseur en énergie
+1	Mon	mon	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+2	copropriétaire	copropriétair	ADJ	_	ADJ__Number=Sing	4	nsubj	_	_
+3	demande	demander	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	à	à	ADP	_	ADP___	4	case	_	_
+5	#	#	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obl	_	_
+6	Fournisseur	fournisseur	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+7	en	en	ADP	_	ADP___	8	case	_	_
+8	énergie	énergie	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+
+
+## de raccorder ce compteur pour un de ses appartements.
+1	#	#	ADJ	_	ADJ___	0	ROOT	_	_
+2	de	de	ADP	_	ADP___	4	mark	_	_
+3	raccorder	raccorder	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+4	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+5	compteur	compteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+6	pour	pour	ADP	_	ADP___	4	case	_	_
+7	un	un	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	8	obl	_	_
+8	de	de	ADP	_	ADP___	6	case	_	_
+9	ses	son	DET	_	DET__Number=Plur|Poss=Yes	11	nmod:poss	_	_
+10	appartements	appartement	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	nmod	_	_
+11	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Il me demande également de lui fournir une clé de mon entrée principale afin de pouvoir accéder à ce compteur.
+1	Il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+2	me	se	PRON	_	PRON__Number=Sing|Person=1	4	expl	_	_
+3	demande	demander	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	également	également	ADV	_	ADV___	4	advmod	_	_
+5	de	de	ADP	_	ADP___	6	mark	_	_
+6	lui	luire	PRON	_	PRON__Number=Sing|Person=3	4	iobj	_	_
+7	fournir	fournir	VERB	_	VERB__VerbForm=Inf	8	xcomp	_	_
+8	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+9	clé	clé	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obj	_	_
+10	de	de	ADP	_	ADP___	11	case	_	_
+11	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+12	entrée	entrée	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+13	principale	principal	ADJ	_	ADJ__Gender=Fem|Number=Sing	14	amod	_	_
+14	afin	afin	ADP	_	ADP___	15	mark	_	_
+15	de	de	ADP	_	ADP___	15	fixed	_	_
+16	pouvoir	pouvoir	AUX	_	AUX__VerbForm=Inf	17	aux	_	_
+17	accéder	accéder	VERB	_	VERB__VerbForm=Inf	15	advcl	_	_
+18	à	à	ADP	_	ADP___	17	case	_	_
+19	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	20	det	_	_
+20	compteur	compteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obl	_	_
+21	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Ce compteur n'est pas dans une partie commune, mais chez moi.
+1	Ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+2	compteur	compteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+3	n'	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+6	dans	dan	ADP	_	ADP___	4	case	_	_
+7	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	partie	partie	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obl	_	_
+9	commune	commun	ADJ	_	ADJ__Gender=Fem|Number=Sing	11	amod	_	_
+10	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+11	mais	mais	CCONJ	_	CCONJ___	8	cc	_	_
+12	chez	chez	ADP	_	ADP___	4	case	_	_
+13	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	14	conj	_	_
+14	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Nous sommes 2 copropriétaires en syndic bénévole.
+1	Nous	nous	PRON	_	PRON__Number=Plur|Person=1	4	nsubj	_	_
+2	sommes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	2	2	NUM	_	NUM__NumType=Card	4	nummod	_	_
+4	copropriétaires	copropriétaire	NOUN	_	NOUN__Gender=Fem|Number=Plur	4	obj	_	_
+5	en	en	ADP	_	ADP___	6	mark	_	_
+6	syndic	syndic	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	advcl	_	_
+7	bénévole	bénévole	ADJ	_	ADJ__Number=Sing	8	amod	_	_
+8	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Je ne sais pas pourquoi ce compteur se trouve chez moi, il n'a jamais été utilisé depuis que j'ai acheté en 2015, et je ne sais pas s'il est connu d'# Fournisseur en énergie # (.......).
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+2	ne	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+3	sais	savoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+5	pourquoi	pourquoi	ADV	_	ADV___	6	advmod	_	_
+6	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+7	compteur	compteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nsubj	_	_
+8	se	se	PRON	_	PRON__Person=3|Reflex=Yes	6	expl	_	_
+9	trouve	trouver	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+10	chez	chez	ADP	_	ADP___	11	case	_	_
+11	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	8	obl	_	_
+12	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+13	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	14	nsubj:pass	_	_
+14	n'	ne	ADV	_	ADV__Polarity=Neg	15	advmod	_	_
+15	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+16	jamais	jamais	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+17	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	15	aux:pass	_	_
+18	utilisé	utiliser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	conj	_	_
+19	depuis	depuis	ADP	_	ADP___	20	mark	_	_
+20	que	que	SCONJ	_	SCONJ___	17	fixed	_	_
+21	j'	il	PRON	_	PRON__Number=Sing|Person=1	21	nsubj	_	_
+22	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	acheté	acheter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	advcl	_	_
+24	en	en	ADP	_	ADP___	25	case	_	_
+25	2015	2015	NUM	_	NUM__NumType=Card	23	nummod	_	_
+26	,	,	PUNCT	_	PUNCT___	27	punct	_	_
+27	et	et	CCONJ	_	CCONJ___	23	cc	_	_
+28	je	il	PRON	_	PRON__Number=Sing|Person=1	30	nsubj	_	_
+29	ne	ne	ADV	_	ADV__Polarity=Neg	30	advmod	_	_
+30	sais	savoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	27	conj	_	_
+31	pas	pas	ADV	_	ADV__Polarity=Neg	21	advmod	_	_
+32	s'	si	SCONJ	_	SCONJ___	34	mark	_	_
+33	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	34	nsubj:pass	_	_
+34	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux:pass	_	_
+35	connu	connaître	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	34	xcomp	_	_
+36	d	d	NOUN	_	NOUN___	38	advmod	_	_
+37	'	'	PUNCT	_	PUNCT___	38	punct	_	_
+38	#	#	NOUN	_	NOUN__Gender=Fem|Number=Sing	34	obj	_	_
+39	Fournisseur	fournisseur	NOUN	_	NOUN__Gender=Masc|Number=Sing	40	nmod	_	_
+40	en	en	ADP	_	ADP___	38	case	_	_
+41	énergie	énergie	NOUN	_	NOUN__Gender=Fem|Number=Sing	43	obl	_	_
+42	#	#	ADJ	_	ADJ___	43	nmod	_	_
+43	(	(	PUNCT	_	PUNCT___	40	punct	_	_
+44	.......	.......	NOUN	_	NOUN___	43	obj	_	_
+45	)	)	PUNCT	_	PUNCT___	48	punct	_	_
+46	.	.	PUNCT	_	PUNCT___	45	punct	_	_
+
+
+#Ce n'est pas un Linky.
+1	Ce	ce	PRON	_	PRON__Number=Sing|Person=3	4	nsubj	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Linky	Linky	PROPN	_	PROPN__Gender=Fem|Number=Sing	0	ROOT	_	_
+7	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#(je me demande d'ailleurs comment il faisait avant avec son appartement)
+1	(	(	PUNCT	_	PUNCT___	4	punct	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+3	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	4	expl	_	_
+4	demande	demander	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	d'	de	ADP	_	ADP___	6	advmod	_	_
+6	ailleurs	ailleur	NOUN	_	NOUN__Gender=Masc	4	fixed	_	_
+7	comment	comment	ADV	_	ADV__PronType=Int	8	advmod	_	_
+8	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+9	faisait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	ccomp	_	_
+10	avant	avant	ADP	_	ADP___	11	case	_	_
+11	avec	avec	ADP	_	ADP___	8	case	_	_
+12	son	son	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+13	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obl	_	_
+14	)	)	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Je précise que ce compteur ne se situe pas dans mon appartement, mais derrière ma porte d'entrée principale.
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+2	précise	préciser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	que	que	SCONJ	_	SCONJ___	4	mark	_	_
+4	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+5	compteur	compteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nsubj	_	_
+6	ne	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+7	se	se	PRON	_	PRON__Person=3|Reflex=Yes	8	expl	_	_
+8	situe	situer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+9	pas	pas	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+10	dans	dan	ADP	_	ADP___	11	case	_	_
+11	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+12	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+13	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+14	mais	mais	CCONJ	_	CCONJ___	15	cc	_	_
+15	derrière	derrière	ADP	_	ADP___	15	case	_	_
+16	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	17	nmod:poss	_	_
+17	porte	porte	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	conj	_	_
+18	d'	de	ADP	_	ADP___	17	case	_	_
+19	entrée	entrée	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	nmod	_	_
+20	principale	principal	ADJ	_	ADJ__Gender=Fem|Number=Sing	17	amod	_	_
+21	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Suis je obliger de laisser raccorder ce compteur pour l'intérêt de mon copropriétaire ?
+1	Suis	Suis	CCONJ	_	CCONJ___	4	mark	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+3	obliger	obliger	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	de	de	ADP	_	ADP___	4	mark	_	_
+5	laisser	laisser	VERB	_	VERB__VerbForm=Inf	6	xcomp	_	_
+6	raccorder	raccorder	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+7	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	compteur	compteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+9	pour	pour	ADP	_	ADP___	11	case	_	_
+10	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	intérêt	intérêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+12	de	de	ADP	_	ADP___	4	case	_	_
+13	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	14	nmod:poss	_	_
+14	copropriétaire	copropriétaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nmod	_	_
+15	?	?	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Ne doit il pas demander à # Fournisseur en énergie # la pose d'un compteur dans son logement ?
+1	Ne	ne	ADV	_	ADV___	4	advmod	_	_
+2	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+5	demander	demander	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+6	à	à	ADP	_	ADP___	4	case	_	_
+7	#	#	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+8	Fournisseur	fournisseur	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nmod	_	_
+9	en	en	ADP	_	ADP___	11	case	_	_
+10	énergie	énergie	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obl	_	_
+11	#	#	PUNCT	_	PUNCT___	8	case	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+13	pose	pose	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obl	_	_
+14	d'	de	ADP	_	ADP___	15	case	_	_
+15	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+16	compteur	compteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	nmod	_	_
+17	dans	dan	ADP	_	ADP___	15	case	_	_
+18	son	son	DET	_	DET__Number=Sing|Poss=Yes	17	nmod:poss	_	_
+19	logement	logement	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	nmod	_	_
+20	?	?	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Et suis je obligé de lui fournir une clé de mon entrée principale ?
+1	Et	Et	CCONJ	_	CCONJ___	4	cc	_	_
+2	suis	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+4	obligé	obliger	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	de	de	ADP	_	ADP___	6	mark	_	_
+6	lui	luire	PRON	_	PRON__Number=Sing|Person=3	4	iobj	_	_
+7	fournir	fournir	VERB	_	VERB__VerbForm=Inf	8	xcomp	_	_
+8	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+9	clé	clé	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obj	_	_
+10	de	de	ADP	_	ADP___	11	case	_	_
+11	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+12	entrée	entrée	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+13	principale	principal	ADJ	_	ADJ__Gender=Fem|Number=Sing	14	amod	_	_
+14	?	?	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Vous remerciant pour vos précisions.
+1	Vous	vous	PRON	_	PRON__Number=Plur|Person=2	4	nsubj	_	_
+2	remerciant	remercier	VERB	_	VERB__Tense=Pres|VerbForm=Part	0	ROOT	_	_
+3	pour	pour	ADP	_	ADP___	4	case	_	_
+4	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	4	nmod:poss	_	_
+5	précisions	précision	NOUN	_	NOUN__Gender=Fem|Number=Plur	6	obl	_	_
+6	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Cordialement.
+1	Cordialement	cordialement	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+

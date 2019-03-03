@@ -1,0 +1,87 @@
+#Bonjour à tous, Une interrogation sur une succession de CDD...
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	à	à	ADP	_	ADP___	3	case	_	_
+3	tous	tout	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Rel	1	obl	_	_
+4	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+5	Une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	interrogation	interrogation	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+7	sur	sur	ADP	_	ADP___	9	case	_	_
+8	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	succession	succession	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+10	de	de	ADP	_	ADP___	11	case	_	_
+11	CDD	CDD	PROPN	_	PROPN___	9	nmod	_	_
+12	...	...	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Mme X remplace
+1	Mme	mme	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	X	x	NOUN	_	NOUN___	3	flat:name	_	_
+3	remplace	remplac	ADJ	_	ADJ__Number=Sing	1	amod	_	_
+
+
+#Mme Y qui est en congé maternité.
+1	Mme	mme	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	Y	Y	PROPN	_	PROPN__Gender=Masc|Number=Sing	3	flat:name	_	_
+3	qui	qui	PRON	_	PRON__PronType=Rel	1	nsubj	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+5	en	en	ADP	_	ADP___	6	iobj	_	_
+6	congé	congé	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	acl:relcl	_	_
+7	maternité	maternité	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obl	_	_
+8	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Mme Z tombe enceinte et a le même poste que Mme Y. Mme X
+1	Mme	mme	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+2	Z	z	ADJ	_	ADJ___	3	flat:name	_	_
+3	tombe	tombe	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	amod	_	_
+4	enceinte	enceinte	ADJ	_	ADJ__Gender=Fem|Number=Sing	1	amod	_	_
+5	et	et	CCONJ	_	CCONJ___	6	cc	_	_
+6	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	même	même	ADJ	_	ADJ__Number=Sing	9	amod	_	_
+9	poste	poste	NOUN	_	NOUN__Number=Sing	0	ROOT	_	_
+10	que	que	SCONJ	_	SCONJ___	11	mark	_	_
+11	Mme	mme	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	dep	_	_
+12	Y.	Y.	PROPN	_	PROPN___	6	flat:name	_	_
+13	Mme	mme	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	flat:name	_	_
+14	X	x	NOUN	_	NOUN___	13	flat:name	_	_
+
+
+#peut-elle remplacer Mme Z pendant son congé mat sans respecter un délai de carence?
+1	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+2	-	-	PUNCT	_	PUNCT___	3	punct	_	_
+3	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	1	nsubj	_	_
+4	remplacer	remplacer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	Mme	mme	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obj	_	_
+6	Z	z	NOUN	_	NOUN___	1	flat:name	_	_
+7	pendant	pendre	ADP	_	ADP___	9	case	_	_
+8	son	son	DET	_	DET__Number=Sing|Poss=Yes	9	nmod:poss	_	_
+9	congé	congé	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obl	_	_
+10	mat	mat	ADV	_	ADV___	11	advmod	_	_
+11	sans	sans	ADP	_	ADP___	9	mark	_	_
+12	respecter	respecter	VERB	_	VERB__VerbForm=Inf	6	advcl	_	_
+13	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+14	délai	délai	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+15	de	de	ADP	_	ADP___	13	case	_	_
+16	carence	carence	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nmod	_	_
+17	?	?	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#(Selon l'article L1244
+1	(	(	PUNCT	_	PUNCT___	0	ROOT	_	_
+2	Selon	Selon	ADP	_	ADP___	3	case	_	_
+3	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+4	article	article	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+5	L1244	l1244	PUNCT	_	PUNCT___	6	nmod	_	_
+
+
+#-1) Merci de votre aide
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	1	1	NUM	_	NUM__NumType=Card	3	nummod	_	_
+3	)	)	PUNCT	_	PUNCT___	1	punct	_	_
+4	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	de	de	ADP	_	ADP___	6	case	_	_
+6	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+7	aide	aide	NOUN	_	NOUN__Number=Sing	9	nmod	_	_
+
+

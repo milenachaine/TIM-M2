@@ -1,0 +1,142 @@
+#Bonsoir, Le critère d’ancienneté Est retenu pour l’octroi du montant.
+1	Bonsoir	Bonsoir	PROPN	_	PROPN___	8	acl	_	_
+2	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+3	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	critère	critère	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nsubj	_	_
+5	d’	d’	PROPN	_	PROPN___	4	amod	_	_
+6	ancienneté	ancienneté	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	amod	_	_
+7	Est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	nmod	_	_
+8	retenu	retenir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+9	pour	pour	ADP	_	ADP___	11	case	_	_
+10	l’	l’	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	octroi	octroi	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+12	du	du	DET	_	DET__Gender=Masc|Number=Sing	13	det	_	_
+13	montant	montant	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+14	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Moins de 5 ans 300€, de 5 a 10 ans
+1	Moins	moins	ADV	_	ADV___	8	advmod	_	_
+2	de	de	ADP	_	ADP___	8	case	_	_
+3	5	5	NUM	_	NUM__NumType=Card	4	nummod	_	_
+4	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+5	300	300	NUM	_	NUM__NumType=Card	4	nummod	_	_
+6	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	obj	_	_
+7	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+8	de	de	ADP	_	ADP___	8	case	_	_
+9	5	5	NUM	_	NUM__NumType=Card	11	nummod	_	_
+10	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	10	10	NUM	_	NUM__NumType=Card	8	nummod	_	_
+12	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	conj	_	_
+
+
+#600€........jusqu’a 1700€ pour les plus anciens.
+1	600€	600€	PRON	_	PRON__NumType=Card|PronType=Rel	8	nsubj	_	_
+2	........	........	PUNCT	_	PUNCT___	8	advmod	_	_
+3	jusqu’	jusqu’	X	_	X___	4	nmod	_	_
+4	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+5	1700	1700	NUM	_	NUM__NumType=Card	4	nummod	_	_
+6	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	obj	_	_
+7	pour	pour	ADP	_	ADP___	4	case	_	_
+8	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+9	plus	plus	ADV	_	ADV___	11	advmod	_	_
+10	anciens	ancien	ADJ	_	ADJ__Gender=Masc|Number=Plur	0	ROOT	_	_
+11	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#La raison évoquée est que la maison de Vacances a été acheté il y a plus de 20 ans et que sont bénéfice doit revenir au plus anciens en priorité.
+1	La	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+2	raison	raison	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nsubj:pass	_	_
+3	évoquée	évoquer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+5	que	que	SCONJ	_	SCONJ___	4	mark	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+7	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+8	de	de	ADP	_	ADP___	8	case	_	_
+9	Vacances	Vacances	PROPN	_	PROPN___	11	nmod	_	_
+10	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	8	aux:pass	_	_
+12	acheté	acheter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+13	il	il	PRON	_	PRON__Number=Sing|Person=3	11	case	_	_
+14	y	yu	PRON	_	PRON__Person=3	8	fixed	_	_
+15	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	fixed	_	_
+16	plus	plus	ADV	_	ADV___	18	advmod	_	_
+17	de	de	ADP	_	ADP___	18	dep	_	_
+18	20	20	NUM	_	NUM__NumType=Card	18	nummod	_	_
+19	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	20	obl	_	_
+20	et	et	CCONJ	_	CCONJ___	18	cc	_	_
+21	que	que	SCONJ	_	SCONJ___	26	mark	_	_
+22	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+23	bénéfice	bénéfice	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	nsubj	_	_
+24	doit	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+25	revenir	revenir	VERB	_	VERB__VerbForm=Inf	26	conj	_	_
+26	au	au	PRON	_	PRON__PronType=Int	18	advmod	_	_
+27	plus	plus	ADV	_	ADV___	36	advmod	_	_
+28	anciens	ancien	ADJ	_	ADJ__Gender=Masc|Number=Plur	29	fixed	_	_
+29	en	en	ADP	_	ADP___	27	case	_	_
+30	priorité	priorité	NOUN	_	NOUN__Gender=Fem|Number=Sing	36	nmod	_	_
+31	.	.	PUNCT	_	PUNCT___	32	punct	_	_
+
+
+#Je pose cette question car je sais que mon CE fait ce qu’il veux un seul compte bancaire en mélangeant œuvre sociale et fonctionnement, paiement de formation syndicale, attribution d’avantage sur le seul critère de rémunération dans l’entreprise.
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	8	nsubj	_	_
+2	pose	poser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+5	car	car	CCONJ	_	CCONJ___	4	cc	_	_
+6	je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+7	sais	savoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	_
+8	que	que	SCONJ	_	SCONJ___	8	mark	_	_
+9	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	11	nmod:poss	_	_
+10	CE	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	11	nsubj	_	_
+11	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+12	ce	ce	PRON	_	PRON__PronType=Rel	13	obj	_	_
+13	qu’	qu’	PRON	_	PRON__PronType=Rel	11	mark	_	_
+14	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+15	veux	vouloir	ADJ	_	ADJ__Gender=Masc	18	acl:relcl	_	_
+16	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	seul	seul	ADJ	_	ADJ__Gender=Masc|Number=Sing	18	amod	_	_
+18	compte	compte	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obj	_	_
+19	bancaire	bancaire	ADJ	_	ADJ__Number=Sing	20	amod	_	_
+20	en	en	ADP	_	ADP___	18	mark	_	_
+21	mélangeant	mélanger	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	advcl	_	_
+22	œuvre	œuvr	ADJ	_	ADJ__Number=Sing	24	advcl	_	_
+23	sociale	social	ADJ	_	ADJ__Gender=Fem|Number=Sing	24	amod	_	_
+24	et	et	CCONJ	_	CCONJ___	26	cc	_	_
+25	fonctionnement	fonctionnement	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	conj	_	_
+26	,	,	PUNCT	_	PUNCT___	18	punct	_	_
+27	paiement	paiement	NOUN	_	NOUN__Gender=Masc|Number=Sing	36	obl	_	_
+28	de	de	ADP	_	ADP___	29	case	_	_
+29	formation	formation	NOUN	_	NOUN__Gender=Fem|Number=Sing	27	nmod	_	_
+30	syndicale	syndical	ADJ	_	ADJ__Gender=Fem|Number=Sing	36	amod	_	_
+31	,	,	PUNCT	_	PUNCT___	32	punct	_	_
+32	attribution	attribution	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	aux	_	_
+33	d’	d’	PUNCT	_	PUNCT___	36	nmod	_	_
+34	avantage	avantage	NOUN	_	NOUN__Gender=Masc|Number=Sing	36	nmod	_	_
+35	sur	sur	ADP	_	ADP___	36	case	_	_
+36	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+37	seul	seul	ADJ	_	ADJ__Gender=Masc|Number=Sing	36	amod	_	_
+38	critère	critère	NOUN	_	NOUN__Gender=Masc|Number=Sing	39	nmod	_	_
+39	de	de	ADP	_	ADP___	49	case	_	_
+40	rémunération	rémunération	NOUN	_	NOUN__Gender=Fem|Number=Sing	39	nmod	_	_
+41	dans	dan	ADP	_	ADP___	49	case	_	_
+42	l’	l’	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	49	det	_	_
+43	entreprise	entreprise	NOUN	_	NOUN__Gender=Fem|Number=Sing	44	nmod	_	_
+44	.	.	PUNCT	_	PUNCT___	49	punct	_	_
+
+
+#Ce
+1	Ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	0	ROOT	_	_
+
+
+#Ce m’exaspère.
+1	Ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+2	m’	m’	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	exaspère	exaspèr	ADJ	_	ADJ__Gender=Fem|Number=Sing	4	amod	_	_
+4	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Merci
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+
+

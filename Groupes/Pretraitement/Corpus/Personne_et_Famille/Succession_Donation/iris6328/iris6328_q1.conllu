@@ -1,0 +1,240 @@
+#Mon oncle et ma tante viennent de décéder.
+1	Mon	mon	DET	_	DET__Number=Sing|Poss=Yes	2	nmod:poss	_	_
+2	oncle	oncle	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nsubj	_	_
+3	et	et	CCONJ	_	CCONJ___	5	cc	_	_
+4	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	5	nmod:poss	_	_
+5	tante	tante	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	conj	_	_
+6	viennent	venir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	de	de	ADP	_	ADP___	8	mark	_	_
+8	décéder	décéder	VERB	_	VERB__VerbForm=Inf	6	xcomp	_	_
+9	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Mon oncle est décéder avant.
+1	Mon	mon	DET	_	DET__Number=Sing|Poss=Yes	2	nmod:poss	_	_
+2	oncle	oncle	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+4	décéder	décéder	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	avant	avant	ADP	_	ADP___	2	advmod	_	_
+6	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Ils n'ont pas eu d'enfants .
+1	Ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	2	nsubj	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+3	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+5	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+6	d'	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	6	case	_	_
+7	enfants	enfant	NOUN	_	NOUN__Number=Plur	8	obj	_	_
+8	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Mariés sous le régime de la communauté réduite aux acquêts.
+1	Mariés	marier	AUX	_	AUX__Tense=Past|VerbForm=Part	0	ROOT	_	_
+2	sous	sou	ADP	_	ADP___	6	case	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	régime	régime	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+5	de	de	ADP	_	ADP___	2	case	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+7	communauté	communauté	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+8	réduite	réduire	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+9	aux	aux	ADP	_	ADP___	6	amod	_	_
+10	acquêts	acquêt	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obl	_	_
+11	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Ma tante avaient des biens immobiliers.
+1	Ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	2	nmod:poss	_	_
+2	tante	tante	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nsubj	_	_
+3	avaient	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+4	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
+5	biens	bien	NOUN	_	NOUN__Gender=Masc|Number=Plur	2	obj	_	_
+6	immobiliers	immobilier	ADJ	_	ADJ__Gender=Masc|Number=Plur	6	amod	_	_
+7	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Ils ont construits leur maison d'habitation sur un terrain hérité par ma tante.
+1	Ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	2	nsubj	_	_
+2	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	construits	construit	ADJ	_	ADJ__Gender=Masc|Number=Plur	0	ROOT	_	_
+4	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+5	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	obj	_	_
+6	d'	de	ADP	_	ADP___	6	case	_	_
+7	habitation	habitation	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+8	sur	sur	ADP	_	ADP___	6	case	_	_
+9	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+10	terrain	terrain	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+11	hérité	hériter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	amod	_	_
+12	par	par	ADP	_	ADP___	13	case	_	_
+13	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	13	nmod:poss	_	_
+14	tante	tante	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obl	_	_
+15	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Ils se sont faits réciproquement une donation entre époux.
+1	Ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	2	nsubj	_	_
+2	se	se	PRON	_	PRON__Person=3|Reflex=Yes	6	expl	_	_
+3	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	faits	faire	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+5	réciproquement	réciproquement	ADV	_	ADV___	2	advmod	_	_
+6	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+7	donation	donation	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+8	entre	entrer	ADP	_	ADP___	6	case	_	_
+9	époux	époux	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nmod	_	_
+10	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Mon oncle a eu un enfant avec une autre femme qu'il a reconnu.
+1	Mon	mon	DET	_	DET__Number=Sing|Poss=Yes	2	nmod:poss	_	_
+2	oncle	oncle	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nsubj	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+6	enfant	enfant	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+7	avec	avec	ADP	_	ADP___	8	case	_	_
+8	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+9	autre	autre	ADJ	_	ADJ__Number=Sing	6	amod	_	_
+10	femme	femme	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+11	qu'	que	PRON	_	PRON__PronType=Rel	13	obj	_	_
+12	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	13	nsubj	_	_
+13	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+14	reconnu	reconnaître	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+15	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Aucun dossier de sucession n'a été ouvert pour mon oncle lors de son décès.
+1	Aucun	aucun	DET	_	DET__Gender=Masc|Number=Sing	2	det	_	_
+2	dossier	dossier	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nsubj	_	_
+3	de	de	ADP	_	ADP___	5	case	_	_
+4	sucession	sucession	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+5	n'	ne	ADV	_	ADV___	2	advmod	_	_
+6	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+7	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	8	aux:pass	_	_
+8	ouvert	ouvrir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+9	pour	pour	ADP	_	ADP___	6	case	_	_
+10	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	11	nmod:poss	_	_
+11	oncle	oncle	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+12	lors	lors	ADV	_	ADV___	13	case	_	_
+13	de	de	ADP	_	ADP___	13	fixed	_	_
+14	son	son	DET	_	DET__Number=Sing|Poss=Yes	13	nmod:poss	_	_
+15	décès	décès	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+16	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Les 2000 euros restabt sur son compte individuel ont été versé sur le compte de ma tante .
+1	Les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	2	det	_	_
+2	2000	2000	NUM	_	NUM__NumType=Card	6	nummod	_	_
+3	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	nsubj	_	_
+4	restabt	restabt	VERB	_	VERB__VerbForm=Inf	5	advmod	_	_
+5	sur	sur	ADP	_	ADP___	2	case	_	_
+6	son	son	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+7	compte	compte	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+8	individuel	individuel	ADJ	_	ADJ__Gender=Masc|Number=Sing	6	amod	_	_
+9	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+10	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	11	aux:pass	_	_
+11	versé	verser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+12	sur	sur	ADP	_	ADP___	13	case	_	_
+13	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+14	compte	compte	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+15	de	de	ADP	_	ADP___	13	case	_	_
+16	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	20	nmod:poss	_	_
+17	tante	tante	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	nmod	_	_
+18	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Ils avaient leur compte individuel et un compte.
+1	Ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	2	nsubj	_	_
+2	avaient	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+3	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+4	compte	compte	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+5	individuel	individuel	ADJ	_	ADJ__Gender=Masc|Number=Sing	2	amod	_	_
+6	et	et	CCONJ	_	CCONJ___	6	cc	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	compte	compte	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	conj	_	_
+9	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Qui hérite de ma tante?
+1	Qui	qui	PRON	_	PRON__PronType=Int	2	nsubj	_	_
+2	hérite	hériter	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	de	de	ADP	_	ADP___	5	case	_	_
+4	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	5	nmod:poss	_	_
+5	tante	tante	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	obl	_	_
+6	?	?	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Sa soeur ou la fille de mon oncle?
+1	Sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	2	nmod:poss	_	_
+2	soeur	soeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	ou	ou	CCONJ	_	CCONJ___	5	cc	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	fille	fille	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	conj	_	_
+6	de	de	ADP	_	ADP___	6	case	_	_
+7	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+8	oncle	oncle	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nmod	_	_
+9	?	?	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Si les 2, quelles sont les quote part pour chacun d'eux?
+1	Si	Si	SCONJ	_	SCONJ___	2	mark	_	_
+2	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	6	det	_	_
+3	2	2	NUM	_	NUM__NumType=Card	0	ROOT	_	_
+4	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+5	quelles	quell	ADJ	_	ADJ__Gender=Fem|Number=Plur	2	nsubj	_	_
+6	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+7	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+8	quote	quote	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	fixed	_	_
+9	part	part	NOUN	_	NOUN__Number=Sing	6	nmod	_	_
+10	pour	pour	ADP	_	ADP___	11	case	_	_
+11	chacun	chacun	PRON	_	PRON__Gender=Masc|PronType=Rel	13	nmod	_	_
+12	d'	de	ADP	_	ADP___	13	case	_	_
+13	eux	lui	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3|PronType=Prs	13	nmod	_	_
+14	?	?	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Que peut exiger la fille de mon oncle que l'on ne connait pas?
+1	Que	que	PRON	_	PRON__PronType=Int	2	obj	_	_
+2	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	exiger	exiger	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	fille	fille	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	obj	_	_
+6	de	de	ADP	_	ADP___	6	case	_	_
+7	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+8	oncle	oncle	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nmod	_	_
+9	que	que	SCONJ	_	SCONJ___	6	mark	_	_
+10	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	11	nsubj	_	_
+11	on	on	PRON	_	PRON__Number=Sing|Person=3	13	fixed	_	_
+12	ne	ne	ADV	_	ADV__Polarity=Neg	13	advmod	_	_
+13	connait	conner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	acl:relcl	_	_
+14	pas	pas	ADV	_	ADV__Polarity=Neg	13	advmod	_	_
+15	?	?	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#---------- Message ajouté à 08h36
+1	----------	----------	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	2	det	_	_
+2	Message	message	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	ajouté	ajouter	ADJ	_	ADJ__Gender=Masc|Number=Sing	5	amod	_	_
+4	à	à	ADP	_	ADP___	5	case	_	_
+5	08h36	08h36	NUM	_	NUM__NumType=Card	2	obl	_	_
+
+
+#---------- Précédent message à 08h35 ---------- ils avaient chacun leur compte individuel et un compte joint
+1	----------	----------	PRON	_	PRON__Number=Sing|Person=3	0	ROOT	_	_
+2	Précédent	précédent	ADJ	_	ADJ__Gender=Masc|Number=Sing	6	nmod	_	_
+3	message	message	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	flat:name	_	_
+4	à	à	ADP	_	ADP___	5	case	_	_
+5	08h35	08h35	NUM	_	NUM__NumType=Card	2	nummod	_	_
+6	----------	----------	PRON	_	PRON__Number=Sing|Person=3	6	nmod	_	_
+7	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	8	nsubj	_	_
+8	avaient	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+9	chacun	chacun	PRON	_	PRON__Gender=Masc|PronType=Rel	6	acl:relcl	_	_
+10	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	11	nmod:poss	_	_
+11	compte	compte	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+12	individuel	individuel	ADJ	_	ADJ__Gender=Masc|Number=Sing	13	amod	_	_
+13	et	et	CCONJ	_	CCONJ___	13	cc	_	_
+14	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+15	compte	compte	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	conj	_	_
+16	joint	joint	ADJ	_	ADJ__Gender=Masc|Number=Sing	20	amod	_	_
+
+

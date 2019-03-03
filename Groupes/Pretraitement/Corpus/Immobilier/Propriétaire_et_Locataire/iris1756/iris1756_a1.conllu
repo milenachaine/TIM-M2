@@ -1,0 +1,385 @@
+#Bonjour, Une mise en demeure par lettre recommandée
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	mise	mise	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+5	en	en	ADP	_	ADP___	6	case	_	_
+6	demeure	demeure	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+7	par	par	ADP	_	ADP___	8	case	_	_
+8	lettre	lettre	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+9	recommandée	recommander	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+
+
+#AR afin d'obtenir le nom et les coordonnées du bailleur, c'est obligatoire (Art.
+1	AR	ar	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	advmod	_	_
+2	afin	afin	ADP	_	ADP___	1	mark	_	_
+3	d'	de	ADP	_	ADP___	4	fixed	_	_
+4	obtenir	obtenir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	nom	nom	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obj	_	_
+7	et	et	CCONJ	_	CCONJ___	8	cc	_	_
+8	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+9	coordonnées	coordonnée	NOUN	_	NOUN__Gender=Fem|Number=Plur	4	conj	_	_
+10	du	du	DET	_	DET__Gender=Masc|Number=Sing	13	det	_	_
+11	bailleur	bailleur	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+12	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+13	c'	ce	PRON	_	PRON__Number=Sing|Person=3	13	nsubj	_	_
+14	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	obligatoire	obligatoire	ADJ	_	ADJ__Number=Sing	13	conj	_	_
+16	(	(	PUNCT	_	PUNCT___	18	punct	_	_
+17	Art	Art	PROPN	_	PROPN__Gender=Masc|Number=Sing	18	obl	_	_
+18	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#3 loi 06/07/1989).
+1	3	3	NUM	_	NUM__NumType=Card	1	nummod	_	_
+2	loi	loi	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	06/07/1989	06/07/1989	NOUN	_	NOUN__NumType=Card	4	nmod	_	_
+4	)	)	PUNCT	_	PUNCT___	1	punct	_	_
+5	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Aussi, les frais doivent être partagés entre le bailleur et le preneur, le bailleur ne serait donc pas forcement d'accord :
+1	Aussi	aussi	ADV	_	ADV___	1	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+4	frais	frais	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	nsubj	_	_
+5	doivent	devoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	être	être	AUX	_	AUX__VerbForm=Inf	4	aux:pass	_	_
+7	partagés	partager	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	xcomp	_	_
+8	entre	entrer	ADP	_	ADP___	4	case	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+10	bailleur	bailleur	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+11	et	et	CCONJ	_	CCONJ___	13	cc	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+13	preneur	preneur	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	conj	_	_
+14	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+15	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+16	bailleur	bailleur	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nsubj	_	_
+17	ne	ne	ADV	_	ADV___	18	advmod	_	_
+18	serait	être	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+19	donc	donc	ADV	_	ADV___	20	advmod	_	_
+20	pas	pas	ADV	_	ADV___	18	advmod	_	_
+21	forcement	forcemer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	parataxis	_	_
+22	d'	de	ADP	_	ADP___	24	case	_	_
+23	accord	accord	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	obl	_	_
+24	:	:	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Article 5 I. ―
+1	Article	article	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	5	5	NUM	_	NUM__NumType=Card	1	nummod	_	_
+3	I.	i.	NOUN	_	NOUN__Gender=Fem|Number=Plur	4	nmod	_	_
+4	―	―	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	amod	_	_
+
+
+#La rémunération des personnes mandatées pour se livrer ou prêter leur concours à l'entremise ou à la négociation d'une mise en location d'un logement, tel que défini aux articles 2 et 25-3, est à la charge exclusive du bailleur, à l'exception des honoraires liés aux prestations mentionnées aux deuxième et troisième alinéas du présent I.
+1	La	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	rémunération	rémunération	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+3	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
+4	personnes	personne	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	obj	_	_
+5	mandatées	mandaté	ADJ	_	ADJ__Gender=Fem|Number=Plur	6	acl	_	_
+6	pour	pour	ADP	_	ADP___	4	mark	_	_
+7	se	se	PRON	_	PRON__Person=3|Reflex=Yes	8	obj	_	_
+8	livrer	livrer	VERB	_	VERB__VerbForm=Inf	4	advcl	_	_
+9	ou	ou	CCONJ	_	CCONJ___	4	cc	_	_
+10	prêter	prêter	VERB	_	VERB__VerbForm=Inf	13	conj	_	_
+11	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	13	nmod:poss	_	_
+12	concours	concours	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+13	à	à	ADP	_	ADP___	13	case	_	_
+14	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	entremise	entremise	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nmod	_	_
+16	ou	ou	CCONJ	_	CCONJ___	18	cc	_	_
+17	à	à	ADP	_	ADP___	18	case	_	_
+18	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+19	négociation	négociation	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	conj	_	_
+20	d'	de	ADP	_	ADP___	18	case	_	_
+21	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+22	mise	mise	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	nmod	_	_
+23	en	en	ADP	_	ADP___	24	case	_	_
+24	location	location	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nmod	_	_
+25	d'	de	ADP	_	ADP___	24	case	_	_
+26	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+27	logement	logement	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	nmod	_	_
+28	,	,	PUNCT	_	PUNCT___	29	punct	_	_
+29	tel	tel	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+30	que	que	SCONJ	_	SCONJ___	29	fixed	_	_
+31	défini	défini	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	fixed	_	_
+32	aux	aux	ADP	_	ADP___	29	dep	_	_
+33	articles	article	NOUN	_	NOUN__Gender=Masc|Number=Plur	37	amod	_	_
+34	2	2	NUM	_	NUM__NumType=Card	37	nummod	_	_
+35	et	et	CCONJ	_	CCONJ___	36	cc	_	_
+36	25	25	NUM	_	NUM__NumType=Card	37	conj	_	_
+37	-	-	PUNCT	_	PUNCT___	37	punct	_	_
+38	3	3	NUM	_	NUM__NumType=Card	39	nummod	_	_
+39	,	,	PUNCT	_	PUNCT___	37	punct	_	_
+40	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	cop	_	_
+41	à	à	ADP	_	ADP___	42	case	_	_
+42	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+43	charge	charge	NOUN	_	NOUN__Gender=Fem|Number=Sing	45	nsubj	_	_
+44	exclusive	exclusif	ADJ	_	ADJ__Gender=Fem|Number=Sing	45	amod	_	_
+45	du	du	DET	_	DET__Gender=Masc|Number=Sing	42	det	_	_
+46	bailleur	bailleur	NOUN	_	NOUN__Gender=Masc|Number=Sing	53	nmod	_	_
+47	,	,	PUNCT	_	PUNCT___	48	punct	_	_
+48	à	à	ADP	_	ADP___	53	case	_	_
+49	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	53	fixed	_	_
+50	exception	exception	NOUN	_	NOUN__Gender=Fem|Number=Sing	53	fixed	_	_
+51	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	53	det	_	_
+52	honoraires	honoraire	NOUN	_	NOUN__Gender=Fem|Number=Plur	53	nmod	_	_
+53	liés	lier	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	37	acl	_	_
+54	aux	aux	ADP	_	ADP___	55	det	_	_
+55	prestations	prestation	NOUN	_	NOUN__Gender=Fem|Number=Plur	53	obj	_	_
+56	mentionnées	mentionner	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	37	acl	_	_
+57	aux	aux	ADP	_	ADP___	57	cc	_	_
+58	deuxième	deuxième	ADJ	_	ADJ__Number=Sing|NumType=Ord	57	amod	_	_
+59	et	et	CCONJ	_	CCONJ___	57	cc	_	_
+60	troisième	troisième	ADJ	_	ADJ__Number=Sing|NumType=Ord	57	conj	_	_
+61	alinéas	alinéer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	62	conj	_	_
+62	du	du	DET	_	DET__Gender=Masc|Number=Sing	89	det	_	_
+63	présent	présent	NOUN	_	NOUN__Gender=Masc|Number=Sing	64	amod	_	_
+64	I.	I.	PROPN	_	PROPN___	62	obj	_	_
+
+
+#Les honoraires des personnes mandatées pour effectuer la visite du preneur, constituer son dossier et rédiger un bail sont partagés entre le bailleur et le preneur.
+1	Les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+2	honoraires	honoraire	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	amod	_	_
+3	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
+4	personnes	personne	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	nsubj	_	_
+5	mandatées	mandaté	ADJ	_	ADJ__Gender=Fem|Number=Plur	6	acl	_	_
+6	pour	pour	ADP	_	ADP___	4	mark	_	_
+7	effectuer	effectuer	VERB	_	VERB__VerbForm=Inf	8	advcl	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+9	visite	visiter	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obj	_	_
+10	du	du	DET	_	DET__Gender=Masc|Number=Sing	13	det	_	_
+11	preneur	preneur	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+12	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+13	constituer	constituer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+14	son	son	DET	_	DET__Number=Sing|Poss=Yes	15	nmod:poss	_	_
+15	dossier	dossier	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+16	et	et	CCONJ	_	CCONJ___	18	cc	_	_
+17	rédiger	rédiger	VERB	_	VERB__VerbForm=Inf	18	conj	_	_
+18	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+19	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obj	_	_
+20	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+21	partagés	partager	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	24	conj	_	_
+22	entre	entrer	ADP	_	ADP___	24	case	_	_
+23	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	bailleur	bailleur	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+25	et	et	CCONJ	_	CCONJ___	24	cc	_	_
+26	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+27	preneur	preneur	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	conj	_	_
+28	.	.	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#Le montant toutes taxes comprises imputé au preneur pour ces prestations ne peut excéder celui imputé au bailleur et demeure inférieur ou égal à un plafond par mètre carré de surface habitable de la chose louée fixé par voie réglementaire et révisable chaque année, dans des conditions définies par décret.
+1	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	montant	montant	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+3	toutes	tout	DET	_	DET__Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	taxes	tax	ADJ	_	ADJ__Number=Plur	1	nsubj	_	_
+5	comprises	compris	ADJ	_	ADJ__Gender=Fem|Number=Plur	6	amod	_	_
+6	imputé	imputer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	amod	_	_
+7	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	8	case	_	_
+8	preneur	preneur	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+9	pour	pour	ADP	_	ADP___	4	case	_	_
+10	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	13	det	_	_
+11	prestations	prestation	NOUN	_	NOUN__Gender=Fem|Number=Plur	13	nmod	_	_
+12	ne	ne	ADV	_	ADV___	11	advmod	_	_
+13	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+14	excéder	excéder	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+15	celui	celui	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Dem	13	obj	_	_
+16	imputé	imputer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	amod	_	_
+17	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	18	case	_	_
+18	bailleur	bailleur	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+19	et	et	CCONJ	_	CCONJ___	20	cc	_	_
+20	demeure	demeure	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	conj	_	_
+21	inférieur	inférieur	ADJ	_	ADJ__Gender=Masc|Number=Sing	24	amod	_	_
+22	ou	ou	CCONJ	_	CCONJ___	24	cc	_	_
+23	égal	égal	ADJ	_	ADJ__Gender=Masc|Number=Sing	24	conj	_	_
+24	à	à	ADP	_	ADP___	13	case	_	_
+25	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+26	plafond	plafond	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	obl	_	_
+27	par	par	ADP	_	ADP___	24	case	_	_
+28	mètre	mètre	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	nmod	_	_
+29	carré	carré	ADJ	_	ADJ__Gender=Fem|Number=Sing	29	amod	_	_
+30	de	de	ADP	_	ADP___	29	case	_	_
+31	surface	surface	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	nmod	_	_
+32	habitable	habitable	ADJ	_	ADJ__Number=Sing	29	amod	_	_
+33	de	de	ADP	_	ADP___	37	case	_	_
+34	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+35	chose	chose	NOUN	_	NOUN__Gender=Fem|Number=Sing	36	nmod	_	_
+36	louée	louer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	37	amod	_	_
+37	fixé	fixer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	37	acl	_	_
+38	par	par	ADP	_	ADP___	39	case	_	_
+39	voie	voie	NOUN	_	NOUN__Gender=Fem|Number=Sing	37	obl	_	_
+40	réglementaire	réglementaire	ADJ	_	ADJ__Number=Sing	42	amod	_	_
+41	et	et	CCONJ	_	CCONJ___	42	cc	_	_
+42	révisable	révisable	ADJ	_	ADJ__Number=Sing	39	conj	_	_
+43	chaque	chaque	DET	_	DET__Number=Sing	45	det	_	_
+44	année	année	NOUN	_	NOUN__Gender=Fem|Number=Sing	45	obl	_	_
+45	,	,	PUNCT	_	PUNCT___	42	punct	_	_
+46	dans	dan	ADP	_	ADP___	53	case	_	_
+47	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	48	det	_	_
+48	conditions	condition	NOUN	_	NOUN__Gender=Fem|Number=Plur	53	obl	_	_
+49	définies	définir	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	53	acl	_	_
+50	par	par	ADP	_	ADP___	53	case	_	_
+51	décret	décret	NOUN	_	NOUN__Gender=Masc|Number=Sing	53	obl	_	_
+52	.	.	PUNCT	_	PUNCT___	53	punct	_	_
+
+
+#Ces honoraires sont dus à la signature du bail.
+1	Ces	ce	DET	_	DET__Number=Plur|PronType=Dem	1	det	_	_
+2	honoraires	honoraire	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	nsubj	_	_
+3	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	dus	devoir	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+5	à	à	ADP	_	ADP___	6	case	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+7	signature	signature	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+8	du	du	DET	_	DET__Gender=Masc|Number=Sing	4	det	_	_
+9	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+10	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Les honoraires des personnes mandatées pour réaliser un état des lieux sont partagés entre le bailleur et le preneur.
+1	Les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+2	honoraires	honoraire	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	amod	_	_
+3	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
+4	personnes	personne	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	nsubj	_	_
+5	mandatées	mandaté	ADJ	_	ADJ__Gender=Fem|Number=Plur	6	acl	_	_
+6	pour	pour	ADP	_	ADP___	4	mark	_	_
+7	réaliser	réaliser	VERB	_	VERB__VerbForm=Inf	8	advcl	_	_
+8	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+9	état	état	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obj	_	_
+10	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	13	det	_	_
+11	lieux	lieu	ADJ	_	ADJ__Gender=Masc	13	nmod	_	_
+12	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+13	partagés	partager	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+14	entre	entrer	ADP	_	ADP___	15	case	_	_
+15	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+16	bailleur	bailleur	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obl	_	_
+17	et	et	CCONJ	_	CCONJ___	18	cc	_	_
+18	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+19	preneur	preneur	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	conj	_	_
+20	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Le montant toutes taxes comprises imputé au locataire pour cette prestation ne peut excéder celui imputé au bailleur et demeure inférieur ou égal à un plafond par mètre carré de surface habitable de la chose louée fixé par voie réglementaire et révisable chaque année, dans des conditions définies par décret.
+1	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	montant	montant	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	toutes	tout	DET	_	DET__Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	taxes	tax	ADJ	_	ADJ__Number=Plur	1	nmod	_	_
+5	comprises	compris	ADJ	_	ADJ__Gender=Fem|Number=Plur	6	amod	_	_
+6	imputé	imputer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	amod	_	_
+7	au	au	PRON	_	PRON__PronType=Rel	8	obj	_	_
+8	locataire	locataire	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	amod	_	_
+9	pour	pour	ADP	_	ADP___	4	case	_	_
+10	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
+11	prestation	prestation	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nmod	_	_
+12	ne	ne	ADV	_	ADV___	11	advmod	_	_
+13	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+14	excéder	excéder	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+15	celui	celui	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Dem	13	obj	_	_
+16	imputé	imputer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	amod	_	_
+17	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	18	case	_	_
+18	bailleur	bailleur	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+19	et	et	CCONJ	_	CCONJ___	20	cc	_	_
+20	demeure	demeure	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	conj	_	_
+21	inférieur	inférieur	ADJ	_	ADJ__Gender=Masc|Number=Sing	24	amod	_	_
+22	ou	ou	CCONJ	_	CCONJ___	24	cc	_	_
+23	égal	égal	ADJ	_	ADJ__Gender=Masc|Number=Sing	24	conj	_	_
+24	à	à	ADP	_	ADP___	13	case	_	_
+25	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+26	plafond	plafond	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	obl	_	_
+27	par	par	ADP	_	ADP___	24	case	_	_
+28	mètre	mètre	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	nmod	_	_
+29	carré	carré	ADJ	_	ADJ__Gender=Fem|Number=Sing	29	amod	_	_
+30	de	de	ADP	_	ADP___	29	case	_	_
+31	surface	surface	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	nmod	_	_
+32	habitable	habitable	ADJ	_	ADJ__Number=Sing	29	amod	_	_
+33	de	de	ADP	_	ADP___	37	case	_	_
+34	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+35	chose	chose	NOUN	_	NOUN__Gender=Fem|Number=Sing	36	nmod	_	_
+36	louée	louer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	37	amod	_	_
+37	fixé	fixer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	37	acl	_	_
+38	par	par	ADP	_	ADP___	39	case	_	_
+39	voie	voie	NOUN	_	NOUN__Gender=Fem|Number=Sing	37	obl	_	_
+40	réglementaire	réglementaire	ADJ	_	ADJ__Number=Sing	42	amod	_	_
+41	et	et	CCONJ	_	CCONJ___	42	cc	_	_
+42	révisable	révisable	ADJ	_	ADJ__Number=Sing	39	conj	_	_
+43	chaque	chaque	DET	_	DET__Number=Sing	45	det	_	_
+44	année	année	NOUN	_	NOUN__Gender=Fem|Number=Sing	45	obl	_	_
+45	,	,	PUNCT	_	PUNCT___	42	punct	_	_
+46	dans	dan	ADP	_	ADP___	53	case	_	_
+47	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	48	det	_	_
+48	conditions	condition	NOUN	_	NOUN__Gender=Fem|Number=Plur	53	obl	_	_
+49	définies	définir	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	53	acl	_	_
+50	par	par	ADP	_	ADP___	53	case	_	_
+51	décret	décret	NOUN	_	NOUN__Gender=Masc|Number=Sing	53	obl	_	_
+52	.	.	PUNCT	_	PUNCT___	53	punct	_	_
+
+
+#Ces honoraires sont dus à compter de la réalisation de la prestation.
+1	Ces	ce	DET	_	DET__Number=Plur|PronType=Dem	1	det	_	_
+2	honoraires	honoraire	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	nsubj	_	_
+3	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	dus	devoir	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+5	à	à	ADP	_	ADP___	6	mark	_	_
+6	compter	compter	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+7	de	de	ADP	_	ADP___	8	case	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+9	réalisation	réalisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obl	_	_
+10	de	de	ADP	_	ADP___	13	case	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	prestation	prestation	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+13	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Les trois premiers alinéas du présent I ainsi que les montants des plafonds qui y sont définis sont reproduits, à peine de nullité, dans le contrat de bail lorsque celui-ci est conclu avec le concours d'une personne mandatée et rémunérée à cette fin.
+1	Les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+2	trois	trois	NUM	_	NUM__NumType=Card	1	nummod	_	_
+3	premiers	premier	ADJ	_	ADJ__Gender=Masc|Number=Plur|NumType=Ord	4	amod	_	_
+4	alinéas	alinéer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	du	du	DET	_	DET__Gender=Masc|Number=Sing	6	det	_	_
+6	présent	présent	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	amod	_	_
+7	I	ie	ADJ	_	ADJ___	8	obj	_	_
+8	ainsi	ainsi	ADV	_	ADV___	4	cc	_	_
+9	que	que	SCONJ	_	SCONJ___	4	fixed	_	_
+10	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	13	det	_	_
+11	montants	montant	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	conj	_	_
+12	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
+13	plafonds	plafond	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	obj	_	_
+14	qui	qui	PRON	_	PRON__PronType=Rel	15	nsubj	_	_
+15	y	yu	PRON	_	PRON__Person=3	13	iobj	_	_
+16	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	définis	définir	AUX	_	AUX__Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	advmod	_	_
+18	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+19	reproduits	reproduire	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	20	acl:relcl	_	_
+20	,	,	PUNCT	_	PUNCT___	18	punct	_	_
+21	à	à	ADP	_	ADP___	24	case	_	_
+22	peine	peiner	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	obl	_	_
+23	de	de	ADP	_	ADP___	24	case	_	_
+24	nullité	nullité	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nmod	_	_
+25	,	,	PUNCT	_	PUNCT___	24	punct	_	_
+26	dans	dan	ADP	_	ADP___	24	case	_	_
+27	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+28	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	obl	_	_
+29	de	de	ADP	_	ADP___	29	case	_	_
+30	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	nmod	_	_
+31	lorsque	lorsque	SCONJ	_	SCONJ___	29	mark	_	_
+32	celui-ci	celui-ci	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Dem	29	nsubj:pass	_	_
+33	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	aux:pass	_	_
+34	conclu	conclure	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	37	acl	_	_
+35	avec	avec	ADP	_	ADP___	36	case	_	_
+36	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	concours	concours	NOUN	_	NOUN__Gender=Masc|Number=Sing	37	obl	_	_
+38	d'	de	ADP	_	ADP___	39	case	_	_
+39	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+40	personne	personne	NOUN	_	NOUN__Gender=Fem|Number=Sing	42	nmod	_	_
+41	mandatée	mandater	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	42	amod	_	_
+42	et	et	CCONJ	_	CCONJ___	39	cc	_	_
+43	rémunérée	rémunérer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	45	conj	_	_
+44	à	à	ADP	_	ADP___	45	case	_	_
+45	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	42	det	_	_
+46	fin	fin	NOUN	_	NOUN__Gender=Fem|Number=Sing	53	obl	_	_
+47	.	.	PUNCT	_	PUNCT___	48	punct	_	_
+
+

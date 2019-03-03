@@ -1,0 +1,90 @@
+#Bonjour,
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Si la vente a été signée le 30 mars, le vendeur n'est plus propriétaire au 1er avril.
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+3	vente	vente	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nsubj:pass	_	_
+4	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	8	aux:pass	_	_
+6	signée	signer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	advcl	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	30	30	NUM	_	NUM__NumType=Card	18	nummod	_	_
+9	mars	mars	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obl	_	_
+10	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+12	vendeur	vendeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nsubj	_	_
+13	n'	ne	ADV	_	ADV__Polarity=Neg	14	advmod	_	_
+14	est	être	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+15	plus	plus	ADV	_	ADV__Polarity=Neg	18	advmod	_	_
+16	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	0	ROOT	_	_
+17	au	au	PRON	_	PRON__PronType=Rel	18	det	_	_
+18	1er	1er	ADJ	_	ADJ__NumType=Ord	18	amod	_	_
+19	avril	avril	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obj	_	_
+20	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#C'est la date de l'acte qui compte, pas la notification au syndic.
+1	C'	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+4	date	date	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+5	de	de	ADP	_	ADP___	8	case	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+7	acte	acte	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+8	qui	qui	PRON	_	PRON__PronType=Rel	18	nsubj	_	_
+9	compte	compte	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	acl:relcl	_	_
+10	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+11	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+13	notification	notification	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obj	_	_
+14	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	18	obj	_	_
+15	syndic	syndic	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	amod	_	_
+16	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Le vendeur est redevable de l'appel de charges des trimestres antérieurs à la vente, mais c'est l'acquéreur qui doit s'acquitter de l'appel de fonds exigible au 1er avril (après la vente).
+1	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	vendeur	vendeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+4	redevable	redevable	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+5	de	de	ADP	_	ADP___	8	case	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+7	appel	appel	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+8	de	de	ADP	_	ADP___	18	case	_	_
+9	charges	charge	NOUN	_	NOUN__Gender=Fem|Number=Plur	11	nmod	_	_
+10	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
+11	trimestres	trimestre	NOUN	_	NOUN__Gender=Fem|Number=Plur	8	obj	_	_
+12	antérieurs	antérieur	NOUN	_	NOUN__Gender=Masc|Number=Plur	18	amod	_	_
+13	à	à	ADP	_	ADP___	14	case	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+15	vente	vente	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	nmod	_	_
+16	,	,	PUNCT	_	PUNCT___	18	punct	_	_
+17	mais	mais	CCONJ	_	CCONJ___	18	cc	_	_
+18	c'	ce	PRON	_	PRON__Number=Sing|Person=3	18	nsubj	_	_
+19	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+20	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	acquéreur	acquéreur	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	conj	_	_
+22	qui	qui	PRON	_	PRON__PronType=Rel	18	nsubj	_	_
+23	doit	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+24	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	26	expl	_	_
+25	acquitter	acquitter	VERB	_	VERB__VerbForm=Inf	26	acl:relcl	_	_
+26	de	de	ADP	_	ADP___	26	case	_	_
+27	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	29	det	_	_
+28	appel	appel	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	obl	_	_
+29	de	de	ADP	_	ADP___	26	case	_	_
+30	fonds	fonds	NOUN	_	NOUN__Gender=Masc|Number=Plur	31	nmod	_	_
+31	exigible	exigible	ADJ	_	ADJ__Number=Sing	29	amod	_	_
+32	au	au	PRON	_	PRON__PronType=Rel	26	det	_	_
+33	1er	1er	ADJ	_	ADJ__NumType=Ord	26	amod	_	_
+34	avril	avril	NOUN	_	NOUN__Gender=Masc|Number=Sing	35	obj	_	_
+35	(	(	PUNCT	_	PUNCT___	26	punct	_	_
+36	après	après	ADP	_	ADP___	37	case	_	_
+37	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+38	vente	vente	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	obl	_	_
+39	)	)	PUNCT	_	PUNCT___	40	punct	_	_
+40	.	.	PUNCT	_	PUNCT___	42	punct	_	_
+
+

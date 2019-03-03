@@ -1,0 +1,75 @@
+#Bonjour, licencié pour inaptitude mon employeur
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	licencié	licencier	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+4	pour	pour	ADP	_	ADP___	5	case	_	_
+5	inaptitude	inaptitude	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obl	_	_
+6	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	7	nmod:poss	_	_
+7	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obl	_	_
+
+
+#ma envoyé mon solde de tout compte.
+1	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	envoyé	envoyer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+3	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+4	solde	solde	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+5	de	de	ADP	_	ADP___	3	case	_	_
+6	tout	tout	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	amod	_	_
+7	compte	compte	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nmod	_	_
+8	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#J'ai 38 ans d'ancienneté et licencié le 30/03/2018.
+1	J'	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ai	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	38	38	NUM	_	NUM__NumType=Card	1	nummod	_	_
+4	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	obj	_	_
+5	d'	de	ADP	_	ADP___	3	case	_	_
+6	ancienneté	ancienneté	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+7	et	et	CCONJ	_	CCONJ___	3	cc	_	_
+8	licencié	licencier	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	conj	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+10	30/03/2018	30/03/2018	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+11	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Sur mon solde de tous compte, je ne vois pas l'indemnité de préavis.
+1	Sur	Sur	ADP	_	ADP___	1	case	_	_
+2	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+3	solde	solde	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+4	de	de	ADP	_	ADP___	5	case	_	_
+5	tous	tou	ADJ	_	ADJ__Gender=Masc|Number=Plur	3	amod	_	_
+6	compte	compte	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+7	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+8	je	il	PRON	_	PRON__Number=Sing|Person=1	9	nsubj	_	_
+9	ne	ne	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+10	vois	voir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	pas	pas	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+12	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+13	indemnité	indemnité	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+14	de	de	ADP	_	ADP___	11	case	_	_
+15	préavis	préavis	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	nmod	_	_
+16	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Est ce normal et peut il être englobé dans l'indemnité de licenciement.
+1	Est	être	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+2	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	1	det	_	_
+3	normal	normal	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+4	et	et	CCONJ	_	CCONJ___	5	cc	_	_
+5	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+6	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+7	être	être	AUX	_	AUX__VerbForm=Inf	0	ROOT	_	_
+8	englobé	englober	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	advmod	_	_
+9	dans	dan	ADP	_	ADP___	9	case	_	_
+10	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	indemnité	indemnité	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obl	_	_
+12	de	de	ADP	_	ADP___	14	case	_	_
+13	licenciement	licenciement	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nmod	_	_
+14	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Merci
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+
+

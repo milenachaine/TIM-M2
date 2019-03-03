@@ -1,0 +1,167 @@
+#Bonjour.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#J'achète un appartement qui est un ancien grenier transformé en logement.
+1	J'	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	achète	acheter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obj	_	_
+5	qui	qui	PRON	_	PRON__PronType=Rel	6	nsubj	_	_
+6	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+8	ancien	ancien	ADJ	_	ADJ__Gender=Masc|Number=Sing	12	amod	_	_
+9	grenier	grenier	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	amod	_	_
+10	transformé	transformer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+11	en	en	ADP	_	ADP___	12	case	_	_
+12	logement	logement	ADV	_	ADV___	6	nmod	_	_
+13	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Il y a bien eu un permis de construction et tout à l'air en règle, mais dans le compromis de vente le bien est décrit comme "un étage sous les combles".
+1	Il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	y	yu	PRON	_	PRON__Person=3	1	iobj	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	bien	bien	ADV	_	ADV___	4	advmod	_	_
+5	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+7	permis	permis	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+8	de	de	ADP	_	ADP___	12	case	_	_
+9	construction	construction	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+10	et	et	CCONJ	_	CCONJ___	11	cc	_	_
+11	tout	tout	ADV	_	ADV___	12	advmod	_	_
+12	à	à	ADP	_	ADP___	6	fixed	_	_
+13	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	air	air	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	conj	_	_
+15	en	en	ADP	_	ADP___	4	case	_	_
+16	règle	règle	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obl	_	_
+17	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+18	mais	mais	CCONJ	_	CCONJ___	20	cc	_	_
+19	dans	dan	ADP	_	ADP___	20	case	_	_
+20	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+21	compromis	compromis	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	nsubj:pass	_	_
+22	de	de	ADP	_	ADP___	20	case	_	_
+23	vente	vente	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	nmod	_	_
+24	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+25	bien	bien	ADV	_	ADV___	29	nmod	_	_
+26	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux:pass	_	_
+27	décrit	décrire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	26	advcl	_	_
+28	comme	comme	ADP	_	ADP___	29	case	_	_
+29	"	"	PUNCT	_	PUNCT___	24	punct	_	_
+30	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	étage	étage	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obl	_	_
+32	sous	sou	ADP	_	ADP___	20	case	_	_
+33	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	36	det	_	_
+34	combles	comble	NOUN	_	NOUN__Gender=Fem|Number=Plur	36	nmod	_	_
+35	"	"	PUNCT	_	PUNCT___	36	punct	_	_
+36	.	.	PUNCT	_	PUNCT___	42	punct	_	_
+
+
+#Quand j'ai demandé au notaire s'il était possible de changer cette description en tenant compte de la situation actuelle, il m'a répondu qu'il était obligé de reprendre la formulation dans l'acte de propriété du vendeur.
+1	Quand	Quand	SCONJ	_	SCONJ___	1	mark	_	_
+2	j'	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+3	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	demandé	demander	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
+5	au	au	AUX	_	AUX__Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	det	_	_
+6	notaire	notaire	VERB	_	VERB__VerbForm=Inf	4	obj	_	_
+7	s'	si	SCONJ	_	SCONJ___	12	mark	_	_
+8	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
+9	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	cop	_	_
+10	possible	possible	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+11	de	de	ADP	_	ADP___	12	mark	_	_
+12	changer	changer	VERB	_	VERB__VerbForm=Inf	6	xcomp	_	_
+13	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	14	det	_	_
+14	description	description	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obj	_	_
+15	en	en	ADP	_	ADP___	4	case	_	_
+16	tenant	tenir	VERB	_	VERB__Tense=Pres|VerbForm=Part	20	amod	_	_
+17	compte	compte	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	nmod	_	_
+18	de	de	ADP	_	ADP___	20	case	_	_
+19	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	nmod	_	_
+21	actuelle	actuel	ADJ	_	ADJ__Gender=Fem|Number=Sing	22	amod	_	_
+22	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+23	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	24	nsubj	_	_
+24	m'	se	PRON	_	PRON__Number=Sing|Person=1	22	expl	_	_
+25	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+26	répondu	répondre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	parataxis	_	_
+27	qu'	que	SCONJ	_	SCONJ___	26	mark	_	_
+28	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	29	nsubj	_	_
+29	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	aux:pass	_	_
+30	obligé	obliger	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	31	ccomp	_	_
+31	de	de	ADP	_	ADP___	20	mark	_	_
+32	reprendre	reprendre	VERB	_	VERB__VerbForm=Inf	20	xcomp	_	_
+33	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+34	formulation	formulation	NOUN	_	NOUN__Gender=Fem|Number=Sing	36	obj	_	_
+35	dans	dan	ADP	_	ADP___	36	case	_	_
+36	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	42	det	_	_
+37	acte	acte	NOUN	_	NOUN__Gender=Masc|Number=Sing	38	obl	_	_
+38	de	de	ADP	_	ADP___	36	case	_	_
+39	propriété	propriété	NOUN	_	NOUN__Gender=Masc|Number=Sing	40	nmod	_	_
+40	du	du	DET	_	DET__Gender=Masc|Number=Sing	38	det	_	_
+41	vendeur	vendeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	42	nmod	_	_
+42	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Je m'étonne que ce n'est pas possible d'adapter la description à la situation réelle.
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	1	iobj	_	_
+3	étonne	étonner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	que	que	SCONJ	_	SCONJ___	4	mark	_	_
+5	ce	ce	PRON	_	PRON__Number=Sing|Person=3	6	nsubj	_	_
+6	n'	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+7	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+8	pas	pas	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+9	possible	possible	ADJ	_	ADJ__Number=Sing	11	ccomp	_	_
+10	d'	de	ADP	_	ADP___	11	mark	_	_
+11	adapter	adapter	VERB	_	VERB__VerbForm=Inf	12	xcomp	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+13	description	description	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obj	_	_
+14	à	à	ADP	_	ADP___	6	case	_	_
+15	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+16	situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	nmod	_	_
+17	réelle	réel	ADJ	_	ADJ__Gender=Fem|Number=Sing	20	amod	_	_
+18	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Est-ce que cela veut dire que le bien sera toujours décrit comme un étage sous les combles, même après avoir été transformé en appartement 4 pièces ?
+1	Est	être		_	VERB	1	nsubj	_	_
+2	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	1	amod	_	_
+3	que	que	SCONJ	_	SCONJ___	4	mark	_	_
+4	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	4	nsubj	_	_
+5	veut	vouloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	dire	dire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+7	que	que	SCONJ	_	SCONJ___	12	mark	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+9	bien	bien	ADV	_	ADV___	11	nsubj:pass	_	_
+10	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	aux:pass	_	_
+11	toujours	toujours	ADV	_	ADV___	12	advmod	_	_
+12	décrit	décrire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	ccomp	_	_
+13	comme	comme	ADP	_	ADP___	14	case	_	_
+14	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+15	étage	étage	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+16	sous	sou	ADP	_	ADP___	20	case	_	_
+17	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	20	det	_	_
+18	combles	comble	NOUN	_	NOUN__Gender=Fem|Number=Plur	20	nmod	_	_
+19	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+20	même	même	ADV	_	ADV___	20	mark	_	_
+21	après	après	ADP	_	ADP___	22	fixed	_	_
+22	avoir	avoir	AUX	_	AUX__VerbForm=Inf	20	aux	_	_
+23	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	24	aux:pass	_	_
+24	transformé	transformer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	22	advcl	_	_
+25	en	en	ADP	_	ADP___	29	case	_	_
+26	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	cop	_	_
+27	4	4	NUM	_	NUM__NumType=Card	26	nummod	_	_
+28	pièces	pièce	NOUN	_	NOUN__Gender=Fem|Number=Plur	29	obl	_	_
+29	?	?	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#Merci d'avance pour vos conseils
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	d'	de	ADP	_	ADP___	1	case	_	_
+3	avance	avance	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+4	pour	pour	ADP	_	ADP___	4	case	_	_
+5	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	6	nmod:poss	_	_
+6	conseils	conseil	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	nmod	_	_
+
+

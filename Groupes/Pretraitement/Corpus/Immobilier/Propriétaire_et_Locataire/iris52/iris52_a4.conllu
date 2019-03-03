@@ -1,0 +1,61 @@
+#Bonjour, Un congé pour vente est-il un "besoin pressant et imprévu" ?
+1	Bonjour	Bonjour	PROPN	_	PROPN___	4	case	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	Un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	congé	congé	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	pour	pour	ADP	_	ADP___	6	case	_	_
+6	vente	vente	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+7	est-il	est-il	ADP	_	ADP___	6	amod	_	_
+8	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	"	"	PUNCT	_	PUNCT___	10	punct	_	_
+10	besoin	besoin	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+11	pressant	presser	VERB	_	VERB__Tense=Pres|VerbForm=Part	10	amod	_	_
+12	et	et	CCONJ	_	CCONJ___	13	cc	_	_
+13	imprévu	imprévu	VERB	_	VERB__VerbForm=Inf	11	conj	_	_
+14	"	"	PUNCT	_	PUNCT___	4	punct	_	_
+15	?	?	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Quelques infos ici dont vous pourrez vous inspirer : https://www.service-public.fr/partic...vosdroits/F929 (mais si je relis bien, votre location n'est pas soumise à la loi de 89, donc vous n'êtes pas tenu à tout le formalisme)
+1	Quelques	quelque	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
+2	infos	info	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+3	ici	ici	ADV	_	ADV___	4	advmod	_	_
+4	dont	dont	PRON	_	PRON__PronType=Rel	4	iobj	_	_
+5	vous	vous	PRON	_	PRON__Number=Plur|Person=2	6	nsubj	_	_
+6	pourrez	pouvoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	vous	vous	PRON	_	PRON__Number=Plur|Person=2	6	mark	_	_
+8	inspirer	inspirer	VERB	_	VERB__VerbForm=Inf	10	xcomp	_	_
+9	:	:	PUNCT	_	PUNCT___	10	punct	_	_
+10	https://www.service-public.fr/partic...vosdroits/F929	https://www.service-public.fr/partic...vosdroits/f929	ADV	_	ADV___	6	obj	_	_
+11	(	(	PUNCT	_	PUNCT___	10	punct	_	_
+12	mais	mais	CCONJ	_	CCONJ___	13	cc	_	_
+13	si	si	SCONJ	_	SCONJ___	11	mark	_	_
+14	je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+15	relis	relire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	_
+16	bien	bien	ADV	_	ADV___	17	advmod	_	_
+17	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+18	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	17	nmod:poss	_	_
+19	location	location	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	nsubj	_	_
+20	n'	ne	ADV	_	ADV__Polarity=Neg	21	advmod	_	_
+21	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+22	pas	pas	ADV	_	ADV__Polarity=Neg	23	advmod	_	_
+23	soumise	soumis	ADJ	_	ADJ__Gender=Fem|Number=Sing	21	conj	_	_
+24	à	à	ADP	_	ADP___	21	case	_	_
+25	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+26	loi	loi	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	obl	_	_
+27	de	de	ADP	_	ADP___	30	case	_	_
+28	89	89	NUM	_	NUM__NumType=Card	30	nmod	_	_
+29	,	,	PUNCT	_	PUNCT___	30	punct	_	_
+30	donc	donc	ADV	_	ADV___	21	advmod	_	_
+31	vous	vous	PRON	_	PRON__Number=Plur|Person=2	30	nsubj	_	_
+32	n'	ne	ADV	_	ADV__Polarity=Neg	38	advmod	_	_
+33	êtes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	34	cop	_	_
+34	pas	pas	ADV	_	ADV__Polarity=Neg	38	advmod	_	_
+35	tenu	tenir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	38	acl:relcl	_	_
+36	à	à	ADP	_	ADP___	38	case	_	_
+37	tout	tout	ADV	_	ADV___	38	amod	_	_
+38	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+39	formalisme	formalisme	NOUN	_	NOUN__Gender=Masc|Number=Sing	41	obl	_	_
+40	)	)	PUNCT	_	PUNCT___	41	punct	_	_
+
+

@@ -1,0 +1,315 @@
+#Bonjour à tous.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	à	à	ADP	_	ADP___	3	case	_	_
+3	tous	tout	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Rel	1	obl	_	_
+4	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#En quelques mots succincts, voici mon cas : 1- je suis propriétaire bailleur d'un appartement meublé.
+1	En	En	ADP	_	ADP___	1	case	_	_
+2	quelques	quelque	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	3	det	_	_
+3	mots	mot	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	obl	_	_
+4	succincts	succinct	ADJ	_	ADJ___	1	amod	_	_
+5	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+6	voici	voici	ADP	_	ADP___	0	ROOT	_	_
+7	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+8	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+9	:	:	PUNCT	_	PUNCT___	10	punct	_	_
+10	1-	1-	NOUN	_	NOUN__NumType=Card	10	iobj	_	_
+11	je	il	PRON	_	PRON__Number=Sing|Person=1	12	nsubj	_	_
+12	suis	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	cop	_	_
+13	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	10	parataxis	_	_
+14	bailleur	bailleur	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+15	d'	de	ADP	_	ADP___	17	case	_	_
+16	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+18	meublé	meublé	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	amod	_	_
+19	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#2- à la suite d'un travail de plomberie effectué par elle-même, ma locataire a été victime d'un dégât des eaux qui a endommagé le parquet et les murs.
+1	2-	2-	NUM	_	NUM__NumType=Card	1	acl	_	_
+2	à	à	ADP	_	ADP___	3	case	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	fixed	_	_
+4	suite	suite	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	fixed	_	_
+5	d'	de	ADP	_	ADP___	7	fixed	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+8	de	de	ADP	_	ADP___	7	case	_	_
+9	plomberie	plomberie	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+10	effectué	effectuer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
+11	par	par	ADP	_	ADP___	12	case	_	_
+12	elle-même	lui-même	PRON	_	PRON__PronType=Rel	10	obl	_	_
+13	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+14	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	10	nmod:poss	_	_
+15	locataire	locataire	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	nsubj:pass	_	_
+16	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	10	aux:pass	_	_
+18	victime	victime	ADJ	_	ADJ__Gender=Fem|Number=Sing	0	ROOT	_	_
+19	d'	de	ADP	_	ADP___	21	case	_	_
+20	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	dégât	dégât	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obl	_	_
+22	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	21	det	_	_
+23	eaux	eau	NOUN	_	NOUN__Gender=Fem|Number=Plur	10	obj	_	_
+24	qui	qui	PRON	_	PRON__PronType=Rel	41	nsubj	_	_
+25	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+26	endommagé	endommager	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	acl:relcl	_	_
+27	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+28	parquet	parquet	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	obj	_	_
+29	et	et	CCONJ	_	CCONJ___	30	cc	_	_
+30	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	24	det	_	_
+31	murs	mur	NOUN	_	NOUN__Gender=Masc|Number=Plur	32	conj	_	_
+32	.	.	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#Ma locataire a depuis quitté l'appartement, mais elle avait déclaré le dégât des eaux à son assurance.
+1	Ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	locataire	locataire	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+4	depuis	depuis	ADP	_	ADP___	1	mark	_	_
+5	quitté	quitter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+8	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+9	mais	mais	CCONJ	_	CCONJ___	10	cc	_	_
+10	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	10	nsubj	_	_
+11	avait	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+12	déclaré	déclarer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	conj	_	_
+13	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+14	dégât	déger	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	nsubj	_	_
+15	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	17	det	_	_
+16	eaux	eau	NOUN	_	NOUN__Gender=Fem|Number=Plur	17	obj	_	_
+17	à	à	ADP	_	ADP___	10	case	_	_
+18	son	son	DET	_	DET__Number=Sing|Poss=Yes	17	nmod:poss	_	_
+19	assurance	assurance	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	nmod	_	_
+20	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#3- l'assurance de ma locataire a déclaré que cela relevait de mon assurance, en tant que propriétaire bailleur en meublé, et de celle de la copropriété car ce sont des dégâts sur des parties couvertes par l'assurance de la copro.
+1	3-	3-	NUM	_	NUM__NumType=Card	1	amod	_	_
+2	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	assurance	assurance	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+4	de	de	ADP	_	ADP___	1	case	_	_
+5	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	7	nmod:poss	_	_
+6	locataire	locataire	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+7	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+8	déclaré	déclarer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+9	que	que	SCONJ	_	SCONJ___	10	mark	_	_
+10	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	10	nsubj	_	_
+11	relevait	relever	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	ccomp	_	_
+12	de	de	ADP	_	ADP___	10	case	_	_
+13	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+14	assurance	assurance	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obl	_	_
+15	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+16	en	en	ADP	_	ADP___	17	case	_	_
+17	tant	tant	ADV	_	ADV___	10	fixed	_	_
+18	que	que	SCONJ	_	SCONJ___	17	fixed	_	_
+19	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	21	obl	_	_
+20	bailleur	bailleur	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	amod	_	_
+21	en	en	ADP	_	ADP___	17	case	_	_
+22	meublé	meublé	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	nmod	_	_
+23	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+24	et	et	CCONJ	_	CCONJ___	41	cc	_	_
+25	de	de	ADP	_	ADP___	30	case	_	_
+26	celle	celui	PRON	_	PRON__Gender=Fem|Number=Sing|PronType=Dem	25	conj	_	_
+27	de	de	ADP	_	ADP___	25	case	_	_
+28	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+29	copropriété	copropriété	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	nmod	_	_
+30	car	car	CCONJ	_	CCONJ___	24	cc	_	_
+31	ce	ce	PRON	_	PRON__Number=Sing|Person=3	32	nsubj	_	_
+32	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+33	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	32	det	_	_
+34	dégâts	dégât	NOUN	_	NOUN__Gender=Masc|Number=Plur	35	conj	_	_
+35	sur	sur	ADP	_	ADP___	33	case	_	_
+36	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	41	det	_	_
+37	parties	party	NOUN	_	NOUN__Gender=Fem|Number=Plur	38	nmod	_	_
+38	couvertes	couvrir	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	41	amod	_	_
+39	par	par	ADP	_	ADP___	41	case	_	_
+40	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	41	det	_	_
+41	assurance	assurance	NOUN	_	NOUN__Gender=Fem|Number=Sing	41	nmod	_	_
+42	de	de	ADP	_	ADP___	44	case	_	_
+43	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+44	copro	copro	NOUN	_	NOUN__Gender=Fem|Number=Sing	41	nmod	_	_
+45	.	.	PUNCT	_	PUNCT___	46	punct	_	_
+
+
+#Convention CIDRE.
+1	Convention	convention	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	CIDRE	cidr	ADJ	_	ADJ___	3	amod	_	_
+3	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#4- mon assurance, après passage d'expert, a déclaré qu'elle ne couvrait rien, et que tout était couvert par l'assurance de la copropriété.
+1	4-	4-	NUM	_	NUM__NumType=Card	1	acl	_	_
+2	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	3	nmod:poss	_	_
+3	assurance	assurance	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+4	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+5	après	après	ADP	_	ADP___	7	case	_	_
+6	passage	passage	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+7	d'	de	ADP	_	ADP___	10	case	_	_
+8	expert	expert	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+9	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+10	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+11	déclaré	déclarer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+12	qu'	que	SCONJ	_	SCONJ___	10	mark	_	_
+13	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	10	nsubj	_	_
+14	ne	ne	ADV	_	ADV___	10	advmod	_	_
+15	couvrait	couvrir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	ccomp	_	_
+16	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	17	obj	_	_
+17	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+18	et	et	CCONJ	_	CCONJ___	17	cc	_	_
+19	que	que	SCONJ	_	SCONJ___	21	mark	_	_
+20	tout	tout	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	21	nsubj	_	_
+21	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	aux	_	_
+22	couvert	couvert	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	conj	_	_
+23	par	par	ADP	_	ADP___	10	case	_	_
+24	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	41	det	_	_
+25	assurance	assurance	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	obl	_	_
+26	de	de	ADP	_	ADP___	25	case	_	_
+27	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+28	copropriété	copropriété	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	nmod	_	_
+29	.	.	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#5- j'ai dépensé 2000 de travaux de réparation, après passage des experts.
+1	5-	5-	NUM	_	NUM__NumType=Card	1	mark	_	_
+2	j'	il	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+3	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
+4	dépensé	dépenser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	2000	2000	NOUN	_	NOUN__Gender=Masc	7	obj	_	_
+6	de	de	ADP	_	ADP___	7	case	_	_
+7	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	nmod	_	_
+8	de	de	ADP	_	ADP___	7	case	_	_
+9	réparation	réparation	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+10	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+11	après	après	ADP	_	ADP___	12	case	_	_
+12	passage	passage	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obl	_	_
+13	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
+14	experts	expert	NOUN	_	NOUN__Number=Plur	10	nmod	_	_
+15	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#6- l'assurance de la copropriété a déclaré qu'elle couvrait 2010 de réparation 7- cependant, l'assurance de la copro retire une franchise de 2000 euros, et verse donc au syndic, pour moi, 10 euros.
+1	6-	6-	VERB	_	VERB__Tense=Pres|VerbForm=Part	1	vocative	_	_
+2	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	assurance	assurance	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+4	de	de	ADP	_	ADP___	1	case	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	copropriété	copropriété	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+7	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+8	déclaré	déclarer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+9	qu'	que	SCONJ	_	SCONJ___	10	mark	_	_
+10	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	10	nsubj	_	_
+11	couvrait	couvrir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	ccomp	_	_
+12	2010	2010	NUM	_	NUM__NumType=Card	10	iobj	_	_
+13	de	de	ADP	_	ADP___	10	case	_	_
+14	réparation	réparation	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obl	_	_
+15	7-	7-	NUM	_	NUM__NumType=Card	17	nummod	_	_
+16	cependant	cependant	ADV	_	ADV___	17	advmod	_	_
+17	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+18	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+19	assurance	assurance	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	nsubj	_	_
+20	de	de	ADP	_	ADP___	21	case	_	_
+21	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+22	copro	copro	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	nmod	_	_
+23	retire	retirer	VERB	_	VERB__VerbForm=Inf	10	amod	_	_
+24	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+25	franchise	franchise	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	amod	_	_
+26	de	de	ADP	_	ADP___	25	case	_	_
+27	2000	2000	NUM	_	NUM__NumType=Card	25	nummod	_	_
+28	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	25	nmod	_	_
+29	,	,	PUNCT	_	PUNCT___	30	punct	_	_
+30	et	et	CCONJ	_	CCONJ___	24	cc	_	_
+31	verse	verser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	conj	_	_
+32	donc	donc	ADV	_	ADV___	30	advmod	_	_
+33	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	32	obj	_	_
+34	syndic	syndic	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	ccomp	_	_
+35	,	,	PUNCT	_	PUNCT___	33	punct	_	_
+36	pour	pour	ADP	_	ADP___	41	case	_	_
+37	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	38	obl	_	_
+38	,	,	PUNCT	_	PUNCT___	41	punct	_	_
+39	10	10	NUM	_	NUM__NumType=Card	41	nummod	_	_
+40	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	41	conj	_	_
+41	.	.	PUNCT	_	PUNCT___	41	punct	_	_
+
+
+#Ma question : puis-je contester et exiger remboursement intégral, ou du moins une franchise réduite car ma franchise d'assurance à moi n'est que de 150?
+1	Ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+4	puis-je	puis-je	AUX	_	AUX__Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	nsubj	_	_
+5	contester	contester	VERB	_	VERB__VerbForm=Inf	7	acl	_	_
+6	et	et	CCONJ	_	CCONJ___	7	cc	_	_
+7	exiger	exiger	VERB	_	VERB__VerbForm=Inf	10	conj	_	_
+8	remboursement	remboursement	ADV	_	ADV___	7	obj	_	_
+9	intégral	intégral	ADJ	_	ADJ__Gender=Masc|Number=Sing	10	amod	_	_
+10	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+11	ou	ou	CCONJ	_	CCONJ___	12	cc	_	_
+12	du	du	DET	_	DET__Gender=Masc|Number=Sing	10	advmod	_	_
+13	moins	moins	ADV	_	ADV___	10	fixed	_	_
+14	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+15	franchise	franchise	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	obj	_	_
+16	réduite	réduit	ADJ	_	ADJ__Gender=Fem|Number=Sing	17	acl	_	_
+17	car	car	CCONJ	_	CCONJ___	10	cc	_	_
+18	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	17	nmod:poss	_	_
+19	franchise	franchise	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	conj	_	_
+20	d'	de	ADP	_	ADP___	21	case	_	_
+21	assurance	assurance	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	nmod	_	_
+22	à	à	ADP	_	ADP___	21	case	_	_
+23	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	10	obl	_	_
+24	n'	ne	ADV	_	ADV__Polarity=Neg	41	advmod	_	_
+25	est	être	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux:pass	_	_
+26	que	que	SCONJ	_	SCONJ___	25	advmod	_	_
+27	de	de	ADP	_	ADP___	25	case	_	_
+28	150	150	PRON	_	PRON__NumType=Card|PronType=Rel	25	conj	_	_
+29	?	?	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#Si oui, de qui?
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	oui	oui	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	de	de	ADP	_	ADP___	1	case	_	_
+5	qui	qui	PRON	_	PRON__PronType=Rel	7	conj	_	_
+6	?	?	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Du syndic?
+1	Du	du	DET	_	DET__Gender=Masc|Number=Sing	1	det	_	_
+2	syndic	syndic	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#De mon assurance?
+1	De	De	ADP	_	ADP___	1	case	_	_
+2	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	3	nmod:poss	_	_
+3	assurance	assurance	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#De l'assurance de la copro ?
+1	De	De	ADP	_	ADP___	1	case	_	_
+2	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	assurance	assurance	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	de	de	ADP	_	ADP___	1	case	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	copro	copro	NOUN	_	NOUN__Gender=Fem	7	nmod	_	_
+7	?	?	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#En vertu de quels textes?
+1	En	En	ADP	_	ADP___	1	case	_	_
+2	vertu	vertu	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	fixed	_	_
+3	de	de	ADP	_	ADP___	1	fixed	_	_
+4	quels	quel	ADJ	_	ADJ__Gender=Masc|Number=Plur	1	det	_	_
+5	textes	texte	NOUN	_	NOUN__Number=Plur	0	ROOT	_	_
+6	?	?	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Merci d'avance.
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	d'	de	ADP	_	ADP___	3	case	_	_
+3	avance	avance	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+4	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+

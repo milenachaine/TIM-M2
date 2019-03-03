@@ -1,0 +1,610 @@
+#Bonjour, merci de vos réponses!
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+4	de	de	ADP	_	ADP___	6	case	_	_
+5	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	6	nmod:poss	_	_
+6	réponses	réponse	NOUN	_	NOUN__Gender=Fem|Number=Plur	3	nmod	_	_
+7	!	!	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#L'expertise aura lieu le 12.
+1	L'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+2	expertise	expertise	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+3	aura	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+4	lieu	lieu	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	12	12	NUM	_	NUM__NumType=Card	3	obj	_	_
+7	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#juillet.
+1	juillet	juillet	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Donc si j'ai bien compris l'avocat ne devrait pas facturer des honoraires supplémentaire pour cette journée, uniquemment les frais liés au déplacement (essence, kilométrage, péage, etc.)?
+1	Donc	donc	ADV	_	ADV___	1	advmod	_	_
+2	si	si	SCONJ	_	SCONJ___	1	mark	_	_
+3	j'	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+4	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	bien	bien	ADV	_	ADV___	6	advmod	_	_
+6	compris	compris	ADJ	_	ADJ__Gender=Masc	3	fixed	_	_
+7	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+8	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nsubj	_	_
+9	ne	ne	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+10	devrait	devoir	VERB	_	VERB__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+11	pas	pas	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+12	facturer	facturer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+13	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
+14	honoraires	honoraire	NOUN	_	NOUN__Gender=Fem|Number=Plur	10	obj	_	_
+15	supplémentaire	supplémentaire	ADJ	_	ADJ__Number=Sing	15	amod	_	_
+16	pour	pour	ADP	_	ADP___	15	case	_	_
+17	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	28	det	_	_
+18	journée	journée	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obl	_	_
+19	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+20	uniquemment	uniquemmer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	22	appos	_	_
+21	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	22	det	_	_
+22	frais	frais	NOUN	_	NOUN__Gender=Masc|Number=Plur	17	appos	_	_
+23	liés	lier	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	24	acl	_	_
+24	au	au	PRON	_	PRON__Number=Sing|Person=3	28	case	_	_
+25	déplacement	déplacemer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	nmod	_	_
+26	(	(	PUNCT	_	PUNCT___	28	punct	_	_
+27	essence	essence	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	appos	_	_
+28	,	,	PUNCT	_	PUNCT___	28	punct	_	_
+29	kilométrage	kilométrage	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	appos	_	_
+30	,	,	PUNCT	_	PUNCT___	28	punct	_	_
+31	péage	péage	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	conj	_	_
+32	,	,	PUNCT	_	PUNCT___	34	punct	_	_
+33	etc.	etc.	ADV	_	ADV___	34	conj	_	_
+34	)	)	PUNCT	_	PUNCT___	28	punct	_	_
+35	?	?	PUNCT	_	PUNCT___	34	punct	_	_
+
+
+#Parce que d'après ses calculs, les heures de route sont comptées comme des heures de travail, ce qui me semble pas logique étant donné que c'est normalement déjà pris en compte dans la convention.
+1	Parce	Parce	SCONJ	_	SCONJ___	1	mark	_	_
+2	que	que	SCONJ	_	SCONJ___	1	fixed	_	_
+3	d'	de	ADP	_	ADP___	1	case	_	_
+4	après	après	ADP	_	ADP___	6	case	_	_
+5	ses	son	DET	_	DET__Number=Plur|Poss=Yes	6	nmod:poss	_	_
+6	calculs	calcul	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	obl	_	_
+7	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+8	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+9	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	10	nsubj:pass	_	_
+10	de	de	ADP	_	ADP___	10	case	_	_
+11	route	router	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+12	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+13	comptées	compter	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+14	comme	comme	ADP	_	ADP___	10	case	_	_
+15	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	15	det	_	_
+16	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	15	obl	_	_
+17	de	de	ADP	_	ADP___	28	case	_	_
+18	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	nmod	_	_
+19	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+20	ce	ce	PRON	_	PRON__PronType=Rel	22	appos	_	_
+21	qui	qui	PRON	_	PRON__PronType=Rel	22	nsubj	_	_
+22	me	se	PRON	_	PRON__Number=Sing|Person=1	17	iobj	_	_
+23	semble	sembler	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+24	pas	pas	ADV	_	ADV__Polarity=Neg	28	advmod	_	_
+25	logique	logique	ADJ	_	ADJ__Number=Sing	28	acl:relcl	_	_
+26	étant	être	AUX	_	AUX__Tense=Pres|VerbForm=Part	28	mark	_	_
+27	donné	donner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	fixed	_	_
+28	que	que	SCONJ	_	SCONJ___	28	fixed	_	_
+29	c'	ce	PRON	_	PRON__Number=Sing|Person=3	30	nsubj	_	_
+30	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux:pass	_	_
+31	normalement	normalement	ADV	_	ADV___	30	advmod	_	_
+32	déjà	déjà	ADV	_	ADV___	34	advmod	_	_
+33	pris	prendre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	34	advcl	_	_
+34	en	en	ADP	_	ADP___	28	case	_	_
+35	compte	compte	NOUN	_	NOUN__Gender=Masc|Number=Sing	34	obl	_	_
+36	dans	dan	ADP	_	ADP___	34	case	_	_
+37	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	convention	convention	NOUN	_	NOUN__Gender=Fem|Number=Sing	34	obl	_	_
+39	.	.	PUNCT	_	PUNCT___	38	punct	_	_
+
+
+#J'ai vraiment eu l'impression que l'avocat a juste pas envie de se déplacer ce jour là, faire 8h de route pour à peine 2h de travail alors qu'il est même pas sûr de gagner...
+1	J'	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	vraiment	vraiment	ADV	_	ADV___	1	advmod	_	_
+4	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	impression	impression	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obj	_	_
+7	que	que	SCONJ	_	SCONJ___	1	obj	_	_
+8	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nsubj	_	_
+10	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+11	juste	juste	ADV	_	ADV___	10	advmod	_	_
+12	pas	pas	ADV	_	ADV__Polarity=Neg	13	advmod	_	_
+13	envie	envie	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	acl:relcl	_	_
+14	de	de	ADP	_	ADP___	10	mark	_	_
+15	se	se	PRON	_	PRON__Person=3|Reflex=Yes	15	iobj	_	_
+16	déplacer	déplacer	VERB	_	VERB__VerbForm=Inf	15	xcomp	_	_
+17	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	28	det	_	_
+18	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obl	_	_
+19	là	là	ADV	_	ADV___	20	nummod	_	_
+20	,	,	PUNCT	_	PUNCT___	22	punct	_	_
+21	faire	faire	VERB	_	VERB__VerbForm=Inf	22	conj	_	_
+22	8h	8h	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	advmod	_	_
+23	de	de	ADP	_	ADP___	24	case	_	_
+24	route	router	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	nmod	_	_
+25	pour	pour	ADP	_	ADP___	28	case	_	_
+26	à	à	ADP	_	ADP___	28	case	_	_
+27	peine	peiner	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	obl	_	_
+28	2h	2h	NUM	_	NUM__NumType=Card	28	nmod	_	_
+29	de	de	ADP	_	ADP___	30	case	_	_
+30	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	nmod	_	_
+31	alors	alors	ADV	_	ADV___	30	mark	_	_
+32	qu'	que	SCONJ	_	SCONJ___	34	fixed	_	_
+33	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	34	nsubj	_	_
+34	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	advmod	_	_
+35	même	même	ADV	_	ADV___	34	advmod	_	_
+36	pas	pas	ADV	_	ADV__Polarity=Neg	34	advmod	_	_
+37	sûr	sûr	ADJ	_	ADJ__Gender=Masc|Number=Sing	38	fixed	_	_
+38	de	de	ADP	_	ADP___	34	mark	_	_
+39	gagner	gagner	VERB	_	VERB__VerbForm=Inf	38	xcomp	_	_
+40	...	...	PUNCT	_	PUNCT___	41	punct	_	_
+
+
+#du coup il essaye de rendre les coûts élevés pour que ce soit impossible pour nous de payer.
+1	du	du	DET	_	DET__Gender=Masc|Number=Sing	1	det	_	_
+2	coup	coup	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+4	essaye	essayer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	nmod	_	_
+5	de	de	ADP	_	ADP___	6	mark	_	_
+6	rendre	rendre	VERB	_	VERB__VerbForm=Inf	3	xcomp	_	_
+7	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+8	coûts	coût	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	obj	_	_
+9	élevés	élevé	ADJ	_	ADJ__Gender=Masc|Number=Plur	10	amod	_	_
+10	pour	pour	ADP	_	ADP___	10	mark	_	_
+11	que	que	SCONJ	_	SCONJ___	10	fixed	_	_
+12	ce	ce	PRON	_	PRON__Number=Sing|Person=3	13	nsubj	_	_
+13	soit	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+14	impossible	impossible	ADJ	_	ADJ__Number=Sing	10	advcl	_	_
+15	pour	pour	ADP	_	ADP___	15	case	_	_
+16	nous	nous	PRON	_	PRON__Number=Plur|Person=1	15	obl	_	_
+17	de	de	ADP	_	ADP___	28	mark	_	_
+18	payer	payer	VERB	_	VERB__VerbForm=Inf	20	acl	_	_
+19	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Juridiquement parlant, comment je peux contester cela auprès de mon avocat ?
+1	Juridiquement	juridiquement	ADV	_	ADV___	1	advmod	_	_
+2	parlant	parler	VERB	_	VERB__Tense=Pres|VerbForm=Part	0	ROOT	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	comment	comment	ADV	_	ADV__PronType=Int	6	advmod	_	_
+5	je	il	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+6	peux	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+7	contester	contester	VERB	_	VERB__VerbForm=Inf	1	ccomp	_	_
+8	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	9	obj	_	_
+9	auprès	auprès	ADP	_	ADP___	10	case	_	_
+10	de	de	ADP	_	ADP___	10	fixed	_	_
+11	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+12	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+13	?	?	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Merci pour votre aide !
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	pour	pour	ADP	_	ADP___	1	case	_	_
+3	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+4	aide	aide	NOUN	_	NOUN__Number=Sing	6	nmod	_	_
+5	!	!	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#---------- Message ajouté à 13h34 ---------- Précédent message à 12h40
+1	----------	----------	ADJ	_	ADJ__NumType=Ord	1	det	_	_
+2	Message	message	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	ajouté	ajouter	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	acl	_	_
+4	à	à	ADP	_	ADP___	6	case	_	_
+5	13h34	13h34	NOUN	_	NOUN__NumType=Card	6	nummod	_	_
+6	----------	----------	PRON	_	PRON__Number=Sing|Person=3	3	nmod	_	_
+7	Précédent	précédent	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	nmod	_	_
+8	message	message	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	flat:name	_	_
+9	à	à	ADP	_	ADP___	10	case	_	_
+10	12h40	12h40	NOUN	_	NOUN__NumType=Card	10	nmod	_	_
+
+
+#---------- Bonjour, merci de vos réponses!
+1	----------	----------	PRON	_	PRON__PronType=Int	0	ROOT	_	_
+2	Bonjour	Bonjour	PROPN	_	PROPN___	1	nmod	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nmod	_	_
+5	de	de	ADP	_	ADP___	6	case	_	_
+6	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	3	nmod:poss	_	_
+7	réponses	réponse	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	nmod	_	_
+8	!	!	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#L'expertise aura lieu le 12.
+1	L'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+2	expertise	expertise	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+3	aura	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+4	lieu	lieu	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	12	12	NUM	_	NUM__NumType=Card	3	obj	_	_
+7	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#juillet.
+1	juillet	juillet	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Donc si j'ai bien compris l'avocat ne devrait pas facturer des honoraires supplémentaire pour cette journée, uniquemment les frais liés au déplacement (essence, kilométrage, péage, etc.)?
+1	Donc	donc	ADV	_	ADV___	1	advmod	_	_
+2	si	si	SCONJ	_	SCONJ___	1	mark	_	_
+3	j'	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+4	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	bien	bien	ADV	_	ADV___	6	advmod	_	_
+6	compris	compris	ADJ	_	ADJ__Gender=Masc	3	fixed	_	_
+7	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+8	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nsubj	_	_
+9	ne	ne	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+10	devrait	devoir	VERB	_	VERB__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+11	pas	pas	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+12	facturer	facturer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+13	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
+14	honoraires	honoraire	NOUN	_	NOUN__Gender=Fem|Number=Plur	10	obj	_	_
+15	supplémentaire	supplémentaire	ADJ	_	ADJ__Number=Sing	15	amod	_	_
+16	pour	pour	ADP	_	ADP___	15	case	_	_
+17	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	28	det	_	_
+18	journée	journée	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obl	_	_
+19	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+20	uniquemment	uniquemmer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	22	appos	_	_
+21	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	22	det	_	_
+22	frais	frais	NOUN	_	NOUN__Gender=Masc|Number=Plur	17	appos	_	_
+23	liés	lier	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	24	acl	_	_
+24	au	au	PRON	_	PRON__Number=Sing|Person=3	28	case	_	_
+25	déplacement	déplacemer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	nmod	_	_
+26	(	(	PUNCT	_	PUNCT___	28	punct	_	_
+27	essence	essence	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	appos	_	_
+28	,	,	PUNCT	_	PUNCT___	28	punct	_	_
+29	kilométrage	kilométrage	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	appos	_	_
+30	,	,	PUNCT	_	PUNCT___	28	punct	_	_
+31	péage	péage	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	conj	_	_
+32	,	,	PUNCT	_	PUNCT___	34	punct	_	_
+33	etc.	etc.	ADV	_	ADV___	34	conj	_	_
+34	)	)	PUNCT	_	PUNCT___	28	punct	_	_
+35	?	?	PUNCT	_	PUNCT___	34	punct	_	_
+
+
+#Parce que d'après ses calculs, les heures de route sont comptées comme des heures de travail, ce qui me semble pas logique étant donné que c'est normalement déjà pris en compte dans la convention.
+1	Parce	Parce	SCONJ	_	SCONJ___	1	mark	_	_
+2	que	que	SCONJ	_	SCONJ___	1	fixed	_	_
+3	d'	de	ADP	_	ADP___	1	case	_	_
+4	après	après	ADP	_	ADP___	6	case	_	_
+5	ses	son	DET	_	DET__Number=Plur|Poss=Yes	6	nmod:poss	_	_
+6	calculs	calcul	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	obl	_	_
+7	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+8	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+9	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	10	nsubj:pass	_	_
+10	de	de	ADP	_	ADP___	10	case	_	_
+11	route	router	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+12	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+13	comptées	compter	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+14	comme	comme	ADP	_	ADP___	10	case	_	_
+15	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	15	det	_	_
+16	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	15	obl	_	_
+17	de	de	ADP	_	ADP___	28	case	_	_
+18	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	nmod	_	_
+19	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+20	ce	ce	PRON	_	PRON__PronType=Rel	22	appos	_	_
+21	qui	qui	PRON	_	PRON__PronType=Rel	22	nsubj	_	_
+22	me	se	PRON	_	PRON__Number=Sing|Person=1	17	iobj	_	_
+23	semble	sembler	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+24	pas	pas	ADV	_	ADV__Polarity=Neg	28	advmod	_	_
+25	logique	logique	ADJ	_	ADJ__Number=Sing	28	acl:relcl	_	_
+26	étant	être	AUX	_	AUX__Tense=Pres|VerbForm=Part	28	mark	_	_
+27	donné	donner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	fixed	_	_
+28	que	que	SCONJ	_	SCONJ___	28	fixed	_	_
+29	c'	ce	PRON	_	PRON__Number=Sing|Person=3	30	nsubj	_	_
+30	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux:pass	_	_
+31	normalement	normalement	ADV	_	ADV___	30	advmod	_	_
+32	déjà	déjà	ADV	_	ADV___	34	advmod	_	_
+33	pris	prendre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	34	advcl	_	_
+34	en	en	ADP	_	ADP___	28	case	_	_
+35	compte	compte	NOUN	_	NOUN__Gender=Masc|Number=Sing	34	obl	_	_
+36	dans	dan	ADP	_	ADP___	34	case	_	_
+37	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	convention	convention	NOUN	_	NOUN__Gender=Fem|Number=Sing	34	obl	_	_
+39	.	.	PUNCT	_	PUNCT___	38	punct	_	_
+
+
+#J'ai vraiment eu l'impression que l'avocat a juste pas envie de se déplacer ce jour là, faire 8h de route pour à peine 2h de travail alors qu'il est même pas sûr de gagner...
+1	J'	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	vraiment	vraiment	ADV	_	ADV___	1	advmod	_	_
+4	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	impression	impression	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obj	_	_
+7	que	que	SCONJ	_	SCONJ___	1	obj	_	_
+8	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nsubj	_	_
+10	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+11	juste	juste	ADV	_	ADV___	10	advmod	_	_
+12	pas	pas	ADV	_	ADV__Polarity=Neg	13	advmod	_	_
+13	envie	envie	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	acl:relcl	_	_
+14	de	de	ADP	_	ADP___	10	mark	_	_
+15	se	se	PRON	_	PRON__Person=3|Reflex=Yes	15	iobj	_	_
+16	déplacer	déplacer	VERB	_	VERB__VerbForm=Inf	15	xcomp	_	_
+17	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	28	det	_	_
+18	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obl	_	_
+19	là	là	ADV	_	ADV___	20	nummod	_	_
+20	,	,	PUNCT	_	PUNCT___	22	punct	_	_
+21	faire	faire	VERB	_	VERB__VerbForm=Inf	22	conj	_	_
+22	8h	8h	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	advmod	_	_
+23	de	de	ADP	_	ADP___	24	case	_	_
+24	route	router	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	nmod	_	_
+25	pour	pour	ADP	_	ADP___	28	case	_	_
+26	à	à	ADP	_	ADP___	28	case	_	_
+27	peine	peiner	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	obl	_	_
+28	2h	2h	NUM	_	NUM__NumType=Card	28	nmod	_	_
+29	de	de	ADP	_	ADP___	30	case	_	_
+30	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	nmod	_	_
+31	alors	alors	ADV	_	ADV___	30	mark	_	_
+32	qu'	que	SCONJ	_	SCONJ___	34	fixed	_	_
+33	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	34	nsubj	_	_
+34	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	advmod	_	_
+35	même	même	ADV	_	ADV___	34	advmod	_	_
+36	pas	pas	ADV	_	ADV__Polarity=Neg	34	advmod	_	_
+37	sûr	sûr	ADJ	_	ADJ__Gender=Masc|Number=Sing	38	fixed	_	_
+38	de	de	ADP	_	ADP___	34	mark	_	_
+39	gagner	gagner	VERB	_	VERB__VerbForm=Inf	38	xcomp	_	_
+40	...	...	PUNCT	_	PUNCT___	41	punct	_	_
+
+
+#du coup il essaye de rendre les coûts élevés pour que ce soit impossible pour nous de payer.
+1	du	du	DET	_	DET__Gender=Masc|Number=Sing	1	det	_	_
+2	coup	coup	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+4	essaye	essayer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	nmod	_	_
+5	de	de	ADP	_	ADP___	6	mark	_	_
+6	rendre	rendre	VERB	_	VERB__VerbForm=Inf	3	xcomp	_	_
+7	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+8	coûts	coût	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	obj	_	_
+9	élevés	élevé	ADJ	_	ADJ__Gender=Masc|Number=Plur	10	amod	_	_
+10	pour	pour	ADP	_	ADP___	10	mark	_	_
+11	que	que	SCONJ	_	SCONJ___	10	fixed	_	_
+12	ce	ce	PRON	_	PRON__Number=Sing|Person=3	13	nsubj	_	_
+13	soit	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+14	impossible	impossible	ADJ	_	ADJ__Number=Sing	10	advcl	_	_
+15	pour	pour	ADP	_	ADP___	15	case	_	_
+16	nous	nous	PRON	_	PRON__Number=Plur|Person=1	15	obl	_	_
+17	de	de	ADP	_	ADP___	28	mark	_	_
+18	payer	payer	VERB	_	VERB__VerbForm=Inf	20	acl	_	_
+19	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Juridiquement parlant, comment je peux contester cela auprès de mon avocat ?
+1	Juridiquement	juridiquement	ADV	_	ADV___	1	advmod	_	_
+2	parlant	parler	VERB	_	VERB__Tense=Pres|VerbForm=Part	0	ROOT	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	comment	comment	ADV	_	ADV__PronType=Int	6	advmod	_	_
+5	je	il	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+6	peux	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+7	contester	contester	VERB	_	VERB__VerbForm=Inf	1	ccomp	_	_
+8	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	9	obj	_	_
+9	auprès	auprès	ADP	_	ADP___	10	case	_	_
+10	de	de	ADP	_	ADP___	10	fixed	_	_
+11	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+12	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+13	?	?	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Merci pour votre aide !
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	pour	pour	ADP	_	ADP___	1	case	_	_
+3	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+4	aide	aide	NOUN	_	NOUN__Number=Sing	6	nmod	_	_
+5	!	!	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#---------- Message ajouté à 13h35 ---------- Précédent message à 13h34
+1	----------	----------	ADJ	_	ADJ__NumType=Ord	1	det	_	_
+2	Message	message	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	ajouté	ajouter	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	acl	_	_
+4	à	à	ADP	_	ADP___	6	case	_	_
+5	13h35	13h35	PRON	_	PRON__NumType=Card|PronType=Rel	6	nummod	_	_
+6	----------	----------	PRON	_	PRON___	3	nmod	_	_
+7	Précédent	précédent	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	nmod	_	_
+8	message	message	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	flat:name	_	_
+9	à	à	ADP	_	ADP___	10	case	_	_
+10	13h34	13h34	NOUN	_	NOUN__NumType=Card	10	nummod	_	_
+
+
+#---------- Bonjour, merci de vos réponses!
+1	----------	----------	ADJ	_	ADJ__NumType=Ord	0	ROOT	_	_
+2	Bonjour	Bonjour	PROPN	_	PROPN___	1	nmod	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nmod	_	_
+5	de	de	ADP	_	ADP___	6	case	_	_
+6	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	3	nmod:poss	_	_
+7	réponses	réponse	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	nmod	_	_
+8	!	!	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#L'expertise aura lieu le 12.
+1	L'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+2	expertise	expertise	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+3	aura	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+4	lieu	lieu	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	12	12	NUM	_	NUM__NumType=Card	3	obj	_	_
+7	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#juillet.
+1	juillet	juillet	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Donc si j'ai bien compris l'avocat ne devrait pas facturer des honoraires supplémentaire pour cette journée, uniquemment les frais liés au déplacement (essence, kilométrage, péage, etc.)?
+1	Donc	donc	ADV	_	ADV___	1	advmod	_	_
+2	si	si	SCONJ	_	SCONJ___	1	mark	_	_
+3	j'	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+4	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	bien	bien	ADV	_	ADV___	6	advmod	_	_
+6	compris	compris	ADJ	_	ADJ__Gender=Masc	3	fixed	_	_
+7	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+8	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nsubj	_	_
+9	ne	ne	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+10	devrait	devoir	VERB	_	VERB__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+11	pas	pas	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+12	facturer	facturer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+13	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
+14	honoraires	honoraire	NOUN	_	NOUN__Gender=Fem|Number=Plur	10	obj	_	_
+15	supplémentaire	supplémentaire	ADJ	_	ADJ__Number=Sing	15	amod	_	_
+16	pour	pour	ADP	_	ADP___	15	case	_	_
+17	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	28	det	_	_
+18	journée	journée	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obl	_	_
+19	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+20	uniquemment	uniquemmer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	22	appos	_	_
+21	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	22	det	_	_
+22	frais	frais	NOUN	_	NOUN__Gender=Masc|Number=Plur	17	appos	_	_
+23	liés	lier	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	24	acl	_	_
+24	au	au	PRON	_	PRON__Number=Sing|Person=3	28	case	_	_
+25	déplacement	déplacemer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	nmod	_	_
+26	(	(	PUNCT	_	PUNCT___	28	punct	_	_
+27	essence	essence	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	appos	_	_
+28	,	,	PUNCT	_	PUNCT___	28	punct	_	_
+29	kilométrage	kilométrage	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	appos	_	_
+30	,	,	PUNCT	_	PUNCT___	28	punct	_	_
+31	péage	péage	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	conj	_	_
+32	,	,	PUNCT	_	PUNCT___	34	punct	_	_
+33	etc.	etc.	ADV	_	ADV___	34	conj	_	_
+34	)	)	PUNCT	_	PUNCT___	28	punct	_	_
+35	?	?	PUNCT	_	PUNCT___	34	punct	_	_
+
+
+#Parce que d'après ses calculs, les heures de route sont comptées comme des heures de travail, ce qui me semble pas logique étant donné que c'est normalement déjà pris en compte dans la convention.
+1	Parce	Parce	SCONJ	_	SCONJ___	1	mark	_	_
+2	que	que	SCONJ	_	SCONJ___	1	fixed	_	_
+3	d'	de	ADP	_	ADP___	1	case	_	_
+4	après	après	ADP	_	ADP___	6	case	_	_
+5	ses	son	DET	_	DET__Number=Plur|Poss=Yes	6	nmod:poss	_	_
+6	calculs	calcul	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	obl	_	_
+7	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+8	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+9	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	10	nsubj:pass	_	_
+10	de	de	ADP	_	ADP___	10	case	_	_
+11	route	router	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+12	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+13	comptées	compter	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+14	comme	comme	ADP	_	ADP___	10	case	_	_
+15	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	15	det	_	_
+16	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	15	obl	_	_
+17	de	de	ADP	_	ADP___	28	case	_	_
+18	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	nmod	_	_
+19	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+20	ce	ce	PRON	_	PRON__PronType=Rel	22	appos	_	_
+21	qui	qui	PRON	_	PRON__PronType=Rel	22	nsubj	_	_
+22	me	se	PRON	_	PRON__Number=Sing|Person=1	17	iobj	_	_
+23	semble	sembler	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+24	pas	pas	ADV	_	ADV__Polarity=Neg	28	advmod	_	_
+25	logique	logique	ADJ	_	ADJ__Number=Sing	28	acl:relcl	_	_
+26	étant	être	AUX	_	AUX__Tense=Pres|VerbForm=Part	28	mark	_	_
+27	donné	donner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	fixed	_	_
+28	que	que	SCONJ	_	SCONJ___	28	fixed	_	_
+29	c'	ce	PRON	_	PRON__Number=Sing|Person=3	30	nsubj	_	_
+30	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux:pass	_	_
+31	normalement	normalement	ADV	_	ADV___	30	advmod	_	_
+32	déjà	déjà	ADV	_	ADV___	34	advmod	_	_
+33	pris	prendre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	34	advcl	_	_
+34	en	en	ADP	_	ADP___	28	case	_	_
+35	compte	compte	NOUN	_	NOUN__Gender=Masc|Number=Sing	34	obl	_	_
+36	dans	dan	ADP	_	ADP___	34	case	_	_
+37	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	convention	convention	NOUN	_	NOUN__Gender=Fem|Number=Sing	34	obl	_	_
+39	.	.	PUNCT	_	PUNCT___	38	punct	_	_
+
+
+#J'ai vraiment eu l'impression que l'avocat a juste pas envie de se déplacer ce jour là, faire 8h de route pour à peine 2h de travail alors qu'il est même pas sûr de gagner...
+1	J'	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	vraiment	vraiment	ADV	_	ADV___	1	advmod	_	_
+4	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	impression	impression	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obj	_	_
+7	que	que	SCONJ	_	SCONJ___	1	obj	_	_
+8	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nsubj	_	_
+10	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+11	juste	juste	ADV	_	ADV___	10	advmod	_	_
+12	pas	pas	ADV	_	ADV__Polarity=Neg	13	advmod	_	_
+13	envie	envie	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	acl:relcl	_	_
+14	de	de	ADP	_	ADP___	10	mark	_	_
+15	se	se	PRON	_	PRON__Person=3|Reflex=Yes	15	iobj	_	_
+16	déplacer	déplacer	VERB	_	VERB__VerbForm=Inf	15	xcomp	_	_
+17	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	28	det	_	_
+18	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obl	_	_
+19	là	là	ADV	_	ADV___	20	nummod	_	_
+20	,	,	PUNCT	_	PUNCT___	22	punct	_	_
+21	faire	faire	VERB	_	VERB__VerbForm=Inf	22	conj	_	_
+22	8h	8h	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	advmod	_	_
+23	de	de	ADP	_	ADP___	24	case	_	_
+24	route	router	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	nmod	_	_
+25	pour	pour	ADP	_	ADP___	28	case	_	_
+26	à	à	ADP	_	ADP___	28	case	_	_
+27	peine	peiner	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	obl	_	_
+28	2h	2h	NUM	_	NUM__NumType=Card	28	nmod	_	_
+29	de	de	ADP	_	ADP___	30	case	_	_
+30	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	nmod	_	_
+31	alors	alors	ADV	_	ADV___	30	mark	_	_
+32	qu'	que	SCONJ	_	SCONJ___	34	fixed	_	_
+33	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	34	nsubj	_	_
+34	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	advmod	_	_
+35	même	même	ADV	_	ADV___	34	advmod	_	_
+36	pas	pas	ADV	_	ADV__Polarity=Neg	34	advmod	_	_
+37	sûr	sûr	ADJ	_	ADJ__Gender=Masc|Number=Sing	38	fixed	_	_
+38	de	de	ADP	_	ADP___	34	mark	_	_
+39	gagner	gagner	VERB	_	VERB__VerbForm=Inf	38	xcomp	_	_
+40	...	...	PUNCT	_	PUNCT___	41	punct	_	_
+
+
+#du coup il essaye de rendre les coûts élevés pour que ce soit impossible pour nous de payer.
+1	du	du	DET	_	DET__Gender=Masc|Number=Sing	1	det	_	_
+2	coup	coup	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+4	essaye	essayer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	nmod	_	_
+5	de	de	ADP	_	ADP___	6	mark	_	_
+6	rendre	rendre	VERB	_	VERB__VerbForm=Inf	3	xcomp	_	_
+7	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+8	coûts	coût	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	obj	_	_
+9	élevés	élevé	ADJ	_	ADJ__Gender=Masc|Number=Plur	10	amod	_	_
+10	pour	pour	ADP	_	ADP___	10	mark	_	_
+11	que	que	SCONJ	_	SCONJ___	10	fixed	_	_
+12	ce	ce	PRON	_	PRON__Number=Sing|Person=3	13	nsubj	_	_
+13	soit	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+14	impossible	impossible	ADJ	_	ADJ__Number=Sing	10	advcl	_	_
+15	pour	pour	ADP	_	ADP___	15	case	_	_
+16	nous	nous	PRON	_	PRON__Number=Plur|Person=1	15	obl	_	_
+17	de	de	ADP	_	ADP___	28	mark	_	_
+18	payer	payer	VERB	_	VERB__VerbForm=Inf	20	acl	_	_
+19	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Juridiquement parlant, comment je peux contester cela auprès de mon avocat ?
+1	Juridiquement	juridiquement	ADV	_	ADV___	1	advmod	_	_
+2	parlant	parler	VERB	_	VERB__Tense=Pres|VerbForm=Part	0	ROOT	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	comment	comment	ADV	_	ADV__PronType=Int	6	advmod	_	_
+5	je	il	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+6	peux	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+7	contester	contester	VERB	_	VERB__VerbForm=Inf	1	ccomp	_	_
+8	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	9	obj	_	_
+9	auprès	auprès	ADP	_	ADP___	10	case	_	_
+10	de	de	ADP	_	ADP___	10	fixed	_	_
+11	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+12	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+13	?	?	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Merci pour votre aide !
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	pour	pour	ADP	_	ADP___	1	case	_	_
+3	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+4	aide	aide	NOUN	_	NOUN__Number=Sing	6	nmod	_	_
+5	!	!	PUNCT	_	PUNCT___	6	punct	_	_
+
+

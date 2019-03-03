@@ -1,0 +1,286 @@
+#Bonjour, la copropriété où je vis dispose de garages (box) en sous-sols.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	4	case	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	copropriété	copropriété	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+5	où	où	PRON	_	PRON__PronType=Rel	8	iobj	_	_
+6	je	il	PRON	_	PRON__Number=Sing|Person=1	8	nsubj	_	_
+7	vis	vis	NOUN	_	NOUN__Gender=Fem	8	iobj	_	_
+8	dispose	disposer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+9	de	de	ADP	_	ADP___	10	case	_	_
+10	garages	garage	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obl	_	_
+11	(	(	PUNCT	_	PUNCT___	8	punct	_	_
+12	box	box	NOUN	_	NOUN___	8	appos	_	_
+13	)	)	PUNCT	_	PUNCT___	8	punct	_	_
+14	en	en	ADP	_	ADP___	15	case	_	_
+15	sous-sols	sous-sol	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+16	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Chaque box est fermé par une porte.
+1	Chaque	chaque	DET	_	DET__Number=Sing	4	det	_	_
+2	box	box	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	fermé	fermer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+5	par	par	ADP	_	ADP___	8	case	_	_
+6	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	porte	porte	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+8	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Récemment le CS a décidé que les occupants des garages devaient nettoyer leur porte de garage et a procédé à un affichage en ce sens.
+1	Récemment	récemment	ADV	_	ADV___	4	advmod	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	CS	CS	PROPN	_	PROPN__Gender=Masc|Number=Sing	4	nsubj	_	_
+4	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+5	décidé	décider	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+6	que	que	SCONJ	_	SCONJ___	8	mark	_	_
+7	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+8	occupants	occupant	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	nsubj	_	_
+9	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
+10	garages	garage	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	nmod	_	_
+11	devaient	devoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+12	nettoyer	nettoyer	VERB	_	VERB__VerbForm=Inf	8	ccomp	_	_
+13	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+14	porte	porter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	obj	_	_
+15	de	de	ADP	_	ADP___	4	case	_	_
+16	garage	garage	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+17	et	et	CCONJ	_	CCONJ___	18	cc	_	_
+18	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+19	procédé	procéder	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	conj	_	_
+20	à	à	ADP	_	ADP___	20	case	_	_
+21	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	affichage	affichage	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	obl	_	_
+23	en	en	ADP	_	ADP___	20	case	_	_
+24	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	20	det	_	_
+25	sens	sens	NOUN	_	NOUN__Gender=Masc	29	nmod	_	_
+26	.	.	PUNCT	_	PUNCT___	27	punct	_	_
+
+
+#Certains garages n'ont pas été nettoyé après cet affichage et même après une relance par courrier.
+1	Certains	certain	DET	_	DET__Gender=Masc|Number=Plur	4	det	_	_
+2	garages	garage	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	nsubj:pass	_	_
+3	n'	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+4	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+6	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	8	aux:pass	_	_
+7	nettoyé	nettoyer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+8	après	après	ADP	_	ADP___	4	case	_	_
+9	cet	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+10	affichage	affichage	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+11	et	et	CCONJ	_	CCONJ___	8	cc	_	_
+12	même	même	ADV	_	ADV___	8	fixed	_	_
+13	après	après	ADP	_	ADP___	8	case	_	_
+14	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	relance	relance	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	conj	_	_
+16	par	par	ADP	_	ADP___	4	case	_	_
+17	courrier	courrier	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nmod	_	_
+18	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Le CS a alors décidé de faire procéder à un nettoyage des portes "sales" par une société (cette décision n'a pas été portée/décidée en AG) en facturant la presta aux propriétaires des garages "sales".
+1	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+2	CS	CS	PROPN	_	PROPN__Gender=Masc|Number=Sing	4	nsubj	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	alors	alors	ADV	_	ADV___	4	advmod	_	_
+5	décidé	décider	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+6	de	de	ADP	_	ADP___	8	mark	_	_
+7	faire	faire	VERB	_	VERB__VerbForm=Inf	8	xcomp	_	_
+8	procéder	procéder	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+9	à	à	ADP	_	ADP___	10	case	_	_
+10	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+11	nettoyage	nettoyage	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+12	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
+13	portes	porte	NOUN	_	NOUN__Gender=Fem|Number=Plur	8	nmod	_	_
+14	"	"	PUNCT	_	PUNCT___	15	punct	_	_
+15	sales	sale	ADJ	_	ADJ__Gender=Fem|Number=Plur	4	amod	_	_
+16	"	"	PUNCT	_	PUNCT___	4	punct	_	_
+17	par	par	ADP	_	ADP___	18	case	_	_
+18	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	société	société	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	nmod	_	_
+20	(	(	PUNCT	_	PUNCT___	20	punct	_	_
+21	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	23	det	_	_
+22	décision	décision	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	nsubj:pass	_	_
+23	n'	ne	ADV	_	ADV__Polarity=Neg	20	advmod	_	_
+24	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+25	pas	pas	ADV	_	ADV__Polarity=Neg	29	advmod	_	_
+26	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	27	aux:pass	_	_
+27	portée	porter	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	29	parataxis	_	_
+28	/	/	CCONJ	_	CCONJ___	29	case	_	_
+29	décidée	décider	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	29	obl	_	_
+30	en	en	ADP	_	ADP___	36	case	_	_
+31	AG	AG	PROPN	_	PROPN___	32	obl	_	_
+32	)	)	PUNCT	_	PUNCT___	36	punct	_	_
+33	en	en	ADP	_	ADP___	34	mark	_	_
+34	facturant	facturer	VERB	_	VERB__Tense=Pres|VerbForm=Part	32	advcl	_	_
+35	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	presta	presta	PROPN	_	PROPN__Gender=Fem|Number=Sing	29	obj	_	_
+37	aux	aux	ADP	_	ADP___	38	aux	_	_
+38	propriétaires	propriétair	ADJ	_	ADJ__Number=Plur	36	conj	_	_
+39	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	40	det	_	_
+40	garages	garage	NOUN	_	NOUN__Gender=Masc|Number=Plur	38	obj	_	_
+41	"	"	PUNCT	_	PUNCT___	43	punct	_	_
+42	sales	sale	ADJ	_	ADJ__Gender=Fem|Number=Plur	43	amod	_	_
+43	"	"	PUNCT	_	PUNCT___	36	punct	_	_
+44	.	.	PUNCT	_	PUNCT___	46	punct	_	_
+
+
+#La société est intervenue, a nettoyé les portes au [nettoyeur haute pression]… ce qui a eu pour conséquence des "innondations" dans les parties communes mais surtout dans des garages (des occupants ont eu des affaires entreposées trempées).
+1	La	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+2	société	société	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	intervenue	intervenir	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+5	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+6	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	nettoyé	nettoyer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+8	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+9	portes	porte	NOUN	_	NOUN__Gender=Fem|Number=Plur	10	obj	_	_
+10	au	au	PRON	_	PRON__PronType=Rel	8	case	_	_
+11	[	[	PUNCT	_	PUNCT___	8	punct	_	_
+12	nettoyeur	nettoyeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	advmod	_	_
+13	haute	haut	ADJ	_	ADJ__Number=Sing	8	amod	_	_
+14	pression	pression	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obl	_	_
+15	]	]	PUNCT	_	PUNCT___	4	punct	_	_
+16	…	…	PUNCT	_	PUNCT___	4	parataxis	_	_
+17	ce	ce	PRON	_	PRON__PronType=Rel	18	obj	_	_
+18	qui	qui	PRON	_	PRON__PronType=Rel	20	nsubj	_	_
+19	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	acl:relcl	_	_
+21	pour	pour	ADP	_	ADP___	23	case	_	_
+22	conséquence	conséquence	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	obl	_	_
+23	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	20	det	_	_
+24	"	"	PUNCT	_	PUNCT___	20	punct	_	_
+25	innondations	innondation	NOUN	_	NOUN__Gender=Masc|Number=Plur	29	nsubj	_	_
+26	"	"	PUNCT	_	PUNCT___	27	punct	_	_
+27	dans	dan	ADP	_	ADP___	29	case	_	_
+28	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	29	det	_	_
+29	parties	party	NOUN	_	NOUN__Gender=Fem|Number=Plur	29	nmod	_	_
+30	communes	commun	ADJ	_	ADJ__Gender=Fem|Number=Plur	36	amod	_	_
+31	mais	mais	CCONJ	_	CCONJ___	32	cc	_	_
+32	surtout	surtout	ADV	_	ADV___	36	advmod	_	_
+33	dans	dan	ADP	_	ADP___	34	case	_	_
+34	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	32	det	_	_
+35	garages	garage	NOUN	_	NOUN__Gender=Masc|Number=Plur	36	conj	_	_
+36	(	(	PUNCT	_	PUNCT___	29	punct	_	_
+37	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	38	det	_	_
+38	occupants	occupant	NOUN	_	NOUN__Gender=Masc|Number=Plur	36	appos	_	_
+39	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	40	aux	_	_
+40	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	38	acl:relcl	_	_
+41	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	43	det	_	_
+42	affaires	affaire	NOUN	_	NOUN__Gender=Fem|Number=Plur	43	obj	_	_
+43	entreposées	entreposé	ADJ	_	ADJ__Gender=Fem|Number=Plur	36	amod	_	_
+44	trempées	tremper	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	46	amod	_	_
+45	)	)	PUNCT	_	PUNCT___	46	punct	_	_
+46	.	.	PUNCT	_	PUNCT___	43	punct	_	_
+
+
+#J'ai déjà eu des retours du genre "qui a décidé qu'une porte était sale et une autre non ?
+1	J'	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+2	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	déjà	déjà	ADV	_	ADV___	4	advmod	_	_
+4	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
+6	retours	retour	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obj	_	_
+7	du	du	DET	_	DET__Gender=Masc|Number=Sing	8	det	_	_
+8	genre	genre	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+9	"	"	PUNCT	_	PUNCT___	10	punct	_	_
+10	qui	qui	PRON	_	PRON__PronType=Rel	8	nsubj	_	_
+11	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+12	décidé	décider	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+13	qu'	que	SCONJ	_	SCONJ___	8	mark	_	_
+14	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	porte	porte	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	ccomp	_	_
+16	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+17	sale	sale	ADJ	_	ADJ__Gender=Fem|Number=Sing	18	amod	_	_
+18	et	et	CCONJ	_	CCONJ___	20	cc	_	_
+19	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	autre	autre	ADJ	_	ADJ__Number=Sing	20	amod	_	_
+21	non	non	ADV	_	ADV___	23	conj	_	_
+22	?	?	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#", "la porte n'est-elle-pas privative ?
+1	"	"	PUNCT	_	PUNCT___	4	punct	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	"	"	PUNCT	_	PUNCT___	4	punct	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+5	porte	porte	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+6	n'	ne	ADV	_	ADV___	8	advmod	_	_
+7	est	être	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	-	-	PUNCT	_	PUNCT___	4	punct	_	_
+9	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	-	-	PUNCT	_	PUNCT___	8	punct	_	_
+11	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+12	privative	privatif	ADJ	_	ADJ__Gender=Fem|Number=Sing	8	obj	_	_
+13	?	?	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#"… et après l'intervention de la société de nettoyage les personnes inondées ne veulent pas payer la presta.
+1	"	"	PUNCT	_	PUNCT___	4	punct	_	_
+2	…	…	PUNCT	_	PUNCT___	4	punct	_	_
+3	et	et	CCONJ	_	CCONJ___	4	cc	_	_
+4	après	après	ADP	_	ADP___	4	case	_	_
+5	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+6	intervention	intervention	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	conj	_	_
+7	de	de	ADP	_	ADP___	8	case	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+9	société	société	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+10	de	de	ADP	_	ADP___	8	case	_	_
+11	nettoyage	nettoyage	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+12	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+13	personnes	personne	NOUN	_	NOUN__Gender=Fem|Number=Plur	8	nmod	_	_
+14	inondées	inonder	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	15	amod	_	_
+15	ne	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+16	veulent	vouloir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+17	pas	pas	ADV	_	ADV__Polarity=Neg	18	advmod	_	_
+18	payer	payer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+19	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	presta	presta	PROPN	_	PROPN__Gender=Fem|Number=Sing	20	obj	_	_
+21	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Ma question est la suivante : une porte de box est-elle privative ou commune ?
+1	Ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	4	nmod:poss	_	_
+2	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+5	suivante	suivant	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nummod	_	_
+6	:	:	PUNCT	_	PUNCT___	8	punct	_	_
+7	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	porte	porte	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+9	de	de	ADP	_	ADP___	10	case	_	_
+10	box	box	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	nmod	_	_
+11	est-elle	est-elle	PRON	_	PRON__Gender=Fem|Number=Sing|PronType=Dem	8	amod	_	_
+12	privative	privatif	ADJ	_	ADJ__Gender=Fem|Number=Sing	8	amod	_	_
+13	ou	ou	CCONJ	_	CCONJ___	8	cc	_	_
+14	commune	commun	ADJ	_	ADJ__Gender=Fem|Number=Sing	15	conj	_	_
+15	?	?	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#et le CS avait-il le droit de procéder à ce nettoyage de force ?
+1	et	et	CCONJ	_	CCONJ___	4	cc	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	CS	CS	PROPN	_	PROPN___	4	nsubj	_	_
+4	avait	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+5	-	-	PUNCT	_	PUNCT___	8	punct	_	_
+6	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obj	_	_
+9	de	de	ADP	_	ADP___	10	case	_	_
+10	procéder	procéder	VERB	_	VERB__VerbForm=Inf	8	nmod	_	_
+11	à	à	ADP	_	ADP___	8	case	_	_
+12	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+13	nettoyage	nettoyage	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+14	de	de	ADP	_	ADP___	15	case	_	_
+15	force	forcer	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+16	?	?	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#En vous remerciant par avance
+1	En	En	ADP	_	ADP___	4	mark	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	4	iobj	_	_
+3	remerciant	remercier	VERB	_	VERB__Tense=Pres|VerbForm=Part	0	ROOT	_	_
+4	par	par	ADP	_	ADP___	4	case	_	_
+5	avance	avance	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+
+

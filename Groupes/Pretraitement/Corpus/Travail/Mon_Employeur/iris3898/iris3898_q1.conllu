@@ -1,0 +1,433 @@
+#Bonjour, je viens de m'apercevoir qu'il me manque un jour de congés acquis selon mon temps de travail.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	4	mark	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+4	viens	venir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	de	de	ADP	_	ADP___	7	mark	_	_
+6	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	7	expl	_	_
+7	apercevoir	apercevoir	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+8	qu'	que	SCONJ	_	SCONJ___	11	mark	_	_
+9	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	11	nsubj	_	_
+10	me	se	PRON	_	PRON__Number=Sing|Person=1	11	iobj	_	_
+11	manque	manquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+12	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+14	de	de	ADP	_	ADP___	15	case	_	_
+15	congés	congé	ADJ	_	ADJ__Gender=Masc|Number=Plur	13	nmod	_	_
+16	acquis	acquérir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
+17	selon	selon	ADP	_	ADP___	19	case	_	_
+18	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	19	nmod:poss	_	_
+19	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obl	_	_
+20	de	de	ADP	_	ADP___	21	case	_	_
+21	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	nmod	_	_
+22	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#J'ai 2,5 jours par mois donc jours ouvrables pour le calcul.
+1	J'	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+2	ai	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	2,5	2,5	NUM	_	NUM__NumType=Card	4	nummod	_	_
+4	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+5	par	par	ADP	_	ADP___	7	case	_	_
+6	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	obl	_	_
+7	donc	donc	ADV	_	ADV___	4	advmod	_	_
+8	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	obj	_	_
+9	ouvrables	ouvrable	ADJ	_	ADJ__Gender=Fem|Number=Plur	11	amod	_	_
+10	pour	pour	ADP	_	ADP___	11	case	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+12	calcul	calcul	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+13	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Comment est-ce possible.
+1	Comment	comment	ADV	_	ADV__PronType=Int	4	advmod	_	_
+2	est	être		_	VERB	4	cop	_	_
+3	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	4	nsubj	_	_
+4	possible	possible	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+5	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#?
+1	?	?	PUNCT	_	PUNCT___	0	ROOT	_	_
+
+
+#Entrée en cours de mois de septembre 2017, le calcul fut celui-ci : (nombre de jours ouvrés de présence 7) / nombre jours ouvrés du mois 21) * 2.5 = 0.83
+1	Entrée	entrer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	nsubj	_	_
+2	en	en	ADP	_	ADP___	4	case	_	_
+3	cours	cours	NOUN	_	NOUN__Gender=Masc	4	fixed	_	_
+4	de	de	ADP	_	ADP___	4	fixed	_	_
+5	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	nmod	_	_
+6	de	de	ADP	_	ADP___	7	case	_	_
+7	septembre	septembre	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+8	2017	2017	NUM	_	NUM__NumType=Card	11	nummod	_	_
+9	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+10	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	calcul	calcul	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nsubj	_	_
+12	fut	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	_
+13	celui-ci	celui-ci	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Dem	11	nmod	_	_
+14	:	:	PUNCT	_	PUNCT___	15	punct	_	_
+15	(	(	PUNCT	_	PUNCT___	13	punct	_	_
+16	nombre	nombre	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	appos	_	_
+17	de	de	ADP	_	ADP___	19	case	_	_
+18	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	19	nmod	_	_
+19	ouvrés	ouvré	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	acl	_	_
+20	de	de	ADP	_	ADP___	21	case	_	_
+21	présence	présence	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obl	_	_
+22	7	7	NUM	_	NUM__NumType=Card	4	nummod	_	_
+23	)	)	PUNCT	_	PUNCT___	26	punct	_	_
+24	/	/	CCONJ	_	CCONJ___	26	cc	_	_
+25	nombre	nombre	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	nmod	_	_
+26	jours	jour	ADJ	_	ADJ__Number=Sing	26	amod	_	_
+27	ouvrés	ouvré	NOUN	_	NOUN__Gender=Masc|Number=Plur	28	acl	_	_
+28	du	du	DET	_	DET__Gender=Masc|Number=Sing	26	det	_	_
+29	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	30	obj	_	_
+30	21	21	NUM	_	NUM__NumType=Card	26	nummod	_	_
+31	)	)	PUNCT	_	PUNCT___	30	punct	_	_
+32	*	*	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	34	cc	_	_
+33	2.5	2.5	NUM	_	NUM__NumType=Card	34	nsubj	_	_
+34	=	=	VERB	_	VERB__Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+35	0.83	0.83	NUM	_	NUM__NumType=Card	26	obj	_	_
+
+
+#En février 2018 j'ai pris 2 jours de congés sans solde (15 et 16) et ils n'ont pas appliqué la même méthode.
+1	En	En	ADP	_	ADP___	4	case	_	_
+2	février	février	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+3	2018	2018	NUM	_	NUM__NumType=Card	4	nummod	_	_
+4	j'	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+5	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	pris	prendre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	0	ROOT	_	_
+7	2	2	NUM	_	NUM__NumType=Card	4	nummod	_	_
+8	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	obj	_	_
+9	de	de	ADP	_	ADP___	11	case	_	_
+10	congés	congé	ADJ	_	ADJ__Gender=Masc|Number=Plur	11	nmod	_	_
+11	sans	sans	ADP	_	ADP___	7	case	_	_
+12	solde	solde	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+13	(	(	PUNCT	_	PUNCT___	11	punct	_	_
+14	15	15	NUM	_	NUM__NumType=Card	15	appos	_	_
+15	et	et	CCONJ	_	CCONJ___	13	cc	_	_
+16	16	16	NUM	_	NUM__NumType=Card	13	conj	_	_
+17	)	)	PUNCT	_	PUNCT___	19	punct	_	_
+18	et	et	CCONJ	_	CCONJ___	19	cc	_	_
+19	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	16	nsubj	_	_
+20	n'	ne	ADV	_	ADV__Polarity=Neg	21	advmod	_	_
+21	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+22	pas	pas	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+23	appliqué	appliquer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	conj	_	_
+24	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	même	même	ADJ	_	ADJ__Number=Sing	26	amod	_	_
+26	méthode	méthode	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	obj	_	_
+27	.	.	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#Ainsi la méthode des jours ouvrables fut appliquée (22 jours ouvrables travaillés / 24 jours ouvrables) * 2.5 = 2.29 En mars 18 j'ai pris 3 jours de congés sans solde (14/15/16) et là encore nouvelle méthode de calcul car ils m'ont donné 2,19 jours qui ne correspondent en rien aux deux méthodes précédentes
+1	Ainsi	ainsi	ADV	_	ADV___	4	case	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	méthode	méthode	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obl	_	_
+4	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
+5	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	nsubj:pass	_	_
+6	ouvrables	ouvrable	ADJ	_	ADJ__Gender=Fem|Number=Plur	7	amod	_	_
+7	fut	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+8	appliquée	appliquer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+9	(	(	PUNCT	_	PUNCT___	11	punct	_	_
+10	22	22	NUM	_	NUM__NumType=Card	11	nummod	_	_
+11	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	obl	_	_
+12	ouvrables	ouvrable	ADJ	_	ADJ__Number=Plur	13	amod	_	_
+13	travaillés	travaillé	ADJ	_	ADJ__Gender=Masc|Number=Plur	11	acl	_	_
+14	/	/	ADP	_	ADP___	15	case	_	_
+15	24	24	NUM	_	NUM__NumType=Card	13	nummod	_	_
+16	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	obl	_	_
+17	ouvrables	ouvrable	ADJ	_	ADJ__Gender=Fem|Number=Plur	19	amod	_	_
+18	)	)	PUNCT	_	PUNCT___	19	punct	_	_
+19	*	*	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	mark	_	_
+20	2.5	2.5	NUM	_	NUM__NumType=Card	21	nsubj	_	_
+21	=	=	VERB	_	VERB__Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	19	parataxis	_	_
+22	2.29	2.29	NUM	_	NUM__NumType=Card	4	obj	_	_
+23	En	En	ADP	_	ADP___	26	case	_	_
+24	mars	mars	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	obl	_	_
+25	18	18	NUM	_	NUM__NumType=Card	26	nummod	_	_
+26	j'	il	PRON	_	PRON__Number=Sing|Person=1	26	nsubj	_	_
+27	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	pris	prendre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	26	parataxis	_	_
+29	3	3	NUM	_	NUM__NumType=Card	30	nummod	_	_
+30	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	26	obj	_	_
+31	de	de	ADP	_	ADP___	30	case	_	_
+32	congés	congé	ADJ	_	ADJ__Gender=Masc|Number=Plur	34	nmod	_	_
+33	sans	sans	ADP	_	ADP___	34	case	_	_
+34	solde	solde	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	obl	_	_
+35	(	(	PUNCT	_	PUNCT___	26	punct	_	_
+36	14/15/16	14/15/16	PRON	_	PRON__NumType=Card|PronType=Rel	39	appos	_	_
+37	)	)	PUNCT	_	PUNCT___	39	punct	_	_
+38	et	et	CCONJ	_	CCONJ___	39	cc	_	_
+39	là	là	ADV	_	ADV___	39	det	_	_
+40	encore	encore	ADV	_	ADV___	39	advmod	_	_
+41	nouvelle	nouveau	ADJ	_	ADJ__Gender=Fem|Number=Sing	41	amod	_	_
+42	méthode	méthode	NOUN	_	NOUN__Gender=Fem|Number=Sing	75	conj	_	_
+43	de	de	ADP	_	ADP___	46	case	_	_
+44	calcul	calcul	NOUN	_	NOUN__Gender=Masc|Number=Sing	43	nmod	_	_
+45	car	car	CCONJ	_	CCONJ___	43	cc	_	_
+46	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	42	nsubj	_	_
+47	m'	se	PRON	_	PRON__Number=Sing|Person=1	48	expl	_	_
+48	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	46	aux	_	_
+49	donné	donner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	48	conj	_	_
+50	2,19	2,19	NUM	_	NUM__NumType=Card	54	nummod	_	_
+51	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	52	obj	_	_
+52	qui	qui	PRON	_	PRON__PronType=Rel	54	nsubj	_	_
+53	ne	ne	ADV	_	ADV___	54	advmod	_	_
+54	correspondent	correspondre	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	42	acl:relcl	_	_
+55	en	en	ADP	_	ADP___	42	case	_	_
+56	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	42	fixed	_	_
+57	aux	aux	ADP	_	ADP___	42	fixed	_	_
+58	deux	deux	NUM	_	NUM__NumType=Card	59	nummod	_	_
+59	méthodes	méthode	NOUN	_	NOUN__Gender=Fem|Number=Plur	57	obl	_	_
+60	précédentes	précédent	ADJ	_	ADJ__Gender=Fem|Number=Plur	57	amod	_	_
+
+
+#En mai 18 j'ai pris le 9 sans solde, et là encore ils trouvent 2.40 et moi 2.39 En octobre je suis tombée malade donc arrêt maladie du 2 au 6 soit 5 jours et là encore je me retrouve avec 1.98 de cp acquis qui sortent je ne sais pas d'où.
+1	En	En	ADP	_	ADP___	4	case	_	_
+2	mai	mai	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+3	18	18	NUM	_	NUM__NumType=Card	4	nummod	_	_
+4	j'	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+5	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	pris	prendre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	0	ROOT	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+8	9	9	NUM	_	NUM__NumType=Card	11	nummod	_	_
+9	sans	sans	ADP	_	ADP___	11	case	_	_
+10	solde	solde	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+11	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+12	et	et	CCONJ	_	CCONJ___	13	cc	_	_
+13	là	là	ADV	_	ADV___	11	advmod	_	_
+14	encore	encore	ADV	_	ADV___	15	fixed	_	_
+15	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	13	nsubj	_	_
+16	trouvent	trouver	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+17	2.40	2.40	NUM	_	NUM__NumType=Card	19	nummod	_	_
+18	et	et	CCONJ	_	CCONJ___	19	cc	_	_
+19	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	16	conj	_	_
+20	2.39	2.39	NUM	_	NUM__NumType=Card	21	nummod	_	_
+21	En	En	ADP	_	ADP___	19	case	_	_
+22	octobre	octobre	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+23	je	il	PRON	_	PRON__Number=Sing|Person=1	26	nsubj:pass	_	_
+24	suis	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	26	aux:pass	_	_
+25	tombée	tombé	ADJ	_	ADJ__Number=Sing	26	obl	_	_
+26	malade	malade	ADJ	_	ADJ__Number=Sing	26	amod	_	_
+27	donc	donc	ADV	_	ADV___	28	advmod	_	_
+28	arrêt	arrêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	parataxis	_	_
+29	maladie	maladie	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	obj	_	_
+30	du	du	DET	_	DET__Gender=Masc|Number=Sing	26	det	_	_
+31	2	2	NUM	_	NUM__NumType=Card	30	nummod	_	_
+32	au	au	NOUN	_	NOUN___	34	dep	_	_
+33	6	6	NUM	_	NUM__NumType=Card	34	nummod	_	_
+34	soit	être	CCONJ	_	CCONJ___	26	case	_	_
+35	5	5	NUM	_	NUM__NumType=Card	26	nummod	_	_
+36	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	39	conj	_	_
+37	et	et	CCONJ	_	CCONJ___	39	cc	_	_
+38	là	là	ADV	_	ADV___	39	det	_	_
+39	encore	encore	ADV	_	ADV___	39	obl	_	_
+40	je	il	PRON	_	PRON__Number=Sing|Person=1	39	nsubj	_	_
+41	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	41	expl	_	_
+42	retrouve	retrouve	NOUN	_	NOUN__Gender=Fem|Number=Sing	75	conj	_	_
+43	avec	avec	ADP	_	ADP___	46	case	_	_
+44	1.98	1.98	PRON	_	PRON__NumType=Card|PronType=Rel	43	obl	_	_
+45	de	de	ADP	_	ADP___	43	case	_	_
+46	cp	cp	NOUN	_	NOUN__Gender=Fem|Number=Sing	42	nmod	_	_
+47	acquis	acquérir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	48	acl	_	_
+48	qui	qui	PRON	_	PRON__PronType=Rel	46	nsubj	_	_
+49	sortent	sortir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	48	advmod	_	_
+50	je	il	PRON	_	PRON__Number=Sing|Person=1	54	nsubj	_	_
+51	ne	ne	ADV	_	ADV__Polarity=Neg	52	advmod	_	_
+52	sais	savoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	54	acl:relcl	_	_
+53	pas	pas	ADV	_	ADV__Polarity=Neg	54	advmod	_	_
+54	d'	de	ADP	_	ADP___	42	case	_	_
+55	où	où	PRON	_	PRON__PronType=Rel	42	obl	_	_
+56	.	.	PUNCT	_	PUNCT___	42	punct	_	_
+
+
+#Ensuite en partant du 21/09/17 au 31/05/18 j'ai juste 21 jours de cp et j'ai que l'impression qu'ils m'ont enrhumé un jour de CP.
+1	Ensuite	ensuite	ADV	_	ADV___	4	advmod	_	_
+2	en	en	ADP	_	ADP___	4	mark	_	_
+3	partant	partir	VERB	_	VERB__Tense=Pres|VerbForm=Part	4	advcl	_	_
+4	du	du	DET	_	DET__Gender=Masc|Number=Sing	4	det	_	_
+5	21/09/17	21/09/17	NUM	_	NUM__NumType=Card	7	obj	_	_
+6	au	au	NOUN	_	NOUN___	7	case	_	_
+7	31/05/18	31/05/18	NUM	_	NUM__NumType=Card	4	nmod	_	_
+8	j'	il	PRON	_	PRON__Number=Sing|Person=1	11	nsubj	_	_
+9	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+10	juste	juste	ADV	_	ADV___	11	case	_	_
+11	21	21	NUM	_	NUM__NumType=Card	7	nummod	_	_
+12	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	obj	_	_
+13	de	de	ADP	_	ADP___	11	case	_	_
+14	cp	cp	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	nmod	_	_
+15	et	et	CCONJ	_	CCONJ___	13	cc	_	_
+16	j'	il	PRON	_	PRON__Number=Sing|Person=1	13	nsubj	_	_
+17	ai	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	conj	_	_
+18	que	que	SCONJ	_	SCONJ___	19	fixed	_	_
+19	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+20	impression	impression	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	obj	_	_
+21	qu'	que	PRON	_	PRON__PronType=Rel	19	obj	_	_
+22	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	4	nsubj	_	_
+23	m'	se	PRON	_	PRON__Number=Sing|Person=1	26	iobj	_	_
+24	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+25	enrhumé	enrhumer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	acl:relcl	_	_
+26	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+27	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	obj	_	_
+28	de	de	ADP	_	ADP___	26	case	_	_
+29	CP	CP	PROPN	_	PROPN___	30	nmod	_	_
+30	.	.	PUNCT	_	PUNCT___	26	punct	_	_
+
+
+#(Vous avez toutes mes absences qui était des congés sans solde).
+1	(	(	PUNCT	_	PUNCT___	4	punct	_	_
+2	Vous	vous	PRON	_	PRON__Number=Plur|Person=2	4	nsubj	_	_
+3	avez	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	toutes	tout	ADJ	_	ADJ__Gender=Fem|Number=Plur	4	amod	_	_
+5	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	7	nmod:poss	_	_
+6	absences	absence	NOUN	_	NOUN__Gender=Fem|Number=Plur	7	obj	_	_
+7	qui	qui	PRON	_	PRON__PronType=Rel	4	nsubj	_	_
+8	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	cop	_	_
+9	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
+10	congés	congé	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	acl:relcl	_	_
+11	sans	sans	ADP	_	ADP___	7	case	_	_
+12	solde	solde	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+13	)	)	PUNCT	_	PUNCT___	11	punct	_	_
+14	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Perso je trouve avec cette technique : ((260-86 jours) / 20) *2.5= 21,75 soit 22 jours.
+1	Perso	Perso	PROPN	_	PROPN___	4	advmod	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+3	trouve	trouver	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	avec	avec	ADP	_	ADP___	4	case	_	_
+5	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+6	technique	technique	ADJ	_	ADJ__Number=Sing	7	obl	_	_
+7	:	:	PUNCT	_	PUNCT___	4	punct	_	_
+8	(	(	PUNCT	_	PUNCT___	11	punct	_	_
+9	(	(	PUNCT	_	PUNCT___	11	punct	_	_
+10	260	260	NUM	_	NUM__NumType=Card	11	nummod	_	_
+11	-	-	PUNCT	_	PUNCT___	7	punct	_	_
+12	86	86	NUM	_	NUM__NumType=Card	13	nummod	_	_
+13	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	obl	_	_
+14	)	)	PUNCT	_	PUNCT___	15	punct	_	_
+15	/	/	ADP	_	ADP___	13	case	_	_
+16	20	20	NUM	_	NUM__NumType=Card	13	conj	_	_
+17	)	)	PUNCT	_	PUNCT___	19	punct	_	_
+18	*	*	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	19	mark	_	_
+19	2.5=	2.5=	NUM	_	NUM__NumType=Card	16	nummod	_	_
+20	21,75	21,75	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	21	conj	_	_
+21	soit	être	CCONJ	_	CCONJ___	19	cc	_	_
+22	22	22	NUM	_	NUM__NumType=Card	4	nummod	_	_
+23	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	26	obl	_	_
+24	.	.	PUNCT	_	PUNCT___	26	punct	_	_
+
+
+#Avec celle-là : du 21/017 au 31/05/18 soit 247 jours calendaire de présence : ((247/7) /4)
+1	Avec	Avec	ADP	_	ADP___	4	case	_	_
+2	celle-là	celui-là	NOUN	_	NOUN__NumType=Card	0	ROOT	_	_
+3	:	:	PUNCT	_	PUNCT___	4	punct	_	_
+4	du	du	DET	_	DET__Gender=Masc|Number=Sing	4	det	_	_
+5	21/017	21/017	NOUN	_	NOUN__NumType=Card	7	nsubj	_	_
+6	au	au	VERB	_	VERB__Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	7	case	_	_
+7	31/05/18	31/05/18	NUM	_	NUM__NumType=Card	4	nmod	_	_
+8	soit	être	CCONJ	_	CCONJ___	11	cc	_	_
+9	247	247	NUM	_	NUM__NumType=Card	11	nummod	_	_
+10	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	acl:relcl	_	_
+11	calendaire	calendaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	amod	_	_
+12	de	de	ADP	_	ADP___	13	case	_	_
+13	présence	présence	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+14	:	:	PUNCT	_	PUNCT___	15	punct	_	_
+15	(	(	PUNCT	_	PUNCT___	13	punct	_	_
+16	(	(	PUNCT	_	PUNCT___	13	punct	_	_
+17	247/7	247/7	NOUN	_	NOUN__NumType=Card	19	appos	_	_
+18	)	)	PUNCT	_	PUNCT___	19	punct	_	_
+19	/4	/4	NOUN	_	NOUN___	16	nmod	_	_
+20	)	)	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#*2.5= 22.05 Et selon celle du nombre de jours effectif de travail : (175/20) *2.5=21.87 jours.
+1	*	*	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	cc	_	_
+2	2.5=	2.5=	NUM	_	NUM__NumType=Card	0	ROOT	_	_
+3	22.05	22.05	NOUN	_	NOUN__Gender=Masc	4	nummod	_	_
+4	Et	Et	CCONJ	_	CCONJ___	4	cc	_	_
+5	selon	selon	ADP	_	ADP___	7	case	_	_
+6	celle	celui	PRON	_	PRON__Gender=Fem|Number=Sing|PronType=Dem	7	obl	_	_
+7	du	du	DET	_	DET__Gender=Masc|Number=Sing	4	det	_	_
+8	nombre	nombre	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+9	de	de	ADP	_	ADP___	11	case	_	_
+10	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	nmod	_	_
+11	effectif	effectif	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	amod	_	_
+12	de	de	ADP	_	ADP___	13	case	_	_
+13	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+14	:	:	PUNCT	_	PUNCT___	15	punct	_	_
+15	(	(	PUNCT	_	PUNCT___	13	punct	_	_
+16	175/20	175/20	NOUN	_	NOUN__NumType=Card	13	appos	_	_
+17	)	)	PUNCT	_	PUNCT___	19	punct	_	_
+18	*	*	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	19	cop	_	_
+19	2.5=21.87	2.5=21.87	NUM	_	NUM__NumType=Card	16	nummod	_	_
+20	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	21	conj	_	_
+21	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Et eux ils trouvent 20.21
+1	Et	Et	CCONJ	_	CCONJ___	4	cc	_	_
+2	eux	lui	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3|PronType=Prs	0	ROOT	_	_
+3	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	4	nsubj	_	_
+4	trouvent	trouver	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+5	20.21	20.21	NUM	_	NUM__NumType=Card	7	nmod	_	_
+
+
+#arrondi à 21 donc il me manque 1 jour de congés au final .
+1	arrondi	arrondi	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+2	à	à	ADP	_	ADP___	4	case	_	_
+3	21	21	NUM	_	NUM__NumType=Card	4	nummod	_	_
+4	donc	donc	ADV	_	ADV___	4	obl	_	_
+5	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+6	me	se	PRON	_	PRON__Number=Sing|Person=1	7	iobj	_	_
+7	manque	manquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	1	1	NUM	_	NUM__NumType=Card	11	nummod	_	_
+9	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+10	de	de	ADP	_	ADP___	11	case	_	_
+11	congés	congé	ADJ	_	ADJ__Gender=Masc|Number=Plur	7	nmod	_	_
+12	au	au	PRON	_	PRON__PronType=Rel	13	obj	_	_
+13	final	final	ADJ	_	ADJ__Gender=Masc|Number=Sing	11	amod	_	_
+14	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Merci pour votre aide afin de savoir quelle est la bonne méthode à appliquer et comment se fait-il que cela ne soit pas toujours la même méthode appliquée ?
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	pour	pour	ADP	_	ADP___	4	case	_	_
+3	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+4	aide	aide	NOUN	_	NOUN__Number=Sing	4	nmod	_	_
+5	afin	afin	ADP	_	ADP___	7	mark	_	_
+6	de	de	ADP	_	ADP___	7	fixed	_	_
+7	savoir	savoir	VERB	_	VERB__VerbForm=Inf	4	advcl	_	_
+8	quelle	quel	DET	_	DET__Gender=Fem|Number=Sing|PronType=Int	11	nsubj	_	_
+9	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	bonne	bon	ADJ	_	ADJ__Gender=Fem|Number=Sing	7	amod	_	_
+12	méthode	méthode	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obj	_	_
+13	à	à	ADP	_	ADP___	11	mark	_	_
+14	appliquer	appliquer	VERB	_	VERB__VerbForm=Inf	15	acl	_	_
+15	et	et	CCONJ	_	CCONJ___	13	cc	_	_
+16	comment	comment	ADV	_	ADV__PronType=Int	13	advmod	_	_
+17	se	se	PRON	_	PRON__Person=3|Reflex=Yes	19	expl	_	_
+18	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	conj	_	_
+19	-	-	PUNCT	_	PUNCT___	16	punct	_	_
+20	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	21	iobj	_	_
+21	que	que	SCONJ	_	SCONJ___	19	fixed	_	_
+22	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	4	nsubj	_	_
+23	ne	ne	ADV	_	ADV__Polarity=Neg	26	advmod	_	_
+24	soit	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	fixed	_	_
+25	pas	pas	ADV	_	ADV__Polarity=Neg	26	advmod	_	_
+26	toujours	toujours	ADV	_	ADV___	26	advmod	_	_
+27	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	même	même	ADJ	_	ADJ__Number=Sing	26	amod	_	_
+29	méthode	méthode	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	obj	_	_
+30	appliquée	appliquer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	26	acl	_	_
+31	?	?	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#En vous remerciant.
+1	En	En	ADP	_	ADP___	4	mark	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	4	iobj	_	_
+3	remerciant	remercier	VERB	_	VERB__Tense=Pres|VerbForm=Part	0	ROOT	_	_
+4	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+

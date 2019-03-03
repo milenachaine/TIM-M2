@@ -1,0 +1,139 @@
+#autant pour mois j'avait mal calculer j'ai mis les 26h36 je crois en heure supp .
+1	autant	autant	ADV	_	ADV___	7	mark	_	_
+2	pour	pour	ADP	_	ADP___	3	case	_	_
+3	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	obl	_	_
+4	j'	il	PRON	_	PRON__Number=Sing|Person=1	7	nsubj	_	_
+5	avait	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+6	mal	mal	ADV	_	ADV___	7	advmod	_	_
+7	calculer	calculer	VERB	_	VERB__VerbForm=Inf	14	advcl	_	_
+8	j'	il	PRON	_	PRON__Number=Sing|Person=1	10	nsubj	_	_
+9	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	mis	mettre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	7	xcomp	_	_
+11	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	12	det	_	_
+12	26h36	26h36	NUM	_	NUM__NumType=Card	10	obj	_	_
+13	je	il	PRON	_	PRON__Number=Sing|Person=1	14	nsubj	_	_
+14	crois	croire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+15	en	en	ADP	_	ADP___	16	case	_	_
+16	heure	heure	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obl	_	_
+17	supp	supp	ADJ	_	ADJ__Number=Sing	16	amod	_	_
+18	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#semaine 1 : 35H00 + 2h00 supp
+1	semaine	semaine	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+2	1	1	NUM	_	NUM__NumType=Card	3	nummod	_	_
+3	:	:	PUNCT	_	PUNCT___	7	punct	_	_
+4	35H00	35h00	PRON	_	PRON__NumType=Card|PronType=Rel	0	ROOT	_	_
+5	+	+	ADP	_	ADP___	7	case	_	_
+6	2h00	2h00	NUM	_	NUM__NumType=Card	7	nmod	_	_
+7	supp	supp	ADJ	_	ADJ__Number=Sing	14	amod	_	_
+
+
+#Semaine 2 : 35h00 + 1h00 supp
+1	Semaine	semaine	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	2	2	NUM	_	NUM__NumType=Card	3	nummod	_	_
+3	:	:	PUNCT	_	PUNCT___	7	punct	_	_
+4	35h00	35h00	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	acl	_	_
+5	+	+	ADP	_	ADP___	7	case	_	_
+6	1h00	1h00	NOUN	_	NOUN__NumType=Card	7	nummod	_	_
+7	supp	supp	ADJ	_	ADJ__Number=Sing	14	nmod	_	_
+
+
+#Semaine 3 : 35h00 + 5h00 supp semaine 4 :
+1	Semaine	semaine	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	3	3	NUM	_	NUM__NumType=Card	3	nummod	_	_
+3	:	:	PUNCT	_	PUNCT___	7	punct	_	_
+4	35h00	35h00	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	acl	_	_
+5	+	+	ADP	_	ADP___	7	case	_	_
+6	5h00	5h00	NUM	_	NUM__NumType=Card	7	nmod	_	_
+7	supp	supp	ADJ	_	ADJ__Number=Sing	14	amod	_	_
+8	semaine	semaine	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+9	4	4	NUM	_	NUM__NumType=Card	10	nummod	_	_
+10	:	:	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#35H00 + 1h00 supp semaine 5 : 26H36 donc la il y a bien: 166h36 ( heures normal ) payer 9.88€ Brut 9h00 supplémentaire ( 25% ) = 12,35€ Brut + IFM & ICP payer pour le jour de aout / septembre / octobre J'ai enlever une heure d'heures supp car le boss a changer d'avis pour la semaine 3 il veux qu'ont face que 5h00 supp au lieu de
+1	35H00	35h00	PRON	_	PRON__NumType=Card|PronType=Rel	7	nsubj	_	_
+2	+	+	ADP	_	ADP___	3	case	_	_
+3	1h00	1h00	NOUN	_	NOUN__NumType=Card	7	nummod	_	_
+4	supp	supp	ADJ	_	ADJ__Number=Sing	7	nmod	_	_
+5	semaine	semaine	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+6	5	5	NUM	_	NUM__NumType=Card	7	nummod	_	_
+7	:	:	PUNCT	_	PUNCT___	14	punct	_	_
+8	26H36	26H36	NUM	_	NUM__NumType=Card	10	nummod	_	_
+9	donc	donc	ADV	_	ADV___	10	advmod	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+11	il	il	PRON	_	PRON__Number=Sing|Person=3	12	nsubj	_	_
+12	y	yu	PRON	_	PRON__Person=3	10	fixed	_	_
+13	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	fixed	_	_
+14	bien	bien	ADV	_	ADV___	14	advmod	_	_
+15	:	:	PUNCT	_	PUNCT___	16	punct	_	_
+16	166h36	166h36	NOUN	_	NOUN__NumType=Card	14	appos	_	_
+17	(	(	PUNCT	_	PUNCT___	16	punct	_	_
+18	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	14	appos	_	_
+19	normal	normal	ADJ	_	ADJ__Gender=Masc|Number=Sing	22	amod	_	_
+20	)	)	PUNCT	_	PUNCT___	19	punct	_	_
+21	payer	payer	VERB	_	VERB__VerbForm=Inf	19	ccomp	_	_
+22	9.88	9.88	NUM	_	NUM__NumType=Card	22	nummod	_	_
+23	€	€	CCONJ	_	CCONJ___	24	obj	_	_
+24	Brut	Brut	PROPN	_	PROPN__Gender=Masc|Number=Sing	22	nmod	_	_
+25	9h00	9h00	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	punct	_	_
+26	supplémentaire	supplémentaire	ADJ	_	ADJ__Number=Sing	26	obj	_	_
+27	(	(	PUNCT	_	PUNCT___	26	punct	_	_
+28	25	25	NUM	_	NUM__NumType=Card	26	nummod	_	_
+29	%	%	NOUN	_	NOUN__Gender=Masc	26	obl	_	_
+30	)	)	PUNCT	_	PUNCT___	31	punct	_	_
+31	=	=	VERB	_	VERB__Mood=Ind|Person=3|VerbForm=Fin	0	ROOT	_	_
+32	12,35	12,35	DET	_	DET___	29	obj	_	_
+33	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	33	obj	_	_
+34	Brut	Brut	PROPN	_	PROPN___	33	nmod	_	_
+35	+	+	ADP	_	ADP___	33	case	_	_
+36	IFM	ifm	NOUN	_	NOUN___	33	nmod	_	_
+37	&	&	CCONJ	_	CCONJ___	38	cc	_	_
+38	ICP	icp	NOUN	_	NOUN___	36	conj	_	_
+39	payer	payer	VERB	_	VERB__VerbForm=Inf	38	acl	_	_
+40	pour	pour	ADP	_	ADP___	38	case	_	_
+41	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+42	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	33	obl	_	_
+43	de	de	ADP	_	ADP___	73	case	_	_
+44	aout	aout	ADV	_	ADV___	46	nmod	_	_
+45	/	/	ADP	_	ADP___	46	case	_	_
+46	septembre	septembre	NOUN	_	NOUN__Gender=Masc|Number=Sing	43	nmod	_	_
+47	/	/	ADP	_	ADP___	46	case	_	_
+48	octobre	octobre	NOUN	_	NOUN__Gender=Masc|Number=Sing	47	nmod	_	_
+49	J'	il	PRON	_	PRON__Number=Sing|Person=1	43	nsubj	_	_
+50	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	43	aux	_	_
+51	enlever	enlever	VERB	_	VERB__VerbForm=Inf	50	acl:relcl	_	_
+52	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
+53	heure	heure	NOUN	_	NOUN__Gender=Fem|Number=Sing	63	obj	_	_
+54	d'	de	ADP	_	ADP___	53	case	_	_
+55	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	53	nmod	_	_
+56	supp	supp	ADJ	_	ADJ__Number=Sing	53	amod	_	_
+57	car	car	CCONJ	_	CCONJ___	53	cc	_	_
+58	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	53	det	_	_
+59	boss	boss	NOUN	_	NOUN__Gender=Masc|Number=Sing	53	nsubj	_	_
+60	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	53	aux	_	_
+61	changer	changer	VERB	_	VERB__VerbForm=Inf	60	conj	_	_
+62	d'	de	ADP	_	ADP___	53	case	_	_
+63	avis	avis	NOUN	_	NOUN__Gender=Masc|Number=Sing	50	obj	_	_
+64	pour	pour	ADP	_	ADP___	65	case	_	_
+65	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	63	det	_	_
+66	semaine	semaine	NOUN	_	NOUN__Gender=Fem|Number=Sing	65	obl	_	_
+67	3	3	NUM	_	NUM__NumType=Card	63	nummod	_	_
+68	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	63	nsubj	_	_
+69	veux	vouloir	ADJ	_	ADJ__Gender=Masc	63	advcl	_	_
+70	qu'	que	PRON	_	PRON__PronType=Rel	71	mark	_	_
+71	ont	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	63	advcl	_	_
+72	face	face	NOUN	_	NOUN__Gender=Fem|Number=Sing	63	mark	_	_
+73	que	que	SCONJ	_	SCONJ___	73	fixed	_	_
+74	5h00	5h00	PRON	_	PRON__Number=Sing|Person=1	73	advcl	_	_
+75	supp	supp	ADJ	_	ADJ__Number=Sing	73	amod	_	_
+76	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	75	amod	_	_
+77	lieu	lieu	NOUN	_	NOUN__Gender=Masc|Number=Sing	78	fixed	_	_
+78	de	de	ADP	_	ADP___	75	fixed	_	_
+
+
+#6
+1	6	6	NUM	_	NUM__NumType=Card	0	ROOT	_	_
+
+

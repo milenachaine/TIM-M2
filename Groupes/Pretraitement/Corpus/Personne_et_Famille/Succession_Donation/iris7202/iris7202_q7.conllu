@@ -1,0 +1,324 @@
+#Bonjour Rambotte
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	Rambotte	rambotte	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	flat:name	_	_
+
+
+#Merci de votre réponse, malheureusement personne ne dit la même chose
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	de	de	ADP	_	ADP___	1	case	_	_
+3	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	3	nmod:poss	_	_
+4	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+5	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+6	malheureusement	malheureusement	ADV	_	ADV___	3	advmod	_	_
+7	personne	personne	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+8	ne	ne	ADV	_	ADV___	9	advmod	_	_
+9	dit	dire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	xcomp	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	même	même	ADJ	_	ADJ__Number=Sing	9	amod	_	_
+12	chose	chose	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obj	_	_
+
+
+#....c'est pas facile (!)
+1	....	....	PUNCT	_	PUNCT___	1	punct	_	_
+2	c'	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+5	facile	facile	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+6	(	(	PUNCT	_	PUNCT___	3	punct	_	_
+7	!	!	PUNCT	_	PUNCT___	9	punct	_	_
+8	)	)	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Donc selon vous, le "brouillon" que j'avais préparé était acceptable ?
+1	Donc	donc	ADV	_	ADV___	1	advmod	_	_
+2	selon	selon	ADP	_	ADP___	1	case	_	_
+3	vous	vous	PRON	_	PRON__Number=Plur|Person=2|PronType=Prs	3	obl	_	_
+4	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	"	"	PUNCT	_	PUNCT___	3	punct	_	_
+7	brouillon	brouillon	ADJ	_	ADJ__Gender=Masc|Number=Sing	9	nsubj	_	_
+8	"	"	PUNCT	_	PUNCT___	9	punct	_	_
+9	que	que	SCONJ	_	SCONJ___	3	mark	_	_
+10	j'	il	PRON	_	PRON__Number=Sing|Person=1	11	nsubj	_	_
+11	avais	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+12	préparé	préparer	ADJ	_	ADJ__Gender=Masc|Number=Sing	14	acl	_	_
+13	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
+14	acceptable	acceptable	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+15	?	?	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#"""Ceci est mon testament Date xx/xx/2018 à xxxx à 00h00 Je soussigné xxxxx , retraité , demeurant au xxxxx né à xxxxx le, xxxxx Veuf , prends les dispositions testamentaires suivantes :
+1	"	"	PUNCT	_	PUNCT___	1	punct	_	_
+2	"	"	PUNCT	_	PUNCT___	1	punct	_	_
+3	"	"	PUNCT	_	PUNCT___	3	punct	_	_
+4	Ceci	ceci	PRON	_	PRON__Number=Sing|PronType=Dem	6	nsubj	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	3	nmod:poss	_	_
+7	testament	testament	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	advmod	_	_
+8	Date	Date	X	_	X___	9	nsubj	_	_
+9	xx	xx	PRON	_	PRON__PronType=Rel	3	dep	_	_
+10	/	/	CCONJ	_	CCONJ___	11	punct	_	_
+11	xx/2018	xx/2018	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	nmod	_	_
+12	à	à	ADP	_	ADP___	14	case	_	_
+13	xxxx	xxxx	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obl	_	_
+14	à	à	ADP	_	ADP___	11	case	_	_
+15	00h00	00h00	NUM	_	NUM__NumType=Card	19	nummod	_	_
+16	Je	il	PRON	_	PRON__Number=Sing|Person=1	19	obl	_	_
+17	soussigné	soussigné	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+18	xxxxx	xxxxx	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	obj	_	_
+19	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+20	retraité	retraiter	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	conj	_	_
+21	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+22	demeurant	demeurer	VERB	_	VERB__Tense=Pres|VerbForm=Part	19	acl	_	_
+23	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	36	det	_	_
+24	xxxxx	xxxxx	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	obl	_	_
+25	né	naître	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	36	acl	_	_
+26	à	à	ADP	_	ADP___	36	case	_	_
+27	xxxxx	xxxxx	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	obl	_	_
+28	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	iobj	_	_
+29	,	,	PUNCT	_	PUNCT___	36	punct	_	_
+30	xxxxx	xxxxx	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	obj	_	_
+31	Veuf	Veuf	PROPN	_	PROPN__Gender=Masc|Number=Sing	34	nmod	_	_
+32	,	,	PUNCT	_	PUNCT___	34	punct	_	_
+33	prends	prend	NOUN	_	NOUN__Gender=Masc|Number=Plur	34	conj	_	_
+34	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	29	det	_	_
+35	dispositions	disposition	NOUN	_	NOUN__Gender=Fem|Number=Plur	36	nmod	_	_
+36	testamentaires	testamentaire	ADJ	_	ADJ__Gender=Fem|Number=Plur	36	amod	_	_
+37	suivantes	suivant	ADJ	_	ADJ__Gender=Fem|Number=Plur	36	amod	_	_
+38	:	:	PUNCT	_	PUNCT___	45	punct	_	_
+
+
+#Je lègue à Mme xxxxx, adresse, née le xxxx à xxxxx (ma fille)
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	lègue	léguer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	à	à	ADP	_	ADP___	3	case	_	_
+4	Mme	mme	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obl	_	_
+5	xxxxx	xxxxx	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	flat:name	_	_
+6	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+7	adresse	adresse	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	conj	_	_
+8	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+9	née	naître	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+10	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	xxxx	xxxx	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+12	à	à	ADP	_	ADP___	14	case	_	_
+13	xxxxx	xxxxx	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nmod	_	_
+14	(	(	PUNCT	_	PUNCT___	11	punct	_	_
+15	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	19	nmod:poss	_	_
+16	fille	fille	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obl	_	_
+17	)	)	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Mme xxxxx adresse, née le xxxx à xxxx (ma fille)
+1	Mme	mme	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	advmod	_	_
+2	xxxxx	xxxxx	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	flat:name	_	_
+3	adresse	adresse	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	amod	_	_
+4	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+5	née	naître	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+7	xxxx	xxxx	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+8	à	à	ADP	_	ADP___	9	case	_	_
+9	xxxx	xxxx	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nmod	_	_
+10	(	(	PUNCT	_	PUNCT___	11	punct	_	_
+11	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	9	nmod:poss	_	_
+12	fille	fille	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obl	_	_
+13	)	)	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Mme xxxxxx adresse, née le xxxx à xxxx (ma fille)
+1	Mme	mme	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	advmod	_	_
+2	xxxxxx	xxxxxx	ADJ	_	ADJ__Number=Sing	1	amod	_	_
+3	adresse	adresse	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	amod	_	_
+4	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+5	née	naître	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+7	xxxx	xxxx	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+8	à	à	ADP	_	ADP___	9	case	_	_
+9	xxxx	xxxx	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nmod	_	_
+10	(	(	PUNCT	_	PUNCT___	11	punct	_	_
+11	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	9	nmod:poss	_	_
+12	fille	fille	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obl	_	_
+13	)	)	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Mr xxxxxx adresse, né le xxxx (mon fils)
+1	Mr	mr	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	xxxxxx	xxxxxx	ADJ	_	ADJ__Number=Sing	1	amod	_	_
+3	adresse	adresse	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	amod	_	_
+4	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+5	né	naître	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+7	xxxx	xxxx	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+8	(	(	PUNCT	_	PUNCT___	9	punct	_	_
+9	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	3	nmod:poss	_	_
+10	fils	fils	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obl	_	_
+11	)	)	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Tous les biens, solde des comptes bancaires, meubles et immeubles qui composent ma succession au jour de mon décès et je les nomme légataires universels.
+1	Tous	tou	ADJ	_	ADJ__Gender=Masc|Number=Plur	1	amod	_	_
+2	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+3	biens	bien	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+4	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+5	solde	solde	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	acl	_	_
+6	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	3	det	_	_
+7	comptes	compte	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	obj	_	_
+8	bancaires	bancaire	ADJ	_	ADJ__Number=Plur	9	amod	_	_
+9	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+10	meubles	meuble	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	conj	_	_
+11	et	et	CCONJ	_	CCONJ___	9	cc	_	_
+12	immeubles	immeuble	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	conj	_	_
+13	qui	qui	PRON	_	PRON__PronType=Rel	14	nsubj	_	_
+14	composent	composer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+15	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	19	nmod:poss	_	_
+16	succession	succession	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obj	_	_
+17	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	19	case	_	_
+18	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	nmod	_	_
+19	de	de	ADP	_	ADP___	19	case	_	_
+20	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	19	nmod:poss	_	_
+21	décès	décès	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	nmod	_	_
+22	et	et	CCONJ	_	CCONJ___	19	cc	_	_
+23	je	il	PRON	_	PRON__Number=Sing|Person=1	36	conj	_	_
+24	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	25	det	_	_
+25	nomme	nommer	ADV	_	ADV___	36	orphan	_	_
+26	légataires	légatair	ADJ	_	ADJ__Gender=Fem|Number=Plur	36	amod	_	_
+27	universels	universel	ADJ	_	ADJ__Gender=Masc|Number=Plur	29	amod	_	_
+28	.	.	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#Pour ordre entre eux, voici le détail de la répartition de ma succession : 0.1875 pour chacun d'entre eux (3/4 divisé par 4)
+1	Pour	Pour	ADP	_	ADP___	1	case	_	_
+2	ordre	ordre	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+3	entre	entrer	ADP	_	ADP___	3	case	_	_
+4	eux	lui	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	nmod	_	_
+5	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+6	voici	voici	VERB	_	VERB__Mood=Ind|VerbForm=Fin	0	ROOT	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	détail	détail	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+9	de	de	ADP	_	ADP___	3	case	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	répartition	répartition	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nmod	_	_
+12	de	de	ADP	_	ADP___	14	case	_	_
+13	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	14	nmod:poss	_	_
+14	succession	succession	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+15	:	:	PUNCT	_	PUNCT___	19	punct	_	_
+16	0.1875	0.1875	NOUN	_	NOUN__NumType=Card	19	iobj	_	_
+17	pour	pour	ADP	_	ADP___	19	case	_	_
+18	chacun	chacun	PRON	_	PRON__Gender=Masc|PronType=Rel	19	nmod	_	_
+19	d'	de	ADP	_	ADP___	19	case	_	_
+20	entre	entrer	ADP	_	ADP___	19	fixed	_	_
+21	eux	lui	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	nmod	_	_
+22	(	(	PUNCT	_	PUNCT___	19	punct	_	_
+23	3/4	3/4	NUM	_	NUM__NumType=Card	36	iobj	_	_
+24	divisé	diviser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	acl	_	_
+25	par	par	ADP	_	ADP___	36	case	_	_
+26	4	4	NUM	_	NUM__NumType=Card	36	obl	_	_
+27	)	)	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#Je lègue à mon fils et mes filles, légataires susnommées la quotité dont la loi me permet de disposer Mme (nom, prénom) bénéficie de 0.0625 sur 1/4 de la quotité Mme (nom, prénom) bénéficie de 0.0625 sur 1/4 de la quotité etc etc
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	lègue	léguer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	à	à	ADP	_	ADP___	3	case	_	_
+4	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+5	fils	fils	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obl	_	_
+6	et	et	CCONJ	_	CCONJ___	3	cc	_	_
+7	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	9	nmod:poss	_	_
+8	filles	fille	NOUN	_	NOUN__Gender=Fem|Number=Plur	9	conj	_	_
+9	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+10	légataires	légataire	NOUN	_	NOUN__Gender=Fem|Number=Plur	11	obj	_	_
+11	susnommées	susnommer	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	9	acl	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	quotité	quotité	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obl	_	_
+14	dont	dont	PRON	_	PRON__PronType=Rel	11	dep	_	_
+15	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+16	loi	loi	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	nsubj	_	_
+17	me	se	PRON	_	PRON__Number=Sing|Person=1	19	iobj	_	_
+18	permet	permettre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+19	de	de	ADP	_	ADP___	19	mark	_	_
+20	disposer	disposer	VERB	_	VERB__VerbForm=Inf	19	xcomp	_	_
+21	Mme	mme	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obj	_	_
+22	(	(	PUNCT	_	PUNCT___	19	punct	_	_
+23	nom	nom	NOUN	_	NOUN__Gender=Masc|Number=Sing	36	appos	_	_
+24	,	,	PUNCT	_	PUNCT___	25	punct	_	_
+25	prénom	prénom	NOUN	_	NOUN__Gender=Masc|Number=Sing	36	conj	_	_
+26	)	)	PUNCT	_	PUNCT___	36	punct	_	_
+27	bénéficie	bénéficier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	xcomp	_	_
+28	de	de	ADP	_	ADP___	29	case	_	_
+29	0.0625	0.0625	PRON	_	PRON__NumType=Card|PronType=Rel	36	obl	_	_
+30	sur	sur	ADP	_	ADP___	29	case	_	_
+31	1/4	1/4	PRON	_	PRON__NumType=Card|PronType=Rel	34	obl	_	_
+32	de	de	ADP	_	ADP___	34	case	_	_
+33	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	quotité	quotité	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	nmod	_	_
+35	Mme	mme	NOUN	_	NOUN__Gender=Fem|Number=Sing	36	nmod	_	_
+36	(	(	PUNCT	_	PUNCT___	36	punct	_	_
+37	nom	nom	NOUN	_	NOUN__Gender=Masc|Number=Sing	36	appos	_	_
+38	,	,	PUNCT	_	PUNCT___	45	punct	_	_
+39	prénom	prénom	NOUN	_	NOUN__Gender=Masc|Number=Sing	45	conj	_	_
+40	)	)	PUNCT	_	PUNCT___	45	punct	_	_
+41	bénéficie	bénéficier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	xcomp	_	_
+42	de	de	ADP	_	ADP___	45	case	_	_
+43	0.0625	0.0625	PRON	_	PRON__NumType=Card|PronType=Rel	45	obl	_	_
+44	sur	sur	ADP	_	ADP___	45	case	_	_
+45	1/4	1/4	PRON	_	PRON__NumType=Card|PronType=Rel	54	obl	_	_
+46	de	de	ADP	_	ADP___	45	case	_	_
+47	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+48	quotité	quotité	NOUN	_	NOUN__Gender=Fem|Number=Sing	45	nmod	_	_
+49	etc	etc	ADV	_	ADV___	50	advmod	_	_
+50	etc	etc	ADV	_	ADV___	45	advmod	_	_
+
+
+#Au cas où l'un de mes légataires susnommés viendrait à décéder avant moi, sa part dans ce legs appartiendra à ses descendants par représentation.
+1	Au	au	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	ROOT	_	_
+2	cas	cas	NOUN	_	NOUN__Gender=Masc	1	fixed	_	_
+3	où	où	PRON	_	PRON__PronType=Rel	3	iobj	_	_
+4	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+5	un	un	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	6	nsubj	_	_
+6	de	de	ADP	_	ADP___	3	case	_	_
+7	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	9	nmod:poss	_	_
+8	légataires	légataire	NOUN	_	NOUN__Gender=Fem|Number=Plur	9	nmod	_	_
+9	susnommés	susnommer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	amod	_	_
+10	viendrait	venir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	acl:relcl	_	_
+11	à	à	ADP	_	ADP___	9	mark	_	_
+12	décéder	décéder	VERB	_	VERB__VerbForm=Inf	14	xcomp	_	_
+13	avant	avant	ADP	_	ADP___	14	case	_	_
+14	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	11	obl	_	_
+15	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+16	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	19	nmod:poss	_	_
+17	part	part	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	appos	_	_
+18	dans	dan	ADP	_	ADP___	19	case	_	_
+19	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	19	det	_	_
+20	legs	legs	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obl	_	_
+21	appartiendra	appartenir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	19	amod	_	_
+22	à	à	ADP	_	ADP___	19	case	_	_
+23	ses	son	DET	_	DET__Number=Plur|Poss=Yes	36	nmod:poss	_	_
+24	descendants	descendant	NOUN	_	NOUN__Gender=Masc|Number=Plur	25	obl	_	_
+25	par	par	ADP	_	ADP___	36	case	_	_
+26	représentation	représentation	NOUN	_	NOUN__Gender=Fem|Number=Sing	36	obl	_	_
+27	.	.	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#Fait et écrit entièrement de ma main le xx/xx/2018 à xxxx à 00h00 [
+1	Fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	et	et	CCONJ	_	CCONJ___	1	cc	_	_
+3	écrit	écrire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+4	entièrement	entièrement	ADV	_	ADV___	6	advmod	_	_
+5	de	de	ADP	_	ADP___	6	case	_	_
+6	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	3	nmod:poss	_	_
+7	main	main	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obl	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	xx	xx	PROPN	_	PROPN__Gender=Masc|Number=Sing	3	obj	_	_
+10	/	/	CCONJ	_	CCONJ___	11	fixed	_	_
+11	xx/2018	xx/2018	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	nmod	_	_
+12	à	à	ADP	_	ADP___	14	case	_	_
+13	xxxx	xxxx	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nmod	_	_
+14	à	à	ADP	_	ADP___	11	case	_	_
+15	00h00	00h00	NUM	_	NUM__NumType=Card	19	obl	_	_
+16	[	[	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Signature]
+1	Signature	signature	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	]	]	PUNCT	_	PUNCT___	1	punct	_	_
+
+

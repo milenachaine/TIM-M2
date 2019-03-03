@@ -1,0 +1,77 @@
+#bonjour, merci pour votre réponse;
+1	bonjour	bonjour	NOUN	_	NOUN___	3	case	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	pour	pour	ADP	_	ADP___	6	case	_	_
+5	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+6	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nmod	_	_
+7	;	;	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#la maison est évaluée à 500 000€ et la valeur fiscale à 150 000€ : votre calcul se base bien sur la valeur fiscale ?
+1	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+4	évaluée	évaluer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+5	à	à	ADP	_	ADP___	6	case	_	_
+6	500	500	NUM	_	NUM__NumType=Card	3	nummod	_	_
+7	000	000	NUM	_	NUM__NumType=Card	3	nummod	_	_
+8	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	obl	_	_
+9	et	et	CCONJ	_	CCONJ___	11	cc	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	valeur	valeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	conj	_	_
+12	fiscale	fiscal	ADJ	_	ADJ__Gender=Fem|Number=Sing	15	amod	_	_
+13	à	à	ADP	_	ADP___	15	case	_	_
+14	150	150	NUM	_	NUM__NumType=Card	15	nummod	_	_
+15	000	000	NUM	_	NUM__NumType=Card	11	nummod	_	_
+16	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	18	obl	_	_
+17	:	:	PUNCT	_	PUNCT___	18	punct	_	_
+18	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	15	nmod:poss	_	_
+19	calcul	calcul	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nsubj	_	_
+20	se	se	PRON	_	PRON__Person=3|Reflex=Yes	23	obj	_	_
+21	base	baser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	parataxis	_	_
+22	bien	bien	ADV	_	ADV___	23	advmod	_	_
+23	sur	sur	ADP	_	ADP___	11	case	_	_
+24	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+25	valeur	valeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	obl	_	_
+26	fiscale	fiscal	ADJ	_	ADJ__Gender=Fem|Number=Sing	28	amod	_	_
+27	?	?	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#Par ailleurs, étant actuellement propriétaire d'une maison via un prêt immobilier, est-ce que je peux faire un prêt relai, pour racheter l'usufruit ?
+1	Par	Par	ADP	_	ADP___	3	advmod	_	_
+2	ailleurs	ailleurs	ADV	_	ADV___	3	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+4	étant	être	AUX	_	AUX__Tense=Pres|VerbForm=Part	6	cop	_	_
+5	actuellement	actuellement	ADV	_	ADV___	6	advmod	_	_
+6	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	0	ROOT	_	_
+7	d'	de	ADP	_	ADP___	3	case	_	_
+8	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obl	_	_
+10	via	via	ADP	_	ADP___	11	case	_	_
+11	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+12	prêt	prêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obl	_	_
+13	immobilier	immobilier	ADJ	_	ADJ__Gender=Masc|Number=Sing	15	amod	_	_
+14	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+15	est	être		_	VERB	11	advmod	_	_
+16	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	18	nsubj	_	_
+17	que	que	SCONJ	_	SCONJ___	18	mark	_	_
+18	je	il	PRON	_	PRON__Number=Sing|Person=1	15	nsubj	_	_
+19	peux	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	aux	_	_
+20	faire	faire	VERB	_	VERB__VerbForm=Inf	23	ccomp	_	_
+21	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	prêt	prêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	obj	_	_
+23	relai	relai	ADJ	_	ADJ__Gender=Masc|Number=Sing	11	amod	_	_
+24	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+25	pour	pour	ADP	_	ADP___	26	mark	_	_
+26	racheter	racheter	VERB	_	VERB__VerbForm=Inf	28	advcl	_	_
+27	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	28	det	_	_
+28	usufruit	usufruit	VERB	_	VERB__VerbForm=Inf	11	obj	_	_
+29	?	?	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#merci bcp
+1	merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	bcp	bcp	SCONJ	_	SCONJ___	3	amod	_	_
+
+

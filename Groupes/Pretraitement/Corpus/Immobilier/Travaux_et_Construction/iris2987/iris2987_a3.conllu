@@ -1,0 +1,102 @@
+#Bonjour,
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#- Lot Crépis : 9500,00€, payé 3264,00€. La sous-couche représente quel pourcentage de la prestation ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	Lot	lot	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	Crépis	Crépis	PROPN	_	PROPN___	4	flat:name	_	_
+4	:	:	PUNCT	_	PUNCT___	14	punct	_	_
+5	9500,00	9500,00	NUM	_	NUM__NumType=Card	4	appos	_	_
+6	€	€	NOUN	_	NOUN__Gender=Masc	4	nmod	_	_
+7	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+8	payé	payer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+9	3264,00€.	3264,00€.	PROPN	_	PROPN___	10	case	_	_
+10	La	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+11	sous-couche	sous-couche	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obj	_	_
+12	représente	représenter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+13	quel	quel	DET	_	DET__Gender=Masc|Number=Sing	10	det	_	_
+14	pourcentage	pourcentage	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obj	_	_
+15	de	de	ADP	_	ADP___	16	case	_	_
+16	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+17	prestation	prestation	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	nmod	_	_
+18	?	?	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Si c'est 50%, vous devez bien plus que 830€. - Pose et fourniture grilles : OK.
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	c'	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	50	50	NUM	_	NUM__NumType=Card	14	nummod	_	_
+5	%	%	NOUN	_	NOUN__Gender=Masc	4	advcl	_	_
+6	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+7	vous	vous	PRON	_	PRON__Number=Plur|Person=2	4	nsubj	_	_
+8	devez	devoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+9	bien	bien	ADV	_	ADV___	10	advmod	_	_
+10	plus	plus	ADV	_	ADV___	4	advmod	_	_
+11	que	que	SCONJ	_	SCONJ___	13	mark	_	_
+12	830€.	830€.	NUM	_	NUM__NumType=Card	13	ccomp	_	_
+13	-	-	PUNCT	_	PUNCT___	10	punct	_	_
+14	Pose	pose	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	conj	_	_
+15	et	et	CCONJ	_	CCONJ___	16	cc	_	_
+16	fourniture	fourniture	VERB	_	VERB__VerbForm=Inf	14	conj	_	_
+17	grilles	griller	PRON	_	PRON__Gender=Fem|Number=Plur|PronType=Rel	19	amod	_	_
+18	:	:	PUNCT	_	PUNCT___	19	punct	_	_
+19	OK	ok	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	appos	_	_
+20	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#- Plastique sur gouttière : 500,00€ pour enlever un plastique me semble un peu abusif, mais enfin à vous de voir.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	Plastique	plastique	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+3	sur	sur	ADP	_	ADP___	4	case	_	_
+4	gouttière	gouttière	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nmod	_	_
+5	:	:	PUNCT	_	PUNCT___	4	punct	_	_
+6	500,00	500,00	NUM	_	NUM__NumType=Card	4	nummod	_	_
+7	€	€	NOUN	_	NOUN__Gender=Masc	4	conj	_	_
+8	pour	pour	ADP	_	ADP___	7	mark	_	_
+9	enlever	enlever	VERB	_	VERB__VerbForm=Inf	10	acl	_	_
+10	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+11	plastique	plastique	ADJ	_	ADJ__Number=Sing	13	obj	_	_
+12	me	se	PRON	_	PRON__Number=Sing|Person=1	13	iobj	_	_
+13	semble	sembler	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+14	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+15	peu	peu	ADV	_	ADV___	16	advmod	_	_
+16	abusif	abusif	ADJ	_	ADJ__Gender=Masc|Number=Sing	14	acl:relcl	_	_
+17	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+18	mais	mais	CCONJ	_	CCONJ___	19	cc	_	_
+19	enfin	enfin	ADV	_	ADV___	16	conj	_	_
+20	à	à	ADP	_	ADP___	14	case	_	_
+21	vous	vous	PRON	_	PRON__Number=Plur|Person=2|Reflex=Yes	25	obl	_	_
+22	de	de	ADP	_	ADP___	25	mark	_	_
+23	voir	voir	VERB	_	VERB__VerbForm=Inf	25	acl	_	_
+24	.	.	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#- Je ne comprends pas votre histoire d'escompte de 3%, pouvez-vous éclaircir ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+3	ne	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+4	comprends	comprend	ADJ	_	ADJ__Gender=Masc|Number=Plur	14	advcl	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+6	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+7	histoire	histoire	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obj	_	_
+8	d'	de	ADP	_	ADP___	7	case	_	_
+9	escompte	escompter	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+10	de	de	ADP	_	ADP___	4	case	_	_
+11	3	3	NUM	_	NUM__NumType=Card	13	nummod	_	_
+12	%	%	NOUN	_	NOUN__Gender=Masc	13	nmod	_	_
+13	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+14	pouvez	pouvoir	ADJ	_	ADJ__Gender=Fem|Number=Plur	14	aux	_	_
+15	-	-	PUNCT	_	PUNCT___	16	punct	_	_
+16	vous	vous	PRON	_	PRON__Number=Plur|Person=2	14	expl	_	_
+17	éclaircir	éclaircir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+18	?	?	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Crdlt,
+1	Crdlt	crdlt	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+
+

@@ -1,0 +1,132 @@
+#Bonjour, Je souhaitais savoir comment est calculé l'ARE après une formation en apprentissage : sur la base des cotisations payées ou sur le salaire brut=net ?
+1	Bonjour	Bonjour	PROPN	_	PROPN___	8	nsubj	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	Je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+4	souhaitais	souhaiter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_
+5	savoir	savoir	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+6	comment	comment	ADV	_	ADV__PronType=Int	8	advmod	_	_
+7	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	calculé	calculer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+9	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	ARE	ARE	PROPN	_	PROPN__Number=Sing	8	obj	_	_
+11	après	après	ADP	_	ADP___	13	case	_	_
+12	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	formation	formation	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+14	en	en	ADP	_	ADP___	15	case	_	_
+15	apprentissage	apprentissage	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+16	:	:	PUNCT	_	PUNCT___	8	punct	_	_
+17	sur	sur	ADP	_	ADP___	19	case	_	_
+18	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	base	base	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+20	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	21	det	_	_
+21	cotisations	cotisation	NOUN	_	NOUN__Gender=Fem|Number=Plur	19	nmod	_	_
+22	payées	payer	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	21	acl	_	_
+23	ou	ou	CCONJ	_	CCONJ___	26	cc	_	_
+24	sur	sur	ADP	_	ADP___	26	case	_	_
+25	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	salaire	salaire	NOUN	_	NOUN__Number=Sing	19	conj	_	_
+27	brut	brut	ADJ	_	ADJ___	26	amod	_	_
+28	=	=	VERB	_	VERB__Mood=Ind|Person=3|VerbForm=Fin	27	advmod	_	_
+29	net	net	ADJ	_	ADJ__Gender=Masc|Number=Sing	28	obj	_	_
+30	?	?	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Mon salaire était de 718,66 .
+1	Mon	mon	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+2	salaire	salair	ADJ	_	ADJ__Number=Sing	4	nsubj	_	_
+3	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+4	de	de	ADP	_	ADP___	1	case	_	_
+5	718,66	718,66	PRON	_	PRON__NumType=Card|PronType=Rel	0	ROOT	_	_
+6	.	.	CCONJ	_	CCONJ___	8	amod	_	_
+
+
+#Mon ARE brute a été calculé sur la base des cotisations payées (38% du smic) et qui donne une ARE de 18,37  brut et 13,78  net.
+1	Mon	mon	DET	_	DET__Number=Sing|Poss=Yes	8	nsubj:pass	_	_
+2	ARE	ARE	PROPN	_	PROPN__Number=Sing	4	flat:name	_	_
+3	brute	brut	X	_	X___	4	flat:name	_	_
+4	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+5	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	4	aux:pass	_	_
+6	calculé	calculer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+7	sur	sur	ADP	_	ADP___	8	case	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+9	base	base	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obl	_	_
+10	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
+11	cotisations	cotisation	NOUN	_	NOUN__Gender=Fem|Number=Plur	13	obj	_	_
+12	payées	payé	ADJ	_	ADJ__Gender=Fem|Number=Plur	13	acl	_	_
+13	(	(	PUNCT	_	PUNCT___	8	punct	_	_
+14	38	38	NUM	_	NUM__NumType=Card	15	nummod	_	_
+15	%	%	NOUN	_	NOUN__Gender=Masc	13	nmod	_	_
+16	du	du	DET	_	DET__Gender=Masc|Number=Sing	8	det	_	_
+17	smic	smic	PROPN	_	PROPN__Gender=Masc|Number=Sing	19	nmod	_	_
+18	)	)	PUNCT	_	PUNCT___	19	punct	_	_
+19	et	et	CCONJ	_	CCONJ___	8	cc	_	_
+20	qui	qui	PRON	_	PRON__PronType=Rel	21	nsubj	_	_
+21	donne	donner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	conj	_	_
+22	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+23	ARE	are	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	obj	_	_
+24	de	de	ADP	_	ADP___	26	case	_	_
+25	18,37	18,37	NUM	_	NUM__NumType=Card	26	nmod	_	_
+26			ADJ	_	ADJ__Gender=Masc|Number=Plur|NumType=Ord	19	cop	_	_
+27	brut	brut	ADJ	_	ADJ__Gender=Masc|Number=Sing	26	obl	_	_
+28	et	et	CCONJ	_	CCONJ___	27	cc	_	_
+29	13,78	13,78	NUM	_	NUM__NumType=Card	28	conj	_	_
+30			DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	parataxis	_	_
+31	net	net	NOUN	_	NOUN__Gender=Masc|Number=Sing	32	advmod	_	_
+32	.	.	PUNCT	_	PUNCT___	35	punct	_	_
+
+
+#J'ai vu qu'on pouvait saisir un médiateur car l'ARE doit être calculée sur la totalité du salaire (brut =net).
+1	J'	il	PRON	_	PRON__Number=Sing|Person=1	8	nsubj	_	_
+2	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	vu	voir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	qu'	que	SCONJ	_	SCONJ___	1	mark	_	_
+5	on	on	PRON	_	PRON__Number=Sing|Person=3	4	nsubj	_	_
+6	pouvait	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+7	saisir	saisir	VERB	_	VERB__VerbForm=Inf	8	ccomp	_	_
+8	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+9	médiateur	médiateur	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+10	car	car	CCONJ	_	CCONJ___	8	cc	_	_
+11	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+12	ARE	ARE	PROPN	_	PROPN__Number=Sing	13	nsubj	_	_
+13	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+14	être	être	AUX	_	AUX__VerbForm=Inf	15	aux:pass	_	_
+15	calculée	calculer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	xcomp	_	_
+16	sur	sur	ADP	_	ADP___	8	case	_	_
+17	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	totalité	totalité	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obl	_	_
+19	du	du	DET	_	DET__Gender=Masc|Number=Sing	8	det	_	_
+20	salaire	salaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	amod	_	_
+21	(	(	PUNCT	_	PUNCT___	19	punct	_	_
+22	brut	brut	NOUN	_	NOUN__Gender=Masc|Number=Plur	21	appos	_	_
+23	=	=	VERB	_	VERB__Mood=Ind|Person=3|VerbForm=Fin	26	amod	_	_
+24	net	net	ADJ	_	ADJ__Gender=Masc|Number=Sing	26	obj	_	_
+25	)	)	PUNCT	_	PUNCT___	26	punct	_	_
+26	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Qu'en pensez vous ?
+1	Qu'	que	PRON	_	PRON__PronType=Int	8	obj	_	_
+2	en	en	PRON	_	PRON__Person=3	4	expl	_	_
+3	pensez	penser	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	amod	_	_
+4	vous	vous	PRON	_	PRON__Number=Plur|Person=2	0	ROOT	_	_
+5	?	?	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Le calcul est correct ?
+1	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+2	calcul	calcul	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	correct	correct	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+5	?	?	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Merci d'avance pour votre aide.
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	d'	de	ADP	_	ADP___	4	case	_	_
+3	avance	avance	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+4	pour	pour	ADP	_	ADP___	1	case	_	_
+5	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+6	aide	aide	NOUN	_	NOUN__Number=Sing	8	nmod	_	_
+7	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+

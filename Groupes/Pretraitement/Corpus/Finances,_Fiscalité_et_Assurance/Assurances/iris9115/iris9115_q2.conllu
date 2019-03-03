@@ -1,0 +1,101 @@
+#Bonjour Stéphane B
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	Stéphane	Stéphane	PROPN	_	PROPN___	1	flat:name	_	_
+3	B	b	NOUN	_	NOUN___	1	nmod	_	_
+
+
+#En faite, nous sommes séparés depuis 4 ans.
+1	En	En	ADP	_	ADP___	1	mark	_	_
+2	faite	fait	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	advcl	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	nous	nous	PRON	_	PRON__Number=Plur|Person=1	5	nsubj:pass	_	_
+5	sommes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+6	séparés	séparer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	ROOT	_	_
+7	depuis	depuis	ADP	_	ADP___	9	case	_	_
+8	4	4	NUM	_	NUM__NumType=Card	9	nummod	_	_
+9	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	obl	_	_
+10	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Il avait une assurance en son nom et c est moi qui réglé car j occupe la maison.
+1	Il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	avait	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+3	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+4	assurance	assurance	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obj	_	_
+5	en	en	ADP	_	ADP___	9	case	_	_
+6	son	son	DET	_	DET__Number=Sing|Poss=Yes	9	nmod:poss	_	_
+7	nom	nom	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nmod	_	_
+8	et	et	CCONJ	_	CCONJ___	9	cc	_	_
+9	c	c	NOUN	_	NOUN___	9	conj	_	_
+10	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	12	xcomp	_	_
+12	qui	qui	PRON	_	PRON__PronType=Rel	9	nsubj	_	_
+13	réglé	régler	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+14	car	car	CCONJ	_	CCONJ___	15	cc	_	_
+15	j	j	PUNCT	_	PUNCT___	15	nsubj	_	_
+16	occupe	occuper	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	conj	_	_
+17	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+18	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obj	_	_
+19	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#De ce fait, lorsque j ai changé l assurance (chez un autre assureur) je l ai informé pour qu il stoppe la sienne.
+1	De	De	ADP	_	ADP___	1	advmod	_	_
+2	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	1	fixed	_	_
+3	fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	fixed	_	_
+4	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+5	lorsque	lorsque	SCONJ	_	SCONJ___	9	mark	_	_
+6	j	j	PRON	_	PRON__PronType=Rel	9	fixed	_	_
+7	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	changé	changer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	advcl	_	_
+9	l	l	ADP	_	ADP___	9	det	_	_
+10	assurance	assurance	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obj	_	_
+11	(	(	PUNCT	_	PUNCT___	12	punct	_	_
+12	chez	chez	ADP	_	ADP___	9	case	_	_
+13	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+14	autre	autre	ADJ	_	ADJ__Number=Sing	15	amod	_	_
+15	assureur	assureur	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obl	_	_
+16	)	)	PUNCT	_	PUNCT___	17	punct	_	_
+17	je	il	PRON	_	PRON__Number=Sing|Person=1	15	nsubj	_	_
+18	l	l	PRON	_	PRON__Person=3	20	aux	_	_
+19	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	informé	informer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+21	pour	pour	ADP	_	ADP___	22	mark	_	_
+22	qu	qu	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	fixed	_	_
+23	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	24	nsubj	_	_
+24	stoppe	stopper	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+25	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	sienne	sien	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	obj	_	_
+27	.	.	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#Il m a laisse un message vocal m informant qu il avait arrêté son assurance, ouverte une autre en mon nom et communiqué mon rib perso
+1	Il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	m	m	PRON	_	PRON__Person=3	1	nsubj	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+4	laisse	laisser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+6	message	message	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+7	vocal	vocal	ADJ	_	ADJ__Gender=Masc|Number=Sing	9	amod	_	_
+8	m	m	NOUN	_	NOUN___	9	mark	_	_
+9	informant	informer	VERB	_	VERB__Tense=Pres|VerbForm=Part	9	acl	_	_
+10	qu	qu	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	mark	_	_
+11	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
+12	avait	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+13	arrêté	arrêter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	ccomp	_	_
+14	son	son	DET	_	DET__Number=Sing|Poss=Yes	15	nmod:poss	_	_
+15	assurance	assurance	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obj	_	_
+16	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+17	ouverte	ouvert	ADJ	_	ADJ__Gender=Fem|Number=Sing	15	conj	_	_
+18	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	autre	autre	ADJ	_	ADJ__Number=Sing	20	obj	_	_
+20	en	en	ADP	_	ADP___	17	case	_	_
+21	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	22	nmod:poss	_	_
+22	nom	nom	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obl	_	_
+23	et	et	CCONJ	_	CCONJ___	24	cc	_	_
+24	communiqué	communiquer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	conj	_	_
+25	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	26	nmod:poss	_	_
+26	rib	rib	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	obj	_	_
+27	perso	perso	ADJ	_	ADJ__Number=Sing	29	amod	_	_
+
+

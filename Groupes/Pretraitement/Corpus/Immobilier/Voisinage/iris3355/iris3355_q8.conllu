@@ -1,0 +1,167 @@
+#Bonjour à vous, Je ne sais pas comment gérer mes voisins.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	7	acl	_	_
+2	à	à	ADP	_	ADP___	3	case	_	_
+3	vous	vous	PRON	_	PRON__Number=Plur|Person=2|PronType=Prs	1	nmod	_	_
+4	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+5	Je	il	PRON	_	PRON__Number=Sing|Person=1	7	nsubj	_	_
+6	ne	ne	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+7	sais	savoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	pas	pas	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+9	comment	comment	ADV	_	ADV__PronType=Int	10	advmod	_	_
+10	gérer	gérer	VERB	_	VERB__VerbForm=Inf	7	ccomp	_	_
+11	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	12	nmod:poss	_	_
+12	voisins	voisin	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	obj	_	_
+13	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#..!
+1	..	..	PUNCT	_	PUNCT___	0	ROOT	_	_
+2	!	!	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Ils sont bornées .
+1	Ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	7	nsubj:pass	_	_
+2	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	bornées	borner	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+4	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#J'ai proposé d'acheter la petite parcelle(70m2) à côté de la parcelle qui m'a enclavé (acte).
+1	J'	il	PRON	_	PRON__Number=Sing|Person=1	7	nsubj	_	_
+2	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	proposé	proposer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	d'	de	ADP	_	ADP___	7	mark	_	_
+5	acheter	acheter	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	petite	petit	ADJ	_	ADJ__Gender=Fem|Number=Sing	7	amod	_	_
+8	parcelle(70m2	parcelle(70m2	PROPN	_	PROPN__Gender=Masc|Number=Sing	7	obj	_	_
+9	)	)	PUNCT	_	PUNCT___	10	punct	_	_
+10	à	à	ADP	_	ADP___	7	case	_	_
+11	côté	côté	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	fixed	_	_
+12	de	de	ADP	_	ADP___	10	fixed	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+14	parcelle	parcelle	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obl	_	_
+15	qui	qui	PRON	_	PRON__PronType=Rel	14	nsubj	_	_
+16	m'	se	PRON	_	PRON__Number=Sing|Person=1	18	obj	_	_
+17	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	enclavé	enclaver	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	acl:relcl	_	_
+19	(	(	PUNCT	_	PUNCT___	18	punct	_	_
+20	acte	acte	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	appos	_	_
+21	)	)	PUNCT	_	PUNCT___	22	punct	_	_
+22	.	.	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#C'est une butte inutilisée et inutilisable, mon offre était exceptionnelle 3000eur , tous les frais notaire, tout les travaux à ma charge + aménagement petite place de parking sous rampe d'accès.
+1	C'	ce	PRON	_	PRON__Number=Sing|Person=3	7	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+4	butte	butte	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+5	inutilisée	inutiliser	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+6	et	et	CCONJ	_	CCONJ___	7	cc	_	_
+7	inutilisable	inutilisable	ADJ	_	ADJ__Number=Sing	7	conj	_	_
+8	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+9	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+10	offre	offre	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nsubj	_	_
+11	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	cop	_	_
+12	exceptionnelle	exceptionnel	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	amod	_	_
+13	3000eur	3000eur	NUM	_	NUM__NumType=Card	7	conj	_	_
+14	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+15	tous	tou	ADJ	_	ADJ__Gender=Masc|Number=Plur	14	amod	_	_
+16	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	18	det	_	_
+17	frais	frais	NOUN	_	NOUN__Gender=Masc|Number=Plur	18	appos	_	_
+18	notaire	notair	ADJ	_	ADJ__Number=Sing	18	amod	_	_
+19	,	,	PUNCT	_	PUNCT___	18	punct	_	_
+20	tout	tout	ADV	_	ADV___	22	amod	_	_
+21	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	22	det	_	_
+22	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	22	nmod	_	_
+23	à	à	ADP	_	ADP___	24	case	_	_
+24	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	22	nmod:poss	_	_
+25	charge	charge	NOUN	_	NOUN__Gender=Fem|Number=Sing	27	nmod	_	_
+26	+	+	ADP	_	ADP___	27	case	_	_
+27	aménagement	aménagement	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	advmod	_	_
+28	petite	petit	ADJ	_	ADJ__Gender=Fem|Number=Sing	22	amod	_	_
+29	place	place	NOUN	_	NOUN__Gender=Fem|Number=Sing	33	nmod	_	_
+30	de	de	ADP	_	ADP___	29	case	_	_
+31	parking	parking	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	nmod	_	_
+32	sous	sou	ADP	_	ADP___	33	case	_	_
+33	rampe	rampe	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	nmod	_	_
+34	d'	de	ADP	_	ADP___	37	case	_	_
+35	accès	accès	NOUN	_	NOUN__Gender=Masc|Number=Sing	37	nmod	_	_
+36	.	.	PUNCT	_	PUNCT___	37	punct	_	_
+
+
+#J'ose pas me lancer dans des procédures.
+1	J'	il	PRON	_	PRON__Number=Sing|Person=1	7	nsubj	_	_
+2	ose	oser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	pas	pas	ADV	_	ADV___	1	advmod	_	_
+4	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	7	expl	_	_
+5	lancer	lancer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+6	dans	dan	ADP	_	ADP___	7	case	_	_
+7	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
+8	procédures	procédure	NOUN	_	NOUN__Gender=Fem|Number=Plur	7	obl	_	_
+9	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#C'est un village d'anciens , tout le monde est de mèche avec la mairie, les cousins, les voisins, etc...
+1	C'	ce	PRON	_	PRON__Number=Sing|Person=3	7	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+4	village	village	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	d'	de	ADP	_	ADP___	7	case	_	_
+6	anciens	ancien	ADJ	_	ADJ__Gender=Masc|Number=Plur	7	nmod	_	_
+7	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+8	tout	tout	ADJ	_	ADJ__Gender=Masc|Number=Sing	7	amod	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	monde	monde	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nsubj	_	_
+11	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	de	de	ADP	_	ADP___	10	case	_	_
+13	mèche	mèche	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	acl:relcl	_	_
+14	avec	avec	ADP	_	ADP___	14	case	_	_
+15	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+16	mairie	mairie	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	obl	_	_
+17	,	,	PUNCT	_	PUNCT___	18	punct	_	_
+18	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	18	det	_	_
+19	cousins	cousin	NOUN	_	NOUN__Gender=Masc|Number=Plur	18	conj	_	_
+20	,	,	PUNCT	_	PUNCT___	22	punct	_	_
+21	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	22	det	_	_
+22	voisins	voisin	NOUN	_	NOUN__Gender=Masc|Number=Plur	22	conj	_	_
+23	,	,	PUNCT	_	PUNCT___	24	punct	_	_
+24	etc	etc	ADV	_	ADV___	22	advmod	_	_
+25	...	...	PUNCT	_	PUNCT___	27	punct	_	_
+
+
+#Je suis le touriste qui vient perturber les esprits à cause de ma fichue voiture ......qui veux monter chez moi ! !!!
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	7	nsubj	_	_
+2	suis	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+4	touriste	touriste	NOUN	_	NOUN__Number=Sing	0	ROOT	_	_
+5	qui	qui	PRON	_	PRON__PronType=Rel	7	nsubj	_	_
+6	vient	venir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+7	perturber	perturber	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+8	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+9	esprits	esprit	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	obj	_	_
+10	à	à	ADP	_	ADP___	7	advmod	_	_
+11	cause	cause	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	fixed	_	_
+12	de	de	ADP	_	ADP___	10	case	_	_
+13	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	7	nmod:poss	_	_
+14	fichue	fichu	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nmod	_	_
+15	voiture	voitur	ADJ	_	ADJ__Gender=Fem|Number=Sing	14	amod	_	_
+16	......	......	PUNCT	_	PUNCT___	18	punct	_	_
+17	qui	qui	PRON	_	PRON__PronType=Rel	18	nsubj	_	_
+18	veux	vouloir	ADJ	_	ADJ__Gender=Masc	18	aux	_	_
+19	monter	monter	VERB	_	VERB__VerbForm=Inf	18	acl:relcl	_	_
+20	chez	chez	ADP	_	ADP___	22	case	_	_
+21	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	22	obl	_	_
+22	!	!	PUNCT	_	PUNCT___	22	punct	_	_
+23	!	!	PUNCT	_	PUNCT___	24	punct	_	_
+24	!	!	PUNCT	_	PUNCT___	22	punct	_	_
+25	!	!	PUNCT	_	PUNCT___	27	punct	_	_
+
+
+#Bonne journée les amis
+1	Bonne	bon	ADJ	_	ADJ__Gender=Fem|Number=Sing	7	amod	_	_
+2	journée	journée	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+4	amis	ami	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	obj	_	_
+
+

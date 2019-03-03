@@ -1,0 +1,209 @@
+#Bonjour, Je suis associé unique et gérant d'une EURL imposée à l'IS (appelons
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj:pass	_	_
+4	suis	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	associé	associer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+6	unique	unique	ADJ	_	ADJ__Number=Sing	5	amod	_	_
+7	et	et	CCONJ	_	CCONJ___	8	cc	_	_
+8	gérant	gérer	VERB	_	VERB__Tense=Pres|VerbForm=Part	6	conj	_	_
+9	d'	de	ADP	_	ADP___	11	case	_	_
+10	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	EURL	eurl	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obl	_	_
+12	imposée	imposer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
+13	à	à	ADP	_	ADP___	15	case	_	_
+14	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	IS	i	NOUN	_	NOUN__Number=Sing	12	obl	_	_
+16	(	(	PUNCT	_	PUNCT___	11	punct	_	_
+17	appelons	appelon	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	nmod	_	_
+
+
+#-la entreprise A).
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+3	entreprise	entreprise	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	A	a	NOUN	_	NOUN___	5	nmod	_	_
+5	)	)	PUNCT	_	PUNCT___	1	punct	_	_
+6	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#L'activité de A est la vente de biens pour les professionnels.
+1	L'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+2	activité	activité	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+3	de	de	ADP	_	ADP___	5	case	_	_
+4	A	a	NOUN	_	NOUN___	5	nmod	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+7	vente	vente	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+8	de	de	ADP	_	ADP___	6	case	_	_
+9	biens	bien	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	nmod	_	_
+10	pour	pour	ADP	_	ADP___	11	case	_	_
+11	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+12	professionnels	professionnel	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	nmod	_	_
+13	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Je suis inscrit au RSI et je cotise en tant que TNS suivant les rémunérations que je reçois de A. Suite à des problèmes de santé (manutention de + de 20kg devenue compliquée voir impossible) je vais sans doute devoir liquider A. Je souhaite créer une autre structure juridique (appelons
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	suis	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
+3	inscrit	inscrire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	au	au	PRON	_	PRON__PronType=Int	5	case	_	_
+5	RSI	RSI	PROPN	_	PROPN___	1	obl	_	_
+6	et	et	CCONJ	_	CCONJ___	5	cc	_	_
+7	je	il	PRON	_	PRON__Number=Sing|Person=1	8	nsubj	_	_
+8	cotise	cotiser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	conj	_	_
+9	en	en	ADP	_	ADP___	11	case	_	_
+10	tant	tant	ADV	_	ADV___	11	fixed	_	_
+11	que	que	SCONJ	_	SCONJ___	5	fixed	_	_
+12	TNS	TNS	PROPN	_	PROPN___	11	obl	_	_
+13	suivant	suivre	VERB	_	VERB__Tense=Pres|VerbForm=Part	15	acl	_	_
+14	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	15	det	_	_
+15	rémunérations	rémunération	NOUN	_	NOUN__Gender=Fem|Number=Plur	12	obj	_	_
+16	que	que	PRON	_	PRON__PronType=Rel	11	obj	_	_
+17	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+18	reçois	recevoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+19	de	de	ADP	_	ADP___	20	case	_	_
+20	A.	a.	VERB	_	VERB__VerbForm=Inf	20	obl	_	_
+21	Suite	suite	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	flat:name	_	_
+22	à	à	ADP	_	ADP___	20	case	_	_
+23	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	20	det	_	_
+24	problèmes	problème	NOUN	_	NOUN__Gender=Masc|Number=Plur	25	obl	_	_
+25	de	de	ADP	_	ADP___	30	case	_	_
+26	santé	santé	NOUN	_	NOUN__Gender=Fem|Number=Sing	27	nmod	_	_
+27	(	(	PUNCT	_	PUNCT___	25	punct	_	_
+28	manutention	manutention	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	obl	_	_
+29	de	de	ADP	_	ADP___	30	case	_	_
+30	+	+	ADP	_	ADP___	30	case	_	_
+31	de	de	ADP	_	ADP___	32	case	_	_
+32	20	20	NUM	_	NUM__NumType=Card	30	nummod	_	_
+33	kg	kg	NOUN	_	NOUN___	35	nmod	_	_
+34	devenue	devenir	AUX	_	AUX__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	35	aux:pass	_	_
+35	compliquée	compliqué	ADJ	_	ADJ__Gender=Fem|Number=Sing	30	acl	_	_
+36	voir	voir	VERB	_	VERB__VerbForm=Inf	30	amod	_	_
+37	impossible	impossible	ADJ	_	ADJ__Number=Sing	39	obj	_	_
+38	)	)	PUNCT	_	PUNCT___	39	punct	_	_
+39	je	il	PRON	_	PRON__Number=Sing|Person=1	39	nsubj	_	_
+40	vais	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	41	conj	_	_
+41	sans	sans	ADP	_	ADP___	39	advmod	_	_
+42	doute	doute	NOUN	_	NOUN__Gender=Masc|Number=Sing	44	fixed	_	_
+43	devoir	devoir	AUX	_	AUX__VerbForm=Inf	44	aux	_	_
+44	liquider	liquider	VERB	_	VERB__VerbForm=Inf	39	xcomp	_	_
+45	A.	a.	NOUN	_	NOUN__Gender=Masc|Number=Sing	48	obj	_	_
+46	Je	il	PRON	_	PRON__Number=Sing|Person=1	45	flat:name	_	_
+47	souhaite	souhaiter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	45	advcl	_	_
+48	créer	créer	VERB	_	VERB__VerbForm=Inf	44	xcomp	_	_
+49	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+50	autre	autre	ADJ	_	ADJ__Number=Sing	51	amod	_	_
+51	structure	structure	NOUN	_	NOUN__Gender=Fem|Number=Sing	49	obj	_	_
+52	juridique	juridique	ADJ	_	ADJ__Number=Sing	54	amod	_	_
+53	(	(	PUNCT	_	PUNCT___	54	punct	_	_
+54	appelons	appelon	NOUN	_	NOUN__Gender=Fem|Number=Plur	51	appos	_	_
+
+
+#-la entreprise B) afin de vendre des prestations de conseil (activité non réglementée).
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+3	entreprise	entreprise	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	B	b	NOUN	_	NOUN___	5	nmod	_	_
+5	)	)	PUNCT	_	PUNCT___	1	punct	_	_
+6	afin	afin	ADP	_	ADP___	5	mark	_	_
+7	de	de	ADP	_	ADP___	8	fixed	_	_
+8	vendre	vendre	VERB	_	VERB__VerbForm=Inf	6	acl	_	_
+9	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
+10	prestations	prestation	NOUN	_	NOUN__Gender=Fem|Number=Plur	11	obj	_	_
+11	de	de	ADP	_	ADP___	5	case	_	_
+12	conseil	conseil	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+13	(	(	PUNCT	_	PUNCT___	15	punct	_	_
+14	activité	activité	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	appos	_	_
+15	non	non	ADV	_	ADV___	12	advmod	_	_
+16	réglementée	réglementer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
+17	)	)	PUNCT	_	PUNCT___	1	punct	_	_
+18	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Je souhaiterais que B soit imposée à l'IR micro-social non assujetti à la TVA.
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	souhaiterais	souhaiter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	que	que	SCONJ	_	SCONJ___	5	mark	_	_
+4	B	b	NOUN	_	NOUN___	5	ccomp	_	_
+5	soit	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
+6	imposée	imposer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	conj	_	_
+7	à	à	ADP	_	ADP___	8	case	_	_
+8	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+9	IR	IR	PROPN	_	PROPN__Number=Sing	11	obl	_	_
+10	micro-social	micro-social	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	amod	_	_
+11	non	non	ADV	_	ADV___	5	advmod	_	_
+12	assujetti	assujetti	ADJ	_	ADJ__Number=Sing	11	amod	_	_
+13	à	à	ADP	_	ADP___	15	case	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	TVA	TVA	PROPN	_	PROPN__Gender=Fem|Number=Sing	12	obl	_	_
+16	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Est-ce possible de cumuler l'entreprise A et l'entreprise B ?
+1	Est	être		_	VERB	1	nsubj	_	_
+2	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+3	possible	possible	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+4	de	de	ADP	_	ADP___	5	mark	_	_
+5	cumuler	cumuler	VERB	_	VERB__VerbForm=Inf	1	xcomp	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+7	entreprise	entreprise	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+8	A	a	NOUN	_	NOUN___	6	nmod	_	_
+9	et	et	CCONJ	_	CCONJ___	11	cc	_	_
+10	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	entreprise	entreprise	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	conj	_	_
+12	B	b	NOUN	_	NOUN___	11	nmod	_	_
+13	?	?	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#B serait une EIRL à l'IR par exemple.
+1	B	b	NOUN	_	NOUN___	1	nsubj	_	_
+2	serait	être	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	EIRL	eirl	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+5	à	à	ADP	_	ADP___	1	case	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+7	IR	IR	PROPN	_	PROPN__Number=Sing	8	nmod	_	_
+8	par	par	ADP	_	ADP___	6	advmod	_	_
+9	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	fixed	_	_
+10	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Dois
+1	Dois	Dois	NUM	_	NUM__NumType=Card	0	ROOT	_	_
+
+
+#-je attendre de liquider A pour créer B ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+3	attendre	attendre	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	de	de	ADP	_	ADP___	5	mark	_	_
+5	liquider	liquider	VERB	_	VERB__VerbForm=Inf	1	xcomp	_	_
+6	A	a	NOUN	_	NOUN___	5	obj	_	_
+7	pour	pour	ADP	_	ADP___	8	mark	_	_
+8	créer	créer	VERB	_	VERB__VerbForm=Inf	6	xcomp	_	_
+9	B	b	NOUN	_	NOUN___	11	obj	_	_
+10	?	?	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Merci d'avance pour vos suggestions, vos réponses, ou vos questions si besoin d'éclaircissements.
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	d'	de	ADP	_	ADP___	1	case	_	_
+3	avance	avance	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+4	pour	pour	ADP	_	ADP___	5	case	_	_
+5	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	1	nmod:poss	_	_
+6	suggestions	suggestion	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	nmod	_	_
+7	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+8	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	6	nmod:poss	_	_
+9	réponses	réponse	NOUN	_	NOUN__Gender=Fem|Number=Plur	11	conj	_	_
+10	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+11	ou	ou	CCONJ	_	CCONJ___	5	cc	_	_
+12	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	11	nmod:poss	_	_
+13	questions	question	NOUN	_	NOUN__Gender=Fem|Number=Plur	15	conj	_	_
+14	si	si	SCONJ	_	SCONJ___	15	case	_	_
+15	besoin	besoin	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nmod	_	_
+16	d'	de	ADP	_	ADP___	11	case	_	_
+17	éclaircissements	éclaircissement	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	nmod	_	_
+18	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+

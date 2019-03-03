@@ -1,0 +1,97 @@
+#Bonjour, Oui, tout à fait.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	Oui	Oui	PROPN	_	PROPN__Gender=Masc|Number=Sing	1	conj	_	_
+4	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+5	tout	tout	ADV	_	ADV___	4	fixed	_	_
+6	à	à	ADP	_	ADP___	5	fixed	_	_
+7	fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	fixed	_	_
+8	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Il faut le demander à l'employeur.
+1	Il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	obj	_	_
+4	demander	demander	VERB	_	VERB__VerbForm=Inf	1	xcomp	_	_
+5	à	à	ADP	_	ADP___	4	case	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+7	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+8	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#En cas de refus, aux prud'hommes.
+1	En	En	ADP	_	ADP___	1	case	_	_
+2	cas	cas	NOUN	_	NOUN__Gender=Masc	3	fixed	_	_
+3	de	de	ADP	_	ADP___	1	fixed	_	_
+4	refus	refus	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+6	aux	aux	ADP	_	ADP___	5	conj	_	_
+7	prud'hommes	prud'homme	NOUN	_	NOUN__Number=Plur	5	nmod	_	_
+8	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Vous avez une prescription triennale qui court à partir de la fin de chaque période de prise des congés.
+1	Vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+2	avez	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+4	prescription	prescription	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obj	_	_
+5	triennale	triennal	ADJ	_	ADJ__Gender=Fem|Number=Sing	4	amod	_	_
+6	qui	qui	PRON	_	PRON__PronType=Rel	5	case	_	_
+7	court	courir	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	fixed	_	_
+8	à	à	ADP	_	ADP___	1	case	_	_
+9	partir	partir	VERB	_	VERB__VerbForm=Inf	10	fixed	_	_
+10	de	de	ADP	_	ADP___	10	fixed	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	fin	fin	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	fixed	_	_
+13	de	de	ADP	_	ADP___	15	case	_	_
+14	chaque	chaque	DET	_	DET__Number=Sing	15	det	_	_
+15	période	période	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+16	de	de	ADP	_	ADP___	10	case	_	_
+17	prise	prise	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	nmod	_	_
+18	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	17	det	_	_
+19	congés	congé	NOUN	_	NOUN__Gender=Masc|Number=Plur	17	nmod	_	_
+20	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Donc, jusqu'au 31 mai 2019, vous pouvez réclamer les indemnités des congés des années 2015
+1	Donc	donc	ADV	_	ADV___	1	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	jusqu'	jusque	ADP	_	ADP___	1	case	_	_
+4	au	au	NOUN	_	NOUN__Gender=Masc	1	fixed	_	_
+5	31	31	NUM	_	NUM__NumType=Card	4	nummod	_	_
+6	mai	mai	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+7	2019	2019	NUM	_	NUM__NumType=Card	5	nummod	_	_
+8	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+9	vous	vous	PRON	_	PRON__Number=Plur|Person=2	10	nsubj	_	_
+10	pouvez	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	10	aux	_	_
+11	réclamer	réclamer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+12	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	10	det	_	_
+13	indemnités	indemnité	NOUN	_	NOUN__Gender=Fem|Number=Plur	15	obj	_	_
+14	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	15	det	_	_
+15	congés	congé	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	obj	_	_
+16	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
+17	années	année	NOUN	_	NOUN__Gender=Fem|Number=Plur	20	obj	_	_
+18	2015	2015	NUM	_	NUM__NumType=Card	17	nummod	_	_
+
+
+#-2016, 2016
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	2016	2016	NUM	_	NUM__NumType=Card	3	nummod	_	_
+3	,	,	PUNCT	_	PUNCT___	0	ROOT	_	_
+4	2016	2016	NUM	_	NUM__NumType=Card	1	punct	_	_
+
+
+#-2017, 2017
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	2017	2017	NUM	_	NUM__NumType=Card	3	nummod	_	_
+3	,	,	PUNCT	_	PUNCT___	0	ROOT	_	_
+4	2017	2017	NUM	_	NUM__NumType=Card	1	nummod	_	_
+
+
+#-2018.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	2018	2018	NUM	_	NUM__NumType=Card	0	ROOT	_	_
+3	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+

@@ -1,0 +1,108 @@
+#Bonjour, Quel âge ont vos parents et quel est leur état de santé ?
+1	Bonjour	Bonjour	PROPN	_	PROPN___	4	case	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	Quel	quel	DET	_	DET__Gender=Masc|Number=Sing	4	det	_	_
+4	âge	âge	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+5	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	7	nmod:poss	_	_
+7	parents	parent	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	obj	_	_
+8	et	et	CCONJ	_	CCONJ___	12	cc	_	_
+9	quel	quel	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	12	nsubj	_	_
+10	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	fixed	_	_
+11	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	12	nmod:poss	_	_
+12	état	état	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	conj	_	_
+13	de	de	ADP	_	ADP___	14	case	_	_
+14	santé	santé	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+15	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Les mensualités du crédit sont
+1	Les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+2	mensualités	mensualité	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+3	du	du	DET	_	DET__Gender=Masc|Number=Sing	4	det	_	_
+4	crédit	crédit	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+5	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	advmod	_	_
+
+
+#-elles disproportionnées par rapport à leurs revenus ?
+1	-	-	PUNCT	_	PUNCT___	4	punct	_	_
+2	elles	lui	PRON	_	PRON__Gender=Fem|Number=Plur|Person=3	0	ROOT	_	_
+3	disproportionnées	disproportionner	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
+4	par	par	ADP	_	ADP___	5	case	_	_
+5	rapport	rapport	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	fixed	_	_
+6	à	à	ADP	_	ADP___	7	fixed	_	_
+7	leurs	leur	DET	_	DET__Number=Plur|Poss=Yes	5	nmod:poss	_	_
+8	revenus	revenu	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	obl	_	_
+9	?	?	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Comme vous le soulignez, ils auraient du lire avant de signer.
+1	Comme	Comme	SCONJ	_	SCONJ___	4	case	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	4	nsubj	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	soulignez	souligner	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+6	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	7	nsubj	_	_
+7	auraient	avoir	AUX	_	AUX__Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+8	du	du	DET	_	DET__Gender=Masc|Number=Sing	12	det	_	_
+9	lire	lire	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	acl:relcl	_	_
+10	avant	avant	ADP	_	ADP___	9	mark	_	_
+11	de	de	ADP	_	ADP___	12	fixed	_	_
+12	signer	signer	VERB	_	VERB__VerbForm=Inf	5	acl	_	_
+13	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Sauf à pouvoir montrer qu'ils n'étaient pas en capacité de le faire...
+1	Sauf	Sauf	ADP	_	ADP___	4	mark	_	_
+2	à	à	ADP	_	ADP___	4	mark	_	_
+3	pouvoir	pouvoir	AUX	_	AUX__VerbForm=Inf	4	aux	_	_
+4	montrer	montrer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	qu'	que	SCONJ	_	SCONJ___	5	mark	_	_
+6	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	7	nsubj	_	_
+7	n'	ne	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+8	étaient	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	12	cop	_	_
+9	pas	pas	ADV	_	ADV__Polarity=Neg	12	fixed	_	_
+10	en	en	ADP	_	ADP___	9	case	_	_
+11	capacité	capacité	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	ccomp	_	_
+12	de	de	ADP	_	ADP___	5	mark	_	_
+13	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	14	obj	_	_
+14	faire	faire	VERB	_	VERB__VerbForm=Inf	12	nmod	_	_
+15	...	...	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Autre possibilité : est ce que la société a respecté ses obligations sur la forme du contrat ?
+1	Autre	autre	ADJ	_	ADJ__Number=Sing	4	amod	_	_
+2	possibilité	possibilité	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nsubj	_	_
+3	:	:	PUNCT	_	PUNCT___	4	punct	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	ce	ce	PRON	_	PRON__PronType=Rel	0	ROOT	_	_
+6	que	que	PRON	_	PRON__PronType=Rel	7	mark	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+8	société	société	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nsubj	_	_
+9	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+10	respecté	respecter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+11	ses	son	DET	_	DET__Number=Plur|Poss=Yes	12	nmod:poss	_	_
+12	obligations	obligation	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	obj	_	_
+13	sur	sur	ADP	_	ADP___	14	case	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+15	forme	forme	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obl	_	_
+16	du	du	DET	_	DET__Gender=Masc|Number=Sing	17	det	_	_
+17	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obj	_	_
+18	?	?	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#S'agissait il d'un démarchage à domicile ou sur foire ?
+1	S'	si	PRON	_	PRON__Person=3|Reflex=Yes	4	expl	_	_
+2	agissait	agir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+3	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	obj	_	_
+4	d'	de	ADP	_	ADP___	5	case	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+6	démarchage	démarchage	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+7	à	à	ADP	_	ADP___	5	case	_	_
+8	domicile	domicile	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nmod	_	_
+9	ou	ou	CCONJ	_	CCONJ___	12	cc	_	_
+10	sur	sur	ADP	_	ADP___	9	case	_	_
+11	foire	foire	NOUN	_	NOUN__Number=Sing	12	conj	_	_
+12	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+

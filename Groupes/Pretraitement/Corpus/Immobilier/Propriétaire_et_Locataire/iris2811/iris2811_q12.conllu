@@ -1,0 +1,491 @@
+#Bonjour, Je suis dans une résidence étudiante , appartement avec des meubles loué via un :
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Je	il	PRON	_	PRON__Number=Sing|Person=1	7	nsubj	_	_
+4	suis	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	dans	dan	ADP	_	ADP___	7	case	_	_
+6	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	résidence	résidence	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	acl:relcl	_	_
+8	étudiante	étudiant	ADJ	_	ADJ__Gender=Fem|Number=Sing	7	amod	_	_
+9	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+10	appartement	appartement	ADV	_	ADV___	1	conj	_	_
+11	avec	avec	ADP	_	ADP___	13	case	_	_
+12	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	13	det	_	_
+13	meubles	meuble	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	obl	_	_
+14	loué	louer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	acl	_	_
+15	via	via	ADP	_	ADP___	16	case	_	_
+16	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	obl	_	_
+17	:	:	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#"CONTRAT DE LOCATION DE MOBILIER INDÉPENDANT " Lors de la constitution du dossier pour l'appartement il est indiqué que l'appartement est "meublé" via plusieur mention explicite.
+1	"	"	PUNCT	_	PUNCT___	1	punct	_	_
+2	CONTRAT	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	DE	DE	ADP	_	ADP___	7	case	_	_
+4	LOCATION	location	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+5	DE	DE	ADP	_	ADP___	7	case	_	_
+6	MOBILIER	mobilier	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+7	INDÉPENDANT	indépendant	PUNCT	_	PUNCT___	1	amod	_	_
+8	"	"	PUNCT	_	PUNCT___	7	punct	_	_
+9	Lors	lors	ADV	_	ADV___	10	case	_	_
+10	de	de	ADP	_	ADP___	1	fixed	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	constitution	constitution	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nmod	_	_
+13	du	du	DET	_	DET__Gender=Masc|Number=Sing	10	det	_	_
+14	dossier	dossier	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+15	pour	pour	ADP	_	ADP___	16	case	_	_
+16	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+17	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obl	_	_
+18	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	19	nsubj	_	_
+19	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	cop	_	_
+20	indiqué	indiquer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+21	que	que	SCONJ	_	SCONJ___	19	mark	_	_
+22	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+23	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	nsubj	_	_
+24	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+25	"	"	PUNCT	_	PUNCT___	29	punct	_	_
+26	meublé	meublé	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	ccomp	_	_
+27	"	"	PUNCT	_	PUNCT___	26	punct	_	_
+28	via	via	ADP	_	ADP___	29	case	_	_
+29	plusieur	plusieur	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	amod	_	_
+30	mention	mention	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	obl	_	_
+31	explicite	expliciter	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	29	amod	_	_
+32	.	.	PUNCT	_	PUNCT___	34	punct	_	_
+
+
+#Or ce dernier ne possède pas l'essemble des meubles (ustensil , couverts , Micro-onde/four , produit d'entretien ) pour prétendre être meublé (à l'égard de la loi)
+1	Or	Or	CCONJ	_	CCONJ___	1	cc	_	_
+2	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	1	det	_	_
+3	dernier	dernier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	7	nsubj	_	_
+4	ne	ne	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+5	possède	posséder	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	pas	pas	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+7	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+8	essemble	essemble	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	obj	_	_
+9	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
+10	meubles	meuble	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	obj	_	_
+11	(	(	PUNCT	_	PUNCT___	13	punct	_	_
+12	ustensil	ustensil	NOUN	_	NOUN__Number=Plur	13	appos	_	_
+13	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+14	couverts	couvert	ADJ	_	ADJ__Gender=Masc|Number=Plur	13	conj	_	_
+15	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+16	Micro	Micro	PROPN	_	PROPN___	14	conj	_	_
+17	-	-	PUNCT	_	PUNCT___	10	punct	_	_
+18	onde	ond	ADJ	_	ADJ__Gender=Fem|Number=Sing	19	nmod	_	_
+19	/	/	PUNCT	_	PUNCT___	37	fixed	_	_
+20	four	four	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	flat:name	_	_
+21	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+22	produit	produit	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	nmod	_	_
+23	d'	de	ADP	_	ADP___	21	case	_	_
+24	entretien	entretien	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	nmod	_	_
+25	)	)	PUNCT	_	PUNCT___	29	punct	_	_
+26	pour	pour	ADP	_	ADP___	29	mark	_	_
+27	prétendre	prétendre	VERB	_	VERB__VerbForm=Inf	26	advcl	_	_
+28	être	être	AUX	_	AUX__VerbForm=Inf	29	cop	_	_
+29	meublé	meublé	NOUN	_	NOUN__Gender=Masc|Number=Plur	19	obj	_	_
+30	(	(	PUNCT	_	PUNCT___	31	punct	_	_
+31	à	à	ADP	_	ADP___	29	case	_	_
+32	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	34	fixed	_	_
+33	égard	égard	NOUN	_	NOUN__Gender=Masc|Number=Sing	34	fixed	_	_
+34	de	de	ADP	_	ADP___	37	case	_	_
+35	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+36	loi	loi	NOUN	_	NOUN__Gender=Fem|Number=Sing	37	obl	_	_
+37	)	)	PUNCT	_	PUNCT___	37	punct	_	_
+
+
+#Il s'agit d'un contrat pour location vide.
+1	Il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	1	expl	_	_
+3	agit	agir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
+4	d'	de	ADP	_	ADP___	7	case	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+7	pour	pour	ADP	_	ADP___	1	case	_	_
+8	location	location	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+9	vide	vide	ADJ	_	ADJ__Number=Sing	10	amod	_	_
+10	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#à la fin du contrat on peux lire : "Documents annexés :
+1	à	à	ADP	_	ADP___	1	case	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+3	fin	fin	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	du	du	DET	_	DET__Gender=Masc|Number=Sing	7	det	_	_
+5	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+6	on	on	PRON	_	PRON__Number=Sing|Person=3	7	nsubj	_	_
+7	peux	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
+8	lire	lire	VERB	_	VERB__VerbForm=Inf	7	acl:relcl	_	_
+9	:	:	PUNCT	_	PUNCT___	10	punct	_	_
+10	"	"	PUNCT	_	PUNCT___	1	punct	_	_
+11	Documents	document	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	nmod	_	_
+12	annexés	annexé	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	acl	_	_
+13	:	:	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#- Facture d'honoraires.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	Facture	facture	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	d'	de	ADP	_	ADP___	7	case	_	_
+4	honoraires	honoraire	NOUN	_	NOUN__Gender=Fem|Number=Plur	7	nmod	_	_
+5	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#- Acte de caution.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	Acte	acte	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	de	de	ADP	_	ADP___	7	case	_	_
+4	caution	caution	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+5	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#- Fiche candidat résident.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	Fiche	Fiche	PROPN	_	PROPN__Gender=Fem|Number=Sing	1	nsubj	_	_
+3	candidat	candidat	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	acl	_	_
+4	résident	résident	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#- Adhésion Stud' Club.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	Adhésion	adhésion	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	Stud	Stud	PROPN	_	PROPN___	7	flat:name	_	_
+4	'	'	PUNCT	_	PUNCT___	7	punct	_	_
+5	Club	club	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	appos	_	_
+6	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#- Conditions générales loi Mermaz du 6 juillet 1989, modifiée par la loi no 94.624 du 21 juillet 1994.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	Conditions	condition	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	nsubj	_	_
+3	générales	général	ADJ	_	ADJ__Gender=Fem|Number=Plur	7	amod	_	_
+4	loi	loi	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+5	Mermaz	Mermaz	PROPN	_	PROPN___	7	nmod	_	_
+6	du	du	DET	_	DET__Gender=Masc|Number=Sing	7	det	_	_
+7	6	6	NUM	_	NUM__NumType=Card	1	nummod	_	_
+8	juillet	juillet	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+9	1989	1989	NUM	_	NUM__NumType=Card	10	nummod	_	_
+10	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+11	modifiée	modifier	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
+12	par	par	ADP	_	ADP___	13	case	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+14	loi	loi	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obl	_	_
+15	no	no	X	_	X___	0	ROOT	_	_
+16	94.624	94.624	NUM	_	NUM__NumType=Card	14	advmod	_	_
+17	du	du	DET	_	DET__Gender=Masc|Number=Sing	10	det	_	_
+18	21	21	NUM	_	NUM__NumType=Card	19	nummod	_	_
+19	juillet	juillet	NOUN	_	NOUN__Gender=Masc|Number=Sing	37	obl	_	_
+20	1994	1994	NUM	_	NUM__NumType=Card	21	nummod	_	_
+21	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#- État des lieux établi lors de la remise des clefs (contradictoire ou par huissier).
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	État	état	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
+4	lieux	lieu	ADJ	_	ADJ__Gender=Masc	7	obj	_	_
+5	établi	établir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+6	lors	lors	ADV	_	ADV___	7	case	_	_
+7	de	de	ADP	_	ADP___	1	fixed	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+9	remise	remise	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obl	_	_
+10	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	1	det	_	_
+11	clefs	clef	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	obj	_	_
+12	(	(	PUNCT	_	PUNCT___	13	punct	_	_
+13	contradictoire	contradictoire	ADJ	_	ADJ__Number=Sing	10	appos	_	_
+14	ou	ou	CCONJ	_	CCONJ___	13	cc	_	_
+15	par	par	ADP	_	ADP___	16	case	_	_
+16	huissier	huissier	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	conj	_	_
+17	)	)	PUNCT	_	PUNCT___	10	punct	_	_
+18	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#- Liste des réparations locatives et des charges récupérables.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	Liste	liste	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
+4	réparations	réparation	NOUN	_	NOUN__Gender=Fem|Number=Plur	7	nmod	_	_
+5	locatives	locatif	ADJ	_	ADJ__Gender=Fem|Number=Plur	7	amod	_	_
+6	et	et	CCONJ	_	CCONJ___	7	cc	_	_
+7	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	1	det	_	_
+8	charges	charge	NOUN	_	NOUN__Gender=Fem|Number=Plur	7	conj	_	_
+9	récupérables	récupérable	ADJ	_	ADJ__Gender=Fem|Number=Plur	10	amod	_	_
+10	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#- ERNT (État des Risques Naturels et Technologiques)
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	ERNT	ernt	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	(	(	PUNCT	_	PUNCT___	7	punct	_	_
+4	État	état	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+5	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
+6	Risques	risque	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	nmod	_	_
+7	Naturels	naturel	ADJ	_	ADJ__Gender=Masc|Number=Plur	1	nmod	_	_
+8	et	et	CCONJ	_	CCONJ___	7	cc	_	_
+9	Technologiques	Technologiques	PROPN	_	PROPN___	10	conj	_	_
+10	)	)	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#- DPE (Diagnostic de Performance Énergétique) "
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	DPE	DPE	PROPN	_	PROPN___	0	ROOT	_	_
+3	(	(	PUNCT	_	PUNCT___	7	punct	_	_
+4	Diagnostic	diagnostic	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+5	de	de	ADP	_	ADP___	7	case	_	_
+6	Performance	Performance	PROPN	_	PROPN__Gender=Fem|Number=Sing	7	nmod	_	_
+7	Énergétique	Énergétique	PROPN	_	PROPN___	1	flat:name	_	_
+8	)	)	PUNCT	_	PUNCT___	7	punct	_	_
+9	"	"	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Ce que l'on peux lire d'important sur le contrat de location de mobilier indépendant : " Objet : contrat de location du mobilier dont la liste figure au côté du contrat.
+1	Ce	ce	PRON	_	PRON__PronType=Rel	0	ROOT	_	_
+2	que	que	PRON	_	PRON__PronType=Rel	1	mark	_	_
+3	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	nsubj	_	_
+4	on	on	PRON	_	PRON__Number=Sing|Person=3	7	fixed	_	_
+5	peux	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	lire	lire	VERB	_	VERB__VerbForm=Inf	7	acl:relcl	_	_
+7	d'	de	ADP	_	ADP___	1	case	_	_
+8	important	important	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+9	sur	sur	ADP	_	ADP___	10	case	_	_
+10	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+11	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+12	de	de	ADP	_	ADP___	13	case	_	_
+13	location	location	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+14	de	de	ADP	_	ADP___	13	case	_	_
+15	mobilier	mobilier	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	nmod	_	_
+16	indépendant	indépendant	ADJ	_	ADJ__Gender=Masc|Number=Sing	14	amod	_	_
+17	:	:	PUNCT	_	PUNCT___	10	punct	_	_
+18	"	"	PUNCT	_	PUNCT___	19	punct	_	_
+19	Objet	objet	NOUN	_	NOUN__Gender=Masc|Number=Sing	37	acl	_	_
+20	:	:	PUNCT	_	PUNCT___	21	punct	_	_
+21	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	nmod	_	_
+22	de	de	ADP	_	ADP___	23	case	_	_
+23	location	location	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	nmod	_	_
+24	du	du	DET	_	DET__Gender=Masc|Number=Sing	23	det	_	_
+25	mobilier	mobilier	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	nmod	_	_
+26	dont	dont	PRON	_	PRON__PronType=Rel	29	iobj	_	_
+27	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+28	liste	liste	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	nsubj	_	_
+29	figure	figurer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+30	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	31	case	_	_
+31	côté	côté	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	fixed	_	_
+32	du	du	DET	_	DET__Gender=Masc|Number=Sing	34	det	_	_
+33	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	34	obl	_	_
+34	.	.	PUNCT	_	PUNCT___	37	punct	_	_
+
+
+#Durée, prise d'effet : le contrat de location de mobilier prend effet à la date principale du contrat de location, soit le 08/07/2017
+1	Durée	durée	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	prise	prise	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	conj	_	_
+4	d'	de	ADP	_	ADP___	7	case	_	_
+5	effet	effet	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+6	:	:	PUNCT	_	PUNCT___	7	punct	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+8	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nsubj	_	_
+9	de	de	ADP	_	ADP___	10	case	_	_
+10	location	location	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+11	de	de	ADP	_	ADP___	13	case	_	_
+12	mobilier	mobilier	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+13	prend	prendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl	_	_
+14	effet	effet	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	xcomp	_	_
+15	à	à	ADP	_	ADP___	16	case	_	_
+16	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+17	date	date	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obl	_	_
+18	principale	principal	ADJ	_	ADJ__Gender=Fem|Number=Sing	19	amod	_	_
+19	du	du	DET	_	DET__Gender=Masc|Number=Sing	37	det	_	_
+20	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obj	_	_
+21	de	de	ADP	_	ADP___	19	case	_	_
+22	location	location	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	nmod	_	_
+23	,	,	PUNCT	_	PUNCT___	21	punct	_	_
+24	soit	être	CCONJ	_	CCONJ___	23	cc	_	_
+25	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+26	08/07/2017	08/07/2017	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	conj	_	_
+
+
+#Il suit la durée du contrat de location de l'appartement.
+1	Il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	suit	suivre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+4	durée	durée	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+5	du	du	DET	_	DET__Gender=Masc|Number=Sing	7	det	_	_
+6	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+7	de	de	ADP	_	ADP___	1	case	_	_
+8	location	location	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+9	de	de	ADP	_	ADP___	10	case	_	_
+10	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+11	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+12	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Prix : 0,00  TTC par mois (dont TVA au taux légal)
+1	Prix	prix	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+3	0,00	0,00	NUM	_	NUM__NumType=Card	7	nummod	_	_
+4			ADJ	_	ADJ__Gender=Masc|Number=Plur|NumType=Ord	7	nmod	_	_
+5	TTC	ttc	NOUN	_	NOUN___	7	nmod	_	_
+6	par	par	ADP	_	ADP___	7	case	_	_
+7	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	nmod	_	_
+8	(	(	PUNCT	_	PUNCT___	7	punct	_	_
+9	dont	dont	PRON	_	PRON__PronType=Rel	10	dep	_	_
+10	TVA	TVA	PROPN	_	PROPN__Gender=Masc|Number=Sing	1	acl:relcl	_	_
+11	au	au	DET	_	DET__Number=Plur|PronType=Dem	13	det	_	_
+12	taux	taux	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	conj	_	_
+13	légal	légal	ADJ	_	ADJ__Gender=Masc|Number=Sing	10	amod	_	_
+14	)	)	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#" On remarquera que (" la liste figure au côté du contrat" ) a priori cette liste n'existe pas.
+1	"	"	PUNCT	_	PUNCT___	1	punct	_	_
+2	On	on	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+3	remarquera	remarquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+4	que	que	SCONJ	_	SCONJ___	7	obj	_	_
+5	(	(	PUNCT	_	PUNCT___	7	punct	_	_
+6	"	"	PUNCT	_	PUNCT___	7	punct	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+8	liste	liste	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nsubj	_	_
+9	figure	figurer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+10	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	1	case	_	_
+11	côté	côté	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	fixed	_	_
+12	du	du	DET	_	DET__Gender=Masc|Number=Sing	13	det	_	_
+13	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+14	"	"	PUNCT	_	PUNCT___	13	punct	_	_
+15	)	)	PUNCT	_	PUNCT___	16	punct	_	_
+16	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+17	priori	priori	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	mark	_	_
+18	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	19	det	_	_
+19	liste	liste	NOUN	_	NOUN__Gender=Fem|Number=Sing	37	nsubj	_	_
+20	n'	ne	ADV	_	ADV__Polarity=Neg	21	advmod	_	_
+21	existe	exister	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	ccomp	_	_
+22	pas	pas	ADV	_	ADV__Polarity=Neg	23	advmod	_	_
+23	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Ma question : Sachant que :
+1	Ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	:	:	PUNCT	_	PUNCT___	7	punct	_	_
+4	Sachant	savoir	VERB	_	VERB__Tense=Pres|VerbForm=Part	7	acl	_	_
+5	que	que	SCONJ	_	SCONJ___	7	fixed	_	_
+6	:	:	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#- l'appartement est dit " meublé" lors de la constitution du dossier.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+3	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nsubj	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	dit	dire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	cop	_	_
+6	"	"	PUNCT	_	PUNCT___	7	punct	_	_
+7	meublé	meublé	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+8	"	"	PUNCT	_	PUNCT___	7	punct	_	_
+9	lors	lors	ADV	_	ADV___	10	case	_	_
+10	de	de	ADP	_	ADP___	1	fixed	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	constitution	constitution	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obl	_	_
+13	du	du	DET	_	DET__Gender=Masc|Number=Sing	10	det	_	_
+14	dossier	dossier	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+15	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#-Que aucun document nous donne l'inventaire des meubles.
+1	-Que	-que	ADV	_	ADV___	1	punct	_	_
+2	aucun	aucun	DET	_	DET__Gender=Masc|Number=Sing	1	det	_	_
+3	document	document	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nsubj	_	_
+4	nous	nous	PRON	_	PRON__Number=Plur|Person=1	7	iobj	_	_
+5	donne	donner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	inventaire	inventaire	NOUN	_	NOUN__Number=Sing	1	obj	_	_
+8	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
+9	meubles	meuble	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	obj	_	_
+10	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#-Le contrat et les documents ont été signé et envoyé sans avoir visité l'appartement.
+1	-Le	-Le	NUM	_	NUM__NumType=Card	1	det	_	_
+2	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+3	et	et	CCONJ	_	CCONJ___	7	cc	_	_
+4	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+5	documents	document	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	nsubj:pass	_	_
+6	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	1	aux:pass	_	_
+8	signé	signer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+9	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+10	envoyé	envoyer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	_
+11	sans	sans	ADP	_	ADP___	13	mark	_	_
+12	avoir	avoir	AUX	_	AUX__VerbForm=Inf	13	aux	_	_
+13	visité	visiter	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	advcl	_	_
+14	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+15	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obj	_	_
+16	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Et que : -L'appartement n'est pas meublé au sens stricte de la loi.
+1	Et	Et	CCONJ	_	CCONJ___	1	cc	_	_
+2	que	que	SCONJ	_	SCONJ___	1	mark	_	_
+3	:	:	PUNCT	_	PUNCT___	7	punct	_	_
+4	-L'	-l'	PUNCT	_	PUNCT___	7	nsubj	_	_
+5	appartement	appartement	ADV	_	ADV___	7	cop	_	_
+6	n'	ne	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+7	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+8	pas	pas	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+9	meublé	meublé	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+10	au	au	DET	_	DET__Number=Plur|PronType=Dem	1	det	_	_
+11	sens	sentir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	obj	_	_
+12	stricte	strict	ADJ	_	ADJ__Gender=Fem|Number=Sing	13	case	_	_
+13	de	de	ADP	_	ADP___	10	case	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+15	loi	loi	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obl	_	_
+16	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#-Dans mon cas , on s'en rend compte que , lors de l'EDL S'agit-il ici d'une publicité mensongère ?
+1	-Dans	-Dans	ADP	_	ADP___	1	case	_	_
+2	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+3	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+4	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+5	on	on	PRON	_	PRON__Number=Sing|Person=3	7	nsubj	_	_
+6	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	7	expl	_	_
+7	en	en	PRON	_	PRON__Person=3	1	iobj	_	_
+8	rend	rendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+9	compte	compte	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+10	que	que	SCONJ	_	SCONJ___	1	mark	_	_
+11	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+12	lors	lors	ADV	_	ADV___	13	case	_	_
+13	de	de	ADP	_	ADP___	10	fixed	_	_
+14	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+15	EDL	edl	NOUN	_	NOUN__Number=Sing	16	nsubj	_	_
+16	S'	si	PRON	_	PRON__Person=3|Reflex=Yes	14	expl	_	_
+17	agit	agir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	ccomp	_	_
+18	-	-	PUNCT	_	PUNCT___	19	punct	_	_
+19	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	37	obl	_	_
+20	ici	ici	ADV	_	ADV___	21	fixed	_	_
+21	d'	de	ADP	_	ADP___	19	case	_	_
+22	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	publicité	publicité	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	nmod	_	_
+24	mensongère	mensonger	ADJ	_	ADJ__Gender=Fem|Number=Sing	23	amod	_	_
+25	?	?	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#Est-ce qu'il s'agit d'une faute grave de leur part ?
+1	Est	être		_	VERB	0	ROOT	_	_
+2	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	1	amod	_	_
+3	qu'	que	SCONJ	_	SCONJ___	7	mark	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+5	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	7	expl	_	_
+6	agit	agir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	acl:relcl	_	_
+7	d'	de	ADP	_	ADP___	1	case	_	_
+8	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+9	faute	faute	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obl	_	_
+10	grave	grave	ADJ	_	ADJ__Number=Sing	1	amod	_	_
+11	de	de	ADP	_	ADP___	13	case	_	_
+12	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	13	nmod:poss	_	_
+13	part	part	NOUN	_	NOUN__Number=Sing	10	nmod	_	_
+14	?	?	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Cordialerment
+1	Cordialerment	Cordialerment	PROPN	_	PROPN___	0	ROOT	_	_
+
+

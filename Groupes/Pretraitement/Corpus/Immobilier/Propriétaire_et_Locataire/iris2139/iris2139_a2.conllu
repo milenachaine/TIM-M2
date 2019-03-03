@@ -1,0 +1,226 @@
+#Hum?
+1	Hum	hum	ADV	_	ADV___	0	ROOT	_	_
+2	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Ttrois pièces manques et tout est dans l'assurance?
+1	Ttrois	Ttrois	X	_	X___	0	ROOT	_	_
+2	pièces	pièce	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	amod	_	_
+3	manques	manqu	ADJ	_	ADJ__Number=Plur	3	amod	_	_
+4	et	et	CCONJ	_	CCONJ___	3	cc	_	_
+5	tout	tout	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	3	advmod	_	_
+6	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	fixed	_	_
+7	dans	dan	ADP	_	ADP___	6	case	_	_
+8	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+9	assurance	assurance	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	conj	_	_
+10	?	?	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Un café peut etre?
+1	Un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	café	café	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+4	etre	etre	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	?	?	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Le préjudice sur les frais d'entrée n'est pas négligeable.
+1	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	préjudice	préjudice	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	sur	sur	ADP	_	ADP___	3	case	_	_
+4	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	3	det	_	_
+5	frais	frais	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	nmod	_	_
+6	d'	de	ADP	_	ADP___	11	case	_	_
+7	entrée	entrée	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+8	n'	ne	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+9	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	pas	pas	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+11	négligeable	négligeable	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+12	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#J'ai payé 3 du m2 pour l'EDL et 8 du m2 pour les frais d'agence soit (3+8)*130=1430 au lieu de 990 si c'était 90m2 par exemple.
+1	J'	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	payé	payer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	3	3	NUM	_	NUM__NumType=Card	3	nummod	_	_
+5	du	du	DET	_	DET__Gender=Masc|Number=Sing	3	det	_	_
+6	m2	m2	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+7	pour	pour	ADP	_	ADP___	6	case	_	_
+8	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+9	EDL	edl	NOUN	_	NOUN__Number=Sing	11	obl	_	_
+10	et	et	CCONJ	_	CCONJ___	11	cc	_	_
+11	8	8	PROPN	_	PROPN___	3	conj	_	_
+12	du	du	DET	_	DET__Gender=Masc|Number=Sing	3	det	_	_
+13	m2	m2	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obj	_	_
+14	pour	pour	ADP	_	ADP___	16	case	_	_
+15	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	16	det	_	_
+16	frais	frais	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	obl	_	_
+17	d'	de	ADP	_	ADP___	16	case	_	_
+18	agence	agence	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	nmod	_	_
+19	soit	être	CCONJ	_	CCONJ___	28	advmod	_	_
+20	(	(	PUNCT	_	PUNCT___	22	punct	_	_
+21	3	3	NUM	_	NUM__NumType=Card	22	nummod	_	_
+22	+	+	ADP	_	ADP___	19	case	_	_
+23	8)*130=1430	8)*130=1430	NUM	_	NUM__NumType=Card	24	nmod	_	_
+24	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	22	nmod	_	_
+25	lieu	lieu	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	obj	_	_
+26	de	de	ADP	_	ADP___	28	case	_	_
+27	990	990	NOUN	_	NOUN__Number=Sing	28	nmod	_	_
+28	si	si	SCONJ	_	SCONJ___	28	mark	_	_
+29	c'	ce	PRON	_	PRON__Number=Sing|Person=3	28	nsubj	_	_
+30	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	32	cop	_	_
+31	90m2	90m2	DET	_	DET___	32	advcl	_	_
+32	par	par	ADP	_	ADP___	32	advmod	_	_
+33	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	32	fixed	_	_
+34	.	.	PUNCT	_	PUNCT___	35	punct	_	_
+
+
+#Quant au dépot de garantie, si le loyer est réévalué, il aurait du l'être aussi.
+1	Quant	quant	ADV	_	ADV___	1	mark	_	_
+2	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	fixed	_	_
+3	dépot	dépot	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	advcl	_	_
+4	de	de	ADP	_	ADP___	3	case	_	_
+5	garantie	garantir	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nmod	_	_
+6	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+7	si	si	SCONJ	_	SCONJ___	6	mark	_	_
+8	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	7	det	_	_
+9	loyer	loyer	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nsubj:pass	_	_
+10	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+11	réévalué	réévaluer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+12	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+13	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
+14	aurait	avoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	parataxis	_	_
+15	du	du	DET	_	DET__Gender=Masc|Number=Sing	16	det	_	_
+16	l'	le	PRON	_	PRON__Number=Sing|Person=3	16	det	_	_
+17	être	être	AUX	_	AUX__VerbForm=Inf	16	obj	_	_
+18	aussi	aussi	ADV	_	ADV___	19	advmod	_	_
+19	.	.	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#Moué encore J'ai juste pris quelques mesures pour voir si effectivement j'étais bien à 130, ou pas du tout.
+1	Moué	mouer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	advmod	_	_
+2	encore	encore	ADV	_	ADV___	1	advmod	_	_
+3	J'	il	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+4	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+5	juste	juste	ADV	_	ADV___	3	advmod	_	_
+6	pris	prendre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	0	ROOT	_	_
+7	quelques	quelque	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
+8	mesures	mesure	NOUN	_	NOUN__Gender=Fem|Number=Plur	7	obj	_	_
+9	pour	pour	ADP	_	ADP___	11	mark	_	_
+10	voir	voir	VERB	_	VERB__VerbForm=Inf	11	advcl	_	_
+11	si	si	SCONJ	_	SCONJ___	3	mark	_	_
+12	effectivement	effectivement	ADV	_	ADV___	3	advmod	_	_
+13	j'	il	PRON	_	PRON__Number=Sing|Person=1	14	nsubj	_	_
+14	étais	être	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	16	ccomp	_	_
+15	bien	bien	ADV	_	ADV___	16	advmod	_	_
+16	à	à	ADP	_	ADP___	16	case	_	_
+17	130	130	NUM	_	NUM__NumType=Card	16	iobj	_	_
+18	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+19	ou	ou	CCONJ	_	CCONJ___	28	cc	_	_
+20	pas	pas	ADV	_	ADV__Polarity=Neg	22	advmod	_	_
+21	du	du	DET	_	DET__Gender=Masc|Number=Sing	22	det	_	_
+22	tout	tout	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obj	_	_
+23	.	.	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#Force est de constater qu'en prenant les côtés du logement, ça fait 65m2 en bas.
+1	Force	Force	PROPN	_	PROPN__Gender=Fem|Number=Sing	1	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	de	de	ADP	_	ADP___	3	mark	_	_
+4	constater	constater	VERB	_	VERB__VerbForm=Inf	3	advcl	_	_
+5	qu'	que	SCONJ	_	SCONJ___	3	mark	_	_
+6	en	en	ADP	_	ADP___	11	mark	_	_
+7	prenant	prendre	VERB	_	VERB__Tense=Pres|VerbForm=Part	6	ccomp	_	_
+8	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+9	côtés	côté	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	obj	_	_
+10	du	du	DET	_	DET__Gender=Masc|Number=Sing	11	det	_	_
+11	logement	logement	ADV	_	ADV___	3	obj	_	_
+12	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+13	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	14	nsubj	_	_
+14	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+15	65m2	65m2	VERB	_	VERB__VerbForm=Inf	16	obj	_	_
+16	en	en	ADP	_	ADP___	16	case	_	_
+17	bas	bas	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obl	_	_
+18	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Sachant qu'en haut c'est une petite mezzanine + sdf suspendue, c'est peu probable que ça fait 130m2.
+1	Sachant	savoir	VERB	_	VERB__Tense=Pres|VerbForm=Part	0	ROOT	_	_
+2	qu'	que	SCONJ	_	SCONJ___	1	mark	_	_
+3	en	en	ADP	_	ADP___	3	case	_	_
+4	haut	haut	ADJ	_	ADJ__Gender=Masc|Number=Sing	3	fixed	_	_
+5	c'	ce	PRON	_	PRON__Number=Sing|Person=3	3	nsubj	_	_
+6	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+7	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+8	petite	petit	ADJ	_	ADJ__Gender=Fem|Number=Sing	7	amod	_	_
+9	mezzanine	mezzanine	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obl	_	_
+10	+	+	ADP	_	ADP___	11	case	_	_
+11	sdf	sdf	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nmod:poss	_	_
+12	suspendue	suspendu	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nmod	_	_
+13	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+14	c'	ce	PRON	_	PRON__Number=Sing|Person=3	16	nsubj	_	_
+15	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	peu	peu	ADV	_	ADV___	16	advmod	_	_
+17	probable	probable	ADJ	_	ADJ__Number=Sing	16	ccomp	_	_
+18	que	que	SCONJ	_	SCONJ___	19	mark	_	_
+19	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	28	nsubj	_	_
+20	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	ccomp	_	_
+21	130m2	130m2	NOUN	_	NOUN__NumType=Card	22	iobj	_	_
+22	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Non, mais ici c'est un forum juridique;
+1	Non	non	ADV	_	ADV___	1	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	mais	mais	CCONJ	_	CCONJ___	3	cc	_	_
+4	ici	ici	ADV	_	ADV___	3	advmod	_	_
+5	c'	ce	PRON	_	PRON__Number=Sing|Person=3	3	nsubj	_	_
+6	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+8	forum	forum	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+9	juridique	juridique	ADJ	_	ADJ__Number=Sing	11	amod	_	_
+10	;	;	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#On va pas discuter le bout de gras sur les m2 avec vous avec zero documentation.
+1	On	on	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+2	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	pas	pas	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+4	discuter	discuter	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+6	bout	bouillir	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+7	de	de	ADP	_	ADP___	6	case	_	_
+8	gras	gras	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+9	sur	sur	ADP	_	ADP___	11	case	_	_
+10	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	11	det	_	_
+11	m2	m2	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nmod	_	_
+12	avec	avec	ADP	_	ADP___	3	case	_	_
+13	vous	vous	PRON	_	PRON__Number=Plur|Person=2|Reflex=Yes	14	obl	_	_
+14	avec	avec	ADP	_	ADP___	16	case	_	_
+15	zero	zero	ADJ	_	ADJ__Gender=Fem|Number=Sing	16	amod	_	_
+16	documentation	documentation	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obl	_	_
+17	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Relisez ma réponse...
+1	Relisez	relire	ADV	_	ADV__PronType=Int	0	ROOT	_	_
+2	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	1	nmod:poss	_	_
+3	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obj	_	_
+4	...	...	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Allez voir des gens compétents en surface et en procédure.....
+1	Allez	aller	VERB	_	VERB__Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+2	voir	voir	VERB	_	VERB__VerbForm=Inf	1	xcomp	_	_
+3	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	3	det	_	_
+4	gens	gens	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	obj	_	_
+5	compétents	compétent	ADJ	_	ADJ__Gender=Masc|Number=Plur	3	amod	_	_
+6	en	en	ADP	_	ADP___	11	case	_	_
+7	surface	surface	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obl	_	_
+8	et	et	CCONJ	_	CCONJ___	7	cc	_	_
+9	en	en	ADP	_	ADP___	11	case	_	_
+10	procédure	procédure	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	conj	_	_
+11	.....	.....	PUNCT	_	PUNCT___	3	punct	_	_
+
+

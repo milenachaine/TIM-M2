@@ -1,0 +1,52 @@
+#Donc en gros, si je comprends bien...
+1	Donc	donc	ADV	_	ADV___	3	advmod	_	_
+2	en	en	ADP	_	ADP___	3	mark	_	_
+3	gros	gros	ADJ	_	ADJ__Gender=Masc	0	ROOT	_	_
+4	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+5	si	si	SCONJ	_	SCONJ___	7	mark	_	_
+6	je	il	PRON	_	PRON__Number=Sing|Person=1	7	nsubj	_	_
+7	comprends	comprendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+8	bien	bien	ADV	_	ADV___	7	advmod	_	_
+9	...	...	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Lorsque si par exemple ma copine et moi nous nous disputons et que nous avons des relations sexuelles juste après (c'est-à-dire pour apaiser l'atmosphère), ce n'est en aucun cas une contrainte ?
+1	Lorsque	Lorsque	SCONJ	_	SCONJ___	3	mark	_	_
+2	si	si	SCONJ	_	SCONJ___	3	fixed	_	_
+3	par	par	ADP	_	ADP___	3	advmod	_	_
+4	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	fixed	_	_
+5	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	7	nmod:poss	_	_
+6	copine	copain	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obl	_	_
+7	et	et	CCONJ	_	CCONJ___	3	cc	_	_
+8	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	7	conj	_	_
+9	nous	nous	PRON	_	PRON__Number=Plur|Person=1	3	iobj	_	_
+10	nous	nous	PRON	_	PRON__Number=Plur|Person=1|Reflex=Yes	45	iobj	_	_
+11	disputons	disputer	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+12	et	et	CCONJ	_	CCONJ___	15	cc	_	_
+13	que	que	SCONJ	_	SCONJ___	12	mark	_	_
+14	nous	nous	PRON	_	PRON__Number=Plur|Person=1	15	nsubj	_	_
+15	avons	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	45	conj	_	_
+16	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	17	det	_	_
+17	relations	relation	NOUN	_	NOUN__Gender=Fem|Number=Plur	15	obj	_	_
+18	sexuelles	sexuel	ADJ	_	ADJ__Gender=Fem|Number=Plur	20	amod	_	_
+19	juste	juste	ADV	_	ADV___	20	amod	_	_
+20	après	après	ADP	_	ADP___	15	advmod	_	_
+21	(	(	PUNCT	_	PUNCT___	24	punct	_	_
+22	c'est-à-dire	c'est-à-diree	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	iobj	_	_
+23	pour	pour	ADP	_	ADP___	24	mark	_	_
+24	apaiser	apaiser	VERB	_	VERB__VerbForm=Inf	15	advcl	_	_
+25	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	26	det	_	_
+26	atmosphère	atmosphère	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	obj	_	_
+27	)	)	PUNCT	_	PUNCT___	26	punct	_	_
+28	,	,	PUNCT	_	PUNCT___	26	punct	_	_
+29	ce	ce	PRON	_	PRON__PronType=Rel	24	nsubj	_	_
+30	n'	ne	ADV	_	ADV___	24	advmod	_	_
+31	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+32	en	en	ADP	_	ADP___	33	case	_	_
+33	aucun	aucun	DET	_	DET__Gender=Masc|Number=Sing	24	det	_	_
+34	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	35	acl:relcl	_	_
+35	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+36	contrainte	contrainte	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+37	?	?	PUNCT	_	PUNCT___	45	punct	_	_
+
+

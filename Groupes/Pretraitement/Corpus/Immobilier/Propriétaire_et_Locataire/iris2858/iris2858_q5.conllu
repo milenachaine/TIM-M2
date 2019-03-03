@@ -1,0 +1,208 @@
+#Oui, j'ai consulté différentes annonces sur un site de professionnels.
+1	Oui	Oui	PROPN	_	PROPN__Gender=Masc|Number=Sing	5	obl	_	_
+2	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+3	j'	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+4	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	consulté	consulter	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+6	différentes	différents	DET	_	DET__Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	annonces	annonce	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	obj	_	_
+8	sur	sur	ADP	_	ADP___	10	case	_	_
+9	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	site	site	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+11	de	de	ADP	_	ADP___	12	case	_	_
+12	professionnels	professionnel	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	nmod	_	_
+13	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Je vais reformuler mon raisonnement : Exemple d'une personne qui se porte acquéreur d'un bien dont le prix affiché est de 200000 €, honoraires à la charge du vendeur.
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+2	vais	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	reformuler	reformuler	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+4	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+5	raisonnement	raisonnement	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+6	:	:	PUNCT	_	PUNCT___	7	punct	_	_
+7	Exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+8	d'	de	ADP	_	ADP___	10	case	_	_
+9	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	personne	personne	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+11	qui	qui	PRON	_	PRON__PronType=Rel	12	nsubj	_	_
+12	se	se	PRON	_	PRON__Person=3|Reflex=Yes	10	expl	_	_
+13	porte	porter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+14	acquéreur	acquéreur	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obj	_	_
+15	d'	de	ADP	_	ADP___	15	case	_	_
+16	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+17	bien	bien	ADV	_	ADV___	18	nmod	_	_
+18	dont	dont	PRON	_	PRON__PronType=Rel	16	iobj	_	_
+19	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+20	prix	prix	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nsubj	_	_
+21	affiché	afficher	ADJ	_	ADJ__Gender=Masc|Number=Sing	23	advcl	_	_
+22	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+23	de	de	ADP	_	ADP___	20	case	_	_
+24	200000	200000	NUM	_	NUM__NumType=Card	26	nummod	_	_
+25	€	€	NOUN	_	NOUN__Gender=Masc	26	obl	_	_
+26	,	,	PUNCT	_	PUNCT___	23	punct	_	_
+27	honoraires	honoraire	NOUN	_	NOUN__Gender=Fem|Number=Plur	26	conj	_	_
+28	à	à	ADP	_	ADP___	30	case	_	_
+29	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	fixed	_	_
+30	charge	charge	NOUN	_	NOUN__Gender=Fem|Number=Sing	27	fixed	_	_
+31	du	du	DET	_	DET__Gender=Masc|Number=Sing	34	det	_	_
+32	vendeur	vendeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	33	nmod	_	_
+33	.	.	PUNCT	_	PUNCT___	34	punct	_	_
+
+
+#Le prix de présentation comprend 10000 € de commission, soit un prix net vendeur de 190000 €.
+1	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+2	prix	prix	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+3	de	de	ADP	_	ADP___	5	case	_	_
+4	présentation	présentation	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+5	comprend	comprendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	10000	10000	NUM	_	NUM__NumType=Card	7	nummod	_	_
+7	€	€	NOUN	_	NOUN__Gender=Masc	5	obj	_	_
+8	de	de	ADP	_	ADP___	10	case	_	_
+9	commission	commission	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+10	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+11	soit	être	CCONJ	_	CCONJ___	12	cc	_	_
+12	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+13	prix	prix	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	conj	_	_
+14	net	net	ADJ	_	ADJ__Gender=Masc|Number=Sing	15	amod	_	_
+15	vendeur	vendeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	amod	_	_
+16	de	de	ADP	_	ADP___	15	case	_	_
+17	190000	190000	NUM	_	NUM__NumType=Card	18	nummod	_	_
+18	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	nmod	_	_
+19	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#L'acquéreur achète donc 190000 € de bien immobilier et 10000 € d'honoraires d'agence.
+1	L'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+2	acquéreur	acquéreur	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+3	achète	achèt	ADJ	_	ADJ__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	donc	donc	ADV	_	ADV___	5	advmod	_	_
+5	190000	190000	NUM	_	NUM__NumType=Card	5	nummod	_	_
+6	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	obj	_	_
+7	de	de	ADP	_	ADP___	5	mark	_	_
+8	bien	bien	ADV	_	ADV___	10	advmod	_	_
+9	immobilier	immobilier	ADJ	_	ADJ__Gender=Masc|Number=Sing	10	amod	_	_
+10	et	et	CCONJ	_	CCONJ___	5	cc	_	_
+11	10000	10000	NUM	_	NUM__NumType=Card	12	nummod	_	_
+12	€	€	NOUN	_	NOUN__Gender=Masc	10	conj	_	_
+13	d'	de	ADP	_	ADP___	5	case	_	_
+14	honoraires	honoraire	NOUN	_	NOUN__Gender=Fem|Number=Plur	15	nmod	_	_
+15	d'	de	ADP	_	ADP___	15	case	_	_
+16	agence	agence	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	nmod	_	_
+17	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Or, à mon sens, l'arrêt du 10 janvier 2017 interdit d'acheter des honoraires, puisqu'il stipule qu'il est interdit d'inclure la part des honoraires dans le prix de vente.
+1	Or	Or	CCONJ	_	CCONJ___	5	cc	_	_
+2	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+3	à	à	ADP	_	ADP___	5	case	_	_
+4	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+5	sens	sens	NOUN	_	NOUN__Gender=Masc	5	obl	_	_
+6	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+7	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+8	arrêt	arrêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nsubj	_	_
+9	du	du	ADJ	_	ADJ__Gender=Masc|Number=Sing	10	det	_	_
+10	10	10	NUM	_	NUM__NumType=Card	5	nummod	_	_
+11	janvier	janvier	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+12	2017	2017	NUM	_	NUM__NumType=Card	10	nummod	_	_
+13	interdit	interdire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
+14	d'	de	ADP	_	ADP___	15	mark	_	_
+15	acheter	acheter	VERB	_	VERB__VerbForm=Inf	15	xcomp	_	_
+16	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	15	det	_	_
+17	honoraires	honoraire	NOUN	_	NOUN__Gender=Fem|Number=Plur	18	obj	_	_
+18	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+19	puisqu'	puisque	SCONJ	_	SCONJ___	15	mark	_	_
+20	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	15	nsubj	_	_
+21	stipule	stipuler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	advcl	_	_
+22	qu'	que	SCONJ	_	SCONJ___	23	mark	_	_
+23	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	20	nsubj	_	_
+24	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+25	interdit	interdire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	ccomp	_	_
+26	d'	de	ADP	_	ADP___	23	mark	_	_
+27	inclure	inclure	VERB	_	VERB__VerbForm=Inf	26	xcomp	_	_
+28	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+29	part	part	NOUN	_	NOUN__Number=Sing	30	obj	_	_
+30	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	27	det	_	_
+31	honoraires	honoraire	NOUN	_	NOUN__Gender=Fem|Number=Plur	34	obj	_	_
+32	dans	dan	ADP	_	ADP___	33	case	_	_
+33	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	prix	prix	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	obl	_	_
+35	de	de	ADP	_	ADP___	38	case	_	_
+36	vente	vente	NOUN	_	NOUN__Gender=Fem|Number=Sing	38	nmod	_	_
+37	.	.	PUNCT	_	PUNCT___	38	punct	_	_
+
+
+#Comment sera rédigé la partie paiement sur le compromis de vente (prix 190000 € + 10000 € à la charge du vendeur ?) ?
+1	Comment	comment	ADV	_	ADV__PronType=Int	5	advmod	_	_
+2	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	aux:pass	_	_
+3	rédigé	rédiger	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	partie	partie	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obj	_	_
+6	paiement	paiemer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	obl	_	_
+7	sur	sur	ADP	_	ADP___	5	case	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	compromis	compromis	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+10	de	de	ADP	_	ADP___	5	case	_	_
+11	vente	vente	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+12	(	(	PUNCT	_	PUNCT___	10	punct	_	_
+13	prix	prix	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	punct	_	_
+14	190000	190000	NUM	_	NUM__NumType=Card	15	nummod	_	_
+15	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	nmod	_	_
+16	+	+	ADP	_	ADP___	15	case	_	_
+17	10000	10000	NUM	_	NUM__NumType=Card	18	nummod	_	_
+18	€	€	NOUN	_	NOUN__Gender=Masc	16	nmod	_	_
+19	à	à	ADP	_	ADP___	15	case	_	_
+20	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+21	charge	charge	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	nmod	_	_
+22	du	du	DET	_	DET__Gender=Masc|Number=Sing	23	det	_	_
+23	vendeur	vendeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	nmod	_	_
+24	?	?	PUNCT	_	PUNCT___	26	punct	_	_
+25	)	)	PUNCT	_	PUNCT___	26	punct	_	_
+26	?	?	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Je suppose que ces honoraires apparaissent quelque part dans le compromis et qu'ils doivent être détaillés...
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+2	suppose	supposer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	que	que	SCONJ	_	SCONJ___	5	mark	_	_
+4	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	5	det	_	_
+5	honoraires	honoraire	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	nsubj	_	_
+6	apparaissent	apparaître	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+7	quelque	quelque	DET	_	DET__Number=Sing	5	obj	_	_
+8	part	part	NOUN	_	NOUN__Number=Sing	10	fixed	_	_
+9	dans	dan	ADP	_	ADP___	10	case	_	_
+10	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+11	compromis	compromis	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obl	_	_
+12	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+13	qu'	que	SCONJ	_	SCONJ___	5	mark	_	_
+14	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	15	nsubj	_	_
+15	doivent	devoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	_
+16	être	être	AUX	_	AUX__VerbForm=Inf	15	aux:pass	_	_
+17	détaillés	détailler	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	18	xcomp	_	_
+18	...	...	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#L'acquéreur est-il tenu d'acheter les honoraires d'agence que le vendeur doit lorsqu'il sont à sa charge ?
+1	L'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+2	acquéreur	acquéreur	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+3	est-il	est-il	ADP	_	ADP___	5	amod	_	_
+4	tenu	tenir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	d'	de	ADP	_	ADP___	5	mark	_	_
+6	acheter	acheter	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+7	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+8	honoraires	honoraire	NOUN	_	NOUN__Gender=Fem|Number=Plur	10	obj	_	_
+9	d'	de	ADP	_	ADP___	10	case	_	_
+10	agence	agence	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+11	que	que	SCONJ	_	SCONJ___	12	mark	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+13	vendeur	vendeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+14	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+15	lorsqu'	lorsque	SCONJ	_	SCONJ___	15	mark	_	_
+16	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	15	nsubj	_	_
+17	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	à	à	ADP	_	ADP___	16	case	_	_
+19	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	15	nmod:poss	_	_
+20	charge	charge	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obl	_	_
+21	?	?	PUNCT	_	PUNCT___	23	punct	_	_
+
+

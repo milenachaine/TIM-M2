@@ -1,0 +1,59 @@
+#Bonjour, Est-ce qu'il y a eu tromperie dans le descriptif de la boîte ?
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	Est	être		_	VERB	1	nmod	_	_
+4	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	1	nmod	_	_
+5	qu'	que	SCONJ	_	SCONJ___	9	mark	_	_
+6	il	il	PRON	_	PRON__Number=Sing|Person=3	9	nsubj	_	_
+7	y	yu	PRON	_	PRON__Person=3	6	fixed	_	_
+8	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+10	tromperie	tromperie	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	obj	_	_
+11	dans	dan	ADP	_	ADP___	13	case	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	descriptif	descriptif	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obl	_	_
+14	de	de	ADP	_	ADP___	16	case	_	_
+15	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	boîte	boîte	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nmod	_	_
+17	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#(par exemple décrite comme fabriquée en France, alors qu'en réalité elle vient de Chine ?).
+1	(	(	PUNCT	_	PUNCT___	1	punct	_	_
+2	par	par	ADP	_	ADP___	3	advmod	_	_
+3	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	fixed	_	_
+4	décrite	décrire	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	comme	comme	ADP	_	ADP___	9	mark	_	_
+6	fabriquée	fabriquer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	advcl	_	_
+7	en	en	ADP	_	ADP___	6	case	_	_
+8	France	France	PROPN	_	PROPN__Gender=Fem|Number=Sing	9	obl	_	_
+9	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+10	alors	alors	ADV	_	ADV___	9	mark	_	_
+11	qu'	que	SCONJ	_	SCONJ___	13	fixed	_	_
+12	en	en	ADP	_	ADP___	13	case	_	_
+13	réalité	réalité	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obl	_	_
+14	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	16	nsubj	_	_
+15	vient	venir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+16	de	de	ADP	_	ADP___	13	case	_	_
+17	Chine	Chine	PROPN	_	PROPN__Gender=Fem|Number=Sing	1	obl	_	_
+18	?	?	PUNCT	_	PUNCT___	21	punct	_	_
+19	)	)	PUNCT	_	PUNCT___	21	punct	_	_
+20	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Votre boîte a t'elle été achetée en boutique ou sur internet ?
+1	Votre	votre	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	boîte	boîte	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+4	t'	t	ADP	_	ADP___	1	advmod	_	_
+5	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	9	nsubj:pass	_	_
+6	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	9	aux:pass	_	_
+7	achetée	acheter	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+8	en	en	ADP	_	ADP___	9	case	_	_
+9	boutique	boutiqu	ADJ	_	ADJ__Number=Sing	1	obl	_	_
+10	ou	ou	CCONJ	_	CCONJ___	9	cc	_	_
+11	sur	sur	ADP	_	ADP___	13	case	_	_
+12	internet	internet	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	conj	_	_
+13	?	?	PUNCT	_	PUNCT___	9	punct	_	_
+
+

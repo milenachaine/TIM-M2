@@ -1,0 +1,252 @@
+#C'est vous qui ne voulez pas lire et comprendre.
+1	C'	ce	PRON	_	PRON__Number=Sing|Person=3	3	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	vous	vous	PRON	_	PRON__Number=Plur|Person=2	0	ROOT	_	_
+4	qui	qui	PRON	_	PRON__PronType=Rel	6	nsubj	_	_
+5	ne	ne	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+6	voulez	vouloir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
+7	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+8	lire	lir	ADJ	_	ADJ__Number=Sing	6	obj	_	_
+9	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+10	comprendre	comprendre	VERB	_	VERB__VerbForm=Inf	8	conj	_	_
+11	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Votre détail horaire: [/QUOTE] ce mois
+1	Votre	votre	DET	_	DET__Number=Sing|Poss=Yes	3	nmod:poss	_	_
+2	détail	détail	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	horaire	horaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	amod	_	_
+4	:	:	PUNCT	_	PUNCT___	6	punct	_	_
+5	[	[	PUNCT	_	PUNCT___	6	punct	_	_
+6	/QUOTE	/QUOTE	ADP	_	ADP___	3	punct	_	_
+7	]	]	PUNCT	_	PUNCT___	8	punct	_	_
+8	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+9	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+
+
+#-ci vous n'avez pas travaillé 140H00.
+1	-	-	PUNCT	_	PUNCT___	3	punct	_	_
+2	ci	ci	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Dem	3	mark	_	_
+3	vous	vous	PRON	_	PRON__Number=Plur|Person=2	3	nsubj	_	_
+4	n'	ne	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+5	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	pas	pas	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+7	travaillé	travailler	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+8	140H00	140h00	NOUN	_	NOUN__NumType=Card	6	nummod	_	_
+9	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#semaine 1 : 35H00 + 2h00 supp
+1	semaine	semaine	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nmod	_	_
+2	1	1	NUM	_	NUM__NumType=Card	3	nummod	_	_
+3	:	:	PUNCT	_	PUNCT___	3	punct	_	_
+4	35H00	35h00	PRON	_	PRON__NumType=Card|PronType=Rel	0	ROOT	_	_
+5	+	+	ADP	_	ADP___	6	case	_	_
+6	2h00	2h00	NUM	_	NUM__NumType=Card	3	nmod	_	_
+7	supp	supp	ADJ	_	ADJ__Number=Sing	8	amod	_	_
+
+
+#Semaine 2 : 35h00 + 1h00 supp
+1	Semaine	semaine	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	2	2	NUM	_	NUM__NumType=Card	3	nummod	_	_
+3	:	:	PUNCT	_	PUNCT___	3	punct	_	_
+4	35h00	35h00	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	acl	_	_
+5	+	+	ADP	_	ADP___	6	case	_	_
+6	1h00	1h00	NOUN	_	NOUN__NumType=Card	3	nummod	_	_
+7	supp	supp	ADJ	_	ADJ__Number=Sing	8	nmod	_	_
+
+
+#Semaine 3 : 35h00 + 6h00 supp semaine 4 :
+1	Semaine	semaine	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	3	3	NUM	_	NUM__NumType=Card	3	nummod	_	_
+3	:	:	PUNCT	_	PUNCT___	3	punct	_	_
+4	35h00	35h00	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	acl	_	_
+5	+	+	ADP	_	ADP___	6	case	_	_
+6	6h00	6h00	NUM	_	NUM__NumType=Card	3	det	_	_
+7	supp	supp	ADJ	_	ADJ__Number=Sing	8	nmod	_	_
+8	semaine	semaine	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+9	4	4	NUM	_	NUM__NumType=Card	10	nummod	_	_
+10	:	:	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#35H00 + 1h00 supp semaine 5 du 29 au 31 : 26H36
+1	35H00	35h00	PRON	_	PRON__NumType=Card|PronType=Rel	0	ROOT	_	_
+2	+	+	ADP	_	ADP___	3	case	_	_
+3	1h00	1h00	NOUN	_	NOUN__NumType=Card	3	nummod	_	_
+4	supp	supp	ADJ	_	ADJ__Number=Sing	6	nmod	_	_
+5	semaine	semaine	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	amod	_	_
+6	5	5	NUM	_	NUM__NumType=Card	3	nummod	_	_
+7	du	du	DET	_	DET__Gender=Masc|Number=Sing	8	det	_	_
+8	29	29	NUM	_	NUM__NumType=Card	6	nummod	_	_
+9	au	au	NOUN	_	NOUN___	10	case	_	_
+10	31	31	NUM	_	NUM__NumType=Card	8	nmod	_	_
+11	:	:	PUNCT	_	PUNCT___	3	punct	_	_
+12	26H36	26H36	NUM	_	NUM__NumType=Card	13	nmod	_	_
+
+
+#Soit 161H36 au taux horaire de 9,88 + 10h00 supp
+1	Soit	Soit	CCONJ	_	CCONJ___	3	cc	_	_
+2	161H36	161h36	NOUN	_	NOUN__NumType=Card	3	nummod	_	_
+3	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	3	amod	_	_
+4	taux	taux	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+5	horaire	horaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	amod	_	_
+6	de	de	ADP	_	ADP___	3	case	_	_
+7	9,88	9,88	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nummod	_	_
+8	+	+	ADP	_	ADP___	6	case	_	_
+9	10h00	10h00	NUM	_	NUM__NumType=Card	10	nmod	_	_
+10	supp	supp	ADJ	_	ADJ__Number=Sing	8	nmod	_	_
+
+
+#Vous êtes payé sur les heures que vous effectuez et certains mois, comme le mois d'octobre il n'y a pas que 4 semaines pile poil de boulot.
+1	Vous	vous	PRON	_	PRON__Number=Plur|Person=2	3	nsubj	_	_
+2	êtes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	payé	payer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	sur	sur	ADP	_	ADP___	6	case	_	_
+5	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	6	det	_	_
+6	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	3	obl	_	_
+7	que	que	PRON	_	PRON__PronType=Rel	8	mark	_	_
+8	vous	vous	PRON	_	PRON__Number=Plur|Person=2	6	nsubj	_	_
+9	effectuez	effectuer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+10	et	et	CCONJ	_	CCONJ___	8	cc	_	_
+11	certains	certain	DET	_	DET__Gender=Masc|Number=Plur	3	det	_	_
+12	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	conj	_	_
+13	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+14	comme	comme	SCONJ	_	SCONJ___	13	case	_	_
+15	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+16	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+17	d'	de	ADP	_	ADP___	13	case	_	_
+18	octobre	octobre	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	nmod	_	_
+19	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	20	nsubj	_	_
+20	n'	ne	ADV	_	ADV__Polarity=Neg	13	advmod	_	_
+21	y	yu	PRON	_	PRON__Person=3	27	expl	_	_
+22	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	advcl	_	_
+23	pas	pas	ADV	_	ADV__Polarity=Neg	27	advmod	_	_
+24	que	que	SCONJ	_	SCONJ___	27	mark	_	_
+25	4	4	NUM	_	NUM__NumType=Card	27	nummod	_	_
+26	semaines	semaine	NOUN	_	NOUN__Gender=Fem|Number=Plur	27	nsubj	_	_
+27	pile	pil	ADJ	_	ADJ__Number=Sing	27	amod	_	_
+28	poil	poil	ADV	_	ADV___	27	ccomp	_	_
+29	de	de	ADP	_	ADP___	27	case	_	_
+30	boulot	boulot	NOUN	_	NOUN__Gender=Fem|Number=Plur	33	obl	_	_
+31	.	.	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#Vous avez mis également 10h supp ( J'aurais effectuer 31h36 payer 12,35 ) D'où sortez
+1	Vous	vous	PRON	_	PRON__Number=Plur|Person=2	3	nsubj	_	_
+2	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	mis	mettre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	également	également	ADV	_	ADV___	6	advmod	_	_
+5	10h	10h	PRON	_	PRON__NumType=Card|PronType=Rel	6	nummod	_	_
+6	supp	supp	ADJ	_	ADJ__Number=Sing	3	obj	_	_
+7	(	(	PUNCT	_	PUNCT___	8	punct	_	_
+8	J'	il	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+9	aurais	aurai	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	aux	_	_
+10	effectuer	effectuer	VERB	_	VERB__VerbForm=Inf	8	acl	_	_
+11	31h36	31h36	PRON	_	PRON__Person=3|Reflex=Yes	3	obj	_	_
+12	payer	payer	VERB	_	VERB__VerbForm=Inf	13	xcomp	_	_
+13	12,35	12,35	NOUN	_	NOUN__NumType=Card	13	obj	_	_
+14	)	)	PUNCT	_	PUNCT___	13	punct	_	_
+15	D'	D'	ADP	_	ADP___	13	mark	_	_
+16	où	où	PRON	_	PRON__PronType=Rel	13	fixed	_	_
+17	sortez	sortir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	advcl	_	_
+
+
+#-vous les 31H36 d'heures supp ps: les indemnité de déplacement sont compte dans le brut
+1	-	-	PUNCT	_	PUNCT___	3	punct	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	3	nmod	_	_
+3	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	3	det	_	_
+4	31H36	31h36	NOUN	_	NOUN__Gender=Fem|Number=Plur	6	nsubj	_	_
+5	d'	de	ADP	_	ADP___	6	case	_	_
+6	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	3	nmod	_	_
+7	supp	supp	ADJ	_	ADJ__Number=Sing	8	amod	_	_
+8	ps	ps	ADV	_	ADV___	6	cop	_	_
+9	:	:	PUNCT	_	PUNCT___	10	punct	_	_
+10	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+11	indemnité	indemnité	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+12	de	de	ADP	_	ADP___	13	case	_	_
+13	déplacement	déplacement	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+14	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+15	compte	compter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+16	dans	dan	ADP	_	ADP___	13	case	_	_
+17	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+18	brut	brut	ADJ	_	ADJ__Number=Sing|NumType=Ord	17	obl	_	_
+
+
+#Non pas au vu de la fiche de salaire que vous avez mise en lien.
+1	Non	non	ADV	_	ADV___	3	advmod	_	_
+2	pas	pas	SCONJ	_	SCONJ___	3	advmod	_	_
+3	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	3	expl	_	_
+4	vu	voir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	de	de	ADP	_	ADP___	6	case	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+7	fiche	fiche	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+8	de	de	ADP	_	ADP___	6	case	_	_
+9	salaire	salaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+10	que	que	SCONJ	_	SCONJ___	8	obj	_	_
+11	vous	vous	PRON	_	PRON__Number=Plur|Person=2	3	nsubj	_	_
+12	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	mise	mettre	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+14	en	en	ADP	_	ADP___	13	case	_	_
+15	lien	lien	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+16	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Les indemnités ne sont pas soumises à cotisations sociales donc non inclues dans le salaire brut pour le calcul de l'IFM et ICCP.
+1	Les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	3	det	_	_
+2	indemnités	indemnité	NOUN	_	NOUN__Gender=Fem|Number=Plur	3	nsubj	_	_
+3	ne	ne	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+4	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+6	soumises	soumettre	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+7	à	à	ADP	_	ADP___	8	case	_	_
+8	cotisations	cotisation	NOUN	_	NOUN__Gender=Fem|Number=Plur	6	obl	_	_
+9	sociales	social	ADJ	_	ADJ__Gender=Fem|Number=Plur	10	amod	_	_
+10	donc	donc	ADV	_	ADV___	8	advmod	_	_
+11	non	non	ADV	_	ADV___	3	advmod	_	_
+12	inclues	inclure	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	13	amod	_	_
+13	dans	dan	ADP	_	ADP___	13	case	_	_
+14	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+15	salaire	salaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+16	brut	brut	ADJ	_	ADJ___	13	amod	_	_
+17	pour	pour	ADP	_	ADP___	13	case	_	_
+18	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+19	calcul	calcul	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	nmod	_	_
+20	de	de	ADP	_	ADP___	13	case	_	_
+21	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	27	det	_	_
+22	IFM	ifm	NOUN	_	NOUN__Number=Sing	27	nmod	_	_
+23	et	et	CCONJ	_	CCONJ___	27	cc	_	_
+24	ICCP	iccp	ADJ	_	ADJ___	27	conj	_	_
+25	.	.	PUNCT	_	PUNCT___	27	punct	_	_
+
+
+#Donc pour le mois de septembre les IFM et CP se calcule sur le salaire brut de 1519,05 et non 1521,65 ce qui représente une différence de 2,60.
+1	Donc	donc	ADV	_	ADV___	3	advmod	_	_
+2	pour	pour	ADP	_	ADP___	3	case	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+4	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	de	de	ADP	_	ADP___	6	case	_	_
+6	septembre	septembre	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nmod	_	_
+7	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+8	IFM	ifm	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	nmod	_	_
+9	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+10	CP	cp	NOUN	_	NOUN___	8	nsubj	_	_
+11	se	se	PRON	_	PRON__Person=3|Reflex=Yes	3	expl	_	_
+12	calcule	calculer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+13	sur	sur	ADP	_	ADP___	13	case	_	_
+14	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+15	salaire	salaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+16	brut	brut	ADJ	_	ADJ___	13	amod	_	_
+17	de	de	ADP	_	ADP___	13	case	_	_
+18	1519,05	1519,05	NOUN	_	NOUN__NumType=Card	17	obl	_	_
+19	et	et	CCONJ	_	CCONJ___	20	cc	_	_
+20	non	non	ADV	_	ADV___	13	conj	_	_
+21	1521,65	1521,65	NUM	_	NUM__NumType=Card	27	punct	_	_
+22	ce	ce	PRON	_	PRON__PronType=Rel	27	appos	_	_
+23	qui	qui	PRON	_	PRON__PronType=Rel	27	nsubj	_	_
+24	représente	représenter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	acl:relcl	_	_
+25	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+26	différence	différence	NOUN	_	NOUN__Gender=Fem|Number=Sing	27	obj	_	_
+27	de	de	ADP	_	ADP___	27	case	_	_
+28	2,60.	2,60.	NUM	_	NUM__NumType=Card	27	nmod	_	_
+
+

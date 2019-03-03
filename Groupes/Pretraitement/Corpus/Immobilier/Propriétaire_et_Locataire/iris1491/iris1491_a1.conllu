@@ -1,0 +1,80 @@
+#Bonjour,
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Si on veut absolument le logement, on signe le bail et on exige le remboursement des sommes versées ensuite.
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	on	on	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+3	veut	vouloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+4	absolument	absolument	ADV	_	ADV___	5	advmod	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+6	logement	logement	ADV	_	ADV___	5	obj	_	_
+7	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+8	on	on	PRON	_	PRON__Number=Sing|Person=3	5	nsubj	_	_
+9	signe	signer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+10	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+12	et	et	CCONJ	_	CCONJ___	13	cc	_	_
+13	on	on	PRON	_	PRON__Number=Sing|Person=3	11	nsubj	_	_
+14	exige	exiger	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	_
+15	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	remboursement	remboursement	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+17	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	18	det	_	_
+18	sommes	somme	NOUN	_	NOUN__Number=Plur	16	obj	_	_
+19	versées	verser	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	20	acl	_	_
+20	ensuite	ensuite	ADV	_	ADV___	16	advmod	_	_
+21	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Tout ce qui n'est pas listé dans le décret n° 87-713 du 26 août 1987 ne fait pas partie des charges récupérables.
+1	Tout	tout	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	amod	_	_
+2	ce	ce	PRON	_	PRON__PronType=Rel	1	obl	_	_
+3	qui	qui	PRON	_	PRON__PronType=Rel	5	nsubj	_	_
+4	n'	ne	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+6	pas	pas	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+7	listé	lister	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	acl:relcl	_	_
+8	dans	dan	ADP	_	ADP___	5	case	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	décret	décret	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obl	_	_
+11	n°	numéro	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+12	87	87	NUM	_	NUM__NumType=Card	13	nummod	_	_
+13	-	-	PUNCT	_	PUNCT___	11	punct	_	_
+14	713	713	NUM	_	NUM__NumType=Card	16	nummod	_	_
+15	du	du	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	26	26	NUM	_	NUM__NumType=Card	11	nummod	_	_
+17	août	août	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obl	_	_
+18	1987	1987	NUM	_	NUM__NumType=Card	16	nummod	_	_
+19	ne	ne	ADV	_	ADV__Polarity=Neg	20	advmod	_	_
+20	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+21	pas	pas	ADV	_	ADV__Polarity=Neg	20	advmod	_	_
+22	partie	partie	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	obj	_	_
+23	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
+24	charges	charge	NOUN	_	NOUN__Gender=Fem|Number=Plur	25	obj	_	_
+25	récupérables	récupérable	ADJ	_	ADJ__Gender=Fem|Number=Plur	43	amod	_	_
+26	.	.	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#La loi étant plus forte que le contrat entre particuliers, le propriétaire ne pourra s'y opposer.
+1	La	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	loi	loi	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+3	étant	être	VERB	_	VERB__Tense=Pres|VerbForm=Part	5	cop	_	_
+4	plus	plus	ADV	_	ADV___	5	advmod	_	_
+5	forte	fort	ADJ	_	ADJ__Gender=Fem|Number=Sing	0	ROOT	_	_
+6	que	que	SCONJ	_	SCONJ___	5	mark	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+9	entre	entrer	ADP	_	ADP___	11	case	_	_
+10	particuliers	particulier	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	nmod	_	_
+11	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	11	nsubj	_	_
+14	ne	ne	ADV	_	ADV___	16	advmod	_	_
+15	pourra	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	16	aux	_	_
+16	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	11	expl	_	_
+17	y	yu	PRON	_	PRON__Person=3	18	iobj	_	_
+18	opposer	opposer	VERB	_	VERB__VerbForm=Inf	16	ccomp	_	_
+19	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+

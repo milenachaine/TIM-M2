@@ -1,0 +1,77 @@
+#Bonjour Remplissez
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	Remplissez	Remplissez	PROPN	_	PROPN___	1	flat:name	_	_
+
+
+#une requete en injonction de payer avec le formulaire qu'il faut (sur le net) pour le tribunal d'instance, et attendez l'ordonnance que vous ferez signifier par huissier;
+1	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	requete	requete	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	en	en	ADP	_	ADP___	4	case	_	_
+4	injonction	injonction	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obl	_	_
+5	de	de	ADP	_	ADP___	6	mark	_	_
+6	payer	payer	VERB	_	VERB__VerbForm=Inf	4	acl	_	_
+7	avec	avec	ADP	_	ADP___	8	case	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+9	formulaire	formulaire	VERB	_	VERB__VerbForm=Inf	11	obl	_	_
+10	qu'	que	SCONJ	_	SCONJ___	11	obj	_	_
+11	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+12	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
+13	(	(	PUNCT	_	PUNCT___	14	punct	_	_
+14	sur	sur	ADP	_	ADP___	8	case	_	_
+15	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+16	net	net	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obl	_	_
+17	)	)	PUNCT	_	PUNCT___	18	punct	_	_
+18	pour	pour	ADP	_	ADP___	14	case	_	_
+19	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+20	tribunal	tribunal	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	obl	_	_
+21	d'	de	ADP	_	ADP___	22	case	_	_
+22	instance	instance	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nmod	_	_
+23	,	,	PUNCT	_	PUNCT___	24	punct	_	_
+24	et	et	CCONJ	_	CCONJ___	22	cc	_	_
+25	attendez	attendre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+26	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	27	det	_	_
+27	ordonnance	ordonnance	NOUN	_	NOUN__Number=Sing	4	obj	_	_
+28	que	que	SCONJ	_	SCONJ___	29	obj	_	_
+29	vous	vous	PRON	_	PRON__Number=Plur|Person=2	27	nsubj	_	_
+30	ferez	faire	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	32	acl:relcl	_	_
+31	signifier	signifier	VERB	_	VERB__VerbForm=Inf	32	xcomp	_	_
+32	par	par	ADP	_	ADP___	29	case	_	_
+33	huissier	huissier	NOUN	_	NOUN__Gender=Masc|Number=Sing	32	obl	_	_
+34	;	;	PUNCT	_	PUNCT___	35	punct	_	_
+
+
+#Si votre client est solvable, il devrai payer les 65 euros et l'huissier.
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+3	client	client	ADV	_	ADV___	4	nsubj	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+5	solvable	solvable	ADJ	_	ADJ__Number=Sing	6	advcl	_	_
+6	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+7	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+8	devrai	devoir	ADV	_	ADV___	0	ROOT	_	_
+9	payer	payer	VERB	_	VERB__VerbForm=Inf	11	xcomp	_	_
+10	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	11	det	_	_
+11	65	65	NUM	_	NUM__NumType=Card	8	nummod	_	_
+12	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	obj	_	_
+13	et	et	CCONJ	_	CCONJ___	14	cc	_	_
+14	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+15	huissier	huissier	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	conj	_	_
+16	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Si la personne n'est pas solvable, passez a autre chose.
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+3	personne	personne	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nsubj	_	_
+4	n'	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	pas	pas	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+7	solvable	solvable	ADJ	_	ADJ__Number=Sing	8	advcl	_	_
+8	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+9	passez	passer	ADV	_	ADV___	0	ROOT	_	_
+10	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advmod	_	_
+11	autre	autre	ADJ	_	ADJ__Number=Sing	8	amod	_	_
+12	chose	chose	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obj	_	_
+13	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+

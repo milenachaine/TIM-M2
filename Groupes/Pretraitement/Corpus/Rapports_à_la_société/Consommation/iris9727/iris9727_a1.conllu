@@ -1,0 +1,84 @@
+#Bonjour, A combien s'élève la différence de prix ?
+1	Bonjour	Bonjour	PROPN	_	PROPN___	6	nsubj	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	A	a	NOUN	_	NOUN___	1	nmod	_	_
+4	combien	combien	ADV	_	ADV__PronType=Int	6	advmod	_	_
+5	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	6	expl	_	_
+6	élève	élever	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	différence	différence	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obj	_	_
+9	de	de	ADP	_	ADP___	10	case	_	_
+10	prix	prix	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+11	?	?	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Tout produit doit être vendu au prix affiché sauf si l'erreur est évidente (prix dérisoire par rapport à sa vraie valeur), plusieurs jugements vont dans ce sens.
+1	Tout	tout	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+2	produit	produit	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+4	être	être	AUX	_	AUX__VerbForm=Inf	6	aux:pass	_	_
+5	vendu	vendre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	xcomp	_	_
+6	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+7	prix	prix	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obl	_	_
+8	affiché	afficher	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+9	sauf	sauf	ADP	_	ADP___	10	case	_	_
+10	si	si	SCONJ	_	SCONJ___	8	mark	_	_
+11	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+12	erreur	erreur	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nsubj	_	_
+13	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	évidente	évident	ADJ	_	ADJ__Gender=Fem|Number=Sing	39	obl	_	_
+15	(	(	PUNCT	_	PUNCT___	16	punct	_	_
+16	prix	prix	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nsubj	_	_
+17	dérisoire	dérisoire	ADJ	_	ADJ__Number=Sing	18	acl	_	_
+18	par	par	ADP	_	ADP___	16	case	_	_
+19	rapport	rapport	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	fixed	_	_
+20	à	à	ADP	_	ADP___	25	fixed	_	_
+21	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	25	nmod:poss	_	_
+22	vraie	vrai	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	obl	_	_
+23	valeur	valeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	nmod	_	_
+24	)	)	PUNCT	_	PUNCT___	25	punct	_	_
+25	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+26	plusieurs	plusieurs	DET	_	DET__Number=Plur	25	det	_	_
+27	jugements	jugement	NOUN	_	NOUN__Gender=Masc|Number=Plur	28	nsubj	_	_
+28	vont	aller	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+29	dans	dan	ADP	_	ADP___	33	case	_	_
+30	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	29	det	_	_
+31	sens	sens	NOUN	_	NOUN__Gender=Masc	29	obl	_	_
+32	.	.	PUNCT	_	PUNCT___	33	punct	_	_
+
+
+#Vous pouvez taper "erreur de prix web" suivi du nom de la chaine dans une barre de recherche, vous trouverez malheureusement une multitude d'articles sur ce procédé.
+1	Vous	vous	PRON	_	PRON__Number=Plur|Person=2	6	nsubj	_	_
+2	pouvez	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	taper	taper	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	"	"	PUNCT	_	PUNCT___	6	punct	_	_
+5	erreur	erreur	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obl	_	_
+6	de	de	ADP	_	ADP___	6	case	_	_
+7	prix	prix	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	nmod	_	_
+8	web	web	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	nmod	_	_
+9	"	"	PUNCT	_	PUNCT___	10	punct	_	_
+10	suivi	suivre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
+11	du	du	DET	_	DET__Gender=Masc|Number=Sing	6	det	_	_
+12	nom	nom	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+13	de	de	ADP	_	ADP___	14	case	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+15	chaine	chaine	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nmod	_	_
+16	dans	dan	ADP	_	ADP___	14	case	_	_
+17	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	barre	barre	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obl	_	_
+19	de	de	ADP	_	ADP___	18	case	_	_
+20	recherche	recherche	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	nmod	_	_
+21	,	,	PUNCT	_	PUNCT___	25	punct	_	_
+22	vous	vous	PRON	_	PRON__Number=Plur|Person=2	23	nsubj	_	_
+23	trouverez	trouver	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	25	conj	_	_
+24	malheureusement	malheureusement	ADV	_	ADV___	25	advmod	_	_
+25	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+26	multitude	multitude	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	obj	_	_
+27	d'	de	ADP	_	ADP___	28	case	_	_
+28	articles	article	NOUN	_	NOUN__Gender=Masc|Number=Plur	25	nmod	_	_
+29	sur	sur	ADP	_	ADP___	33	case	_	_
+30	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	29	det	_	_
+31	procédé	procédé	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	obl	_	_
+32	.	.	PUNCT	_	PUNCT___	33	punct	_	_
+
+

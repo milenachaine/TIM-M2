@@ -1,0 +1,143 @@
+#J'ai bien lu.
+1	J'	il	PRON	_	PRON__Number=Sing|Person=1	2	nsubj	_	_
+2	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	bien	bien	ADV	_	ADV___	2	advmod	_	_
+4	lu	lire	PROPN	_	PROPN___	2	obj	_	_
+5	.	.	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#Sauf que moi j'ai une facture de 100 ttc et un avoir de 100 ttc et une nouvelle facture de disons 50 ttc.
+1	Sauf	Sauf	ADP	_	ADP___	2	mark	_	_
+2	que	que	SCONJ	_	SCONJ___	2	mark	_	_
+3	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	2	fixed	_	_
+4	j'	il	PRON	_	PRON__Number=Sing|Person=1	2	nsubj	_	_
+5	ai	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+7	facture	facture	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obj	_	_
+8	de	de	ADP	_	ADP___	7	case	_	_
+9	100	100	PRON	_	PRON__NumType=Card|PronType=Rel	10	nummod	_	_
+10	ttc	ttc	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+11	et	et	CCONJ	_	CCONJ___	12	cc	_	_
+12	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+13	avoir	avoir	VERB	_	VERB__VerbForm=Inf	15	conj	_	_
+14	de	de	ADP	_	ADP___	15	case	_	_
+15	100	100	NUM	_	NUM__NumType=Card	12	nummod	_	_
+16	ttc	ttc	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	nmod	_	_
+17	et	et	CCONJ	_	CCONJ___	18	cc	_	_
+18	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+19	nouvelle	nouveau	ADJ	_	ADJ__Gender=Fem|Number=Sing	21	amod	_	_
+20	facture	facture	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	conj	_	_
+21	de	de	ADP	_	ADP___	18	case	_	_
+22	disons	dison	NOUN	_	NOUN__Gender=Fem|Number=Plur	25	nmod	_	_
+23	50	50	NUM	_	NUM__NumType=Card	25	nummod	_	_
+24	ttc	ttc	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	nmod	_	_
+25	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Donc avec les documents que j'ai il n'y a pas de reliquat en notre faveur.
+1	Donc	donc	ADV	_	ADV___	2	advmod	_	_
+2	avec	avec	ADP	_	ADP___	2	case	_	_
+3	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	2	det	_	_
+4	documents	document	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+5	que	que	PRON	_	PRON__PronType=Rel	2	obj	_	_
+6	j'	il	PRON	_	PRON__Number=Sing|Person=1	10	nsubj	_	_
+7	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+8	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+9	n'	ne	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+10	y	yu	PRON	_	PRON__Person=3	10	expl	_	_
+11	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+12	pas	pas	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+13	de	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	15	mark	_	_
+14	reliquat	reliquat	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	15	xcomp	_	_
+15	en	en	ADP	_	ADP___	12	case	_	_
+16	notre	notre	DET	_	DET__Number=Sing|Poss=Yes	18	nmod:poss	_	_
+17	faveur	faveur	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	obl	_	_
+18	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Extourner veut dire annuler une écriture comptable.
+1	Extourner	Extourner	PROPN	_	PROPN___	2	nsubj	_	_
+2	veut	vouloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	dire	dire	VERB	_	VERB__VerbForm=Inf	2	amod	_	_
+4	annuler	annuler	VERB	_	VERB__VerbForm=Inf	2	xcomp	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+6	écriture	écriture	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obj	_	_
+7	comptable	comptable	ADJ	_	ADJ__Number=Sing	10	amod	_	_
+8	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#C'est différent de la suppression?
+1	C'	ce	PRON	_	PRON__Number=Sing|Person=3	2	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+3	différent	différent	ADV	_	ADV___	2	advmod	_	_
+4	de	de	ADP	_	ADP___	2	case	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+6	suppression	suppression	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+7	?	?	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Extourner et faire un avoir n'est pas incompatible ?
+1	Extourner	Extourner	PROPN	_	PROPN___	0	ROOT	_	_
+2	et	et	CCONJ	_	CCONJ___	2	cc	_	_
+3	faire	faire	VERB	_	VERB__VerbForm=Inf	2	conj	_	_
+4	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+5	avoir	avoir	AUX	_	AUX__VerbForm=Inf	2	aux	_	_
+6	n'	ne	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+7	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	pas	pas	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+9	incompatible	incompatible	ADJ	_	ADJ__Number=Sing	10	xcomp	_	_
+10	?	?	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#---------- Message ajouté à 11h49
+1	----------	----------	DET	_	DET__Gender=Masc|Number=Sing	2	det	_	_
+2	Message	message	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	ajouté	ajouter	ADJ	_	ADJ__Gender=Masc|Number=Sing	2	amod	_	_
+4	à	à	ADP	_	ADP___	2	case	_	_
+5	11h49	11h49	NUM	_	NUM__NumType=Card	2	obl	_	_
+
+
+#---------- Précédent message à 11h48
+1	----------	----------	PRON	_	PRON___	2	det	_	_
+2	Précédent	précédent	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	message	message	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	flat:name	_	_
+4	à	à	ADP	_	ADP___	2	case	_	_
+5	11h48	11h48	NUM	_	NUM__NumType=Card	2	nmod	_	_
+
+
+#----------
+1	----------	----------	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	0	ROOT	_	_
+
+
+#En revanche s'il ne peut supprimer une facture il peut la modifier?
+1	En	En	ADP	_	ADP___	2	advmod	_	_
+2	revanche	revanche	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	fixed	_	_
+3	s'	si	SCONJ	_	SCONJ___	2	mark	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+5	ne	ne	ADV	_	ADV___	2	advmod	_	_
+6	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+7	supprimer	supprimer	VERB	_	VERB__VerbForm=Inf	10	advcl	_	_
+8	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+9	facture	facture	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obj	_	_
+10	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
+11	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+13	modifier	modifier	VERB	_	VERB__VerbForm=Inf	15	obj	_	_
+14	?	?	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Réajuster la TVA et le montant HT?[COLOR="Silver"
+1	Réajuster	réajuster	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+3	TVA	TVA	PROPN	_	PROPN__Gender=Fem|Number=Sing	2	obj	_	_
+4	et	et	CCONJ	_	CCONJ___	2	cc	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+6	montant	montant	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	conj	_	_
+7	HT?[COLOR="Silver	HT?[COLOR="Silver	PROPN	_	PROPN___	10	xcomp	_	_
+8	"	"	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#]
+1	]	]	PUNCT	_	PUNCT___	0	ROOT	_	_
+
+

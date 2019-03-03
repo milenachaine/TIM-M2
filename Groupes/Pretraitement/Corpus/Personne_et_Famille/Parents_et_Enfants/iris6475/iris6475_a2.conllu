@@ -1,0 +1,100 @@
+#Bonjour, L'organisme qui paie la rente d'éducation est-il l'organisme de prévoyance choisi par l'employeur du papa ?
+1	Bonjour	Bonjour	PROPN	_	PROPN___	4	case	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	L'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	organisme	organisme	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	qui	qui	PRON	_	PRON__PronType=Rel	6	nsubj	_	_
+6	paie	payer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	rente	rente	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obj	_	_
+9	d'	de	ADP	_	ADP___	10	case	_	_
+10	éducation	éducation	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+11	est-il	est-il	ADP	_	ADP___	10	amod	_	_
+12	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	organisme	organisme	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+14	de	de	ADP	_	ADP___	15	case	_	_
+15	prévoyance	prévoyance	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nmod	_	_
+16	choisi	choisir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl	_	_
+17	par	par	ADP	_	ADP___	19	case	_	_
+18	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obl	_	_
+20	du	du	DET	_	DET__Gender=Masc|Number=Sing	21	det	_	_
+21	papa	papa	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	amod	_	_
+22	?	?	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#ou une pension d'orphelin si le papa était salarié du secteur public ?
+1	ou	ou	CCONJ	_	CCONJ___	4	cc	_	_
+2	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	pension	pension	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obl	_	_
+4	d'	de	ADP	_	ADP___	4	case	_	_
+5	orphelin	orphelin	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nmod	_	_
+6	si	si	SCONJ	_	SCONJ___	4	mark	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	papa	papa	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+9	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux:pass	_	_
+10	salarié	salarier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+11	du	du	DET	_	DET__Gender=Masc|Number=Sing	10	det	_	_
+12	secteur	secteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+13	public	public	ADJ	_	ADJ__Gender=Masc|Number=Sing	6	amod	_	_
+14	?	?	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#https://www.service-public.fr/partic...sdroits/F21820 Depuis le décès, jusqu'à septembre 2018, est-ce vos parents qui percevaient cette rente ?
+1	https://www.service-public.fr/partic...sdroits/F21820	https://www.service-public.fr/partic...sdroits/f21820	ADV	_	ADV___	0	ROOT	_	_
+2	Depuis	Depuis	ADP	_	ADP___	4	case	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	décès	décès	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+5	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+6	jusqu'	jusque	ADP	_	ADP___	4	case	_	_
+7	à	à	ADP	_	ADP___	8	fixed	_	_
+8	septembre	septembre	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obl	_	_
+9	2018	2018	NUM	_	NUM__NumType=Card	10	nummod	_	_
+10	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+11	est	être		_	VERB	10	cop	_	_
+12	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	13	punct	_	_
+13	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	6	nmod:poss	_	_
+14	parents	parent	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	conj	_	_
+15	qui	qui	PRON	_	PRON__PronType=Rel	13	nsubj	_	_
+16	percevaient	percevoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+17	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	19	det	_	_
+18	rente	rente	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obj	_	_
+19	?	?	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Une modification a-t-elle été faite pour que la rente soit versée à la maman ?
+1	Une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+2	modification	modification	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	a	avoir		_	VERB	4	aux	_	_
+4	-t	t	PART	_	PART___	4	expl	_	_
+5	-elle	elle	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	6	nsubj:pass	_	_
+6	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	4	aux:pass	_	_
+7	faite	faire	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+8	pour	pour	ADP	_	ADP___	6	mark	_	_
+9	que	que	SCONJ	_	SCONJ___	10	fixed	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+11	rente	rente	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nsubj:pass	_	_
+12	soit	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+13	versée	verser	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	advcl	_	_
+14	à	à	ADP	_	ADP___	15	case	_	_
+15	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+16	maman	maman	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obl	_	_
+17	?	?	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#si oui, sur un compte en France ou à l'étranger ?
+1	si	si	SCONJ	_	SCONJ___	4	mark	_	_
+2	oui	oui	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	sur	sur	ADP	_	ADP___	4	case	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	compte	compte	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	conj	_	_
+7	en	en	ADP	_	ADP___	8	case	_	_
+8	France	France	PROPN	_	PROPN__Gender=Fem|Number=Sing	6	nmod	_	_
+9	ou	ou	CCONJ	_	CCONJ___	10	cc	_	_
+10	à	à	ADP	_	ADP___	8	mark	_	_
+11	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	10	obj	_	_
+12	étranger	étranger	VERB	_	VERB__VerbForm=Inf	13	conj	_	_
+13	?	?	PUNCT	_	PUNCT___	6	punct	_	_
+
+

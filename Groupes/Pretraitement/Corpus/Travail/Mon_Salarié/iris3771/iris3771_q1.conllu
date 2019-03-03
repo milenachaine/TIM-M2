@@ -1,0 +1,88 @@
+#Bonjour Lorsqu'un salarié est en compétition avec un groupe d'enfants, comment peut-on calculer son temps de travail effectif?
+1	Bonjour	Bonjour	PROPN	_	PROPN___	7	case	_	_
+2	Lorsqu'	Lorsqu'	SCONJ	_	SCONJ___	1	fixed	_	_
+3	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	salarié	salarié	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nsubj	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	en	en	ADP	_	ADP___	7	case	_	_
+7	compétition	compétition	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	obl	_	_
+8	avec	avec	ADP	_	ADP___	10	case	_	_
+9	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	groupe	groupe	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+11	d'	de	ADP	_	ADP___	12	case	_	_
+12	enfants	enfant	NOUN	_	NOUN__Number=Plur	10	nmod	_	_
+13	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+14	comment	comment	ADV	_	ADV__PronType=Int	15	advmod	_	_
+15	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+16	-	-	PUNCT	_	PUNCT___	15	nsubj	_	_
+17	on	on	PRON	_	PRON__Number=Sing|Person=3	18	nsubj	_	_
+18	calculer	calculer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+19	son	son	DET	_	DET__Number=Sing|Poss=Yes	20	nmod:poss	_	_
+20	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obj	_	_
+21	de	de	ADP	_	ADP___	22	case	_	_
+22	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	nmod	_	_
+23	effectif	effectif	ADJ	_	ADJ__Gender=Masc|Number=Sing	22	amod	_	_
+24	?	?	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Actuellement, il est compté le temps échauffement et plateau.
+1	Actuellement	actuellement	ADV	_	ADV___	7	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj:pass	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+5	compté	compter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obj	_	_
+8	échauffement	échauffement	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	amod	_	_
+9	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+10	plateau	plateau	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	conj	_	_
+11	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Mais le temps d'attente avant le palmarès n'est pas comptabilisé en temps de travail, le salarié n'est donc pas rémunéré sur ce temps d'attente qu peut être plus ou moins long.
+1	Mais	Mais	CCONJ	_	CCONJ___	7	cc	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+3	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+4	d'	de	ADP	_	ADP___	7	case	_	_
+5	attente	attente	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+6	avant	avant	ADP	_	ADP___	7	case	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+8	palmarès	palmarès	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+9	n'	ne	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+10	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+11	pas	pas	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+12	comptabilisé	comptabiliser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	advcl	_	_
+13	en	en	ADP	_	ADP___	7	case	_	_
+14	temps	temps	NOUN	_	NOUN__Gender=Masc	15	fixed	_	_
+15	de	de	ADP	_	ADP___	18	fixed	_	_
+16	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obl	_	_
+17	,	,	PUNCT	_	PUNCT___	18	punct	_	_
+18	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+19	salarié	salarié	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	nsubj	_	_
+20	n'	ne	ADV	_	ADV__Polarity=Neg	18	advmod	_	_
+21	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+22	donc	donc	ADV	_	ADV___	20	advmod	_	_
+23	pas	pas	ADV	_	ADV__Polarity=Neg	22	advmod	_	_
+24	rémunéré	rémunérer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+25	sur	sur	ADP	_	ADP___	29	case	_	_
+26	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	29	det	_	_
+27	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	obl	_	_
+28	d'	de	ADP	_	ADP___	29	case	_	_
+29	attente	attente	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	nmod	_	_
+30	qu	que	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	31	nsubj	_	_
+31	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+32	être	être	AUX	_	AUX__VerbForm=Inf	31	cop	_	_
+33	plus	plus	ADV	_	ADV___	34	advmod	_	_
+34	ou	ou	CCONJ	_	CCONJ___	31	fixed	_	_
+35	moins	moins	ADV	_	ADV___	29	advmod	_	_
+36	long	long	ADJ	_	ADJ__Gender=Masc|Number=Sing	38	xcomp	_	_
+37	.	.	PUNCT	_	PUNCT___	38	punct	_	_
+
+
+#Merci de votre aide
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	de	de	ADP	_	ADP___	1	case	_	_
+3	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+4	aide	aide	NOUN	_	NOUN__Number=Sing	7	nmod	_	_
+
+

@@ -1,0 +1,88 @@
+#Age enfants : 15 ans
+1	Age	Age	PROPN	_	PROPN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	enfants	enfant	NOUN	_	NOUN__Number=Plur	1	flat:name	_	_
+3	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+4	15	15	NUM	_	NUM__NumType=Card	5	nummod	_	_
+5	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	nmod	_	_
+
+
+#- 12 ans
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	12	12	NUM	_	NUM__NumType=Card	1	nummod	_	_
+3	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+
+
+#- 6 ans Situation familiale : PACS
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	6	6	NUM	_	NUM__NumType=Card	1	nummod	_	_
+3	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	nmod	_	_
+4	Situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+5	familiale	familial	ADJ	_	ADJ__Gender=Fem|Number=Sing	1	amod	_	_
+6	:	:	PUNCT	_	PUNCT___	8	punct	_	_
+7	PACS	pacs	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	appos	_	_
+
+
+#Je suis locataire nom du bail au 2 noms demander rupture du bail qui n'a pas était accepter par les propriétaire car pas de logement social actuellement pour préavis de 1 mois qu'elle as demander Nous avons voulus essayer de ce reconstruire tous les 2 mais cela au contraire empirer malheureusement Oui revenus régulier pour avoir un logement perso
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	suis	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	locataire	locatair	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+4	nom	nom	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	advmod	_	_
+5	du	du	DET	_	DET__Gender=Masc|Number=Sing	1	det	_	_
+6	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+7	au	au	PRON	_	PRON__PronType=Rel	8	case	_	_
+8	2	2	NUM	_	NUM__NumType=Card	8	nummod	_	_
+9	noms	nom	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	nsubj	_	_
+10	demander	demander	VERB	_	VERB__VerbForm=Inf	11	aux	_	_
+11	rupture	rupture	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	advcl	_	_
+12	du	du	DET	_	DET__Gender=Masc|Number=Sing	12	det	_	_
+13	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+14	qui	qui	PRON	_	PRON__PronType=Rel	12	nsubj:pass	_	_
+15	n'	ne	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+16	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	pas	pas	ADV	_	ADV__Polarity=Neg	18	advmod	_	_
+18	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	aux:pass	_	_
+19	accepter	accepter	VERB	_	VERB__VerbForm=Inf	18	acl:relcl	_	_
+20	par	par	ADP	_	ADP___	21	case	_	_
+21	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	18	det	_	_
+22	propriétaire	propriétaire	NOUN	_	NOUN__Number=Plur	26	obl	_	_
+23	car	car	CCONJ	_	CCONJ___	24	cc	_	_
+24	pas	pas	ADV	_	ADV__Polarity=Neg	26	advmod	_	_
+25	de	de	ADP	_	ADP___	26	case	_	_
+26	logement	logement	ADV	_	ADV___	18	conj	_	_
+27	social	social	ADJ	_	ADJ__Gender=Masc|Number=Sing	28	amod	_	_
+28	actuellement	actuellement	ADV	_	ADV___	26	advmod	_	_
+29	pour	pour	ADP	_	ADP___	34	case	_	_
+30	préavis	préavis	NOUN	_	NOUN__Gender=Masc|Number=Sing	34	obl	_	_
+31	de	de	ADP	_	ADP___	34	case	_	_
+32	1	1	NUM	_	NUM__NumType=Card	34	nummod	_	_
+33	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	34	nmod	_	_
+34	qu'	que	PRON	_	PRON__PronType=Rel	26	mark	_	_
+35	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	37	nsubj	_	_
+36	as	avoir	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	37	nmod	_	_
+37	demander	demander	VERB	_	VERB__VerbForm=Inf	34	acl:relcl	_	_
+38	Nous	nous	PRON	_	PRON__Number=Plur|Person=1	41	nsubj	_	_
+39	avons	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	38	aux	_	_
+40	voulus	voulu	ADV	_	ADV__Polarity=Neg	41	advmod	_	_
+41	essayer	essayer	VERB	_	VERB__VerbForm=Inf	37	xcomp	_	_
+42	de	de	ADP	_	ADP___	41	case	_	_
+43	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	41	det	_	_
+44	reconstruire	reconstruire	NOUN	_	NOUN__Number=Sing	45	obl	_	_
+45	tous	tou	ADJ	_	ADJ__Gender=Masc|Number=Plur	34	amod	_	_
+46	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	48	det	_	_
+47	2	2	NUM	_	NUM__NumType=Card	48	fixed	_	_
+48	mais	mais	CCONJ	_	CCONJ___	45	cc	_	_
+49	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	52	nsubj	_	_
+50	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	52	case	_	_
+51	contraire	contraire	ADJ	_	ADJ__Number=Sing	50	fixed	_	_
+52	empirer	empirer	VERB	_	VERB__VerbForm=Inf	48	xcomp	_	_
+53	malheureusement	malheureusement	ADV	_	ADV___	56	advmod	_	_
+54	Oui	oui	DET	_	DET__Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	55	obj	_	_
+55	revenus	revenir	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	56	punct	_	_
+56	régulier	régulier	ADJ	_	ADJ__Gender=Masc|Number=Sing	52	xcomp	_	_
+57	pour	pour	ADP	_	ADP___	59	mark	_	_
+58	avoir	avoir	VERB	_	VERB__VerbForm=Inf	59	advcl	_	_
+59	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
+60	logement	logement	ADV	_	ADV___	59	obj	_	_
+61	perso	perso	ADJ	_	ADJ__Number=Sing	62	amod	_	_
+
+

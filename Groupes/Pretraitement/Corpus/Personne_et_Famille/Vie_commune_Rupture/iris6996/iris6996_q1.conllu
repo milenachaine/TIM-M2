@@ -1,0 +1,225 @@
+#Bonjour, Voici le contexte.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	Voici	voici	VERB	_	VERB__Mood=Ind|VerbForm=Fin	1	conj	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	contexte	contexte	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obj	_	_
+6	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Propriétaire en indivision avec mon ex
+1	Propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	0	ROOT	_	_
+2	en	en	ADP	_	ADP___	3	case	_	_
+3	indivision	indivision	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+4	avec	avec	ADP	_	ADP___	5	case	_	_
+5	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	3	nmod:poss	_	_
+6	ex	ex	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+
+
+#-compagne, nous sommes séparées mais vivons encore sous le même toit.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	compagne	compagne	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obl	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	nous	nous	PRON	_	PRON__Number=Plur|Person=1	5	nsubj:pass	_	_
+5	sommes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+6	séparées	séparer	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	ROOT	_	_
+7	mais	mais	CCONJ	_	CCONJ___	7	cc	_	_
+8	vivons	vivre	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	conj	_	_
+9	encore	encore	ADV	_	ADV___	7	advmod	_	_
+10	sous	sou	ADP	_	ADP___	12	case	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	même	même	ADJ	_	ADJ__Number=Sing	7	amod	_	_
+13	toit	toit	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obl	_	_
+14	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#J'ai proposé de lui racheter sa part de la maison, j'ai eu son accord verbal, mais une fois que j'ai vu notaire et courtier pour mon prêt elle s'est rétractée.
+1	J'	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	proposé	proposer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	_
+4	de	de	ADP	_	ADP___	5	mark	_	_
+5	lui	luire	PRON	_	PRON__Number=Sing|Person=3	3	iobj	_	_
+6	racheter	racheter	VERB	_	VERB__VerbForm=Inf	1	xcomp	_	_
+7	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	7	nmod:poss	_	_
+8	part	part	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obj	_	_
+9	de	de	ADP	_	ADP___	7	case	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obl	_	_
+12	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+13	j'	il	PRON	_	PRON__Number=Sing|Person=1	14	nsubj	_	_
+14	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	aux	_	_
+15	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+16	son	son	DET	_	DET__Number=Sing|Poss=Yes	18	nmod:poss	_	_
+17	accord	accord	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obj	_	_
+18	verbal	verbal	ADJ	_	ADJ__Gender=Masc|Number=Sing	18	amod	_	_
+19	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+20	mais	mais	CCONJ	_	CCONJ___	18	cc	_	_
+21	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+22	fois	fois	NOUN	_	NOUN__Gender=Fem	25	nsubj:pass	_	_
+23	que	que	PRON	_	PRON__PronType=Rel	25	mark	_	_
+24	j'	il	PRON	_	PRON__Number=Sing|Person=1	25	nsubj	_	_
+25	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	aux	_	_
+26	vu	voir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	acl	_	_
+27	notaire	notair	ADJ	_	ADJ__Number=Sing	29	xcomp	_	_
+28	et	et	CCONJ	_	CCONJ___	29	cc	_	_
+29	courtier	courtier	VERB	_	VERB__VerbForm=Inf	41	conj	_	_
+30	pour	pour	ADP	_	ADP___	32	case	_	_
+31	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	32	nmod:poss	_	_
+32	prêt	prêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	obl	_	_
+33	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	34	nsubj	_	_
+34	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	32	expl	_	_
+35	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	aux:pass	_	_
+36	rétractée	rétracter	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	37	conj	_	_
+37	.	.	PUNCT	_	PUNCT___	32	punct	_	_
+
+
+#Finalement elle quitte la maison le mois prochain, mais ne veut ni que je lui rachète sa part ni vendre la maison (c'est son investissement immobilier ....), mais continuera à payer la moitié du prêt.
+1	Finalement	finalement	ADV	_	ADV___	1	advmod	_	_
+2	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	quitte	quitter	SCONJ	_	SCONJ___	0	ROOT	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obl	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+7	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+8	prochain	prochain	ADJ	_	ADJ__Gender=Masc|Number=Sing	9	amod	_	_
+9	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+10	mais	mais	CCONJ	_	CCONJ___	12	cc	_	_
+11	ne	ne	ADV	_	ADV___	12	advmod	_	_
+12	veut	vouloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+13	ni	ni	CCONJ	_	CCONJ___	14	cc	_	_
+14	que	que	SCONJ	_	SCONJ___	18	mark	_	_
+15	je	il	PRON	_	PRON__Number=Sing|Person=1	18	nsubj	_	_
+16	lui	luire	PRON	_	PRON___	18	iobj	_	_
+17	rachète	rachèt	ADJ	_	ADJ__Gender=Fem|Number=Sing	18	conj	_	_
+18	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	18	nmod:poss	_	_
+19	part	part	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obj	_	_
+20	ni	ni	CCONJ	_	CCONJ___	18	cc	_	_
+21	vendre	vendre	VERB	_	VERB__VerbForm=Inf	20	conj	_	_
+22	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+23	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	obj	_	_
+24	(	(	PUNCT	_	PUNCT___	25	punct	_	_
+25	c'	ce	PRON	_	PRON__Number=Sing|Person=3	18	nsubj	_	_
+26	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+27	son	son	DET	_	DET__Number=Sing|Poss=Yes	29	nmod:poss	_	_
+28	investissement	investissement	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	conj	_	_
+29	immobilier	immobilier	ADJ	_	ADJ__Gender=Masc|Number=Sing	41	amod	_	_
+30	....	....	PUNCT	_	PUNCT___	32	nmod	_	_
+31	)	)	PUNCT	_	PUNCT___	32	punct	_	_
+32	,	,	PUNCT	_	PUNCT___	29	punct	_	_
+33	mais	mais	CCONJ	_	CCONJ___	34	cc	_	_
+34	continuera	continuer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	32	conj	_	_
+35	à	à	ADP	_	ADP___	37	mark	_	_
+36	payer	payer	VERB	_	VERB__VerbForm=Inf	37	xcomp	_	_
+37	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+38	moitié	moitié	NOUN	_	NOUN__Gender=Fem|Number=Sing	41	obj	_	_
+39	du	du	DET	_	DET__Gender=Masc|Number=Sing	41	det	_	_
+40	prêt	prêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	41	obj	_	_
+41	.	.	PUNCT	_	PUNCT___	41	punct	_	_
+
+
+#Du coup je vais me retrouver dans la maison dans une situation qui ne me convient pas, je suis coincée puisque je ne peux pas envisager de racheter ailleurs, et de surcroît je risque de me voir imposer le paiement de l'indeminite d'occupation....
+1	Du	du	DET	_	DET__Gender=Masc|Number=Sing	1	det	_	_
+2	coup	coup	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+4	vais	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	3	expl	_	_
+6	retrouver	retrouver	VERB	_	VERB__VerbForm=Inf	1	xcomp	_	_
+7	dans	dan	ADP	_	ADP___	7	case	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obl	_	_
+10	dans	dan	ADP	_	ADP___	12	case	_	_
+11	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obl	_	_
+13	qui	qui	PRON	_	PRON__PronType=Rel	14	nsubj	_	_
+14	ne	ne	ADV	_	ADV___	18	advmod	_	_
+15	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	18	expl	_	_
+16	convient	convier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+17	pas	pas	ADV	_	ADV__Polarity=Neg	18	advmod	_	_
+18	,	,	PUNCT	_	PUNCT___	18	punct	_	_
+19	je	il	PRON	_	PRON__Number=Sing|Person=1	20	nsubj:pass	_	_
+20	suis	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	aux:pass	_	_
+21	coincée	coincer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	conj	_	_
+22	puisque	puisque	SCONJ	_	SCONJ___	25	mark	_	_
+23	je	il	PRON	_	PRON__Number=Sing|Person=1	25	nsubj	_	_
+24	ne	ne	ADV	_	ADV__Polarity=Neg	25	advmod	_	_
+25	peux	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	aux	_	_
+26	pas	pas	ADV	_	ADV__Polarity=Neg	18	advmod	_	_
+27	envisager	envisager	VERB	_	VERB__VerbForm=Inf	29	advcl	_	_
+28	de	de	ADP	_	ADP___	29	mark	_	_
+29	racheter	racheter	VERB	_	VERB__VerbForm=Inf	41	xcomp	_	_
+30	ailleurs	ailleurs	ADV	_	ADV___	32	obj	_	_
+31	,	,	PUNCT	_	PUNCT___	32	punct	_	_
+32	et	et	CCONJ	_	CCONJ___	29	cc	_	_
+33	de	de	ADP	_	ADP___	34	case	_	_
+34	surcroît	surcroît	NOUN	_	NOUN__Gender=Fem|Number=Sing	32	conj	_	_
+35	je	il	PRON	_	PRON__Number=Sing|Person=1	37	nsubj	_	_
+36	risque	risquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	37	obj	_	_
+37	de	de	ADP	_	ADP___	32	mark	_	_
+38	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	41	obj	_	_
+39	voir	voir	VERB	_	VERB__VerbForm=Inf	41	xcomp	_	_
+40	imposer	imposer	VERB	_	VERB__VerbForm=Inf	41	xcomp	_	_
+41	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+42	paiement	paiement	NOUN	_	NOUN__Gender=Masc|Number=Sing	43	obj	_	_
+43	de	de	ADP	_	ADP___	41	case	_	_
+44	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	43	det	_	_
+45	indeminite	indeminite	NOUN	_	NOUN__Gender=Fem|Number=Sing	41	nmod	_	_
+46	d'	de	ADP	_	ADP___	48	case	_	_
+47	occupation	occupation	NOUN	_	NOUN__Gender=Fem|Number=Sing	48	nmod	_	_
+48	....	....	PUNCT	_	PUNCT___	62	punct	_	_
+
+
+#Quels sont mes recours pour éviter de payer l'indemnité d'occupation d'une part (dont elle connaît bien l'existence puisqu'elle m'en a précédemment parlée), et sortir de l'indivision d'autre part.
+1	Quels	quel	ADJ	_	ADJ__Gender=Masc|Number=Plur	0	ROOT	_	_
+2	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	1	nmod:poss	_	_
+4	recours	recours	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	nsubj	_	_
+5	pour	pour	ADP	_	ADP___	3	mark	_	_
+6	éviter	éviter	VERB	_	VERB__VerbForm=Inf	1	acl	_	_
+7	de	de	ADP	_	ADP___	7	mark	_	_
+8	payer	payer	VERB	_	VERB__VerbForm=Inf	9	xcomp	_	_
+9	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+10	indemnité	indemnité	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obj	_	_
+11	d'	de	ADP	_	ADP___	12	case	_	_
+12	occupation	occupation	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+13	d'	de	ADP	_	ADP___	14	case	_	_
+14	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+15	part	part	NOUN	_	NOUN__Number=Sing	18	nmod	_	_
+16	(	(	PUNCT	_	PUNCT___	18	punct	_	_
+17	dont	dont	PRON	_	PRON__PronType=Rel	18	iobj	_	_
+18	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	18	nsubj	_	_
+19	connaît	connaître	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+20	bien	bien	ADV	_	ADV___	18	advmod	_	_
+21	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+22	existence	existence	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	obj	_	_
+23	puisqu'	puisque	SCONJ	_	SCONJ___	25	mark	_	_
+24	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	25	nsubj	_	_
+25	m'	se	PRON	_	PRON__Number=Sing|Person=1	18	iobj	_	_
+26	en	en	PRON	_	PRON__Person=3	18	iobj	_	_
+27	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+28	précédemment	précédemment	ADV	_	ADV___	29	advmod	_	_
+29	parlée	parler	NOUN	_	NOUN__Gender=Fem|Number=Sing	41	advcl	_	_
+30	)	)	PUNCT	_	PUNCT___	32	punct	_	_
+31	,	,	PUNCT	_	PUNCT___	32	punct	_	_
+32	et	et	CCONJ	_	CCONJ___	29	cc	_	_
+33	sortir	sortir	VERB	_	VERB__VerbForm=Inf	34	conj	_	_
+34	de	de	ADP	_	ADP___	32	case	_	_
+35	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	37	det	_	_
+36	indivision	indivision	NOUN	_	NOUN__Gender=Fem|Number=Sing	37	obl	_	_
+37	d'	de	ADP	_	ADP___	32	case	_	_
+38	autre	autre	ADJ	_	ADJ__Number=Sing	41	fixed	_	_
+39	part	part	NOUN	_	NOUN__Number=Sing	41	nmod	_	_
+40	.	.	PUNCT	_	PUNCT___	41	punct	_	_
+
+
+#A ce jour nous ne sommes plus pacsees Merci
+1	A	A	ADP	_	ADP___	1	aux	_	_
+2	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+4	nous	nous	PRON	_	PRON__Number=Plur|Person=1	5	nsubj	_	_
+5	ne	ne	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+6	sommes	être	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	cop	_	_
+7	plus	plus	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+8	pacsees	pacsee	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+9	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+
+

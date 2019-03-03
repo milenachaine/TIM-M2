@@ -1,0 +1,452 @@
+#Bonjour Négatif.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	Négatif	Négatif	PROPN	_	PROPN__Gender=Masc|Number=Sing	1	flat:name	_	_
+3	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Vous parlez du local loué, ce qui n'est pas le fonds.
+1	Vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+2	parlez	parler	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	du	du	DET	_	DET__Gender=Masc|Number=Sing	1	det	_	_
+4	local	local	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+5	loué	louer	ADJ	_	ADJ__Gender=Masc|Number=Sing	5	acl	_	_
+6	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+7	ce	ce	PRON	_	PRON__PronType=Rel	5	conj	_	_
+8	qui	qui	PRON	_	PRON__PronType=Rel	7	nsubj	_	_
+9	n'	ne	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+10	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+11	pas	pas	ADV	_	ADV__Polarity=Neg	16	advmod	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+13	fonds	fonds	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	acl:relcl	_	_
+14	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Ma nouvelle activité ne peut donc pas bénéficier de la clientèle actuelle et je ne souhaite pas reprendre non plus le salarié Vous n'êtes donc pas intéressé du tout par le fonds, à vous lire;
+1	Ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	nouvelle	nouveau	ADJ	_	ADJ__Gender=Fem|Number=Sing	1	amod	_	_
+3	activité	activité	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+4	ne	ne	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+5	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+6	donc	donc	ADV	_	ADV___	7	advmod	_	_
+7	pas	pas	ADV	_	ADV___	5	advmod	_	_
+8	bénéficier	bénéficier	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+9	de	de	ADP	_	ADP___	7	case	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+11	clientèle	clientèle	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obl	_	_
+12	actuelle	actuel	ADJ	_	ADJ__Gender=Fem|Number=Sing	16	amod	_	_
+13	et	et	CCONJ	_	CCONJ___	16	cc	_	_
+14	je	il	PRON	_	PRON__Number=Sing|Person=1	16	nsubj	_	_
+15	ne	ne	ADV	_	ADV__Polarity=Neg	16	advmod	_	_
+16	souhaite	souhaiter	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	conj	_	_
+17	pas	pas	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+18	reprendre	reprendre	VERB	_	VERB__VerbForm=Inf	20	xcomp	_	_
+19	non	non	ADV	_	ADV___	20	advmod	_	_
+20	plus	plus	ADV	_	ADV___	22	advmod	_	_
+21	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	salarié	salarié	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	obj	_	_
+23	Vous	vous	PRON	_	PRON__Number=Plur|Person=2	25	nsubj	_	_
+24	n'	ne	ADV	_	ADV__Polarity=Neg	25	advmod	_	_
+25	êtes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	25	cop	_	_
+26	donc	donc	ADV	_	ADV___	28	advmod	_	_
+27	pas	pas	ADV	_	ADV___	28	advmod	_	_
+28	intéressé	intéresser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	acl:relcl	_	_
+29	du	du	DET	_	DET__Gender=Masc|Number=Sing	28	det	_	_
+30	tout	tout	ADV	_	ADV___	33	obj	_	_
+31	par	par	ADP	_	ADP___	33	case	_	_
+32	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	fonds	fonds	NOUN	_	NOUN__Gender=Masc|Number=Plur	25	obl	_	_
+34	,	,	PUNCT	_	PUNCT___	35	punct	_	_
+35	à	à	ADP	_	ADP___	33	mark	_	_
+36	vous	vous	PRON	_	PRON__Number=Plur|Person=2	37	iobj	_	_
+37	lire	lire	VERB	_	VERB__VerbForm=Inf	33	obl	_	_
+38	;	;	PUNCT	_	PUNCT___	39	punct	_	_
+
+
+#il y a erreur dans les termes.
+1	il	il	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+2	y	yu	PRON	_	PRON__Person=3	1	fixed	_	_
+3	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	fixed	_	_
+4	erreur	erreur	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	dans	dan	ADP	_	ADP___	5	case	_	_
+6	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+7	termes	terme	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	obl	_	_
+8	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Le dernier bilan montre une baisse d'activité et une dette d'environ 50 000€ De toutes facons vous n'allez pas vendre de chaussure, donc aucun intérêt;
+1	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	dernier	dernier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	1	amod	_	_
+3	bilan	bilan	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+4	montre	montrer	ADP	_	ADP___	0	ROOT	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+6	baisse	baisse	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+7	d'	de	ADP	_	ADP___	5	case	_	_
+8	activité	activité	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+9	et	et	CCONJ	_	CCONJ___	7	cc	_	_
+10	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+11	dette	dette	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	conj	_	_
+12	d'	de	ADP	_	ADP___	16	case	_	_
+13	environ	environ	ADV	_	ADV___	16	advmod	_	_
+14	50	50	NUM	_	NUM__NumType=Card	16	nummod	_	_
+15	000	000	NUM	_	NUM__NumType=Card	16	nummod	_	_
+16	€	€	NOUN	_	NOUN__Gender=Masc	10	nmod	_	_
+17	De	De	ADP	_	ADP___	5	case	_	_
+18	toutes	tout	ADJ	_	ADJ__Gender=Fem|Number=Plur	20	amod	_	_
+19	facons	facon	NOUN	_	NOUN__Gender=Fem|Number=Plur	20	nsubj	_	_
+20	vous	vous	PRON	_	PRON__Number=Plur|Person=2	22	nsubj	_	_
+21	n'	ne	ADV	_	ADV__Polarity=Neg	22	advmod	_	_
+22	allez	aller	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
+23	pas	pas	ADV	_	ADV__Polarity=Neg	25	advmod	_	_
+24	vendre	vendre	VERB	_	VERB__VerbForm=Inf	25	xcomp	_	_
+25	de	de	ADP	_	ADP___	25	case	_	_
+26	chaussure	chaussure	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	obj	_	_
+27	,	,	PUNCT	_	PUNCT___	28	punct	_	_
+28	donc	donc	ADV	_	ADV___	25	advmod	_	_
+29	aucun	aucun	DET	_	DET__Gender=Masc|Number=Sing	28	det	_	_
+30	intérêt	intérêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	33	obj	_	_
+31	;	;	PUNCT	_	PUNCT___	33	punct	_	_
+
+
+#D'autre part, le bail se termine fin janvier 2019, le locataire n'a pas demandé le renouvellement puisqu'il vendait mais simplement averti par courrier le bailleur de la décision de vendre il y a quelques mois.
+1	D'	D'	ADP	_	ADP___	1	advmod	_	_
+2	autre	autre	ADJ	_	ADJ__Number=Sing	1	fixed	_	_
+3	part	part	NOUN	_	NOUN__Number=Sing	1	fixed	_	_
+4	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+6	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nsubj	_	_
+7	se	se	PRON	_	PRON__Person=3|Reflex=Yes	5	expl	_	_
+8	termine	terminer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+9	fin	fin	NOUN	_	NOUN__Number=Sing	7	det	_	_
+10	janvier	janvier	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+11	2019	2019	NUM	_	NUM__NumType=Card	16	nummod	_	_
+12	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+13	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+14	locataire	locataire	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	nsubj	_	_
+15	n'	ne	ADV	_	ADV__Polarity=Neg	16	advmod	_	_
+16	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+17	pas	pas	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+18	demandé	demander	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+19	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	renouvellement	renouvellement	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	obj	_	_
+21	puisqu'	puisque	SCONJ	_	SCONJ___	22	mark	_	_
+22	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	25	nsubj	_	_
+23	vendait	vendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	advcl	_	_
+24	mais	mais	CCONJ	_	CCONJ___	25	cc	_	_
+25	simplement	simplement	ADV	_	ADV___	25	advmod	_	_
+26	averti	avertir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	conj	_	_
+27	par	par	ADP	_	ADP___	28	case	_	_
+28	courrier	courrier	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	obl	_	_
+29	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+30	bailleur	bailleur	NOUN	_	NOUN__Gender=Masc|Number=Sing	33	obj	_	_
+31	de	de	ADP	_	ADP___	33	case	_	_
+32	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	décision	décision	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	nmod	_	_
+34	de	de	ADP	_	ADP___	35	mark	_	_
+35	vendre	vendre	VERB	_	VERB__VerbForm=Inf	33	acl	_	_
+36	il	il	PRON	_	PRON__Number=Sing|Person=3	37	case	_	_
+37	y	yu	PRON	_	PRON__Person=3	33	fixed	_	_
+38	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	fixed	_	_
+39	quelques	quelque	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	33	det	_	_
+40	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	45	obl	_	_
+41	.	.	PUNCT	_	PUNCT___	45	punct	_	_
+
+
+#Le bailleur n'a pas répondu au courrier, ni même par le passé lors du renouvellement.
+1	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	bailleur	bailleur	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	n'	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+4	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+6	répondu	répondre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+7	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+8	courrier	courrier	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+9	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+10	ni	ni	CCONJ	_	CCONJ___	7	cc	_	_
+11	même	même	ADV	_	ADV___	16	advmod	_	_
+12	par	par	ADP	_	ADP___	16	case	_	_
+13	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+14	passé	passé	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	conj	_	_
+15	lors	lors	ADV	_	ADV___	16	case	_	_
+16	du	du	DET	_	DET__Gender=Masc|Number=Sing	10	det	_	_
+17	renouvellement	renouvellement	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+18	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Est
+1	Est	être	ADV	_	ADV___	0	ROOT	_	_
+
+
+#-il donc reconductible ou peut il faire valoir son droit de déplafonnement et repartir sur un nouveau bail ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+3	donc	donc	ADV	_	ADV___	1	advmod	_	_
+4	reconductible	reconductible	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+5	ou	ou	CCONJ	_	CCONJ___	5	cc	_	_
+6	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+8	faire	faire	VERB	_	VERB__VerbForm=Inf	7	conj	_	_
+9	valoir	valoir	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+10	son	son	DET	_	DET__Number=Sing|Poss=Yes	7	nmod:poss	_	_
+11	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obj	_	_
+12	de	de	ADP	_	ADP___	16	case	_	_
+13	déplafonnement	déplafonnement	ADV	_	ADV___	16	nmod	_	_
+14	et	et	CCONJ	_	CCONJ___	16	cc	_	_
+15	repartir	repartir	VERB	_	VERB__VerbForm=Inf	16	conj	_	_
+16	sur	sur	ADP	_	ADP___	10	case	_	_
+17	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+18	nouveau	nouveau	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	amod	_	_
+19	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obl	_	_
+20	?	?	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#C'est un peu du charabia pour moi.
+1	C'	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	un	un	DET	_	DET__Gender=Masc|Number=Sing	1	advmod	_	_
+4	peu	peu	ADV	_	ADV___	5	fixed	_	_
+5	du	du	DET	_	DET__Gender=Masc|Number=Sing	5	det	_	_
+6	charabia	charabia	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+7	pour	pour	ADP	_	ADP___	5	case	_	_
+8	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	7	nmod	_	_
+9	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Grosso modi le fonds ne vous intéresse pas, seul le bail vous intéresse, mais il se termine dans quelques heures et n'est pas reconduit.
+1	Grosso	Grosso	PROPN	_	PROPN___	1	nsubj	_	_
+2	modi	modi	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	xcomp	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+4	fonds	fonds	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	obj	_	_
+5	ne	ne	ADV	_	ADV___	5	advmod	_	_
+6	vous	vous	PRON	_	PRON__Number=Plur|Person=2	7	iobj	_	_
+7	intéresse	intéresser	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
+8	pas	pas	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+9	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+10	seul	seul	ADJ	_	ADJ__Gender=Masc|Number=Sing	7	amod	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+12	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	nsubj	_	_
+13	vous	vous	PRON	_	PRON__Number=Plur|Person=2	16	obj	_	_
+14	intéresse	intéress	ADJ	_	ADJ__Gender=Fem|Number=Sing	16	conj	_	_
+15	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+16	mais	mais	CCONJ	_	CCONJ___	10	cc	_	_
+17	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+18	se	se	PRON	_	PRON__Person=3|Reflex=Yes	20	expl	_	_
+19	termine	terminer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	conj	_	_
+20	dans	dan	ADP	_	ADP___	22	case	_	_
+21	quelques	quelque	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	22	det	_	_
+22	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	25	obl	_	_
+23	et	et	CCONJ	_	CCONJ___	25	cc	_	_
+24	n'	ne	ADV	_	ADV__Polarity=Neg	25	advmod	_	_
+25	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+26	pas	pas	ADV	_	ADV__Polarity=Neg	28	advmod	_	_
+27	reconduit	reconduire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	28	conj	_	_
+28	.	.	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#Je ne vois pas ou se trouve le droit à renouvellement puisque vous n'allez pas exercer la meme activité.
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ne	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+3	vois	voir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	cop	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+5	ou	ou	CCONJ	_	CCONJ___	5	cc	_	_
+6	se	se	PRON	_	PRON__Person=3|Reflex=Yes	7	expl	_	_
+7	trouve	trouver	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+9	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+10	à	à	ADP	_	ADP___	7	case	_	_
+11	renouvellement	renouvellement	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	nmod	_	_
+12	puisque	puisque	SCONJ	_	SCONJ___	16	mark	_	_
+13	vous	vous	PRON	_	PRON__Number=Plur|Person=2	16	nsubj	_	_
+14	n'	ne	ADV	_	ADV__Polarity=Neg	16	advmod	_	_
+15	allez	aller	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+16	pas	pas	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+17	exercer	exercer	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+18	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	meme	mem	ADJ	_	ADJ__Gender=Fem|Number=Sing	20	obj	_	_
+20	activité	activité	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	amod	_	_
+21	.	.	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#Je ne vois pas comment vous comptez récupérer le faible loyer dans ces conditions.
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ne	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+3	vois	voir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	cop	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+5	comment	comment	ADV	_	ADV__PronType=Int	5	advmod	_	_
+6	vous	vous	PRON	_	PRON__Number=Plur|Person=2	7	nsubj	_	_
+7	comptez	compter	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	récupérer	récupérer	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+10	faible	faible	ADJ	_	ADJ__Number=Sing	7	amod	_	_
+11	loyer	loyer	VERB	_	VERB__VerbForm=Inf	16	obj	_	_
+12	dans	dan	ADP	_	ADP___	16	case	_	_
+13	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	16	det	_	_
+14	conditions	condition	NOUN	_	NOUN__Gender=Fem|Number=Plur	16	obl	_	_
+15	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Si vous causez directement avec le bailleur, il va être fortement intéressé et vous indiquez qu'il fera un nouveau bail avec un loyer un peu plus cher;
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+3	causez	causer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+4	directement	directement	ADV	_	ADV___	5	advmod	_	_
+5	avec	avec	ADP	_	ADP___	5	case	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	bailleur	bailleur	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+8	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+9	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+10	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+11	être	être	AUX	_	AUX__VerbForm=Inf	16	aux:pass	_	_
+12	fortement	fortement	ADV	_	ADV___	16	advmod	_	_
+13	intéressé	intéresser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	16	xcomp	_	_
+14	et	et	CCONJ	_	CCONJ___	16	cc	_	_
+15	vous	vous	PRON	_	PRON__Number=Plur|Person=2	16	nsubj	_	_
+16	indiquez	indiquer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	10	conj	_	_
+17	qu'	que	SCONJ	_	SCONJ___	5	mark	_	_
+18	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	20	nsubj	_	_
+19	fera	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	20	ccomp	_	_
+20	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	nouveau	nouveau	ADJ	_	ADJ__Gender=Masc|Number=Sing	22	amod	_	_
+22	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	obj	_	_
+23	avec	avec	ADP	_	ADP___	25	case	_	_
+24	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	loyer	loyer	VERB	_	VERB__VerbForm=Inf	25	advcl	_	_
+26	un	un	DET	_	DET__Gender=Masc|Number=Sing	28	advmod	_	_
+27	peu	peu	ADV	_	ADV___	28	fixed	_	_
+28	plus	plus	ADV	_	ADV___	25	advmod	_	_
+29	cher	cher	ADJ	_	ADJ__Gender=Masc|Number=Sing	28	amod	_	_
+30	;	;	PUNCT	_	PUNCT___	33	punct	_	_
+
+
+#Il va vous attirer et vous faire patienter, au cas ou le fonds ne se vend pas.
+1	Il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+3	vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	expl	_	_
+4	attirer	attirer	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+5	et	et	CCONJ	_	CCONJ___	5	cc	_	_
+6	vous	vous	PRON	_	PRON__Number=Plur|Person=2	7	nsubj	_	_
+7	faire	faire	VERB	_	VERB__VerbForm=Inf	5	conj	_	_
+8	patienter	patienter	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+9	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+10	au	au	DET	_	DET__Number=Plur|PronType=Dem	7	nsubj	_	_
+11	cas	cas	NOUN	_	NOUN__Gender=Masc	16	fixed	_	_
+12	ou	ou	CCONJ	_	CCONJ___	16	cc	_	_
+13	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+14	fonds	fonds	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	nsubj	_	_
+15	ne	ne	ADV	_	ADV__Polarity=Neg	16	advmod	_	_
+16	se	se	PRON	_	PRON__Person=3|Reflex=Yes	10	expl	_	_
+17	vend	vendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+18	pas	pas	ADV	_	ADV__Polarity=Neg	20	advmod	_	_
+19	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Si quelqu'un achète le fonds, le bailleur n'aura pas son mot a dire, et c'est le liquidateur qui y a intérêt.
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	quelqu'un	quelqu'un	PRON	_	PRON__Number=Sing|PronType=Dem	1	nsubj	_	_
+3	achète	acheter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	fonds	fonds	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	obj	_	_
+6	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+8	bailleur	bailleur	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nsubj	_	_
+9	n'	ne	ADV	_	ADV___	7	advmod	_	_
+10	aura	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+11	pas	pas	ADV	_	ADV__Polarity=Neg	16	advmod	_	_
+12	son	son	DET	_	DET__Number=Sing|Poss=Yes	16	nmod:poss	_	_
+13	mot	mot	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	nsubj	_	_
+14	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	dire	dire	VERB	_	VERB__VerbForm=Inf	16	ccomp	_	_
+16	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+17	et	et	CCONJ	_	CCONJ___	5	cc	_	_
+18	c'	ce	PRON	_	PRON__Number=Sing|Person=3	20	nsubj	_	_
+19	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+20	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	liquidateur	liquidateur	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	conj	_	_
+22	qui	qui	PRON	_	PRON__PronType=Rel	25	nsubj	_	_
+23	y	yu	PRON	_	PRON__Person=3	25	iobj	_	_
+24	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	intérêt	intérêt	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	acl:relcl	_	_
+26	.	.	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#Reste a savoir s'il y a une chance que le fonds se vende et que le droit au renouvellement se fasse valoir;
+1	Reste	rester	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	nsubj	_	_
+2	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	savoir	savoir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	s'	si	SCONJ	_	SCONJ___	5	expl	_	_
+5	il	il	PRON	_	PRON__Number=Sing|Person=3	5	ccomp	_	_
+6	y	yu	PRON	_	PRON__Person=3	7	fixed	_	_
+7	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	fixed	_	_
+8	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+9	chance	chance	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+10	que	que	SCONJ	_	SCONJ___	7	mark	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+12	fonds	fonds	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	nsubj	_	_
+13	se	se	PRON	_	PRON__Person=3|Reflex=Yes	16	expl	_	_
+14	vende	vend	ADJ	_	ADJ__Gender=Fem|Number=Sing	16	dep	_	_
+15	et	et	CCONJ	_	CCONJ___	16	cc	_	_
+16	que	que	SCONJ	_	SCONJ___	10	mark	_	_
+17	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+18	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	nsubj	_	_
+19	au	au	PRON	_	PRON__PronType=Rel	20	iobj	_	_
+20	renouvellement	renouvellemer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+21	se	se	PRON	_	PRON__Person=3|Reflex=Yes	22	expl	_	_
+22	fasse	faire	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	conj	_	_
+23	valoir	valoir	VERB	_	VERB__VerbForm=Inf	25	xcomp	_	_
+24	;	;	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#Vous pouvez en effet tenter d'amadouer le liquidateur pour votre prix, tout en obtenant préalablement du bailleur le droit au renouvellement et la déspécialisation, mais pourquoi le second accepterait?
+1	Vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+2	pouvez	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	en	en	ADP	_	ADP___	1	advmod	_	_
+4	effet	effet	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	fixed	_	_
+5	tenter	tenter	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+6	d'	de	ADP	_	ADP___	7	mark	_	_
+7	amadouer	amadouer	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+9	liquidateur	liquidateur	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+10	pour	pour	ADP	_	ADP___	7	case	_	_
+11	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	16	nmod:poss	_	_
+12	prix	prix	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obl	_	_
+13	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+14	tout	tout	ADV	_	ADV___	16	advmod	_	_
+15	en	en	ADP	_	ADP___	16	case	_	_
+16	obtenant	obtenir	VERB	_	VERB__Tense=Pres|VerbForm=Part	10	conj	_	_
+17	préalablement	préalablemer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	advmod	_	_
+18	du	du	DET	_	DET__Gender=Masc|Number=Sing	20	det	_	_
+19	bailleur	bailleur	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obj	_	_
+20	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	nmod	_	_
+22	au	au	PRON	_	PRON__PronType=Rel	25	case	_	_
+23	renouvellement	renouvellement	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	nmod	_	_
+24	et	et	CCONJ	_	CCONJ___	25	cc	_	_
+25	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+26	déspécialisation	déspécialisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	conj	_	_
+27	,	,	PUNCT	_	PUNCT___	28	punct	_	_
+28	mais	mais	CCONJ	_	CCONJ___	25	cc	_	_
+29	pourquoi	pourquoi	ADV	_	ADV__PronType=Int	28	advmod	_	_
+30	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+31	second	second	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	33	amod	_	_
+32	accepterait	accepter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	33	conj	_	_
+33	?	?	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#Il voit votre argent partir chez le liquidateur alors qu'il serait mieux chez lui.
+1	Il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	voit	voir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+4	argent	argent	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+5	partir	partir	VERB	_	VERB__VerbForm=Inf	5	acl	_	_
+6	chez	chez	ADP	_	ADP___	7	case	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+8	liquidateur	liquidateur	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+9	alors	alors	ADV	_	ADV___	7	case	_	_
+10	qu'	que	SCONJ	_	SCONJ___	7	mark	_	_
+11	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	16	nsubj	_	_
+12	serait	être	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+13	mieux	mieux	ADV	_	ADV___	16	advmod	_	_
+14	chez	chez	ADP	_	ADP___	16	case	_	_
+15	lui	luire	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nmod	_	_
+16	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+

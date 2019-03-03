@@ -1,0 +1,259 @@
+#Bonjour à tous, Mon propriétaire, à ma demande, m'a envoyé le décompte des charges qui m'interloque du fait du montant élévé que je paie déjà.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	6	case	_	_
+2	à	à	ADP	_	ADP___	3	case	_	_
+3	tous	tout	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Rel	1	nmod	_	_
+4	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+5	Mon	mon	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+6	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	14	obl	_	_
+7	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+8	à	à	ADP	_	ADP___	10	case	_	_
+9	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	10	nmod:poss	_	_
+10	demande	demande	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+11	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+12	m'	se	PRON	_	PRON__Number=Sing|Person=1	14	nsubj	_	_
+13	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	envoyé	envoyer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+15	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	décompte	décompte	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obj	_	_
+17	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	18	det	_	_
+18	charges	charge	NOUN	_	NOUN__Gender=Fem|Number=Plur	16	obj	_	_
+19	qui	qui	PRON	_	PRON__PronType=Rel	21	nsubj	_	_
+20	m'	se	PRON	_	PRON__Number=Sing|Person=1	21	iobj	_	_
+21	interloque	interloquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+22	du	du	DET	_	DET__Gender=Masc|Number=Sing	23	obj	_	_
+23	fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obj	_	_
+24	du	du	DET	_	DET__Gender=Masc|Number=Sing	25	det	_	_
+25	montant	montant	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	obj	_	_
+26	élévé	éléver	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	acl	_	_
+27	que	que	SCONJ	_	SCONJ___	29	mark	_	_
+28	je	il	PRON	_	PRON__Number=Sing|Person=1	29	nsubj	_	_
+29	paie	payer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	26	ccomp	_	_
+30	déjà	déjà	ADV	_	ADV___	29	advmod	_	_
+31	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Celui-ci contient deux rubriques : Charges Communes Générales: Total 1800€
+1	Celui-ci	celui-ci	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Dem	6	nsubj	_	_
+2	contient	contenir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	deux	deux	NUM	_	NUM__NumType=Card	1	nummod	_	_
+4	rubriques	rubrique	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	obj	_	_
+5	:	:	PUNCT	_	PUNCT___	6	punct	_	_
+6	Charges	Charges	PROPN	_	PROPN__Gender=Masc|Number=Sing	14	appos	_	_
+7	Communes	Communes	PROPN	_	PROPN___	6	flat:name	_	_
+8	Générales	Générales	PROPN	_	PROPN___	10	flat:name	_	_
+9	:	:	PUNCT	_	PUNCT___	10	punct	_	_
+10	Total	total	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	dep	_	_
+11	1800	1800	NUM	_	NUM__NumType=Card	14	nummod	_	_
+12	€	€	NOUN	_	NOUN__Gender=Masc	14	nmod	_	_
+
+
+#-dont TVA :
+1	-dont	-dont	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+2	TVA	tva	NOUN	_	NOUN___	3	advmod	_	_
+3	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#250e -dont locatif :300e -dont déductible : 1500e Charges Eau:
+1	250e	250e	PRON	_	PRON__NumType=Card|PronType=Rel	6	iobj	_	_
+2	-dont	-dont	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+3	locatif	locatif	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	amod	_	_
+4	:	:	PUNCT	_	PUNCT___	6	punct	_	_
+5	300e	300e	NUM	_	NUM__NumType=Card	6	amod	_	_
+6	-dont	-dont	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	14	nmod	_	_
+7	déductible	déductible	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	amod	_	_
+8	:	:	PUNCT	_	PUNCT___	10	punct	_	_
+9	1500e	1500e	NUM	_	NUM__NumType=Card	10	nummod	_	_
+10	Charges	Charges	PROPN	_	PROPN__Gender=Masc|Number=Sing	6	nmod	_	_
+11	Eau	eau	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	flat:name	_	_
+12	:	:	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Total 250€ -dont TVA :
+1	Total	total	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nsubj	_	_
+2	250	250	NUM	_	NUM__NumType=Card	3	nummod	_	_
+3	€	€	NOUN	_	NOUN__Gender=Masc	1	nmod	_	_
+4	-dont	-dont	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+5	TVA	tva	NOUN	_	NOUN___	6	advmod	_	_
+6	:	:	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#20e -dont locatif :250e -dont déductible : 0e A l'année, nous sommes donc sur un total de 2050e.
+1	20e	20e	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	6	dep	_	_
+2	-dont	-dont	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+3	locatif	locatif	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	amod	_	_
+4	:	:	PUNCT	_	PUNCT___	6	punct	_	_
+5	250e	250e	PRON	_	PRON__NumType=Card|PronType=Rel	6	iobj	_	_
+6	-dont	-dont	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	14	nsubj	_	_
+7	déductible	déductible	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	amod	_	_
+8	:	:	PUNCT	_	PUNCT___	10	punct	_	_
+9	0e	0e	NOUN	_	NOUN__NumType=Card	10	acl	_	_
+10	A	a	NOUN	_	NOUN___	6	nsubj	_	_
+11	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+12	année	année	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obj	_	_
+13	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+14	nous	nous	PRON	_	PRON__Number=Plur|Person=1	14	nsubj	_	_
+15	sommes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	parataxis	_	_
+16	donc	donc	ADV	_	ADV___	14	advmod	_	_
+17	sur	sur	ADP	_	ADP___	18	case	_	_
+18	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+19	total	total	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obl	_	_
+20	de	de	ADP	_	ADP___	21	case	_	_
+21	2050e	2050e	PRON	_	PRON__NumType=Card|PronType=Rel	18	obl	_	_
+22	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Mon propriétaire me fait actuellement payer (1200e de cette somme, auquel il a récemment ajouté la taxe des ordures ménagères (ce qui est compris dans mes charges))
+1	Mon	mon	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+2	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	3	nsubj	_	_
+3	me	se	PRON	_	PRON__Number=Sing|Person=1	1	iobj	_	_
+4	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	actuellement	actuellement	ADV	_	ADV___	6	advmod	_	_
+6	payer	payer	VERB	_	VERB__VerbForm=Inf	14	xcomp	_	_
+7	(	(	PUNCT	_	PUNCT___	6	punct	_	_
+8	1200e	1200e	NOUN	_	NOUN__NumType=Card	10	obl	_	_
+9	de	de	ADP	_	ADP___	10	case	_	_
+10	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+11	somme	sommer	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nmod	_	_
+12	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+13	auquel	auquel	ADJ	_	ADJ__Gender=Masc|Number=Sing	14	obl	_	_
+14	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
+15	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	récemment	récemment	ADV	_	ADV___	14	advmod	_	_
+17	ajouté	ajouter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	acl:relcl	_	_
+18	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+19	taxe	taxe	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	obj	_	_
+20	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	21	det	_	_
+21	ordures	ordure	NOUN	_	NOUN__Gender=Masc|Number=Plur	18	obj	_	_
+22	ménagères	ménagère	NOUN	_	NOUN__Gender=Masc|Number=Plur	23	amod	_	_
+23	(	(	PUNCT	_	PUNCT___	14	punct	_	_
+24	ce	ce	PRON	_	PRON__PronType=Rel	25	iobj	_	_
+25	qui	qui	PRON	_	PRON__PronType=Rel	23	nsubj:pass	_	_
+26	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux:pass	_	_
+27	compris	comprendre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part|Voice=Pass	29	acl:relcl	_	_
+28	dans	dan	ADP	_	ADP___	29	case	_	_
+29	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	26	nmod:poss	_	_
+30	charges	charge	NOUN	_	NOUN__Gender=Fem|Number=Plur	29	obl	_	_
+31	)	)	PUNCT	_	PUNCT___	14	punct	_	_
+32	)	)	PUNCT	_	PUNCT___	33	punct	_	_
+
+
+#Au vu de ces documents, je comprends que les charges qui m'incombent réellement sont de 300e+250e+100 de taxe = 650e, on est donc bien loin des 1300e annuels.
+1	Au	au	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+2	vu	voir	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	acl	_	_
+3	de	de	ADP	_	ADP___	1	case	_	_
+4	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	6	det	_	_
+5	documents	document	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	obl	_	_
+6	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+7	je	il	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+8	comprends	comprendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+9	que	que	SCONJ	_	SCONJ___	10	mark	_	_
+10	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	6	det	_	_
+11	charges	charge	NOUN	_	NOUN__Gender=Fem|Number=Plur	14	nsubj	_	_
+12	qui	qui	PRON	_	PRON__PronType=Rel	14	nsubj	_	_
+13	m'	se	PRON	_	PRON__Number=Sing|Person=1	14	expl	_	_
+14	incombent	incomber	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	14	acl:relcl	_	_
+15	réellement	réellement	ADV	_	ADV___	16	advmod	_	_
+16	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+17	de	de	ADP	_	ADP___	18	case	_	_
+18	300e+250e+100	300e+250e+100	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	ccomp	_	_
+19	de	de	ADP	_	ADP___	21	case	_	_
+20	taxe	taxe	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	nmod	_	_
+21	=	=	VERB	_	VERB__Mood=Ind|Person=3|VerbForm=Fin	18	amod	_	_
+22	650e	650e	PRON	_	PRON__NumType=Card|PronType=Rel	23	obj	_	_
+23	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+24	on	on	PRON	_	PRON__Number=Sing|Person=3	25	nsubj	_	_
+25	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+26	donc	donc	ADV	_	ADV___	25	advmod	_	_
+27	bien	bien	ADV	_	ADV___	29	advmod	_	_
+28	loin	loin	ADV	_	ADV___	29	case	_	_
+29	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	26	det	_	_
+30	1300e	1300e	NUM	_	NUM__NumType=Card	29	conj	_	_
+31	annuels	annuel	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	amod	_	_
+32	.	.	PUNCT	_	PUNCT___	33	punct	_	_
+
+
+#Que signifie charges déductibles, est-ce les charges non récupérables ?
+1	Que	que	PRON	_	PRON__PronType=Int	6	mark	_	_
+2	signifie	signifier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	amod	_	_
+3	charges	charge	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	punct	_	_
+4	déductibles	déductible	ADJ	_	ADJ__Number=Plur	6	amod	_	_
+5	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+6	est	être		_	VERB	14	cop	_	_
+7	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	6	punct	_	_
+8	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	10	det	_	_
+9	charges	charge	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+10	non	non	ADV	_	ADV___	6	advmod	_	_
+11	récupérables	récupérable	ADJ	_	ADJ__Gender=Fem|Number=Plur	14	amod	_	_
+12	?	?	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Mais ce n'est que mon interprétation, quelqu'un a-t-il déjà vu ce "format" de récapitulatif de charges ?
+1	Mais	Mais	CCONJ	_	CCONJ___	6	cc	_	_
+2	ce	ce	PRON	_	PRON__Number=Sing|Person=3	3	nsubj	_	_
+3	n'	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	que	que	SCONJ	_	SCONJ___	6	advmod	_	_
+6	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	14	nmod:poss	_	_
+7	interprétation	interprétation	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+8	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+9	quelqu'un	quelqu'un	PRON	_	PRON__PronType=Rel	10	nsubj	_	_
+10	a	avoir		_	VERB	6	aux	_	_
+11	-t	t	PART	_	PART___	14	expl	_	_
+12	-il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	14	fixed	_	_
+13	déjà	déjà	ADV	_	ADV___	14	advmod	_	_
+14	vu	voir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl:relcl	_	_
+15	ce	ce	PRON	_	PRON__PronType=Rel	16	det	_	_
+16	"	"	PUNCT	_	PUNCT___	14	punct	_	_
+17	format	format	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obj	_	_
+18	"	"	PUNCT	_	PUNCT___	16	punct	_	_
+19	de	de	ADP	_	ADP___	21	case	_	_
+20	récapitulatif	récapitulatif	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	nmod	_	_
+21	de	de	ADP	_	ADP___	18	case	_	_
+22	charges	charge	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	nmod	_	_
+23	?	?	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#(il n'y a pas mention des charges "récupérables").
+1	(	(	PUNCT	_	PUNCT___	6	punct	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+3	n'	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+4	y	yu	PRON	_	PRON__Person=3	6	expl	_	_
+5	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	pas	pas	ADV	_	ADV__Polarity=Neg	14	advmod	_	_
+7	mention	mention	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+8	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
+9	charges	charge	NOUN	_	NOUN__Gender=Fem|Number=Plur	10	obj	_	_
+10	"	"	PUNCT	_	PUNCT___	6	punct	_	_
+11	récupérables	récupérable	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	amod	_	_
+12	"	"	PUNCT	_	PUNCT___	14	punct	_	_
+13	)	)	PUNCT	_	PUNCT___	14	punct	_	_
+14	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Merci à tous !
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	à	à	ADP	_	ADP___	3	case	_	_
+3	tous	tout	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Rel	1	nmod	_	_
+4	!	!	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Edit : le titre de la discussion est bien "charges dont locatif et donT déductible"
+1	Edit	edit	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	:	:	PUNCT	_	PUNCT___	3	punct	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+4	titre	titre	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nmod	_	_
+5	de	de	ADP	_	ADP___	6	case	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+7	discussion	discussion	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+8	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	bien	bien	ADV	_	ADV___	10	advmod	_	_
+10	"	"	PUNCT	_	PUNCT___	6	punct	_	_
+11	charges	charge	NOUN	_	NOUN__Gender=Fem|Number=Plur	14	acl	_	_
+12	dont	dont	PRON	_	PRON__PronType=Rel	14	obj	_	_
+13	locatif	locatif	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	acl:relcl	_	_
+14	et	et	CCONJ	_	CCONJ___	14	cc	_	_
+15	donT	dont	PRON	_	PRON__PronType=Rel	16	dep	_	_
+16	déductible	déductible	NOUN	_	NOUN__Number=Sing	14	conj	_	_
+17	"	"	PUNCT	_	PUNCT___	18	punct	_	_
+
+

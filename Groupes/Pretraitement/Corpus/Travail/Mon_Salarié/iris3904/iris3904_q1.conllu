@@ -1,0 +1,124 @@
+#Bonjour, Voici mon problème.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	Voici	voici	VERB	_	VERB__Mood=Ind|VerbForm=Fin	1	conj	_	_
+4	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+5	problème	problème	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obj	_	_
+6	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Les employeurs de moins de dix salariés doivent établir un document "décision unilatérale de l'employeur" pour que la prime exceptionnelles soit exonérée des impôts et charges.
+1	Les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+2	employeurs	employeur	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	nsubj	_	_
+3	de	de	ADP	_	ADP___	1	case	_	_
+4	moins	moins	ADV	_	ADV___	5	advmod	_	_
+5	de	de	ADP	_	ADP___	3	dep	_	_
+6	dix	dix	NUM	_	NUM__NumType=Card	1	nummod	_	_
+7	salariés	salarier	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	nmod	_	_
+8	doivent	devoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+9	établir	établir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+10	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+11	document	document	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+12	"	"	PUNCT	_	PUNCT___	13	punct	_	_
+13	décision	décision	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+14	unilatérale	unilatéral	ADJ	_	ADJ__Gender=Fem|Number=Sing	15	amod	_	_
+15	de	de	ADP	_	ADP___	15	case	_	_
+16	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nmod	_	_
+18	"	"	PUNCT	_	PUNCT___	19	punct	_	_
+19	pour	pour	ADP	_	ADP___	17	mark	_	_
+20	que	que	SCONJ	_	SCONJ___	19	fixed	_	_
+21	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	prime	prime	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	nsubj:pass	_	_
+23	exceptionnelles	exceptionnel	ADJ	_	ADJ__Number=Plur	19	amod	_	_
+24	soit	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
+25	exonérée	exonérer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	31	advcl	_	_
+26	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	25	det	_	_
+27	impôts	impôt	NOUN	_	NOUN__Gender=Masc|Number=Plur	28	obj	_	_
+28	et	et	CCONJ	_	CCONJ___	31	cc	_	_
+29	charges	charge	NOUN	_	NOUN__Gender=Fem|Number=Plur	28	conj	_	_
+30	.	.	PUNCT	_	PUNCT___	31	punct	_	_
+
+
+#Cette décision doit être prise au plus tard le 31 janvier sauf erreur.
+1	Cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	1	det	_	_
+2	décision	décision	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+3	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	être	être	AUX	_	AUX__VerbForm=Inf	5	aux:pass	_	_
+5	prise	prise	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	xcomp	_	_
+6	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	case	_	_
+7	plus	plus	ADV	_	ADV___	8	fixed	_	_
+8	tard	tard	ADV	_	ADV___	15	fixed	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+10	31	31	NUM	_	NUM__NumType=Card	13	nummod	_	_
+11	janvier	janvier	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+12	sauf	sauf	ADP	_	ADP___	13	case	_	_
+13	erreur	erreur	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+14	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Est-ce que ce document doit être envoyé quelque part ou conservé dans l'entreprise ?
+1	Est	être		_	VERB	1	obl	_	_
+2	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	3	amod	_	_
+3	que	que	SCONJ	_	SCONJ___	1	mark	_	_
+4	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	document	document	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+6	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	être	être	AUX	_	AUX__VerbForm=Inf	8	aux:pass	_	_
+8	envoyé	envoyer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	15	xcomp	_	_
+9	quelque	quelque	ADV	_	ADV___	13	advmod	_	_
+10	part	part	NOUN	_	NOUN__Number=Sing	13	fixed	_	_
+11	ou	ou	CCONJ	_	CCONJ___	13	cc	_	_
+12	conservé	conserver	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	conj	_	_
+13	dans	dan	ADP	_	ADP___	8	case	_	_
+14	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	entreprise	entreprise	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obl	_	_
+16	?	?	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Est-ce que par ailleurs l'argent doit être versé le 31 janvier 2019 ou est-ce que comme les entreprises qui ont conclu un accord le délai de versement est jusqu'en mars ?
+1	Est	être		_	VERB	0	ROOT	_	_
+2	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	3	amod	_	_
+3	que	que	ADV	_	ADV___	1	mark	_	_
+4	par	par	ADP	_	ADP___	5	fixed	_	_
+5	ailleurs	ailleur	NOUN	_	NOUN__Gender=Masc	3	fixed	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+7	argent	argent	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nsubj	_	_
+8	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+9	être	être	AUX	_	AUX__VerbForm=Inf	13	aux:pass	_	_
+10	versé	verser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	xcomp	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	31	31	NUM	_	NUM__NumType=Card	13	nummod	_	_
+13	janvier	janvier	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+14	2019	2019	NUM	_	NUM__NumType=Card	15	nummod	_	_
+15	ou	ou	CCONJ	_	CCONJ___	15	cc	_	_
+16	est	être		_	VERB	17	conj	_	_
+17	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	15	nsubj	_	_
+18	que	que	ADV	_	ADV___	19	advmod	_	_
+19	comme	comme	ADP	_	ADP___	17	case	_	_
+20	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	19	det	_	_
+21	entreprises	entreprise	NOUN	_	NOUN__Gender=Fem|Number=Plur	23	dep	_	_
+22	qui	qui	PRON	_	PRON__PronType=Rel	23	nsubj	_	_
+23	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+24	conclu	conclure	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl:relcl	_	_
+25	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+26	accord	accord	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	obj	_	_
+27	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	délai	délai	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	obj	_	_
+29	de	de	ADP	_	ADP___	28	case	_	_
+30	versement	versement	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	nmod	_	_
+31	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+32	jusqu'	jusque	ADP	_	ADP___	33	case	_	_
+33	en	en	ADP	_	ADP___	31	fixed	_	_
+34	mars	mars	NOUN	_	NOUN__Gender=Masc|Number=Sing	35	nmod	_	_
+35	?	?	PUNCT	_	PUNCT___	33	punct	_	_
+
+
+#Merci de vos lumières !
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	de	de	ADP	_	ADP___	3	case	_	_
+3	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	1	nmod:poss	_	_
+4	lumières	lumière	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	nmod	_	_
+5	!	!	PUNCT	_	PUNCT___	3	punct	_	_
+
+

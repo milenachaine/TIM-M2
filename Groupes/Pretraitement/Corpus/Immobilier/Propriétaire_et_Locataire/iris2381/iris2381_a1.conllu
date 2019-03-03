@@ -1,0 +1,107 @@
+#Bonjour 1)
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	1	1	NUM	_	NUM__NumType=Card	1	nummod	_	_
+3	)	)	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Avez vous un avocat ?
+1	Avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	case	_	_
+3	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+4	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obj	_	_
+5	?	?	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Avez vous déposé plainte contre votre ex pour violence conjugale ?
+1	Avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	aux	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	iobj	_	_
+3	déposé	déposer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	plainte	plainte	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obj	_	_
+5	contre	contrer	ADP	_	ADP___	7	case	_	_
+6	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	7	nmod:poss	_	_
+7	ex	ex	NOUN	_	NOUN__Number=Sing	4	obl	_	_
+8	pour	pour	ADP	_	ADP___	4	case	_	_
+9	violence	violence	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+10	conjugale	conjugal	ADJ	_	ADJ__Gender=Fem|Number=Sing	11	amod	_	_
+11	?	?	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#2)
+1	2	2	NUM	_	NUM__NumType=Card	0	ROOT	_	_
+2	)	)	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Ensuite, avez vous précisé à son avocat, par mail, que vous n'êtes pas sur place, que vous voulez bien continuer à faire les démarches entamées mais qu'il vous faudrait les documents.
+1	Ensuite	ensuite	ADV	_	ADV___	1	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	aux	_	_
+4	vous	vous	PRON	_	PRON__Number=Plur|Person=2	4	expl	_	_
+5	précisé	préciser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+6	à	à	ADP	_	ADP___	7	case	_	_
+7	son	son	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+8	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+9	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+10	par	par	ADP	_	ADP___	11	case	_	_
+11	mail	mail	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obl	_	_
+12	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+13	que	que	SCONJ	_	SCONJ___	15	mark	_	_
+14	vous	vous	PRON	_	PRON__Number=Plur|Person=2	15	nsubj	_	_
+15	n'	ne	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+16	êtes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	pas	pas	ADV	_	ADV__Polarity=Neg	15	advmod	_	_
+18	sur	sur	ADP	_	ADP___	17	advmod	_	_
+19	place	place	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obl	_	_
+20	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+21	que	que	SCONJ	_	SCONJ___	20	mark	_	_
+22	vous	vous	PRON	_	PRON__Number=Plur|Person=2	26	nsubj	_	_
+23	voulez	vouloir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	26	advcl	_	_
+24	bien	bien	ADV	_	ADV___	26	advmod	_	_
+25	continuer	continuer	VERB	_	VERB__VerbForm=Inf	26	xcomp	_	_
+26	à	à	ADP	_	ADP___	26	mark	_	_
+27	faire	faire	VERB	_	VERB__VerbForm=Inf	29	xcomp	_	_
+28	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	29	det	_	_
+29	démarches	démarche	NOUN	_	NOUN__Gender=Fem|Number=Plur	26	obj	_	_
+30	entamées	entamé	ADJ	_	ADJ__Gender=Fem|Number=Plur	26	amod	_	_
+31	mais	mais	CCONJ	_	CCONJ___	32	cc	_	_
+32	qu'	que	SCONJ	_	SCONJ___	26	mark	_	_
+33	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	26	nsubj	_	_
+34	vous	vous	PRON	_	PRON__Number=Plur|Person=2	40	iobj	_	_
+35	faudrait	falloir	VERB	_	VERB__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	conj	_	_
+36	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	37	det	_	_
+37	documents	document	NOUN	_	NOUN__Gender=Masc|Number=Plur	40	obj	_	_
+38	.	.	PUNCT	_	PUNCT___	39	punct	_	_
+
+
+#Aussi, que vous seriez ravie que cet avocat vous communique les papiers ?
+1	Aussi	aussi	ADV	_	ADV___	1	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	1	fixed	_	_
+3	que	que	SCONJ	_	SCONJ___	1	mark	_	_
+4	vous	vous	PRON	_	PRON__Number=Plur|Person=2	4	nsubj	_	_
+5	seriez	être	AUX	_	AUX__Mood=Cnd|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	ravie	ravir	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+7	que	que	SCONJ	_	SCONJ___	4	mark	_	_
+8	cet	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+9	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nsubj	_	_
+10	vous	vous	PRON	_	PRON__Number=Plur|Person=2	11	iobj	_	_
+11	communique	communiquer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+12	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	11	det	_	_
+13	papiers	papier	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	obj	_	_
+14	?	?	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Vous dîtes que votre ex est bipolaire mais avez vous des preuves ?
+1	Vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+2	dîtes	dît	ADJ	_	ADJ__Gender=Fem|Number=Plur	0	ROOT	_	_
+3	que	que	SCONJ	_	SCONJ___	1	mark	_	_
+4	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+5	ex	ex	NOUN	_	NOUN__Number=Sing	7	nsubj	_	_
+6	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	bipolaire	bipolaire	ADJ	_	ADJ__Number=Sing	4	ccomp	_	_
+8	mais	mais	CCONJ	_	CCONJ___	4	cc	_	_
+9	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	11	conj	_	_
+10	vous	vous	PRON	_	PRON__Number=Plur|Person=2	11	advmod	_	_
+11	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
+12	preuves	preuve	NOUN	_	NOUN__Gender=Fem|Number=Plur	11	obj	_	_
+13	?	?	PUNCT	_	PUNCT___	15	punct	_	_
+
+

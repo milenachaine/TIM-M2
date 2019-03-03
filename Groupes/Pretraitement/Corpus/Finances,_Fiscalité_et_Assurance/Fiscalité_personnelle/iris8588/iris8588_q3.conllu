@@ -1,0 +1,156 @@
+#Bonjour, Merci pour votre retour
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	conj	_	_
+4	pour	pour	ADP	_	ADP___	6	case	_	_
+5	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+6	retour	retour	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nmod	_	_
+
+
+#Le propriétaire n'étant pas le même, (ma compagne seule en bas / ma compagne + moi en haut) cela est impossible légalement.
+1	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	3	nsubj	_	_
+3	n'	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+4	étant	être	AUX	_	AUX__Tense=Pres|VerbForm=Part	6	acl	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+7	même	même	ADV	_	ADV___	8	obj	_	_
+8	,	,	PUNCT	_	PUNCT___	31	punct	_	_
+9	(	(	PUNCT	_	PUNCT___	10	punct	_	_
+10	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	8	nmod:poss	_	_
+11	compagne	compagne	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	appos	_	_
+12	seule	seul	ADJ	_	ADJ__Gender=Fem|Number=Sing	13	amod	_	_
+13	en	en	ADP	_	ADP___	10	case	_	_
+14	bas	bas	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+15	/	/	ADP	_	ADP___	8	case	_	_
+16	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	17	nmod:poss	_	_
+17	compagne	compagne	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+18	+	+	ADP	_	ADP___	17	case	_	_
+19	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	20	nmod	_	_
+20	en	en	ADP	_	ADP___	17	case	_	_
+21	haut	haut	ADJ	_	ADJ__Gender=Masc|Number=Sing	23	nmod	_	_
+22	)	)	PUNCT	_	PUNCT___	23	punct	_	_
+23	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	20	nsubj	_	_
+24	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+25	impossible	impossible	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+26	légalement	légalement	ADV	_	ADV___	27	advmod	_	_
+27	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Il faudrait avant tout retourner chez le notaire afin que je sois aussi co-propriétaire du 4e, ce à quoi nous ne tenons pas particulièrement (cela impliquerait-il des "devoirs" supplémentaires de ma part?).
+1	Il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	faudrait	falloir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	avant	avant	ADP	_	ADP___	1	mark	_	_
+4	tout	tout	ADV	_	ADV___	6	fixed	_	_
+5	retourner	retourner	VERB	_	VERB__VerbForm=Inf	6	xcomp	_	_
+6	chez	chez	ADP	_	ADP___	3	case	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	notaire	notaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	obl	_	_
+9	afin	afin	ADP	_	ADP___	10	mark	_	_
+10	que	que	SCONJ	_	SCONJ___	8	fixed	_	_
+11	je	il	PRON	_	PRON__Number=Sing|Person=1	10	nsubj	_	_
+12	sois	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+13	aussi	aussi	ADV	_	ADV___	10	advmod	_	_
+14	co-propriétaire	co-propriétaire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
+15	du	du	DET	_	DET__Gender=Masc|Number=Sing	8	det	_	_
+16	4e	4e	PRON	_	PRON__NumType=Card|PronType=Rel	17	obj	_	_
+17	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+18	ce	ce	PRON	_	PRON__PronType=Rel	17	advmod	_	_
+19	à	à	ADP	_	ADP___	20	case	_	_
+20	quoi	quoi	PRON	_	PRON__PronType=Int	17	obl	_	_
+21	nous	nous	PRON	_	PRON__Number=Plur|Person=1	23	nsubj	_	_
+22	ne	ne	ADV	_	ADV__Polarity=Neg	23	advmod	_	_
+23	tenons	tenir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+24	pas	pas	ADV	_	ADV__Polarity=Neg	25	advmod	_	_
+25	particulièrement	particulièrement	ADV	_	ADV___	23	advmod	_	_
+26	(	(	PUNCT	_	PUNCT___	27	punct	_	_
+27	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	17	nsubj	_	_
+28	impliquerait	impliquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	advcl	_	_
+29	-	-	PUNCT	_	PUNCT___	31	punct	_	_
+30	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	31	obl	_	_
+31	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	31	det	_	_
+32	"	"	PUNCT	_	PUNCT___	31	punct	_	_
+33	devoirs	devoir	NOUN	_	NOUN__Gender=Masc|Number=Plur	31	obj	_	_
+34	"	"	PUNCT	_	PUNCT___	35	punct	_	_
+35	supplémentaires	supplémentaire	ADJ	_	ADJ__Number=Plur	35	amod	_	_
+36	de	de	ADP	_	ADP___	38	case	_	_
+37	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	36	nmod:poss	_	_
+38	part	part	NOUN	_	NOUN__Gender=Fem|Number=Sing	35	nmod	_	_
+39	?	?	PUNCT	_	PUNCT___	41	punct	_	_
+40	)	)	PUNCT	_	PUNCT___	41	punct	_	_
+41	.	.	PUNCT	_	PUNCT___	38	punct	_	_
+
+
+#Le notaire ne devait-il pas nous informer?
+1	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	notaire	notaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+3	ne	ne	ADV	_	ADV___	1	advmod	_	_
+4	devait	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+5	-	-	PUNCT	_	PUNCT___	6	punct	_	_
+6	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+7	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+8	nous	nous	PRON	_	PRON__Number=Plur|Person=1	31	expl	_	_
+9	informer	informer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+10	?	?	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#?
+1	?	?	PUNCT	_	PUNCT___	0	ROOT	_	_
+
+
+#? (Nous avons fait 5 mois de travaux et découvrons après coup que faire communiquer les 2 appartements serait peut-être la seule solution....
+1	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+2	(	(	PUNCT	_	PUNCT___	3	punct	_	_
+3	Nous	nous	PRON	_	PRON__Number=Plur|Person=1	1	nsubj	_	_
+4	avons	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+6	5	5	NUM	_	NUM__NumType=Card	3	nummod	_	_
+7	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obj	_	_
+8	de	de	ADP	_	ADP___	31	case	_	_
+9	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	nmod	_	_
+10	et	et	CCONJ	_	CCONJ___	8	cc	_	_
+11	découvrons	découvron	NOUN	_	NOUN__Gender=Fem|Number=Plur	10	conj	_	_
+12	après	après	ADP	_	ADP___	13	case	_	_
+13	coup	coup	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obl	_	_
+14	que	que	SCONJ	_	SCONJ___	8	mark	_	_
+15	faire	faire	VERB	_	VERB__VerbForm=Inf	8	acl	_	_
+16	communiquer	communiquer	VERB	_	VERB__VerbForm=Inf	17	xcomp	_	_
+17	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+18	2	2	NUM	_	NUM__NumType=Card	17	nummod	_	_
+19	appartements	appartement	NOUN	_	NOUN__Gender=Masc|Number=Plur	20	obj	_	_
+20	serait	être	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+21	peut-être	peut-être	ADV	_	ADV___	23	advmod	_	_
+22	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	seule	seul	ADJ	_	ADJ__Gender=Fem|Number=Sing	20	amod	_	_
+24	solution	solution	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	nsubj	_	_
+25	....	....	PUNCT	_	PUNCT___	23	nmod	_	_
+
+
+#Pour qui payons nous in fine?
+1	Pour	Pour	ADP	_	ADP___	1	case	_	_
+2	qui	qui	PRON	_	PRON__PronType=Rel	3	nsubj	_	_
+3	payons	payon	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	iobj	_	_
+4	nous	nous	PRON	_	PRON__Number=Plur|Person=1	6	iobj	_	_
+5	in	in	X	_	X___	6	expl	_	_
+6	fine	fine	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+7	?	?	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Pour un notaire?
+1	Pour	Pour	ADP	_	ADP___	1	case	_	_
+2	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	notaire	notaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	?	?	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Etant primo-accédant, tout cela me sidère )
+1	Etant	eter	VERB	_	VERB__Tense=Pres|VerbForm=Part	0	ROOT	_	_
+2	primo-accédant	primo-accéder	VERB	_	VERB__Tense=Pres|VerbForm=Part	3	amod	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	tout	tout	ADJ	_	ADJ__Gender=Masc|Number=Sing	6	det	_	_
+5	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	6	nsubj	_	_
+6	me	se	PRON	_	PRON__Number=Sing|Person=1	3	iobj	_	_
+7	sidère	sidérer	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	amod	_	_
+8	)	)	PUNCT	_	PUNCT___	31	punct	_	_
+
+

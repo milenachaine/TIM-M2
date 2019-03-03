@@ -1,0 +1,74 @@
+#relisez la loi de 89....le bailleur doit joindre des diagnostics la maison fait 45 M2 ?
+1	relisez	relire	ADP	_	ADP___	10	advcl	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	loi	loi	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obj	_	_
+4	de	de	ADP	_	ADP___	6	case	_	_
+5	89	89	NUM	_	NUM__NumType=Card	6	nummod	_	_
+6	....	....	PUNCT	_	PUNCT___	3	nmod	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	bailleur	bailleur	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nsubj	_	_
+9	doit	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	joindre	joindre	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+11	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	12	det	_	_
+12	diagnostics	diagnostic	NOUN	_	NOUN__Gender=Fem|Number=Plur	10	obj	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	nsubj	_	_
+15	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+16	45	45	NUM	_	NUM__NumType=Card	17	nummod	_	_
+17	M2	m2	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obj	_	_
+18	?	?	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#ou y a t il plusieurs appartements dans cette maison qui appartiennent au même propriétaire ?
+1	ou	ou	CCONJ	_	CCONJ___	10	cc	_	_
+2	y	yu	PRON	_	PRON__Person=3	3	fixed	_	_
+3	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	fixed	_	_
+4	t	t	NOUN	_	NOUN___	0	ROOT	_	_
+5	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	6	case	_	_
+6	plusieurs	plusieurs	DET	_	DET__Number=Plur	3	det	_	_
+7	appartements	appartement	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obj	_	_
+8	dans	dan	ADP	_	ADP___	10	case	_	_
+9	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+10	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obl	_	_
+11	qui	qui	PRON	_	PRON__PronType=Rel	12	nsubj	_	_
+12	appartiennent	appartenir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+13	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	14	det	_	_
+14	même	même	ADJ	_	ADJ__Number=Sing	15	amod	_	_
+15	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	10	obj	_	_
+16	?	?	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#sur quel support est fait votre bail?
+1	sur	sur	ADP	_	ADP___	10	case	_	_
+2	quel	quel	DET	_	DET__Gender=Masc|Number=Sing|PronType=Int	3	det	_	_
+3	support	support	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+5	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+6	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	3	nmod:poss	_	_
+7	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+8	?	?	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#celui d'un éditeur connu ?
+1	celui	celui	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Dem	0	ROOT	_	_
+2	d'	de	ADP	_	ADP___	3	case	_	_
+3	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+4	éditeur	éditeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nmod	_	_
+5	connu	connaître	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+6	?	?	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#ou un bail rédigé à l'ordinateur par le bailleur ?
+1	ou	ou	CCONJ	_	CCONJ___	10	cc	_	_
+2	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	rédigé	rédiger	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+5	à	à	ADP	_	ADP___	6	case	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+7	ordinateur	ordinateur	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+8	par	par	ADP	_	ADP___	10	case	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	bailleur	bailleur	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obl	_	_
+11	?	?	PUNCT	_	PUNCT___	12	punct	_	_
+
+

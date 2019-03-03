@@ -1,0 +1,356 @@
+#Bonjour, je me permets de vous exposer mon problème.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	5	acl	_	_
+2	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+4	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	5	expl	_	_
+5	permets	permettre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	de	de	ADP	_	ADP___	8	mark	_	_
+7	vous	vous	PRON	_	PRON__Number=Plur|Person=2	8	iobj	_	_
+8	exposer	exposer	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+9	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+10	problème	problème	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+11	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Suite rupture période essai par employeur d'une TPE, j'ai une clause de non concurrence.
+1	Suite	suite	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	case	_	_
+2	rupture	rupture	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	advcl	_	_
+3	période	période	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+4	essai	esser	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+5	par	par	ADP	_	ADP___	5	case	_	_
+6	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+7	d'	de	ADP	_	ADP___	8	case	_	_
+8	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+9	TPE	TPE	PROPN	_	PROPN__Gender=Fem|Number=Sing	10	nmod	_	_
+10	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+11	j'	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+12	ai	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+13	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+14	clause	clause	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obj	_	_
+15	de	de	ADP	_	ADP___	13	case	_	_
+16	non	non	ADV	_	ADV___	17	nmod	_	_
+17	concurrence	concurrenc	ADJ	_	ADJ__Gender=Fem|Number=Sing	15	amod	_	_
+18	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#un véritable casse-tête pour comprendre le calcul.
+1	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+2	véritable	véritable	ADJ	_	ADJ__Number=Sing	5	amod	_	_
+3	casse-tête	casse-tête	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	pour	pour	ADP	_	ADP___	5	mark	_	_
+5	comprendre	comprendre	VERB	_	VERB__VerbForm=Inf	5	acl	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	calcul	calcul	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+8	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#voici mes données etam non cadre (technicien bureau études convention syntec)
+1	voici	voici	ADP	_	ADP___	0	ROOT	_	_
+2	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	5	nmod:poss	_	_
+3	données	donnée	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	obj	_	_
+4	etam	etam	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	amod	_	_
+5	non	non	ADV	_	ADV___	5	fixed	_	_
+6	cadre	cadr	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	fixed	_	_
+7	(	(	PUNCT	_	PUNCT___	8	punct	_	_
+8	technicien	technicien	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	appos	_	_
+9	bureau	bureau	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	amod	_	_
+10	études	étude	NOUN	_	NOUN__Gender=Fem|Number=Plur	8	amod	_	_
+11	convention	convention	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	amod	_	_
+12	syntec	syntec	ADJ	_	ADJ__Gender=Masc|Number=Sing	13	amod	_	_
+13	)	)	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#période essai : 2 mois +1 mois renouvelé.
+1	période	période	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	essai	esser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	amod	_	_
+3	:	:	PUNCT	_	PUNCT___	5	punct	_	_
+4	2	2	NUM	_	NUM__NumType=Card	5	nummod	_	_
+5	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	nmod	_	_
+6	+	+	ADP	_	ADP___	8	case	_	_
+7	1	1	NUM	_	NUM__NumType=Card	8	nummod	_	_
+8	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	nmod	_	_
+9	renouvelé	renouveler	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
+10	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Sortie physique le 8 juin 2018
+1	Sortie	sortie	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	physique	physique	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	amod	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	8	8	NUM	_	NUM__NumType=Card	5	nummod	_	_
+5	juin	juin	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+6	2018	2018	NUM	_	NUM__NumType=Card	8	nummod	_	_
+
+
+#2000 euros par mois interdiction emploi concurrent de 2 ans à 25kms à vol oiseau du siège social .
+1	2000	2000	NUM	_	NUM__NumType=Card	5	nummod	_	_
+2	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	nsubj	_	_
+3	par	par	ADP	_	ADP___	5	case	_	_
+4	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	nmod	_	_
+5	interdiction	interdiction	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+6	emploi	emploi	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	amod	_	_
+7	concurrent	concurrent	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+8	de	de	ADP	_	ADP___	5	case	_	_
+9	2	2	NUM	_	NUM__NumType=Card	10	nummod	_	_
+10	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obl	_	_
+11	à	à	ADP	_	ADP___	5	case	_	_
+12	25kms	25kms	PRON	_	PRON__NumType=Card|PronType=Rel	13	nmod	_	_
+13	à	à	ADP	_	ADP___	23	case	_	_
+14	vol	vol	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+15	oiseau	oiseau	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	advcl	_	_
+16	du	du	DET	_	DET__Gender=Masc|Number=Sing	17	det	_	_
+17	siège	siège	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obj	_	_
+18	social	social	ADJ	_	ADJ__Gender=Masc|Number=Sing	20	amod	_	_
+19	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#avec une « indemnité mensuelle spéciale forfaitaire » égale à un quart de la moyenne mensuelle du salaire brut perçu au cours des 12 derniers mois"
+1	avec	avec	ADP	_	ADP___	5	case	_	_
+2	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+3	«	«	PUNCT	_	PUNCT___	5	punct	_	_
+4	indemnité	indemnité	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+5	mensuelle	mensuel	ADJ	_	ADJ__Gender=Fem|Number=Sing	5	amod	_	_
+6	spéciale	spécial	ADJ	_	ADJ__Gender=Fem|Number=Sing	8	amod	_	_
+7	forfaitaire	forfaitaire	ADJ	_	ADJ__Number=Sing	8	amod	_	_
+8	»	»	PUNCT	_	PUNCT___	5	punct	_	_
+9	égale	égal	ADJ	_	ADJ__Gender=Fem|Number=Sing	10	amod	_	_
+10	à	à	ADP	_	ADP___	8	case	_	_
+11	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+12	quart	quart	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+13	de	de	ADP	_	ADP___	23	case	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+15	moyenne	moyenne	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	fixed	_	_
+16	mensuelle	mensuel	ADJ	_	ADJ__Gender=Fem|Number=Sing	17	nmod	_	_
+17	du	du	DET	_	DET__Gender=Masc|Number=Sing	15	det	_	_
+18	salaire	salaire	NOUN	_	NOUN__Number=Sing	20	obj	_	_
+19	brut	brut	ADJ	_	ADJ__Number=Sing	20	acl	_	_
+20	perçu	percevoir	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	advmod	_	_
+21	au	au	PRON	_	PRON__PronType=Rel	23	fixed	_	_
+22	cours	cours	NOUN	_	NOUN__Gender=Masc	23	acl	_	_
+23	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	23	det	_	_
+24	12	12	NUM	_	NUM__NumType=Card	25	nummod	_	_
+25	derniers	dernier	ADJ	_	ADJ__Gender=Masc|Number=Plur|NumType=Ord	23	amod	_	_
+26	mois"	mois"	NOUN	_	NOUN__Gender=Fem|Number=Plur	27	nmod	_	_
+
+
+#....avec "10 % indemnité de congés payés" inclus .
+1	....	....	PUNCT	_	PUNCT___	0	ROOT	_	_
+2	avec	avec	ADP	_	ADP___	5	case	_	_
+3	"	"	PUNCT	_	PUNCT___	5	punct	_	_
+4	10	10	NUM	_	NUM__NumType=Card	5	nummod	_	_
+5	%	%	NOUN	_	NOUN__Gender=Masc	5	nsubj	_	_
+6	indemnité	indemnité	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+7	de	de	ADP	_	ADP___	8	case	_	_
+8	congés	congé	ADJ	_	ADJ__Gender=Masc|Number=Plur	5	nmod	_	_
+9	payés	payer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	10	amod	_	_
+10	"	"	PUNCT	_	PUNCT___	8	punct	_	_
+11	inclus	inclure	ADV	_	ADV___	5	advmod	_	_
+12	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#La moyenne des salaires est d'environ 8000 e pour cette période Comment calcule t'-on cette indemnité forfaitaire:
+1	La	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+2	moyenne	moyenne	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nsubj	_	_
+3	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
+4	salaires	salaire	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	amod	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+6	d'	de	ADP	_	ADP___	8	case	_	_
+7	environ	environ	ADV	_	ADV___	8	advmod	_	_
+8	8000	8000	NUM	_	NUM__NumType=Card	5	nummod	_	_
+9	e	e	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+10	pour	pour	ADP	_	ADP___	8	case	_	_
+11	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+12	période	période	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obl	_	_
+13	Comment	comment	ADV	_	ADV__PronType=Int	23	advmod	_	_
+14	calcule	calculer	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	amod	_	_
+15	t'-on	t'-on	PUNCT	_	PUNCT___	13	obj	_	_
+16	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	17	det	_	_
+17	indemnité	indemnité	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obj	_	_
+18	forfaitaire	forfaitaire	ADJ	_	ADJ__Number=Sing	20	amod	_	_
+19	:	:	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#¼ de 8000 divisé par 12 mois ?.
+1	¼	¼	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	de	de	ADP	_	ADP___	5	case	_	_
+3	8000	8000	NUM	_	NUM__NumType=Card	5	obl	_	_
+4	divisé	diviser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+5	par	par	ADP	_	ADP___	5	case	_	_
+6	12	12	NUM	_	NUM__NumType=Card	8	nummod	_	_
+7	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obl	_	_
+8	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+9	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Est ce que mon calcul est juste ?
+1	Est	être	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	5	cop	_	_
+2	ce	ce	PRON	_	PRON__PronType=Rel	0	ROOT	_	_
+3	que	que	PRON	_	PRON__PronType=Rel	5	mark	_	_
+4	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+5	calcul	calcul	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+6	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	juste	juste	ADV	_	ADV___	8	acl:relcl	_	_
+8	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Comment peut on vérifier la proportionnalité sur 2 ans en %.
+1	Comment	comment	ADV	_	ADV__PronType=Int	5	advmod	_	_
+2	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	on	on	PRON	_	PRON__Number=Sing|Person=3	5	nsubj	_	_
+4	vérifier	vérifier	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+6	proportionnalité	proportionnalité	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+7	sur	sur	ADP	_	ADP___	8	case	_	_
+8	2	2	NUM	_	NUM__NumType=Card	5	nummod	_	_
+9	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	nmod	_	_
+10	en	en	ADP	_	ADP___	8	case	_	_
+11	%	%	NOUN	_	NOUN__Gender=Masc	5	nmod	_	_
+12	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#afin de démontrer le cas échéant un montant dérisoire je suis restée à peine plus de 3 mois dans cette toute petite entreprise et me voir infliger une telle pénalité pendant 2 ans me démoralise.
+1	afin	afin	ADP	_	ADP___	5	mark	_	_
+2	de	de	ADP	_	ADP___	5	fixed	_	_
+3	démontrer	démontrer	VERB	_	VERB__VerbForm=Inf	5	advcl	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+6	échéant	échoir	VERB	_	VERB__Tense=Pres|VerbForm=Part	8	acl	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	montant	montant	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+9	dérisoire	dérisoire	ADJ	_	ADJ__Number=Sing	10	amod	_	_
+10	je	il	PRON	_	PRON__Number=Sing|Person=1	8	nsubj:pass	_	_
+11	suis	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+12	restée	rester	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+13	à	à	ADP	_	ADP___	23	case	_	_
+14	peine	peiner	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obl	_	_
+15	plus	plus	ADV	_	ADV___	13	advmod	_	_
+16	de	de	ADP	_	ADP___	17	case	_	_
+17	3	3	NUM	_	NUM__NumType=Card	15	nummod	_	_
+18	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	20	obl	_	_
+19	dans	dan	ADP	_	ADP___	20	case	_	_
+20	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	17	det	_	_
+21	toute	tout	ADJ	_	ADJ__Gender=Fem|Number=Sing	23	amod	_	_
+22	petite	petit	ADJ	_	ADJ__Gender=Fem|Number=Sing	23	amod	_	_
+23	entreprise	entreprise	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	obl	_	_
+24	et	et	CCONJ	_	CCONJ___	25	cc	_	_
+25	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	23	iobj	_	_
+26	voir	voir	VERB	_	VERB__VerbForm=Inf	27	conj	_	_
+27	infliger	infliger	VERB	_	VERB__VerbForm=Inf	25	xcomp	_	_
+28	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+29	telle	tel	ADJ	_	ADJ__Gender=Fem|Number=Sing	23	amod	_	_
+30	pénalité	pénalité	NOUN	_	NOUN__Gender=Fem|Number=Sing	32	obj	_	_
+31	pendant	pendre	ADP	_	ADP___	32	case	_	_
+32	2	2	NUM	_	NUM__NumType=Card	32	nummod	_	_
+33	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	34	nmod	_	_
+34	me	se	PRON	_	PRON__Number=Sing|Person=1	32	iobj	_	_
+35	démoralise	démoraliser	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	obl	_	_
+36	.	.	PUNCT	_	PUNCT___	34	punct	_	_
+
+
+#j'ai signé certes le contrat.
+1	j'	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+2	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	signé	signer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	certes	cert	ADJ	_	ADJ__Gender=Fem|Number=Plur	5	xcomp	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+6	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+7	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#pourtant j'étais certaine de continuer...
+1	pourtant	pourtant	ADV	_	ADV___	5	advmod	_	_
+2	j'	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+3	étais	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	cop	_	_
+4	certaine	certain	ADJ	_	ADJ__Gender=Fem|Number=Sing	0	ROOT	_	_
+5	de	de	ADP	_	ADP___	5	mark	_	_
+6	continuer	continuer	VERB	_	VERB__VerbForm=Inf	8	xcomp	_	_
+7	...	...	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Officieusement ( je n'ai aucune preuve écrite ), l'employeur a rompu le contrat suite baisse activité.
+1	Officieusement	Officieusement	PROPN	_	PROPN__Gender=Masc|Number=Sing	5	advmod	_	_
+2	(	(	PUNCT	_	PUNCT___	5	punct	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+4	n'	ne	ADV	_	ADV___	5	advmod	_	_
+5	ai	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	aucune	aucun	DET	_	DET__Gender=Fem|Number=Sing	8	det	_	_
+7	preuve	preuve	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+8	écrite	écrit	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	amod	_	_
+9	)	)	PUNCT	_	PUNCT___	10	punct	_	_
+10	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+11	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+12	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nsubj	_	_
+13	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+14	rompu	rompre	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	conj	_	_
+15	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+16	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obj	_	_
+17	suite	suite	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	case	_	_
+18	baisse	baiss	ADJ	_	ADJ__Gender=Fem|Number=Sing	20	obl	_	_
+19	activité	activité	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	amod	_	_
+20	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Je viens de recevoir un 1er premier versement proratisé du 23 au 30/6 de 100 euros environ alors que qu'il est indiqué une indemnité forfaitaire .
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+2	viens	venir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	de	de	ADP	_	ADP___	5	mark	_	_
+4	recevoir	recevoir	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+6	1er	1er	ADJ	_	ADJ__NumType=Ord	8	amod	_	_
+7	premier	premier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	8	amod	_	_
+8	versement	versement	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+9	proratisé	proratiser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
+10	du	du	DET	_	DET__Gender=Masc|Number=Sing	8	det	_	_
+11	23	23	NUM	_	NUM__NumType=Card	5	nummod	_	_
+12	au	au	NOUN	_	NOUN__Number=Plur	13	case	_	_
+13	30/6	30/6	NUM	_	NUM__NumType=Card	23	obj	_	_
+14	de	de	ADP	_	ADP___	13	case	_	_
+15	100	100	NUM	_	NUM__NumType=Card	13	nummod	_	_
+16	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	17	nmod	_	_
+17	environ	environ	ADV	_	ADV___	15	advmod	_	_
+18	alors	alors	ADV	_	ADV___	20	mark	_	_
+19	que	que	SCONJ	_	SCONJ___	20	fixed	_	_
+20	qu'	que	SCONJ	_	SCONJ___	17	mark	_	_
+21	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	23	nsubj	_	_
+22	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+23	indiqué	indiquer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	23	advcl	_	_
+24	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	indemnité	indemnité	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	obj	_	_
+26	forfaitaire	forfaitaire	ADJ	_	ADJ__Number=Sing	27	amod	_	_
+27	.	.	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#Est ce normal ?
+1	Est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+2	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+3	normal	normal	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#et surtout est il possible de faire annuler la CNC une fois le contrat rompu.
+1	et	et	CCONJ	_	CCONJ___	5	cc	_	_
+2	surtout	surtout	ADV	_	ADV___	5	advmod	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+5	possible	possible	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+6	de	de	ADP	_	ADP___	8	mark	_	_
+7	faire	faire	VERB	_	VERB__VerbForm=Inf	8	xcomp	_	_
+8	annuler	annuler	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	CNC	CNC	PROPN	_	PROPN__Gender=Fem|Number=Sing	8	obj	_	_
+11	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	parataxis	_	_
+12	fois	fois	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	fixed	_	_
+13	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+14	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nsubj	_	_
+15	rompu	rompre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	amod	_	_
+16	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#En vous remerciant d'avance
+1	En	En	ADP	_	ADP___	5	mark	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	5	iobj	_	_
+3	remerciant	remercier	VERB	_	VERB__Tense=Pres|VerbForm=Part	0	ROOT	_	_
+4	d'	de	ADP	_	ADP___	5	case	_	_
+5	avance	avance	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obj	_	_
+
+

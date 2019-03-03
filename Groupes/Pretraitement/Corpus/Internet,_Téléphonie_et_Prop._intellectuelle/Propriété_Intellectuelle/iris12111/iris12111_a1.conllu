@@ -1,0 +1,59 @@
+#Bonjour, 1
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	1	1	NUM	_	NUM__NumType=Card	1	nummod	_	_
+
+
+#- Non.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	Non	non	ADV	_	ADV___	0	ROOT	_	_
+3	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Les simples idées, les concepts, ne sont pas protégés.
+1	Les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+2	simples	simple	ADJ	_	ADJ__Number=Plur	1	amod	_	_
+3	idées	idée	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	nsubj	_	_
+4	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+5	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+6	concepts	concept	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	appos	_	_
+7	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+8	ne	ne	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+9	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+10	pas	pas	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+11	protégés	protégé	ADJ	_	ADJ__Gender=Masc|Number=Plur	0	ROOT	_	_
+12	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#2
+1	2	2	NUM	_	NUM__NumType=Card	0	ROOT	_	_
+
+
+#- Même réponse.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	Même	même	ADV	_	ADV___	1	advmod	_	_
+3	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Ce qui peut être protégé, c'est la police d'écriture ou le design du bracelet.
+1	Ce	ce	PRON	_	PRON__PronType=Rel	0	ROOT	_	_
+2	qui	qui	PRON	_	PRON__PronType=Rel	1	nsubj	_	_
+3	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+4	être	être	AUX	_	AUX__VerbForm=Inf	5	aux:pass	_	_
+5	protégé	protéger	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	xcomp	_	_
+6	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+7	c'	ce	PRON	_	PRON__Number=Sing|Person=3	9	nsubj	_	_
+8	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+10	police	police	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obl	_	_
+11	d'	de	ADP	_	ADP___	12	case	_	_
+12	écriture	écriture	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nmod	_	_
+13	ou	ou	CCONJ	_	CCONJ___	17	cc	_	_
+14	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+15	design	design	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	conj	_	_
+16	du	du	DET	_	DET__Gender=Masc|Number=Sing	17	det	_	_
+17	bracelet	bracelet	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	nmod	_	_
+18	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+

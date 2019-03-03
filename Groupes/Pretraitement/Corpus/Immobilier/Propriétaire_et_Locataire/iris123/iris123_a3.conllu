@@ -1,0 +1,111 @@
+#Non, vous n'avez pas tout lu.
+1	Non	non	ADV	_	ADV___	5	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+3	vous	vous	PRON	_	PRON__Number=Plur|Person=2	5	nsubj	_	_
+4	n'	ne	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+5	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	pas	pas	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+7	tout	tout	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	det	_	_
+8	lu	lire	PROPN	_	PROPN___	5	obj	_	_
+9	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Ce troisième cas est valable uniquement si c'est une administration publique qui envoie la LRAR.
+1	Ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+2	troisième	troisième	ADJ	_	ADJ__Number=Sing|NumType=Ord	5	amod	_	_
+3	cas	cas	NOUN	_	NOUN__Gender=Masc	5	nsubj	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	valable	valable	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+6	uniquement	uniquement	ADV	_	ADV___	5	advmod	_	_
+7	si	si	SCONJ	_	SCONJ___	8	mark	_	_
+8	c'	ce	PRON	_	PRON__Number=Sing|Person=3	5	nsubj	_	_
+9	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+10	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	administration	administration	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nsubj	_	_
+12	publique	public	ADJ	_	ADJ__Gender=Fem|Number=Sing	14	amod	_	_
+13	qui	qui	PRON	_	PRON__PronType=Rel	14	nsubj	_	_
+14	envoie	envoyer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+15	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+16	LRAR	LRAR	PROPN	_	PROPN__Gender=Fem|Number=Sing	20	obj	_	_
+17	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#C'est la dualité public/privé.
+1	C'	ce	PRON	_	PRON__Number=Sing|Person=3	5	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	dualité	dualité	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+5	public	public	ADJ	_	ADJ__Gender=Masc|Number=Sing	5	amod	_	_
+6	/	/	ADP	_	ADP___	5	case	_	_
+7	privé	privé	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+8	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#- Si une administration envoie une LRAR et qu'elle n'est pas retirée, alors le destinataire est sensé connaître ce qu'il y a à l'intérieur.
+1	-	-	PUNCT	_	PUNCT___	5	punct	_	_
+2	Si	Si	SCONJ	_	SCONJ___	5	mark	_	_
+3	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	administration	administration	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nsubj	_	_
+5	envoie	envoyer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+7	LRAR	lrar	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+8	et	et	CCONJ	_	CCONJ___	5	cc	_	_
+9	qu'	que	SCONJ	_	SCONJ___	5	mark	_	_
+10	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	12	nsubj:pass	_	_
+11	n'	ne	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+12	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
+13	pas	pas	ADV	_	ADV__Polarity=Neg	14	advmod	_	_
+14	retirée	retirer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	14	conj	_	_
+15	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+16	alors	alors	ADV	_	ADV___	20	advmod	_	_
+17	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+18	destinataire	destinataire	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	nsubj	_	_
+19	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+20	sensé	senser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	14	advmod	_	_
+21	connaître	connaître	VERB	_	VERB__VerbForm=Inf	20	conj	_	_
+22	ce	ce	PRON	_	PRON__PronType=Rel	23	obj	_	_
+23	qu'	que	PRON	_	PRON__PronType=Rel	20	mark	_	_
+24	il	il	PRON	_	PRON__Number=Sing|Person=3	25	case	_	_
+25	y	yu	PRON	_	PRON__Person=3	23	fixed	_	_
+26	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	fixed	_	_
+27	à	à	ADP	_	ADP___	30	case	_	_
+28	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	30	det	_	_
+29	intérieur	intérieur	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	acl:relcl	_	_
+30	.	.	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#- Si un particulier envoie une LRAR et qu'elle n'est pas retirée, alors le destinataire n'est pas sensé connaître ce qu'il y a à l'intérieur.
+1	-	-	PUNCT	_	PUNCT___	5	punct	_	_
+2	Si	Si	SCONJ	_	SCONJ___	5	mark	_	_
+3	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	particulier	particulier	ADJ	_	ADJ__Gender=Masc|Number=Sing	5	nsubj	_	_
+5	envoie	envoyer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+7	LRAR	lrar	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+8	et	et	CCONJ	_	CCONJ___	5	cc	_	_
+9	qu'	que	SCONJ	_	SCONJ___	5	mark	_	_
+10	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	12	nsubj:pass	_	_
+11	n'	ne	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+12	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
+13	pas	pas	ADV	_	ADV__Polarity=Neg	14	advmod	_	_
+14	retirée	retirer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	14	conj	_	_
+15	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+16	alors	alors	ADV	_	ADV___	20	advmod	_	_
+17	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+18	destinataire	destinataire	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	nsubj	_	_
+19	n'	ne	ADV	_	ADV__Polarity=Neg	20	advmod	_	_
+20	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+21	pas	pas	ADV	_	ADV__Polarity=Neg	20	advmod	_	_
+22	sensé	senser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	23	advmod	_	_
+23	connaître	connaître	VERB	_	VERB__VerbForm=Inf	20	conj	_	_
+24	ce	ce	PRON	_	PRON__PronType=Rel	25	obj	_	_
+25	qu'	que	PRON	_	PRON__PronType=Rel	23	mark	_	_
+26	il	il	PRON	_	PRON__Number=Sing|Person=3	14	case	_	_
+27	y	yu	PRON	_	PRON__Person=3	30	fixed	_	_
+28	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	fixed	_	_
+29	à	à	ADP	_	ADP___	30	case	_	_
+30	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	30	det	_	_
+31	intérieur	intérieur	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	advcl	_	_
+32	.	.	PUNCT	_	PUNCT___	33	punct	_	_
+
+

@@ -1,0 +1,132 @@
+#Bonjour, Non
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Non	non	ADV	_	ADV___	1	nmod	_	_
+
+
+#... vous êtes au bon endroit.
+1	...	...	PUNCT	_	PUNCT___	1	punct	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+3	êtes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	cop	_	_
+4	au	au	PRON	_	PRON___	9	expl	_	_
+5	bon	bon	ADJ	_	ADJ__Gender=Masc|Number=Sing	9	amod	_	_
+6	endroit	endroit	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+7	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#1 Est-ce que les gendarmes n'auraient pas dû me signaler leur arrivée ?
+1	1	1	NUM	_	NUM__NumType=Card	1	nummod	_	_
+2	Est	être		_	VERB	1	obl	_	_
+3	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	1	nmod	_	_
+4	que	que	SCONJ	_	SCONJ___	9	mark	_	_
+5	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+6	gendarmes	gendarme	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	nsubj	_	_
+7	n'	ne	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+8	auraient	avoir	AUX	_	AUX__Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	pas	pas	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+10	dû	devoir	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	aux	_	_
+11	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	12	iobj	_	_
+12	signaler	signaler	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+13	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	12	nmod:poss	_	_
+14	arrivée	arrivée	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	obj	_	_
+15	?	?	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Le garçon est majeur, mais c'est tout de même ma maison.
+1	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	garçon	garçon	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+4	majeur	majeur	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+6	mais	mais	CCONJ	_	CCONJ___	9	cc	_	_
+7	c'	ce	PRON	_	PRON__Number=Sing|Person=3	9	nsubj	_	_
+8	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	tout	tout	ADV	_	ADV___	9	advmod	_	_
+10	de	de	ADP	_	ADP___	9	fixed	_	_
+11	même	même	ADV	_	ADV___	12	fixed	_	_
+12	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	22	nmod:poss	_	_
+13	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	conj	_	_
+14	.	.	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#Vous vous doutez bien que les FDO ne téléphonent pas aux soupçonnés ni à leur proches pour les prévenir qu'ils vont débarquer dans 7 minutes chercher des preuves.
+1	Vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	obj	_	_
+3	doutez	douter	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	bien	bien	ADV	_	ADV___	9	advmod	_	_
+5	que	que	SCONJ	_	SCONJ___	9	mark	_	_
+6	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+7	FDO	FDO	PROPN	_	PROPN___	9	nsubj	_	_
+8	ne	ne	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+9	téléphonent	téléphoner	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	advmod	_	_
+10	pas	pas	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+11	aux	aux	ADJ	_	ADJ__Gender=Masc|Number=Plur	12	aux	_	_
+12	soupçonnés	soupçonner	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	22	ccomp	_	_
+13	ni	ni	CCONJ	_	CCONJ___	12	cc	_	_
+14	à	à	ADP	_	ADP___	22	case	_	_
+15	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	16	nmod:poss	_	_
+16	proches	proche	NOUN	_	NOUN__Number=Plur	22	obl	_	_
+17	pour	pour	ADP	_	ADP___	22	mark	_	_
+18	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	22	det	_	_
+19	prévenir	prévenir	VERB	_	VERB__VerbForm=Inf	22	advcl	_	_
+20	qu'	que	SCONJ	_	SCONJ___	22	obj	_	_
+21	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	22	nsubj	_	_
+22	vont	aller	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
+23	débarquer	débarquer	VERB	_	VERB__VerbForm=Inf	24	xcomp	_	_
+24	dans	dan	ADP	_	ADP___	22	case	_	_
+25	7	7	NUM	_	NUM__NumType=Card	22	nummod	_	_
+26	minutes	minute	NOUN	_	NOUN__Gender=Fem|Number=Plur	27	obl	_	_
+27	chercher	chercher	VERB	_	VERB__VerbForm=Inf	29	acl	_	_
+28	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	29	det	_	_
+29	preuves	preuve	NOUN	_	NOUN__Gender=Fem|Number=Plur	29	obj	_	_
+30	.	.	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#2 Est-ce que les gendarmes ont le droit de faire des perquisitions chez les gens / de fouiller un domicile sans procédure préalable, sur un simple soupçon ?
+1	2	2	NUM	_	NUM__NumType=Card	1	nummod	_	_
+2	Est	être		_	VERB	0	ROOT	_	_
+3	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	1	nmod	_	_
+4	que	que	SCONJ	_	SCONJ___	9	mark	_	_
+5	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+6	gendarmes	gendarme	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	nsubj	_	_
+7	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+10	de	de	ADP	_	ADP___	9	mark	_	_
+11	faire	faire	VERB	_	VERB__VerbForm=Inf	12	acl	_	_
+12	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	22	det	_	_
+13	perquisitions	perquisition	NOUN	_	NOUN__Gender=Fem|Number=Plur	12	obj	_	_
+14	chez	chez	ADP	_	ADP___	22	case	_	_
+15	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	16	det	_	_
+16	gens	gens	NOUN	_	NOUN__Gender=Masc|Number=Plur	22	nmod	_	_
+17	/	/	CCONJ	_	CCONJ___	22	mark	_	_
+18	de	de	ADP	_	ADP___	22	fixed	_	_
+19	fouiller	fouiller	VERB	_	VERB__VerbForm=Inf	22	xcomp	_	_
+20	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	domicile	domicile	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	obj	_	_
+22	sans	sans	ADP	_	ADP___	22	case	_	_
+23	procédure	procédure	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	nmod	_	_
+24	préalable	préalable	ADJ	_	ADJ__Number=Sing	22	amod	_	_
+25	,	,	PUNCT	_	PUNCT___	22	punct	_	_
+26	sur	sur	ADP	_	ADP___	27	case	_	_
+27	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+28	simple	simple	ADJ	_	ADJ__Number=Sing	29	amod	_	_
+29	soupçon	soupçon	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	obl	_	_
+30	?	?	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#Oui dés lors qu'ils ont l'aval de leur hiérarchie.
+1	Oui	Oui	PROPN	_	PROPN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	dés	der	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	amod	_	_
+3	lors	lors	ADV	_	ADV___	1	mark	_	_
+4	qu'	que	SCONJ	_	SCONJ___	9	fixed	_	_
+5	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	9	nsubj	_	_
+6	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+7	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+8	aval	aval	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+9	de	de	ADP	_	ADP___	9	case	_	_
+10	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	9	nmod:poss	_	_
+11	hiérarchie	hiérarchie	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+12	.	.	PUNCT	_	PUNCT___	22	punct	_	_
+
+

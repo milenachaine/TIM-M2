@@ -1,0 +1,111 @@
+#Bonjour
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+
+
+#Avez vous fait un EDL ?
+1	Avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	aux	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	4	iobj	_	_
+3	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+5	EDL	edl	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+6	?	?	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Y a t-il des dégradations notées ou pas ?
+1	Y	yu	PRON	_	PRON__Person=3	1	nsubj	_	_
+2	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	t-il	t-il	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
+5	dégradations	dégradation	NOUN	_	NOUN__Gender=Fem|Number=Plur	6	obj	_	_
+6	notées	noter	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	4	amod	_	_
+7	ou	ou	CCONJ	_	CCONJ___	4	cc	_	_
+8	pas	pas	ADV	_	ADV__Polarity=Neg	10	conj	_	_
+9	?	?	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Vous étiez en conflit car menace de service d'Hygiène ?
+1	Vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+2	étiez	être	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	en	en	ADP	_	ADP___	4	case	_	_
+4	conflit	conflit	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+5	car	car	CCONJ	_	CCONJ___	6	cc	_	_
+6	menace	menacer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+7	de	de	ADP	_	ADP___	4	case	_	_
+8	service	service	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+9	d'	de	ADP	_	ADP___	10	case	_	_
+10	Hygiène	Hygiène	PROPN	_	PROPN___	10	nmod	_	_
+11	?	?	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Le loyer est du jusqu'à la fin du préavis donc vous avez un mois à compter de l'EDL pour restituer le Dépôt de garantie (pas caution = garant) sur lequel vous retenez le loyer du si pas payé (et évidement si le logement n'a pas été reloué avant la fin du préavis) si pas de dégradations ou 2 mois si dégradations !
+1	Le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	det	_	_
+2	loyer	loyer	VERB	_	VERB__VerbForm=Inf	4	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	du	du	DET	_	DET__Gender=Masc|Number=Sing	4	det	_	_
+5	jusqu'	jusque	ADP	_	ADP___	6	case	_	_
+6	à	à	ADP	_	ADP___	4	fixed	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+8	fin	fin	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obl	_	_
+9	du	du	DET	_	DET__Gender=Masc|Number=Sing	10	det	_	_
+10	préavis	préavis	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+11	donc	donc	ADV	_	ADV___	12	advmod	_	_
+12	vous	vous	PRON	_	PRON__Number=Plur|Person=2	10	nsubj	_	_
+13	avez	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+14	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+16	à	à	ADP	_	ADP___	10	mark	_	_
+17	compter	compter	VERB	_	VERB__VerbForm=Inf	18	xcomp	_	_
+18	de	de	ADP	_	ADP___	18	case	_	_
+19	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	EDL	edl	NOUN	_	NOUN__Number=Sing	18	obl	_	_
+21	pour	pour	ADP	_	ADP___	22	mark	_	_
+22	restituer	restituer	VERB	_	VERB__VerbForm=Inf	18	advcl	_	_
+23	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	Dépôt	dépôt	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	obj	_	_
+25	de	de	ADP	_	ADP___	26	case	_	_
+26	garantie	garantir	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	nmod	_	_
+27	(	(	PUNCT	_	PUNCT___	18	punct	_	_
+28	pas	pas	ADV	_	ADV__Polarity=Neg	29	nummod	_	_
+29	caution	caution	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	obj	_	_
+30	=	=	VERB	_	VERB__Mood=Ind|Person=3|VerbForm=Fin	31	advmod	_	_
+31	garant	garer	ADV	_	ADV___	35	amod	_	_
+32	)	)	PUNCT	_	PUNCT___	35	punct	_	_
+33	sur	sur	ADP	_	ADP___	32	case	_	_
+34	lequel	lequel	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	35	obl	_	_
+35	vous	vous	PRON	_	PRON__Number=Plur|Person=2	40	nsubj	_	_
+36	retenez	retenir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	37	parataxis	_	_
+37	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	35	mark	_	_
+38	loyer	loyer	VERB	_	VERB__VerbForm=Inf	40	xcomp	_	_
+39	du	du	DET	_	DET__Gender=Masc|Number=Sing	40	iobj	_	_
+40	si	si	SCONJ	_	SCONJ___	40	mark	_	_
+41	pas	pas	ADV	_	ADV___	42	advmod	_	_
+42	payé	payer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	40	advcl	_	_
+43	(	(	PUNCT	_	PUNCT___	44	punct	_	_
+44	et	et	CCONJ	_	CCONJ___	40	cc	_	_
+45	évidement	évidement	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	47	conj	_	_
+46	si	si	SCONJ	_	SCONJ___	47	mark	_	_
+47	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+48	logement	logement	ADV	_	ADV___	49	nsubj:pass	_	_
+49	n'	ne	ADV	_	ADV__Polarity=Neg	40	advmod	_	_
+50	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	51	aux	_	_
+51	pas	pas	ADV	_	ADV__Polarity=Neg	49	advmod	_	_
+52	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	53	aux:pass	_	_
+53	reloué	relouer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	51	ccomp	_	_
+54	avant	avant	ADP	_	ADP___	51	case	_	_
+55	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	56	det	_	_
+56	fin	fin	NOUN	_	NOUN__Gender=Fem|Number=Sing	49	obl	_	_
+57	du	du	DET	_	DET__Gender=Masc|Number=Sing	58	det	_	_
+58	préavis	préavis	NOUN	_	NOUN__Gender=Masc|Number=Sing	56	obl	_	_
+59	)	)	PUNCT	_	PUNCT___	40	punct	_	_
+60	si	si	SCONJ	_	SCONJ___	61	advmod	_	_
+61	pas	pas	ADV	_	ADV__Polarity=Neg	63	advmod	_	_
+62	de	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	63	det	_	_
+63	dégradations	dégradation	NOUN	_	NOUN__Gender=Fem|Number=Plur	40	obj	_	_
+64	ou	ou	CCONJ	_	CCONJ___	65	cc	_	_
+65	2	2	NUM	_	NUM__NumType=Card	63	nummod	_	_
+66	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	65	conj	_	_
+67	si	si	SCONJ	_	SCONJ___	69	case	_	_
+68	dégradations	dégradation	NOUN	_	NOUN__Gender=Fem|Number=Plur	69	obj	_	_
+69	!	!	PUNCT	_	PUNCT___	65	punct	_	_
+
+

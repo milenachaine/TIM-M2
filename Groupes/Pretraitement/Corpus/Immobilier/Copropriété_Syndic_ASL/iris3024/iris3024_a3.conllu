@@ -1,0 +1,100 @@
+#Si le PV n'indique pas de désignation de président ou si il indique comme président le sydnic, il faut faire annuler l'AG par un référé au TGI.
+1	Si	Si	SCONJ	_	SCONJ___	5	mark	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	PV	PV	PROPN	_	PROPN___	5	nsubj	_	_
+4	n'	ne	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+5	indique	indiquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	advcl	_	_
+6	pas	pas	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+7	de	de	DET	_	DET__Definite=Ind|Number=Sing|PronType=Art	8	det	_	_
+8	désignation	désignation	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obj	_	_
+9	de	de	ADP	_	ADP___	10	case	_	_
+10	président	président	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+11	ou	ou	CCONJ	_	CCONJ___	14	cc	_	_
+12	si	si	SCONJ	_	SCONJ___	14	mark	_	_
+13	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
+14	indique	indiquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+15	comme	comme	ADP	_	ADP___	16	case	_	_
+16	président	président	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	advcl	_	_
+17	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	sydnic	sydnic	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	acl	_	_
+19	,	,	PUNCT	_	PUNCT___	21	punct	_	_
+20	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	21	nsubj	_	_
+21	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+22	faire	faire	VERB	_	VERB__VerbForm=Inf	21	xcomp	_	_
+23	annuler	annuler	VERB	_	VERB__VerbForm=Inf	22	xcomp	_	_
+24	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+25	AG	AG	PROPN	_	PROPN__Number=Sing	23	obj	_	_
+26	par	par	ADP	_	ADP___	28	case	_	_
+27	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	référé	référé	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	obl	_	_
+29	au	au	PRON	_	PRON__PronType=Rel	30	case	_	_
+30	TGI	tgi	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	nmod	_	_
+31	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Si le PV indique un faux président, alors les signataires doivent être poursuivi pour faux, et l''annulation doit être également demandée.
+1	Si	Si	SCONJ	_	SCONJ___	5	mark	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	PV	PV	PROPN	_	PROPN___	5	nsubj	_	_
+4	indique	indiquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+6	faux	faux	ADJ	_	ADJ__Gender=Masc	5	amod	_	_
+7	président	président	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+8	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+9	alors	alors	ADV	_	ADV___	10	advmod	_	_
+10	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+11	signataires	signataire	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	nsubj	_	_
+12	doivent	devoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+13	être	être	AUX	_	AUX__VerbForm=Inf	14	aux:pass	_	_
+14	poursuivi	poursuivre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	xcomp	_	_
+15	pour	pour	ADP	_	ADP___	16	mark	_	_
+16	faux	faux	ADJ	_	ADJ__Gender=Masc	14	obl	_	_
+17	,	,	PUNCT	_	PUNCT___	18	punct	_	_
+18	et	et	CCONJ	_	CCONJ___	16	cc	_	_
+19	l''annulation	l''annulation	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	nsubj	_	_
+20	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	conj	_	_
+21	être	être	AUX	_	AUX__VerbForm=Inf	21	aux:pass	_	_
+22	également	également	ADV	_	ADV___	21	advmod	_	_
+23	demandée	demander	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	22	xcomp	_	_
+24	.	.	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#La vraie question c'est pourquoi absolument personne durant l'AG n'a tapé du poing sur la table et fait un scandale pour EXIGER la désignation d'un président....
+1	La	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+2	vraie	vrai	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+3	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	amod	_	_
+4	c'	ce	PRON	_	PRON__Number=Sing|Person=3	5	advmod	_	_
+5	est	être	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	fixed	_	_
+6	pourquoi	pourquoi	ADV	_	ADV___	5	fixed	_	_
+7	absolument	absolument	ADV	_	ADV___	8	advmod	_	_
+8	personne	personn	ADJ	_	ADJ__Gender=Fem|Number=Sing	5	nsubj	_	_
+9	durant	durer	ADP	_	ADP___	10	case	_	_
+10	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+11	AG	AG	PROPN	_	PROPN__Number=Sing	14	obl	_	_
+12	n'	ne	ADV	_	ADV___	14	advmod	_	_
+13	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	tapé	taper	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+15	du	du	DET	_	DET__Gender=Masc|Number=Sing	16	det	_	_
+16	poing	poing	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obj	_	_
+17	sur	sur	ADP	_	ADP___	18	case	_	_
+18	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+19	table	table	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	obl	_	_
+20	et	et	CCONJ	_	CCONJ___	21	cc	_	_
+21	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	conj	_	_
+22	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+23	scandale	scandale	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	obj	_	_
+24	pour	pour	ADP	_	ADP___	25	case	_	_
+25	EXIGER	exiger	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	nmod	_	_
+26	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+27	désignation	désignation	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	obj	_	_
+28	d'	de	ADP	_	ADP___	23	case	_	_
+29	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	président	président	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	nmod	_	_
+31	....	....	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Absolument!
+1	Absolument	absolument	ADV	_	ADV___	0	ROOT	_	_
+2	!	!	PUNCT	_	PUNCT___	3	punct	_	_
+
+

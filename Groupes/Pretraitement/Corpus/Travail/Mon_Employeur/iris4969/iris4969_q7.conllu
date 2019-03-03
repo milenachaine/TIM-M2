@@ -1,0 +1,181 @@
+#Bonsoir .
+1	Bonsoir	Bonsoir	PROPN	_	PROPN___	0	ROOT	_	_
+2	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#J'ai reçu une réponse de la CNIL : Bonjour.
+1	J'	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	reçu	recevoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obj	_	_
+6	de	de	ADP	_	ADP___	7	case	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+8	CNIL	CNIL	PROPN	_	PROPN__Gender=Fem|Number=Sing	10	nmod	_	_
+9	:	:	PUNCT	_	PUNCT___	10	punct	_	_
+10	Bonjour	Bonjour	PROPN	_	PROPN___	7	obl	_	_
+11	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Si l'employeur peut demander au salarié de produire l'extrait de son casier judiciaire (B3) lors d'un entretien il ne peut pas en faire une copie ni de le conserver.
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+3	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+4	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	demander	demander	VERB	_	VERB__VerbForm=Inf	5	advcl	_	_
+6	au	au	PRON	_	PRON__PronType=Int	7	det	_	_
+7	salarié	salarier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	obj	_	_
+8	de	de	ADP	_	ADP___	10	mark	_	_
+9	produire	produire	VERB	_	VERB__VerbForm=Inf	10	nmod	_	_
+10	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+11	extrait	extrait	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+12	de	de	ADP	_	ADP___	5	case	_	_
+13	son	son	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+14	casier	casier	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nmod	_	_
+15	judiciaire	judiciaire	ADJ	_	ADJ__Number=Sing	16	amod	_	_
+16	(	(	PUNCT	_	PUNCT___	18	punct	_	_
+17	B3	b3	NOUN	_	NOUN___	18	appos	_	_
+18	)	)	PUNCT	_	PUNCT___	41	punct	_	_
+19	lors	lors	ADV	_	ADV___	20	case	_	_
+20	d'	de	ADP	_	ADP___	18	fixed	_	_
+21	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	entretien	entretien	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obl	_	_
+23	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	24	nsubj	_	_
+24	ne	ne	ADV	_	ADV__Polarity=Neg	22	advmod	_	_
+25	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+26	pas	pas	ADV	_	ADV__Polarity=Neg	27	advmod	_	_
+27	en	en	PRON	_	PRON__Person=3	24	mark	_	_
+28	faire	faire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+29	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+30	copie	copie	NOUN	_	NOUN__Gender=Fem|Number=Sing	27	obj	_	_
+31	ni	ni	CCONJ	_	CCONJ___	27	cc	_	_
+32	de	de	ADP	_	ADP___	35	case	_	_
+33	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	32	det	_	_
+34	conserver	conserver	VERB	_	VERB__VerbForm=Inf	35	conj	_	_
+35	.	.	PUNCT	_	PUNCT___	41	punct	_	_
+
+
+#Et ensuite :
+1	Et	Et	CCONJ	_	CCONJ___	0	ROOT	_	_
+2	ensuite	ensuite	ADV	_	ADV___	1	advmod	_	_
+3	:	:	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#En l'absence d'un texte spécifique prévoyant la vérification des casiers judiciaires des employés, l'employeur peut demander à un candidat ou à un employé de produire l'extrait de son casier judiciaire (B3) lors d'un entretien, par exemple afin de vérifier ses antécédents judiciaires.
+1	En	En	ADP	_	ADP___	1	case	_	_
+2	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+3	absence	absence	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obl	_	_
+4	d'	de	ADP	_	ADP___	5	case	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+6	texte	texte	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+7	spécifique	spécifique	ADJ	_	ADJ__Number=Sing	5	amod	_	_
+8	prévoyant	prévoir	VERB	_	VERB__Tense=Pres|VerbForm=Part	10	acl	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	vérification	vérification	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+11	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
+12	casiers	casier	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	obj	_	_
+13	judiciaires	judiciaire	ADJ	_	ADJ__Number=Plur	5	amod	_	_
+14	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	18	det	_	_
+15	employés	employé	NOUN	_	NOUN__Gender=Fem|Number=Plur	16	obj	_	_
+16	,	,	PUNCT	_	PUNCT___	18	punct	_	_
+17	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	41	nsubj	_	_
+19	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	demander	demander	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+21	à	à	ADP	_	ADP___	22	case	_	_
+22	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+23	candidat	candidat	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	obl	_	_
+24	ou	ou	CCONJ	_	CCONJ___	22	cc	_	_
+25	à	à	ADP	_	ADP___	27	case	_	_
+26	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	employé	employé	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	conj	_	_
+28	de	de	ADP	_	ADP___	27	mark	_	_
+29	produire	produire	VERB	_	VERB__VerbForm=Inf	27	nmod	_	_
+30	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	27	det	_	_
+31	extrait	extrait	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	obj	_	_
+32	de	de	ADP	_	ADP___	35	case	_	_
+33	son	son	DET	_	DET__Number=Sing|Poss=Yes	32	nmod:poss	_	_
+34	casier	casier	NOUN	_	NOUN__Gender=Masc|Number=Sing	35	nmod	_	_
+35	judiciaire	judiciaire	ADJ	_	ADJ__Number=Sing	41	amod	_	_
+36	(	(	PUNCT	_	PUNCT___	41	punct	_	_
+37	B3	b3	NOUN	_	NOUN___	38	appos	_	_
+38	)	)	PUNCT	_	PUNCT___	41	punct	_	_
+39	lors	lors	ADV	_	ADV___	41	case	_	_
+40	d'	de	ADP	_	ADP___	41	fixed	_	_
+41	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+42	entretien	entretien	NOUN	_	NOUN__Gender=Masc|Number=Sing	43	obl	_	_
+43	,	,	PUNCT	_	PUNCT___	41	punct	_	_
+44	par	par	ADP	_	ADP___	47	advmod	_	_
+45	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	47	fixed	_	_
+46	afin	afin	ADP	_	ADP___	47	mark	_	_
+47	de	de	ADP	_	ADP___	43	fixed	_	_
+48	vérifier	vérifier	VERB	_	VERB__VerbForm=Inf	41	advcl	_	_
+49	ses	son	DET	_	DET__Number=Plur|Poss=Yes	49	nmod:poss	_	_
+50	antécédents	antécédent	NOUN	_	NOUN__Gender=Masc|Number=Plur	49	obj	_	_
+51	judiciaires	judiciaire	ADJ	_	ADJ__Number=Plur	50	amod	_	_
+52	.	.	PUNCT	_	PUNCT___	54	punct	_	_
+
+
+#Toutefois, dans ce cas, l'employeur ne peut pas en conserver une copie ni permettre que ces données fassent l'objet d'un traitement spécifique.
+1	Toutefois	toutefois	ADV	_	ADV___	1	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	dans	dan	ADP	_	ADP___	5	case	_	_
+4	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+6	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+7	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+8	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nsubj	_	_
+9	ne	ne	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+10	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+11	pas	pas	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+12	en	en	PRON	_	PRON__Person=3	5	mark	_	_
+13	conserver	conserver	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+14	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+15	copie	copie	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obj	_	_
+16	ni	ni	CCONJ	_	CCONJ___	18	cc	_	_
+17	permettre	permettre	VERB	_	VERB__VerbForm=Inf	18	conj	_	_
+18	que	que	SCONJ	_	SCONJ___	41	mark	_	_
+19	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	20	det	_	_
+20	données	donnée	NOUN	_	NOUN__Gender=Fem|Number=Plur	18	nsubj	_	_
+21	fassent	faire	ADV	_	ADV___	22	ccomp	_	_
+22	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+23	objet	objet	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	obj	_	_
+24	d'	de	ADP	_	ADP___	22	case	_	_
+25	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+26	traitement	traitement	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	obl	_	_
+27	spécifique	spécifique	ADJ	_	ADJ__Number=Sing	24	amod	_	_
+28	.	.	PUNCT	_	PUNCT___	27	punct	_	_
+
+
+#La mention des vérifications des casiers effectuées dans le fichier de gestion du personnel sous la forme "oui/non" est suffisante.
+1	La	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	mention	mention	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+3	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
+4	vérifications	vérification	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	nmod	_	_
+5	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
+6	casiers	casier	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	nmod	_	_
+7	effectuées	effectuer	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	acl	_	_
+8	dans	dan	ADP	_	ADP___	10	case	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	fichier	fichier	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+11	de	de	ADP	_	ADP___	5	case	_	_
+12	gestion	gestion	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+13	du	du	DET	_	DET__Gender=Masc|Number=Sing	5	det	_	_
+14	personnel	personnel	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nmod	_	_
+15	sous	sou	ADP	_	ADP___	16	case	_	_
+16	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	forme	forme	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	nmod	_	_
+18	"	"	PUNCT	_	PUNCT___	41	punct	_	_
+19	oui	oui	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	appos	_	_
+20	/	/	ADP	_	ADP___	18	case	_	_
+21	non	non	ADV	_	ADV___	22	conj	_	_
+22	"	"	PUNCT	_	PUNCT___	20	punct	_	_
+23	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+24	suffisante	suffisant	ADJ	_	ADJ__Gender=Fem|Number=Sing	0	ROOT	_	_
+25	.	.	PUNCT	_	PUNCT___	27	punct	_	_
+
+
+#Répondre
+1	Répondre	répondre	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+
+

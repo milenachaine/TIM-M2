@@ -1,0 +1,151 @@
+#Donc ce que j'avais mis dans mon post initial :
+1	Donc	donc	ADV	_	ADV___	2	advmod	_	_
+2	ce	ce	PRON	_	PRON__PronType=Rel	0	ROOT	_	_
+3	que	que	PRON	_	PRON__PronType=Rel	6	obj	_	_
+4	j'	il	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+5	avais	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	mis	mettre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+7	dans	dan	ADP	_	ADP___	9	case	_	_
+8	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	9	nmod:poss	_	_
+9	post	post	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obl	_	_
+10	initial	initial	ADJ	_	ADJ__Gender=Masc|Number=Sing	9	amod	_	_
+11	:	:	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#Cas 2 : A [j'avais mis B par erreur] met à jour son testament et lègue tout par testament aux enfants de B. Puis A décède.
+1	Cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	advmod	_	_
+2	2	2	NUM	_	NUM__NumType=Card	2	nummod	_	_
+3	:	:	PUNCT	_	PUNCT___	6	punct	_	_
+4	A	a	NOUN	_	NOUN___	6	nmod	_	_
+5	[	[	PUNCT	_	PUNCT___	6	punct	_	_
+6	j'	il	PRON	_	PRON__Number=Sing|Person=1	2	nsubj	_	_
+7	avais	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	mis	mettre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	9	nsubj	_	_
+9	B	b	NOUN	_	NOUN___	6	obj	_	_
+10	par	par	ADP	_	ADP___	9	case	_	_
+11	erreur	erreur	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	obl	_	_
+12	]	]	PUNCT	_	PUNCT___	19	punct	_	_
+13	met	mettre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+14	à	à	ADP	_	ADP___	12	case	_	_
+15	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obl	_	_
+16	son	son	DET	_	DET__Number=Sing|Poss=Yes	19	nmod:poss	_	_
+17	testament	testament	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obj	_	_
+18	et	et	CCONJ	_	CCONJ___	19	cc	_	_
+19	lègue	léguer	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	conj	_	_
+20	tout	tout	ADV	_	ADV___	19	amod	_	_
+21	par	par	ADP	_	ADP___	22	fixed	_	_
+22	testament	testament	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	fixed	_	_
+23	aux	aux	ADP	_	ADP___	24	fixed	_	_
+24	enfants	enfant	NOUN	_	NOUN__Number=Plur	24	obl	_	_
+25	de	de	ADP	_	ADP___	26	case	_	_
+26	B.	B.	PROPN	_	PROPN__Gender=Masc|Number=Sing	24	nmod	_	_
+27	Puis	Puis	CCONJ	_	CCONJ___	28	cc	_	_
+28	A	a	NOUN	_	NOUN___	24	aux	_	_
+29	décède	décéder	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	conj	_	_
+30	.	.	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#Alors les deux enfants vont avoir des frais de succession de 55% (après un abattement beaucoup plus faible que dans le cas 1).
+1	Alors	alors	ADV	_	ADV___	2	advmod	_	_
+2	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	2	det	_	_
+3	deux	deux	NUM	_	NUM__NumType=Card	6	nummod	_	_
+4	enfants	enfant	NOUN	_	NOUN__Number=Plur	6	nsubj	_	_
+5	vont	aller	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	avoir	avoir	VERB	_	VERB__VerbForm=Inf	2	xcomp	_	_
+7	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	9	det	_	_
+8	frais	frais	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	obj	_	_
+9	de	de	ADP	_	ADP___	6	case	_	_
+10	succession	succession	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nmod	_	_
+11	de	de	ADP	_	ADP___	2	case	_	_
+12	55	55	NUM	_	NUM__NumType=Card	19	nummod	_	_
+13	%	%	NOUN	_	NOUN__Gender=Masc	12	nmod	_	_
+14	(	(	PUNCT	_	PUNCT___	12	punct	_	_
+15	après	après	ADP	_	ADP___	12	case	_	_
+16	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+17	abattement	abattement	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obl	_	_
+18	beaucoup	beaucoup	ADV	_	ADV___	19	advmod	_	_
+19	plus	plus	ADV	_	ADV___	24	advmod	_	_
+20	faible	faible	ADJ	_	ADJ__Number=Sing	19	amod	_	_
+21	que	que	SCONJ	_	SCONJ___	22	mark	_	_
+22	dans	dan	ADP	_	ADP___	19	case	_	_
+23	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	dep	_	_
+25	1	1	NUM	_	NUM__NumType=Card	26	nummod	_	_
+26	)	)	PUNCT	_	PUNCT___	24	punct	_	_
+27	.	.	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#est faux : dans ce cas, la part qui serait revenue à B en l'absence de testament (50%) leur revient par dévolution légale avec le barème soeur
+1	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	faux	faux	ADJ	_	ADJ__Gender=Masc	0	ROOT	_	_
+3	:	:	PUNCT	_	PUNCT___	6	punct	_	_
+4	dans	dan	ADP	_	ADP___	6	case	_	_
+5	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	obl	_	_
+7	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	part	part	NOUN	_	NOUN__Number=Sing	6	nsubj	_	_
+10	qui	qui	PRON	_	PRON__PronType=Rel	9	nsubj:pass	_	_
+11	serait	être	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
+12	revenue	revenir	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	19	acl:relcl	_	_
+13	à	à	ADP	_	ADP___	12	case	_	_
+14	B	b	NOUN	_	NOUN___	12	obl	_	_
+15	en	en	ADP	_	ADP___	12	case	_	_
+16	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+17	absence	absence	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obl	_	_
+18	de	de	ADP	_	ADP___	19	case	_	_
+19	testament	testament	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	nmod	_	_
+20	(	(	PUNCT	_	PUNCT___	19	punct	_	_
+21	50	50	NUM	_	NUM__NumType=Card	22	nummod	_	_
+22	%	%	NOUN	_	NOUN__Gender=Masc	19	nmod	_	_
+23	)	)	PUNCT	_	PUNCT___	24	punct	_	_
+24	leur	lui	PRON	_	PRON__Number=Plur|Person=3	24	nmod:poss	_	_
+25	revient	revenir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	_
+26	par	par	ADP	_	ADP___	24	case	_	_
+27	dévolution	dévolution	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	obl	_	_
+28	légale	légal	ADJ	_	ADJ__Gender=Fem|Number=Sing	24	amod	_	_
+29	avec	avec	ADP	_	ADP___	30	case	_	_
+30	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+31	barème	barèm	ADJ	_	ADJ__Number=Sing|NumType=Ord	35	amod	_	_
+32	soeur	soeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	nmod	_	_
+
+
+#-soeur, et le surplus (qui serait revenu à C en l'absence de testament) avec le barème tante-nièce.
+1	-	-	PUNCT	_	PUNCT___	2	punct	_	_
+2	soeur	soeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+4	et	et	CCONJ	_	CCONJ___	6	cc	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	surplus	surplus	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	conj	_	_
+7	(	(	PUNCT	_	PUNCT___	9	punct	_	_
+8	qui	qui	PRON	_	PRON__PronType=Rel	9	nsubj	_	_
+9	serait	être	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+10	revenu	revenir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+11	à	à	ADP	_	ADP___	2	case	_	_
+12	C	c	NOUN	_	NOUN___	19	obl	_	_
+13	en	en	ADP	_	ADP___	12	case	_	_
+14	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+15	absence	absence	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obl	_	_
+16	de	de	ADP	_	ADP___	19	case	_	_
+17	testament	testament	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	nmod	_	_
+18	)	)	PUNCT	_	PUNCT___	19	punct	_	_
+19	avec	avec	ADP	_	ADP___	24	case	_	_
+20	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+21	barème	barème	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	nmod	_	_
+22	tante	tant	ADJ	_	ADJ__Gender=Fem|Number=Sing	19	amod	_	_
+23	-	-	PUNCT	_	PUNCT___	24	punct	_	_
+24	nièce	nièce	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	amod	_	_
+25	.	.	PUNCT	_	PUNCT___	26	punct	_	_
+
+
+#Est-ce exact ?
+1	Est	être		_	VERB	2	nsubj	_	_
+2	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	2	nsubj	_	_
+3	exact	exact	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	?	?	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Merci
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+
+

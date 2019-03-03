@@ -1,0 +1,78 @@
+#Bonjour, La maison est de 1981
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+3	La	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nsubj	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	nmod	_	_
+6	de	de	ADP	_	ADP___	7	case	_	_
+7	1981	1981	NUM	_	NUM__NumType=Card	1	nmod	_	_
+
+
+#Elle fait 113 M2
+1	Elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	1	nsubj	_	_
+2	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	113	113	NUM	_	NUM__NumType=Card	4	nummod	_	_
+4	M2	m2	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+
+
+#Maison de plein pied murs porteurs sur extérieur sur les 4 faces de la maison oui + 1 mur porteur intérieur
+1	Maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	de	de	ADP	_	ADP___	5	case	_	_
+3	plein	plein	ADJ	_	ADJ__Gender=Masc|Number=Sing	4	amod	_	_
+4	pied	pied	NOUN	_	NOUN__Number=Sing	5	nmod	_	_
+5	murs	mur	ADJ	_	ADJ__Gender=Masc|Number=Plur	1	amod	_	_
+6	porteurs	porteur	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	amod	_	_
+7	sur	sur	ADP	_	ADP___	1	case	_	_
+8	extérieur	extérieur	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nmod	_	_
+9	sur	sur	ADP	_	ADP___	9	case	_	_
+10	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	11	det	_	_
+11	4	4	NUM	_	NUM__NumType=Card	9	nummod	_	_
+12	faces	face	NOUN	_	NOUN__Gender=Fem|Number=Plur	12	nmod	_	_
+13	de	de	ADP	_	ADP___	15	case	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+16	oui	oui	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nmod	_	_
+17	+	+	ADP	_	ADP___	15	case	_	_
+18	1	1	NUM	_	NUM__NumType=Card	19	nummod	_	_
+19	mur	mur	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nmod	_	_
+20	porteur	porteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	amod	_	_
+21	intérieur	intérieur	ADJ	_	ADJ__Gender=Masc|Number=Sing	23	amod	_	_
+
+
+#maison
+1	maison	maison	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+
+
+#Les murs impactés ne sont pas porteurs mais en brique
+1	Les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+2	murs	mur	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	nsubj	_	_
+3	impactés	impacté	NOUN	_	NOUN__Gender=Fem|Number=Plur	4	amod	_	_
+4	ne	ne	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+5	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+6	pas	pas	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+7	porteurs	porteur	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+8	mais	mais	CCONJ	_	CCONJ___	9	cc	_	_
+9	en	en	ADP	_	ADP___	9	case	_	_
+10	brique	brique	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	conj	_	_
+
+
+#Plafond en placo
+1	Plafond	plafond	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	en	en	ADP	_	ADP___	5	case	_	_
+3	placo	placo	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	nmod	_	_
+
+
+#Mon voisin a bien une fisure traversante visible intérieure / Extérieur
+1	Mon	mon	DET	_	DET__Number=Sing|Poss=Yes	0	ROOT	_	_
+2	voisin	voisin	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	flat:name	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	bien	bien	ADV	_	ADV___	5	advmod	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+6	fisure	fisure	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obl	_	_
+7	traversante	traversant	ADJ	_	ADJ__Gender=Fem|Number=Sing	1	amod	_	_
+8	visible	visible	ADJ	_	ADJ__Number=Sing	9	amod	_	_
+9	intérieure	intérieur	ADJ	_	ADJ__Gender=Fem|Number=Sing	9	amod	_	_
+10	/	/	CCONJ	_	CCONJ___	11	case	_	_
+11	Extérieur	extérieur	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	conj	_	_
+
+

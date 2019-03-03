@@ -1,0 +1,356 @@
+#Hello à tous !
+1	Hello	hello	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+2	à	à	ADP	_	ADP___	3	case	_	_
+3	tous	tout	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Rel	1	nmod	_	_
+4	!	!	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Voilà, je voudrais contester le comportement d'un huissier agissant en vertu d'une décision de justice contre mon compagnon (débiteur) :
+1	Voilà	voilà	VERB	_	VERB__Mood=Ind|VerbForm=Fin	1	acl	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+4	voudrais	vouloir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
+5	contester	contester	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+7	comportement	comportement	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+8	d'	de	ADP	_	ADP___	9	case	_	_
+9	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+10	huissier	huissier	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+11	agissant	agir	VERB	_	VERB__Tense=Pres|VerbForm=Part	9	acl	_	_
+12	en	en	ADP	_	ADP___	14	case	_	_
+13	vertu	vertu	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	fixed	_	_
+14	d'	de	ADP	_	ADP___	11	fixed	_	_
+15	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+16	décision	décision	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obl	_	_
+17	de	de	ADP	_	ADP___	16	case	_	_
+18	justice	justice	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nmod	_	_
+19	contre	contrer	ADP	_	ADP___	20	case	_	_
+20	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	15	nmod:poss	_	_
+21	compagnon	compagnon	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	nmod	_	_
+22	(	(	PUNCT	_	PUNCT___	20	punct	_	_
+23	débiteur	débiteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	appos	_	_
+24	)	)	PUNCT	_	PUNCT___	25	punct	_	_
+25	:	:	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Faits : Ne s'est jamais présenté à domicile pour la remise d'actes + n'a jamais laissé d'avis de passage + n'a jamais doublé ses actes de la lettre simple obligatoire expédiée le prochain jour ouvrable suivant le jour de présentation à personne Parmi ces actes jamais présentés à personne, un a été facturé mais l'huissier a été dans l'incapacité de m'en fournir copie lors de ma visite à son cabinet + le mandant, créancier, confirme qu'il n'a jamais eu connaissance de cet acte (évidemment, comme tous les actes de cette procédure, l'huissier ne s'est jamais présenté à personne) Objectifs :
+1	Faits	fait	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	nsubj:pass	_	_
+2	:	:	PUNCT	_	PUNCT___	3	punct	_	_
+3	Ne	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+4	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	1	expl	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+6	jamais	jamais	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+7	présenté	présenter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	acl	_	_
+8	à	à	ADP	_	ADP___	9	case	_	_
+9	domicile	domicile	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obl	_	_
+10	pour	pour	ADP	_	ADP___	11	case	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+12	remise	remise	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obl	_	_
+13	d'	de	ADP	_	ADP___	14	case	_	_
+14	actes	acte	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	nmod	_	_
+15	+	+	ADP	_	ADP___	14	mark	_	_
+16	n'	ne	ADV	_	ADV__Polarity=Neg	20	advmod	_	_
+17	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+18	jamais	jamais	ADV	_	ADV__Polarity=Neg	16	advmod	_	_
+19	laissé	laisser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	acl	_	_
+20	d'	de	ADP	_	ADP___	15	case	_	_
+21	avis	avis	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	obl	_	_
+22	de	de	ADP	_	ADP___	20	case	_	_
+23	passage	passage	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	nmod	_	_
+24	+	+	ADP	_	ADP___	25	mark	_	_
+25	n'	ne	ADV	_	ADV__Polarity=Neg	20	advmod	_	_
+26	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+27	jamais	jamais	ADV	_	ADV__Polarity=Neg	25	advmod	_	_
+28	doublé	doubler	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	advcl	_	_
+29	ses	son	DET	_	DET__Number=Plur|Poss=Yes	9	nmod:poss	_	_
+30	actes	acte	NOUN	_	NOUN__Gender=Masc|Number=Plur	88	obj	_	_
+31	de	de	ADP	_	ADP___	30	case	_	_
+32	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+33	lettre	lettre	NOUN	_	NOUN__Gender=Fem|Number=Sing	36	nmod	_	_
+34	simple	simple	ADJ	_	ADJ__Number=Sing	36	amod	_	_
+35	obligatoire	obligatoire	NOUN	_	NOUN__Gender=Fem|Number=Sing	36	obj	_	_
+36	expédiée	expédier	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	30	acl	_	_
+37	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	prochain	prochain	ADJ	_	ADJ__Gender=Masc|Number=Sing	36	amod	_	_
+39	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	41	obl	_	_
+40	ouvrable	ouvrable	ADJ	_	ADJ__Number=Sing	41	amod	_	_
+41	suivant	suivre	VERB	_	VERB__Tense=Pres|VerbForm=Part	36	acl	_	_
+42	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	41	obj	_	_
+44	de	de	ADP	_	ADP___	48	case	_	_
+45	présentation	présentation	NOUN	_	NOUN__Gender=Fem|Number=Sing	48	nmod	_	_
+46	à	à	ADP	_	ADP___	48	case	_	_
+47	personne	personne	NOUN	_	NOUN__Gender=Fem|Number=Sing	48	obl	_	_
+48	Parmi	Parmi	ADP	_	ADP___	43	case	_	_
+49	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	50	det	_	_
+50	actes	acte	NOUN	_	NOUN__Gender=Masc|Number=Plur	48	obl	_	_
+51	jamais	jamais	ADV	_	ADV__Polarity=Neg	52	advmod	_	_
+52	présentés	présenter	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	50	acl	_	_
+53	à	à	ADP	_	ADP___	57	case	_	_
+54	personne	personne	NOUN	_	NOUN__Gender=Fem|Number=Sing	57	obl	_	_
+55	,	,	PUNCT	_	PUNCT___	57	punct	_	_
+56	un	un	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	57	nsubj:pass	_	_
+57	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
+58	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	59	aux:pass	_	_
+59	facturé	facturer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+60	mais	mais	CCONJ	_	CCONJ___	62	cc	_	_
+61	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	62	det	_	_
+62	huissier	huissier	NOUN	_	NOUN__Gender=Masc|Number=Sing	59	conj	_	_
+63	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	64	aux	_	_
+64	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	57	cop	_	_
+65	dans	dan	ADP	_	ADP___	64	case	_	_
+66	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	68	det	_	_
+67	incapacité	incapacité	NOUN	_	NOUN__Gender=Fem|Number=Sing	68	obl	_	_
+68	de	de	ADP	_	ADP___	65	mark	_	_
+69	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	68	expl	_	_
+70	en	en	PRON	_	PRON__Person=3	64	iobj	_	_
+71	fournir	fournir	VERB	_	VERB__VerbForm=Inf	72	nmod	_	_
+72	copie	copie	NOUN	_	NOUN__Gender=Fem|Number=Sing	70	obj	_	_
+73	lors	lors	ADV	_	ADV___	74	case	_	_
+74	de	de	ADP	_	ADP___	72	fixed	_	_
+75	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	76	nmod:poss	_	_
+76	visite	visiter	NOUN	_	NOUN__Gender=Fem|Number=Sing	70	obl	_	_
+77	à	à	ADP	_	ADP___	79	case	_	_
+78	son	son	DET	_	DET__Number=Sing|Poss=Yes	79	nmod:poss	_	_
+79	cabinet	cabinet	NOUN	_	NOUN__Gender=Masc|Number=Sing	88	nmod	_	_
+80	+	+	ADP	_	ADP___	81	case	_	_
+81	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	79	det	_	_
+82	mandant	mandant	NOUN	_	NOUN__Gender=Masc|Number=Sing	83	nmod	_	_
+83	,	,	PUNCT	_	PUNCT___	81	punct	_	_
+84	créancier	créancier	ADJ	_	ADJ__Gender=Masc|Number=Sing	88	amod	_	_
+85	,	,	PUNCT	_	PUNCT___	88	punct	_	_
+86	confirme	confirmer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	88	amod	_	_
+87	qu'	que	SCONJ	_	SCONJ___	88	mark	_	_
+88	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	88	nsubj	_	_
+89	n'	ne	ADV	_	ADV__Polarity=Neg	91	advmod	_	_
+90	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	91	aux	_	_
+91	jamais	jamais	ADV	_	ADV__Polarity=Neg	88	advmod	_	_
+92	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	96	ccomp	_	_
+93	connaissance	connaissance	NOUN	_	NOUN__Gender=Fem|Number=Sing	96	obj	_	_
+94	de	de	ADP	_	ADP___	96	case	_	_
+95	cet	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	96	det	_	_
+96	acte	acte	NOUN	_	NOUN__Gender=Masc|Number=Sing	88	obl	_	_
+97	(	(	PUNCT	_	PUNCT___	100	punct	_	_
+98	évidemment	évidemment	ADV	_	ADV___	100	appos	_	_
+99	,	,	PUNCT	_	PUNCT___	100	punct	_	_
+100	comme	comme	ADP	_	ADP___	96	case	_	_
+101	tous	tou	ADJ	_	ADJ__Gender=Masc|Number=Plur	100	amod	_	_
+102	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	105	det	_	_
+103	actes	acte	NOUN	_	NOUN__Gender=Masc|Number=Plur	102	obl	_	_
+104	de	de	ADP	_	ADP___	105	case	_	_
+105	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	100	det	_	_
+106	procédure	procédure	NOUN	_	NOUN__Gender=Fem|Number=Sing	108	nmod	_	_
+107	,	,	PUNCT	_	PUNCT___	108	punct	_	_
+108	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	105	det	_	_
+109	huissier	huissier	NOUN	_	NOUN__Gender=Masc|Number=Sing	111	nsubj	_	_
+110	ne	ne	ADV	_	ADV__Polarity=Neg	111	advmod	_	_
+111	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	108	expl	_	_
+112	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	111	aux	_	_
+113	jamais	jamais	ADV	_	ADV__Polarity=Neg	111	advmod	_	_
+114	présenté	présenter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	96	conj	_	_
+115	à	à	ADP	_	ADP___	96	case	_	_
+116	personne	personne	NOUN	_	NOUN__Gender=Fem|Number=Sing	121	obl	_	_
+117	)	)	PUNCT	_	PUNCT___	121	punct	_	_
+118	Objectifs	objectif	NOUN	_	NOUN__Gender=Masc|Number=Plur	121	obl	_	_
+119	:	:	PUNCT	_	PUNCT___	121	punct	_	_
+
+
+#Sanction disciplinaire contre cet huissier (car ce qu'il a fait est à la limite du vol et de l'abus de position dominante : faux acte et s'il ne se présente pas réellement on ne peut même pas savoir qu'on doit qq chose mais pendant ce temps l'huissier fait son beurre)
+1	Sanction	sanction	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+2	disciplinaire	disciplinaire	ADJ	_	ADJ__Number=Sing	3	amod	_	_
+3	contre	contrer	ADP	_	ADP___	1	case	_	_
+4	cet	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	1	det	_	_
+5	huissier	huissier	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nmod	_	_
+6	(	(	PUNCT	_	PUNCT___	9	punct	_	_
+7	car	car	CCONJ	_	CCONJ___	9	cc	_	_
+8	ce	ce	PRON	_	PRON__PronType=Rel	9	conj	_	_
+9	qu'	que	PRON	_	PRON__PronType=Rel	9	obj	_	_
+10	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	11	nsubj	_	_
+11	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+12	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl:relcl	_	_
+13	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advmod	_	_
+14	à	à	ADP	_	ADP___	11	case	_	_
+15	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+16	limite	limite	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obl	_	_
+17	du	du	DET	_	DET__Gender=Masc|Number=Sing	16	det	_	_
+18	vol	vol	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	nmod	_	_
+19	et	et	CCONJ	_	CCONJ___	20	cc	_	_
+20	de	de	ADP	_	ADP___	15	case	_	_
+21	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+22	abus	abus	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	conj	_	_
+23	de	de	ADP	_	ADP___	25	case	_	_
+24	position	position	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	nmod	_	_
+25	dominante	dominant	ADJ	_	ADJ__Gender=Fem|Number=Sing	20	amod	_	_
+26	:	:	PUNCT	_	PUNCT___	25	punct	_	_
+27	faux	faux	ADJ	_	ADJ__Gender=Masc	25	amod	_	_
+28	acte	acte	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	appos	_	_
+29	et	et	CCONJ	_	CCONJ___	9	cc	_	_
+30	s'	si	SCONJ	_	SCONJ___	88	mark	_	_
+31	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	30	nsubj	_	_
+32	ne	ne	ADV	_	ADV__Polarity=Neg	36	advmod	_	_
+33	se	se	PRON	_	PRON__Person=3|Reflex=Yes	36	expl	_	_
+34	présente	présenter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	conj	_	_
+35	pas	pas	ADV	_	ADV__Polarity=Neg	36	advmod	_	_
+36	réellement	réellement	ADV	_	ADV___	30	advmod	_	_
+37	on	on	PRON	_	PRON__Number=Sing|Person=3	38	nsubj	_	_
+38	ne	ne	ADV	_	ADV__Polarity=Neg	36	advmod	_	_
+39	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	aux	_	_
+40	même	même	ADV	_	ADV___	41	advmod	_	_
+41	pas	pas	ADV	_	ADV__Polarity=Neg	36	obj	_	_
+42	savoir	savoir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+43	qu'	que	SCONJ	_	SCONJ___	41	mark	_	_
+44	on	on	PRON	_	PRON__Number=Sing|Person=3	48	nsubj	_	_
+45	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	48	ccomp	_	_
+46	qq	qq	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	nsubj	_	_
+47	chose	chose	NOUN	_	NOUN__Gender=Fem|Number=Sing	48	xcomp	_	_
+48	mais	mais	CCONJ	_	CCONJ___	43	cc	_	_
+49	pendant	pendre	ADP	_	ADP___	50	case	_	_
+50	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	48	det	_	_
+51	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	52	conj	_	_
+52	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	50	det	_	_
+53	huissier	huissier	NOUN	_	NOUN__Gender=Masc|Number=Sing	57	amod	_	_
+54	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	57	xcomp	_	_
+55	son	son	DET	_	DET__Number=Sing|Poss=Yes	57	nmod:poss	_	_
+56	beurre	beurre	NOUN	_	NOUN__Gender=Masc|Number=Sing	57	obj	_	_
+57	)	)	PUNCT	_	PUNCT___	36	punct	_	_
+
+
+#Remboursement du coût de l'acte fictif J'ai écrit en LRAR à la Chambre des Huissiers dans ce contexte et ma réclamation a été reçue le 23 février 2018.
+1	Remboursement	remboursement	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	advmod	_	_
+2	du	du	DET	_	DET__Gender=Masc|Number=Sing	3	det	_	_
+3	coût	coût	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+4	de	de	ADP	_	ADP___	1	case	_	_
+5	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+6	acte	acte	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nmod	_	_
+7	fictif	fictif	ADJ	_	ADJ__Gender=Masc|Number=Sing	9	amod	_	_
+8	J'	il	PRON	_	PRON__Number=Sing|Person=1	9	nsubj	_	_
+9	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+10	écrit	écrire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+11	en	en	ADP	_	ADP___	9	case	_	_
+12	LRAR	LRAR	PROPN	_	PROPN___	14	obl	_	_
+13	à	à	ADP	_	ADP___	14	case	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+15	Chambre	chambre	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obl	_	_
+16	des	un	ADP	_	ADP___	20	det	_	_
+17	Huissiers	huissier	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	nmod	_	_
+18	dans	dan	ADP	_	ADP___	16	case	_	_
+19	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	20	det	_	_
+20	contexte	contexte	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obl	_	_
+21	et	et	CCONJ	_	CCONJ___	22	cc	_	_
+22	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	20	nmod:poss	_	_
+23	réclamation	réclamation	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	conj	_	_
+24	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	20	aux:pass	_	_
+26	reçue	recevoir	VERB	_	VERB__VerbForm=Part	25	punct	_	_
+27	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+28	23	23	NUM	_	NUM__NumType=Card	25	nummod	_	_
+29	février	février	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obl	_	_
+30	2018	2018	NUM	_	NUM__NumType=Card	88	nummod	_	_
+31	.	.	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#Il y a presque un mois en somme.
+1	Il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	y	yu	PRON	_	PRON__Person=3	3	fixed	_	_
+3	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+4	presque	presque	ADV	_	ADV___	0	ROOT	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+6	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+7	en	en	ADP	_	ADP___	9	case	_	_
+8	somme	sommer	NOUN	_	NOUN__Number=Sing	9	nmod	_	_
+9	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Ai
+1	Ai	Ai	PROPN	_	PROPN___	0	ROOT	_	_
+
+
+#-je bien fait de m'adresser à la Chambre Départementale des Huissiers de Justice ou aurais-je du m'adresser à quelqu'un d'autre ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+3	bien	bien	ADV	_	ADV___	1	advmod	_	_
+4	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	de	de	ADP	_	ADP___	9	mark	_	_
+6	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	9	expl	_	_
+7	adresser	adresser	VERB	_	VERB__VerbForm=Inf	9	xcomp	_	_
+8	à	à	ADP	_	ADP___	9	case	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+10	Chambre	Chambre	PROPN	_	PROPN__Gender=Fem|Number=Sing	11	obl	_	_
+11	Départementale	départemental	ADJ	_	ADJ__Gender=Fem|Number=Sing	9	amod	_	_
+12	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
+13	Huissiers	huissier	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	nmod	_	_
+14	de	de	ADP	_	ADP___	11	case	_	_
+15	Justice	justice	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nmod	_	_
+16	ou	ou	CCONJ	_	CCONJ___	20	cc	_	_
+17	aurais	aurai	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	conj	_	_
+18	-	-	PUNCT	_	PUNCT___	16	punct	_	_
+19	je	il	PRON	_	PRON__Number=Sing|Person=1	20	nsubj	_	_
+20	du	du	DET	_	DET__Gender=Masc|Number=Sing	15	aux	_	_
+21	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	22	expl	_	_
+22	adresser	adresser	VERB	_	VERB__VerbForm=Inf	20	parataxis	_	_
+23	à	à	ADP	_	ADP___	25	case	_	_
+24	quelqu'un	quelqu'un	PROPN	_	PROPN__Gender=Masc|Number=Sing	25	obl	_	_
+25	d'	de	ADP	_	ADP___	20	case	_	_
+26	autre	autre	PRON	_	PRON__Number=Sing|PronType=Rel	25	nmod	_	_
+27	?	?	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#Si autre, pouvez-vous m'indiquez qui exactement ?
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	autre	autre	ADJ	_	ADJ__Number=Sing	3	acl	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	pouvez	pouvoir	ADJ	_	ADJ__Gender=Fem|Number=Plur	1	cc	_	_
+5	-	-	PUNCT	_	PUNCT___	9	punct	_	_
+6	vous	vous	PRON	_	PRON__Number=Plur|Person=2	9	nsubj	_	_
+7	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	9	expl	_	_
+8	indiquez	indiquer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+9	qui	qui	PRON	_	PRON__PronType=Rel	9	nsubj	_	_
+10	exactement	exactemer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+11	?	?	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Quels sont les délais légaux, s'il y en a, de réponse de la Chambre ?
+1	Quels	quel	ADJ	_	ADJ__Gender=Masc|Number=Plur	0	ROOT	_	_
+2	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+4	délais	délai	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	nsubj	_	_
+5	légaux	légal	ADJ	_	ADJ__Gender=Masc|Number=Plur	9	amod	_	_
+6	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+7	s'	si	SCONJ	_	SCONJ___	9	expl	_	_
+8	il	il	PRON	_	PRON__Number=Sing|Person=3	9	parataxis	_	_
+9	y	yu	PRON	_	PRON__Person=3	9	fixed	_	_
+10	en	en	PRON	_	PRON__Person=3	11	fixed	_	_
+11	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	fixed	_	_
+12	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+13	de	de	DET	_	DET__Definite=Ind|Number=Sing|PronType=Art	14	det	_	_
+14	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	conj	_	_
+15	de	de	ADP	_	ADP___	14	case	_	_
+16	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+17	Chambre	Chambre	PROPN	_	PROPN__Gender=Fem|Number=Sing	16	nmod	_	_
+18	?	?	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Que faire en l'absence de réponse dans le délai légal / raisonnable ?
+1	Que	que	PRON	_	PRON__PronType=Int	1	obj	_	_
+2	faire	faire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+3	en	en	ADP	_	ADP___	1	case	_	_
+4	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+5	absence	absence	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obl	_	_
+6	de	de	ADP	_	ADP___	9	case	_	_
+7	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nmod	_	_
+8	dans	dan	ADP	_	ADP___	9	case	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+10	délai	délai	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+11	légal	légal	ADJ	_	ADJ__Gender=Masc|Number=Sing	9	amod	_	_
+12	/	/	PUNCT	_	PUNCT___	14	cc	_	_
+13	raisonnable	raisonnable	ADJ	_	ADJ__Number=Sing	14	nmod	_	_
+14	?	?	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Merci à vous !
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	à	à	ADP	_	ADP___	3	case	_	_
+3	vous	vous	PRON	_	PRON__Number=Plur|Person=2|PronType=Prs	1	nmod	_	_
+4	!	!	PUNCT	_	PUNCT___	1	punct	_	_
+
+

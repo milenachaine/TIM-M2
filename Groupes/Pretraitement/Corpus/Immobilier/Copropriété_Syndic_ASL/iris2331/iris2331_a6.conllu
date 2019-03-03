@@ -1,0 +1,469 @@
+#Bonjour, Vaste sujet.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	Vaste	vaste	ADJ	_	ADJ__Number=Sing	4	amod	_	_
+4	sujet	sujet	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	amod	_	_
+5	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Dégâts des eaux d'origine privatif:
+1	Dégâts	dégât	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	3	det	_	_
+3	eaux	eau	NOUN	_	NOUN__Gender=Fem|Number=Plur	4	obj	_	_
+4	d'	de	ADP	_	ADP___	1	case	_	_
+5	origine	origine	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+6	privatif	privatif	ADJ	_	ADJ__Gender=Masc|Number=Sing	6	amod	_	_
+7	:	:	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#"appareil à effet d'eau par exemple" crée des dommages "immobiliers comme le parquet par exemple.
+1	"	"	PUNCT	_	PUNCT___	1	punct	_	_
+2	appareil	appareil	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+3	à	à	ADP	_	ADP___	4	case	_	_
+4	effet	effet	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	fixed	_	_
+5	d'	de	ADP	_	ADP___	1	case	_	_
+6	eau	eau	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obl	_	_
+7	par	par	ADP	_	ADP___	8	nmod	_	_
+8	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	fixed	_	_
+9	"	"	PUNCT	_	PUNCT___	10	punct	_	_
+10	crée	créer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	_
+11	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
+12	dommages	dommage	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obj	_	_
+13	"	"	PUNCT	_	PUNCT___	14	punct	_	_
+14	immobiliers	immobilier	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	14	amod	_	_
+15	comme	comme	ADP	_	ADP___	18	case	_	_
+16	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+17	parquet	parquet	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nmod	_	_
+18	par	par	ADP	_	ADP___	14	advmod	_	_
+19	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	fixed	_	_
+20	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Question à un milliard d'euros ...
+1	Question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	à	à	ADP	_	ADP___	3	case	_	_
+3	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	milliard	milliard	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+5	d'	de	ADP	_	ADP___	1	case	_	_
+6	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	nmod	_	_
+7	...	...	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#pourquoi diantre l'assurance de la copropriété devrait prendre cela en charge!?
+1	pourquoi	pourquoi	ADV	_	ADV___	1	advmod	_	_
+2	diantre	diantre	VERB	_	VERB__VerbForm=Inf	3	fixed	_	_
+3	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	assurance	assurance	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obj	_	_
+5	de	de	ADP	_	ADP___	1	case	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+7	copropriété	copropriété	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+8	devrait	devoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+9	prendre	prendre	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+10	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	8	obj	_	_
+11	en	en	ADP	_	ADP___	8	iobj	_	_
+12	charge	charge	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	fixed	_	_
+13	!	!	PUNCT	_	PUNCT___	14	punct	_	_
+14	?	?	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Parce qu'il y a la mise en jeu des conventions: donc assurance copropriété prend en charge le dommage immobilier.
+1	Parce	Parce	SCONJ	_	SCONJ___	1	mark	_	_
+2	qu'	que	SCONJ	_	SCONJ___	3	fixed	_	_
+3	il	il	PRON	_	PRON__Number=Sing|Person=3	4	nsubj	_	_
+4	y	yu	PRON	_	PRON__Person=3	1	fixed	_	_
+5	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+7	mise	mise	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+8	en	en	ADP	_	ADP___	6	case	_	_
+9	jeu	jeu	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+10	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
+11	conventions	convention	NOUN	_	NOUN__Gender=Fem|Number=Plur	8	obj	_	_
+12	:	:	PUNCT	_	PUNCT___	8	punct	_	_
+13	donc	donc	ADV	_	ADV___	14	advmod	_	_
+14	assurance	assurance	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nsubj	_	_
+15	copropriété	copropriété	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	18	acl	_	_
+16	prend	prendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+17	en	en	ADP	_	ADP___	18	iobj	_	_
+18	charge	charge	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	fixed	_	_
+19	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+20	dommage	dommage	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obj	_	_
+21	immobilier	immobilier	ADJ	_	ADJ__Gender=Masc|Number=Sing	22	amod	_	_
+22	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Mais...à force de sinistres ....la franchise augmente (part qui reste à la charge de l'assuré).
+1	Mais	Mais	CCONJ	_	CCONJ___	1	cc	_	_
+2	...	...	PUNCT	_	PUNCT___	3	punct	_	_
+3	à	à	ADP	_	ADP___	4	case	_	_
+4	force	forcer	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obl	_	_
+5	de	de	ADP	_	ADP___	1	case	_	_
+6	sinistres	sinistre	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	nmod	_	_
+7	....	....	PUNCT	_	PUNCT___	0	ROOT	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+9	franchise	franchise	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obj	_	_
+10	augmente	augment	ADJ	_	ADJ__Gender=Fem|Number=Sing	8	amod	_	_
+11	(	(	PUNCT	_	PUNCT___	8	punct	_	_
+12	part	part	NOUN	_	NOUN__Number=Sing	8	appos	_	_
+13	qui	qui	PRON	_	PRON__PronType=Rel	14	nsubj	_	_
+14	reste	rester	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+15	à	à	ADP	_	ADP___	18	case	_	_
+16	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+17	charge	charge	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	obl	_	_
+18	de	de	ADP	_	ADP___	14	case	_	_
+19	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+20	assuré	assurer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	19	nmod	_	_
+21	)	)	PUNCT	_	PUNCT___	22	punct	_	_
+22	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Si la franchise dépasse le montant de estimé des dégâts (à dire d'expert ou sur présentation devis) alors que fait-on?
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	franchise	franchise	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nsubj	_	_
+4	dépasse	dépasser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+6	montant	montant	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+7	de	de	ADP	_	ADP___	8	mark	_	_
+8	estimé	estimer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	xcomp	_	_
+9	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
+10	dégâts	dégât	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obj	_	_
+11	(	(	PUNCT	_	PUNCT___	8	punct	_	_
+12	à	à	ADP	_	ADP___	8	mark	_	_
+13	dire	dire	VERB	_	VERB__VerbForm=Inf	14	xcomp	_	_
+14	d'	de	ADP	_	ADP___	14	case	_	_
+15	expert	expert	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	xcomp	_	_
+16	ou	ou	CCONJ	_	CCONJ___	15	cc	_	_
+17	sur	sur	ADP	_	ADP___	18	case	_	_
+18	présentation	présentation	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	conj	_	_
+19	devis	devi	ADJ	_	ADJ__Gender=Masc|Number=Sing	18	amod	_	_
+20	)	)	PUNCT	_	PUNCT___	19	punct	_	_
+21	alors	alors	ADV	_	ADV___	22	mark	_	_
+22	que	que	SCONJ	_	SCONJ___	14	fixed	_	_
+23	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	advcl	_	_
+24	-	-	PUNCT	_	PUNCT___	22	punct	_	_
+25	on	on	PRON	_	PRON__Number=Sing|Person=3	0	ROOT	_	_
+26	?	?	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#Après discussion avec mon courtier en assurance préféré...histoire de confirmer un peu notre point de vu...
+1	Après	Après	ADP	_	ADP___	1	case	_	_
+2	discussion	discussion	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nmod	_	_
+3	avec	avec	ADP	_	ADP___	4	case	_	_
+4	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+5	courtier	courtier	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+6	en	en	ADP	_	ADP___	6	case	_	_
+7	assurance	assurance	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+8	préféré	préféré	ADJ	_	ADJ__Gender=Fem|Number=Sing	6	acl	_	_
+9	...	...	PUNCT	_	PUNCT___	10	punct	_	_
+10	histoire	histoire	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+11	de	de	ADP	_	ADP___	8	mark	_	_
+12	confirmer	confirmer	VERB	_	VERB__VerbForm=Inf	8	acl	_	_
+13	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	peu	peu	ADV	_	ADV___	14	obj	_	_
+15	notre	notre	DET	_	DET__Number=Sing|Poss=Yes	18	nmod:poss	_	_
+16	point	point	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obj	_	_
+17	de	de	ADP	_	ADP___	18	mark	_	_
+18	vu	voir	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	nmod	_	_
+19	...	...	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Le syndic renvoie la réponse écrite de l'assurance de la copropriété à l'assureur du sinistré, précisant aux termes du contrat que la franchise étant supérieure aux dommages, elle n'a pas vocation à intervenir.
+1	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	syndic	syndic	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	aux	_	_
+3	renvoie	renvoyer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	nsubj	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+5	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obj	_	_
+6	écrite	écrit	ADJ	_	ADJ__Gender=Fem|Number=Sing	6	amod	_	_
+7	de	de	ADP	_	ADP___	8	case	_	_
+8	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+9	assurance	assurance	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+10	de	de	ADP	_	ADP___	8	case	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+12	copropriété	copropriété	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+13	à	à	ADP	_	ADP___	14	case	_	_
+14	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+15	assureur	assureur	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nmod	_	_
+16	du	du	DET	_	DET__Gender=Masc|Number=Sing	15	det	_	_
+17	sinistré	sinistré	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obj	_	_
+18	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+19	précisant	préciser	VERB	_	VERB__Tense=Pres|VerbForm=Part	18	acl	_	_
+20	aux	aux	ADP	_	ADP___	19	nummod	_	_
+21	termes	terme	NOUN	_	NOUN__Gender=Masc|Number=Plur	22	conj	_	_
+22	du	du	DET	_	DET__Gender=Masc|Number=Sing	14	det	_	_
+23	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	obj	_	_
+24	que	que	PRON	_	PRON__PronType=Rel	22	mark	_	_
+25	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+26	franchise	franchise	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	nsubj	_	_
+27	étant	être	AUX	_	AUX__Tense=Pres|VerbForm=Part	29	cop	_	_
+28	supérieure	supérieur	ADJ	_	ADJ__Gender=Fem|Number=Sing	29	acl:relcl	_	_
+29	aux	aux	ADP	_	ADP___	26	nummod	_	_
+30	dommages	dommage	NOUN	_	NOUN__Gender=Masc|Number=Plur	29	obj	_	_
+31	,	,	PUNCT	_	PUNCT___	30	punct	_	_
+32	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	14	nsubj	_	_
+33	n'	ne	ADV	_	ADV__Polarity=Neg	33	advmod	_	_
+34	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
+35	pas	pas	ADV	_	ADV__Polarity=Neg	36	advmod	_	_
+36	vocation	vocation	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+37	à	à	ADP	_	ADP___	38	mark	_	_
+38	intervenir	intervenir	VERB	_	VERB__VerbForm=Inf	36	xcomp	_	_
+39	.	.	PUNCT	_	PUNCT___	33	punct	_	_
+
+
+#Le syndic faisant cela a fait son boulot.
+1	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	syndic	syndic	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+3	faisant	faisant	ADJ	_	ADJ__Gender=Masc|Number=Sing	4	acl	_	_
+4	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	1	nsubj	_	_
+5	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+6	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+7	son	son	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+8	boulot	boulot	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+9	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Si le sinistré réclame la prise en charge par le syndicat des dommages au parquet il va falloir qu'il démontre en quoi d'une part le syndicat des copropriétaires serait responsable du dommage et en quoi le parquet serait partie commune et subséquemment prouver que le syndicat des copropriétaire doit indemniser le dommage!
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	sinistré	sinistré	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+4	réclame	réclamer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+6	prise	prise	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obj	_	_
+7	en	en	ADP	_	ADP___	8	advmod	_	_
+8	charge	charge	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	fixed	_	_
+9	par	par	ADP	_	ADP___	10	case	_	_
+10	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+11	syndicat	syndicat	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+12	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
+13	dommages	dommage	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	obj	_	_
+14	au	au	PRON	_	PRON__PronType=Rel	14	case	_	_
+15	parquet	parquet	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	nmod	_	_
+16	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	15	nsubj	_	_
+17	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl	_	_
+18	falloir	falloir	VERB	_	VERB__VerbForm=Inf	14	xcomp	_	_
+19	qu'	que	SCONJ	_	SCONJ___	18	obj	_	_
+20	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	19	nsubj	_	_
+21	démontre	démontrer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	ccomp	_	_
+22	en	en	ADP	_	ADP___	14	case	_	_
+23	quoi	quoi	PRON	_	PRON__PronType=Int	24	obl	_	_
+24	d'	de	ADP	_	ADP___	22	case	_	_
+25	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	fixed	_	_
+26	part	part	NOUN	_	NOUN__Number=Sing	24	fixed	_	_
+27	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+28	syndicat	syndicat	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	obl	_	_
+29	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	26	det	_	_
+30	copropriétaires	copropriétaire	NOUN	_	NOUN__Gender=Fem|Number=Plur	29	amod	_	_
+31	serait	être	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux:pass	_	_
+32	responsable	responsable	NOUN	_	NOUN__Number=Sing	0	ROOT	_	_
+33	du	du	DET	_	DET__Gender=Masc|Number=Sing	33	det	_	_
+34	dommage	dommage	NOUN	_	NOUN__Gender=Masc|Number=Sing	36	obj	_	_
+35	et	et	CCONJ	_	CCONJ___	36	cc	_	_
+36	en	en	ADP	_	ADP___	33	case	_	_
+37	quoi	quoi	PRON	_	PRON__PronType=Rel	38	conj	_	_
+38	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+39	parquet	parquet	NOUN	_	NOUN__Gender=Masc|Number=Sing	33	nsubj	_	_
+40	serait	être	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	48	cop	_	_
+41	partie	partie	NOUN	_	NOUN__Gender=Fem|Number=Sing	40	nsubj	_	_
+42	commune	commun	ADJ	_	ADJ__Gender=Fem|Number=Sing	43	amod	_	_
+43	et	et	CCONJ	_	CCONJ___	41	cc	_	_
+44	subséquemment	subséquemment	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	46	conj	_	_
+45	prouver	prouver	VERB	_	VERB__VerbForm=Inf	46	conj	_	_
+46	que	que	SCONJ	_	SCONJ___	43	mark	_	_
+47	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	syndicat	syndicat	NOUN	_	NOUN__Gender=Masc|Number=Sing	48	nsubj	_	_
+49	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	48	det	_	_
+50	copropriétaire	copropriétair	ADJ	_	ADJ__Number=Sing	48	amod	_	_
+51	doit	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	50	aux	_	_
+52	indemniser	indemniser	VERB	_	VERB__VerbForm=Inf	48	ccomp	_	_
+53	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+54	dommage	dommage	NOUN	_	NOUN__Gender=Masc|Number=Sing	58	obj	_	_
+55	!	!	PUNCT	_	PUNCT___	54	punct	_	_
+
+
+#Et là bon courage!:rolleyes (<=
+1	Et	Et	CCONJ	_	CCONJ___	1	cc	_	_
+2	là	là	ADV	_	ADV___	3	det	_	_
+3	bon	bon	ADJ	_	ADJ__Gender=Masc|Number=Sing	4	amod	_	_
+4	courage!:rolleyes	courage!:rolleye	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+5	(	(	PUNCT	_	PUNCT___	1	punct	_	_
+6	<	<	VERB	_	VERB__Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	6	advmod	_	_
+7	=	=	VERB	_	VERB__Mood=Ind|Person=3|VerbForm=Fin	0	ROOT	_	_
+
+
+#Ce raisonnement ne tient pas si le syndicat est d'une manière ou d'une autre responsable ou est touché par quelques dommages:
+1	Ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	1	det	_	_
+2	raisonnement	raisonnement	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+3	ne	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+4	tient	tenir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+6	si	si	SCONJ	_	SCONJ___	6	mark	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	syndicat	syndicat	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nsubj	_	_
+9	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	d'	de	ADP	_	ADP___	8	case	_	_
+11	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+12	manière	manière	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+13	ou	ou	CCONJ	_	CCONJ___	14	cc	_	_
+14	d'	de	ADP	_	ADP___	14	case	_	_
+15	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+16	autre	autre	ADJ	_	ADJ__Number=Sing	15	amod	_	_
+17	responsable	responsable	ADJ	_	ADJ__Number=Sing	18	conj	_	_
+18	ou	ou	CCONJ	_	CCONJ___	14	cc	_	_
+19	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux:pass	_	_
+20	touché	toucher	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	19	conj	_	_
+21	par	par	ADP	_	ADP___	22	case	_	_
+22	quelques	quelque	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
+23	dommages	dommage	NOUN	_	NOUN__Gender=Masc|Number=Plur	24	obl	_	_
+24	:	:	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#par exemple: Canalisation évacuation fuyarde;
+1	par	par	ADP	_	ADP___	1	advmod	_	_
+2	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	fixed	_	_
+3	:	:	PUNCT	_	PUNCT___	4	punct	_	_
+4	Canalisation	canalisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+5	évacuation	évacuation	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	amod	_	_
+6	fuyarde	fuyard	ADJ	_	ADJ___	6	amod	_	_
+7	;	;	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#infiltration par toiture;
+1	infiltration	infiltration	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	par	par	ADP	_	ADP___	3	case	_	_
+3	toiture	toiture	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+4	;	;	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#incendie...)
+1	incendie	incendie	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	...	...	PUNCT	_	PUNCT___	3	punct	_	_
+3	)	)	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Si le sinistré est indemnisé des conséquences du sinistre (dommages divers chez lui) ça le regarde de faire les travaux ou pas...
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	sinistré	sinistré	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
+5	indemnisé	indemniser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	advcl	_	_
+6	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
+7	conséquences	conséquence	NOUN	_	NOUN__Gender=Fem|Number=Plur	8	obj	_	_
+8	du	du	DET	_	DET__Gender=Masc|Number=Sing	6	det	_	_
+9	sinistre	sinistre	ADJ	_	ADJ__Number=Sing	10	amod	_	_
+10	(	(	PUNCT	_	PUNCT___	8	punct	_	_
+11	dommages	dommage	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	appos	_	_
+12	divers	divers	ADJ	_	ADJ__Gender=Masc|Number=Plur	8	amod	_	_
+13	chez	chez	ADP	_	ADP___	14	case	_	_
+14	lui	luire	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nmod	_	_
+15	)	)	PUNCT	_	PUNCT___	18	punct	_	_
+16	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	0	ROOT	_	_
+17	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	regarde	regarder	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obj	_	_
+19	de	de	ADP	_	ADP___	18	mark	_	_
+20	faire	faire	VERB	_	VERB__VerbForm=Inf	19	xcomp	_	_
+21	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	22	det	_	_
+22	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	obj	_	_
+23	ou	ou	CCONJ	_	CCONJ___	24	cc	_	_
+24	pas	pas	ADV	_	ADV__Polarity=Neg	22	conj	_	_
+25	...	...	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#S'il ne fait pas de travaux son bien perd de la valeur, ça ne regarde par le syndicat ni le syndic.
+1	S'	S'	SCONJ	_	SCONJ___	1	mark	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+3	ne	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+4	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+6	de	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
+7	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obj	_	_
+8	son	son	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+9	bien	bien	ADV	_	ADV___	10	advmod	_	_
+10	perd	perdre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	obj	_	_
+11	de	de	ADP	_	ADP___	8	case	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+13	valeur	valeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obl	_	_
+14	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+15	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	nsubj	_	_
+16	ne	ne	ADV	_	ADV___	15	advmod	_	_
+17	regarde	regarder	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+18	par	par	ADP	_	ADP___	14	case	_	_
+19	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+20	syndicat	syndicat	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obl	_	_
+21	ni	ni	CCONJ	_	CCONJ___	22	cc	_	_
+22	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+23	syndic	syndic	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	conj	_	_
+24	.	.	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#Si le sinistré auteur de son sinistre (dommage appareil à effet d'eau qu'il a installé (mal) lui-même: s'il ne fait pas les travaux nécessaires là ça peu à terme regarder le syndicat.
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	sinistré	sinistré	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+4	auteur	auteur	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	amod	_	_
+5	de	de	ADP	_	ADP___	1	case	_	_
+6	son	son	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+7	sinistre	sinistre	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+8	(	(	PUNCT	_	PUNCT___	6	punct	_	_
+9	dommage	dommage	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	appos	_	_
+10	appareil	appareil	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	conj	_	_
+11	à	à	ADP	_	ADP___	8	case	_	_
+12	effet	effet	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	fixed	_	_
+13	d'	de	ADP	_	ADP___	14	fixed	_	_
+14	eau	eau	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nmod	_	_
+15	qu'	que	PRON	_	PRON__PronType=Rel	18	obj	_	_
+16	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	15	nsubj	_	_
+17	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	installé	installer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl:relcl	_	_
+19	(	(	PUNCT	_	PUNCT___	18	punct	_	_
+20	mal	mal	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	iobj	_	_
+21	)	)	PUNCT	_	PUNCT___	22	punct	_	_
+22	lui-même	lui-même	PRON	_	PRON__PronType=Rel	14	nmod	_	_
+23	:	:	PUNCT	_	PUNCT___	24	punct	_	_
+24	s'	si	SCONJ	_	SCONJ___	22	mark	_	_
+25	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	24	nsubj	_	_
+26	ne	ne	ADV	_	ADV__Polarity=Neg	24	advmod	_	_
+27	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+28	pas	pas	ADV	_	ADV__Polarity=Neg	29	advmod	_	_
+29	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	26	det	_	_
+30	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	29	obj	_	_
+31	nécessaires	nécessaire	ADJ	_	ADJ__Number=Plur	30	amod	_	_
+32	là	là	ADV	_	ADV___	14	det	_	_
+33	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	33	obj	_	_
+34	peu	peu	ADV	_	ADV___	36	advmod	_	_
+35	à	à	ADP	_	ADP___	36	advmod	_	_
+36	terme	terme	NOUN	_	NOUN__Gender=Masc|Number=Sing	33	fixed	_	_
+37	regarder	regarder	VERB	_	VERB__VerbForm=Inf	38	acl	_	_
+38	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+39	syndicat	syndicat	NOUN	_	NOUN__Gender=Masc|Number=Sing	33	obj	_	_
+40	.	.	PUNCT	_	PUNCT___	48	punct	_	_
+
+
+#Cela étant dit...effectivement ces conventions sont ...."pénibles" et durent à avaler pour les syndicats et leurs syndics!
+1	Cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	1	nsubj	_	_
+2	étant	être	AUX	_	AUX__Tense=Pres|VerbForm=Part	3	aux:pass	_	_
+3	dit	dire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	acl	_	_
+4	...	...	PUNCT	_	PUNCT___	1	punct	_	_
+5	effectivement	effectivement	ADV	_	ADV___	1	advmod	_	_
+6	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	6	det	_	_
+7	conventions	convention	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+8	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+9	....	....	PUNCT	_	PUNCT___	10	punct	_	_
+10	"	"	PUNCT	_	PUNCT___	8	punct	_	_
+11	pénibles	pénible	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	appos	_	_
+12	"	"	PUNCT	_	PUNCT___	8	punct	_	_
+13	et	et	CCONJ	_	CCONJ___	14	cc	_	_
+14	durent	durer	ADV	_	ADV___	14	advmod	_	_
+15	à	à	ADP	_	ADP___	18	mark	_	_
+16	avaler	avaler	VERB	_	VERB__VerbForm=Inf	15	conj	_	_
+17	pour	pour	ADP	_	ADP___	18	case	_	_
+18	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	14	det	_	_
+19	syndicats	syndicat	NOUN	_	NOUN__Gender=Masc|Number=Plur	18	obl	_	_
+20	et	et	CCONJ	_	CCONJ___	19	cc	_	_
+21	leurs	leur	DET	_	DET__Number=Plur|Poss=Yes	22	nmod:poss	_	_
+22	syndics	syndic	ADJ	_	ADJ__Number=Sing|NumType=Ord	14	conj	_	_
+23	!	!	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#cordialement
+1	cordialement	cordialement	ADV	_	ADV___	0	ROOT	_	_
+
+

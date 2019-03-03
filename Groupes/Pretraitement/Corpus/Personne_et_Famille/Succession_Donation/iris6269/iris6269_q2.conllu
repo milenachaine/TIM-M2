@@ -1,0 +1,92 @@
+#Merci Rambotte pour votre réponse claire.
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	Rambotte	rambotte	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	flat:name	_	_
+3	pour	pour	ADP	_	ADP___	5	case	_	_
+4	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+5	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+6	claire	clair	ADJ	_	ADJ__Gender=Fem|Number=Sing	5	amod	_	_
+7	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Et si A lègue tout par testament à "B ou ses représentants" ?
+1	Et	Et	CCONJ	_	CCONJ___	1	cc	_	_
+2	si	si	SCONJ	_	SCONJ___	1	mark	_	_
+3	A	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	nsubj	_	_
+4	lègue	léguer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	tout	tout	ADV	_	ADV___	1	obj	_	_
+6	par	par	ADP	_	ADP___	5	fixed	_	_
+7	testament	testament	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	fixed	_	_
+8	à	à	ADP	_	ADP___	11	case	_	_
+9	"	"	PUNCT	_	PUNCT___	11	punct	_	_
+10	B	b	NOUN	_	NOUN___	11	obl	_	_
+11	ou	ou	CCONJ	_	CCONJ___	11	cc	_	_
+12	ses	son	DET	_	DET__Number=Plur|Poss=Yes	11	nmod:poss	_	_
+13	représentants	représentant	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	conj	_	_
+14	"	"	PUNCT	_	PUNCT___	12	punct	_	_
+15	?	?	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Du coup le testament au profit de B n'est pas caduque.
+1	Du	du	DET	_	DET__Gender=Masc|Number=Sing	1	det	_	_
+2	coup	coup	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	testament	testament	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+5	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	1	case	_	_
+6	profit	profit	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	fixed	_	_
+7	de	de	ADP	_	ADP___	1	fixed	_	_
+8	B	b	NOUN	_	NOUN___	11	nmod	_	_
+9	n'	ne	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+10	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	pas	pas	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+12	caduque	caduc	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+13	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Les légataires sont les enfants de B, qui viennent en représentation de leur mère ?
+1	Les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+2	légataires	légataire	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	nsubj	_	_
+3	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+5	enfants	enfant	NOUN	_	NOUN__Number=Plur	0	ROOT	_	_
+6	de	de	ADP	_	ADP___	5	case	_	_
+7	B	b	NOUN	_	NOUN___	1	nmod	_	_
+8	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+9	qui	qui	PRON	_	PRON__PronType=Rel	11	nsubj	_	_
+10	viennent	venir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+11	en	en	ADP	_	ADP___	11	case	_	_
+12	représentation	représentation	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obl	_	_
+13	de	de	ADP	_	ADP___	12	case	_	_
+14	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	12	nmod:poss	_	_
+15	mère	mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	nmod	_	_
+16	?	?	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#On pourrait aussi imaginer qu'ils ne viennent pas en représentation puisqu'ils sont cités (par leur statut de représentants) dans le testament...
+1	On	on	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	pourrait	pouvoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	aussi	aussi	ADV	_	ADV___	5	advmod	_	_
+4	imaginer	imaginer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	qu'	que	SCONJ	_	SCONJ___	1	mark	_	_
+6	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	5	nsubj	_	_
+7	ne	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+8	viennent	venir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+9	pas	pas	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+10	en	en	ADP	_	ADP___	11	case	_	_
+11	représentation	représentation	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obl	_	_
+12	puisqu'	puisque	SCONJ	_	SCONJ___	11	mark	_	_
+13	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	12	nsubj:pass	_	_
+14	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
+15	cités	citer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	17	nmod	_	_
+16	(	(	PUNCT	_	PUNCT___	17	punct	_	_
+17	par	par	ADP	_	ADP___	11	case	_	_
+18	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	20	nmod:poss	_	_
+19	statut	statut	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obl	_	_
+20	de	de	ADP	_	ADP___	17	case	_	_
+21	représentants	représentant	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	nmod	_	_
+22	)	)	PUNCT	_	PUNCT___	11	punct	_	_
+23	dans	dan	ADP	_	ADP___	24	case	_	_
+24	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+25	testament	testament	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	obl	_	_
+26	...	...	PUNCT	_	PUNCT___	24	punct	_	_
+
+

@@ -1,0 +1,126 @@
+#Bonjour, Une boutique en ligne m'annonce ma prochaine livraison de mon colis.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	boutique	boutiqu	ADJ	_	ADJ__Number=Sing	1	nmod	_	_
+5	en	en	ADP	_	ADP___	6	case	_	_
+6	ligne	ligne	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+7	m'	se	PRON	_	PRON__Number=Sing|Person=1	8	expl	_	_
+8	annonce	annoncer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	nmod	_	_
+9	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	11	nmod:poss	_	_
+10	prochaine	prochain	ADJ	_	ADJ__Gender=Fem|Number=Sing	11	amod	_	_
+11	livraison	livraison	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+12	de	de	ADP	_	ADP___	14	case	_	_
+13	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	14	nmod:poss	_	_
+14	colis	coli	ADJ	_	ADJ__Gender=Masc	11	nmod	_	_
+15	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#et m'indique : Il me semble que ces consignes sont obsolètes et que la vente en ligne permet de renvoyer le produit et d'être remboursé si non conforme ou endommagé pendant le transport.
+1	et	et	CCONJ	_	CCONJ___	1	cc	_	_
+2	m'	se	PRON	_	PRON__Number=Sing|Person=1	1	expl	_	_
+3	indique	indiquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+5	Il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+6	me	se	PRON	_	PRON__Number=Sing|Person=1	4	iobj	_	_
+7	semble	sembler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
+8	que	que	SCONJ	_	SCONJ___	1	mark	_	_
+9	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	11	det	_	_
+10	consignes	consigne	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	nsubj	_	_
+11	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+12	obsolètes	obsolète	ADJ	_	ADJ__Gender=Fem|Number=Plur	14	ccomp	_	_
+13	et	et	CCONJ	_	CCONJ___	14	cc	_	_
+14	que	que	SCONJ	_	SCONJ___	11	mark	_	_
+15	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+16	vente	vente	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	nsubj	_	_
+17	en	en	ADP	_	ADP___	18	case	_	_
+18	ligne	ligne	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	nmod	_	_
+19	permet	permettre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	_
+20	de	de	ADP	_	ADP___	22	mark	_	_
+21	renvoyer	renvoyer	VERB	_	VERB__VerbForm=Inf	22	xcomp	_	_
+22	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+23	produit	produit	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	obj	_	_
+24	et	et	CCONJ	_	CCONJ___	25	cc	_	_
+25	d'	de	ADP	_	ADP___	27	mark	_	_
+26	être	être	AUX	_	AUX__VerbForm=Inf	27	aux:pass	_	_
+27	remboursé	rembourser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	conj	_	_
+28	si	si	ADV	_	ADV___	34	mark	_	_
+29	non	non	ADV	_	ADV___	34	advmod	_	_
+30	conforme	conforme	ADJ	_	ADJ__Number=Sing	31	advcl	_	_
+31	ou	ou	CCONJ	_	CCONJ___	34	cc	_	_
+32	endommagé	endommager	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	conj	_	_
+33	pendant	pendre	ADP	_	ADP___	31	case	_	_
+34	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+35	transport	transport	NOUN	_	NOUN__Gender=Masc|Number=Sing	36	obl	_	_
+36	.	.	PUNCT	_	PUNCT___	34	punct	_	_
+
+
+#Et si le colis est très endommagé, je peux le refuser et il sera renvoyé à l'expéditeur comme si je ne l'avais jamais reçu.
+1	Et	Et	CCONJ	_	CCONJ___	1	cc	_	_
+2	si	si	SCONJ	_	SCONJ___	1	mark	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	colis	colis	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	très	très	ADV	_	ADV___	4	advmod	_	_
+7	endommagé	endommager	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	advcl	_	_
+8	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+9	je	il	PRON	_	PRON__Number=Sing|Person=1	11	nsubj	_	_
+10	peux	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	8	obj	_	_
+12	refuser	refuser	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+13	et	et	CCONJ	_	CCONJ___	14	cc	_	_
+14	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	11	nsubj:pass	_	_
+15	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	1	aux:pass	_	_
+16	renvoyé	renvoyer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	conj	_	_
+17	à	à	ADP	_	ADP___	18	case	_	_
+18	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+19	expéditeur	expéditeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obl	_	_
+20	comme	comme	ADP	_	ADP___	22	mark	_	_
+21	si	si	SCONJ	_	SCONJ___	22	fixed	_	_
+22	je	il	PRON	_	PRON__Number=Sing|Person=1	18	nsubj	_	_
+23	ne	ne	ADV	_	ADV__Polarity=Neg	27	advmod	_	_
+24	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+25	avais	avai	NOUN	_	NOUN__Number=Sing	27	nsubj	_	_
+26	jamais	jamais	ADV	_	ADV___	27	advmod	_	_
+27	reçu	recevoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	advcl	_	_
+28	.	.	PUNCT	_	PUNCT___	34	punct	_	_
+
+
+#J'aimerais savoir si j'ai raison et que dois-je faire pour avoir des recours en cas de problème ?
+1	J'	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	aimerais	aimerai	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+3	savoir	savoir	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+4	si	si	SCONJ	_	SCONJ___	1	mark	_	_
+5	j'	il	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+6	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+7	raison	raison	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	advcl	_	_
+8	et	et	CCONJ	_	CCONJ___	1	cc	_	_
+9	que	que	SCONJ	_	SCONJ___	11	mark	_	_
+10	dois	devoir	NUM	_	NUM__NumType=Card	11	aux	_	_
+11	-	-	PUNCT	_	PUNCT___	8	punct	_	_
+12	je	il	PRON	_	PRON__Number=Sing|Person=1	14	nsubj	_	_
+13	faire	faire	VERB	_	VERB__VerbForm=Inf	14	conj	_	_
+14	pour	pour	ADP	_	ADP___	11	mark	_	_
+15	avoir	avoir	VERB	_	VERB__VerbForm=Inf	1	advcl	_	_
+16	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	18	det	_	_
+17	recours	recours	NOUN	_	NOUN__Gender=Masc|Number=Plur	18	obj	_	_
+18	en	en	ADP	_	ADP___	18	case	_	_
+19	cas	cas	NOUN	_	NOUN__Gender=Masc	18	fixed	_	_
+20	de	de	ADP	_	ADP___	22	fixed	_	_
+21	problème	problème	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	nmod	_	_
+22	?	?	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Merci d'avance à ceux qui pourront me répondre.
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	d'	de	ADP	_	ADP___	1	case	_	_
+3	avance	avance	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+4	à	à	ADP	_	ADP___	1	case	_	_
+5	ceux	celui	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Dem	6	nmod	_	_
+6	qui	qui	PRON	_	PRON__PronType=Rel	4	nsubj	_	_
+7	pourront	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	8	aux	_	_
+8	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	1	expl	_	_
+9	répondre	répondre	VERB	_	VERB__VerbForm=Inf	11	acl:relcl	_	_
+10	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+

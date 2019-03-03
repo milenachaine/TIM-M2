@@ -1,0 +1,120 @@
+#Bonjour, Un véhicule utilitaire a été vendu à un professionnel à un autre professionnel.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	8	acl	_	_
+2	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+3	Un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	véhicule	véhicule	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+5	utilitaire	utilitaire	ADJ	_	ADJ__Number=Sing	4	amod	_	_
+6	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	8	aux:pass	_	_
+8	vendu	vendre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+9	à	à	ADP	_	ADP___	11	case	_	_
+10	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	professionnel	professionnel	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+12	à	à	ADP	_	ADP___	15	case	_	_
+13	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	autre	autre	ADJ	_	ADJ__Number=Sing	15	amod	_	_
+15	professionnel	professionnel	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+16	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Après 4 mois d'utilisation (environ 1600 kilomètres), important problème sur le moteur (culasse H.S).
+1	Après	Après	ADP	_	ADP___	8	case	_	_
+2	4	4	NUM	_	NUM__NumType=Card	8	nummod	_	_
+3	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	obl	_	_
+4	d'	de	ADP	_	ADP___	8	case	_	_
+5	utilisation	utilisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+6	(	(	PUNCT	_	PUNCT___	8	punct	_	_
+7	environ	environ	ADV	_	ADV___	8	advmod	_	_
+8	1600	1600	NUM	_	NUM__NumType=Card	8	nummod	_	_
+9	kilomètres	kilomètre	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	appos	_	_
+10	)	)	PUNCT	_	PUNCT___	11	punct	_	_
+11	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+12	important	important	ADJ	_	ADJ__Gender=Masc|Number=Sing	15	amod	_	_
+13	problème	problème	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+14	sur	sur	ADP	_	ADP___	15	case	_	_
+15	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+16	moteur	moteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+17	(	(	PUNCT	_	PUNCT___	19	punct	_	_
+18	culasse	culasse	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	appos	_	_
+19	H.S	h.	ADJ	_	ADJ___	29	amod	_	_
+20	)	)	PUNCT	_	PUNCT___	21	punct	_	_
+21	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Le garagiste (tiers) indique que le moteur est à remplacer.
+1	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+2	garagiste	garagiste	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nsubj	_	_
+3	(	(	PUNCT	_	PUNCT___	4	punct	_	_
+4	tiers	tiers	ADJ	_	ADJ___	8	appos	_	_
+5	)	)	PUNCT	_	PUNCT___	4	punct	_	_
+6	indique	indiquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	que	que	SCONJ	_	SCONJ___	8	mark	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+9	moteur	moteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nsubj	_	_
+10	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	à	à	ADP	_	ADP___	8	mark	_	_
+12	remplacer	remplacer	VERB	_	VERB__VerbForm=Inf	15	ccomp	_	_
+13	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Il n'a pas pu déterminer la cause de la casse.
+1	Il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+5	pu	pouvoir	AUX	_	AUX__Tense=Past|VerbForm=Part	4	aux	_	_
+6	déterminer	déterminer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	cause	cause	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+9	de	de	ADP	_	ADP___	11	case	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	casse	casse	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+12	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#L'acheteur évoque l'article 1641.
+1	L'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+2	acheteur	acheteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	évoque	évoqu	ADJ	_	ADJ__Number=Sing	4	amod	_	_
+4	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+5	article	article	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+6	1641	1641	NUM	_	NUM__NumType=Card	8	nummod	_	_
+7	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Qu'en est-il du délai pour évoquer un vice caché ?
+1	Qu'	que	PRON	_	PRON__PronType=Int	8	obj	_	_
+2	en	en	PRON	_	PRON__Person=3	8	expl	_	_
+3	est-il	est-il	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	du	du	DET	_	DET__Gender=Masc|Number=Sing	8	det	_	_
+5	délai	délai	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obj	_	_
+6	pour	pour	ADP	_	ADP___	8	mark	_	_
+7	évoquer	évoquer	VERB	_	VERB__VerbForm=Inf	8	acl	_	_
+8	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+9	vice	vice	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+10	caché	caché	ADJ	_	ADJ__Gender=Masc|Number=Sing	11	amod	_	_
+11	?	?	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Doit-on solliciter une expertise contradictoire ?
+1	Doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+2	-	-	PUNCT	_	PUNCT___	8	punct	_	_
+3	on	on	PRON	_	PRON__Number=Sing|Person=3	4	nsubj	_	_
+4	solliciter	solliciter	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+6	expertise	expertise	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+7	contradictoire	contradictoire	ADJ	_	ADJ__Number=Sing	8	amod	_	_
+8	?	?	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Merci pour toutes vos remarques et suggestions.
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	pour	pour	ADP	_	ADP___	8	case	_	_
+3	toutes	tout	ADJ	_	ADJ__Gender=Fem|Number=Plur	4	amod	_	_
+4	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	8	nmod:poss	_	_
+5	remarques	remarque	NOUN	_	NOUN__Gender=Fem|Number=Plur	4	nmod	_	_
+6	et	et	CCONJ	_	CCONJ___	8	cc	_	_
+7	suggestions	suggestion	NOUN	_	NOUN__Gender=Fem|Number=Plur	8	conj	_	_
+8	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+

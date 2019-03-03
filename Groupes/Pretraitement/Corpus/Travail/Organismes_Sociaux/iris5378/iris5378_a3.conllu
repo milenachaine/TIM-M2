@@ -1,0 +1,76 @@
+#Bonjour
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+
+
+#Qu'en pense votre médecin traitant et les spécialistes qui vous suivent ?
+1	Qu'	que	PRON	_	PRON__PronType=Int	1	obj	_	_
+2	en	en	PRON	_	PRON__Person=3	4	iobj	_	_
+3	pense	penser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+5	médecin	médecin	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+6	traitant	traitant	ADJ	_	ADJ__Gender=Masc|Number=Sing	4	acl	_	_
+7	et	et	CCONJ	_	CCONJ___	6	cc	_	_
+8	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	10	det	_	_
+9	spécialistes	spécialiste	NOUN	_	NOUN__Number=Plur	10	conj	_	_
+10	qui	qui	PRON	_	PRON__PronType=Rel	6	nsubj	_	_
+11	vous	vous	PRON	_	PRON__Number=Plur|Person=2	13	iobj	_	_
+12	suivent	suivre	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+13	?	?	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Etant aussi de l'autre coté de la barrière, j'ai eu connaissance de certains cas qui sont passés de la cat 1 ... à plus d'invalidité du tout malgré une contestation au TCI .
+1	Etant	eter	VERB	_	VERB__Tense=Pres|VerbForm=Part	1	advmod	_	_
+2	aussi	aussi	ADV	_	ADV___	4	advmod	_	_
+3	de	de	ADP	_	ADP___	4	case	_	_
+4	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+5	autre	autre	ADJ	_	ADJ__Number=Sing	6	amod	_	_
+6	coté	coter	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+7	de	de	ADP	_	ADP___	6	case	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	barrière	barrière	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+10	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+11	j'	il	PRON	_	PRON__Number=Sing|Person=1	13	nsubj	_	_
+12	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+14	connaissance	connaissance	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obj	_	_
+15	de	de	ADP	_	ADP___	27	case	_	_
+16	certains	certain	DET	_	DET__Gender=Masc|Number=Plur	15	det	_	_
+17	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Plur	20	obl	_	_
+18	qui	qui	PRON	_	PRON__PronType=Rel	20	nsubj:pass	_	_
+19	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux:pass	_	_
+20	passés	passer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	15	acl:relcl	_	_
+21	de	de	ADP	_	ADP___	23	case	_	_
+22	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	cat	cat	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obl	_	_
+24	1	1	NUM	_	NUM__NumType=Card	27	nummod	_	_
+25	...	...	PUNCT	_	PUNCT___	27	punct	_	_
+26	à	à	ADP	_	ADP___	27	case	_	_
+27	plus	plus	ADV	_	ADV___	27	fixed	_	_
+28	d'	de	ADP	_	ADP___	27	fixed	_	_
+29	invalidité	invalidité	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	obl	_	_
+30	du	du	DET	_	DET__Gender=Masc|Number=Sing	31	advmod	_	_
+31	tout	tout	ADV	_	ADV___	27	fixed	_	_
+32	malgré	malgré	ADP	_	ADP___	34	case	_	_
+33	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	contestation	contestation	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	obl	_	_
+35	au	au	PRON	_	PRON__Number=Sing|Person=3	37	case	_	_
+36	TCI	TCI	PROPN	_	PROPN___	37	nmod	_	_
+37	.	.	PUNCT	_	PUNCT___	34	punct	_	_
+
+
+#Plus qu'un avis juridique ce sont DES avis médicaux qui prévalent .
+1	Plus	plus	ADV	_	ADV___	1	advmod	_	_
+2	qu'	que	SCONJ	_	SCONJ___	4	mark	_	_
+3	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	avis	avis	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	juridique	juridique	ADJ	_	ADJ__Number=Sing	6	amod	_	_
+6	ce	ce	PRON	_	PRON__Number=Sing|Person=3	4	nsubj	_	_
+7	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+8	DES	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
+9	avis	avis	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	dep	_	_
+10	médicaux	médical	ADJ	_	ADJ__Gender=Masc|Number=Plur	6	amod	_	_
+11	qui	qui	PRON	_	PRON__PronType=Rel	13	nsubj	_	_
+12	prévalent	prévaloir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+13	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+

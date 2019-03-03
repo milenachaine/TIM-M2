@@ -1,0 +1,229 @@
+#Bonjour, Tout d'abord merci de ce retour.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	6	case	_	_
+2	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+3	Tout	tout	ADV	_	ADV___	6	advmod	_	_
+4	d'	de	ADP	_	ADP___	3	fixed	_	_
+5	abord	abord	ADV	_	ADV___	3	fixed	_	_
+6	merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+7	de	de	ADP	_	ADP___	9	case	_	_
+8	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+9	retour	retour	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nmod	_	_
+10	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Je me suis mal exprimé:
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+2	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	6	iobj	_	_
+3	suis	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	mal	mal	ADV	_	ADV___	3	advmod	_	_
+5	exprimé	exprimer	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+6	:	:	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Ma maison est en R+1, celle du voisin en R+4.
+1	Ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	6	nmod:poss	_	_
+2	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	en	en	ADP	_	ADP___	3	case	_	_
+5	R+1	R+1	PROPN	_	PROPN__Gender=Masc|Number=Sing	0	ROOT	_	_
+6	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+7	celle	celui	PRON	_	PRON__Gender=Fem|Number=Sing|PronType=Dem	9	appos	_	_
+8	du	du	DET	_	DET__Gender=Masc|Number=Sing	9	det	_	_
+9	voisin	voisin	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nmod	_	_
+10	en	en	ADP	_	ADP___	6	case	_	_
+11	R+4	R+4	PROPN	_	PROPN___	15	nmod	_	_
+12	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Donc Nous nous sommes fixé dans le volume existant, comme annoncé par l'architecte, validé par le syndic par email.
+1	Donc	donc	ADV	_	ADV___	6	advmod	_	_
+2	Nous	nous	PRON	_	PRON__Number=Plur|Person=1	6	nsubj:pass	_	_
+3	nous	nous	PRON	_	PRON__Number=Plur|Person=1|Reflex=Yes	6	iobj	_	_
+4	sommes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+5	fixé	fixer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+6	dans	dan	ADP	_	ADP___	6	case	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	volume	volume	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obl	_	_
+9	existant	exister	ADJ	_	ADJ__Gender=Masc|Number=Sing	6	acl	_	_
+10	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+11	comme	comme	ADP	_	ADP___	15	mark	_	_
+12	annoncé	annoncer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	advcl	_	_
+13	par	par	ADP	_	ADP___	15	case	_	_
+14	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	architecte	architecte	NOUN	_	NOUN__Number=Sing	15	obl	_	_
+16	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+17	validé	valider	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	acl	_	_
+18	par	par	ADP	_	ADP___	21	case	_	_
+19	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	syndic	syndic	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obl	_	_
+21	par	par	ADP	_	ADP___	21	case	_	_
+22	email	email	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	nmod	_	_
+23	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Mais vos questions sont pertinentes: Etes vous sur que les murs sont mitoyens en bas (un seul mur entre les maisons) et qu'il y a eu surélévation puisque vous parlez de mitoyenneté jusqu'à l'héberge ?
+1	Mais	Mais	CCONJ	_	CCONJ___	6	cc	_	_
+2	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	6	nmod:poss	_	_
+3	questions	question	NOUN	_	NOUN__Gender=Fem|Number=Plur	6	nsubj	_	_
+4	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+5	pertinentes	pertinent	ADJ	_	ADJ__Gender=Fem|Number=Plur	0	ROOT	_	_
+6	:	:	PUNCT	_	PUNCT___	6	punct	_	_
+7	Etes	ete	NOUN	_	NOUN__Number=Plur	9	obl	_	_
+8	vous	vous	PRON	_	PRON__Number=Plur|Person=2	9	iobj	_	_
+9	sur	sur	ADP	_	ADP___	6	mark	_	_
+10	que	que	SCONJ	_	SCONJ___	6	fixed	_	_
+11	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	15	det	_	_
+12	murs	mur	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	nsubj:pass	_	_
+13	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	mitoyens	mitoyen	ADJ	_	ADJ__Gender=Masc|Number=Plur	15	acl:relcl	_	_
+15	en	en	ADP	_	ADP___	15	case	_	_
+16	bas	bas	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obl	_	_
+17	(	(	PUNCT	_	PUNCT___	18	punct	_	_
+18	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+19	seul	seul	ADJ	_	ADJ__Gender=Masc|Number=Sing	21	amod	_	_
+20	mur	mur	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obl	_	_
+21	entre	entrer	ADP	_	ADP___	21	case	_	_
+22	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	21	det	_	_
+23	maisons	maison	NOUN	_	NOUN__Gender=Masc|Number=Plur	21	nmod	_	_
+24	)	)	PUNCT	_	PUNCT___	25	punct	_	_
+25	et	et	CCONJ	_	CCONJ___	23	cc	_	_
+26	qu'	que	SCONJ	_	SCONJ___	27	mark	_	_
+27	il	il	PRON	_	PRON__Number=Sing|Person=3	23	nsubj	_	_
+28	y	yu	PRON	_	PRON__Person=3	21	fixed	_	_
+29	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	_
+30	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	conj	_	_
+31	surélévation	surélévation	NOUN	_	NOUN__Gender=Fem|Number=Sing	33	obj	_	_
+32	puisque	puisque	SCONJ	_	SCONJ___	33	mark	_	_
+33	vous	vous	PRON	_	PRON__Number=Plur|Person=2	33	nsubj	_	_
+34	parlez	parler	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	36	advcl	_	_
+35	de	de	ADP	_	ADP___	36	mark	_	_
+36	mitoyenneté	mitoyenneté	NOUN	_	NOUN__Gender=Masc|Number=Sing	33	xcomp	_	_
+37	jusqu'	jusque	ADP	_	ADP___	36	case	_	_
+38	à	à	ADP	_	ADP___	33	fixed	_	_
+39	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	40	det	_	_
+40	héberge	héberge	NOUN	_	NOUN__Gender=Masc|Number=Sing	33	obl	_	_
+41	?	?	PUNCT	_	PUNCT___	43	punct	_	_
+
+
+#--> Je ne sais pas quel bâtiment est arrivé le premier, ce sont deux maisons différentes mais qui datent toutes deux de 1860 - 1890.
+1	--	--	PUNCT	_	PUNCT___	6	punct	_	_
+2	>	>	PRON	_	PRON__PronType=Rel	6	nsubj	_	_
+3	Je	il	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+4	ne	ne	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+5	sais	savoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	pas	pas	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+7	quel	quel	DET	_	DET__Gender=Masc|Number=Sing	9	det	_	_
+8	bâtiment	bâtiment	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+9	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+10	arrivé	arriver	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	cop	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+12	premier	premier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	15	ccomp	_	_
+13	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+14	ce	ce	PRON	_	PRON__Number=Sing|Person=3	15	nsubj	_	_
+15	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+16	deux	deux	NUM	_	NUM__NumType=Card	15	nummod	_	_
+17	maisons	maison	NOUN	_	NOUN__Gender=Fem|Number=Plur	18	conj	_	_
+18	différentes	différents	DET	_	DET__Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	21	amod	_	_
+19	mais	mais	CCONJ	_	CCONJ___	21	cc	_	_
+20	qui	qui	PRON	_	PRON__PronType=Rel	21	nsubj	_	_
+21	datent	dater	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	conj	_	_
+22	toutes	tout	ADJ	_	ADJ__Gender=Fem|Number=Plur	21	det	_	_
+23	deux	deux	PRON	_	PRON__NumType=Card|PronType=Rel	21	obj	_	_
+24	de	de	ADP	_	ADP___	25	case	_	_
+25	1860	1860	NUM	_	NUM__NumType=Card	23	nmod	_	_
+26	-	-	PUNCT	_	PUNCT___	27	punct	_	_
+27	1890	1890	NUM	_	NUM__NumType=Card	23	nummod	_	_
+28	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#-->
+1	--	--	PUNCT	_	PUNCT___	6	punct	_	_
+2	>	>	PRON	_	PRON__PronType=Rel	0	ROOT	_	_
+
+
+#Ce mur sous l'héberge comporte les poutres de planché des deux maisons --> Étant sur de très vieilles constructions, et chacune ayant un toit deux pentes, sans corbeau ou autre éléments, il y a mitoyennetés sous l'héberge, non ?
+1	Ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+2	mur	mur	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nsubj	_	_
+3	sous	sou	ADP	_	ADP___	6	case	_	_
+4	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+5	héberge	héberge	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nmod	_	_
+6	comporte	comporter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+8	poutres	poutre	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	obj	_	_
+9	de	de	ADP	_	ADP___	6	case	_	_
+10	planché	plancher	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	xcomp	_	_
+11	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	15	det	_	_
+12	deux	deux	NUM	_	NUM__NumType=Card	15	nummod	_	_
+13	maisons	maison	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	obj	_	_
+14	--	--	PUNCT	_	PUNCT___	15	punct	_	_
+15	>	>	PRON	_	PRON__PronType=Rel	15	appos	_	_
+16	Étant	être	VERB	_	VERB__Tense=Pres|VerbForm=Part	15	fixed	_	_
+17	sur	sur	ADP	_	ADP___	18	case	_	_
+18	de	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	21	fixed	_	_
+19	très	très	ADV	_	ADV___	21	advmod	_	_
+20	vieilles	vieux	ADJ	_	ADJ__Gender=Fem|Number=Plur	21	amod	_	_
+21	constructions	construction	NOUN	_	NOUN__Gender=Fem|Number=Plur	21	nmod	_	_
+22	,	,	PUNCT	_	PUNCT___	21	punct	_	_
+23	et	et	CCONJ	_	CCONJ___	21	cc	_	_
+24	chacune	chacun	PRON	_	PRON__Gender=Fem|PronType=Rel	25	conj	_	_
+25	ayant	avoir	VERB	_	VERB__Tense=Pres|VerbForm=Part	23	acl	_	_
+26	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	toit	toit	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	obj	_	_
+28	deux	deux	NUM	_	NUM__NumType=Card	21	nummod	_	_
+29	pentes	pente	NOUN	_	NOUN__Gender=Masc|Number=Plur	33	nmod	_	_
+30	,	,	PUNCT	_	PUNCT___	33	punct	_	_
+31	sans	sans	ADP	_	ADP___	33	case	_	_
+32	corbeau	corbeau	NOUN	_	NOUN__Gender=Masc|Number=Sing	33	obl	_	_
+33	ou	ou	CCONJ	_	CCONJ___	33	cc	_	_
+34	autre	autre	ADJ	_	ADJ__Number=Sing	36	amod	_	_
+35	éléments	élément	NOUN	_	NOUN__Gender=Masc|Number=Plur	36	conj	_	_
+36	,	,	PUNCT	_	PUNCT___	33	punct	_	_
+37	il	il	PRON	_	PRON__Number=Sing|Person=3	36	nsubj	_	_
+38	y	yu	PRON	_	PRON__Person=3	33	iobj	_	_
+39	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	aux	_	_
+40	mitoyennetés	mitoyenneter	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	33	parataxis	_	_
+41	sous	sou	ADP	_	ADP___	43	case	_	_
+42	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	43	det	_	_
+43	héberge	héberge	NOUN	_	NOUN__Gender=Masc|Number=Sing	40	obl	_	_
+44	,	,	PUNCT	_	PUNCT___	33	punct	_	_
+45	non	non	ADV	_	ADV___	33	conj	_	_
+46	?	?	PUNCT	_	PUNCT___	48	punct	_	_
+
+
+#-->
+1	--	--	PUNCT	_	PUNCT___	6	punct	_	_
+2	>	>	PRON	_	PRON__PronType=Rel	0	ROOT	_	_
+
+
+#Si non, ou si doute, alors il y a la moitiés des vieilles constructions des centres historiques dans le même cas.
+1	Si	Si	SCONJ	_	SCONJ___	6	mark	_	_
+2	non	non	ADV	_	ADV___	0	ROOT	_	_
+3	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+4	ou	ou	CCONJ	_	CCONJ___	3	cc	_	_
+5	si	si	SCONJ	_	SCONJ___	3	advmod	_	_
+6	doute	doute	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	fixed	_	_
+7	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+8	alors	alors	ADV	_	ADV___	9	advmod	_	_
+9	il	il	PRON	_	PRON__Number=Sing|Person=3	6	nsubj	_	_
+10	y	yu	PRON	_	PRON__Person=3	6	fixed	_	_
+11	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	fixed	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+13	moitiés	moitier	VERB	_	VERB__VerbForm=Part	15	conj	_	_
+14	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	15	det	_	_
+15	vieilles	vieux	ADJ	_	ADJ__Gender=Fem|Number=Plur	15	amod	_	_
+16	constructions	construction	NOUN	_	NOUN__Gender=Fem|Number=Plur	15	obj	_	_
+17	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	18	det	_	_
+18	centres	centre	NOUN	_	NOUN__Gender=Fem|Number=Plur	21	amod	_	_
+19	historiques	historique	ADJ	_	ADJ__Number=Plur	21	acl	_	_
+20	dans	dan	ADP	_	ADP___	21	case	_	_
+21	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+22	même	même	ADJ	_	ADJ__Number=Sing	21	amod	_	_
+23	cas	cas	NOUN	_	NOUN__Gender=Masc	21	obl	_	_
+24	.	.	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#Cordialement,
+1	Cordialement	cordialement	ADV	_	ADV___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+
+

@@ -1,0 +1,87 @@
+#Bonjour,
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#De ce que je comprends, vous ne pouvez résilier que dans 2 cas :
+1	De	De	ADP	_	ADP___	1	advmod	_	_
+2	ce	ce	PRON	_	PRON__PronType=Rel	1	fixed	_	_
+3	que	que	PRON	_	PRON__PronType=Rel	12	obj	_	_
+4	je	il	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+5	comprends	comprendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+6	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+7	vous	vous	PRON	_	PRON__Number=Plur|Person=2	4	nsubj	_	_
+8	ne	ne	ADV	_	ADV___	12	advmod	_	_
+9	pouvez	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	12	cop	_	_
+10	résilier	résilier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+11	que	que	SCONJ	_	SCONJ___	12	advmod	_	_
+12	dans	dan	ADP	_	ADP___	12	case	_	_
+13	2	2	NUM	_	NUM__NumType=Card	16	nummod	_	_
+14	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	obl	_	_
+15	:	:	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#- vous ne souhaitez par relouer et le mandat devient caduque - à l'échéance du mandat (11 juin 2019) en envoyant une LRAR minimum 3 mois avant Donc, vous pouvez demander à cette agence de vous trouver un nouveau locataire et dénoncer le mandat juste après, à condition que ce soit avant le 10 mars.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+3	ne	ne	ADV	_	ADV___	12	advmod	_	_
+4	souhaitez	souhaiter	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+5	par	par	ADP	_	ADP___	7	mark	_	_
+6	relouer	relouer	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+7	et	et	CCONJ	_	CCONJ___	4	cc	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+9	mandat	mandat	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nsubj	_	_
+10	devient	devenir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	caduque	caduc	ADJ	_	ADJ__Number=Sing	12	conj	_	_
+12	-	-	PUNCT	_	PUNCT___	12	punct	_	_
+13	à	à	ADP	_	ADP___	16	case	_	_
+14	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+15	échéance	échéance	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obl	_	_
+16	du	du	DET	_	DET__Gender=Masc|Number=Sing	12	det	_	_
+17	mandat	mandat	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+18	(	(	PUNCT	_	PUNCT___	21	punct	_	_
+19	11	11	NUM	_	NUM__NumType=Card	21	nummod	_	_
+20	juin	juin	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	conj	_	_
+21	2019	2019	NUM	_	NUM__NumType=Card	21	nummod	_	_
+22	)	)	PUNCT	_	PUNCT___	23	punct	_	_
+23	en	en	ADP	_	ADP___	21	mark	_	_
+24	envoyant	envoyer	VERB	_	VERB__Tense=Pres|VerbForm=Part	28	advcl	_	_
+25	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	LRAR	lrar	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	obj	_	_
+27	minimum	minimum	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	amod	_	_
+28	3	3	NUM	_	NUM__NumType=Card	21	nummod	_	_
+29	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	28	obj	_	_
+30	avant	avant	ADP	_	ADP___	32	case	_	_
+31	Donc	donc	ADV	_	ADV___	32	nmod	_	_
+32	,	,	PUNCT	_	PUNCT___	28	punct	_	_
+33	vous	vous	PRON	_	PRON__Number=Plur|Person=2	34	nsubj	_	_
+34	pouvez	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	28	aux	_	_
+35	demander	demander	VERB	_	VERB__VerbForm=Inf	28	conj	_	_
+36	à	à	ADP	_	ADP___	37	case	_	_
+37	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	28	det	_	_
+38	agence	agence	NOUN	_	NOUN__Gender=Fem|Number=Sing	37	obl	_	_
+39	de	de	ADP	_	ADP___	28	mark	_	_
+40	vous	vous	PRON	_	PRON__Number=Plur|Person=2	41	iobj	_	_
+41	trouver	trouver	VERB	_	VERB__VerbForm=Inf	28	xcomp	_	_
+42	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	nouveau	nouveau	ADJ	_	ADJ__Gender=Masc|Number=Sing	41	obj	_	_
+44	locataire	locataire	NOUN	_	NOUN__Gender=Masc|Number=Sing	43	amod	_	_
+45	et	et	CCONJ	_	CCONJ___	46	cc	_	_
+46	dénoncer	dénoncer	VERB	_	VERB__VerbForm=Inf	41	conj	_	_
+47	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	mandat	mandat	NOUN	_	NOUN__Gender=Masc|Number=Sing	46	obj	_	_
+49	juste	juste	ADV	_	ADV___	52	amod	_	_
+50	après	après	ADV	_	ADV___	52	nummod	_	_
+51	,	,	PUNCT	_	PUNCT___	52	punct	_	_
+52	à	à	ADP	_	ADP___	21	mark	_	_
+53	condition	condition	NOUN	_	NOUN__Gender=Fem|Number=Sing	55	fixed	_	_
+54	que	que	SCONJ	_	SCONJ___	55	fixed	_	_
+55	ce	ce	PRON	_	PRON__Number=Sing|Person=3	52	det	_	_
+56	soit	être	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	58	cc	_	_
+57	avant	avant	ADP	_	ADP___	58	case	_	_
+58	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+59	10	10	NUM	_	NUM__NumType=Card	60	nummod	_	_
+60	mars	mars	NOUN	_	NOUN__Gender=Masc|Number=Sing	58	obl	_	_
+61	.	.	PUNCT	_	PUNCT___	60	punct	_	_
+
+

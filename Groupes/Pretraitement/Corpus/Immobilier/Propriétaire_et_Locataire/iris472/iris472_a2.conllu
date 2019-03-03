@@ -1,0 +1,99 @@
+#Bonjour, Demandez leur qu'ils vous citent leur source…
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	Demandez	demander	VERB	_	VERB__Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	conj	_	_
+4	leur	lui	PRON	_	PRON__Number=Plur|Person=3	5	nmod:poss	_	_
+5	qu'	que	SCONJ	_	SCONJ___	8	mark	_	_
+6	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	8	nsubj	_	_
+7	vous	vous	PRON	_	PRON__Number=Plur|Person=2	8	iobj	_	_
+8	citent	citer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+9	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+10	source	source	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+11	…	…	ADP	_	ADP___	1	punct	_	_
+
+
+#Un bail de résidence principale ne peut être résilié, par préavis 6 mois avant l'échéance triennale, que pour :
+1	Un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+3	de	de	ADP	_	ADP___	1	case	_	_
+4	résidence	résidence	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+5	principale	principal	ADJ	_	ADJ__Gender=Fem|Number=Sing	8	amod	_	_
+6	ne	ne	ADV	_	ADV___	8	advmod	_	_
+7	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	être	être	AUX	_	AUX__VerbForm=Inf	3	aux:pass	_	_
+9	résilié	résilier	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	xcomp	_	_
+10	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+11	par	par	ADP	_	ADP___	1	case	_	_
+12	préavis	préavis	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+13	6	6	NUM	_	NUM__NumType=Card	18	nummod	_	_
+14	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	nmod	_	_
+15	avant	avant	ADP	_	ADP___	13	case	_	_
+16	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+17	échéance	échéance	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	conj	_	_
+18	triennale	triennal	ADJ	_	ADJ__Gender=Fem|Number=Sing	18	amod	_	_
+19	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+20	que	que	ADV	_	ADV___	18	advmod	_	_
+21	pour	pour	ADP	_	ADP___	20	fixed	_	_
+22	:	:	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#- reprise pour occupation par les propriétaires, un ascendant ou un descendant, - mise en vente du bien, - motif légitime et sérieux : non paiement du loyer, non assurance du bien, plainte des voisins pour trouble de voisinage, … mais pas pour en faire une résidence secondaire des propriétaires.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	reprise	reprise	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	pour	pour	ADP	_	ADP___	1	case	_	_
+4	occupation	occupation	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obl	_	_
+5	par	par	ADP	_	ADP___	8	case	_	_
+6	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+7	propriétaires	propriétaire	NOUN	_	NOUN__Number=Plur	8	nmod	_	_
+8	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+9	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	ascendant	ascendant	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	punct	_	_
+11	ou	ou	CCONJ	_	CCONJ___	1	cc	_	_
+12	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	descendant	descendant	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	conj	_	_
+14	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+15	-	-	PUNCT	_	PUNCT___	13	punct	_	_
+16	mise	mettre	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	acl	_	_
+17	en	en	ADP	_	ADP___	18	case	_	_
+18	vente	vente	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	nmod	_	_
+19	du	du	DET	_	DET__Gender=Masc|Number=Sing	20	det	_	_
+20	bien	bien	ADV	_	ADV___	18	nmod	_	_
+21	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+22	-	-	PUNCT	_	PUNCT___	23	punct	_	_
+23	motif	motif	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	advmod	_	_
+24	légitime	légitime	ADJ	_	ADJ__Number=Sing	25	nmod	_	_
+25	et	et	CCONJ	_	CCONJ___	28	cc	_	_
+26	sérieux	sérieux	ADJ	_	ADJ__Gender=Masc	28	conj	_	_
+27	:	:	PUNCT	_	PUNCT___	28	punct	_	_
+28	non	non	ADV	_	ADV___	23	advmod	_	_
+29	paiement	paiement	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	acl	_	_
+30	du	du	DET	_	DET__Gender=Masc|Number=Sing	18	obj	_	_
+31	loyer	loyer	VERB	_	VERB__VerbForm=Inf	18	amod	_	_
+32	,	,	PUNCT	_	PUNCT___	31	punct	_	_
+33	non	non	ADV	_	ADV___	18	advmod	_	_
+34	assurance	assurance	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	amod	_	_
+35	du	du	DET	_	DET__Gender=Masc|Number=Sing	35	det	_	_
+36	bien	bien	ADV	_	ADV___	37	fixed	_	_
+37	,	,	PUNCT	_	PUNCT___	35	punct	_	_
+38	plainte	plainte	NOUN	_	NOUN__Gender=Fem|Number=Sing	40	amod	_	_
+39	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	40	det	_	_
+40	voisins	voisin	NOUN	_	NOUN__Gender=Masc|Number=Plur	37	nmod	_	_
+41	pour	pour	ADP	_	ADP___	40	mark	_	_
+42	trouble	trouble	NOUN	_	NOUN__Gender=Masc|Number=Sing	43	nmod	_	_
+43	de	de	ADP	_	ADP___	41	case	_	_
+44	voisinage	voisinage	NOUN	_	NOUN__Gender=Masc|Number=Sing	46	nmod	_	_
+45	,	,	PUNCT	_	PUNCT___	46	punct	_	_
+46	…	…	PUNCT	_	PUNCT___	40	punct	_	_
+47	mais	mais	CCONJ	_	CCONJ___	35	cc	_	_
+48	pas	pas	ADV	_	ADV___	49	advmod	_	_
+49	pour	pour	ADP	_	ADP___	35	mark	_	_
+50	en	en	PRON	_	PRON__Person=3	51	iobj	_	_
+51	faire	faire	VERB	_	VERB__VerbForm=Inf	49	conj	_	_
+52	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
+53	résidence	résidence	NOUN	_	NOUN__Gender=Fem|Number=Sing	49	obj	_	_
+54	secondaire	secondaire	ADJ	_	ADJ__Number=Sing	49	amod	_	_
+55	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	49	det	_	_
+56	propriétaires	propriétaire	NOUN	_	NOUN__Number=Plur	57	obj	_	_
+57	.	.	PUNCT	_	PUNCT___	49	punct	_	_
+
+

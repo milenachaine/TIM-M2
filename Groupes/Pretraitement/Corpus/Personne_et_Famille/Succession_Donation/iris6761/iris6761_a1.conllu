@@ -1,0 +1,136 @@
+#Lors d'un décès, si personne ne fait rien, il ne se passe rien...
+1	Lors	lors	ADV	_	ADV___	4	case	_	_
+2	d'	de	ADP	_	ADP___	1	fixed	_	_
+3	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	décès	décès	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obl	_	_
+5	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+6	si	si	SCONJ	_	SCONJ___	9	mark	_	_
+7	personne	personne	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	nsubj	_	_
+8	ne	ne	ADV	_	ADV___	9	advmod	_	_
+9	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+10	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	9	obj	_	_
+11	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+12	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	15	nsubj	_	_
+13	ne	ne	ADV	_	ADV__Polarity=Neg	15	advmod	_	_
+14	se	se	PRON	_	PRON__Person=3|Reflex=Yes	15	expl	_	_
+15	passe	passer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+16	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	15	obj	_	_
+17	...	...	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Les notaires ne s'auto-saisissent pas des successions, même s'il y a des biens immobiliers.
+1	Les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+2	notaires	notaire	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	nsubj	_	_
+3	ne	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+4	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	9	expl	_	_
+5	auto	auto	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	nsubj	_	_
+6	-	-	PUNCT	_	PUNCT___	9	punct	_	_
+7	saisissent	saisir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	pas	pas	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+9	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	9	det	_	_
+10	successions	succession	NOUN	_	NOUN__Gender=Fem|Number=Plur	9	obj	_	_
+11	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+12	même	même	ADV	_	ADV___	15	advmod	_	_
+13	s'	si	SCONJ	_	SCONJ___	15	fixed	_	_
+14	il	il	PRON	_	PRON__Number=Sing|Person=3	15	fixed	_	_
+15	y	yu	PRON	_	PRON__Person=3	9	fixed	_	_
+16	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	fixed	_	_
+17	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	15	det	_	_
+18	biens	bien	NOUN	_	NOUN__Gender=Masc|Number=Plur	19	obj	_	_
+19	immobiliers	immobilier	ADJ	_	ADJ__Gender=Masc|Number=Plur	22	amod	_	_
+20	.	.	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#Il n'y a donc peut-être aucun notaire en charge de cette succession, parce que personne n'a mandaté un notaire.
+1	Il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+3	y	yu	PRON	_	PRON__Person=3	4	expl	_	_
+4	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	donc	donc	ADV	_	ADV___	9	advmod	_	_
+6	peut-être	peut-être	ADV	_	ADV___	9	advmod	_	_
+7	aucun	aucun	DET	_	DET__Gender=Masc|Number=Sing	9	det	_	_
+8	notaire	notaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+9	en	en	ADP	_	ADP___	9	advmod	_	_
+10	charge	charge	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	fixed	_	_
+11	de	de	ADP	_	ADP___	15	case	_	_
+12	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	15	det	_	_
+13	succession	succession	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obl	_	_
+14	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+15	parce	parce	SCONJ	_	SCONJ___	9	mark	_	_
+16	que	que	SCONJ	_	SCONJ___	15	fixed	_	_
+17	personne	personne	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	nsubj	_	_
+18	n'	ne	ADV	_	ADV___	19	advmod	_	_
+19	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+20	mandaté	mandater	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	conj	_	_
+21	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	notaire	notaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	obj	_	_
+23	.	.	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#Les personnes qui mandatent un notaire, ce sont les héritiers, ou éventuellement des personnes intéressées à ce que la succession soit traitée, comme des créanciers.
+1	Les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+2	personnes	personne	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+3	qui	qui	PRON	_	PRON__PronType=Rel	4	nsubj	_	_
+4	mandatent	mandater	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+6	notaire	notaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+7	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+8	ce	ce	PRON	_	PRON__Number=Sing|Person=3	9	nsubj	_	_
+9	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+10	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+11	héritiers	héritier	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	nmod	_	_
+12	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+13	ou	ou	CCONJ	_	CCONJ___	15	cc	_	_
+14	éventuellement	éventuellemer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	15	conj	_	_
+15	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	9	det	_	_
+16	personnes	personne	NOUN	_	NOUN__Gender=Fem|Number=Plur	15	obj	_	_
+17	intéressées	intéressé	ADJ	_	ADJ__Gender=Fem|Number=Plur	15	acl	_	_
+18	à	à	ADP	_	ADP___	19	case	_	_
+19	ce	ce	PRON	_	PRON__PronType=Rel	22	obl	_	_
+20	que	que	SCONJ	_	SCONJ___	22	mark	_	_
+21	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	succession	succession	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	nsubj:pass	_	_
+23	soit	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux:pass	_	_
+24	traitée	traiter	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	24	acl	_	_
+25	,	,	PUNCT	_	PUNCT___	24	punct	_	_
+26	comme	comme	ADP	_	ADP___	27	case	_	_
+27	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	24	det	_	_
+28	créanciers	créancier	NOUN	_	NOUN__Gender=Masc|Number=Plur	24	nmod	_	_
+29	.	.	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#Si votre père n'avait pas de dettes et que vous êtes le seul héritier, il est probable que personne n'ait demandé quoi que ce soit à un notaire.
+1	Si	Si	SCONJ	_	SCONJ___	4	mark	_	_
+2	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+3	père	père	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+4	n'	ne	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+5	avait	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	advcl	_	_
+6	pas	pas	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+7	de	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	9	det	_	_
+8	dettes	dette	NOUN	_	NOUN__Gender=Fem|Number=Plur	9	obj	_	_
+9	et	et	CCONJ	_	CCONJ___	9	cc	_	_
+10	que	que	SCONJ	_	SCONJ___	9	mark	_	_
+11	vous	vous	PRON	_	PRON__Number=Plur|Person=2	15	nsubj	_	_
+12	êtes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	15	cop	_	_
+13	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	seul	seul	ADJ	_	ADJ__Gender=Masc|Number=Sing	15	amod	_	_
+15	héritier	héritier	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	conj	_	_
+16	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+17	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	15	nsubj	_	_
+18	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	probable	probable	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+20	que	que	SCONJ	_	SCONJ___	22	mark	_	_
+21	personne	personne	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	nsubj	_	_
+22	n'	ne	ADV	_	ADV__Polarity=Neg	24	advmod	_	_
+23	ait	avoir	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	demandé	demander	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	ccomp	_	_
+25	quoi	quoi	PRON	_	PRON__PronType=Int	24	obj	_	_
+26	que	que	SCONJ	_	SCONJ___	27	mark	_	_
+27	ce	ce	PRON	_	PRON__Number=Sing|Person=3	24	dep	_	_
+28	soit	être	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cc	_	_
+29	à	à	ADP	_	ADP___	24	case	_	_
+30	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+31	notaire	notaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	conj	_	_
+32	.	.	PUNCT	_	PUNCT___	31	punct	_	_
+
+

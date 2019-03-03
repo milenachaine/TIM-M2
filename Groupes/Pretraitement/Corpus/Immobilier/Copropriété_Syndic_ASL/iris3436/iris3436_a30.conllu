@@ -1,0 +1,86 @@
+#Ceci explique celà....
+1	Ceci	ceci	PRON	_	PRON__Number=Sing|PronType=Dem	2	nsubj	_	_
+2	explique	expliquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	celà	celà	ADV	_	ADV___	2	obj	_	_
+4	....	....	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#Il serait préférable de renforcer la sécurité en identifiant les véhicules autorisés (= ceux qui ont un parking).
+1	Il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	serait	être	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+3	préférable	préférable	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+4	de	de	ADP	_	ADP___	2	mark	_	_
+5	renforcer	renforcer	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	sécurité	sécurité	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+8	en	en	ADP	_	ADP___	9	mark	_	_
+9	identifiant	identifier	VERB	_	VERB__Tense=Pres|VerbForm=Part	7	advcl	_	_
+10	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	11	det	_	_
+11	véhicules	véhicule	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	obj	_	_
+12	autorisés	autoriser	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	acl	_	_
+13	(=	(=	PUNCT	_	PUNCT___	9	punct	_	_
+14	ceux	celui	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Dem	15	appos	_	_
+15	qui	qui	PRON	_	PRON__PronType=Rel	13	nsubj	_	_
+16	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+17	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+18	parking	parking	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obj	_	_
+19	)	)	PUNCT	_	PUNCT___	20	punct	_	_
+20	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Mais si "tout le monde" trouve la situation normale, vous allez avoir du mal !
+1	Mais	Mais	CCONJ	_	CCONJ___	2	cc	_	_
+2	si	si	SCONJ	_	SCONJ___	2	mark	_	_
+3	"	"	PUNCT	_	PUNCT___	2	punct	_	_
+4	tout	tout	ADJ	_	ADJ__Gender=Masc|Number=Sing	2	amod	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	monde	monde	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nsubj	_	_
+7	"	"	PUNCT	_	PUNCT___	7	punct	_	_
+8	trouve	trouver	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+10	situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obj	_	_
+11	normale	normal	ADJ	_	ADJ__Gender=Fem|Number=Sing	9	amod	_	_
+12	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+13	vous	vous	PRON	_	PRON__Number=Plur|Person=2	9	nsubj	_	_
+14	allez	aller	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+15	avoir	avoir	VERB	_	VERB__VerbForm=Inf	13	xcomp	_	_
+16	du	du	DET	_	DET__Gender=Masc|Number=Sing	15	det	_	_
+17	mal	mal	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obj	_	_
+18	!	!	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#---------- Message ajouté à 12h23 ---------- Précédent message à 12h22
+1	----------	----------	PRON	_	PRON__Number=Sing|Person=1	2	det	_	_
+2	Message	message	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	ajouté	ajouter	ADJ	_	ADJ__Gender=Masc|Number=Sing	2	acl	_	_
+4	à	à	ADP	_	ADP___	2	case	_	_
+5	12h23	12h23	NUM	_	NUM__NumType=Card	7	nummod	_	_
+6	----------	----------	PRON	_	PRON__Number=Sing|Person=3	7	nmod	_	_
+7	Précédent	précédent	ADJ	_	ADJ__Gender=Masc|Number=Sing	7	nmod	_	_
+8	message	message	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	flat:name	_	_
+9	à	à	ADP	_	ADP___	7	case	_	_
+10	12h22	12h22	NOUN	_	NOUN__NumType=Card	11	nmod	_	_
+
+
+#---------- Merci Ribould, je crois bien que je vais jeter l'éponge avec l'eau du bain ...
+1	----------	----------	ADJ	_	ADJ__NumType=Ord	2	det	_	_
+2	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	nsubj	_	_
+3	Ribould	Ribould	PROPN	_	PROPN___	2	flat:name	_	_
+4	,	,	PUNCT	_	PUNCT___	2	punct	_	_
+5	je	il	PRON	_	PRON__Number=Sing|Person=1	7	nsubj	_	_
+6	crois	croire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	bien	bien	ADV	_	ADV___	7	advmod	_	_
+8	que	que	SCONJ	_	SCONJ___	9	mark	_	_
+9	je	il	PRON	_	PRON__Number=Sing|Person=1	7	nsubj	_	_
+10	vais	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+11	jeter	jeter	VERB	_	VERB__VerbForm=Inf	9	xcomp	_	_
+12	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	éponge	éponge	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obj	_	_
+14	avec	avec	ADP	_	ADP___	15	case	_	_
+15	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+16	eau	eau	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obl	_	_
+17	du	du	DET	_	DET__Gender=Masc|Number=Sing	15	det	_	_
+18	bain	bain	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nmod	_	_
+19	...	...	PUNCT	_	PUNCT___	20	punct	_	_
+
+

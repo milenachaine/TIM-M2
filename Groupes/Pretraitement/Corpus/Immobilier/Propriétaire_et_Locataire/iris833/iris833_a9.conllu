@@ -1,0 +1,114 @@
+#Techniquement vous demandez au bailleur son calcul de vétusté.
+1	Techniquement	techniquement	ADV	_	ADV___	3	nsubj	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	3	iobj	_	_
+3	demandez	demander	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	au	au	PROPN	_	PROPN__Number=Plur	5	det	_	_
+5	bailleur	bailleur	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	obl	_	_
+6	son	son	DET	_	DET__Number=Sing|Poss=Yes	7	nmod:poss	_	_
+7	calcul	calcul	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obj	_	_
+8	de	de	ADP	_	ADP___	9	case	_	_
+9	vétusté	vétusté	NOUN	_	NOUN__Gender=Fem|Number=Plur	7	nmod	_	_
+10	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Celui
+1	Celui	Celui	PROPN	_	PROPN__Gender=Masc|Number=Sing	0	ROOT	_	_
+
+
+#-ci est basé sur l'age de la peinture.
+1	-ci	-ci	PRON	_	PRON__Number=Sing|Person=3	3	nsubj:pass	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	basé	baser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+4	sur	sur	ADP	_	ADP___	5	case	_	_
+5	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+6	age	age	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+7	de	de	ADP	_	ADP___	3	case	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	peinture	peinture	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+10	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Si la peinture a plsu de 8 ans, on va dire que la vétusté, c'est 90% et votre part 10%.
+1	Si	Si	SCONJ	_	SCONJ___	3	mark	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	peinture	peinture	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+4	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	plsu	plsu	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+6	de	de	ADP	_	ADP___	7	case	_	_
+7	8	8	NUM	_	NUM__NumType=Card	3	nummod	_	_
+8	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	obl	_	_
+9	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+10	on	on	PRON	_	PRON__Number=Sing|Person=3	3	nsubj	_	_
+11	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+12	dire	dire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+13	que	que	SCONJ	_	SCONJ___	14	mark	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+15	vétusté	vétusté	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	ccomp	_	_
+16	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+17	c'	ce	PRON	_	PRON__Number=Sing|Person=3	14	nsubj	_	_
+18	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+19	90	90	NUM	_	NUM__NumType=Card	20	nummod	_	_
+20	%	%	NOUN	_	NOUN__Gender=Masc	17	conj	_	_
+21	et	et	CCONJ	_	CCONJ___	14	cc	_	_
+22	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	26	nmod:poss	_	_
+23	part	part	NOUN	_	NOUN__Number=Sing	24	conj	_	_
+24	10	10	NUM	_	NUM__NumType=Card	26	nummod	_	_
+25	%	%	NOUN	_	NOUN__Gender=Masc	26	nmod	_	_
+26	.	.	PUNCT	_	PUNCT___	33	punct	_	_
+
+
+#En revanche, j'éviterais de sortir ces argument en conciliation?
+1	En	En	ADP	_	ADP___	3	advmod	_	_
+2	revanche	revanche	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+4	j'	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+5	éviterais	éviter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+6	de	de	ADP	_	ADP___	7	mark	_	_
+7	sortir	sortir	VERB	_	VERB__VerbForm=Inf	3	xcomp	_	_
+8	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	9	det	_	_
+9	argument	argumer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	obj	_	_
+10	en	en	ADP	_	ADP___	3	case	_	_
+11	conciliation	conciliation	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obl	_	_
+12	?	?	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#EN conciliation, laisser le demander, et si ca ne vous palit pas, refusez.
+1	EN	EN	ADP	_	ADP___	3	case	_	_
+2	conciliation	conciliation	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obl	_	_
+3	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+4	laisser	laisser	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+6	demander	demander	VERB	_	VERB__VerbForm=Inf	7	obj	_	_
+7	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+8	et	et	CCONJ	_	CCONJ___	9	cc	_	_
+9	si	si	SCONJ	_	SCONJ___	7	mark	_	_
+10	ca	ca	DET	_	DET__Number=Plur|PronType=Dem	3	nsubj	_	_
+11	ne	ne	ADV	_	ADV___	11	advmod	_	_
+12	vous	vous	PRON	_	PRON__Number=Plur|Person=2	14	iobj	_	_
+13	palit	palit	ADV	_	ADV___	14	conj	_	_
+14	pas	pas	ADV	_	ADV__Polarity=Neg	14	advmod	_	_
+15	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+16	refusez	refuser	ADJ	_	ADJ__Gender=Fem|Number=Plur	17	conj	_	_
+17	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#IL vaut mieux pour vous qu'il se plante devant le Juge que devant le conciliateur.
+1	IL	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+2	vaut	valoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	mieux	mieux	ADV	_	ADV___	3	advmod	_	_
+4	pour	pour	ADP	_	ADP___	5	case	_	_
+5	vous	vous	PRON	_	PRON__Number=Plur|Person=2|PronType=Prs	3	obl	_	_
+6	qu'	que	SCONJ	_	SCONJ___	7	mark	_	_
+7	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+8	se	se	PRON	_	PRON__Person=3|Reflex=Yes	9	expl	_	_
+9	plante	planter	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10	devant	devoir	ADP	_	ADP___	3	case	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+12	Juge	Juge	PROPN	_	PROPN___	14	obl	_	_
+13	que	que	SCONJ	_	SCONJ___	14	mark	_	_
+14	devant	devoir	ADP	_	ADP___	14	case	_	_
+15	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	conciliateur	conciliateur	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obl	_	_
+17	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+

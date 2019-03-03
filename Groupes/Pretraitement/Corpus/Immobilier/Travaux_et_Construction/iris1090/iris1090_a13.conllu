@@ -1,0 +1,85 @@
+#Oui, sauf à être à l'aide juridictionnel.
+1	Oui	Oui	PROPN	_	PROPN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	sauf	sauf	ADP	_	ADP___	8	case	_	_
+4	à	à	ADP	_	ADP___	3	fixed	_	_
+5	être	être	AUX	_	AUX__VerbForm=Inf	4	fixed	_	_
+6	à	à	ADP	_	ADP___	8	case	_	_
+7	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	aide	aide	NOUN	_	NOUN__Number=Sing	1	nmod	_	_
+9	juridictionnel	juridictionnel	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	amod	_	_
+10	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Si vous gagnez, le juge condamnera la partie adverse à leur remboursement.... en tout ou partie.
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+3	gagnez	gagner	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+4	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+6	juge	juge	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nsubj	_	_
+7	condamnera	condamner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+9	partie	partie	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+10	adverse	adverse	ADP	_	ADP___	1	obj	_	_
+11	à	à	ADP	_	ADP___	13	case	_	_
+12	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	13	nmod:poss	_	_
+13	remboursement	remboursement	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obl	_	_
+14	....	....	PUNCT	_	PUNCT___	17	punct	_	_
+15	en	en	ADP	_	ADP___	16	case	_	_
+16	tout	tout	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	17	fixed	_	_
+17	ou	ou	CCONJ	_	CCONJ___	17	fixed	_	_
+18	partie	partie	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obl	_	_
+19	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Les frais de justice (pour aller vite les "dépens"), sont mis à la charge du perdant, même si le juge peut avoir un pouvoir de répartition (ce qui est bien plus rare que les frais irrépétibles en pratique).
+1	Les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+2	frais	frais	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	nsubj:pass	_	_
+3	de	de	ADP	_	ADP___	8	case	_	_
+4	justice	justice	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nmod	_	_
+5	(	(	PUNCT	_	PUNCT___	4	punct	_	_
+6	pour	pour	ADP	_	ADP___	8	mark	_	_
+7	aller	aller	VERB	_	VERB__VerbForm=Inf	8	acl	_	_
+8	vite	vite	ADV	_	ADV___	1	advmod	_	_
+9	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+10	"	"	PUNCT	_	PUNCT___	1	punct	_	_
+11	dépens	dépen	ADJ	_	ADJ__Gender=Masc|Number=Plur	13	obj	_	_
+12	"	"	PUNCT	_	PUNCT___	13	punct	_	_
+13	)	)	PUNCT	_	PUNCT___	17	punct	_	_
+14	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+15	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
+16	mis	mettre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+17	à	à	ADP	_	ADP___	17	case	_	_
+18	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	charge	charge	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	obl	_	_
+20	du	du	DET	_	DET__Gender=Masc|Number=Sing	17	obj	_	_
+21	perdant	perdant	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	acl	_	_
+22	,	,	PUNCT	_	PUNCT___	23	punct	_	_
+23	même	même	ADV	_	ADV___	20	mark	_	_
+24	si	si	SCONJ	_	SCONJ___	20	fixed	_	_
+25	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+26	juge	juge	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	nsubj	_	_
+27	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+28	avoir	avoir	VERB	_	VERB__VerbForm=Inf	20	advcl	_	_
+29	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+30	pouvoir	pouvoir	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	obj	_	_
+31	de	de	ADP	_	ADP___	45	case	_	_
+32	répartition	répartition	NOUN	_	NOUN__Gender=Fem|Number=Sing	33	nmod	_	_
+33	(	(	PUNCT	_	PUNCT___	31	punct	_	_
+34	ce	ce	PRON	_	PRON__PronType=Rel	31	iobj	_	_
+35	qui	qui	PRON	_	PRON__PronType=Rel	36	nsubj	_	_
+36	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
+37	bien	bien	ADV	_	ADV___	36	advmod	_	_
+38	plus	plus	ADV	_	ADV___	40	advmod	_	_
+39	rare	rare	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	40	acl:relcl	_	_
+40	que	que	SCONJ	_	SCONJ___	36	mark	_	_
+41	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	40	det	_	_
+42	frais	frais	NOUN	_	NOUN__Gender=Masc|Number=Plur	31	ccomp	_	_
+43	irrépétibles	irrépétible	ADJ	_	ADJ__Number=Plur	45	amod	_	_
+44	en	en	ADP	_	ADP___	45	case	_	_
+45	pratique	pratique	NOUN	_	NOUN__Gender=Fem|Number=Sing	45	nmod	_	_
+46	)	)	PUNCT	_	PUNCT___	48	punct	_	_
+47	.	.	PUNCT	_	PUNCT___	48	punct	_	_
+
+

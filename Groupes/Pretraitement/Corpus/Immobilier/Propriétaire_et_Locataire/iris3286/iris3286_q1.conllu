@@ -1,0 +1,92 @@
+#Bonjour, Je souhaite acheter un ancien appartement à mon nom afin de le louer à mes parents.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+4	souhaite	souhaiter	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	acheter	acheter	VERB	_	VERB__VerbForm=Inf	1	acl	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	ancien	ancien	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	amod	_	_
+8	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+9	à	à	ADP	_	ADP___	11	case	_	_
+10	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	11	nmod:poss	_	_
+11	nom	nom	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+12	afin	afin	ADP	_	ADP___	15	mark	_	_
+13	de	de	ADP	_	ADP___	12	fixed	_	_
+14	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	15	obj	_	_
+15	louer	louer	VERB	_	VERB__VerbForm=Inf	5	advcl	_	_
+16	à	à	ADP	_	ADP___	18	case	_	_
+17	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	18	nmod:poss	_	_
+18	parents	parent	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	obl	_	_
+19	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Le montant du loyer comprendra le montant du cresit mensuel ainsi que les charges etc...
+1	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	montant	montant	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	du	du	DET	_	DET__Gender=Masc|Number=Sing	5	det	_	_
+4	loyer	loyer	VERB	_	VERB__VerbForm=Inf	5	amod	_	_
+5	comprendra	comprendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	montant	montant	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+8	du	du	DET	_	DET__Gender=Masc|Number=Sing	5	obj	_	_
+9	cresit	cresit	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+10	mensuel	mensuel	ADJ	_	ADJ__Gender=Masc|Number=Sing	11	amod	_	_
+11	ainsi	ainsi	ADV	_	ADV___	8	cc	_	_
+12	que	que	SCONJ	_	SCONJ___	15	fixed	_	_
+13	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	12	det	_	_
+14	charges	charge	NOUN	_	NOUN__Gender=Fem|Number=Plur	15	conj	_	_
+15	etc	etc	ADV	_	ADV___	5	nmod	_	_
+16	...	...	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Je ne tirerai pas de bénéfices sur les’ loyers donc à priori pas d’impôts foncier .
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ne	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+3	tirerai	tirer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+5	de	de	ADP	_	ADP___	1	det	_	_
+6	bénéfices	bénéfice	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obl	_	_
+7	sur	sur	ADP	_	ADP___	8	case	_	_
+8	les’	les’	NOUN	_	NOUN__Gender=Masc	5	det	_	_
+9	loyers	loyer	ADJ	_	ADJ__Gender=Masc|Number=Plur	11	nmod	_	_
+10	donc	donc	ADV	_	ADV___	11	advmod	_	_
+11	à	à	ADP	_	ADP___	8	mark	_	_
+12	priori	priori	NOUN	_	NOUN__Number=Sing	15	fixed	_	_
+13	pas	pas	ADV	_	ADV__Polarity=Neg	12	fixed	_	_
+14	d’	d’	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	15	advcl	_	_
+15	impôts	impôt	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	amod	_	_
+16	foncier	foncier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	18	amod	_	_
+17	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Pouvez vous me m’indiquer quelle est la procédure à suivre concernant la location d’enfant à parent?
+1	Pouvez	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	aux	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+3	me	se	PRON	_	PRON__Number=Sing|Person=1	5	obj	_	_
+4	m’	m’	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	0	ROOT	_	_
+5	indiquer	indiquer	VERB	_	VERB__VerbForm=Inf	1	xcomp	_	_
+6	quelle	quel	DET	_	DET__Gender=Fem|Number=Sing|PronType=Int	8	obj	_	_
+7	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+9	procédure	procédure	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nsubj	_	_
+10	à	à	ADP	_	ADP___	11	mark	_	_
+11	suivre	suivre	VERB	_	VERB__VerbForm=Inf	8	advcl	_	_
+12	concernant	concerner	VERB	_	VERB__Tense=Pres|VerbForm=Part	15	xcomp	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+14	location	location	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obj	_	_
+15	d’	d’	PUNCT	_	PUNCT___	5	amod	_	_
+16	enfant	enfant	CCONJ	_	CCONJ___	18	acl	_	_
+17	à	à	ADP	_	ADP___	18	case	_	_
+18	parent	parer	ADV	_	ADV___	15	obl	_	_
+19	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#En vous remerciant avance Bien cordialement
+1	En	En	ADP	_	ADP___	1	mark	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	expl	_	_
+3	remerciant	remercier	VERB	_	VERB__Tense=Pres|VerbForm=Part	5	acl	_	_
+4	avance	avance	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obj	_	_
+5	Bien	bien	ADV	_	ADV___	1	advmod	_	_
+6	cordialement	cordialement	ADV	_	ADV___	0	ROOT	_	_
+
+

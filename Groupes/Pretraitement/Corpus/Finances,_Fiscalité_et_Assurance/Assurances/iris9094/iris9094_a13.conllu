@@ -1,0 +1,110 @@
+#Normal.
+1	Normal	normal	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Les experts ne donnent leur rapport qu'à leur mandant, l'assureur, et à personne d'autre;
+1	Les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+2	experts	expert	NOUN	_	NOUN__Number=Plur	1	nsubj	_	_
+3	ne	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+4	donnent	donner	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+6	rapport	rapport	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+7	qu'	que	SCONJ	_	SCONJ___	8	fixed	_	_
+8	à	à	ADP	_	ADP___	6	case	_	_
+9	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+10	mandant	mandant	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obl	_	_
+11	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+12	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+13	assureur	assureur	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	conj	_	_
+14	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+15	et	et	CCONJ	_	CCONJ___	12	cc	_	_
+16	à	à	ADP	_	ADP___	15	case	_	_
+17	personne	personne	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	conj	_	_
+18	d'	de	ADP	_	ADP___	19	case	_	_
+19	autre	autre	ADJ	_	ADJ__Number=Sing	15	nmod	_	_
+20	;	;	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#c'est l'assureur qui le paye et il en dispose seul.
+1	c'	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	assureur	assureur	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	qui	qui	PRON	_	PRON__PronType=Rel	6	nsubj	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+7	paye	paye	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	acl:relcl	_	_
+8	et	et	CCONJ	_	CCONJ___	6	cc	_	_
+9	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+10	en	en	ADP	_	ADP___	12	iobj	_	_
+11	dispose	disposer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+12	seul	seul	ADJ	_	ADJ__Gender=Masc|Number=Sing	6	advmod	_	_
+13	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Sont-ils tenus de fournir le détail chiffré au sinistré ou non ?
+1	Sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+2	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+3	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	4	nsubj	_	_
+4	tenus	tenir	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	de	de	ADP	_	ADP___	6	mark	_	_
+6	fournir	fournir	VERB	_	VERB__VerbForm=Inf	6	xcomp	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	détail	détail	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+9	chiffré	chiffrer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
+10	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
+11	sinistré	sinistrer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	xcomp	_	_
+12	ou	ou	CCONJ	_	CCONJ___	6	cc	_	_
+13	non	non	ADV	_	ADV___	15	conj	_	_
+14	?	?	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Comme un devis pour travaux par exemple.
+1	Comme	Comme	SCONJ	_	SCONJ___	1	case	_	_
+2	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+3	devis	devis	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	pour	pour	ADP	_	ADP___	6	case	_	_
+5	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	nmod	_	_
+6	par	par	ADP	_	ADP___	6	advmod	_	_
+7	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	fixed	_	_
+8	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Ce n'est pas la même chose.
+1	Ce	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	même	même	ADJ	_	ADJ__Number=Sing	6	amod	_	_
+7	chose	chose	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+8	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Autant vous n'aurez pas le rapport, autant vous pouvez avoir le détail de votre indemnisation joint à la lettre d'acceptation.
+1	Autant	Autant	SCONJ	_	SCONJ___	1	mark	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+3	n'	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+4	aurez	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+7	rapport	rapport	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+8	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+9	autant	autant	ADV	_	ADV___	8	mark	_	_
+10	vous	vous	PRON	_	PRON__Number=Plur|Person=2	12	nsubj	_	_
+11	pouvez	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	avoir	avoir	VERB	_	VERB__VerbForm=Inf	6	advcl	_	_
+13	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	détail	détail	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obj	_	_
+15	de	de	ADP	_	ADP___	12	case	_	_
+16	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	15	nmod:poss	_	_
+17	indemnisation	indemnisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	nmod	_	_
+18	joint	joint	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	amod	_	_
+19	à	à	ADP	_	ADP___	15	case	_	_
+20	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	lettre	lettre	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obl	_	_
+22	d'	de	ADP	_	ADP___	6	case	_	_
+23	acceptation	acceptation	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	nmod	_	_
+24	.	.	PUNCT	_	PUNCT___	26	punct	_	_
+
+

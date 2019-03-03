@@ -1,0 +1,118 @@
+#Merci de vos réponses.
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	de	de	ADP	_	ADP___	4	case	_	_
+3	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	4	nmod:poss	_	_
+4	réponses	réponse	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	nmod	_	_
+5	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Donc je dois comprendre qu'il y avait un élément non négligeable à rajouter dans l'assiette (en plus du brut global par mois) il faut rajouter les 25 jours d'indemnités correspondant aux 25 jours de congés payés pris pendant la période de référence.
+1	Donc	donc	ADV	_	ADV___	1	advmod	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+3	dois	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	comprendre	comprendre	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	qu'	que	SCONJ	_	SCONJ___	1	mark	_	_
+6	il	il	PRON	_	PRON__Number=Sing|Person=3	9	nsubj	_	_
+7	y	yu	PRON	_	PRON__Person=3	9	fixed	_	_
+8	avait	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	ccomp	_	_
+9	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+10	élément	élément	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+11	non	non	ADV	_	ADV___	13	advmod	_	_
+12	négligeable	négligeable	ADJ	_	ADJ__Number=Sing	11	amod	_	_
+13	à	à	ADP	_	ADP___	9	mark	_	_
+14	rajouter	rajouter	VERB	_	VERB__VerbForm=Inf	15	xcomp	_	_
+15	dans	dan	ADP	_	ADP___	13	case	_	_
+16	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	assiette	assiette	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obl	_	_
+18	(	(	PUNCT	_	PUNCT___	19	punct	_	_
+19	en	en	ADP	_	ADP___	17	case	_	_
+20	plus	plus	ADV	_	ADV___	22	fixed	_	_
+21	du	du	DET	_	DET__Gender=Masc|Number=Sing	22	det	_	_
+22	brut	brut	ADJ	_	ADJ__Number=Sing	19	obl	_	_
+23	global	global	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	amod	_	_
+24	par	par	ADP	_	ADP___	27	case	_	_
+25	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	24	nmod	_	_
+26	)	)	PUNCT	_	PUNCT___	27	punct	_	_
+27	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	19	nsubj	_	_
+28	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	conj	_	_
+29	rajouter	rajouter	VERB	_	VERB__VerbForm=Inf	30	xcomp	_	_
+30	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	27	det	_	_
+31	25	25	NUM	_	NUM__NumType=Card	33	nummod	_	_
+32	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	33	obj	_	_
+33	d'	de	ADP	_	ADP___	13	case	_	_
+34	indemnités	indemnité	NOUN	_	NOUN__Gender=Fem|Number=Plur	33	nmod	_	_
+35	correspondant	correspondre	VERB	_	VERB__Tense=Pres|VerbForm=Part	37	acl	_	_
+36	aux	aux	ADP	_	ADP___	37	case	_	_
+37	25	25	NUM	_	NUM__NumType=Card	34	nummod	_	_
+38	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	39	obl	_	_
+39	de	de	ADP	_	ADP___	37	case	_	_
+40	congés	congé	ADJ	_	ADJ__Gender=Masc|Number=Plur	37	nmod	_	_
+41	payés	payer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	43	amod	_	_
+42	pris	prendre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	43	acl	_	_
+43	pendant	pendre	ADP	_	ADP___	40	case	_	_
+44	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	période	période	NOUN	_	NOUN__Gender=Fem|Number=Sing	43	obl	_	_
+46	de	de	ADP	_	ADP___	45	case	_	_
+47	référence	référence	NOUN	_	NOUN__Gender=Fem|Number=Sing	43	nmod	_	_
+48	.	.	PUNCT	_	PUNCT___	50	punct	_	_
+
+
+#Donc ces congés payés indemnisés rentrent dans cette assiette même s'ils n'augmentent pas directement le salaire brut de chaque mois étant donné qu'ils sont équilibrés par une indemnité négative (prise de congés) équilibré par la même indemnité positive (indemnité des congés).
+1	Donc	donc	ADV	_	ADV___	1	advmod	_	_
+2	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	4	det	_	_
+3	congés	congé	ADJ	_	ADJ__Gender=Masc|Number=Plur	4	nsubj	_	_
+4	payés	payer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	amod	_	_
+5	indemnisés	indemnisé	ADJ	_	ADJ__Gender=Masc|Number=Plur	0	ROOT	_	_
+6	rentrent	rentrer	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	advmod	_	_
+7	dans	dan	ADP	_	ADP___	9	case	_	_
+8	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	assiette	assiette	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obl	_	_
+10	même	même	ADV	_	ADV___	13	mark	_	_
+11	s'	si	SCONJ	_	SCONJ___	13	fixed	_	_
+12	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	11	nsubj	_	_
+13	n'	ne	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+14	augmentent	augmenter	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+15	pas	pas	ADV	_	ADV__Polarity=Neg	13	advmod	_	_
+16	directement	directement	ADV	_	ADV___	17	advmod	_	_
+17	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+18	salaire	salaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obj	_	_
+19	brut	brut	ADJ	_	ADJ___	17	amod	_	_
+20	de	de	ADP	_	ADP___	22	case	_	_
+21	chaque	chaque	DET	_	DET__Number=Sing	22	det	_	_
+22	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	nmod	_	_
+23	étant	être	VERB	_	VERB__Tense=Pres|VerbForm=Part	19	mark	_	_
+24	donné	donner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	fixed	_	_
+25	qu'	que	SCONJ	_	SCONJ___	24	fixed	_	_
+26	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	27	nsubj:pass	_	_
+27	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux:pass	_	_
+28	équilibrés	équilibrer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	27	acl	_	_
+29	par	par	ADP	_	ADP___	30	case	_	_
+30	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+31	indemnité	indemnité	NOUN	_	NOUN__Gender=Fem|Number=Sing	33	obl	_	_
+32	négative	négatif	ADJ	_	ADJ__Gender=Fem|Number=Sing	33	amod	_	_
+33	(	(	PUNCT	_	PUNCT___	13	punct	_	_
+34	prise	prise	NOUN	_	NOUN__Gender=Fem|Number=Sing	33	appos	_	_
+35	de	de	ADP	_	ADP___	37	case	_	_
+36	congés	congé	NOUN	_	NOUN__Gender=Masc|Number=Plur	37	nmod	_	_
+37	)	)	PUNCT	_	PUNCT___	34	punct	_	_
+38	équilibré	équilibrer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	39	acl	_	_
+39	par	par	ADP	_	ADP___	37	case	_	_
+40	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+41	même	même	ADJ	_	ADJ__Number=Sing	43	amod	_	_
+42	indemnité	indemnité	NOUN	_	NOUN__Gender=Fem|Number=Sing	43	obl	_	_
+43	positive	positif	ADJ	_	ADJ__Gender=Fem|Number=Sing	40	amod	_	_
+44	(	(	PUNCT	_	PUNCT___	45	punct	_	_
+45	indemnité	indemnité	NOUN	_	NOUN__Gender=Fem|Number=Sing	43	appos	_	_
+46	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	45	det	_	_
+47	congés	congé	NOUN	_	NOUN__Gender=Masc|Number=Plur	43	obj	_	_
+48	)	)	PUNCT	_	PUNCT___	50	punct	_	_
+49	.	.	PUNCT	_	PUNCT___	50	punct	_	_
+
+
+#Merci à vous !
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	à	à	ADP	_	ADP___	4	case	_	_
+3	vous	vous	PRON	_	PRON__Number=Plur|Person=2|PronType=Prs	4	nmod	_	_
+4	!	!	PUNCT	_	PUNCT___	1	punct	_	_
+
+

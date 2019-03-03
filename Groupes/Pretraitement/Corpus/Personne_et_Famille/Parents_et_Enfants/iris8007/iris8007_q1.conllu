@@ -1,0 +1,257 @@
+#Bonjour / Bonsoir
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	/	/	CCONJ	_	CCONJ___	3	cc	_	_
+3	Bonsoir	Bonsoir	PROPN	_	PROPN___	1	nmod	_	_
+
+
+#Je viens demander votre aide, je suis un peu perdue, et l'urgence commence à se faire sentir.
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	viens	venir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	demander	demander	VERB	_	VERB__VerbForm=Inf	1	xcomp	_	_
+4	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+5	aide	aide	NOUN	_	NOUN__Number=Sing	5	obj	_	_
+6	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+7	je	il	PRON	_	PRON__Number=Sing|Person=1	8	nsubj	_	_
+8	suis	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	cop	_	_
+9	un	un	DET	_	DET__Gender=Masc|Number=Sing	5	det	_	_
+10	peu	peu	ADV	_	ADV___	14	fixed	_	_
+11	perdue	perdre	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	parataxis	_	_
+12	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+13	et	et	CCONJ	_	CCONJ___	12	cc	_	_
+14	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+15	urgence	urgence	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	conj	_	_
+16	commence	commencer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	amod	_	_
+17	à	à	ADP	_	ADP___	18	mark	_	_
+18	se	se	PRON	_	PRON__Person=3|Reflex=Yes	5	obj	_	_
+19	faire	faire	VERB	_	VERB__VerbForm=Inf	18	xcomp	_	_
+20	sentir	sentir	VERB	_	VERB__VerbForm=Inf	22	xcomp	_	_
+21	.	.	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#Je suis censée partir à New York au mois d'avril.
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj:pass	_	_
+2	suis	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	censée	censer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	partir	partir	VERB	_	VERB__VerbForm=Inf	5	acl	_	_
+5	à	à	ADP	_	ADP___	5	case	_	_
+6	New	new	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+7	York	York	PROPN	_	PROPN__Gender=Masc|Number=Sing	8	flat:name	_	_
+8	au	au	DET	_	DET__Number=Plur|PronType=Dem	6	case	_	_
+9	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	nmod	_	_
+10	d'	de	ADP	_	ADP___	14	case	_	_
+11	avril	avril	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nmod	_	_
+12	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Mon passeport étant périmé depuis 2009, j'ai fait une demande de renouvellement.
+1	Mon	mon	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	passeport	passeport	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+3	étant	être	AUX	_	AUX__Tense=Pres|VerbForm=Part	1	aux:pass	_	_
+4	périmé	périmer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+5	depuis	depuis	ADP	_	ADP___	5	case	_	_
+6	2009	2009	NUM	_	NUM__NumType=Card	5	nummod	_	_
+7	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+8	j'	il	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+9	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+10	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+11	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+12	demande	demande	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obj	_	_
+13	de	de	ADP	_	ADP___	12	case	_	_
+14	renouvellement	renouvellement	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+15	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Mais lors du rdv à la Mairie, la nana a constaté un problème : le 3ème prénom sur mon passeport (Zénie)
+1	Mais	Mais	CCONJ	_	CCONJ___	1	cc	_	_
+2	lors	lors	ADV	_	ADV___	3	case	_	_
+3	du	du	DET	_	DET__Gender=Masc|Number=Sing	1	det	_	_
+4	rdv	rdv	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+5	à	à	ADP	_	ADP___	5	case	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+7	Mairie	mairie	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+8	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+10	nana	nana	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nsubj	_	_
+11	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+12	constaté	constater	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+13	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+14	problème	problème	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+15	:	:	PUNCT	_	PUNCT___	5	punct	_	_
+16	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	3ème	3èm	ADJ	_	ADJ__Number=Sing|NumType=Ord	18	nummod	_	_
+18	prénom	prénom	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+19	sur	sur	ADP	_	ADP___	18	case	_	_
+20	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	22	nmod:poss	_	_
+21	passeport	passeport	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	nmod	_	_
+22	(	(	PUNCT	_	PUNCT___	19	punct	_	_
+23	Zénie	Zénie	PROPN	_	PROPN___	22	appos	_	_
+24	)	)	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#est différent du 3ème prénom de ma carte d'identité (Zélie), elle a donc arrêté toute la démarche.
+1	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+2	différent	différent	ADV	_	ADV___	3	advmod	_	_
+3	du	du	DET	_	DET__Gender=Masc|Number=Sing	1	det	_	_
+4	3ème	3èm	ADJ	_	ADJ__Number=Sing|NumType=Ord	5	nummod	_	_
+5	prénom	prénom	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+6	de	de	ADP	_	ADP___	5	case	_	_
+7	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	8	nmod:poss	_	_
+8	carte	carte	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+9	d'	de	ADP	_	ADP___	5	case	_	_
+10	identité	identité	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nmod	_	_
+11	(	(	PUNCT	_	PUNCT___	14	punct	_	_
+12	Zélie	Zélie	PROPN	_	PROPN___	14	appos	_	_
+13	)	)	PUNCT	_	PUNCT___	12	punct	_	_
+14	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+15	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	5	nsubj	_	_
+16	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	donc	donc	ADV	_	ADV___	18	advmod	_	_
+18	arrêté	arrêter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+19	toute	tout	ADJ	_	ADJ__Gender=Fem|Number=Sing	18	amod	_	_
+20	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	démarche	démarcher	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	obl	_	_
+22	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Mon 3ème prénom est ZéLie, sauf que mon père s'est trompé quand il a été me reconnaître, et sur mon acte de naissance, c'est ZéNie.
+1	Mon	mon	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	3ème	3èm	ADJ	_	ADJ__Number=Sing|NumType=Ord	3	nummod	_	_
+3	prénom	prénom	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	ZéLie	zélie	ADV	_	ADV__Polarity=Neg	0	ROOT	_	_
+6	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+7	sauf	sauf	ADP	_	ADP___	8	mark	_	_
+8	que	que	SCONJ	_	SCONJ___	6	mark	_	_
+9	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+10	père	père	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nsubj	_	_
+11	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	14	expl	_	_
+12	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	trompé	tromper	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	_
+14	quand	quand	SCONJ	_	SCONJ___	5	mark	_	_
+15	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+16	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	18	cop	_	_
+18	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	5	expl	_	_
+19	reconnaître	reconnaître	VERB	_	VERB__VerbForm=Inf	18	xcomp	_	_
+20	,	,	PUNCT	_	PUNCT___	22	punct	_	_
+21	et	et	CCONJ	_	CCONJ___	22	cc	_	_
+22	sur	sur	ADP	_	ADP___	19	case	_	_
+23	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	22	nmod:poss	_	_
+24	acte	acte	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	conj	_	_
+25	de	de	ADP	_	ADP___	27	case	_	_
+26	naissance	naissance	NOUN	_	NOUN__Gender=Fem|Number=Sing	27	nmod	_	_
+27	,	,	PUNCT	_	PUNCT___	27	punct	_	_
+28	c'	ce	PRON	_	PRON__Number=Sing|Person=3	27	nsubj:pass	_	_
+29	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux:pass	_	_
+30	ZéNie	ZéNie	PROPN	_	PROPN___	28	parataxis	_	_
+31	.	.	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#Mais cette erreur a été rectifiée sur le livret et de famille, et tous mes papiers officiels (Carte d'identité, permis de conduire etc) sont au nom de ZéLie.
+1	Mais	Mais	CCONJ	_	CCONJ___	1	cc	_	_
+2	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	erreur	erreur	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj:pass	_	_
+4	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	5	aux:pass	_	_
+6	rectifiée	rectifier	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+7	sur	sur	ADP	_	ADP___	8	case	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+9	livret	livret	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+10	et	et	CCONJ	_	CCONJ___	14	cc	_	_
+11	de	de	ADP	_	ADP___	14	case	_	_
+12	famille	famille	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	conj	_	_
+13	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+14	et	et	CCONJ	_	CCONJ___	5	cc	_	_
+15	tous	tou	ADJ	_	ADJ__Gender=Masc|Number=Plur	5	amod	_	_
+16	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	18	nmod:poss	_	_
+17	papiers	papier	NOUN	_	NOUN__Gender=Masc|Number=Plur	18	nsubj	_	_
+18	officiels	officiel	ADJ	_	ADJ__Gender=Masc|Number=Plur	5	amod	_	_
+19	(	(	PUNCT	_	PUNCT___	18	punct	_	_
+20	Carte	carte	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	appos	_	_
+21	d'	de	ADP	_	ADP___	22	case	_	_
+22	identité	identité	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	nmod	_	_
+23	,	,	PUNCT	_	PUNCT___	22	punct	_	_
+24	permis	permettre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	5	acl	_	_
+25	de	de	ADP	_	ADP___	27	mark	_	_
+26	conduire	conduire	VERB	_	VERB__VerbForm=Inf	27	xcomp	_	_
+27	etc	etc	ADV	_	ADV___	27	obj	_	_
+28	)	)	PUNCT	_	PUNCT___	27	punct	_	_
+29	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+30	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	28	fixed	_	_
+31	nom	nom	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	fixed	_	_
+32	de	de	ADP	_	ADP___	33	case	_	_
+33	ZéLie	ZéLie	PROPN	_	PROPN___	30	obl	_	_
+34	.	.	PUNCT	_	PUNCT___	35	punct	_	_
+
+
+#Ma soeur, qui a été renouveler son passeport également n'a pas eu besoin de présenter l'ancien.
+1	Ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	soeur	soeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	qui	qui	PRON	_	PRON__PronType=Rel	5	nsubj	_	_
+5	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+6	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	5	aux:pass	_	_
+7	renouveler	renouveler	VERB	_	VERB__VerbForm=Inf	8	acl:relcl	_	_
+8	son	son	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+9	passeport	passeport	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+10	également	également	ADV	_	ADV___	14	amod	_	_
+11	n'	ne	ADV	_	ADV__Polarity=Neg	14	advmod	_	_
+12	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	pas	pas	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+14	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+15	besoin	besoin	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+16	de	de	ADP	_	ADP___	18	mark	_	_
+17	présenter	présenter	VERB	_	VERB__VerbForm=Inf	18	xcomp	_	_
+18	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+19	ancien	ancien	ADJ	_	ADJ__Gender=Masc|Number=Sing	18	obj	_	_
+20	.	.	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#Du coup, je souhaiterai savoir comment je peux me sortir de cette galère... ?
+1	Du	du	DET	_	DET__Gender=Masc|Number=Sing	1	det	_	_
+2	coup	coup	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obl	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+5	souhaiterai	souhaiter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	savoir	savoir	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+7	comment	comment	ADV	_	ADV__PronType=Int	8	advmod	_	_
+8	je	il	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+9	peux	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+10	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	14	expl	_	_
+11	sortir	sortir	VERB	_	VERB__VerbForm=Inf	14	ccomp	_	_
+12	de	de	ADP	_	ADP___	14	case	_	_
+13	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+14	galère	galère	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obl	_	_
+15	...	...	PUNCT	_	PUNCT___	5	punct	_	_
+16	?	?	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Si besoin d'autres infos, n'hésitez pas.
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	besoin	besoin	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obl	_	_
+3	d'	de	ADP	_	ADP___	1	det	_	_
+4	autres	autre	ADJ	_	ADJ__Number=Plur	5	fixed	_	_
+5	infos	info	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+6	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+7	n'	ne	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+8	hésitez	hésiter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
+9	pas	pas	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+10	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Merci d'avance à ceux qui pourront/voudront bien m'aider.
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	d'	de	ADP	_	ADP___	3	case	_	_
+3	avance	avance	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+4	à	à	ADP	_	ADP___	5	case	_	_
+5	ceux	celui	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Dem	5	nmod	_	_
+6	qui	qui	PRON	_	PRON__PronType=Rel	5	nsubj	_	_
+7	pourront	pouvoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	8	acl:relcl	_	_
+8	/	/	CCONJ	_	CCONJ___	6	fixed	_	_
+9	voudront	vouloir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	advmod	_	_
+10	bien	bien	ADV	_	ADV___	14	advmod	_	_
+11	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	14	obj	_	_
+12	aider	aider	VERB	_	VERB__VerbForm=Inf	14	xcomp	_	_
+13	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+

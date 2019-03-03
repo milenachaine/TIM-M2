@@ -11,8 +11,8 @@ if not os.path.exists(mydir):
 tree = ET.parse(sys.argv[1])
 corpus = tree.getroot()
 for i in corpus.findall("./doc"):
-    cat = i.get('class')
-    sub = i.get('subclass')
+    cat = i.get('class').strip().replace(" ","_")
+    sub = i.get('subclass').strip().replace(" ","_")
     ID = i.get('id')
     if not os.path.exists(mydir+"/"+cat+"/"+sub+"/"+ID):
         os.makedirs(mydir+"/"+cat+"/"+sub+"/"+ID)  

@@ -1,0 +1,105 @@
+#[Bonjour]
+1	[	[	PUNCT	_	PUNCT___	2	punct	_	_
+2	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+3	]	]	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#Actuellement les assurances habitation ne remboursent pas le passage en apparent.
+1	Actuellement	actuellement	ADV	_	ADV___	2	det	_	_
+2	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	2	det	_	_
+3	assurances	assurance	NOUN	_	NOUN__Gender=Fem|Number=Plur	2	amod	_	_
+4	habitation	habitation	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nsubj	_	_
+5	ne	ne	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+6	remboursent	rembourser	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	pas	pas	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	passage	passage	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+10	en	en	ADP	_	ADP___	9	case	_	_
+11	apparent	apparent	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obl	_	_
+12	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#L'assurance ne répare que les conséquences non la cause.
+1	L'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	2	det	_	_
+2	assurance	assurance	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	nsubj	_	_
+3	ne	ne	ADV	_	ADV___	2	advmod	_	_
+4	répare	réparer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+5	que	que	SCONJ	_	SCONJ___	6	advmod	_	_
+6	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+7	conséquences	conséquence	NOUN	_	NOUN__Gender=Fem|Number=Plur	9	obj	_	_
+8	non	non	ADV	_	ADV___	9	advmod	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+10	cause	cause	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	appos	_	_
+11	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Si j'interprète bien la convention le passage en apparent étant considéré comme de la recherche de fuite, le passage en apparent sera pris en charge déduction de sa franchise individuelle.
+1	Si	Si	SCONJ	_	SCONJ___	2	mark	_	_
+2	j'	il	PRON	_	PRON__Number=Sing|Person=1	2	nsubj	_	_
+3	interprète	interpréter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+4	bien	bien	ADV	_	ADV___	7	advmod	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	convention	convention	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	passage	passage	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nmod	_	_
+9	en	en	ADP	_	ADP___	9	case	_	_
+10	apparent	apparent	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nmod	_	_
+11	étant	être	AUX	_	AUX__Tense=Pres|VerbForm=Part	12	aux:pass	_	_
+12	considéré	considérer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	cop	_	_
+13	comme	comme	ADP	_	ADP___	14	case	_	_
+14	de	de	ADP	_	ADP___	9	case	_	_
+15	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+16	recherche	recherche	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	obl	_	_
+17	de	de	ADP	_	ADP___	19	case	_	_
+18	fuite	fuite	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	nmod	_	_
+19	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+20	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	passage	passage	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	nsubj:pass	_	_
+22	en	en	ADP	_	ADP___	19	case	_	_
+23	apparent	apparent	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	nmod	_	_
+24	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	25	aux:pass	_	_
+25	pris	prendre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+26	en	en	ADP	_	ADP___	19	iobj	_	_
+27	charge	charge	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	fixed	_	_
+28	déduction	déduction	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	obj	_	_
+29	de	de	ADP	_	ADP___	51	case	_	_
+30	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	29	nmod:poss	_	_
+31	franchise	franchise	NOUN	_	NOUN__Gender=Fem|Number=Sing	32	nmod	_	_
+32	individuelle	individuel	ADJ	_	ADJ__Gender=Fem|Number=Sing	29	amod	_	_
+33	.	.	PUNCT	_	PUNCT___	34	punct	_	_
+
+
+#Est ce bien exact ?
+1	Est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+3	bien	bien	ADV	_	ADV___	2	advmod	_	_
+4	exact	exact	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	?	?	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Mon passage en apparent en septembre ma coûté 1200 euros tout de même, cela serai une bonne nouvelle Merci de vos réponses
+1	Mon	mon	DET	_	DET__Number=Sing|Poss=Yes	2	nmod:poss	_	_
+2	passage	passage	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	nsubj	_	_
+3	en	en	ADP	_	ADP___	2	case	_	_
+4	apparent	apparent	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	en	en	ADP	_	ADP___	6	case	_	_
+6	septembre	septembre	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+7	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	9	nmod:poss	_	_
+8	coûté	coûter	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+9	1200	1200	NUM	_	NUM__NumType=Card	9	nummod	_	_
+10	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	obj	_	_
+11	tout	tout	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	12	advmod	_	_
+12	de	de	ADP	_	ADP___	9	fixed	_	_
+13	même	même	ADV	_	ADV___	14	fixed	_	_
+14	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+15	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	9	nsubj	_	_
+16	serai	être	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	parataxis	_	_
+17	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	bonne	bon	ADJ	_	ADJ__Gender=Fem|Number=Sing	19	amod	_	_
+19	nouvelle	nouveau	ADJ	_	ADJ__Gender=Fem|Number=Sing	19	amod	_	_
+20	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	obj	_	_
+21	de	de	ADP	_	ADP___	22	case	_	_
+22	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	19	nmod:poss	_	_
+23	réponses	réponse	NOUN	_	NOUN__Gender=Fem|Number=Plur	22	nmod	_	_
+
+

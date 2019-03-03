@@ -1,0 +1,47 @@
+#Bonjour, 1
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	1	1	NUM	_	NUM__NumType=Card	1	nummod	_	_
+
+
+#- oui.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	oui	oui	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#2
+1	2	2	NUM	_	NUM__NumType=Card	0	ROOT	_	_
+
+
+#- Vaste débat.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	Vaste	vaste	ADJ	_	ADJ__Number=Sing	1	amod	_	_
+3	débat	débat	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Cela dépend un peu de votre prévi.
+1	Cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	1	nsubj	_	_
+2	dépend	dépendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	un	un	DET	_	DET__Gender=Masc|Number=Sing	1	det	_	_
+4	peu	peu	ADV	_	ADV___	5	obj	_	_
+5	de	de	ADP	_	ADP___	5	case	_	_
+6	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+7	prévi	prévi	NOUN	_	NOUN__Gender=Fem|Number=Plur	7	nmod	_	_
+8	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#3 - Le capital variable, c'est beurk.
+1	3	3	NUM	_	NUM__NumType=Card	1	nummod	_	_
+2	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+3	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+4	capital	capital	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+5	variable	variable	ADJ	_	ADJ__Number=Sing	5	advcl	_	_
+6	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+7	c'	ce	PRON	_	PRON__Number=Sing|Person=3	7	nsubj	_	_
+8	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	beurk	beurk	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+10	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+

@@ -1,0 +1,319 @@
+#Bonjour, et merci pour la réponse.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	et	et	CCONJ	_	CCONJ___	4	cc	_	_
+4	merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	conj	_	_
+5	pour	pour	ADP	_	ADP___	7	case	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+8	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Le problème c'est que le contrat ne mentionne pas ce cas précis.
+1	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	problème	problème	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	c'	ce	PRON	_	PRON__Number=Sing|Person=3	4	nsubj	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+5	que	que	SCONJ	_	SCONJ___	7	mark	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+8	ne	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+9	mentionne	mentionner	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+10	pas	pas	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+11	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
+12	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obj	_	_
+13	précis	précis	ADJ	_	ADJ__Gender=Masc	17	amod	_	_
+14	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Aucune exclusion cependant.
+1	Aucune	aucun	DET	_	DET__Gender=Fem|Number=Sing	1	det	_	_
+2	exclusion	exclusion	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	cependant	cependant	ADV	_	ADV___	4	advmod	_	_
+4	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#On nous oblige à remettre aux normes, nous n'y tenions pas spécialement, la cause de l'incendie n'étant pas déterminée.
+1	On	on	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+2	nous	nous	PRON	_	PRON__Number=Plur|Person=1	1	iobj	_	_
+3	oblige	obliger	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+4	à	à	ADP	_	ADP___	1	mark	_	_
+5	remettre	remettre	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+6	aux	aux	ADP	_	ADP___	7	amod	_	_
+7	normes	norme	NOUN	_	NOUN__Gender=Fem|Number=Plur	4	obj	_	_
+8	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+9	nous	nous	PRON	_	PRON__Number=Plur|Person=1	10	nsubj	_	_
+10	n'	ne	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+11	y	yu	PRON	_	PRON__Person=3	17	expl	_	_
+12	tenions	tenion	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+13	pas	pas	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+14	spécialement	spécialemer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	advmod	_	_
+15	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+16	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	cause	cause	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	nsubj:pass	_	_
+18	de	de	ADP	_	ADP___	17	case	_	_
+19	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	incendie	incendie	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	nmod	_	_
+21	n'	ne	ADV	_	ADV__Polarity=Neg	20	advmod	_	_
+22	étant	être	AUX	_	AUX__Tense=Pres|VerbForm=Part	17	aux:pass	_	_
+23	pas	pas	ADV	_	ADV__Polarity=Neg	24	advmod	_	_
+24	déterminée	déterminer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	24	acl	_	_
+25	.	.	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#Nous voulions une remise à l'identique, que l'électricien n'a pas le droit d'exécuter.
+1	Nous	nous	PRON	_	PRON__Number=Plur|Person=1	1	nsubj	_	_
+2	voulions	vouloir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	remise	remise	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obj	_	_
+5	à	à	ADP	_	ADP___	7	case	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	identique	identique	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obl	_	_
+8	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+9	que	que	SCONJ	_	SCONJ___	10	mark	_	_
+10	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+11	électricien	électricien	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	nsubj	_	_
+12	n'	ne	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+13	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+14	pas	pas	ADV	_	ADV__Polarity=Neg	15	advmod	_	_
+15	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obj	_	_
+17	d'	de	ADP	_	ADP___	17	mark	_	_
+18	exécuter	exécuter	VERB	_	VERB__VerbForm=Inf	17	acl	_	_
+19	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Donc on nous a fait signer un devis où l'électricien a fait mention "ne peut pas être réalisé de la sorte".
+1	Donc	donc	ADV	_	ADV___	1	advmod	_	_
+2	on	on	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+3	nous	nous	PRON	_	PRON__Number=Plur|Person=1	4	nsubj	_	_
+4	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+5	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+6	signer	signer	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+8	devis	devis	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+9	où	où	PRON	_	PRON__PronType=Rel	10	iobj	_	_
+10	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+11	électricien	électricien	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	nsubj	_	_
+12	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+13	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl:relcl	_	_
+14	mention	mention	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obj	_	_
+15	"	"	PUNCT	_	PUNCT___	17	punct	_	_
+16	ne	ne	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+17	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	parataxis	_	_
+18	pas	pas	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+19	être	être	AUX	_	AUX__VerbForm=Inf	20	aux:pass	_	_
+20	réalisé	réaliser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	xcomp	_	_
+21	de	de	ADP	_	ADP___	20	case	_	_
+22	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+23	sorte	sorte	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	obl	_	_
+24	"	"	PUNCT	_	PUNCT___	24	punct	_	_
+25	.	.	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#Nous avions un expert et un maître d'œuvre, celui-ci fait part de son inquiétude s'il ne réalise que le tableau et la pièce sinistrée et pas les autres pièces qui risquent d'avoir été impactées par les suies.
+1	Nous	nous	PRON	_	PRON__Number=Plur|Person=1	1	nsubj	_	_
+2	avions	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+3	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	expert	expert	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+5	et	et	CCONJ	_	CCONJ___	7	cc	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	maître	maître	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+8	d'	de	ADP	_	ADP___	1	case	_	_
+9	œuvre	œuvre	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+10	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+11	celui-ci	celui-ci	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Dem	17	nsubj	_	_
+12	fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	conj	_	_
+13	part	part	NOUN	_	NOUN__Number=Sing	17	obj	_	_
+14	de	de	ADP	_	ADP___	15	case	_	_
+15	son	son	DET	_	DET__Number=Sing|Poss=Yes	17	nmod:poss	_	_
+16	inquiétude	inquiétude	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	obl	_	_
+17	s'	si	SCONJ	_	SCONJ___	17	mark	_	_
+18	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	17	nsubj	_	_
+19	ne	ne	ADV	_	ADV__Polarity=Neg	20	advmod	_	_
+20	réalise	réaliser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	ccomp	_	_
+21	que	que	SCONJ	_	SCONJ___	20	mark	_	_
+22	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+23	tableau	tableau	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	obj	_	_
+24	et	et	CCONJ	_	CCONJ___	24	cc	_	_
+25	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+26	pièce	pièce	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	conj	_	_
+27	sinistrée	sinistré	ADJ	_	ADJ__Gender=Fem|Number=Sing	29	acl	_	_
+28	et	et	CCONJ	_	CCONJ___	29	cc	_	_
+29	pas	pas	ADV	_	ADV___	38	advmod	_	_
+30	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	31	det	_	_
+31	autres	autre	ADJ	_	ADJ__Number=Plur	29	amod	_	_
+32	pièces	pièce	NOUN	_	NOUN__Gender=Fem|Number=Plur	33	conj	_	_
+33	qui	qui	PRON	_	PRON__PronType=Rel	31	nsubj	_	_
+34	risquent	risquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	acl:relcl	_	_
+35	d'	de	ADP	_	ADP___	38	mark	_	_
+36	avoir	avoir	AUX	_	AUX__VerbForm=Inf	38	aux	_	_
+37	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	38	aux:pass	_	_
+38	impactées	impacter	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	38	xcomp	_	_
+39	par	par	ADP	_	ADP___	38	case	_	_
+40	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	50	det	_	_
+41	suies	suie	NOUN	_	NOUN__Gender=Fem|Number=Plur	50	obl	_	_
+42	.	.	PUNCT	_	PUNCT___	43	punct	_	_
+
+
+#Cordialement.
+1	Cordialement	cordialement	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#---------- Message ajouté à 14h42 ---------- Précédent message
+1	----------	----------	DET	_	DET___	1	det	_	_
+2	Message	message	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	ajouté	ajouter	ADJ	_	ADJ__Gender=Masc|Number=Sing	4	amod	_	_
+4	à	à	ADP	_	ADP___	1	case	_	_
+5	14h42	14h42	NUM	_	NUM__NumType=Card	7	nummod	_	_
+6	----------	----------	PRON	_	PRON___	7	obl	_	_
+7	Précédent	précédent	ADJ	_	ADJ__Gender=Masc|Number=Sing	4	nmod	_	_
+8	message	message	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	flat:name	_	_
+
+
+#à 14h30 ---------- Bonjour, oui cela nous paraît normal, mais sans cet incendie nous n'aurions jamais refait les frais de remise aux normes.
+1	à	à	ADP	_	ADP___	1	case	_	_
+2	14h30	14h30	NUM	_	NUM__NumType=Card	1	nummod	_	_
+3	----------	----------	ADJ	_	ADJ__NumType=Ord	0	ROOT	_	_
+4	Bonjour	Bonjour	PROPN	_	PROPN___	1	nmod	_	_
+5	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+6	oui	oui	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	conj	_	_
+7	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	4	nsubj	_	_
+8	nous	nous	PRON	_	PRON__Number=Plur|Person=1	1	nsubj	_	_
+9	paraît	paraître	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	normal	normal	ADJ	_	ADJ__Gender=Masc|Number=Sing	17	acl:relcl	_	_
+11	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+12	mais	mais	CCONJ	_	CCONJ___	17	cc	_	_
+13	sans	sans	ADP	_	ADP___	17	case	_	_
+14	cet	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
+15	incendie	incendie	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obl	_	_
+16	nous	nous	PRON	_	PRON__Number=Plur|Person=1	17	nsubj	_	_
+17	n'	ne	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+18	aurions	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	17	aux	_	_
+19	jamais	jamais	ADV	_	ADV__Polarity=Neg	20	advmod	_	_
+20	refait	refaire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	conj	_	_
+21	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	20	det	_	_
+22	frais	frais	NOUN	_	NOUN__Gender=Masc|Number=Plur	17	obj	_	_
+23	de	de	ADP	_	ADP___	24	case	_	_
+24	remise	remise	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	nmod	_	_
+25	aux	aux	ADP	_	ADP___	24	amod	_	_
+26	normes	norme	NOUN	_	NOUN__Gender=Fem|Number=Plur	24	nmod	_	_
+27	.	.	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#L'électricien ne peut pas refaire simplement le tableau et la pièce sinistrée, le maître d'œuvre a bien mentionné à l'expert que dans les autres pièces impactées par les suies l'installation a dû être endommagée.
+1	L'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+2	électricien	électricien	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	ne	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+4	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+6	refaire	refaire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+7	simplement	simplement	ADV	_	ADV___	4	advmod	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+9	tableau	tableau	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+10	et	et	CCONJ	_	CCONJ___	17	cc	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+12	pièce	pièce	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	conj	_	_
+13	sinistrée	sinistré	ADJ	_	ADJ__Gender=Fem|Number=Sing	17	acl	_	_
+14	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+15	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	maître	maître	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	appos	_	_
+17	d'	de	ADP	_	ADP___	17	case	_	_
+18	œuvre	œuvre	NOUN	_	NOUN__Number=Sing	17	nmod	_	_
+19	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	bien	bien	ADV	_	ADV___	17	advmod	_	_
+21	mentionné	mentionner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	conj	_	_
+22	à	à	ADP	_	ADP___	17	case	_	_
+23	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	24	fixed	_	_
+24	expert	expert	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	fixed	_	_
+25	que	que	SCONJ	_	SCONJ___	24	fixed	_	_
+26	dans	dan	ADP	_	ADP___	24	case	_	_
+27	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	29	det	_	_
+28	autres	autre	ADJ	_	ADJ__Number=Plur	29	amod	_	_
+29	pièces	pièce	NOUN	_	NOUN__Gender=Fem|Number=Plur	38	obl	_	_
+30	impactées	impacter	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	31	acl	_	_
+31	par	par	ADP	_	ADP___	29	case	_	_
+32	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	33	det	_	_
+33	suies	suie	NOUN	_	NOUN__Gender=Fem|Number=Plur	31	obl	_	_
+34	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	38	det	_	_
+35	installation	installation	NOUN	_	NOUN__Gender=Fem|Number=Sing	38	nsubj	_	_
+36	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	aux	_	_
+37	dû	devoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	38	conj	_	_
+38	être	être	AUX	_	AUX__VerbForm=Inf	38	aux:pass	_	_
+39	endommagée	endommager	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	38	xcomp	_	_
+40	.	.	PUNCT	_	PUNCT___	50	punct	_	_
+
+
+#Notre maison était parfaitement entretenue et aucune intention de vendre dans le but d'un enrichissement n'est à l'ordre du jour.
+1	Notre	notre	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+3	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+4	parfaitement	parfaitement	ADV	_	ADV___	1	advmod	_	_
+5	entretenue	entretenir	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+6	et	et	CCONJ	_	CCONJ___	7	cc	_	_
+7	aucune	aucun	DET	_	DET__Gender=Fem|Number=Sing	4	det	_	_
+8	intention	intention	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	conj	_	_
+9	de	de	ADP	_	ADP___	10	mark	_	_
+10	vendre	vendre	VERB	_	VERB__VerbForm=Inf	17	acl	_	_
+11	dans	dan	ADP	_	ADP___	17	case	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+13	but	but	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obl	_	_
+14	d'	de	ADP	_	ADP___	15	case	_	_
+15	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	enrichissement	enrichissement	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	nmod	_	_
+17	n'	ne	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+18	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+19	à	à	ADP	_	ADP___	20	case	_	_
+20	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+21	ordre	ordre	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	advcl	_	_
+22	du	du	DET	_	DET__Gender=Masc|Number=Sing	17	det	_	_
+23	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	nmod	_	_
+24	.	.	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#Aucune clause d'exclusion n'est mentionnée.
+1	Aucune	aucun	DET	_	DET__Gender=Fem|Number=Sing	1	det	_	_
+2	clause	clause	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj:pass	_	_
+3	d'	de	ADP	_	ADP___	4	case	_	_
+4	exclusion	exclusion	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+5	n'	ne	ADV	_	ADV___	7	advmod	_	_
+6	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	mentionnée	mentionner	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+8	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#C'est bien compliqué, c'est pourquoi cette inscription sur ce forum.
+1	C'	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
+3	bien	bien	ADV	_	ADV___	4	advmod	_	_
+4	compliqué	compliquer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+5	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+6	c'	ce	PRON	_	PRON__Number=Sing|Person=3	7	advmod	_	_
+7	est	être	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	fixed	_	_
+8	pourquoi	pourquoi	ADV	_	ADV___	1	fixed	_	_
+9	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+10	inscription	inscription	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	fixed	_	_
+11	sur	sur	ADP	_	ADP___	17	case	_	_
+12	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
+13	forum	forum	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	nmod	_	_
+14	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Merci pour la réponse.
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	pour	pour	ADP	_	ADP___	1	case	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+5	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Cordialement.
+1	Cordialement	cordialement	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#VONY
+1	VONY	vony	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+
+

@@ -1,0 +1,90 @@
+#Bonjour, A trois ex
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	A	a	NOUN	_	NOUN___	1	nmod	_	_
+4	trois	trois	NUM	_	NUM__NumType=Card	5	nummod	_	_
+5	ex	ex	NOUN	_	NOUN__Number=Plur	1	nmod	_	_
+
+
+#-salariés nous avons fait opposition au prix de vente pour environ 2% du prix de vente.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	salariés	salarier	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	nsubj	_	_
+3	nous	nous	PRON	_	PRON__Number=Plur|Person=1	1	nsubj	_	_
+4	avons	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+6	opposition	opposition	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+7	au	au	DET	_	DET__Number=Plur|PronType=Dem	10	case	_	_
+8	prix	prix	NOUN	_	NOUN__Gender=Masc	10	fixed	_	_
+9	de	de	ADP	_	ADP___	10	fixed	_	_
+10	vente	vente	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obl	_	_
+11	pour	pour	ADP	_	ADP___	10	case	_	_
+12	environ	environ	ADV	_	ADV___	15	advmod	_	_
+13	2	2	NUM	_	NUM__NumType=Card	12	nummod	_	_
+14	%	%	NOUN	_	NOUN__Gender=Masc	12	nmod	_	_
+15	du	du	DET	_	DET__Gender=Masc|Number=Sing	10	det	_	_
+16	prix	prix	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	nmod	_	_
+17	de	de	ADP	_	ADP___	19	case	_	_
+18	vente	vente	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	nmod	_	_
+19	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#On arrive à la fin du délai de 3 mois des impôts.
+1	On	on	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+2	arrive	arriver	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	à	à	ADP	_	ADP___	1	case	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	fin	fin	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obl	_	_
+6	du	du	DET	_	DET__Gender=Masc|Number=Sing	7	det	_	_
+7	délai	délai	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+8	de	de	ADP	_	ADP___	10	case	_	_
+9	3	3	NUM	_	NUM__NumType=Card	10	nummod	_	_
+10	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	nmod	_	_
+11	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
+12	impôts	impôt	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	nmod	_	_
+13	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Est-ce que si le cédant avait voulu tenter de ne pas nous payer il aurait assigné bien plus tôt ?
+1	Est	être		_	VERB	0	ROOT	_	_
+2	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	1	amod	_	_
+3	que	que	ADV	_	ADV___	1	mark	_	_
+4	si	si	SCONJ	_	SCONJ___	5	mark	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+6	cédant	cédant	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nsubj	_	_
+7	avait	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+8	voulu	vouloir	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	aux	_	_
+9	tenter	tenter	VERB	_	VERB__VerbForm=Inf	10	acl:relcl	_	_
+10	de	de	ADP	_	ADP___	10	mark	_	_
+11	ne	ne	ADV	_	ADV___	10	advmod	_	_
+12	pas	pas	ADV	_	ADV___	15	fixed	_	_
+13	nous	nous	PRON	_	PRON__Number=Plur|Person=1	12	nsubj	_	_
+14	payer	payer	VERB	_	VERB__VerbForm=Part	12	xcomp	_	_
+15	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
+16	aurait	avoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+17	assigné	assigner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	xcomp	_	_
+18	bien	bien	ADV	_	ADV___	19	advmod	_	_
+19	plus	plus	ADV	_	ADV___	15	advmod	_	_
+20	tôt	tôt	ADV	_	ADV___	21	advmod	_	_
+21	?	?	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Il nous a fait des propositions de paiement que nous avons refusées.
+1	Il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	nous	nous	PRON	_	PRON__Number=Plur|Person=1	1	nsubj	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+4	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	1	det	_	_
+6	propositions	proposition	NOUN	_	NOUN__Gender=Fem|Number=Plur	7	obj	_	_
+7	de	de	ADP	_	ADP___	10	case	_	_
+8	paiement	paiement	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+9	que	que	PRON	_	PRON__PronType=Rel	10	obj	_	_
+10	nous	nous	PRON	_	PRON__Number=Plur|Person=1	10	nsubj	_	_
+11	avons	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+12	refusées	refuser	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	15	acl:relcl	_	_
+13	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Cordialement
+1	Cordialement	cordialement	ADV	_	ADV___	0	ROOT	_	_
+
+

@@ -1,0 +1,200 @@
+#Bonjour j'ai deux questions j'ouvre deux sujets?
+1	Bonjour	Bonjour	PROPN	_	PROPN___	3	nsubj	_	_
+2	j'	il	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+3	ai	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	deux	deux	NUM	_	NUM__NumType=Card	5	nummod	_	_
+5	questions	question	NOUN	_	NOUN__Gender=Fem|Number=Plur	3	obj	_	_
+6	j'	il	PRON	_	PRON__Number=Sing|Person=1	7	nsubj	_	_
+7	ouvre	ouvrir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	acl	_	_
+8	deux	deux	NUM	_	NUM__NumType=Card	9	nummod	_	_
+9	sujets	sujet	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	obj	_	_
+10	?	?	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Faits : Locataire quitte logement en 2017 avec loyer impayé 250
+1	Faits	fait	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+2	:	:	PUNCT	_	PUNCT___	3	punct	_	_
+3	Locataire	locataire	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nmod	_	_
+4	quitte	quitter	PRON	_	PRON__PronType=Rel	5	dep	_	_
+5	logement	logement	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	3	advmod	_	_
+6	en	en	ADP	_	ADP___	7	case	_	_
+7	2017	2017	NUM	_	NUM__NumType=Card	5	nummod	_	_
+8	avec	avec	ADP	_	ADP___	9	case	_	_
+9	loyer	loyer	VERB	_	VERB__VerbForm=Inf	7	det	_	_
+10	impayé	impayé	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obl	_	_
+11	250	250	NUM	_	NUM__NumType=Card	11	nummod	_	_
+
+
+#Etat lieux sortie OK caution restituée (aurait pas du)
+1	Etat	etat	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	advmod	_	_
+2	lieux	lieu	ADJ	_	ADJ__Gender=Masc	3	amod	_	_
+3	sortie	sortie	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	OK	OK	CCONJ	_	CCONJ___	5	case	_	_
+5	caution	caution	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nmod	_	_
+6	restituée	restituer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+7	(	(	PUNCT	_	PUNCT___	5	punct	_	_
+8	aurait	avoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	pas	pas	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+10	du	du	DET	_	DET__Gender=Masc|Number=Sing	3	det	_	_
+11	)	)	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Apurement charges 2018 pour 2017 : + 200
+1	Apurement	apurement	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nummod	_	_
+2	charges	charge	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	2018	2018	NUM	_	NUM__NumType=Card	3	nummod	_	_
+4	pour	pour	ADP	_	ADP___	5	case	_	_
+5	2017	2017	NUM	_	NUM__NumType=Card	3	nummod	_	_
+6	:	:	PUNCT	_	PUNCT___	7	punct	_	_
+7	+	+	ADP	_	ADP___	5	case	_	_
+8	200	200	ADJ	_	ADJ__Gender=Masc	9	nmod	_	_
+
+
+#Total
+1	Total	total	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+
+
+#dette : 450 Recommandé envoyé par huissier a mes frais Contestent
+1	dette	dette	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+2	:	:	PUNCT	_	PUNCT___	3	punct	_	_
+3	450	450	NOUN	_	NOUN__NumType=Card	3	nsubj:pass	_	_
+4	Recommandé	Recommandé	PROPN	_	PROPN__Gender=Masc|Number=Sing	5	flat:name	_	_
+5	envoyé	envoyer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	acl	_	_
+6	par	par	ADP	_	ADP___	7	case	_	_
+7	huissier	huissier	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+8	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	7	nmod:poss	_	_
+10	frais	frais	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	nmod	_	_
+11	Contestent	Contestent	PROPN	_	PROPN___	11	flat:name	_	_
+
+
+#l'evaluation des charges, depuis 5 ans les charges sont restées les mêmes avec chaque années un rappel de 200. Donc ex locataire et garents invoquent
+1	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+2	evaluation	evaluation	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	3	det	_	_
+4	charges	charge	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	nmod	_	_
+5	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+6	depuis	depuis	ADP	_	ADP___	7	case	_	_
+7	5	5	NUM	_	NUM__NumType=Card	5	nummod	_	_
+8	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	amod	_	_
+9	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+10	charges	charge	NOUN	_	NOUN__Gender=Fem|Number=Plur	3	nsubj	_	_
+11	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+12	restées	rester	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	11	cop	_	_
+13	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	11	det	_	_
+14	mêmes	même	ADJ	_	ADJ__Number=Plur	13	conj	_	_
+15	avec	avec	ADP	_	ADP___	14	case	_	_
+16	chaque	chaque	DET	_	DET__Number=Sing	17	det	_	_
+17	années	année	NOUN	_	NOUN__Gender=Fem|Number=Plur	15	obl	_	_
+18	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	rappel	rappel	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obj	_	_
+20	de	de	ADP	_	ADP___	14	case	_	_
+21	200.	200.	NUM	_	NUM__NumType=Card	20	nmod	_	_
+22	Donc	donc	ADV	_	ADV___	24	advmod	_	_
+23	ex	ex	CCONJ	_	CCONJ___	24	cop	_	_
+24	locataire	locataire	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	conj	_	_
+25	et	et	CCONJ	_	CCONJ___	26	cc	_	_
+26	garents	garent	NOUN	_	NOUN__Gender=Masc|Number=Plur	24	conj	_	_
+27	invoquent	invoquer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	advmod	_	_
+
+
+#une sous estimation des charges.
+1	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	sous	sou	ADP	_	ADP___	3	case	_	_
+3	estimation	estimation	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
+5	charges	charge	NOUN	_	NOUN__Gender=Fem|Number=Plur	3	obj	_	_
+6	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Peut on me repprocher de ne pas avoir ajusté les charges pendant 5 ans?
+1	Peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	on	on	PRON	_	PRON__Number=Sing|Person=3	3	nsubj	_	_
+3	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	3	expl	_	_
+4	repprocher	repprocher	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	de	de	ADP	_	ADP___	3	mark	_	_
+6	ne	ne	ADV	_	ADV___	7	advmod	_	_
+7	pas	pas	ADV	_	ADV___	5	fixed	_	_
+8	avoir	avoir	AUX	_	AUX__VerbForm=Inf	9	xcomp	_	_
+9	ajusté	ajuster	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	advmod	_	_
+10	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	3	det	_	_
+11	charges	charge	NOUN	_	NOUN__Gender=Fem|Number=Plur	11	obj	_	_
+12	pendant	pendre	ADP	_	ADP___	11	case	_	_
+13	5	5	NUM	_	NUM__NumType=Card	11	nummod	_	_
+14	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	nmod	_	_
+15	?	?	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Ils disent qu'ils invoqueront une sous estimation des charges au tribunal.
+1	Ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	3	nsubj	_	_
+2	disent	dire	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	qu'	que	SCONJ	_	SCONJ___	3	mark	_	_
+4	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	5	nsubj	_	_
+5	invoqueront	invoquer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+6	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	sous	sou	ADP	_	ADP___	5	case	_	_
+8	estimation	estimation	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obl	_	_
+9	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
+10	charges	charge	NOUN	_	NOUN__Gender=Fem|Number=Plur	3	obj	_	_
+11	au	au	PRON	_	PRON__PronType=Rel	11	case	_	_
+12	tribunal	tribunal	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+13	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Quelle est la procédure la moins couteuse au tribunal?
+1	Quelle	quell	ADJ	_	ADJ__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+4	procédure	procédure	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nsubj	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+6	moins	moins	ADV	_	ADV___	7	advmod	_	_
+7	couteuse	couteus	ADJ	_	ADJ__Gender=Fem|Number=Sing	5	nsubj	_	_
+8	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+9	tribunal	tribunal	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nsubj	_	_
+10	?	?	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Pouvez vous m'indiquer une tranche de prix de combien cela va me couter.
+1	Pouvez	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	3	nsubj	_	_
+3	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	3	iobj	_	_
+4	indiquer	indiquer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+6	tranche	tranche	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+7	de	de	ADP	_	ADP___	5	case	_	_
+8	prix	prix	NOUN	_	NOUN__Gender=Masc	9	nmod	_	_
+9	de	de	ADP	_	ADP___	7	mark	_	_
+10	combien	combien	ADV	_	ADV__PronType=Int	3	advmod	_	_
+11	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	11	nsubj	_	_
+12	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+13	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	11	expl	_	_
+14	couter	couter	VERB	_	VERB__VerbForm=Inf	13	acl	_	_
+15	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Un avocat est nécessaire?
+1	Un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+4	nécessaire	nécessaire	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+5	?	?	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#1 procedure contre locataire et 1 contre garents?
+1	1	1	NUM	_	NUM__NumType=Card	3	nummod	_	_
+2	procedure	procedure	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	contre	contrer	ADP	_	ADP___	3	case	_	_
+4	locataire	locataire	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+5	et	et	CCONJ	_	CCONJ___	3	cc	_	_
+6	1	1	PRON	_	PRON__NumType=Card|PronType=Rel	7	conj	_	_
+7	contre	contrer	ADP	_	ADP___	5	case	_	_
+8	garents	garent	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	nmod	_	_
+9	?	?	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Merci aux forumeurs
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	aux	aux	ADP	_	ADP___	3	case	_	_
+3	forumeurs	forumeur	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	nmod	_	_
+
+

@@ -1,0 +1,262 @@
+#Bonjour VnicentB Sur l'argument en première phrase:
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	VnicentB	vnicentb	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	flat:name	_	_
+3	Sur	Sur	ADP	_	ADP___	5	case	_	_
+4	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	argument	argument	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+6	en	en	ADP	_	ADP___	8	case	_	_
+7	première	premier	ADJ	_	ADJ__Gender=Fem|Number=Sing|NumType=Ord	8	amod	_	_
+8	phrase	phrase	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+9	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#D'abord, les fonds qui transitent par la CARPA sont ceux des Clients.
+1	D'	D'	ADP	_	ADP___	1	advmod	_	_
+2	abord	abord	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+4	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+5	fonds	fonds	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	nsubj	_	_
+6	qui	qui	PRON	_	PRON__PronType=Rel	8	nsubj	_	_
+7	transitent	transiter	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+8	par	par	ADP	_	ADP___	1	case	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+10	CARPA	CARPA	PROPN	_	PROPN__Gender=Fem|Number=Sing	21	obl	_	_
+11	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+12	ceux	celui	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Dem	0	ROOT	_	_
+13	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
+14	Clients	client	NOUN	_	NOUN__Gender=Masc|Number=Plur	21	nmod	_	_
+15	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#(les honoraires libres avocats sont payés en main propre, l'AJ est un cas spécial).
+1	(	(	PUNCT	_	PUNCT___	1	punct	_	_
+2	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+3	honoraires	honoraire	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	nsubj:pass	_	_
+4	libres	libre	ADJ	_	ADJ__Number=Plur	5	amod	_	_
+5	avocats	avocat	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	acl	_	_
+6	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+7	payés	payer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+8	en	en	ADP	_	ADP___	1	case	_	_
+9	main	main	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obl	_	_
+10	propre	propre	ADJ	_	ADJ__Number=Sing	21	acl	_	_
+11	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+12	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+13	AJ	aj	NOUN	_	NOUN__Number=Sing	14	nsubj	_	_
+14	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+15	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	conj	_	_
+17	spécial	spécial	ADJ	_	ADJ__Gender=Masc|Number=Sing	19	amod	_	_
+18	)	)	PUNCT	_	PUNCT___	19	punct	_	_
+19	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Et les "bénéficiaires" sont forcément connus dès le début, ce sont les Clients de cet l'avocat.
+1	Et	Et	CCONJ	_	CCONJ___	1	cc	_	_
+2	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+3	"	"	PUNCT	_	PUNCT___	5	punct	_	_
+4	bénéficiaires	bénéficiaire	NOUN	_	NOUN__Number=Plur	5	obl	_	_
+5	"	"	PUNCT	_	PUNCT___	1	punct	_	_
+6	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	forcément	forcément	ADV	_	ADV___	8	advmod	_	_
+8	connus	connaître	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+9	dès	dès	ADP	_	ADP___	1	case	_	_
+10	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+11	début	début	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obl	_	_
+12	,	,	PUNCT	_	PUNCT___	21	punct	_	_
+13	ce	ce	PRON	_	PRON__Number=Sing|Person=3	14	nsubj	_	_
+14	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+15	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	16	det	_	_
+16	Clients	client	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	obl	_	_
+17	de	de	ADP	_	ADP___	19	case	_	_
+18	cet	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	19	det	_	_
+19	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+20	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	nmod	_	_
+21	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#L'avocat gère le compte CARPA pour le compte de ses clients.
+1	L'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+2	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	gère	gérer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	compte	compte	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+6	CARPA	carpa	ADJ	_	ADJ___	8	amod	_	_
+7	pour	pour	ADP	_	ADP___	8	case	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+9	compte	compte	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+10	de	de	ADP	_	ADP___	21	case	_	_
+11	ses	son	DET	_	DET__Number=Plur|Poss=Yes	10	nmod:poss	_	_
+12	clients	client	NOUN	_	NOUN__Gender=Masc|Number=Plur	21	nmod	_	_
+13	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Ensuite, l'absence de déclaration initiale avec copie aux bénéficiaires prive la CARPA d'un contrôle d'erreurs facile, et les Clients eux-mêmes d'un moyen simple.
+1	Ensuite	ensuite	ADV	_	ADV___	1	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+4	absence	absence	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nsubj	_	_
+5	de	de	ADP	_	ADP___	1	case	_	_
+6	déclaration	déclaration	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+7	initiale	initial	ADJ	_	ADJ__Gender=Fem|Number=Sing	8	amod	_	_
+8	avec	avec	ADP	_	ADP___	1	case	_	_
+9	copie	copie	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+10	aux	aux	ADJ	_	ADJ___	21	case	_	_
+11	bénéficiaires	bénéficiaire	NOUN	_	NOUN__Number=Plur	10	nmod	_	_
+12	prive	priver	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	CARPA	CARPA	PROPN	_	PROPN__Gender=Fem|Number=Sing	21	obj	_	_
+15	d'	de	ADP	_	ADP___	16	case	_	_
+16	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+17	contrôle	contrôler	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obl	_	_
+18	d'	de	ADP	_	ADP___	19	case	_	_
+19	erreurs	erreur	NOUN	_	NOUN__Gender=Fem|Number=Plur	16	nmod	_	_
+20	facile	facile	ADJ	_	ADJ__Gender=Fem|Number=Sing	21	amod	_	_
+21	,	,	PUNCT	_	PUNCT___	21	punct	_	_
+22	et	et	CCONJ	_	CCONJ___	23	cc	_	_
+23	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	21	det	_	_
+24	Clients	client	NOUN	_	NOUN__Gender=Masc|Number=Plur	21	conj	_	_
+25	eux-mêmes	lui-même	PRON	_	PRON__PronType=Rel	31	orphan	_	_
+26	d'	de	ADP	_	ADP___	27	case	_	_
+27	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+28	moyen	moyen	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	nmod	_	_
+29	simple	simple	ADJ	_	ADJ__Number=Sing	27	amod	_	_
+30	.	.	PUNCT	_	PUNCT___	31	punct	_	_
+
+
+#Mais surtout, cela rend possible le détournement par l'avocat d'une partie des fonds qui transitent par elle, simplement, en ne déclarant pas l'un des bénéficiaires.
+1	Mais	Mais	CCONJ	_	CCONJ___	1	cc	_	_
+2	surtout	surtout	ADV	_	ADV___	1	advmod	_	_
+3	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+4	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	5	nsubj	_	_
+5	rend	rendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	possible	possible	ADJ	_	ADJ__Number=Sing	8	xcomp	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	détournement	détournement	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+9	par	par	ADP	_	ADP___	1	case	_	_
+10	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+11	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+12	d'	de	ADP	_	ADP___	21	case	_	_
+13	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	partie	partie	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	nmod	_	_
+15	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	16	det	_	_
+16	fonds	fonds	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	obj	_	_
+17	qui	qui	PRON	_	PRON__PronType=Rel	19	nsubj	_	_
+18	transitent	transiter	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	advmod	_	_
+19	par	par	ADP	_	ADP___	16	case	_	_
+20	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	obl	_	_
+21	,	,	PUNCT	_	PUNCT___	21	punct	_	_
+22	simplement	simplement	ADV	_	ADV___	23	advmod	_	_
+23	,	,	PUNCT	_	PUNCT___	21	punct	_	_
+24	en	en	ADP	_	ADP___	21	case	_	_
+25	ne	ne	ADV	_	ADV__Polarity=Neg	31	advmod	_	_
+26	déclarant	déclarer	VERB	_	VERB__Tense=Pres|VerbForm=Part	27	fixed	_	_
+27	pas	pas	ADV	_	ADV__Polarity=Neg	31	fixed	_	_
+28	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	27	det	_	_
+29	un	un	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	27	advcl	_	_
+30	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	31	det	_	_
+31	bénéficiaires	bénéficiaire	NOUN	_	NOUN__Number=Plur	31	nmod	_	_
+32	.	.	PUNCT	_	PUNCT___	33	punct	_	_
+
+
+#Même si c'est l'avocat qui est cause, cette défaillance de conception de la CARPA annule l'une des très
+1	Même	même	ADV	_	ADV___	1	mark	_	_
+2	si	si	SCONJ	_	SCONJ___	1	fixed	_	_
+3	c'	ce	PRON	_	PRON__Number=Sing|Person=3	5	nsubj	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+6	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+7	qui	qui	PRON	_	PRON__PronType=Rel	8	nsubj	_	_
+8	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+9	cause	cause	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	acl:relcl	_	_
+10	,	,	PUNCT	_	PUNCT___	21	punct	_	_
+11	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+12	défaillance	défaillance	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	punct	_	_
+13	de	de	ADP	_	ADP___	14	case	_	_
+14	conception	conception	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	nmod	_	_
+15	de	de	ADP	_	ADP___	16	case	_	_
+16	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+17	CARPA	CARPA	PROPN	_	PROPN__Gender=Fem|Number=Sing	19	nmod	_	_
+18	annule	annuler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	amod	_	_
+19	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+20	une	un	PRON	_	PRON__Gender=Fem|Number=Sing|PronType=Rel	21	obj	_	_
+21	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	21	det	_	_
+22	très	trè	NOUN	_	NOUN__Gender=Masc|Number=Plur	23	nmod	_	_
+
+
+#-bonnes raisons de leur existence: qui est de sécuriser les rapports Clients/Avocat, comme disait Cleyo J'ai bien compris que vous voulez un contrôle systématique de nos actions.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	bonnes	bon	ADJ	_	ADJ__Gender=Fem|Number=Plur	1	amod	_	_
+3	raisons	raison	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+4	de	de	ADP	_	ADP___	5	case	_	_
+5	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+6	existence	existence	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+7	:	:	PUNCT	_	PUNCT___	8	punct	_	_
+8	qui	qui	PRON	_	PRON__PronType=Rel	1	nsubj	_	_
+9	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+10	de	de	ADP	_	ADP___	21	mark	_	_
+11	sécuriser	sécuriser	VERB	_	VERB__VerbForm=Inf	10	acl:relcl	_	_
+12	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	21	det	_	_
+13	rapports	rapport	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	obj	_	_
+14	Clients	client	NOUN	_	NOUN__Gender=Masc|Number=Plur	21	nmod	_	_
+15	/	/	ADP	_	ADP___	16	case	_	_
+16	Avocat	Avocat	PROPN	_	PROPN__Gender=Masc|Number=Sing	14	nmod	_	_
+17	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+18	comme	comme	SCONJ	_	SCONJ___	19	mark	_	_
+19	disait	dire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	advcl	_	_
+20	Cleyo	Cleyo	PROPN	_	PROPN___	21	nsubj	_	_
+21	J'	J'	PROPN	_	PROPN___	21	nsubj	_	_
+22	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	bien	bien	ADV	_	ADV___	21	advmod	_	_
+24	compris	compris	ADJ	_	ADJ__Gender=Masc	21	nsubj	_	_
+25	que	que	SCONJ	_	SCONJ___	31	mark	_	_
+26	vous	vous	PRON	_	PRON__Number=Plur|Person=2	27	nsubj	_	_
+27	voulez	vouloir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	31	acl:relcl	_	_
+28	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+29	contrôle	contrôler	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	obj	_	_
+30	systématique	systématique	ADJ	_	ADJ__Number=Sing	31	amod	_	_
+31	de	de	ADP	_	ADP___	31	case	_	_
+32	nos	notre	DET	_	DET__Number=Plur|Poss=Yes	33	nmod:poss	_	_
+33	actions	action	NOUN	_	NOUN__Gender=Fem|Number=Plur	31	nmod	_	_
+34	.	.	PUNCT	_	PUNCT___	31	punct	_	_
+
+
+#Horaires
+1	Horaires	horaire	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+
+
+#des avions pour Pyongyang à votre agence de voyages habituelle.
+1	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	1	det	_	_
+2	avions	avion	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+3	pour	pour	ADP	_	ADP___	5	case	_	_
+4	Pyongyang	Pyongyang	PROPN	_	PROPN___	5	nmod	_	_
+5	à	à	ADP	_	ADP___	1	case	_	_
+6	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+7	agence	agence	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+8	de	de	ADP	_	ADP___	1	case	_	_
+9	voyages	voyage	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	nmod	_	_
+10	habituelle	habituel	ADJ	_	ADJ__Gender=Fem|Number=Sing	21	amod	_	_
+11	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Votre seconde phrase répond à Cleyo, je pense, pas à moi.
+1	Votre	votre	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	seconde	second	ADJ	_	ADJ__Gender=Fem|Number=Sing|NumType=Ord	1	amod	_	_
+3	phrase	phrase	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+4	répond	répondre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	à	à	ADP	_	ADP___	1	case	_	_
+6	Cleyo	Cleyo	PROPN	_	PROPN___	8	obl	_	_
+7	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+8	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+9	pense	penser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_
+10	,	,	PUNCT	_	PUNCT___	21	punct	_	_
+11	pas	pas	ADV	_	ADV___	10	advmod	_	_
+12	à	à	ADP	_	ADP___	21	case	_	_
+13	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	14	obl	_	_
+14	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Merci !
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	!	!	PUNCT	_	PUNCT___	1	punct	_	_
+
+

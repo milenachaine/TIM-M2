@@ -1,0 +1,151 @@
+#Merci beaucoup rambouillet et Rambotte, vos réponses vont m’aider dans mes raisonnements.
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	beaucoup	beaucoup	ADV	_	ADV___	3	advmod	_	_
+3	rambouillet	rambouillet	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	nmod	_	_
+4	et	et	CCONJ	_	CCONJ___	5	cc	_	_
+5	Rambotte	rambotte	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	conj	_	_
+6	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+7	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	8	nmod:poss	_	_
+8	réponses	réponse	NOUN	_	NOUN__Gender=Fem|Number=Plur	9	nsubj	_	_
+9	vont	aller	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	amod	_	_
+10	m’	m’	AUX	_	AUX__Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	xcomp	_	_
+11	aider	aider	VERB	_	VERB__VerbForm=Inf	1	acl	_	_
+12	dans	dan	ADP	_	ADP___	14	case	_	_
+13	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	14	nmod:poss	_	_
+14	raisonnements	raisonnement	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	obl	_	_
+15	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#La copro est effectivement différente, le garage est lié à l'appartement mais ils ont divisé la gestion des appartements et du niveau parking entre deux entités.
+1	La	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	copro	copro	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+4	effectivement	effectivement	ADV	_	ADV___	5	advmod	_	_
+5	différente	différent	ADJ	_	ADJ__Gender=Fem|Number=Sing	3	advcl	_	_
+6	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	garage	garage	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nsubj:pass	_	_
+9	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
+10	lié	lier	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+11	à	à	ADP	_	ADP___	1	case	_	_
+12	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+13	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obl	_	_
+14	mais	mais	CCONJ	_	CCONJ___	11	cc	_	_
+15	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	1	nsubj	_	_
+16	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	divisé	diviser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	conj	_	_
+18	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	gestion	gestion	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obj	_	_
+20	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	25	det	_	_
+21	appartements	appartement	NOUN	_	NOUN__Gender=Masc|Number=Plur	25	nmod	_	_
+22	et	et	CCONJ	_	CCONJ___	23	cc	_	_
+23	du	du	DET	_	DET__Gender=Masc|Number=Sing	25	det	_	_
+24	niveau	niveau	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	conj	_	_
+25	parking	parking	ADJ	_	ADJ__Gender=Masc|Number=Sing	25	amod	_	_
+26	entre	entrer	ADP	_	ADP___	28	case	_	_
+27	deux	deux	NUM	_	NUM__NumType=Card	28	nummod	_	_
+28	entités	entité	NOUN	_	NOUN__Gender=Fem|Number=Plur	25	obl	_	_
+29	.	.	PUNCT	_	PUNCT___	32	punct	_	_
+
+
+#La bonne excuse.
+1	La	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	bonne	bon	ADJ	_	ADJ__Gender=Fem|Number=Sing	3	amod	_	_
+3	excuse	excus	ADJ	_	ADJ__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Par contre pour l’ASL elle réuni les copros parkings/appartements et l’unique propriétaire d’un lot (un immeuble entier en location social) qui est aussi le syndic des copros.
+1	Par	Par	ADP	_	ADP___	1	case	_	_
+2	contre	contrer	ADP	_	ADP___	3	fixed	_	_
+3	pour	pour	ADP	_	ADP___	1	case	_	_
+4	l’	l’	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	det	_	_
+5	ASL	ASL	PROPN	_	PROPN__Gender=Fem|Number=Sing	3	obl	_	_
+6	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	9	nsubj	_	_
+7	réuni	réunir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+8	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+9	copros	copro	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	obj	_	_
+10	parkings	parking	ADJ	_	ADJ__Gender=Masc|Number=Plur	9	obl	_	_
+11	/	/	PUNCT	_	PUNCT___	1	case	_	_
+12	appartements	appartement	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	nmod	_	_
+13	et	et	CCONJ	_	CCONJ___	14	cc	_	_
+14	l’	l’	PROPN	_	PROPN__Gender=Masc|Number=Sing	11	det	_	_
+15	unique	unique	ADJ	_	ADJ__Number=Sing	1	amod	_	_
+16	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	17	conj	_	_
+17	d’	d’	ADP	_	ADP___	20	amod	_	_
+18	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	lot	lot	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obj	_	_
+20	(	(	PUNCT	_	PUNCT___	25	punct	_	_
+21	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+22	immeuble	immeuble	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	appos	_	_
+23	entier	entier	ADJ	_	ADJ__Gender=Masc|Number=Sing	25	amod	_	_
+24	en	en	ADP	_	ADP___	25	case	_	_
+25	location	location	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	obl	_	_
+26	social	social	ADJ	_	ADJ__Gender=Masc|Number=Sing	28	amod	_	_
+27	)	)	PUNCT	_	PUNCT___	28	punct	_	_
+28	qui	qui	PRON	_	PRON__PronType=Rel	25	nsubj	_	_
+29	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	cop	_	_
+30	aussi	aussi	ADV	_	ADV___	32	advmod	_	_
+31	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	syndic	syndic	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	parataxis	_	_
+33	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	34	det	_	_
+34	copros	copro	NOUN	_	NOUN__Gender=Masc|Number=Plur	32	obj	_	_
+35	.	.	PUNCT	_	PUNCT___	36	punct	_	_
+
+
+#Fort probable donc que la gestion soit délégué, mais je ne vois pas dans quel cas l’état daté ASL pourrait être utile, vu que les dettes envers l’ASL figureraient déjà dans l’état daté des copros, car l’ASL ne collecte pas l’argent des copropriétaires directement.
+1	Fort	fort	ADV	_	ADV___	1	advmod	_	_
+2	probable	probable	ADJ	_	ADJ__Number=Sing	3	nsubj	_	_
+3	donc	donc	ADV	_	ADV___	1	advmod	_	_
+4	que	que	SCONJ	_	SCONJ___	5	mark	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+6	gestion	gestion	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nsubj:pass	_	_
+7	soit	être	CCONJ	_	CCONJ___	8	aux:pass	_	_
+8	délégué	délégué	ADJ	_	ADJ__Gender=Fem|Number=Sing	9	ccomp	_	_
+9	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+10	mais	mais	CCONJ	_	CCONJ___	9	cc	_	_
+11	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+12	ne	ne	ADV	_	ADV__Polarity=Neg	14	advmod	_	_
+13	vois	voir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	conj	_	_
+14	pas	pas	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+15	dans	dan	ADP	_	ADP___	1	case	_	_
+16	quel	quel	DET	_	DET__Gender=Masc|Number=Sing|PronType=Int	17	det	_	_
+17	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obl	_	_
+18	l’	l’	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	état	état	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obj	_	_
+20	daté	dater	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	acl	_	_
+21	ASL	ASL	PROPN	_	PROPN___	25	obj	_	_
+22	pourrait	pouvoir	VERB	_	VERB__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+23	être	être	AUX	_	AUX__VerbForm=Inf	25	cop	_	_
+24	utile	utile	ADJ	_	ADJ__Number=Sing	25	xcomp	_	_
+25	,	,	PUNCT	_	PUNCT___	25	punct	_	_
+26	vu	voir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	mark	_	_
+27	que	que	SCONJ	_	SCONJ___	28	fixed	_	_
+28	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	25	det	_	_
+29	dettes	dette	NOUN	_	NOUN__Gender=Fem|Number=Plur	32	nsubj	_	_
+30	envers	envers	ADJ	_	ADJ__Gender=Masc|Number=Plur	32	amod	_	_
+31	l’	l’	PRON	_	PRON__PronType=Rel	32	det	_	_
+32	ASL	ASL	PROPN	_	PROPN___	25	nmod	_	_
+33	figureraient	figurer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	34	advcl	_	_
+34	déjà	déjà	ADV	_	ADV___	32	advmod	_	_
+35	dans	dan	ADP	_	ADP___	36	case	_	_
+36	l’	l’	DET	_	DET__Definite=Ind|Number=Sing|PronType=Art	34	det	_	_
+37	état	état	NOUN	_	NOUN__Gender=Masc|Number=Sing	39	obl	_	_
+38	daté	dater	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	39	acl	_	_
+39	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	36	det	_	_
+40	copros	copro	NOUN	_	NOUN__Gender=Masc|Number=Plur	39	obj	_	_
+41	,	,	PUNCT	_	PUNCT___	43	punct	_	_
+42	car	car	CCONJ	_	CCONJ___	43	cc	_	_
+43	l’	l’	PROPN	_	PROPN__Gender=Masc|Number=Sing	32	det	_	_
+44	ASL	ASL	PROPN	_	PROPN___	25	nsubj	_	_
+45	ne	ne	ADV	_	ADV__Polarity=Neg	47	advmod	_	_
+46	collecte	collecter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	conj	_	_
+47	pas	pas	ADV	_	ADV__Polarity=Neg	47	advmod	_	_
+48	l’	l’	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	47	det	_	_
+49	argent	argent	NOUN	_	NOUN__Gender=Masc|Number=Sing	53	obj	_	_
+50	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	49	det	_	_
+51	copropriétaires	copropriétaire	NOUN	_	NOUN__Gender=Fem|Number=Plur	53	obj	_	_
+52	directement	directement	ADV	_	ADV___	53	advmod	_	_
+53	.	.	PUNCT	_	PUNCT___	55	punct	_	_
+
+

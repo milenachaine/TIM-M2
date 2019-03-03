@@ -1,0 +1,233 @@
+#Bonjour,
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#- Le fait que l'avocat soit le frère du demandeur n'a pas d'incidence sur la demande.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+3	fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nsubj	_	_
+4	que	que	SCONJ	_	SCONJ___	5	mark	_	_
+5	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+6	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nsubj	_	_
+7	soit	être	CCONJ	_	CCONJ___	8	cop	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+9	frère	frère	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+10	du	du	DET	_	DET__Gender=Masc|Number=Sing	11	det	_	_
+11	demandeur	demandeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+12	n'	ne	ADV	_	ADV__Polarity=Neg	13	advmod	_	_
+13	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+14	pas	pas	ADV	_	ADV__Polarity=Neg	15	advmod	_	_
+15	d'	de	DET	_	DET__Definite=Ind|Number=Sing|PronType=Art	15	det	_	_
+16	incidence	incidence	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obj	_	_
+17	sur	sur	ADP	_	ADP___	18	case	_	_
+18	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+19	demande	demande	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	nmod	_	_
+20	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Si elle est recevable, elle sera traitée (mais pas forcément gagnée), sinon le demandeur sera débouté.
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	1	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+4	recevable	recevable	ADJ	_	ADJ__Number=Sing	5	advcl	_	_
+5	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+6	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	11	nsubj:pass	_	_
+7	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	aux:pass	_	_
+8	traitée	traiter	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+9	(	(	PUNCT	_	PUNCT___	11	punct	_	_
+10	mais	mais	CCONJ	_	CCONJ___	11	cc	_	_
+11	pas	pas	ADV	_	ADV___	5	advmod	_	_
+12	forcément	forcément	ADV	_	ADV___	13	advmod	_	_
+13	gagnée	gagner	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	obl	_	_
+14	)	)	PUNCT	_	PUNCT___	15	punct	_	_
+15	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+16	sinon	sinon	ADV	_	ADV___	15	parataxis	_	_
+17	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	demandeur	demandeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obj	_	_
+19	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	21	cop	_	_
+20	débouté	débouter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	21	conj	_	_
+21	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#- Quitter le lieu de vie de l'enfant sans jugement et sans obligation professionnelle peut être considéré comme un éloignement géographique volontaire (EGV).
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	Quitter	quitter	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+4	lieu	lieu	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+5	de	de	ADP	_	ADP___	15	case	_	_
+6	vie	vie	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+7	de	de	ADP	_	ADP___	8	case	_	_
+8	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+9	enfant	enfant	NOUN	_	NOUN__Number=Sing	11	nmod	_	_
+10	sans	sans	ADP	_	ADP___	11	case	_	_
+11	jugement	jugement	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+12	et	et	CCONJ	_	CCONJ___	13	cc	_	_
+13	sans	sans	ADP	_	ADP___	11	case	_	_
+14	obligation	obligation	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	conj	_	_
+15	professionnelle	professionnel	ADJ	_	ADJ__Gender=Fem|Number=Sing	15	amod	_	_
+16	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	punct	_	_
+17	être	être	AUX	_	AUX__VerbForm=Inf	18	aux:pass	_	_
+18	considéré	considérer	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	15	cop	_	_
+19	comme	comme	ADP	_	ADP___	21	case	_	_
+20	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	éloignement	éloignement	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	amod	_	_
+22	géographique	géographique	ADJ	_	ADJ__Number=Sing	15	xcomp	_	_
+23	volontaire	volontaire	ADJ	_	ADJ__Number=Sing	26	amod	_	_
+24	(	(	PUNCT	_	PUNCT___	26	punct	_	_
+25	EGV	egv	NOUN	_	NOUN___	26	appos	_	_
+26	)	)	PUNCT	_	PUNCT___	30	punct	_	_
+27	.	.	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#Dans ce cas, surtout si vous le faites sans en référer au JAF, vous risquez de perdre la garde de l'enfant, d'être condamnée à payer tous les frais de trajets pour les DVH qui vous seraient accordées, ainsi qu'une pension alimentaire.
+1	Dans	Dans	ADP	_	ADP___	1	case	_	_
+2	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	1	det	_	_
+3	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obl	_	_
+4	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+5	surtout	surtout	ADV	_	ADV___	15	advmod	_	_
+6	si	si	SCONJ	_	SCONJ___	11	mark	_	_
+7	vous	vous	PRON	_	PRON__Number=Plur|Person=2	8	nsubj	_	_
+8	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	11	obj	_	_
+9	faites	faite	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	advcl	_	_
+10	sans	sans	ADP	_	ADP___	11	mark	_	_
+11	en	en	PRON	_	PRON__Person=3	5	iobj	_	_
+12	référer	référer	VERB	_	VERB__VerbForm=Inf	13	advcl	_	_
+13	au	au	ADV	_	ADV__PronType=Int	11	case	_	_
+14	JAF	JAF	PROPN	_	PROPN___	15	obl	_	_
+15	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+16	vous	vous	PRON	_	PRON__Number=Plur|Person=2	15	nsubj	_	_
+17	risquez	risquer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+18	de	de	ADP	_	ADP___	15	mark	_	_
+19	perdre	perdre	VERB	_	VERB__VerbForm=Inf	21	xcomp	_	_
+20	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	garde	garde	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	obj	_	_
+22	de	de	ADP	_	ADP___	15	case	_	_
+23	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	26	det	_	_
+24	enfant	enfant	NOUN	_	NOUN__Number=Sing	26	nmod	_	_
+25	,	,	PUNCT	_	PUNCT___	26	punct	_	_
+26	d'	de	ADP	_	ADP___	30	mark	_	_
+27	être	être	AUX	_	AUX__VerbForm=Inf	30	aux:pass	_	_
+28	condamnée	condamner	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	30	advcl	_	_
+29	à	à	ADP	_	ADP___	30	mark	_	_
+30	payer	payer	VERB	_	VERB__VerbForm=Inf	30	xcomp	_	_
+31	tous	tou	ADJ	_	ADJ__Gender=Masc|Number=Plur	30	amod	_	_
+32	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	34	det	_	_
+33	frais	frais	NOUN	_	NOUN__Gender=Masc|Number=Plur	34	obj	_	_
+34	de	de	ADP	_	ADP___	35	case	_	_
+35	trajets	trajet	NOUN	_	NOUN__Gender=Masc|Number=Plur	30	nmod	_	_
+36	pour	pour	ADP	_	ADP___	30	case	_	_
+37	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	30	det	_	_
+38	DVH	DVH	PROPN	_	PROPN___	30	nmod	_	_
+39	qui	qui	PRON	_	PRON__PronType=Rel	40	nsubj:pass	_	_
+40	vous	vous	PRON	_	PRON__Number=Plur|Person=2	38	iobj	_	_
+41	seraient	être	AUX	_	AUX__Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	42	aux:pass	_	_
+42	accordées	accorder	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	30	acl:relcl	_	_
+43	,	,	PUNCT	_	PUNCT___	30	punct	_	_
+44	ainsi	ainsi	ADV	_	ADV___	45	cc	_	_
+45	qu'	que	SCONJ	_	SCONJ___	45	fixed	_	_
+46	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
+47	pension	pension	NOUN	_	NOUN__Gender=Fem|Number=Sing	45	conj	_	_
+48	alimentaire	alimentaire	ADJ	_	ADJ__Number=Sing	49	amod	_	_
+49	.	.	PUNCT	_	PUNCT___	47	punct	_	_
+
+
+#Savez-vous comment le père envisagerait votre départ ?
+1	Savez-vous	savez-vous	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	comment	comment	ADV	_	ADV__PronType=Int	1	advmod	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+4	père	père	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+5	envisagerait	envisager	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+6	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	11	nmod:poss	_	_
+7	départ	départ	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+8	?	?	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#C'est la première question à vous poser.
+1	C'	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+4	première	premier	ADJ	_	ADJ__Gender=Fem|Number=Sing|NumType=Ord	5	amod	_	_
+5	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+6	à	à	ADP	_	ADP___	11	mark	_	_
+7	vous	vous	PRON	_	PRON__Number=Plur|Person=2	8	iobj	_	_
+8	poser	poser	VERB	_	VERB__VerbForm=Inf	11	xcomp	_	_
+9	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#D'autre part, de quand date le jugement ?
+1	D'	D'	ADP	_	ADP___	1	advmod	_	_
+2	autre	autre	ADJ	_	ADJ__Number=Sing	1	fixed	_	_
+3	part	part	NOUN	_	NOUN__Number=Sing	15	fixed	_	_
+4	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+5	de	de	ADP	_	ADP___	15	case	_	_
+6	quand	quand	SCONJ	_	SCONJ___	11	nummod	_	_
+7	date	date	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nsubj	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+9	jugement	jugement	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+10	?	?	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Parce que les JAF n'aiment pas beaucoup avoir l'impression d'être pris pour des imbéciles : garde attribuée à la mère sur base de conservation des lieux de vie de l'enfant (par exemple), puis projet complètement différent quelques mois après, risquant de mettre en péril le lien de celui-ci avec son père...
+1	Parce	Parce	SCONJ	_	SCONJ___	1	mark	_	_
+2	que	que	SCONJ	_	SCONJ___	1	fixed	_	_
+3	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	15	det	_	_
+4	JAF	JAF	PROPN	_	PROPN___	5	nsubj	_	_
+5	n'	ne	ADV	_	ADV__Polarity=Neg	15	advmod	_	_
+6	aiment	aimer	ADV	_	ADV___	11	aux	_	_
+7	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+8	beaucoup	beaucoup	ADV	_	ADV___	11	advmod	_	_
+9	avoir	avoir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+10	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	impression	impression	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obj	_	_
+12	d'	de	ADP	_	ADP___	13	mark	_	_
+13	être	être	AUX	_	AUX__VerbForm=Inf	11	aux:pass	_	_
+14	pris	prendre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part|Voice=Pass	15	acl	_	_
+15	pour	pour	ADP	_	ADP___	15	case	_	_
+16	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	15	det	_	_
+17	imbéciles	imbécile	NOUN	_	NOUN__Gender=Masc|Number=Plur	18	obl	_	_
+18	:	:	PUNCT	_	PUNCT___	15	punct	_	_
+19	garde	garde	NOUN	_	NOUN__Number=Sing	21	appos	_	_
+20	attribuée	attribuer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	21	acl	_	_
+21	à	à	ADP	_	ADP___	18	case	_	_
+22	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+23	mère	mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	obl	_	_
+24	sur	sur	ADP	_	ADP___	26	case	_	_
+25	base	base	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	nmod	_	_
+26	de	de	ADP	_	ADP___	30	case	_	_
+27	conservation	conservation	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	nmod	_	_
+28	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	30	det	_	_
+29	lieux	lieu	NOUN	_	NOUN__Gender=Masc|Number=Plur	30	nmod	_	_
+30	de	de	ADP	_	ADP___	30	case	_	_
+31	vie	vie	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	nmod	_	_
+32	de	de	ADP	_	ADP___	34	case	_	_
+33	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	34	det	_	_
+34	enfant	enfant	NOUN	_	NOUN__Number=Sing	35	nmod	_	_
+35	(	(	PUNCT	_	PUNCT___	30	punct	_	_
+36	par	par	ADP	_	ADP___	30	advmod	_	_
+37	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	fixed	_	_
+38	)	)	PUNCT	_	PUNCT___	30	punct	_	_
+39	,	,	PUNCT	_	PUNCT___	40	punct	_	_
+40	puis	pouvoir	CCONJ	_	CCONJ___	38	cc	_	_
+41	projet	projet	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	42	nsubj	_	_
+42	complètement	complètement	ADV	_	ADV___	30	advmod	_	_
+43	différent	différent	ADV	_	ADV___	30	conj	_	_
+44	quelques	quelque	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	45	det	_	_
+45	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	45	obj	_	_
+46	après	après	ADP	_	ADP___	47	mark	_	_
+47	,	,	PUNCT	_	PUNCT___	45	punct	_	_
+48	risquant	risquer	VERB	_	VERB__Tense=Pres|VerbForm=Part	49	acl	_	_
+49	de	de	ADP	_	ADP___	47	mark	_	_
+50	mettre	mettre	VERB	_	VERB__VerbForm=Inf	52	xcomp	_	_
+51	en	en	ADP	_	ADP___	52	case	_	_
+52	péril	péril	VERB	_	VERB__VerbForm=Inf	47	obl	_	_
+53	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
+54	lien	lien	NOUN	_	NOUN__Gender=Masc|Number=Sing	45	obj	_	_
+55	de	de	ADP	_	ADP___	57	case	_	_
+56	celui-ci	celui-ci	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Dem	57	nmod	_	_
+57	avec	avec	ADP	_	ADP___	54	case	_	_
+58	son	son	DET	_	DET__Number=Sing|Poss=Yes	57	nmod:poss	_	_
+59	père	père	NOUN	_	NOUN__Gender=Masc|Number=Sing	45	obl	_	_
+60	...	...	PUNCT	_	PUNCT___	65	punct	_	_
+
+

@@ -1,0 +1,143 @@
+#Madame, Monsieur, Bonjour.
+1	Madame	madame	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	Monsieur	monsieur	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	conj	_	_
+4	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+5	Bonjour	Bonjour	PROPN	_	PROPN___	1	conj	_	_
+6	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Notre mère, veuve souhaite de son vivant faire sa succession.
+1	Notre	notre	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	mère	mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	veuve	veuve	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	conj	_	_
+5	souhaite	souhaiter	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	acl	_	_
+6	de	de	ADP	_	ADP___	1	case	_	_
+7	son	son	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+8	vivant	vivre	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nmod	_	_
+9	faire	faire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+10	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	8	nmod:poss	_	_
+11	succession	succession	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+12	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Nous sommes trois enfants.
+1	Nous	nous	PRON	_	PRON__Number=Plur|Person=1	1	nsubj	_	_
+2	sommes	être	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	trois	trois	NUM	_	NUM__NumType=Card	1	nummod	_	_
+4	enfants	enfant	NOUN	_	NOUN__Number=Plur	5	obj	_	_
+5	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Il y a du bien.
+1	Il	il	PRON	_	PRON__Number=Sing|Person=3	0	ROOT	_	_
+2	y	yu	PRON	_	PRON__Person=3	3	fixed	_	_
+3	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	fixed	_	_
+4	du	du	DET	_	DET__Gender=Masc|Number=Sing	5	det	_	_
+5	bien	bien	ADV	_	ADV___	1	obj	_	_
+6	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Notre mère à la moitié de tous les biens et l'usufruit.
+1	Notre	notre	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	mère	mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	à	à	ADP	_	ADP___	1	case	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	moitié	moitié	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+6	de	de	ADP	_	ADP___	1	case	_	_
+7	tous	tou	ADJ	_	ADJ__Gender=Masc|Number=Plur	8	amod	_	_
+8	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	15	det	_	_
+9	biens	bien	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	nmod	_	_
+10	et	et	CCONJ	_	CCONJ___	8	cc	_	_
+11	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+12	usufruit	usufruit	NOUN	_	NOUN__Number=Sing	14	conj	_	_
+13	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#L'autre moitie est divisée en 4 parts (Notre mère plus nous trois).
+1	L'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+2	autre	autre	ADJ	_	ADJ__Number=Sing	3	amod	_	_
+3	moitie	moitir	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj:pass	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	divisée	diviser	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+6	en	en	ADP	_	ADP___	1	case	_	_
+7	4	4	NUM	_	NUM__NumType=Card	8	nummod	_	_
+8	parts	part	NOUN	_	NOUN__Number=Plur	15	obl	_	_
+9	(	(	PUNCT	_	PUNCT___	10	punct	_	_
+10	Notre	notre	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+11	mère	mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	appos	_	_
+12	plus	plus	ADV	_	ADV___	14	advmod	_	_
+13	nous	nous	PRON	_	PRON__Number=Plur|Person=1	14	nmod	_	_
+14	trois	trois	NUM	_	NUM__NumType=Card	11	nummod	_	_
+15	)	)	PUNCT	_	PUNCT___	15	punct	_	_
+16	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Un des enfants bloque (comme à son habitude la situation).
+1	Un	un	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	1	det	_	_
+2	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	3	det	_	_
+3	enfants	enfant	NOUN	_	NOUN__Number=Plur	0	ROOT	_	_
+4	bloque	bloqu	ADJ	_	ADJ___	5	amod	_	_
+5	(	(	PUNCT	_	PUNCT___	1	punct	_	_
+6	comme	comme	ADP	_	ADP___	1	case	_	_
+7	à	à	ADP	_	ADP___	8	case	_	_
+8	son	son	DET	_	DET__Number=Sing|Poss=Yes	15	nmod:poss	_	_
+9	habitude	habitude	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+11	situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+12	)	)	PUNCT	_	PUNCT___	14	punct	_	_
+13	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Y-a
+1	Y	Y	PROPN	_	PROPN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	-	-	PUNCT	_	PUNCT___	3	fixed	_	_
+3	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	fixed	_	_
+
+
+#-T-Il une autre solution afin d'éviter le blocage :
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	T	t	NOUN	_	NOUN___	0	ROOT	_	_
+3	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+4	Il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nmod	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+6	autre	autre	ADJ	_	ADJ__Number=Sing	1	amod	_	_
+7	solution	solution	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+8	afin	afin	ADP	_	ADP___	15	mark	_	_
+9	d'	de	ADP	_	ADP___	10	fixed	_	_
+10	éviter	éviter	VERB	_	VERB__VerbForm=Inf	8	acl	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+12	blocage	blocage	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obj	_	_
+13	:	:	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Que notre mère fasse un testament par exemple ou autre ?
+1	Que	Que	SCONJ	_	SCONJ___	1	mark	_	_
+2	notre	notre	DET	_	DET__Number=Sing|Poss=Yes	3	nmod:poss	_	_
+3	mère	mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+4	fasse	faire	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+6	testament	testament	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+7	par	par	ADP	_	ADP___	8	advmod	_	_
+8	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	fixed	_	_
+9	ou	ou	CCONJ	_	CCONJ___	10	cc	_	_
+10	autre	autre	ADJ	_	ADJ__Number=Sing	8	conj	_	_
+11	?	?	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#En vous remerciant de vos réponses.
+1	En	En	ADP	_	ADP___	1	mark	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	3	iobj	_	_
+3	remerciant	remercier	VERB	_	VERB__Tense=Pres|VerbForm=Part	0	ROOT	_	_
+4	de	de	ADP	_	ADP___	5	case	_	_
+5	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	1	nmod:poss	_	_
+6	réponses	réponse	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	obl	_	_
+7	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Cordialement.
+1	Cordialement	cordialement	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+

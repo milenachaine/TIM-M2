@@ -1,0 +1,70 @@
+#Bonjour, Savez
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	Savez	savoir	VERB	_	VERB__Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	conj	_	_
+
+
+#vous, lors d'une démission d'un salarié et que celui-ci tombe en arrêt maladie lors des derniers jours/semaines comment cela se passe y-il ?
+1	vous	vous	PRON	_	PRON__Number=Plur|Person=2	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	lors	lors	ADV	_	ADV___	1	case	_	_
+4	d'	de	ADP	_	ADP___	4	fixed	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+6	démission	démission	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nmod	_	_
+7	d'	de	ADP	_	ADP___	6	case	_	_
+8	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	salarié	salarié	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+10	et	et	CCONJ	_	CCONJ___	12	cc	_	_
+11	que	que	SCONJ	_	SCONJ___	12	mark	_	_
+12	celui-ci	celui-ci	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Dem	9	nsubj	_	_
+13	tombe	tombe	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	conj	_	_
+14	en	en	ADP	_	ADP___	16	case	_	_
+15	arrêt	arrêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obl	_	_
+16	maladie	maladie	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obj	_	_
+17	lors	lors	ADV	_	ADV___	18	case	_	_
+18	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	16	det	_	_
+19	derniers	dernier	ADJ	_	ADJ__Gender=Masc|Number=Plur|NumType=Ord	16	amod	_	_
+20	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	23	obl	_	_
+21	/	/	CCONJ	_	CCONJ___	23	case	_	_
+22	semaines	semaine	NOUN	_	NOUN__Gender=Fem|Number=Plur	23	nmod	_	_
+23	comment	comment	ADV	_	ADV__PronType=Int	16	advmod	_	_
+24	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	25	nsubj	_	_
+25	se	se	PRON	_	PRON__Person=3|Reflex=Yes	23	expl	_	_
+26	passe	passer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	ccomp	_	_
+27	y	yu	PRON	_	PRON__Person=3	29	advmod	_	_
+28	-	-	PUNCT	_	PUNCT___	29	punct	_	_
+29	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	16	nsubj	_	_
+30	?	?	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#Doit il effectuer les derniers jours du préavis ?
+1	Doit	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+3	effectuer	effectuer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+5	derniers	dernier	ADJ	_	ADJ__Gender=Masc|Number=Plur|NumType=Ord	4	amod	_	_
+6	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	obj	_	_
+7	du	du	DET	_	DET__Gender=Masc|Number=Sing	6	det	_	_
+8	préavis	préavis	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+9	?	?	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Les deux partis peuvent ils s'arranger ?
+1	Les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+2	deux	deux	NUM	_	NUM__NumType=Card	3	nummod	_	_
+3	partis	parti	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	nsubj	_	_
+4	peuvent	pouvoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	4	nsubj	_	_
+6	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	9	expl	_	_
+7	arranger	arranger	VERB	_	VERB__VerbForm=Inf	6	xcomp	_	_
+8	?	?	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Merci de votre aide.
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	de	de	ADP	_	ADP___	3	case	_	_
+3	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+4	aide	aide	NOUN	_	NOUN__Number=Sing	4	nmod	_	_
+5	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+

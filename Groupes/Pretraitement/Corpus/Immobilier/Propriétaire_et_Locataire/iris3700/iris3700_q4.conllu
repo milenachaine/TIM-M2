@@ -1,0 +1,185 @@
+#Bonjour,
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Non, le propriétaire ne possède pas de chambre pour son usage personnel.
+1	Non	non	ADV	_	ADV___	1	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+4	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	8	nsubj	_	_
+5	ne	ne	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+6	possède	posséder	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+8	de	de	DET	_	DET__Definite=Ind|Number=Sing|PronType=Art	8	det	_	_
+9	chambre	chambre	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+10	pour	pour	ADP	_	ADP___	11	case	_	_
+11	son	son	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+12	usage	usage	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nmod	_	_
+13	personnel	personnel	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	amod	_	_
+14	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#De quelle(s) surface(s) parlez vous ?
+1	De	De	ADP	_	ADP___	1	mark	_	_
+2	quelle(s	quelle(s	ADV	_	ADV___	1	fixed	_	_
+3	)	)	PUNCT	_	PUNCT___	8	punct	_	_
+4	surface(s	surface(	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	nsubj	_	_
+5	)	)	PUNCT	_	PUNCT___	6	punct	_	_
+6	parlez	parler	VERB	_	VERB__Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	vous	vous	PRON	_	PRON__Number=Plur|Person=2	8	obj	_	_
+8	?	?	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Quelle est la surface de votre chambre ?
+1	Quelle	quell	ADJ	_	ADJ__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+4	surface	surface	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nsubj	_	_
+5	de	de	ADP	_	ADP___	6	case	_	_
+6	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+7	chambre	chambre	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+8	?	?	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#De combien de pièces se compose la maison et à quelles pièces avez vous accès ?
+1	De	De	ADP	_	ADP___	1	mark	_	_
+2	combien	combien	ADV	_	ADV__PronType=Int	1	fixed	_	_
+3	de	de	ADP	_	ADP___	8	case	_	_
+4	pièces	pièce	NOUN	_	NOUN__Gender=Fem|Number=Plur	8	nmod	_	_
+5	se	se	PRON	_	PRON__Person=3|Reflex=Yes	6	expl	_	_
+6	compose	composer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+9	et	et	CCONJ	_	CCONJ___	8	cc	_	_
+10	à	à	ADP	_	ADP___	11	case	_	_
+11	quelles	quel	DET	_	DET__Gender=Fem|Number=Plur|PronType=Int	8	det	_	_
+12	pièces	pièce	NOUN	_	NOUN__Gender=Fem|Number=Plur	14	conj	_	_
+13	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	vous	vous	PRON	_	PRON__Number=Plur|Person=2	11	expl	_	_
+15	accès	accès	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	conj	_	_
+16	?	?	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Je possède une chambre munie d'une salle de bain qui mesure en tout 27 m², or il est écrit 35m² sur le bail.
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	possède	posséder	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+4	chambre	chambre	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+5	munie	munir	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	amod	_	_
+6	d'	de	ADP	_	ADP___	8	case	_	_
+7	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	salle	salle	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+9	de	de	ADP	_	ADP___	8	case	_	_
+10	bain	bain	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+11	qui	qui	PRON	_	PRON__PronType=Rel	8	nsubj	_	_
+12	mesure	mesure	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	acl:relcl	_	_
+13	en	en	ADP	_	ADP___	14	case	_	_
+14	tout	tout	ADV	_	ADV___	11	det	_	_
+15	27	27	NUM	_	NUM__NumType=Card	11	nummod	_	_
+16	m²	m²	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obl	_	_
+17	,	,	PUNCT	_	PUNCT___	22	punct	_	_
+18	or	or	CCONJ	_	CCONJ___	17	mark	_	_
+19	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	22	nsubj	_	_
+20	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+21	écrit	écrire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	parataxis	_	_
+22	35	35	NUM	_	NUM__NumType=Card	22	nummod	_	_
+23	m²	m²	NOUN	_	NOUN__Gender=Masc|Number=Plur	22	obj	_	_
+24	sur	sur	ADP	_	ADP___	22	case	_	_
+25	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+26	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	nmod	_	_
+27	.	.	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#Je parle bien de la surface "privative".
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	parle	parler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	bien	bien	ADV	_	ADV___	8	advmod	_	_
+4	de	de	ADP	_	ADP___	8	case	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	surface	surface	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+7	"	"	PUNCT	_	PUNCT___	8	punct	_	_
+8	privative	privatif	ADJ	_	ADJ__Gender=Fem|Number=Sing	8	amod	_	_
+9	"	"	PUNCT	_	PUNCT___	8	punct	_	_
+10	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Il y a 6 chambres (dont 3 avec leur salle de bain), 1 salle de bain commune pour ceux qui n'en possèdent pas dans leur chambre, 2 WC, 2 garages, 1 salon/salle à manger/cuisine, ainsi qu'une autre pièce de stockage en sous sol.
+1	Il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	0	ROOT	_	_
+2	y	yu	PRON	_	PRON__Person=3	1	fixed	_	_
+3	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	fixed	_	_
+4	6	6	NUM	_	NUM__NumType=Card	8	nummod	_	_
+5	chambres	chambre	NOUN	_	NOUN__Gender=Fem|Number=Plur	6	obj	_	_
+6	(	(	PUNCT	_	PUNCT___	8	punct	_	_
+7	dont	dont	PRON	_	PRON__PronType=Rel	8	dep	_	_
+8	3	3	PRON	_	PRON__NumType=Card|PronType=Rel	8	acl:relcl	_	_
+9	avec	avec	ADP	_	ADP___	8	case	_	_
+10	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	11	nmod:poss	_	_
+11	salle	salle	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+12	de	de	ADP	_	ADP___	14	case	_	_
+13	bain	bain	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nmod	_	_
+14	)	)	PUNCT	_	PUNCT___	11	punct	_	_
+15	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+16	1	1	NUM	_	NUM__NumType=Card	8	nummod	_	_
+17	salle	salle	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	conj	_	_
+18	de	de	ADP	_	ADP___	17	case	_	_
+19	bain	bain	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	nmod	_	_
+20	commune	commun	ADJ	_	ADJ__Gender=Fem|Number=Sing	22	amod	_	_
+21	pour	pour	ADP	_	ADP___	22	case	_	_
+22	ceux	celui	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Dem	22	nmod	_	_
+23	qui	qui	PRON	_	PRON__PronType=Rel	22	nsubj	_	_
+24	n'	ne	ADV	_	ADV__Polarity=Neg	22	advmod	_	_
+25	en	en	PRON	_	PRON__Person=3	25	iobj	_	_
+26	possèdent	posséder	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
+27	pas	pas	ADV	_	ADV__Polarity=Neg	28	advmod	_	_
+28	dans	dan	ADP	_	ADP___	25	case	_	_
+29	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	31	nmod:poss	_	_
+30	chambre	chambre	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	obl	_	_
+31	,	,	PUNCT	_	PUNCT___	28	punct	_	_
+32	2	2	NUM	_	NUM__NumType=Card	25	nummod	_	_
+33	WC	wc	NOUN	_	NOUN___	38	conj	_	_
+34	,	,	PUNCT	_	PUNCT___	33	punct	_	_
+35	2	2	NUM	_	NUM__NumType=Card	36	nummod	_	_
+36	garages	garage	NOUN	_	NOUN__Gender=Masc|Number=Plur	34	nmod	_	_
+37	,	,	PUNCT	_	PUNCT___	38	punct	_	_
+38	1	1	NUM	_	NUM__NumType=Card	38	nummod	_	_
+39	salon	salon	NOUN	_	NOUN__Gender=Masc|Number=Sing	40	nmod	_	_
+40	/	/	ADP	_	ADP___	38	fixed	_	_
+41	salle	salle	NOUN	_	NOUN__Gender=Fem|Number=Sing	44	nmod	_	_
+42	à	à	ADP	_	ADP___	44	mark	_	_
+43	manger	manger	VERB	_	VERB__VerbForm=Inf	44	acl	_	_
+44	/	/	ADP	_	ADP___	40	case	_	_
+45	cuisine	cuisine	NOUN	_	NOUN__Gender=Fem|Number=Sing	47	nmod	_	_
+46	,	,	PUNCT	_	PUNCT___	47	punct	_	_
+47	ainsi	ainsi	ADV	_	ADV___	38	cc	_	_
+48	qu'	que	SCONJ	_	SCONJ___	38	fixed	_	_
+49	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
+50	autre	autre	ADJ	_	ADJ__Number=Sing	50	amod	_	_
+51	pièce	pièce	NOUN	_	NOUN__Gender=Fem|Number=Sing	52	conj	_	_
+52	de	de	ADP	_	ADP___	50	case	_	_
+53	stockage	stockage	NOUN	_	NOUN__Gender=Fem|Number=Sing	52	nmod	_	_
+54	en	en	ADP	_	ADP___	56	case	_	_
+55	sous	sou	ADP	_	ADP___	56	fixed	_	_
+56	sol	sol	NOUN	_	NOUN__Gender=Masc|Number=Sing	52	nmod	_	_
+57	.	.	PUNCT	_	PUNCT___	58	punct	_	_
+
+
+#J'ai accès à la cuisine, au garage, ainsi qu'à 1 WC.
+1	J'	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	accès	accès	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	à	à	ADP	_	ADP___	8	case	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	cuisine	cuisine	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+7	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+8	au	au	PRON	_	PRON__PronType=Rel	8	det	_	_
+9	garage	garage	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+10	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+11	ainsi	ainsi	ADV	_	ADV___	8	cc	_	_
+12	qu'	que	SCONJ	_	SCONJ___	14	fixed	_	_
+13	à	à	ADP	_	ADP___	14	case	_	_
+14	1	1	NUM	_	NUM__NumType=Card	11	nummod	_	_
+15	WC	WC	PROPN	_	PROPN___	11	conj	_	_
+16	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+

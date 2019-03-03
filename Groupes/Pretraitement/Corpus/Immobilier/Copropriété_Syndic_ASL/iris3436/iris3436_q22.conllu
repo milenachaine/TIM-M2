@@ -1,0 +1,316 @@
+#OK !
+1	OK	OK	CCONJ	_	CCONJ___	0	ROOT	_	_
+2	!	!	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#J'avoue que cela peut paraitre confus.
+1	J'	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	avoue	avouer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	que	que	SCONJ	_	SCONJ___	4	mark	_	_
+4	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	4	nsubj	_	_
+5	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+6	paraitre	paraitre	VERB	_	VERB__VerbForm=Inf	8	ccomp	_	_
+7	confus	confu	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	xcomp	_	_
+8	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Je vais essayer de résumer depuis le début, à voir avec le plan ci-joint.
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	vais	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	essayer	essayer	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+4	de	de	ADP	_	ADP___	4	mark	_	_
+5	résumer	résumer	VERB	_	VERB__VerbForm=Inf	8	xcomp	_	_
+6	depuis	depuis	ADP	_	ADP___	8	case	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	début	début	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+9	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+10	à	à	ADP	_	ADP___	4	mark	_	_
+11	voir	voir	VERB	_	VERB__VerbForm=Inf	12	xcomp	_	_
+12	avec	avec	ADP	_	ADP___	12	case	_	_
+13	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+14	plan	plan	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obl	_	_
+15	ci-joint	ci-joint	ADJ	_	ADJ__Gender=Masc|Number=Sing	13	amod	_	_
+16	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#1er sujet : Je suis propriétaire du box n°48.
+1	1er	1er	ADJ	_	ADJ__NumType=Ord	1	amod	_	_
+2	sujet	sujet	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	mark	_	_
+3	:	:	PUNCT	_	PUNCT___	4	punct	_	_
+4	Je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+5	suis	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+6	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	8	advcl	_	_
+7	du	du	DET	_	DET__Gender=Masc|Number=Sing	8	det	_	_
+8	box	box	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obj	_	_
+9	n	n	NOUN	_	NOUN___	8	nsubj	_	_
+10	°	°	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+11	48	48	NUM	_	NUM__NumType=Card	12	nummod	_	_
+12	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Face à mon box, il y a normalement et selon le RC 3 emplacements privatifs appartenant respectivement à 3 copropriétaires (1,2 et 3 sur le plan)
+1	Face	face	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	case	_	_
+2	à	à	ADP	_	ADP___	1	fixed	_	_
+3	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+4	box	box	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+5	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+6	il	il	PRON	_	PRON__Number=Sing|Person=3	0	ROOT	_	_
+7	y	yu	PRON	_	PRON__Person=3	8	fixed	_	_
+8	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	fixed	_	_
+9	normalement	normalement	ADV	_	ADV___	8	advmod	_	_
+10	et	et	CCONJ	_	CCONJ___	4	cc	_	_
+11	selon	selon	ADP	_	ADP___	12	case	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+13	RC	RC	PROPN	_	PROPN__Gender=Masc|Number=Sing	12	conj	_	_
+14	3	3	NUM	_	NUM__NumType=Card	15	nummod	_	_
+15	emplacements	emplacement	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	nmod	_	_
+16	privatifs	privatif	ADJ	_	ADJ__Gender=Masc|Number=Plur	18	amod	_	_
+17	appartenant	appartenir	VERB	_	VERB__Tense=Pres|VerbForm=Part	18	acl	_	_
+18	respectivement	respectivement	ADV	_	ADV___	15	advmod	_	_
+19	à	à	ADP	_	ADP___	12	case	_	_
+20	3	3	NUM	_	NUM__NumType=Card	21	nummod	_	_
+21	copropriétaires	copropriétaire	NOUN	_	NOUN__Gender=Fem|Number=Plur	12	obl	_	_
+22	(	(	PUNCT	_	PUNCT___	24	punct	_	_
+23	1,2	1,2	NUM	_	NUM__NumType=Card	24	appos	_	_
+24	et	et	CCONJ	_	CCONJ___	21	cc	_	_
+25	3	3	NUM	_	NUM__NumType=Card	24	conj	_	_
+26	sur	sur	ADP	_	ADP___	12	case	_	_
+27	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	plan	plan	NOUN	_	NOUN__Gender=Masc|Number=Sing	32	nmod	_	_
+29	)	)	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#Ce sont ses 3 emplacements qui ont été réduit afin de créer à côté du n°3, toujours face à mon box un nouvel emplacement pris sur les parties communes(en rouge) destiné à être utilisé par les professionnels de santé.
+1	Ce	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+2	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	ses	son	DET	_	DET__Number=Plur|Poss=Yes	4	nmod:poss	_	_
+4	3	3	NUM	_	NUM__NumType=Card	4	nummod	_	_
+5	emplacements	emplacement	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+6	qui	qui	PRON	_	PRON__PronType=Rel	8	nsubj:pass	_	_
+7	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	4	aux:pass	_	_
+9	réduit	réduire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	acl:relcl	_	_
+10	afin	afin	ADP	_	ADP___	4	mark	_	_
+11	de	de	ADP	_	ADP___	12	fixed	_	_
+12	créer	créer	VERB	_	VERB__VerbForm=Inf	12	advcl	_	_
+13	à	à	ADP	_	ADP___	12	case	_	_
+14	côté	côté	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	fixed	_	_
+15	du	du	DET	_	DET__Gender=Masc|Number=Sing	13	det	_	_
+16	n	n	NOUN	_	NOUN___	18	obl	_	_
+17	°	°	X	_	X___	18	amod	_	_
+18	3	3	NUM	_	NUM__NumType=Card	15	obj	_	_
+19	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+20	toujours	toujours	ADV	_	ADV___	21	advmod	_	_
+21	face	face	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	case	_	_
+22	à	à	ADP	_	ADP___	24	fixed	_	_
+23	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	24	nmod:poss	_	_
+24	box	box	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obl	_	_
+25	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+26	nouvel	nouvel	ADJ	_	ADJ__Gender=Masc|Number=Sing	12	amod	_	_
+27	emplacement	emplacement	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	obl	_	_
+28	pris	prendre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	32	acl	_	_
+29	sur	sur	ADP	_	ADP___	28	case	_	_
+30	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	32	det	_	_
+31	parties	party	NOUN	_	NOUN__Gender=Fem|Number=Plur	32	obl	_	_
+32	communes(en	communes(en	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	36	det	_	_
+33	rouge	rouge	ADJ	_	ADJ__Gender=Masc|Number=Sing	34	obl	_	_
+34	)	)	PUNCT	_	PUNCT___	32	punct	_	_
+35	destiné	destiner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	36	acl	_	_
+36	à	à	ADP	_	ADP___	36	mark	_	_
+37	être	être	AUX	_	AUX__VerbForm=Inf	36	aux:pass	_	_
+38	utilisé	utiliser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	36	xcomp	_	_
+39	par	par	ADP	_	ADP___	42	case	_	_
+40	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	39	det	_	_
+41	professionnels	professionnel	NOUN	_	NOUN__Gender=Masc|Number=Plur	42	obl	_	_
+42	de	de	ADP	_	ADP___	44	case	_	_
+43	santé	santé	NOUN	_	NOUN__Gender=Fem|Number=Sing	44	nmod	_	_
+44	.	.	PUNCT	_	PUNCT___	44	punct	_	_
+
+
+#Comme ils devaient me laisser 5m devant mon box, l'emplacement créé ne dépasse pas 2,10m.
+1	Comme	Comme	SCONJ	_	SCONJ___	1	mark	_	_
+2	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	1	nsubj	_	_
+3	devaient	devoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	4	expl	_	_
+5	laisser	laisser	VERB	_	VERB__VerbForm=Inf	8	advcl	_	_
+6	5	5	NUM	_	NUM__NumType=Card	8	nummod	_	_
+7	m	m	NOUN	_	NOUN__Gender=Masc	8	obj	_	_
+8	devant	devoir	ADP	_	ADP___	4	case	_	_
+9	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+10	box	box	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+11	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+12	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+13	emplacement	emplacement	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nsubj	_	_
+14	créé	créer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl	_	_
+15	ne	ne	ADV	_	ADV__Polarity=Neg	13	advmod	_	_
+16	dépasse	dépasser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+17	pas	pas	ADV	_	ADV__Polarity=Neg	18	advmod	_	_
+18	2,10	2,10	NUM	_	NUM__NumType=Card	15	nummod	_	_
+19	m	m	NOUN	_	NOUN__Gender=Masc	12	obj	_	_
+20	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Cet emplacement et ce parking se trouvent à proximité immédiate du bâtiment B. C'est ce que j'ai évoqué en début de post et qui me concerne directement.
+1	Cet	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	1	det	_	_
+2	emplacement	emplacement	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	et	et	CCONJ	_	CCONJ___	4	cc	_	_
+4	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+5	parking	parking	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	conj	_	_
+6	se	se	PRON	_	PRON__Person=3|Reflex=Yes	8	expl	_	_
+7	trouvent	trouver	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	à	à	ADP	_	ADP___	4	mark	_	_
+9	proximité	proximité	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	fixed	_	_
+10	immédiate	immédiat	ADJ	_	ADJ__Gender=Fem|Number=Sing	4	xcomp	_	_
+11	du	du	DET	_	DET__Gender=Masc|Number=Sing	12	det	_	_
+12	bâtiment	bâtiment	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+13	B.	B.	PROPN	_	PROPN___	12	nmod	_	_
+14	C'	ce	PRON	_	PRON__Number=Sing|Person=3	15	nsubj	_	_
+15	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+16	ce	ce	PRON	_	PRON__PronType=Rel	18	obl	_	_
+17	que	que	PRON	_	PRON__PronType=Rel	18	obj	_	_
+18	j'	il	PRON	_	PRON__Number=Sing|Person=1	15	nsubj	_	_
+19	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+20	évoqué	évoquer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	acl:relcl	_	_
+21	en	en	ADP	_	ADP___	12	case	_	_
+22	début	début	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	obl	_	_
+23	de	de	ADP	_	ADP___	24	case	_	_
+24	post	post	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	nmod	_	_
+25	et	et	CCONJ	_	CCONJ___	24	cc	_	_
+26	qui	qui	PRON	_	PRON__PronType=Rel	12	nsubj	_	_
+27	me	se	PRON	_	PRON__Number=Sing|Person=1	28	obj	_	_
+28	concerne	concerner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	conj	_	_
+29	directement	directement	ADV	_	ADV___	28	advmod	_	_
+30	.	.	PUNCT	_	PUNCT___	32	punct	_	_
+
+
+#2ème sujet : Il y a un autre parking face au bâtiment A, qui comporte normalement et d'après le plan du RC, 4 emplacements en épis.
+1	2ème	2ème	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	nummod	_	_
+2	sujet	sujet	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	:	:	PUNCT	_	PUNCT___	4	punct	_	_
+4	Il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	appos	_	_
+5	y	yu	PRON	_	PRON__Person=3	8	fixed	_	_
+6	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	fixed	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	autre	autre	ADJ	_	ADJ__Number=Sing	4	amod	_	_
+9	parking	parking	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+10	face	face	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	case	_	_
+11	au	au	ADJ	_	ADJ__NumType=Ord	12	fixed	_	_
+12	bâtiment	bâtiment	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nmod	_	_
+13	A	a	NOUN	_	NOUN___	12	nmod	_	_
+14	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+15	qui	qui	PRON	_	PRON__PronType=Rel	13	nsubj	_	_
+16	comporte	comporter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+17	normalement	normalement	ADV	_	ADV___	18	advmod	_	_
+18	et	et	CCONJ	_	CCONJ___	15	cc	_	_
+19	d'	de	ADP	_	ADP___	12	case	_	_
+20	après	après	ADP	_	ADP___	21	fixed	_	_
+21	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+22	plan	plan	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	conj	_	_
+23	du	du	DET	_	DET__Gender=Masc|Number=Sing	24	det	_	_
+24	RC	RC	PROPN	_	PROPN__Gender=Masc|Number=Sing	21	obj	_	_
+25	,	,	PUNCT	_	PUNCT___	24	punct	_	_
+26	4	4	NUM	_	NUM__NumType=Card	12	nummod	_	_
+27	emplacements	emplacement	NOUN	_	NOUN__Gender=Masc|Number=Plur	28	conj	_	_
+28	en	en	ADP	_	ADP___	32	case	_	_
+29	épis	épi	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	nmod	_	_
+30	.	.	PUNCT	_	PUNCT___	32	punct	_	_
+
+
+#Les 4 emplacements ont été réduits pour en créer un cinquième lors des travaux d'enrobage.
+1	Les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+2	4	4	NUM	_	NUM__NumType=Card	1	nummod	_	_
+3	emplacements	emplacement	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	nsubj:pass	_	_
+4	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+5	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	8	aux:pass	_	_
+6	réduits	réduire	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+7	pour	pour	ADP	_	ADP___	8	mark	_	_
+8	en	en	ADP	_	ADP___	4	iobj	_	_
+9	créer	créer	VERB	_	VERB__VerbForm=Inf	8	advcl	_	_
+10	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+11	cinquième	cinquième	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+12	lors	lors	ADV	_	ADV___	12	case	_	_
+13	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	12	det	_	_
+14	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	obl	_	_
+15	d'	de	ADP	_	ADP___	13	case	_	_
+16	enrobage	enrobage	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	nmod	_	_
+17	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#C'est normalement et en toute logique pour moi un parking destiné aux visiteurs de la résidence.
+1	C'	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	normalement	normalement	ADV	_	ADV___	4	advmod	_	_
+4	et	et	CCONJ	_	CCONJ___	4	cc	_	_
+5	en	en	ADP	_	ADP___	8	case	_	_
+6	toute	tout	ADJ	_	ADJ__Gender=Fem|Number=Sing	8	amod	_	_
+7	logique	logique	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+8	pour	pour	ADP	_	ADP___	4	mark	_	_
+9	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	8	advcl	_	_
+10	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+11	parking	parking	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+12	destiné	destiner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
+13	aux	aux	ADJ	_	ADJ__Gender=Masc|Number=Plur	12	fixed	_	_
+14	visiteurs	visiteur	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	fixed	_	_
+15	de	de	ADP	_	ADP___	13	case	_	_
+16	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	résidence	résidence	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	obl	_	_
+18	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Mais, il est occupé en permanence par des copropriétaires, toujours les même d'ailleurs Le problème c'est qu'il n'y a rien dans le RC qui définit la destination de ce parking faisant partie des parties communes J'espère que c'est un peu plus clair pour vous.
+1	Mais	Mais	CCONJ	_	CCONJ___	1	cc	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj:pass	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+5	occupé	occuper	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	acl	_	_
+6	en	en	ADP	_	ADP___	8	case	_	_
+7	permanence	permanence	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+8	par	par	ADP	_	ADP___	4	case	_	_
+9	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
+10	copropriétaires	copropriétaire	NOUN	_	NOUN__Gender=Fem|Number=Plur	4	obl	_	_
+11	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+12	toujours	toujours	ADV	_	ADV___	12	advmod	_	_
+13	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	12	det	_	_
+14	même	même	ADV	_	ADV___	15	amod	_	_
+15	d'	de	ADP	_	ADP___	13	fixed	_	_
+16	ailleurs	ailleur	NOUN	_	NOUN__Gender=Masc	18	fixed	_	_
+17	 	 	SPACE	_	_SP	18		_	_
+18	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+19	problème	problème	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nsubj	_	_
+20	c'	ce	PRON	_	PRON__Number=Sing|Person=3	21	nsubj	_	_
+21	est	être	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	fixed	_	_
+22	qu'	que	SCONJ	_	SCONJ___	24	mark	_	_
+23	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	24	nsubj	_	_
+24	n'	ne	ADV	_	ADV__Polarity=Neg	21	advmod	_	_
+25	y	yu	PRON	_	PRON__Person=3	24	expl	_	_
+26	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	fixed	_	_
+27	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	28	obj	_	_
+28	dans	dan	ADP	_	ADP___	32	case	_	_
+29	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+30	RC	RC	PROPN	_	PROPN__Gender=Masc|Number=Sing	32	obl	_	_
+31	qui	qui	PRON	_	PRON__PronType=Rel	32	nsubj	_	_
+32	définit	définir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	36	acl:relcl	_	_
+33	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	destination	destination	NOUN	_	NOUN__Gender=Fem|Number=Sing	32	obj	_	_
+35	de	de	ADP	_	ADP___	36	case	_	_
+36	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	36	det	_	_
+37	parking	parking	NOUN	_	NOUN__Gender=Masc|Number=Sing	36	nmod	_	_
+38	faisant	faire	VERB	_	VERB__Tense=Pres|VerbForm=Part	36	acl	_	_
+39	partie	partie	NOUN	_	NOUN__Gender=Fem|Number=Sing	42	xcomp	_	_
+40	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	39	det	_	_
+41	parties	party	NOUN	_	NOUN__Gender=Fem|Number=Plur	42	obj	_	_
+42	communes	commun	ADJ	_	ADJ__Gender=Fem|Number=Plur	44	amod	_	_
+43	J'	il	PRON	_	PRON__Number=Sing|Person=1	44	nsubj	_	_
+44	espère	espérer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+45	que	que	SCONJ	_	SCONJ___	44	mark	_	_
+46	c'	ce	PRON	_	PRON__Number=Sing|Person=3	44	nsubj	_	_
+47	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	cop	_	_
+48	un	un	DET	_	DET__Gender=Masc|Number=Sing	51	advmod	_	_
+49	peu	peu	ADV	_	ADV___	51	fixed	_	_
+50	plus	plus	ADV	_	ADV___	51	advmod	_	_
+51	clair	clair	ADJ	_	ADJ__Gender=Masc|Number=Sing	44	ccomp	_	_
+52	pour	pour	ADP	_	ADP___	53	case	_	_
+53	vous	vous	PRON	_	PRON__Number=Plur|Person=2|PronType=Prs	51	obl	_	_
+54	.	.	PUNCT	_	PUNCT___	53	punct	_	_
+
+

@@ -1,0 +1,88 @@
+#Honnêtement, oui.
+1	Honnêtement	honnêtement	ADV	_	ADV___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	oui	oui	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+4	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Je connais mes sœurs et je sais comment elles sont.
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	connais	connaître	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	1	nmod:poss	_	_
+4	sœurs	sœur	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	obj	_	_
+5	et	et	CCONJ	_	CCONJ___	6	cc	_	_
+6	je	il	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+7	sais	savoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	conj	_	_
+8	comment	comment	ADV	_	ADV__PronType=Int	6	advmod	_	_
+9	elles	lui	PRON	_	PRON__Gender=Fem|Number=Plur|Person=3	11	nsubj	_	_
+10	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+11	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Elles ont déjà reçu énormément d'aide financière de la part de ma mère.
+1	Elles	lui	PRON	_	PRON__Gender=Fem|Number=Plur|Person=3	1	nsubj	_	_
+2	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	déjà	déjà	ADV	_	ADV___	1	advmod	_	_
+4	reçu	recevoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	énormément	énormément	ADV	_	ADV___	6	advmod	_	_
+6	d'	de	ADP	_	ADP___	6	case	_	_
+7	aide	aide	NOUN	_	NOUN__Number=Sing	8	obl	_	_
+8	financière	financier	ADJ	_	ADJ__Gender=Fem|Number=Sing	6	amod	_	_
+9	de	de	ADP	_	ADP___	11	case	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	fixed	_	_
+11	part	part	NOUN	_	NOUN__Number=Sing	6	fixed	_	_
+12	de	de	ADP	_	ADP___	11	fixed	_	_
+13	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	14	nmod:poss	_	_
+14	mère	mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+15	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Mais on ne sait jamais ce que l'avenir nous réserve.
+1	Mais	Mais	CCONJ	_	CCONJ___	1	cc	_	_
+2	on	on	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+3	ne	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+4	sait	savoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+5	jamais	jamais	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+6	ce	ce	PRON	_	PRON__PronType=Rel	0	ROOT	_	_
+7	que	que	PRON	_	PRON__PronType=Rel	8	mark	_	_
+8	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+9	avenir	avenir	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nsubj	_	_
+10	nous	nous	PRON	_	PRON__Number=Plur|Person=1	11	iobj	_	_
+11	réserve	réserver	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+12	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Je voulais donc juste savoir si l'héritage devait obligatoirement être réclamer ou s'il y avait des possibilités de négocier si "jamais" elles réclament vraiment leurs parts.
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	voulais	vouloir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+3	donc	donc	ADV	_	ADV___	1	advmod	_	_
+4	juste	juste	ADV	_	ADV___	1	advmod	_	_
+5	savoir	savoir	VERB	_	VERB__VerbForm=Inf	6	xcomp	_	_
+6	si	si	SCONJ	_	SCONJ___	6	mark	_	_
+7	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	héritage	héritage	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nsubj	_	_
+9	devait	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+10	obligatoirement	obligatoirement	ADV	_	ADV___	11	ccomp	_	_
+11	être	être	AUX	_	AUX__VerbForm=Inf	6	aux:pass	_	_
+12	réclamer	réclamer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	xcomp	_	_
+13	ou	ou	CCONJ	_	CCONJ___	14	cc	_	_
+14	s'	si	SCONJ	_	SCONJ___	11	mark	_	_
+15	il	il	PRON	_	PRON__Number=Sing|Person=3	6	nsubj	_	_
+16	y	yu	PRON	_	PRON__Person=3	19	fixed	_	_
+17	avait	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	conj	_	_
+18	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	19	det	_	_
+19	possibilités	possibilité	NOUN	_	NOUN__Gender=Fem|Number=Plur	19	obj	_	_
+20	de	de	ADP	_	ADP___	19	mark	_	_
+21	négocier	négocier	VERB	_	VERB__VerbForm=Inf	22	acl	_	_
+22	si	si	SCONJ	_	SCONJ___	19	mark	_	_
+23	"	"	PUNCT	_	PUNCT___	22	punct	_	_
+24	jamais	jamais	ADV	_	ADV__Polarity=Neg	29	obl	_	_
+25	"	"	PUNCT	_	PUNCT___	24	punct	_	_
+26	elles	lui	PRON	_	PRON__Gender=Fem|Number=Plur|Person=3	24	nsubj	_	_
+27	réclament	réclamer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	acl	_	_
+28	vraiment	vraiment	ADV	_	ADV___	29	advmod	_	_
+29	leurs	leur	DET	_	DET__Number=Plur|Poss=Yes	22	nmod:poss	_	_
+30	parts	part	NOUN	_	NOUN__Number=Plur	19	obj	_	_
+31	.	.	PUNCT	_	PUNCT___	36	punct	_	_
+
+

@@ -1,0 +1,79 @@
+#Faites le calcul de nombre de jours travaillés et de nombre de jours de vacances (posés sur des jours travaillés) dans les deux cas.
+1	Faites	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	calcul	calcul	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+4	de	de	ADP	_	ADP___	5	case	_	_
+5	nombre	nombre	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nmod	_	_
+6	de	de	ADP	_	ADP___	7	case	_	_
+7	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	nmod	_	_
+8	travaillés	travaillé	ADJ	_	ADJ__Gender=Masc|Number=Plur	5	amod	_	_
+9	et	et	CCONJ	_	CCONJ___	11	cc	_	_
+10	de	de	ADP	_	ADP___	11	case	_	_
+11	nombre	nombre	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	conj	_	_
+12	de	de	ADP	_	ADP___	13	case	_	_
+13	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	nmod	_	_
+14	de	de	ADP	_	ADP___	15	case	_	_
+15	vacances	vacance	NOUN	_	NOUN__Gender=Fem|Number=Plur	13	nmod	_	_
+16	(	(	PUNCT	_	PUNCT___	1	punct	_	_
+17	posés	poser	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	acl	_	_
+18	sur	sur	ADP	_	ADP___	20	case	_	_
+19	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	20	det	_	_
+20	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	17	obl	_	_
+21	travaillés	travailler	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	20	acl	_	_
+22	)	)	PUNCT	_	PUNCT___	1	punct	_	_
+23	dans	dan	ADP	_	ADP___	26	case	_	_
+24	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	26	det	_	_
+25	deux	deux	NUM	_	NUM__NumType=Card	26	nummod	_	_
+26	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	obl	_	_
+27	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#L'un pourra plus facilement partir en vacances longtemps que l'autre (s'il ne pose pas une semaine complète cela s'entend).
+1	L'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+2	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	nsubj	_	_
+3	pourra	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	1	aux	_	_
+4	plus	plus	ADV	_	ADV___	5	advmod	_	_
+5	facilement	facilement	ADV	_	ADV___	3	advmod	_	_
+6	partir	partir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+7	en	en	ADP	_	ADP___	5	case	_	_
+8	vacances	vacance	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	obl	_	_
+9	longtemps	longtemps	ADV	_	ADV___	11	advmod	_	_
+10	que	que	SCONJ	_	SCONJ___	11	mark	_	_
+11	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+12	autre	autre	PRON	_	PRON__Number=Sing|PronType=Rel	13	nsubj	_	_
+13	(	(	PUNCT	_	PUNCT___	11	punct	_	_
+14	s'	si	SCONJ	_	SCONJ___	15	mark	_	_
+15	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	13	nsubj	_	_
+16	ne	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+17	pose	poser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+18	pas	pas	ADV	_	ADV__Polarity=Neg	20	advmod	_	_
+19	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	semaine	semaine	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	obl	_	_
+21	complète	complet	ADJ	_	ADJ__Gender=Fem|Number=Sing	20	amod	_	_
+22	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	1	nsubj	_	_
+23	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	26	expl	_	_
+24	entend	entendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	advcl	_	_
+25	)	)	PUNCT	_	PUNCT___	26	punct	_	_
+26	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Mais on dérive pas mal, et il me semble que le sujet a obtenu réponse.
+1	Mais	Mais	CCONJ	_	CCONJ___	1	cc	_	_
+2	on	on	PRON	_	PRON__Number=Sing|Person=3	3	nsubj	_	_
+3	dérive	dériv	ADJ	_	ADJ__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+5	mal	mal	ADV	_	ADV___	3	obj	_	_
+6	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+7	et	et	CCONJ	_	CCONJ___	5	cc	_	_
+8	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+9	me	se	PRON	_	PRON__Number=Sing|Person=1	11	iobj	_	_
+10	semble	sembler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+11	que	que	SCONJ	_	SCONJ___	5	mark	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	sujet	sujet	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nsubj	_	_
+14	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	obtenu	obtenir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	ccomp	_	_
+16	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obj	_	_
+17	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+

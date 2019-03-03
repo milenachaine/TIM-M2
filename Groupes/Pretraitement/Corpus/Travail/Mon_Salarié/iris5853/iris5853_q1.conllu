@@ -1,0 +1,123 @@
+#Bonjour, Je suis auto entrepreneur en France, et je paye donc mes taxes en France.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+4	suis	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	auto	auto	ADJ	_	ADJ__Number=Sing	1	acl:relcl	_	_
+6	entrepreneur	entrepreneur	ADJ	_	ADJ__Gender=Masc|Number=Sing	5	advmod	_	_
+7	en	en	ADP	_	ADP___	8	case	_	_
+8	France	France	PROPN	_	PROPN__Gender=Fem|Number=Sing	5	obl	_	_
+9	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+10	et	et	CCONJ	_	CCONJ___	15	cc	_	_
+11	je	il	PRON	_	PRON__Number=Sing|Person=1	15	nsubj	_	_
+12	paye	payer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	cop	_	_
+13	donc	donc	ADV	_	ADV___	15	advmod	_	_
+14	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	15	nmod:poss	_	_
+15	taxes	taxe	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	conj	_	_
+16	en	en	ADP	_	ADP___	17	case	_	_
+17	France	France	PROPN	_	PROPN__Gender=Fem|Number=Sing	15	nmod	_	_
+18	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Si je me trouve au sein d'un autre pays et que je facture donc des clients de ce meme pays, suis je dans l'illegalité ?
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+3	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	5	expl	_	_
+4	trouve	trouver	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	case	_	_
+6	sein	sein	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	fixed	_	_
+7	d'	de	ADP	_	ADP___	8	fixed	_	_
+8	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+9	autre	autre	ADJ	_	ADJ__Number=Sing	1	amod	_	_
+10	pays	pays	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obj	_	_
+11	et	et	CCONJ	_	CCONJ___	15	cc	_	_
+12	que	que	SCONJ	_	SCONJ___	15	mark	_	_
+13	je	il	PRON	_	PRON__Number=Sing|Person=1	15	nsubj	_	_
+14	facture	facturer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	conj	_	_
+15	donc	donc	ADV	_	ADV___	1	advmod	_	_
+16	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	17	det	_	_
+17	clients	client	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	obj	_	_
+18	de	de	ADP	_	ADP___	1	case	_	_
+19	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	22	det	_	_
+20	meme	meme	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	nmod	_	_
+21	pays	pays	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	amod	_	_
+22	,	,	PUNCT	_	PUNCT___	22	punct	_	_
+23	suis	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	28	cop	_	_
+24	je	il	PRON	_	PRON__Number=Sing|Person=1	23	nsubj	_	_
+25	dans	dan	ADP	_	ADP___	23	case	_	_
+26	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	28	det	_	_
+27	illegalité	illegalité	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	obl	_	_
+28	?	?	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#(sans avoir bien sur de visa de travail au sein de ce pays) est ce considéré comme travailler illegalement ?
+1	(	(	PUNCT	_	PUNCT___	0	ROOT	_	_
+2	sans	sans	ADP	_	ADP___	1	mark	_	_
+3	avoir	avoir	VERB	_	VERB__VerbForm=Inf	5	punct	_	_
+4	bien	bien	ADV	_	ADV___	5	advmod	_	_
+5	sur	sur	ADP	_	ADP___	1	case	_	_
+6	de	de	ADP	_	ADP___	5	det	_	_
+7	visa	visa	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+8	de	de	ADP	_	ADP___	5	case	_	_
+9	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+10	au	au	PRON	_	PRON__PronType=Rel	15	case	_	_
+11	sein	sein	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	fixed	_	_
+12	de	de	ADP	_	ADP___	15	fixed	_	_
+13	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
+14	pays	pays	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nmod	_	_
+15	)	)	PUNCT	_	PUNCT___	1	punct	_	_
+16	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	15	obj	_	_
+18	considéré	considérer	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	aux	_	_
+19	comme	comme	ADP	_	ADP___	22	mark	_	_
+20	travailler	travailler	VERB	_	VERB__VerbForm=Inf	22	acl	_	_
+21	illegalement	illegalement	ADV	_	ADV___	22	advmod	_	_
+22	?	?	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#ou dans la mesure ou je payes des taxes avec mon statut d'auto entrepreneur pour ces même clients tout est bon n'est ce pas ?
+1	ou	ou	CCONJ	_	CCONJ___	1	cc	_	_
+2	dans	dan	ADP	_	ADP___	1	case	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	mesure	mesure	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obl	_	_
+5	ou	ou	CCONJ	_	CCONJ___	1	cc	_	_
+6	je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+7	payes	payer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	conj	_	_
+8	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
+9	taxes	taxe	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	obj	_	_
+10	avec	avec	ADP	_	ADP___	15	case	_	_
+11	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	15	nmod:poss	_	_
+12	statut	statut	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obl	_	_
+13	d'	de	ADP	_	ADP___	15	case	_	_
+14	auto	auto	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nmod	_	_
+15	entrepreneur	entrepreneur	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+16	pour	pour	ADP	_	ADP___	17	case	_	_
+17	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	15	det	_	_
+18	même	même	ADJ	_	ADJ__Number=Sing	1	amod	_	_
+19	clients	client	NOUN	_	NOUN__Gender=Masc|Number=Plur	22	nmod	_	_
+20	tout	tout	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	22	advmod	_	_
+21	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+22	bon	bon	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+23	n'	ne	ADV	_	ADV___	28	advmod	_	_
+24	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+25	ce	ce	PRON	_	PRON__Number=Sing|Person=3	23	det	_	_
+26	pas	pas	ADV	_	ADV__Polarity=Neg	28	advmod	_	_
+27	?	?	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#merci de m'éclairer la dessus,,,
+1	merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	de	de	ADP	_	ADP___	1	mark	_	_
+3	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	5	iobj	_	_
+4	éclairer	éclairer	VERB	_	VERB__VerbForm=Inf	5	acl	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+6	dessus	dessus	ADV	_	ADV___	5	obj	_	_
+7	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+8	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+9	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#,
+1	,	,	PUNCT	_	PUNCT___	0	ROOT	_	_
+
+

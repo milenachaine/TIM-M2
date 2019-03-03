@@ -1,0 +1,223 @@
+#Bonjour,
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#En 1er lieu, par pitié, utilisez le retour chariot, les points, les virgules, là c'est à la limite du lisible...
+1	En	En	ADP	_	ADP___	1	advmod	_	_
+2	1er	1er	ADJ	_	ADJ__NumType=Ord	1	fixed	_	_
+3	lieu	lieu	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	fixed	_	_
+4	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+5	par	par	ADP	_	ADP___	3	case	_	_
+6	pitié	pitié	ADJ	_	ADJ___	3	obl	_	_
+7	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+8	utilisez	utiliser	ADV	_	ADV___	0	ROOT	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	retour	retour	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+11	chariot	chariot	ADJ	_	ADJ___	12	acl	_	_
+12	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+13	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	12	det	_	_
+14	points	point	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	obl	_	_
+15	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+16	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	10	det	_	_
+17	virgules	virgule	NOUN	_	NOUN__Gender=Masc|Number=Plur	19	conj	_	_
+18	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+19	là	là	ADV	_	ADV___	16	cc	_	_
+20	c'	ce	PRON	_	PRON__Number=Sing|Person=3	19	nsubj	_	_
+21	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+22	à	à	ADP	_	ADP___	26	case	_	_
+23	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+24	limite	limite	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	conj	_	_
+25	du	du	DET	_	DET__Gender=Masc|Number=Sing	26	det	_	_
+26	lisible	lisible	ADJ	_	ADJ__Number=Sing	16	amod	_	_
+27	...	...	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#Si j'ai bien compris ;
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	j'	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+3	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+4	bien	bien	ADV	_	ADV___	3	advmod	_	_
+5	compris	compris	ADJ	_	ADJ__Gender=Masc	0	ROOT	_	_
+6	;	;	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#- projet total 360 000 à votre charge dont terrain 160 000, apport perso 120 000 et cash 80 000 ;
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	projet	projet	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	total	total	ADJ	_	ADJ__Gender=Masc|Number=Sing	10	amod	_	_
+4	360	360	NUM	_	NUM__NumType=Card	3	nummod	_	_
+5	000	000	NUM	_	NUM__NumType=Card	3	nmod	_	_
+6	à	à	ADP	_	ADP___	3	case	_	_
+7	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+8	charge	charge	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nmod	_	_
+9	dont	dont	PRON	_	PRON__PronType=Rel	10	case	_	_
+10	terrain	terrain	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	amod	_	_
+11	160	160	NUM	_	NUM__NumType=Card	12	nummod	_	_
+12	000	000	NUM	_	NUM__NumType=Card	10	iobj	_	_
+13	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+14	apport	apport	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	conj	_	_
+15	perso	perso	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	amod	_	_
+16	120	120	NUM	_	NUM__NumType=Card	10	nummod	_	_
+17	000	000	NUM	_	NUM__NumType=Card	19	iobj	_	_
+18	et	et	CCONJ	_	CCONJ___	19	cc	_	_
+19	cash	cash	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	conj	_	_
+20	80	80	NUM	_	NUM__NumType=Card	19	nummod	_	_
+21	000	000	NUM	_	NUM__NumType=Card	26	nummod	_	_
+22	;	;	PUNCT	_	PUNCT___	26	punct	_	_
+
+
+#- vous voulez favoriser votre fille à hauteur de 60 000 ;
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+3	voulez	vouloir	AUX	_	AUX__Mood=Cnd|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	10	aux	_	_
+4	favoriser	favoriser	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	3	nmod:poss	_	_
+6	fille	fille	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obj	_	_
+7	à	à	ADP	_	ADP___	8	case	_	_
+8	hauteur	hauteur	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	fixed	_	_
+9	de	de	ADP	_	ADP___	10	fixed	_	_
+10	60	60	NUM	_	NUM__NumType=Card	10	nmod	_	_
+11	000	000	NUM	_	NUM__NumType=Card	12	nummod	_	_
+12	;	;	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#donc elle vous devra 300 000.
+1	donc	donc	ADV	_	ADV___	1	advmod	_	_
+2	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	1	nsubj	_	_
+3	vous	vous	PRON	_	PRON__Number=Plur|Person=2	10	iobj	_	_
+4	devra	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+5	300	300	NUM	_	NUM__NumType=Card	3	nummod	_	_
+6	000	000	PRON	_	PRON__NumType=Card|PronType=Rel	3	obj	_	_
+7	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Si le but est que votre fille soit proprio, si on passe par une SCI elle doit y être à 99%.
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+3	but	but	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nsubj	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+5	que	que	SCONJ	_	SCONJ___	3	mark	_	_
+6	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	3	nmod:poss	_	_
+7	fille	fille	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nsubj	_	_
+8	soit	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cc	_	_
+9	proprio	proprio	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+10	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+11	si	si	SCONJ	_	SCONJ___	12	mark	_	_
+12	on	on	PRON	_	PRON__Number=Sing|Person=3	10	nsubj	_	_
+13	passe	passer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
+14	par	par	ADP	_	ADP___	16	case	_	_
+15	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	SCI	sci	ADJ	_	ADJ__Gender=Fem|Number=Sing	10	obl	_	_
+17	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	19	nsubj	_	_
+18	doit	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+19	y	yu	PRON	_	PRON__Person=3	16	advmod	_	_
+20	être	être	AUX	_	AUX__VerbForm=Inf	19	cop	_	_
+21	à	à	ADP	_	ADP___	26	case	_	_
+22	99	99	NUM	_	NUM__NumType=Card	26	nummod	_	_
+23	%	%	NOUN	_	NOUN__Gender=Masc	26	obl	_	_
+24	.	.	PUNCT	_	PUNCT___	26	punct	_	_
+
+
+#Et si sa capacité d'emprunt est obérée cela implique que l'emprunteur soit non pas la SCI mais vous.
+1	Et	Et	CCONJ	_	CCONJ___	1	cc	_	_
+2	si	si	SCONJ	_	SCONJ___	1	mark	_	_
+3	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	10	nmod:poss	_	_
+4	capacité	capacité	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+5	d'	de	ADP	_	ADP___	3	case	_	_
+6	emprunt	emprunt	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nmod	_	_
+7	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	obérée	obérer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	advcl	_	_
+9	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	10	nsubj	_	_
+10	implique	impliquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+11	que	que	SCONJ	_	SCONJ___	12	mark	_	_
+12	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+13	emprunteur	emprunteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+14	soit	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cc	_	_
+15	non	non	ADV	_	ADV___	16	advmod	_	_
+16	pas	pas	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+17	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	SCI	sci	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	conj	_	_
+19	mais	mais	CCONJ	_	CCONJ___	16	cc	_	_
+20	vous	vous	PRON	_	PRON__Number=Plur|Person=2	19	conj	_	_
+21	.	.	PUNCT	_	PUNCT___	26	punct	_	_
+
+
+#Et un notaire sera obligatoire puisqu'il y aura une mutation du terrain.
+1	Et	Et	CCONJ	_	CCONJ___	1	cc	_	_
+2	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+3	notaire	notaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nsubj:pass	_	_
+4	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	aux:pass	_	_
+5	obligatoire	obligatoire	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+6	puisqu'	puisque	SCONJ	_	SCONJ___	3	mark	_	_
+7	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+8	y	yu	PRON	_	PRON__Person=3	3	iobj	_	_
+9	aura	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	10	advcl	_	_
+10	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+11	mutation	mutation	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obj	_	_
+12	du	du	DET	_	DET__Gender=Masc|Number=Sing	10	det	_	_
+13	terrain	terrain	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nmod	_	_
+14	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Cela étant il y a trop d'inconnues ici : vos âges, l'existence d'autres enfants, le fait qu'elle habite ou non l'appart aujourd'hui...
+1	Cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	1	nsubj	_	_
+2	étant	être	AUX	_	AUX__Tense=Pres|VerbForm=Part	1	cop	_	_
+3	il	il	PRON	_	PRON__Number=Sing|Person=3	10	case	_	_
+4	y	yu	PRON	_	PRON__Person=3	3	fixed	_	_
+5	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	fixed	_	_
+6	trop	trop	ADV	_	ADV___	3	det	_	_
+7	d'	de	ADP	_	ADP___	8	fixed	_	_
+8	inconnues	inconnue	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+9	ici	ici	ADV	_	ADV___	10	advmod	_	_
+10	:	:	PUNCT	_	PUNCT___	10	punct	_	_
+11	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	12	nmod:poss	_	_
+12	âges	âge	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	appos	_	_
+13	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+14	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+15	existence	existence	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nsubj	_	_
+16	d'	de	ADP	_	ADP___	10	case	_	_
+17	autres	autre	ADJ	_	ADJ__Number=Plur	19	amod	_	_
+18	enfants	enfant	NOUN	_	NOUN__Number=Plur	19	nmod	_	_
+19	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+20	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+21	fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	conj	_	_
+22	qu'	que	PRON	_	PRON__PronType=Rel	26	mark	_	_
+23	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	26	nsubj	_	_
+24	habite	habiter	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	nmod	_	_
+25	ou	ou	CCONJ	_	CCONJ___	26	cc	_	_
+26	non	non	ADV	_	ADV___	16	conj	_	_
+27	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	28	det	_	_
+28	appart	appart	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	fixed	_	_
+29	aujourd'hui	aujourd'huie	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	obj	_	_
+30	...	...	PUNCT	_	PUNCT___	32	punct	_	_
+
+
+#La seule chose que je puisse dire est que je ne passerais pas forcément par une SCI et que je pense assez fort démembrement.
+1	La	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	seule	seul	ADJ	_	ADJ__Gender=Fem|Number=Sing	1	amod	_	_
+3	chose	chose	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	iobj	_	_
+4	que	que	PRON	_	PRON__PronType=Rel	3	mark	_	_
+5	je	il	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+6	puisse	pouvoir	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+7	dire	dire	VERB	_	VERB__VerbForm=Inf	8	ccomp	_	_
+8	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+9	que	que	SCONJ	_	SCONJ___	10	mark	_	_
+10	je	il	PRON	_	PRON__Number=Sing|Person=1	10	nsubj	_	_
+11	ne	ne	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+12	passerais	passer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+13	pas	pas	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+14	forcément	forcément	ADV	_	ADV___	16	advmod	_	_
+15	par	par	ADP	_	ADP___	16	case	_	_
+16	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+17	SCI	sci	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obl	_	_
+18	et	et	CCONJ	_	CCONJ___	19	cc	_	_
+19	que	que	SCONJ	_	SCONJ___	16	mark	_	_
+20	je	il	PRON	_	PRON__Number=Sing|Person=1	19	nsubj	_	_
+21	pense	penser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	26	conj	_	_
+22	assez	assez	ADV	_	ADV___	26	advmod	_	_
+23	fort	fort	ADJ	_	ADJ__Gender=Masc|Number=Sing	26	advmod	_	_
+24	démembrement	démembrement	ADV	_	ADV___	26	advmod	_	_
+25	.	.	PUNCT	_	PUNCT___	26	punct	_	_
+
+

@@ -1,0 +1,66 @@
+#Bonjour
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+
+
+#Avez vous payé quelque chose en mars ?
+1	Avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	aux	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	4	iobj	_	_
+3	payé	payer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	quelque	quelque	DET	_	DET__Number=Sing	4	obj	_	_
+5	chose	chose	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	fixed	_	_
+6	en	en	ADP	_	ADP___	5	case	_	_
+7	mars	mars	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+8	?	?	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Si oui et qu'il s'agit de 250 alors il faut prendre en considération l'augmentation de 30 qui a commencé le 15 mars, soit au milieu du mois.
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	oui	oui	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	advcl	_	_
+3	et	et	CCONJ	_	CCONJ___	4	cc	_	_
+4	qu'	que	SCONJ	_	SCONJ___	4	mark	_	_
+5	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+6	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	5	expl	_	_
+7	agit	agir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	conj	_	_
+8	de	de	ADP	_	ADP___	4	case	_	_
+9	250	250	NUM	_	NUM__NumType=Card	4	obl	_	_
+10	alors	alors	ADV	_	ADV___	11	advmod	_	_
+11	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	21	nsubj	_	_
+12	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+13	prendre	prendre	VERB	_	VERB__VerbForm=Inf	16	xcomp	_	_
+14	en	en	ADP	_	ADP___	16	case	_	_
+15	considération	considération	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obl	_	_
+16	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+17	augmentation	augmentation	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	obj	_	_
+18	de	de	ADP	_	ADP___	16	case	_	_
+19	30	30	NUM	_	NUM__NumType=Card	21	nmod	_	_
+20	qui	qui	PRON	_	PRON__PronType=Rel	21	nsubj	_	_
+21	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+22	commencé	commencer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	acl:relcl	_	_
+23	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	15	15	NUM	_	NUM__NumType=Card	22	nummod	_	_
+25	mars	mars	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	obj	_	_
+26	,	,	PUNCT	_	PUNCT___	22	punct	_	_
+27	soit	être	CCONJ	_	CCONJ___	28	cc	_	_
+28	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	26	case	_	_
+29	milieu	milieu	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	conj	_	_
+30	du	du	DET	_	DET__Gender=Masc|Number=Sing	31	det	_	_
+31	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	26	nmod	_	_
+32	.	.	PUNCT	_	PUNCT___	34	punct	_	_
+
+
+#Donc 30 / 31 x 16 =16 en arrondissant par excès.
+1	Donc	donc	ADV	_	ADV___	1	advmod	_	_
+2	30	30	NUM	_	NUM__NumType=Card	4	nummod	_	_
+3	/	/	PUNCT	_	PUNCT___	4	case	_	_
+4	31	31	NUM	_	NUM__NumType=Card	4	nmod	_	_
+5	x	x	ADP	_	ADP___	4	case	_	_
+6	16	16	NUM	_	NUM__NumType=Card	5	nmod	_	_
+7	=	=	VERB	_	VERB__Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	16	16	NOUN	_	NOUN__NumType=Card	4	iobj	_	_
+9	en	en	ADP	_	ADP___	4	mark	_	_
+10	arrondissant	arrondir	VERB	_	VERB__Tense=Pres|VerbForm=Part	11	advcl	_	_
+11	par	par	ADP	_	ADP___	21	case	_	_
+12	excès	excès	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obl	_	_
+13	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+

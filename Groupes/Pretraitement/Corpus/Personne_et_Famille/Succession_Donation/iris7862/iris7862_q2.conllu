@@ -1,0 +1,179 @@
+#Re
+1	Re	Re	PROPN	_	PROPN__Gender=Masc|Number=Sing	0	ROOT	_	_
+
+
+#-Bonjour, Il s'agit d'un cas personnel de mon entourage.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+3	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+4	Il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+5	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	7	expl	_	_
+6	agit	agir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	acl:relcl	_	_
+7	d'	de	ADP	_	ADP___	3	case	_	_
+8	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obl	_	_
+10	personnel	personnel	ADJ	_	ADJ__Gender=Masc|Number=Sing	7	amod	_	_
+11	de	de	ADP	_	ADP___	10	case	_	_
+12	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	14	nmod:poss	_	_
+13	entourage	entourage	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nmod	_	_
+14	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#OK, si je comprends bien donc, le leg aux enfants "en plus de leur part héréditaire" s'impute bien sur la quotité disponible et non sur leur propre réserve.
+1	OK	OK	X	_	X___	1	nsubj	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	si	si	SCONJ	_	SCONJ___	3	mark	_	_
+4	je	il	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+5	comprends	comprendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+6	bien	bien	ADV	_	ADV___	7	advmod	_	_
+7	donc	donc	ADV	_	ADV___	3	advmod	_	_
+8	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	leg	leg	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	det	_	_
+11	aux	aux	ADJ	_	ADJ___	10	amod	_	_
+12	enfants	enfant	NOUN	_	NOUN__Number=Plur	14	nsubj	_	_
+13	"	"	PUNCT	_	PUNCT___	14	punct	_	_
+14	en	en	ADP	_	ADP___	10	case	_	_
+15	plus	plus	ADV	_	ADV___	3	fixed	_	_
+16	de	de	ADP	_	ADP___	37	fixed	_	_
+17	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	37	nmod:poss	_	_
+18	part	part	NOUN	_	NOUN__Number=Sing	20	amod	_	_
+19	héréditaire	héréditaire	ADJ	_	ADJ__Number=Sing	20	acl:relcl	_	_
+20	"	"	PUNCT	_	PUNCT___	37	punct	_	_
+21	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	22	expl	_	_
+22	impute	imputer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+23	bien	bien	ADV	_	ADV___	37	advmod	_	_
+24	sur	sur	ADP	_	ADP___	27	case	_	_
+25	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+26	quotité	quotité	NOUN	_	NOUN__Gender=Fem|Number=Sing	27	obl	_	_
+27	disponible	disponible	ADJ	_	ADJ__Number=Sing	37	amod	_	_
+28	et	et	CCONJ	_	CCONJ___	27	cc	_	_
+29	non	non	ADV	_	ADV___	37	conj	_	_
+30	sur	sur	ADP	_	ADP___	29	case	_	_
+31	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	29	nmod:poss	_	_
+32	propre	propre	ADJ	_	ADJ__Number=Sing	34	amod	_	_
+33	réserve	réserv	ADJ	_	ADJ__Gender=Fem|Number=Sing	34	obl	_	_
+34	.	.	PUNCT	_	PUNCT___	31	punct	_	_
+
+
+#Le leg de 50k + 2x50k se réduit donc a 33,3k + 2x33,3k, de telle manière que le partage se fasse sur 100k.
+1	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	leg	leg	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+3	de	de	ADP	_	ADP___	3	case	_	_
+4	50k	50k	NUM	_	NUM__NumType=Card	3	nmod	_	_
+5	+	+	ADP	_	ADP___	7	case	_	_
+6	2x50k	2x50k	NUM	_	NUM__NumType=Card	7	nmod	_	_
+7	se	se	PRON	_	PRON__Person=3|Reflex=Yes	3	expl	_	_
+8	réduit	réduire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+9	donc	donc	ADV	_	ADV___	10	advmod	_	_
+10	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+11	33,3k	33,3k	ADV	_	ADV___	10	nummod	_	_
+12	+	+	ADP	_	ADP___	14	case	_	_
+13	2x33,3k	2x33,3k	NUM	_	NUM__NumType=Card	14	nmod	_	_
+14	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+15	de	de	ADP	_	ADP___	3	case	_	_
+16	telle	tel	ADJ	_	ADJ__Gender=Fem|Number=Sing	37	amod	_	_
+17	manière	manière	NOUN	_	NOUN__Gender=Fem|Number=Sing	37	conj	_	_
+18	que	que	SCONJ	_	SCONJ___	20	mark	_	_
+19	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	partage	partage	NOUN	_	NOUN__Gender=Masc|Number=Sing	37	nsubj	_	_
+21	se	se	PRON	_	PRON__Person=3|Reflex=Yes	22	expl	_	_
+22	fasse	faire	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	ccomp	_	_
+23	sur	sur	ADP	_	ADP___	37	case	_	_
+24	100k.	100k.	ADJ	_	ADJ__Gender=Masc|Number=Plur	27	obl	_	_
+
+
+#Les enfants A et B, en plus de la donation, reçoivent donc 33,3k + 25k chacun.
+1	Les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+2	enfants	enfant	NOUN	_	NOUN__Number=Plur	3	nsubj	_	_
+3	A	a	NOUN	_	NOUN___	3	nmod	_	_
+4	et	et	CCONJ	_	CCONJ___	3	cc	_	_
+5	B	b	NOUN	_	NOUN___	7	conj	_	_
+6	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+7	en	en	ADP	_	ADP___	3	case	_	_
+8	plus	plus	ADV	_	ADV___	10	fixed	_	_
+9	de	de	ADP	_	ADP___	10	fixed	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+11	donation	donation	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obl	_	_
+12	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+13	reçoivent	recevoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+14	donc	donc	ADV	_	ADV___	10	advmod	_	_
+15	33,3k	33,3k	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nummod	_	_
+16	+	+	ADP	_	ADP___	37	case	_	_
+17	25k	25k	NUM	_	NUM__NumType=Card	37	nmod	_	_
+18	chacun	chacun	PRON	_	PRON__Gender=Masc|PronType=Rel	20	obj	_	_
+19	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Sa compagne 33,3k (l'autre approche aurait conduit à réduire la réserve de A et B de 25k chacun qui restait, et le leg étant alors au niveau de la quotité disponible, A et B n'auraient reçu que 25k + 25k mais sa compagne 50k)
+1	Sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	compagne	compagne	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+3	33,3k	33,3k	ADV	_	ADV___	3	nummod	_	_
+4	(	(	PUNCT	_	PUNCT___	3	punct	_	_
+5	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+6	autre	autre	ADJ	_	ADJ__Number=Sing	7	amod	_	_
+7	approche	approche	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+8	aurait	avoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	conduit	conduire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	punct	_	_
+10	à	à	ADP	_	ADP___	7	mark	_	_
+11	réduire	réduire	VERB	_	VERB__VerbForm=Inf	10	xcomp	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	réserve	réserve	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obj	_	_
+14	de	de	ADP	_	ADP___	10	case	_	_
+15	A	a	NOUN	_	NOUN___	3	nmod	_	_
+16	et	et	CCONJ	_	CCONJ___	37	cc	_	_
+17	B	b	NOUN	_	NOUN___	37	conj	_	_
+18	de	de	ADP	_	ADP___	20	case	_	_
+19	25k	25k	NUM	_	NUM__NumType=Card	20	nummod	_	_
+20	chacun	chacun	PRON	_	PRON__Gender=Masc|PronType=Rel	37	nmod	_	_
+21	qui	qui	PRON	_	PRON__PronType=Rel	22	nsubj	_	_
+22	restait	rester	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	acl:relcl	_	_
+23	,	,	PUNCT	_	PUNCT___	37	punct	_	_
+24	et	et	CCONJ	_	CCONJ___	27	cc	_	_
+25	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+26	leg	leg	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	27	conj	_	_
+27	étant	être	AUX	_	AUX__Tense=Pres|VerbForm=Part	37	case	_	_
+28	alors	alors	ADV	_	ADV___	27	advmod	_	_
+29	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	37	fixed	_	_
+30	niveau	niveau	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	fixed	_	_
+31	de	de	ADP	_	ADP___	29	fixed	_	_
+32	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+33	quotité	quotité	NOUN	_	NOUN__Gender=Fem|Number=Sing	34	orphan	_	_
+34	disponible	disponible	ADJ	_	ADJ__Number=Sing	31	amod	_	_
+35	,	,	PUNCT	_	PUNCT___	29	punct	_	_
+36	A	a	NOUN	_	NOUN___	37	conj	_	_
+37	et	et	CCONJ	_	CCONJ___	37	cc	_	_
+38	B	b	NOUN	_	NOUN___	37	conj	_	_
+39	n'	ne	ADV	_	ADV___	41	advmod	_	_
+40	auraient	avoir	AUX	_	AUX__Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	41	aux	_	_
+41	reçu	recevoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+42	que	que	SCONJ	_	SCONJ___	41	mark	_	_
+43	25k	25k	NOUN	_	NOUN__NumType=Card	44	obj	_	_
+44	+	+	ADP	_	ADP___	42	case	_	_
+45	25k	25k	NOUN	_	NOUN__NumType=Card	48	nmod	_	_
+46	mais	mais	CCONJ	_	CCONJ___	48	cc	_	_
+47	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	48	nmod:poss	_	_
+48	compagne	compagne	NOUN	_	NOUN__Gender=Fem|Number=Sing	37	conj	_	_
+49	50k	50k	NUM	_	NUM__NumType=Card	37	nmod	_	_
+50	)	)	PUNCT	_	PUNCT___	51	punct	_	_
+
+
+#Si ce n'est pas cela, merci de me corriger Merci de votre aide Pascal
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	ce	ce	PRON	_	PRON__Number=Sing|Person=3	3	nsubj	_	_
+3	n'	ne	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+6	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	0	ROOT	_	_
+7	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+8	merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	conj	_	_
+9	de	de	ADP	_	ADP___	10	mark	_	_
+10	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	7	iobj	_	_
+11	corriger	corriger	VERB	_	VERB__VerbForm=Inf	10	nmod	_	_
+12	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obj	_	_
+13	de	de	ADP	_	ADP___	14	case	_	_
+14	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+15	aide	aide	NOUN	_	NOUN__Number=Sing	3	nmod	_	_
+16	Pascal	Pascal	PROPN	_	PROPN__Gender=Masc|Number=Sing	37	amod	_	_
+
+

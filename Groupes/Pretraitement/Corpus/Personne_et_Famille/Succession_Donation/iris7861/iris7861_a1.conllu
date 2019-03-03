@@ -1,0 +1,112 @@
+#Bonjour.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Tous les biens de vos parents sont en indivision.
+1	Tous	tou	ADJ	_	ADJ__Gender=Masc|Number=Plur	1	amod	_	_
+2	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+3	biens	bien	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	nsubj	_	_
+4	de	de	ADP	_	ADP___	5	case	_	_
+5	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	11	nmod:poss	_	_
+6	parents	parent	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	nmod	_	_
+7	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	en	en	ADP	_	ADP___	5	case	_	_
+9	indivision	indivision	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+10	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Personne n'a le droit de se servir ( théoriquement).
+1	Personne	Personne	PROPN	_	PROPN___	1	nsubj	_	_
+2	n'	ne	ADV	_	ADV___	1	advmod	_	_
+3	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+6	de	de	ADP	_	ADP___	8	mark	_	_
+7	se	se	PRON	_	PRON__Person=3|Reflex=Yes	8	expl	_	_
+8	servir	servir	VERB	_	VERB__VerbForm=Inf	5	nmod	_	_
+9	(	(	PUNCT	_	PUNCT___	11	punct	_	_
+10	théoriquement	théoriquement	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	appos	_	_
+11	)	)	PUNCT	_	PUNCT___	11	punct	_	_
+12	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Ni vous, ni vos frères.
+1	Ni	Ni	CCONJ	_	CCONJ___	1	cc	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	0	ROOT	_	_
+3	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+4	ni	ni	CCONJ	_	CCONJ___	5	cc	_	_
+5	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	11	nmod:poss	_	_
+6	frères	frère	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	conj	_	_
+7	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Logiquement, vous devez faire ensemble un inventaire des biens, lesquels seront ensuite partagés entre vous.
+1	Logiquement	logiquement	ADV	_	ADV___	1	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	vous	vous	PRON	_	PRON__Number=Plur|Person=2	5	nsubj	_	_
+4	devez	devoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	faire	faire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+6	ensemble	ensemble	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	xcomp	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	inventaire	inventaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+9	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
+10	biens	bien	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	obj	_	_
+11	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+12	lesquels	lequel	PRON	_	PRON__Gender=Masc|Number=Plur	11	nsubj	_	_
+13	seront	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	15	aux:pass	_	_
+14	ensuite	ensuite	ADV	_	ADV___	15	advmod	_	_
+15	partagés	partager	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	15	acl:relcl	_	_
+16	entre	entrer	ADP	_	ADP___	17	case	_	_
+17	vous	vous	PRON	_	PRON__Number=Plur|Person=2|PronType=Prs	15	obl	_	_
+18	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Par sécurité faites des photos Bien sur votre frère ainé a les mêmes droits que vous, même s'il n'avait plus de contact avec votre famille.
+1	Par	Par	ADP	_	ADP___	1	case	_	_
+2	sécurité	sécurité	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	faites	fait	ADJ	_	ADJ__Gender=Fem|Number=Plur	5	amod	_	_
+4	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
+5	photos	photo	NOUN	_	NOUN__Gender=Fem|Number=Plur	11	obj	_	_
+6	Bien	bien	ADV	_	ADV___	8	nmod	_	_
+7	sur	sur	ADP	_	ADP___	8	case	_	_
+8	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+9	frère	frère	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+10	ainé	ainé	ADJ	_	ADJ__Number=Sing	11	acl	_	_
+11	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advmod	_	_
+12	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	11	det	_	_
+13	mêmes	même	ADJ	_	ADJ__Number=Plur	15	amod	_	_
+14	droits	droit	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	obj	_	_
+15	que	que	PRON	_	PRON__PronType=Rel	15	mark	_	_
+16	vous	vous	PRON	_	PRON__Number=Plur|Person=2	17	nsubj	_	_
+17	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+18	même	même	ADV	_	ADV___	20	mark	_	_
+19	s'	si	SCONJ	_	SCONJ___	20	fixed	_	_
+20	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	17	nsubj	_	_
+21	n'	ne	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+22	avait	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	acl:relcl	_	_
+23	plus	plus	ADV	_	ADV__Polarity=Neg	17	det	_	_
+24	de	de	ADP	_	ADP___	15	fixed	_	_
+25	contact	contact	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	obj	_	_
+26	avec	avec	ADP	_	ADP___	26	case	_	_
+27	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	26	nmod:poss	_	_
+28	famille	famille	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	obl	_	_
+29	.	.	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#Il peut réclamer un trousseau de clés.
+1	Il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	réclamer	réclamer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	trousseau	trousseau	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+6	de	de	ADP	_	ADP___	8	case	_	_
+7	clés	clé	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	nmod	_	_
+8	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Salutations.
+1	Salutations	salutation	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+2	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+

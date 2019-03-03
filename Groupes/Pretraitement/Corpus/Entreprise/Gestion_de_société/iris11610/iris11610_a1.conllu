@@ -1,0 +1,64 @@
+#Bonjour, 1
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	1	1	NUM	_	NUM__NumType=Card	1	nummod	_	_
+
+
+#- Oui, c'est possible - et ce même si le juge compétent n'est pas français.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	Oui	Oui	PROPN	_	PROPN__Gender=Masc|Number=Sing	1	obl	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	c'	ce	PRON	_	PRON__Number=Sing|Person=3	5	nsubj	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+6	possible	possible	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+7	-	-	PUNCT	_	PUNCT___	9	punct	_	_
+8	et	et	CCONJ	_	CCONJ___	9	cc	_	_
+9	ce	ce	PRON	_	PRON__PronType=Rel	9	conj	_	_
+10	même	même	ADV	_	ADV___	9	fixed	_	_
+11	si	si	SCONJ	_	SCONJ___	12	mark	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+13	juge	juge	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nsubj	_	_
+14	compétent	compétent	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	acl	_	_
+15	n'	ne	ADV	_	ADV__Polarity=Neg	16	advmod	_	_
+16	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	pas	pas	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+18	français	français	ADJ	_	ADJ__Gender=Masc	21	punct	_	_
+19	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#2
+1	2	2	NUM	_	NUM__NumType=Card	0	ROOT	_	_
+
+
+#- Non, s'agissant d'un contrat à l'international, clause attributive de juridiction possible.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	Non	non	ADV	_	ADV___	1	advmod	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	5	expl	_	_
+5	agissant	agir	VERB	_	VERB__Tense=Pres|VerbForm=Part	0	ROOT	_	_
+6	d'	de	ADP	_	ADP___	9	case	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obl	_	_
+9	à	à	ADP	_	ADP___	9	case	_	_
+10	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+11	international	international	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nmod	_	_
+12	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+13	clause	claus	ADJ	_	ADJ__Gender=Fem|Number=Sing	12	obl	_	_
+14	attributive	attributive	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	amod	_	_
+15	de	de	ADP	_	ADP___	16	case	_	_
+16	juridiction	juridiction	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	nmod	_	_
+17	possible	possible	ADJ	_	ADJ__Number=Sing	12	amod	_	_
+18	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Vous parlez de l'enregistrement de quoi ?
+1	Vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+2	parlez	parler	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	de	de	ADP	_	ADP___	1	case	_	_
+4	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	enregistrement	enregistrement	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+6	de	de	ADP	_	ADP___	9	case	_	_
+7	quoi	quoi	PRON	_	PRON__PronType=Int	9	nmod	_	_
+8	?	?	PUNCT	_	PUNCT___	9	punct	_	_
+
+

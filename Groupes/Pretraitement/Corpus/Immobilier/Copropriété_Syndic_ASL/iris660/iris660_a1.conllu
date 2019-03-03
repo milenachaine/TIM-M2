@@ -1,0 +1,523 @@
+#Bonjour, OUI
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	OUI	OUI	PROPN	_	PROPN___	1	nmod	_	_
+
+
+#, jusqu'en cassation 2)
+1	,	,	PUNCT	_	PUNCT___	0	ROOT	_	_
+2	jusqu'	jusque	ADP	_	ADP___	1	case	_	_
+3	en	en	ADP	_	ADP___	1	fixed	_	_
+4	cassation	cassation	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	fixed	_	_
+5	2	2	NUM	_	NUM__NumType=Card	7	nummod	_	_
+6	)	)	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Les délais dans ce genre d'affaires sont-ils longs?
+1	Les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+2	délais	délai	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	nsubj:pass	_	_
+3	dans	dan	ADP	_	ADP___	1	case	_	_
+4	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+5	genre	genre	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+6	d'	de	ADP	_	ADP___	5	case	_	_
+7	affaires	affaire	NOUN	_	NOUN__Gender=Fem|Number=Plur	4	nmod	_	_
+8	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+9	-	-	PUNCT	_	PUNCT___	4	punct	_	_
+10	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	11	nsubj	_	_
+11	longs	long	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+12	?	?	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Tout dépend du tribunal dont vous dépendez et de sa charge de travail : mini (à mon avis) 1 an, maxi : pfitttttt.... mais votre avocat saura mieux vous dire que nous, d'autant que ce délai dépend aussi en grande partie des avocats des parties et du nombre de mise en l'état qu'ils font... 3) Lors de la dernière ag il n'y a pas eu de vote sur ce point présenté en ag, le quorum nécessaire n'étant pas réuni.
+1	Tout	tout	ADV	_	ADV___	1	nsubj	_	_
+2	dépend	dépendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	du	du	DET	_	DET__Gender=Masc|Number=Sing	1	det	_	_
+4	tribunal	tribunal	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obj	_	_
+5	dont	dont	PRON	_	PRON__PronType=Rel	7	iobj	_	_
+6	vous	vous	PRON	_	PRON__Number=Plur|Person=2	5	nsubj	_	_
+7	dépendez	dépendre	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+8	et	et	CCONJ	_	CCONJ___	7	cc	_	_
+9	de	de	ADP	_	ADP___	4	case	_	_
+10	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	11	nmod:poss	_	_
+11	charge	charge	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	conj	_	_
+12	de	de	ADP	_	ADP___	14	case	_	_
+13	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nmod	_	_
+14	:	:	PUNCT	_	PUNCT___	11	punct	_	_
+15	mini	mini	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	acl	_	_
+16	(	(	PUNCT	_	PUNCT___	14	punct	_	_
+17	à	à	ADP	_	ADP___	20	case	_	_
+18	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	20	nmod:poss	_	_
+19	avis	avis	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obl	_	_
+20	)	)	PUNCT	_	PUNCT___	20	punct	_	_
+21	1	1	NUM	_	NUM__NumType=Card	20	nummod	_	_
+22	an	an	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	nmod	_	_
+23	,	,	PUNCT	_	PUNCT___	23	punct	_	_
+24	maxi	maxi	ADV	_	ADV___	25	appos	_	_
+25	:	:	PUNCT	_	PUNCT___	23	punct	_	_
+26	pfitttttt	pfitttttt	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	28	appos	_	_
+27	....	....	PUNCT	_	PUNCT___	28	punct	_	_
+28	mais	mais	CCONJ	_	CCONJ___	25	cc	_	_
+29	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	32	nmod:poss	_	_
+30	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	32	conj	_	_
+31	saura	savoir	ADJ	_	ADJ__Gender=Masc|Number=Sing	32	nmod	_	_
+32	mieux	mieux	ADV	_	ADV___	28	advmod	_	_
+33	vous	vous	PRON	_	PRON__Number=Plur|Person=2	34	iobj	_	_
+34	dire	dire	VERB	_	VERB__VerbForm=Inf	32	advcl	_	_
+35	que	que	SCONJ	_	SCONJ___	32	mark	_	_
+36	nous	nous	PRON	_	PRON__Number=Plur|Person=1	32	nsubj	_	_
+37	,	,	PUNCT	_	PUNCT___	36	punct	_	_
+38	d'	de	ADP	_	ADP___	40	mark	_	_
+39	autant	autant	ADV	_	ADV___	40	fixed	_	_
+40	que	que	SCONJ	_	SCONJ___	36	fixed	_	_
+41	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	36	det	_	_
+42	délai	délai	NOUN	_	NOUN__Gender=Masc|Number=Sing	43	nsubj	_	_
+43	dépend	dépendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	ccomp	_	_
+44	aussi	aussi	ADV	_	ADV___	32	advmod	_	_
+45	en	en	ADP	_	ADP___	32	case	_	_
+46	grande	grand	ADJ	_	ADJ__Gender=Fem|Number=Sing	32	amod	_	_
+47	partie	partie	NOUN	_	NOUN__Gender=Fem|Number=Sing	32	obl	_	_
+48	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	23	det	_	_
+49	avocats	avocat	NOUN	_	NOUN__Gender=Masc|Number=Plur	51	obj	_	_
+50	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	51	det	_	_
+51	parties	party	NOUN	_	NOUN__Gender=Fem|Number=Plur	23	obj	_	_
+52	et	et	CCONJ	_	CCONJ___	51	cc	_	_
+53	du	du	DET	_	DET__Gender=Masc|Number=Sing	55	det	_	_
+54	nombre	nombre	NOUN	_	NOUN__Gender=Masc|Number=Sing	55	conj	_	_
+55	de	de	ADP	_	ADP___	23	case	_	_
+56	mise	mise	NOUN	_	NOUN__Gender=Fem|Number=Sing	64	nmod	_	_
+57	en	en	ADP	_	ADP___	64	case	_	_
+58	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	64	det	_	_
+59	état	état	NOUN	_	NOUN__Gender=Masc|Number=Sing	64	nmod	_	_
+60	qu'	que	PRON	_	PRON__PronType=Rel	59	obj	_	_
+61	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	59	nsubj	_	_
+62	font	faire	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	63	acl:relcl	_	_
+63	...	...	PUNCT	_	PUNCT___	64	punct	_	_
+64	3	3	NUM	_	NUM__NumType=Card	55	nummod	_	_
+65	)	)	PUNCT	_	PUNCT___	64	punct	_	_
+66	Lors	lors	ADV	_	ADV___	68	case	_	_
+67	de	de	ADP	_	ADP___	68	fixed	_	_
+68	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	64	det	_	_
+69	dernière	dernier	ADJ	_	ADJ__Gender=Fem|Number=Sing|NumType=Ord	70	amod	_	_
+70	ag	ag	PROPN	_	PROPN__Gender=Fem|Number=Sing	64	obl	_	_
+71	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	72	nsubj	_	_
+72	n'	ne	ADV	_	ADV__Polarity=Neg	70	advmod	_	_
+73	y	yu	PRON	_	PRON__Person=3	75	expl	_	_
+74	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	75	aux	_	_
+75	pas	pas	ADV	_	ADV__Polarity=Neg	70	advmod	_	_
+76	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	77	advcl	_	_
+77	de	de	DET	_	DET__Definite=Ind|Number=Sing|PronType=Art	75	det	_	_
+78	vote	vote	NOUN	_	NOUN__Gender=Masc|Number=Sing	80	obj	_	_
+79	sur	sur	ADP	_	ADP___	80	case	_	_
+80	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	77	det	_	_
+81	point	point	NOUN	_	NOUN__Gender=Masc|Number=Sing	83	nmod	_	_
+82	présenté	présenter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	83	acl	_	_
+83	en	en	ADP	_	ADP___	77	advmod	_	_
+84	ag	ag	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	fixed	_	_
+85	,	,	PUNCT	_	PUNCT___	23	punct	_	_
+86	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+87	quorum	quorum	NOUN	_	NOUN__Gender=Masc|Number=Sing	91	nsubj:pass	_	_
+88	nécessaire	nécessaire	ADJ	_	ADJ__Number=Sing	87	amod	_	_
+89	n'	ne	ADV	_	ADV__Polarity=Neg	91	advmod	_	_
+90	étant	être	AUX	_	AUX__Tense=Pres|VerbForm=Part	91	aux:pass	_	_
+91	pas	pas	ADV	_	ADV__Polarity=Neg	97	advmod	_	_
+92	réuni	réunir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	97	acl	_	_
+93	.	.	PUNCT	_	PUNCT___	97	punct	_	_
+
+
+#Je croyais qu'il fallait quand même voter.
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	croyais	croire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	qu'	que	SCONJ	_	SCONJ___	1	mark	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+5	fallait	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	ccomp	_	_
+6	quand	quand	ADV	_	ADV___	5	mark	_	_
+7	même	même	ADV	_	ADV___	4	advmod	_	_
+8	voter	voter	VERB	_	VERB__VerbForm=Inf	7	advcl	_	_
+9	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Est
+1	Est	être		_	VERB	0	ROOT	_	_
+
+
+#-ce une erreur de l'ag?
+1	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+2	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+3	erreur	erreur	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	de	de	ADP	_	ADP___	4	case	_	_
+5	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+6	ag	ag	PROPN	_	PROPN__Number=Sing	5	nmod	_	_
+7	?	?	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#OUI, c'est une erreur car le quorum n'existe pas en AG de copropriétaires du moment qu'il y a au moins 2 copros présents.
+1	OUI	OUI	PROPN	_	PROPN___	1	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	c'	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	erreur	erreur	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+7	car	car	CCONJ	_	CCONJ___	4	cc	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+9	quorum	quorum	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+10	n'	ne	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+11	existe	exister	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	conj	_	_
+12	pas	pas	ADV	_	ADV__Polarity=Neg	14	advmod	_	_
+13	en	en	ADP	_	ADP___	14	case	_	_
+14	AG	ag	NOUN	_	NOUN___	11	fixed	_	_
+15	de	de	ADP	_	ADP___	16	case	_	_
+16	copropriétaires	copropriétaire	NOUN	_	NOUN__Gender=Fem|Number=Plur	14	obl	_	_
+17	du	du	DET	_	DET__Gender=Masc|Number=Sing	20	det	_	_
+18	moment	moment	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obj	_	_
+19	qu'	que	SCONJ	_	SCONJ___	20	mark	_	_
+20	il	il	PRON	_	PRON__Number=Sing|Person=3	20	advmod	_	_
+21	y	yu	PRON	_	PRON__Person=3	20	fixed	_	_
+22	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	fixed	_	_
+23	au	au	NOUN	_	NOUN___	23	fixed	_	_
+24	moins	moins	ADV	_	ADV___	25	fixed	_	_
+25	2	2	NUM	_	NUM__NumType=Card	23	nummod	_	_
+26	copros	copro	NOUN	_	NOUN__Gender=Masc|Number=Plur	28	obj	_	_
+27	présents	présent	ADJ	_	ADJ__Gender=Masc|Number=Plur	28	amod	_	_
+28	.	.	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#4)
+1	4	4	NUM	_	NUM__NumType=Card	0	ROOT	_	_
+2	)	)	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Voici une réponse de l'avocat du syndic:
+1	Voici	voici	VERB	_	VERB__Mood=Ind|VerbForm=Fin	0	ROOT	_	_
+2	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+3	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obj	_	_
+4	de	de	ADP	_	ADP___	4	case	_	_
+5	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+6	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+7	du	du	DET	_	DET__Gender=Masc|Number=Sing	4	det	_	_
+8	syndic	syndic	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	amod	_	_
+9	:	:	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Partons déjà du principe qu'un avocat dit rarement à son client : abandonnez vous avez perdu d'avance
+1	Partons	parton	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	nsubj	_	_
+2	déjà	déjà	ADV	_	ADV___	1	advmod	_	_
+3	du	du	DET	_	DET__Gender=Masc|Number=Sing	1	det	_	_
+4	principe	principe	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	qu'	que	SCONJ	_	SCONJ___	7	mark	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+7	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+8	dit	dire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+9	rarement	rarement	ADV	_	ADV___	4	advmod	_	_
+10	à	à	ADP	_	ADP___	11	case	_	_
+11	son	son	DET	_	DET__Number=Sing|Poss=Yes	20	nmod:poss	_	_
+12	client	client	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obl	_	_
+13	:	:	PUNCT	_	PUNCT___	14	punct	_	_
+14	abandonnez	abandonner	PRON	_	PRON__Number=Sing|PronType=Rel	11	dep	_	_
+15	vous	vous	PRON	_	PRON__Number=Plur|Person=2	16	nsubj	_	_
+16	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	14	parataxis	_	_
+17	perdu	perdre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	obj	_	_
+18	d'	de	ADP	_	ADP___	20	case	_	_
+19	avance	avance	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obl	_	_
+
+
+#Je ne fais que donner mon avis, sans être à même de juger : * l'article 12 met en avant que les délais de révision du RdC sont passés chez vous.
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ne	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+3	fais	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	que	que	SCONJ	_	SCONJ___	4	mark	_	_
+5	donner	donner	VERB	_	VERB__VerbForm=Inf	7	ccomp	_	_
+6	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+7	avis	avis	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obj	_	_
+8	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+9	sans	sans	ADP	_	ADP___	4	mark	_	_
+10	être	être	AUX	_	AUX__VerbForm=Inf	11	fixed	_	_
+11	à	à	ADP	_	ADP___	20	mark	_	_
+12	même	même	ADV	_	ADV___	14	fixed	_	_
+13	de	de	ADP	_	ADP___	14	fixed	_	_
+14	juger	juger	VERB	_	VERB__VerbForm=Inf	11	advcl	_	_
+15	:	:	PUNCT	_	PUNCT___	16	punct	_	_
+16	*	*	VERB	_	VERB__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	mark	_	_
+17	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+18	article	article	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	nsubj	_	_
+19	12	12	NUM	_	NUM__NumType=Card	20	nummod	_	_
+20	met	mettre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	ccomp	_	_
+21	en	en	ADP	_	ADP___	20	mark	_	_
+22	avant	avant	ADV	_	ADV___	23	fixed	_	_
+23	que	que	SCONJ	_	SCONJ___	23	fixed	_	_
+24	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	25	det	_	_
+25	délais	délai	NOUN	_	NOUN__Gender=Masc|Number=Plur	23	nsubj:pass	_	_
+26	de	de	ADP	_	ADP___	28	case	_	_
+27	révision	révision	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	nmod	_	_
+28	du	du	DET	_	DET__Gender=Masc|Number=Sing	25	det	_	_
+29	RdC	rdc	NOUN	_	NOUN__Gender=Masc|Number=Sing	32	obj	_	_
+30	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	aux:pass	_	_
+31	passés	passer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	32	advcl	_	_
+32	chez	chez	ADP	_	ADP___	28	case	_	_
+33	vous	vous	PRON	_	PRON__Number=Plur|Person=2|PronType=Prs	34	obl	_	_
+34	.	.	PUNCT	_	PUNCT___	32	punct	_	_
+
+
+#Depuis 1852, tous les lots ont du avoir une mutation.
+1	Depuis	Depuis	ADP	_	ADP___	1	case	_	_
+2	1852	1852	NUM	_	NUM__NumType=Card	1	nummod	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	tous	tou	ADJ	_	ADJ__Gender=Masc|Number=Plur	4	amod	_	_
+5	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+6	lots	lot	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	nsubj	_	_
+7	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+8	du	du	DET	_	DET__Gender=Masc|Number=Sing	7	obj	_	_
+9	avoir	avoir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+10	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	mutation	mutation	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obj	_	_
+12	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#* par contre l'article 11 : Article 11
+1	*	*	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	ROOT	_	_
+2	par	par	ADP	_	ADP___	1	case	_	_
+3	contre	contrer	ADP	_	ADP___	1	fixed	_	_
+4	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+5	article	article	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+6	11	11	NUM	_	NUM__NumType=Card	5	nummod	_	_
+7	:	:	PUNCT	_	PUNCT___	4	punct	_	_
+8	Article	article	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+9	11	11	NUM	_	NUM__NumType=Card	4	nummod	_	_
+
+
+#Sous réserve des dispositions de l'article 12 ci-dessous, la répartition des charges ne peut être modifiée qu'à l'unanimité des copropriétaires.
+1	Sous	Sous	ADP	_	ADP___	1	mark	_	_
+2	réserve	réserver	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	1	det	_	_
+4	dispositions	disposition	NOUN	_	NOUN__Gender=Fem|Number=Plur	4	obj	_	_
+5	de	de	ADP	_	ADP___	7	case	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+7	article	article	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+8	12	12	NUM	_	NUM__NumType=Card	7	nummod	_	_
+9	ci-dessous	ci-dessous	ADV	_	ADV___	4	nmod	_	_
+10	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+12	répartition	répartition	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nsubj	_	_
+13	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
+14	charges	charge	NOUN	_	NOUN__Gender=Fem|Number=Plur	11	nmod	_	_
+15	ne	ne	ADV	_	ADV___	16	advmod	_	_
+16	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	parataxis	_	_
+17	être	être	AUX	_	AUX__VerbForm=Inf	20	aux:pass	_	_
+18	modifiée	modifier	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	20	xcomp	_	_
+19	qu'	que	SCONJ	_	SCONJ___	20	mark	_	_
+20	à	à	ADP	_	ADP___	20	case	_	_
+21	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+22	unanimité	unanimité	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	obl	_	_
+23	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	23	det	_	_
+24	copropriétaires	copropriétaire	NOUN	_	NOUN__Gender=Fem|Number=Plur	25	obj	_	_
+25	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Toutefois, lorsque des travaux ou des actes d'acquisition ou de disposition sont décidés par l'assemblée générale statuant à la majorité exigée par la loi, la modification de la répartition des charges ainsi rendue nécessaire peut être décidée par l'assemblée générale statuant à la même majorité.
+1	Toutefois	toutefois	ADV	_	ADV___	1	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	lorsque	lorsque	SCONJ	_	SCONJ___	1	mark	_	_
+4	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
+5	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	nsubj:pass	_	_
+6	ou	ou	CCONJ	_	CCONJ___	5	cc	_	_
+7	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
+8	actes	acte	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	conj	_	_
+9	d'	de	ADP	_	ADP___	4	case	_	_
+10	acquisition	acquisition	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+11	ou	ou	CCONJ	_	CCONJ___	20	cc	_	_
+12	de	de	ADP	_	ADP___	14	case	_	_
+13	disposition	disposition	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	conj	_	_
+14	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+15	décidés	décider	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	ROOT	_	_
+16	par	par	ADP	_	ADP___	14	case	_	_
+17	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+18	assemblée	assemblée	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obl	_	_
+19	générale	général	ADJ	_	ADJ__Gender=Fem|Number=Sing	20	amod	_	_
+20	statuant	statuer	VERB	_	VERB__Tense=Pres|VerbForm=Part	20	acl	_	_
+21	à	à	ADP	_	ADP___	20	case	_	_
+22	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	majorité	majorité	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	obl	_	_
+24	exigée	exiger	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	25	acl	_	_
+25	par	par	ADP	_	ADP___	23	case	_	_
+26	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+27	loi	loi	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	obl	_	_
+28	,	,	PUNCT	_	PUNCT___	25	punct	_	_
+29	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+30	modification	modification	NOUN	_	NOUN__Gender=Fem|Number=Sing	32	nsubj	_	_
+31	de	de	ADP	_	ADP___	32	case	_	_
+32	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+33	répartition	répartition	NOUN	_	NOUN__Gender=Fem|Number=Sing	34	nmod	_	_
+34	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	32	det	_	_
+35	charges	charge	NOUN	_	NOUN__Gender=Fem|Number=Plur	32	nmod	_	_
+36	ainsi	ainsi	ADV	_	ADV___	32	advmod	_	_
+37	rendue	rendu	AUX	_	AUX__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	36	punct	_	_
+38	nécessaire	nécessaire	ADJ	_	ADJ__Number=Sing	40	nsubj	_	_
+39	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	parataxis	_	_
+40	être	être	AUX	_	AUX__VerbForm=Inf	36	aux:pass	_	_
+41	décidée	décider	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	36	xcomp	_	_
+42	par	par	ADP	_	ADP___	43	case	_	_
+43	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	32	det	_	_
+44	assemblée	assemblée	NOUN	_	NOUN__Gender=Fem|Number=Sing	32	obl	_	_
+45	générale	général	ADJ	_	ADJ__Gender=Fem|Number=Sing	32	amod	_	_
+46	statuant	statuer	VERB	_	VERB__Tense=Pres|VerbForm=Part	32	acl	_	_
+47	à	à	ADP	_	ADP___	32	case	_	_
+48	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+49	même	même	ADJ	_	ADJ__Number=Sing	51	amod	_	_
+50	majorité	majorité	NOUN	_	NOUN__Gender=Fem|Number=Sing	51	obl	_	_
+51	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#permet d'envisager la modification des tantièmes de charges, mais il semble que cette disposition n'ait pas été mise en oeuvre dans le même temps que la décision d'acquisition.
+1	permet	permettre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+2	d'	de	ADP	_	ADP___	1	mark	_	_
+3	envisager	envisager	VERB	_	VERB__VerbForm=Inf	1	xcomp	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+5	modification	modification	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+6	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
+7	tantièmes	tantième	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	obj	_	_
+8	de	de	ADP	_	ADP___	7	case	_	_
+9	charges	charge	NOUN	_	NOUN__Gender=Fem|Number=Plur	4	nmod	_	_
+10	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+11	mais	mais	CCONJ	_	CCONJ___	20	cc	_	_
+12	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
+13	semble	sembler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+14	que	que	SCONJ	_	SCONJ___	11	mark	_	_
+15	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	16	det	_	_
+16	disposition	disposition	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nsubj:pass	_	_
+17	n'	ne	ADV	_	ADV__Polarity=Neg	20	advmod	_	_
+18	ait	avoir	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+19	pas	pas	ADV	_	ADV__Polarity=Neg	20	advmod	_	_
+20	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	20	aux:pass	_	_
+21	mise	mettre	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	20	ccomp	_	_
+22	en	en	ADP	_	ADP___	23	case	_	_
+23	oeuvre	oeuvre	NOUN	_	NOUN__Number=Sing	23	obl	_	_
+24	dans	dan	ADP	_	ADP___	25	case	_	_
+25	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+26	même	même	ADJ	_	ADJ__Number=Sing	28	amod	_	_
+27	temps	temps	NOUN	_	NOUN__Gender=Masc	28	obl	_	_
+28	que	que	SCONJ	_	SCONJ___	25	mark	_	_
+29	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+30	décision	décision	NOUN	_	NOUN__Gender=Fem|Number=Sing	32	dep	_	_
+31	d'	de	ADP	_	ADP___	32	case	_	_
+32	acquisition	acquisition	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	nmod	_	_
+33	.	.	PUNCT	_	PUNCT___	34	punct	_	_
+
+
+#Alors un juge appréciera le délai de mise en oeuvre entre cette demande de modification des tantièmes et la disposition de cession des parties communes.
+1	Alors	alors	ADV	_	ADV___	1	advmod	_	_
+2	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+3	juge	juge	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+4	appréciera	apprécier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	délai	délai	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+7	de	de	ADP	_	ADP___	4	case	_	_
+8	mise	mise	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+9	en	en	ADP	_	ADP___	4	case	_	_
+10	oeuvre	oeuvre	NOUN	_	NOUN__Number=Sing	11	nmod	_	_
+11	entre	entrer	ADP	_	ADP___	20	case	_	_
+12	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	14	det	_	_
+13	demande	demande	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obl	_	_
+14	de	de	ADP	_	ADP___	11	case	_	_
+15	modification	modification	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nmod	_	_
+16	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
+17	tantièmes	tantième	NOUN	_	NOUN__Gender=Masc|Number=Plur	20	obj	_	_
+18	et	et	CCONJ	_	CCONJ___	20	cc	_	_
+19	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	disposition	disposition	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	conj	_	_
+21	de	de	ADP	_	ADP___	20	case	_	_
+22	cession	cession	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	nmod	_	_
+23	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	23	det	_	_
+24	parties	party	NOUN	_	NOUN__Gender=Fem|Number=Plur	25	obj	_	_
+25	communes	commun	ADJ	_	ADJ__Gender=Fem|Number=Plur	23	amod	_	_
+26	.	.	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#(pour ce dernier point, il serait judicieux de savoir si ces parties communes WC et autres, n'étaient pas à jouissance privative seulement de celui qui a rattaché les 4 chambres).
+1	(	(	PUNCT	_	PUNCT___	1	punct	_	_
+2	pour	pour	ADP	_	ADP___	1	case	_	_
+3	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	1	det	_	_
+4	dernier	dernier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	_
+5	point	point	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+6	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+7	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+8	serait	être	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+9	judicieux	judicieux	ADJ	_	ADJ__Gender=Masc	0	ROOT	_	_
+10	de	de	ADP	_	ADP___	11	mark	_	_
+11	savoir	savoir	VERB	_	VERB__VerbForm=Inf	20	xcomp	_	_
+12	si	si	SCONJ	_	SCONJ___	14	mark	_	_
+13	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	14	det	_	_
+14	parties	party	NOUN	_	NOUN__Gender=Fem|Number=Plur	11	nsubj	_	_
+15	communes	commun	ADJ	_	ADJ__Gender=Fem|Number=Plur	16	amod	_	_
+16	WC	wc	NOUN	_	NOUN___	14	nmod	_	_
+17	et	et	CCONJ	_	CCONJ___	20	cc	_	_
+18	autres	autre	ADJ	_	ADJ__Number=Plur	20	conj	_	_
+19	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+20	n'	ne	ADV	_	ADV__Polarity=Neg	20	advmod	_	_
+21	étaient	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	20	cop	_	_
+22	pas	pas	ADV	_	ADV__Polarity=Neg	23	advmod	_	_
+23	à	à	ADP	_	ADP___	23	case	_	_
+24	jouissance	jouissance	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	obl	_	_
+25	privative	privatif	ADJ	_	ADJ__Gender=Fem|Number=Sing	23	ccomp	_	_
+26	seulement	seulement	ADV	_	ADV___	28	advmod	_	_
+27	de	de	ADP	_	ADP___	28	case	_	_
+28	celui	celui	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Dem	25	obl	_	_
+29	qui	qui	PRON	_	PRON__PronType=Rel	32	nsubj	_	_
+30	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
+31	rattaché	rattacher	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	ccomp	_	_
+32	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	28	det	_	_
+33	4	4	NUM	_	NUM__NumType=Card	34	nummod	_	_
+34	chambres	chambre	NOUN	_	NOUN__Gender=Fem|Number=Plur	32	obj	_	_
+35	)	)	PUNCT	_	PUNCT___	32	punct	_	_
+36	.	.	PUNCT	_	PUNCT___	32	punct	_	_
+
+
+#Mais un juge peut aussi entériner à la date du jugement de nouveaux tantièmes.
+1	Mais	Mais	CCONJ	_	CCONJ___	1	cc	_	_
+2	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+3	juge	juge	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+4	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+5	aussi	aussi	ADV	_	ADV___	7	advmod	_	_
+6	entériner	entériner	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+7	à	à	ADP	_	ADP___	4	case	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+9	date	date	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obl	_	_
+10	du	du	DET	_	DET__Gender=Masc|Number=Sing	11	det	_	_
+11	jugement	jugement	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obj	_	_
+12	de	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	14	case	_	_
+13	nouveaux	nouveau	ADJ	_	ADJ__Gender=Masc|Number=Plur	14	amod	_	_
+14	tantièmes	tantième	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	nmod	_	_
+15	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#A mon avis, un juge décrétera irrecevable la demande des voisins tant qu'une AG n'aura pas officiellement décidé, mais c'est repousser pour mieux sauter.....
+1	A	A	ADP	_	ADP___	1	case	_	_
+2	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+3	avis	avis	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+4	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	juge	juge	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+7	décrétera	décréter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	cop	_	_
+8	irrecevable	irrecevable	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+10	demande	demande	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obj	_	_
+11	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	20	det	_	_
+12	voisins	voisin	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	amod	_	_
+13	tant	tant	ADV	_	ADV___	14	advmod	_	_
+14	qu'	que	SCONJ	_	SCONJ___	11	fixed	_	_
+15	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	AG	AG	PROPN	_	PROPN__Gender=Fem|Number=Sing	14	nsubj	_	_
+17	n'	ne	ADV	_	ADV__Polarity=Neg	20	advmod	_	_
+18	aura	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	20	aux	_	_
+19	pas	pas	ADV	_	ADV__Polarity=Neg	20	advmod	_	_
+20	officiellement	officiellement	ADV	_	ADV___	20	advmod	_	_
+21	décidé	décider	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	advcl	_	_
+22	,	,	PUNCT	_	PUNCT___	23	punct	_	_
+23	mais	mais	CCONJ	_	CCONJ___	23	cc	_	_
+24	c'	ce	PRON	_	PRON__Number=Sing|Person=3	25	nsubj	_	_
+25	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux:pass	_	_
+26	repousser	repousser	VERB	_	VERB__VerbForm=Inf	28	conj	_	_
+27	pour	pour	ADP	_	ADP___	28	mark	_	_
+28	mieux	mieux	ADV	_	ADV___	25	advmod	_	_
+29	sauter	sauter	VERB	_	VERB__VerbForm=Inf	32	xcomp	_	_
+30	.....	.....	PUNCT	_	PUNCT___	32	punct	_	_
+
+

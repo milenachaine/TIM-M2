@@ -1,118 +1,169 @@
-#Bonjour Vosu avez deux problèmes: 1/
-1	Bonjour	Bonjour	PROPN	_	PROPN___	3	nsubj	_	_
-2	Vosu	vosu	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	flat:name	_	_
-3	avez	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
-4	deux	deux	NUM	_	NUM__NumType=Card	5	nummod	_	_
-5	problèmes	problème	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	obj	_	_
-6	:	:	PUNCT	_	PUNCT___	3	punct	_	_
-7	1/	1/	NUM	_	NUM__NumType=Card	3	nummod	_	_
+#Bonjour Halte
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	Halte	Halte	PROPN	_	PROPN__Gender=Masc|Number=Sing	1	flat:name	_	_
 
 
-#La fibre passe sur votre terrain.
-1	La	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-2	fibre	fibre	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
-3	passe	passer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
-4	sur	sur	ADP	_	ADP___	5	case	_	_
-5	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	3	nmod:poss	_	_
-6	terrain	terrain	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obl	_	_
-7	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+#là !
+1	là	là	ADV	_	ADV___	0	ROOT	_	_
+2	!	!	PUNCT	_	PUNCT___	1	punct	_	_
 
 
-#Ce n'est pas normal, il faut la faire déplacer 2/
-1	Ce	ce	PRON	_	PRON__Number=Sing|Person=3	3	nsubj	_	_
-2	n'	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+#Vous nous parlez de mur mitoyen.
+1	Vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+2	nous	nous	PRON	_	PRON__Number=Plur|Person=1	1	expl	_	_
+3	parlez	parler	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	de	de	ADP	_	ADP___	3	case	_	_
+5	mur	mur	DET	_	DET__Number=Sing|Poss=Yes	7	obl	_	_
+6	mitoyen	mitoyen	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	amod	_	_
+7	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#S'il est mitoyen, le mur vous appartient à tous les deux sinon il appartient à l'un ou à l'autre.
+1	S'	S'	SCONJ	_	SCONJ___	1	mark	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
 3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
-4	pas	pas	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
-5	normal	normal	ADJ	_	ADJ__Gender=Masc|Number=Sing	3	advmod	_	_
-6	,	,	PUNCT	_	PUNCT___	3	punct	_	_
-7	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
-8	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
-9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	obj	_	_
-10	faire	faire	VERB	_	VERB__VerbForm=Inf	10	xcomp	_	_
-11	déplacer	déplacer	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	xcomp	_	_
-12	2/	2/	NUM	_	NUM__NumType=Card	13	punct	_	_
+4	mitoyen	mitoyen	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	advcl	_	_
+5	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	mur	mur	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nsubj	_	_
+8	vous	vous	PRON	_	PRON__Number=Plur|Person=2	9	expl	_	_
+9	appartient	appartenir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+10	à	à	ADP	_	ADP___	9	case	_	_
+11	tous	tou	ADJ	_	ADJ__Gender=Masc|Number=Plur	7	amod	_	_
+12	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	15	det	_	_
+13	deux	deux	NUM	_	NUM__NumType=Card	15	nummod	_	_
+14	sinon	sinon	ADV	_	ADV___	15	advmod	_	_
+15	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	20	nsubj	_	_
+16	appartient	appartenir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	_
+17	à	à	ADP	_	ADP___	18	case	_	_
+18	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+19	un	un	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	20	obl	_	_
+20	ou	ou	CCONJ	_	CCONJ___	20	cc	_	_
+21	à	à	ADP	_	ADP___	24	case	_	_
+22	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	24	det	_	_
+23	autre	autre	PRON	_	PRON__Number=Sing|PronType=Rel	24	conj	_	_
+24	.	.	PUNCT	_	PUNCT___	25	punct	_	_
 
 
-#Une fuite résulterait d'une intervention intempestive de l'installateur qui aurait déplacé une de vos tuiles ou 'accroché' (comment?
-1	Une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-2	fuite	fuite	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
-3	résulterait	résulter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
-4	d'	de	ADP	_	ADP___	5	case	_	_
-5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-6	intervention	intervention	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obl	_	_
-7	intempestive	intempestif	ADJ	_	ADJ__Gender=Fem|Number=Sing	3	amod	_	_
-8	de	de	ADP	_	ADP___	9	case	_	_
-9	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	10	det	_	_
-10	installateur	installateur	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
-11	qui	qui	PRON	_	PRON__PronType=Rel	13	nsubj	_	_
-12	aurait	avoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
-13	déplacé	déplacer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl:relcl	_	_
-14	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	obj	_	_
-15	de	de	ADP	_	ADP___	19	case	_	_
-16	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	19	nmod:poss	_	_
-17	tuiles	tuile	NOUN	_	NOUN__Gender=Fem|Number=Plur	19	nmod	_	_
-18	ou	ou	CCONJ	_	CCONJ___	19	cc	_	_
-19	'	'	PUNCT	_	PUNCT___	22	punct	_	_
-20	accroché	accrocher	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	conj	_	_
-21	'	'	PUNCT	_	PUNCT___	22	punct	_	_
-22	(	(	PUNCT	_	PUNCT___	22	punct	_	_
-23	comment	comment	ADV	_	ADV__PronType=Int	24	iobj	_	_
-24	?	?	PUNCT	_	PUNCT___	22	punct	_	_
+#Ensuite, vous vous entendez bien avec ce voisin mais qu'en sera-t-il dans un ou deux ans, avec le suivant, s'il lui prend l'envie de partir ailleurs ?
+1	Ensuite	ensuite	ADV	_	ADV___	1	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	vous	vous	PRON	_	PRON__Number=Plur|Person=2	3	nsubj	_	_
+4	vous	vous	PRON	_	PRON__Number=Plur|Person=2	3	iobj	_	_
+5	entendez	entendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+6	bien	bien	ADV	_	ADV___	7	advmod	_	_
+7	avec	avec	ADP	_	ADP___	7	case	_	_
+8	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+9	voisin	voisin	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+10	mais	mais	CCONJ	_	CCONJ___	9	cc	_	_
+11	qu'	que	SCONJ	_	SCONJ___	7	fixed	_	_
+12	en	en	PRON	_	PRON__Person=3	15	nsubj	_	_
+13	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	15	fixed	_	_
+14	-	-	PUNCT	_	PUNCT___	15	fixed	_	_
+15	t	t	NOUN	_	NOUN__Gender=Fem|Number=Plur	20	fixed	_	_
+16	-	-	PUNCT	_	PUNCT___	20	fixed	_	_
+17	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	18	fixed	_	_
+18	dans	dan	ADP	_	ADP___	20	case	_	_
+19	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	fixed	_	_
+20	ou	ou	CCONJ	_	CCONJ___	20	cc	_	_
+21	deux	deux	NUM	_	NUM__NumType=Card	24	nummod	_	_
+22	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	24	conj	_	_
+23	,	,	PUNCT	_	PUNCT___	24	punct	_	_
+24	avec	avec	ADP	_	ADP___	25	case	_	_
+25	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+26	suivant	suivant	ADJ	_	ADJ__Gender=Masc|Number=Sing	27	fixed	_	_
+27	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+28	s'	si	SCONJ	_	SCONJ___	30	mark	_	_
+29	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	30	nsubj	_	_
+30	lui	luire	PRON	_	PRON__Number=Sing|Person=3	27	iobj	_	_
+31	prend	prendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	conj	_	_
+32	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	34	det	_	_
+33	envie	envie	NOUN	_	NOUN__Gender=Fem|Number=Sing	34	obj	_	_
+34	de	de	ADP	_	ADP___	30	mark	_	_
+35	partir	partir	VERB	_	VERB__VerbForm=Inf	20	xcomp	_	_
+36	ailleurs	ailleur	NOUN	_	NOUN__Gender=Masc	40	advmod	_	_
+37	?	?	PUNCT	_	PUNCT___	40	punct	_	_
 
 
-#) votre gouttière.
-1	)	)	PUNCT	_	PUNCT___	3	punct	_	_
-2	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
-3	gouttière	gouttière	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
-4	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+#Personne ne le sait.
+1	Personne	Personne	PROPN	_	PROPN___	1	nsubj	_	_
+2	ne	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+3	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	3	obj	_	_
+4	sait	savoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	.	.	PUNCT	_	PUNCT___	7	punct	_	_
 
 
-#Ne serait
-1	Ne	ne	ADV	_	ADV___	0	ROOT	_	_
-2	serait	être	VERB	_	VERB__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	fixed	_	_
+#Aussi, il convient de faire les choses dans l'ordre Établir via un bornage contradictoire vos limites afin de les modifier en achetant ces 0,5m.
+1	Aussi	aussi	ADV	_	ADV___	1	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+4	convient	convier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	de	de	ADP	_	ADP___	7	mark	_	_
+6	faire	faire	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+7	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+8	choses	chose	NOUN	_	NOUN__Gender=Fem|Number=Plur	9	obj	_	_
+9	dans	dan	ADP	_	ADP___	7	case	_	_
+10	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+11	ordre	ordre	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+12	Établir	Établir	ADP	_	ADP___	15	acl	_	_
+13	via	via	ADP	_	ADP___	15	case	_	_
+14	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	bornage	bornage	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obl	_	_
+16	contradictoire	contradictoire	ADJ	_	ADJ__Number=Sing	20	amod	_	_
+17	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	18	nmod:poss	_	_
+18	limites	limite	NOUN	_	NOUN__Gender=Masc|Number=Plur	20	obj	_	_
+19	afin	afin	ADP	_	ADP___	20	mark	_	_
+20	de	de	ADP	_	ADP___	20	fixed	_	_
+21	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	24	det	_	_
+22	modifier	modifier	NOUN	_	NOUN__Gender=Masc|Number=Plur	24	advcl	_	_
+23	en	en	ADP	_	ADP___	24	mark	_	_
+24	achetant	acheter	VERB	_	VERB__Tense=Pres|VerbForm=Part	25	acl	_	_
+25	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	27	det	_	_
+26	0,5	0,5	NUM	_	NUM__NumType=Card	27	nummod	_	_
+27	m	m	NOUN	_	NOUN__Gender=Masc	20	obj	_	_
+28	.	.	PUNCT	_	PUNCT___	30	punct	_	_
 
 
-#-elle pas tout simplement bouchée ou partiellement avec des feuilels?
-1	-	-	PUNCT	_	PUNCT___	3	punct	_	_
-2	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	1	nsubj	_	_
-3	pas	pas	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
-4	tout	tout	ADV	_	ADV___	5	advmod	_	_
-5	simplement	simplement	ADV	_	ADV___	0	ROOT	_	_
-6	bouchée	bouchée	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	amod	_	_
-7	ou	ou	CCONJ	_	CCONJ___	3	cc	_	_
-8	partiellement	partiellemer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
-9	avec	avec	ADP	_	ADP___	10	case	_	_
-10	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
-11	feuilels	feuilel	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	obl	_	_
-12	?	?	PUNCT	_	PUNCT___	13	punct	_	_
+#Par la suite, déposer une autorisation d'urbanisme pour votre future extension.
+1	Par	Par	ADP	_	ADP___	1	case	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+3	suite	suite	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+5	déposer	déposer	VERB	_	VERB__VerbForm=Inf	7	acl	_	_
+6	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	autorisation	autorisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+8	d'	de	ADP	_	ADP___	9	case	_	_
+9	urbanisme	urbanisme	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+10	pour	pour	ADP	_	ADP___	9	case	_	_
+11	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	7	nmod:poss	_	_
+12	future	futur	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	nmod	_	_
+13	extension	extension	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	nmod	_	_
+14	.	.	PUNCT	_	PUNCT___	15	punct	_	_
 
 
-#Ca va être très difficile à prouver, et sauf si le dégat est important, je ferais réparer ce qui semble un ennui minime;
-1	Ca	ca	ADV	_	ADV___	3	nsubj	_	_
-2	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
-3	être	être	AUX	_	AUX__VerbForm=Inf	3	cop	_	_
-4	très	très	ADV	_	ADV___	5	advmod	_	_
-5	difficile	difficile	ADJ	_	ADJ__Number=Sing	3	xcomp	_	_
-6	à	à	ADP	_	ADP___	3	mark	_	_
-7	prouver	prouver	VERB	_	VERB__VerbForm=Inf	3	xcomp	_	_
-8	,	,	PUNCT	_	PUNCT___	9	punct	_	_
-9	et	et	CCONJ	_	CCONJ___	10	cc	_	_
-10	sauf	sauf	ADP	_	ADP___	10	mark	_	_
-11	si	si	SCONJ	_	SCONJ___	13	mark	_	_
-12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	dégat	dégat	NOUN	_	NOUN__Number=Sing	10	nsubj	_	_
-14	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
-15	important	important	ADJ	_	ADJ__Gender=Masc|Number=Sing	19	conj	_	_
-16	,	,	PUNCT	_	PUNCT___	19	punct	_	_
-17	je	il	PRON	_	PRON__Number=Sing|Person=1	19	nsubj	_	_
-18	ferais	faire	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	19	conj	_	_
-19	réparer	réparer	VERB	_	VERB__VerbForm=Inf	22	xcomp	_	_
-20	ce	ce	PRON	_	PRON__PronType=Rel	22	obj	_	_
-21	qui	qui	PRON	_	PRON__PronType=Rel	22	nsubj	_	_
-22	semble	sembler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
-23	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-24	ennui	ennui	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	acl:relcl	_	_
-25	minime	minime	ADJ	_	ADJ__Gender=Masc|Number=Sing	24	amod	_	_
-26	;	;	PUNCT	_	PUNCT___	22	punct	_	_
+#S'il vend, vos futurs voisins pourraient sinon vous obliger à démonter votre extension car la prescription acquisitive est de 30 ans
+1	S'	S'	SCONJ	_	SCONJ___	1	mark	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+3	vend	vendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+4	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+5	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	7	nmod:poss	_	_
+6	futurs	futur	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	obj	_	_
+7	voisins	voisin	ADJ	_	ADJ__Gender=Masc|Number=Plur	7	amod	_	_
+8	pourraient	pouvoir	VERB	_	VERB__Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+9	sinon	sinon	ADV	_	ADV___	7	advmod	_	_
+10	vous	vous	PRON	_	PRON__Number=Plur|Person=2	9	iobj	_	_
+11	obliger	obliger	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+12	à	à	ADP	_	ADP___	15	mark	_	_
+13	démonter	démonter	VERB	_	VERB__VerbForm=Inf	15	xcomp	_	_
+14	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	15	nmod:poss	_	_
+15	extension	extension	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obj	_	_
+16	car	car	CCONJ	_	CCONJ___	20	cc	_	_
+17	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	prescription	prescription	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	nsubj	_	_
+19	acquisitive	acquisitif	ADJ	_	ADJ__Gender=Fem|Number=Sing	20	amod	_	_
+20	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+21	de	de	ADP	_	ADP___	24	case	_	_
+22	30	30	NUM	_	NUM__NumType=Card	24	nummod	_	_
+23	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	24	conj	_	_
 
 

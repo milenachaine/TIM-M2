@@ -1,0 +1,162 @@
+#Bonjour, Non cela n'est pas obligatoire de faire un inventaire, mais dans certains cas, il est plus intéressant de le faire surtout si le mobilier est vieux.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	8	acl	_	_
+2	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+3	Non	non	ADV	_	ADV___	8	mark	_	_
+4	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	8	nsubj	_	_
+5	n'	ne	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+6	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+8	obligatoire	obligatoire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+9	de	de	ADP	_	ADP___	10	mark	_	_
+10	faire	faire	VERB	_	VERB__VerbForm=Inf	8	xcomp	_	_
+11	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	inventaire	inventaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+13	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+14	mais	mais	CCONJ	_	CCONJ___	22	cc	_	_
+15	dans	dan	ADP	_	ADP___	17	case	_	_
+16	certains	certain	DET	_	DET__Gender=Masc|Number=Plur	17	det	_	_
+17	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Plur	22	obl	_	_
+18	,	,	PUNCT	_	PUNCT___	22	punct	_	_
+19	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	22	nsubj	_	_
+20	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+21	plus	plus	ADV	_	ADV___	22	advmod	_	_
+22	intéressant	intéresser	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	conj	_	_
+23	de	de	ADP	_	ADP___	25	mark	_	_
+24	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	25	obj	_	_
+25	faire	faire	VERB	_	VERB__VerbForm=Inf	22	xcomp	_	_
+26	surtout	surtout	ADV	_	ADV___	25	advmod	_	_
+27	si	si	SCONJ	_	SCONJ___	31	mark	_	_
+28	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	mobilier	mobilier	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	nsubj	_	_
+30	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
+31	vieux	vieux	ADJ	_	ADJ__Gender=Masc	8	advcl	_	_
+32	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#ex en schématisant grossièrement: Maison
+1	ex	ex	CCONJ	_	CCONJ___	0	ROOT	_	_
+2	en	en	ADP	_	ADP___	8	case	_	_
+3	schématisant	schématiser	VERB	_	VERB__Tense=Pres|VerbForm=Part	8	obl	_	_
+4	grossièrement	grossièrement	ADV	_	ADV___	8	advmod	_	_
+5	:	:	PUNCT	_	PUNCT___	8	punct	_	_
+6	Maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	appos	_	_
+
+
+#-> 100 000 Mobilier
+1	-	-	PUNCT	_	PUNCT___	8	punct	_	_
+2	>	>	PRON	_	PRON__PronType=Rel	0	ROOT	_	_
+3	100	100	NUM	_	NUM__NumType=Card	8	nummod	_	_
+4	000	000	NUM	_	NUM__NumType=Card	8	nummod	_	_
+5	Mobilier	Mobilier	PROPN	_	PROPN___	8	nmod	_	_
+
+
+#-> 1000 Total 101 000€ Abattement -100 000 Droit à payer : 1000 * 20% (si ligne directe) = 200 euros a payer Avec Forfait 5% Maison
+1	-	-	PUNCT	_	PUNCT___	8	punct	_	_
+2	>	>	PRON	_	PRON__PronType=Rel	8	obl	_	_
+3	1000	1000	NUM	_	NUM__NumType=Card	8	nummod	_	_
+4	Total	total	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	punct	_	_
+5	101	101	NUM	_	NUM__NumType=Card	8	nummod	_	_
+6	000	000	NUM	_	NUM__NumType=Card	8	nummod	_	_
+7	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	nsubj	_	_
+8	Abattement	Abattement	PROPN	_	PROPN__Gender=Masc|Number=Sing	8	nmod	_	_
+9	-100	-100	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	punct	_	_
+10	000	000	NUM	_	NUM__NumType=Card	8	nummod	_	_
+11	Droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	appos	_	_
+12	à	à	ADP	_	ADP___	10	mark	_	_
+13	payer	payer	VERB	_	VERB__VerbForm=Inf	8	acl	_	_
+14	:	:	PUNCT	_	PUNCT___	22	punct	_	_
+15	1000	1000	NUM	_	NUM__NumType=Card	17	nummod	_	_
+16	*	*	NOUN	_	NOUN__Gender=Masc|Number=Plur	17	mark	_	_
+17	20	20	NUM	_	NUM__NumType=Card	22	nummod	_	_
+18	%	%	NOUN	_	NOUN__Gender=Masc	22	nsubj	_	_
+19	(	(	PUNCT	_	PUNCT___	22	punct	_	_
+20	si	si	SCONJ	_	SCONJ___	22	case	_	_
+21	ligne	ligne	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	nmod	_	_
+22	directe	direct	ADJ	_	ADJ__Gender=Fem|Number=Sing	8	amod	_	_
+23	)	)	PUNCT	_	PUNCT___	25	punct	_	_
+24	=	=	VERB	_	VERB__Mood=Ind|Person=3|VerbForm=Fin	25	advmod	_	_
+25	200	200	NUM	_	NUM__NumType=Card	22	nummod	_	_
+26	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	25	obj	_	_
+27	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
+28	payer	payer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+29	Avec	Avec	ADP	_	ADP___	31	case	_	_
+30	Forfait	forfaire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	31	obl	_	_
+31	5	5	NUM	_	NUM__NumType=Card	8	nummod	_	_
+32	%	%	NOUN	_	NOUN__Gender=Masc	8	obj	_	_
+33	Maison	Maison	PROPN	_	PROPN___	33	nmod	_	_
+
+
+#-> 100 000 Forfait 5%
+1	-	-	PUNCT	_	PUNCT___	8	punct	_	_
+2	>	>	PRON	_	PRON__PronType=Rel	0	ROOT	_	_
+3	100	100	NUM	_	NUM__NumType=Card	8	nummod	_	_
+4	000	000	NUM	_	NUM__NumType=Card	8	nummod	_	_
+5	Forfait	forfaire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	nmod	_	_
+6	5	5	NUM	_	NUM__NumType=Card	8	nummod	_	_
+7	%	%	NOUN	_	NOUN__Gender=Masc	8	nmod	_	_
+
+
+#-> 5000 Total 105 000€ Abattement -100 000 Droit a payer : 5000 * 20% (si ligne directe) = 1000 euros a payer Après a voir avec le notaire qui a toute les billes, si plus intéressant de le faire ou non même si faire un inventaire à un coup.
+1	-	-	PUNCT	_	PUNCT___	8	punct	_	_
+2	>	>	PRON	_	PRON__PronType=Rel	8	obl	_	_
+3	5000	5000	NUM	_	NUM__NumType=Card	8	nummod	_	_
+4	Total	total	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	punct	_	_
+5	105	105	NUM	_	NUM__NumType=Card	8	nummod	_	_
+6	000	000	NUM	_	NUM__NumType=Card	8	nummod	_	_
+7	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	nsubj	_	_
+8	Abattement	Abattement	PROPN	_	PROPN__Gender=Masc|Number=Sing	8	nmod	_	_
+9	-100	-100	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	punct	_	_
+10	000	000	NUM	_	NUM__NumType=Card	8	nummod	_	_
+11	Droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nmod	_	_
+12	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+13	payer	payer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+14	:	:	PUNCT	_	PUNCT___	22	punct	_	_
+15	5000	5000	NUM	_	NUM__NumType=Card	17	iobj	_	_
+16	*	*	VERB	_	VERB__Number=Sing|Tense=Past|VerbForm=Part	17	mark	_	_
+17	20	20	NUM	_	NUM__NumType=Card	22	nummod	_	_
+18	%	%	NOUN	_	NOUN__Gender=Masc	22	nsubj	_	_
+19	(	(	PUNCT	_	PUNCT___	22	punct	_	_
+20	si	si	SCONJ	_	SCONJ___	22	case	_	_
+21	ligne	ligne	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	nmod	_	_
+22	directe	direct	ADJ	_	ADJ__Gender=Fem|Number=Sing	8	acl	_	_
+23	)	)	PUNCT	_	PUNCT___	25	punct	_	_
+24	=	=	VERB	_	VERB__Mood=Ind|Person=3|VerbForm=Fin	25	ccomp	_	_
+25	1000	1000	NUM	_	NUM__NumType=Card	22	det	_	_
+26	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	25	obj	_	_
+27	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
+28	payer	payer	VERB	_	VERB__VerbForm=Inf	29	conj	_	_
+29	Après	Après	ADP	_	ADP___	31	mark	_	_
+30	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
+31	voir	voir	VERB	_	VERB__VerbForm=Inf	8	xcomp	_	_
+32	avec	avec	ADP	_	ADP___	8	case	_	_
+33	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+34	notaire	notaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	35	obl	_	_
+35	qui	qui	PRON	_	PRON__PronType=Rel	33	nsubj	_	_
+36	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	acl:relcl	_	_
+37	toute	tout	ADJ	_	ADJ__Gender=Fem|Number=Sing	33	amod	_	_
+38	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	33	det	_	_
+39	billes	bille	NOUN	_	NOUN__Gender=Fem|Number=Plur	40	obj	_	_
+40	,	,	PUNCT	_	PUNCT___	40	punct	_	_
+41	si	si	SCONJ	_	SCONJ___	40	mark	_	_
+42	plus	plus	ADV	_	ADV___	43	advmod	_	_
+43	intéressant	intéresser	ADJ	_	ADJ__Gender=Masc|Number=Sing	40	obj	_	_
+44	de	de	ADP	_	ADP___	67	mark	_	_
+45	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	67	obj	_	_
+46	faire	faire	VERB	_	VERB__VerbForm=Inf	45	xcomp	_	_
+47	ou	ou	CCONJ	_	CCONJ___	67	cc	_	_
+48	non	non	ADV	_	ADV___	50	conj	_	_
+49	même	même	ADV	_	ADV___	50	fixed	_	_
+50	si	si	SCONJ	_	SCONJ___	67	mark	_	_
+51	faire	faire	VERB	_	VERB__VerbForm=Inf	50	advcl	_	_
+52	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+53	inventaire	inventaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	54	obj	_	_
+54	à	à	ADP	_	ADP___	50	case	_	_
+55	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
+56	coup	coup	NOUN	_	NOUN__Gender=Masc|Number=Sing	54	obl	_	_
+57	.	.	PUNCT	_	PUNCT___	50	punct	_	_
+
+
+#Phil
+1	Phil	phil	ADV	_	ADV___	0	ROOT	_	_
+
+

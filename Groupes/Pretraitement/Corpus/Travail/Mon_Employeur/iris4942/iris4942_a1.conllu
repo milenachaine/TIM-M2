@@ -1,0 +1,95 @@
+#Bonsoir, Le contrat de travail est oublié parmi les sources de droit pour la durée de préavis.
+1	Bonsoir	Bonsoir	PROPN	_	PROPN___	8	acl	_	_
+2	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+3	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+5	de	de	ADP	_	ADP___	6	case	_	_
+6	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+7	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	oublié	oublier	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+9	parmi	parmi	ADP	_	ADP___	11	case	_	_
+10	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	11	det	_	_
+11	sources	source	NOUN	_	NOUN__Gender=Fem|Number=Plur	8	obl	_	_
+12	de	de	ADP	_	ADP___	13	case	_	_
+13	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+14	pour	pour	ADP	_	ADP___	16	case	_	_
+15	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	durée	durée	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+17	de	de	ADP	_	ADP___	18	case	_	_
+18	préavis	préavis	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	nmod	_	_
+19	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Article L1237
+1	Article	article	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	L1237	L1237	PROPN	_	PROPN___	8	flat:name	_	_
+
+
+#-1 : En cas de démission, l'existence et la durée du préavis sont fixées par la loi, ou par convention ou accord collectif de travail.
+1	-	-	PUNCT	_	PUNCT___	8	punct	_	_
+2	1	1	NUM	_	NUM__NumType=Card	8	nummod	_	_
+3	:	:	PUNCT	_	PUNCT___	4	punct	_	_
+4	En	En	ADP	_	ADP___	8	case	_	_
+5	cas	cas	NOUN	_	NOUN__Gender=Masc	6	fixed	_	_
+6	de	de	ADP	_	ADP___	4	fixed	_	_
+7	démission	démission	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+8	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+9	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+10	existence	existence	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nsubj:pass	_	_
+11	et	et	CCONJ	_	CCONJ___	8	cc	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	durée	durée	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	conj	_	_
+14	du	du	DET	_	DET__Gender=Masc|Number=Sing	16	det	_	_
+15	préavis	préavis	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	nmod	_	_
+16	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+17	fixées	fixer	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	ROOT	_	_
+18	par	par	ADP	_	ADP___	16	case	_	_
+19	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+20	loi	loi	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obl	_	_
+21	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+22	ou	ou	CCONJ	_	CCONJ___	23	cc	_	_
+23	par	par	ADP	_	ADP___	38	case	_	_
+24	convention	convention	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	conj	_	_
+25	ou	ou	CCONJ	_	CCONJ___	28	cc	_	_
+26	accord	accord	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	conj	_	_
+27	collectif	collectif	ADJ	_	ADJ__Gender=Masc|Number=Sing	25	amod	_	_
+28	de	de	ADP	_	ADP___	38	case	_	_
+29	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	38	nmod	_	_
+30	.	.	PUNCT	_	PUNCT___	31	punct	_	_
+
+
+#Par contre, votre convention dit "sous réserve des dispositions contractuelles fixées"....
+1	Par	Par	ADP	_	ADP___	8	advmod	_	_
+2	contre	contrer	ADP	_	ADP___	8	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+5	convention	convention	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nsubj	_	_
+6	dit	dire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+7	"	"	PUNCT	_	PUNCT___	8	punct	_	_
+8	sous	sou	ADP	_	ADP___	8	mark	_	_
+9	réserve	réserver	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+10	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
+11	dispositions	disposition	NOUN	_	NOUN__Gender=Fem|Number=Plur	8	obj	_	_
+12	contractuelles	contractuel	ADJ	_	ADJ__Gender=Fem|Number=Plur	13	amod	_	_
+13	fixées	fixer	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	11	amod	_	_
+14	"	"	PUNCT	_	PUNCT___	16	punct	_	_
+15	....	....	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Je dirais donc, que le contrat prévaut, mais sans grande conviction.
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	8	nsubj	_	_
+2	dirais	dire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	donc	donc	ADV	_	ADV___	4	advmod	_	_
+4	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+5	que	que	SCONJ	_	SCONJ___	6	fixed	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+7	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	fixed	_	_
+8	prévaut	prévaloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	amod	_	_
+9	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+10	mais	mais	CCONJ	_	CCONJ___	11	cc	_	_
+11	sans	sans	ADP	_	ADP___	8	case	_	_
+12	grande	grand	ADJ	_	ADJ__Gender=Fem|Number=Sing	13	amod	_	_
+13	conviction	conviction	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	conj	_	_
+14	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+

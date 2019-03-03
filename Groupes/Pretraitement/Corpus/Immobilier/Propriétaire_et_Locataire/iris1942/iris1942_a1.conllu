@@ -1,0 +1,83 @@
+#Bonjour, Le texte de loi :
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	texte	texte	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+5	de	de	ADP	_	ADP___	6	case	_	_
+6	loi	loi	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+7	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Donc : 1/ il doit fournir un justificatif du montant (facture ou devis) 2/ c'est uniquement si l'état des lieux de sortie indique une dégradation par rapport à l'état des lieux d'entrée 3/ le retard est calculé en "période mensuelle" et pas en semaines.
+1	Donc	donc	ADV	_	ADV___	1	advmod	_	_
+2	:	:	PUNCT	_	PUNCT___	4	punct	_	_
+3	1/	1/	NUM	_	NUM__NumType=Card	4	nsubj	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+5	doit	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	fournir	fournir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+8	justificatif	justificatif	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+9	du	du	DET	_	DET__Gender=Masc|Number=Sing	13	det	_	_
+10	montant	montant	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+11	(	(	PUNCT	_	PUNCT___	13	punct	_	_
+12	facture	facture	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obl	_	_
+13	ou	ou	CCONJ	_	CCONJ___	13	cc	_	_
+14	devis	devis	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	conj	_	_
+15	)	)	PUNCT	_	PUNCT___	13	punct	_	_
+16	2/	2/	NUM	_	NUM__NumType=Card	17	punct	_	_
+17	c'	ce	PRON	_	PRON__Number=Sing|Person=3	13	nsubj	_	_
+18	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+19	uniquement	uniquement	ADV	_	ADV___	13	advmod	_	_
+20	si	si	SCONJ	_	SCONJ___	21	mark	_	_
+21	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+22	état	état	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+23	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	13	det	_	_
+24	lieux	lieu	NOUN	_	NOUN__Gender=Masc|Number=Plur	29	obj	_	_
+25	de	de	ADP	_	ADP___	29	case	_	_
+26	sortie	sortie	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	nmod	_	_
+27	indique	indiquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	amod	_	_
+28	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	dégradation	dégradation	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obj	_	_
+30	par	par	ADP	_	ADP___	31	case	_	_
+31	rapport	rapport	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	fixed	_	_
+32	à	à	ADP	_	ADP___	33	fixed	_	_
+33	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	31	det	_	_
+34	état	état	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	obl	_	_
+35	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	36	det	_	_
+36	lieux	lieu	NOUN	_	NOUN__Gender=Masc|Number=Plur	34	obj	_	_
+37	d'	de	ADP	_	ADP___	41	case	_	_
+38	entrée	entrée	NOUN	_	NOUN__Gender=Fem|Number=Sing	37	nmod	_	_
+39	3/	3/	NUM	_	NUM__NumType=Card	37	amod	_	_
+40	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	retard	retard	NOUN	_	NOUN__Gender=Masc|Number=Sing	34	nmod	_	_
+42	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	cop	_	_
+43	calculé	calculer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	41	conj	_	_
+44	en	en	ADP	_	ADP___	45	case	_	_
+45	"	"	PUNCT	_	PUNCT___	43	punct	_	_
+46	période	période	NOUN	_	NOUN__Gender=Fem|Number=Sing	43	obl	_	_
+47	mensuelle	mensuel	ADJ	_	ADJ__Gender=Fem|Number=Sing	48	amod	_	_
+48	"	"	PUNCT	_	PUNCT___	41	punct	_	_
+49	et	et	CCONJ	_	CCONJ___	50	cc	_	_
+50	pas	pas	ADV	_	ADV__Polarity=Neg	13	advmod	_	_
+51	en	en	PRON	_	PRON__Person=3	53	case	_	_
+52	semaines	semaine	NOUN	_	NOUN__Gender=Fem|Number=Plur	53	conj	_	_
+53	.	.	PUNCT	_	PUNCT___	50	punct	_	_
+
+
+#Vous pouvez réclamer le justificatif mais pas les intérêts (pour le moment)
+1	Vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+2	pouvez	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	réclamer	réclamer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+5	justificatif	justificatif	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+6	mais	mais	CCONJ	_	CCONJ___	4	cc	_	_
+7	pas	pas	ADV	_	ADV___	1	advmod	_	_
+8	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	13	det	_	_
+9	intérêts	intérêt	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	conj	_	_
+10	(	(	PUNCT	_	PUNCT___	13	punct	_	_
+11	pour	pour	ADP	_	ADP___	13	case	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	moment	moment	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+14	)	)	PUNCT	_	PUNCT___	15	punct	_	_
+
+

@@ -1,0 +1,90 @@
+#Bonjour, Il faudrait savoir à quel(s) nom(s) est l'acte de propriété.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	4	obl	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	Il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+4	faudrait	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+5	savoir	savoir	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+6	à	à	ADP	_	ADP___	4	advmod	_	_
+7	quel(s	quel(s	PROPN	_	PROPN__Gender=Masc|Number=Sing	6	fixed	_	_
+8	)	)	PUNCT	_	PUNCT___	6	punct	_	_
+9	nom(s	nom(s	AUX	_	AUX__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	fixed	_	_
+10	)	)	PUNCT	_	PUNCT___	6	punct	_	_
+11	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	acte	acte	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obl	_	_
+14	de	de	ADP	_	ADP___	15	case	_	_
+15	propriété	propriété	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+16	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Si le titre de propriété est aux deux noms, le produit de la vente de la maison sera partagé 50/50.
+1	Si	Si	SCONJ	_	SCONJ___	4	mark	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	titre	titre	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+4	de	de	ADP	_	ADP___	4	case	_	_
+5	propriété	propriété	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+6	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+7	aux	aux	ADP	_	ADP___	6	advcl	_	_
+8	deux	deux	NUM	_	NUM__NumType=Card	6	nummod	_	_
+9	noms	nom	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	obj	_	_
+10	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	produit	produit	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nsubj:pass	_	_
+13	de	de	ADP	_	ADP___	4	case	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	vente	vente	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nmod	_	_
+16	de	de	ADP	_	ADP___	4	case	_	_
+17	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+18	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	nmod	_	_
+19	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	23	aux:pass	_	_
+20	partagé	partager	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+21	50/50	50/50	NUM	_	NUM__NumType=Card	19	iobj	_	_
+22	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Peu importe si Monsieur ne travaillait pas et n'a pas participé au remboursement des échéances, comme ils étaient mariés, c'est la communauté qui a remboursé les échéances….
+1	Peu	peu	ADV	_	ADV___	4	advmod	_	_
+2	importe	importer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	fixed	_	_
+3	si	si	SCONJ	_	SCONJ___	4	mark	_	_
+4	Monsieur	monsieur	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+5	ne	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+6	travaillait	travailler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+7	pas	pas	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+8	et	et	CCONJ	_	CCONJ___	6	cc	_	_
+9	n'	ne	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+10	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+11	pas	pas	ADV	_	ADV__Polarity=Neg	13	advmod	_	_
+12	participé	participer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	conj	_	_
+13	au	au	PRON	_	PRON__Number=Sing|Person=3	4	iobj	_	_
+14	remboursement	remboursemer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+15	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	13	det	_	_
+16	échéances	échéance	NOUN	_	NOUN__Gender=Fem|Number=Plur	4	obj	_	_
+17	,	,	PUNCT	_	PUNCT___	23	punct	_	_
+18	comme	comme	SCONJ	_	SCONJ___	19	mark	_	_
+19	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	23	nsubj	_	_
+20	étaient	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	21	aux:pass	_	_
+21	mariés	marier	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	19	advcl	_	_
+22	,	,	PUNCT	_	PUNCT___	23	punct	_	_
+23	c'	ce	PRON	_	PRON__Number=Sing|Person=3	36	nsubj	_	_
+24	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+25	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+26	communauté	communauté	NOUN	_	NOUN__Gender=Fem|Number=Sing	36	obl	_	_
+27	qui	qui	PRON	_	PRON__PronType=Rel	28	nsubj	_	_
+28	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
+29	remboursé	rembourser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	31	acl:relcl	_	_
+30	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	31	det	_	_
+31	échéances	échéance	NOUN	_	NOUN__Gender=Fem|Number=Plur	28	obj	_	_
+32	…	…	ADJ	_	ADJ___	34	punct	_	_
+33	.	.	PUNCT	_	PUNCT___	34	punct	_	_
+
+
+#Reste à connaître le régime matrimonial...
+1	Reste	rester	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+2	à	à	ADP	_	ADP___	4	mark	_	_
+3	connaître	connaître	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+5	régime	régime	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obj	_	_
+6	matrimonial	matrimonial	ADJ	_	ADJ__Gender=Masc|Number=Sing	4	amod	_	_
+7	...	...	PUNCT	_	PUNCT___	6	punct	_	_
+
+

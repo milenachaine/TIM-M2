@@ -1,0 +1,65 @@
+#Bonjour, Ni l'un ni l'autre, le mot utilisé est 'envisagé'.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Ni	Ni	CCONJ	_	CCONJ___	5	cc	_	_
+4	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	un	un	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	1	conj	_	_
+6	ni	ni	CCONJ	_	CCONJ___	8	cc	_	_
+7	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	autre	autre	PRON	_	PRON__Number=Sing|PronType=Rel	5	conj	_	_
+9	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+10	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	obj	_	_
+11	mot	mot	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	amod	_	_
+12	utilisé	utiliser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	15	nsubj	_	_
+13	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	'	'	PUNCT	_	PUNCT___	15	punct	_	_
+15	envisagé	envisager	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	_
+16	'	'	PUNCT	_	PUNCT___	15	punct	_	_
+17	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#L'employeur pourrait vouloir mettre fin au contrat dès que le délai de la Direccte est épuisé.
+1	L'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+2	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	pourrait	pouvoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	vouloir	vouloir	AUX	_	AUX__VerbForm=Inf	5	aux	_	_
+5	mettre	mettre	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+6	fin	fin	NOUN	_	NOUN__Number=Sing	8	obj	_	_
+7	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	8	case	_	_
+8	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+9	dès	dès	ADP	_	ADP___	15	mark	_	_
+10	que	que	SCONJ	_	SCONJ___	12	fixed	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	délai	délai	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nsubj:pass	_	_
+13	de	de	ADP	_	ADP___	15	case	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Direccte	Direccte	PROPN	_	PROPN__Gender=Fem|Number=Sing	1	nmod	_	_
+16	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
+17	épuisé	épuiser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	advcl	_	_
+18	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Sinon date de rupture du xx/xx/xx veut dire que le contrat s'arrête le xx/xx/11x
+1	Sinon	sinon	ADV	_	ADV___	1	advmod	_	_
+2	date	date	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+3	de	de	ADP	_	ADP___	5	case	_	_
+4	rupture	rupture	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+5	du	du	DET	_	DET__Gender=Masc|Number=Sing	1	det	_	_
+6	xx	xx	PROPN	_	PROPN__Gender=Fem|Number=Sing	8	nsubj	_	_
+7	/	/	PUNCT	_	PUNCT___	8	fixed	_	_
+8	xx	xx	PROPN	_	PROPN__Gender=Fem|Number=Sing	5	fixed	_	_
+9	/	/	PUNCT	_	PUNCT___	15	fixed	_	_
+10	xx	xx	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	12	fixed	_	_
+11	veut	vouloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	dire	dire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+13	que	que	SCONJ	_	SCONJ___	15	mark	_	_
+14	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+16	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	15	expl	_	_
+17	arrête	arrêter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+18	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	xx	xx	PROPN	_	PROPN__Gender=Masc|Number=Sing	22	obj	_	_
+20	/	/	ADP	_	ADP___	22	fixed	_	_
+21	xx/11x	xx/11x	NOUN	_	NOUN__Number=Sing	22	nmod	_	_
+
+

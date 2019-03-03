@@ -1,0 +1,128 @@
+#Non l'eau froide est dans les charges communes car je n ai pas de compteur.
+1	Non	non	ADV	_	ADV___	0	ROOT	_	_
+2	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	eau	eau	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nsubj	_	_
+4	froide	froid	ADJ	_	ADJ__Number=Sing	3	amod	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	dans	dan	ADP	_	ADP___	8	case	_	_
+7	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+8	charges	charge	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	fixed	_	_
+9	communes	commun	ADJ	_	ADJ__Gender=Fem|Number=Plur	8	amod	_	_
+10	car	car	CCONJ	_	CCONJ___	12	cc	_	_
+11	je	il	PRON	_	PRON__Number=Sing|Person=1	12	nsubj	_	_
+12	n	ne	PRON	_	PRON__Person=3	1	conj	_	_
+13	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	fixed	_	_
+14	pas	pas	ADV	_	ADV__Polarity=Neg	13	advmod	_	_
+15	de	de	ADP	_	ADP___	16	det	_	_
+16	compteur	compteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+17	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Seulement eau chaude.
+1	Seulement	seulement	ADV	_	ADV___	1	advmod	_	_
+2	eau	eau	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	det	_	_
+3	chaude	chaude	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Les docs en question sont les PV d'AG.
+1	Les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+2	docs	doc	NOUN	_	NOUN__Gender=Fem|Number=Plur	3	nsubj	_	_
+3	en	en	ADP	_	ADP___	8	advmod	_	_
+4	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	fixed	_	_
+5	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+7	PV	pv	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+8	d'	de	ADP	_	ADP___	1	case	_	_
+9	AG	AG	PROPN	_	PROPN___	8	nmod	_	_
+10	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Exemple le PV prevoit un budget de 49k de chauffage et les appels de charges ont été de 4 fois 5k... voté à l unanimité ....
+1	Exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	PV	PV	PROPN	_	PROPN___	8	nmod	_	_
+4	prevoit	prevoit	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+6	budget	budget	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+7	de	de	ADP	_	ADP___	8	case	_	_
+8	49k	49k	PRON	_	PRON__NumType=Card|PronType=Rel	1	nmod	_	_
+9	de	de	ADP	_	ADP___	8	case	_	_
+10	chauffage	chauffage	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nmod	_	_
+11	et	et	CCONJ	_	CCONJ___	12	cc	_	_
+12	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+13	appels	appel	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	conj	_	_
+14	de	de	ADP	_	ADP___	13	case	_	_
+15	charges	charge	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nmod	_	_
+16	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+17	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	1	cop	_	_
+18	de	de	ADP	_	ADP___	20	case	_	_
+19	4	4	NUM	_	NUM__NumType=Card	20	nummod	_	_
+20	fois	fois	NOUN	_	NOUN__Gender=Fem|Number=Plur	20	nmod	_	_
+21	5k	5k	NUM	_	NUM__NumType=Card	20	obj	_	_
+22	...	...	PUNCT	_	PUNCT___	23	punct	_	_
+23	voté	voter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+24	à	à	ADP	_	ADP___	23	case	_	_
+25	l	l	NOUN	_	NOUN___	24	obl	_	_
+26	unanimité	unanimité	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	amod	_	_
+27	....	....	PUNCT	_	PUNCT___	28	obj	_	_
+
+
+#Précisement, le PV de 2016 + celui de 2017 (car budget réajusté) qui prevoyait une legere baisse pour inclure les 5% Allur (et garder le meme budget total).
+1	Précisement	précisement	ADV	_	ADV___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+4	PV	pv	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	fixed	_	_
+5	de	de	ADP	_	ADP___	8	case	_	_
+6	2016	2016	NUM	_	NUM__NumType=Card	8	nmod	_	_
+7	+	+	ADP	_	ADP___	8	case	_	_
+8	celui	celui	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Dem	1	nmod	_	_
+9	de	de	ADP	_	ADP___	8	case	_	_
+10	2017	2017	NUM	_	NUM__NumType=Card	12	nmod	_	_
+11	(	(	PUNCT	_	PUNCT___	12	punct	_	_
+12	car	car	CCONJ	_	CCONJ___	1	cc	_	_
+13	budget	budget	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	conj	_	_
+14	réajusté	réajuster	ADJ	_	ADJ__Gender=Masc|Number=Sing	13	amod	_	_
+15	)	)	PUNCT	_	PUNCT___	16	punct	_	_
+16	qui	qui	PRON	_	PRON__PronType=Rel	13	nsubj	_	_
+17	prevoyait	prevoyer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	acl:relcl	_	_
+18	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	legere	legere	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	amod	_	_
+20	baisse	baisse	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obj	_	_
+21	pour	pour	ADP	_	ADP___	20	mark	_	_
+22	inclure	inclure	VERB	_	VERB__VerbForm=Inf	23	advcl	_	_
+23	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	28	det	_	_
+24	5	5	NUM	_	NUM__NumType=Card	23	nummod	_	_
+25	%	%	NOUN	_	NOUN__Gender=Masc	24	obj	_	_
+26	Allur	allur	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	nmod	_	_
+27	(	(	PUNCT	_	PUNCT___	28	punct	_	_
+28	et	et	CCONJ	_	CCONJ___	28	cc	_	_
+29	garder	garder	VERB	_	VERB__VerbForm=Inf	30	conj	_	_
+30	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+31	meme	mem	ADJ	_	ADJ__Number=Sing	28	obj	_	_
+32	budget	budget	NOUN	_	NOUN__Gender=Masc|Number=Sing	35	amod	_	_
+33	total	total	ADJ	_	ADJ__Gender=Masc|Number=Sing	34	amod	_	_
+34	)	)	PUNCT	_	PUNCT___	32	punct	_	_
+35	.	.	PUNCT	_	PUNCT___	54	punct	_	_
+
+
+#Toujours est il que les appels ne sont basés sur aucun des chiffres de ces 2 PV
+1	Toujours	toujours	ADV	_	ADV___	1	advmod	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	8	nsubj:pass	_	_
+4	que	que	SCONJ	_	SCONJ___	3	mark	_	_
+5	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+6	appels	appel	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	nsubj:pass	_	_
+7	ne	ne	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+8	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
+9	basés	baser	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+10	sur	sur	ADP	_	ADP___	12	case	_	_
+11	aucun	aucun	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	12	det	_	_
+12	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	1	det	_	_
+13	chiffres	chiffre	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	obl	_	_
+14	de	de	ADP	_	ADP___	13	case	_	_
+15	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	16	det	_	_
+16	2	2	NUM	_	NUM__NumType=Card	13	nummod	_	_
+17	PV	pv	NOUN	_	NOUN___	1	nmod	_	_
+
+

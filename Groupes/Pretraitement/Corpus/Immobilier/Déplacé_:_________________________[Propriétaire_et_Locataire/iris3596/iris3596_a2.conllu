@@ -1,0 +1,90 @@
+#C'est ça.
+1	C'	ce	PRON	_	PRON__Number=Sing|Person=3	3	nsubj	_	_
+2	est	être	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	0	ROOT	_	_
+4	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Ils auraient dû avoir les deux signatures sauf cas mentionnés plus haut.
+1	Ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	3	nsubj	_	_
+2	auraient	avoir	AUX	_	AUX__Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	dû	devoir	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	aux	_	_
+4	avoir	avoir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+6	deux	deux	NUM	_	NUM__NumType=Card	8	nummod	_	_
+7	signatures	signature	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obj	_	_
+8	sauf	sauf	ADP	_	ADP___	8	case	_	_
+9	cas	cas	NOUN	_	NOUN__Gender=Masc	11	obl	_	_
+10	mentionnés	mentionner	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	acl	_	_
+11	plus	plus	ADV	_	ADV___	8	advmod	_	_
+12	haut	haut	ADJ	_	ADJ__Gender=Masc|Number=Sing	13	obj	_	_
+13	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#C'est du civil.
+1	C'	ce	PRON	_	PRON__Number=Sing|Person=3	3	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	du	du	DET	_	DET__Gender=Masc|Number=Sing	3	det	_	_
+4	civil	civil	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+5	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Les époux sont solidaires entre eux.
+1	Les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	3	det	_	_
+2	époux	époux	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	nsubj	_	_
+3	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+4	solidaires	solidaire	ADJ	_	ADJ__Number=Plur	0	ROOT	_	_
+5	entre	entrer	ADP	_	ADP___	8	case	_	_
+6	eux	lui	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	obl	_	_
+7	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Si l'un des deux signe un bail, une caution ou un prêt sans que l'autre ne le sache ou n'appose pas sa signature, le contrat ne vaut rien.
+1	Si	Si	SCONJ	_	SCONJ___	3	mark	_	_
+2	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	un	un	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	3	nsubj	_	_
+4	des	un	ADP	_	ADP___	3	det	_	_
+5	deux	deux	NUM	_	NUM__NumType=Card	8	nummod	_	_
+6	signe	signe	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	advcl	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+9	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+10	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	caution	caution	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	appos	_	_
+12	ou	ou	CCONJ	_	CCONJ___	13	cc	_	_
+13	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+14	prêt	prêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	conj	_	_
+15	sans	sans	ADP	_	ADP___	16	mark	_	_
+16	que	que	SCONJ	_	SCONJ___	14	fixed	_	_
+17	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+18	autre	autre	PRON	_	PRON__Number=Sing|PronType=Rel	21	amod	_	_
+19	ne	ne	ADV	_	ADV___	21	advmod	_	_
+20	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	sache	savoir	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	nmod	_	_
+22	ou	ou	CCONJ	_	CCONJ___	21	cc	_	_
+23	n'	ne	ADV	_	ADV__Polarity=Neg	24	advmod	_	_
+24	appose	apposer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	conj	_	_
+25	pas	pas	ADV	_	ADV__Polarity=Neg	26	advmod	_	_
+26	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	26	nmod:poss	_	_
+27	signature	signature	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	obj	_	_
+28	,	,	PUNCT	_	PUNCT___	26	punct	_	_
+29	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+30	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	35	nsubj	_	_
+31	ne	ne	ADV	_	ADV___	32	advmod	_	_
+32	vaut	valoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+33	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	35	obj	_	_
+34	.	.	PUNCT	_	PUNCT___	35	punct	_	_
+
+
+#L'agence a donc fait une belle boulette !
+1	L'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+2	agence	agence	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+4	donc	donc	ADV	_	ADV___	3	advmod	_	_
+5	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+6	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	belle	belle	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	amod	_	_
+8	boulette	bouleter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	obj	_	_
+9	!	!	PUNCT	_	PUNCT___	11	punct	_	_
+
+

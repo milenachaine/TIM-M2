@@ -1,0 +1,94 @@
+#Bonjour,
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Du côté du dirigeant Pour le dirigeant c'est un revenu de location soumis au prélèvement social + CSG + impôt sur le revenu, par conséquent aucun intérêt.
+1	Du	du	DET	_	DET__Gender=Masc|Number=Sing	1	det	_	_
+2	côté	côté	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	du	du	DET	_	DET__Gender=Masc|Number=Sing	4	det	_	_
+4	dirigeant	diriger	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+5	Pour	Pour	ADP	_	ADP___	6	case	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+7	dirigeant	diriger	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nmod	_	_
+8	c'	ce	PRON	_	PRON__Number=Sing|Person=3	9	nsubj	_	_
+9	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+10	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+11	revenu	revenu	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+12	de	de	ADP	_	ADP___	13	case	_	_
+13	location	location	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nmod	_	_
+14	soumis	soumettre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	15	acl	_	_
+15	au	au	PRON	_	PRON__PronType=Rel	13	case	_	_
+16	prélèvement	prélèvement	ADV	_	ADV___	15	obl	_	_
+17	social	social	ADJ	_	ADJ__Gender=Masc|Number=Sing	18	amod	_	_
+18	+	+	ADP	_	ADP___	16	case	_	_
+19	CSG	CSG	PROPN	_	PROPN___	18	nmod	_	_
+20	+	+	ADP	_	ADP___	21	case	_	_
+21	impôt	impôt	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nmod	_	_
+22	sur	sur	ADP	_	ADP___	23	case	_	_
+23	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+24	revenu	revenu	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	nmod	_	_
+25	,	,	PUNCT	_	PUNCT___	26	punct	_	_
+26	par	par	ADP	_	ADP___	18	case	_	_
+27	conséquent	conséquent	NOUN	_	NOUN___	13	fixed	_	_
+28	aucun	aucun	DET	_	DET__Gender=Masc|Number=Sing	31	det	_	_
+29	intérêt	intérêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	obl	_	_
+30	.	.	PUNCT	_	PUNCT___	31	punct	_	_
+
+
+#soit 17,2 +14% ou 17,2 + 31 % ou supérieur.
+1	soit	être	CCONJ	_	CCONJ___	1	cc	_	_
+2	17,2	17,2	PRON	_	PRON__NumType=Card|PronType=Rel	1	nummod	_	_
+3	+	+	ADP	_	ADP___	4	case	_	_
+4	14	14	NUM	_	NUM__NumType=Card	13	nummod	_	_
+5	%	%	NOUN	_	NOUN__Gender=Masc	0	ROOT	_	_
+6	ou	ou	CCONJ	_	CCONJ___	4	cc	_	_
+7	17,2	17,2	NUM	_	NUM__NumType=Card	9	conj	_	_
+8	+	+	ADP	_	ADP___	9	case	_	_
+9	31	31	NUM	_	NUM__NumType=Card	4	nummod	_	_
+10	%	%	NOUN	_	NOUN__Gender=Masc	13	nmod	_	_
+11	ou	ou	CCONJ	_	CCONJ___	13	cc	_	_
+12	supérieur	supérieur	ADJ	_	ADJ__Gender=Masc|Number=Sing	13	conj	_	_
+13	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Toute personne peut louer la surface de sa voiture à un annonceur.
+1	Toute	tout	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	personne	personne	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+3	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	louer	louer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	surface	surface	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obj	_	_
+7	de	de	ADP	_	ADP___	9	case	_	_
+8	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	9	nmod:poss	_	_
+9	voiture	voiture	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+10	à	à	ADP	_	ADP___	13	case	_	_
+11	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	annonceur	annonceur	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+13	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Il en sera de même pour le dirigeant qui louerait à sa société un bureau de son domicile par exemple.
+1	Il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	en	en	PRON	_	PRON__Person=3	1	iobj	_	_
+3	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+4	de	de	ADP	_	ADP___	13	punct	_	_
+5	même	même	ADV	_	ADV___	6	fixed	_	_
+6	pour	pour	ADP	_	ADP___	4	case	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	dirigeant	diriger	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obl	_	_
+9	qui	qui	PRON	_	PRON__PronType=Rel	4	nsubj	_	_
+10	louerait	louer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	acl:relcl	_	_
+11	à	à	ADP	_	ADP___	13	case	_	_
+12	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	13	nmod:poss	_	_
+13	société	société	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obl	_	_
+14	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	bureau	bureau	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+16	de	de	ADP	_	ADP___	15	case	_	_
+17	son	son	DET	_	DET__Number=Sing|Poss=Yes	18	nmod:poss	_	_
+18	domicile	domicile	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	nmod	_	_
+19	par	par	ADP	_	ADP___	18	advmod	_	_
+20	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	fixed	_	_
+21	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+

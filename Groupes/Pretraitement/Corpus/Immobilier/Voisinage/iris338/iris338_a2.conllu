@@ -1,0 +1,103 @@
+#Bonjour Chimere 17, Je ne pense pas
+1	Bonjour	Bonjour	PROPN	_	PROPN___	2	case	_	_
+2	Chimere	Chimere	PROPN	_	PROPN___	7	obl	_	_
+3	17	17	NUM	_	NUM__NumType=Card	2	nummod	_	_
+4	,	,	PUNCT	_	PUNCT___	2	punct	_	_
+5	Je	il	PRON	_	PRON__Number=Sing|Person=1	7	nsubj	_	_
+6	ne	ne	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+7	pense	penser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	pas	pas	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+
+
+#qu’il s’agit d’une question de taxe d’habitation.
+1	qu’	qu’	SCONJ	_	SCONJ___	0	ROOT	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	7	det	_	_
+3	s’	s’	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	obl	_	_
+4	agit	agir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	fixed	_	_
+5	d’	d’	PUNCT	_	PUNCT___	7	xcomp	_	_
+6	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+8	de	de	ADP	_	ADP___	7	case	_	_
+9	taxe	taxe	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nmod	_	_
+10	d’	d’	PROPN	_	PROPN___	11	amod	_	_
+11	habitation	habitation	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nmod	_	_
+12	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Il ne peut être alimenté par un branchement de chantier alors que le logement est habité.
+1	Il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	ne	ne	ADV	_	ADV___	7	advmod	_	_
+3	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	être	être	AUX	_	AUX__VerbForm=Inf	2	aux:pass	_	_
+5	alimenté	alimenter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	xcomp	_	_
+6	par	par	ADP	_	ADP___	7	case	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+8	branchement	branchement	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+9	de	de	ADP	_	ADP___	9	case	_	_
+10	chantier	chantier	VERB	_	VERB__VerbForm=Inf	11	nmod	_	_
+11	alors	alors	ADV	_	ADV___	9	advmod	_	_
+12	que	que	SCONJ	_	SCONJ___	9	mark	_	_
+13	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+14	logement	logement	ADV	_	ADV___	15	nsubj	_	_
+15	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+16	habité	habiter	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	acl:relcl	_	_
+17	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#C’est visiblement une question d’attestation Consuel non obtenue à la fin du chantier ( non demandée ?
+1	C’	c’	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+3	visiblement	visiblement	ADV	_	ADV___	2	advmod	_	_
+4	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+5	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+6	d’	d’	ADJ	_	ADJ__Gender=Fem|Number=Sing	7	amod	_	_
+7	attestation	attestation	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	det	_	_
+8	Consuel	Consuel	PROPN	_	PROPN___	7	obj	_	_
+9	non	non	ADV	_	ADV___	9	advmod	_	_
+10	obtenue	obtenir	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
+11	à	à	ADP	_	ADP___	9	case	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+13	fin	fin	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obl	_	_
+14	du	du	DET	_	DET__Gender=Masc|Number=Sing	15	det	_	_
+15	chantier	chantier	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+16	(	(	PUNCT	_	PUNCT___	17	punct	_	_
+17	non	non	ADV	_	ADV___	15	advmod	_	_
+18	demandée	demander	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	acl	_	_
+19	?	?	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#problème de conformité ?
+1	problème	problème	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	de	de	ADP	_	ADP___	7	case	_	_
+3	conformité	conformité	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	nmod	_	_
+4	?	?	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#...) et l’attestation Consuel est exigée pour la mise en service définitive de son branchement électrique ( c’est la loi).
+1	...	...	PUNCT	_	PUNCT___	0	ROOT	_	_
+2	)	)	PUNCT	_	PUNCT___	7	punct	_	_
+3	et	et	CCONJ	_	CCONJ___	2	cc	_	_
+4	l’	l’	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+5	attestation	attestation	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	det	_	_
+6	Consuel	Consuel	PROPN	_	PROPN__Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+7	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+8	exigée	exiger	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	conj	_	_
+9	pour	pour	ADP	_	ADP___	9	case	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	mise	mise	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obl	_	_
+12	en	en	ADP	_	ADP___	9	case	_	_
+13	service	service	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nmod	_	_
+14	définitive	définitif	ADJ	_	ADJ__Gender=Fem|Number=Sing	15	amod	_	_
+15	de	de	ADP	_	ADP___	13	case	_	_
+16	son	son	DET	_	DET__Number=Sing|Poss=Yes	17	nmod:poss	_	_
+17	branchement	branchement	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nmod	_	_
+18	électrique	électrique	ADJ	_	ADJ__Number=Sing	17	amod	_	_
+19	(	(	PUNCT	_	PUNCT___	15	punct	_	_
+20	c’	c’	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nsubj	_	_
+21	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+22	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	loi	loi	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	obl	_	_
+24	)	)	PUNCT	_	PUNCT___	25	punct	_	_
+25	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+

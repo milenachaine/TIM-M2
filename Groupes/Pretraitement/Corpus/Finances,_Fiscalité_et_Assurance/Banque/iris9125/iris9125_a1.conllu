@@ -1,0 +1,118 @@
+#Bonjour, Lors du rejet du chèque, vous avez dû recevoir une lettre d'injonction sur laquelle il était précisé les 3 modalités légales pour régulariser : 1°
+1	Bonjour	Bonjour	PROPN	_	PROPN___	12	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Lors	lors	ADV	_	ADV___	7	case	_	_
+4	du	du	DET	_	DET__Gender=Masc|Number=Sing	3	fixed	_	_
+5	rejet	rejet	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	fixed	_	_
+6	du	du	DET	_	DET__Gender=Masc|Number=Sing	7	det	_	_
+7	chèque	chèque	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obl	_	_
+8	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+9	vous	vous	PRON	_	PRON__Number=Plur|Person=2	12	nsubj	_	_
+10	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	dû	devoir	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	aux	_	_
+12	recevoir	recevoir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+13	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	lettre	lettre	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obj	_	_
+15	d'	de	ADP	_	ADP___	16	case	_	_
+16	injonction	injonction	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nmod	_	_
+17	sur	sur	ADP	_	ADP___	18	case	_	_
+18	laquelle	lequel	PRON	_	PRON__Gender=Fem|Number=Sing|PronType=Rel	21	obl	_	_
+19	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	21	nsubj:pass	_	_
+20	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	aux:pass	_	_
+21	précisé	préciser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	advcl	_	_
+22	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	24	det	_	_
+23	3	3	NUM	_	NUM__NumType=Card	24	nummod	_	_
+24	modalités	modalité	NOUN	_	NOUN__Gender=Masc|Number=Plur	21	nsubj:pass	_	_
+25	légales	légal	ADJ	_	ADJ__Gender=Fem|Number=Plur	24	amod	_	_
+26	pour	pour	ADP	_	ADP___	27	mark	_	_
+27	régulariser	régulariser	VERB	_	VERB__VerbForm=Inf	21	advcl	_	_
+28	:	:	PUNCT	_	PUNCT___	21	punct	_	_
+29	1	1	NUM	_	NUM__NumType=Card	30	nummod	_	_
+30	°	°	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	nmod	_	_
+
+
+#- demander au bénéficiaire de représenter le chèques (après avoir approvisionné votre compte), 2°
+1	-	-	PUNCT	_	PUNCT___	12	punct	_	_
+2	demander	demander	VERB	_	VERB__VerbForm=Inf	1	aux	_	_
+3	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	7	expl	_	_
+4	bénéficiaire	bénéficiaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	de	de	ADP	_	ADP___	3	mark	_	_
+6	représenter	représenter	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+8	chèques	chèque	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+9	(	(	PUNCT	_	PUNCT___	12	punct	_	_
+10	après	après	ADP	_	ADP___	12	mark	_	_
+11	avoir	avoir	AUX	_	AUX__VerbForm=Inf	12	aux	_	_
+12	approvisionné	approvisionner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	_
+13	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	14	nmod:poss	_	_
+14	compte	compte	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+15	)	)	PUNCT	_	PUNCT___	16	punct	_	_
+16	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+17	2	2	NUM	_	NUM__NumType=Card	18	nummod	_	_
+18	°	°	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	conj	_	_
+
+
+#- payer le bénéficiaire par un autre moyen et récupérer le chèque impayé pour le restituer à la banque, 3° - demander à votre banque de bloquer la provision correspondant au chèque impayé.
+1	-	-	PUNCT	_	PUNCT___	12	punct	_	_
+2	payer	payer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+4	bénéficiaire	bénéficiaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obj	_	_
+5	par	par	ADP	_	ADP___	3	case	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	autre	autre	ADJ	_	ADJ__Number=Sing	12	amod	_	_
+8	moyen	moyen	ADJ	_	ADJ__Gender=Masc|Number=Sing	12	obl	_	_
+9	et	et	CCONJ	_	CCONJ___	12	cc	_	_
+10	récupérer	récupérer	VERB	_	VERB__VerbForm=Inf	12	conj	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	chèque	chèque	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+13	impayé	impayé	ADJ	_	ADJ___	14	amod	_	_
+14	pour	pour	ADP	_	ADP___	12	mark	_	_
+15	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	16	obj	_	_
+16	restituer	restituer	VERB	_	VERB__VerbForm=Inf	14	advcl	_	_
+17	à	à	ADP	_	ADP___	18	case	_	_
+18	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+19	banque	banque	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	obl	_	_
+20	,	,	PUNCT	_	PUNCT___	21	punct	_	_
+21	3	3	NUM	_	NUM__NumType=Card	12	nummod	_	_
+22	°	°	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	conj	_	_
+23	-	-	PUNCT	_	PUNCT___	24	punct	_	_
+24	demander	demander	VERB	_	VERB__VerbForm=Inf	21	advcl	_	_
+25	à	à	ADP	_	ADP___	24	case	_	_
+26	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	27	nmod:poss	_	_
+27	banque	banque	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	obl	_	_
+28	de	de	ADP	_	ADP___	21	mark	_	_
+29	bloquer	bloquer	VERB	_	VERB__VerbForm=Inf	30	xcomp	_	_
+30	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+31	provision	provision	NOUN	_	NOUN__Gender=Fem|Number=Sing	34	obj	_	_
+32	correspondant	correspondre	VERB	_	VERB__Tense=Pres|VerbForm=Part	34	acl	_	_
+33	au	au	PRON	_	PRON__PronType=Rel	34	det	_	_
+34	chèque	chèque	NOUN	_	NOUN__Gender=Masc|Number=Sing	34	obj	_	_
+35	impayé	impayé	ADJ	_	ADJ___	36	amod	_	_
+36	.	.	PUNCT	_	PUNCT___	34	punct	_	_
+
+
+#Dans votre cas, il faut donc demander à votre banque de bloquer la provision nécessaire au paiement de ce chèque.
+1	Dans	Dans	ADP	_	ADP___	12	case	_	_
+2	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+3	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+4	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+5	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+6	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	donc	donc	ADV	_	ADV___	12	advmod	_	_
+8	demander	demander	VERB	_	VERB__VerbForm=Inf	12	xcomp	_	_
+9	à	à	ADP	_	ADP___	12	case	_	_
+10	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	12	nmod:poss	_	_
+11	banque	banque	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obl	_	_
+12	de	de	ADP	_	ADP___	12	mark	_	_
+13	bloquer	bloquer	VERB	_	VERB__VerbForm=Inf	14	xcomp	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+15	provision	provision	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obj	_	_
+16	nécessaire	nécessaire	ADJ	_	ADJ__Number=Sing	14	amod	_	_
+17	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
+18	paiement	paiement	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obj	_	_
+19	de	de	ADP	_	ADP___	21	case	_	_
+20	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	21	det	_	_
+21	chèque	chèque	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nmod	_	_
+22	.	.	PUNCT	_	PUNCT___	24	punct	_	_
+
+

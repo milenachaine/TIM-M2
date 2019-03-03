@@ -1,0 +1,89 @@
+#Bonsoir
+1	Bonsoir	Bonsoir	PROPN	_	PROPN___	0	ROOT	_	_
+
+
+#Désolée
+1	Désolée	Désolée	X	_	X___	0	ROOT	_	_
+
+
+#Ashel
+1	Ashel	Ashel	PROPN	_	PROPN__Gender=Masc|Number=Sing	0	ROOT	_	_
+
+
+#- nous sommes 4 voisins qui sommes autour du terrain de ce nouveau voisin acquéreur
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	nous	nous	PRON	_	PRON__Number=Plur|Person=1	2	nsubj	_	_
+3	sommes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+4	4	4	NUM	_	NUM__NumType=Card	8	nummod	_	_
+5	voisins	voisin	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+6	qui	qui	PRON	_	PRON__PronType=Rel	8	nsubj	_	_
+7	sommes	somme	NOUN	_	NOUN__Number=Plur	8	cop	_	_
+8	autour	autour	ADV	_	ADV___	8	case	_	_
+9	du	du	DET	_	DET__Gender=Masc|Number=Sing	12	det	_	_
+10	terrain	terrain	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+11	de	de	ADP	_	ADP___	12	case	_	_
+12	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	13	fixed	_	_
+13	nouveau	nouveau	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	fixed	_	_
+14	voisin	voisin	ADJ	_	ADJ__Gender=Masc|Number=Sing	18	fixed	_	_
+15	acquéreur	acquéreur	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nmod	_	_
+
+
+#- dont un voisin vendeur
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	dont	dont	PRON	_	PRON__PronType=Rel	2	dep	_	_
+3	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+4	voisin	voisin	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	amod	_	_
+5	vendeur	vendeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+
+
+#- si vous avez tout suivi nous avons divers soucis avec l'acquéreur.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	si	si	SCONJ	_	SCONJ___	2	mark	_	_
+3	vous	vous	PRON	_	PRON__Number=Plur|Person=2	3	nsubj	_	_
+4	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+5	tout	tout	ADV	_	ADV___	8	det	_	_
+6	suivi	suivi	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+7	nous	nous	PRON	_	PRON__Number=Plur|Person=1	8	nsubj	_	_
+8	avons	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+9	divers	divers	DET	_	DET__Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+10	soucis	souci	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obj	_	_
+11	avec	avec	ADP	_	ADP___	12	case	_	_
+12	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	acquéreur	acquéreur	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+14	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#J'ai corrigé je vous présente mes excuses.
+1	J'	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+3	corrigé	corriger	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	je	il	PRON	_	PRON__Number=Sing|Person=1	8	nsubj	_	_
+5	vous	vous	PRON	_	PRON__Number=Plur|Person=2	8	iobj	_	_
+6	présente	présenter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	xcomp	_	_
+7	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	8	nmod:poss	_	_
+8	excuses	excuse	NOUN	_	NOUN__Gender=Fem|Number=Plur	8	obj	_	_
+9	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Pour la hauteur des murs on n'a rien trouvé sur le PLU ... nous sommes en plu up37
+1	Pour	Pour	ADP	_	ADP___	1	case	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	fixed	_	_
+3	hauteur	hauteur	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	fixed	_	_
+4	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
+5	murs	mur	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obl	_	_
+6	on	on	PRON	_	PRON__Number=Sing|Person=3	8	nsubj	_	_
+7	n'	ne	ADV	_	ADV___	8	advmod	_	_
+8	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+9	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	12	nsubj	_	_
+10	trouvé	trouver	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+11	sur	sur	ADP	_	ADP___	12	case	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	PLU	pleuvoir	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+14	...	...	PUNCT	_	PUNCT___	18	punct	_	_
+15	nous	nous	PRON	_	PRON__Number=Plur|Person=1	14	nsubj	_	_
+16	sommes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+17	en	en	ADP	_	ADP___	14	mark	_	_
+18	plu	pleuvoir	VERB	_	VERB__VerbForm=Inf	8	parataxis	_	_
+19	up37	up37	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	obj	_	_
+
+

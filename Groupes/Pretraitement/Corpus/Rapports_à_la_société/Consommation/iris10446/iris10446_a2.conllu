@@ -1,0 +1,69 @@
+#Bonjour, Peut-être proposent
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	Peut-être	peut-être	ADV	_	ADV___	4	advmod	_	_
+4	proposent	proposer	ADV	_	ADV___	1	conj	_	_
+
+
+#-ils un devis pour le faire réparer chez un bijoutier concurrent ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	4	nmod	_	_
+3	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	devis	devis	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	pour	pour	ADP	_	ADP___	8	mark	_	_
+6	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	8	obj	_	_
+7	faire	faire	VERB	_	VERB__VerbForm=Inf	8	nmod	_	_
+8	réparer	réparer	VERB	_	VERB__VerbForm=Inf	8	xcomp	_	_
+9	chez	chez	ADP	_	ADP___	11	case	_	_
+10	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	bijoutier	bijoutier	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+12	concurrent	concurrer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl	_	_
+13	?	?	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Si vous estimez que la réparation coûte entre 10 et 20 € chez le bijoutier de votre ville, pourquoi ne pas proposer au vendeur de faire réparer vous-même ce bijou en leur demandant de vous indemniser sur présentation de la facture ?
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	4	nsubj	_	_
+3	estimez	estimer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+4	que	que	SCONJ	_	SCONJ___	1	mark	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+6	réparation	réparation	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nsubj	_	_
+7	coûte	coûter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+8	entre	entrer	ADP	_	ADP___	8	case	_	_
+9	10	10	NUM	_	NUM__NumType=Card	11	nummod	_	_
+10	et	et	CCONJ	_	CCONJ___	11	cc	_	_
+11	20	20	NUM	_	NUM__NumType=Card	8	nummod	_	_
+12	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	obj	_	_
+13	chez	chez	ADP	_	ADP___	15	case	_	_
+14	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	bijoutier	bijoutier	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nmod	_	_
+16	de	de	ADP	_	ADP___	15	case	_	_
+17	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+18	ville	ville	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	nmod	_	_
+19	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+20	pourquoi	pourquoi	ADV	_	ADV__PronType=Int	40	advmod	_	_
+21	ne	ne	ADV	_	ADV___	24	advmod	_	_
+22	pas	pas	ADV	_	ADV___	23	fixed	_	_
+23	proposer	proposer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+24	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	20	det	_	_
+25	vendeur	vendeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	obj	_	_
+26	de	de	ADP	_	ADP___	29	mark	_	_
+27	faire	faire	VERB	_	VERB__VerbForm=Inf	28	acl	_	_
+28	réparer	réparer	VERB	_	VERB__VerbForm=Inf	29	xcomp	_	_
+29	vous-même	vous-même	SCONJ	_	SCONJ___	24	obj	_	_
+30	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	32	det	_	_
+31	bijou	bijou	NOUN	_	NOUN__Gender=Masc|Number=Sing	32	obj	_	_
+32	en	en	ADP	_	ADP___	29	case	_	_
+33	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	35	iobj	_	_
+34	demandant	demander	VERB	_	VERB__Tense=Pres|VerbForm=Part	35	advcl	_	_
+35	de	de	ADP	_	ADP___	32	mark	_	_
+36	vous	vous	PRON	_	PRON__Number=Plur|Person=2	20	iobj	_	_
+37	indemniser	indemniser	VERB	_	VERB__VerbForm=Inf	40	xcomp	_	_
+38	sur	sur	ADP	_	ADP___	40	case	_	_
+39	présentation	présentation	NOUN	_	NOUN__Gender=Fem|Number=Sing	38	obl	_	_
+40	de	de	ADP	_	ADP___	40	case	_	_
+41	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	facture	facture	NOUN	_	NOUN__Gender=Fem|Number=Sing	40	nmod	_	_
+43	?	?	PUNCT	_	PUNCT___	44	punct	_	_
+
+

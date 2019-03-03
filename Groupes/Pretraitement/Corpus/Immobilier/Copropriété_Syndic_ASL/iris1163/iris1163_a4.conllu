@@ -1,0 +1,85 @@
+#Appelez la Madame X, elle n'est pas présidente;
+1	Appelez	appeler	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Madame	madame	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+4	X	x	NOUN	_	NOUN___	3	amod	_	_
+5	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+6	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	10	nsubj	_	_
+7	n'	ne	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+8	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	pas	pas	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+10	présidente	président	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	conj	_	_
+11	;	;	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#A ce qu'il parait que cela n'est pas possible parce que cela fait parties des communs !
+1	A	a	NOUN	_	NOUN___	1	aux	_	_
+2	ce	ce	PRON	_	PRON__PronType=Rel	0	ROOT	_	_
+3	qu'	que	SCONJ	_	SCONJ___	1	obj	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+5	parait	parer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	acl:relcl	_	_
+6	que	que	SCONJ	_	SCONJ___	10	mark	_	_
+7	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	10	nsubj	_	_
+8	n'	ne	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+9	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	pas	pas	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+11	possible	possible	ADJ	_	ADJ__Number=Sing	1	ccomp	_	_
+12	parce	parce	SCONJ	_	SCONJ___	13	mark	_	_
+13	que	que	SCONJ	_	SCONJ___	13	fixed	_	_
+14	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	16	nsubj	_	_
+15	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+16	parties	party	NOUN	_	NOUN__Gender=Fem|Number=Plur	13	xcomp	_	_
+17	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	22	det	_	_
+18	communs	commun	NOUN	_	NOUN__Gender=Masc|Number=Plur	22	obj	_	_
+19	!	!	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#Qui dit cela?
+1	Qui	qui	PRON	_	PRON__PronType=Int	1	nsubj	_	_
+2	dit	dire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	1	obj	_	_
+4	?	?	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#En copropriété, on ne parle pas de commun, mais de partie commune.
+1	En	En	ADP	_	ADP___	1	case	_	_
+2	copropriété	copropriété	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obl	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	on	on	PRON	_	PRON__Number=Sing|Person=3	3	nsubj	_	_
+5	ne	ne	ADV	_	ADV___	10	advmod	_	_
+6	parle	parler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	pas	pas	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+8	de	de	ADP	_	ADP___	10	det	_	_
+9	commun	commun	ADJ	_	ADJ__Gender=Masc|Number=Sing	10	obj	_	_
+10	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+11	mais	mais	CCONJ	_	CCONJ___	1	cc	_	_
+12	de	de	ADP	_	ADP___	13	case	_	_
+13	partie	partie	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	conj	_	_
+14	commune	commun	ADJ	_	ADJ__Gender=Fem|Number=Sing	16	amod	_	_
+15	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Le souci est un mode de vote (art 24 / 25 /26 et le risque de majorité ou pas.
+1	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	souci	souci	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+4	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+5	mode	mode	NOUN	_	NOUN__Number=Sing	0	ROOT	_	_
+6	de	de	ADP	_	ADP___	10	case	_	_
+7	vote	vote	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+8	(	(	PUNCT	_	PUNCT___	10	punct	_	_
+9	art	art	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+10	24	24	NUM	_	NUM__NumType=Card	1	nummod	_	_
+11	/	/	ADP	_	ADP___	1	case	_	_
+12	25	25	NUM	_	NUM__NumType=Card	13	nmod	_	_
+13	/26	/26	PUNCT	_	PUNCT___	13	nmod	_	_
+14	et	et	CCONJ	_	CCONJ___	16	cc	_	_
+15	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	risque	risque	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	conj	_	_
+17	de	de	ADP	_	ADP___	22	case	_	_
+18	majorité	majorité	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	nmod	_	_
+19	ou	ou	CCONJ	_	CCONJ___	22	cc	_	_
+20	pas	pas	ADV	_	ADV__Polarity=Neg	22	conj	_	_
+21	.	.	PUNCT	_	PUNCT___	22	punct	_	_
+
+

@@ -1,0 +1,151 @@
+#Bonjour à tous.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	à	à	ADP	_	ADP___	3	case	_	_
+3	tous	tout	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Rel	1	obl	_	_
+4	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Nous avons une fuite d'eau dans notre voie privee de 1400m3 générant une facture #
+1	Nous	nous	PRON	_	PRON__Number=Plur|Person=1	1	nsubj	_	_
+2	avons	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+4	fuite	fuite	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obj	_	_
+5	d'	de	ADP	_	ADP___	6	case	_	_
+6	eau	eau	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+7	dans	dan	ADP	_	ADP___	8	case	_	_
+8	notre	notre	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+9	voie	voie	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obl	_	_
+10	privee	privee	ADV	_	ADV___	8	amod	_	_
+11	de	de	ADP	_	ADP___	13	case	_	_
+12	1400m3	1400m3	PRON	_	PRON__NumType=Card|PronType=Rel	13	obl	_	_
+13	générant	générer	VERB	_	VERB__Tense=Pres|VerbForm=Part	6	acl	_	_
+14	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+15	facture	facture	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obj	_	_
+16	#	#	ADJ	_	ADJ___	14	nmod	_	_
+
+
+#Distributeur en eau # de près de 6000 euros.
+1	Distributeur	Distributeur	PROPN	_	PROPN___	0	ROOT	_	_
+2	en	en	ADP	_	ADP___	3	case	_	_
+3	eau	eau	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+4	#	#	ADJ	_	ADJ___	1	nmod	_	_
+5	de	de	ADP	_	ADP___	6	case	_	_
+6	près	près	ADP	_	ADP___	6	advmod	_	_
+7	de	de	ADP	_	ADP___	8	fixed	_	_
+8	6000	6000	NUM	_	NUM__NumType=Card	6	nummod	_	_
+9	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	nmod	_	_
+10	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Il y a 4 maisons dans notre rue dont 3 sont raccordées au compteur principal situé en debut de rue.
+1	Il	il	PRON	_	PRON__Number=Sing|Person=3	0	ROOT	_	_
+2	y	yu	PRON	_	PRON__Person=3	3	fixed	_	_
+3	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	fixed	_	_
+4	4	4	NUM	_	NUM__NumType=Card	1	nummod	_	_
+5	maisons	maison	NOUN	_	NOUN__Gender=Fem|Number=Plur	6	obj	_	_
+6	dans	dan	ADP	_	ADP___	6	case	_	_
+7	notre	notre	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+8	rue	rue	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obl	_	_
+9	dont	dont	PRON	_	PRON__PronType=Rel	10	iobj	_	_
+10	3	3	PRON	_	PRON__NumType=Card|PronType=Rel	8	nsubj:pass	_	_
+11	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+12	raccordées	raccorder	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	13	acl:relcl	_	_
+13	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+14	compteur	compteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+15	principal	principal	ADJ	_	ADJ__Gender=Masc|Number=Sing	16	amod	_	_
+16	situé	situer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
+17	en	en	ADP	_	ADP___	14	case	_	_
+18	debut	debut	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obl	_	_
+19	de	de	ADP	_	ADP___	17	case	_	_
+20	rue	rue	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	nmod	_	_
+21	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#La fuite n'est pas continue donc nous avons du mal à la faire trouver par un plombier classique et nous avons un mois seulement pour réparer cette fuite pour éviter de payer 6000 euros de factures d'eau non consommée.
+1	La	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	fuite	fuite	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+3	n'	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+6	continue	continuer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	donc	donc	ADV	_	ADV___	8	advmod	_	_
+8	nous	nous	PRON	_	PRON__Number=Plur|Person=1	6	nsubj	_	_
+9	avons	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+10	du	du	DET	_	DET__Gender=Masc|Number=Sing	8	det	_	_
+11	mal	mal	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+12	à	à	ADP	_	ADP___	13	mark	_	_
+13	la	le	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	6	obj	_	_
+14	faire	faire	VERB	_	VERB__VerbForm=Inf	13	xcomp	_	_
+15	trouver	trouver	VERB	_	VERB__VerbForm=Inf	16	xcomp	_	_
+16	par	par	ADP	_	ADP___	14	case	_	_
+17	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+18	plombier	plombier	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obl	_	_
+19	classique	classique	ADJ	_	ADJ__Number=Sing	17	amod	_	_
+20	et	et	CCONJ	_	CCONJ___	19	cc	_	_
+21	nous	nous	PRON	_	PRON__Number=Plur|Person=1	21	nsubj	_	_
+22	avons	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	23	conj	_	_
+23	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+24	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	obj	_	_
+25	seulement	seulement	ADV	_	ADV___	29	advmod	_	_
+26	pour	pour	ADP	_	ADP___	29	mark	_	_
+27	réparer	réparer	VERB	_	VERB__VerbForm=Inf	26	acl	_	_
+28	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	29	det	_	_
+29	fuite	fuite	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	obj	_	_
+30	pour	pour	ADP	_	ADP___	21	mark	_	_
+31	éviter	éviter	VERB	_	VERB__VerbForm=Inf	31	advcl	_	_
+32	de	de	ADP	_	ADP___	31	mark	_	_
+33	payer	payer	VERB	_	VERB__VerbForm=Inf	31	xcomp	_	_
+34	6000	6000	NUM	_	NUM__NumType=Card	35	nummod	_	_
+35	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	33	obj	_	_
+36	de	de	ADP	_	ADP___	38	case	_	_
+37	factures	facture	NOUN	_	NOUN__Gender=Fem|Number=Plur	38	nmod	_	_
+38	d'	de	ADP	_	ADP___	33	case	_	_
+39	eau	eau	NOUN	_	NOUN__Gender=Fem|Number=Sing	42	nmod	_	_
+40	non	non	ADV	_	ADV___	42	advmod	_	_
+41	consommée	consommer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	42	acl	_	_
+42	.	.	PUNCT	_	PUNCT___	38	punct	_	_
+
+
+#Savez vous à qui pourrait on faire appel pour détecter cette fuite non continue ( camera thermique
+1	Savez	savoir	VERB	_	VERB__Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	aux	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2|Reflex=Yes	3	iobj	_	_
+3	à	à	ADP	_	ADP___	1	mark	_	_
+4	qui	qui	PRON	_	PRON__PronType=Rel	1	nsubj	_	_
+5	pourrait	pouvoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	on	on	PRON	_	PRON__Number=Sing|Person=3	6	nsubj	_	_
+7	faire	faire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+8	appel	appel	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+9	pour	pour	ADP	_	ADP___	10	mark	_	_
+10	détecter	détecter	VERB	_	VERB__VerbForm=Inf	8	advcl	_	_
+11	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
+12	fuite	fuite	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obj	_	_
+13	non	non	ADV	_	ADV___	6	advmod	_	_
+14	continue	continuer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	amod	_	_
+15	(	(	PUNCT	_	PUNCT___	16	punct	_	_
+16	camera	camer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	14	obl	_	_
+17	thermique	thermique	ADJ	_	ADJ__Number=Sing	14	amod	_	_
+
+
+#- gaz..)?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	gaz	gaz	ADJ	_	ADJ___	0	ROOT	_	_
+3	..	..	PUNCT	_	PUNCT___	1	nmod	_	_
+4	)	)	PUNCT	_	PUNCT___	1	punct	_	_
+5	?	?	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Notre canalisation est vielle et en plomb.
+1	Notre	notre	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	canalisation	canalisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+4	vielle	viell	ADJ	_	ADJ__Gender=Fem|Number=Sing	0	ROOT	_	_
+5	et	et	CCONJ	_	CCONJ___	6	cc	_	_
+6	en	en	ADP	_	ADP___	6	case	_	_
+7	plomb	plomb	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	conj	_	_
+8	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Merci
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+
+

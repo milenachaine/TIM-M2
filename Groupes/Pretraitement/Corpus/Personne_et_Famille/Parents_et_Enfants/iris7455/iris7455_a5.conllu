@@ -1,0 +1,143 @@
+#Bonjour.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#L'avocat n'est pas nécessaire, (c'est payant, en plus).
+1	L'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+2	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	n'	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+6	nécessaire	nécessaire	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+7	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+8	(	(	PUNCT	_	PUNCT___	8	punct	_	_
+9	c'	ce	PRON	_	PRON__Number=Sing|Person=3	8	nsubj	_	_
+10	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+11	payant	payer	ADV	_	ADV___	13	parataxis	_	_
+12	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+13	en	en	ADP	_	ADP___	8	advmod	_	_
+14	plus	plus	ADV	_	ADV___	13	fixed	_	_
+15	)	)	PUNCT	_	PUNCT___	13	punct	_	_
+16	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Gérer une tutelle est contraignant, on ne peut pas faire n'importe quoi, ( toute dépense doit faire l'objet d'une facture ou une justification).
+1	Gérer	gérer	VERB	_	VERB__VerbForm=Inf	1	acl	_	_
+2	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+3	tutelle	tutelle	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obj	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+5	contraignant	contraignant	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	acl	_	_
+6	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+7	on	on	PRON	_	PRON__Number=Sing|Person=3	8	nsubj	_	_
+8	ne	ne	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+9	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+10	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+11	faire	faire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+12	n'	ne	ADV	_	ADV__Polarity=Neg	13	advmod	_	_
+13	importe	importer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	fixed	_	_
+14	quoi	quoi	PRON	_	PRON__PronType=Int	13	obj	_	_
+15	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+16	(	(	PUNCT	_	PUNCT___	15	punct	_	_
+17	toute	tout	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+18	dépense	dépense	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nsubj	_	_
+19	doit	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+20	faire	faire	VERB	_	VERB__VerbForm=Inf	21	xcomp	_	_
+21	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+22	objet	objet	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	obj	_	_
+23	d'	de	ADP	_	ADP___	21	case	_	_
+24	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+25	facture	facture	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	obl	_	_
+26	ou	ou	CCONJ	_	CCONJ___	29	cc	_	_
+27	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+28	justification	justification	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	conj	_	_
+29	)	)	PUNCT	_	PUNCT___	29	punct	_	_
+30	.	.	PUNCT	_	PUNCT___	32	punct	_	_
+
+
+#Un inventaire des biens doit être fait.
+1	Un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	inventaire	inventaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
+4	biens	bien	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obj	_	_
+5	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	être	être	AUX	_	AUX__VerbForm=Inf	8	aux:pass	_	_
+7	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	xcomp	_	_
+8	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#En fait, sous tutelle, un majeur est très protégé.
+1	En	En	ADP	_	ADP___	1	advmod	_	_
+2	fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	sous	sou	ADP	_	ADP___	8	case	_	_
+5	tutelle	tutelle	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+6	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	majeur	majeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+9	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+10	très	très	ADV	_	ADV___	8	advmod	_	_
+11	protégé	protéger	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+12	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Si vous demandez à être subrogée tutrice, vous aurez à signer l'inventaire et à vérifier les comptes annuels.
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+3	demandez	demander	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+4	à	à	ADP	_	ADP___	8	mark	_	_
+5	être	être	AUX	_	AUX__VerbForm=Inf	8	aux:pass	_	_
+6	subrogée	subroger	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	xcomp	_	_
+7	tutrice	tuteur	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	iobj	_	_
+8	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+9	vous	vous	PRON	_	PRON__Number=Plur|Person=2	8	nsubj	_	_
+10	aurez	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+11	à	à	ADP	_	ADP___	13	mark	_	_
+12	signer	signer	VERB	_	VERB__VerbForm=Inf	13	xcomp	_	_
+13	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+14	inventaire	inventaire	NOUN	_	NOUN__Number=Sing	13	obj	_	_
+15	et	et	CCONJ	_	CCONJ___	13	cc	_	_
+16	à	à	ADP	_	ADP___	15	mark	_	_
+17	vérifier	vérifier	VERB	_	VERB__VerbForm=Inf	8	conj	_	_
+18	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+19	comptes	compte	NOUN	_	NOUN__Gender=Masc|Number=Plur	29	obj	_	_
+20	annuels	annuel	ADJ	_	ADJ__Gender=Masc|Number=Plur	21	amod	_	_
+21	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Si vous vous êtes en désaccord actuellement avec votre soeur, le juge va nommer un tuteur extérieur.
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+3	vous	vous	PRON	_	PRON__Number=Plur|Person=2	4	nsubj	_	_
+4	êtes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	8	cop	_	_
+5	en	en	ADP	_	ADP___	8	case	_	_
+6	désaccord	désaccord	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	advcl	_	_
+7	actuellement	actuellement	ADV	_	ADV___	8	advmod	_	_
+8	avec	avec	ADP	_	ADP___	8	case	_	_
+9	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+10	soeur	soeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+11	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	juge	juge	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nsubj	_	_
+14	va	aller	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl	_	_
+15	nommer	nommer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+16	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+17	tuteur	tuteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+18	extérieur	extérieur	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	amod	_	_
+19	.	.	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#( c'est payant).
+1	(	(	PUNCT	_	PUNCT___	1	punct	_	_
+2	c'	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	payant	payant	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	)	)	PUNCT	_	PUNCT___	8	punct	_	_
+6	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Salutations.
+1	Salutations	salutation	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+2	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+

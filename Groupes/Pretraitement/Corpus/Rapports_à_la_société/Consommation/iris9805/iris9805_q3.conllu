@@ -1,0 +1,65 @@
+#Bonjour, J N1 J1
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	J	j	NOUN	_	NOUN___	1	nmod	_	_
+4	N1	n1	NOUN	_	NOUN__Number=Sing	3	nmod	_	_
+5	J1	J1	PROPN	_	PROPN__Gender=Masc|Number=Sing	4	flat:name	_	_
+
+
+#CTTE
+1	CTTE	CTTE	PROPN	_	PROPN___	0	ROOT	_	_
+
+
+#J2 BB
+1	J2	J2	X	_	X___	0	ROOT	_	_
+2	BB	bb	NOUN	_	NOUN___	3	flat:name	_	_
+
+
+#J3 fourgon S1
+1	J3	J3	PROPN	_	PROPN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	fourgon	fourgon	ADJ	_	ADJ__Gender=Masc|Number=Sing	3	amod	_	_
+3	S1	s1	ADJ	_	ADJ__Number=Sing	1	amod	_	_
+
+
+#5 Je n ai aucun document concernant la transformation de ce véhicule et je ne pense pas que se soit le but du garage à donner ces informations sachant qu il aurait dû changer son prix de vente.
+1	5	5	NUM	_	NUM__NumType=Card	1	nummod	_	_
+2	Je	il	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+3	n	ne	PRON	_	PRON__Person=3	1	aux	_	_
+4	ai	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	aucun	aucun	DET	_	DET__Gender=Masc|Number=Sing	4	det	_	_
+6	document	document	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+7	concernant	concerner	VERB	_	VERB__Tense=Pres|VerbForm=Part	7	acl	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+9	transformation	transformation	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obj	_	_
+10	de	de	ADP	_	ADP___	9	case	_	_
+11	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+12	véhicule	véhicule	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+13	et	et	CCONJ	_	CCONJ___	15	cc	_	_
+14	je	il	PRON	_	PRON__Number=Sing|Person=1	15	nsubj	_	_
+15	ne	ne	ADV	_	ADV__Polarity=Neg	15	advmod	_	_
+16	pense	penser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	conj	_	_
+17	pas	pas	ADV	_	ADV__Polarity=Neg	15	advmod	_	_
+18	que	que	SCONJ	_	SCONJ___	17	mark	_	_
+19	se	se	PRON	_	PRON__Person=3|Reflex=Yes	20	nsubj	_	_
+20	soit	être	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+21	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	but	but	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	ccomp	_	_
+23	du	du	DET	_	DET__Gender=Masc|Number=Sing	20	det	_	_
+24	garage	garage	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	nmod	_	_
+25	à	à	ADP	_	ADP___	27	mark	_	_
+26	donner	donner	VERB	_	VERB__VerbForm=Inf	27	acl	_	_
+27	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	15	det	_	_
+28	informations	information	NOUN	_	NOUN__Gender=Fem|Number=Plur	27	obj	_	_
+29	sachant	savoir	VERB	_	VERB__Tense=Pres|VerbForm=Part	33	acl	_	_
+30	qu	qu	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	mark	_	_
+31	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	33	nsubj	_	_
+32	aurait	avoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	_
+33	dû	devoir	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	aux	_	_
+34	changer	changer	VERB	_	VERB__VerbForm=Inf	35	ccomp	_	_
+35	son	son	DET	_	DET__Number=Sing|Poss=Yes	33	nmod:poss	_	_
+36	prix	prix	NOUN	_	NOUN__Gender=Masc|Number=Sing	37	obj	_	_
+37	de	de	ADP	_	ADP___	33	case	_	_
+38	vente	vente	NOUN	_	NOUN__Gender=Fem|Number=Sing	39	nmod	_	_
+39	.	.	PUNCT	_	PUNCT___	37	punct	_	_
+
+

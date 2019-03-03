@@ -1,0 +1,180 @@
+#Bonjour, Je suis propriétaire d'une maison que j'habite mais j'y loue un espace.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+4	suis	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	1	nmod	_	_
+6	d'	de	ADP	_	ADP___	8	case	_	_
+7	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obl	_	_
+9	que	que	PRON	_	PRON__PronType=Rel	11	obj	_	_
+10	j'	il	PRON	_	PRON__Number=Sing|Person=1	11	det	_	_
+11	habite	habiter	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	acl:relcl	_	_
+12	mais	mais	CCONJ	_	CCONJ___	15	cc	_	_
+13	j'	il	PRON	_	PRON__Number=Sing|Person=1	15	nsubj	_	_
+14	y	yu	PRON	_	PRON__Person=3	15	iobj	_	_
+15	loue	louer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+16	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	espace	espace	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obj	_	_
+18	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Donc ma locataire occupe une partie et moi l'autre partie de la maison.
+1	Donc	donc	ADV	_	ADV___	1	advmod	_	_
+2	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	1	nmod:poss	_	_
+3	locataire	locataire	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	amod	_	_
+4	occupe	occuper	ADV	_	ADV___	0	ROOT	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+6	partie	partie	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+7	et	et	CCONJ	_	CCONJ___	8	cc	_	_
+8	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	5	conj	_	_
+9	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+10	autre	autre	ADJ	_	ADJ__Number=Sing	11	amod	_	_
+11	partie	partie	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+12	de	de	ADP	_	ADP___	15	case	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	nmod	_	_
+15	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#De ce fait elle n'aurait pas d'impôt locaux à payer.
+1	De	De	ADP	_	ADP___	1	mark	_	_
+2	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	1	det	_	_
+3	fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+4	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	5	nsubj	_	_
+5	n'	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+6	aurait	avoir	VERB	_	VERB__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+8	d'	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
+9	impôt	impôt	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+10	locaux	local	ADJ	_	ADJ__Gender=Masc|Number=Plur	11	amod	_	_
+11	à	à	ADP	_	ADP___	8	mark	_	_
+12	payer	payer	VERB	_	VERB__VerbForm=Inf	15	acl	_	_
+13	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Or les impots viennent de lui envoyer la taxe d'habitation à payer.
+1	Or	Or	CCONJ	_	CCONJ___	1	cc	_	_
+2	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+3	impots	impot	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+4	viennent	venir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	advmod	_	_
+5	de	de	ADP	_	ADP___	1	mark	_	_
+6	lui	luire	PRON	_	PRON__Number=Sing|Person=3	8	iobj	_	_
+7	envoyer	envoyer	VERB	_	VERB__VerbForm=Inf	8	acl	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+9	taxe	taxe	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obj	_	_
+10	d'	de	ADP	_	ADP___	11	case	_	_
+11	habitation	habitation	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+12	à	à	ADP	_	ADP___	15	mark	_	_
+13	payer	payer	VERB	_	VERB__VerbForm=Inf	15	acl	_	_
+14	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Deux questions : 1°)
+1	Deux	Deux	NUM	_	NUM__NumType=Card	1	nummod	_	_
+2	questions	question	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+3	:	:	PUNCT	_	PUNCT___	5	punct	_	_
+4	1	1	NUM	_	NUM__NumType=Card	5	nummod	_	_
+5	°	°	PRON	_	PRON__NumType=Card|PronType=Rel	1	nmod	_	_
+6	)	)	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Est-ce normal ?
+1	Est	être		_	VERB	0	ROOT	_	_
+2	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	1	nummod	_	_
+3	normal	normal	ADJ	_	ADJ__Gender=Masc|Number=Sing	5	amod	_	_
+4	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#normalement cette taxe ça devrait être à moi de la payer dans son intégralité ?
+1	normalement	normalement	ADV	_	ADV___	1	advmod	_	_
+2	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	1	det	_	_
+3	taxe	taxe	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nsubj	_	_
+4	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	_
+5	devrait	devoir	VERB	_	VERB__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	être	être	AUX	_	AUX__VerbForm=Inf	8	cop	_	_
+7	à	à	ADP	_	ADP___	8	case	_	_
+8	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	5	xcomp	_	_
+9	de	de	ADP	_	ADP___	11	mark	_	_
+10	la	le	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	11	obj	_	_
+11	payer	payer	VERB	_	VERB__VerbForm=Inf	8	xcomp	_	_
+12	dans	dan	ADP	_	ADP___	15	case	_	_
+13	son	son	DET	_	DET__Number=Sing|Poss=Yes	15	nmod:poss	_	_
+14	intégralité	intégralité	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obl	_	_
+15	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#2°)
+1	2	2	NUM	_	NUM__NumType=Card	1	nummod	_	_
+2	°	°	NOUN	_	NOUN___	0	ROOT	_	_
+3	)	)	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Si c'est bien à moi que reviens de payer cette taxe, les impôts vont-ils prendre en compte le revenu de la locataire ?
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	c'	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	bien	bien	ADV	_	ADV___	5	advmod	_	_
+5	à	à	ADP	_	ADP___	1	case	_	_
+6	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	8	advcl	_	_
+7	que	que	SCONJ	_	SCONJ___	8	mark	_	_
+8	reviens	revien	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	acl	_	_
+9	de	de	ADP	_	ADP___	11	mark	_	_
+10	payer	payer	VERB	_	VERB__VerbForm=Inf	11	xcomp	_	_
+11	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+12	taxe	taxe	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obj	_	_
+13	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+14	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	15	det	_	_
+15	impôts	impôt	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	nsubj	_	_
+16	vont	aller	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+17	-	-	PUNCT	_	PUNCT___	15	punct	_	_
+18	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	1	nsubj	_	_
+19	prendre	prendre	VERB	_	VERB__VerbForm=Inf	22	parataxis	_	_
+20	en	en	ADP	_	ADP___	22	advmod	_	_
+21	compte	compte	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	fixed	_	_
+22	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+23	revenu	revenu	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	obj	_	_
+24	de	de	ADP	_	ADP___	22	case	_	_
+25	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	locataire	locataire	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	nmod	_	_
+27	?	?	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#Merci pour vos réponses
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	pour	pour	ADP	_	ADP___	1	case	_	_
+3	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	5	nmod:poss	_	_
+4	réponses	réponse	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	nmod	_	_
+
+
+#---------- Message ajouté à 10h52
+1	----------	----------	PRON	_	PRON__PronType=Rel	1	det	_	_
+2	Message	message	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	ajouté	ajouter	ADJ	_	ADJ__Gender=Masc|Number=Sing	5	amod	_	_
+4	à	à	ADP	_	ADP___	5	case	_	_
+5	10h52	10h52	NUM	_	NUM__NumType=Card	1	obl	_	_
+
+
+#---------- Précédent message à 10h04
+1	----------	----------	PRON	_	PRON__Number=Sing|Person=3	0	ROOT	_	_
+2	Précédent	précédent	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	nmod	_	_
+3	message	message	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	flat:name	_	_
+4	à	à	ADP	_	ADP___	5	case	_	_
+5	10h04	10h04	PRON	_	PRON__NumType=Card|PronType=Rel	1	nmod	_	_
+
+
+#---------- je précise c'est une location de 34m² non meublée
+1	----------	----------	PRON	_	PRON__Number=Sing|Person=3	1	punct	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+3	précise	préciser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	c'	ce	PRON	_	PRON__Number=Sing|Person=3	5	nsubj	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+6	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	location	location	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+8	de	de	ADP	_	ADP___	5	case	_	_
+9	34	34	NUM	_	NUM__NumType=Card	11	nummod	_	_
+10	m²	m²	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	nmod	_	_
+11	non	non	ADV	_	ADV___	8	advmod	_	_
+12	meublée	meublé	ADJ	_	ADJ__Gender=Fem|Number=Sing	15	amod	_	_
+
+

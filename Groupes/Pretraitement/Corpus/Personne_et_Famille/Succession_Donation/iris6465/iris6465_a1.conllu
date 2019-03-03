@@ -1,0 +1,122 @@
+#Les héritiers sont :
+1	Les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	2	det	_	_
+2	héritiers	héritier	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	nsubj	_	_
+3	sont	être	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	:	:	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#- son père pour un quart s'il est vivant - sa mère pour un quart si elle est vivante
+1	-	-	PUNCT	_	PUNCT___	2	punct	_	_
+2	son	son	DET	_	DET__Number=Sing|Poss=Yes	3	nmod:poss	_	_
+3	père	père	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+4	pour	pour	ADP	_	ADP___	3	case	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+6	quart	quart	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+7	s'	si	SCONJ	_	SCONJ___	14	expl	_	_
+8	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	10	nsubj:pass	_	_
+9	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+10	vivant	vivre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	advcl	_	_
+11	-	-	PUNCT	_	PUNCT___	14	punct	_	_
+12	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	14	nmod:poss	_	_
+13	mère	mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obl	_	_
+14	pour	pour	ADP	_	ADP___	24	case	_	_
+15	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+16	quart	quart	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	nmod	_	_
+17	si	si	SCONJ	_	SCONJ___	24	mark	_	_
+18	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	20	nsubj	_	_
+19	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+20	vivante	vivant	ADJ	_	ADJ__Gender=Fem|Number=Sing	0	ROOT	_	_
+
+
+#- la fratrie, vivante ou ayant une descendance vivante, pour le surplus (= la moitié, les trois quart ou la totalité selon les deux lignes précédentes)
+1	-	-	PUNCT	_	PUNCT___	2	punct	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	fratrie	fratrie	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+5	vivante	vivant	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	conj	_	_
+6	ou	ou	CCONJ	_	CCONJ___	7	cc	_	_
+7	ayant	avoir	VERB	_	VERB__Tense=Pres|VerbForm=Part	14	conj	_	_
+8	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	descendance	descendance	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obj	_	_
+10	vivante	vivant	ADJ	_	ADJ__Gender=Fem|Number=Sing	7	amod	_	_
+11	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+12	pour	pour	ADP	_	ADP___	14	case	_	_
+13	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	surplus	surplus	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	conj	_	_
+15	(=	(=	PUNCT	_	PUNCT___	24	punct	_	_
+16	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	moitié	moitié	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	nmod	_	_
+18	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+19	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	20	det	_	_
+20	trois	trois	NUM	_	NUM__NumType=Card	17	nummod	_	_
+21	quart	quart	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	conj	_	_
+22	ou	ou	CCONJ	_	CCONJ___	24	cc	_	_
+23	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	totalité	totalité	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	conj	_	_
+25	selon	selon	ADP	_	ADP___	27	case	_	_
+26	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	27	det	_	_
+27	deux	deux	NUM	_	NUM__NumType=Card	27	nummod	_	_
+28	lignes	ligne	NOUN	_	NOUN__Gender=Masc|Number=Plur	29	nmod	_	_
+29	précédentes	précédent	ADJ	_	ADJ__Gender=Fem|Number=Plur	27	amod	_	_
+30	)	)	PUNCT	_	PUNCT___	31	punct	_	_
+
+
+#Ce surplus se partage à égalité dans la fratrie (la part d'un décédé étant partagé à égalité en cascade dans chaque degré de descendance).
+1	Ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	surplus	surplus	ADV	_	ADV__Polarity=Neg	3	nsubj	_	_
+3	se	se	PRON	_	PRON__Person=3|Reflex=Yes	3	expl	_	_
+4	partage	partager	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	à	à	ADP	_	ADP___	14	case	_	_
+6	égalité	égalité	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obl	_	_
+7	dans	dan	ADP	_	ADP___	14	case	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	fratrie	fratrie	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obl	_	_
+10	(	(	PUNCT	_	PUNCT___	7	punct	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	case	_	_
+12	part	part	NOUN	_	NOUN__Number=Sing	14	fixed	_	_
+13	d'	de	ADP	_	ADP___	14	fixed	_	_
+14	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+15	décédé	décédé	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	appos	_	_
+16	étant	être	AUX	_	AUX__Tense=Pres|VerbForm=Part	17	aux:pass	_	_
+17	partagé	partager	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	acl	_	_
+18	à	à	ADP	_	ADP___	20	case	_	_
+19	égalité	égalité	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obl	_	_
+20	en	en	ADP	_	ADP___	17	case	_	_
+21	cascade	cascade	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	nmod	_	_
+22	dans	dan	ADP	_	ADP___	24	case	_	_
+23	chaque	chaque	DET	_	DET__Number=Sing	24	det	_	_
+24	degré	degré	NOUN	_	NOUN__Gender=Masc|Number=Plur	24	obl	_	_
+25	de	de	ADP	_	ADP___	27	case	_	_
+26	descendance	descendance	NOUN	_	NOUN__Gender=Fem|Number=Sing	27	nmod	_	_
+27	)	)	PUNCT	_	PUNCT___	27	punct	_	_
+28	.	.	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#Donc un neveu ou une nièce qui a son parent encore vivant (frère ou sœur de la défunte) n'est pas héritier.
+1	Donc	donc	ADV	_	ADV___	2	advmod	_	_
+2	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	neveu	neveu	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	ou	ou	CCONJ	_	CCONJ___	3	cc	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+6	nièce	nièce	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	conj	_	_
+7	qui	qui	PRON	_	PRON__PronType=Rel	14	nsubj	_	_
+8	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+9	son	son	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+10	parent	parent	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	advmod	_	_
+11	encore	encore	ADV	_	ADV___	14	advmod	_	_
+12	vivant	vivant	ADJ	_	ADJ__Gender=Masc|Number=Sing	14	acl	_	_
+13	(	(	PUNCT	_	PUNCT___	14	punct	_	_
+14	frère	frère	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	obj	_	_
+15	ou	ou	CCONJ	_	CCONJ___	24	cc	_	_
+16	sœur	sœur	ADJ	_	ADJ__Gender=Masc|Number=Sing	17	conj	_	_
+17	de	de	ADP	_	ADP___	24	case	_	_
+18	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	défunte	défunt	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	nmod	_	_
+20	)	)	PUNCT	_	PUNCT___	17	punct	_	_
+21	n'	ne	ADV	_	ADV__Polarity=Neg	24	advmod	_	_
+22	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+23	pas	pas	ADV	_	ADV__Polarity=Neg	24	advmod	_	_
+24	héritier	héritier	VERB	_	VERB__VerbForm=Inf	24	amod	_	_
+25	.	.	PUNCT	_	PUNCT___	27	punct	_	_
+
+

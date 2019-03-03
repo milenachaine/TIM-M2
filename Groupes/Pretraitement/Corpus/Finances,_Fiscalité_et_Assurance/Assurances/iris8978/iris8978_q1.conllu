@@ -1,0 +1,324 @@
+#Bonjour à tous, J'essaie de comprendre un passage des conditions générales d'un contrat d'assurance.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	6	acl	_	_
+2	à	à	ADP	_	ADP___	3	case	_	_
+3	tous	tout	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Rel	1	nmod	_	_
+4	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+5	J'	il	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+6	essaie	essayer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	de	de	ADP	_	ADP___	8	mark	_	_
+8	comprendre	comprendre	VERB	_	VERB__VerbForm=Inf	6	xcomp	_	_
+9	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	passage	passage	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+11	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	12	det	_	_
+12	conditions	condition	NOUN	_	NOUN__Gender=Fem|Number=Plur	8	obj	_	_
+13	générales	général	ADJ	_	ADJ__Gender=Fem|Number=Plur	12	amod	_	_
+14	d'	de	ADP	_	ADP___	16	case	_	_
+15	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nmod	_	_
+17	d'	de	ADP	_	ADP___	18	case	_	_
+18	assurance	assurance	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nmod	_	_
+19	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Précisément: le rachat de franchise en cas de bris de glace.
+1	Précisément	précisément	ADV	_	ADV___	6	advmod	_	_
+2	:	:	PUNCT	_	PUNCT___	3	punct	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+4	rachat	rachat	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	de	de	ADP	_	ADP___	6	case	_	_
+6	franchise	franchise	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+7	en	en	ADP	_	ADP___	8	case	_	_
+8	cas	cas	NOUN	_	NOUN__Gender=Masc	6	fixed	_	_
+9	de	de	ADP	_	ADP___	10	fixed	_	_
+10	bris	bris	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	nmod	_	_
+11	de	de	ADP	_	ADP___	12	case	_	_
+12	glace	glace	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+13	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Mon problème:
+1	Mon	mon	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+2	problème	problème	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#La phrase «Sont exclus de la garantie [] les Sinistres pour lesquels l'Adhérent est déclaré non responsable par l'Assureur de 1er rang garantissant le véhicule» semble exclure le rachat de la franchise en cas d'un bris de glace dont je ne suis pas responsable.
+1	La	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+2	phrase	phrase	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+3	«	«	PUNCT	_	PUNCT___	1	punct	_	_
+4	Sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	exclus	exclu	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+6	de	de	ADP	_	ADP___	6	case	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	garantie	garantir	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obl	_	_
+9	[	[	PUNCT	_	PUNCT___	10	punct	_	_
+10			SPACE	_	_SP	8		_	_
+11	]	]	PUNCT	_	PUNCT___	12	punct	_	_
+12	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+13	Sinistres	sinistre	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	obj	_	_
+14	pour	pour	ADP	_	ADP___	16	case	_	_
+15	lesquels	lequel	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Rel	16	obl	_	_
+16	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+17	Adhérent	Adhérent	PROPN	_	PROPN__Number=Sing	18	nsubj:pass	_	_
+18	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
+19	déclaré	déclarer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	cop	_	_
+20	non	non	ADV	_	ADV___	23	advmod	_	_
+21	responsable	responsable	ADJ	_	ADJ__Number=Sing	20	acl:relcl	_	_
+22	par	par	ADP	_	ADP___	23	case	_	_
+23	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+24	Assureur	assureur	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	obl	_	_
+25	de	de	ADP	_	ADP___	23	case	_	_
+26	1er	1er	ADJ	_	ADJ__NumType=Ord	29	amod	_	_
+27	rang	rang	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	nmod	_	_
+28	garantissant	garantir	VERB	_	VERB__Tense=Pres|VerbForm=Part	26	acl	_	_
+29	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+30	véhicule	véhicule	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	obj	_	_
+31	»	»	PUNCT	_	PUNCT___	29	punct	_	_
+32	semble	sembler	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+33	exclure	exclur	ADJ	_	ADJ__Gender=Fem|Number=Sing	34	xcomp	_	_
+34	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+35	rachat	rachat	NOUN	_	NOUN__Gender=Masc|Number=Sing	34	obj	_	_
+36	de	de	ADP	_	ADP___	37	case	_	_
+37	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+38	franchise	franchise	NOUN	_	NOUN__Gender=Fem|Number=Sing	40	nmod	_	_
+39	en	en	ADP	_	ADP___	40	case	_	_
+40	cas	cas	NOUN	_	NOUN__Gender=Masc	40	fixed	_	_
+41	d'	de	ADP	_	ADP___	43	fixed	_	_
+42	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	bris	bris	NOUN	_	NOUN__Gender=Masc|Number=Sing	40	obl	_	_
+44	de	de	ADP	_	ADP___	40	case	_	_
+45	glace	glace	NOUN	_	NOUN__Gender=Fem|Number=Sing	44	nmod	_	_
+46	dont	dont	PRON	_	PRON__PronType=Rel	40	dep	_	_
+47	je	il	PRON	_	PRON__Number=Sing|Person=1	48	nsubj	_	_
+48	ne	ne	ADV	_	ADV__Polarity=Neg	40	advmod	_	_
+49	suis	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	50	cop	_	_
+50	pas	pas	ADV	_	ADV__Polarity=Neg	56	advmod	_	_
+51	responsable	responsable	ADJ	_	ADJ__Number=Sing	52	acl:relcl	_	_
+52	.	.	PUNCT	_	PUNCT___	56	punct	_	_
+
+
+#Mais si les seuls bris de glace pour lesquels la franchise peut être rachetée, sont ceux qui sont dus à un accident dont je serais responsable, je ne vois pas pourquoi il y a d'une part une section «En cas d'Accident» et d'autre part une section «
+1	Mais	Mais	CCONJ	_	CCONJ___	6	cc	_	_
+2	si	si	SCONJ	_	SCONJ___	3	mark	_	_
+3	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+4	seuls	seul	ADJ	_	ADJ__Gender=Masc|Number=Plur	6	amod	_	_
+5	bris	bris	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	fixed	_	_
+6	de	de	ADP	_	ADP___	6	case	_	_
+7	glace	glace	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+8	pour	pour	ADP	_	ADP___	6	case	_	_
+9	lesquels	lequel	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Rel	10	obl	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+11	franchise	franchise	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nsubj	_	_
+12	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+13	être	être	AUX	_	AUX__VerbForm=Inf	12	aux:pass	_	_
+14	rachetée	racheter	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	16	xcomp	_	_
+15	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+16	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+17	ceux	celui	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Dem	0	ROOT	_	_
+18	qui	qui	PRON	_	PRON__PronType=Rel	16	nsubj	_	_
+19	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+20	dus	devoir	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	23	acl:relcl	_	_
+21	à	à	ADP	_	ADP___	20	case	_	_
+22	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	accident	accident	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	obl	_	_
+24	dont	dont	PRON	_	PRON__PronType=Rel	25	iobj	_	_
+25	je	il	PRON	_	PRON__Number=Sing|Person=1	23	nsubj	_	_
+26	serais	être	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	29	cop	_	_
+27	responsable	responsable	ADJ	_	ADJ__Number=Sing	26	acl:relcl	_	_
+28	,	,	PUNCT	_	PUNCT___	26	punct	_	_
+29	je	il	PRON	_	PRON__Number=Sing|Person=1	23	nsubj	_	_
+30	ne	ne	ADV	_	ADV__Polarity=Neg	31	advmod	_	_
+31	vois	voir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	29	fixed	_	_
+32	pas	pas	ADV	_	ADV__Polarity=Neg	23	fixed	_	_
+33	pourquoi	pourquoi	ADV	_	ADV___	34	advmod	_	_
+34	il	il	PRON	_	PRON__Number=Sing|Person=3	34	obj	_	_
+35	y	yu	PRON	_	PRON__Person=3	34	fixed	_	_
+36	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	fixed	_	_
+37	d'	de	ADP	_	ADP___	40	fixed	_	_
+38	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	40	fixed	_	_
+39	part	part	NOUN	_	NOUN__Number=Sing	40	fixed	_	_
+40	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+41	section	section	NOUN	_	NOUN__Gender=Fem|Number=Sing	43	obj	_	_
+42	«	«	PUNCT	_	PUNCT___	43	punct	_	_
+43	En	En	ADP	_	ADP___	40	case	_	_
+44	cas	cas	NOUN	_	NOUN__Gender=Masc	40	fixed	_	_
+45	d'	de	ADP	_	ADP___	44	fixed	_	_
+46	Accident	accident	NOUN	_	NOUN__Gender=Masc|Number=Sing	40	obl	_	_
+47	»	»	PUNCT	_	PUNCT___	48	punct	_	_
+48	et	et	CCONJ	_	CCONJ___	40	cc	_	_
+49	d'	de	ADP	_	ADP___	50	case	_	_
+50	autre	autre	ADJ	_	ADJ__Number=Sing	56	fixed	_	_
+51	part	part	NOUN	_	NOUN__Number=Sing	52	fixed	_	_
+52	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	56	det	_	_
+53	section	section	NOUN	_	NOUN__Gender=Fem|Number=Sing	56	conj	_	_
+54	«	«	PUNCT	_	PUNCT___	56	punct	_	_
+
+
+#En cas de Bris de glace» qui en est distincte.
+1	En	En	ADP	_	ADP___	6	case	_	_
+2	cas	cas	NOUN	_	NOUN__Gender=Masc	3	fixed	_	_
+3	de	de	ADP	_	ADP___	1	fixed	_	_
+4	Bris	Bris	PROPN	_	PROPN___	0	ROOT	_	_
+5	de	de	ADP	_	ADP___	6	case	_	_
+6	glace	glace	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+7	»	»	PUNCT	_	PUNCT___	8	punct	_	_
+8	qui	qui	PRON	_	PRON__PronType=Rel	6	nsubj	_	_
+9	en	en	PRON	_	PRON__Person=3	10	expl	_	_
+10	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+11	distincte	distinct	ADJ	_	ADJ__Gender=Fem|Number=Sing	12	acl:relcl	_	_
+12	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Quels seraient donc les bris de glace concernés?
+1	Quels	quel	ADJ	_	ADJ__Gender=Masc|Number=Plur	0	ROOT	_	_
+2	seraient	être	AUX	_	AUX__Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	donc	donc	ADV	_	ADV___	1	advmod	_	_
+4	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	6	det	_	_
+5	bris	bris	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	nsubj	_	_
+6	de	de	ADP	_	ADP___	6	case	_	_
+7	glace	glace	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+8	concernés	concerner	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	acl	_	_
+9	?	?	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Serait
+1	Serait	être	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+
+
+#-ce seulement le cas où je briserais volontairement une vitre de ma voiture?
+1	-	-	PUNCT	_	PUNCT___	6	punct	_	_
+2	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	seulement	seulement	ADV	_	ADV___	1	advmod	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+6	où	où	PRON	_	PRON__PronType=Rel	6	iobj	_	_
+7	je	il	PRON	_	PRON__Number=Sing|Person=1	8	nsubj	_	_
+8	briserais	briser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	volontairement	volontairement	ADV	_	ADV___	10	advmod	_	_
+10	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+11	vitre	vitre	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obj	_	_
+12	de	de	ADP	_	ADP___	8	case	_	_
+13	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	12	nmod:poss	_	_
+14	voiture	voiture	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nmod	_	_
+15	?	?	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Bref, on dirait que la section «En cas de Bris de glace» est en vérité sans objet, et que ce service ressemble à une arnaque.
+1	Bref	bref	ADV	_	ADV___	6	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	on	on	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+4	dirait	dire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+5	que	que	SCONJ	_	SCONJ___	6	mark	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+7	section	section	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nsubj	_	_
+8	«	«	PUNCT	_	PUNCT___	6	punct	_	_
+9	En	En	ADP	_	ADP___	10	case	_	_
+10	cas	cas	NOUN	_	NOUN__Gender=Masc	8	fixed	_	_
+11	de	de	ADP	_	ADP___	12	fixed	_	_
+12	Bris	Bris	PROPN	_	PROPN___	8	nmod	_	_
+13	de	de	ADP	_	ADP___	12	case	_	_
+14	glace	glace	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nmod	_	_
+15	»	»	PUNCT	_	PUNCT___	16	punct	_	_
+16	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
+17	en	en	ADP	_	ADP___	18	case	_	_
+18	vérité	vérité	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	ccomp	_	_
+19	sans	sans	ADP	_	ADP___	6	case	_	_
+20	objet	objet	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	obl	_	_
+21	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+22	et	et	CCONJ	_	CCONJ___	23	cc	_	_
+23	que	que	SCONJ	_	SCONJ___	23	mark	_	_
+24	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	25	det	_	_
+25	service	service	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	nsubj	_	_
+26	ressemble	ressembl	ADJ	_	ADJ__Number=Sing	29	conj	_	_
+27	à	à	ADP	_	ADP___	26	case	_	_
+28	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+29	arnaque	arnaque	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	obl	_	_
+30	.	.	PUNCT	_	PUNCT___	31	punct	_	_
+
+
+#À moins qu'il ne faille pas prendre «Sont exclus de la garantie [] les Sinistres pour lesquels l'Adhérent est déclaré non responsable par l'Assureur de 1er rang garantissant le véhicule» au pied de la lettre, et que ça n'exclue pas le bris de glace dont je ne suis pas responsable.
+1	À	À	ADP	_	ADP___	6	mark	_	_
+2	moins	moins	ADV	_	ADV___	3	fixed	_	_
+3	qu'	que	SCONJ	_	SCONJ___	1	fixed	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+5	ne	ne	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+6	faille	falloir	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+8	prendre	prendre	VERB	_	VERB__VerbForm=Inf	6	xcomp	_	_
+9	«	«	PUNCT	_	PUNCT___	10	punct	_	_
+10	Sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+11	exclus	exclu	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	obj	_	_
+12	de	de	ADP	_	ADP___	8	case	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+14	garantie	garantir	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obl	_	_
+15	[	[	PUNCT	_	PUNCT___	16	punct	_	_
+16			SPACE	_	_SP	12		_	_
+17	]	]	PUNCT	_	PUNCT___	18	punct	_	_
+18	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	16	det	_	_
+19	Sinistres	sinistre	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	obj	_	_
+20	pour	pour	ADP	_	ADP___	23	case	_	_
+21	lesquels	lequel	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Rel	20	obl	_	_
+22	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+23	Adhérent	Adhérent	PROPN	_	PROPN__Number=Sing	23	nsubj:pass	_	_
+24	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux:pass	_	_
+25	déclaré	déclarer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	cop	_	_
+26	non	non	ADV	_	ADV___	29	advmod	_	_
+27	responsable	responsable	ADJ	_	ADJ__Number=Sing	26	acl:relcl	_	_
+28	par	par	ADP	_	ADP___	26	case	_	_
+29	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+30	Assureur	assureur	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	obl	_	_
+31	de	de	ADP	_	ADP___	29	case	_	_
+32	1er	1er	ADJ	_	ADJ__NumType=Ord	23	amod	_	_
+33	rang	rang	NOUN	_	NOUN__Gender=Masc|Number=Sing	34	nmod	_	_
+34	garantissant	garantir	VERB	_	VERB__Tense=Pres|VerbForm=Part	34	acl	_	_
+35	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+36	véhicule	véhicule	NOUN	_	NOUN__Gender=Masc|Number=Sing	37	obj	_	_
+37	»	»	PUNCT	_	PUNCT___	40	punct	_	_
+38	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	40	case	_	_
+39	pied	pied	NOUN	_	NOUN__Number=Sing	40	nmod	_	_
+40	de	de	ADP	_	ADP___	40	case	_	_
+41	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+42	lettre	lettre	NOUN	_	NOUN__Gender=Fem|Number=Sing	43	nmod	_	_
+43	,	,	PUNCT	_	PUNCT___	40	punct	_	_
+44	et	et	CCONJ	_	CCONJ___	40	cc	_	_
+45	que	que	SCONJ	_	SCONJ___	44	mark	_	_
+46	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	40	nsubj	_	_
+47	n'	ne	ADV	_	ADV__Polarity=Neg	48	advmod	_	_
+48	exclue	exclure	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	conj	_	_
+49	pas	pas	ADV	_	ADV__Polarity=Neg	50	advmod	_	_
+50	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
+51	bris	bris	NOUN	_	NOUN__Gender=Masc|Number=Sing	52	obj	_	_
+52	de	de	ADP	_	ADP___	56	case	_	_
+53	glace	glace	NOUN	_	NOUN__Gender=Fem|Number=Sing	56	nmod	_	_
+54	dont	dont	PRON	_	PRON__PronType=Rel	56	dep	_	_
+55	je	il	PRON	_	PRON__Number=Sing|Person=1	56	nsubj	_	_
+56	ne	ne	ADV	_	ADV__Polarity=Neg	48	advmod	_	_
+57	suis	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	59	cop	_	_
+58	pas	pas	ADV	_	ADV__Polarity=Neg	59	advmod	_	_
+59	responsable	responsable	ADJ	_	ADJ__Number=Sing	56	acl:relcl	_	_
+60	.	.	PUNCT	_	PUNCT___	62	punct	_	_
+
+
+#Je vous remercie d'avance pour l'aide que vous pourrez m'apporter.
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	3	obj	_	_
+3	remercie	remercier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	d'	de	ADP	_	ADP___	6	case	_	_
+5	avance	avance	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obl	_	_
+6	pour	pour	ADP	_	ADP___	6	case	_	_
+7	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	aide	aide	NOUN	_	NOUN__Number=Sing	6	obl	_	_
+9	que	que	SCONJ	_	SCONJ___	10	mark	_	_
+10	vous	vous	PRON	_	PRON__Number=Plur|Person=2	8	nsubj	_	_
+11	pourrez	pouvoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+12	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	8	mark	_	_
+13	apporter	apporter	VERB	_	VERB__VerbForm=Inf	12	xcomp	_	_
+14	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Pièce jointe 10074
+1	Pièce	pièce	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	jointe	joint	ADJ	_	ADJ__Gender=Fem|Number=Sing	3	amod	_	_
+3	10074	10074	NUM	_	NUM__NumType=Card	1	nummod	_	_
+
+

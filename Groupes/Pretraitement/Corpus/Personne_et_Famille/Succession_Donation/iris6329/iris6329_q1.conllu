@@ -1,0 +1,93 @@
+#Bonsoir
+1	Bonsoir	bonsoir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+
+
+#Mon père est décédé il y a 2 mois... ma sœur qui s’occupe du notaire prétend que j'ai bénéficié d'un avantage : je suis resté chez mes parents jusqu’à 27 ans!
+1	Mon	mon	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	père	père	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+4	décédé	décéder	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+5	il	il	PRON	_	PRON__Number=Sing|Person=3	5	case	_	_
+6	y	yu	PRON	_	PRON__Person=3	10	fixed	_	_
+7	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	fixed	_	_
+8	2	2	NUM	_	NUM__NumType=Card	6	nummod	_	_
+9	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	obl	_	_
+10	...	...	PUNCT	_	PUNCT___	5	punct	_	_
+11	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	5	nmod:poss	_	_
+12	sœur	sœur	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nsubj	_	_
+13	qui	qui	PRON	_	PRON__PronType=Rel	19	case	_	_
+14	s’	s’	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	acl:relcl	_	_
+15	occupe	occuper	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	amod	_	_
+16	du	du	DET	_	DET__Gender=Masc|Number=Sing	13	det	_	_
+17	notaire	notaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obj	_	_
+18	prétend	prétendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+19	que	que	SCONJ	_	SCONJ___	5	mark	_	_
+20	j'	il	PRON	_	PRON__Number=Sing|Person=1	23	nsubj	_	_
+21	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	aux	_	_
+22	bénéficié	bénéficier	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	ccomp	_	_
+23	d'	de	ADP	_	ADP___	19	case	_	_
+24	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	avantage	avantage	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	obl	_	_
+26	:	:	PUNCT	_	PUNCT___	23	punct	_	_
+27	je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+28	suis	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	33	cop	_	_
+29	resté	rester	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	cop	_	_
+30	chez	chez	ADP	_	ADP___	33	case	_	_
+31	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	33	nmod:poss	_	_
+32	parents	parent	NOUN	_	NOUN__Gender=Masc|Number=Plur	33	obl	_	_
+33	jusqu’	jusqu’	PRON	_	PRON__PronType=Rel	5	amod	_	_
+34	à	à	ADP	_	ADP___	33	case	_	_
+35	27	27	NUM	_	NUM__NumType=Card	37	nummod	_	_
+36	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	37	obl	_	_
+37	!	!	PUNCT	_	PUNCT___	33	punct	_	_
+
+
+#mes études étaient finies ...
+1	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	1	nmod:poss	_	_
+2	études	étude	NOUN	_	NOUN__Gender=Fem|Number=Plur	3	nsubj:pass	_	_
+3	étaient	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	aux:pass	_	_
+4	finies	finir	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+5	...	...	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#nos relations sont tendues...
+1	nos	notre	DET	_	DET__Number=Plur|Poss=Yes	1	nmod:poss	_	_
+2	relations	relation	NOUN	_	NOUN__Gender=Fem|Number=Plur	3	nsubj	_	_
+3	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+4	tendues	tendre	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+5	...	...	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#elle me fait savoir qu'elle va déclarer ce fait au notaire ...
+1	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	1	nsubj	_	_
+2	me	se	PRON	_	PRON__Number=Sing|Person=1	3	expl	_	_
+3	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	savoir	savoir	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+5	qu'	que	SCONJ	_	SCONJ___	5	mark	_	_
+6	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	10	nsubj	_	_
+7	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+8	déclarer	déclarer	VERB	_	VERB__VerbForm=Inf	6	ccomp	_	_
+9	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+10	fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+11	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	expl	_	_
+12	notaire	notaire	VERB	_	VERB__VerbForm=Inf	13	amod	_	_
+13	...	...	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Que dois-je craindre?
+1	Que	que	PRON	_	PRON__PronType=Int	1	obj	_	_
+2	dois	devoir	NUM	_	NUM__NumType=Card	3	nsubj	_	_
+3	-	-	PUNCT	_	PUNCT___	5	punct	_	_
+4	je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+5	craindre	craindre	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+6	?	?	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Merci pour vos réponses!
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	pour	pour	ADP	_	ADP___	3	case	_	_
+3	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	5	nmod:poss	_	_
+4	réponses	réponse	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	nmod	_	_
+5	!	!	PUNCT	_	PUNCT___	5	punct	_	_
+
+

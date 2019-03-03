@@ -1,0 +1,89 @@
+#Bonjour, Votre taux horaire salaire normal correspond à votre rémunération mensuelle contractuelle divisée par 70 (heures par mois).
+1	Bonjour	Bonjour	PROPN	_	PROPN___	8	obl	_	_
+2	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+3	Votre	votre	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+4	taux	taux	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nsubj	_	_
+5	horaire	horaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	amod	_	_
+6	salaire	salair	ADJ	_	ADJ__Number=Sing	4	amod	_	_
+7	normal	normal	ADJ	_	ADJ__Gender=Masc|Number=Sing	4	amod	_	_
+8	correspond	correspondre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+9	à	à	ADP	_	ADP___	11	case	_	_
+10	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	11	nmod:poss	_	_
+11	rémunération	rémunération	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+12	mensuelle	mensuel	ADJ	_	ADJ__Gender=Fem|Number=Sing	11	amod	_	_
+13	contractuelle	contractuel	ADJ	_	ADJ__Gender=Fem|Number=Sing	11	amod	_	_
+14	divisée	diviser	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
+15	par	par	ADP	_	ADP___	16	case	_	_
+16	70	70	NUM	_	NUM__NumType=Card	18	nummod	_	_
+17	(	(	PUNCT	_	PUNCT___	16	punct	_	_
+18	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	14	obl	_	_
+19	par	par	ADP	_	ADP___	20	case	_	_
+20	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	18	nmod	_	_
+21	)	)	PUNCT	_	PUNCT___	8	punct	_	_
+22	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Sauf à ce que vous ayez un forfait mensuel (70 heures), vous devez avoir une correspondance sur la semaine (16h/semaine?
+1	Sauf	Sauf	ADP	_	ADP___	8	case	_	_
+2	à	à	ADP	_	ADP___	8	case	_	_
+3	ce	ce	PRON	_	PRON__PronType=Rel	4	obl	_	_
+4	que	que	PRON	_	PRON__PronType=Rel	8	obj	_	_
+5	vous	vous	PRON	_	PRON__Number=Plur|Person=2	4	nsubj	_	_
+6	ayez	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+8	forfait	forfaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	acl:relcl	_	_
+9	mensuel	mensuel	ADJ	_	ADJ__Gender=Masc|Number=Sing	11	amod	_	_
+10	(	(	PUNCT	_	PUNCT___	11	punct	_	_
+11	70	70	NUM	_	NUM__NumType=Card	8	nummod	_	_
+12	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	11	appos	_	_
+13	)	)	PUNCT	_	PUNCT___	11	punct	_	_
+14	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+15	vous	vous	PRON	_	PRON__Number=Plur|Person=2	16	nsubj	_	_
+16	devez	devoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	avoir	avoir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+18	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+19	correspondance	correspondance	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	obj	_	_
+20	sur	sur	ADP	_	ADP___	18	case	_	_
+21	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+22	semaine	semaine	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+23	(	(	PUNCT	_	PUNCT___	25	punct	_	_
+24	16h	16h	PRON	_	PRON__PronType=Rel	25	appos	_	_
+25	/	/	PUNCT	_	PUNCT___	39	fixed	_	_
+26	semaine	semaine	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	nmod	_	_
+27	?	?	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#?)
+1	?	?	PUNCT	_	PUNCT___	0	ROOT	_	_
+2	)	)	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#, qui servira de base pour le déclenchement des heures complémentaires.
+1	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+2	qui	qui	PRON	_	PRON__PronType=Rel	8	nsubj	_	_
+3	servira	servir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+4	de	de	ADP	_	ADP___	8	case	_	_
+5	base	base	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+6	pour	pour	ADP	_	ADP___	4	case	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+8	déclenchement	déclenchement	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+9	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
+10	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	11	obj	_	_
+11	complémentaires	complémentaire	ADJ	_	ADJ__Number=Plur	8	amod	_	_
+12	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Que dit votre contrat là-dessus?
+1	Que	que	PRON	_	PRON__PronType=Int	8	mark	_	_
+2	dit	dire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+4	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+5	là-dessus	là-dessu	ADJ	_	ADJ__Gender=Masc|Number=Sing	4	nmod	_	_
+6	?	?	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#Cdlt.
+1	Cdlt	Cdlt	PROPN	_	PROPN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+

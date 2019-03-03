@@ -1,0 +1,107 @@
+#Bonjour, Vous pouvez faire faire un constat - voire plusieurs - par un huissier.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	5	obl	_	_
+2	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+3	Vous	vous	PRON	_	PRON__Number=Plur|Person=2	5	nsubj	_	_
+4	pouvez	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	faire	faire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+6	faire	faire	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	constat	constat	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+9	-	-	PUNCT	_	PUNCT___	8	punct	_	_
+10	voire	voire	CCONJ	_	CCONJ___	11	cc	_	_
+11	plusieurs	plusieurs	DET	_	DET__Number=Plur	8	conj	_	_
+12	-	-	PUNCT	_	PUNCT___	5	punct	_	_
+13	par	par	ADP	_	ADP___	15	case	_	_
+14	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	huissier	huissier	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+16	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Il faut absolument saisir son proprio.
+1	Il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+2	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	absolument	absolument	ADV	_	ADV___	5	advmod	_	_
+4	saisir	saisir	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+5	son	son	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+6	proprio	proprio	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+7	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#La police nationale n'intervient que la nuit et le dimanche, certes, mais le reste du temps vous appelez la police municipale.
+1	La	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+2	police	police	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nsubj	_	_
+3	nationale	national	ADJ	_	ADJ__Gender=Fem|Number=Sing	5	amod	_	_
+4	n'	ne	ADV	_	ADV___	5	advmod	_	_
+5	intervient	intervenir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	que	que	SCONJ	_	SCONJ___	5	fixed	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	nuit	nuit	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	fixed	_	_
+9	et	et	CCONJ	_	CCONJ___	8	cc	_	_
+10	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	dimanche	dimanche	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	conj	_	_
+12	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+13	certes	certes	ADV	_	ADV___	15	conj	_	_
+14	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+15	mais	mais	CCONJ	_	CCONJ___	5	cc	_	_
+16	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+17	reste	reste	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nsubj	_	_
+18	du	du	DET	_	DET__Gender=Masc|Number=Sing	18	det	_	_
+19	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	nsubj	_	_
+20	vous	vous	PRON	_	PRON__Number=Plur|Person=2	18	iobj	_	_
+21	appelez	appeler	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	22	conj	_	_
+22	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+23	police	police	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	obj	_	_
+24	municipale	municipal	ADJ	_	ADJ__Gender=Fem|Number=Sing	25	amod	_	_
+25	.	.	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#La police du bruit est même une de ses principales activités.
+1	La	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+2	police	police	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nsubj	_	_
+3	du	du	DET	_	DET__Gender=Masc|Number=Sing	5	det	_	_
+4	bruit	bruit	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	amod	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+6	même	même	ADV	_	ADV___	5	advmod	_	_
+7	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	ROOT	_	_
+8	de	de	ADP	_	ADP___	6	case	_	_
+9	ses	son	DET	_	DET__Number=Plur|Poss=Yes	8	nmod:poss	_	_
+10	principales	principal	NOUN	_	NOUN__Gender=Fem|Number=Plur	11	amod	_	_
+11	activités	activité	NOUN	_	NOUN__Gender=Fem|Number=Plur	8	nmod	_	_
+12	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Ne vous laissez pas faire... par contre c'est un travail de TRES longue haleine.
+1	Ne	ne	ADV	_	ADV___	5	advmod	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	5	iobj	_	_
+3	laissez	laisser	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+5	faire	faire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+6	...	...	PUNCT	_	PUNCT___	5	punct	_	_
+7	par	par	ADP	_	ADP___	8	case	_	_
+8	contre	contrer	ADP	_	ADP___	6	fixed	_	_
+9	c'	ce	PRON	_	PRON__Number=Sing|Person=3	8	nsubj	_	_
+10	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+12	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+13	de	de	ADP	_	ADP___	15	case	_	_
+14	TRES	TRES	PROPN	_	PROPN___	15	nmod	_	_
+15	longue	long	ADJ	_	ADJ__Gender=Fem|Number=Sing	5	amod	_	_
+16	haleine	haleine	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+17	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Et ça vous évitez car comme vous l'a dit Fabermorcar...
+1	Et	Et	CCONJ	_	CCONJ___	5	cc	_	_
+2	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	_
+3	vous	vous	PRON	_	PRON__Number=Plur|Person=2	5	iobj	_	_
+4	évitez	éviter	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	car	car	CCONJ	_	CCONJ___	5	cc	_	_
+6	comme	comme	SCONJ	_	SCONJ___	5	mark	_	_
+7	vous	vous	PRON	_	PRON__Number=Plur|Person=2	8	nsubj	_	_
+8	l'	le	PRON	_	PRON__Number=Sing|Person=3	6	obj	_	_
+9	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+10	dit	dire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	conj	_	_
+11	Fabermorcar	Fabermorcar	PROPN	_	PROPN__Gender=Masc|Number=Sing	8	obj	_	_
+12	...	...	PUNCT	_	PUNCT___	5	punct	_	_
+
+

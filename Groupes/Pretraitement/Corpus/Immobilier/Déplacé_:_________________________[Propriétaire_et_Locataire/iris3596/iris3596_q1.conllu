@@ -1,0 +1,289 @@
+#Bonjour, ma situation est spéciale peut être...
+1	Bonjour	Bonjour	PROPN	_	PROPN___	7	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+3	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	4	nmod:poss	_	_
+4	situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nsubj	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+6	spéciale	spécial	ADJ	_	ADJ__Gender=Fem|Number=Sing	7	advmod	_	_
+7	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	être	être	AUX	_	AUX__VerbForm=Inf	7	advmod	_	_
+9	...	...	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Mon Dossier sera accepté par une agence si j'ai un garant.
+1	Mon	mon	DET	_	DET__Number=Sing|Poss=Yes	7	nmod:poss	_	_
+2	Dossier	dossier	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+3	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	aux:pass	_	_
+4	accepté	accepter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+5	par	par	ADP	_	ADP___	7	case	_	_
+6	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	agence	agence	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obl	_	_
+8	si	si	SCONJ	_	SCONJ___	7	mark	_	_
+9	j'	il	PRON	_	PRON__Number=Sing|Person=1	7	nsubj	_	_
+10	ai	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+11	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	garant	garant	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+13	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#J'ai trouvé un ami garant (marié).
+1	J'	il	PRON	_	PRON__Number=Sing|Person=1	7	nsubj	_	_
+2	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+3	trouvé	trouver	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+5	ami	ami	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+6	garant	garant	ADJ	_	ADJ__Gender=Masc|Number=Sing	7	amod	_	_
+7	(	(	PUNCT	_	PUNCT___	7	punct	_	_
+8	marié	marié	ADJ	_	ADJ__Gender=Masc|Number=Sing	7	appos	_	_
+9	)	)	PUNCT	_	PUNCT___	7	punct	_	_
+10	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Il a fourni sa pièce d'identité + son avis imposition mais n'a rien signé.
+1	Il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+2	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+3	fourni	fournir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	7	nmod:poss	_	_
+5	pièce	pièce	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+6	d'	de	ADP	_	ADP___	7	case	_	_
+7	identité	identité	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+8	+	+	ADP	_	ADP___	7	case	_	_
+9	son	son	DET	_	DET__Number=Sing|Poss=Yes	7	nmod:poss	_	_
+10	avis	avis	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	amod	_	_
+11	imposition	imposition	ADJ	_	ADJ__Number=Sing	13	obl	_	_
+12	mais	mais	CCONJ	_	CCONJ___	13	cc	_	_
+13	n'	ne	ADV	_	ADV___	13	advmod	_	_
+14	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	16	obj	_	_
+16	signé	signer	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	advcl	_	_
+17	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#J'ai signé le bail (uniquement moi) et des chèques ont été donnés (dépôt de garantie, loyers, frais d'agence).
+1	J'	il	PRON	_	PRON__Number=Sing|Person=1	7	nsubj	_	_
+2	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+3	signé	signer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+5	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+6	(	(	PUNCT	_	PUNCT___	7	punct	_	_
+7	uniquement	uniquement	ADV	_	ADV___	7	advmod	_	_
+8	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	7	conj	_	_
+9	)	)	PUNCT	_	PUNCT___	7	punct	_	_
+10	et	et	CCONJ	_	CCONJ___	11	cc	_	_
+11	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	13	det	_	_
+12	chèques	chèque	NOUN	_	NOUN__Gender=Fem|Number=Plur	13	conj	_	_
+13	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+14	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	16	aux:pass	_	_
+15	donnés	donner	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	16	conj	_	_
+16	(	(	PUNCT	_	PUNCT___	13	punct	_	_
+17	dépôt	dépôt	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	appos	_	_
+18	de	de	ADP	_	ADP___	19	case	_	_
+19	garantie	garantir	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nmod	_	_
+20	,	,	PUNCT	_	PUNCT___	21	punct	_	_
+21	loyers	loyer	NOUN	_	NOUN__Gender=Masc|Number=Plur	19	conj	_	_
+22	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+23	frais	frais	NOUN	_	NOUN__Gender=Masc|Number=Plur	25	conj	_	_
+24	d'	de	ADP	_	ADP___	25	case	_	_
+25	agence	agence	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	obl	_	_
+26	)	)	PUNCT	_	PUNCT___	27	punct	_	_
+27	.	.	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#Bientôt on fera l'état des lieux, l'agence me dit qu'il faut : un acte de cautionnement signé par mari et femme.
+1	Bientôt	Bientôt	PROPN	_	PROPN___	7	advmod	_	_
+2	on	on	PRON	_	PRON__Number=Sing|Person=3	7	nsubj	_	_
+3	fera	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	advcl	_	_
+4	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+5	état	état	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+6	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
+7	lieux	lieu	ADJ	_	ADJ__Gender=Masc	7	obj	_	_
+8	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+9	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+10	agence	agence	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nsubj	_	_
+11	me	se	PRON	_	PRON__Number=Sing|Person=1	13	iobj	_	_
+12	dit	dire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+13	qu'	que	SCONJ	_	SCONJ___	13	mark	_	_
+14	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	16	nsubj	_	_
+15	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	ccomp	_	_
+16	:	:	PUNCT	_	PUNCT___	13	punct	_	_
+17	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	acte	acte	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obj	_	_
+19	de	de	ADP	_	ADP___	13	case	_	_
+20	cautionnement	cautionnement	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	nmod	_	_
+21	signé	signer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	acl	_	_
+22	par	par	ADP	_	ADP___	13	case	_	_
+23	mari	mari	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	obl	_	_
+24	et	et	CCONJ	_	CCONJ___	25	cc	_	_
+25	femme	femme	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	conj	_	_
+26	.	.	PUNCT	_	PUNCT___	27	punct	_	_
+
+
+#Seulement la femme de mon ami est réticente à l'idée de signer et m'a dit qu'elle préfère ne pas signer.
+1	Seulement	seulement	ADV	_	ADV___	7	advmod	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+3	femme	femme	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+4	de	de	ADP	_	ADP___	7	case	_	_
+5	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	7	nmod:poss	_	_
+6	ami	ami	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+7	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+8	réticente	réticent	ADJ	_	ADJ__Gender=Fem|Number=Sing	0	ROOT	_	_
+9	à	à	ADP	_	ADP___	7	case	_	_
+10	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	idée	idée	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obl	_	_
+12	de	de	ADP	_	ADP___	13	mark	_	_
+13	signer	signer	VERB	_	VERB__VerbForm=Inf	13	acl	_	_
+14	et	et	CCONJ	_	CCONJ___	16	cc	_	_
+15	m'	se	PRON	_	PRON__Number=Sing|Person=1	16	nsubj	_	_
+16	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+17	dit	dire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	conj	_	_
+18	qu'	que	SCONJ	_	SCONJ___	19	mark	_	_
+19	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	13	nsubj	_	_
+20	préfère	préférer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	ne	ne	ADV	_	ADV___	19	advmod	_	_
+22	pas	pas	ADV	_	ADV___	13	fixed	_	_
+23	signer	signer	VERB	_	VERB__VerbForm=Inf	25	xcomp	_	_
+24	.	.	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#L'Agence me dit que si le dossier est incomplet, le dossier sera refusé.
+1	L'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+2	Agence	Agence	PROPN	_	PROPN__Number=Sing	7	nsubj	_	_
+3	me	se	PRON	_	PRON__Number=Sing|Person=1	4	iobj	_	_
+4	dit	dire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+5	que	que	SCONJ	_	SCONJ___	7	mark	_	_
+6	si	si	SCONJ	_	SCONJ___	7	mark	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+8	dossier	dossier	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nsubj	_	_
+9	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+10	incomplet	incomplet	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	ccomp	_	_
+11	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	dossier	dossier	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nsubj:pass	_	_
+14	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	16	aux:pass	_	_
+15	refusé	refuser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+16	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Seulement je n'avais donné que les documents du mari et j'avais dit que j'avais comme garant LE MARI.
+1	Seulement	seulement	ADV	_	ADV___	7	advmod	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	7	nsubj	_	_
+3	n'	ne	ADV	_	ADV___	4	advmod	_	_
+4	avais	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	7	aux	_	_
+5	donné	donner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+6	que	que	SCONJ	_	SCONJ___	7	fixed	_	_
+7	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+8	documents	document	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	obj	_	_
+9	du	du	DET	_	DET__Gender=Masc|Number=Sing	7	det	_	_
+10	mari	mari	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+11	et	et	CCONJ	_	CCONJ___	13	cc	_	_
+12	j'	il	PRON	_	PRON__Number=Sing|Person=1	13	nsubj	_	_
+13	avais	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+14	dit	dire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	conj	_	_
+15	que	que	SCONJ	_	SCONJ___	16	mark	_	_
+16	j'	il	PRON	_	PRON__Number=Sing|Person=1	13	nsubj	_	_
+17	avais	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	ccomp	_	_
+18	comme	comme	ADP	_	ADP___	19	mark	_	_
+19	garant	garer	VERB	_	VERB__Tense=Pres|VerbForm=Part	13	advcl	_	_
+20	LE	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	MARI	mari	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obj	_	_
+22	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#L'Agence me dit que le bail étant signé les frais d'agence sont dûs, que le 1er loyer est dû mais que le dossier est refusé.
+1	L'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+2	Agence	Agence	PROPN	_	PROPN__Number=Sing	7	nsubj	_	_
+3	me	se	PRON	_	PRON__Number=Sing|Person=1	4	iobj	_	_
+4	dit	dire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	que	que	SCONJ	_	SCONJ___	7	mark	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nsubj	_	_
+8	étant	être	AUX	_	AUX__Tense=Pres|VerbForm=Part	7	aux:pass	_	_
+9	signé	signer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	ccomp	_	_
+10	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	11	det	_	_
+11	frais	frais	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	obj	_	_
+12	d'	de	ADP	_	ADP___	13	case	_	_
+13	agence	agence	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nmod	_	_
+14	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	dûs	dûs	ADV	_	ADV__Polarity=Neg	16	ccomp	_	_
+16	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+17	que	que	SCONJ	_	SCONJ___	19	mark	_	_
+18	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	1er	1er	ADJ	_	ADJ__NumType=Ord	13	nsubj	_	_
+20	loyer	loyer	VERB	_	VERB__VerbForm=Inf	21	ccomp	_	_
+21	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+22	dû	devoir	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	conj	_	_
+23	mais	mais	CCONJ	_	CCONJ___	25	cc	_	_
+24	que	que	SCONJ	_	SCONJ___	25	mark	_	_
+25	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+26	dossier	dossier	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	nsubj:pass	_	_
+27	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux:pass	_	_
+28	refusé	refuser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	27	conj	_	_
+29	.	.	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#Seul le mari m'avait donné une copie de son avis imposition et de sa pièce identité, l'autre non.
+1	Seul	seul	ADJ	_	ADJ__Gender=Masc|Number=Sing	7	amod	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+3	mari	mari	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+4	m'	se	PRON	_	PRON__Number=Sing|Person=1	7	iobj	_	_
+5	avait	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+6	donné	donner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+7	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+8	copie	copie	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+9	de	de	ADP	_	ADP___	7	case	_	_
+10	son	son	DET	_	DET__Number=Sing|Poss=Yes	11	nmod:poss	_	_
+11	avis	avis	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	amod	_	_
+12	imposition	imposition	ADJ	_	ADJ__Number=Sing	13	nmod	_	_
+13	et	et	CCONJ	_	CCONJ___	13	cc	_	_
+14	de	de	ADP	_	ADP___	16	case	_	_
+15	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	16	nmod:poss	_	_
+16	pièce	pièce	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	conj	_	_
+17	identité	identité	ADJ	_	ADJ__Number=Plur	19	amod	_	_
+18	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+19	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+20	autre	autre	ADJ	_	ADJ__Number=Sing	21	amod	_	_
+21	non	non	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obj	_	_
+22	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Il n'avait rien signé.
+1	Il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+2	n'	ne	ADV	_	ADV___	7	advmod	_	_
+3	avait	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	7	nsubj	_	_
+5	signé	signer	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+6	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#L'Agence me dit conserver 1 loyer + les frais d'agence y compris état des lieux... [QUELLE EST LA QUESTION JURIDIQUE ?
+1	L'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+2	Agence	Agence	PROPN	_	PROPN__Number=Sing	7	nsubj	_	_
+3	me	se	PRON	_	PRON__Number=Sing|Person=1	4	iobj	_	_
+4	dit	dire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	conserver	conserver	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+6	1	1	NUM	_	NUM__NumType=Card	7	nummod	_	_
+7	loyer	loyer	VERB	_	VERB__VerbForm=Inf	7	obj	_	_
+8	+	+	ADP	_	ADP___	7	case	_	_
+9	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+10	frais	frais	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	nmod	_	_
+11	d'	de	ADP	_	ADP___	13	case	_	_
+12	agence	agence	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nmod	_	_
+13	y	yu	PRON	_	PRON__Person=3	13	case	_	_
+14	compris	compris	ADJ	_	ADJ__Gender=Masc	16	fixed	_	_
+15	état	état	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	acl	_	_
+16	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	13	det	_	_
+17	lieux	lieu	ADJ	_	ADJ__Gender=Masc	19	obj	_	_
+18	...	...	PUNCT	_	PUNCT___	19	punct	_	_
+19	[	[	PUNCT	_	PUNCT___	13	punct	_	_
+20	QUELLE	quell	ADJ	_	ADJ__Number=Sing	21	nummod	_	_
+21	EST	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+22	LA	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+23	QUESTION	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	nsubj	_	_
+24	JURIDIQUE	JURIDIQUE	PROPN	_	PROPN__Gender=Masc|Number=Sing	25	amod	_	_
+25	?	?	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#]
+1	]	]	PUNCT	_	PUNCT___	0	ROOT	_	_
+
+

@@ -1,0 +1,718 @@
+#C'est normal que ce soit peu : peu d'ancienneté, peu d'heures de travail.
+1	C'	ce	PRON	_	PRON__Number=Sing|Person=3	3	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	normal	normal	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	que	que	SCONJ	_	SCONJ___	5	mark	_	_
+5	ce	ce	PRON	_	PRON__Number=Sing|Person=3	3	dep	_	_
+6	soit	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+7	peu	peu	ADV	_	ADV___	6	fixed	_	_
+8	:	:	PUNCT	_	PUNCT___	6	punct	_	_
+9	peu	peu	ADV	_	ADV___	10	advmod	_	_
+10	d'	de	ADP	_	ADP___	6	fixed	_	_
+11	ancienneté	ancienneté	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	acl	_	_
+12	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+13	peu	peu	ADV	_	ADV___	15	advmod	_	_
+14	d'	de	ADP	_	ADP___	15	case	_	_
+15	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	nmod	_	_
+16	de	de	ADP	_	ADP___	17	case	_	_
+17	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nmod	_	_
+18	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Mettez son salaires brut sur une feuille excel et prenez comme base de salaire la plus avantageux entre : 1)
+1	Mettez	mettre	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+2	son	son	DET	_	DET__Number=Sing|Poss=Yes	3	nmod:poss	_	_
+3	salaires	salaire	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	obj	_	_
+4	brut	brut	ADJ	_	ADJ__Gender=Masc|Number=Plur	5	amod	_	_
+5	sur	sur	ADP	_	ADP___	3	case	_	_
+6	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+7	feuille	feuiller	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obl	_	_
+8	excel	excel	ADJ	_	ADJ__Number=Sing	6	amod	_	_
+9	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+10	prenez	prendre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+11	comme	comme	ADP	_	ADP___	5	case	_	_
+12	base	base	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obl	_	_
+13	de	de	ADP	_	ADP___	15	case	_	_
+14	salaire	salaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	nmod	_	_
+15	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+16	plus	plus	ADV	_	ADV___	17	advmod	_	_
+17	avantageux	avantageux	ADJ	_	ADJ__Gender=Masc	15	amod	_	_
+18	entre	entrer	ADP	_	ADP___	3	fixed	_	_
+19	:	:	PUNCT	_	PUNCT___	19	punct	_	_
+20	1	1	NUM	_	NUM__NumType=Card	21	nummod	_	_
+21	)	)	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#3 derniers mois et 2) tous les 8 mois.
+1	3	3	NUM	_	NUM__NumType=Card	3	nummod	_	_
+2	derniers	dernier	ADJ	_	ADJ__Gender=Masc|Number=Plur|NumType=Ord	3	amod	_	_
+3	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+4	et	et	CCONJ	_	CCONJ___	5	cc	_	_
+5	2	2	NUM	_	NUM__NumType=Card	3	conj	_	_
+6	)	)	PUNCT	_	PUNCT___	11	punct	_	_
+7	tous	tou	ADJ	_	ADJ__Gender=Masc|Number=Plur	6	amod	_	_
+8	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	6	det	_	_
+9	8	8	NUM	_	NUM__NumType=Card	10	nummod	_	_
+10	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	nmod	_	_
+11	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Normalement, le salaire doit être mensualisé ...
+1	Normalement	normalement	ADV	_	ADV___	3	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+4	salaire	salaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+5	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	être	être	AUX	_	AUX__VerbForm=Inf	11	aux:pass	_	_
+7	mensualisé	mensualiser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	xcomp	_	_
+8	...	...	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Mais dans votre cas, les horaires sont irréguliers échappant à cette règle (a.2 de l'article 20 de la convention : "pour les horaires irréguliers, le salaire est calculé, à partir du salaire horaire brut, en fonction du nombre d'heures de travail effectif décomptées dans le mois").
+1	Mais	Mais	CCONJ	_	CCONJ___	3	cc	_	_
+2	dans	dan	ADP	_	ADP___	3	case	_	_
+3	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	3	nmod:poss	_	_
+4	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+5	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+6	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	11	det	_	_
+7	horaires	horaire	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	nsubj	_	_
+8	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+9	irréguliers	irrégulier	ADJ	_	ADJ__Gender=Masc|Number=Plur	0	ROOT	_	_
+10	échappant	échapper	VERB	_	VERB__Tense=Pres|VerbForm=Part	6	acl	_	_
+11	à	à	ADP	_	ADP___	5	case	_	_
+12	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+13	règle	règle	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obl	_	_
+14	(	(	PUNCT	_	PUNCT___	15	punct	_	_
+15	a.2	a.2	NOUN	_	NOUN___	5	appos	_	_
+16	de	de	ADP	_	ADP___	17	case	_	_
+17	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+18	article	article	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nmod	_	_
+19	20	20	NUM	_	NUM__NumType=Card	19	nummod	_	_
+20	de	de	ADP	_	ADP___	21	case	_	_
+21	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+22	convention	convention	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	nmod	_	_
+23	:	:	PUNCT	_	PUNCT___	25	punct	_	_
+24	"	"	PUNCT	_	PUNCT___	25	punct	_	_
+25	pour	pour	ADP	_	ADP___	22	case	_	_
+26	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	25	det	_	_
+27	horaires	horaire	NOUN	_	NOUN__Gender=Masc|Number=Plur	28	obl	_	_
+28	irréguliers	irrégulier	ADJ	_	ADJ__Gender=Masc|Number=Plur	26	amod	_	_
+29	,	,	PUNCT	_	PUNCT___	30	punct	_	_
+30	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+31	salaire	salaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	32	nsubj	_	_
+32	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+33	calculé	calculer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	35	conj	_	_
+34	,	,	PUNCT	_	PUNCT___	35	punct	_	_
+35	à	à	ADP	_	ADP___	30	case	_	_
+36	partir	partir	VERB	_	VERB__VerbForm=Inf	35	fixed	_	_
+37	du	du	DET	_	DET__Gender=Masc|Number=Sing	22	det	_	_
+38	salaire	salair	ADJ	_	ADJ__Number=Sing	22	obl	_	_
+39	horaire	horaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	amod	_	_
+40	brut	brut	ADJ	_	ADJ___	42	amod	_	_
+41	,	,	PUNCT	_	PUNCT___	42	punct	_	_
+42	en	en	ADP	_	ADP___	42	case	_	_
+43	fonction	fonction	NOUN	_	NOUN__Gender=Fem|Number=Sing	44	fixed	_	_
+44	du	du	DET	_	DET__Gender=Masc|Number=Sing	42	det	_	_
+45	nombre	nombre	NOUN	_	NOUN__Gender=Masc|Number=Sing	42	obl	_	_
+46	d'	de	ADP	_	ADP___	49	case	_	_
+47	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	49	nmod	_	_
+48	de	de	ADP	_	ADP___	49	case	_	_
+49	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	42	nmod	_	_
+50	effectif	effectif	ADJ	_	ADJ__Gender=Masc|Number=Sing	42	amod	_	_
+51	décomptées	décompter	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	55	acl	_	_
+52	dans	dan	ADP	_	ADP___	55	case	_	_
+53	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
+54	 	 	SPACE	_	_SP	55		_	_
+55	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	55	obl	_	_
+56	"	"	PUNCT	_	PUNCT___	57	punct	_	_
+57	)	)	PUNCT	_	PUNCT___	55	punct	_	_
+58	.	.	PUNCT	_	PUNCT___	55	punct	_	_
+
+
+#Envoyé par ducourage mais c'est cette phrase qui m'a fait peur avec en plus la menace de la femme de ménage (elle a dit en texto:
+1	Envoyé	envoyer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+2	par	par	ADP	_	ADP___	3	case	_	_
+3	ducourage	ducourage	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nmod	_	_
+4	mais	mais	CCONJ	_	CCONJ___	5	cc	_	_
+5	c'	ce	PRON	_	PRON__Number=Sing|Person=3	3	nsubj	_	_
+6	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+7	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+8	phrase	phrase	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	conj	_	_
+9	qui	qui	PRON	_	PRON__PronType=Rel	10	nsubj	_	_
+10	m'	se	PRON	_	PRON__Number=Sing|Person=1	6	obj	_	_
+11	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+12	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+13	peur	peur	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obj	_	_
+14	avec	avec	ADP	_	ADP___	15	case	_	_
+15	en	en	ADP	_	ADP___	5	advmod	_	_
+16	plus	plus	ADV	_	ADV___	17	fixed	_	_
+17	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+18	menace	menace	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obl	_	_
+19	de	de	ADP	_	ADP___	19	case	_	_
+20	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	femme	femme	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	nmod	_	_
+22	de	de	ADP	_	ADP___	19	case	_	_
+23	ménage	ménage	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	nmod	_	_
+24	(	(	PUNCT	_	PUNCT___	25	punct	_	_
+25	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	22	nsubj	_	_
+26	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+27	dit	dire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	parataxis	_	_
+28	en	en	ADP	_	ADP___	26	case	_	_
+29	texto	texto	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	obl	_	_
+30	:	:	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#je passe avec une amie la même chose et c'est vous qui paye les direccts.
+1	je	il	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+2	passe	passer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	avec	avec	ADP	_	ADP___	3	case	_	_
+4	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	amie	amie	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obl	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+7	même	même	ADJ	_	ADJ__Number=Sing	6	amod	_	_
+8	chose	chose	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	amod	_	_
+9	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+10	c'	ce	PRON	_	PRON__Number=Sing|Person=3	6	nsubj	_	_
+11	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	fixed	_	_
+12	vous	vous	PRON	_	PRON__Number=Plur|Person=2	5	fixed	_	_
+13	qui	qui	PRON	_	PRON__PronType=Rel	15	nsubj	_	_
+14	paye	payer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+16	direccts	direcct	NOUN	_	NOUN__Gender=Masc|Number=Plur	17	conj	_	_
+17	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#)
+1	)	)	PUNCT	_	PUNCT___	0	ROOT	_	_
+
+
+#N’ayez pas peur, et n'hésitez donc pas de lui dire que c'est le DIRECCTS qui valide la rupture conventionnelle.
+1	N’	n’	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+2	ayez	avoir	X	_	X___	3	amod	_	_
+3	pas	pas	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+4	peur	peur	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obj	_	_
+5	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+6	et	et	CCONJ	_	CCONJ___	11	cc	_	_
+7	n'	ne	ADV	_	ADV___	6	advmod	_	_
+8	hésitez	hésiter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	_
+9	donc	donc	ADV	_	ADV___	10	advmod	_	_
+10	pas	pas	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+11	de	de	ADP	_	ADP___	5	mark	_	_
+12	lui	luire	PRON	_	PRON__Number=Sing|Person=3	5	iobj	_	_
+13	dire	dire	VERB	_	VERB__VerbForm=Inf	15	xcomp	_	_
+14	que	que	SCONJ	_	SCONJ___	15	mark	_	_
+15	c'	ce	PRON	_	PRON__Number=Sing|Person=3	5	nsubj	_	_
+16	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+18	DIRECCTS	direcct	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	ccomp	_	_
+19	qui	qui	PRON	_	PRON__PronType=Rel	19	nsubj	_	_
+20	valide	valider	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+21	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+22	rupture	rupture	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obj	_	_
+23	conventionnelle	conventionnel	ADJ	_	ADJ__Gender=Fem|Number=Sing	25	amod	_	_
+24	.	.	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#Les indemnité sont libres (car c'est une transaction), mais le montant doit au moins être égal aux indemnités légales et/ou conventionnelles dues en cas de licenciement.
+1	Les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	3	det	_	_
+2	indemnité	indemnité	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+3	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+4	libres	libre	ADJ	_	ADJ__Number=Plur	0	ROOT	_	_
+5	(	(	PUNCT	_	PUNCT___	3	punct	_	_
+6	car	car	CCONJ	_	CCONJ___	11	cc	_	_
+7	c'	ce	PRON	_	PRON__Number=Sing|Person=3	6	nsubj	_	_
+8	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+9	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	transaction	transaction	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	conj	_	_
+11	)	)	PUNCT	_	PUNCT___	5	punct	_	_
+12	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+13	mais	mais	CCONJ	_	CCONJ___	15	cc	_	_
+14	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	montant	montant	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+16	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	conj	_	_
+17	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	15	advmod	_	_
+18	moins	moins	ADV	_	ADV___	3	fixed	_	_
+19	être	être	AUX	_	AUX__VerbForm=Inf	19	aux:pass	_	_
+20	égal	égal	ADJ	_	ADJ__Gender=Masc|Number=Sing	21	cc	_	_
+21	aux	aux	ADP	_	ADP___	19	aux	_	_
+22	indemnités	indemnité	NOUN	_	NOUN__Gender=Fem|Number=Plur	19	xcomp	_	_
+23	légales	légal	ADJ	_	ADJ__Gender=Fem|Number=Plur	25	amod	_	_
+24	et	et	CCONJ	_	CCONJ___	25	cc	_	_
+25	/	/	PUNCT	_	PUNCT___	22	fixed	_	_
+26	ou	ou	CCONJ	_	CCONJ___	25	fixed	_	_
+27	conventionnelles	conventionnel	ADJ	_	ADJ__Gender=Fem|Number=Plur	28	conj	_	_
+28	dues	du	ADJ	_	ADJ__Gender=Fem|Number=Plur	26	amod	_	_
+29	en	en	ADP	_	ADP___	30	case	_	_
+30	cas	cas	NOUN	_	NOUN__Gender=Masc	22	fixed	_	_
+31	de	de	ADP	_	ADP___	32	fixed	_	_
+32	licenciement	licenciement	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	obl	_	_
+33	.	.	PUNCT	_	PUNCT___	35	punct	_	_
+
+
+#Envoyé par ducourage
+1	Envoyé	envoyer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+2	par	par	ADP	_	ADP___	3	case	_	_
+3	ducourage	ducourage	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nmod	_	_
+
+
+#Sachez également qu'un CDI à temps partiel doit obligatoirement être écrit, sous peine de requalification en CDI temps plein.
+1	Sachez	Sachez	ADP	_	ADP___	0	ROOT	_	_
+2	également	également	ADV	_	ADV___	3	advmod	_	_
+3	qu'	que	SCONJ	_	SCONJ___	3	mark	_	_
+4	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	CDI	cdi	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+6	à	à	ADP	_	ADP___	11	case	_	_
+7	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obl	_	_
+8	partiel	partiel	ADJ	_	ADJ___	6	amod	_	_
+9	doit	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	obligatoirement	obligatoirement	ADV	_	ADV___	6	ccomp	_	_
+11	être	être	AUX	_	AUX__VerbForm=Inf	5	aux:pass	_	_
+12	écrit	écrire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	xcomp	_	_
+13	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+14	sous	sou	ADP	_	ADP___	15	case	_	_
+15	peine	peiner	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obl	_	_
+16	de	de	ADP	_	ADP___	17	case	_	_
+17	requalification	requalification	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	nmod	_	_
+18	en	en	ADP	_	ADP___	3	case	_	_
+19	CDI	cdi	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	nmod	_	_
+20	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	advmod	_	_
+21	plein	plein	ADJ	_	ADJ__Gender=Masc|Number=Sing	19	advcl	_	_
+22	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Est-ce que sans écrit, je risque de payer une grosse somme d'indemnités?
+1	Est	être		_	VERB	0	ROOT	_	_
+2	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	3	amod	_	_
+3	que	que	ADV	_	ADV___	3	mark	_	_
+4	sans	sans	ADP	_	ADP___	5	case	_	_
+5	écrit	écrit	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obl	_	_
+6	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+7	je	il	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+8	risque	risquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	de	de	ADP	_	ADP___	10	mark	_	_
+10	payer	payer	VERB	_	VERB__VerbForm=Inf	6	xcomp	_	_
+11	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+12	grosse	gros	ADJ	_	ADJ__Gender=Fem|Number=Sing	5	amod	_	_
+13	somme	sommer	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obj	_	_
+14	d'	de	ADP	_	ADP___	15	case	_	_
+15	indemnités	indemnité	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	nmod	_	_
+16	?	?	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Non, pour CESU c'est : Le contrat de travail d’un salarié à domicile est obligatoire au CESU au delà de 8h de travail par semaine, ou de 4 semaines consécutives d’emploi.
+1	Non	non	ADV	_	ADV___	3	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	pour	pour	ADP	_	ADP___	3	case	_	_
+4	CESU	CESU	PROPN	_	PROPN___	5	obl	_	_
+5	c'	ce	PRON	_	PRON__Number=Sing|Person=3	3	advmod	_	_
+6	est	être	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	fixed	_	_
+7	:	:	PUNCT	_	PUNCT___	6	fixed	_	_
+8	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+9	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nsubj	_	_
+10	de	de	ADP	_	ADP___	6	case	_	_
+11	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+12	d’	d’	ADP	_	ADP___	0	ROOT	_	_
+13	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	salarié	salarié	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obj	_	_
+15	à	à	ADP	_	ADP___	5	case	_	_
+16	domicile	domicile	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obl	_	_
+17	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
+18	obligatoire	obligatoire	ADJ	_	ADJ__Number=Sing	3	advcl	_	_
+19	au	au	PRON	_	PRON__PronType=Rel	19	case	_	_
+20	CESU	cesu	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	obl	_	_
+21	au	au	NOUN	_	NOUN___	19	amod	_	_
+22	delà	delà	ADV	_	ADV___	19	fixed	_	_
+23	de	de	ADP	_	ADP___	25	fixed	_	_
+24	8h	8h	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	fixed	_	_
+25	de	de	ADP	_	ADP___	22	case	_	_
+26	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	nmod	_	_
+27	par	par	ADP	_	ADP___	28	case	_	_
+28	semaine	semaine	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	nmod	_	_
+29	,	,	PUNCT	_	PUNCT___	30	punct	_	_
+30	ou	ou	CCONJ	_	CCONJ___	22	cc	_	_
+31	de	de	ADP	_	ADP___	32	case	_	_
+32	4	4	NUM	_	NUM__NumType=Card	30	nummod	_	_
+33	semaines	semaine	NOUN	_	NOUN__Gender=Fem|Number=Plur	35	conj	_	_
+34	consécutives	consécutif	ADJ	_	ADJ__Number=Plur	35	amod	_	_
+35	d’	d’	ADP	_	ADP___	30	orphan	_	_
+36	emploi	emploi	NOUN	_	NOUN__Gender=Masc|Number=Sing	35	amod	_	_
+37	.	.	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#Envoyé par ducourage
+1	Envoyé	envoyer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+2	par	par	ADP	_	ADP___	3	case	_	_
+3	ducourage	ducourage	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nmod	_	_
+
+
+#Deuxième chose, comme elle a beaucoup d'absences.
+1	Deuxième	deuxième	ADJ	_	ADJ__Number=Sing|NumType=Ord	3	amod	_	_
+2	chose	chose	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+4	comme	comme	SCONJ	_	SCONJ___	5	mark	_	_
+5	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
+6	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+7	beaucoup	beaucoup	ADV	_	ADV___	6	det	_	_
+8	d'	de	ADP	_	ADP___	6	fixed	_	_
+9	absences	absence	NOUN	_	NOUN__Gender=Fem|Number=Plur	10	obj	_	_
+10	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#durant ces 6 mois, elle n'a jamais fait 4 semaines consécutives, toujours 2 semaines, 3 heures par semaine, ou 3 semaines 3 heure par semaine, il y a que l'avril elle a fait 4 semaines.
+1	durant	durer	ADP	_	ADP___	3	case	_	_
+2	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	3	det	_	_
+3	6	6	NUM	_	NUM__NumType=Card	3	nummod	_	_
+4	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	obl	_	_
+5	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+6	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	11	nsubj	_	_
+7	n'	ne	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+8	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+9	jamais	jamais	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+10	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+11	4	4	NUM	_	NUM__NumType=Card	5	nummod	_	_
+12	semaines	semaine	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	obj	_	_
+13	consécutives	consécutif	ADJ	_	ADJ__Number=Plur	15	amod	_	_
+14	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+15	toujours	toujours	ADV	_	ADV___	5	advmod	_	_
+16	2	2	NUM	_	NUM__NumType=Card	17	nummod	_	_
+17	semaines	semaine	NOUN	_	NOUN__Gender=Fem|Number=Plur	15	obl	_	_
+18	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+19	3	3	NUM	_	NUM__NumType=Card	19	nummod	_	_
+20	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	21	punct	_	_
+21	par	par	ADP	_	ADP___	19	case	_	_
+22	semaine	semaine	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	nmod	_	_
+23	,	,	PUNCT	_	PUNCT___	25	punct	_	_
+24	ou	ou	CCONJ	_	CCONJ___	25	cc	_	_
+25	3	3	NUM	_	NUM__NumType=Card	22	nummod	_	_
+26	semaines	semaine	NOUN	_	NOUN__Gender=Fem|Number=Plur	25	obl	_	_
+27	3	3	NUM	_	NUM__NumType=Card	28	nummod	_	_
+28	heure	heure	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	appos	_	_
+29	par	par	ADP	_	ADP___	30	case	_	_
+30	semaine	semaine	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	nmod	_	_
+31	,	,	PUNCT	_	PUNCT___	32	punct	_	_
+32	il	il	PRON	_	PRON__Number=Sing|Person=3	30	nsubj	_	_
+33	y	yu	PRON	_	PRON__Person=3	35	fixed	_	_
+34	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	fixed	_	_
+35	que	que	SCONJ	_	SCONJ___	30	fixed	_	_
+36	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	35	det	_	_
+37	avril	avril	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	nsubj	_	_
+38	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	22	nsubj	_	_
+39	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+40	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	42	parataxis	_	_
+41	4	4	NUM	_	NUM__NumType=Card	42	nummod	_	_
+42	semaines	semaine	NOUN	_	NOUN__Gender=Fem|Number=Plur	42	obj	_	_
+43	.	.	PUNCT	_	PUNCT___	44	punct	_	_
+
+
+#Les heures marquées sur le bulletin de salaire cesu sont-elle des preuves?
+1	Les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	3	det	_	_
+2	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	3	nsubj	_	_
+3	marquées	marquer	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	3	acl	_	_
+4	sur	sur	ADP	_	ADP___	5	case	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+6	bulletin	bulletin	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obl	_	_
+7	de	de	ADP	_	ADP___	6	case	_	_
+8	salaire	salaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+9	cesu	cesu	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	amod	_	_
+10	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+11	-	-	PUNCT	_	PUNCT___	5	punct	_	_
+12	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	5	amod	_	_
+13	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	15	det	_	_
+14	preuves	preuve	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+15	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Est-ce que cela veut dire le contrat de travail n'est pas obligatoire?
+1	Est	être		_	VERB	3	nsubj	_	_
+2	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	3	amod	_	_
+3	que	que	SCONJ	_	SCONJ___	3	mark	_	_
+4	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	5	nsubj	_	_
+5	veut	vouloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+6	dire	dire	VERB	_	VERB__VerbForm=Inf	11	xcomp	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+8	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+9	de	de	ADP	_	ADP___	10	case	_	_
+10	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nmod	_	_
+11	n'	ne	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+12	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+13	pas	pas	ADV	_	ADV__Polarity=Neg	15	advmod	_	_
+14	obligatoire	obligatoire	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+15	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#En effet, l'article 5 de l'accord paritaire du 13 octobre 1995 a prévu que : "Le chèque emploi
+1	En	En	ADP	_	ADP___	3	advmod	_	_
+2	effet	effet	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+4	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	article	article	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+6	5	5	NUM	_	NUM__NumType=Card	11	nummod	_	_
+7	de	de	ADP	_	ADP___	6	case	_	_
+8	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+9	accord	accord	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+10	paritaire	paritaire	ADJ	_	ADJ__Number=Sing	6	amod	_	_
+11	du	du	DET	_	DET__Gender=Masc|Number=Sing	5	det	_	_
+12	13	13	NUM	_	NUM__NumType=Card	5	nummod	_	_
+13	octobre	octobre	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nmod	_	_
+14	1995	1995	NUM	_	NUM__NumType=Card	15	nummod	_	_
+15	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+16	prévu	prévoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+17	que	que	SCONJ	_	SCONJ___	15	fixed	_	_
+18	:	:	PUNCT	_	PUNCT___	3	punct	_	_
+19	"	"	PUNCT	_	PUNCT___	19	punct	_	_
+20	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	chèque	chèque	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obj	_	_
+22	emploi	emploi	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	nmod	_	_
+
+
+#-service peut être utilisé pour des prestations de travail occasionnelles dont la durée hebdomadaire n'excède pas 8 heures ou pour une durée dans l'année de 1 mois non renouvelable.
+1	-	-	PUNCT	_	PUNCT___	3	punct	_	_
+2	service	service	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+3	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	être	être	AUX	_	AUX__VerbForm=Inf	5	aux:pass	_	_
+5	utilisé	utiliser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	xcomp	_	_
+6	pour	pour	ADP	_	ADP___	11	case	_	_
+7	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
+8	prestations	prestation	NOUN	_	NOUN__Gender=Fem|Number=Plur	6	obl	_	_
+9	de	de	ADP	_	ADP___	10	case	_	_
+10	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nmod	_	_
+11	occasionnelles	occasionnel	ADJ	_	ADJ__Number=Plur	5	amod	_	_
+12	dont	dont	PRON	_	PRON__PronType=Rel	5	dep	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	durée	durée	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	nsubj	_	_
+15	hebdomadaire	hebdomadaire	ADV	_	ADV___	5	amod	_	_
+16	n'	ne	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+17	excède	excéder	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+18	pas	pas	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+19	8	8	NUM	_	NUM__NumType=Card	19	nummod	_	_
+20	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	21	obj	_	_
+21	ou	ou	CCONJ	_	CCONJ___	19	cc	_	_
+22	pour	pour	ADP	_	ADP___	19	case	_	_
+23	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+24	durée	durée	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	conj	_	_
+25	dans	dan	ADP	_	ADP___	22	case	_	_
+26	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+27	année	année	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	nmod	_	_
+28	de	de	ADP	_	ADP___	26	case	_	_
+29	1	1	NUM	_	NUM__NumType=Card	30	nummod	_	_
+30	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	22	nmod	_	_
+31	non	non	ADV	_	ADV___	32	advmod	_	_
+32	renouvelable	renouvelable	ADJ	_	ADJ__Number=Sing	30	amod	_	_
+33	.	.	PUNCT	_	PUNCT___	35	punct	_	_
+
+
+#Pour ces emplois, le chèque emploi
+1	Pour	Pour	ADP	_	ADP___	3	case	_	_
+2	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	3	det	_	_
+3	emplois	emploi	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	obl	_	_
+4	,	,	PUNCT	_	PUNCT___	0	ROOT	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+6	chèque	chèque	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	punct	_	_
+7	emploi	emploi	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nmod	_	_
+
+
+#-service tient lieu de contrat de travail.
+1	-	-	PUNCT	_	PUNCT___	3	punct	_	_
+2	service	service	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+3	tient	tenir	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	lieu	lieu	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+5	de	de	ADP	_	ADP___	3	case	_	_
+6	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obl	_	_
+7	de	de	ADP	_	ADP___	6	case	_	_
+8	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nmod	_	_
+9	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#" C'est bien votre cas, donc pas de panique.
+1	"	"	PUNCT	_	PUNCT___	3	punct	_	_
+2	C'	ce	PRON	_	PRON__Number=Sing|Person=3	3	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+4	bien	bien	ADV	_	ADV___	5	advmod	_	_
+5	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	3	nmod:poss	_	_
+6	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+7	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+8	donc	donc	ADV	_	ADV___	6	advmod	_	_
+9	pas	pas	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+10	de	de	DET	_	DET__Definite=Ind|Number=Sing|PronType=Art	6	det	_	_
+11	panique	panique	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+12	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Envoyé par ducourage
+1	Envoyé	envoyer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+2	par	par	ADP	_	ADP___	3	case	_	_
+3	ducourage	ducourage	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nmod	_	_
+
+
+#La femme de ménage m'a critiqué par texto que c'est moi qui n'a pas laissé la clé pour qu'elle pourra venir à son guise et faire le ménage au moment qui lui convient.
+1	La	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	femme	femme	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+3	de	de	ADP	_	ADP___	3	case	_	_
+4	ménage	ménage	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+5	m'	se	PRON	_	PRON__Number=Sing|Person=1	3	obj	_	_
+6	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+7	critiqué	critiquer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+8	par	par	ADP	_	ADP___	6	case	_	_
+9	texto	texto	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obl	_	_
+10	que	que	SCONJ	_	SCONJ___	6	mark	_	_
+11	c'	ce	PRON	_	PRON__Number=Sing|Person=3	5	nsubj	_	_
+12	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+13	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	15	ccomp	_	_
+14	qui	qui	PRON	_	PRON__PronType=Rel	15	nsubj	_	_
+15	n'	ne	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+16	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	pas	pas	ADV	_	ADV__Polarity=Neg	15	advmod	_	_
+18	laissé	laisser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+19	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+20	clé	clé	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	obj	_	_
+21	pour	pour	ADP	_	ADP___	19	mark	_	_
+22	qu'	que	SCONJ	_	SCONJ___	19	fixed	_	_
+23	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	25	nsubj	_	_
+24	pourra	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	25	aux	_	_
+25	venir	venir	VERB	_	VERB__VerbForm=Inf	22	advcl	_	_
+26	à	à	ADP	_	ADP___	25	case	_	_
+27	son	son	DET	_	DET__Number=Sing|Poss=Yes	28	nmod:poss	_	_
+28	guise	guise	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	obl	_	_
+29	et	et	CCONJ	_	CCONJ___	30	cc	_	_
+30	faire	faire	VERB	_	VERB__VerbForm=Inf	22	conj	_	_
+31	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	ménage	ménage	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	obj	_	_
+33	au	au	PRON	_	PRON__PronType=Rel	35	iobj	_	_
+34	moment	moment	NOUN	_	NOUN__Gender=Masc|Number=Sing	35	obl	_	_
+35	qui	qui	PRON	_	PRON__PronType=Rel	30	nsubj	_	_
+36	lui	luire	PRON	_	PRON__Number=Sing|Person=3	35	iobj	_	_
+37	convient	convier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
+38	.	.	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#Il ne faut pas exagérer, si certains laissent leurs clés, ça ne veut pas dire que tout le monde doit faire pareil.
+1	Il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+2	ne	ne	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+3	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+5	exagérer	exagérer	VERB	_	VERB__VerbForm=Inf	3	xcomp	_	_
+6	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+7	si	si	SCONJ	_	SCONJ___	6	mark	_	_
+8	certains	certain	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3|PronType=Rel	6	nsubj	_	_
+9	laissent	laisser	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	nsubj	_	_
+10	leurs	leur	DET	_	DET__Number=Plur|Poss=Yes	6	nmod:poss	_	_
+11	clés	clé	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	obj	_	_
+12	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+13	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	nsubj	_	_
+14	ne	ne	ADV	_	ADV__Polarity=Neg	15	advmod	_	_
+15	veut	vouloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+16	pas	pas	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+17	dire	dire	VERB	_	VERB__VerbForm=Inf	15	advcl	_	_
+18	que	que	SCONJ	_	SCONJ___	3	mark	_	_
+19	tout	tout	ADJ	_	ADJ__Gender=Masc|Number=Sing	19	amod	_	_
+20	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	monde	monde	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	nsubj	_	_
+22	doit	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+23	faire	faire	VERB	_	VERB__VerbForm=Inf	25	ccomp	_	_
+24	pareil	pareil	ADJ	_	ADJ__Gender=Masc|Number=Sing	25	obj	_	_
+25	.	.	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#Envoyé par ducourage
+1	Envoyé	envoyer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+2	par	par	ADP	_	ADP___	3	case	_	_
+3	ducourage	ducourage	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nmod	_	_
+
+
+#J'ai des textos de sa part qui m'a envoyé toujours au dernier moment pour m'informer son absence.
+1	J'	il	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+2	ai	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	3	det	_	_
+4	textos	texto	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	obj	_	_
+5	de	de	ADP	_	ADP___	3	case	_	_
+6	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	11	nmod:poss	_	_
+7	part	part	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+8	qui	qui	PRON	_	PRON__PronType=Rel	6	nsubj	_	_
+9	m'	se	PRON	_	PRON__Number=Sing|Person=1	10	obj	_	_
+10	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+11	envoyé	envoyer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+12	toujours	toujours	ADV	_	ADV___	5	advmod	_	_
+13	au	au	ADV	_	ADV__PronType=Int	15	det	_	_
+14	dernier	dernier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	15	amod	_	_
+15	moment	moment	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+16	pour	pour	ADP	_	ADP___	17	mark	_	_
+17	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	15	iobj	_	_
+18	informer	informer	VERB	_	VERB__VerbForm=Inf	3	advcl	_	_
+19	son	son	DET	_	DET__Number=Sing|Poss=Yes	19	nmod:poss	_	_
+20	absence	absence	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	obj	_	_
+21	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#sans jamais fournir des justificatifs.
+1	sans	sans	ADP	_	ADP___	3	case	_	_
+2	jamais	jamais	ADV	_	ADV___	3	obl	_	_
+3	fournir	fournir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
+5	justificatifs	justificatif	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	obj	_	_
+6	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Est-ce que c'est les preuves de ses absences?
+1	Est	être		_	VERB	0	ROOT	_	_
+2	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	3	amod	_	_
+3	que	que	SCONJ	_	SCONJ___	3	mark	_	_
+4	c'	ce	PRON	_	PRON__Number=Sing|Person=3	5	nsubj	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+6	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	11	det	_	_
+7	preuves	preuve	NOUN	_	NOUN__Gender=Fem|Number=Plur	6	nmod	_	_
+8	de	de	ADP	_	ADP___	6	case	_	_
+9	ses	son	DET	_	DET__Number=Plur|Poss=Yes	10	nmod:poss	_	_
+10	absences	absence	NOUN	_	NOUN__Gender=Fem|Number=Plur	6	nmod	_	_
+11	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Effectivement, les SMS peuvent servir de commencement des preuves, mais là vous vous engagez vers un licenciement pour cause réelle et sérieuse.
+1	Effectivement	effectivement	ADV	_	ADV___	3	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	3	det	_	_
+4	SMS	sm	NOUN	_	NOUN__Number=Plur	5	nsubj	_	_
+5	peuvent	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+6	servir	servir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+7	de	de	ADP	_	ADP___	6	case	_	_
+8	commencement	commencement	ADV	_	ADV__PronType=Int	6	obl	_	_
+9	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
+10	preuves	preuve	NOUN	_	NOUN__Gender=Fem|Number=Plur	6	obj	_	_
+11	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+12	mais	mais	CCONJ	_	CCONJ___	5	cc	_	_
+13	là	là	ADV	_	ADV___	15	advmod	_	_
+14	vous	vous	PRON	_	PRON__Number=Plur|Person=2	15	nsubj	_	_
+15	vous	vous	PRON	_	PRON__Number=Plur|Person=2	5	expl	_	_
+16	engagez	engager	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	17	conj	_	_
+17	vers	ver	ADP	_	ADP___	15	case	_	_
+18	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+19	licenciement	licenciement	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obl	_	_
+20	pour	pour	ADP	_	ADP___	21	case	_	_
+21	cause	cause	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	amod	_	_
+22	réelle	réel	ADJ	_	ADJ__Gender=Fem|Number=Sing	19	nmod	_	_
+23	et	et	CCONJ	_	CCONJ___	25	cc	_	_
+24	sérieuse	sérieux	ADJ	_	ADJ__Gender=Fem|Number=Sing	25	conj	_	_
+25	.	.	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#et, selon l'article 10 de la convention 2111, "Toute absence doit être justifiée".
+1	et	et	CCONJ	_	CCONJ___	3	cc	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	selon	selon	ADP	_	ADP___	3	case	_	_
+4	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	article	article	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obl	_	_
+6	10	10	NUM	_	NUM__NumType=Card	11	nummod	_	_
+7	de	de	ADP	_	ADP___	6	case	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+9	convention	convention	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+10	2111	2111	NUM	_	NUM__NumType=Card	6	nummod	_	_
+11	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+12	"	"	PUNCT	_	PUNCT___	5	punct	_	_
+13	Toute	tout	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	absence	absence	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	nsubj	_	_
+15	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+16	être	être	AUX	_	AUX__VerbForm=Inf	17	aux:pass	_	_
+17	justifiée	justifier	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	15	xcomp	_	_
+18	"	"	PUNCT	_	PUNCT___	3	punct	_	_
+19	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+

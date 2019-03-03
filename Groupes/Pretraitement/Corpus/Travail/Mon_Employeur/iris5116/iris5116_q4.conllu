@@ -1,0 +1,92 @@
+#Ok merci beaucoup.
+1	Ok	ok	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	2	det	_	_
+2	merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	beaucoup	beaucoup	ADV	_	ADV___	2	advmod	_	_
+4	.	.	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#Donc au final elle va devoir faire un choix...
+1	Donc	donc	ADV	_	ADV___	2	advmod	_	_
+2	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	0	ROOT	_	_
+3	final	final	ADJ	_	ADJ__Gender=Masc|Number=Sing	2	amod	_	_
+4	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+5	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	devoir	devoir	AUX	_	AUX__VerbForm=Inf	6	aux	_	_
+7	faire	faire	VERB	_	VERB__VerbForm=Inf	6	xcomp	_	_
+8	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+9	choix	choix	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+10	...	...	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Ma collègue et moi avons le même âge, le même poste et pas d'enfant.
+1	Ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	2	nmod:poss	_	_
+2	collègue	collègue	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	nsubj	_	_
+3	et	et	CCONJ	_	CCONJ___	2	cc	_	_
+4	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	2	conj	_	_
+5	avons	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+7	même	même	ADJ	_	ADJ__Number=Sing	6	amod	_	_
+8	âge	âge	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+9	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+10	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	même	même	ADV	_	ADV___	7	amod	_	_
+12	poste	poste	NOUN	_	NOUN__Number=Sing	13	obj	_	_
+13	et	et	CCONJ	_	CCONJ___	11	cc	_	_
+14	pas	pas	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+15	d'	de	DET	_	DET__Definite=Ind|Number=Sing|PronType=Art	16	case	_	_
+16	enfant	enfant	NOUN	_	NOUN__Number=Sing	19	conj	_	_
+17	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#C'est vrai qu'on est aussi complémentaires car elle plus illustration et moi je suis plus web et photo (on est graphistes).
+1	C'	ce	PRON	_	PRON__Number=Sing|Person=3	2	advmod	_	_
+2	est	être	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	fixed	_	_
+3	vrai	vrai	ADJ	_	ADJ__Gender=Masc|Number=Sing	2	fixed	_	_
+4	qu'	que	SCONJ	_	SCONJ___	2	mark	_	_
+5	on	on	PRON	_	PRON__Number=Sing|Person=3	6	nsubj	_	_
+6	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+7	aussi	aussi	ADV	_	ADV___	6	advmod	_	_
+8	complémentaires	complémentaire	ADJ	_	ADJ__Number=Plur	0	ROOT	_	_
+9	car	car	CCONJ	_	CCONJ___	11	cc	_	_
+10	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	11	nsubj	_	_
+11	plus	plus	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+12	illustration	illustration	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	conj	_	_
+13	et	et	CCONJ	_	CCONJ___	11	cc	_	_
+14	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	6	conj	_	_
+15	je	il	PRON	_	PRON__Number=Sing|Person=1	16	nsubj	_	_
+16	suis	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	cop	_	_
+17	plus	plus	ADV	_	ADV__Polarity=Neg	18	advmod	_	_
+18	web	web	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obl	_	_
+19	et	et	CCONJ	_	CCONJ___	19	cc	_	_
+20	photo	photo	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	conj	_	_
+21	(	(	PUNCT	_	PUNCT___	22	punct	_	_
+22	on	on	PRON	_	PRON__Number=Sing|Person=3	19	nsubj	_	_
+23	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+24	graphistes	graphist	ADJ	_	ADJ__Gender=Fem|Number=Plur	26	parataxis	_	_
+25	)	)	PUNCT	_	PUNCT___	26	punct	_	_
+26	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Ces différences peuvent compter dans le choix même si nous avons les mêmes contrats et tâches "officielles"?
+1	Ces	ce	DET	_	DET__Number=Plur|PronType=Dem	2	det	_	_
+2	différences	différence	NOUN	_	NOUN__Gender=Fem|Number=Plur	2	nsubj	_	_
+3	peuvent	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+4	compter	compter	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	dans	dan	ADP	_	ADP___	6	case	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+7	choix	choix	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obl	_	_
+8	même	même	ADV	_	ADV___	11	advmod	_	_
+9	si	si	SCONJ	_	SCONJ___	11	mark	_	_
+10	nous	nous	PRON	_	PRON__Number=Plur|Person=1	11	nsubj	_	_
+11	avons	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+12	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	13	det	_	_
+13	mêmes	même	ADJ	_	ADJ__Number=Plur	11	amod	_	_
+14	contrats	contrat	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	obj	_	_
+15	et	et	CCONJ	_	CCONJ___	16	cc	_	_
+16	tâches	tâche	NOUN	_	NOUN__Gender=Fem|Number=Plur	19	conj	_	_
+17	"	"	PUNCT	_	PUNCT___	18	punct	_	_
+18	officielles	officielle	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	amod	_	_
+19	"	"	PUNCT	_	PUNCT___	19	punct	_	_
+20	?	?	PUNCT	_	PUNCT___	22	punct	_	_
+
+

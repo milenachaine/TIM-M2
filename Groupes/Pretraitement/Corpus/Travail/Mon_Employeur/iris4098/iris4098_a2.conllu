@@ -1,0 +1,90 @@
+#A : NON B : NON C : OUI "
+1	A	a	NOUN	_	NOUN___	0	ROOT	_	_
+2	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+3	NON	non	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+4	B	b	NOUN	_	NOUN___	3	nmod	_	_
+5	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+6	NON	non	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+7	C	c	NOUN	_	NOUN___	6	nmod	_	_
+8	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+9	OUI	OUI	PROPN	_	PROPN___	1	nmod	_	_
+10	"	"	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#[...] devant être en déplacement pendant les heures normales de repas, l'agent qui n'avait été dans cette situation que pendant une fraction de cette période, ne remplissait pas la condition prévue par ce texte pour bénéficier des indemnités de repas" (rejet).
+1	[	[	PUNCT	_	PUNCT___	1	punct	_	_
+2	...	...	PUNCT	_	PUNCT___	1	punct	_	_
+3	]	]	PUNCT	_	PUNCT___	1	punct	_	_
+4	devant	devoir	ADP	_	ADP___	3	case	_	_
+5	être	être	AUX	_	AUX__VerbForm=Inf	1	cop	_	_
+6	en	en	ADP	_	ADP___	1	case	_	_
+7	déplacement	déplacement	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	advcl	_	_
+8	pendant	pendre	ADP	_	ADP___	1	case	_	_
+9	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+10	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	obl	_	_
+11	normales	normal	ADJ	_	ADJ__Gender=Fem|Number=Plur	26	amod	_	_
+12	de	de	ADP	_	ADP___	26	case	_	_
+13	repas	repas	NOUN	_	NOUN__Gender=Masc|Number=Plur	26	nmod	_	_
+14	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+15	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+16	agent	agent	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	advcl	_	_
+17	qui	qui	PRON	_	PRON__PronType=Rel	26	nsubj	_	_
+18	n'	ne	ADV	_	ADV___	20	advmod	_	_
+19	avait	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	aux	_	_
+20	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	17	cop	_	_
+21	dans	dan	ADP	_	ADP___	20	case	_	_
+22	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	23	det	_	_
+23	situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	nmod	_	_
+24	que	que	SCONJ	_	SCONJ___	26	advmod	_	_
+25	pendant	pendre	ADP	_	ADP___	26	case	_	_
+26	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+27	fraction	fraction	NOUN	_	NOUN__Gender=Fem|Number=Sing	33	acl:relcl	_	_
+28	de	de	ADP	_	ADP___	33	case	_	_
+29	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	33	det	_	_
+30	période	période	NOUN	_	NOUN__Gender=Fem|Number=Sing	33	nmod	_	_
+31	,	,	PUNCT	_	PUNCT___	33	punct	_	_
+32	ne	ne	ADV	_	ADV__Polarity=Neg	33	advmod	_	_
+33	remplissait	remplir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+34	pas	pas	ADV	_	ADV__Polarity=Neg	37	advmod	_	_
+35	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+36	condition	condition	NOUN	_	NOUN__Gender=Fem|Number=Sing	37	obj	_	_
+37	prévue	prévoir	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	33	acl	_	_
+38	par	par	ADP	_	ADP___	40	case	_	_
+39	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	40	det	_	_
+40	texte	texte	NOUN	_	NOUN__Gender=Masc|Number=Sing	37	obl	_	_
+41	pour	pour	ADP	_	ADP___	43	mark	_	_
+42	bénéficier	bénéficier	VERB	_	VERB__VerbForm=Inf	43	advcl	_	_
+43	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	43	det	_	_
+44	indemnités	indemnité	NOUN	_	NOUN__Gender=Fem|Number=Plur	43	obj	_	_
+45	de	de	ADP	_	ADP___	46	case	_	_
+46	repas	repas	NOUN	_	NOUN__Gender=Masc|Number=Plur	43	nmod	_	_
+47	"	"	PUNCT	_	PUNCT___	46	punct	_	_
+48	(	(	PUNCT	_	PUNCT___	50	punct	_	_
+49	rejet	rejet	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	50	appos	_	_
+50	)	)	PUNCT	_	PUNCT___	47	punct	_	_
+51	.	.	PUNCT	_	PUNCT___	52	punct	_	_
+
+
+#Cour de cassation, civile, Chambre sociale, 11 mars 2009, 08-40.054, Publié au bulletin
+1	Cour	cour	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	de	de	ADP	_	ADP___	1	case	_	_
+3	cassation	cassation	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+4	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+5	civile	civil	ADJ	_	ADJ__Gender=Fem|Number=Sing	1	conj	_	_
+6	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+7	Chambre	Chambre	PROPN	_	PROPN___	6	conj	_	_
+8	sociale	social	ADJ	_	ADJ__Gender=Fem|Number=Sing	1	amod	_	_
+9	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+10	11	11	NUM	_	NUM__NumType=Card	1	nummod	_	_
+11	mars	mars	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	conj	_	_
+12	2009	2009	NUM	_	NUM__NumType=Card	26	nummod	_	_
+13	,	,	PUNCT	_	PUNCT___	26	punct	_	_
+14	08	08	NUM	_	NUM__NumType=Card	17	nummod	_	_
+15	-	-	PUNCT	_	PUNCT___	17	punct	_	_
+16	40.054	40.054	NUM	_	NUM__NumType=Card	17	nummod	_	_
+17	,	,	PUNCT	_	PUNCT___	26	punct	_	_
+18	Publié	publier	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	conj	_	_
+19	au	au	DET	_	DET__Number=Plur|PronType=Dem	20	case	_	_
+20	bulletin	bulletin	NOUN	_	NOUN__Gender=Masc|Number=Plur	17	obl	_	_
+
+

@@ -1,0 +1,105 @@
+#Bonjour, et merci pour votre réponse.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	et	et	CCONJ	_	CCONJ___	4	cc	_	_
+4	merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	conj	_	_
+5	pour	pour	ADP	_	ADP___	7	case	_	_
+6	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	7	nmod:poss	_	_
+7	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+8	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#La société a été placé en liquidation judiciaire, jugement le 29/10/2018.
+1	La	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	société	société	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj:pass	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	1	aux:pass	_	_
+5	placé	placer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+6	en	en	ADP	_	ADP___	7	case	_	_
+7	liquidation	liquidation	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obl	_	_
+8	judiciaire	judiciaire	ADJ	_	ADJ__Number=Sing	1	amod	_	_
+9	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+10	jugement	jugement	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	parataxis	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	29/10/2018	29/10/2018	NOUN	_	NOUN__Gender=Masc|Number=Sing|NumType=Card	13	nsubj	_	_
+13	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Le liquidateur me demande de déclarer mes créances mais comment et par qui faire évaluer les travaux.
+1	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	liquidateur	liquidateur	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	me	se	PRON	_	PRON__Number=Sing|Person=1	4	iobj	_	_
+4	demande	demander	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	de	de	ADP	_	ADP___	7	mark	_	_
+6	déclarer	déclarer	VERB	_	VERB__VerbForm=Inf	7	xcomp	_	_
+7	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	4	nmod:poss	_	_
+8	créances	créance	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	obj	_	_
+9	mais	mais	CCONJ	_	CCONJ___	10	cc	_	_
+10	comment	comment	ADV	_	ADV__PronType=Int	13	advmod	_	_
+11	et	et	CCONJ	_	CCONJ___	13	cc	_	_
+12	par	par	ADP	_	ADP___	13	mark	_	_
+13	qui	qui	PRON	_	PRON__PronType=Rel	13	nsubj	_	_
+14	faire	faire	VERB	_	VERB__VerbForm=Inf	15	conj	_	_
+15	évaluer	évaluer	VERB	_	VERB__VerbForm=Inf	13	xcomp	_	_
+16	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	15	det	_	_
+17	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	18	obj	_	_
+18	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Acompte 19 000 euros
+1	Acompte	acompte	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	19	19	NUM	_	NUM__NumType=Card	1	nummod	_	_
+3	000	000	NUM	_	NUM__NumType=Card	4	nummod	_	_
+4	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	nmod	_	_
+
+
+#- travaux effectué = Montant créances Faut
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+3	effectué	effectuer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+4	=	=	VERB	_	VERB__Mood=Ind|Person=3|VerbForm=Fin	1	advmod	_	_
+5	Montant	Montant	PROPN	_	PROPN__Gender=Masc|Number=Sing	7	obj	_	_
+6	créances	créancer	VERB	_	VERB__Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	Faut	Faut	X	_	X___	4	nmod	_	_
+
+
+#-il que je fasse appelle à un avocat, un expert.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	mark	_	_
+3	que	que	PRON	_	PRON__PronType=Rel	4	fixed	_	_
+4	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+5	fasse	faire	VERB	_	VERB__Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	appelle	appeler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	xcomp	_	_
+7	à	à	ADP	_	ADP___	4	case	_	_
+8	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+9	avocat	avocat	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obl	_	_
+10	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+11	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	expert	expert	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+13	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Sachant que je voudrais continuer les travaux le plus rapidement possible même lundi si possible.
+1	Sachant	savoir	VERB	_	VERB__Tense=Pres|VerbForm=Part	1	nsubj	_	_
+2	que	que	SCONJ	_	SCONJ___	1	mark	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+4	voudrais	vouloir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
+5	continuer	continuer	VERB	_	VERB__VerbForm=Inf	7	ccomp	_	_
+6	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+7	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	obj	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+9	plus	plus	ADV	_	ADV___	10	advmod	_	_
+10	rapidement	rapidement	ADV	_	ADV___	13	advmod	_	_
+11	possible	possible	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+12	même	même	ADJ	_	ADJ__Number=Sing	13	advmod	_	_
+13	lundi	lundi	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+14	si	si	SCONJ	_	SCONJ___	15	mark	_	_
+15	possible	possible	ADJ	_	ADJ__Number=Sing	13	advcl	_	_
+16	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Cordialement.
+1	Cordialement	cordialement	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+

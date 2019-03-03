@@ -1,0 +1,138 @@
+#Tels que décrites, vos deux propositions sont équivalentes !
+1	Tels	tel	ADJ	_	ADJ__Gender=Masc|Number=Plur	0	ROOT	_	_
+2	que	que	SCONJ	_	SCONJ___	3	mark	_	_
+3	décrites	décrit	ADJ	_	ADJ__Gender=Fem|Number=Plur	1	dep	_	_
+4	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+5	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	7	nmod:poss	_	_
+6	deux	deux	NUM	_	NUM__NumType=Card	7	nummod	_	_
+7	propositions	proposition	NOUN	_	NOUN__Gender=Fem|Number=Plur	9	nsubj:pass	_	_
+8	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	équivalentes	équivalenter	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	1	conj	_	_
+10	!	!	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Soit
+1	Soit	Soit	CCONJ	_	CCONJ___	0	ROOT	_	_
+
+
+#P le prix de vente, et C la commission, et T le taux du coindivisaire 1.
+1	P	p	NOUN	_	NOUN___	0	ROOT	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	prix	prix	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	fixed	_	_
+4	de	de	ADP	_	ADP___	9	case	_	_
+5	vente	vente	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+6	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+7	et	et	CCONJ	_	CCONJ___	9	cc	_	_
+8	C	c	NOUN	_	NOUN___	9	conj	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+10	commission	commission	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+11	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+12	et	et	CCONJ	_	CCONJ___	12	cc	_	_
+13	T	t	NOUN	_	NOUN___	14	conj	_	_
+14	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+15	taux	taux	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	orphan	_	_
+16	du	du	DET	_	DET__Gender=Masc|Number=Sing	14	obj	_	_
+17	coindivisaire	coindivisaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	amod	_	_
+18	1	1	NUM	_	NUM__NumType=Card	19	nummod	_	_
+19	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Dans la première hypothèse, vous calculez part de 1 = (P
+1	Dans	Dans	ADP	_	ADP___	1	case	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	première	premier	ADJ	_	ADJ__Gender=Fem|Number=Sing|NumType=Ord	1	amod	_	_
+4	hypothèse	hypothèse	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obl	_	_
+5	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+6	vous	vous	PRON	_	PRON__Number=Plur|Person=2	7	nsubj	_	_
+7	calculez	calculer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	part	part	NOUN	_	NOUN__Number=Sing	9	obj	_	_
+9	de	de	ADP	_	ADP___	1	mark	_	_
+10	1	1	NUM	_	NUM__NumType=Card	1	nummod	_	_
+11	=	=	VERB	_	VERB__Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	11	xcomp	_	_
+12	(	(	PUNCT	_	PUNCT___	12	punct	_	_
+13	P	p	NOUN	_	NOUN___	14	punct	_	_
+
+
+#- C) x T
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	C	c	NOUN	_	NOUN___	0	ROOT	_	_
+3	)	)	PUNCT	_	PUNCT___	1	punct	_	_
+4	x	x	ADP	_	ADP___	9	case	_	_
+5	T	t	NOUN	_	NOUN___	7	nmod	_	_
+
+
+#Dans la seconde hypothèse, vous calculez part de 1 = P x T
+1	Dans	Dans	ADP	_	ADP___	1	case	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	seconde	second	ADJ	_	ADJ__Gender=Fem|Number=Sing|NumType=Ord	1	amod	_	_
+4	hypothèse	hypothèse	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obl	_	_
+5	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+6	vous	vous	PRON	_	PRON__Number=Plur|Person=2	7	nsubj	_	_
+7	calculez	calculer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	part	part	NOUN	_	NOUN__Number=Sing	9	obj	_	_
+9	de	de	ADP	_	ADP___	1	mark	_	_
+10	1	1	NUM	_	NUM__NumType=Card	1	nummod	_	_
+11	=	=	VERB	_	VERB__Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	11	xcomp	_	_
+12	P	p	NOUN	_	NOUN___	12	obj	_	_
+13	x	x	ADP	_	ADP___	14	case	_	_
+14	T	t	NOUN	_	NOUN___	12	obl	_	_
+
+
+#- C x T Or la multiplication est distributive par rapport à l'addition (ou la soustraction)…
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	C	c	NOUN	_	NOUN___	0	ROOT	_	_
+3	x	x	ADP	_	ADP___	1	case	_	_
+4	T	t	NOUN	_	NOUN___	9	nmod	_	_
+5	Or	Or	CCONJ	_	CCONJ___	7	cc	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	multiplication	multiplication	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nsubj	_	_
+8	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	distributive	distributif	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	conj	_	_
+10	par	par	ADP	_	ADP___	1	case	_	_
+11	rapport	rapport	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	fixed	_	_
+12	à	à	ADP	_	ADP___	12	fixed	_	_
+13	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	addition	addition	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+15	(	(	PUNCT	_	PUNCT___	16	punct	_	_
+16	ou	ou	CCONJ	_	CCONJ___	14	cc	_	_
+17	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+18	soustraction	soustraction	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	conj	_	_
+19	)	)	PUNCT	_	PUNCT___	16	punct	_	_
+20	…	…	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Je ne fais que recopier en les formalisant vos propositions…
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ne	ne	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+3	fais	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	que	que	SCONJ	_	SCONJ___	9	mark	_	_
+5	recopier	recopier	ADJ	_	ADJ__Gender=Masc|Number=Sing	7	acl	_	_
+6	en	en	ADP	_	ADP___	7	case	_	_
+7	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+8	formalisant	formaliser	VERB	_	VERB__Tense=Pres|VerbForm=Part	9	obl	_	_
+9	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	1	nmod:poss	_	_
+10	propositions	proposition	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	obj	_	_
+11	…	…	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Je ne vois pas où la commission est divisée en 2 parts égales dans votre 1ère hypothèse.
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ne	ne	ADV	_	ADV__Polarity=Neg	0	ROOT	_	_
+3	vois	voir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	fixed	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	9	fixed	_	_
+5	où	où	PRON	_	PRON__PronType=Rel	7	iobj	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	commission	commission	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nsubj:pass	_	_
+8	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	divisée	diviser	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	ccomp	_	_
+10	en	en	ADP	_	ADP___	1	case	_	_
+11	2	2	NUM	_	NUM__NumType=Card	11	nummod	_	_
+12	parts	part	NOUN	_	NOUN__Number=Plur	12	obl	_	_
+13	égales	égal	ADJ	_	ADJ__Gender=Fem|Number=Plur	14	amod	_	_
+14	dans	dan	ADP	_	ADP___	12	case	_	_
+15	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	16	nmod:poss	_	_
+16	1ère	1èr	ADJ	_	ADJ__Gender=Fem|Number=Sing	14	nummod	_	_
+17	hypothèse	hypothèse	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obl	_	_
+18	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+

@@ -1,0 +1,435 @@
+#Plusieurs choses qui s'imbriquent (d'où la difficulté de compréhension)
+1	Plusieurs	plusieurs	DET	_	DET__Number=Plur	2	det	_	_
+2	choses	chose	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+3	qui	qui	PRON	_	PRON__PronType=Rel	5	nsubj	_	_
+4	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	5	expl	_	_
+5	imbriquent	imbriquer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	(	(	PUNCT	_	PUNCT___	2	punct	_	_
+7	d'	de	ADP	_	ADP___	10	case	_	_
+8	où	où	PRON	_	PRON__PronType=Rel	7	fixed	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	difficulté	difficulté	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	nmod	_	_
+11	de	de	ADP	_	ADP___	12	case	_	_
+12	compréhension	compréhension	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+13	)	)	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#En ce qui concerne la reprise du "salaire" : 1 - Si d'ici le 25 votre employeur vous a licencié : vous partez avec votre solde de tout compte... 2
+1	En	En	ADP	_	ADP___	2	case	_	_
+2	ce	ce	PRON	_	PRON__PronType=Rel	2	fixed	_	_
+3	qui	qui	PRON	_	PRON__PronType=Rel	5	fixed	_	_
+4	concerne	concerner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	fixed	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+6	reprise	reprise	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+7	du	du	DET	_	DET__Gender=Masc|Number=Sing	10	det	_	_
+8	"	"	PUNCT	_	PUNCT___	7	punct	_	_
+9	salaire	salair	ADJ	_	ADJ__Number=Sing	10	amod	_	_
+10	"	"	PUNCT	_	PUNCT___	2	punct	_	_
+11	:	:	PUNCT	_	PUNCT___	12	punct	_	_
+12	1	1	NUM	_	NUM__NumType=Card	10	nummod	_	_
+13	-	-	PUNCT	_	PUNCT___	2	punct	_	_
+14	Si	Si	SCONJ	_	SCONJ___	19	case	_	_
+15	d'	de	ADP	_	ADP___	14	case	_	_
+16	ici	ici	ADV	_	ADV___	14	nmod	_	_
+17	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+18	25	25	NUM	_	NUM__NumType=Card	19	nmod	_	_
+19	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	19	nmod:poss	_	_
+20	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	nmod	_	_
+21	vous	vous	PRON	_	PRON__Number=Plur|Person=2	22	nsubj	_	_
+22	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+23	licencié	licencier	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	acl:relcl	_	_
+24	:	:	PUNCT	_	PUNCT___	22	punct	_	_
+25	vous	vous	PRON	_	PRON__Number=Plur|Person=2	22	nsubj	_	_
+26	partez	partir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
+27	avec	avec	ADP	_	ADP___	29	case	_	_
+28	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	29	nmod:poss	_	_
+29	solde	solde	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	obl	_	_
+30	de	de	ADP	_	ADP___	31	case	_	_
+31	tout	tout	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	amod	_	_
+32	compte	compte	NOUN	_	NOUN__Gender=Masc|Number=Sing	33	nmod	_	_
+33	...	...	PUNCT	_	PUNCT___	22	punct	_	_
+34	2	2	NUM	_	NUM__NumType=Card	36	nummod	_	_
+
+
+#- Si le licenciement n'a pas eu lieu, votre employeur doit reprendre le versement de votre salaire jusqu'à ce qu'il vous reclasse ou vous licencie.
+1	-	-	PUNCT	_	PUNCT___	2	punct	_	_
+2	Si	Si	SCONJ	_	SCONJ___	2	mark	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	licenciement	licenciement	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+5	n'	ne	ADV	_	ADV__Polarity=Neg	2	advmod	_	_
+6	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+7	pas	pas	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+8	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	_
+9	lieu	lieu	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+10	,	,	PUNCT	_	PUNCT___	2	punct	_	_
+11	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	12	nmod:poss	_	_
+12	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nsubj	_	_
+13	doit	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+14	reprendre	reprendre	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+15	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+16	versement	versement	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obj	_	_
+17	de	de	ADP	_	ADP___	14	case	_	_
+18	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	19	nmod:poss	_	_
+19	salaire	salaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	nmod	_	_
+20	jusqu'	jusque	ADP	_	ADP___	22	mark	_	_
+21	à	à	ADP	_	ADP___	22	fixed	_	_
+22	ce	ce	PRON	_	PRON__PronType=Rel	19	fixed	_	_
+23	qu'	que	SCONJ	_	SCONJ___	22	fixed	_	_
+24	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	22	nsubj	_	_
+25	vous	vous	PRON	_	PRON__Number=Plur|Person=2	22	iobj	_	_
+26	reclasse	reclasser	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	22	advcl	_	_
+27	ou	ou	CCONJ	_	CCONJ___	29	cc	_	_
+28	vous	vous	PRON	_	PRON__Number=Plur|Person=2	29	nsubj	_	_
+29	licencie	licencier	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	22	conj	_	_
+30	.	.	PUNCT	_	PUNCT___	31	punct	_	_
+
+
+#Ce "salaire" vous sera (en principe) payé avec la paie de juillet En ce qui concerne la situation médico-administrative : 1
+1	Ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	"	"	PUNCT	_	PUNCT___	2	punct	_	_
+3	salaire	salair	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+4	"	"	PUNCT	_	PUNCT___	5	punct	_	_
+5	vous	vous	PRON	_	PRON__Number=Plur|Person=2	2	iobj	_	_
+6	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	cop	_	_
+7	(	(	PUNCT	_	PUNCT___	10	punct	_	_
+8	en	en	ADP	_	ADP___	7	advmod	_	_
+9	principe	principe	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	fixed	_	_
+10	)	)	PUNCT	_	PUNCT___	2	punct	_	_
+11	payé	payer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
+12	avec	avec	ADP	_	ADP___	10	case	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+14	paie	paie	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obl	_	_
+15	de	de	ADP	_	ADP___	14	case	_	_
+16	juillet	juillet	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nmod	_	_
+17	En	En	ADP	_	ADP___	14	case	_	_
+18	ce	ce	PRON	_	PRON__PronType=Rel	19	fixed	_	_
+19	qui	qui	PRON	_	PRON__PronType=Rel	19	fixed	_	_
+20	concerne	concerner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	fixed	_	_
+21	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obl	_	_
+23	médico-administrative	médico-administrativ	ADJ	_	ADJ__Gender=Fem|Number=Sing	22	amod	_	_
+24	:	:	PUNCT	_	PUNCT___	22	punct	_	_
+25	1	1	NUM	_	NUM__NumType=Card	22	nummod	_	_
+
+
+#- Vous avez été déclaré "Inapte" : donc vous ne pouvez (devez) pas travailler sur votre ancien poste, même après le 25 juin et même si vous n'êtes plus en arrêt de travail 2
+1	-	-	PUNCT	_	PUNCT___	2	punct	_	_
+2	Vous	vous	PRON	_	PRON__Number=Plur|Person=2	2	nsubj:pass	_	_
+3	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	déclaré	déclarer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	cop	_	_
+6	"	"	PUNCT	_	PUNCT___	2	punct	_	_
+7	Inapte	Inapte	PROPN	_	PROPN___	0	ROOT	_	_
+8	"	"	PUNCT	_	PUNCT___	7	punct	_	_
+9	:	:	PUNCT	_	PUNCT___	10	punct	_	_
+10	donc	donc	ADV	_	ADV___	2	advmod	_	_
+11	vous	vous	PRON	_	PRON__Number=Plur|Person=2	12	nsubj	_	_
+12	ne	ne	ADV	_	ADV___	10	advmod	_	_
+13	pouvez	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+14	(	(	PUNCT	_	PUNCT___	19	punct	_	_
+15	devez	devoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	14	nmod	_	_
+16	)	)	PUNCT	_	PUNCT___	14	punct	_	_
+17	pas	pas	ADV	_	ADV__Polarity=Neg	14	advmod	_	_
+18	travailler	travailler	VERB	_	VERB__VerbForm=Inf	19	acl	_	_
+19	sur	sur	ADP	_	ADP___	19	case	_	_
+20	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	22	nmod:poss	_	_
+21	ancien	ancien	ADJ	_	ADJ__Gender=Masc|Number=Sing	22	amod	_	_
+22	poste	poste	NOUN	_	NOUN__Number=Sing	19	obl	_	_
+23	,	,	PUNCT	_	PUNCT___	22	punct	_	_
+24	même	même	ADV	_	ADV___	22	case	_	_
+25	après	après	ADP	_	ADP___	22	fixed	_	_
+26	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+27	25	25	NUM	_	NUM__NumType=Card	29	nummod	_	_
+28	juin	juin	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	obl	_	_
+29	et	et	CCONJ	_	CCONJ___	22	cc	_	_
+30	même	même	ADV	_	ADV___	31	advmod	_	_
+31	si	si	SCONJ	_	SCONJ___	22	mark	_	_
+32	vous	vous	PRON	_	PRON__Number=Plur|Person=2	33	nsubj	_	_
+33	n'	ne	ADV	_	ADV__Polarity=Neg	22	advmod	_	_
+34	êtes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	36	cop	_	_
+35	plus	plus	ADV	_	ADV__Polarity=Neg	36	advmod	_	_
+36	en	en	ADP	_	ADP___	22	case	_	_
+37	arrêt	arrêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	conj	_	_
+38	de	de	ADP	_	ADP___	39	case	_	_
+39	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	nmod	_	_
+40	2	2	NUM	_	NUM__NumType=Card	42	nummod	_	_
+
+
+#- L'employeur peut (doit) vous proposer des potes de reclassement en fonction de ce que le Médecin du travail a écrit sur la fiche.
+1	-	-	PUNCT	_	PUNCT___	2	punct	_	_
+2	L'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	2	det	_	_
+3	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+4	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	nmod	_	_
+5	(	(	PUNCT	_	PUNCT___	2	punct	_	_
+6	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	)	)	PUNCT	_	PUNCT___	10	punct	_	_
+8	vous	vous	PRON	_	PRON__Number=Plur|Person=2	7	nsubj	_	_
+9	proposer	proposer	VERB	_	VERB__VerbForm=Inf	10	xcomp	_	_
+10	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	2	det	_	_
+11	potes	pote	NOUN	_	NOUN__Number=Plur	12	obj	_	_
+12	de	de	ADP	_	ADP___	10	case	_	_
+13	reclassement	reclassement	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	nmod	_	_
+14	en	en	ADP	_	ADP___	19	case	_	_
+15	fonction	fonction	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	fixed	_	_
+16	de	de	ADP	_	ADP___	14	fixed	_	_
+17	ce	ce	PRON	_	PRON__PronType=Rel	14	obl	_	_
+18	que	que	PRON	_	PRON__PronType=Rel	19	obj	_	_
+19	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+20	Médecin	médecin	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	nsubj	_	_
+21	du	du	DET	_	DET__Gender=Masc|Number=Sing	22	det	_	_
+22	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	nmod	_	_
+23	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+24	écrit	écrire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	acl:relcl	_	_
+25	sur	sur	ADP	_	ADP___	22	case	_	_
+26	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+27	fiche	fiche	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	obl	_	_
+28	.	.	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#Si pas de poste de reclassement, il doit vous licencier...
+1	Si	Si	SCONJ	_	SCONJ___	2	mark	_	_
+2	pas	pas	ADV	_	ADV___	2	advmod	_	_
+3	de	de	ADP	_	ADP___	5	det	_	_
+4	poste	poste	NOUN	_	NOUN__Number=Sing	5	advcl	_	_
+5	de	de	ADP	_	ADP___	2	case	_	_
+6	reclassement	reclassement	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	nmod	_	_
+7	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+8	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+9	doit	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	vous	vous	PRON	_	PRON__Number=Plur|Person=2	2	expl	_	_
+11	licencier	licencier	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+12	...	...	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Si proposition(s) de poste de reclassement : vous pouvez refuser si il y a modification importante de vos conditions de travail futures par rapport à vos conditions de travail d'avant votre mise en inaptitude...
+1	Si	Si	SCONJ	_	SCONJ___	2	mark	_	_
+2	proposition(s	proposition(	ADJ	_	ADJ__Gender=Masc|Number=Sing	2	nsubj	_	_
+3	)	)	PUNCT	_	PUNCT___	5	punct	_	_
+4	de	de	ADP	_	ADP___	5	case	_	_
+5	poste	poste	NOUN	_	NOUN__Number=Sing	2	nmod	_	_
+6	de	de	ADP	_	ADP___	2	case	_	_
+7	reclassement	reclassement	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+8	:	:	PUNCT	_	PUNCT___	7	punct	_	_
+9	vous	vous	PRON	_	PRON__Number=Plur|Person=2	10	nsubj	_	_
+10	pouvez	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	aux	_	_
+11	refuser	refuser	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+12	si	si	SCONJ	_	SCONJ___	10	mark	_	_
+13	il	il	PRON	_	PRON__Number=Sing|Person=3	2	nsubj	_	_
+14	y	yu	PRON	_	PRON__Person=3	19	fixed	_	_
+15	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	fixed	_	_
+16	modification	modification	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	ccomp	_	_
+17	importante	important	ADJ	_	ADJ__Gender=Fem|Number=Sing	14	obj	_	_
+18	de	de	ADP	_	ADP___	19	case	_	_
+19	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	19	nmod:poss	_	_
+20	conditions	condition	NOUN	_	NOUN__Gender=Fem|Number=Plur	22	nmod	_	_
+21	de	de	ADP	_	ADP___	22	case	_	_
+22	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	nmod	_	_
+23	futures	future	NOUN	_	NOUN__Gender=Fem|Number=Plur	22	amod	_	_
+24	par	par	ADP	_	ADP___	22	case	_	_
+25	rapport	rapport	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	fixed	_	_
+26	à	à	ADP	_	ADP___	22	fixed	_	_
+27	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	29	nmod:poss	_	_
+28	conditions	condition	NOUN	_	NOUN__Gender=Fem|Number=Plur	29	obl	_	_
+29	de	de	ADP	_	ADP___	22	case	_	_
+30	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	31	nmod	_	_
+31	d'	de	ADP	_	ADP___	22	case	_	_
+32	avant	avant	ADP	_	ADP___	33	case	_	_
+33	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	22	nmod:poss	_	_
+34	mise	mise	NOUN	_	NOUN__Gender=Fem|Number=Sing	36	nmod	_	_
+35	en	en	ADP	_	ADP___	36	case	_	_
+36	inaptitude	inaptitude	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	nmod	_	_
+37	...	...	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#En cas de refus successifs, il doit vous licencier...
+1	En	En	ADP	_	ADP___	2	case	_	_
+2	cas	cas	NOUN	_	NOUN__Gender=Masc	2	fixed	_	_
+3	de	de	ADP	_	ADP___	5	fixed	_	_
+4	refus	refus	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+5	successifs	successif	ADJ	_	ADJ__Gender=Masc|Number=Plur	2	amod	_	_
+6	,	,	PUNCT	_	PUNCT___	2	punct	_	_
+7	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
+8	doit	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+9	vous	vous	PRON	_	PRON__Number=Plur|Person=2	10	expl	_	_
+10	licencier	licencier	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+11	...	...	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#En ce qui concerne votre état de santé :
+1	En	En	ADP	_	ADP___	2	case	_	_
+2	ce	ce	PRON	_	PRON__PronType=Rel	2	fixed	_	_
+3	qui	qui	PRON	_	PRON__PronType=Rel	5	fixed	_	_
+4	concerne	concerner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	fixed	_	_
+5	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	2	nmod:poss	_	_
+6	état	état	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+7	de	de	ADP	_	ADP___	10	case	_	_
+8	santé	santé	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+9	:	:	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#c'est votre médecin traitant qui prescrit les arrêts, si votre état de santé le justifie.
+1	c'	ce	PRON	_	PRON__Number=Sing|Person=3	2	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+3	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+4	médecin	médecin	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	traitant	traitant	ADJ	_	ADJ__Gender=Masc|Number=Sing	2	acl	_	_
+6	qui	qui	PRON	_	PRON__PronType=Rel	2	nsubj	_	_
+7	prescrit	prescrire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	xcomp	_	_
+8	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+9	arrêts	arrêt	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	obj	_	_
+10	,	,	PUNCT	_	PUNCT___	2	punct	_	_
+11	si	si	SCONJ	_	SCONJ___	12	mark	_	_
+12	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+13	état	état	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	nmod	_	_
+14	de	de	ADP	_	ADP___	19	case	_	_
+15	santé	santé	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nmod	_	_
+16	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+17	justifie	justifier	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nmod	_	_
+18	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#il n'y a pas (toujours) de lien entre une inaptitude et un état de santé qui nécessite la prescription d'un arrêt de travail.
+1	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	2	advmod	_	_
+3	y	yu	PRON	_	PRON__Person=3	5	expl	_	_
+4	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	2	advmod	_	_
+6	(	(	PUNCT	_	PUNCT___	2	punct	_	_
+7	toujours	toujours	ADV	_	ADV___	10	advmod	_	_
+8	)	)	PUNCT	_	PUNCT___	7	punct	_	_
+9	de	de	ADP	_	ADP___	10	case	_	_
+10	lien	lien	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	obl	_	_
+11	entre	entrer	ADP	_	ADP___	12	case	_	_
+12	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+13	inaptitude	inaptitude	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	obl	_	_
+14	et	et	CCONJ	_	CCONJ___	19	cc	_	_
+15	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+16	état	état	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	conj	_	_
+17	de	de	ADP	_	ADP___	14	case	_	_
+18	santé	santé	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	nmod	_	_
+19	qui	qui	PRON	_	PRON__PronType=Rel	19	nsubj	_	_
+20	nécessite	nécessiter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
+21	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	prescription	prescription	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obj	_	_
+23	d'	de	ADP	_	ADP___	22	case	_	_
+24	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+25	arrêt	arrêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	nmod	_	_
+26	de	de	ADP	_	ADP___	22	case	_	_
+27	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	nmod	_	_
+28	.	.	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#Je vous donne un exemple :
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	2	nsubj	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	2	iobj	_	_
+3	donne	donner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	obj	_	_
+6	:	:	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#Un boulanger fait des crises d'asthme quand il travaille avec de la farine car il est allergique à la farine.
+1	Un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	boulanger	boulanger	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	nsubj	_	_
+3	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
+5	crises	crise	NOUN	_	NOUN__Gender=Fem|Number=Plur	2	obj	_	_
+6	d'	de	ADP	_	ADP___	2	case	_	_
+7	asthme	asthme	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+8	quand	quand	SCONJ	_	SCONJ___	7	mark	_	_
+9	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
+10	travaille	travailler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+11	avec	avec	ADP	_	ADP___	12	case	_	_
+12	de	de	ADP	_	ADP___	10	det	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	fixed	_	_
+14	farine	farine	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obl	_	_
+15	car	car	CCONJ	_	CCONJ___	14	cc	_	_
+16	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
+17	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+18	allergique	allergique	ADJ	_	ADJ__Number=Sing	19	conj	_	_
+19	à	à	ADP	_	ADP___	19	case	_	_
+20	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	farine	farine	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	obl	_	_
+22	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#quand il n'est pas en contact avec la farine, tout va bien : il est inapte à son poste de boulanger pour une raison de santé, mais sinon son état de santé ne nécessite pas d'arrêt de travail...
+1	quand	quand	SCONJ	_	SCONJ___	2	mark	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+3	n'	ne	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	2	fixed	_	_
+6	en	en	ADP	_	ADP___	2	advmod	_	_
+7	contact	contact	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	fixed	_	_
+8	avec	avec	ADP	_	ADP___	7	case	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	farine	farine	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	obl	_	_
+11	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+12	tout	tout	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	10	advmod	_	_
+13	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+14	bien	bien	ADV	_	ADV___	19	advmod	_	_
+15	:	:	PUNCT	_	PUNCT___	14	punct	_	_
+16	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
+17	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+18	inapte	inapte	ADJ	_	ADJ__Gender=Masc|Number=Sing	19	parataxis	_	_
+19	à	à	ADP	_	ADP___	19	case	_	_
+20	son	son	DET	_	DET__Number=Sing|Poss=Yes	22	nmod:poss	_	_
+21	poste	poste	NOUN	_	NOUN__Number=Sing	22	obl	_	_
+22	de	de	ADP	_	ADP___	19	case	_	_
+23	boulanger	boulanger	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	nmod	_	_
+24	pour	pour	ADP	_	ADP___	22	case	_	_
+25	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+26	raison	raison	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	obl	_	_
+27	de	de	ADP	_	ADP___	29	case	_	_
+28	santé	santé	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	nmod	_	_
+29	,	,	PUNCT	_	PUNCT___	22	punct	_	_
+30	mais	mais	CCONJ	_	CCONJ___	31	cc	_	_
+31	sinon	sinon	ADV	_	ADV___	22	conj	_	_
+32	son	son	DET	_	DET__Number=Sing|Poss=Yes	33	nmod:poss	_	_
+33	état	état	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	obj	_	_
+34	de	de	ADP	_	ADP___	36	case	_	_
+35	santé	santé	NOUN	_	NOUN__Gender=Fem|Number=Sing	36	nmod	_	_
+36	ne	ne	ADV	_	ADV__Polarity=Neg	22	advmod	_	_
+37	nécessite	nécessiter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl	_	_
+38	pas	pas	ADV	_	ADV__Polarity=Neg	39	advmod	_	_
+39	d'	de	ADP	_	ADP___	22	det	_	_
+40	arrêt	arrêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	42	obj	_	_
+41	de	de	ADP	_	ADP___	42	case	_	_
+42	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	39	nmod	_	_
+43	...	...	PUNCT	_	PUNCT___	45	punct	_	_
+
+
+#Pour votre cas personnel : quel métier exerciez
+1	Pour	Pour	ADP	_	ADP___	2	case	_	_
+2	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	2	nmod:poss	_	_
+3	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+4	personnel	personnel	ADJ	_	ADJ__Gender=Masc|Number=Sing	5	nmod	_	_
+5	:	:	PUNCT	_	PUNCT___	2	punct	_	_
+6	quel	quel	DET	_	DET__Gender=Masc|Number=Sing	2	det	_	_
+7	métier	métier	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nsubj	_	_
+8	exerciez	exercer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+
+
+#-vous ?
+1	-	-	PUNCT	_	PUNCT___	2	punct	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	0	ROOT	_	_
+3	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Pourquoi l'inaptitude ?
+1	Pourquoi	pourquoi	ADV	_	ADV__PronType=Int	2	advmod	_	_
+2	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	2	det	_	_
+3	inaptitude	inaptitude	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Nombre de salariés dans l'entreprise ?
+1	Nombre	nombre	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	de	de	ADP	_	ADP___	2	mark	_	_
+3	salariés	salarier	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	nmod	_	_
+4	dans	dan	ADP	_	ADP___	5	case	_	_
+5	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	2	det	_	_
+6	entreprise	entreprise	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	nmod	_	_
+7	?	?	PUNCT	_	PUNCT___	10	punct	_	_
+
+

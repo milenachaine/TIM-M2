@@ -1,0 +1,503 @@
+#Bonjour, JE VOUS
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	JE	il	PRON	_	PRON__Number=Sing|Person=1	1	nmod	_	_
+4	VOUS	vous	PRON	_	PRON__Number=Plur|Person=2	3	nmod	_	_
+
+
+#REMERCIE PAR AVANCE POUR VOTRE AIDE
+1	REMERCIE	REMERCIE	PROPN	_	PROPN___	0	ROOT	_	_
+2	PAR	PAR	ADP	_	ADP___	1	case	_	_
+3	AVANCE	avance	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obl	_	_
+4	POUR	POUR	ADP	_	ADP___	3	case	_	_
+5	VOTRE	votre	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+6	AIDE	aide	NOUN	_	NOUN__Number=Sing	7	obl	_	_
+
+
+#Un terrain appartenant à mes grands-parents a été divisé en 4 parcelles (1 seul côté jouxte la desserte publique)
+1	Un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	terrain	terrain	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj:pass	_	_
+3	appartenant	appartenir	VERB	_	VERB__Tense=Pres|VerbForm=Part	1	acl	_	_
+4	à	à	ADP	_	ADP___	3	case	_	_
+5	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	5	nmod:poss	_	_
+6	grands-parents	grands-parent	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	obl	_	_
+7	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+8	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	10	aux:pass	_	_
+9	divisé	diviser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+10	en	en	ADP	_	ADP___	5	case	_	_
+11	4	4	NUM	_	NUM__NumType=Card	12	nummod	_	_
+12	parcelles	parcelle	NOUN	_	NOUN__Gender=Fem|Number=Plur	19	obl	_	_
+13	(	(	PUNCT	_	PUNCT___	12	punct	_	_
+14	1	1	NUM	_	NUM__NumType=Card	16	nummod	_	_
+15	seul	seul	ADJ	_	ADJ__Gender=Masc|Number=Sing	16	amod	_	_
+16	côté	côté	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	dep	_	_
+17	jouxte	jouxt	ADJ	_	ADJ__Gender=Masc|Number=Sing	19	conj	_	_
+18	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	desserte	desserte	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obj	_	_
+20	publique	public	ADJ	_	ADJ__Gender=Fem|Number=Sing	22	amod	_	_
+21	)	)	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#Voici l'historique.
+1	Voici	voici	VERB	_	VERB__Mood=Ind|VerbForm=Fin	0	ROOT	_	_
+2	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+3	historique	historique	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+4	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#1/ 1970 : la partie la plus éloignée (D) de l'accès publique a été donnée à 1 des enfants : un chemin traversant le surplus a été créé pour pouvoir accéder à cette parcelle.
+1	1/	1/	NUM	_	NUM__NumType=Card	1	obl	_	_
+2	1970	1970	NUM	_	NUM__NumType=Card	1	nummod	_	_
+3	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+5	partie	partie	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	plus	plus	ADV	_	ADV___	5	advmod	_	_
+8	éloignée	éloigner	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	acl	_	_
+9	(	(	PUNCT	_	PUNCT___	10	punct	_	_
+10	D	d	NOUN	_	NOUN___	5	obl	_	_
+11	)	)	PUNCT	_	PUNCT___	12	punct	_	_
+12	de	de	ADP	_	ADP___	19	case	_	_
+13	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+14	accès	accès	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	nmod	_	_
+15	publique	public	ADJ	_	ADJ__Gender=Fem|Number=Sing	16	amod	_	_
+16	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+17	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	19	aux:pass	_	_
+18	donnée	donner	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	19	parataxis	_	_
+19	à	à	ADP	_	ADP___	19	case	_	_
+20	1	1	PRON	_	PRON__NumType=Card|PronType=Rel	22	nummod	_	_
+21	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	22	det	_	_
+22	enfants	enfant	NOUN	_	NOUN__Number=Plur	19	obl	_	_
+23	:	:	PUNCT	_	PUNCT___	22	punct	_	_
+24	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+25	chemin	chemin	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	nsubj:pass	_	_
+26	traversant	traverser	VERB	_	VERB__Tense=Pres|VerbForm=Part	24	amod	_	_
+27	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+28	surplus	surplus	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	obj	_	_
+29	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+30	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	29	aux:pass	_	_
+31	créé	créer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+32	pour	pour	ADP	_	ADP___	32	mark	_	_
+33	pouvoir	pouvoir	AUX	_	AUX__VerbForm=Inf	34	aux	_	_
+34	accéder	accéder	VERB	_	VERB__VerbForm=Inf	32	advcl	_	_
+35	à	à	ADP	_	ADP___	32	case	_	_
+36	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	66	det	_	_
+37	parcelle	parcelle	NOUN	_	NOUN__Gender=Fem|Number=Sing	36	obl	_	_
+38	.	.	PUNCT	_	PUNCT___	53	punct	_	_
+
+
+#Le surplus a été grévé d'un droit de passage au profit de la parcelle D et reste la propriété des donateurs.
+1	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	surplus	surplus	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+4	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	3	cop	_	_
+5	grévé	gréver	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+6	d'	de	ADP	_	ADP___	7	case	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+8	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obl	_	_
+9	de	de	ADP	_	ADP___	10	case	_	_
+10	passage	passage	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+11	au	au	PRON	_	PRON__PronType=Rel	12	case	_	_
+12	profit	profit	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	fixed	_	_
+13	de	de	ADP	_	ADP___	12	fixed	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	parcelle	parcelle	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nmod	_	_
+16	D	d	NOUN	_	NOUN___	13	nmod	_	_
+17	et	et	CCONJ	_	CCONJ___	19	cc	_	_
+18	reste	rester	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	conj	_	_
+19	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+20	propriété	propriété	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	obj	_	_
+21	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	22	det	_	_
+22	donateurs	donateur	NOUN	_	NOUN__Gender=Masc|Number=Plur	19	obj	_	_
+23	.	.	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#2/ 1975 : la partie jouxtant l'accès publique (A) a été donnée a 1 autre des enfants : sur l'acte il est bien mentionné que cette parcelle est grévée d'une servitude (chemin) au profit de la parcelle D. Le surplus reste au profit des donateurs.
+1	2/	2/	NUM	_	NUM__NumType=Card	1	punct	_	_
+2	1975	1975	NUM	_	NUM__NumType=Card	1	nummod	_	_
+3	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+5	partie	partie	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+6	jouxtant	jouxter	VERB	_	VERB__Tense=Pres|VerbForm=Part	7	acl	_	_
+7	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+8	accès	accès	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+9	publique	public	ADJ	_	ADJ__Gender=Fem|Number=Sing	10	amod	_	_
+10	(	(	PUNCT	_	PUNCT___	5	punct	_	_
+11	A	a	NOUN	_	NOUN___	12	nmod	_	_
+12	)	)	PUNCT	_	PUNCT___	19	punct	_	_
+13	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+14	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	16	aux:pass	_	_
+15	donnée	donner	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	16	advcl	_	_
+16	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	case	_	_
+17	1	1	NUM	_	NUM__NumType=Card	19	nummod	_	_
+18	autre	autre	ADJ	_	ADJ__Number=Sing	19	amod	_	_
+19	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	19	det	_	_
+20	enfants	enfant	NOUN	_	NOUN__Number=Plur	22	obl	_	_
+21	:	:	PUNCT	_	PUNCT___	22	punct	_	_
+22	sur	sur	ADP	_	ADP___	19	case	_	_
+23	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+24	acte	acte	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	nmod	_	_
+25	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	26	nsubj	_	_
+26	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux:pass	_	_
+27	bien	bien	ADV	_	ADV___	19	advmod	_	_
+28	mentionné	mentionner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+29	que	que	SCONJ	_	SCONJ___	27	mark	_	_
+30	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	29	det	_	_
+31	parcelle	parcelle	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	nsubj	_	_
+32	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	cop	_	_
+33	grévée	gréver	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	34	ccomp	_	_
+34	d'	de	ADP	_	ADP___	32	case	_	_
+35	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+36	servitude	servitude	NOUN	_	NOUN__Gender=Fem|Number=Sing	66	obl	_	_
+37	(	(	PUNCT	_	PUNCT___	36	punct	_	_
+38	chemin	chemin	NOUN	_	NOUN__Gender=Masc|Number=Sing	53	appos	_	_
+39	)	)	PUNCT	_	PUNCT___	40	punct	_	_
+40	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	53	case	_	_
+41	profit	profit	NOUN	_	NOUN__Gender=Masc|Number=Sing	43	fixed	_	_
+42	de	de	ADP	_	ADP___	43	fixed	_	_
+43	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+44	parcelle	parcelle	NOUN	_	NOUN__Gender=Fem|Number=Sing	43	obl	_	_
+45	D.	d.	NOUN	_	NOUN__Gender=Masc|Number=Sing	43	nmod	_	_
+46	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+47	surplus	surplus	NOUN	_	NOUN__Gender=Masc|Number=Sing	49	nmod	_	_
+48	reste	rester	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	49	cop	_	_
+49	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	40	advmod	_	_
+50	profit	profit	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	49	fixed	_	_
+51	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	53	det	_	_
+52	donateurs	donateur	NOUN	_	NOUN__Gender=Masc|Number=Plur	53	obl	_	_
+53	.	.	PUNCT	_	PUNCT___	66	punct	_	_
+
+
+#3/ 1979
+1	3/	3/	NUM	_	NUM__NumType=Card	0	ROOT	_	_
+2	1979	1979	NUM	_	NUM__NumType=Card	1	nummod	_	_
+
+
+#: donation partage à deux autres enfants du surplus divisé en 2 : parcelles B et C. Sur l'acte de donation partage il est précisé que les parcelles B et C sont grévées d'une servitude (chemin) au profit de la parcelle D. Les parcelles A et B ont été vendues, les nouveaux propriétaires ont fait construire et ont passé des conventions de servitude pour le passage des réseaux au profit de la parcelle B sur le même chemin que la parcelle D (qui dessert aussi les parcelles A et B).
+1	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+2	donation	donation	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+3	partage	partage	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	advcl	_	_
+4	à	à	ADP	_	ADP___	3	case	_	_
+5	deux	deux	NUM	_	NUM__NumType=Card	5	nummod	_	_
+6	autres	autre	ADJ	_	ADJ__Number=Plur	7	amod	_	_
+7	enfants	enfant	NOUN	_	NOUN__Number=Plur	5	obl	_	_
+8	du	du	DET	_	DET__Gender=Masc|Number=Sing	10	det	_	_
+9	surplus	surplus	ADV	_	ADV___	10	amod	_	_
+10	divisé	diviser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+11	en	en	ADP	_	ADP___	12	case	_	_
+12	2	2	NUM	_	NUM__NumType=Card	19	nummod	_	_
+13	:	:	PUNCT	_	PUNCT___	12	punct	_	_
+14	parcelles	parcelle	NOUN	_	NOUN__Gender=Fem|Number=Plur	16	appos	_	_
+15	B	b	NOUN	_	NOUN___	16	nmod	_	_
+16	et	et	CCONJ	_	CCONJ___	13	cc	_	_
+17	C.	c.	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	conj	_	_
+18	Sur	Sur	ADP	_	ADP___	19	case	_	_
+19	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+20	acte	acte	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	nmod	_	_
+21	de	de	ADP	_	ADP___	22	case	_	_
+22	donation	donation	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	nmod	_	_
+23	partage	partage	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	amod	_	_
+24	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	27	nsubj:pass	_	_
+25	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux:pass	_	_
+26	précisé	préciser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+27	que	que	SCONJ	_	SCONJ___	19	mark	_	_
+28	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	29	det	_	_
+29	parcelles	parcelle	NOUN	_	NOUN__Gender=Fem|Number=Plur	27	nsubj	_	_
+30	B	b	NOUN	_	NOUN___	29	nmod	_	_
+31	et	et	CCONJ	_	CCONJ___	19	cc	_	_
+32	C	c	NOUN	_	NOUN___	32	conj	_	_
+33	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	34	aux:pass	_	_
+34	grévées	gréver	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	32	ccomp	_	_
+35	d'	de	ADP	_	ADP___	32	case	_	_
+36	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	66	det	_	_
+37	servitude	servitude	NOUN	_	NOUN__Gender=Fem|Number=Sing	36	obl	_	_
+38	(	(	PUNCT	_	PUNCT___	53	punct	_	_
+39	chemin	chemin	NOUN	_	NOUN__Gender=Masc|Number=Sing	40	appos	_	_
+40	)	)	PUNCT	_	PUNCT___	53	punct	_	_
+41	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	43	case	_	_
+42	profit	profit	NOUN	_	NOUN__Gender=Masc|Number=Sing	43	fixed	_	_
+43	de	de	ADP	_	ADP___	40	fixed	_	_
+44	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+45	parcelle	parcelle	NOUN	_	NOUN__Gender=Fem|Number=Sing	43	obl	_	_
+46	D.	d.	NOUN	_	NOUN__Gender=Masc|Number=Sing	43	case	_	_
+47	Les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	49	det	_	_
+48	parcelles	parcelle	NOUN	_	NOUN__Gender=Fem|Number=Plur	49	nmod	_	_
+49	A	a	NOUN	_	NOUN___	40	nmod	_	_
+50	et	et	CCONJ	_	CCONJ___	49	cc	_	_
+51	B	b	NOUN	_	NOUN___	53	conj	_	_
+52	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	53	aux	_	_
+53	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	66	aux:pass	_	_
+54	vendues	vendre	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	57	conj	_	_
+55	,	,	PUNCT	_	PUNCT___	57	punct	_	_
+56	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	57	det	_	_
+57	nouveaux	nouveau	ADJ	_	ADJ__Gender=Masc|Number=Plur	53	amod	_	_
+58	propriétaires	propriétaire	NOUN	_	NOUN__Number=Plur	53	nsubj	_	_
+59	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	60	aux	_	_
+60	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	66	parataxis	_	_
+61	construire	construir	ADJ	_	ADJ__Number=Sing	60	xcomp	_	_
+62	et	et	CCONJ	_	CCONJ___	63	cc	_	_
+63	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	61	aux	_	_
+64	passé	passer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	66	conj	_	_
+65	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	66	det	_	_
+66	conventions	convention	NOUN	_	NOUN__Gender=Fem|Number=Plur	66	obj	_	_
+67	de	de	ADP	_	ADP___	69	case	_	_
+68	servitude	servitude	NOUN	_	NOUN__Gender=Fem|Number=Sing	69	nmod	_	_
+69	pour	pour	ADP	_	ADP___	66	case	_	_
+70	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	72	det	_	_
+71	passage	passage	NOUN	_	NOUN__Gender=Masc|Number=Sing	72	nmod	_	_
+72	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	69	det	_	_
+73	réseaux	réseau	NOUN	_	NOUN__Gender=Masc|Number=Plur	66	obj	_	_
+74	au	au	PRON	_	PRON__PronType=Rel	75	case	_	_
+75	profit	profit	NOUN	_	NOUN__Gender=Masc|Number=Sing	78	fixed	_	_
+76	de	de	ADP	_	ADP___	78	fixed	_	_
+77	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	78	det	_	_
+78	parcelle	parcelle	NOUN	_	NOUN__Gender=Fem|Number=Sing	78	nmod	_	_
+79	B	b	NOUN	_	NOUN___	81	nmod	_	_
+80	sur	sur	ADP	_	ADP___	81	case	_	_
+81	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	78	det	_	_
+82	même	même	ADJ	_	ADJ__Number=Sing	83	amod	_	_
+83	chemin	chemin	NOUN	_	NOUN__Gender=Masc|Number=Sing	81	obl	_	_
+84	que	que	SCONJ	_	SCONJ___	88	mark	_	_
+85	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	84	det	_	_
+86	parcelle	parcelle	NOUN	_	NOUN__Gender=Fem|Number=Sing	84	ccomp	_	_
+87	D	d	NOUN	_	NOUN___	88	nmod	_	_
+88	(	(	PUNCT	_	PUNCT___	81	punct	_	_
+89	qui	qui	PRON	_	PRON__PronType=Rel	88	nsubj	_	_
+90	dessert	desservir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	91	parataxis	_	_
+91	aussi	aussi	ADV	_	ADV___	78	advmod	_	_
+92	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	93	det	_	_
+93	parcelles	parcelle	NOUN	_	NOUN__Gender=Fem|Number=Plur	91	obj	_	_
+94	A	a	NOUN	_	NOUN___	95	nmod	_	_
+95	et	et	CCONJ	_	CCONJ___	91	cc	_	_
+96	B	b	NOUN	_	NOUN___	78	conj	_	_
+97	)	)	PUNCT	_	PUNCT___	124	punct	_	_
+98	.	.	PUNCT	_	PUNCT___	97	punct	_	_
+
+
+#Ma mère qui avait hérité de la parcelle C (la plus proche de la D) veut me faire donation de ce terrain pour que je puisse construire ma maison.
+1	Ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	mère	mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+3	qui	qui	PRON	_	PRON__PronType=Rel	1	nsubj	_	_
+4	avait	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+5	hérité	hériter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+6	de	de	ADP	_	ADP___	7	case	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+8	parcelle	parcelle	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+9	C	c	NOUN	_	NOUN___	10	nmod	_	_
+10	(	(	PUNCT	_	PUNCT___	5	punct	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	plus	plus	ADV	_	ADV___	19	advmod	_	_
+13	proche	proche	ADJ	_	ADJ__Number=Sing	12	appos	_	_
+14	de	de	ADP	_	ADP___	16	case	_	_
+15	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	D	d	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obl	_	_
+17	)	)	PUNCT	_	PUNCT___	19	punct	_	_
+18	veut	vouloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	19	expl	_	_
+20	faire	faire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+21	donation	donation	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	obj	_	_
+22	de	de	ADP	_	ADP___	19	case	_	_
+23	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	22	det	_	_
+24	terrain	terrain	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	nmod	_	_
+25	pour	pour	ADP	_	ADP___	26	mark	_	_
+26	que	que	SCONJ	_	SCONJ___	24	fixed	_	_
+27	je	il	PRON	_	PRON__Number=Sing|Person=1	19	nsubj	_	_
+28	puisse	pouvoir	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	construire	construire	VERB	_	VERB__VerbForm=Inf	27	advcl	_	_
+30	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	29	nmod:poss	_	_
+31	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obj	_	_
+32	.	.	PUNCT	_	PUNCT___	32	punct	_	_
+
+
+#En ce qui concerne les réseaux, pas de soucis car ils avaient été prévus.
+1	En	En	ADP	_	ADP___	1	case	_	_
+2	ce	ce	PRON	_	PRON__PronType=Rel	1	fixed	_	_
+3	qui	qui	PRON	_	PRON__PronType=Rel	1	fixed	_	_
+4	concerne	concerner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	fixed	_	_
+5	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+6	réseaux	réseau	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	obl	_	_
+7	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+8	pas	pas	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+9	de	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	10	case	_	_
+10	soucis	souci	ADJ	_	ADJ__Gender=Masc	5	nmod	_	_
+11	car	car	CCONJ	_	CCONJ___	12	cc	_	_
+12	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	19	nsubj:pass	_	_
+13	avaient	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+14	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	16	aux:pass	_	_
+15	prévus	prévoir	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+16	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#La problématique c'est que dans les actes de donation de 1975 et 1979, il n'est pas stipulé de servitude au profit de la parcelle C.
+1	La	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	problématique	problématique	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+3	c'	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+5	que	que	SCONJ	_	SCONJ___	5	advmod	_	_
+6	dans	dan	ADP	_	ADP___	7	case	_	_
+7	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+8	actes	acte	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	obl	_	_
+9	de	de	ADP	_	ADP___	10	case	_	_
+10	donation	donation	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+11	de	de	ADP	_	ADP___	12	case	_	_
+12	1975	1975	NUM	_	NUM__NumType=Card	19	nmod	_	_
+13	et	et	CCONJ	_	CCONJ___	12	cc	_	_
+14	1979	1979	NUM	_	NUM__NumType=Card	16	conj	_	_
+15	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+16	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	13	nsubj	_	_
+17	n'	ne	ADV	_	ADV__Polarity=Neg	19	advmod	_	_
+18	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	pas	pas	ADV	_	ADV__Polarity=Neg	19	advmod	_	_
+20	stipulé	stipuler	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+21	de	de	ADP	_	ADP___	22	case	_	_
+22	servitude	servitude	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	case	_	_
+23	au	au	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	22	fixed	_	_
+24	profit	profit	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	fixed	_	_
+25	de	de	ADP	_	ADP___	26	fixed	_	_
+26	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+27	parcelle	parcelle	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obl	_	_
+28	C.	c.	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	obj	_	_
+
+
+#Le voisin de la parcelle B ne veut pas de construction a côté (sur le C) et veut me faire payer une convention de passage très cher.
+1	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	voisin	voisin	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	de	de	ADP	_	ADP___	1	case	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+5	parcelle	parcelle	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+6	B	b	NOUN	_	NOUN___	7	nmod	_	_
+7	ne	ne	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+8	veut	vouloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+9	pas	pas	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+10	de	de	DET	_	DET__Definite=Ind|Number=Sing|PronType=Art	5	case	_	_
+11	construction	construction	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obj	_	_
+12	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+13	côté	côté	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+14	(	(	PUNCT	_	PUNCT___	16	punct	_	_
+15	sur	sur	ADP	_	ADP___	16	case	_	_
+16	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+17	C	c	NOUN	_	NOUN___	19	obl	_	_
+18	)	)	PUNCT	_	PUNCT___	19	punct	_	_
+19	et	et	CCONJ	_	CCONJ___	19	cc	_	_
+20	veut	vouloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+21	me	se	PRON	_	PRON__Number=Sing|Person=1	22	obj	_	_
+22	faire	faire	VERB	_	VERB__VerbForm=Inf	19	conj	_	_
+23	payer	payer	VERB	_	VERB__VerbForm=Inf	22	xcomp	_	_
+24	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+25	convention	convention	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	obj	_	_
+26	de	de	ADP	_	ADP___	24	case	_	_
+27	passage	passage	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	nmod	_	_
+28	très	très	ADV	_	ADV___	29	advmod	_	_
+29	cher	cher	ADJ	_	ADJ__Gender=Masc|Number=Sing	27	amod	_	_
+30	.	.	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#Est-ce que du fait que ce chemin empierré existe depuis plus de 30 ans et que l'enclavement de la parcelle C est dû à la division d'une même parcelle à l'origine suffit ?
+1	Est	être		_	VERB	1	nsubj	_	_
+2	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	1	amod	_	_
+3	que	que	SCONJ	_	SCONJ___	1	mark	_	_
+4	du	du	DET	_	DET__Gender=Masc|Number=Sing	3	nsubj	_	_
+5	fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+6	que	que	SCONJ	_	SCONJ___	7	mark	_	_
+7	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+8	chemin	chemin	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nsubj	_	_
+9	empierré	empierrer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	amod	_	_
+10	existe	exister	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+11	depuis	depuis	ADP	_	ADP___	12	case	_	_
+12	plus	plus	ADV	_	ADV___	19	advmod	_	_
+13	de	de	ADP	_	ADP___	12	dep	_	_
+14	30	30	NUM	_	NUM__NumType=Card	16	nummod	_	_
+15	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	obl	_	_
+16	et	et	CCONJ	_	CCONJ___	13	cc	_	_
+17	que	que	SCONJ	_	SCONJ___	19	mark	_	_
+18	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	enclavement	enclavement	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	nsubj	_	_
+20	de	de	ADP	_	ADP___	22	case	_	_
+21	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	parcelle	parcelle	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	nmod	_	_
+23	C	c	NOUN	_	NOUN___	22	nmod	_	_
+24	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux:pass	_	_
+25	dû	devoir	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	conj	_	_
+26	à	à	ADP	_	ADP___	24	case	_	_
+27	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+28	division	division	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	obl	_	_
+29	d'	de	ADP	_	ADP___	27	case	_	_
+30	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+31	même	même	ADJ	_	ADJ__Number=Sing	19	amod	_	_
+32	parcelle	parcell	ADJ	_	ADJ__Gender=Fem|Number=Sing	32	nmod	_	_
+33	à	à	ADP	_	ADP___	34	case	_	_
+34	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	32	det	_	_
+35	origine	origine	NOUN	_	NOUN__Gender=Fem|Number=Sing	32	nmod	_	_
+36	suffit	suffire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	66	amod	_	_
+37	?	?	PUNCT	_	PUNCT___	36	punct	_	_
+
+
+#Quel est le risque encouru si je débute la construction sans convention avec le voisin de la parcelle B (le voisin de la parcelle A, ne nous réclame rien).
+1	Quel	quel	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+4	risque	risque	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+5	encouru	encourir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	amod	_	_
+6	si	si	SCONJ	_	SCONJ___	7	mark	_	_
+7	je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+8	débute	débuter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	construction	construction	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obj	_	_
+11	sans	sans	ADP	_	ADP___	12	case	_	_
+12	convention	convention	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obl	_	_
+13	avec	avec	ADP	_	ADP___	12	case	_	_
+14	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	voisin	voisin	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	nmod	_	_
+16	de	de	ADP	_	ADP___	13	case	_	_
+17	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	parcelle	parcelle	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	nmod	_	_
+19	B	b	NOUN	_	NOUN___	19	nmod	_	_
+20	(	(	PUNCT	_	PUNCT___	22	punct	_	_
+21	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	voisin	voisin	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obj	_	_
+23	de	de	ADP	_	ADP___	22	case	_	_
+24	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+25	parcelle	parcelle	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	nmod	_	_
+26	A	a	NOUN	_	NOUN___	24	nmod	_	_
+27	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+28	ne	ne	ADV	_	ADV__Polarity=Neg	29	advmod	_	_
+29	nous	nous	PRON	_	PRON__Number=Plur|Person=1	27	iobj	_	_
+30	réclame	réclamer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+31	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	19	obj	_	_
+32	)	)	PUNCT	_	PUNCT___	32	punct	_	_
+33	.	.	PUNCT	_	PUNCT___	34	punct	_	_
+
+
+#Désolé pour ce roman, mais je ne peux pas faire plus court.
+1	Désolé	Désolé	PROPN	_	PROPN___	0	ROOT	_	_
+2	pour	pour	ADP	_	ADP___	1	case	_	_
+3	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	1	det	_	_
+4	roman	roman	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obl	_	_
+5	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+6	mais	mais	CCONJ	_	CCONJ___	7	cc	_	_
+7	je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+8	ne	ne	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+9	peux	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	pas	pas	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+11	faire	faire	VERB	_	VERB__VerbForm=Inf	12	conj	_	_
+12	plus	plus	ADV	_	ADV___	19	advmod	_	_
+13	court	courir	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+14	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Merci par avance pour votre aide.
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	par	par	ADP	_	ADP___	1	case	_	_
+3	avance	avance	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+4	pour	pour	ADP	_	ADP___	3	case	_	_
+5	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+6	aide	aide	NOUN	_	NOUN__Number=Sing	7	nmod	_	_
+7	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Cordialement, Thep
+1	Cordialement	cordialement	ADV	_	ADV___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Thep	Thep	PROPN	_	PROPN__Gender=Masc|Number=Sing	1	conj	_	_
+
+

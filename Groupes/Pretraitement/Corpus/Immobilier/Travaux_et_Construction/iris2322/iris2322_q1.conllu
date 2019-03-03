@@ -1,0 +1,94 @@
+#Bonsoir Madame, Bonsoir
+1	Bonsoir	Bonsoir	PROPN	_	PROPN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	Madame	madame	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	flat:name	_	_
+3	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+4	Bonsoir	Bonsoir	PROPN	_	PROPN___	1	appos	_	_
+
+
+#Monsieur Propriétaires de notre maison, nous désirons transformer notre balcon (1er étage) en terrasse.
+1	Monsieur	monsieur	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+2	Propriétaires	propriétair	ADJ	_	ADJ__Number=Plur	1	flat:name	_	_
+3	de	de	ADP	_	ADP___	4	case	_	_
+4	notre	notre	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+5	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nmod	_	_
+6	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+7	nous	nous	PRON	_	PRON__Number=Plur|Person=1	9	nsubj	_	_
+8	désirons	désirer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	transformer	transformer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+10	notre	notre	DET	_	DET__Number=Sing|Poss=Yes	13	nmod:poss	_	_
+11	balcon	balcon	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+12	(	(	PUNCT	_	PUNCT___	13	punct	_	_
+13	1er	1er	ADJ	_	ADJ__NumType=Ord	13	amod	_	_
+14	étage	étage	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	appos	_	_
+15	)	)	PUNCT	_	PUNCT___	13	punct	_	_
+16	en	en	ADP	_	ADP___	15	case	_	_
+17	terrasse	terrasse	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	obl	_	_
+18	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Actuellement, la surface de ce balcon est de 7,50m², le projet l'amènerait à 19,50m², ce qui représente une augmentation de 12m².
+1	Actuellement	actuellement	ADV	_	ADV___	1	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	surface	surface	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+5	de	de	ADP	_	ADP___	13	case	_	_
+6	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+7	balcon	balcon	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nmod	_	_
+8	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	de	de	ADP	_	ADP___	5	case	_	_
+10	7,50	7,50	NUM	_	NUM__NumType=Card	13	nummod	_	_
+11	m²	m²	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+12	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+13	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+14	projet	projet	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nsubj	_	_
+15	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	13	obj	_	_
+16	amènerait	amener	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	conj	_	_
+17	à	à	ADP	_	ADP___	18	case	_	_
+18	19,50	19,50	NUM	_	NUM__NumType=Card	15	nummod	_	_
+19	m²	m²	NOUN	_	NOUN__Gender=Masc	15	obl	_	_
+20	,	,	PUNCT	_	PUNCT___	21	punct	_	_
+21	ce	ce	PRON	_	PRON__PronType=Rel	13	iobj	_	_
+22	qui	qui	PRON	_	PRON__PronType=Rel	13	nsubj	_	_
+23	représente	représenter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	acl:relcl	_	_
+24	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+25	augmentation	augmentation	NOUN	_	NOUN__Gender=Fem|Number=Sing	26	obj	_	_
+26	de	de	ADP	_	ADP___	33	case	_	_
+27	12	12	NUM	_	NUM__NumType=Card	29	nummod	_	_
+28	m²	m²	NOUN	_	NOUN__Gender=Masc|Number=Plur	29	nmod	_	_
+29	.	.	PUNCT	_	PUNCT___	26	punct	_	_
+
+
+#Est
+1	Est	être	ADV	_	ADV___	0	ROOT	_	_
+
+
+#-il nécessaire de demander un permis de construire, ou une déclaration de travaux est-elle suffisante?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+3	nécessaire	nécessaire	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+4	de	de	ADP	_	ADP___	1	mark	_	_
+5	demander	demander	VERB	_	VERB__VerbForm=Inf	13	xcomp	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+7	permis	permis	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+8	de	de	ADP	_	ADP___	9	mark	_	_
+9	construire	construire	VERB	_	VERB__VerbForm=Inf	5	amod	_	_
+10	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+11	ou	ou	CCONJ	_	CCONJ___	13	cc	_	_
+12	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	déclaration	déclaration	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	conj	_	_
+14	de	de	ADP	_	ADP___	15	case	_	_
+15	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	nmod	_	_
+16	est-elle	est-ell	ADJ	_	ADJ__Gender=Fem|Number=Sing	15	amod	_	_
+17	suffisante	suffisant	ADJ	_	ADJ__Gender=Fem|Number=Sing	18	amod	_	_
+18	?	?	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Avec tous mes remerciements, Anda
+1	Avec	Avec	ADP	_	ADP___	1	case	_	_
+2	tous	tou	ADJ	_	ADJ__Gender=Masc|Number=Plur	1	amod	_	_
+3	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	4	nmod:poss	_	_
+4	remerciements	remerciement	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+5	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+6	Anda	Anda	PROPN	_	PROPN__Gender=Masc|Number=Sing	5	appos	_	_
+
+

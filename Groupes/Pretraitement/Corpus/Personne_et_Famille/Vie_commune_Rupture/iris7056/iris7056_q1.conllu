@@ -1,0 +1,388 @@
+#Bonjour, Voici le contexte
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	Voici	voici	VERB	_	VERB__Mood=Ind|VerbForm=Fin	1	conj	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	contexte	contexte	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+
+
+#- 15 ans de vie maritale (ni mariés ni pacsés), 2 enfants de 12 et 14 ans
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	15	15	NUM	_	NUM__NumType=Card	3	nummod	_	_
+3	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+4	de	de	ADP	_	ADP___	5	case	_	_
+5	vie	vie	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+6	maritale	marital	ADJ	_	ADJ__Gender=Fem|Number=Sing	8	amod	_	_
+7	(	(	PUNCT	_	PUNCT___	8	punct	_	_
+8	ni	ni	CCONJ	_	CCONJ___	8	cc	_	_
+9	mariés	marier	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	10	conj	_	_
+10	ni	ni	CCONJ	_	CCONJ___	8	cc	_	_
+11	pacsés	pacser	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	10	conj	_	_
+12	)	)	PUNCT	_	PUNCT___	8	punct	_	_
+13	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+14	2	2	NUM	_	NUM__NumType=Card	8	nummod	_	_
+15	enfants	enfant	NOUN	_	NOUN__Number=Plur	16	conj	_	_
+16	de	de	ADP	_	ADP___	8	case	_	_
+17	12	12	NUM	_	NUM__NumType=Card	8	nmod	_	_
+18	et	et	CCONJ	_	CCONJ___	20	cc	_	_
+19	14	14	NUM	_	NUM__NumType=Card	20	nummod	_	_
+20	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	nmod	_	_
+
+
+#- J'ai pris la décision de me séparer de mon ex-conjointe en février dernier
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	J'	il	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+3	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
+4	pris	prendre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+6	décision	décision	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+7	de	de	ADP	_	ADP___	8	mark	_	_
+8	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	8	expl	_	_
+9	séparer	séparer	VERB	_	VERB__VerbForm=Inf	10	xcomp	_	_
+10	de	de	ADP	_	ADP___	8	case	_	_
+11	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+12	ex	ex	NOUN	_	NOUN__Number=Sing	8	obl	_	_
+13	-	-	PUNCT	_	PUNCT___	14	punct	_	_
+14	conjointe	conjoint	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+15	en	en	ADP	_	ADP___	16	case	_	_
+16	février	février	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+17	dernier	dernier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	8	amod	_	_
+
+
+#- Phase de "colère" très dure les premières semaines
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	Phase	phase	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	de	de	ADP	_	ADP___	1	case	_	_
+4	"	"	PUNCT	_	PUNCT___	5	punct	_	_
+5	colère	colère	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+6	"	"	PUNCT	_	PUNCT___	8	punct	_	_
+7	très	très	ADV	_	ADV___	8	advmod	_	_
+8	dure	dur	ADJ	_	ADJ__Gender=Fem|Number=Sing	8	amod	_	_
+9	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	10	det	_	_
+10	premières	première	NOUN	_	NOUN__Gender=Fem|Number=Plur	8	amod	_	_
+11	semaines	semaine	NOUN	_	NOUN__Gender=Fem|Number=Plur	10	obj	_	_
+
+
+#- J'ai proposé que nous fassions "parents alternés" jusqu'à la vente de la maison, à savoir qu'une semaine sur deux un des deux parents ne reste pas à la maison et soit hébergé ailleurs à sa convenance.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	J'	il	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+3	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
+4	proposé	proposer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	que	que	SCONJ	_	SCONJ___	1	mark	_	_
+6	nous	nous	PRON	_	PRON__Number=Plur|Person=1	8	nsubj	_	_
+7	fassions	faire	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+8	"	"	PUNCT	_	PUNCT___	8	punct	_	_
+9	parents	parent	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	obj	_	_
+10	alternés	alterné	ADJ	_	ADJ__Gender=Masc|Number=Plur	8	amod	_	_
+11	"	"	PUNCT	_	PUNCT___	10	punct	_	_
+12	jusqu'	jusque	ADP	_	ADP___	8	case	_	_
+13	à	à	ADP	_	ADP___	14	fixed	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+15	vente	vente	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obl	_	_
+16	de	de	ADP	_	ADP___	8	case	_	_
+17	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+18	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	nmod	_	_
+19	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+20	à	à	ADP	_	ADP___	8	mark	_	_
+21	savoir	savoir	VERB	_	VERB__VerbForm=Inf	22	fixed	_	_
+22	qu'	que	SCONJ	_	SCONJ___	20	mark	_	_
+23	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	semaine	semaine	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	obl	_	_
+25	sur	sur	ADP	_	ADP___	20	case	_	_
+26	deux	deux	NUM	_	NUM__NumType=Card	29	nummod	_	_
+27	un	un	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	29	obl	_	_
+28	des	un	ADP	_	ADP___	29	det	_	_
+29	deux	deux	NUM	_	NUM__NumType=Card	29	nummod	_	_
+30	parents	parent	NOUN	_	NOUN__Gender=Masc|Number=Plur	31	nmod	_	_
+31	ne	ne	ADV	_	ADV__Polarity=Neg	29	advmod	_	_
+32	reste	rester	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	advcl	_	_
+33	pas	pas	ADV	_	ADV__Polarity=Neg	34	advmod	_	_
+34	à	à	ADP	_	ADP___	29	case	_	_
+35	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+36	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	37	obl	_	_
+37	et	et	CCONJ	_	CCONJ___	34	cc	_	_
+38	soit	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	aux:pass	_	_
+39	hébergé	héberger	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	34	conj	_	_
+40	ailleurs	ailleurs	ADV	_	ADV___	41	advmod	_	_
+41	à	à	ADP	_	ADP___	34	case	_	_
+42	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	41	nmod:poss	_	_
+43	convenance	convenance	NOUN	_	NOUN__Gender=Fem|Number=Sing	44	obl	_	_
+44	.	.	PUNCT	_	PUNCT___	44	punct	_	_
+
+
+#Refus alors que la chose était possible des 2 côtés (anecdotique)
+1	Refus	refus	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	advmod	_	_
+2	alors	alors	ADV	_	ADV___	3	advmod	_	_
+3	que	que	SCONJ	_	SCONJ___	1	mark	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	chose	chose	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+6	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+7	possible	possible	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+8	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
+9	2	2	NUM	_	NUM__NumType=Card	10	nummod	_	_
+10	côtés	côté	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obj	_	_
+11	(	(	PUNCT	_	PUNCT___	10	punct	_	_
+12	anecdotique	anecdotique	ADJ	_	ADJ__Number=Sing	8	appos	_	_
+13	)	)	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#- Les zones de tension étaient essentiellement du vendredi au dimanche.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	Les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	3	det	_	_
+3	zones	zone	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	nsubj	_	_
+4	de	de	ADP	_	ADP___	5	case	_	_
+5	tension	tension	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+6	étaient	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+7	essentiellement	essentiellement	ADV	_	ADV___	8	advmod	_	_
+8	du	du	DET	_	DET__Gender=Masc|Number=Sing	8	det	_	_
+9	vendredi	vendredi	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+10	au	au	PRON	_	PRON__PronType=Rel	8	case	_	_
+11	dimanche	dimanche	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+12	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#J'ai proposé le week-end alterné pour faire baisser les tensions.
+1	J'	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	proposé	proposer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	week-end	week-end	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+6	alterné	alterné	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	xcomp	_	_
+7	pour	pour	ADP	_	ADP___	8	mark	_	_
+8	faire	faire	VERB	_	VERB__VerbForm=Inf	8	advcl	_	_
+9	baisser	baisser	VERB	_	VERB__VerbForm=Inf	10	xcomp	_	_
+10	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+11	tensions	tension	NOUN	_	NOUN__Gender=Fem|Number=Plur	10	obj	_	_
+12	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#De guerre lasse je me suis résolu à partir du domicile familial tant la situation était devenue invivable.
+1	De	De	ADP	_	ADP___	1	case	_	_
+2	guerre	guerre	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obl	_	_
+3	lasse	lasser	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	amod	_	_
+4	je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+5	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	1	iobj	_	_
+6	suis	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	résolu	résoudre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+8	à	à	ADP	_	ADP___	8	mark	_	_
+9	partir	partir	VERB	_	VERB__VerbForm=Inf	10	xcomp	_	_
+10	du	du	DET	_	DET__Gender=Masc|Number=Sing	8	det	_	_
+11	domicile	domicile	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+12	familial	familial	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	amod	_	_
+13	tant	tant	ADV	_	ADV___	14	case	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+15	situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nmod	_	_
+16	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+17	devenue	devenir	AUX	_	AUX__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	cop	_	_
+18	invivable	invivable	ADJ	_	ADJ__Number=Sing	20	conj	_	_
+19	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#La mère de mes enfants ne voulait pas partir de toute façon.
+1	La	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	mère	mère	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+3	de	de	ADP	_	ADP___	1	case	_	_
+4	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	5	nmod:poss	_	_
+5	enfants	enfant	NOUN	_	NOUN__Number=Plur	1	nmod	_	_
+6	ne	ne	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+7	voulait	vouloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+9	partir	partir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+10	de	de	ADP	_	ADP___	8	case	_	_
+11	toute	tout	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+12	façon	façon	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+13	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Ce domicile est notre propriété en indivision.
+1	Ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	1	det	_	_
+2	domicile	domicile	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+4	notre	notre	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+5	propriété	propriété	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+6	en	en	ADP	_	ADP___	8	case	_	_
+7	indivision	indivision	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+8	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Et j'ai continué et continue encore d'honorer ma part de paiement des charges (prêt immo, energien scolarité, tout en somme, etc..).
+1	Et	Et	CCONJ	_	CCONJ___	1	cc	_	_
+2	j'	il	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+3	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
+4	continué	continuer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	et	et	CCONJ	_	CCONJ___	1	cc	_	_
+6	continue	continuer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+7	encore	encore	ADV	_	ADV___	8	advmod	_	_
+8	d'	de	ADP	_	ADP___	8	mark	_	_
+9	honorer	honorer	VERB	_	VERB__VerbForm=Inf	10	xcomp	_	_
+10	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	8	nmod:poss	_	_
+11	part	part	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obj	_	_
+12	de	de	ADP	_	ADP___	8	case	_	_
+13	paiement	paiement	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obl	_	_
+14	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
+15	charges	charge	NOUN	_	NOUN__Gender=Fem|Number=Plur	16	nmod	_	_
+16	(	(	PUNCT	_	PUNCT___	8	punct	_	_
+17	prêt	prêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+18	immo	immo	ADJ	_	ADJ__Gender=Masc|Number=Sing	20	amod	_	_
+19	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+20	energien	energien	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	advmod	_	_
+21	scolarité	scolarité	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	acl	_	_
+22	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+23	tout	tout	ADV	_	ADV___	24	advmod	_	_
+24	en	en	ADP	_	ADP___	25	case	_	_
+25	somme	sommer	NOUN	_	NOUN__Number=Sing	20	conj	_	_
+26	,	,	PUNCT	_	PUNCT___	29	punct	_	_
+27	etc	etc	ADV	_	ADV___	29	advmod	_	_
+28	..	..	PUNCT	_	PUNCT___	29	conj	_	_
+29	)	)	PUNCT	_	PUNCT___	29	punct	_	_
+30	.	.	PUNCT	_	PUNCT___	31	punct	_	_
+
+
+#D'ordinaire les charges étaient réparties à 70% pour moi et 30% pour elle.
+1	D'	D'	ADP	_	ADP___	1	mark	_	_
+2	ordinaire	ordinaire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+3	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+4	charges	charge	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	obj	_	_
+5	étaient	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	1	aux:pass	_	_
+6	réparties	répartir	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	advcl	_	_
+7	à	à	ADP	_	ADP___	8	case	_	_
+8	70	70	NUM	_	NUM__NumType=Card	8	nummod	_	_
+9	%	%	NOUN	_	NOUN__Gender=Masc	10	obl	_	_
+10	pour	pour	ADP	_	ADP___	8	case	_	_
+11	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	10	nmod	_	_
+12	et	et	CCONJ	_	CCONJ___	8	cc	_	_
+13	30	30	NUM	_	NUM__NumType=Card	14	nummod	_	_
+14	%	%	NOUN	_	NOUN__Gender=Masc	8	conj	_	_
+15	pour	pour	ADP	_	ADP___	16	case	_	_
+16	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nmod	_	_
+17	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Cette année nous sommes sur du 80 / 20.
+1	Cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	1	det	_	_
+2	année	année	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+3	nous	nous	PRON	_	PRON__Number=Plur|Person=1	1	nsubj	_	_
+4	sommes	être	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	sur	sur	ADP	_	ADP___	1	case	_	_
+6	du	du	DET	_	DET__Gender=Masc|Number=Sing	8	det	_	_
+7	80	80	PRON	_	PRON__NumType=Card|PronType=Rel	8	obl	_	_
+8	/	/	ADP	_	ADP___	8	case	_	_
+9	20	20	NUM	_	NUM__NumType=Card	10	nmod	_	_
+10	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#La maison a trouvé acquéreurs et sera vendue le mois prochain.
+1	La	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+4	trouvé	trouver	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	acquéreurs	acquéreur	ADJ	_	ADJ__Gender=Masc|Number=Plur	1	obj	_	_
+6	et	et	CCONJ	_	CCONJ___	8	cc	_	_
+7	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	aux:pass	_	_
+8	vendue	vendu	AUX	_	AUX__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	conj	_	_
+9	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+11	prochain	prochain	ADJ	_	ADJ__Gender=Masc|Number=Sing	10	amod	_	_
+12	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Je veux bien assumer ce qui me revient mais il y a des limites et je songe à demander une idemnité d'occupation que je "crois" légitime.
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	veux	vouloir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	bien	bien	ADV	_	ADV___	1	advmod	_	_
+4	assumer	assumer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	ce	ce	PRON	_	PRON__PronType=Rel	1	obj	_	_
+6	qui	qui	PRON	_	PRON__PronType=Rel	8	nsubj	_	_
+7	me	se	PRON	_	PRON__Number=Sing|Person=1	8	iobj	_	_
+8	revient	revenir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+9	mais	mais	CCONJ	_	CCONJ___	10	cc	_	_
+10	il	il	PRON	_	PRON__Number=Sing|Person=3	8	case	_	_
+11	y	yu	PRON	_	PRON__Person=3	10	fixed	_	_
+12	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	fixed	_	_
+13	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
+14	limites	limite	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	conj	_	_
+15	et	et	CCONJ	_	CCONJ___	16	cc	_	_
+16	je	il	PRON	_	PRON__Number=Sing|Person=1	8	nsubj	_	_
+17	songe	songer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	conj	_	_
+18	à	à	ADP	_	ADP___	20	mark	_	_
+19	demander	demander	VERB	_	VERB__VerbForm=Inf	20	xcomp	_	_
+20	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+21	idemnité	idemnité	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	obj	_	_
+22	d'	de	ADP	_	ADP___	20	case	_	_
+23	occupation	occupation	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	nmod	_	_
+24	que	que	SCONJ	_	SCONJ___	25	mark	_	_
+25	je	il	PRON	_	PRON__Number=Sing|Person=1	20	nsubj	_	_
+26	"	"	PUNCT	_	PUNCT___	29	punct	_	_
+27	crois	croire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	acl:relcl	_	_
+28	"	"	PUNCT	_	PUNCT___	29	punct	_	_
+29	légitime	légitime	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	obj	_	_
+30	.	.	PUNCT	_	PUNCT___	31	punct	_	_
+
+
+#Pouvez
+1	Pouvez	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+
+
+#-vous m'indiquer quelles conditions doivent être remplies pour soumettre une telle demande, et si oui auprès de quelle juridiction ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	3	nsubj	_	_
+3	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	1	iobj	_	_
+4	indiquer	indiquer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	quelles	quel	DET	_	DET__Gender=Fem|Number=Plur|PronType=Int	1	det	_	_
+6	conditions	condition	NOUN	_	NOUN__Gender=Fem|Number=Plur	8	nsubj	_	_
+7	doivent	devoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+8	être	être	AUX	_	AUX__VerbForm=Inf	8	aux:pass	_	_
+9	remplies	remplie	NOUN	_	NOUN__Gender=Fem|Number=Plur	10	xcomp	_	_
+10	pour	pour	ADP	_	ADP___	8	mark	_	_
+11	soumettre	soumettre	VERB	_	VERB__VerbForm=Inf	10	advcl	_	_
+12	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+13	telle	tel	ADJ	_	ADJ__Gender=Fem|Number=Sing	14	amod	_	_
+14	demande	demande	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+15	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+16	et	et	CCONJ	_	CCONJ___	8	cc	_	_
+17	si	si	SCONJ	_	SCONJ___	8	mark	_	_
+18	oui	oui	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	conj	_	_
+19	auprès	auprès	ADP	_	ADP___	20	case	_	_
+20	de	de	ADP	_	ADP___	8	fixed	_	_
+21	quelle	quel	DET	_	DET__Gender=Fem|Number=Sing|PronType=Int	22	det	_	_
+22	juridiction	juridiction	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	nmod	_	_
+23	?	?	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#P.S. : les serrures n'ont pas été changées.
+1	P.S.	p.s.	NOUN	_	NOUN___	1	advmod	_	_
+2	:	:	PUNCT	_	PUNCT___	3	punct	_	_
+3	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+4	serrures	serrure	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	nsubj:pass	_	_
+5	n'	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+6	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+8	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	8	aux:pass	_	_
+9	changées	changer	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+10	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Merci à celles et ceux qui prendront le temps de me lire et de me répondre.
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	à	à	ADP	_	ADP___	3	case	_	_
+3	celles	celui	PRON	_	PRON__Gender=Fem|Number=Plur|PronType=Dem	1	nmod	_	_
+4	et	et	CCONJ	_	CCONJ___	5	cc	_	_
+5	ceux	celui	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Dem	1	conj	_	_
+6	qui	qui	PRON	_	PRON__PronType=Rel	8	nsubj	_	_
+7	prendront	prendre	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	8	acl:relcl	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+9	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+10	de	de	ADP	_	ADP___	8	mark	_	_
+11	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	10	expl	_	_
+12	lire	lire	VERB	_	VERB__VerbForm=Inf	8	nmod	_	_
+13	et	et	CCONJ	_	CCONJ___	14	cc	_	_
+14	de	de	ADP	_	ADP___	8	mark	_	_
+15	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	16	expl	_	_
+16	répondre	répondre	VERB	_	VERB__VerbForm=Inf	8	conj	_	_
+17	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Nicolas
+1	Nicolas	Nicolas	PROPN	_	PROPN__Gender=Masc|Number=Sing	0	ROOT	_	_
+
+

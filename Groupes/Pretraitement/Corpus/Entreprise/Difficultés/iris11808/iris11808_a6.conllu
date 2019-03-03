@@ -1,0 +1,77 @@
+#1 -
+1	1	1	NUM	_	NUM__NumType=Card	0	ROOT	_	_
+2	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#En demandant au séquestre.
+1	En	En	ADP	_	ADP___	1	mark	_	_
+2	demandant	demander	VERB	_	VERB__Tense=Pres|VerbForm=Part	0	ROOT	_	_
+3	au	au	PRON	_	PRON___	4	obj	_	_
+4	séquestre	séquestrer	VERB	_	VERB__VerbForm=Inf	4	fixed	_	_
+5	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#2
+1	2	2	NUM	_	NUM__NumType=Card	0	ROOT	_	_
+
+
+#- Non.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	Non	non	ADV	_	ADV___	0	ROOT	_	_
+3	.	.	PUNCT	_	PUNCT___	4	punct	_	_
+
+
+#3
+1	3	3	NUM	_	NUM__NumType=Card	0	ROOT	_	_
+
+
+#- Non ; et pas de raison que l'on vous donne toujours tort.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	Non	non	ADV	_	ADV___	0	ROOT	_	_
+3	;	;	PUNCT	_	PUNCT___	4	punct	_	_
+4	et	et	CCONJ	_	CCONJ___	4	cc	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+6	de	de	ADP	_	ADP___	5	mark	_	_
+7	raison	raison	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	fixed	_	_
+8	que	que	SCONJ	_	SCONJ___	8	fixed	_	_
+9	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	10	nsubj	_	_
+10	on	on	PRON	_	PRON__Number=Sing|Person=3	10	fixed	_	_
+11	vous	vous	PRON	_	PRON__Number=Plur|Person=2	10	expl	_	_
+12	donne	donner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+13	toujours	toujours	ADV	_	ADV___	14	advmod	_	_
+14	tort	tort	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obj	_	_
+15	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#4
+1	4	4	NUM	_	NUM__NumType=Card	0	ROOT	_	_
+
+
+#- "partie adverse" ?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	"	"	PUNCT	_	PUNCT___	1	punct	_	_
+3	partie	partie	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	adverse	adverse	ADJ	_	ADJ__Number=Sing	4	amod	_	_
+5	"	"	PUNCT	_	PUNCT___	4	punct	_	_
+6	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Le vendeur vous voulez dire ?
+1	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	vendeur	vendeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	vous	vous	PRON	_	PRON__Number=Plur|Person=2	4	iobj	_	_
+4	voulez	vouloir	AUX	_	AUX__Mood=Cnd|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	dire	dire	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+6	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Pourquoi saisirait-il le Tcom ?
+1	Pourquoi	pourquoi	ADV	_	ADV__PronType=Int	1	advmod	_	_
+2	saisirait	saisir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+3	-	-	PUNCT	_	PUNCT___	4	punct	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+6	Tcom	tcom	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+7	?	?	PUNCT	_	PUNCT___	4	punct	_	_
+
+

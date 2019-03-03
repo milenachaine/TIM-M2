@@ -1,0 +1,105 @@
+#Bonjour, Alors là, ça se complique !
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Alors	alors	ADV	_	ADV___	8	advmod	_	_
+4	là	là	ADV	_	ADV___	3	fixed	_	_
+5	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+6	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	nsubj	_	_
+7	se	se	PRON	_	PRON__Person=3|Reflex=Yes	8	expl	_	_
+8	complique	compliqu	ADJ	_	ADJ__Number=Sing	1	acl:relcl	_	_
+9	 	  	SPACE	_		8		_	_
+10	!	!	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#La maison a été édifiée sur un terrain en copropriété horizontale.
+1	La	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj:pass	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+4	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	3	aux:pass	_	_
+5	édifiée	édifier	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+6	sur	sur	ADP	_	ADP___	8	case	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	terrain	terrain	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+9	en	en	ADP	_	ADP___	8	case	_	_
+10	copropriété	copropriété	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+11	horizontale	horizontal	ADJ	_	ADJ__Gender=Fem|Number=Sing	12	amod	_	_
+12	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#A l'époque, le plan d'occupation des sols ne permettait pas de scinder le terrain en 2 lots, du coup, le constructeur avait utilisé cette astuce pour pouvoir construire 2 maisons.
+1	A	A	ADP	_	ADP___	1	case	_	_
+2	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+3	époque	époque	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+4	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	plan	plan	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nsubj	_	_
+7	d'	de	ADP	_	ADP___	8	case	_	_
+8	occupation	occupation	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+9	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
+10	sols	sol	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	obj	_	_
+11	ne	ne	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+12	permettait	permettre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+13	pas	pas	ADV	_	ADV__Polarity=Neg	15	advmod	_	_
+14	de	de	ADP	_	ADP___	15	mark	_	_
+15	scinder	scinder	VERB	_	VERB__VerbForm=Inf	15	xcomp	_	_
+16	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	terrain	terrain	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obj	_	_
+18	en	en	ADP	_	ADP___	15	case	_	_
+19	2	2	NUM	_	NUM__NumType=Card	20	nummod	_	_
+20	lots	lot	NOUN	_	NOUN__Gender=Masc|Number=Plur	18	obl	_	_
+21	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+22	du	du	DET	_	DET__Gender=Masc|Number=Sing	15	det	_	_
+23	coup	coup	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	obj	_	_
+24	,	,	PUNCT	_	PUNCT___	25	punct	_	_
+25	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+26	constructeur	constructeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	34	nsubj	_	_
+27	avait	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	aux	_	_
+28	utilisé	utiliser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	34	conj	_	_
+29	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	30	det	_	_
+30	astuce	astuce	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	obj	_	_
+31	pour	pour	ADP	_	ADP___	32	case	_	_
+32	pouvoir	pouvoir	AUX	_	AUX__VerbForm=Inf	30	aux	_	_
+33	construire	construire	VERB	_	VERB__VerbForm=Inf	34	xcomp	_	_
+34	2	2	NUM	_	NUM__NumType=Card	34	nummod	_	_
+35	maisons	maison	NOUN	_	NOUN__Gender=Masc|Number=Plur	34	obj	_	_
+36	.	.	PUNCT	_	PUNCT___	37	punct	_	_
+
+
+#La copropriété horizontale existe toujours aujourd'hui.
+1	La	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	copropriété	copropriété	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+3	horizontale	horizontal	ADJ	_	ADJ__Gender=Fem|Number=Sing	8	amod	_	_
+4	existe	exister	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	toujours	toujours	ADV	_	ADV___	6	advmod	_	_
+6	aujourd'hui	aujourd'huie	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+7	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Quid de la date d'acquisition du terrain en cas de sortie de la copropriété ?
+1	Quid	quid	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	de	de	ADP	_	ADP___	1	case	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+4	date	date	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nmod	_	_
+5	d'	de	ADP	_	ADP___	6	case	_	_
+6	acquisition	acquisition	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+7	du	du	DET	_	DET__Gender=Masc|Number=Sing	8	det	_	_
+8	terrain	terrain	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+9	en	en	ADP	_	ADP___	8	case	_	_
+10	cas	cas	NOUN	_	NOUN__Gender=Masc	1	fixed	_	_
+11	de	de	ADP	_	ADP___	12	fixed	_	_
+12	sortie	sortie	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	nmod	_	_
+13	de	de	ADP	_	ADP___	15	case	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	copropriété	copropriété	ADJ	_	ADJ__Gender=Fem|Number=Sing|NumType=Ord	15	nmod	_	_
+16	 	  	SPACE	_		18		_	_
+17	?	?	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Merci de votre attention.
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	de	de	ADP	_	ADP___	1	case	_	_
+3	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+4	attention	attention	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nmod	_	_
+5	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+

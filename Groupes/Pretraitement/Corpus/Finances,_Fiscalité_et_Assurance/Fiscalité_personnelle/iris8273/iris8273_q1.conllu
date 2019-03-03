@@ -1,0 +1,330 @@
+#Bonjour, Je souhaiterais avoir votre point de vue sur le cas de figure suivant :
+1	Bonjour	Bonjour	PROPN	_	PROPN___	5	mark	_	_
+2	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+3	Je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+4	souhaiterais	souhaiter	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	avoir	avoir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+6	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	7	nmod:poss	_	_
+7	point	point	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+8	de	de	ADP	_	ADP___	9	case	_	_
+9	vue	vue	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+10	sur	sur	ADP	_	ADP___	12	case	_	_
+11	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+13	de	de	ADP	_	ADP___	14	case	_	_
+14	figure	figure	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+15	suivant	suivant	ADJ	_	ADJ__Gender=Masc|Number=Sing	14	acl	_	_
+16	:	:	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Contexte :
+1	Contexte	contexte	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	:	:	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Mon épouse est dans une indivision successorale (oncle) pour une part de 1/12 (avec notamment ses frères et soeurs en représentation de leur père décédé).
+1	Mon	mon	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+2	épouse	épouse	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	dans	dan	ADP	_	ADP___	5	case	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+6	indivision	indivision	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+7	successorale	successoral	ADJ	_	ADJ__Gender=Fem|Number=Sing	5	amod	_	_
+8	(	(	PUNCT	_	PUNCT___	9	punct	_	_
+9	oncle	oncle	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	appos	_	_
+10	)	)	PUNCT	_	PUNCT___	12	punct	_	_
+11	pour	pour	ADP	_	ADP___	12	case	_	_
+12	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	fixed	_	_
+13	part	part	NOUN	_	NOUN__Number=Sing	14	fixed	_	_
+14	de	de	ADP	_	ADP___	12	fixed	_	_
+15	1/12	1/12	PRON	_	PRON__NumType=Card|PronType=Rel	14	nmod	_	_
+16	(	(	PUNCT	_	PUNCT___	5	punct	_	_
+17	avec	avec	ADP	_	ADP___	17	case	_	_
+18	notamment	notamment	ADV	_	ADV___	17	advmod	_	_
+19	ses	son	DET	_	DET__Number=Plur|Poss=Yes	20	nmod:poss	_	_
+20	frères	frère	NOUN	_	NOUN__Gender=Masc|Number=Plur	24	nmod	_	_
+21	et	et	CCONJ	_	CCONJ___	24	cc	_	_
+22	soeurs	soeur	NOUN	_	NOUN__Gender=Fem|Number=Plur	24	conj	_	_
+23	en	en	ADP	_	ADP___	24	case	_	_
+24	représentation	représentation	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	nmod	_	_
+25	de	de	ADP	_	ADP___	24	case	_	_
+26	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	24	nmod:poss	_	_
+27	père	père	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	nmod	_	_
+28	décédé	décédé	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	acl	_	_
+29	)	)	PUNCT	_	PUNCT___	33	punct	_	_
+30	.	.	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#Un bien immobilier ( corps de ferme à réhabiliter)va être mis en vente , pour un prix supérieur à la valeur déclarée aux impots.
+1	Un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+2	bien	bien	ADV	_	ADV___	0	ROOT	_	_
+3	immobilier	immobilier	ADJ	_	ADJ__Gender=Masc|Number=Sing	5	amod	_	_
+4	(	(	PUNCT	_	PUNCT___	5	punct	_	_
+5	corps	corps	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	appos	_	_
+6	de	de	ADP	_	ADP___	7	fixed	_	_
+7	ferme	ferme	ADJ	_	ADJ__Number=Sing	5	amod	_	_
+8	à	à	ADP	_	ADP___	9	case	_	_
+9	réhabiliter)va	réhabiliter)ver	VERB	_	VERB__VerbForm=Inf	7	dep	_	_
+10	être	être	AUX	_	AUX__VerbForm=Inf	12	aux:pass	_	_
+11	mis	mettre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part|Voice=Pass	12	xcomp	_	_
+12	en	en	ADP	_	ADP___	7	case	_	_
+13	vente	vente	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obl	_	_
+14	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+15	pour	pour	ADP	_	ADP___	14	case	_	_
+16	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+17	prix	prix	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obl	_	_
+18	supérieur	supérieur	ADJ	_	ADJ__Gender=Masc|Number=Sing	17	amod	_	_
+19	à	à	ADP	_	ADP___	20	case	_	_
+20	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+21	valeur	valeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	obl	_	_
+22	déclarée	déclarer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	24	obl	_	_
+23	aux	aux	ADJ	_	ADJ__Gender=Masc|Number=Plur	24	case	_	_
+24	impots	impot	NOUN	_	NOUN__Gender=Masc|Number=Plur	24	nmod	_	_
+25	.	.	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#Si l'opération se réalise ( vente à un tiers), la plus value sera , de façon générale, au taux de 37.2%, auprès de chaque indivisaire.
+1	Si	Si	SCONJ	_	SCONJ___	5	mark	_	_
+2	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+3	opération	opération	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nsubj	_	_
+4	se	se	PRON	_	PRON__Person=3|Reflex=Yes	5	expl	_	_
+5	réalise	réaliser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+6	(	(	PUNCT	_	PUNCT___	7	punct	_	_
+7	vente	vente	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obl	_	_
+8	à	à	ADP	_	ADP___	9	case	_	_
+9	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+10	tiers	tiers	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nmod	_	_
+11	)	)	PUNCT	_	PUNCT___	12	punct	_	_
+12	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	plus	plus	ADV	_	ADV___	12	advmod	_	_
+15	value	valu	ADJ	_	ADJ__Gender=Fem|Number=Sing	0	ROOT	_	_
+16	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	advmod	_	_
+17	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+18	de	de	ADP	_	ADP___	17	case	_	_
+19	façon	façon	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	conj	_	_
+20	générale	général	ADJ	_	ADJ__Gender=Fem|Number=Sing	24	amod	_	_
+21	,	,	PUNCT	_	PUNCT___	24	punct	_	_
+22	au	au	DET	_	DET__Number=Plur|PronType=Dem	24	det	_	_
+23	taux	taux	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	conj	_	_
+24	de	de	ADP	_	ADP___	24	case	_	_
+25	37.2	37.2	NUM	_	NUM__NumType=Card	24	nummod	_	_
+26	%	%	NOUN	_	NOUN__Gender=Masc	24	nmod	_	_
+27	,	,	PUNCT	_	PUNCT___	24	punct	_	_
+28	auprès	auprès	ADP	_	ADP___	24	case	_	_
+29	de	de	ADP	_	ADP___	33	fixed	_	_
+30	chaque	chaque	DET	_	DET__Number=Sing	29	det	_	_
+31	indivisaire	indivisair	ADJ	_	ADJ__Number=Sing	29	obl	_	_
+32	.	.	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#J'écarte volontairement les cas possibles d'exonération du type quote part individuelle du prix de vente ( inférieur à 15ke pour certains indivisaires) pour poser ma problématique:
+1	J'	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+2	écarte	écarter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	volontairement	volontairement	ADV	_	ADV___	5	advmod	_	_
+4	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+5	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	obj	_	_
+6	possibles	possible	ADJ	_	ADJ__Number=Plur	7	amod	_	_
+7	d'	de	ADP	_	ADP___	5	case	_	_
+8	exonération	exonération	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nmod	_	_
+9	du	du	DET	_	DET__Gender=Masc|Number=Sing	7	det	_	_
+10	type	type	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nmod	_	_
+11	quote	quote	ADJ	_	ADJ__Number=Sing	12	nmod	_	_
+12	part	part	NOUN	_	NOUN__Number=Sing	7	fixed	_	_
+13	individuelle	individuel	ADJ	_	ADJ__Gender=Fem|Number=Sing	14	amod	_	_
+14	du	du	DET	_	DET__Gender=Masc|Number=Sing	12	det	_	_
+15	prix	prix	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obj	_	_
+16	de	de	ADP	_	ADP___	5	case	_	_
+17	vente	vente	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	nmod	_	_
+18	(	(	PUNCT	_	PUNCT___	17	punct	_	_
+19	inférieur	inférieur	ADJ	_	ADJ__Gender=Masc|Number=Sing	20	appos	_	_
+20	à	à	ADP	_	ADP___	24	case	_	_
+21	15ke	15ke	PRON	_	PRON__NumType=Card|PronType=Rel	24	nmod	_	_
+22	pour	pour	ADP	_	ADP___	24	case	_	_
+23	certains	certain	DET	_	DET__Gender=Masc|Number=Plur	24	nmod	_	_
+24	indivisaires	indivisaire	NOUN	_	NOUN__Number=Plur	24	amod	_	_
+25	)	)	PUNCT	_	PUNCT___	24	punct	_	_
+26	pour	pour	ADP	_	ADP___	24	mark	_	_
+27	poser	poser	VERB	_	VERB__VerbForm=Inf	24	advcl	_	_
+28	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	24	nmod:poss	_	_
+29	problématique	problématique	NOUN	_	NOUN__Gender=Fem|Number=Sing	33	obj	_	_
+30	:	:	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#Que se passe t'il si le bien est acquis par le fils d'un des co indivisaires ?
+1	Que	que	PRON	_	PRON__PronType=Int	5	mark	_	_
+2	se	se	PRON	_	PRON__Person=3|Reflex=Yes	5	expl	_	_
+3	passe	passer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	t'	t	SCONJ	_	SCONJ___	5	advmod	_	_
+5	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	obj	_	_
+6	si	si	SCONJ	_	SCONJ___	7	mark	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+8	bien	bien	ADV	_	ADV___	9	nsubj:pass	_	_
+9	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+10	acquis	acquérir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	acl	_	_
+11	par	par	ADP	_	ADP___	12	case	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+13	fils	fils	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obl	_	_
+14	d'	de	ADP	_	ADP___	12	case	_	_
+15	un	un	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	14	det	_	_
+16	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
+17	co	co	NOUN	_	NOUN__Gender=Masc|Number=Plur	17	obl	_	_
+18	indivisaires	indivisair	ADJ	_	ADJ__Number=Plur	17	amod	_	_
+19	?	?	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#En l'occurrence, ce pourrait être l'un de nos neveux .
+1	En	En	ADP	_	ADP___	5	case	_	_
+2	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+3	occurrence	occurrence	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+5	ce	ce	PRON	_	PRON__PronType=Rel	5	det	_	_
+6	pourrait	pouvoir	VERB	_	VERB__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cc	_	_
+7	être	être	AUX	_	AUX__VerbForm=Inf	5	cop	_	_
+8	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	un	un	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	7	conj	_	_
+10	de	de	ADP	_	ADP___	12	case	_	_
+11	nos	notre	DET	_	DET__Number=Plur|Poss=Yes	12	nmod:poss	_	_
+12	neveux	neveu	ADJ	_	ADJ__Gender=Masc	7	nmod	_	_
+13	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Celui-ci n'est pas à ce jour dans l'indivision, puisque c'est son père qui en est membre originaire.
+1	Celui-ci	celui-ci	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Dem	5	nsubj	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+5	à	à	ADP	_	ADP___	5	case	_	_
+6	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+8	dans	dan	ADP	_	ADP___	9	case	_	_
+9	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+10	indivision	indivision	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obl	_	_
+11	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+12	puisque	puisque	SCONJ	_	SCONJ___	7	cc	_	_
+13	c'	ce	PRON	_	PRON__Number=Sing|Person=3	14	nsubj	_	_
+14	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+15	son	son	DET	_	DET__Number=Sing|Poss=Yes	14	nmod:poss	_	_
+16	père	père	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	conj	_	_
+17	qui	qui	PRON	_	PRON__PronType=Rel	17	nsubj	_	_
+18	en	en	PRON	_	PRON__Person=3	17	iobj	_	_
+19	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+20	membre	membre	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	acl:relcl	_	_
+21	originaire	originaire	ADJ	_	ADJ__Number=Sing	24	amod	_	_
+22	.	.	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#C'est précisément cette notion de "membre originaire" ( contenu dans l'article 150 U du Cgi) qui me pose interrogation avec des interprétations différentes de 2 notaires)
+1	C'	ce	PRON	_	PRON__Number=Sing|Person=3	5	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	précisément	précisément	ADV	_	ADV___	5	advmod	_	_
+4	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	notion	notion	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nsubj	_	_
+6	de	de	ADP	_	ADP___	7	case	_	_
+7	"	"	PUNCT	_	PUNCT___	5	punct	_	_
+8	membre	membre	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nmod	_	_
+9	originaire	originaire	ADJ	_	ADJ__Number=Sing	7	amod	_	_
+10	"	"	PUNCT	_	PUNCT___	12	punct	_	_
+11	(	(	PUNCT	_	PUNCT___	12	punct	_	_
+12	contenu	contenu	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	acl	_	_
+13	dans	dan	ADP	_	ADP___	14	case	_	_
+14	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+15	article	article	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obl	_	_
+16	150	150	NUM	_	NUM__NumType=Card	5	nummod	_	_
+17	U	u	NOUN	_	NOUN___	0	ROOT	_	_
+18	du	du	DET	_	DET__Gender=Masc|Number=Sing	17	det	_	_
+19	Cgi	Cgi	PROPN	_	PROPN__Gender=Masc|Number=Sing	20	obj	_	_
+20	)	)	PUNCT	_	PUNCT___	24	punct	_	_
+21	qui	qui	PRON	_	PRON__PronType=Rel	24	nsubj	_	_
+22	me	se	PRON	_	PRON__Number=Sing|Person=1	24	iobj	_	_
+23	pose	poser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
+24	interrogation	interrogation	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	obj	_	_
+25	avec	avec	ADP	_	ADP___	24	case	_	_
+26	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	24	det	_	_
+27	interprétations	interprétation	NOUN	_	NOUN__Gender=Fem|Number=Plur	24	obl	_	_
+28	différentes	différent	ADJ	_	ADJ__Gender=Fem|Number=Plur	24	amod	_	_
+29	de	de	ADP	_	ADP___	33	case	_	_
+30	2	2	NUM	_	NUM__NumType=Card	29	nummod	_	_
+31	notaires	notair	ADJ	_	ADJ__Number=Plur	29	nmod	_	_
+32	)	)	PUNCT	_	PUNCT___	29	punct	_	_
+
+
+#Pour l'un, le neveu est à considérer à ce jour comme un tiers à l'indivision ( père membre originaire, non décédé).
+1	Pour	Pour	ADP	_	ADP___	5	case	_	_
+2	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+3	un	un	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	5	obl	_	_
+4	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+6	neveu	neveu	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nsubj	_	_
+7	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+8	à	à	ADP	_	ADP___	9	mark	_	_
+9	considérer	considérer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+10	à	à	ADP	_	ADP___	12	case	_	_
+11	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
+12	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+13	comme	comme	ADP	_	ADP___	14	case	_	_
+14	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+15	tiers	tiers	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obl	_	_
+16	à	à	ADP	_	ADP___	5	case	_	_
+17	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+18	indivision	indivision	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	nmod	_	_
+19	(	(	PUNCT	_	PUNCT___	20	punct	_	_
+20	père	père	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	appos	_	_
+21	membre	membre	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	nmod	_	_
+22	originaire	originaire	ADJ	_	ADJ__Number=Sing	24	amod	_	_
+23	,	,	PUNCT	_	PUNCT___	24	punct	_	_
+24	non	non	ADV	_	ADV___	24	advmod	_	_
+25	décédé	décéder	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	conj	_	_
+26	)	)	PUNCT	_	PUNCT___	24	punct	_	_
+27	.	.	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#Il n'y aurait donc pas de régime de faveur, et donc plus value taxable.
+1	Il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+3	y	yu	PRON	_	PRON__Person=3	5	expl	_	_
+4	aurait	avoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	donc	donc	ADV	_	ADV___	5	advmod	_	_
+6	pas	pas	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+7	de	de	ADP	_	ADP___	5	det	_	_
+8	régime	régime	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+9	de	de	ADP	_	ADP___	7	case	_	_
+10	faveur	faveur	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+11	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+12	et	et	CCONJ	_	CCONJ___	7	cc	_	_
+13	donc	donc	ADV	_	ADV___	14	advmod	_	_
+14	plus	plus	ADV	_	ADV___	12	advmod	_	_
+15	value	valu	ADJ	_	ADJ__Gender=Fem|Number=Sing	14	conj	_	_
+16	taxable	taxable	ADJ	_	ADJ__Number=Sing	5	obj	_	_
+17	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Pour l'autre, aucune plus value ne serait due.
+1	Pour	Pour	ADP	_	ADP___	5	case	_	_
+2	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+3	autre	autre	PRON	_	PRON__Number=Sing|PronType=Rel	5	obl	_	_
+4	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+5	aucune	aucun	DET	_	DET__Gender=Fem|Number=Sing	5	det	_	_
+6	plus	plus	ADV	_	ADV___	7	advmod	_	_
+7	value	valu	ADJ	_	ADJ__Gender=Fem|Number=Sing	5	nsubj	_	_
+8	ne	ne	ADV	_	ADV___	9	advmod	_	_
+9	serait	être	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+10	due	du	ADJ	_	ADJ__Gender=Fem|Number=Sing	0	ROOT	_	_
+11	.	.	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Vous en remerciant à l'avance de l'éclairage sur cette question
+1	Vous	vous	PRON	_	PRON__Number=Plur|Person=2	0	ROOT	_	_
+2	en	en	ADP	_	ADP___	5	expl	_	_
+3	remerciant	remercier	VERB	_	VERB__Tense=Pres|VerbForm=Part	5	acl	_	_
+4	à	à	ADP	_	ADP___	5	case	_	_
+5	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+6	avance	avance	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obl	_	_
+7	de	de	ADP	_	ADP___	5	case	_	_
+8	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	éclairage	éclairage	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+10	sur	sur	ADP	_	ADP___	12	case	_	_
+11	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+12	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obl	_	_
+
+

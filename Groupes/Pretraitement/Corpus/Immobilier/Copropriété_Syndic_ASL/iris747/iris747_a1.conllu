@@ -1,0 +1,79 @@
+#Bonjour, Est-ce une copropriété (avec division en "lots" = logements ou caves) et un règlement de copropriété ?
+1	Bonjour	Bonjour	PROPN	_	PROPN___	6	case	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	Est	être		_	VERB	1	conj	_	_
+4	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	3	flat:name	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	copropriété	copropriété	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+7	(	(	PUNCT	_	PUNCT___	6	punct	_	_
+8	avec	avec	ADP	_	ADP___	9	case	_	_
+9	division	division	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+10	en	en	ADP	_	ADP___	12	case	_	_
+11	"	"	PUNCT	_	PUNCT___	12	punct	_	_
+12	lots	lot	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	nmod	_	_
+13	"	"	PUNCT	_	PUNCT___	15	punct	_	_
+14	=	=	VERB	_	VERB__Mood=Ind|Person=3|VerbForm=Fin	15	amod	_	_
+15	logements	logement	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	amod	_	_
+16	ou	ou	CCONJ	_	CCONJ___	17	cc	_	_
+17	caves	cave	NOUN	_	NOUN__Gender=Fem|Number=Plur	12	conj	_	_
+18	)	)	PUNCT	_	PUNCT___	12	punct	_	_
+19	et	et	CCONJ	_	CCONJ___	21	cc	_	_
+20	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	règlement	règlement	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	conj	_	_
+22	de	de	ADP	_	ADP___	23	case	_	_
+23	copropriété	copropriété	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	nmod	_	_
+24	?	?	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#ou bien est-ce une indivision (= vous êtes tous propriétaires d'un pourcentage de l'immeuble) ?
+1	ou	ou	CCONJ	_	CCONJ___	6	cc	_	_
+2	bien	bien	ADV	_	ADV___	3	advmod	_	_
+3	est	être		_	VERB	1	cop	_	_
+4	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	3	nsubj	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	indivision	indivision	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+7	(=	(=	PUNCT	_	PUNCT___	6	punct	_	_
+8	vous	vous	PRON	_	PRON__Number=Plur|Person=2	9	nsubj	_	_
+9	êtes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	cop	_	_
+10	tous	tou	ADJ	_	ADJ__Gender=Masc|Number=Plur	12	det	_	_
+11	propriétaires	propriétaire	NOUN	_	NOUN__Number=Plur	12	nmod	_	_
+12	d'	de	ADP	_	ADP___	9	case	_	_
+13	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	pourcentage	pourcentage	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nmod	_	_
+15	de	de	ADP	_	ADP___	12	case	_	_
+16	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	immeuble	immeuble	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nmod	_	_
+18	)	)	PUNCT	_	PUNCT___	12	punct	_	_
+19	?	?	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#C'est très différent !
+1	C'	ce	PRON	_	PRON__Number=Sing|Person=3	6	nsubj	_	_
+2	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	très	très	ADV	_	ADV___	1	advmod	_	_
+4	différent	différent	ADV	_	ADV___	0	ROOT	_	_
+5	!	!	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Si vous ne savez pas, relisez votre acte de propriété ou posez la question à votre notaire.
+1	Si	Si	SCONJ	_	SCONJ___	6	mark	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	3	nsubj	_	_
+3	ne	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+4	savez	savoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+6	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+7	relisez	relire	ADP	_	ADP___	0	ROOT	_	_
+8	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	9	nmod:poss	_	_
+9	acte	acte	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+10	de	de	ADP	_	ADP___	12	case	_	_
+11	propriété	propriété	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nmod	_	_
+12	ou	ou	CCONJ	_	CCONJ___	9	cc	_	_
+13	posez	poser	NOUN	_	NOUN__Gender=Fem|Number=Plur	15	conj	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obj	_	_
+16	à	à	ADP	_	ADP___	17	case	_	_
+17	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	12	nmod:poss	_	_
+18	notaire	notaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obl	_	_
+19	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+

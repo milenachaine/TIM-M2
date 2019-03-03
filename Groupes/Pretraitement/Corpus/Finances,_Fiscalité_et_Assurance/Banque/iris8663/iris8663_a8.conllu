@@ -1,0 +1,82 @@
+#rien nous dit que le commerçant a régulièrement encaissé le chèque où il y aurait un manque d'imputation sur la commande.
+1	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	3	nsubj	_	_
+2	nous	nous	PRON	_	PRON__Number=Plur|Person=1	3	iobj	_	_
+3	dit	dire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	que	que	SCONJ	_	SCONJ___	9	mark	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	commerçant	commerçant	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nsubj	_	_
+7	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	régulièrement	régulièrement	ADV	_	ADV___	9	advmod	_	_
+9	encaissé	encaisser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
+10	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	chèque	chèque	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+12	où	où	PRON	_	PRON__PronType=Rel	13	iobj	_	_
+13	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	11	acl:relcl	_	_
+14	y	yu	PRON	_	PRON__Person=3	13	fixed	_	_
+15	aurait	avoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	fixed	_	_
+16	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	manque	manque	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+18	d'	de	ADP	_	ADP___	19	case	_	_
+19	imputation	imputation	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	nmod	_	_
+20	sur	sur	ADP	_	ADP___	22	case	_	_
+21	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	commande	commande	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	nmod	_	_
+23	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#Donc déjà obtenir la copie de chèque, puis après
+1	Donc	donc	ADV	_	ADV___	3	advmod	_	_
+2	déjà	déjà	ADV	_	ADV___	3	advmod	_	_
+3	obtenir	obtenir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+5	copie	copie	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obj	_	_
+6	de	de	ADP	_	ADP___	9	case	_	_
+7	chèque	chèque	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nmod	_	_
+8	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+9	puis	pouvoir	CCONJ	_	CCONJ___	3	cc	_	_
+10	après	après	ADP	_	ADP___	11	conj	_	_
+
+
+#- si l'ordre du chèque est le commerçant, faire une réclamation au commerçant
+1	-	-	PUNCT	_	PUNCT___	3	punct	_	_
+2	si	si	SCONJ	_	SCONJ___	3	mark	_	_
+3	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+4	ordre	ordre	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	advcl	_	_
+5	du	du	DET	_	DET__Gender=Masc|Number=Sing	6	det	_	_
+6	chèque	chèque	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+7	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	obj	_	_
+9	commerçant	commerçant	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	acl	_	_
+10	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+11	faire	faire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+12	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	réclamation	réclamation	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obj	_	_
+14	au	au	PRON	_	PRON__PronType=Rel	13	obj	_	_
+15	commerçant	commercer	VERB	_	VERB__Tense=Pres|VerbForm=Part	13	xcomp	_	_
+
+
+#- si l'ordre est falsifié, demander à la banque de rembourser ayant commis une faute en payant le chèque falsifié
+1	-	-	PUNCT	_	PUNCT___	3	punct	_	_
+2	si	si	SCONJ	_	SCONJ___	3	mark	_	_
+3	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+4	ordre	ordre	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nsubj:pass	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	falsifié	falsifier	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+7	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+8	demander	demander	VERB	_	VERB__VerbForm=Inf	9	acl	_	_
+9	à	à	ADP	_	ADP___	3	case	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	banque	banque	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obl	_	_
+12	de	de	ADP	_	ADP___	13	mark	_	_
+13	rembourser	rembourser	VERB	_	VERB__VerbForm=Inf	11	nmod	_	_
+14	ayant	avoir	AUX	_	AUX__Tense=Pres|VerbForm=Part	13	aux	_	_
+15	commis	commettre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	13	xcomp	_	_
+16	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	faute	faute	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obj	_	_
+18	en	en	ADP	_	ADP___	19	mark	_	_
+19	payant	payer	VERB	_	VERB__Tense=Pres|VerbForm=Part	17	advcl	_	_
+20	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	chèque	chèque	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	obj	_	_
+22	falsifié	falsifier	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	amod	_	_
+
+

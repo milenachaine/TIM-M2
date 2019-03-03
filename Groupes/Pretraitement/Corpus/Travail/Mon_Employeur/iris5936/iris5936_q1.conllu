@@ -1,0 +1,141 @@
+#Bonjour et merci par avance
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	et	et	CCONJ	_	CCONJ___	3	cc	_	_
+3	merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	conj	_	_
+4	par	par	ADP	_	ADP___	5	case	_	_
+5	avance	avance	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nmod	_	_
+
+
+#Commerciale depuis deux ans , rémunérée fixe et pourcentage
+1	Commerciale	commercial	ADJ	_	ADJ__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	depuis	depuis	ADP	_	ADP___	3	case	_	_
+3	deux	deux	NUM	_	NUM__NumType=Card	1	nummod	_	_
+4	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	nmod	_	_
+5	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+6	rémunérée	rémunérer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+7	fixe	fixe	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	xcomp	_	_
+8	et	et	CCONJ	_	CCONJ___	9	cc	_	_
+9	pourcentage	pourcentage	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	conj	_	_
+
+
+#Mon patron est décédé et la société mise en liquidation....
+1	Mon	mon	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	patron	patron	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
+4	décédé	décédé	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+5	et	et	CCONJ	_	CCONJ___	3	cc	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+7	société	société	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obl	_	_
+8	mise	mettre	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+9	en	en	ADP	_	ADP___	6	case	_	_
+10	liquidation	liquidation	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obl	_	_
+11	....	....	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Pas de salaire depuis fin novembre (décès du patron mi décembre)
+1	Pas	pas	ADV	_	ADV___	1	advmod	_	_
+2	de	de	ADP	_	ADP___	3	case	_	_
+3	salaire	salaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	depuis	depuis	ADP	_	ADP___	5	case	_	_
+5	fin	fin	NOUN	_	NOUN__Number=Sing	3	det	_	_
+6	novembre	novembre	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nmod	_	_
+7	(	(	PUNCT	_	PUNCT___	9	punct	_	_
+8	décès	décès	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	appos	_	_
+9	du	du	DET	_	DET__Gender=Masc|Number=Sing	6	det	_	_
+10	patron	patron	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+11	mi	mi	ADP	_	ADP___	6	case	_	_
+12	décembre	décembre	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+13	)	)	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Ma question est : Le mandataire va t il me règler les commissions qui représentent une grosse partie du salaire ?
+1	Ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+4	:	:	PUNCT	_	PUNCT___	5	punct	_	_
+5	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+6	mandataire	mandataire	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nsubj	_	_
+7	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	t	t	NOUN	_	NOUN___	9	mark	_	_
+9	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+10	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	6	iobj	_	_
+11	règler	règler	VERB	_	VERB__VerbForm=Inf	6	xcomp	_	_
+12	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	11	det	_	_
+13	commissions	commission	NOUN	_	NOUN__Gender=Fem|Number=Plur	14	obj	_	_
+14	qui	qui	PRON	_	PRON__PronType=Rel	12	nsubj	_	_
+15	représentent	représenter	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+16	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	grosse	gros	ADJ	_	ADJ__Gender=Fem|Number=Sing	18	amod	_	_
+18	partie	partie	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	obj	_	_
+19	du	du	DET	_	DET__Gender=Masc|Number=Sing	21	det	_	_
+20	salaire	salaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obj	_	_
+21	?	?	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#J'ai Droit à deux mois de préavis , seront ils calculés sur la base smic ou avec une moyenne incluant les salaires antérieurs avec commission ?
+1	J'	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	Droit	Droit	PROPN	_	PROPN__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	à	à	ADP	_	ADP___	5	case	_	_
+5	deux	deux	NUM	_	NUM__NumType=Card	3	nummod	_	_
+6	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	obl	_	_
+7	de	de	ADP	_	ADP___	9	case	_	_
+8	préavis	préavis	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	nmod	_	_
+9	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+10	seront	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	6	aux:pass	_	_
+11	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	6	nsubj	_	_
+12	calculés	calculer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	11	conj	_	_
+13	sur	sur	ADP	_	ADP___	14	case	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+15	base	base	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obl	_	_
+16	smic	smic	ADJ	_	ADJ__Number=Sing	18	amod	_	_
+17	ou	ou	CCONJ	_	CCONJ___	18	cc	_	_
+18	avec	avec	ADP	_	ADP___	18	case	_	_
+19	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	moyenne	moyenne	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	conj	_	_
+21	incluant	inclure	VERB	_	VERB__Tense=Pres|VerbForm=Part	18	acl	_	_
+22	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	21	det	_	_
+23	salaires	salaire	NOUN	_	NOUN__Gender=Masc|Number=Plur	24	obj	_	_
+24	antérieurs	antérieur	NOUN	_	NOUN__Gender=Masc|Number=Plur	22	acl	_	_
+25	avec	avec	ADP	_	ADP___	18	case	_	_
+26	commission	commission	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	obl	_	_
+27	?	?	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#A ce jour je n'ai reçu que deux fiche de paye au smic,rien sur les commissions Et toujours aucun virement ... Merci à tous si vous pouvez m'eclairer Bonne journée
+1	A	A	ADP	_	ADP___	1	advmod	_	_
+2	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+4	je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+5	n'	ne	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+6	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+7	reçu	recevoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+8	que	que	SCONJ	_	SCONJ___	9	mark	_	_
+9	deux	deux	NUM	_	NUM__NumType=Card	6	nummod	_	_
+10	fiche	fiche	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nsubj	_	_
+11	de	de	ADP	_	ADP___	6	case	_	_
+12	paye	paye	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	aux	_	_
+13	au	au	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	nsubj	_	_
+14	smic	smic	ADJ	_	ADJ__Gender=Masc|Number=Sing	12	nmod	_	_
+15	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+16	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	18	appos	_	_
+17	sur	sur	ADP	_	ADP___	18	case	_	_
+18	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	18	det	_	_
+19	commissions	commission	NOUN	_	NOUN__Gender=Fem|Number=Plur	21	nmod	_	_
+20	Et	Et	CCONJ	_	CCONJ___	21	cc	_	_
+21	toujours	toujours	ADV	_	ADV___	18	advmod	_	_
+22	aucun	aucun	DET	_	DET__Gender=Masc|Number=Sing	21	det	_	_
+23	virement	virement	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	conj	_	_
+24	...	...	PUNCT	_	PUNCT___	22	punct	_	_
+25	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	appos	_	_
+26	à	à	ADP	_	ADP___	28	case	_	_
+27	tous	tou	ADJ	_	ADJ__Gender=Masc|Number=Plur	28	nmod	_	_
+28	si	si	SCONJ	_	SCONJ___	28	mark	_	_
+29	vous	vous	PRON	_	PRON__Number=Plur|Person=2	31	nsubj	_	_
+30	pouvez	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	31	aux	_	_
+31	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	28	expl	_	_
+32	eclairer	eclairer	VERB	_	VERB__VerbForm=Inf	31	ccomp	_	_
+33	Bonne	bon	ADJ	_	ADJ__Gender=Fem|Number=Sing	31	amod	_	_
+34	journée	journée	NOUN	_	NOUN__Gender=Fem|Number=Sing	35	obj	_	_
+
+

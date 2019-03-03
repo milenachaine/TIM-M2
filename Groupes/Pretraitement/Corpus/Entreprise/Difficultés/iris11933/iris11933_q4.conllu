@@ -1,0 +1,69 @@
+#Bonjour Nedelka , bonjour à tous .
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	Nedelka	Nedelka	PROPN	_	PROPN___	1	flat:name	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	bonjour	bonjour	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	acl	_	_
+5	à	à	ADP	_	ADP___	6	case	_	_
+6	tous	tout	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Rel	4	obl	_	_
+7	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Merci pour votre réponse L’arrêté municipal datait de 1978 , mais je n'avais pas connaissance de celui ci puisque je me suis basé sur le code du commerce .
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+2	pour	pour	ADP	_	ADP___	1	case	_	_
+3	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+4	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+5	L’	L’	PROPN	_	PROPN__Gender=Fem|Number=Sing	6	nmod	_	_
+6	arrêté	arrêter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	acl	_	_
+7	municipal	municipal	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	amod	_	_
+8	datait	dater	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+9	de	de	ADP	_	ADP___	11	case	_	_
+10	1978	1978	NUM	_	NUM__NumType=Card	11	nummod	_	_
+11	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+12	mais	mais	CCONJ	_	CCONJ___	11	cc	_	_
+13	je	il	PRON	_	PRON__Number=Sing|Person=1	11	nsubj	_	_
+14	n'	ne	ADV	_	ADV__Polarity=Neg	13	advmod	_	_
+15	avais	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	15	conj	_	_
+16	pas	pas	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+17	connaissance	connaissance	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obj	_	_
+18	de	de	ADP	_	ADP___	15	case	_	_
+19	celui	celui	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Dem	22	obl	_	_
+20	ci	ci	NOUN	_	NOUN__Gender=Fem	22	mark	_	_
+21	puisque	puisque	SCONJ	_	SCONJ___	22	fixed	_	_
+22	je	il	PRON	_	PRON__Number=Sing|Person=1	15	nsubj	_	_
+23	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	22	iobj	_	_
+24	suis	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	aux	_	_
+25	basé	baser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	advcl	_	_
+26	sur	sur	ADP	_	ADP___	22	case	_	_
+27	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+28	code	code	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	obl	_	_
+29	du	du	DET	_	DET__Gender=Masc|Number=Sing	32	det	_	_
+30	commerce	commerce	NOUN	_	NOUN__Gender=Masc|Number=Sing	32	obj	_	_
+31	.	.	PUNCT	_	PUNCT___	32	punct	_	_
+
+
+#D'ailleurs c'est sur ce code du commerce que c'est basé le tribunal administratif pour dire l’arrêté illégale.
+1	D'	D'	ADP	_	ADP___	1	advmod	_	_
+2	ailleurs	ailleur	NOUN	_	NOUN__Gender=Masc	1	fixed	_	_
+3	c'	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+5	sur	sur	ADP	_	ADP___	6	case	_	_
+6	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+7	code	code	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+8	du	du	DET	_	DET__Gender=Masc|Number=Sing	15	det	_	_
+9	commerce	commerce	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+10	que	que	SCONJ	_	SCONJ___	11	mark	_	_
+11	c'	ce	PRON	_	PRON__Number=Sing|Person=3	8	nsubj	_	_
+12	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+13	basé	baser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+14	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+15	tribunal	tribunal	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obj	_	_
+16	administratif	administratif	ADJ	_	ADJ__Gender=Masc|Number=Sing	17	amod	_	_
+17	pour	pour	ADP	_	ADP___	15	mark	_	_
+18	dire	dire	VERB	_	VERB__VerbForm=Inf	15	advcl	_	_
+19	l’	l’	PROPN	_	PROPN__Gender=Fem|Number=Sing	22	det	_	_
+20	arrêté	arrêter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	22	obj	_	_
+21	illégale	illégal	ADJ	_	ADJ__Gender=Fem|Number=Sing	22	amod	_	_
+22	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+

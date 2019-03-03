@@ -1,0 +1,71 @@
+#Bonjour, si cet huissier n'a pas de titre exécutoire, il n' a pas plus de pouvoir qu'une société de recouvrement, c'est à dire aucun.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	si	si	SCONJ	_	SCONJ___	7	mark	_	_
+4	cet	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	huissier	huissier	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nsubj	_	_
+6	n'	ne	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+7	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	_
+8	pas	pas	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+9	de	de	DET	_	DET__Definite=Ind|Number=Sing|PronType=Art	10	det	_	_
+10	titre	titre	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obj	_	_
+11	exécutoire	exécutoire	ADJ	_	ADJ__Number=Sing	10	amod	_	_
+12	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+13	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	20	nsubj	_	_
+14	n	n	NOUN	_	NOUN___	13	fixed	_	_
+15	'	'	PUNCT	_	PUNCT___	13	fixed	_	_
+16	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+17	pas	pas	ADV	_	ADV__Polarity=Neg	18	advmod	_	_
+18	plus	plus	ADV	_	ADV___	20	advmod	_	_
+19	de	de	ADP	_	ADP___	18	fixed	_	_
+20	pouvoir	pouvoir	VERB	_	VERB__VerbForm=Inf	1	nmod	_	_
+21	qu'	que	SCONJ	_	SCONJ___	30	mark	_	_
+22	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	société	société	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	nsubj	_	_
+24	de	de	ADP	_	ADP___	25	case	_	_
+25	recouvrement	recouvrement	NOUN	_	NOUN__Gender=Masc|Number=Sing	23	nmod	_	_
+26	,	,	PUNCT	_	PUNCT___	23	punct	_	_
+27	c'	ce	PRON	_	PRON__Number=Sing|Person=3	30	nsubj	_	_
+28	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+29	à	à	ADP	_	ADP___	30	mark	_	_
+30	dire	dire	VERB	_	VERB__VerbForm=Inf	20	ccomp	_	_
+31	aucun	aucun	DET	_	DET__Gender=Masc|Number=Sing	30	iobj	_	_
+32	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#pour pouvoir effectuer une saisie, l'huissier doit posséder un titre exécutoire.
+1	pour	pour	ADP	_	ADP___	1	mark	_	_
+2	pouvoir	pouvoir	AUX	_	AUX__VerbForm=Inf	1	aux	_	_
+3	effectuer	effectuer	VERB	_	VERB__VerbForm=Inf	7	advcl	_	_
+4	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	saisie	saisie	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+6	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+7	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+8	huissier	huissier	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nsubj	_	_
+9	doit	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	posséder	posséder	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+11	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+12	titre	titre	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obj	_	_
+13	exécutoire	exécutoire	ADJ	_	ADJ__Number=Sing	20	amod	_	_
+14	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#dans le cas de vos parents, la dette est prescrite.
+1	dans	dan	ADP	_	ADP___	1	case	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+3	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+4	de	de	ADP	_	ADP___	5	case	_	_
+5	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	7	nmod:poss	_	_
+6	parents	parent	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	nmod	_	_
+7	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+9	dette	dette	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nsubj:pass	_	_
+10	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+11	prescrite	prescrire	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+12	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#salutations
+1	salutations	salutation	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+
+

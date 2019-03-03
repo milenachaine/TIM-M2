@@ -1,0 +1,44 @@
+#Bonjour, Est-ce que vous en avez demandé le paiement?
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	Est	être		_	VERB	1	nmod	_	_
+4	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	3	amod	_	_
+5	que	que	SCONJ	_	SCONJ___	9	mark	_	_
+6	vous	vous	PRON	_	PRON__Number=Plur|Person=2	9	nsubj	_	_
+7	en	en	PRON	_	PRON__Person=3	9	iobj	_	_
+8	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	demandé	demander	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+10	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	paiement	paiement	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obj	_	_
+12	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Si oui, quelle était la réponse?
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	oui	oui	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	advcl	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	quelle	quel	DET	_	DET__Gender=Fem|Number=Sing|PronType=Int	3	nsubj	_	_
+5	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+7	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+8	?	?	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Si non, faites une demande avec le décompte de vos 107 heures supplémentaires.
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	non	non	ADV	_	ADV___	3	advmod	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	faites	faite	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+6	demande	demande	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obj	_	_
+7	avec	avec	ADP	_	ADP___	9	case	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	décompte	décompte	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+10	de	de	ADP	_	ADP___	11	case	_	_
+11	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	9	nmod:poss	_	_
+12	107	107	NUM	_	NUM__NumType=Card	1	nummod	_	_
+13	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	14	nmod	_	_
+14	supplémentaires	supplémentaire	ADJ	_	ADJ__Number=Plur	19	amod	_	_
+15	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+

@@ -1,0 +1,241 @@
+#Bonsoir, Pour expliquer en bref mon cas
+1	Bonsoir	Bonsoir	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Pour	Pour	ADP	_	ADP___	4	mark	_	_
+4	expliquer	expliquer	VERB	_	VERB__VerbForm=Inf	1	advcl	_	_
+5	en	en	ADP	_	ADP___	4	advmod	_	_
+6	bref	bref	ADV	_	ADV___	5	fixed	_	_
+7	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+8	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obj	_	_
+
+
+#..
+1	..	..	PUNCT	_	PUNCT___	0	ROOT	_	_
+
+
+#J'ai eu une relation de 10 ans avec une femme avec qui j'ai eu deux enfants mais qui avait déjà deux enfants avant..
+1	J'	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+4	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+5	relation	relation	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obj	_	_
+6	de	de	ADP	_	ADP___	5	case	_	_
+7	10	10	NUM	_	NUM__NumType=Card	8	nummod	_	_
+8	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	nmod	_	_
+9	avec	avec	ADP	_	ADP___	9	case	_	_
+10	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	femme	femme	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+12	avec	avec	ADP	_	ADP___	12	case	_	_
+13	qui	qui	PRON	_	PRON__PronType=Rel	14	nsubj	_	_
+14	j'	il	PRON	_	PRON__Number=Sing|Person=1	12	nsubj	_	_
+15	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl:relcl	_	_
+17	deux	deux	NUM	_	NUM__NumType=Card	14	nummod	_	_
+18	enfants	enfant	NOUN	_	NOUN__Number=Plur	20	obj	_	_
+19	mais	mais	CCONJ	_	CCONJ___	20	cc	_	_
+20	qui	qui	PRON	_	PRON__PronType=Rel	14	nsubj	_	_
+21	avait	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	conj	_	_
+22	déjà	déjà	ADV	_	ADV___	25	advmod	_	_
+23	deux	deux	NUM	_	NUM__NumType=Card	25	nummod	_	_
+24	enfants	enfant	NOUN	_	NOUN__Number=Plur	25	obj	_	_
+25	avant	avant	ADP	_	ADP___	20	case	_	_
+26	..	..	PUNCT	_	PUNCT___	27	advcl	_	_
+
+
+#Je me suis séparé d'elle pour une nouvelle relation et son frère ma agressé (coups de points.... devant chez elle) celui ci ma fait des menaces que si je porter pleinte qu'il raconterai plein de bêtises aux services sociaux il la fait ils sont venu chez moi.
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	1	iobj	_	_
+3	suis	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	séparé	séparer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	d'	de	ADP	_	ADP___	4	case	_	_
+6	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	5	obl	_	_
+7	pour	pour	ADP	_	ADP___	8	case	_	_
+8	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+9	nouvelle	nouveau	ADJ	_	ADJ__Gender=Fem|Number=Sing	9	amod	_	_
+10	relation	relation	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obl	_	_
+11	et	et	CCONJ	_	CCONJ___	12	cc	_	_
+12	son	son	DET	_	DET__Number=Sing|Poss=Yes	12	nmod:poss	_	_
+13	frère	frère	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	conj	_	_
+14	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	12	nmod:poss	_	_
+15	agressé	agresser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	obl	_	_
+16	(	(	PUNCT	_	PUNCT___	17	punct	_	_
+17	coups	coup	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	appos	_	_
+18	de	de	ADP	_	ADP___	20	case	_	_
+19	points	point	NOUN	_	NOUN__Gender=Masc|Number=Plur	20	nmod	_	_
+20	....	....	PUNCT	_	PUNCT___	14	punct	_	_
+21	devant	devoir	ADP	_	ADP___	22	case	_	_
+22	chez	chez	ADP	_	ADP___	25	case	_	_
+23	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	nmod	_	_
+24	)	)	PUNCT	_	PUNCT___	25	punct	_	_
+25	celui	celui	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Dem	20	nmod	_	_
+26	ci	ci	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Dem	27	case	_	_
+27	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	25	nmod:poss	_	_
+28	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	advcl	_	_
+29	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	30	det	_	_
+30	menaces	menace	NOUN	_	NOUN__Gender=Fem|Number=Plur	25	obj	_	_
+31	que	que	SCONJ	_	SCONJ___	30	fixed	_	_
+32	si	si	SCONJ	_	SCONJ___	33	mark	_	_
+33	je	il	PRON	_	PRON__Number=Sing|Person=1	30	nsubj	_	_
+34	porter	porter	VERB	_	VERB__VerbForm=Inf	35	acl:relcl	_	_
+35	pleinte	pleinte	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	obj	_	_
+36	qu'	que	SCONJ	_	SCONJ___	39	mark	_	_
+37	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	39	nsubj	_	_
+38	raconterai	raconter	NOUN	_	NOUN__Gender=Masc|Number=Sing	39	ccomp	_	_
+39	plein	plein	ADJ	_	ADJ__Gender=Masc|Number=Sing	39	advmod	_	_
+40	de	de	ADP	_	ADP___	41	case	_	_
+41	bêtises	bêtise	NOUN	_	NOUN__Gender=Fem|Number=Plur	39	obl	_	_
+42	aux	aux	ADJ	_	ADJ__Gender=Masc|Number=Plur	45	case	_	_
+43	services	service	NOUN	_	NOUN__Gender=Masc|Number=Plur	45	nmod	_	_
+44	sociaux	social	ADJ	_	ADJ__Gender=Masc|Number=Plur	45	amod	_	_
+45	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	39	amod	_	_
+46	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	obj	_	_
+47	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	48	fixed	_	_
+48	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	45	nsubj	_	_
+49	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	50	aux	_	_
+50	venu	venir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	39	acl:relcl	_	_
+51	chez	chez	ADP	_	ADP___	50	case	_	_
+52	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	50	obl	_	_
+53	.	.	PUNCT	_	PUNCT___	54	punct	_	_
+
+
+#Ils m'ont dit que j'avait taper les deux premiers enfants de madame qui ne sont pas les miens et que je les auraient pousser à la violence ce qui est très grave comme accusation sachant que ce n'est pas vrai.
+1	Ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	1	nsubj	_	_
+2	m'	se	PRON	_	PRON__Number=Sing|Person=1	1	obj	_	_
+3	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	dit	dire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	que	que	SCONJ	_	SCONJ___	4	mark	_	_
+6	j'	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+7	avait	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	taper	taper	VERB	_	VERB__VerbForm=Inf	4	ccomp	_	_
+9	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+10	deux	deux	NUM	_	NUM__NumType=Card	12	nummod	_	_
+11	premiers	premier	ADJ	_	ADJ__Gender=Masc|Number=Plur|NumType=Ord	12	amod	_	_
+12	enfants	enfant	NOUN	_	NOUN__Number=Plur	12	obj	_	_
+13	de	de	ADP	_	ADP___	14	case	_	_
+14	madame	madame	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+15	qui	qui	PRON	_	PRON__PronType=Rel	17	nsubj	_	_
+16	ne	ne	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+17	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+18	pas	pas	ADV	_	ADV__Polarity=Neg	20	advmod	_	_
+19	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	20	det	_	_
+20	miens	mien	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	acl:relcl	_	_
+21	et	et	CCONJ	_	CCONJ___	22	cc	_	_
+22	que	que	SCONJ	_	SCONJ___	25	mark	_	_
+23	je	il	PRON	_	PRON__Number=Sing|Person=1	25	nsubj	_	_
+24	les	le	PRON	_	PRON__Number=Plur|Person=3	25	obj	_	_
+25	auraient	avoir	AUX	_	AUX__Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+26	pousser	pousser	VERB	_	VERB__VerbForm=Inf	27	conj	_	_
+27	à	à	ADP	_	ADP___	25	case	_	_
+28	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+29	violence	violence	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	obl	_	_
+30	ce	ce	PRON	_	PRON__PronType=Rel	25	amod	_	_
+31	qui	qui	PRON	_	PRON__PronType=Rel	30	nsubj	_	_
+32	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	_
+33	très	très	ADV	_	ADV___	30	advmod	_	_
+34	grave	grave	ADJ	_	ADJ__Number=Sing	35	acl:relcl	_	_
+35	comme	comme	ADP	_	ADP___	30	case	_	_
+36	accusation	accusation	NOUN	_	NOUN__Gender=Fem|Number=Sing	39	nmod	_	_
+37	sachant	savoir	VERB	_	VERB__Tense=Pres|VerbForm=Part	39	acl	_	_
+38	que	que	SCONJ	_	SCONJ___	39	mark	_	_
+39	ce	ce	PRON	_	PRON__Number=Sing|Person=3	39	nsubj	_	_
+40	n'	ne	ADV	_	ADV__Polarity=Neg	41	advmod	_	_
+41	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	cop	_	_
+42	pas	pas	ADV	_	ADV__Polarity=Neg	45	advmod	_	_
+43	vrai	vrai	ADJ	_	ADJ__Gender=Masc|Number=Sing	45	ccomp	_	_
+44	.	.	PUNCT	_	PUNCT___	45	punct	_	_
+
+
+#Il faut savoir que je n'ai habité qu'un an avec cette femme parce que son éducation et sa façon de vivre n'était pas la mienne ...
+1	Il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	savoir	savoir	VERB	_	VERB__VerbForm=Inf	4	xcomp	_	_
+4	que	que	SCONJ	_	SCONJ___	1	mark	_	_
+5	je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+6	n'	ne	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+7	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	habité	habiter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	ccomp	_	_
+9	qu'	que	SCONJ	_	SCONJ___	9	mark	_	_
+10	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	an	an	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	ccomp	_	_
+12	avec	avec	ADP	_	ADP___	12	case	_	_
+13	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	14	det	_	_
+14	femme	femme	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nmod	_	_
+15	parce	parce	SCONJ	_	SCONJ___	17	mark	_	_
+16	que	que	SCONJ	_	SCONJ___	17	fixed	_	_
+17	son	son	DET	_	DET__Number=Sing|Poss=Yes	14	nmod:poss	_	_
+18	éducation	éducation	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	nsubj	_	_
+19	et	et	CCONJ	_	CCONJ___	20	cc	_	_
+20	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	14	nmod:poss	_	_
+21	façon	façon	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	conj	_	_
+22	de	de	ADP	_	ADP___	25	case	_	_
+23	vivre	vivre	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	nmod	_	_
+24	n'	ne	ADV	_	ADV__Polarity=Neg	25	advmod	_	_
+25	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	cop	_	_
+26	pas	pas	ADV	_	ADV__Polarity=Neg	27	advmod	_	_
+27	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+28	mienne	mien	NOUN	_	NOUN__Gender=Fem|Number=Sing	30	advcl	_	_
+29	...	...	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#Je suis vraiment pas bien parce que je n'ai jamais fait ceci et du coup elle a mit tout le monde contre moi maintenant je sais plus quoi faire mon médecin m'a mis sous traitement cette situation me déprime j'ai vraiment peur
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	suis	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	vraiment	vraiment	ADV	_	ADV___	4	advmod	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+5	bien	bien	ADV	_	ADV___	4	advmod	_	_
+6	parce	parce	SCONJ	_	SCONJ___	5	mark	_	_
+7	que	que	SCONJ	_	SCONJ___	8	fixed	_	_
+8	je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+9	n'	ne	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+10	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	jamais	jamais	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+12	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+13	ceci	ceci	PRON	_	PRON__Number=Sing|PronType=Dem	14	obj	_	_
+14	et	et	CCONJ	_	CCONJ___	12	cc	_	_
+15	du	du	DET	_	DET__Gender=Masc|Number=Sing	17	det	_	_
+16	coup	coup	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	nsubj	_	_
+17	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	14	nsubj	_	_
+18	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+19	mit	mettre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	conj	_	_
+20	tout	tout	ADJ	_	ADJ__Gender=Masc|Number=Sing	14	amod	_	_
+21	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	monde	monde	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	obj	_	_
+23	contre	contrer	ADP	_	ADP___	25	case	_	_
+24	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	25	obl	_	_
+25	maintenant	maintenant	ADV	_	ADV___	20	advmod	_	_
+26	je	il	PRON	_	PRON__Number=Sing|Person=1	27	nsubj	_	_
+27	sais	savoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	25	conj	_	_
+28	plus	plus	ADV	_	ADV___	30	advmod	_	_
+29	quoi	quoi	PRON	_	PRON__PronType=Int	30	obj	_	_
+30	faire	faire	VERB	_	VERB__VerbForm=Inf	25	xcomp	_	_
+31	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	30	nmod:poss	_	_
+32	médecin	médecin	NOUN	_	NOUN__Gender=Masc|Number=Sing	33	obj	_	_
+33	m'	se	PRON	_	PRON__Number=Sing|Person=1	30	obj	_	_
+34	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	aux	_	_
+35	mis	mettre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	30	acl	_	_
+36	sous	sou	ADP	_	ADP___	39	case	_	_
+37	traitement	traitement	NOUN	_	NOUN__Gender=Masc|Number=Sing	39	obl	_	_
+38	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	39	det	_	_
+39	situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	39	obj	_	_
+40	me	se	PRON	_	PRON__Number=Sing|Person=1	41	iobj	_	_
+41	déprime	déprimer	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	conj	_	_
+42	j'	il	PRON	_	PRON__Number=Sing|Person=1	45	nsubj	_	_
+43	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	45	aux	_	_
+44	vraiment	vraiment	ADV	_	ADV___	45	advmod	_	_
+45	peur	peur	NOUN	_	NOUN__Gender=Fem|Number=Sing	39	appos	_	_
+
+
+#Merci de vos conseil pour m'aider à m'en sortir
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	de	de	ADP	_	ADP___	1	case	_	_
+3	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	4	nmod:poss	_	_
+4	conseil	conseil	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+5	pour	pour	ADP	_	ADP___	4	mark	_	_
+6	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	5	expl	_	_
+7	aider	aider	VERB	_	VERB__VerbForm=Inf	8	advcl	_	_
+8	à	à	ADP	_	ADP___	4	mark	_	_
+9	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	9	fixed	_	_
+10	en	en	PRON	_	PRON__Person=3	12	expl	_	_
+11	sortir	sortir	VERB	_	VERB__VerbForm=Inf	12	xcomp	_	_
+
+

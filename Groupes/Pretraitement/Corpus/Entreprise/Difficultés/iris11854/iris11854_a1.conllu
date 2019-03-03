@@ -1,0 +1,83 @@
+#1 - oui.
+1	1	1	NUM	_	NUM__NumType=Card	3	nummod	_	_
+2	-	-	PUNCT	_	PUNCT___	1	fixed	_	_
+3	oui	oui	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	.	.	PUNCT	_	PUNCT___	3	punct	_	_
+
+
+#2
+1	2	2	NUM	_	NUM__NumType=Card	0	ROOT	_	_
+
+
+#- il était dirigeant avant ? 3 - oui.
+1	-	-	PUNCT	_	PUNCT___	3	punct	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+3	était	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+4	dirigeant	dirigeant	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	avant	avant	ADP	_	ADP___	5	case	_	_
+6	?	?	PUNCT	_	PUNCT___	9	punct	_	_
+7	3	3	NUM	_	NUM__NumType=Card	9	nummod	_	_
+8	-	-	PUNCT	_	PUNCT___	9	punct	_	_
+9	oui	oui	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obl	_	_
+10	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#4
+1	4	4	NUM	_	NUM__NumType=Card	0	ROOT	_	_
+
+
+#- non : cochez "déclarée cadre 9".
+1	-	-	PUNCT	_	PUNCT___	3	punct	_	_
+2	non	non	ADV	_	ADV___	0	ROOT	_	_
+3	:	:	PUNCT	_	PUNCT___	3	punct	_	_
+4	cochez	cocher	VERB	_	VERB__VerbForm=Inf	3	case	_	_
+5	"	"	PUNCT	_	PUNCT___	5	punct	_	_
+6	déclarée	déclarer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+7	cadre	cadre	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	amod	_	_
+8	9	9	NUM	_	NUM__NumType=Card	9	nummod	_	_
+9	"	"	PUNCT	_	PUNCT___	9	punct	_	_
+10	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#5
+1	5	5	NUM	_	NUM__NumType=Card	0	ROOT	_	_
+
+
+#- mettez 0 si vous n'avez pas eu à utiliser d'intercalaire ;
+1	-	-	PUNCT	_	PUNCT___	3	punct	_	_
+2	mettez	mettre	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+3	0	0	NUM	_	NUM__NumType=Card	3	nummod	_	_
+4	si	si	SCONJ	_	SCONJ___	3	mark	_	_
+5	vous	vous	PRON	_	PRON__Number=Plur|Person=2	5	nsubj	_	_
+6	n'	ne	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+7	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	pas	pas	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+9	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	advcl	_	_
+10	à	à	ADP	_	ADP___	11	mark	_	_
+11	utiliser	utiliser	VERB	_	VERB__VerbForm=Inf	9	xcomp	_	_
+12	d'	de	ADP	_	ADP___	14	case	_	_
+13	intercalaire	intercalaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obl	_	_
+14	;	;	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#ce sont des imprimés complémentaires utilisés si on n'a pas assez de place sur le M2.
+1	ce	ce	PRON	_	PRON__Number=Sing|Person=3	3	nsubj	_	_
+2	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	3	det	_	_
+4	imprimés	imprimé	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+5	complémentaires	complémentaire	ADJ	_	ADJ__Number=Plur	5	amod	_	_
+6	utilisés	utiliser	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	acl	_	_
+7	si	si	SCONJ	_	SCONJ___	9	mark	_	_
+8	on	on	PRON	_	PRON__Number=Sing|Person=3	9	nsubj	_	_
+9	n'	ne	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+10	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+11	pas	pas	ADV	_	ADV__Polarity=Neg	9	advmod	_	_
+12	assez	assez	ADV	_	ADV___	14	advmod	_	_
+13	de	de	ADP	_	ADP___	12	advmod	_	_
+14	place	place	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	fixed	_	_
+15	sur	sur	ADP	_	ADP___	9	case	_	_
+16	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+17	M2	m2	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	obl	_	_
+18	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+

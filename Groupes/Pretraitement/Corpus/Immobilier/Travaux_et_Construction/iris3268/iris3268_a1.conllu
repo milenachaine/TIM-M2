@@ -1,0 +1,166 @@
+#Bonjour, Aux frais du premier, non...
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	Aux	Aux	PROPN	_	PROPN__Gender=Masc|Number=Sing	4	nsubj	_	_
+4	frais	frais	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	conj	_	_
+5	du	du	DET	_	DET__Gender=Masc|Number=Sing	6	det	_	_
+6	premier	premier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	4	obj	_	_
+7	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+8	non	non	ADV	_	ADV___	1	nmod	_	_
+9	...	...	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#pourquoi payerait-il vos travaux ?
+1	pourquoi	pourquoi	ADV	_	ADV__PronType=Int	1	advmod	_	_
+2	payerait	payer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	-	-	PUNCT	_	PUNCT___	4	punct	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+5	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	6	nmod:poss	_	_
+6	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	4	obl	_	_
+7	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Par contre un RAR lui expliquant que si les travaux ne sont pas entamés avant le ..... vous prendrez quelqu'un d'autre, oui.
+1	Par	Par	ADP	_	ADP___	1	case	_	_
+2	contre	contrer	ADP	_	ADP___	4	case	_	_
+3	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	RAR	RAR	PROPN	_	PROPN__Gender=Masc|Number=Sing	1	obl	_	_
+5	lui	luire	PRON	_	PRON__Number=Sing|Person=3	6	iobj	_	_
+6	expliquant	expliquer	VERB	_	VERB__Tense=Pres|VerbForm=Part	0	ROOT	_	_
+7	que	que	SCONJ	_	SCONJ___	1	mark	_	_
+8	si	si	SCONJ	_	SCONJ___	1	mark	_	_
+9	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+10	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	nsubj	_	_
+11	ne	ne	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+12	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+13	pas	pas	ADV	_	ADV__Polarity=Neg	15	advmod	_	_
+14	entamés	entamer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	15	ccomp	_	_
+15	avant	avant	ADP	_	ADP___	11	case	_	_
+16	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+17	.....	.....	PUNCT	_	PUNCT___	20	obl	_	_
+18	vous	vous	PRON	_	PRON__Number=Plur|Person=2	20	nsubj	_	_
+19	prendrez	prendre	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	20	parataxis	_	_
+20	quelqu'un	quelqu'un	PRON	_	PRON__PronType=Rel	22	obj	_	_
+21	d'	de	ADP	_	ADP___	22	advmod	_	_
+22	autre	autre	ADJ	_	ADJ__Number=Sing	22	fixed	_	_
+23	,	,	PUNCT	_	PUNCT___	30	punct	_	_
+24	oui	oui	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	obl	_	_
+25	.	.	PUNCT	_	PUNCT___	26	punct	_	_
+
+
+#Avec le risque que du coup ilcommence et finisse dans 3 ans.
+1	Avec	Avec	ADP	_	ADP___	1	case	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	risque	risque	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	que	que	SCONJ	_	SCONJ___	1	mark	_	_
+5	du	du	DET	_	DET__Gender=Masc|Number=Sing	6	det	_	_
+6	coup	coup	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	acl:relcl	_	_
+7	ilcommence	ilcommenc	ADJ	_	ADJ__Number=Sing	1	amod	_	_
+8	et	et	CCONJ	_	CCONJ___	1	cc	_	_
+9	finisse	finiss	ADJ	_	ADJ___	1	conj	_	_
+10	dans	dan	ADP	_	ADP___	11	case	_	_
+11	3	3	NUM	_	NUM__NumType=Card	11	nummod	_	_
+12	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	obl	_	_
+13	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Et ne choisissez pas un micro-entrepreneur pour une toiture, c'est aberrant.
+1	Et	Et	CCONJ	_	CCONJ___	1	cc	_	_
+2	ne	ne	ADV	_	ADV__Polarity=Neg	4	advmod	_	_
+3	choisissez	choisir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	micro-entrepreneur	micro-entrepreneur	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	obj	_	_
+7	pour	pour	ADP	_	ADP___	1	case	_	_
+8	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+9	toiture	toiture	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+10	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+11	c'	ce	PRON	_	PRON__Number=Sing|Person=3	11	nsubj	_	_
+12	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+13	aberrant	aberrer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+14	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Ils ont un chiffre d'affaire maxi à respecter sur l'année et pas le droit d'employer des salariés s'ils ont un coup de bourre.
+1	Ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	1	nsubj	_	_
+2	ont	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	chiffre	chiffre	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+5	d'	de	ADP	_	ADP___	6	case	_	_
+6	affaire	affaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nmod	_	_
+7	maxi	maxi	ADJ	_	ADJ___	1	amod	_	_
+8	à	à	ADP	_	ADP___	1	mark	_	_
+9	respecter	respecter	VERB	_	VERB__VerbForm=Inf	1	xcomp	_	_
+10	sur	sur	ADP	_	ADP___	11	case	_	_
+11	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+12	année	année	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obl	_	_
+13	et	et	CCONJ	_	CCONJ___	15	cc	_	_
+14	pas	pas	ADV	_	ADV__Polarity=Neg	15	advmod	_	_
+15	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+16	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	conj	_	_
+17	d'	de	ADP	_	ADP___	20	mark	_	_
+18	employer	employer	VERB	_	VERB__VerbForm=Inf	20	acl	_	_
+19	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	20	det	_	_
+20	salariés	salarié	NOUN	_	NOUN__Gender=Masc|Number=Plur	22	obj	_	_
+21	s'	si	SCONJ	_	SCONJ___	22	mark	_	_
+22	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	22	nsubj	_	_
+23	ont	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	advcl	_	_
+24	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+25	coup	coup	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	obj	_	_
+26	de	de	ADP	_	ADP___	30	case	_	_
+27	bourre	bourre	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	nmod	_	_
+28	.	.	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#Donc à moins que ce soit un tout petit job, non on passe pas par un micro-entrepreneur.
+1	Donc	donc	ADV	_	ADV___	1	advmod	_	_
+2	à	à	ADP	_	ADP___	4	mark	_	_
+3	moins	moins	ADV	_	ADV___	4	fixed	_	_
+4	que	que	SCONJ	_	SCONJ___	1	fixed	_	_
+5	ce	ce	PRON	_	PRON__Number=Sing|Person=3	6	nsubj	_	_
+6	soit	être	VERB	_	VERB__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+8	tout	tout	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	fixed	_	_
+9	petit	petit	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	amod	_	_
+10	job	job	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nsubj	_	_
+11	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+12	non	non	ADV	_	ADV___	11	advmod	_	_
+13	on	on	PRON	_	PRON__Number=Sing|Person=3	15	nsubj	_	_
+14	passe	passer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+15	pas	pas	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+16	par	par	ADP	_	ADP___	11	case	_	_
+17	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+18	micro-entrepreneur	micro-entrepreneur	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obl	_	_
+19	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Le syndic lui a versé une partie de la somme ou pas ?
+1	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	syndic	syndic	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+3	lui	luire	PRON	_	PRON__Number=Sing|Person=3	4	iobj	_	_
+4	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+5	versé	verser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+6	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+7	partie	partie	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obj	_	_
+8	de	de	ADP	_	ADP___	1	case	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+10	somme	sommer	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+11	ou	ou	CCONJ	_	CCONJ___	11	cc	_	_
+12	pas	pas	ADV	_	ADV__Polarity=Neg	11	conj	_	_
+13	?	?	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Et vous êtes certain qu'il a envoyé l'OS ?
+1	Et	Et	CCONJ	_	CCONJ___	1	cc	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	4	nsubj	_	_
+3	êtes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	certain	certain	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+5	qu'	que	SCONJ	_	SCONJ___	6	mark	_	_
+6	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+7	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+8	envoyé	envoyer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+9	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+10	OS	os	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+11	?	?	PUNCT	_	PUNCT___	11	punct	_	_
+
+

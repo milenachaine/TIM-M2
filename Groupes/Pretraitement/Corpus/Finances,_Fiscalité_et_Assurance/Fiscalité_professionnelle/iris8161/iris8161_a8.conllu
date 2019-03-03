@@ -1,0 +1,146 @@
+#Oui mais bon, c'est 8 € de TVA
+1	Oui	oui	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+2	mais	mais	CCONJ	_	CCONJ___	3	cc	_	_
+3	bon	bon	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	conj	_	_
+4	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+5	c'	ce	PRON	_	PRON__Number=Sing|Person=3	8	nsubj	_	_
+6	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	8	8	NUM	_	NUM__NumType=Card	8	nummod	_	_
+8	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	conj	_	_
+9	de	de	ADP	_	ADP___	10	case	_	_
+10	TVA	TVA	PROPN	_	PROPN__Gender=Masc|Number=Sing	8	nmod	_	_
+
+
+#La facture est de 82,50€ TTC (22,92€ HT + 59,58€ de TVA).
+1	La	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	facture	facture	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+4	de	de	ADP	_	ADP___	8	case	_	_
+5	82,50	82,50	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nummod	_	_
+6	€	€	ADJ	_	ADJ___	0	ROOT	_	_
+7	TTC	ttc	NOUN	_	NOUN___	8	flat:name	_	_
+8	(	(	PUNCT	_	PUNCT___	1	punct	_	_
+9	22,92	22,92	NUM	_	NUM__NumType=Card	10	nummod	_	_
+10	€	€	NOUN	_	NOUN___	8	nmod	_	_
+11	HT	ht	NOUN	_	NOUN___	12	flat:name	_	_
+12	+	+	ADP	_	ADP___	15	case	_	_
+13	59,58	59,58	NUM	_	NUM__NumType=Card	15	nummod	_	_
+14	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	nmod	_	_
+15	de	de	ADP	_	ADP___	16	case	_	_
+16	TVA	TVA	PROPN	_	PROPN__Gender=Masc|Number=Sing	16	nmod	_	_
+17	)	)	PUNCT	_	PUNCT___	16	punct	_	_
+18	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Oui, vous pouvez changez les chiffres à chaque intervention, à part de vous faire passer pour un rigolo, vous attendez quoi?
+1	Oui	Oui	PROPN	_	PROPN__Gender=Masc|Number=Sing	1	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+4	pouvez	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	8	aux	_	_
+5	changez	changer	ADV	_	ADV___	0	ROOT	_	_
+6	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+7	chiffres	chiffre	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obj	_	_
+8	à	à	ADP	_	ADP___	1	case	_	_
+9	chaque	chaque	DET	_	DET__Number=Sing	10	det	_	_
+10	intervention	intervention	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+11	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+12	à	à	ADP	_	ADP___	15	mark	_	_
+13	part	part	NOUN	_	NOUN__Number=Sing	15	fixed	_	_
+14	de	de	ADP	_	ADP___	15	fixed	_	_
+15	vous	vous	PRON	_	PRON__Number=Plur|Person=2	16	obj	_	_
+16	faire	faire	VERB	_	VERB__VerbForm=Inf	16	advcl	_	_
+17	passer	prendre	VERB	_	VERB__VerbForm=Inf	16	xcomp	_	_
+18	pour	pour	ADP	_	ADP___	16	case	_	_
+19	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	rigolo	rigolo	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obl	_	_
+21	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+22	vous	vous	PRON	_	PRON__Number=Plur|Person=2	24	nsubj	_	_
+23	attendez	attendre	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	24	parataxis	_	_
+24	quoi	quoi	PRON	_	PRON__PronType=Int	20	obj	_	_
+25	?	?	PUNCT	_	PUNCT___	26	punct	_	_
+
+
+#Au post initial:
+1	Au	Au	ADP	_	ADP___	1	nsubj	_	_
+2	post	post	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	initial	initial	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	amod	_	_
+4	:	:	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Le syndic facture 100€ TTC dont 60€ de TVA (soit une TVA à 150% et 40€ HT)
+1	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	syndic	syndic	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	amod	_	_
+3	facture	facturer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	100	100	NUM	_	NUM__NumType=Card	8	nummod	_	_
+5	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obj	_	_
+6	TTC	TTC	PROPN	_	PROPN___	8	flat:name	_	_
+7	dont	dont	PRON	_	PRON__PronType=Rel	8	dep	_	_
+8	60	60	NUM	_	NUM__NumType=Card	1	nummod	_	_
+9	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	acl:relcl	_	_
+10	de	de	ADP	_	ADP___	8	case	_	_
+11	TVA	TVA	PROPN	_	PROPN__Gender=Masc|Number=Sing	12	nmod	_	_
+12	(	(	PUNCT	_	PUNCT___	15	punct	_	_
+13	soit	être	CCONJ	_	CCONJ___	15	cc	_	_
+14	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	TVA	TVA	PROPN	_	PROPN__Gender=Fem|Number=Sing	16	conj	_	_
+16	à	à	ADP	_	ADP___	16	case	_	_
+17	150	150	NUM	_	NUM__NumType=Card	16	nummod	_	_
+18	%	%	NOUN	_	NOUN__Gender=Masc	16	obl	_	_
+19	et	et	CCONJ	_	CCONJ___	20	cc	_	_
+20	40	40	NUM	_	NUM__NumType=Card	16	nummod	_	_
+21	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	20	conj	_	_
+22	HT	HT	PROPN	_	PROPN___	24	nmod	_	_
+23	)	)	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#Au post #4 Sur 100ttc avec 50 de TVA, nécessairement si j'ai bien compris
+1	Au	Au	ADP	_	ADP___	1	nsubj	_	_
+2	post	post	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	aux	_	_
+3	#	#	ADJ	_	ADJ___	0	ROOT	_	_
+4	4	4	NUM	_	NUM__NumType=Card	8	nummod	_	_
+5	Sur	Sur	ADP	_	ADP___	8	case	_	_
+6	100ttc	100ttc	NUM	_	NUM__NumType=Card	8	nmod	_	_
+7	avec	avec	ADP	_	ADP___	8	case	_	_
+8	50	50	NUM	_	NUM__NumType=Card	1	nummod	_	_
+9	de	de	ADP	_	ADP___	10	case	_	_
+10	TVA	TVA	PROPN	_	PROPN__Gender=Masc|Number=Sing	8	nmod	_	_
+11	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+12	nécessairement	nécessairement	ADV	_	ADV___	15	advmod	_	_
+13	si	si	SCONJ	_	SCONJ___	15	mark	_	_
+14	j'	il	PRON	_	PRON__Number=Sing|Person=1	15	nsubj	_	_
+15	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	bien	bien	ADV	_	ADV___	16	advmod	_	_
+17	compris	compris	ADJ	_	ADJ__Gender=Masc	16	nmod	_	_
+
+
+#, le syndic reverse à l'état 50e.
+1	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	syndic	syndic	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+4	reverse	reverser	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	à	à	ADP	_	ADP___	8	case	_	_
+6	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+7	état	état	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+8	50e	50e	NUM	_	NUM__NumType=Card	1	amod	_	_
+9	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Je fais donc un signalement à la modération puisque vous nous prenez pour des buses.
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	fais	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	donc	donc	ADV	_	ADV___	1	advmod	_	_
+4	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+5	signalement	signalement	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+6	à	à	ADP	_	ADP___	8	case	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	modération	modération	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+9	puisque	puisque	SCONJ	_	SCONJ___	10	mark	_	_
+10	vous	vous	PRON	_	PRON__Number=Plur|Person=2	8	nsubj	_	_
+11	nous	nous	PRON	_	PRON__Number=Plur|Person=1	12	expl	_	_
+12	prenez	prendre	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+13	pour	pour	ADP	_	ADP___	15	case	_	_
+14	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	15	det	_	_
+15	buses	buse	NOUN	_	NOUN__Gender=Fem|Number=Plur	16	obl	_	_
+16	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+

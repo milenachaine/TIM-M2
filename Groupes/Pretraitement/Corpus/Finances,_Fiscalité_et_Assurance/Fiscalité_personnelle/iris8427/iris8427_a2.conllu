@@ -1,0 +1,172 @@
+#Bonjour, 1
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	1	1	NUM	_	NUM__NumType=Card	1	nummod	_	_
+
+
+#- Soyez gentil et respectueux de la charte, et anonymisez votre texte (pas de nom de ville, de marque,de personne vivante...), le modérateur rôde... 2
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	Soyez	Soyez	PROPN	_	PROPN___	0	ROOT	_	_
+3	gentil	gentil	PROPN	_	PROPN___	1	amod	_	_
+4	et	et	CCONJ	_	CCONJ___	5	cc	_	_
+5	respectueux	respectueux	ADJ	_	ADJ__Gender=Masc	5	conj	_	_
+6	de	de	ADP	_	ADP___	5	case	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	charte	charte	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+9	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+10	et	et	CCONJ	_	CCONJ___	11	cc	_	_
+11	anonymisez	anonymisez	ADV	_	ADV___	5	conj	_	_
+12	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+13	texte	texte	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obj	_	_
+14	(	(	PUNCT	_	PUNCT___	5	punct	_	_
+15	pas	pas	ADV	_	ADV__Polarity=Neg	16	advmod	_	_
+16	de	de	ADP	_	ADP___	14	det	_	_
+17	nom	nom	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obl	_	_
+18	de	de	ADP	_	ADP___	20	case	_	_
+19	ville	ville	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	nmod	_	_
+20	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+21	de	de	ADP	_	ADP___	22	case	_	_
+22	marque	marque	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	conj	_	_
+23	,	,	PUNCT	_	PUNCT___	25	punct	_	_
+24	de	de	ADP	_	ADP___	25	case	_	_
+25	personne	personne	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	conj	_	_
+26	vivante	vivant	ADJ	_	ADJ__Gender=Fem|Number=Sing	28	amod	_	_
+27	...	...	PUNCT	_	PUNCT___	28	punct	_	_
+28	)	)	PUNCT	_	PUNCT___	20	punct	_	_
+29	,	,	PUNCT	_	PUNCT___	28	punct	_	_
+30	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+31	modérateur	modérateur	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	conj	_	_
+32	rôde	rôd	ADJ	_	ADJ__Gender=Masc|Number=Sing	34	amod	_	_
+33	...	...	PUNCT	_	PUNCT___	34	punct	_	_
+34	2	2	NUM	_	NUM__NumType=Card	5	nummod	_	_
+
+
+#- Je ne comprends pas: vous dites "PLU de 1992" (post 1) et "je ne connais pas les dates des PLU" (post 3).
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+3	ne	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+4	comprends	comprend	ADJ	_	ADJ__Gender=Masc|Number=Plur	0	ROOT	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+6	:	:	PUNCT	_	PUNCT___	5	punct	_	_
+7	vous	vous	PRON	_	PRON__Number=Plur|Person=2	8	nsubj:pass	_	_
+8	dites	dire	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	6	cop	_	_
+9	"	"	PUNCT	_	PUNCT___	11	punct	_	_
+10	PLU	pleuvoir	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	acl	_	_
+11	de	de	ADP	_	ADP___	5	case	_	_
+12	1992	1992	NUM	_	NUM__NumType=Card	5	nummod	_	_
+13	"	"	PUNCT	_	PUNCT___	14	punct	_	_
+14	(	(	PUNCT	_	PUNCT___	5	punct	_	_
+15	post	post	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	conj	_	_
+16	1	1	NUM	_	NUM__NumType=Card	14	nummod	_	_
+17	)	)	PUNCT	_	PUNCT___	14	punct	_	_
+18	et	et	CCONJ	_	CCONJ___	20	cc	_	_
+19	"	"	PUNCT	_	PUNCT___	20	punct	_	_
+20	je	il	PRON	_	PRON__Number=Sing|Person=1	14	nsubj	_	_
+21	ne	ne	ADV	_	ADV__Polarity=Neg	22	advmod	_	_
+22	connais	connaître	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	conj	_	_
+23	pas	pas	ADV	_	ADV__Polarity=Neg	25	advmod	_	_
+24	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	25	det	_	_
+25	dates	dat	ADJ	_	ADJ__Gender=Fem|Number=Plur	20	obj	_	_
+26	des	un	ADP	_	ADP___	28	det	_	_
+27	PLU	pleuvoir	NOUN	_	NOUN__Gender=Masc|Number=Plur	28	nmod	_	_
+28	"	"	PUNCT	_	PUNCT___	20	punct	_	_
+29	(	(	PUNCT	_	PUNCT___	28	punct	_	_
+30	post	post	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	acl	_	_
+31	3	3	NUM	_	NUM__NumType=Card	5	nummod	_	_
+32	)	)	PUNCT	_	PUNCT___	34	punct	_	_
+33	.	.	PUNCT	_	PUNCT___	34	punct	_	_
+
+
+#Est-ce cohérent?
+1	Est	être		_	VERB	1	obl	_	_
+2	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+3	cohérent	cohérent	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Pouvez-vous rechercher les règlements d'urbanisme qui ont été appliqués?
+1	Pouvez	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	advmod	_	_
+2	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+3	vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+4	rechercher	rechercher	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+6	règlements	règlement	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	obj	_	_
+7	d'	de	ADP	_	ADP___	8	case	_	_
+8	urbanisme	urbanisme	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nmod	_	_
+9	qui	qui	PRON	_	PRON__PronType=Rel	11	nsubj:pass	_	_
+10	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	5	aux:pass	_	_
+12	appliqués	appliquer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	5	acl:relcl	_	_
+13	?	?	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#parce que pour pouvoir contester la décision de la mairie de xxx il va falloir des arguments.
+1	parce	parce	SCONJ	_	SCONJ___	1	mark	_	_
+2	que	que	SCONJ	_	SCONJ___	1	fixed	_	_
+3	pour	pour	ADP	_	ADP___	1	mark	_	_
+4	pouvoir	pouvoir	AUX	_	AUX__VerbForm=Inf	5	aux	_	_
+5	contester	contester	VERB	_	VERB__VerbForm=Inf	5	advcl	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+7	décision	décision	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+8	de	de	ADP	_	ADP___	6	case	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	mairie	mairie	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+11	de	de	ADP	_	ADP___	5	case	_	_
+12	xxx	xxx	ADV	_	ADV___	5	nmod	_	_
+13	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
+14	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+15	falloir	falloir	VERB	_	VERB__VerbForm=Inf	16	xcomp	_	_
+16	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
+17	arguments	argument	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	obj	_	_
+18	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#3
+1	3	3	NUM	_	NUM__NumType=Card	0	ROOT	_	_
+
+
+#- Accessoirement le notaire, dans l'opération de revente du morceau démembré (je parle de terrain bien sûr ) quel document a permis au notaire d'écrire sur l'acte "terrain à bâtir"?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	Accessoirement	Accessoirement	PROPN	_	PROPN__Gender=Masc|Number=Sing	1	obl	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+4	notaire	notaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+5	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+6	dans	dan	ADP	_	ADP___	5	case	_	_
+7	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	opération	opération	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+9	de	de	ADP	_	ADP___	11	mark	_	_
+10	revente	revente	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+11	du	du	DET	_	DET__Gender=Masc|Number=Sing	5	det	_	_
+12	morceau	morceau	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+13	démembré	démembrer	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	amod	_	_
+14	(	(	PUNCT	_	PUNCT___	5	punct	_	_
+15	je	il	PRON	_	PRON__Number=Sing|Person=1	16	nsubj	_	_
+16	parle	parler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+17	de	de	ADP	_	ADP___	14	advmod	_	_
+18	terrain	terrain	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	obl	_	_
+19	bien	bien	ADV	_	ADV___	20	advmod	_	_
+20	sûr	sûr	ADJ	_	ADJ__Gender=Masc|Number=Sing	14	fixed	_	_
+21	)	)	PUNCT	_	PUNCT___	22	punct	_	_
+22	quel	quel	DET	_	DET__Gender=Masc|Number=Sing	20	det	_	_
+23	document	document	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	nsubj	_	_
+24	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	permis	permettre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	20	parataxis	_	_
+26	au	au	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	28	det	_	_
+27	notaire	notaire	VERB	_	VERB__VerbForm=Inf	28	obj	_	_
+28	d'	de	ADP	_	ADP___	20	mark	_	_
+29	écrire	écrire	VERB	_	VERB__VerbForm=Inf	28	nmod	_	_
+30	sur	sur	ADP	_	ADP___	14	case	_	_
+31	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+32	acte	acte	NOUN	_	NOUN__Gender=Masc|Number=Sing	34	nmod	_	_
+33	"	"	PUNCT	_	PUNCT___	34	punct	_	_
+34	terrain	terrain	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	appos	_	_
+35	à	à	ADP	_	ADP___	34	mark	_	_
+36	bâtir	bâtir	VERB	_	VERB__VerbForm=Inf	5	acl	_	_
+37	"	"	PUNCT	_	PUNCT___	5	punct	_	_
+38	?	?	PUNCT	_	PUNCT___	41	punct	_	_
+
+
+#Cordialement
+1	Cordialement	cordialement	ADV	_	ADV___	0	ROOT	_	_
+
+

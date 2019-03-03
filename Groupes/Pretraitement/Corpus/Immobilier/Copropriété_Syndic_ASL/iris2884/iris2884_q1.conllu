@@ -1,0 +1,184 @@
+#Bonjour, Je suis copropriétaire non occupant d'un appartement que je vais vendre prochainement.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+4	suis	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	copropriétaire	copropriétair	ADJ	_	ADJ__Number=Sing	1	acl:relcl	_	_
+6	non	non	ADV	_	ADV___	7	advmod	_	_
+7	occupant	occuper	VERB	_	VERB__Tense=Pres|VerbForm=Part	5	acl	_	_
+8	d'	de	ADP	_	ADP___	10	case	_	_
+9	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	obl	_	_
+11	que	que	SCONJ	_	SCONJ___	13	mark	_	_
+12	je	il	PRON	_	PRON__Number=Sing|Person=1	13	nsubj	_	_
+13	vais	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+14	vendre	vendre	VERB	_	VERB__VerbForm=Inf	13	xcomp	_	_
+15	prochainement	prochainement	ADV	_	ADV___	14	advmod	_	_
+16	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Cet appartement avait subi des infiltrations en provenance de l'appartement situé directement au-dessus (défaut d'étanchéité de la SDB).
+1	Cet	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	1	det	_	_
+2	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	avait	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+4	subi	subir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	1	det	_	_
+6	infiltrations	infiltration	NOUN	_	NOUN__Gender=Fem|Number=Plur	7	obj	_	_
+7	en	en	ADP	_	ADP___	5	case	_	_
+8	provenance	provenance	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+9	de	de	ADP	_	ADP___	10	case	_	_
+10	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+11	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+12	situé	situer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
+13	directement	directement	ADV	_	ADV___	10	advmod	_	_
+14	au-dessus	au-dessus	ADV	_	ADV___	13	obl	_	_
+15	(	(	PUNCT	_	PUNCT___	14	punct	_	_
+16	défaut	défaut	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	appos	_	_
+17	d'	de	ADP	_	ADP___	18	case	_	_
+18	étanchéité	étanchéité	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	nmod	_	_
+19	de	de	ADP	_	ADP___	20	case	_	_
+20	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+21	SDB	SDB	PROPN	_	PROPN__Gender=Fem|Number=Sing	22	nmod	_	_
+22	)	)	PUNCT	_	PUNCT___	20	punct	_	_
+23	.	.	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#Or, l'appartement du dessus a été vendu et je ne sais pas si les travaux destinés à faire cesser le infiltrations ont été réalisés.
+1	Or	Or	CCONJ	_	CCONJ___	1	cc	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+4	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+5	du	du	DET	_	DET__Gender=Masc|Number=Sing	1	det	_	_
+6	dessus	dessus	ADV	_	ADV___	7	fixed	_	_
+7	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+8	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	10	aux:pass	_	_
+9	vendu	vendre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+10	et	et	CCONJ	_	CCONJ___	7	cc	_	_
+11	je	il	PRON	_	PRON__Number=Sing|Person=1	13	nsubj	_	_
+12	ne	ne	ADV	_	ADV__Polarity=Neg	13	advmod	_	_
+13	sais	savoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	conj	_	_
+14	pas	pas	ADV	_	ADV__Polarity=Neg	13	advmod	_	_
+15	si	si	SCONJ	_	SCONJ___	14	mark	_	_
+16	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+17	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	18	nsubj:pass	_	_
+18	destinés	destiner	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	20	acl	_	_
+19	à	à	ADP	_	ADP___	20	mark	_	_
+20	faire	faire	VERB	_	VERB__VerbForm=Inf	20	xcomp	_	_
+21	cesser	cesser	VERB	_	VERB__VerbForm=Inf	22	xcomp	_	_
+22	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+23	infiltrations	infiltration	NOUN	_	NOUN__Gender=Fem|Number=Plur	24	obj	_	_
+24	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+25	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	27	aux:pass	_	_
+26	réalisés	réaliser	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	27	advcl	_	_
+27	.	.	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#Pour entrer en relation avec le nouveau propriétaire, je demande au syndic de me donner ses coordonnées et ce dernier refuse de me les donner sans me donner de justifications précises.
+1	Pour	Pour	ADP	_	ADP___	1	mark	_	_
+2	entrer	entrer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+3	en	en	ADP	_	ADP___	5	case	_	_
+4	relation	relation	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obl	_	_
+5	avec	avec	ADP	_	ADP___	1	case	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	nouveau	nouveau	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	amod	_	_
+8	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	10	nsubj	_	_
+9	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+10	je	il	PRON	_	PRON__Number=Sing|Person=1	7	nsubj	_	_
+11	demande	demander	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+12	au	au	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	det	_	_
+13	syndic	syndic	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	amod	_	_
+14	de	de	ADP	_	ADP___	13	mark	_	_
+15	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	14	iobj	_	_
+16	donner	donner	VERB	_	VERB__VerbForm=Inf	1	xcomp	_	_
+17	ses	son	DET	_	DET__Number=Plur|Poss=Yes	18	nmod:poss	_	_
+18	coordonnées	coordonnée	NOUN	_	NOUN__Gender=Fem|Number=Plur	20	obj	_	_
+19	et	et	CCONJ	_	CCONJ___	20	cc	_	_
+20	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	20	det	_	_
+21	dernier	dernier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	22	nsubj	_	_
+22	refuse	refuser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	conj	_	_
+23	de	de	ADP	_	ADP___	24	mark	_	_
+24	me	se	PRON	_	PRON__Number=Sing|Person=1	22	iobj	_	_
+25	les	le	PRON	_	PRON__Number=Plur|Person=3	27	obj	_	_
+26	donner	donner	VERB	_	VERB__VerbForm=Inf	27	xcomp	_	_
+27	sans	sans	ADP	_	ADP___	24	mark	_	_
+28	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	27	iobj	_	_
+29	donner	donner	VERB	_	VERB__VerbForm=Inf	30	advcl	_	_
+30	de	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	28	case	_	_
+31	justifications	justification	NOUN	_	NOUN__Gender=Fem|Number=Plur	30	obl	_	_
+32	précises	précis	ADJ	_	ADJ__Gender=Fem|Number=Plur	30	amod	_	_
+33	.	.	PUNCT	_	PUNCT___	34	punct	_	_
+
+
+#Ce comportement est il normal, voire légal?
+1	Ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	1	det	_	_
+2	comportement	comportement	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	advmod	_	_
+5	normal	normal	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+6	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+7	voire	voire	CCONJ	_	CCONJ___	5	conj	_	_
+8	légal	légal	ADJ	_	ADJ__Gender=Masc|Number=Sing	10	amod	_	_
+9	?	?	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Merci des réponses que vous pourrez me donner.
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	1	det	_	_
+3	réponses	réponse	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	nmod	_	_
+4	que	que	PRON	_	PRON__PronType=Rel	5	obj	_	_
+5	vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+6	pourrez	pouvoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+7	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	5	expl	_	_
+8	donner	donner	VERB	_	VERB__VerbForm=Inf	10	xcomp	_	_
+9	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#A noter qu'une réponse assortie d'une référence à un texte de loi, un arrêt ou un article de doctrine que je pourrais mettre sous le nez du syndic me conviendrait parfaitement.
+1	A	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+2	noter	noter	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+3	qu'	que	SCONJ	_	SCONJ___	5	advmod	_	_
+4	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obj	_	_
+6	assortie	assortir	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+7	d'	de	ADP	_	ADP___	5	case	_	_
+8	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	référence	référence	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+10	à	à	ADP	_	ADP___	7	case	_	_
+11	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	texte	texte	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+13	de	de	ADP	_	ADP___	10	case	_	_
+14	loi	loi	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nmod	_	_
+15	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+16	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+17	arrêt	arrêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nmod	_	_
+18	ou	ou	CCONJ	_	CCONJ___	20	cc	_	_
+19	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	article	article	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	conj	_	_
+21	de	de	ADP	_	ADP___	22	case	_	_
+22	doctrine	doctrine	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	nmod	_	_
+23	que	que	PRON	_	PRON__PronType=Rel	24	obj	_	_
+24	je	il	PRON	_	PRON__Number=Sing|Person=1	22	nsubj	_	_
+25	pourrais	pouvoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	27	aux	_	_
+26	mettre	mettre	VERB	_	VERB__VerbForm=Inf	27	acl:relcl	_	_
+27	sous	sou	ADP	_	ADP___	24	case	_	_
+28	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+29	nez	nez	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	obl	_	_
+30	du	du	DET	_	DET__Gender=Masc|Number=Sing	28	det	_	_
+31	syndic	syndic	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	obj	_	_
+32	me	se	PRON	_	PRON__Number=Sing|Person=1	30	iobj	_	_
+33	conviendrait	convenir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	34	advcl	_	_
+34	parfaitement	parfaitement	ADV	_	ADV___	32	advmod	_	_
+35	.	.	PUNCT	_	PUNCT___	37	punct	_	_
+
+
+#Encore merci et bonne journées à tous.
+1	Encore	encore	ADV	_	ADV___	1	advmod	_	_
+2	merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	et	et	CCONJ	_	CCONJ___	5	cc	_	_
+4	bonne	bon	ADJ	_	ADJ__Gender=Fem|Number=Sing	5	amod	_	_
+5	journées	journer	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	1	conj	_	_
+6	à	à	ADP	_	ADP___	7	case	_	_
+7	tous	tout	PRON	_	PRON__Gender=Masc|Number=Plur|PronType=Rel	5	obl	_	_
+8	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+

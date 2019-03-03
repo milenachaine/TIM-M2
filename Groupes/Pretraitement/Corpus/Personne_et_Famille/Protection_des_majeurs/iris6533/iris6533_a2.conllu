@@ -1,0 +1,71 @@
+#Bonjour, Qui est le tuteur de l'époux : l'épouse ?
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Qui	qui	PRON	_	PRON__PronType=Int	6	nsubj	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	tuteur	tuteur	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	acl:relcl	_	_
+7	de	de	ADP	_	ADP___	9	case	_	_
+8	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	époux	époux	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nmod	_	_
+10	:	:	PUNCT	_	PUNCT___	6	punct	_	_
+11	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	épouse	épouse	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	appos	_	_
+13	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#un des enfants ?
+1	un	un	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	1	det	_	_
+2	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	1	det	_	_
+3	enfants	enfant	NOUN	_	NOUN__Number=Plur	0	ROOT	_	_
+4	?	?	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#un tiers ?
+1	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	tiers	tiers	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	?	?	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#un organisme tutélaire ?
+1	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	organisme	organisme	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	tutélaire	tutélaire	ADJ	_	ADJ__Gender=Masc|Number=Sing	6	amod	_	_
+4	?	?	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#A qui appartient en pleine propriété le bien vendu ?
+1	A	a	NOUN	_	NOUN___	0	ROOT	_	_
+2	qui	qui	PRON	_	PRON__PronType=Rel	1	nsubj	_	_
+3	appartient	appartenir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+4	en	en	ADP	_	ADP___	6	case	_	_
+5	pleine	plein	ADJ	_	ADJ__Gender=Fem|Number=Sing	6	obl	_	_
+6	propriété	propriéter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	xcomp	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	bien	bien	ADV	_	ADV___	9	advmod	_	_
+9	vendu	vendre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	obj	_	_
+10	?	?	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Les enfants auraient-ils une part de nue propriété qui justifierait qu'on leur demande leur accord ?
+1	Les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	1	det	_	_
+2	enfants	enfant	NOUN	_	NOUN__Number=Plur	1	nsubj	_	_
+3	auraient	avoir	AUX	_	AUX__Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	-	-	PUNCT	_	PUNCT___	6	punct	_	_
+5	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	6	nsubj	_	_
+6	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	ROOT	_	_
+7	part	part	NOUN	_	NOUN__Number=Sing	9	obj	_	_
+8	de	de	ADP	_	ADP___	9	case	_	_
+9	nue	nue	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	det	_	_
+10	propriété	propriéter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	nmod	_	_
+11	qui	qui	PRON	_	PRON__PronType=Rel	12	nsubj	_	_
+12	justifierait	justifier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	acl:relcl	_	_
+13	qu'	que	SCONJ	_	SCONJ___	1	mark	_	_
+14	on	on	PRON	_	PRON__Number=Sing|Person=3	16	nsubj	_	_
+15	leur	lui	PRON	_	PRON__Number=Plur|Person=3	16	iobj	_	_
+16	demande	demander	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	ccomp	_	_
+17	leur	lui	DET	_	DET__Number=Sing|Poss=Yes	16	nmod:poss	_	_
+18	accord	accord	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obj	_	_
+19	?	?	PUNCT	_	PUNCT___	19	punct	_	_
+
+

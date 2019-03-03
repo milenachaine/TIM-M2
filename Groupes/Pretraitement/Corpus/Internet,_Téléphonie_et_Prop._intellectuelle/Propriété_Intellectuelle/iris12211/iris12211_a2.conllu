@@ -1,0 +1,79 @@
+#Ah, ok.
+1	Ah	ah	ADV	_	ADV___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	ok	ok	CCONJ	_	CCONJ___	1	conj	_	_
+4	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Correspondance privée, non.
+1	Correspondance	correspondance	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	privée	privé	ADJ	_	ADJ__Gender=Fem|Number=Sing	3	acl	_	_
+3	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+4	non	non	ADV	_	ADV___	1	nmod	_	_
+5	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Mais "droit de courte citation", non, pas forcément.
+1	Mais	Mais	CCONJ	_	CCONJ___	1	cc	_	_
+2	"	"	PUNCT	_	PUNCT___	3	punct	_	_
+3	droit	droit	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+4	de	de	ADP	_	ADP___	1	case	_	_
+5	courte	court	ADJ	_	ADJ__Gender=Fem|Number=Sing	5	amod	_	_
+6	citation	citation	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nmod	_	_
+7	"	"	PUNCT	_	PUNCT___	5	punct	_	_
+8	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+9	non	non	ADV	_	ADV___	5	advmod	_	_
+10	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+11	pas	pas	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+12	forcément	forcément	ADV	_	ADV___	0	ROOT	_	_
+13	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Il faut d'abord que la citation soit effectivement courte (là, j'ai un doute) et il faut en outre qu'elle soit justifiée par un des motifs mentionnés au L122-5 cpi.
+1	Il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	d'	de	ADP	_	ADP___	1	advmod	_	_
+4	abord	abord	ADV	_	ADV___	1	fixed	_	_
+5	que	que	SCONJ	_	SCONJ___	5	mark	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+7	citation	citation	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nsubj	_	_
+8	soit	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+9	effectivement	effectivement	ADV	_	ADV___	5	advmod	_	_
+10	courte	court	ADJ	_	ADJ__Gender=Fem|Number=Sing	12	advcl	_	_
+11	(	(	PUNCT	_	PUNCT___	12	punct	_	_
+12	là	là	ADV	_	ADV___	21	iobj	_	_
+13	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+14	j'	il	PRON	_	PRON__Number=Sing|Person=1	15	nsubj	_	_
+15	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	xcomp	_	_
+16	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+17	doute	doute	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	obj	_	_
+18	)	)	PUNCT	_	PUNCT___	21	punct	_	_
+19	et	et	CCONJ	_	CCONJ___	21	cc	_	_
+20	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	21	nsubj	_	_
+21	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	conj	_	_
+22	en	en	ADP	_	ADP___	21	advmod	_	_
+23	outre	outre	ADV	_	ADV___	24	fixed	_	_
+24	qu'	que	SCONJ	_	SCONJ___	24	mark	_	_
+25	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	24	nsubj:pass	_	_
+26	soit	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux:pass	_	_
+27	justifiée	justifier	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	32	ccomp	_	_
+28	par	par	ADP	_	ADP___	29	case	_	_
+29	un	un	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	32	det	_	_
+30	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	32	det	_	_
+31	motifs	motif	NOUN	_	NOUN__Gender=Masc|Number=Plur	32	obl	_	_
+32	mentionnés	mentionner	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	37	acl	_	_
+33	au	au	PRON	_	PRON__PronType=Rel	32	case	_	_
+34	L122	L122	PROPN	_	PROPN___	32	obl	_	_
+35	-	-	PUNCT	_	PUNCT___	37	punct	_	_
+36	5	5	NUM	_	NUM__NumType=Card	37	nummod	_	_
+37	cpi	cpi	NOUN	_	NOUN__Gender=Masc|Number=Plur	24	obj	_	_
+38	.	.	PUNCT	_	PUNCT___	39	punct	_	_
+
+
+#Vous invoquez lequel ?
+1	Vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+2	invoquez	invoquer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	lequel	lequel	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	1	obj	_	_
+4	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+
+

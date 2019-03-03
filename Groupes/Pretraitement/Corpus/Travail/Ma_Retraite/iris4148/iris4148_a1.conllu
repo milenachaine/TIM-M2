@@ -1,0 +1,94 @@
+#Bonjour, Dans une année il ne peut être validée que 4 trimestres.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	8	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+3	Dans	Dans	ADP	_	ADP___	5	case	_	_
+4	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	année	année	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+6	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+7	ne	ne	ADV	_	ADV___	8	advmod	_	_
+8	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+9	être	être	AUX	_	AUX__VerbForm=Inf	10	aux:pass	_	_
+10	validée	valider	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	xcomp	_	_
+11	que	que	SCONJ	_	SCONJ___	13	case	_	_
+12	4	4	NUM	_	NUM__NumType=Card	13	nummod	_	_
+13	trimestres	trimestre	NOUN	_	NOUN__Gender=Fem|Number=Plur	10	obl	_	_
+14	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Comme vous le soulignez justement, les trimestres sont validés en fonction des salaires annuels perçus.
+1	Comme	Comme	SCONJ	_	SCONJ___	8	case	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	8	nsubj	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	soulignez	souligner	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+5	justement	justement	ADV	_	ADV___	8	advmod	_	_
+6	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+7	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+8	trimestres	trimestre	NOUN	_	NOUN__Gender=Fem|Number=Plur	8	nsubj	_	_
+9	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	validés	valider	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	ROOT	_	_
+11	en	en	ADP	_	ADP___	13	case	_	_
+12	fonction	fonction	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	fixed	_	_
+13	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
+14	salaires	salaire	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obl	_	_
+15	annuels	annuel	ADJ	_	ADJ__Gender=Masc|Number=Plur	18	amod	_	_
+16	perçus	percevoir	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	18	amod	_	_
+17	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#30000€ par an valident 4 trimestres donc quand bien même vous auriez une période de chômage en cours d'année cela nous vous valide pas pour autant un 5ème trimestre.
+1	30000	30000	NUM	_	NUM__NumType=Card	8	nummod	_	_
+2	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	nsubj	_	_
+3	par	par	ADP	_	ADP___	5	case	_	_
+4	an	an	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+5	valident	valider	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	4	4	NUM	_	NUM__NumType=Card	8	nummod	_	_
+7	trimestres	trimestre	NOUN	_	NOUN__Gender=Fem|Number=Plur	8	obj	_	_
+8	donc	donc	ADV	_	ADV___	8	advmod	_	_
+9	quand	quand	ADV	_	ADV___	10	mark	_	_
+10	bien	bien	ADV	_	ADV___	8	fixed	_	_
+11	même	même	ADV	_	ADV___	13	fixed	_	_
+12	vous	vous	PRON	_	PRON__Number=Plur|Person=2	13	nsubj	_	_
+13	auriez	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	10	cc	_	_
+14	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+15	période	période	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	obj	_	_
+16	de	de	ADP	_	ADP___	18	case	_	_
+17	chômage	chômage	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nmod	_	_
+18	en	en	ADP	_	ADP___	24	case	_	_
+19	cours	cours	NOUN	_	NOUN__Gender=Masc	18	fixed	_	_
+20	d'	de	ADP	_	ADP___	24	fixed	_	_
+21	année	année	NOUN	_	NOUN__Gender=Fem|Number=Sing	22	nmod	_	_
+22	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	24	nsubj	_	_
+23	nous	nous	PRON	_	PRON__Number=Plur|Person=1	24	nsubj	_	_
+24	vous	vous	PRON	_	PRON__Number=Plur|Person=2	24	iobj	_	_
+25	valide	valide	ADJ	_	ADJ__Number=Sing	28	conj	_	_
+26	pas	pas	ADV	_	ADV__Polarity=Neg	25	advmod	_	_
+27	pour	pour	ADP	_	ADP___	28	case	_	_
+28	autant	autant	ADV	_	ADV___	24	fixed	_	_
+29	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+30	5ème	5ème	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	amod	_	_
+31	trimestre	trimestre	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	obl	_	_
+32	.	.	PUNCT	_	PUNCT___	33	punct	_	_
+
+
+#La CARSAT ne vous enlève rien, elle ne comptabilise pas les trimestres supérieurs à 4 par an.
+1	La	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+2	CARSAT	CARSAT	PROPN	_	PROPN__Gender=Fem|Number=Sing	8	nsubj	_	_
+3	ne	ne	ADV	_	ADV___	5	advmod	_	_
+4	vous	vous	PRON	_	PRON__Number=Plur|Person=2	5	iobj	_	_
+5	enlève	enlever	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	ROOT	_	_
+6	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	8	obj	_	_
+7	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+8	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	8	nsubj	_	_
+9	ne	ne	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+10	comptabilise	comptabiliser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+11	pas	pas	ADV	_	ADV__Polarity=Neg	13	advmod	_	_
+12	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	13	det	_	_
+13	trimestres	trimestre	NOUN	_	NOUN__Gender=Fem|Number=Plur	10	obj	_	_
+14	supérieurs	supérieur	ADJ	_	ADJ__Gender=Masc|Number=Plur	8	amod	_	_
+15	à	à	ADP	_	ADP___	18	case	_	_
+16	4	4	NUM	_	NUM__NumType=Card	18	nmod	_	_
+17	par	par	ADP	_	ADP___	18	case	_	_
+18	an	an	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	nmod	_	_
+19	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+

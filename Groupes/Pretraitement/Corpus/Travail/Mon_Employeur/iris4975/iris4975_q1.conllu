@@ -1,0 +1,73 @@
+#Bonsoir, Notre DUP se compose de 3 titulaires cadres, d'un titulaire ETAM et d'un suppléant cadre.
+1	Bonsoir	Bonsoir	PROPN	_	PROPN___	6	acl	_	_
+2	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+3	Notre	notre	DET	_	DET__Number=Sing|Poss=Yes	4	nmod:poss	_	_
+4	DUP	DUP	PROPN	_	PROPN__Number=Sing	6	nsubj	_	_
+5	se	se	PRON	_	PRON__Person=3|Reflex=Yes	6	expl	_	_
+6	compose	composer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	de	de	ADP	_	ADP___	10	case	_	_
+8	3	3	NUM	_	NUM__NumType=Card	10	nummod	_	_
+9	titulaires	titulaire	NOUN	_	NOUN__Number=Plur	10	amod	_	_
+10	cadres	cadr	ADJ	_	ADJ__Number=Plur	6	obl	_	_
+11	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+12	d'	de	ADP	_	ADP___	14	case	_	_
+13	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	titulaire	titulaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obl	_	_
+15	ETAM	ETAM	PROPN	_	PROPN___	14	nmod	_	_
+16	et	et	CCONJ	_	CCONJ___	19	cc	_	_
+17	d'	de	ADP	_	ADP___	19	case	_	_
+18	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	suppléant	suppléant	ADJ	_	ADJ__Gender=Masc|Number=Sing	14	conj	_	_
+20	cadre	cadre	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	acl	_	_
+21	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Notre ETAM a démissionné et quitte l'entreprise dans deux mois.
+1	Notre	notre	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+2	ETAM	ETAM	PROPN	_	PROPN__Number=Sing	6	nsubj	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	démissionné	démissionner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	et	et	CCONJ	_	CCONJ___	6	cc	_	_
+6	quitte	quitter	SCONJ	_	SCONJ___	6	conj	_	_
+7	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+8	entreprise	entreprise	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obj	_	_
+9	dans	dan	ADP	_	ADP___	10	case	_	_
+10	deux	deux	NUM	_	NUM__NumType=Card	6	nummod	_	_
+11	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	nmod	_	_
+12	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Le collège ETAM n'étant plus représenté, comment cela va-t-il se passer ?
+1	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+2	collège	collège	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nsubj	_	_
+3	ETAM	ETAM	PROPN	_	PROPN___	4	nmod	_	_
+4	n'	ne	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+5	étant	être	AUX	_	AUX__Tense=Pres|VerbForm=Part	6	cop	_	_
+6	plus	plus	ADV	_	ADV___	6	advmod	_	_
+7	représenté	représenter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+8	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+9	comment	comment	ADV	_	ADV__PronType=Int	10	advmod	_	_
+10	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	6	nsubj	_	_
+11	va	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+12	-	-	PUNCT	_	PUNCT___	14	punct	_	_
+13	t	t	NOUN	_	NOUN__Gender=Fem|Number=Plur	14	obl	_	_
+14	-	-	PUNCT	_	PUNCT___	6	punct	_	_
+15	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
+16	se	se	PRON	_	PRON__Person=3|Reflex=Yes	19	expl	_	_
+17	passer	prendre	VERB	_	VERB__VerbForm=Inf	19	xcomp	_	_
+18	?	?	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Une élection partielle est-elle nécessaire pour le collège ETAM ?
+1	Une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+2	élection	élection	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	partielle	partiel	ADJ	_	ADJ__Gender=Fem|Number=Sing	4	amod	_	_
+4	est-elle	est-elle	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	amod	_	_
+5	nécessaire	nécessaire	ADJ	_	ADJ__Number=Sing	6	amod	_	_
+6	pour	pour	ADP	_	ADP___	6	case	_	_
+7	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+8	collège	collège	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obl	_	_
+9	ETAM	ETAM	PROPN	_	PROPN___	10	nmod	_	_
+10	?	?	PUNCT	_	PUNCT___	6	punct	_	_
+
+

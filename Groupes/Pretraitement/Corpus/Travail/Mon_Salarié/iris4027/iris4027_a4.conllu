@@ -1,0 +1,141 @@
+#Un taux horaire est un taux horaire, une prime est une prime.
+1	Un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	taux	taux	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nsubj	_	_
+3	horaire	horaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	amod	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	taux	taux	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+7	horaire	horaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	amod	_	_
+8	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+9	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	prime	prime	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nsubj	_	_
+11	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	prime	prime	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	conj	_	_
+14	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Comment la boite intérim démontre qu'elle a payé une prime si elle n'apparait pas sur la fiche de paie?
+1	Comment	comment	ADV	_	ADV__PronType=Int	2	advmod	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+3	boite	boiter	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	nsubj	_	_
+4	intérim	intérim	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	amod	_	_
+5	démontre	démontrer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	qu'	que	SCONJ	_	SCONJ___	6	mark	_	_
+7	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	6	nsubj	_	_
+8	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+9	payé	payer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	ccomp	_	_
+10	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+11	prime	prime	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obj	_	_
+12	si	si	SCONJ	_	SCONJ___	13	mark	_	_
+13	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	6	nsubj	_	_
+14	n'	ne	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+15	apparait	apparer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	advcl	_	_
+16	pas	pas	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+17	sur	sur	ADP	_	ADP___	19	case	_	_
+18	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+19	fiche	fiche	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obl	_	_
+20	de	de	ADP	_	ADP___	23	case	_	_
+21	paie	paie	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	nmod	_	_
+22	?	?	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Comment gérer les primes de présence par exemple qui sont au prorata?
+1	Comment	comment	ADV	_	ADV__PronType=Int	2	advmod	_	_
+2	gérer	gérer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+3	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	2	det	_	_
+4	primes	prime	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	obj	_	_
+5	de	de	ADP	_	ADP___	6	case	_	_
+6	présence	présence	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+7	par	par	ADP	_	ADP___	6	advmod	_	_
+8	exemple	exemple	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	amod	_	_
+9	qui	qui	PRON	_	PRON__PronType=Rel	10	nsubj	_	_
+10	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	13	expl	_	_
+12	prorata	prorater	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+13	?	?	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#On modifie le taux horaire selon la présence du salarié?
+1	On	on	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	modifie	modifier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+4	taux	taux	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+5	horaire	horaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	amod	_	_
+6	selon	selon	ADP	_	ADP___	6	case	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+8	présence	présence	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obl	_	_
+9	du	du	DET	_	DET__Gender=Masc|Number=Sing	10	det	_	_
+10	salarié	salarié	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+11	?	?	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Quid des tickets restaurants ou autre avantage en nature?
+1	Quid	quid	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+2	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
+3	tickets	ticket	NOUN	_	NOUN__Gender=Masc|Number=Plur	2	obj	_	_
+4	restaurants	restaurant	ADJ	_	ADJ__Gender=Masc|Number=Plur	6	amod	_	_
+5	ou	ou	CCONJ	_	CCONJ___	6	cc	_	_
+6	autre	autre	ADJ	_	ADJ__Number=Sing	6	amod	_	_
+7	avantage	avantage	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	conj	_	_
+8	en	en	ADP	_	ADP___	13	case	_	_
+9	nature	nature	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obl	_	_
+10	?	?	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#L'employeur qui ferait de la sorte prendrait d'énormes risques de voir le salarié réclamer les primes qui ne sont pas mentionnées sur la fiche de paie, même si son taux horaire est plus élevé que les autres salariés de la boite (ce qui n'est pas interdit).
+1	L'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	2	det	_	_
+2	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nsubj	_	_
+3	qui	qui	PRON	_	PRON__PronType=Rel	2	nsubj	_	_
+4	ferait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	acl:relcl	_	_
+5	de	de	ADP	_	ADP___	6	case	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+7	sorte	sorte	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obl	_	_
+8	prendrait	prendre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+9	d'	de	ADP	_	ADP___	10	case	_	_
+10	énormes	énorme	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	amod	_	_
+11	risques	risque	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	obl	_	_
+12	de	de	ADP	_	ADP___	13	mark	_	_
+13	voir	voir	VERB	_	VERB__VerbForm=Inf	6	xcomp	_	_
+14	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+15	salarié	salarié	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obj	_	_
+16	réclamer	réclamer	VERB	_	VERB__VerbForm=Inf	17	amod	_	_
+17	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	19	det	_	_
+18	primes	prime	NOUN	_	NOUN__Gender=Masc|Number=Plur	17	obj	_	_
+19	qui	qui	PRON	_	PRON__PronType=Rel	19	nsubj:pass	_	_
+20	ne	ne	ADV	_	ADV__Polarity=Neg	23	advmod	_	_
+21	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux:pass	_	_
+22	pas	pas	ADV	_	ADV__Polarity=Neg	23	advmod	_	_
+23	mentionnées	mentionner	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	19	acl:relcl	_	_
+24	sur	sur	ADP	_	ADP___	25	case	_	_
+25	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+26	fiche	fiche	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	obl	_	_
+27	de	de	ADP	_	ADP___	29	case	_	_
+28	paie	paie	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	nmod	_	_
+29	,	,	PUNCT	_	PUNCT___	23	punct	_	_
+30	même	même	ADV	_	ADV___	29	advmod	_	_
+31	si	si	SCONJ	_	SCONJ___	33	fixed	_	_
+32	son	son	DET	_	DET__Number=Sing|Poss=Yes	33	nmod:poss	_	_
+33	taux	taux	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	nsubj	_	_
+34	horaire	horaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	35	amod	_	_
+35	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	_
+36	plus	plus	ADV	_	ADV___	19	advmod	_	_
+37	élevé	élevé	ADJ	_	ADJ__Gender=Masc|Number=Sing	38	advcl	_	_
+38	que	que	SCONJ	_	SCONJ___	38	punct	_	_
+39	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	40	det	_	_
+40	autres	autre	ADJ	_	ADJ__Number=Plur	38	fixed	_	_
+41	salariés	salarié	NOUN	_	NOUN__Gender=Masc|Number=Plur	42	amod	_	_
+42	de	de	ADP	_	ADP___	40	case	_	_
+43	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+44	boite	boiter	NOUN	_	NOUN__Gender=Fem|Number=Sing	40	nmod	_	_
+45	(	(	PUNCT	_	PUNCT___	48	punct	_	_
+46	ce	ce	PRON	_	PRON__PronType=Rel	48	appos	_	_
+47	qui	qui	PRON	_	PRON__PronType=Rel	48	nsubj	_	_
+48	n'	ne	ADV	_	ADV__Polarity=Neg	40	advmod	_	_
+49	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	cop	_	_
+50	pas	pas	ADV	_	ADV__Polarity=Neg	51	advmod	_	_
+51	interdit	interdire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	51	acl:relcl	_	_
+52	)	)	PUNCT	_	PUNCT___	53	punct	_	_
+53	.	.	PUNCT	_	PUNCT___	51	punct	_	_
+
+

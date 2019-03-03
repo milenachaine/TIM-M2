@@ -1,0 +1,239 @@
+#[Bonjour Mesdames et ]Messieurs, Cas :
+1	[	[	PUNCT	_	PUNCT___	0	ROOT	_	_
+2	Bonjour	Bonjour	PROPN	_	PROPN___	1	punct	_	_
+3	Mesdames	madame	NOUN	_	NOUN__Gender=Fem|Number=Plur	2	flat:name	_	_
+4	et	et	CCONJ	_	CCONJ___	6	cc	_	_
+5	]	]	PUNCT	_	PUNCT___	6	punct	_	_
+6	Messieurs	monsieur	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	conj	_	_
+7	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+8	Cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	conj	_	_
+9	:	:	PUNCT	_	PUNCT___	2	punct	_	_
+
+
+#Gérant SCI Familiale ( Cap 270000): Parts 20%, épouse 20%, fille 45 %, gendre 15%.
+1	Gérant	Gérant	PROPN	_	PROPN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	SCI	sci	ADJ	_	ADJ___	1	flat:name	_	_
+3	Familiale	Familiale	PROPN	_	PROPN___	2	flat:name	_	_
+4	(	(	PUNCT	_	PUNCT___	6	punct	_	_
+5	Cap	Cap	PROPN	_	PROPN___	6	nmod	_	_
+6	270000	270000	NUM	_	NUM__NumType=Card	3	nummod	_	_
+7	)	)	PUNCT	_	PUNCT___	8	punct	_	_
+8	:	:	PUNCT	_	PUNCT___	2	punct	_	_
+9	Parts	part	NOUN	_	NOUN___	2	conj	_	_
+10	20	20	NUM	_	NUM__NumType=Card	10	nummod	_	_
+11	%	%	NOUN	_	NOUN__Gender=Masc	10	nmod	_	_
+12	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+13	épouse	épouse	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	conj	_	_
+14	20	20	NUM	_	NUM__NumType=Card	10	nummod	_	_
+15	%	%	NOUN	_	NOUN__Gender=Masc	14	nmod	_	_
+16	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+17	fille	fille	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	conj	_	_
+18	45	45	NUM	_	NUM__NumType=Card	10	nummod	_	_
+19	%	%	NOUN	_	NOUN__Gender=Masc	20	nmod	_	_
+20	,	,	PUNCT	_	PUNCT___	18	punct	_	_
+21	gendre	gendre	VERB	_	VERB__VerbForm=Inf	18	amod	_	_
+22	15	15	NUM	_	NUM__NumType=Card	18	nummod	_	_
+23	%	%	NOUN	_	NOUN__Gender=Masc	24	nmod	_	_
+24	.	.	PUNCT	_	PUNCT___	22	punct	_	_
+
+
+#A noter SCI sans revenus , toujours déficitaire donc avec comptes courants pour équilibrer.
+1	A	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+2	noter	noter	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+3	SCI	sci	NOUN	_	NOUN___	2	obj	_	_
+4	sans	sans	ADP	_	ADP___	6	mark	_	_
+5	revenus	revenir	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	advcl	_	_
+6	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+7	toujours	toujours	ADV	_	ADV___	8	advmod	_	_
+8	déficitaire	déficitaire	ADJ	_	ADJ__Number=Sing	2	conj	_	_
+9	donc	donc	ADV	_	ADV___	2	advmod	_	_
+10	avec	avec	ADP	_	ADP___	10	case	_	_
+11	comptes	compte	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	nmod	_	_
+12	courants	courant	ADJ	_	ADJ__Gender=Masc|Number=Plur	10	amod	_	_
+13	pour	pour	ADP	_	ADP___	10	mark	_	_
+14	équilibrer	équilibrer	VERB	_	VERB__VerbForm=Inf	10	advcl	_	_
+15	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Je décède : Valeur des parts la SCI : estimation du bien immobilier par notaire moins total des comptes courants de tous les associés.
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	décède	décéder	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	:	:	PUNCT	_	PUNCT___	2	punct	_	_
+4	Valeur	valeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obl	_	_
+5	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
+6	parts	part	NOUN	_	NOUN__Number=Plur	3	nmod	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	SCI	SCI	PROPN	_	PROPN__Gender=Fem|Number=Sing	2	nmod	_	_
+9	:	:	PUNCT	_	PUNCT___	2	punct	_	_
+10	estimation	estimation	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obj	_	_
+11	du	du	DET	_	DET__Gender=Masc|Number=Sing	10	det	_	_
+12	bien	bien	ADV	_	ADV___	10	advmod	_	_
+13	immobilier	immobilier	VERB	_	VERB__VerbForm=Inf	10	amod	_	_
+14	par	par	ADP	_	ADP___	10	case	_	_
+15	notaire	notaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obl	_	_
+16	moins	moins	ADV	_	ADV___	10	advmod	_	_
+17	total	total	ADJ	_	ADJ__Gender=Masc|Number=Sing	10	amod	_	_
+18	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
+19	comptes	compte	NOUN	_	NOUN__Gender=Masc|Number=Plur	20	obj	_	_
+20	courants	courant	ADJ	_	ADJ__Gender=Masc|Number=Plur	18	amod	_	_
+21	de	de	ADP	_	ADP___	18	case	_	_
+22	tous	tou	ADJ	_	ADJ__Gender=Masc|Number=Plur	18	amod	_	_
+23	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	24	det	_	_
+24	associés	associé	NOUN	_	NOUN__Gender=Masc|Number=Plur	22	nmod	_	_
+25	.	.	PUNCT	_	PUNCT___	26	punct	_	_
+
+
+#Succession : sur ma part mes héritiers règlent 5% sur la valeur de mes parts ( calcul ci-dessus)
+1	Succession	succession	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+2	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+3	sur	sur	ADP	_	ADP___	2	case	_	_
+4	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	6	nmod:poss	_	_
+5	part	part	NOUN	_	NOUN__Number=Sing	6	obl	_	_
+6	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	3	nmod:poss	_	_
+7	héritiers	héritier	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	nsubj	_	_
+8	règlent	régler	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+9	5	5	NUM	_	NUM__NumType=Card	2	nummod	_	_
+10	%	%	NOUN	_	NOUN__Gender=Masc	10	obj	_	_
+11	sur	sur	ADP	_	ADP___	10	case	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+13	valeur	valeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+14	de	de	ADP	_	ADP___	10	case	_	_
+15	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	14	nmod:poss	_	_
+16	parts	part	NOUN	_	NOUN__Number=Plur	10	nmod	_	_
+17	(	(	PUNCT	_	PUNCT___	10	punct	_	_
+18	calcul	calcul	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	amod	_	_
+19	ci-dessus	ci-dessu	ADJ	_	ADJ__Gender=Masc|Number=Sing	20	obl	_	_
+20	)	)	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Ma question : certes la valeur des parts est diminuée du montant des CC, mais le montant de mon CC personnel sera-t-il rajouté à l'actif général de la succession?
+1	Ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj:pass	_	_
+3	:	:	PUNCT	_	PUNCT___	2	punct	_	_
+4	certes	certer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	valeur	valeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obj	_	_
+7	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
+8	parts	part	NOUN	_	NOUN__Number=Plur	2	obj	_	_
+9	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
+10	diminuée	diminuer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+11	du	du	DET	_	DET__Gender=Masc|Number=Sing	10	det	_	_
+12	montant	montant	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obl	_	_
+13	des	un	ADP	_	ADP___	10	det	_	_
+14	CC	cc	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	nmod	_	_
+15	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+16	mais	mais	CCONJ	_	CCONJ___	10	cc	_	_
+17	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+18	montant	montant	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nsubj	_	_
+19	de	de	ADP	_	ADP___	20	case	_	_
+20	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	18	nmod:poss	_	_
+21	CC	cc	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nmod	_	_
+22	personnel	personnel	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	amod	_	_
+23	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	24	cop	_	_
+24	-	-	PUNCT	_	PUNCT___	22	punct	_	_
+25	t	t	NOUN	_	NOUN__Gender=Fem|Number=Plur	26	advmod	_	_
+26	-	-	PUNCT	_	PUNCT___	18	punct	_	_
+27	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	28	nsubj	_	_
+28	rajouté	rajouter	NOUN	_	NOUN__Gender=Masc|Number=Sing	26	conj	_	_
+29	à	à	ADP	_	ADP___	18	case	_	_
+30	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+31	actif	actif	ADJ	_	ADJ__Gender=Masc|Number=Sing	32	obl	_	_
+32	général	général	ADJ	_	ADJ__Gender=Masc|Number=Sing	18	amod	_	_
+33	de	de	ADP	_	ADP___	10	case	_	_
+34	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	succession	succession	NOUN	_	NOUN__Gender=Fem|Number=Sing	35	nmod	_	_
+36	?	?	PUNCT	_	PUNCT___	35	punct	_	_
+
+
+#Ma fille, associée et sa sœur non associée, outre la fiscalité de 5% sur la moitié de mes parts, deviendront-elles également héritières de mon CC en plus des autres biens avec imputation de la fiscalité classique ?
+1	Ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	fille	fille	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+3	,	,	PUNCT	_	PUNCT___	2	punct	_	_
+4	associée	associer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+5	et	et	CCONJ	_	CCONJ___	6	cc	_	_
+6	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	3	nmod:poss	_	_
+7	sœur	sœur	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	conj	_	_
+8	non	non	ADV	_	ADV___	2	advmod	_	_
+9	associée	associer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+10	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+11	outre	outrer	ADP	_	ADP___	10	cc	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+13	fiscalité	fiscalité	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	conj	_	_
+14	de	de	ADP	_	ADP___	10	case	_	_
+15	5	5	NUM	_	NUM__NumType=Card	14	nummod	_	_
+16	%	%	NOUN	_	NOUN__Gender=Masc	10	nmod	_	_
+17	sur	sur	ADP	_	ADP___	10	case	_	_
+18	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+19	moitié	moitié	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	nmod	_	_
+20	de	de	ADP	_	ADP___	18	case	_	_
+21	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	18	nmod:poss	_	_
+22	parts	part	NOUN	_	NOUN__Number=Plur	18	nmod	_	_
+23	,	,	PUNCT	_	PUNCT___	24	punct	_	_
+24	deviendront	devenir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	ROOT	_	_
+25	-	-	PUNCT	_	PUNCT___	26	punct	_	_
+26	elles	lui	PRON	_	PRON__Gender=Fem|Number=Plur|Person=3	18	obl	_	_
+27	également	également	ADV	_	ADV___	28	advmod	_	_
+28	héritières	héritier	ADJ	_	ADJ__Gender=Fem|Number=Plur	26	amod	_	_
+29	de	de	ADP	_	ADP___	18	case	_	_
+30	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	18	nmod:poss	_	_
+31	CC	CC	PROPN	_	PROPN__Gender=Masc|Number=Sing	32	nmod	_	_
+32	en	en	ADP	_	ADP___	18	case	_	_
+33	plus	plus	ADV	_	ADV___	10	fixed	_	_
+34	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	35	det	_	_
+35	autres	autre	ADJ	_	ADJ__Number=Plur	35	amod	_	_
+36	biens	bien	NOUN	_	NOUN__Gender=Masc|Number=Plur	35	nmod	_	_
+37	avec	avec	ADP	_	ADP___	38	case	_	_
+38	imputation	imputation	NOUN	_	NOUN__Gender=Fem|Number=Sing	35	nmod	_	_
+39	de	de	ADP	_	ADP___	41	case	_	_
+40	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	fiscalité	fiscalité	NOUN	_	NOUN__Gender=Fem|Number=Sing	38	nmod	_	_
+42	classique	classique	ADJ	_	ADJ__Gender=Fem|Number=Sing	41	amod	_	_
+43	?	?	PUNCT	_	PUNCT___	44	punct	_	_
+
+
+#En résumé si les CC certes diminuent la valeur des parts de la SCI, le mien rentre-
+1	En	En	ADP	_	ADP___	1	advmod	_	_
+2	résumé	résumer	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	fixed	_	_
+3	si	si	SCONJ	_	SCONJ___	2	mark	_	_
+4	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	6	det	_	_
+5	CC	cc	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	nsubj	_	_
+6	certes	cert	ADJ	_	ADJ__Gender=Fem|Number=Plur	0	ROOT	_	_
+7	diminuent	diminuer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	advmod	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+9	valeur	valeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	obj	_	_
+10	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
+11	parts	part	NOUN	_	NOUN__Number=Plur	10	nmod	_	_
+12	de	de	ADP	_	ADP___	10	case	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+14	SCI	SCI	PROPN	_	PROPN__Gender=Fem|Number=Sing	10	nmod	_	_
+15	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+16	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+17	mien	mien	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nsubj	_	_
+18	rentre	rentrer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+19	-	-	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#t-il dans la succession en tant que tels avec les autres biens ?
+1	t	t	NOUN	_	NOUN__Gender=Fem|Number=Plur	0	ROOT	_	_
+2	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+3	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	2	fixed	_	_
+4	dans	dan	ADP	_	ADP___	6	case	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	succession	succession	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	obl	_	_
+7	en	en	ADP	_	ADP___	8	case	_	_
+8	tant	tant	ADV	_	ADV___	2	fixed	_	_
+9	que	que	SCONJ	_	SCONJ___	2	fixed	_	_
+10	tels	tel	ADJ	_	ADJ__Gender=Masc|Number=Plur	10	nmod	_	_
+11	avec	avec	ADP	_	ADP___	10	case	_	_
+12	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	10	det	_	_
+13	autres	autre	ADJ	_	ADJ__Number=Plur	10	amod	_	_
+14	biens	bien	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	nmod	_	_
+15	?	?	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Je vous remercie
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	obj	_	_
+3	remercie	remercier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+
+

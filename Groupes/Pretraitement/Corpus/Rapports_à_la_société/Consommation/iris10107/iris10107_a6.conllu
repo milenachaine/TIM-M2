@@ -1,0 +1,236 @@
+#Bonjour, Le fait d'avoir été remboursé non en numéraire mais en bon d'achat peut
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	fait	faire	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	conj	_	_
+5	d'	de	ADP	_	ADP___	8	mark	_	_
+6	avoir	avoir	AUX	_	AUX__VerbForm=Inf	8	aux	_	_
+7	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	8	aux:pass	_	_
+8	remboursé	rembourser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	xcomp	_	_
+9	non	non	ADV	_	ADV___	8	advmod	_	_
+10	en	en	ADP	_	ADP___	11	case	_	_
+11	numéraire	numéraire	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+12	mais	mais	CCONJ	_	CCONJ___	14	cc	_	_
+13	en	en	ADP	_	ADP___	14	mark	_	_
+14	bon	bon	ADJ	_	ADJ__Gender=Masc|Number=Sing	11	conj	_	_
+15	d'	de	ADP	_	ADP___	16	case	_	_
+16	achat	achat	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+17	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	fixed	_	_
+
+
+#-il conduire à une solution juridique inverse?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+3	conduire	conduire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	à	à	ADP	_	ADP___	1	case	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+6	solution	solution	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obl	_	_
+7	juridique	juridique	ADJ	_	ADJ__Number=Sing	8	amod	_	_
+8	inverse	inverse	ADJ	_	ADJ__Gender=Fem|Number=Sing	4	amod	_	_
+9	?	?	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Je m'explique : la commande, finalement, contenait un article à 11 et un bon d'achat à 11. Nous ne sommes pas dans la situation de quelqu'un ayant juste fait un achat à 11 tout court.
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	4	expl	_	_
+3	explique	expliquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+6	commande	commande	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nsubj	_	_
+7	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+8	finalement	finalement	ADV	_	ADV___	4	advmod	_	_
+9	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+10	contenait	contenir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	ccomp	_	_
+11	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+12	article	article	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obj	_	_
+13	à	à	ADP	_	ADP___	14	case	_	_
+14	11	11	NOUN	_	NOUN__NumType=Card	11	nmod	_	_
+15	et	et	CCONJ	_	CCONJ___	16	cc	_	_
+16	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+17	bon	bon	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	conj	_	_
+18	d'	de	ADP	_	ADP___	20	case	_	_
+19	achat	achat	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	nmod	_	_
+20	à	à	ADP	_	ADP___	20	case	_	_
+21	11.	11.	NOUN	_	NOUN__NumType=Card	23	nummod	_	_
+22	Nous	nous	PRON	_	PRON__Number=Plur|Person=1	23	nmod	_	_
+23	ne	ne	ADV	_	ADV__Polarity=Neg	20	advmod	_	_
+24	sommes	être	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	23	ccomp	_	_
+25	pas	pas	ADV	_	ADV__Polarity=Neg	23	advmod	_	_
+26	dans	dan	ADP	_	ADP___	20	case	_	_
+27	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+28	situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	obl	_	_
+29	de	de	ADP	_	ADP___	29	case	_	_
+30	quelqu'un	quelqu'un	PROPN	_	PROPN__Gender=Masc|Number=Sing	29	nmod	_	_
+31	ayant	avoir	AUX	_	AUX__Tense=Pres|VerbForm=Part	32	aux	_	_
+32	juste	juste	ADV	_	ADV___	36	advmod	_	_
+33	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	36	acl:relcl	_	_
+34	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+35	achat	achat	NOUN	_	NOUN__Gender=Masc|Number=Sing	36	obj	_	_
+36	à	à	ADP	_	ADP___	29	case	_	_
+37	11	11	NOUN	_	NOUN__NumType=Card	38	nummod	_	_
+38	tout	tout	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+39	court	courir	NOUN	_	NOUN__Gender=Masc|Number=Sing	40	advmod	_	_
+40	.	.	PUNCT	_	PUNCT___	38	punct	_	_
+
+
+#Il y a donc pour 22 euros de "commande".
+1	Il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	y	yu	PRON	_	PRON__Person=3	4	expl	_	_
+3	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	donc	donc	ADV	_	ADV___	1	advmod	_	_
+5	pour	pour	ADP	_	ADP___	8	case	_	_
+6	22	22	NUM	_	NUM__NumType=Card	8	nummod	_	_
+7	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obl	_	_
+8	de	de	ADP	_	ADP___	4	case	_	_
+9	"	"	PUNCT	_	PUNCT___	8	punct	_	_
+10	commande	command	ADJ	_	ADJ__Gender=Fem|Number=Sing	11	nmod	_	_
+11	"	"	PUNCT	_	PUNCT___	8	punct	_	_
+12	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Que l'article soit un bon d'achat ou un article physique, est-ce que cela changerait quelque chose?
+1	Que	Que	SCONJ	_	SCONJ___	1	mark	_	_
+2	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+3	article	article	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nsubj	_	_
+4	soit	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+5	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+6	bon	bon	ADJ	_	ADJ__Gender=Masc|Number=Sing	0	ROOT	_	_
+7	d'	de	ADP	_	ADP___	8	case	_	_
+8	achat	achat	NOUN	_	NOUN__Gender=Masc|Number=Sing	4	nmod	_	_
+9	ou	ou	CCONJ	_	CCONJ___	8	cc	_	_
+10	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	article	article	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	conj	_	_
+12	physique	physique	ADJ	_	ADJ___	14	amod	_	_
+13	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+14	est	être		_	VERB	11	advmod	_	_
+15	-ce	ce	PRON	_	PRON__Number=Sing|Person=3	16	nsubj	_	_
+16	que	que	SCONJ	_	SCONJ___	11	obj	_	_
+17	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	1	nsubj	_	_
+18	changerait	changer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	ccomp	_	_
+19	quelque	quelque	DET	_	DET__Number=Sing	20	obj	_	_
+20	chose	chose	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	fixed	_	_
+21	?	?	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Bon, c'est une question, je peux me tromper mais on pourrait gratter un peu.
+1	Bon	Bon	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	4	punct	_	_
+3	c'	ce	PRON	_	PRON__Number=Sing|Person=3	4	nsubj	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+6	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	conj	_	_
+7	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+8	je	il	PRON	_	PRON__Number=Sing|Person=1	4	nsubj	_	_
+9	peux	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+10	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	11	expl	_	_
+11	tromper	tromper	VERB	_	VERB__VerbForm=Inf	8	conj	_	_
+12	mais	mais	CCONJ	_	CCONJ___	14	cc	_	_
+13	on	on	PRON	_	PRON__Number=Sing|Person=3	14	nsubj	_	_
+14	pourrait	pouvoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+15	gratter	gratter	VERB	_	VERB__VerbForm=Inf	16	conj	_	_
+16	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+17	peu	peu	ADV	_	ADV___	1	obj	_	_
+18	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Par ailleurs se pose le problème de l'information et du consentement de l'utilisateur.
+1	Par	Par	ADP	_	ADP___	1	advmod	_	_
+2	ailleurs	ailleurs	ADV	_	ADV___	4	fixed	_	_
+3	se	se	PRON	_	PRON__Person=3|Reflex=Yes	4	expl	_	_
+4	pose	poser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+6	problème	problème	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obj	_	_
+7	de	de	ADP	_	ADP___	8	case	_	_
+8	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+9	information	information	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+10	et	et	CCONJ	_	CCONJ___	11	cc	_	_
+11	du	du	DET	_	DET__Gender=Masc|Number=Sing	8	det	_	_
+12	consentement	consentement	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	conj	_	_
+13	de	de	ADP	_	ADP___	14	case	_	_
+14	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+15	utilisateur	utilisateur	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	nmod	_	_
+16	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#JplatoJ accepte une commande avec deux articles à 11 (sans frais de port).
+1	JplatoJ	jplatoj	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	nsubj	_	_
+2	accepte	accepter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	commande	commande	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obj	_	_
+5	avec	avec	ADP	_	ADP___	8	case	_	_
+6	deux	deux	NUM	_	NUM__NumType=Card	8	nummod	_	_
+7	articles	article	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obl	_	_
+8	à	à	ADP	_	ADP___	4	case	_	_
+9	11	11	NOUN	_	NOUN__NumType=Card	8	obl	_	_
+10	(	(	PUNCT	_	PUNCT___	11	punct	_	_
+11	sans	sans	ADP	_	ADP___	8	case	_	_
+12	frais	frais	NOUN	_	NOUN__Gender=Masc|Number=Plur	14	obl	_	_
+13	de	de	ADP	_	ADP___	14	case	_	_
+14	port	port	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+15	)	)	PUNCT	_	PUNCT___	16	punct	_	_
+16	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Il annule un de ces articles.
+1	Il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	annule	annuler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	un	un	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	4	obj	_	_
+4	de	de	ADP	_	ADP___	1	case	_	_
+5	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	8	det	_	_
+6	articles	article	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	nmod	_	_
+7	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Comment aurait-il pu consentir de manière libre et éclairée au payement des frais de port?
+1	Comment	comment	ADV	_	ADV__PronType=Int	1	advmod	_	_
+2	aurait	avoir	VERB	_	VERB__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	-	-	PUNCT	_	PUNCT___	4	punct	_	_
+4	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+5	pu	pouvoir	AUX	_	AUX__Tense=Past|VerbForm=Part	8	aux	_	_
+6	consentir	consentir	VERB	_	VERB__VerbForm=Part	8	advcl	_	_
+7	de	de	ADP	_	ADP___	8	case	_	_
+8	manière	manière	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	obl	_	_
+9	libre	libre	ADJ	_	ADJ__Number=Sing	8	amod	_	_
+10	et	et	CCONJ	_	CCONJ___	11	cc	_	_
+11	éclairée	éclairé	ADJ	_	ADJ__Gender=Fem|Number=Sing	8	conj	_	_
+12	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	14	iobj	_	_
+13	payement	payemer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+14	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
+15	frais	frais	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	obj	_	_
+16	de	de	ADP	_	ADP___	11	case	_	_
+17	port	port	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+18	?	?	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#A moins que le montant des frais de port ait figuré dans les CGV, ou au moins une manière de le calculer?
+1	A	a	NOUN	_	NOUN___	1	advmod	_	_
+2	moins	moins	ADV	_	ADV___	0	ROOT	_	_
+3	que	que	SCONJ	_	SCONJ___	4	mark	_	_
+4	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+5	montant	montant	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+6	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
+7	frais	frais	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	nsubj	_	_
+8	de	de	ADP	_	ADP___	4	case	_	_
+9	port	port	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+10	ait	avoir	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	figuré	figurer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	ccomp	_	_
+12	dans	dan	ADP	_	ADP___	14	case	_	_
+13	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	14	det	_	_
+14	CGV	cgv	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	obl	_	_
+15	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+16	ou	ou	CCONJ	_	CCONJ___	11	cc	_	_
+17	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	fixed	_	_
+18	moins	moins	ADV	_	ADV___	20	conj	_	_
+19	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	manière	manière	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	orphan	_	_
+21	de	de	ADP	_	ADP___	23	case	_	_
+22	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	obj	_	_
+23	calculer	calculer	NOUN	_	NOUN__Gender=Masc|Number=Sing	20	nmod	_	_
+24	?	?	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Bonne journée
+1	Bonne	bon	ADJ	_	ADJ__Gender=Fem|Number=Sing	1	amod	_	_
+2	journée	journée	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+
+

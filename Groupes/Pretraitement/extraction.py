@@ -5,9 +5,9 @@ from collections import Counter
 pasmot=re.compile("\W+")
 seg=re.compile("(\s*\/\s*|\()")
 elim=re.compile("\s*\([^)]*\)\s*")
-total=open("D:\\Cours\\Apprentissage\\TIM-M2\\Groupes\\Pretraitement\\phrases.txt", "r", encoding="utf-8").read().lower()
+total=open("phrases.txt", "r", encoding="utf-8").read().lower()
 words=Counter(pasmot.split(total))
-terme=re.sub(seg, "\n", re.sub(elim,'\n',open("D:\\Cours\\Apprentissage\\TIM-M2\\Groupes\\Pretraitement\\termes_juridiques.txt", "r", encoding="utf-8").read())).replace(")", "" ).split("\n")
+terme=re.sub(seg, "\n", re.sub(elim,'\n',open("termes_juridiques.txt", "r", encoding="utf-8").read())).replace(")", "" ).split("\n")
 
 juri_term=set()
 for i in terme:

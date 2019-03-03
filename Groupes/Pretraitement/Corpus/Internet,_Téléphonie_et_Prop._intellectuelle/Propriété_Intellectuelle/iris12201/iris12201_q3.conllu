@@ -1,0 +1,56 @@
+#Bonjour, auriez
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	auriez	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	nmod	_	_
+
+
+#-vous une réponse à ma question concernant la ré édition d'un livre, pas de descendants.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	iobj	_	_
+3	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+4	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+5	à	à	ADP	_	ADP___	7	case	_	_
+6	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	7	nmod:poss	_	_
+7	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+8	concernant	concerner	VERB	_	VERB__Tense=Pres|VerbForm=Part	10	acl	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	ré	ré	NOUN	_	NOUN__Gender=Fem	7	amod	_	_
+11	édition	édition	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obj	_	_
+12	d'	de	ADP	_	ADP___	14	case	_	_
+13	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	livre	livre	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+15	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+16	pas	pas	ADV	_	ADV__Polarity=Neg	17	advmod	_	_
+17	de	de	ADP	_	ADP___	14	case	_	_
+18	descendants	descendant	NOUN	_	NOUN__Gender=Masc|Number=Plur	17	nmod	_	_
+19	.	.	PUNCT	_	PUNCT___	17	punct	_	_
+
+
+#Edité il y a 90 ans par un éditeur qui a été racheté et dont je connais le nom.
+1	Edité	edité	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	il	il	PRON	_	PRON__Number=Sing|Person=3	1	case	_	_
+3	y	yu	PRON	_	PRON__Person=3	1	fixed	_	_
+4	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	fixed	_	_
+5	90	90	NUM	_	NUM__NumType=Card	7	nummod	_	_
+6	ans	an	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	nmod	_	_
+7	par	par	ADP	_	ADP___	7	case	_	_
+8	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	éditeur	éditeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+10	qui	qui	PRON	_	PRON__PronType=Rel	7	nsubj:pass	_	_
+11	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+12	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	14	aux:pass	_	_
+13	racheté	racheter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	14	acl:relcl	_	_
+14	et	et	CCONJ	_	CCONJ___	11	cc	_	_
+15	dont	dont	PRON	_	PRON__PronType=Rel	17	dep	_	_
+16	je	il	PRON	_	PRON__Number=Sing|Person=1	17	nsubj	_	_
+17	connais	connaître	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	conj	_	_
+18	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+19	nom	nom	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obj	_	_
+20	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Merci beaucoup
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	beaucoup	beaucoup	ADV	_	ADV___	1	amod	_	_
+
+

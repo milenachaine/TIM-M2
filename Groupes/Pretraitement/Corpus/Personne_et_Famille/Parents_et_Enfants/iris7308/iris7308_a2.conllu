@@ -1,0 +1,101 @@
+#Bonjour, C'est bien une situation d'indivision.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	7	case	_	_
+2	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+3	C'	ce	PRON	_	PRON__Number=Sing|Person=3	7	nsubj	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	bien	bien	ADV	_	ADV___	7	advmod	_	_
+6	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+8	d'	de	ADP	_	ADP___	9	case	_	_
+9	indivision	indivision	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+10	.	.	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#Puisque 50/50, chacun devrait payer la moité des frais/taxes liés à ce bien, mais vous pouvez décider autrement entre vous.
+1	Puisque	Puisque	SCONJ	_	SCONJ___	7	advmod	_	_
+2	50/50	50/50	NUM	_	NUM__NumType=Card	7	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+4	chacun	chacun	PRON	_	PRON__Gender=Masc|PronType=Rel	7	nsubj	_	_
+5	devrait	devoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	payer	payer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+8	moité	moité	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obj	_	_
+9	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
+10	frais	frais	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	obj	_	_
+11	/	/	PUNCT	_	PUNCT___	16	case	_	_
+12	taxes	taxe	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	nmod	_	_
+13	liés	lier	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	acl	_	_
+14	à	à	ADP	_	ADP___	16	case	_	_
+15	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	16	fixed	_	_
+16	bien	bien	ADV	_	ADV___	16	obl	_	_
+17	,	,	PUNCT	_	PUNCT___	18	punct	_	_
+18	mais	mais	CCONJ	_	CCONJ___	16	cc	_	_
+19	vous	vous	PRON	_	PRON__Number=Plur|Person=2	20	nsubj	_	_
+20	pouvez	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	16	aux	_	_
+21	décider	décider	VERB	_	VERB__VerbForm=Inf	22	conj	_	_
+22	autrement	autrement	ADV	_	ADV___	20	advmod	_	_
+23	entre	entrer	ADP	_	ADP___	20	case	_	_
+24	vous	vous	PRON	_	PRON__Number=Plur|Person=2|PronType=Prs	26	obl	_	_
+25	.	.	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#De quelles aides parlez-vous ?
+1	De	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	7	case	_	_
+2	quelles	quel	DET	_	DET__Gender=Fem|Number=Plur|PronType=Int	7	det	_	_
+3	aides	aide	NOUN	_	NOUN__Number=Plur	7	nsubj	_	_
+4	parlez	parler	VERB	_	VERB__Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	-	-	PUNCT	_	PUNCT___	7	punct	_	_
+6	vous	vous	PRON	_	PRON__Number=Plur|Person=2	7	obj	_	_
+7	?	?	PUNCT	_	PUNCT___	7	punct	_	_
+
+
+#En effet, les aides sont réservées aux foyers modestes, vous ne pouvez pas être considéré comme "modeste" uniquement quand ça vous arrange.
+1	En	En	ADP	_	ADP___	7	advmod	_	_
+2	effet	effet	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+4	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+5	aides	aide	NOUN	_	NOUN__Number=Plur	7	nsubj:pass	_	_
+6	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	réservées	réserver	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	7	cop	_	_
+8	aux	aux	ADP	_	ADP___	9	advmod	_	_
+9	foyers	foyer	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+10	modestes	modeste	ADJ	_	ADJ__Gender=Fem|Number=Plur	7	amod	_	_
+11	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+12	vous	vous	PRON	_	PRON__Number=Plur|Person=2	11	nsubj	_	_
+13	ne	ne	ADV	_	ADV__Polarity=Neg	16	advmod	_	_
+14	pouvez	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	pas	pas	ADV	_	ADV__Polarity=Neg	16	advmod	_	_
+16	être	être	AUX	_	AUX__VerbForm=Inf	16	cop	_	_
+17	considéré	considérer	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	cop	_	_
+18	comme	comme	ADP	_	ADP___	16	mark	_	_
+19	"	"	PUNCT	_	PUNCT___	20	punct	_	_
+20	modeste	modeste	ADJ	_	ADJ__Number=Sing	16	parataxis	_	_
+21	"	"	PUNCT	_	PUNCT___	22	punct	_	_
+22	uniquement	uniquement	ADV	_	ADV___	20	advmod	_	_
+23	quand	quand	SCONJ	_	SCONJ___	20	mark	_	_
+24	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	26	obj	_	_
+25	vous	vous	PRON	_	PRON__Number=Plur|Person=2	24	obj	_	_
+26	arrange	arranger	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
+27	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#La réponse des impôts est stupide ... ça m'étonnerait que ce soit une réponse écrite ...
+1	La	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+2	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nsubj	_	_
+3	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
+4	impôts	impôt	NOUN	_	NOUN__Gender=Masc|Number=Plur	7	nmod	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	stupide	stupide	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+7	...	...	PUNCT	_	PUNCT___	7	punct	_	_
+8	ça	ça	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	nsubj	_	_
+9	m'	se	PRON	_	PRON__Number=Sing|Person=1	7	expl	_	_
+10	étonnerait	étonner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	parataxis	_	_
+11	que	que	SCONJ	_	SCONJ___	16	mark	_	_
+12	ce	ce	PRON	_	PRON__Number=Sing|Person=3	11	nsubj	_	_
+13	soit	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+14	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	ccomp	_	_
+16	écrite	écrit	ADJ	_	ADJ__Gender=Fem|Number=Sing	16	amod	_	_
+17	...	...	PUNCT	_	PUNCT___	18	punct	_	_
+
+

@@ -1,0 +1,106 @@
+#bonjour, un locataire reçoit un commandement de payer (délivré par huissier) le loyer.
+1	bonjour	bonjour	NOUN	_	NOUN___	5	advmod	_	_
+2	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+3	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	locataire	locataire	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+5	reçoit	recevoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+6	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	commandement	commandement	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+8	de	de	ADP	_	ADP___	9	mark	_	_
+9	payer	payer	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+10	(	(	PUNCT	_	PUNCT___	9	punct	_	_
+11	délivré	délivrer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	obl	_	_
+12	par	par	ADP	_	ADP___	13	case	_	_
+13	huissier	huissier	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+14	)	)	PUNCT	_	PUNCT___	9	punct	_	_
+15	le	le	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	16	obj	_	_
+16	loyer	loyer	VERB	_	VERB__VerbForm=Inf	9	obj	_	_
+17	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#En principe les frais d'huissier sont (sans décision de justice) à la charge du locataire, en vertu de l'article L.111-8 al.2 du Code des Procédures Civiles d'Exécution.
+1	En	En	ADP	_	ADP___	5	case	_	_
+2	principe	principe	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	fixed	_	_
+3	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+4	frais	frais	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	fixed	_	_
+5	d'	de	ADP	_	ADP___	5	case	_	_
+6	huissier	huissier	NOUN	_	NOUN__Gender=Masc|Number=Sing	7	nmod	_	_
+7	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+8	(	(	PUNCT	_	PUNCT___	9	punct	_	_
+9	sans	sans	ADP	_	ADP___	5	case	_	_
+10	décision	décision	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	obl	_	_
+11	de	de	ADP	_	ADP___	9	case	_	_
+12	justice	justice	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nmod	_	_
+13	)	)	PUNCT	_	PUNCT___	11	punct	_	_
+14	à	à	ADP	_	ADP___	9	case	_	_
+15	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	charge	charge	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nmod	_	_
+17	du	du	DET	_	DET__Gender=Masc|Number=Sing	5	det	_	_
+18	locataire	locataire	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	amod	_	_
+19	,	,	PUNCT	_	PUNCT___	18	punct	_	_
+20	en	en	ADP	_	ADP___	21	case	_	_
+21	vertu	vertu	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	fixed	_	_
+22	de	de	ADP	_	ADP___	23	fixed	_	_
+23	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+24	article	article	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	nmod	_	_
+25	L.111	l.111	NOUN	_	NOUN__Gender=Masc|Number=Plur	24	amod	_	_
+26	-	-	PUNCT	_	PUNCT___	27	punct	_	_
+27	8	8	NUM	_	NUM__NumType=Card	45	nummod	_	_
+28	al.2	al.2	NOUN	_	NOUN__Number=Plur	0	ROOT	_	_
+29	du	du	DET	_	DET__Gender=Masc|Number=Sing	27	det	_	_
+30	Code	code	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	obj	_	_
+31	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	33	det	_	_
+32	Procédures	procédure	NOUN	_	NOUN__Gender=Fem|Number=Plur	33	obj	_	_
+33	Civiles	civil	ADJ	_	ADJ__Gender=Fem|Number=Plur	27	flat:name	_	_
+34	d'	de	ADP	_	ADP___	35	case	_	_
+35	Exécution	exécution	NOUN	_	NOUN__Gender=Fem|Number=Sing	33	nmod	_	_
+36	.	.	PUNCT	_	PUNCT___	33	punct	_	_
+
+
+#Mais je sais qu'en Alsace Loraine, il existe un certains nombres de particularisme pour les Huissiers.
+1	Mais	Mais	CCONJ	_	CCONJ___	5	cc	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+3	sais	savoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	qu'	que	SCONJ	_	SCONJ___	5	mark	_	_
+5	en	en	ADP	_	ADP___	5	case	_	_
+6	Alsace	Alsace	PROPN	_	PROPN__Gender=Fem|Number=Sing	7	obl	_	_
+7	Loraine	Loraine	PROPN	_	PROPN___	5	nmod	_	_
+8	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+9	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+10	existe	exister	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+11	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+12	certains	certain	DET	_	DET__Gender=Masc|Number=Plur	13	obj	_	_
+13	nombres	nombre	NOUN	_	NOUN__Gender=Fem|Number=Plur	11	amod	_	_
+14	de	de	ADP	_	ADP___	9	case	_	_
+15	particularisme	particularisme	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	nmod	_	_
+16	pour	pour	ADP	_	ADP___	9	case	_	_
+17	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+18	Huissiers	huissier	NOUN	_	NOUN__Gender=Masc|Number=Plur	27	nmod	_	_
+19	.	.	PUNCT	_	PUNCT___	18	punct	_	_
+
+
+#Est ce que cette article s'applique ou existe il une particularité locale ?
+1	Est	être	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	5	cop	_	_
+2	ce	ce	PRON	_	PRON__PronType=Rel	0	ROOT	_	_
+3	que	que	PRON	_	PRON__PronType=Rel	4	mark	_	_
+4	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	article	article	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nsubj	_	_
+6	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	7	expl	_	_
+7	applique	appliquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	ou	ou	CCONJ	_	CCONJ___	9	cc	_	_
+9	existe	exister	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+10	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	9	amod	_	_
+11	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+12	particularité	particularité	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obj	_	_
+13	locale	local	ADJ	_	ADJ__Gender=Fem|Number=Sing	11	amod	_	_
+14	?	?	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#merci pour vos réponses.
+1	merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	pour	pour	ADP	_	ADP___	5	case	_	_
+3	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	4	nmod:poss	_	_
+4	réponses	réponse	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	nmod	_	_
+5	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+

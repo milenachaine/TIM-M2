@@ -1,0 +1,94 @@
+#Bonjour, Nous sommes une copropriété de 1 logement et 2 commerces.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	6	case	_	_
+2	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+3	Nous	nous	PRON	_	PRON__Number=Plur|Person=1	6	nsubj	_	_
+4	sommes	être	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	copropriété	copropriété	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+7	de	de	ADP	_	ADP___	9	case	_	_
+8	1	1	NUM	_	NUM__NumType=Card	9	nummod	_	_
+9	logement	logement	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	6	nmod	_	_
+10	et	et	CCONJ	_	CCONJ___	12	cc	_	_
+11	2	2	NUM	_	NUM__NumType=Card	12	nummod	_	_
+12	commerces	commerce	NOUN	_	NOUN__Gender=Fem|Number=Plur	9	conj	_	_
+13	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Sachant que nous avons des tantièmes différents, l'abonnement doit
+1	Sachant	savoir	VERB	_	VERB__Tense=Pres|VerbForm=Part	0	ROOT	_	_
+2	que	que	PRON	_	PRON__PronType=Rel	6	mark	_	_
+3	nous	nous	PRON	_	PRON__Number=Plur|Person=1	6	nsubj	_	_
+4	avons	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+5	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
+6	tantièmes	tantième	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	obj	_	_
+7	différents	différent	ADJ	_	ADJ__Gender=Masc|Number=Plur	9	amod	_	_
+8	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+9	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+10	abonnement	abonnement	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	nsubj	_	_
+11	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+
+
+#-il se diviser par le nombre de propriétaire ou doit
+1	-	-	PUNCT	_	PUNCT___	6	punct	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+3	se	se	PRON	_	PRON__Person=3|Reflex=Yes	6	expl	_	_
+4	diviser	diviser	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+5	par	par	ADP	_	ADP___	6	case	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+7	nombre	nombre	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	obl	_	_
+8	de	de	ADP	_	ADP___	9	case	_	_
+9	propriétaire	propriétaire	NOUN	_	NOUN__Number=Sing	6	nmod	_	_
+10	ou	ou	CCONJ	_	CCONJ___	12	cc	_	_
+11	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+
+
+#-il être diviser par rapport aux tantièmes.
+1	-	-	PUNCT	_	PUNCT___	6	punct	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	6	nsubj:pass	_	_
+3	être	être	AUX	_	AUX__VerbForm=Inf	6	aux:pass	_	_
+4	diviser	diviser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+5	par	par	ADP	_	ADP___	6	case	_	_
+6	rapport	rapport	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	fixed	_	_
+7	aux	aux	ADP	_	ADP___	9	fixed	_	_
+8	tantièmes	tantième	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	obl	_	_
+9	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#je parle uniquement de l'abonnement et pas de la consommation, qui elle est faite en fonction des relevés des compteurs.
+1	je	il	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+2	parle	parler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	uniquement	uniquement	ADV	_	ADV___	6	advmod	_	_
+4	de	de	ADP	_	ADP___	6	case	_	_
+5	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	abonnement	abonnement	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obl	_	_
+7	et	et	CCONJ	_	CCONJ___	9	cc	_	_
+8	pas	pas	ADV	_	ADV__Polarity=Neg	9	fixed	_	_
+9	de	de	ADP	_	ADP___	6	case	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	consommation	consommation	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	conj	_	_
+12	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+13	qui	qui	PRON	_	PRON__PronType=Rel	6	nsubj:pass	_	_
+14	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	14	nsubj:pass	_	_
+15	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:pass	_	_
+16	faite	faire	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	acl:relcl	_	_
+17	en	en	ADP	_	ADP___	14	mark	_	_
+18	fonction	fonction	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	fixed	_	_
+19	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	17	fixed	_	_
+20	relevés	relevé	NOUN	_	NOUN__Gender=Fem|Number=Plur	19	advcl	_	_
+21	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	24	det	_	_
+22	compteurs	compteur	NOUN	_	NOUN__Gender=Masc|Number=Plur	23	obj	_	_
+23	.	.	PUNCT	_	PUNCT___	24	punct	_	_
+
+
+#Merci d'avance pour votre aide, Cordialement.
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	d'	de	ADP	_	ADP___	6	case	_	_
+3	avance	avance	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+4	pour	pour	ADP	_	ADP___	6	case	_	_
+5	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+6	aide	aide	NOUN	_	NOUN__Number=Sing	6	nmod	_	_
+7	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+8	Cordialement	Cordialement	PROPN	_	PROPN__Gender=Masc|Number=Sing	9	nmod	_	_
+9	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+

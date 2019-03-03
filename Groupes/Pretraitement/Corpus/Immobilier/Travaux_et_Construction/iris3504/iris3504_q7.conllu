@@ -1,0 +1,125 @@
+#1- C'est une copropriété.
+1	1-	1-	NUM	_	NUM__NumType=Card	5	nsubj:pass	_	_
+2	C'	ce	PRON	_	PRON__Number=Sing|Person=3	5	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	copropriété	copropriété	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+6	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#2- la cloture qui délimite le fond de mon jardin est la propriété de la copro.
+1	2-	2-	NUM	_	NUM__NumType=Card	5	cop	_	_
+2	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+3	cloture	cloture	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	qui	qui	PRON	_	PRON__PronType=Rel	5	nsubj	_	_
+5	délimite	délimiter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+7	fond	fond	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	nsubj	_	_
+8	de	de	ADP	_	ADP___	9	case	_	_
+9	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	9	nmod:poss	_	_
+10	jardin	jardin	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+11	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	propriété	propriété	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obl	_	_
+14	de	de	ADP	_	ADP___	16	case	_	_
+15	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	copro	copro	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nmod	_	_
+17	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Mais je ne vois pas ce que cela change pour mon cas:les extensions de mes voisins n'ont pas été déclarées (sont donc illégales),elles ne rentrent donc pas actuellement dans l'emprise au sol existante (qui j'ai bien compris concerne l'ensemble du domaine et pas juste ma maison),c'est pour cela que la mairie veut un remesurage,la régularisation des extensions puis enfin elle traitera mon dossier.
+1	Mais	Mais	CCONJ	_	CCONJ___	5	cc	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+3	ne	ne	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+4	vois	voir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+6	ce	ce	PRON	_	PRON__PronType=Rel	0	ROOT	_	_
+7	que	que	SCONJ	_	SCONJ___	9	obj	_	_
+8	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	9	nsubj	_	_
+9	change	change	NOUN	_	NOUN__Gender=Masc|Number=Sing	9	acl:relcl	_	_
+10	pour	pour	ADP	_	ADP___	11	case	_	_
+11	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	9	nmod:poss	_	_
+12	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+13	:	:	PUNCT	_	PUNCT___	19	punct	_	_
+14	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	16	det	_	_
+15	extensions	extension	NOUN	_	NOUN__Gender=Fem|Number=Plur	16	nsubj:pass	_	_
+16	de	de	ADP	_	ADP___	13	case	_	_
+17	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	19	nmod:poss	_	_
+18	voisins	voisin	NOUN	_	NOUN__Gender=Masc|Number=Plur	19	nmod	_	_
+19	n'	ne	ADV	_	ADV__Polarity=Neg	11	advmod	_	_
+20	ont	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+21	pas	pas	ADV	_	ADV__Polarity=Neg	22	advmod	_	_
+22	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	19	aux:pass	_	_
+23	déclarées	déclarer	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	9	acl	_	_
+24	(	(	PUNCT	_	PUNCT___	29	punct	_	_
+25	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
+26	donc	donc	ADV	_	ADV___	29	advmod	_	_
+27	illégales),elles	illégales),ell	ADJ	_	ADJ__Number=Plur	29	nsubj	_	_
+28	ne	ne	ADV	_	ADV__Polarity=Neg	29	advmod	_	_
+29	rentrent	rentrer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	29	advmod	_	_
+30	donc	donc	ADV	_	ADV___	32	advmod	_	_
+31	pas	pas	ADV	_	ADV___	32	advmod	_	_
+32	actuellement	actuellement	ADV	_	ADV___	29	advmod	_	_
+33	dans	dan	ADP	_	ADP___	35	case	_	_
+34	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	35	det	_	_
+35	emprise	emprise	NOUN	_	NOUN__Gender=Fem|Number=Sing	32	obl	_	_
+36	au	au	PRON	_	PRON__PronType=Rel	29	det	_	_
+37	sol	sol	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	obl	_	_
+38	existante	existant	ADJ	_	ADJ__Gender=Fem|Number=Sing	46	amod	_	_
+39	(	(	PUNCT	_	PUNCT___	41	punct	_	_
+40	qui	qui	PRON	_	PRON__PronType=Rel	41	nsubj	_	_
+41	j'	il	PRON	_	PRON__Number=Sing|Person=1	38	nsubj	_	_
+42	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	46	aux	_	_
+43	bien	bien	ADV	_	ADV___	46	advmod	_	_
+44	compris	compris	ADJ	_	ADJ__Gender=Masc	46	fixed	_	_
+45	concerne	concerner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	parataxis	_	_
+46	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	29	det	_	_
+47	ensemble	ensemble	NOUN	_	NOUN__Gender=Masc|Number=Sing	46	obj	_	_
+48	du	du	DET	_	DET__Gender=Masc|Number=Sing	50	det	_	_
+49	domaine	domaine	NOUN	_	NOUN__Gender=Masc|Number=Sing	50	nmod	_	_
+50	et	et	CCONJ	_	CCONJ___	52	cc	_	_
+51	pas	pas	ADV	_	ADV___	52	advmod	_	_
+52	juste	juste	ADV	_	ADV___	58	advmod	_	_
+53	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	54	nmod:poss	_	_
+54	maison),c'	maison),c'	NOUN	_	NOUN__Gender=Fem|Number=Sing	58	nsubj	_	_
+55	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	54	cop	_	_
+56	pour	pour	ADP	_	ADP___	58	case	_	_
+57	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	58	conj	_	_
+58	que	que	SCONJ	_	SCONJ___	46	mark	_	_
+59	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	60	det	_	_
+60	mairie	mairie	NOUN	_	NOUN__Gender=Fem|Number=Sing	46	nsubj	_	_
+61	veut	vouloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	60	acl	_	_
+62	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+63	remesurage	remesurage	NOUN	_	NOUN__Gender=Masc|Number=Sing	68	obj	_	_
+64	,	,	PUNCT	_	PUNCT___	68	punct	_	_
+65	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	68	det	_	_
+66	régularisation	régularisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	68	obl	_	_
+67	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	66	det	_	_
+68	extensions	extension	NOUN	_	NOUN__Gender=Fem|Number=Plur	46	obj	_	_
+69	puis	pouvoir	CCONJ	_	CCONJ___	70	cc	_	_
+70	enfin	enfin	ADV	_	ADV___	68	advmod	_	_
+71	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	72	nsubj	_	_
+72	traitera	traiter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	70	conj	_	_
+73	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	80	nmod:poss	_	_
+74	dossier	dossier	NOUN	_	NOUN__Gender=Masc|Number=Sing	73	obj	_	_
+75	.	.	PUNCT	_	PUNCT___	80	punct	_	_
+
+
+#3-Pour le PC initial,je ne saurais vous dire.
+1	3-Pour	3-Pour	ADP	_	ADP___	5	case	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+3	PC	PC	PROPN	_	PROPN__Gender=Masc|Number=Sing	5	obl	_	_
+4	initial	initial	ADJ	_	ADJ__Gender=Masc|Number=Sing	5	amod	_	_
+5	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+6	je	il	PRON	_	PRON__Number=Sing|Person=1	5	nsubj	_	_
+7	ne	ne	ADV	_	ADV___	9	advmod	_	_
+8	saurais	saurai	ADJ	_	ADJ__Gender=Masc	9	aux	_	_
+9	vous	vous	PRON	_	PRON__Number=Plur|Person=2	9	nsubj	_	_
+10	dire	dire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+11	.	.	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Merci
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+
+

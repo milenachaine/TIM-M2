@@ -1,0 +1,173 @@
+#bonjour oui suite a héritage .
+1	bonjour	bonjour	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	case	_	_
+2	oui	oui	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	fixed	_	_
+3	suite	suite	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	fixed	_	_
+4	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	héritage	héritage	ADV	_	ADV___	0	ROOT	_	_
+6	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#Il y a eu bail mais l'exploitant est décédé et le bail n'existait plus .
+1	Il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+2	y	yu	PRON	_	PRON__Person=3	1	obj	_	_
+3	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+4	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obj	_	_
+6	mais	mais	CCONJ	_	CCONJ___	5	cc	_	_
+7	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+8	exploitant	exploiter	VERB	_	VERB__Tense=Pres|VerbForm=Part	10	nsubj:pass	_	_
+9	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+10	décédé	décéder	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	conj	_	_
+11	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+13	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nsubj	_	_
+14	n'	ne	ADV	_	ADV___	16	advmod	_	_
+15	existait	exister	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	conj	_	_
+16	plus	plus	ADV	_	ADV__Polarity=Neg	10	advmod	_	_
+17	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Un autre exploitant exploitait sans autorisation .
+1	Un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+2	autre	autre	ADJ	_	ADJ__Number=Sing	1	nsubj	_	_
+3	exploitant	exploiter	VERB	_	VERB__Tense=Pres|VerbForm=Part	1	acl	_	_
+4	exploitait	exploiter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+5	sans	sans	ADP	_	ADP___	5	case	_	_
+6	autorisation	autorisation	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	obl	_	_
+7	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Des que nous nous en sommes aperçu Avec mon frere avons fait signer un bail a un autre exploitant .
+1	Des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	5	nsubj	_	_
+2	que	que	SCONJ	_	SCONJ___	1	mark	_	_
+3	nous	nous	PRON	_	PRON__Number=Plur|Person=1	1	nsubj	_	_
+4	nous	nous	PRON	_	PRON__Number=Plur|Person=1|Reflex=Yes	5	iobj	_	_
+5	en	en	PRON	_	PRON__Person=3	5	expl	_	_
+6	sommes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+7	aperçu	apercevoir	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	10	acl:relcl	_	_
+8	Avec	Avec	ADP	_	ADP___	10	case	_	_
+9	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+10	frere	frere	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obl	_	_
+11	avons	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+12	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+13	signer	signer	VERB	_	VERB__VerbForm=Inf	14	xcomp	_	_
+14	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obj	_	_
+16	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+17	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+18	autre	autre	ADJ	_	ADJ__Number=Sing	19	amod	_	_
+19	exploitant	exploitant	NOUN	_	NOUN__Gender=Masc|Number=Sing	21	obj	_	_
+20	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#MAIS.... notre soeur a monté un dossier chez un notaire pour faire DON de sa part au premier exploitant cité ,et en plus apres passage au tribunal des baux , il a eu gain de cause pour exploiter .
+1	MAIS	MAIS	CCONJ	_	CCONJ___	5	cc	_	_
+2	....	....	PUNCT	_	PUNCT___	1	punct	_	_
+3	notre	notre	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+4	soeur	soeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	nsubj	_	_
+5	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+6	monté	monter	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+8	dossier	dossier	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+9	chez	chez	ADP	_	ADP___	10	case	_	_
+10	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+11	notaire	notaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obl	_	_
+12	pour	pour	ADP	_	ADP___	16	mark	_	_
+13	faire	faire	VERB	_	VERB__VerbForm=Inf	14	advcl	_	_
+14	DON	don	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	obj	_	_
+15	de	de	ADP	_	ADP___	16	case	_	_
+16	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	10	nmod:poss	_	_
+17	part	part	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	nmod	_	_
+18	au	au	PRON	_	PRON__PronType=Rel	19	advmod	_	_
+19	premier	premier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	21	obj	_	_
+20	exploitant	exploiter	VERB	_	VERB__Tense=Pres|VerbForm=Part	21	acl	_	_
+21	cité	cité	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obj	_	_
+22	,	,	PUNCT	_	PUNCT___	21	punct	_	_
+23	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+24	en	en	ADP	_	ADP___	25	case	_	_
+25	plus	plus	ADV	_	ADV___	27	advmod	_	_
+26	apres	apr	ADJ	_	ADJ__Number=Plur	25	amod	_	_
+27	passage	passage	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	conj	_	_
+28	au	au	PRON	_	PRON__PronType=Rel	29	case	_	_
+29	tribunal	tribunal	NOUN	_	NOUN__Gender=Masc|Number=Sing	27	orphan	_	_
+30	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	27	det	_	_
+31	baux	bau	NOUN	_	NOUN__Gender=Masc|Number=Plur	42	obj	_	_
+32	,	,	PUNCT	_	PUNCT___	37	punct	_	_
+33	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	37	nsubj	_	_
+34	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	aux	_	_
+35	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	37	conj	_	_
+36	gain	gain	ADJ	_	ADJ__Gender=Masc|Number=Sing	37	obj	_	_
+37	de	de	ADP	_	ADP___	31	case	_	_
+38	cause	cause	NOUN	_	NOUN__Gender=Fem|Number=Sing	40	obl	_	_
+39	pour	pour	ADP	_	ADP___	40	mark	_	_
+40	exploiter	exploiter	VERB	_	VERB__VerbForm=Inf	37	advcl	_	_
+41	.	.	PUNCT	_	PUNCT___	42	punct	_	_
+
+
+#DONC cet exploitant se retrouve en indivision avec mon frere et moi .
+1	DONC	donc	ADV	_	ADV___	0	ROOT	_	_
+2	cet	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	1	det	_	_
+3	exploitant	exploitant	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+4	se	se	PRON	_	PRON__Person=3|Reflex=Yes	5	expl	_	_
+5	retrouve	retrouver	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	_
+6	en	en	ADP	_	ADP___	5	case	_	_
+7	indivision	indivision	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	obl	_	_
+8	avec	avec	ADP	_	ADP___	10	case	_	_
+9	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	10	nmod:poss	_	_
+10	frere	frere	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+11	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+12	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	16	conj	_	_
+13	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#QUESTION: pouvons nous mon frere et moi , faire don aussi de notre part a un exploitant de notre choix (ou vendre notre part a qui on veut ?
+1	QUESTION	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+3	pouvons	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	nsubj	_	_
+4	nous	nous	PRON	_	PRON__Number=Plur|Person=1|Reflex=Yes	5	nsubj	_	_
+5	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	5	nmod:poss	_	_
+6	frere	frere	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	dislocated	_	_
+7	et	et	CCONJ	_	CCONJ___	10	cc	_	_
+8	moi	lui	PRON	_	PRON__Number=Sing|Person=1|PronType=Prs	10	conj	_	_
+9	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+10	faire	faire	VERB	_	VERB__VerbForm=Inf	10	acl	_	_
+11	don	don	ADV	_	ADV___	10	advmod	_	_
+12	aussi	aussi	ADV	_	ADV___	16	advmod	_	_
+13	de	de	ADP	_	ADP___	14	case	_	_
+14	notre	notre	DET	_	DET__Number=Sing|Poss=Yes	16	nmod:poss	_	_
+15	part	part	NOUN	_	NOUN__Number=Sing	16	nmod	_	_
+16	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advmod	_	_
+17	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+18	exploitant	exploitant	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obj	_	_
+19	de	de	ADP	_	ADP___	21	case	_	_
+20	notre	notre	DET	_	DET__Number=Sing|Poss=Yes	21	nmod:poss	_	_
+21	choix	choix	NOUN	_	NOUN__Gender=Masc|Number=Plur	10	nmod	_	_
+22	(	(	PUNCT	_	PUNCT___	21	punct	_	_
+23	ou	ou	CCONJ	_	CCONJ___	10	cc	_	_
+24	vendre	vendre	VERB	_	VERB__VerbForm=Inf	25	conj	_	_
+25	notre	notre	DET	_	DET__Number=Sing|Poss=Yes	27	nmod:poss	_	_
+26	part	part	NOUN	_	NOUN__Number=Sing	25	obj	_	_
+27	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	xcomp	_	_
+28	qui	qui	PRON	_	PRON__PronType=Rel	29	nsubj	_	_
+29	on	on	PRON	_	PRON__Number=Sing|Person=3	27	nsubj	_	_
+30	veut	vouloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	acl:relcl	_	_
+31	?	?	PUNCT	_	PUNCT___	42	punct	_	_
+
+
+#) merci de m'avoir répondu malgré que je m'exprime pas tres bien
+1	)	)	PUNCT	_	PUNCT___	5	amod	_	_
+2	merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	de	de	ADP	_	ADP___	1	mark	_	_
+4	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	5	expl	_	_
+5	avoir	avoir	AUX	_	AUX__VerbForm=Inf	5	aux	_	_
+6	répondu	répondre	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+7	malgré	malgré	ADP	_	ADP___	10	mark	_	_
+8	que	que	SCONJ	_	SCONJ___	10	fixed	_	_
+9	je	il	PRON	_	PRON__Number=Sing|Person=1	10	nsubj	_	_
+10	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	10	expl	_	_
+11	exprime	exprimer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	10	advcl	_	_
+12	pas	pas	ADV	_	ADV__Polarity=Neg	16	advmod	_	_
+13	tres	tr	ADJ	_	ADJ__Gender=Fem|Number=Plur	14	obj	_	_
+14	bien	bien	ADV	_	ADV___	16	advmod	_	_
+
+

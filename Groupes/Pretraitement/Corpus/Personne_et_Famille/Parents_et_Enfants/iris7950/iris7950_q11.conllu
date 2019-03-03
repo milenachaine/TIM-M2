@@ -1,0 +1,103 @@
+#Une seule suffit ... à la fois A chaque changement d'employeur, il faut tout recommencer.
+1	Une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	seule	seul	ADJ	_	ADJ__Gender=Fem|Number=Sing	3	amod	_	_
+3	suffit	suffire	NOUN	_	NOUN__Gender=Fem|Number=Plur	15	nsubj	_	_
+4	...	...	PUNCT	_	PUNCT___	3	punct	_	_
+5	à	à	ADP	_	ADP___	10	case	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	fixed	_	_
+7	fois	fois	NOUN	_	NOUN__Gender=Fem|Number=Sing	5	fixed	_	_
+8	A	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	fixed	_	_
+9	chaque	chaque	DET	_	DET__Number=Sing	10	det	_	_
+10	changement	changement	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nmod	_	_
+11	d'	de	ADP	_	ADP___	12	case	_	_
+12	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+13	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+14	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	15	nsubj	_	_
+15	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+16	tout	tout	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	advmod	_	_
+17	recommencer	recommencer	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	xcomp	_	_
+18	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Parfois il recommence à payer de lui même, et puis s’arrête au bout de qq mois.
+1	Parfois	parfois	ADV	_	ADV___	3	advmod	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+3	recommence	recommencer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	à	à	ADP	_	ADP___	3	mark	_	_
+5	payer	payer	VERB	_	VERB__VerbForm=Inf	10	xcomp	_	_
+6	de	de	ADP	_	ADP___	5	case	_	_
+7	lui	luire	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl	_	_
+8	même	même	ADV	_	ADV___	5	advmod	_	_
+9	,	,	PUNCT	_	PUNCT___	10	punct	_	_
+10	et	et	CCONJ	_	CCONJ___	3	cc	_	_
+11	puis	pouvoir	CCONJ	_	CCONJ___	12	cc	_	_
+12	s’	s’	ADJ	_	ADJ__Gender=Masc|Number=Sing	10	nsubj	_	_
+13	arrête	arrêter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	_
+14	au	au	DET	_	DET__Number=Plur|PronType=Dem	15	case	_	_
+15	bout	bouillir	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	fixed	_	_
+16	de	de	ADP	_	ADP___	17	fixed	_	_
+17	qq	qq	NUM	_	NUM__NumType=Card	15	det	_	_
+18	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	obl	_	_
+19	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#=>
+1	=	=	VERB	_	VERB__Mood=Ind|Person=3|VerbForm=Fin	0	ROOT	_	_
+2	>	>	PRON	_	PRON__PronType=Rel	3	obj	_	_
+
+
+#Procédure de paiement direct auprès de l'employeur.
+1	Procédure	procédure	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	de	de	ADP	_	ADP___	3	case	_	_
+3	paiement	paiement	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nmod	_	_
+4	direct	direct	ADJ	_	ADJ__Gender=Masc|Number=Sing	3	amod	_	_
+5	auprès	auprès	ADP	_	ADP___	10	case	_	_
+6	de	de	ADP	_	ADP___	5	fixed	_	_
+7	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+8	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+9	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Et puis changement d'employeur, donc arrêt des versements... =>
+1	Et	Et	CCONJ	_	CCONJ___	3	cc	_	_
+2	puis	pouvoir	CCONJ	_	CCONJ___	3	cc	_	_
+3	changement	changement	ADV	_	ADV___	15	advcl	_	_
+4	d'	de	ADP	_	ADP___	3	case	_	_
+5	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obl	_	_
+6	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+7	donc	donc	ADV	_	ADV___	5	advmod	_	_
+8	arrêt	arrêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+9	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
+10	versements	versement	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	obj	_	_
+11	...	...	PUNCT	_	PUNCT___	12	punct	_	_
+12	=	=	VERB	_	VERB__Mood=Ind|Person=3|VerbForm=Fin	10	parataxis	_	_
+13	>	>	PROPN	_	PROPN__Number=Sing	15	obj	_	_
+
+
+#Nouvelle procédure...
+1	Nouvelle	nouveau	ADJ	_	ADJ__Gender=Fem|Number=Sing	3	amod	_	_
+2	procédure	procédure	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	...	...	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#puis au bout de quelques temps, changement d'employeur...
+1	puis	pouvoir	CCONJ	_	CCONJ___	3	cc	_	_
+2	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	3	advmod	_	_
+3	bout	bouillir	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	fixed	_	_
+4	de	de	ADP	_	ADP___	3	case	_	_
+5	quelques	quelque	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
+6	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	nmod	_	_
+7	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+8	changement	changement	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+9	d'	de	ADP	_	ADP___	10	case	_	_
+10	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	obl	_	_
+11	...	...	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#Et on recommence...
+1	Et	Et	CCONJ	_	CCONJ___	3	cc	_	_
+2	on	on	PRON	_	PRON__Number=Sing|Person=3	3	nsubj	_	_
+3	recommence	recommenc	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+4	...	...	PUNCT	_	PUNCT___	3	punct	_	_
+
+

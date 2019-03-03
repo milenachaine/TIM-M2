@@ -1,0 +1,578 @@
+#Bonjour, Je suis gérant de deux sociétés :
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Je	il	PRON	_	PRON__Number=Sing|Person=1	8	nsubj:pass	_	_
+4	suis	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+5	gérant	gérer	VERB	_	VERB__Tense=Pres|VerbForm=Part	8	amod	_	_
+6	de	de	ADP	_	ADP___	8	case	_	_
+7	deux	deux	NUM	_	NUM__NumType=Card	8	nummod	_	_
+8	sociétés	société	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	nmod	_	_
+9	:	:	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Une EURL 8000€ de capital (Je suis bien évidemment le seul actionnaire).
+1	Une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	EURL	eurl	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	8000	8000	NUM	_	NUM__NumType=Card	8	nummod	_	_
+4	€	€	NOUN	_	NOUN__Gender=Masc	8	nmod	_	_
+5	de	de	ADP	_	ADP___	8	case	_	_
+6	capital	capital	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+7	(	(	PUNCT	_	PUNCT___	8	punct	_	_
+8	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+9	suis	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	cop	_	_
+10	bien	bien	ADV	_	ADV___	11	advmod	_	_
+11	évidemment	évidemment	ADV	_	ADV___	11	acl:relcl	_	_
+12	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+13	seul	seul	ADJ	_	ADJ__Gender=Masc|Number=Sing	11	amod	_	_
+14	actionnaire	actionnaire	NOUN	_	NOUN__Number=Sing	15	obj	_	_
+15	)	)	PUNCT	_	PUNCT___	13	punct	_	_
+16	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Une SARL
+1	Une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	SARL	SARL	PROPN	_	PROPN__Gender=Fem|Number=Sing	0	ROOT	_	_
+
+
+#40000€ de capital initial.
+1	40000	40000	NUM	_	NUM__NumType=Card	1	nummod	_	_
+2	€	€	NOUN	_	NOUN__Gender=Masc	0	ROOT	_	_
+3	de	de	ADP	_	ADP___	8	case	_	_
+4	capital	capital	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+5	initial	initial	ADJ	_	ADJ__Gender=Masc|Number=Sing	8	amod	_	_
+6	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Je possède 98% des parts et un autre "minoritaire" possède les 2% restant.
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	possède	posséder	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	98	98	NUM	_	NUM__NumType=Card	8	nummod	_	_
+4	%	%	NOUN	_	NOUN__Gender=Masc	8	obj	_	_
+5	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
+6	parts	part	NOUN	_	NOUN__Number=Plur	8	nmod	_	_
+7	et	et	CCONJ	_	CCONJ___	8	cc	_	_
+8	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+9	autre	autre	ADJ	_	ADJ__Number=Sing	8	amod	_	_
+10	"	"	PUNCT	_	PUNCT___	11	punct	_	_
+11	minoritaire	minoritaire	ADJ	_	ADJ__Number=Sing	11	conj	_	_
+12	"	"	PUNCT	_	PUNCT___	11	punct	_	_
+13	possède	posséder	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	xcomp	_	_
+14	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	15	det	_	_
+15	2	2	NUM	_	NUM__NumType=Card	13	nummod	_	_
+16	%	%	NOUN	_	NOUN__Gender=Masc	13	obj	_	_
+17	restant	rester	VERB	_	VERB__Tense=Pres|VerbForm=Part	20	acl	_	_
+18	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#Remarque :
+1	Remarque	remarqu	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+2	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#La SARL n’a quasiment pas de CA et ses fonds propres, au dernier bilan, sont de 16 000€ Je souhaiterais que l'EURL absorbe la SARL à l'aide du principe de la TUP.
+1	La	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	SARL	SARL	PROPN	_	PROPN__Gender=Fem|Number=Sing	1	nsubj	_	_
+3	n’	n’	ADJ	_	ADJ__Number=Plur	8	amod	_	_
+4	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	dep	_	_
+5	quasiment	quasiment	ADV	_	ADV___	8	advmod	_	_
+6	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+7	de	de	ADP	_	ADP___	8	det	_	_
+8	CA	CA	PROPN	_	PROPN___	1	advcl	_	_
+9	et	et	CCONJ	_	CCONJ___	8	cc	_	_
+10	ses	son	DET	_	DET__Number=Plur|Poss=Yes	11	nmod:poss	_	_
+11	fonds	fonds	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	conj	_	_
+12	propres	propre	ADJ	_	ADJ__Number=Plur	11	amod	_	_
+13	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+14	au	au	PRON	_	PRON__PronType=Rel	15	det	_	_
+15	dernier	dernier	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	13	amod	_	_
+16	bilan	bilan	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nsubj	_	_
+17	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+18	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+19	de	de	ADP	_	ADP___	20	case	_	_
+20	16	16	NUM	_	NUM__NumType=Card	13	nummod	_	_
+21	000	000	NUM	_	NUM__NumType=Card	23	nummod	_	_
+22	€	€	CCONJ	_	CCONJ___	23	nsubj	_	_
+23	Je	il	PRON	_	PRON__Number=Sing|Person=1	20	nsubj	_	_
+24	souhaiterais	souhaiter	VERB	_	VERB__Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+25	que	que	SCONJ	_	SCONJ___	11	mark	_	_
+26	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	27	det	_	_
+27	EURL	eurl	NOUN	_	NOUN__Number=Sing	27	nsubj	_	_
+28	absorbe	absorber	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	ccomp	_	_
+29	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+30	SARL	SARL	PROPN	_	PROPN__Gender=Fem|Number=Sing	31	obj	_	_
+31	à	à	ADP	_	ADP___	29	case	_	_
+32	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	29	det	_	_
+33	aide	aide	NOUN	_	NOUN__Number=Sing	29	obl	_	_
+34	du	du	DET	_	DET__Gender=Masc|Number=Sing	35	det	_	_
+35	principe	principe	NOUN	_	NOUN__Gender=Masc|Number=Sing	35	obj	_	_
+36	de	de	ADP	_	ADP___	37	case	_	_
+37	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+38	TUP	TUP	PROPN	_	PROPN__Gender=Fem|Number=Sing	39	nmod	_	_
+39	.	.	PUNCT	_	PUNCT___	37	punct	_	_
+
+
+#Je vais vous indiquer ci-dessous la chronologie des étapes que je pense nécessaires..
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	vais	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	vous	vous	PRON	_	PRON__Number=Plur|Person=2	8	iobj	_	_
+4	indiquer	indiquer	VERB	_	VERB__VerbForm=Inf	8	xcomp	_	_
+5	ci-dessous	ci-dessous	ADV	_	ADV___	8	advmod	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	chronologie	chronologie	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+8	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	1	det	_	_
+9	étapes	étape	NOUN	_	NOUN__Gender=Fem|Number=Plur	8	obj	_	_
+10	que	que	PRON	_	PRON__PronType=Rel	11	mark	_	_
+11	je	il	PRON	_	PRON__Number=Sing|Person=1	11	nsubj	_	_
+12	pense	penser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+13	nécessaires	nécessaire	ADJ	_	ADJ__Number=Plur	11	amod	_	_
+14	..	..	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Pourriez vous, s'il vous plaît, répondre à mes questions, indiquer mes erreurs et vos remarques ?
+1	Pourriez	pouvoir	VERB	_	VERB__Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	advmod	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+3	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+4	s'	si	SCONJ	_	SCONJ___	8	mark	_	_
+5	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+6	vous	vous	PRON	_	PRON__Number=Plur|Person=2	8	obj	_	_
+7	plaît	plaire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+8	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+9	répondre	répondre	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+10	à	à	ADP	_	ADP___	11	case	_	_
+11	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	11	nmod:poss	_	_
+12	questions	question	NOUN	_	NOUN__Gender=Fem|Number=Plur	11	obl	_	_
+13	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+14	indiquer	indiquer	VERB	_	VERB__VerbForm=Inf	15	conj	_	_
+15	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	13	nmod:poss	_	_
+16	erreurs	erreur	NOUN	_	NOUN__Gender=Fem|Number=Plur	13	obj	_	_
+17	et	et	CCONJ	_	CCONJ___	20	cc	_	_
+18	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	20	nmod:poss	_	_
+19	remarques	remarque	NOUN	_	NOUN__Gender=Fem|Number=Plur	20	conj	_	_
+20	?	?	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Mon objectif est bien évidemment d’arriver à optimiser les coûts de cette opération tout en restant dans la légalité.
+1	Mon	mon	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	objectif	objectif	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+4	bien	bien	ADV	_	ADV___	8	advmod	_	_
+5	évidemment	évidemment	ADV	_	ADV___	8	advmod	_	_
+6	d’	d’	PUNCT	_	PUNCT___	0	ROOT	_	_
+7	arriver	arriver	VERB	_	VERB__VerbForm=Inf	8	xcomp	_	_
+8	à	à	ADP	_	ADP___	1	mark	_	_
+9	optimiser	optimiser	VERB	_	VERB__VerbForm=Inf	8	xcomp	_	_
+10	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	11	det	_	_
+11	coûts	coût	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	obj	_	_
+12	de	de	ADP	_	ADP___	11	case	_	_
+13	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
+14	opération	opération	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	nmod	_	_
+15	tout	tout	ADV	_	ADV___	13	obj	_	_
+16	en	en	ADP	_	ADP___	13	expl	_	_
+17	restant	rester	VERB	_	VERB__Tense=Pres|VerbForm=Part	20	acl	_	_
+18	dans	dan	ADP	_	ADP___	20	case	_	_
+19	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	légalité	légalité	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obl	_	_
+21	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#Merci par avance pour votre aide : -1- Contrat de cession de parts.
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	par	par	ADP	_	ADP___	1	case	_	_
+3	avance	avance	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+4	pour	pour	ADP	_	ADP___	8	case	_	_
+5	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+6	aide	aide	NOUN	_	NOUN__Number=Sing	8	nmod	_	_
+7	:	:	PUNCT	_	PUNCT___	8	punct	_	_
+8	-1-	-1-	ADJ	_	ADJ__NumType=Ord	1	punct	_	_
+9	Contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+10	de	de	ADP	_	ADP___	11	case	_	_
+11	cession	cession	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+12	de	de	ADP	_	ADP___	11	case	_	_
+13	parts	part	NOUN	_	NOUN__Number=Plur	11	nmod	_	_
+14	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Le minoritaire me vends les 2 % des parts de la SARL qu’il possède au travers de ce contrat.
+1	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	minoritaire	minoritaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	me	se	PRON	_	PRON__Number=Sing|Person=1	8	iobj	_	_
+4	vends	vend	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+5	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+6	2	2	NUM	_	NUM__NumType=Card	8	nummod	_	_
+7	%	%	NOUN	_	NOUN__Gender=Masc	8	obj	_	_
+8	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	1	det	_	_
+9	parts	part	NOUN	_	NOUN__Number=Plur	8	obj	_	_
+10	de	de	ADP	_	ADP___	11	case	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+12	SARL	SARL	PROPN	_	PROPN__Gender=Fem|Number=Sing	11	nmod	_	_
+13	qu’	qu’	PRON	_	PRON__PronType=Rel	11	punct	_	_
+14	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	15	nsubj	_	_
+15	possède	posséder	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+16	au	au	DET	_	DET__Number=Plur|PronType=Dem	13	advmod	_	_
+17	travers	travers	NOUN	_	NOUN__Gender=Masc	20	fixed	_	_
+18	de	de	ADP	_	ADP___	20	case	_	_
+19	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	20	det	_	_
+20	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+21	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#-2- Envoie convocation AG de la SARL pour vente des parts à la EURL
+1	-2-	-2-	PUNCT	_	PUNCT___	1	punct	_	_
+2	Envoie	Envoie	PROPN	_	PROPN___	1	amod	_	_
+3	convocation	convocation	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	AG	ag	NOUN	_	NOUN___	8	nmod	_	_
+5	de	de	ADP	_	ADP___	8	case	_	_
+6	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	SARL	SARL	PROPN	_	PROPN__Gender=Fem|Number=Sing	8	obl	_	_
+8	pour	pour	ADP	_	ADP___	1	case	_	_
+9	vente	vente	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+10	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
+11	parts	part	NOUN	_	NOUN__Number=Plur	11	obj	_	_
+12	à	à	ADP	_	ADP___	11	case	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+14	EURL	EURL	PROPN	_	PROPN__Gender=Fem|Number=Sing	15	nmod	_	_
+
+
+#-3- (22 jours après) AG de la SARL pour vente des parts à la EURL.
+1	-3-	-3-	PUNCT	_	PUNCT___	0	ROOT	_	_
+2	(	(	PUNCT	_	PUNCT___	1	punct	_	_
+3	22	22	NUM	_	NUM__NumType=Card	8	nummod	_	_
+4	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	nmod	_	_
+5	après	après	ADV	_	ADV___	8	case	_	_
+6	)	)	PUNCT	_	PUNCT___	8	punct	_	_
+7	AG	ag	NOUN	_	NOUN___	8	nmod	_	_
+8	de	de	ADP	_	ADP___	1	case	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+10	SARL	SARL	PROPN	_	PROPN__Gender=Fem|Number=Sing	11	nmod	_	_
+11	pour	pour	ADP	_	ADP___	11	case	_	_
+12	vente	vente	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+13	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
+14	parts	part	NOUN	_	NOUN__Number=Plur	15	nmod	_	_
+15	à	à	ADP	_	ADP___	13	case	_	_
+16	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+17	EURL	EURL	PROPN	_	PROPN__Gender=Fem|Number=Sing	20	nmod	_	_
+18	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#a)
+1	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+2	)	)	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Est ce grave si le minoritaire est absent à l’AG alors que l’invitation lui a bien été envoyée par LAR ?
+1	Est	être	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	1	cop	_	_
+2	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	1	det	_	_
+3	grave	grave	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+4	si	si	SCONJ	_	SCONJ___	8	mark	_	_
+5	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+6	minoritaire	minoritaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nsubj	_	_
+7	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	absent	absent	ADV	_	ADV___	0	ROOT	_	_
+9	à	à	ADP	_	ADP___	8	case	_	_
+10	l’	l’	PROPN	_	PROPN__Gender=Masc|Number=Sing	11	det	_	_
+11	AG	AG	PROPN	_	PROPN___	11	obl	_	_
+12	alors	alors	ADV	_	ADV___	11	advmod	_	_
+13	que	que	SCONJ	_	SCONJ___	11	mark	_	_
+14	l’	l’	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	invitation	invitation	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nsubj:pass	_	_
+16	lui	luire	PRON	_	PRON__Number=Sing|Person=3	13	iobj	_	_
+17	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+18	bien	bien	ADV	_	ADV___	20	advmod	_	_
+19	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	20	aux:pass	_	_
+20	envoyée	envoyer	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	advcl	_	_
+21	par	par	ADP	_	ADP___	23	case	_	_
+22	LAR	LAR	PROPN	_	PROPN___	23	obl	_	_
+23	?	?	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#b)
+1	b	b	NOUN	_	NOUN___	0	ROOT	_	_
+2	)	)	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Dois je faire alors une inscription Greffe, annonce légale, impôts,… pour acter officiellement que je possède les 100 % des parts de cette société (condition essentielle pour la TUP) ?
+1	Dois	Dois	NUM	_	NUM__NumType=Card	1	aux	_	_
+2	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+3	faire	faire	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+4	alors	alors	ADV	_	ADV___	8	advmod	_	_
+5	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+6	inscription	inscription	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+7	Greffe	Greffe	PROPN	_	PROPN___	8	nmod	_	_
+8	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+9	annonce	annonce	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	appos	_	_
+10	légale	légal	ADJ	_	ADJ__Gender=Fem|Number=Sing	11	amod	_	_
+11	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+12	impôts	impôt	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	conj	_	_
+13	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+14	…	…	ADJ	_	ADJ___	15	punct	_	_
+15	pour	pour	ADP	_	ADP___	13	mark	_	_
+16	acter	acter	VERB	_	VERB__VerbForm=Inf	13	advcl	_	_
+17	officiellement	officiellement	ADV	_	ADV___	20	advmod	_	_
+18	que	que	SCONJ	_	SCONJ___	20	mark	_	_
+19	je	il	PRON	_	PRON__Number=Sing|Person=1	20	nsubj	_	_
+20	possède	posséder	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
+21	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	23	det	_	_
+22	100	100	NUM	_	NUM__NumType=Card	23	nummod	_	_
+23	%	%	NOUN	_	NOUN__Gender=Masc	20	obj	_	_
+24	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	13	det	_	_
+25	parts	part	NOUN	_	NOUN__Number=Plur	11	obj	_	_
+26	de	de	ADP	_	ADP___	27	case	_	_
+27	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	27	det	_	_
+28	société	société	NOUN	_	NOUN__Gender=Fem|Number=Sing	29	nmod	_	_
+29	(	(	PUNCT	_	PUNCT___	29	punct	_	_
+30	condition	condition	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	appos	_	_
+31	essentielle	essentiel	ADJ	_	ADJ__Gender=Fem|Number=Sing	29	amod	_	_
+32	pour	pour	ADP	_	ADP___	29	case	_	_
+33	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+34	TUP	TUP	PROPN	_	PROPN__Gender=Fem|Number=Sing	35	nmod	_	_
+35	)	)	PUNCT	_	PUNCT___	35	punct	_	_
+36	?	?	PUNCT	_	PUNCT___	37	punct	_	_
+
+
+#Ou pensez vous que je puisse enchaîner, dans la foulée, la procédure de la TUP en ayant juste rédigé de nouveaux statuts (stipulant que je possède les 100 % du capital).
+1	Ou	Ou	CCONJ	_	CCONJ___	1	cc	_	_
+2	pensez	penser	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	vous	vous	PRON	_	PRON__Number=Plur|Person=2	0	ROOT	_	_
+4	que	que	SCONJ	_	SCONJ___	8	obj	_	_
+5	je	il	PRON	_	PRON__Number=Sing|Person=1	8	nsubj	_	_
+6	puisse	pouvoir	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	enchaîner	enchaîner	VERB	_	VERB__VerbForm=Inf	8	ccomp	_	_
+8	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+9	dans	dan	ADP	_	ADP___	8	case	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	foulée	foulée	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obl	_	_
+12	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+14	procédure	procédure	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	punct	_	_
+15	de	de	ADP	_	ADP___	13	case	_	_
+16	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+17	TUP	TUP	PROPN	_	PROPN__Gender=Fem|Number=Sing	20	nmod	_	_
+18	en	en	ADP	_	ADP___	20	case	_	_
+19	ayant	avoir	AUX	_	AUX__Tense=Pres|VerbForm=Part	20	fixed	_	_
+20	juste	juste	ADV	_	ADV___	13	advmod	_	_
+21	rédigé	rédiger	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	advcl	_	_
+22	de	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	23	det	_	_
+23	nouveaux	nouveau	ADJ	_	ADJ__Gender=Masc|Number=Plur	20	amod	_	_
+24	statuts	statut	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	nmod	_	_
+25	(	(	PUNCT	_	PUNCT___	11	punct	_	_
+26	stipulant	stipuler	VERB	_	VERB__Tense=Pres|VerbForm=Part	27	acl	_	_
+27	que	que	SCONJ	_	SCONJ___	27	mark	_	_
+28	je	il	PRON	_	PRON__Number=Sing|Person=1	29	nsubj	_	_
+29	possède	posséder	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	ccomp	_	_
+30	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	31	det	_	_
+31	100	100	NUM	_	NUM__NumType=Card	29	nummod	_	_
+32	%	%	NOUN	_	NOUN__Gender=Masc	29	obj	_	_
+33	du	du	DET	_	DET__Gender=Masc|Number=Sing	29	det	_	_
+34	capital	capital	NOUN	_	NOUN__Gender=Masc|Number=Sing	35	appos	_	_
+35	)	)	PUNCT	_	PUNCT___	35	punct	_	_
+36	.	.	PUNCT	_	PUNCT___	37	punct	_	_
+
+
+#TUP : -4- Annonce légale stipulant la TUP: Lancement du délai d’opposition aux tiers de 30 jours.
+1	TUP	tup	NOUN	_	NOUN___	0	ROOT	_	_
+2	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+3	-4-	-4-	PUNCT	_	PUNCT___	8	nmod	_	_
+4	Annonce	Annonce	PROPN	_	PROPN__Gender=Fem|Number=Sing	8	nmod	_	_
+5	légale	légal	ADJ	_	ADJ__Gender=Fem|Number=Sing	8	amod	_	_
+6	stipulant	stipuler	VERB	_	VERB__Tense=Pres|VerbForm=Part	8	acl	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	TUP	TUP	PROPN	_	PROPN__Gender=Fem|Number=Sing	1	obj	_	_
+9	:	:	PUNCT	_	PUNCT___	8	punct	_	_
+10	Lancement	lancement	ADV	_	ADV__PronType=Int	11	nmod	_	_
+11	du	du	DET	_	DET__Gender=Masc|Number=Sing	11	det	_	_
+12	délai	délai	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+13	d’	d’	ADP	_	ADP___	11	amod	_	_
+14	opposition	opposition	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	amod	_	_
+15	aux	aux	ADP	_	ADP___	13	nmod	_	_
+16	tiers	tiers	ADJ	_	ADJ___	13	obj	_	_
+17	de	de	ADP	_	ADP___	20	case	_	_
+18	30	30	NUM	_	NUM__NumType=Card	20	nummod	_	_
+19	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	20	nmod	_	_
+20	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#50 € -5- (Après parution de l’annonce) : Dépôt au greffe du M2 pour la dissolution de la SARL.
+1	50	50	NUM	_	NUM__NumType=Card	1	nummod	_	_
+2	€	€	NOUN	_	NOUN__Gender=Masc	0	ROOT	_	_
+3	-5-	-5-	PRON	_	PRON__PronType=Rel	8	nmod	_	_
+4	(	(	PUNCT	_	PUNCT___	8	punct	_	_
+5	Après	Après	ADP	_	ADP___	8	case	_	_
+6	parution	parution	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+7	de	de	ADP	_	ADP___	8	case	_	_
+8	l’	l’	PROPN	_	PROPN__Gender=Masc|Number=Sing	1	det	_	_
+9	annonce	annonce	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+10	)	)	PUNCT	_	PUNCT___	11	punct	_	_
+11	:	:	PUNCT	_	PUNCT___	11	punct	_	_
+12	Dépôt	Dépôt	PROPN	_	PROPN__Gender=Masc|Number=Sing	11	appos	_	_
+13	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	11	case	_	_
+14	greffe	greffer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	nmod	_	_
+15	du	du	DET	_	DET__Gender=Masc|Number=Sing	13	det	_	_
+16	M2	m2	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+17	pour	pour	ADP	_	ADP___	20	case	_	_
+18	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	dissolution	dissolution	NOUN	_	NOUN__Gender=Fem|Number=Sing	20	nmod	_	_
+20	de	de	ADP	_	ADP___	13	case	_	_
+21	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	SARL	SARL	PROPN	_	PROPN__Gender=Fem|Number=Sing	23	nmod	_	_
+23	.	.	PUNCT	_	PUNCT___	20	punct	_	_
+
+
+#205,50 € Avec :
+1	205,50	205,50	NUM	_	NUM__NumType=Card	1	nummod	_	_
+2	€	€	NOUN	_	NOUN__Gender=Masc	0	ROOT	_	_
+3	Avec	Avec	ADP	_	ADP___	8	flat:name	_	_
+4	:	:	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#- Un exemplaire du procès-verbal des décisions de l’associé unique certifié conforme.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	Un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+3	exemplaire	exemplaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+4	du	du	DET	_	DET__Gender=Masc|Number=Sing	8	det	_	_
+5	procès-verbal	procès-verbal	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obj	_	_
+6	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
+7	décisions	décision	NOUN	_	NOUN__Gender=Fem|Number=Plur	8	obj	_	_
+8	de	de	ADP	_	ADP___	1	case	_	_
+9	l’	l’	PROPN	_	PROPN__Gender=Masc|Number=Sing	8	det	_	_
+10	associé	associer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	nmod	_	_
+11	unique	unique	ADJ	_	ADJ__Number=Sing	11	amod	_	_
+12	certifié	certifier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	acl	_	_
+13	conforme	conforme	ADJ	_	ADJ__Number=Sing	11	amod	_	_
+14	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#- Une copie de l’annonce légale ou attestation de parution.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	Une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+3	copie	copie	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+4	de	de	ADP	_	ADP___	8	case	_	_
+5	l’	l’	PROPN	_	PROPN__Gender=Masc|Number=Sing	8	det	_	_
+6	annonce	annonce	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+7	légale	légal	ADJ	_	ADJ__Gender=Fem|Number=Sing	8	amod	_	_
+8	ou	ou	CCONJ	_	CCONJ___	1	cc	_	_
+9	attestation	attestation	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	conj	_	_
+10	de	de	ADP	_	ADP___	11	case	_	_
+11	parution	parution	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nmod	_	_
+12	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#-6- Enregistrer les procès-verbaux auprès des impôts (En trois exemplaires).
+1	-6-	-6-	PUNCT	_	PUNCT___	1	nsubj	_	_
+2	Enregistrer	enregistrer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+3	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+4	procès-verbaux	procès-verbal	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obj	_	_
+5	auprès	auprès	ADP	_	ADP___	8	case	_	_
+6	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
+7	impôts	impôt	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obl	_	_
+8	(	(	PUNCT	_	PUNCT___	1	punct	_	_
+9	En	En	ADP	_	ADP___	8	case	_	_
+10	trois	trois	NUM	_	NUM__NumType=Card	11	nummod	_	_
+11	exemplaires	exemplaire	ADJ	_	ADJ__Number=Plur	11	nmod	_	_
+12	)	)	PUNCT	_	PUNCT___	11	punct	_	_
+13	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#125 € -7- (31 jours après et dans un délais de 1 mois)
+1	125	125	NUM	_	NUM__NumType=Card	1	nummod	_	_
+2	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+3	-7-	-7-	ADJ	_	ADJ___	8	flat:name	_	_
+4	(	(	PUNCT	_	PUNCT___	8	punct	_	_
+5	31	31	NUM	_	NUM__NumType=Card	8	nummod	_	_
+6	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	nmod	_	_
+7	après	après	ADP	_	ADP___	8	case	_	_
+8	et	et	CCONJ	_	CCONJ___	1	cc	_	_
+9	dans	dan	ADP	_	ADP___	8	case	_	_
+10	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	délais	délai	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+12	de	de	ADP	_	ADP___	11	case	_	_
+13	1	1	NUM	_	NUM__NumType=Card	11	nummod	_	_
+14	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	nmod	_	_
+15	)	)	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Clôture et Liquidation de la SARL par le formulaire M4 déposé au greffe.
+1	Clôture	clôture	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	et	et	CCONJ	_	CCONJ___	1	cc	_	_
+3	Liquidation	liquidation	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	conj	_	_
+4	de	de	ADP	_	ADP___	8	case	_	_
+5	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+6	SARL	SARL	PROPN	_	PROPN__Gender=Fem|Number=Sing	8	nmod	_	_
+7	par	par	ADP	_	ADP___	8	case	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+9	formulaire	formulaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nmod	_	_
+10	M4	M4	ADP	_	ADP___	11	nmod	_	_
+11	déposé	déposer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
+12	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	11	case	_	_
+13	greffe	greffer	VERB	_	VERB__VerbForm=Inf	11	obl	_	_
+14	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#0 € c) Est t-il obligatoire d’y joindre un certificat de non-opposition ?
+1	0	0	NUM	_	NUM__NumType=Card	1	nummod	_	_
+2	€	€	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	nsubj	_	_
+3	c	c	NOUN	_	NOUN___	8	nmod	_	_
+4	)	)	PUNCT	_	PUNCT___	8	punct	_	_
+5	Est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	t-il	t-il	ADV	_	ADV___	8	aux	_	_
+7	obligatoire	obligatoire	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+8	d’	d’	PUNCT	_	PUNCT___	1	punct	_	_
+9	y	yu	PRON	_	PRON__Person=3	8	iobj	_	_
+10	joindre	joindre	VERB	_	VERB__VerbForm=Inf	11	xcomp	_	_
+11	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+12	certificat	certificat	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obj	_	_
+13	de	de	ADP	_	ADP___	11	case	_	_
+14	non-opposition	non-opposition	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	nmod	_	_
+15	?	?	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#d)
+1	d	d	NOUN	_	NOUN___	0	ROOT	_	_
+2	)	)	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Est il nécessaire de déposer (impôts et greffe) de nouveaux statuts pour la EURL (stipulant qu’elle a absorbé la SARL) ?
+1	Est	être	ADV	_	ADV___	1	cop	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+3	nécessaire	nécessaire	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+4	de	de	ADP	_	ADP___	8	mark	_	_
+5	déposer	déposer	VERB	_	VERB__VerbForm=Inf	8	xcomp	_	_
+6	(	(	PUNCT	_	PUNCT___	8	punct	_	_
+7	impôts	impôt	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	obl	_	_
+8	et	et	CCONJ	_	CCONJ___	1	cc	_	_
+9	greffe	greffe	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	conj	_	_
+10	)	)	PUNCT	_	PUNCT___	11	punct	_	_
+11	de	de	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
+12	nouveaux	nouveau	ADJ	_	ADJ__Gender=Masc|Number=Plur	11	amod	_	_
+13	statuts	statut	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	xcomp	_	_
+14	pour	pour	ADP	_	ADP___	15	case	_	_
+15	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+16	EURL	EURL	PROPN	_	PROPN__Gender=Fem|Number=Sing	13	nmod	_	_
+17	(	(	PUNCT	_	PUNCT___	20	punct	_	_
+18	stipulant	stipuler	VERB	_	VERB__Tense=Pres|VerbForm=Part	20	acl	_	_
+19	qu’	qu’	SCONJ	_	SCONJ___	20	mark	_	_
+20	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	13	nsubj	_	_
+21	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+22	absorbé	absorber	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	acl:relcl	_	_
+23	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+24	SARL	SARL	PROPN	_	PROPN__Gender=Fem|Number=Sing	13	obj	_	_
+25	)	)	PUNCT	_	PUNCT___	11	punct	_	_
+26	?	?	PUNCT	_	PUNCT___	27	punct	_	_
+
+
+#e) FIN ?
+1	e	e	NOUN	_	NOUN___	0	ROOT	_	_
+2	)	)	PUNCT	_	PUNCT___	1	punct	_	_
+3	FIN	fin	NOUN	_	NOUN___	8	appos	_	_
+4	?	?	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#MERCI par avance pour votre aide.
+1	MERCI	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	par	par	ADP	_	ADP___	1	case	_	_
+3	avance	avance	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+4	pour	pour	ADP	_	ADP___	8	case	_	_
+5	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+6	aide	aide	NOUN	_	NOUN__Number=Sing	8	nmod	_	_
+7	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+

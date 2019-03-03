@@ -1,0 +1,103 @@
+#Bsr Voici une réponse un peu plus précise.
+1	Bsr	Bsr	PROPN	_	PROPN__Gender=Masc|Number=Sing	8	nsubj	_	_
+2	Voici	voici	VERB	_	VERB__Mood=Ind|VerbForm=Fin	1	flat:name	_	_
+3	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	réponse	réponse	NOUN	_	NOUN__Gender=Fem|Number=Sing	2	obj	_	_
+5	un	un	DET	_	DET__Gender=Masc|Number=Sing	8	obj	_	_
+6	peu	peu	ADV	_	ADV___	5	fixed	_	_
+7	plus	plus	ADV	_	ADV___	5	fixed	_	_
+8	précise	précis	ADJ	_	ADJ__Gender=Fem|Number=Sing	0	ROOT	_	_
+9	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#Pour valider un trimestre , il faut non pas des jours mais avoir reçu une certaine somme sur l'année.
+1	Pour	Pour	ADP	_	ADP___	8	mark	_	_
+2	valider	valider	VERB	_	VERB__VerbForm=Inf	1	advcl	_	_
+3	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	trimestre	trimestre	NOUN	_	NOUN__Gender=Masc|Number=Sing	2	obj	_	_
+5	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+6	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+7	faut	falloir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+8	non	non	ADV	_	ADV___	8	advmod	_	_
+9	pas	pas	ADV	_	ADV__Polarity=Neg	8	fixed	_	_
+10	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
+11	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	16	obj	_	_
+12	mais	mais	CCONJ	_	CCONJ___	13	cc	_	_
+13	avoir	avoir	AUX	_	AUX__VerbForm=Inf	11	aux	_	_
+14	reçu	recevoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	conj	_	_
+15	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	certaine	certain	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obj	_	_
+17	somme	sommer	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	amod	_	_
+18	sur	sur	ADP	_	ADP___	17	case	_	_
+19	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	année	année	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nmod	_	_
+21	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#1 trimestre = x €, 4 trimestre = 4 x sur l'année.
+1	1	1	NUM	_	NUM__NumType=Card	8	nummod	_	_
+2	trimestre	trimestre	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	=	=	VERB	_	VERB__Mood=Ind|Person=3|VerbForm=Fin	0	ROOT	_	_
+4	x	x	ADP	_	ADP___	2	obj	_	_
+5	€	€	NOUN	_	NOUN__Gender=Masc	8	obl	_	_
+6	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+7	4	4	NUM	_	NUM__NumType=Card	5	nummod	_	_
+8	trimestre	trimestre	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	nsubj	_	_
+9	=	=	VERB	_	VERB__Mood=Ind|Person=3|VerbForm=Fin	8	conj	_	_
+10	4	4	NUM	_	NUM__NumType=Card	11	nummod	_	_
+11	x	x	NOUN	_	NOUN___	16	obj	_	_
+12	sur	sur	ADP	_	ADP___	13	case	_	_
+13	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+14	année	année	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	nmod	_	_
+15	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Si vous avez eu moins, ce sera 3 trimestres ...ou 2.... Travaillant à temps partiel, j'ai raté la validation d'un trimestre pour 3€ manquants…..
+1	Si	Si	SCONJ	_	SCONJ___	8	mark	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	nsubj	_	_
+3	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	eu	avoir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+5	moins	moins	ADV	_	ADV___	8	advmod	_	_
+6	,	,	PUNCT	_	PUNCT___	5	punct	_	_
+7	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+8	sera	être	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	cop	_	_
+9	3	3	NUM	_	NUM__NumType=Card	8	nummod	_	_
+10	trimestres	trimestre	NOUN	_	NOUN__Gender=Fem|Number=Plur	11	obj	_	_
+11	...	...	PUNCT	_	PUNCT___	16	nmod	_	_
+12	ou	ou	CCONJ	_	CCONJ___	13	cc	_	_
+13	2	2	NUM	_	NUM__NumType=Card	11	nummod	_	_
+14	....	....	PUNCT	_	PUNCT___	16	conj	_	_
+15	Travaillant	travailler	VERB	_	VERB__Tense=Pres|VerbForm=Part	16	flat:name	_	_
+16	à	à	ADP	_	ADP___	16	case	_	_
+17	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	16	nmod	_	_
+18	partiel	partiel	ADJ	_	ADJ___	17	amod	_	_
+19	,	,	PUNCT	_	PUNCT___	20	punct	_	_
+20	j'	il	PRON	_	PRON__Number=Sing|Person=1	16	nsubj	_	_
+21	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	aux	_	_
+22	raté	rater	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+23	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+24	validation	validation	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	obj	_	_
+25	d'	de	ADP	_	ADP___	23	case	_	_
+26	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+27	trimestre	trimestre	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	nmod	_	_
+28	pour	pour	ADP	_	ADP___	29	case	_	_
+29	3	3	NUM	_	NUM__NumType=Card	25	nummod	_	_
+30	€	€	NUM	_	NUM__NumType=Card	16	obl	_	_
+31	manquants	manquant	NOUN	_	NOUN__Gender=Masc|Number=Plur	32	appos	_	_
+32	…	…	ADJ	_	ADJ___	33	punct	_	_
+33	..	..	PUNCT	_	PUNCT___	33	punct	_	_
+
+
+#Voir le barème ci dessous.
+1	Voir	voir	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+3	barème	barèm	ADJ	_	ADJ__Number=Sing|NumType=Ord	4	obj	_	_
+4	ci	ci	NUM	_	NUM__NumType=Card	2	case	_	_
+5	dessous	dessous	ADV	_	ADV___	8	nmod	_	_
+6	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#https://www.legislation.cnav.fr/Page...re_montant_bar
+1	https://www.legislation.cnav.fr/Page...re_montant_bar	https://www.legislation.cnav.fr/page...re_montant_bar	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+
+

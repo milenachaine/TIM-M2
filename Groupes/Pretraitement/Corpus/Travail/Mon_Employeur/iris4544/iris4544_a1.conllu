@@ -1,0 +1,77 @@
+#Bonsoir, A quelle fréquence
+1	Bonsoir	Bonsoir	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+3	A	a	NOUN	_	NOUN___	1	conj	_	_
+4	quelle	quel	DET	_	DET__Gender=Fem|Number=Sing|PronType=Int	5	det	_	_
+5	fréquence	fréquence	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obj	_	_
+
+
+#ces commissions vous sont-elles versées?
+1	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	1	det	_	_
+2	commissions	commission	NOUN	_	NOUN__Gender=Fem|Number=Plur	3	nsubj	_	_
+3	vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	iobj	_	_
+4	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+6	elles	lui	PRON	_	PRON__Gender=Fem|Number=Plur|Person=3	7	obj	_	_
+7	versées	verser	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	9	acl	_	_
+8	?	?	PUNCT	_	PUNCT___	9	punct	_	_
+
+
+#Une fois par an?
+1	Une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	fois	fois	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	par	par	ADP	_	ADP___	1	case	_	_
+4	an	an	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nmod	_	_
+5	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Si vous avez une clause régentant ces commissions, pourriez-vous la reproduire ici en l'anonymisant?
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	3	nsubj	_	_
+3	avez	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	clause	clause	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obj	_	_
+6	régentant	régenter	VERB	_	VERB__Tense=Pres|VerbForm=Part	7	acl	_	_
+7	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	9	det	_	_
+8	commissions	commission	NOUN	_	NOUN__Gender=Fem|Number=Plur	9	obj	_	_
+9	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+10	pourriez	pouvoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	cc	_	_
+11	-	-	PUNCT	_	PUNCT___	9	punct	_	_
+12	vous	vous	PRON	_	PRON__Number=Plur|Person=2	11	nmod	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+14	reproduire	reproduire	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obl	_	_
+15	ici	ici	ADV	_	ADV___	15	advmod	_	_
+16	en	en	ADP	_	ADP___	17	case	_	_
+17	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+18	anonymisant	anonymiser	VERB	_	VERB__Tense=Pres|VerbForm=Part	15	nmod	_	_
+19	?	?	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#Dernière question : avez-vous un maintien de rémunération à 100% pendant votre congé maternité?
+1	Dernière	dernier	ADJ	_	ADJ__Gender=Fem|Number=Sing|NumType=Ord	1	amod	_	_
+2	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	3	nsubj	_	_
+3	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+4	avez	avoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	cc	_	_
+5	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+6	vous	vous	PRON	_	PRON__Number=Plur|Person=2	7	dep	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	maintien	maintien	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+9	de	de	ADP	_	ADP___	9	case	_	_
+10	rémunération	rémunération	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	nmod	_	_
+11	à	à	ADP	_	ADP___	9	case	_	_
+12	100	100	NUM	_	NUM__NumType=Card	11	nummod	_	_
+13	%	%	NOUN	_	NOUN__Gender=Masc	9	obl	_	_
+14	pendant	pendre	ADP	_	ADP___	15	case	_	_
+15	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	15	nmod:poss	_	_
+16	congé	congé	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obl	_	_
+17	maternité	maternité	ADJ	_	ADJ__Gender=Masc|Number=Sing	15	nmod	_	_
+18	?	?	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Bien à vous.
+1	Bien	bien	ADV	_	ADV___	1	case	_	_
+2	à	à	ADP	_	ADP___	3	fixed	_	_
+3	vous	vous	PRON	_	PRON__Number=Plur|Person=2|PronType=Prs	0	ROOT	_	_
+4	.	.	PUNCT	_	PUNCT___	5	punct	_	_
+
+

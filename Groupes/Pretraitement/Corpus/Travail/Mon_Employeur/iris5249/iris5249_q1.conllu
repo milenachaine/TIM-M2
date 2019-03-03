@@ -1,0 +1,518 @@
+#Bonjour, technicien échelon
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	technicien	technicien	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+4	échelon	échelon	PROPN	_	PROPN___	3	amod	_	_
+
+
+#V niveau 2 coeff
+1	V	v	NOUN	_	NOUN___	1	amod	_	_
+2	niveau	niveau	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+3	2	2	NUM	_	NUM__NumType=Card	1	nummod	_	_
+4	coeff	coeff	NOUN	_	NOUN__Gender=Fem|Number=Plur	3	nmod	_	_
+
+
+#335 j'ai été embauché au forfait jour il y aura bientôt 1 an.
+1	335	335	NUM	_	NUM__NumType=Card	1	nummod	_	_
+2	j'	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj:pass	_	_
+3	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
+4	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	3	aux:pass	_	_
+5	embauché	embaucher	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+6	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	6	mark	_	_
+7	forfait	forfaire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	parataxis	_	_
+8	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+9	il	il	PRON	_	PRON__Number=Sing|Person=3	13	nsubj	_	_
+10	y	yu	PRON	_	PRON__Person=3	13	expl	_	_
+11	aura	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	13	advcl	_	_
+12	bientôt	bientôt	ADV	_	ADV___	13	advmod	_	_
+13	1	1	NUM	_	NUM__NumType=Card	13	nummod	_	_
+14	an	an	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obj	_	_
+15	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Plusieurs points et quelques questions associées:
+1	Plusieurs	plusieurs	DET	_	DET__Number=Plur	1	det	_	_
+2	points	point	NOUN	_	NOUN__Gender=Masc|Number=Plur	0	ROOT	_	_
+3	et	et	CCONJ	_	CCONJ___	1	cc	_	_
+4	quelques	quelque	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	3	det	_	_
+5	questions	question	NOUN	_	NOUN__Gender=Fem|Number=Plur	6	conj	_	_
+6	associées	associé	ADJ	_	ADJ__Gender=Fem|Number=Plur	6	acl	_	_
+7	:	:	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#- Je pointe chaque jour, il m'a été dit de pointe 4 fois dans la journée mais, sur mon contrat de travail ce point est litigieux puisqu'il indique "
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+3	pointe	pointer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+4	chaque	chaque	DET	_	DET__Number=Sing	3	det	_	_
+5	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+6	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+7	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+8	m'	se	PRON	_	PRON__Number=Sing|Person=1	6	iobj	_	_
+9	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+10	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	13	aux:pass	_	_
+11	dit	dire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+12	de	de	ADP	_	ADP___	13	case	_	_
+13	pointe	pointe	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obl	_	_
+14	4	4	NUM	_	NUM__NumType=Card	15	nummod	_	_
+15	fois	fois	NOUN	_	NOUN__Gender=Fem|Number=Plur	13	obl	_	_
+16	dans	dan	ADP	_	ADP___	15	case	_	_
+17	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	journée	journée	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	obl	_	_
+19	mais	mais	CCONJ	_	CCONJ___	13	amod	_	_
+20	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+21	sur	sur	ADP	_	ADP___	22	case	_	_
+22	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	19	nmod:poss	_	_
+23	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+24	de	de	ADP	_	ADP___	25	case	_	_
+25	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	nmod	_	_
+26	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	28	det	_	_
+27	point	point	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	nsubj	_	_
+28	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+29	litigieux	litigieux	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	28	acl:relcl	_	_
+30	puisqu'	puisque	SCONJ	_	SCONJ___	25	mark	_	_
+31	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	33	nsubj	_	_
+32	indique	indiquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	advcl	_	_
+33	"	"	PUNCT	_	PUNCT___	41	punct	_	_
+
+
+#Le forfait jours fait l'objet d'un contrôle des jours ou demi-journées travaillées".
+1	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	forfait	forfaire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	amod	_	_
+3	jours	jour	ADJ	_	ADJ__Number=Sing	1	nsubj	_	_
+4	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	objet	objet	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+7	d'	de	ADP	_	ADP___	8	case	_	_
+8	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+9	contrôle	contrôler	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+10	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	13	det	_	_
+11	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	nmod	_	_
+12	ou	ou	CCONJ	_	CCONJ___	13	cc	_	_
+13	demi-journées	demi-journée	NOUN	_	NOUN__Gender=Fem|Number=Plur	13	conj	_	_
+14	travaillées	travailler	VERB	_	VERB__Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	15	acl	_	_
+15	"	"	PUNCT	_	PUNCT___	13	punct	_	_
+16	.	.	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#On ne précise pas si c'est l'un ou l'autre.
+1	On	on	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+2	ne	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+3	précise	préciser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+5	si	si	SCONJ	_	SCONJ___	6	mark	_	_
+6	c'	ce	PRON	_	PRON__Number=Sing|Person=3	6	nsubj	_	_
+7	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+9	un	un	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Rel	13	obj	_	_
+10	ou	ou	CCONJ	_	CCONJ___	13	cc	_	_
+11	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+12	autre	autre	PRON	_	PRON__Number=Sing|PronType=Rel	13	conj	_	_
+13	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Question:
+1	Question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Peut-il m'être reproché de ne pointer que deux fois par jour?
+1	Peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advmod	_	_
+2	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+3	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+4	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	3	expl	_	_
+5	être	être	AUX	_	AUX__VerbForm=Inf	6	aux:pass	_	_
+6	reproché	reprocher	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+7	de	de	ADP	_	ADP___	8	mark	_	_
+8	ne	ne	ADV	_	ADV___	6	advmod	_	_
+9	pointer	pointer	VERB	_	VERB__VerbForm=Inf	13	xcomp	_	_
+10	que	que	SCONJ	_	SCONJ___	13	advmod	_	_
+11	deux	deux	NUM	_	NUM__NumType=Card	13	nummod	_	_
+12	fois	fois	NOUN	_	NOUN__Gender=Fem|Number=Plur	13	obj	_	_
+13	par	par	ADP	_	ADP___	13	case	_	_
+14	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nmod	_	_
+15	?	?	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#- Il m'a été reproché ce jour de ne pas pointer le temps de midi lorsque je vais chercher mon repas au supermarché (je m'absente 10 minutes) alors que, d'après le RH (ce n'est nullement indiqué dans mon contrat de travail) je dois avoir au moins une demie-heure de temps de pause à midi.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	Il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj:pass	_	_
+3	m'	se	PRON	_	PRON__Number=Sing|Person=1	1	iobj	_	_
+4	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+5	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	reproché	reprocher	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+7	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obl	_	_
+9	de	de	ADP	_	ADP___	13	mark	_	_
+10	ne	ne	ADV	_	ADV___	13	advmod	_	_
+11	pas	pas	ADV	_	ADV___	13	fixed	_	_
+12	pointer	pointer	VERB	_	VERB__VerbForm=Inf	13	xcomp	_	_
+13	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+14	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obj	_	_
+15	de	de	ADP	_	ADP___	13	case	_	_
+16	midi	midi	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	nmod	_	_
+17	lorsque	lorsque	SCONJ	_	SCONJ___	19	mark	_	_
+18	je	il	PRON	_	PRON__Number=Sing|Person=1	19	nsubj	_	_
+19	vais	aller	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+20	chercher	chercher	VERB	_	VERB__VerbForm=Inf	19	xcomp	_	_
+21	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	22	nmod:poss	_	_
+22	repas	repas	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obj	_	_
+23	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	13	obj	_	_
+24	supermarché	supermarché	NOUN	_	NOUN__Gender=Fem|Number=Plur	25	obj	_	_
+25	(	(	PUNCT	_	PUNCT___	25	punct	_	_
+26	je	il	PRON	_	PRON__Number=Sing|Person=1	28	nsubj	_	_
+27	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	28	iobj	_	_
+28	absente	absenter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	obl	_	_
+29	10	10	NUM	_	NUM__NumType=Card	28	nummod	_	_
+30	minutes	minute	NOUN	_	NOUN__Gender=Fem|Number=Plur	25	nmod	_	_
+31	)	)	PUNCT	_	PUNCT___	33	punct	_	_
+32	alors	alors	ADV	_	ADV___	33	mark	_	_
+33	que	que	SCONJ	_	SCONJ___	41	fixed	_	_
+34	,	,	PUNCT	_	PUNCT___	35	punct	_	_
+35	d'	de	ADP	_	ADP___	33	case	_	_
+36	après	après	ADP	_	ADP___	41	fixed	_	_
+37	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+38	RH	RH	PROPN	_	PROPN___	41	obl	_	_
+39	(	(	PUNCT	_	PUNCT___	41	punct	_	_
+40	ce	ce	PRON	_	PRON__PronType=Rel	41	nsubj	_	_
+41	n'	ne	ADV	_	ADV__Polarity=Neg	41	advmod	_	_
+42	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	cop	_	_
+43	nullement	nullement	ADV	_	ADV___	41	advmod	_	_
+44	indiqué	indiquer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	45	advcl	_	_
+45	dans	dan	ADP	_	ADP___	41	case	_	_
+46	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	48	nmod:poss	_	_
+47	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	48	obl	_	_
+48	de	de	ADP	_	ADP___	41	case	_	_
+49	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	48	nmod	_	_
+50	)	)	PUNCT	_	PUNCT___	41	punct	_	_
+51	je	il	PRON	_	PRON__Number=Sing|Person=1	53	nsubj	_	_
+52	dois	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	53	aux	_	_
+53	avoir	avoir	VERB	_	VERB__VerbForm=Inf	41	parataxis	_	_
+54	au	au	PRON	_	PRON___	55	advmod	_	_
+55	moins	moins	ADV	_	ADV___	53	advmod	_	_
+56	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	57	det	_	_
+57	demie	demi	NOUN	_	NOUN__Gender=Fem|Number=Sing	59	obj	_	_
+58	-	-	PUNCT	_	PUNCT___	59	punct	_	_
+59	heure	heure	NOUN	_	NOUN__Gender=Fem|Number=Sing	55	obj	_	_
+60	de	de	ADP	_	ADP___	62	case	_	_
+61	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Plur	62	nmod	_	_
+62	de	de	ADP	_	ADP___	59	case	_	_
+63	pause	paus	ADJ	_	ADJ__Gender=Fem|Number=Sing	59	fixed	_	_
+64	à	à	ADP	_	ADP___	66	case	_	_
+65	midi	midi	NOUN	_	NOUN__Gender=Masc|Number=Sing	66	nmod	_	_
+66	.	.	PUNCT	_	PUNCT___	67	punct	_	_
+
+
+#Le contrat précise: "celui-ci n'est ni astreint à un horaire précis ni ne peut relever d'un horaire collectif prédéterminé" "Mr X disposera de toute latitude pour déterminer les dates et amplitudes de ses journées de travail dans le respect des règles légales et conventionnelles" "compte-tenu de la nature du forfait jour ......... ne sera pas soumis à un contrôle de ses horaires de travail" Question: Peut
+1	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	précise	préciser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	:	:	PUNCT	_	PUNCT___	3	punct	_	_
+5	"	"	PUNCT	_	PUNCT___	6	punct	_	_
+6	celui-ci	celui-ci	PRON	_	PRON__Gender=Masc|Number=Sing|PronType=Dem	6	nsubj:pass	_	_
+7	n'	ne	ADV	_	ADV___	8	advmod	_	_
+8	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+9	ni	ni	CCONJ	_	CCONJ___	13	cc	_	_
+10	astreint	astreindre	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	parataxis	_	_
+11	à	à	ADP	_	ADP___	13	case	_	_
+12	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	horaire	horaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obl	_	_
+14	précis	précis	ADJ	_	ADJ__Gender=Masc	15	amod	_	_
+15	ni	ni	CCONJ	_	CCONJ___	13	cc	_	_
+16	ne	ne	ADV	_	ADV___	15	advmod	_	_
+17	peut	pouvoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+18	relever	relever	VERB	_	VERB__VerbForm=Inf	19	conj	_	_
+19	d'	de	ADP	_	ADP___	13	case	_	_
+20	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+21	horaire	horaire	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	amod	_	_
+22	collectif	collectif	ADJ	_	ADJ__Gender=Masc|Number=Sing	19	obj	_	_
+23	prédéterminé	prédéterminer	ADJ	_	ADJ__Gender=Masc|Number=Sing	13	acl	_	_
+24	"	"	PUNCT	_	PUNCT___	25	punct	_	_
+25	"	"	PUNCT	_	PUNCT___	25	punct	_	_
+26	Mr	mr	NOUN	_	NOUN__Gender=Masc|Number=Sing	28	nsubj:pass	_	_
+27	X	x	NOUN	_	NOUN___	28	amod	_	_
+28	disposera	disposer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	25	acl	_	_
+29	de	de	ADP	_	ADP___	28	case	_	_
+30	toute	tout	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+31	latitude	latitude	NOUN	_	NOUN__Gender=Fem|Number=Sing	33	obl	_	_
+32	pour	pour	ADP	_	ADP___	33	mark	_	_
+33	déterminer	déterminer	VERB	_	VERB__VerbForm=Inf	41	advcl	_	_
+34	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	35	det	_	_
+35	dates	date	NOUN	_	NOUN__Gender=Fem|Number=Plur	33	obj	_	_
+36	et	et	CCONJ	_	CCONJ___	41	cc	_	_
+37	amplitudes	amplitude	NOUN	_	NOUN__Gender=Fem|Number=Plur	41	conj	_	_
+38	de	de	ADP	_	ADP___	41	case	_	_
+39	ses	son	DET	_	DET__Number=Plur|Poss=Yes	41	nmod:poss	_	_
+40	journées	journée	NOUN	_	NOUN__Gender=Fem|Number=Plur	41	nmod	_	_
+41	de	de	ADP	_	ADP___	41	case	_	_
+42	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	43	nmod	_	_
+43	dans	dan	ADP	_	ADP___	41	case	_	_
+44	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	respect	respect	NOUN	_	NOUN__Gender=Masc|Number=Sing	41	obl	_	_
+46	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	48	det	_	_
+47	règles	règle	NOUN	_	NOUN__Gender=Fem|Number=Plur	48	obj	_	_
+48	légales	légal	ADJ	_	ADJ__Gender=Fem|Number=Plur	41	amod	_	_
+49	et	et	CCONJ	_	CCONJ___	48	cc	_	_
+50	conventionnelles	conventionnel	ADJ	_	ADJ__Gender=Fem|Number=Plur	41	conj	_	_
+51	"	"	PUNCT	_	PUNCT___	53	punct	_	_
+52	"	"	PUNCT	_	PUNCT___	53	punct	_	_
+53	compte-tenu	compte-tenu	NOUN	_	NOUN__Gender=Masc|Number=Sing	41	conj	_	_
+54	de	de	ADP	_	ADP___	55	case	_	_
+55	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
+56	nature	nature	NOUN	_	NOUN__Gender=Fem|Number=Sing	57	obl	_	_
+57	du	du	DET	_	DET__Gender=Masc|Number=Sing	59	obj	_	_
+58	forfait	forfaire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	59	acl	_	_
+59	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	55	amod	_	_
+60	.........	.........	PUNCT	_	PUNCT___	62	nsubj:pass	_	_
+61	ne	ne	ADV	_	ADV__Polarity=Neg	62	advmod	_	_
+62	sera	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	59	aux:pass	_	_
+63	pas	pas	ADV	_	ADV__Polarity=Neg	59	advmod	_	_
+64	soumis	soumettre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	66	acl	_	_
+65	à	à	ADP	_	ADP___	66	case	_	_
+66	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	67	det	_	_
+67	contrôle	contrôler	NOUN	_	NOUN__Gender=Masc|Number=Sing	67	obl	_	_
+68	de	de	ADP	_	ADP___	69	case	_	_
+69	ses	son	DET	_	DET__Number=Plur|Poss=Yes	67	nmod:poss	_	_
+70	horaires	horaire	NOUN	_	NOUN__Gender=Masc|Number=Plur	72	nmod	_	_
+71	de	de	ADP	_	ADP___	72	case	_	_
+72	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	67	nmod	_	_
+73	"	"	PUNCT	_	PUNCT___	74	punct	_	_
+74	Question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	72	appos	_	_
+75	:	:	PUNCT	_	PUNCT___	76	punct	_	_
+76	Peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	74	advmod	_	_
+
+
+#-on donc m'imposer 1/2 heure de pause le temps de midi?
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	on	on	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+3	donc	donc	ADV	_	ADV___	1	advmod	_	_
+4	m'	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	3	expl	_	_
+5	imposer	imposer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+6	1/2	1/2	NUM	_	NUM__NumType=Card	6	det	_	_
+7	heure	heure	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	obj	_	_
+8	de	de	ADP	_	ADP___	6	case	_	_
+9	pause	paus	ADJ	_	ADJ__Gender=Fem|Number=Sing	13	nmod	_	_
+10	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+11	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	obj	_	_
+12	de	de	ADP	_	ADP___	13	case	_	_
+13	midi	midi	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+14	?	?	PUNCT	_	PUNCT___	15	punct	_	_
+
+
+#Cela relève d'un contrôle de mes heures.
+1	Cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	1	nsubj	_	_
+2	relève	relever	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	d'	de	ADP	_	ADP___	1	case	_	_
+4	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+5	contrôle	contrôler	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obl	_	_
+6	de	de	ADP	_	ADP___	6	case	_	_
+7	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	8	nmod:poss	_	_
+8	heures	heure	NOUN	_	NOUN__Gender=Fem|Number=Plur	6	nmod	_	_
+9	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#- Durée du travail: Je suis au forfait 218 jours par an, l'entreprise travaille sur 4.5 jours par semaine.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	Durée	durée	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obl	_	_
+3	du	du	DET	_	DET__Gender=Masc|Number=Sing	1	det	_	_
+4	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	3	nmod	_	_
+5	:	:	PUNCT	_	PUNCT___	6	punct	_	_
+6	Je	il	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+7	suis	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+9	forfait	forfaire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+10	218	218	NUM	_	NUM__NumType=Card	13	nummod	_	_
+11	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	obj	_	_
+12	par	par	ADP	_	ADP___	13	case	_	_
+13	an	an	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+14	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+15	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+16	entreprise	entreprise	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	nsubj	_	_
+17	travaille	travailler	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	parataxis	_	_
+18	sur	sur	ADP	_	ADP___	19	case	_	_
+19	4.5	4.5	NUM	_	NUM__NumType=Card	13	nummod	_	_
+20	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	19	obl	_	_
+21	par	par	ADP	_	ADP___	22	case	_	_
+22	semaine	semaine	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	nmod	_	_
+23	.	.	PUNCT	_	PUNCT___	13	punct	_	_
+
+
+#Question:
+1	Question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Suis-je soumis, compte tenu de la nature de mon forfait jour, au respect de ces 4.5 jours ?
+1	Suis	Suis	PROPN	_	PROPN___	1	advmod	_	_
+2	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+3	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+4	soumis	soumettre	VERB	_	VERB__Gender=Masc|Tense=Past|VerbForm=Part	0	ROOT	_	_
+5	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+6	compte	compte	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	case	_	_
+7	tenu	tenir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	fixed	_	_
+8	de	de	ADP	_	ADP___	6	fixed	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+10	nature	nature	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obl	_	_
+11	de	de	ADP	_	ADP___	13	case	_	_
+12	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	13	nmod:poss	_	_
+13	forfait	forfaire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	nmod	_	_
+14	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	15	obj	_	_
+15	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+16	au	au	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
+17	respect	respect	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	conj	_	_
+18	de	de	ADP	_	ADP___	19	case	_	_
+19	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	13	det	_	_
+20	4.5	4.5	NUM	_	NUM__NumType=Card	19	nummod	_	_
+21	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	22	nmod	_	_
+22	?	?	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#- Congés: Nous avons, sur l'année 2018, si on enlève samedi, dimanche et jours fériés, 252 jours potentiellement ouvrables.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	Congés	Congés	PROPN	_	PROPN___	0	ROOT	_	_
+3	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+4	Nous	nous	PRON	_	PRON__Number=Plur|Person=1	3	nsubj	_	_
+5	avons	avoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	dep	_	_
+6	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+7	sur	sur	ADP	_	ADP___	8	case	_	_
+8	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+9	année	année	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obl	_	_
+10	2018	2018	NUM	_	NUM__NumType=Card	13	nummod	_	_
+11	,	,	PUNCT	_	PUNCT___	13	punct	_	_
+12	si	si	SCONJ	_	SCONJ___	13	mark	_	_
+13	on	on	PRON	_	PRON__Number=Sing|Person=3	13	nsubj	_	_
+14	enlève	enlever	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+15	samedi	samedi	ADJ	_	ADJ__Gender=Masc|Number=Sing	13	obj	_	_
+16	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+17	dimanche	dimanche	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obl	_	_
+18	et	et	CCONJ	_	CCONJ___	19	cc	_	_
+19	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	conj	_	_
+20	fériés	férier	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	19	amod	_	_
+21	,	,	PUNCT	_	PUNCT___	22	punct	_	_
+22	252	252	NUM	_	NUM__NumType=Card	19	nummod	_	_
+23	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	conj	_	_
+24	potentiellement	potentiellement	ADV	_	ADV___	25	advmod	_	_
+25	ouvrables	ouvrable	ADJ	_	ADJ__Gender=Fem|Number=Plur	25	amod	_	_
+26	.	.	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#A cela on enlève les 5 semaines (soit 25 jours) de congés payés, il reste donc 227 jours.
+1	A	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+2	cela	celer	PRON	_	PRON__Number=Sing|PronType=Dem	1	nsubj	_	_
+3	on	on	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+4	enlève	enlever	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+5	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	6	det	_	_
+6	5	5	NUM	_	NUM__NumType=Card	6	nummod	_	_
+7	semaines	semaine	NOUN	_	NOUN__Gender=Fem|Number=Plur	8	obj	_	_
+8	(	(	PUNCT	_	PUNCT___	6	punct	_	_
+9	soit	être	CCONJ	_	CCONJ___	13	cc	_	_
+10	25	25	NUM	_	NUM__NumType=Card	13	nummod	_	_
+11	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	obl	_	_
+12	)	)	PUNCT	_	PUNCT___	13	punct	_	_
+13	de	de	ADP	_	ADP___	13	case	_	_
+14	congés	congé	ADJ	_	ADJ__Gender=Masc|Number=Plur	15	obl	_	_
+15	payés	payer	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	acl	_	_
+16	,	,	PUNCT	_	PUNCT___	15	punct	_	_
+17	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	19	nsubj	_	_
+18	reste	rester	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+19	donc	donc	ADV	_	ADV___	13	advmod	_	_
+20	227	227	NUM	_	NUM__NumType=Card	19	nummod	_	_
+21	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	22	obj	_	_
+22	.	.	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Je n'ai pas, contractuellement, de jours de RTT de prévus étant donné que nous ne travaillons que 4.5 jours par semaine.
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+3	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	3	advmod	_	_
+5	,	,	PUNCT	_	PUNCT___	6	punct	_	_
+6	contractuellement	contractuellement	ADV	_	ADV___	6	obj	_	_
+7	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+8	de	de	ADP	_	ADP___	6	case	_	_
+9	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	13	obj	_	_
+10	de	de	ADP	_	ADP___	13	case	_	_
+11	RTT	RTT	PROPN	_	PROPN__Gender=Masc|Number=Sing	13	nmod	_	_
+12	de	de	ADP	_	ADP___	13	case	_	_
+13	prévus	prévoir	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	nmod	_	_
+14	étant	être	AUX	_	AUX__Tense=Pres|VerbForm=Part	15	mark	_	_
+15	donné	donner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	fixed	_	_
+16	que	que	SCONJ	_	SCONJ___	15	fixed	_	_
+17	nous	nous	PRON	_	PRON__Number=Plur|Person=1	19	nsubj	_	_
+18	ne	ne	ADV	_	ADV__Polarity=Neg	19	advmod	_	_
+19	travaillons	travailler	VERB	_	VERB__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+20	que	que	SCONJ	_	SCONJ___	19	mark	_	_
+21	4.5	4.5	NUM	_	NUM__NumType=Card	22	nummod	_	_
+22	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	19	ccomp	_	_
+23	par	par	ADP	_	ADP___	13	case	_	_
+24	semaine	semaine	NOUN	_	NOUN__Gender=Fem|Number=Sing	25	nmod	_	_
+25	.	.	PUNCT	_	PUNCT___	25	punct	_	_
+
+
+#Question:
+1	Question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+2	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Vu mon statut, mon contrat de travail et donc la convention de forfait jour qui ne m'impose rien d'autre que de respecter les temps de pause journaliers (11h) et hebdomadaires, que faire de ces 9 jours en sus de mes 218 jours?
+1	Vu	Vu	ADP	_	ADP___	0	ROOT	_	_
+2	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	1	nmod:poss	_	_
+3	statut	statut	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obj	_	_
+4	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+5	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+6	contrat	contrat	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+7	de	de	ADP	_	ADP___	8	case	_	_
+8	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nmod	_	_
+9	et	et	CCONJ	_	CCONJ___	13	cc	_	_
+10	donc	donc	ADV	_	ADV___	13	advmod	_	_
+11	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	convention	convention	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	conj	_	_
+13	de	de	ADP	_	ADP___	13	case	_	_
+14	forfait	forfaire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	amod	_	_
+15	jour	jour	NOUN	_	NOUN__Gender=Masc|Number=Sing	13	nmod	_	_
+16	qui	qui	PRON	_	PRON__PronType=Rel	15	nsubj	_	_
+17	ne	ne	ADV	_	ADV___	19	advmod	_	_
+18	m'	se	PRON	_	PRON__Number=Sing|Person=1	19	expl	_	_
+19	impose	imposer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+20	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	19	obj	_	_
+21	d'	de	ADP	_	ADP___	22	case	_	_
+22	autre	autre	PRON	_	PRON__Number=Sing|PronType=Rel	19	obl	_	_
+23	que	que	SCONJ	_	SCONJ___	13	mark	_	_
+24	de	de	ADP	_	ADP___	25	mark	_	_
+25	respecter	respecter	VERB	_	VERB__VerbForm=Inf	25	xcomp	_	_
+26	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	28	det	_	_
+27	temps	temps	NOUN	_	NOUN__Gender=Masc|Number=Plur	28	obj	_	_
+28	de	de	ADP	_	ADP___	25	case	_	_
+29	pause	paus	ADJ	_	ADJ__Gender=Fem|Number=Sing	28	amod	_	_
+30	journaliers	journalier	NOUN	_	NOUN__Gender=Masc|Number=Plur	25	nmod	_	_
+31	(	(	PUNCT	_	PUNCT___	33	punct	_	_
+32	11h	11h	PRON	_	PRON__NumType=Card|PronType=Rel	33	amod	_	_
+33	)	)	PUNCT	_	PUNCT___	41	punct	_	_
+34	et	et	CCONJ	_	CCONJ___	35	cc	_	_
+35	hebdomadaires	hebdomadaire	NOUN	_	NOUN__Gender=Masc|Number=Plur	33	conj	_	_
+36	,	,	PUNCT	_	PUNCT___	41	punct	_	_
+37	que	que	SCONJ	_	SCONJ___	41	mark	_	_
+38	faire	faire	VERB	_	VERB__VerbForm=Inf	41	advcl	_	_
+39	de	de	ADP	_	ADP___	41	case	_	_
+40	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	41	det	_	_
+41	9	9	NUM	_	NUM__NumType=Card	41	nummod	_	_
+42	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	43	obl	_	_
+43	en	en	ADP	_	ADP___	41	case	_	_
+44	sus	sus	ADV	_	ADV___	45	fixed	_	_
+45	de	de	ADP	_	ADP___	41	fixed	_	_
+46	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	48	nmod:poss	_	_
+47	218	218	NUM	_	NUM__NumType=Card	48	nummod	_	_
+48	jours	jour	NOUN	_	NOUN__Gender=Masc|Number=Plur	41	obl	_	_
+49	?	?	PUNCT	_	PUNCT___	48	punct	_	_
+
+
+#Merci par avance de vos retours.
+1	Merci	merci	NOUN	_	NOUN__Gender=Masc|Number=Sing	0	ROOT	_	_
+2	par	par	ADP	_	ADP___	1	case	_	_
+3	avance	avance	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nmod	_	_
+4	de	de	ADP	_	ADP___	3	case	_	_
+5	vos	votre	DET	_	DET__Number=Plur|Poss=Yes	6	nmod:poss	_	_
+6	retours	retour	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	nmod	_	_
+7	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+

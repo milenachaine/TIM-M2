@@ -1,0 +1,318 @@
+#Bonjour, Je suis en arrêt
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	Je	il	PRON	_	PRON__Number=Sing|Person=1	6	nsubj	_	_
+4	suis	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	en	en	ADP	_	ADP___	6	case	_	_
+6	arrêt	arrêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	acl:relcl	_	_
+
+
+#-maladie avec horaires libres durant ma grossesse.
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	maladie	maladie	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	avec	avec	ADP	_	ADP___	6	case	_	_
+4	horaires	horaire	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	nmod	_	_
+5	libres	libre	ADJ	_	ADJ__Number=Plur	6	amod	_	_
+6	durant	durer	ADP	_	ADP___	1	case	_	_
+7	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	8	nmod:poss	_	_
+8	grossesse	grossesse	NOUN	_	NOUN__Gender=Fem|Number=Sing	8	nmod	_	_
+9	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Je lis dans https://www.lailler-avocat.com/malad...ires-sanction/ :
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	lis	lire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	dans	dan	ADP	_	ADP___	6	case	_	_
+4	https://www.lailler-avocat.com/malad...ires-sanction/	https://www.lailler-avocat.com/malad...ires-sanction/	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obl	_	_
+5	:	:	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Le salarié n'a pas, sauf dispositions contraires, à être informé par l'employeur du contrôle médical pendantun arrêt de travail (Cass soc 20 janvier 1999 n°96
+1	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	salarié	salarié	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	n'	ne	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+4	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+6	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+7	sauf	sauf	ADP	_	ADP___	8	case	_	_
+8	dispositions	disposition	NOUN	_	NOUN__Gender=Fem|Number=Plur	8	obl	_	_
+9	contraires	contraire	ADJ	_	ADJ__Number=Plur	10	amod	_	_
+10	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+11	à	à	ADP	_	ADP___	10	mark	_	_
+12	être	être	AUX	_	AUX__VerbForm=Inf	14	aux:pass	_	_
+13	informé	informer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	14	conj	_	_
+14	par	par	ADP	_	ADP___	8	case	_	_
+15	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+16	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obl	_	_
+17	du	du	DET	_	DET__Gender=Masc|Number=Sing	17	det	_	_
+18	contrôle	contrôler	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	obj	_	_
+19	médical	médical	ADJ	_	ADJ__Gender=Masc|Number=Sing	17	amod	_	_
+20	pendantun	pendantun	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	amod	_	_
+21	arrêt	arrêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	amod	_	_
+22	de	de	ADP	_	ADP___	24	case	_	_
+23	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	obl	_	_
+24	(	(	PUNCT	_	PUNCT___	24	punct	_	_
+25	Cass	Cass	PROPN	_	PROPN__Gender=Masc|Number=Sing	24	appos	_	_
+26	soc	soc	ADV	_	ADV___	24	det	_	_
+27	20	20	NUM	_	NUM__NumType=Card	28	nummod	_	_
+28	janvier	janvier	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	conj	_	_
+29	1999	1999	NUM	_	NUM__NumType=Card	28	nummod	_	_
+30	n	n	NOUN	_	NOUN___	33	nsubj	_	_
+31	°	°	NUM	_	NUM__NumType=Card	33	conj	_	_
+32	96	96	NUM	_	NUM__NumType=Card	33	nummod	_	_
+
+
+#-45023).
+1	-	-	PUNCT	_	PUNCT___	1	punct	_	_
+2	45023	45023	NUM	_	NUM__NumType=Card	1	nummod	_	_
+3	)	)	PUNCT	_	PUNCT___	0	ROOT	_	_
+4	.	.	PUNCT	_	PUNCT___	6	punct	_	_
+
+
+#Lorsque le salarié est absent de son domicile durant son arrêt de travail, il doit informer l'employeur des horaires et de l'endroit où il réside pendant cette période et où le contrôle peut être effectué, y compris en cas de mention « sorties libres » portée sur l'arrêt de travail (Cass soc 4 février 2009
+1	Lorsque	Lorsque	SCONJ	_	SCONJ___	1	mark	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+3	salarié	salarié	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	nsubj	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	absent	absent	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	advcl	_	_
+6	de	de	ADP	_	ADP___	1	case	_	_
+7	son	son	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+8	domicile	domicile	NOUN	_	NOUN__Gender=Masc|Number=Sing	8	obl	_	_
+9	durant	durer	ADP	_	ADP___	10	case	_	_
+10	son	son	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+11	arrêt	arrêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obl	_	_
+12	de	de	ADP	_	ADP___	14	case	_	_
+13	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nmod	_	_
+14	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+15	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+16	doit	devoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	informer	informer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+18	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obj	_	_
+20	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	17	det	_	_
+21	horaires	horaire	NOUN	_	NOUN__Gender=Masc|Number=Plur	22	nmod	_	_
+22	et	et	CCONJ	_	CCONJ___	24	cc	_	_
+23	de	de	ADP	_	ADP___	24	case	_	_
+24	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	24	fixed	_	_
+25	endroit	endroit	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	conj	_	_
+26	où	où	PRON	_	PRON__PronType=Rel	24	iobj	_	_
+27	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	28	nsubj	_	_
+28	réside	résider	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
+29	pendant	pendre	ADP	_	ADP___	28	case	_	_
+30	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	33	det	_	_
+31	période	période	NOUN	_	NOUN__Gender=Fem|Number=Sing	33	obl	_	_
+32	et	et	CCONJ	_	CCONJ___	33	cc	_	_
+33	où	où	PRON	_	PRON__PronType=Rel	24	iobj	_	_
+34	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+35	contrôle	contrôler	NOUN	_	NOUN__Gender=Masc|Number=Sing	36	nsubj	_	_
+36	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	conj	_	_
+37	être	être	AUX	_	AUX__VerbForm=Inf	38	aux:pass	_	_
+38	effectué	effectuer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	33	xcomp	_	_
+39	,	,	PUNCT	_	PUNCT___	38	punct	_	_
+40	y	yu	PRON	_	PRON__Person=3	38	case	_	_
+41	compris	compris	ADJ	_	ADJ__Gender=Masc	38	fixed	_	_
+42	en	en	ADP	_	ADP___	43	case	_	_
+43	cas	cas	NOUN	_	NOUN__Gender=Masc	41	fixed	_	_
+44	de	de	ADP	_	ADP___	38	fixed	_	_
+45	mention	mention	NOUN	_	NOUN__Gender=Fem|Number=Sing	38	obl	_	_
+46	«	«	PUNCT	_	PUNCT___	48	punct	_	_
+47	 	  	SPACE	_		48		_	_
+48	sorties	sortir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	38	xcomp	_	_
+49	libres	libre	ADJ	_	ADJ__Number=Plur	48	obj	_	_
+50	 	  	SPACE	_		51		_	_
+51	»	»	PUNCT	_	PUNCT___	24	punct	_	_
+52	portée	porter	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	51	acl	_	_
+53	sur	sur	ADP	_	ADP___	55	case	_	_
+54	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	53	det	_	_
+55	arrêt	arrêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	55	obl	_	_
+56	de	de	ADP	_	ADP___	55	case	_	_
+57	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	61	nmod	_	_
+58	(	(	PUNCT	_	PUNCT___	59	punct	_	_
+59	Cass	Cass	PROPN	_	PROPN__Gender=Masc|Number=Sing	61	appos	_	_
+60	soc	soc	NOUN	_	NOUN___	61	det	_	_
+61	4	4	NUM	_	NUM__NumType=Card	73	nummod	_	_
+62	février	février	NOUN	_	NOUN__Gender=Masc|Number=Sing	64	nmod	_	_
+63	2009	2009	NUM	_	NUM__NumType=Card	64	nummod	_	_
+
+
+#n°07-43430).
+1	n	n	NOUN	_	NOUN___	1	nsubj	_	_
+2	°	°	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+3	07	07	NUM	_	NUM__NumType=Card	6	nummod	_	_
+4	-	-	PUNCT	_	PUNCT___	6	punct	_	_
+5	43430	43430	NUM	_	NUM__NumType=Card	6	nummod	_	_
+6	)	)	PUNCT	_	PUNCT___	1	punct	_	_
+7	.	.	PUNCT	_	PUNCT___	8	punct	_	_
+
+
+#La Cour de cassation a jugé qu'un salarié qui s'abstient d'aviser son employeur de son lieu de repos pendant l'arrêt de travail situé hors de sa résidence habituelle ne permet pas « à l'employeur de faire procéder un contrôle de son état de santé ».
+1	La	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	Cour	cour	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+3	de	de	ADP	_	ADP___	6	case	_	_
+4	cassation	cassation	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	nmod	_	_
+5	a	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	jugé	juger	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+7	qu'	que	SCONJ	_	SCONJ___	8	mark	_	_
+8	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+9	salarié	salarié	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nsubj	_	_
+10	qui	qui	PRON	_	PRON__PronType=Rel	8	nsubj	_	_
+11	s'	si	PRON	_	PRON__Person=3|Reflex=Yes	10	expl	_	_
+12	abstient	abstenir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	14	acl:relcl	_	_
+13	d'	de	ADP	_	ADP___	14	mark	_	_
+14	aviser	aviser	VERB	_	VERB__VerbForm=Inf	8	xcomp	_	_
+15	son	son	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+16	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	obj	_	_
+17	de	de	ADP	_	ADP___	17	case	_	_
+18	son	son	DET	_	DET__Number=Sing|Poss=Yes	19	nmod:poss	_	_
+19	lieu	lieu	NOUN	_	NOUN__Gender=Masc|Number=Sing	17	nmod	_	_
+20	de	de	ADP	_	ADP___	17	case	_	_
+21	repos	repos	NOUN	_	NOUN__Gender=Masc|Number=Sing	22	nmod	_	_
+22	pendant	pendre	ADP	_	ADP___	24	case	_	_
+23	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	24	det	_	_
+24	arrêt	arrêt	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	nmod	_	_
+25	de	de	ADP	_	ADP___	24	case	_	_
+26	travail	travail	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	nmod	_	_
+27	situé	situer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	acl	_	_
+28	hors	hors	ADP	_	ADP___	24	case	_	_
+29	de	de	ADP	_	ADP___	28	fixed	_	_
+30	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	33	nmod:poss	_	_
+31	résidence	résidence	NOUN	_	NOUN__Gender=Fem|Number=Sing	33	obl	_	_
+32	habituelle	habituel	ADJ	_	ADJ__Gender=Fem|Number=Sing	33	nsubj	_	_
+33	ne	ne	ADV	_	ADV__Polarity=Neg	24	advmod	_	_
+34	permet	permettre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	ccomp	_	_
+35	pas	pas	ADV	_	ADV__Polarity=Neg	36	advmod	_	_
+36	«	«	PUNCT	_	PUNCT___	33	punct	_	_
+37	 	  	SPACE	_		38		_	_
+38	à	à	ADP	_	ADP___	33	case	_	_
+39	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	38	det	_	_
+40	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	38	obl	_	_
+41	de	de	ADP	_	ADP___	38	mark	_	_
+42	faire	faire	VERB	_	VERB__VerbForm=Inf	43	xcomp	_	_
+43	procéder	procéder	VERB	_	VERB__VerbForm=Inf	41	xcomp	_	_
+44	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+45	contrôle	contrôler	NOUN	_	NOUN__Gender=Masc|Number=Sing	38	obj	_	_
+46	de	de	ADP	_	ADP___	48	case	_	_
+47	son	son	DET	_	DET__Number=Sing|Poss=Yes	48	nmod:poss	_	_
+48	état	état	NOUN	_	NOUN__Gender=Masc|Number=Sing	38	nmod	_	_
+49	de	de	ADP	_	ADP___	48	case	_	_
+50	santé	santé	NOUN	_	NOUN__Gender=Fem|Number=Sing	51	nmod	_	_
+51	 	  	SPACE	_		24		_	_
+52	»	»	PUNCT	_	PUNCT___	51	advmod	_	_
+53	.	.	PUNCT	_	PUNCT___	55	punct	_	_
+
+
+#Comment peut-on parler de sorties libres dans ce cas ?
+1	Comment	comment	ADV	_	ADV__PronType=Int	1	advmod	_	_
+2	peut	pouvoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	-	-	PUNCT	_	PUNCT___	6	punct	_	_
+4	on	on	PRON	_	PRON__Number=Sing|Person=3	6	nsubj	_	_
+5	parler	parler	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+6	de	de	ADP	_	ADP___	1	case	_	_
+7	sorties	sortie	NOUN	_	NOUN__Gender=Fem|Number=Plur	8	xcomp	_	_
+8	libres	libre	ADJ	_	ADJ__Number=Plur	8	amod	_	_
+9	dans	dan	ADP	_	ADP___	10	case	_	_
+10	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+11	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obl	_	_
+12	?	?	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Comment informer son employeur pour des sorties imprévues dans la journée, à horaires variables, des séjours imprévus chez mes parents (dans le même département) ?
+1	Comment	comment	ADV	_	ADV__PronType=Int	1	advmod	_	_
+2	informer	informer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+3	son	son	DET	_	DET__Number=Sing|Poss=Yes	6	nmod:poss	_	_
+4	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obj	_	_
+5	pour	pour	ADP	_	ADP___	6	case	_	_
+6	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	1	det	_	_
+7	sorties	sortie	NOUN	_	NOUN__Gender=Fem|Number=Plur	8	nmod	_	_
+8	imprévues	imprévu	ADJ	_	ADJ__Number=Plur	8	amod	_	_
+9	dans	dan	ADP	_	ADP___	10	case	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+11	journée	journée	NOUN	_	NOUN__Gender=Fem|Number=Sing	10	nmod	_	_
+12	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+13	à	à	ADP	_	ADP___	14	case	_	_
+14	horaires	horaire	NOUN	_	NOUN__Gender=Masc|Number=Plur	8	nmod	_	_
+15	variables	variable	ADJ	_	ADJ__Number=Plur	8	amod	_	_
+16	,	,	PUNCT	_	PUNCT___	17	punct	_	_
+17	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	17	det	_	_
+18	séjours	séjour	NOUN	_	NOUN__Gender=Masc|Number=Plur	19	conj	_	_
+19	imprévus	imprévu	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	17	amod	_	_
+20	chez	chez	ADP	_	ADP___	17	case	_	_
+21	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	22	nmod:poss	_	_
+22	parents	parent	NOUN	_	NOUN__Gender=Masc|Number=Plur	24	obl	_	_
+23	(	(	PUNCT	_	PUNCT___	24	punct	_	_
+24	dans	dan	ADP	_	ADP___	24	case	_	_
+25	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+26	même	même	ADV	_	ADV___	24	amod	_	_
+27	département	département	ADV	_	ADV___	28	obl	_	_
+28	)	)	PUNCT	_	PUNCT___	24	punct	_	_
+29	?	?	PUNCT	_	PUNCT___	28	punct	_	_
+
+
+#Pour ces sorties et séjours à un autre domicile, je ne veux pas que mon absence me soit préjudiciable au niveau indemnité de maintien de salaire par mon employeur ni au niveau indemnité journalière de l'assurance maladie.
+1	Pour	Pour	ADP	_	ADP___	1	case	_	_
+2	ces	ce	DET	_	DET__Number=Plur|PronType=Dem	1	det	_	_
+3	sorties	sortie	NOUN	_	NOUN__Gender=Fem|Number=Plur	6	obl	_	_
+4	et	et	CCONJ	_	CCONJ___	6	cc	_	_
+5	séjours	séjour	NOUN	_	NOUN__Gender=Masc|Number=Plur	6	conj	_	_
+6	à	à	ADP	_	ADP___	1	case	_	_
+7	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	autre	autre	ADJ	_	ADJ__Number=Sing	8	amod	_	_
+9	domicile	domicile	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	nmod	_	_
+10	,	,	PUNCT	_	PUNCT___	8	punct	_	_
+11	je	il	PRON	_	PRON__Number=Sing|Person=1	10	nsubj	_	_
+12	ne	ne	ADV	_	ADV__Polarity=Neg	14	advmod	_	_
+13	veux	vouloir	ADJ	_	ADJ__Gender=Masc	0	ROOT	_	_
+14	pas	pas	ADV	_	ADV__Polarity=Neg	8	advmod	_	_
+15	que	que	SCONJ	_	SCONJ___	8	mark	_	_
+16	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	17	nmod:poss	_	_
+17	absence	absence	NOUN	_	NOUN__Gender=Fem|Number=Sing	17	nsubj	_	_
+18	me	se	PRON	_	PRON__Number=Sing|Person=1	19	iobj	_	_
+19	soit	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+20	préjudiciable	préjudiciable	ADJ	_	ADJ__Number=Sing	17	ccomp	_	_
+21	au	au	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	22	advmod	_	_
+22	niveau	niveau	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	fixed	_	_
+23	indemnité	indemnité	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	amod	_	_
+24	de	de	ADP	_	ADP___	24	case	_	_
+25	maintien	maintien	NOUN	_	NOUN__Gender=Fem|Number=Sing	24	nmod	_	_
+26	de	de	ADP	_	ADP___	24	case	_	_
+27	salaire	salaire	NOUN	_	NOUN__Gender=Fem|Number=Sing	28	nmod	_	_
+28	par	par	ADP	_	ADP___	24	case	_	_
+29	mon	mon	DET	_	DET__Number=Sing|Poss=Yes	28	nmod:poss	_	_
+30	employeur	employeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	33	obl	_	_
+31	ni	ni	CCONJ	_	CCONJ___	33	cc	_	_
+32	au	au	PROPN	_	PROPN__Gender=Fem|Number=Sing	33	expl	_	_
+33	niveau	niveau	NOUN	_	NOUN__Gender=Masc|Number=Sing	24	fixed	_	_
+34	indemnité	indemnité	NOUN	_	NOUN__Gender=Fem|Number=Sing	36	conj	_	_
+35	journalière	journalier	ADJ	_	ADJ__Gender=Fem|Number=Sing	36	amod	_	_
+36	de	de	ADP	_	ADP___	33	case	_	_
+37	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	38	det	_	_
+38	assurance	assurance	NOUN	_	NOUN__Gender=Fem|Number=Sing	33	nmod	_	_
+39	maladie	maladie	NOUN	_	NOUN__Gender=Fem|Number=Sing	38	amod	_	_
+40	.	.	PUNCT	_	PUNCT___	38	punct	_	_
+
+
+#Qu'en pensez-vous ?
+1	Qu'	que	PRON	_	PRON__PronType=Int	1	obj	_	_
+2	en	en	PRON	_	PRON__Person=3	1	expl	_	_
+3	pensez	penser	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	-	-	PUNCT	_	PUNCT___	6	punct	_	_
+5	vous	vous	PRON	_	PRON__Number=Plur|Person=2	6	obj	_	_
+6	?	?	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Je vous remercie d'avance pour votre aide.
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	obj	_	_
+3	remercie	remercier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	d'	de	ADP	_	ADP___	6	case	_	_
+5	avance	avance	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obl	_	_
+6	pour	pour	ADP	_	ADP___	1	case	_	_
+7	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	8	nmod:poss	_	_
+8	aide	aide	NOUN	_	NOUN__Number=Sing	8	obl	_	_
+9	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Gina
+1	Gina	gina	ADV	_	ADV___	0	ROOT	_	_
+
+

@@ -1,0 +1,80 @@
+#Sur le bail c'est marqué "avec la caution solidaire de Mr et Mme X" Mr X né le ../../.. et Mme X née le ... (car ils ne connaissaient pas la date de naissance)
+1	Sur	Sur	ADP	_	ADP___	3	case	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	6	obl	_	_
+4	c'	ce	PRON	_	PRON__Number=Sing|Person=3	6	nsubj:pass	_	_
+5	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	marqué	marquer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+7	"	"	PUNCT	_	PUNCT___	6	punct	_	_
+8	avec	avec	ADP	_	ADP___	10	case	_	_
+9	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	caution	caution	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obl	_	_
+11	solidaire	solidaire	ADJ	_	ADJ__Number=Sing	10	amod	_	_
+12	de	de	ADP	_	ADP___	13	case	_	_
+13	Mr	Mr	PROPN	_	PROPN___	10	nmod	_	_
+14	et	et	CCONJ	_	CCONJ___	15	cc	_	_
+15	Mme	mme	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	conj	_	_
+16	X	x	NOUN	_	NOUN___	15	flat:name	_	_
+17	"	"	PUNCT	_	PUNCT___	10	punct	_	_
+18	Mr	mr	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	appos	_	_
+19	X	x	NOUN	_	NOUN___	18	amod	_	_
+20	né	naître	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	acl	_	_
+21	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	..	..	PUNCT	_	PUNCT___	20	obj	_	_
+23	/	/	PUNCT	_	PUNCT___	20	fixed	_	_
+24	..	..	PUNCT	_	PUNCT___	18	nmod	_	_
+25	/	/	PUNCT	_	PUNCT___	18	fixed	_	_
+26	..	..	PUNCT	_	PUNCT___	18	nmod	_	_
+27	et	et	CCONJ	_	CCONJ___	28	cc	_	_
+28	Mme	mme	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	conj	_	_
+29	X	x	ADJ	_	ADJ___	28	flat:name	_	_
+30	née	naître	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
+31	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	...	...	PUNCT	_	PUNCT___	6	punct	_	_
+33	(	(	PUNCT	_	PUNCT___	32	punct	_	_
+34	car	car	CCONJ	_	CCONJ___	37	cc	_	_
+35	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	37	nsubj	_	_
+36	ne	ne	ADV	_	ADV__Polarity=Neg	37	advmod	_	_
+37	connaissaient	connaître	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+38	pas	pas	ADV	_	ADV__Polarity=Neg	37	advmod	_	_
+39	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	date	date	NOUN	_	NOUN__Gender=Fem|Number=Sing	37	obj	_	_
+41	de	de	ADP	_	ADP___	42	case	_	_
+42	naissance	naissance	NOUN	_	NOUN__Gender=Fem|Number=Sing	40	nmod	_	_
+43	)	)	PUNCT	_	PUNCT___	37	punct	_	_
+
+
+#Bail effectivement signé par agence + moi-même.
+1	Bail	Bail	PROPN	_	PROPN___	0	ROOT	_	_
+2	effectivement	effectivement	ADV	_	ADV___	3	advmod	_	_
+3	signé	signer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+4	par	par	ADP	_	ADP___	6	case	_	_
+5	agence	agence	NOUN	_	NOUN__Gender=Fem|Number=Sing	6	obl	_	_
+6	+	+	ADP	_	ADP___	6	case	_	_
+7	moi-même	moi-même	NOUN	_	NOUN___	6	nmod	_	_
+8	.	.	PUNCT	_	PUNCT___	10	punct	_	_
+
+
+#Donc ils n'auraient pas dû signer le bail avant d'avoir la signature des cautions + acte cautionnement?
+1	Donc	donc	ADV	_	ADV___	3	advmod	_	_
+2	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	3	nsubj	_	_
+3	n'	ne	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+4	auraient	avoir	AUX	_	AUX__Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	6	advmod	_	_
+6	dû	devoir	AUX	_	AUX__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux	_	_
+7	signer	signer	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+8	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	bail	bail	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	obj	_	_
+10	avant	avant	ADP	_	ADP___	6	mark	_	_
+11	d'	de	ADP	_	ADP___	10	fixed	_	_
+12	avoir	avoir	VERB	_	VERB__VerbForm=Inf	13	advcl	_	_
+13	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+14	signature	signature	NOUN	_	NOUN__Gender=Fem|Number=Sing	15	obj	_	_
+15	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	13	det	_	_
+16	cautions	caution	NOUN	_	NOUN__Gender=Masc|Number=Plur	15	obj	_	_
+17	+	+	ADP	_	ADP___	10	case	_	_
+18	acte	acte	NOUN	_	NOUN__Gender=Masc|Number=Sing	10	amod	_	_
+19	cautionnement	cautionnemer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	nmod	_	_
+20	?	?	PUNCT	_	PUNCT___	18	punct	_	_
+
+

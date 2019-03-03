@@ -1,0 +1,94 @@
+#Bonjour Lors de quelle vente?
+1	Bonjour	Bonjour	PROPN	_	PROPN___	5	case	_	_
+2	Lors	lors	ADV	_	ADV___	5	case	_	_
+3	de	de	ADP	_	ADP___	2	fixed	_	_
+4	quelle	quel	DET	_	DET__Gender=Fem|Number=Sing|PronType=Int	5	det	_	_
+5	vente	vente	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+6	?	?	PUNCT	_	PUNCT___	5	punct	_	_
+
+
+#A priori, l'expert préconise 75 447 euros de travaux pour que la maison soit louable, et alors, au rendement affiché de 3,5% elle serait vendable 230 000 euros;
+1	A	a	NOUN	_	NOUN___	5	advmod	_	_
+2	priori	priori	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	fixed	_	_
+3	,	,	PUNCT	_	PUNCT___	2	punct	_	_
+4	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	expert	expert	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	nsubj	_	_
+6	préconise	préconiser	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+7	75	75	NUM	_	NUM__NumType=Card	12	obj	_	_
+8	447	447	NUM	_	NUM__NumType=Card	7	nummod	_	_
+9	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	obj	_	_
+10	de	de	ADP	_	ADP___	11	case	_	_
+11	travaux	travail	NOUN	_	NOUN__Gender=Masc|Number=Plur	12	nmod	_	_
+12	pour	pour	ADP	_	ADP___	12	mark	_	_
+13	que	que	SCONJ	_	SCONJ___	12	fixed	_	_
+14	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	maison	maison	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	nsubj	_	_
+16	soit	être	AUX	_	AUX__Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	louable	louable	ADJ	_	ADJ__Number=Sing	15	advcl	_	_
+18	,	,	PUNCT	_	PUNCT___	23	punct	_	_
+19	et	et	CCONJ	_	CCONJ___	18	cc	_	_
+20	alors	alors	ADV	_	ADV___	21	advmod	_	_
+21	,	,	PUNCT	_	PUNCT___	23	punct	_	_
+22	au	au	PRON	_	PRON__Number=Sing|Person=3	23	det	_	_
+23	rendement	rendement	NOUN	_	NOUN__Gender=Masc|Number=Sing	12	conj	_	_
+24	affiché	afficher	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	xcomp	_	_
+25	de	de	ADP	_	ADP___	29	case	_	_
+26	3,5	3,5	NUM	_	NUM__NumType=Card	25	nummod	_	_
+27	%	%	NOUN	_	NOUN__Gender=Masc	29	obl	_	_
+28	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	29	nsubj	_	_
+29	serait	être	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+30	vendable	vendable	ADJ	_	ADJ__Number=Sing	29	parataxis	_	_
+31	230	230	NUM	_	NUM__NumType=Card	33	nummod	_	_
+32	000	000	NUM	_	NUM__NumType=Card	33	nummod	_	_
+33	euros	euro	NOUN	_	NOUN__Gender=Masc|Number=Plur	30	obl	_	_
+34	;	;	PUNCT	_	PUNCT___	36	punct	_	_
+
+
+#Donc elle n'est pas vendable 230 000, et sa valeur vénale est de 155 300 L'expert indique qu'elle vaut en l'état 155 300 et c'est ce chiffre qui doit être utilisé si vous vous référez à cette expertise.
+1	Donc	donc	ADV	_	ADV___	5	advmod	_	_
+2	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	5	nsubj	_	_
+3	n'	ne	ADV	_	ADV__Polarity=Neg	2	advmod	_	_
+4	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+6	vendable	vendable	ADJ	_	ADJ__Number=Sing	0	ROOT	_	_
+7	230	230	NUM	_	NUM__NumType=Card	12	nummod	_	_
+8	000	000	NUM	_	NUM__NumType=Card	7	obj	_	_
+9	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+10	et	et	CCONJ	_	CCONJ___	11	cc	_	_
+11	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	12	nmod:poss	_	_
+12	valeur	valeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	conj	_	_
+13	vénale	vénal	ADJ	_	ADJ__Gender=Fem|Number=Sing	12	amod	_	_
+14	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	de	de	ADP	_	ADP___	12	case	_	_
+16	155	155	NUM	_	NUM__NumType=Card	17	nummod	_	_
+17	300	300	NUM	_	NUM__NumType=Card	15	conj	_	_
+18	L'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+19	expert	expert	NOUN	_	NOUN__Gender=Masc|Number=Sing	18	nmod	_	_
+20	indique	indiquer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	amod	_	_
+21	qu'	que	SCONJ	_	SCONJ___	23	mark	_	_
+22	elle	lui	PRON	_	PRON__Gender=Fem|Number=Sing|Person=3	23	nsubj	_	_
+23	vaut	valoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
+24	en	en	ADP	_	ADP___	23	case	_	_
+25	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	29	det	_	_
+26	état	état	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	obl	_	_
+27	155	155	NUM	_	NUM__NumType=Card	29	nummod	_	_
+28	300	300	NUM	_	NUM__NumType=Card	29	nmod	_	_
+29	et	et	CCONJ	_	CCONJ___	23	cc	_	_
+30	c'	ce	PRON	_	PRON__Number=Sing|Person=3	29	nsubj	_	_
+31	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	_
+32	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	33	det	_	_
+33	chiffre	chiffre	NOUN	_	NOUN__Gender=Masc|Number=Sing	30	conj	_	_
+34	qui	qui	PRON	_	PRON__PronType=Rel	36	nsubj	_	_
+35	doit	devoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	acl:relcl	_	_
+36	être	être	AUX	_	AUX__VerbForm=Inf	23	aux:pass	_	_
+37	utilisé	utiliser	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	39	xcomp	_	_
+38	si	si	SCONJ	_	SCONJ___	39	mark	_	_
+39	vous	vous	PRON	_	PRON__Number=Plur|Person=2	36	nsubj	_	_
+40	vous	vous	PRON	_	PRON__Number=Plur|Person=2	12	expl	_	_
+41	référez	référer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	46	advcl	_	_
+42	à	à	ADP	_	ADP___	46	case	_	_
+43	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	46	det	_	_
+44	expertise	expertise	NOUN	_	NOUN__Gender=Fem|Number=Sing	46	obl	_	_
+45	.	.	PUNCT	_	PUNCT___	46	punct	_	_
+
+

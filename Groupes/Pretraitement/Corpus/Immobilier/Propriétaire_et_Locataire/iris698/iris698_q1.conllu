@@ -1,0 +1,238 @@
+#Bonjour!
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	!	!	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Voilà ma situation : depuis sept mois, mes locataires ne répondent plus, ni au téléphone, ni aux courriers.
+1	Voilà	voilà	VERB	_	VERB__Mood=Ind|VerbForm=Fin	1	acl	_	_
+2	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	1	nmod:poss	_	_
+3	situation	situation	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obj	_	_
+4	:	:	PUNCT	_	PUNCT___	5	punct	_	_
+5	depuis	depuis	ADP	_	ADP___	3	case	_	_
+6	sept	sept	NUM	_	NUM__NumType=Card	3	nummod	_	_
+7	mois	mois	NOUN	_	NOUN__Gender=Masc|Number=Plur	9	obl	_	_
+8	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+9	mes	mon	DET	_	DET__Number=Plur|Poss=Yes	14	nmod:poss	_	_
+10	locataires	locataire	NOUN	_	NOUN__Number=Plur	14	nsubj	_	_
+11	ne	ne	ADV	_	ADV__Polarity=Neg	12	advmod	_	_
+12	répondent	répondre	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	ROOT	_	_
+13	plus	plus	ADV	_	ADV__Polarity=Neg	14	advmod	_	_
+14	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+15	ni	ni	CCONJ	_	CCONJ___	14	cc	_	_
+16	au	au	PROPN	_	PROPN__Gender=Fem|Number=Sing	14	dep	_	_
+17	téléphone	téléphoner	NOUN	_	NOUN__Gender=Masc|Number=Sing	19	conj	_	_
+18	,	,	PUNCT	_	PUNCT___	19	punct	_	_
+19	ni	ni	CCONJ	_	CCONJ___	14	cc	_	_
+20	aux	aux	ADJ	_	ADJ__Gender=Masc|Number=Plur	19	nsubj	_	_
+21	courriers	courrier	NOUN	_	NOUN__Gender=Masc|Number=Plur	23	conj	_	_
+22	.	.	PUNCT	_	PUNCT___	23	punct	_	_
+
+
+#À chaque fois que j'y passe, personne ne répond non plus.
+1	À	À	ADP	_	ADP___	1	mark	_	_
+2	chaque	chaque	DET	_	DET__Number=Sing	1	fixed	_	_
+3	fois	fois	NOUN	_	NOUN__Gender=Fem	14	fixed	_	_
+4	que	que	PRON	_	PRON__PronType=Rel	5	mark	_	_
+5	j'	il	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+6	y	yu	PRON	_	PRON__Person=3	3	iobj	_	_
+7	passe	passer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+8	,	,	PUNCT	_	PUNCT___	9	punct	_	_
+9	personne	personne	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	nsubj	_	_
+10	ne	ne	ADV	_	ADV__Polarity=Neg	14	advmod	_	_
+11	répond	répondre	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+12	non	non	ADV	_	ADV___	14	advmod	_	_
+13	plus	plus	ADV	_	ADV___	14	fixed	_	_
+14	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#ils ne payent pas leurs loyers (enfin, ce qu'il en reste suite aux aides caf) : aussi la caf ne me paie plus...
+1	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	1	nsubj	_	_
+2	ne	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+3	payent	payer	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	pas	pas	ADV	_	ADV__Polarity=Neg	5	advmod	_	_
+5	leurs	leur	DET	_	DET__Number=Plur|Poss=Yes	3	nmod:poss	_	_
+6	loyers	loyer	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	obj	_	_
+7	(	(	PUNCT	_	PUNCT___	9	punct	_	_
+8	enfin	enfin	ADV	_	ADV___	9	advmod	_	_
+9	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+10	ce	ce	PRON	_	PRON__PronType=Rel	14	iobj	_	_
+11	qu'	que	PRON	_	PRON__PronType=Rel	12	mark	_	_
+12	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
+13	en	en	PRON	_	PRON__Person=3	14	iobj	_	_
+14	reste	rester	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+15	suite	suite	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	case	_	_
+16	aux	aux	ADJ	_	ADJ___	14	fixed	_	_
+17	aides	aide	NOUN	_	NOUN__Number=Plur	19	acl:relcl	_	_
+18	caf	caf	ADJ	_	ADJ__Number=Plur	19	advmod	_	_
+19	)	)	PUNCT	_	PUNCT___	14	punct	_	_
+20	:	:	PUNCT	_	PUNCT___	19	punct	_	_
+21	aussi	aussi	ADV	_	ADV___	23	advmod	_	_
+22	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	caf	caf	NOUN	_	NOUN__Gender=Fem|Number=Sing	19	nsubj	_	_
+24	ne	ne	ADV	_	ADV___	14	advmod	_	_
+25	me	se	PRON	_	PRON__Number=Sing|Person=1|Reflex=Yes	31	expl	_	_
+26	paie	payer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	ccomp	_	_
+27	plus	plus	ADV	_	ADV__Polarity=Neg	25	advmod	_	_
+28	...	...	PUNCT	_	PUNCT___	31	punct	_	_
+
+
+#Suspectant un abandon du logement, j'ai lancé la procédure, et ai fait appel å un huissier... j'ai assumé les frais liés à la procédure.
+1	Suspectant	suspecter	VERB	_	VERB__Tense=Pres|VerbForm=Part	1	acl	_	_
+2	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+3	abandon	abandon	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obj	_	_
+4	du	du	DET	_	DET__Gender=Masc|Number=Sing	5	det	_	_
+5	logement	logement	ADV	_	ADV___	3	obj	_	_
+6	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+7	j'	il	PRON	_	PRON__Number=Sing|Person=1	9	nsubj	_	_
+8	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	lancé	lancer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	ROOT	_	_
+10	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+11	procédure	procédure	NOUN	_	NOUN__Gender=Fem|Number=Sing	12	obj	_	_
+12	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+13	et	et	CCONJ	_	CCONJ___	14	cc	_	_
+14	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+15	fait	faire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	conj	_	_
+16	appel	appel	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obj	_	_
+17	å	å	ADP	_	ADP___	19	case	_	_
+18	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	huissier	huissier	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obl	_	_
+20	...	...	PUNCT	_	PUNCT___	19	punct	_	_
+21	j'	il	PRON	_	PRON__Number=Sing|Person=1	23	nsubj	_	_
+22	ai	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	assumé	assumer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	parataxis	_	_
+24	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	14	det	_	_
+25	frais	frais	NOUN	_	NOUN__Gender=Masc|Number=Plur	31	obj	_	_
+26	liés	lier	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	25	acl	_	_
+27	à	à	ADP	_	ADP___	25	case	_	_
+28	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+29	procédure	procédure	NOUN	_	NOUN__Gender=Fem|Number=Sing	31	obl	_	_
+30	.	.	PUNCT	_	PUNCT___	31	punct	_	_
+
+
+#je viens de récupérer les clefs : l'appartement est dans un état lamentable.
+1	je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	viens	venir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+3	de	de	ADP	_	ADP___	14	mark	_	_
+4	récupérer	récupérer	VERB	_	VERB__VerbForm=Inf	5	xcomp	_	_
+5	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	3	det	_	_
+6	clefs	clef	NOUN	_	NOUN__Gender=Masc|Number=Plur	3	obj	_	_
+7	:	:	PUNCT	_	PUNCT___	9	punct	_	_
+8	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nsubj	_	_
+10	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+11	dans	dan	ADP	_	ADP___	12	case	_	_
+12	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	état	état	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	ccomp	_	_
+14	lamentable	lamentable	ADJ	_	ADJ__Number=Sing	14	amod	_	_
+15	.	.	PUNCT	_	PUNCT___	14	punct	_	_
+
+
+#Le frigo est moisi, de la vaisselle sale traîne dans l'évier, un radiateura été arraché, une fenêtre est cassée, le sol est noir, les murs infectes!!
+1	Le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	frigo	frigo	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj:pass	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
+4	moisi	moisir	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+5	,	,	PUNCT	_	PUNCT___	3	punct	_	_
+6	de	de	ADP	_	ADP___	3	case	_	_
+7	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	vaisselle	vaisselle	NOUN	_	NOUN__Gender=Fem|Number=Sing	9	amod	_	_
+9	sale	sale	ADJ	_	ADJ__Gender=Fem|Number=Sing	14	obl	_	_
+10	traîne	traîn	ADJ	_	ADJ__Number=Sing	14	acl	_	_
+11	dans	dan	ADP	_	ADP___	12	case	_	_
+12	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+13	évier	évier	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obl	_	_
+14	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+15	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+16	radiateura	radiateura	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	nsubj:pass	_	_
+17	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	19	aux:pass	_	_
+18	arraché	arracher	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	19	conj	_	_
+19	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+20	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+21	fenêtre	fenêtre	NOUN	_	NOUN__Gender=Fem|Number=Sing	23	nsubj:pass	_	_
+22	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux:pass	_	_
+23	cassée	casser	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	19	conj	_	_
+24	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+25	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+26	sol	sol	NOUN	_	NOUN__Gender=Masc|Number=Sing	25	nsubj	_	_
+27	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+28	noir	noir	ADJ	_	ADJ__Gender=Masc|Number=Sing	31	conj	_	_
+29	,	,	PUNCT	_	PUNCT___	31	punct	_	_
+30	les	le	DET	_	DET__Definite=Def|Number=Plur|PronType=Art	31	det	_	_
+31	murs	mur	NOUN	_	NOUN__Gender=Masc|Number=Plur	33	conj	_	_
+32	infectes	infect	ADJ	_	ADJ__Gender=Fem|Number=Plur	33	amod	_	_
+33	!	!	PUNCT	_	PUNCT___	35	punct	_	_
+34	!	!	PUNCT	_	PUNCT___	35	punct	_	_
+
+
+#L'appartement avait été refait à neuf un an auparavant...
+1	L'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+2	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	avait	avoir	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	aux	_	_
+4	été	être	AUX	_	AUX__Tense=Past|VerbForm=Part	5	cop	_	_
+5	refait	refaire	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+6	à	à	ADP	_	ADP___	3	case	_	_
+7	neuf	neuf	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Card	9	advmod	_	_
+8	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	an	an	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obl	_	_
+10	auparavant	auparavant	ADV	_	ADV___	14	acl	_	_
+11	...	...	PUNCT	_	PUNCT___	12	punct	_	_
+
+
+#ma question est la suivante : puis-je espérer une aide, ai-je un recours?
+1	ma	mon	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	1	nmod:poss	_	_
+2	question	question	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	nsubj	_	_
+3	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+4	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	suivante	suivant	NOUN	_	NOUN__Gender=Fem|Number=Sing	0	ROOT	_	_
+6	:	:	PUNCT	_	PUNCT___	3	punct	_	_
+7	puis-je	puis-je	ADV	_	ADV__PronType=Int	9	nsubj	_	_
+8	espérer	espérer	VERB	_	VERB__VerbForm=Inf	9	acl	_	_
+9	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+10	aide	aide	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obj	_	_
+11	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+12	ai	avoir	PROPN	_	PROPN___	14	aux	_	_
+13	-	-	PUNCT	_	PUNCT___	14	punct	_	_
+14	je	il	PRON	_	PRON__Number=Sing|Person=1	14	nmod	_	_
+15	un	un	DET	_	DET__Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+16	recours	recours	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obl	_	_
+17	?	?	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Si oui, dois-je attendre avant de nettoyer et remettre en location l'appartement?
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	oui	oui	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	obl	_	_
+3	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+4	dois	devoir	NUM	_	NUM__NumType=Card	5	aux	_	_
+5	-	-	PUNCT	_	PUNCT___	3	punct	_	_
+6	je	il	PRON	_	PRON__Number=Sing|Person=1	3	nsubj	_	_
+7	attendre	attendre	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+8	avant	avant	ADP	_	ADP___	9	mark	_	_
+9	de	de	ADP	_	ADP___	14	fixed	_	_
+10	nettoyer	nettoyer	VERB	_	VERB__VerbForm=Inf	14	advcl	_	_
+11	et	et	CCONJ	_	CCONJ___	12	cc	_	_
+12	remettre	remettre	VERB	_	VERB__VerbForm=Inf	14	conj	_	_
+13	en	en	ADP	_	ADP___	14	case	_	_
+14	location	location	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obl	_	_
+15	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+16	appartement	appartement	NOUN	_	NOUN__Gender=Masc|Number=Sing	14	obj	_	_
+17	?	?	PUNCT	_	PUNCT___	19	punct	_	_
+
+
+#Je vous remercie et vous souhaite une très bonne journée, Cordialement, Ayme T.
+1	Je	il	PRON	_	PRON__Number=Sing|Person=1	1	nsubj	_	_
+2	vous	vous	PRON	_	PRON__Number=Plur|Person=2	1	obj	_	_
+3	remercie	remercier	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	et	et	CCONJ	_	CCONJ___	5	cc	_	_
+5	vous	vous	PRON	_	PRON__Number=Plur|Person=2	3	nsubj	_	_
+6	souhaite	souhaiter	VERB	_	VERB__Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+7	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	très	très	ADV	_	ADV___	9	advmod	_	_
+9	bonne	bon	ADJ	_	ADJ__Gender=Fem|Number=Sing	14	amod	_	_
+10	journée	journée	NOUN	_	NOUN__Gender=Fem|Number=Sing	14	obj	_	_
+11	,	,	PUNCT	_	PUNCT___	12	punct	_	_
+12	Cordialement	Cordialement	PROPN	_	PROPN__Gender=Masc|Number=Sing	14	appos	_	_
+13	,	,	PUNCT	_	PUNCT___	14	punct	_	_
+14	Ayme	Ayme	PROPN	_	PROPN__Gender=Masc|Number=Sing	14	conj	_	_
+15	T.	T.	PROPN	_	PROPN___	14	flat:name	_	_
+
+

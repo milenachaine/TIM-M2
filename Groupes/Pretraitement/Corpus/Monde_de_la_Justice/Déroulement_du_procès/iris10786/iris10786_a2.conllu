@@ -1,0 +1,74 @@
+#Il y a deux demandeurs donc il y a deux actes.
+1	Il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	0	ROOT	_	_
+2	y	yu	PRON	_	PRON__Person=3	1	fixed	_	_
+3	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	fixed	_	_
+4	deux	deux	NUM	_	NUM__NumType=Card	5	nummod	_	_
+5	demandeurs	demandeur	NOUN	_	NOUN__Gender=Masc|Number=Plur	1	obj	_	_
+6	donc	donc	ADV	_	ADV___	5	advmod	_	_
+7	il	il	PRON	_	PRON__Number=Sing|Person=3	11	case	_	_
+8	y	yu	PRON	_	PRON__Person=3	7	fixed	_	_
+9	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	fixed	_	_
+10	deux	deux	NUM	_	NUM__NumType=Card	11	nummod	_	_
+11	actes	acte	NOUN	_	NOUN__Gender=Masc|Number=Plur	5	nmod	_	_
+12	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#Pareillement si on assigne trois personnes, il y a trois assignations.
+1	Pareillement	Pareillement	PROPN	_	PROPN__Gender=Masc|Number=Sing	1	advmod	_	_
+2	si	si	SCONJ	_	SCONJ___	1	mark	_	_
+3	on	on	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+4	assigne	assigner	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+5	trois	trois	NUM	_	NUM__NumType=Card	1	nummod	_	_
+6	personnes	personne	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	obj	_	_
+7	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+8	il	il	PRON	_	PRON__Number=Sing|Person=3	0	ROOT	_	_
+9	y	yu	PRON	_	PRON__Person=3	7	fixed	_	_
+10	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	fixed	_	_
+11	trois	trois	NUM	_	NUM__NumType=Card	5	nummod	_	_
+12	assignations	assignation	NOUN	_	NOUN__Gender=Fem|Number=Plur	1	obj	_	_
+13	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Dans le second cas, le demandeur unique possède trois assignations et trois significations de l'assignation, qui peuvent être a des endroits différents Dans votre cas, chaque demandeur recoit a son domicile une copie de l'assignation
+1	Dans	Dans	ADP	_	ADP___	1	case	_	_
+2	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+3	second	second	ADJ	_	ADJ__Gender=Masc|Number=Sing|NumType=Ord	1	amod	_	_
+4	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	5	obl	_	_
+5	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+6	le	le	DET	_	DET__Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+7	demandeur	demandeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nsubj	_	_
+8	unique	unique	ADJ	_	ADJ__Number=Sing	7	amod	_	_
+9	possède	posséder	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+10	trois	trois	NUM	_	NUM__NumType=Card	11	nummod	_	_
+11	assignations	assignation	NOUN	_	NOUN__Gender=Fem|Number=Plur	5	obj	_	_
+12	et	et	CCONJ	_	CCONJ___	1	cc	_	_
+13	trois	trois	NUM	_	NUM__NumType=Card	16	nummod	_	_
+14	significations	signification	NOUN	_	NOUN__Gender=Fem|Number=Plur	16	conj	_	_
+15	de	de	ADP	_	ADP___	16	case	_	_
+16	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+17	assignation	assignation	NOUN	_	NOUN__Gender=Fem|Number=Sing	18	nmod	_	_
+18	,	,	PUNCT	_	PUNCT___	16	punct	_	_
+19	qui	qui	PRON	_	PRON__PronType=Rel	20	nsubj	_	_
+20	peuvent	pouvoir	VERB	_	VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	parataxis	_	_
+21	être	être	AUX	_	AUX__VerbForm=Inf	20	cop	_	_
+22	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	xcomp	_	_
+23	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	24	det	_	_
+24	endroits	endroit	NOUN	_	NOUN__Gender=Masc|Number=Plur	20	obj	_	_
+25	différents	différent	ADJ	_	ADJ__Gender=Masc|Number=Plur	20	amod	_	_
+26	Dans	Dans	ADP	_	ADP___	29	case	_	_
+27	votre	votre	DET	_	DET__Number=Sing|Poss=Yes	29	nmod:poss	_	_
+28	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	29	obl	_	_
+29	,	,	PUNCT	_	PUNCT___	34	punct	_	_
+30	chaque	chaque	DET	_	DET__Number=Sing	34	det	_	_
+31	demandeur	demandeur	NOUN	_	NOUN__Gender=Masc|Number=Sing	32	nsubj	_	_
+32	recoit	recoit	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	amod	_	_
+33	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	parataxis	_	_
+34	son	son	DET	_	DET__Number=Sing|Poss=Yes	34	nmod:poss	_	_
+35	domicile	domicile	NOUN	_	NOUN__Gender=Masc|Number=Sing	36	obj	_	_
+36	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+37	copie	copie	NOUN	_	NOUN__Gender=Fem|Number=Sing	39	obj	_	_
+38	de	de	ADP	_	ADP___	39	case	_	_
+39	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	36	det	_	_
+40	assignation	assignation	NOUN	_	NOUN__Gender=Fem|Number=Sing	42	nmod	_	_
+
+

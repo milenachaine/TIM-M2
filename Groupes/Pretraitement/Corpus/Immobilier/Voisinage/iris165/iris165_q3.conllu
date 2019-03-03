@@ -1,0 +1,178 @@
+#Bonjour, la difficulté dans ce cas c'est d'identifier la source de la nuisance : nous sommes en ville, entourés d'immeubles.
+1	Bonjour	Bonjour	PROPN	_	PROPN___	0	ROOT	_	_
+2	,	,	PUNCT	_	PUNCT___	1	punct	_	_
+3	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	difficulté	difficulté	ADJ	_	ADJ__Gender=Fem|Number=Sing|NumType=Ord	1	nmod	_	_
+5	dans	dan	ADP	_	ADP___	7	case	_	_
+6	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	cas	cas	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nmod	_	_
+8	c'	ce	PRON	_	PRON__Number=Sing|Person=3	11	nsubj	_	_
+9	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	d'	de	ADP	_	ADP___	11	mark	_	_
+11	identifier	identifier	VERB	_	VERB__VerbForm=Inf	7	acl	_	_
+12	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	source	source	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obj	_	_
+14	de	de	ADP	_	ADP___	16	case	_	_
+15	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	nuisance	nuisance	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	nmod	_	_
+17	:	:	PUNCT	_	PUNCT___	1	punct	_	_
+18	nous	nous	PRON	_	PRON__Number=Plur|Person=1	21	nsubj	_	_
+19	sommes	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	21	cop	_	_
+20	en	en	ADP	_	ADP___	21	case	_	_
+21	ville	ville	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	conj	_	_
+22	,	,	PUNCT	_	PUNCT___	21	punct	_	_
+23	entourés	entouré	NOUN	_	NOUN__Gender=Masc|Number=Plur	21	acl	_	_
+24	d'	de	ADP	_	ADP___	25	case	_	_
+25	immeubles	immeuble	NOUN	_	NOUN__Gender=Masc|Number=Plur	23	obl	_	_
+26	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#aucun immeuble ne dégage de fumée visible, tout ce passe dans l'odeur.
+1	aucun	aucun	DET	_	DET__Gender=Masc|Number=Sing	1	det	_	_
+2	immeuble	immeuble	NOUN	_	NOUN__Gender=Masc|Number=Sing	1	nsubj	_	_
+3	ne	ne	ADV	_	ADV___	4	advmod	_	_
+4	dégage	dégager	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	de	de	ADP	_	ADP___	7	case	_	_
+6	fumée	fumée	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	nmod	_	_
+7	visible	visible	ADJ	_	ADJ__Number=Sing	1	amod	_	_
+8	,	,	PUNCT	_	PUNCT___	11	punct	_	_
+9	tout	tout	ADJ	_	ADJ__Gender=Masc|Number=Sing	11	advmod	_	_
+10	ce	ce	DET	_	DET__Gender=Masc|Number=Sing|PronType=Dem	11	fixed	_	_
+11	passe	passer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+12	dans	dan	ADP	_	ADP___	13	case	_	_
+13	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+14	odeur	odeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obl	_	_
+15	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#il y a potentiellement 5 ou 6 immeubles pouvant émettre cette odeur.
+1	il	il	PRON	_	PRON__Number=Sing|Person=3	1	case	_	_
+2	y	yu	PRON	_	PRON__Person=3	1	fixed	_	_
+3	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	fixed	_	_
+4	potentiellement	potentiellement	ADV	_	ADV___	1	advmod	_	_
+5	5	5	NUM	_	NUM__NumType=Card	7	nummod	_	_
+6	ou	ou	CCONJ	_	CCONJ___	7	cc	_	_
+7	6	6	NUM	_	NUM__NumType=Card	1	conj	_	_
+8	immeubles	immeuble	NOUN	_	NOUN__Gender=Masc|Number=Plur	11	advmod	_	_
+9	pouvant	pouvoir	AUX	_	AUX__Tense=Pres|VerbForm=Part	11	aux	_	_
+10	émettre	émettre	VERB	_	VERB__VerbForm=Inf	0	ROOT	_	_
+11	cette	ce	DET	_	DET__Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+12	odeur	odeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	13	obj	_	_
+13	.	.	PUNCT	_	PUNCT___	11	punct	_	_
+
+
+#Si une cheminée fumait anormalement, on serait vite fixé, mais là il n'en est rien.
+1	Si	Si	SCONJ	_	SCONJ___	1	mark	_	_
+2	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+3	cheminée	cheminée	NOUN	_	NOUN__Gender=Fem|Number=Sing	4	nsubj	_	_
+4	fumait	fumer	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	advcl	_	_
+5	anormalement	anormalement	ADV	_	ADV___	7	advmod	_	_
+6	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+7	on	on	PRON	_	PRON__Number=Sing|Person=3	1	nsubj	_	_
+8	serait	être	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+9	vite	vite	ADV	_	ADV___	11	advmod	_	_
+10	fixé	fixer	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+11	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+12	mais	mais	CCONJ	_	CCONJ___	13	cc	_	_
+13	là	là	SCONJ	_	SCONJ___	11	conj	_	_
+14	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	16	nsubj	_	_
+15	n'	ne	ADV	_	ADV__Polarity=Neg	16	advmod	_	_
+16	en	en	PRON	_	PRON__Person=3	13	expl	_	_
+17	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	fixed	_	_
+18	rien	rien	PRON	_	PRON__Number=Sing|PronType=Rel	21	obj	_	_
+19	.	.	PUNCT	_	PUNCT___	21	punct	_	_
+
+
+#il n'y a pas de source plus complexe à définir qu'une odeur.
+1	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+2	n'	ne	ADV	_	ADV__Polarity=Neg	1	advmod	_	_
+3	y	yu	PRON	_	PRON__Person=3	4	expl	_	_
+4	a	avoir	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+5	pas	pas	ADV	_	ADV__Polarity=Neg	7	advmod	_	_
+6	de	de	DET	_	DET__Definite=Ind|Number=Sing|PronType=Art	7	det	_	_
+7	source	source	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obj	_	_
+8	plus	plus	ADV	_	ADV___	11	advmod	_	_
+9	complexe	complexe	ADJ	_	ADJ__Number=Sing	11	amod	_	_
+10	à	à	ADP	_	ADP___	11	mark	_	_
+11	définir	définir	VERB	_	VERB__VerbForm=Inf	7	acl	_	_
+12	qu'	que	SCONJ	_	SCONJ___	13	advmod	_	_
+13	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+14	odeur	odeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	16	obj	_	_
+15	.	.	PUNCT	_	PUNCT___	16	punct	_	_
+
+
+#Plus il fait froid et plus l'odeur est forte, ce qui est normal étant donné que la chaudière en cause est davantage sollicitée.
+1	Plus	plus	ADV	_	ADV___	1	advmod	_	_
+2	il	il	PRON	_	PRON__Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+3	fait	faire	VERB	_	VERB__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	ROOT	_	_
+4	froid	froid	ADJ	_	ADJ__Gender=Masc|Number=Sing	1	xcomp	_	_
+5	et	et	CCONJ	_	CCONJ___	7	cc	_	_
+6	plus	plus	ADV	_	ADV___	7	advmod	_	_
+7	l'	le	DET	_	DET__Definite=Def|Number=Sing|PronType=Art	1	det	_	_
+8	odeur	odeur	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	nsubj	_	_
+9	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	forte	fort	ADJ	_	ADJ__Gender=Fem|Number=Sing	11	conj	_	_
+11	,	,	PUNCT	_	PUNCT___	7	punct	_	_
+12	ce	ce	PRON	_	PRON__PronType=Rel	13	iobj	_	_
+13	qui	qui	PRON	_	PRON__PronType=Rel	11	nsubj	_	_
+14	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	normal	normal	ADJ	_	ADJ__Gender=Masc|Number=Sing	16	acl:relcl	_	_
+16	étant	être	AUX	_	AUX__Tense=Pres|VerbForm=Part	13	aux:pass	_	_
+17	donné	donner	VERB	_	VERB__Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	_
+18	que	que	SCONJ	_	SCONJ___	21	mark	_	_
+19	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	chaudière	chaudière	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	nsubj:pass	_	_
+21	en	en	ADP	_	ADP___	1	advmod	_	_
+22	cause	cause	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	fixed	_	_
+23	est	être	AUX	_	AUX__Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux:pass	_	_
+24	davantage	davantage	ADV	_	ADV___	25	det	_	_
+25	sollicitée	solliciter	VERB	_	VERB__Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	23	xcomp	_	_
+26	.	.	PUNCT	_	PUNCT___	1	punct	_	_
+
+
+#il y aurait une solution : demander à chaque syndic de chaque immeuble de produire une analyse des gaz de sa chaudière, mais ils peuvent très bien refuser....
+1	il	il	PRON	_	PRON__Number=Sing|Person=3	0	ROOT	_	_
+2	y	yu	PRON	_	PRON__Person=3	1	fixed	_	_
+3	aurait	avoir	AUX	_	AUX__Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	fixed	_	_
+4	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+5	solution	solution	NOUN	_	NOUN__Gender=Fem|Number=Sing	7	obj	_	_
+6	:	:	PUNCT	_	PUNCT___	7	punct	_	_
+7	demander	demander	VERB	_	VERB__VerbForm=Inf	1	acl	_	_
+8	à	à	ADP	_	ADP___	11	case	_	_
+9	chaque	chaque	DET	_	DET__Number=Sing	11	det	_	_
+10	syndic	syndic	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	obl	_	_
+11	de	de	ADP	_	ADP___	7	case	_	_
+12	chaque	chaque	DET	_	DET__Number=Sing	13	det	_	_
+13	immeuble	immeuble	NOUN	_	NOUN__Gender=Masc|Number=Sing	11	nmod	_	_
+14	de	de	ADP	_	ADP___	16	mark	_	_
+15	produire	produire	VERB	_	VERB__VerbForm=Inf	16	xcomp	_	_
+16	une	un	DET	_	DET__Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+17	analyse	analyse	NOUN	_	NOUN__Gender=Fem|Number=Sing	1	obj	_	_
+18	des	un	DET	_	DET__Definite=Ind|Number=Plur|PronType=Art	21	det	_	_
+19	gaz	gaz	NOUN	_	NOUN__Gender=Masc|Number=Plur	21	obj	_	_
+20	de	de	ADP	_	ADP___	21	case	_	_
+21	sa	son	DET	_	DET__Gender=Fem|Number=Sing|Poss=Yes	1	nmod:poss	_	_
+22	chaudière	chaudière	NOUN	_	NOUN__Gender=Fem|Number=Sing	21	nmod	_	_
+23	,	,	PUNCT	_	PUNCT___	21	punct	_	_
+24	mais	mais	CCONJ	_	CCONJ___	25	cc	_	_
+25	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	23	nsubj	_	_
+26	peuvent	pouvoir	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+27	très	très	ADV	_	ADV___	28	advmod	_	_
+28	bien	bien	ADV	_	ADV___	30	advmod	_	_
+29	refuser	refuser	VERB	_	VERB__VerbForm=Inf	30	xcomp	_	_
+30	....	....	PUNCT	_	PUNCT___	30	punct	_	_
+
+
+#sauf s'ils y sont contraints par la mairie ?
+1	sauf	sauf	ADP	_	ADP___	1	case	_	_
+2	s'	si	SCONJ	_	SCONJ___	1	punct	_	_
+3	ils	il	PRON	_	PRON__Gender=Masc|Number=Plur|Person=3	4	nsubj:pass	_	_
+4	y	yu	PRON	_	PRON__Person=3	1	iobj	_	_
+5	sont	être	AUX	_	AUX__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+6	contraints	contraindre	VERB	_	VERB__Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	ROOT	_	_
+7	par	par	ADP	_	ADP___	1	case	_	_
+8	la	le	DET	_	DET__Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+9	mairie	mairie	NOUN	_	NOUN__Gender=Fem|Number=Sing	11	obl	_	_
+10	?	?	PUNCT	_	PUNCT___	11	punct	_	_
+
+
