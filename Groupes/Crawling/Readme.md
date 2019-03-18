@@ -19,5 +19,9 @@ Obtenir en sortie un fichier XML global reprenant la structure des fichiers du d
 
 Corpus disponibles sur le serveur
 - Corpus Juritravail :
+
 scp -oUser=teamlaw -P 2251 helium.lab.parisdescartes.fr:~/Corpus/CorpusJuritravailVersion1.xml CorpusJuritravailVersion1.xml
+
 - Corpus NetIris :
+
+scp -oUser=teamlaw -P 2251 helium.lab.parisdescartes.fr:~/Corpus/corpusIrisVersion4.xml corpusIrisVersion4.xml
