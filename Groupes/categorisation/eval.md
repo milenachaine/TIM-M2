@@ -3,7 +3,6 @@
 ## Baseline + token
 ```
 python3 classifier.py corpusIrisVersion4.xml
-
 ```
 
                 precision    recall  f1-score   support
