@@ -43,7 +43,7 @@ def main():
     parameters = CLF_PARAM[args.classifier]
     clf = CLF[args.classifier](**parameters)
     vectorizer = TfidfVectorizer(
-        max_features=args.feature_size if args.feature_size else FEATURE_SIZE
+        max_features=int(args.feature_size) if args.feature_size else FEATURE_SIZE
     )
     pipeline = Pipeline([
         ('tfidf', vectorizer),
