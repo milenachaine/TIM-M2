@@ -11,14 +11,10 @@ DOC_CLASS = {
 
 # FEAUTRE CONFIG
 FEATURE_SIZE = 500
-FEAT = {
-    "token": None,
-    "lemma": None,
-    "ngram": None,
-}
 FEAT_HELP = """FEATURES:
     token(default),
     lemma,
+    lemma+pos,
     ngram
 """
 
