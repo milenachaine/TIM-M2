@@ -11,11 +11,5 @@ Elvira Quesada, Milena Chaîne, Margaux Duhayon, Ferial Yahiaoui, Léa Lamotte, 
   - si l'utilisateur n'accepte pas la réponse, on réessaie jusqu'à trois fois => en faisant reformuler la question ? en modifiant la recherche de similarités ?
   - si l'utilisateur est satisfait on est en fin d'interaction
 
-cf. README dans chaque répertoire
-
-### traitement des questions : Milena, Ferial
-### recherche de similarités : Elvira, Margaux
-### génération de données : Léa, Boyu
-### création de l'interface d'interaction utilisateur (Flask)
 
 
