@@ -1,16 +1,16 @@
 
 I.Construction de treebank
 
-pour générer les fichier conllu, vous devez d'abord installer spacy et son modèle français, (regardez https://spacy.io/usage/ ), assurer que le modèle français est bien lié à module pour que l'on puisse l'utiliser avec "spacy.load('fr')", sinon regardez https://github.com/explosion/spaCy/issues/2716.
+pour générer les fichier conll, vous devez d'abord installer treetagger et assurez que la commande "$tree-tagger-french" marche.
 
 En suite, si vous êtes sous linux ou dispose un terminal linux, entrez:
 
-python3 xml2conllu.py chemin_relatif_de_fichier_xml chemin_relatif_de_dossier_cible
+python3 xml2conll.py chemin_relatif_de_fichier_xml chemin_relatif_de_dossier_cible
 
 ex:
      vous êtes déjà dans un répertoire qui contient le dossier du projet TIM-M2, vous devez naturellement entrer
 	 
-	 python3 xml2conllu.py TIM-M2/Croupes/Crawling/corpusIrisVersion3.xml TIM-M2/Groupes/Prétraitement/Corpus
+	 python3 xml2conll.py TIM-M2/Croupes/Crawling/corpusIrisVersion4.xml TIM-M2/Groupes/Prétraitement/Corpus
 	 
 Si vous utilisez windows, remplacez tous les "/" dans la description de chemin dans xml2conllu.py par "\\", 
 ex:
@@ -20,9 +20,11 @@ Cette procédure durera 3-4 heures, taille total 688MB,
 assurez que votre ordinateur aie assez de batterie et espace.
 
 L'hiérarchie de dossier est 
-Corpus/Nom_de_Classe/Nom_de_Sous-classe/Nom_de_Doc/fichier_question_et_réponse_avec_id_de_corpus_et_index_de_q_et_a 
+Corpus/Nom_de_ressource/Nom_de_Classe/Nom_de_Sous-classe/Nom_de_Doc/fichier_question_et_réponse_avec_id_de_corpus_et_index_de_q_et_a 
 
-à part des fichiers conllu, il produit aussi un fichier phrases.txt dans le dossier cible qui récolte tous les phrases dans les questions et réponses, segmentées par spacy, prêt pour extraction des entité nommées. 
+Un autre script phrase2conll.py prend en argument une phrase et stocke le résultat de treetagger dans un fichier "phrase.conll", utilisation: $python phrase2conll.py "c'est un test" 
+
+à part des fichiers conll, il produit aussi un fichier phrases.txt dans le dossier cible qui récolte tous les phrases dans les questions et réponses, segmentées par spacy, prêt pour extraction des entité nommées. 
 
 II.Trouver les entités nommées
 
