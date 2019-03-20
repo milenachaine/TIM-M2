@@ -1,6 +1,7 @@
 Les fichiers sorties en conll sont déjà stocké sur la machine à distance, pour les récupérer:
 
 scp -P 2251 chuanming@helium.lab.parisdescartes.fr:pretraitement/juritravail votre_répertoir 
+
 scp -P 2251 chuanming@helium.lab.parisdescartes.fr:pretraitement/net-iris votre_répertoir 
 
 le mot de passe est: dcm
