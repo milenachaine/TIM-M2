@@ -3,12 +3,6 @@
 
 
 """
-try:
-    import xml.etree.cElementTree as ET
-except ImportError:
-    import xml.etree.ElementTree as ET
-import sys
-
 import argparse
 from argparse import RawTextHelpFormatter
 from sklearn import metrics
@@ -23,9 +17,10 @@ from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
 from pandas_ml import ConfusionMatrix
 
-import spacy
-
 from settings import *
+
+import pickle
+
 
 CLF = {
     "rf": RandomForestClassifier,
@@ -47,6 +42,8 @@ def main():
     # build pipeline
     parameters = CLF_PARAM[args.classifier]
     clf = CLF[args.classifier](**parameters)
+    if args.feature_size:
+        FEATURE_SIZE = int(args.feature_size)
     vectorizer = TfidfVectorizer(max_features=FEATURE_SIZE)
     pipeline = Pipeline([
         ('tfidf', vectorizer),
@@ -76,40 +73,41 @@ def get_args():
     )
     parser.add_argument(
         '-f', "--features",
-        choices=["token","lemma","ngram"],
+        choices=["token","lemma","lemma+pos","ngram"],
         default="token",
         help=FEAT_HELP
     )
-    parser.add_argument('-s', "--feature_size", default=FEATURE_SIZE)
+    parser.add_argument('-s', "--feature_size")
     parser.add_argument('-o', "--output")
     return parser.parse_args()
 
-def prepare_data(corpus,feat):
-    tree = ET.ElementTree(file=corpus)
+def prepare_data(FI,feat):
+    corpus = pickle.load(file=open(FI,"rb"))
     X = list()
     Y = list()
-    for doc in tree.getroot():
-        question = " ".join([q.text.strip() for q in doc.findall("question")])
-        Y.append(DOC_CLASS[doc.get("class").lower()])
-        X.append(question)
-    if feat == "lemma":
-        nlp = spacy.load('fr', vectors=False)
-        for i in range(X.__len__()):
-            X[i] = " ".join([token.lemma_ for token in nlp(X[i])])
+    for doc in corpus:
+        Y.append(doc.class_)
+        X.append(FEAT[feat](doc))
     return (X,Y)
 
-def lemmatizer(text):
-    import treetaggerwrapper
-    result = []
-    tagger = treetaggerwrapper.TreeTagger(TAGLANG='fr')
-    tags = tagger.tag_text(text)
-    for token in tags:
-        form,pos,lemme = token.split("\t")
-        if lemme != "@card@":
-            result.append(lemme)
-        else:
-            result.append(form)
-    return " ".join(result)
+def get_token(doc):
+    return " ".join(doc.question.text)
+
+def get_lemma(doc):
+    return " ".join(doc.question.lemma)
+
+def get_lp(doc):
+    return " ".join([t[1]+"/"+t[2] for t in doc.question.tagged_text()])
+
+def get_ngram(doc):
+    pass
+
+FEAT = {
+    "token": get_token,
+    "lemma": get_lemma,
+    "lemma+pos": get_lp,
+    "ngram": get_ngram,
+}
 
 if __name__ == "__main__":
     main()
