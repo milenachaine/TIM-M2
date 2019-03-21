@@ -2,8 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <!-- TO DO :
-	- shift-enter -> retour à la ligne
-	- défilement des logs se fait dans #message, pas dans body
+	- défilement des logs se fait dans #logs, pas dans body. La message box ne bouge plus du bas de la page
 	- schéma d'interaction
 	- désambiguiser variables
 	- expliciter les interactions entre le serveur et la page
@@ -32,7 +31,7 @@
 		</div>
 		<!-- la boite et le bouton "envoyer" -->
 		<div class="message-box">
-			<input id="message" type="text" placeholder="Message">
+			<textarea id="message" type="text" placeholder="Message"></textarea>
 			<button id="send">Envoyer</button>
 		</div>
     </div>
@@ -44,13 +43,13 @@
                 var msg = $('#message').val();
                 if (msg === '') {return}
                 $('#message').val('');
-				$('#logs').append('<p id="user">' + msg + "</p>");
                 $.ajax({
                     contentType: 'application/json',
                     type: 'POST',
                     data: JSON.stringify({ message: msg, convID: convID }),
                     success: function (data) {
-                        $('#logs').append('<p id="bot">' + data['message'] + "</p>");
+						$('#logs').append('<p id="user">' + data['messageU'] + "</p>");
+                        $('#logs').append('<p id="bot">' + data['messageB'] + "</p>");
                     }
                 });
             }
@@ -58,8 +57,9 @@
                 send_message();
             });
             $('#message').on('keypress', function (e) {
-                if (e.which === 13) {
+                if (e.which === 13 && !e.shiftKey) {
 					send_message();
+					return false;
                 }
             });
         });

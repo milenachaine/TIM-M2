@@ -26,8 +26,11 @@ def index():
 		discussions.setdefault(convID, [])
 		discussions[convID].append( ("user", msg) )
 		
+		"""fonction Boyu pour enrichir msg"""
+		
+		
 		# La gestion du schéma d'interraction goes here
-		return jsonify({"message": "J'ai bien reçu le message"}), 201
+		return jsonify({"messageB": "J'ai bien reçu le message", "messageU": str(msg)}), 201
 
 	return render_template("chatlaw.html", convID=uuid.uuid4()), 200
 
