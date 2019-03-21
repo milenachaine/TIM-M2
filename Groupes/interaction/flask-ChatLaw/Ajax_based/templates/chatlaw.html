@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- TO DO :
+	- shift-enter -> retour à la ligne
+	- défilement des logs se fait dans #message, pas dans body
+	- schéma d'interaction
+	- désambiguiser variables
+	- expliciter les interactions entre le serveur et la page
+-->
+
+<head>
+	<!--metadonnées du projet-->
+    <title>Chatlaw</title>
+    <meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <meta name="author" content="M2 IM 2018-2019" />
+	<!-- css et responsive-ness -->
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='chatroom.css') }}">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- JQuery -->
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
+	</script>
+</head>
+
+<body>
+    <div>
+		<!-- l'historique des répliques-->
+		<div id="logs">
+			<p id="bot">Bonjour, je suis chatlaw, le conseiller juridique en ligne.<br/>Dites-moi ce qui vous amène...</p>
+		</div>
+		<!-- la boite et le bouton "envoyer" -->
+		<div class="message-box">
+			<input id="message" type="text" placeholder="Message">
+			<button id="send">Envoyer</button>
+		</div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            convID = "{{ convID }}";
+            function send_message() {
+                var msg = $('#message').val();
+                if (msg === '') {return}
+                $('#message').val('');
+                $.ajax({
+                    contentType: 'application/json',
+                    type: 'POST',
+                    data: JSON.stringify({ message: msg, convID: convID }),
+                    success: function (data) {
+                        $('#logs').append('<p id="bot">' + data['message'] + "</p>");
+                    }
+                });
+            }
+            $('#send').click(function () {
+                send_message();
+            });
+            $('#message').on('keypress', function (e) {
+                if (e.which === 13) {
+					send_message();
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

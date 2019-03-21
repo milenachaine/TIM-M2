@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>ChatLaw</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+        <meta name="author" content="M2 IM 2018-2019" />
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='chatroom.css') }}">
+    </head>
+    
+    <body>
+        <div id="logs">
+			<!-- Affiche ce qui a été dit -->
+			<p id="bot">Bonjour, je suis chatlaw, le conseiller juridique en ligne.
+			<br/>Dites moi ce qui vous amène ...</p>
+			{% for loc, replique in discussion %}
+			<p id="{{loc}}">{{ replique }}</p>
+			{% endfor %}
+		</div>
+        
+        <div id="message-box">
+			<!-- Le champs pour taper la réponse utilisateur -->
+			<form action="{{ url_for('index') }}" method="post">
+				<textarea name="text"></textarea>
+				<input type="submit">
+			</form>
+        </div>
+		<div>
+			<p> Nota Bene : ma sagesse est issue de celle d'internet. Mon "expertise" ne saurait donc pas se substituer à celle d'un professionel. Je ne souhaite pas être responsables des âneries que vous feriez en m'écoutant aveuglément. </p>
+		</div>
+        
+        
+    </body>
+</html>

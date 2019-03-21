@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-exp.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css">
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
+	</script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="columns">
+            <div id="chatbox" class="column col-12"></div>
+            <div class="column col-3"></div>
+            <div class="column col-6">
+                <div class="input-group">
+                    <input id="message" type="text" class="form-input" placeholder="Message">
+                    <button id="send" class="btn btn-primary input-group-btn">Envoyer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            convid = "{{ convid }}";
+            function send_message() {
+                var msg = $('#message').val();
+                if (msg === '') {
+                    return
+                }
+                $('#message').val('');
+                $('#chatbox').append('<div class="float-right"><p>' + msg + "</p></div>");
+                $.ajax({
+                    contentType: 'application/json',
+                    type: 'POST',
+                    data: JSON.stringify({ message: msg, convid: convid }),
+                    success: function (data) {
+                        $('#chatbox').append('<div class="float-left"><p>' + data['message'] + "</p></div>");
+                    }
+                });
+            }
+            $('#send').click(function () {
+                send_message();
+            });
+            $('#message').on('keypress', function (e) {
+                if (e.which === 13) {
+                    send_message();
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
