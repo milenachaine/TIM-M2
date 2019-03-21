@@ -44,6 +44,7 @@
                 var msg = $('#message').val();
                 if (msg === '') {return}
                 $('#message').val('');
+				$('#logs').append('<p id="user">' + msg + "</p>");
                 $.ajax({
                     contentType: 'application/json',
                     type: 'POST',

@@ -1,7 +1,6 @@
-
-En cours : 
-- étude de la possibilité de gérer l'interaction via des requêtes ajax
-- à défaut, faire tout ça en 'POST'
+Utilisation : 
+- se placer dans Ajax_based 
+- python3 chatlaw.py
 
 
 Proposition schéma type interaction 
