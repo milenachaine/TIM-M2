@@ -1,6 +1,7 @@
 Utilisation : 
 - se placer dans Ajax_based 
 - python3 chatlaw.py
+ATTENTION : toute modification du css n'entrera en vigueur qu'une fois le serveur et le navigateur rebooté
 
 
 Proposition schéma type interaction 

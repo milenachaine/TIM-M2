@@ -2,7 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <!-- TO DO :
-	- défilement des logs se fait dans #logs, pas dans body. La message box ne bouge plus du bas de la page
 	- schéma d'interaction
 	- désambiguiser variables
 	- expliciter les interactions entre le serveur et la page
@@ -50,6 +49,7 @@
                     success: function (data) {
 						$('#logs').append('<p id="user">' + data['messageU'] + "</p>");
                         $('#logs').append('<p id="bot">' + data['messageB'] + "</p>");
+						$('#logs').scrollTop( 1000000000 )
                     }
                 });
             }
