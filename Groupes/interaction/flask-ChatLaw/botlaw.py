@@ -34,7 +34,7 @@ def index():
 
 		from test_question import getBestQuestion
 		bestQuestion = getBestQuestion(msg)
-		bestQuestionFeedback = "\nOn a un match:"+ bestQuestion['questions']+"\nRéponses:"+ bestQuestion['answers']
+		bestQuestionFeedback = "<p>On a un match:"+ bestQuestion['questions']+"</p><p>Réponses:"+ bestQuestion['answers']+"</p>"
 		
 		# La gestion du schéma d'interraction goes here
 		return jsonify({"messageB": "J'ai bien reçu le message"+bestQuestionFeedback, "messageU": msg}), 201
