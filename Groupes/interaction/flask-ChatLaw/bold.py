@@ -4,7 +4,7 @@
 def constructDico(listPath):
 	"""Charger le dictionnaire dans la mémoire"""
 	dicoTerms = {}
-	with open(listPath, 'r') as f:
+	with open(listPath, 'r', encoding='utf8') as f:
 		for line in f:
 			line = line.strip()
 			items = line.split('\t')
