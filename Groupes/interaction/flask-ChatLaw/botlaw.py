@@ -12,13 +12,12 @@ id_de_conversation_2 : [(locuteur, replique),(locuteur, replique)],
 """
 discussions = {}
 dicoTerms = constructDico('/home/teamlaw/git-TIM-M2/Groupes/interaction/flask-ChatLaw/list_terms.txt')
-#dicoTerms = constructDico('list_terms.txt')
 
 @app.route("/", methods=['GET', 'POST'])
 def index():
-	#NB : le premier chargement de la page se fait en GET, on ne rentre dans ce if qu'avec l'envoi du 1er message
+	#NB : le premier chargement de la page se fait en GET
 	if request.method == "POST":
-		#Vérification de la bonne formation du message reçu (du json avec un champs 'message' non-vide et un id de conversation)
+		#Vérification de la bonne formation du message reçu
 		if not request.json or not 'message' in request.json or not request.json['message'] or not 'convID' in request.json:
 			#On plante si le message est mal formé
 			abort(400)
@@ -33,7 +32,7 @@ def index():
 		"""recherche de correspondance"""
 		from test_question import getBestQuestion
 		bestQuestion = getBestQuestion(msg)
-		#bestQuestionFeedback = "<p>On a un match:"+ bestQuestion['questions']+"</p><p>Réponses:"+ bestQuestion['answers']+"</p>"
+		
 		
 		"""fonction Boyu pour enrichir msg"""
 		msg = bold(msg, dicoTerms)
