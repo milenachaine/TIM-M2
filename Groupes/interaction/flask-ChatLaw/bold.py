@@ -1,10 +1,8 @@
 ### Ce package dépend de la liste des mots "list_terms.txt"
 
-dicoTerms = {}
-
 def constructDico(listPath):
-"""Charger le dictionnaire dans la mémoire"""
-	global dicoTerms
+	"""Charger le dictionnaire dans la mémoire"""
+	dicoTerms = {}
 	with open(listPath, 'r') as f:
 		for line in f:
 			line = line.strip()
@@ -12,10 +10,12 @@ def constructDico(listPath):
 			if len(items) == 2:
 				if items[0] not in dicoTerms.keys():
 					dicoTerms[items[0]] = items[1]
+	return dicoTerms
 				
-def bold(s):
-"""Transformer une chaîne de caractères brute en une chaîne qui contient des balises au tour des mots-clés s'il en existe. """
-	global dicoTerms
+def bold(s, dico):
+	"""Transformer une chaîne de caractères brute en une chaîne qui contient des balises au tour des mots-clés s'il en existe. """
+	#global dicoTerms
+	dicoTerms = dico
 	tokens = s.split()
 	result = ""
 	for token in tokens:
