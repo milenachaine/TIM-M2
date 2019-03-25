@@ -1,3 +1,4 @@
+# -*- coding: UTF-8 -*-
 ### Ce package dépend de la liste des mots "list_terms.txt"
 
 def constructDico(listPath):
