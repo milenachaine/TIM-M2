@@ -1,6 +1,7 @@
 # -*- coding: UTF-8 -*-
 from flask import Flask, request, render_template, abort, jsonify
 import uuid
+from bold import * 
 
 app = Flask(__name__)
 
@@ -10,6 +11,7 @@ id_de_conversation_2 : [(locuteur, replique),(locuteur, replique)],
 ...}
 """
 discussions = {}
+dicoTerms = constructDico('list_terms.txt')
 
 @app.route("/", methods=['GET', 'POST'])
 def index():
@@ -28,7 +30,7 @@ def index():
 		discussions[convID].append( ("user", msg) )
 		
 		"""fonction Boyu pour enrichir msg"""
-		
+		msg = bold(msg, dicoTerms)
 		
 		# La gestion du schéma d'interraction goes here
 		return jsonify({"messageB": "J'ai bien reçu le message", "messageU": msg}), 201
