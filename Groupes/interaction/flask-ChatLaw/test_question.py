@@ -1,3 +1,4 @@
+# -*- coding: UTF-8 -*-
 import pickle
 
 path = '/home/teamlaw/git-TIM-M2/Groupes/Similarite/'
