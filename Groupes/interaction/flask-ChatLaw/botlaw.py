@@ -31,7 +31,7 @@ def index():
 		
 		
 		# La gestion du schéma d'interraction goes here
-		return jsonify({"messageB": "J'ai bien reçu le message", "messageU": str(msg)}), 201
+		return jsonify({"messageB": "J'ai bien reçu le message", "messageU": msg}), 201
 
 	return render_template("chatlaw.html", convID=uuid.uuid4()), 200
 
