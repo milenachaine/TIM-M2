@@ -14,22 +14,25 @@ p{
 }
 
 #logs{
+	display: block;
 	margin-top:3px;
 	background-color: #ffffff;
 	border:1px solid gray;
-	width:100%;
-	height:85%;
+	width:80vw;
+	height:85vh;
+	overflow:scroll;
 }
-textarea{
+#message-box{
 	margin-top:3px;
 	background-color: #ffffff;
 	border:1px solid gray;
-	width:100%;
-	height:15%;
+	width:80vw;
+	height:10vh;
+	position:fixed;
+	bottom:30px;
 }
-#bot{
-	text-align:left;
-	color:blue;}
-#user{
-	text-align:right;}
-	
+#message{
+	width:80%;
+}
+#bot{text-align:left;}
+#user{text-align:right;}
