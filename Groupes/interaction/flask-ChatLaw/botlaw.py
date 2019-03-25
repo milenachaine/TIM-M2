@@ -1,42 +1,38 @@
-# coding: utf-8
-#FLASK_APP=botlaw.py flask run 
-# OU 
-#python3 botlaw.py
-from flask import Flask #importer flask
-from flask import render_template
-from flask import request 
-#Instancier l'objet app : le site Web
-app = Flask(__name__) 
-app.debug = True #'False' A LA MISE EN LIGNE
+from flask import Flask, request, render_template, abort, jsonify
+import uuid
 
-logs = []
+app = Flask(__name__)
+
+""" Un dictionnaire 
+{id_de_conversation_1 : [(locuteur, replique),(locuteur, replique), (locuteur, replique)],
+id_de_conversation_2 : [(locuteur, replique),(locuteur, replique)], 
+...}
+"""
+discussions = {}
 
 @app.route("/", methods=['GET', 'POST'])
 def index():
-	global logs
-	"""Affiche l'historique de conversation et recueil les réponses"""
-	if request.method == 'POST':
-		message = request.form['text']
-		logs.append( ("user", message) )
-		if message != "Fort Bien":
-			#envoi le pré-traitement de la requête
-			#lance le calcul de similarité (ou autre)
-			# reponse = "NOPE, je boude, je fais grêve, j'ai mal aux pieds"
-                        reponse = "coucou"
-			#Ajoute la réponse
-			logs.append( ("bot", reponse) )
-			#Demande si cela convient
-			#Affiche des boutons
-			#if oui :
-				#bye bye
-			#if non :
-				#
+	#NB : le premier chargement de la page se fait en GET, on ne rentre dans ce if qu'avec l'envoi du 1er message
+	if request.method == "POST":
+		#Vérification de la bonne formation du message reçu (du json avec un champs 'message' non-vide et un id de conversation)
+		if not request.json or not 'message' in request.json or not request.json['message'] or not 'convID' in request.json:
+			#On plante si le message est mal formé
+			abort(400)
+
+		#Sinon on récupère l'id de conversation et le message
+		convID = request.json['convID']
+		msg = request.json['message']
+		#On note la nouvelle réplique dans les logs du serveurs
+		discussions.setdefault(convID, [])
+		discussions[convID].append( ("user", msg) )
 		
-	
-	return render_template("chatroom.html", discussion = logs)
-	# Possibilité de récupérer soit en POST soit en Ajax.
+		"""fonction Boyu pour enrichir msg"""
+		
+		
+		# La gestion du schéma d'interraction goes here
+		return jsonify({"messageB": "J'ai bien reçu le message", "messageU": str(msg)}), 201
 
+	return render_template("chatlaw.html", convID=uuid.uuid4()), 200
 
-	
-if __name__ == '__main__':
-	app.run()#Lance le serveur
+if __name__ == "__main__":
+	app.run(debug=True)
