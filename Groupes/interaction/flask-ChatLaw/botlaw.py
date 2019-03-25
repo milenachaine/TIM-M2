@@ -1,3 +1,4 @@
+# -*- coding: UTF-8 -*-
 from flask import Flask, request, render_template, abort, jsonify
 import uuid
 
