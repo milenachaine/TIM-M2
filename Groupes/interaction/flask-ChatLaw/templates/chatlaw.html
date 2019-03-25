@@ -48,7 +48,8 @@
                     data: JSON.stringify({ message: msg, convID: convID }),
                     success: function (data) {
 						$('#logs').append('<p id="user">' + data['messageU'] + "</p>");
-                        $('#logs').append('<p id="bot">' + data['messageB'] + "</p>");
+                        $('#logs').append('<p id="bot">' + data['bestQuestion'] + "</p>");
+                        $('#logs').append('<p id="bot">' + data['bestAnswer'] + "</p>");
 						$('#logs').scrollTop( 1000000000 )
                     }
                 });

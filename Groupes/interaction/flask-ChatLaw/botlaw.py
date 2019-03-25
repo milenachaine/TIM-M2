@@ -12,6 +12,7 @@ id_de_conversation_2 : [(locuteur, replique),(locuteur, replique)],
 """
 discussions = {}
 dicoTerms = constructDico('/home/teamlaw/git-TIM-M2/Groupes/interaction/flask-ChatLaw/list_terms.txt')
+#dicoTerms = constructDico('list_terms.txt')
 
 @app.route("/", methods=['GET', 'POST'])
 def index():
@@ -28,16 +29,18 @@ def index():
 		#On note la nouvelle réplique dans les logs du serveurs
 		discussions.setdefault(convID, [])
 		discussions[convID].append( ("user", msg) )
+
+		"""recherche de correspondance"""
+		from test_question import getBestQuestion
+		bestQuestion = getBestQuestion(msg)
+		#bestQuestionFeedback = "<p>On a un match:"+ bestQuestion['questions']+"</p><p>Réponses:"+ bestQuestion['answers']+"</p>"
 		
 		"""fonction Boyu pour enrichir msg"""
 		msg = bold(msg, dicoTerms)
+		question = bestQuestion['questions']
+		reponse = bestQuestion['answers']
 
-		from test_question import getBestQuestion
-		bestQuestion = getBestQuestion(msg)
-		bestQuestionFeedback = "<p>On a un match:"+ bestQuestion['questions']+"</p><p>Réponses:"+ bestQuestion['answers']+"</p>"
-		
-		# La gestion du schéma d'interraction goes here
-		return jsonify({"messageB": "J'ai bien reçu le message"+bestQuestionFeedback, "messageU": msg}), 201
+		return jsonify({"messageU": msg, "bestQuestion": question, "bestAnswer": reponse}), 201
 
 	return render_template("chatlaw.html", convID=uuid.uuid4()), 200
 
