@@ -31,9 +31,13 @@ def index():
 		
 		"""fonction Boyu pour enrichir msg"""
 		msg = bold(msg, dicoTerms)
+
+		from test_question import getBestQuestion
+		bestQuestion = getBestQuestion(msg)
+		bestQuestionFeedback = "\nOn a un match:"+ bestQuestion['questions']+"\nRéponses:"+ bestQuestion['answers']
 		
 		# La gestion du schéma d'interraction goes here
-		return jsonify({"messageB": "J'ai bien reçu le message", "messageU": msg}), 201
+		return jsonify({"messageB": "J'ai bien reçu le message"+bestQuestionFeedback, "messageU": msg}), 201
 
 	return render_template("chatlaw.html", convID=uuid.uuid4()), 200
 
