@@ -1,6 +1,4 @@
-# Crawling
-
-Dossier contenant les scripts utilisés pour la collecte du corpus
+### Crawling
 
 ## Objectif et tâches
 
