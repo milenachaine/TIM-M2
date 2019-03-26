@@ -5,7 +5,7 @@
 - Crawler plusieurs forums de droit afin de constituer un corpus de questions/réponses
 - Créer un fichier XML facile à parser et reprenant des infos clé
 
-![alt text](https://github.com/eldams/TIM-M2/edit/master/Groupes/Crawling/crawler_juritravail/Images/web_crawler_logo.png "Web Crawler Logo")
+![Test](/Images/web_crawler_logo.png)
 
 ## Forums crawlés
 
