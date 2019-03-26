@@ -1,5 +1,5 @@
 body{
-	background-color: #E2FFAE;
+	background-image:url(https://www.toptal.com/designers/subtlepatterns/patterns/prism.png) ;
 	margin-left:10vw;
 	margin-right:10vw%;
 	margin-top:30px;
@@ -12,13 +12,18 @@ p{
 	margin-left:0.7cm;
 	margin-right:0.7cm;
 }
-
+button{
+	background-color: #ffffff; 
+	color: black;
+	padding: 2vh 2vw;
+	font-size: 2vh;
+	border-radius: 50vh;
+}
 #logs{
 	display: block;
 	margin-top:3px;
 	background-color: #ffffff;
-	border:1px solid gray;
-	border-radius: 5vh;
+	border-radius: 3vh;
 	width:80vw;
 	height:80vh;
 	overflow:scroll;
@@ -32,7 +37,6 @@ p{
 #message-box{
 	margin-top:3px;
 	background-color: #ffffff;
-	border:1px solid gray;
 	border-radius: 5vh;
 	width:80vw;
 	height:10vh;
@@ -40,12 +44,19 @@ p{
 	bottom:30px;
 }
 #message{
-	width:80%;
+	border-radius: 1vh;
+	float: left;
+	width:70vw;
 }
-#bot{text-align:left;
+#bot{
+	background-color: aliceblue;
+	border-radius: 1vh;
+	float:left;
 	width:80%;}
-#user{text-align:right;
-	color:#002b80;}
+#user{
+	float:right;
+	width:80%;
+	text-align: right;}
 ::-webkit-scrollbar { 
     display: none; 
 }
