@@ -102,7 +102,7 @@ vectorizer = pickle.load(open("vectorizer.pkl", "rb"))
 TfIdfQuestions = pickle.load(open("TfIdfQuestions.pkl", "rb"))
 liste_questions = pickle.load(open("liste_questions.pkl", "rb"))
 
-question_utilisateur = "J'ai des factures impayées"
+
 TfIdfQuestions_utilisateur = vectorizer.transform([question_utilisateur], True)
 
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -122,7 +122,7 @@ for questionIndex in range (len(liste_questions)):
             bestQuestionScore = simScore
             bestQuestionIndex = questionIndex
 
-print("  ===> Best Question: ")
+print("  ===> Best Question : ")
 if (bestQuestionIndex):
     index = "iris" + str(bestQuestionIndex)
-    print("       QuestionIndex: ",bestQuestionIndex," => ", documents_Corpus.get(index))
+    print("       QuestionIndex : ",bestQuestionIndex," => ", documents_Corpus.get(index))
