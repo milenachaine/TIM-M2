@@ -5,14 +5,14 @@
 - Crawler plusieurs forums de droit afin de constituer un corpus de questions/réponses
 - Créer un fichier XML facile à parser et reprenant des infos clé
 
-- ![Crawler logo](/Groupes/Crawling/crawler_juritravail/Images/web_crawler_logo.png)
+![Crawler logo](/Groupes/Crawling/crawler_juritravail/Images/web_crawler_logo.png)
 
 ## Forums crawlés
 
 - NetIris (plus de 300K questions, 8 catégories)
 - Juritravail (plus de 150K questions, 27 catégories)
 
-[IMA Juritravail]
+![Juritravail](/Groupes/Crawling/crawler_juritravail/Images/screenshot_juritravail.png)
 
 ## Corpus et métadonnées
 
@@ -24,24 +24,25 @@
 	- le titre de la page
 	- l'url de la page
 
-[IMA XML]
+![XML](/Groupes/Crawling/crawler_juritravail/Images/screenshot_corpus_juritravail.png)
 
 ## Filtrage des réponses
 
 - Élimination des réponses "vides" en filtrant sur la popularité des auteurs
 
-[IMA Juritravail]
+![Réponse Juritravail](/Groupes/Crawling/crawler_juritravail/Images/screenshot_juritravail_reponse.png)
 
 ## Technologie utilisée
 
 - Python
 - Bibliothèque BeautifulSoup
 
-[Logo BeautifulSoup]
+![Logo BeautifulSoup](/Groupes/Crawling/crawler_juritravail/Images/BeautifulSoup.png)
 
 ## Statistiques du corpus
 
 NetIris : 41229 questions, 60421 réponses aspirées
-Juritravail : 
+Juritravail : 126911 question, 75019 réponses aspirées
 
-[IMA graphiques]
+![Graphique_1](/Groupes/Crawling/crawler_juritravail/Images/categories_netiris.png)
+![Graphique_2](/Groupes/Crawling/crawler_juritravail/Images/categories_juritravail.png)
