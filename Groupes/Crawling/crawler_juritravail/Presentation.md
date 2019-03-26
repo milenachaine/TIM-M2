@@ -5,7 +5,7 @@
 - Crawler plusieurs forums de droit afin de constituer un corpus de questions/réponses
 - Créer un fichier XML facile à parser et reprenant des infos clé
 
-![Test](/Images/web_crawler_logo.png)
+![Test](/Groupes/Crawling/crawler_juritravail/Images/web_crawler_logo.png)
 
 ## Forums crawlés
 
