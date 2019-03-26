@@ -39,8 +39,8 @@
 
 ## Statistiques du corpus
 
-NetIris : 41229 questions, 60421 réponses aspirées
-Juritravail : 126911 question, 75019 réponses aspirées
+- NetIris : 41229 questions, 60421 réponses aspirées
+- Juritravail : 126911 question, 75019 réponses aspirées
 
 ![Graphique_1](/Groupes/Crawling/crawler_juritravail/Images/categories_netiris.png)
 ![Graphique_2](/Groupes/Crawling/crawler_juritravail/Images/categories_juritravail.png)
