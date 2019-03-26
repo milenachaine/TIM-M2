@@ -5,7 +5,7 @@
 - Crawler plusieurs forums de droit afin de constituer un corpus de questions/réponses
 - Créer un fichier XML facile à parser et reprenant des infos clé
 
-![Crawler logo](/Groupes/Crawling/crawler_juritravail/Images/web_crawler_logo.png)
+![Crawler logo](/Groupes/Crawling/crawler_juritravail/Images/web_crawler_logo_2.png)
 
 ## Forums crawlés
 
@@ -34,9 +34,7 @@
 
 ## Technologie utilisée
 
-- Python
-- Bibliothèque BeautifulSoup
-
+![Logo Python](/Groupes/Crawling/crawler_juritravail/Images/logo_python.png)
 ![Logo BeautifulSoup](/Groupes/Crawling/crawler_juritravail/Images/BeautifulSoup.png)
 
 ## Statistiques du corpus
