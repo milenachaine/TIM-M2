@@ -5,6 +5,8 @@
 - Crawler plusieurs forums de droit afin de constituer un corpus de questions/réponses
 - Créer un fichier XML facile à parser et reprenant des infos clé
 
+![alt text](https://github.com/eldams/TIM-M2/edit/master/Groupes/Crawling/crawler_juritravail/images/web_crawler.png "Web Crawler Logo")
+
 ## Forums crawlés
 
 - NetIris (plus de 300K questions, 8 catégories)
