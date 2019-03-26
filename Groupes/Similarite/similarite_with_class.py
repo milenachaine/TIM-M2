@@ -59,21 +59,18 @@ def predict(model, phrase):
 
 """
 
-    Intéraction utilisateur
+    Intéraction utilisateur :
+
+        - On récupère la question à travers l'input
+        - Concaténation
 
 
 """
 
 question_utilisateur = input("Posez une question : ")
 
-doc_q = open("doc_q.txt", "w")
-qs = ""
-for q in question_utilisateur:
-    qs+=q
-doc_q.write(qs)
-
-
-print("Votre question est : ", qs)
+assert(question_utilisateur != "")
+print("Votre question est : ", question_utilisateur)
 
 # commande = "python3 test_make_prediction.py " + "model_class_question_uti " + "\"" + qs + "\""
 # print("Commande ", commande)
@@ -82,7 +79,7 @@ print("Votre question est : ", qs)
 # print("res", res)
 
 
-classe_question = predict("model_class_question_uti", qs)
+classe_question = predict("model_class_question_uti", question_utilisateur)
 
 
 for cat, abb in DOC_CLASS.items():
