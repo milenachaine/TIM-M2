@@ -13242,20 +13242,7 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Test-diaporama-pour-la-pr&#233;sentation-avec-Doctrine">Test diaporama pour la pr&#233;sentation avec Doctrine<a class="anchor-link" href="#Test-diaporama-pour-la-pr&#233;sentation-avec-Doctrine">&#182;</a></h1>
-</div>
-</div>
-</div></section></section><section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Commandes-de-base-pour-utiliser-jupyter-en-mode-slides">Commandes de base pour utiliser jupyter en mode slides<a class="anchor-link" href="#Commandes-de-base-pour-utiliser-jupyter-en-mode-slides">&#182;</a></h1><ul>
-<li>Pour lancer un notebook en mode slides :<div class="highlight"><pre><span></span><span class="n">jupyter</span> <span class="n">nbconvert</span> <span class="n">slides</span><span class="o">.</span><span class="n">ipynb</span> <span class="o">--</span><span class="n">to</span> <span class="n">slides</span> <span class="o">--</span><span class="n">post</span> <span class="n">serve</span>
-</pre></div>
-</li>
-<li>'Diapo' crée une diapo normale (accessible avec les flèches gauche/droite), 'Sous-Diapo' crée une hiérarchie (accessible par les flèches haut/bas)</li>
-<li><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Markdown</a></li>
-</ul>
+<h1 id="Le-projet-:-Chatlaw">Le projet : Chatlaw<a class="anchor-link" href="#Le-projet-:-Chatlaw">&#182;</a></h1><h2 id="Pr&#233;sentation-du-concept">Pr&#233;sentation du concept<a class="anchor-link" href="#Pr&#233;sentation-du-concept">&#182;</a></h2><p>L'objectif de ce projet est de réaliser un chatbot nous permettant d'obtenir une réponse sur une question du domaine juridique. Cette réponse étant obtenu à l'aide d'une similarité d'une réponse déjà présente sur des forums.</p>
 
 </div>
 </div>
@@ -13263,7 +13250,7 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Le-projet-:-Chatlaw">Le projet : Chatlaw<a class="anchor-link" href="#Le-projet-:-Chatlaw">&#182;</a></h1><h2 id="Pr&#233;sentation-du-concept">Pr&#233;sentation du concept<a class="anchor-link" href="#Pr&#233;sentation-du-concept">&#182;</a></h2><p>L'objectif de ce projet est de réaliser un chatbot nous permettant d'obtenir une réponse sur une question du domaine juridique. Cette réponse étant obtenu à l'aide d'une similarité d'une réponse déjà présente sur des forums.</p>
+<p><img src="Images/schema.png" alt=""></p>
 
 </div>
 </div>
@@ -13281,7 +13268,83 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Crawling">Crawling<a class="anchor-link" href="#Crawling">&#182;</a></h1>
+<h1 id="Crawling">Crawling<a class="anchor-link" href="#Crawling">&#182;</a></h1><h2 id="Objectif-et-t&#226;ches">Objectif et t&#226;ches<a class="anchor-link" href="#Objectif-et-t&#226;ches">&#182;</a></h2><ul>
+<li>Crawler plusieurs forums de droit afin de constituer un corpus de questions/réponses</li>
+<li>Créer un fichier XML facile à parser et reprenant des infos clé</li>
+</ul>
+<p><img src="Images/web_crawler_logo_2.png" alt="Crawler logo"></p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Forums-crawl&#233;s">Forums crawl&#233;s<a class="anchor-link" href="#Forums-crawl&#233;s">&#182;</a></h2><ul>
+<li>NetIris (plus de 300K questions, 8 catégories)</li>
+<li>Juritravail (plus de 150K questions, 27 catégories)</li>
+</ul>
+<p><img src="Images/screenshot_juritravail.png" alt="Juritravail"></p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Corpus-et-m&#233;tadonn&#233;es">Corpus et m&#233;tadonn&#233;es<a class="anchor-link" href="#Corpus-et-m&#233;tadonn&#233;es">&#182;</a></h2><ul>
+<li>Pour le calcul de similarité : une suite de questions-réponses plain text</li>
+<li>Pour la catégorisation : la catégorie de la question telle qu'indiqué sur le site</li>
+<li>D'autres métadonnées utiles :<ul>
+<li>un id unique par doc</li>
+<li>le nom du site</li>
+<li>le titre de la page</li>
+<li>l'url de la page</li>
+</ul>
+</li>
+</ul>
+<p><img src="Images/screenshot_corpus_juritravail.png" alt="XML"></p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Filtrage-des-r&#233;ponses">Filtrage des r&#233;ponses<a class="anchor-link" href="#Filtrage-des-r&#233;ponses">&#182;</a></h2><ul>
+<li>Élimination des réponses "vides" en filtrant sur la popularité des auteurs</li>
+</ul>
+<p><img src="Images/screenshot_juritravail_reponse.png" alt="Réponse Juritravail"></p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Technologie-utilis&#233;e">Technologie utilis&#233;e<a class="anchor-link" href="#Technologie-utilis&#233;e">&#182;</a></h2><p><img src="Images/logo_python.png" alt="Logo Python">
+<img src="Images/BeautifulSoup.png" alt="Logo BeautifulSoup"></p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Statistiques-du-corpus">Statistiques du corpus<a class="anchor-link" href="#Statistiques-du-corpus">&#182;</a></h2><ul>
+<li>NetIris : 41229 questions, 60421 réponses aspirées</li>
+<li>Juritravail : 126911 question, 75019 réponses aspirées</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="Images/categories_netiris.png" alt="Graphique_1">
+<img src="Images/categories_juritravail.png" alt="Graphique_2"></p>
+
 </div>
 </div>
 </div></section></section><section><section>
@@ -13289,6 +13352,126 @@ a.anchor-link {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Pr&#233;traitement">Pr&#233;traitement<a class="anchor-link" href="#Pr&#233;traitement">&#182;</a></h1>
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Les-t&#226;ches-de-pr&#233;traitement-sont-:">Les t&#226;ches de pr&#233;traitement sont :<a class="anchor-link" href="#Les-t&#226;ches-de-pr&#233;traitement-sont-:">&#182;</a></h1><ul>
+<li>lemmatisation </li>
+<li>morpho-syntaxe / syntaxe</li>
+<li>Entités nommées</li>
+<li>Repérage de références juridiques</li>
+</ul>
+
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>Ces prétraitements sont effectué avec plusieurs scripts python sur chaque question et réponse.</li>
+<li>La sorite finale est en format Conll, nous avons chaque question et réponse prétraités et étiquités par tree-tagger.   </li>
+</ul>
+
+</div>
+</div>
+</div></div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Le script xml2conll.py prend en argument le fichier XML généré par le groupe de Crawiling, on récupère l'id, la classe, et la sous-classe de chaque question, on récupère la ou les réponses de cette question. L'attribut id permetrra de faire le lien avec la/les réponses de cette question:
+<img src="pic/structure.JPG" alt="structure.JPG"></p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>En sortie on aura les fichiers  conll de la question et de la réponses (reliés par l'id).
+Exemple d'une question en fromat conll :</p>
+<p><img src="pic/content_conll.JPG" alt="content_conll.JPG"></p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Entit&#233;-nomm&#233;es">Entit&#233; nomm&#233;es<a class="anchor-link" href="#Entit&#233;-nomm&#233;es">&#182;</a></h1>
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Spacy">Spacy<a class="anchor-link" href="#Spacy">&#182;</a></h1><ul>
+<li>Nous avons d'abord essayé spacy, mais nous nous sommes rendu comptes que il n'est pas très performant sur le français. Ainsi qu'en terme de complixité, spacy peut être lent avec un grand corpus. </li>
+</ul>
+<h1 id="Plyglot">Plyglot<a class="anchor-link" href="#Plyglot">&#182;</a></h1><ul>
+<li><p>Plyglot est une librairie de NLP multilingue, un peu comme spacy mais plus rapide.</p>
+</li>
+<li><p>En plus des tâches standards en TAL, (Tokenisation, Part of speech tagging etc) cette librairie permets d'extraire les entité nommées.</p>
+</li>
+<li><p>Désavantage : On ne peut pas filtrer les fautes d'orthographes; Le temps d'exécution est long.</p>
+</li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Partie du résultat:</p>
+<p><img src="pic/ents.JPG" alt="ents.JPG"></p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Rep&#233;rage-de-r&#233;f&#233;rences-juridiques">Rep&#233;rage de r&#233;f&#233;rences juridiques<a class="anchor-link" href="#Rep&#233;rage-de-r&#233;f&#233;rences-juridiques">&#182;</a></h1>
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ol>
+<li>TF-IDF. Nous avons récolté un corpus journaliste pour faire la contraste avec notre corpus juridique en retirant les mots qui  ont un score tfidf plus haut dans le corpus juridique. Regardez TFIDF.py. Les défauts sont évidentes, d'abord c'est pas facile de trouver les n-grammes juridiques; aussi, le genre et registre de corpus de contraste est très différent, par exemple, puisque le fichier contraste "contraste" ici est un corpus journaliste, donc il n'y a pas la forme en deuxième personne, alors qu'on a beaucoup de conjugaison en deuxième personne dans le corpus juridique. Le résultat est stocké dans "jury.txt"</li>
+</ol>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="pic/TF-IDF.JPG" alt="TF-IDF.JPG"></p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ol>
+<li>À partir d'un dictionnaire juridique en ligne nous pouvons extraire la liste des termes juridique dans "termes_juridiques.txt", le script de téléchargement est "jury.py". A l'aide de cette liste nous pouvons récolter les termes juridiques bien propres depuis notre corpus.        Le script est "extraction.py", donne le résultat qui dans  "jury_words.txt"   </li>
+</ol>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="pic/law_words.JPG" alt="law_words.JPG"></p>
+
 </div>
 </div>
 </div></section></section><section><section>
@@ -13302,102 +13485,40 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Interaction-avec-l'utilisateur">Interaction avec l'utilisateur<a class="anchor-link" href="#Interaction-avec-l'utilisateur">&#182;</a></h1><h2 id="interface-graphique">interface graphique<a class="anchor-link" href="#interface-graphique">&#182;</a></h2><h2 id="recherche-de-similarit&#233;s">recherche de similarit&#233;s<a class="anchor-link" href="#recherche-de-similarit&#233;s">&#182;</a></h2><p>La recherche de similarité est effectué avec un script en python. 
-Deux scripts sont utilisés pour cela :</p>
-<h3 id="preprocessdocs.py">preprocessdocs.py<a class="anchor-link" href="#preprocessdocs.py">&#182;</a></h3><p>Ce script nous permet de créer un dictionnaire à partir du corpus avec comme attribut, l'id, la classe, la sous-classe, la question, les réponses associées à la question ainsi que la question et les réponses lemmatisées. 
-Le tout est sauvegardé dans des "pickles" qui nous permettent de conserver les résultats dans un script python pour pouvoir les réutiliser facilement. Cela nous permet de garder en mémoire celui-ci afin de ne pas refaire le processus dès que l'utilisateur pose une question.</p>
-<h3 id="test_question.py">test_question.py<a class="anchor-link" href="#test_question.py">&#182;</a></h3><p>Ce script charge, dans un premier temps, le résultat obtenu précédemment, à partir notamment des classes catégorisées par le groupe ayant effectué la classification des documents, et transforme ce résultat en un vecteur TF-IDF. Ensuite, on utilise sur celui-ci un calcul de similarité cosinus dans les documents appartenant à la même classe que celle de la question.</p>
+<h1 id="Interaction-avec-l'utilisateur">Interaction avec l'utilisateur<a class="anchor-link" href="#Interaction-avec-l'utilisateur">&#182;</a></h1><h2 id="interface-graphique">interface graphique<a class="anchor-link" href="#interface-graphique">&#182;</a></h2><p><img src="Images/flask.png" alt=""></p>
 
 </div>
 </div>
-</div>
+</div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Sch&#233;ma-d'interaction-avec-l'utilisateur">Sch&#233;ma d'interaction avec l'utilisateur<a class="anchor-link" href="#Sch&#233;ma-d'interaction-avec-l'utilisateur">&#182;</a></h1><ul>
-<li>l'utilisateur pose une question via une interface graphique<ul>
-<li>la question est pré-traitée</li>
-<li>on catégorise la question et on effectue une recherche de similarité</li>
-<li>on récupère la question la plus similaire et la réponse associée</li>
-</ul>
-</li>
-<li>le robot renvoie cette question similaire (éventuellement accompagnée de liens) et demande une confirmation<ul>
-<li>si l'utilisateur n'accepte pas la réponse, on réessaie jusqu'à trois fois =&gt; en faisant reformuler la question ? en modifiant la recherche de similarités ?</li>
-<li>si l'utilisateur est satisfait on est en fin d'interaction</li>
-</ul>
-</li>
-</ul>
+<h2 id="recherche-de-similarit&#233;s">recherche de similarit&#233;s<a class="anchor-link" href="#recherche-de-similarit&#233;s">&#182;</a></h2><p>La recherche de similarité est effectué avec un script en python. 
+Deux scripts sont utilisés pour cela :</p>
+<p><img src="Images/scikit.png" alt=""></p>
 
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="preprocessdocs.py">preprocessdocs.py<a class="anchor-link" href="#preprocessdocs.py">&#182;</a></h3><h3 id="similarite_with_class.py">similarite_with_class.py<a class="anchor-link" href="#similarite_with_class.py">&#182;</a></h3>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">IPython.display</span> <span class="k">import</span> <span class="n">Image</span>
-<span class="n">Image</span><span class="p">(</span><span class="n">filename</span><span class="o">=</span><span class="s1">&#39;test.jpeg&#39;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span> 
 </pre></div>
 
     </div>
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[7]:</div>
-
-
-
-
-<div class="output_jpeg output_subarea output_execute_result">
-<img src="data:image/jpeg;base64,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
-"
->
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<table>
-<thead><tr>
-<th>Test</th>
-<th style="text-align:center">Tableaux</th>
-<th style="text-align:right">Markdown</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>ipsum</td>
-<td style="text-align:center">lorem</td>
-<td style="text-align:right">abc</td>
-</tr>
-<tr>
-<td>lorem</td>
-<td style="text-align:center">ipsum</td>
-<td style="text-align:right">def</td>
-</tr>
-<tr>
-<td>ipsum</td>
-<td style="text-align:center">lorem</td>
-<td style="text-align:right">ghi</td>
-</tr>
-</tbody>
-</table>
-
-</div>
-</div>
 </div></section></section>
 </div>
 </div>
