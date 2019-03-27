@@ -61,7 +61,7 @@ def predict(model, phrase):
 def getBestQuestion(question_utilisateur):
 	"""Catégorisation"""
 	#On appelle le script de Chunyang et Yizhou
-	classe_question = predict(path+"model_class_question_uti", question_utilisateur)
+	classe_question = predict("model_class_question_uti", question_utilisateur)
 	#On développe l'abbreviation remontée
 	classe_question = DOC_CLASS[classe_question]
 
