@@ -10,7 +10,9 @@
 
 * Classes
     * Distribution
-         ![distribution par classe][distribution_par_classe.png]
+    
+         <img src="distribution_par_classe.png" alt="distribution par classe" width="720">
+         
     * *Mapping of lables*, cf [settings.py](settings.py)
         
         ```python=
@@ -24,14 +26,15 @@
             "monde de la justice": "jus",
             "entreprise": "ent",
             "internet, téléphonie et prop. intellectuelle": "int"
-        }```
+        }
+        ```
 
 * Répartition (après déduplication et suppression de items vides):
 
-        | Total    | Train    |     Test |
-        | -------- | -------- | -------- |
-        | 100%     | 80%      |   20%    |
-        |12308     |9848      |   2460   |
+    | Total    | Train    |     Test |
+    | -------- | -------- | -------- |
+    | 100%     | 80%      |   20%    |
+    |12308     |9848      |   2460   |
 
 ----
 
@@ -133,8 +136,7 @@
     |  Ngram     | ***0.19*** | 0.72 | 0.75 |0.76 | 0.69 | **0.79** |
 
 * Matrice de confusion pour `SVM` + `lemma+pos`
-
-    ![matrice_de_confusions_lemma_pos_svm][matrice_de_confusions_lemma_pos_svm.png]
+     <img src="matrice_de_confusions_lemma_pos_svm.png" alt="matrice_de_confusions_lemma_pos_svm" width="720">
 
 ---
 
@@ -166,6 +168,4 @@
         predicted_class = make_prediction(model, phrase_to_predict)
 
         print(predicted_class)
-
 ```
-
