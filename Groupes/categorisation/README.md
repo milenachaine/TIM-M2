@@ -1,51 +1,171 @@
 # Catégorisation des questions / réponses
 
-## 1. Info du groupe : 
-### Membres : Chunyang JIANG, Yizhou XU
+## Info du groupe 
+* Membres
+    * Chunyang JIANG et Yizhou XU
 
-## 2. Données
-### Entrée : 
-### Sortie : 
+## Jeu de données 
+* Source
+    * La sortie `xml` du groupe crawling (irisV4)
 
-## 3. Recherche documentaire : les branches du droit en France
+* Classes
+    * Distribution
+         ![distribution par classe][distribution_par_classe.png]
+    * *Mapping of lables*, cf [settings.py](settings.py)
+        
+        ```python=
+        # See also : settings.py
+        DOC_CLASS = {
+            "immobilier": "imm",
+            "travail": "trv",
+            "personne et famille": "per",
+            "finances, fiscalité et assurance": "fin",
+            "rapports à la société": "soc",
+            "monde de la justice": "jus",
+            "entreprise": "ent",
+            "internet, téléphonie et prop. intellectuelle": "int"
+        }```
 
-(Provisoire, à préciser)
+* Répartition (après déduplication et suppression de items vides):
 
-+ Les subdivisions du droit public
+        | Total    | Train    |     Test |
+        | -------- | -------- | -------- |
+        | 100%     | 80%      |   20%    |
+        |12308     |9848      |   2460   |
 
-    1. Droit constitutionnel
-    2. Droit administratif
-    3. Droit des finances publiques
-    4. ~~Droit international public~~
+----
 
-+ Les subdivisions du droit privé
-    1. le Droit civil
-    2. le Droit commercial
-    3. le Droit social
-    4. ~~le Droit international privé~~
+### Préparation du jeu de données pour entraitement, test et évalutaion
+* Entrée : 
+    corpus `irisV4` au format `xml`
+* Sortie : 
+    Une liste des objets `JurQA` sérialisée dans un fichier au format `pickle`
+* Scripts
+    * [Corpus.py](Corpus.py)
+        * modélisation orientée objet des `JurQA` et `Text`
+        * requirements: [`treetaggerwrapper`](https://pypi.org/project/treetaggerwrapper/)
 
-## 4. Travail réalisé
-(MAJ 19/02/2019)
-* Entraînement d'un modèle
-    * Modèle : [tfidf_rf_clf](tfidf_rf_clf)
-    * Script : [cat.py](cat.py)
-    * Corpus d'entraînement : [80% du corpusIrisVersion3](../Crawling/corpusIrisVersion3.xml)
-    * *Features* : 500 tfidf des mots avec les meilleurs scores
-    * Classifier : [Ramdom Forest](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
-    * Paramétrage : [GridSearchCV](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html)
-    * Evaluation : cf [eval.md](eval.md)
-    * Test : un petit test avec un nouvel jeu de données, cf [test_model.py](test_model.py)
+    * [prep_data.py](prep_data.py) : 
+        * extraction des données à partir du fichier corpus `xml` et serialisation en `pickle`
+        * usage : 
+            ```python=
+            python3 prep_data.py <PATH_TO_XML_SRC> <PATH_TO_PICKLE_DST>
+            ```
 
-## 5. TODO
-(MAJ 19/02/2019)
-* Résélection de *features*
-* Réechantillonnage du corpus d'entraînement
-* Définition des classes
-* Evaluation et comparaison de plusieurs classifieurs
+---
+## Sélection de caractéristiques (*features*)
 
-## Références
+* Type : sac de mots
+    * token
+    * lemma + pos
+    * ngram de lemma (1, 3)
+* Représentation numérique: `tf-idf`
+* Filtrage et nettoyage, cf [classifier.py](classifier.py)
+* Outil
+    `TfidfVectorizer` du `sklearn.feature_extraction.text`
 
-+ http://medias.dunod.com/document/9782100774913/Feuilletage.pdf
-+ https://baripedia.org/wiki/Les_diff%C3%A9rentes_branches_du_droit
-+ http://www.cours-de-droit.net/les-principales-branches-du-droit-prive-et-du-droit-public-a121611802
-+ https://fr.wikipedia.org/wiki/Branche_du_droit_en_France#Distinction_entre_droit_priv%C3%A9_et_droit_public
+---
+## Classifieurs et paramétrage
+* Classifieurs
+
+    | classifieur | sklearn module |
+    | -------- | -------- |
+    | Baseline(**BL**)     | DummyClassifier     |
+    |Random Forest(**RF**)|RandomForestClassifier|
+    |Gradient Boosting(**GB**)|GradientBoostingClassifier|
+    |Logistic Regression(**LR**)|LogisticRegression|
+    |Naive Bayes(**NB**)|ComplementNB|
+    |Support Vector Machines(**SVM**)|LinearSVC|
+
+* Paramétrage
+    Outil : `GridSearchCV` du `sklearn`
+
+* Scripts:
+    [settings.py](settings.py)
+    [classifier.py](classifier.py)
+    * usage
+        * eg (une meilleure combinaison): 
+        
+        ```bash=
+        python3 classifier.py -c svm -f lemma+pos <path-corpus-train.pkl> -o <dst-model>
+        ```
+         
+        * or in console : `python3 classifier.py --help` :
+        
+        ```bash=
+        usage: classifier.py [-h] [-c {rf,svm,nb,dummy,lr}]
+                     [-f {token,lemma,lemma+pos,ngram}] [-s FEATURE_SIZE]
+                     [-o OUTPUT]
+                     corpus
+                     
+        positional arguments:
+          corpus
+
+        optional arguments:
+          -h, --help            show this help message and exit
+          -c {rf,svm,nb,dummy,lr}, --classifier {rf,svm,nb,dummy,lr}
+                                CLASSIFIERS:
+                                    rf = random forest,
+                                    svm = linearSVC, linear support vector classification,
+                                    nb = navie bayes,
+                                    dummy(default) =  baseline classifier,
+                                    lr = LogisticRegression
+          -f {token,lemma,lemma+pos,ngram}, --features {token,lemma,lemma+pos,ngram}
+                                FEATURES:
+                                    token(default),
+                                    lemma,
+                                    lemma+pos,
+                                    ngram
+          -s FEATURE_SIZE, --feature_size FEATURE_SIZE
+          -o OUTPUT, --output OUTPUT
+
+        ```
+
+----
+## Évaluation
+* jeu de test : `test` (le 20% précédemment séparé aléatoirement)
+* **Micro F1-Mesure** avec meilleures configurations
+
+    |       | BL | RF | GB | LR | NB | SVM |
+    | -------- | -------- | -------- | ------ | -------- | -------- | ------ |
+    |  Token     | ***0.18*** | 0.72 | 0.77 |0.77 | 0.76 | **0.78** |
+    |  Lemma+POS     | ***0.18*** | 0.72 | 0.76 |0.78 | 0.76 | **0.78** |
+    |  Ngram     | ***0.19*** | 0.72 | 0.75 |0.76 | 0.69 | **0.79** |
+
+* Matrice de confusion pour `SVM` + `lemma+pos`
+
+    ![matrice_de_confusions_lemma_pos_svm][matrice_de_confusions_lemma_pos_svm.png]
+
+---
+
+## Prédiction
+* Scripts
+    [make_prediction.py](make_prediction.py)
+    [test_make_prediction.py](test_make_prediction.py)
+* Fonctionnement
+    * utiliser `load_model` (dans `make_predicition`) pour charger le modèle en memoire 
+    * **idéalement, si l'on ne voulait pas changer d'autres modèles, ce modèle ne charge q'une seule fois**
+    * utiliser `make_prediction` (dans `make_prediction`) pour prédire la classe d'une question en entrée avec le modèle chargé
+
+* Un demo, see also  [test_make_prediction.py](test_make_prediction.py)
+
+    ```python
+        import sys
+        from make_prediction import *
+
+        path_to_model = sys.argv[1]
+        phrase_to_predict = sys.argv[2]
+    
+        # load the model in memory with the function load_model
+        # you only need to load the model once (if you don't intend to change
+        # another model)
+        model = load_model(path_to_model)
+
+        # make prediction for a phrase with the funciton make_prediction
+        # can loop this for more predictions
+        predicted_class = make_prediction(model, phrase_to_predict)
+
+        print(predicted_class)
+
+```
+
