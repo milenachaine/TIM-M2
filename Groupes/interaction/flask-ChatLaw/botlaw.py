@@ -5,7 +5,9 @@ import re
 from bold import * 
 
 app = Flask(__name__)
-teampath = '/home/teamlaw/git-TIM-M2'
+
+import os
+path = os.path.dirname(os.path.realpath(__file__))+"/../../"
 
 """ Un dictionnaire 
 {id_de_conversation_1 : [(locuteur, replique),(locuteur, replique), (locuteur, replique)],
@@ -34,7 +36,7 @@ def index():
 
 		"""recherche de correspondance"""
 		from test_question import getBestQuestion, predict
-		juriClass = predict(teampath+'/Groupes/categorisation/model_lemma_pos_svm2', msg)
+		juriClass = predict(path+'/categorisation/modelIrisLP.mdl', msg)
 		bestQuestion = getBestQuestion(msg, juriClass)
 
 		
