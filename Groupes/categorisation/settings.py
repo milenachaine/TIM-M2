@@ -21,14 +21,17 @@ FEAT_HELP = """FEATURES:
 # CLASSIFIER CONFIG
 # SVM CONFIG
 SVM_CONFIG = {
-    'multi_class': 'ovr',
-    'penalty': 'l2',
+    # 'multi_class': 'ovr',
+    # 'penalty': 'l2',
+    'decision_function_shape': 'ovr'
 }
 
 # RANDOM FOREST CONFIG
 RF_CONFIG = {
-    "n_estimators": 100,
-    "oob_score": True,
+    "n_estimators": 130,
+    "max_depth": 60,
+    "min_samples_split": 10,
+    "min_samples_leaf": 2,
     "random_state": 10,
 }
 
@@ -40,11 +43,27 @@ NB_CONFIG = {
     "norm": False
 }
 
+LR_CONFIG = {
+
+
+}
+
+GBDT_CONGIF = {
+
+
+}
+
+MLP_CONFIG = {
+
+}
 
 CLF_PARAM = {
     "rf": RF_CONFIG,
     "svm": SVM_CONFIG,
     "nb": NB_CONFIG,
+    "lr": LR_CONFIG,
+    "gbdt": GBDT_CONGIF,
+    "mlp": MLP_CONFIG,
     "dummy": dict(),
 }
 CLF_HELP = """CLASSIFIERS:

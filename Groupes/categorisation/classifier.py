@@ -6,9 +6,12 @@
 import argparse
 from argparse import RawTextHelpFormatter
 from sklearn import metrics
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.svm import LinearSVC
+from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
+from sklearn.svm import LinearSVC, SVC
+# from sklearn.naive_bayes import ComplementNB
 from sklearn.dummy import DummyClassifier
+from sklearn.linear_model import LogisticRegression
+from sklearn.neural_network import MLPClassifier
 
 from sklearn.externals import joblib
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -23,7 +26,11 @@ import pickle
 
 CLF = {
     "rf": RandomForestClassifier,
-    "svm": LinearSVC,
+    "svm": SVC,
+#     "nb": ComplementNB,
+    "lr": LogisticRegression,
+    "gbdt": GradientBoostingClassifier,
+    "mlp": MLPClassifier,
     "dummy": DummyClassifier
 }
 
@@ -41,7 +48,11 @@ def main():
     parameters = CLF_PARAM[args.classifier]
     clf = CLF[args.classifier](**parameters)
     vectorizer = TfidfVectorizer(
-        max_features=args.feature_size if args.feature_size else FEATURE_SIZE
+        # max_features=int(args.feature_size) if args.feature_size else
+        # FEATURE_SIZE,
+        strip_accents='ascii',
+        max_df=0.6,
+        min_df=5,
     )
     pipeline = Pipeline([
         ('tfidf', vectorizer),
@@ -58,14 +69,14 @@ def main():
 
     # save model
     if args.output:
-        joblib.dump(pipeline, args.output)
+        joblib.dump(pipeline, open(args.output,"wb"))
 
 def get_args():
     parser = argparse.ArgumentParser(formatter_class=RawTextHelpFormatter)
     parser.add_argument('corpus')
     parser.add_argument(
         '-c', "--classifier",
-        choices=['rf', 'svm', 'nb', 'dummy'],
+        choices=['rf', 'svm', 'nb', 'gbdt', 'lr', 'mlp', 'dummy'],
         default='dummy',
         help=CLF_HELP
     )
@@ -79,8 +90,8 @@ def get_args():
     parser.add_argument('-o', "--output")
     return parser.parse_args()
 
-def prepare_data(FI,feat):
-    corpus = pickle.load(file=open(FI,"rb"))
+def prepare_data(filein,feat):
+    corpus = pickle.load(open(filein,"rb"))
     X = list()
     Y = list()
     for doc in corpus:
