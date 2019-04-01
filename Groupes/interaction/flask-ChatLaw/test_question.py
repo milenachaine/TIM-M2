@@ -1,10 +1,8 @@
 # -*- coding: UTF-8 -*-
 import pickle
 
-if 'teampath' in locals() or 'teampath' in globals():
-    path = teampath+'/Groupes/Similarite/'
-else:
-    path = '../../Similarite/'
+import os
+path = os.path.dirname(os.path.realpath(__file__))+"/../../Similarite/"
 
 documents_Corpus = pickle.load(open(path+"documents_Corpus.pkl", "rb"))
 vectorizer = pickle.load(open(path+"vectorizer.pkl", "rb"))
@@ -65,9 +63,8 @@ def getBestQuestion(question_utilisateur, juriclass="imm"):
     else:
         return None
 
-if path == '../../Similarite/':
-    question_utilisateur = input("Posez une question : ")
-    assert(question_utilisateur != "")
-    print("Votre question est : ", question_utilisateur)
-    classe_question = predict("../../categorisation/modelIrisLP.mdl", question_utilisateur)
-    print("Classe:", classe_question)
+question_utilisateur = input("Posez une question : ")
+assert(question_utilisateur != "")
+print("Votre question est : ", question_utilisateur)
+classe_question = predict(path+"../categorisation/modelIrisLP.mdl", question_utilisateur)
+print("Classe:", classe_question)

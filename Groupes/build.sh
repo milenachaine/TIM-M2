@@ -10,6 +10,6 @@ cd ../categorisation/
 python3 prep_data.py ../Crawling/corpusIrisVersion4.xml ../Crawling/corpusIrisVersion4.pkl
 python3 classifier.py -c svm -f lemma+pos -o modelIrisLP.mdl ../Crawling/corpusIrisVersion4.pkl
 
-echo "Prepare data and learn classifier"
+echo "Preprocess data for similarities"
 cd ../Similarite/
 python3 preprocessdocs.py
