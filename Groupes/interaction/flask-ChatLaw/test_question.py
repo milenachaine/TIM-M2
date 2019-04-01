@@ -63,8 +63,10 @@ def getBestQuestion(question_utilisateur, juriclass="imm"):
     else:
         return None
 
-question_utilisateur = input("Posez une question : ")
-assert(question_utilisateur != "")
-print("Votre question est : ", question_utilisateur)
-classe_question = predict(path+"../categorisation/modelIrisLP.mdl", question_utilisateur)
-print("Classe:", classe_question)
+import sys
+if len(sys.argv) > 1 and sys.argv[1] == '-i':
+    question_utilisateur = input("Posez une question : ")
+    assert(question_utilisateur != "")
+    print("Votre question est : ", question_utilisateur)
+    classe_question = predict(path+"../categorisation/modelIrisLP.mdl", question_utilisateur)
+    print("Classe:", classe_question)
