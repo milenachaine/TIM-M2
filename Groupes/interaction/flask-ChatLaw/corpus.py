@@ -1,7 +1,10 @@
 # requirements : treetaggerwrapper
 
 from treetaggerwrapper import TreeTagger, make_tags
-TAGGER = TreeTagger(TAGLANG='fr',TAGOPT="-token -lemma -sgml -no-unknown")
+if 'teampath' in locals() or 'teampath' in globals():
+    TAGGER = TreeTagger(TAGLANG='fr',TAGOPT="-token -lemma -sgml -no-unknown", TAGDIR="/home/teamlaw/TreeTagger/")
+else:
+    TAGGER = TreeTagger(TAGLANG='fr',TAGOPT="-token -lemma -sgml -no-unknown")
 
 class JurQA:
     def __init__(self):
