@@ -1,8 +1,11 @@
 # -*- coding: UTF-8 -*-
 import pickle
 
-path = teampath+'/Groupes/Similarite/'
-# path = '../../Similarite/'
+if 'teampath' in locals() or 'teampath' in globals():
+    path = teampath+'/Groupes/Similarite/'
+else:
+    path = '../../Similarite/'
+
 documents_Corpus = pickle.load(open(path+"documents_Corpus.pkl", "rb"))
 vectorizer = pickle.load(open(path+"vectorizer.pkl", "rb"))
 TfIdfQuestions = pickle.load(open(path+"TfIdfQuestions.pkl", "rb"))
@@ -36,7 +39,7 @@ def predict(model, phrase):
     predicted_class = make_prediction(model, phrase)
     return predicted_class
 
-def getBestQuestion(question_utilisateur, juriclass="ent"):
+def getBestQuestion(question_utilisateur, juriclass="imm"):
     TfIdfQuestions_utilisateur = vectorizer.transform([question_utilisateur], True)
 
 
@@ -62,9 +65,9 @@ def getBestQuestion(question_utilisateur, juriclass="ent"):
     else:
         return None
 
-if False:
+if path == '../../Similarite/':
     question_utilisateur = input("Posez une question : ")
     assert(question_utilisateur != "")
     print("Votre question est : ", question_utilisateur)
-    classe_question = predict(teampath+"/Groupes/interaction/flask-ChatLaw/model_class_question_uti", question_utilisateur)
+    classe_question = predict("../../categorisation/modelIrisLP.mdl", question_utilisateur)
     print("Classe:", classe_question)
