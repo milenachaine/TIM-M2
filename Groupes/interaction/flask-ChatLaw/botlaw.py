@@ -15,7 +15,7 @@ id_de_conversation_2 : [(locuteur, replique),(locuteur, replique)],
 ...}
 """
 discussions = {}
-dicoTerms = constructDico(teampath+'/Groupes/interaction/flask-ChatLaw/list_terms.txt')
+dicoTerms = constructDico(path+'/interaction/flask-ChatLaw/list_terms.txt')
 #dicoTerms = constructDico('list_terms.txt')
 
 @app.route("/", methods=['GET', 'POST'])
