@@ -8,11 +8,37 @@ vectorizer = pickle.load(open(path+"vectorizer.pkl", "rb"))
 TfIdfQuestions = pickle.load(open(path+"TfIdfQuestions.pkl", "rb"))
 liste_questions = pickle.load(open(path+"liste_questions.pkl", "rb"))
 
-def getBestQuestion(question_utilisateur):
+import nltk
+#from nltk.tokenize import RegexpTokenizer
+#tokenizer = RegexpTokenizer(r'\w+')
+#from nltk.corpus import stopwords
+#stopWords = set(stopwords.words('french'))
+#from nltk.stem import SnowballStemmer
+#stemmer = SnowballStemmer("french")
+
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn import metrics, feature_extraction
+
+DOC_CLASS = {
+    "immobilier": "imm",
+    "travail": "trv",
+    "personne et famille": "per",
+    "finances, fiscalité et assurance": "fin",
+    "rapports à la société": "soc",
+    "monde de la justice": "jus",
+    "entreprise": "ent",
+    "internet, téléphonie et prop. intellectuelle": "int"
+}
+
+from make_prediction import *
+def predict(model, phrase):
+    model = load_model(model)
+    predicted_class = make_prediction(model, phrase)
+    return predicted_class
+
+def getBestQuestion(question_utilisateur, juriclass="ent"):
     TfIdfQuestions_utilisateur = vectorizer.transform([question_utilisateur], True)
 
-    from sklearn.feature_extraction.text import TfidfVectorizer
-    from sklearn import metrics, feature_extraction
 
     # print("Question utilisateur = ",question_utilisateur)
     bestQuestionScore = None
@@ -21,7 +47,7 @@ def getBestQuestion(question_utilisateur):
         #print("    Question: ",liste_questions[questionIndex])
         # Ici on vérifie que la classe du document est bien celle qu'on veut
         index_doc = "iris" + str(questionIndex + 1)
-        if documents_Corpus.get(index_doc)['class'] == "Entreprise":
+        if DOC_CLASS[documents_Corpus.get(index_doc)['class'].lower()] == juriclass:
 
             simScore = metrics.pairwise.cosine_similarity(TfIdfQuestions[questionIndex], TfIdfQuestions_utilisateur[0])
             #print ("        simScore: ",simScore)
@@ -35,5 +61,10 @@ def getBestQuestion(question_utilisateur):
         return documents_Corpus.get(index)
     else:
         return None
-        
-print(getBestQuestion("J'ai des factures impayées"))
+
+if False:
+    question_utilisateur = input("Posez une question : ")
+    assert(question_utilisateur != "")
+    print("Votre question est : ", question_utilisateur)
+    classe_question = predict("/home/teamlaw/git-TIM-M2/Groupes/interaction/flask-ChatLaw/model_class_question_uti", question_utilisateur)
+    print("Classe:", classe_question)

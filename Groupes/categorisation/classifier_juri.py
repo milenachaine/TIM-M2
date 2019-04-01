@@ -8,6 +8,7 @@ from argparse import RawTextHelpFormatter
 from sklearn import metrics
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.svm import LinearSVC
+from sklearn.naive_bayes import ComplementNB
 from sklearn.dummy import DummyClassifier
 
 from sklearn.externals import joblib
@@ -20,10 +21,15 @@ from settings import *
 
 import pickle
 
+dicojuri = {}
+for l in open('../Pretraitement/termes_juridiques.txt'):
+    dicojuri[l.strip()] = True
+# print(dicojuri)
 
 CLF = {
     "rf": RandomForestClassifier,
     "svm": LinearSVC,
+    "nb": ComplementNB,
     "dummy": DummyClassifier
 }
 
@@ -41,7 +47,8 @@ def main():
     parameters = CLF_PARAM[args.classifier]
     clf = CLF[args.classifier](**parameters)
     vectorizer = TfidfVectorizer(
-        max_features=args.feature_size if args.feature_size else FEATURE_SIZE
+        max_features=int(args.feature_size) if args.feature_size else
+        FEATURE_SIZE
     )
     pipeline = Pipeline([
         ('tfidf', vectorizer),
@@ -71,7 +78,7 @@ def get_args():
     )
     parser.add_argument(
         '-f', "--features",
-        choices=["token","lemma","lemma+pos","ngram"],
+        choices=["token","lemma","lemma+pos","ngram","juridic","lemma+pos+juri"],
         default="token",
         help=FEAT_HELP
     )
@@ -97,6 +104,19 @@ def get_lemma(doc):
 def get_lp(doc):
     return " ".join([t[1]+"/"+t[2] for t in doc.question.tagged_text()])
 
+def get_juridic(doc):
+    toks = get_token(doc)
+    lemmas = get_lemma(doc)
+    juriterms = ''
+    for term in dicojuri:
+        if term in toks or term.lower() in toks or term.lower() in lemmas:
+            juriterms += 'JURI'+term.replace(' ', '')+' '
+    return juriterms
+
+def get_lpjuri(doc):
+    # print(get_juridic(doc))
+    return get_lp(doc)+' '+get_juridic(doc)
+
 def get_ngram(doc):
     pass
 
@@ -105,6 +125,8 @@ FEAT = {
     "lemma": get_lemma,
     "lemma+pos": get_lp,
     "ngram": get_ngram,
+    "juridic": get_juridic,
+    "lemma+pos+juri": get_lpjuri,
 }
 
 if __name__ == "__main__":

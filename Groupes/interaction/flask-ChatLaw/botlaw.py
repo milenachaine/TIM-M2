@@ -32,16 +32,17 @@ def index():
 		discussions[convID].append( ("user", msg) )
 
 		"""recherche de correspondance"""
-		from test_question import getBestQuestion
-		bestQuestion = getBestQuestion(msg)
-		
+		from test_question import getBestQuestion, predict
+		juriClass = predict('/home/teamlaw/git-TIM-M2/Groupes/categorisation/model_lemma_pos_svm2', msg)
+		bestQuestion = getBestQuestion(msg, juriClass)
+
 		
 		"""fonction Boyu pour enrichir msg"""
 		msg = bold(re.sub('\n', '</br>', msg), dicoTerms)
 		question = bold(re.sub('\n', '</br>', bestQuestion['questions']), dicoTerms)
 		reponse = bold(re.sub('\n', '</br>', bestQuestion['answers']), dicoTerms)
 
-		return jsonify({"messageU": msg, "bestQuestion": question, "bestAnswer": reponse}), 201
+		return jsonify({"messageU": msg, "juriClass": juriClass, "bestQuestion": question, "bestAnswer": reponse}), 201
 
 	return render_template("chatlaw.html", convID=uuid.uuid4()), 200
 

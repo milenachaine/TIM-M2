@@ -8,7 +8,6 @@ from argparse import RawTextHelpFormatter
 from sklearn import metrics
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.svm import LinearSVC
-from sklearn.naive_bayes import ComplementNB
 from sklearn.dummy import DummyClassifier
 
 from sklearn.externals import joblib
@@ -25,7 +24,6 @@ import pickle
 CLF = {
     "rf": RandomForestClassifier,
     "svm": LinearSVC,
-    "nb": ComplementNB,
     "dummy": DummyClassifier
 }
 
@@ -43,8 +41,7 @@ def main():
     parameters = CLF_PARAM[args.classifier]
     clf = CLF[args.classifier](**parameters)
     vectorizer = TfidfVectorizer(
-        max_features=int(args.feature_size) if args.feature_size else
-        FEATURE_SIZE
+        max_features=args.feature_size if args.feature_size else FEATURE_SIZE
     )
     pipeline = Pipeline([
         ('tfidf', vectorizer),
