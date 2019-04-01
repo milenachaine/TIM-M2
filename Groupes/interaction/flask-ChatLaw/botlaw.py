@@ -5,6 +5,7 @@ import re
 from bold import * 
 
 app = Flask(__name__)
+teampath = '/home/teamlaw/git-TIM-M2'
 
 """ Un dictionnaire 
 {id_de_conversation_1 : [(locuteur, replique),(locuteur, replique), (locuteur, replique)],
@@ -12,7 +13,7 @@ id_de_conversation_2 : [(locuteur, replique),(locuteur, replique)],
 ...}
 """
 discussions = {}
-dicoTerms = constructDico('/home/teamlaw/git-TIM-M2/Groupes/interaction/flask-ChatLaw/list_terms.txt')
+dicoTerms = constructDico(teampath+'/Groupes/interaction/flask-ChatLaw/list_terms.txt')
 #dicoTerms = constructDico('list_terms.txt')
 
 @app.route("/", methods=['GET', 'POST'])
@@ -33,7 +34,7 @@ def index():
 
 		"""recherche de correspondance"""
 		from test_question import getBestQuestion, predict
-		juriClass = predict('/home/teamlaw/git-TIM-M2/Groupes/categorisation/model_lemma_pos_svm2', msg)
+		juriClass = predict(teampath+'/Groupes/categorisation/model_lemma_pos_svm2', msg)
 		bestQuestion = getBestQuestion(msg, juriClass)
 
 		

@@ -1,7 +1,7 @@
 # -*- coding: UTF-8 -*-
 import pickle
 
-path = '/home/teamlaw/git-TIM-M2/Groupes/Similarite/'
+path = teampath+'/Groupes/Similarite/'
 # path = '../../Similarite/'
 documents_Corpus = pickle.load(open(path+"documents_Corpus.pkl", "rb"))
 vectorizer = pickle.load(open(path+"vectorizer.pkl", "rb"))
@@ -66,5 +66,5 @@ if False:
     question_utilisateur = input("Posez une question : ")
     assert(question_utilisateur != "")
     print("Votre question est : ", question_utilisateur)
-    classe_question = predict("/home/teamlaw/git-TIM-M2/Groupes/interaction/flask-ChatLaw/model_class_question_uti", question_utilisateur)
+    classe_question = predict(teampath+"/Groupes/interaction/flask-ChatLaw/model_class_question_uti", question_utilisateur)
     print("Classe:", classe_question)
