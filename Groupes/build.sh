@@ -2,8 +2,8 @@
 
 echo "Retrieve corpora"
 cd Crawling
-# scp -oUser=teamlaw -P 2251 helium.lab.parisdescartes.fr:~/Corpus/CorpusJuritravailVersion1.xml CorpusJuritravailVersion1.xml
-# scp -oUser=teamlaw -P 2251 helium.lab.parisdescartes.fr:~/Corpus/corpusIrisVersion4.xml corpusIrisVersion4.xml
+scp -oUser=teamlaw -P 2251 helium.lab.parisdescartes.fr:~/Corpus/CorpusJuritravailVersion1.xml CorpusJuritravailVersion1.xml
+scp -oUser=teamlaw -P 2251 helium.lab.parisdescartes.fr:~/Corpus/corpusIrisVersion4.xml corpusIrisVersion4.xml
 
 echo "Prepare data and learn classifier"
 cd ../categorisation/
