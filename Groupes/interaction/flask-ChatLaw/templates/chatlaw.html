@@ -25,9 +25,12 @@
 <body>
     <div>
 		<!-- l'historique des répliques-->
-		<div id="logs">
-			<p id="bot">Coucou, je suis chatlaw, le conseiller juridique en ligne.<br/>Dites-moi ce qui vous amène...</p>
-		</div>
+		<div id="logsSup">
+			<div id="logs">
+				<p id="bot">Coucou, je suis chatlaw, le conseiller juridique en ligne.<br/>Dites-moi ce qui vous amène...</p>
+			</div>
+			<div id="loader"><img src='https://wpamelia.com/wp-content/uploads/2018/11/ezgif-2-6d0b072c3d3f.gif'/></div>
+		</div>	
 		<!-- la boite et le bouton "envoyer" -->
 		<div class="message-box">
 			<textarea id="message" type="text" placeholder="Message"></textarea>
@@ -36,25 +39,31 @@
     </div>
 
     <script>
+		$("#loader").hide();
         $(document).ready(function () {
             convID = "{{ convID }}";
             function send_message() {
                 var msg = $('#message').val();
                 if (msg === '') {return}
+				$('#logs').append('<p id="user">' + msg + "</p>");
+				$('#logs').scrollTop( 1000000000 )
                 $('#message').val('');
                 $.ajax({
                     contentType: 'application/json',
                     type: 'POST',
                     data: JSON.stringify({ message: msg, convID: convID }),
-                    success: function (data) {
-						$('#logs').append('<p id="user">' + data['messageU'] + "</p>");
+                    beforeSend: function(){$("#loader").show();},
+					success: function (data) {
+						/*$('#logs').append('<p id="user">' + data['messageU'] + "</p>");*/
                         $('#logs').append('<p id="bot">' +"Class prédite : </br>"+ data['juriClass'] + "</p>");
                         $('#logs').append('<p id="bot">'+"Votre problème me rappelle celui-ci : </br>"+ data['bestQuestion'] + "</p>");
                         $('#logs').append('<p id="bot">'+"La réponse apportée à l'époque avait été : </br>" + data['bestAnswer'] + "</p>");
 						$('#logs').scrollTop( 1000000000 )
-                    }
+                    }, 
+					complete:function(data){$("#loader").hide();}
                 });
             }
+			
             $('#send').click(function () {
                 send_message();
             });
