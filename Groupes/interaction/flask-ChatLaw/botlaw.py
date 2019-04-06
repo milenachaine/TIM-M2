@@ -41,11 +41,12 @@ def index():
 
 		
 		"""fonction Boyu pour enrichir msg"""
-		msg = bold(re.sub('\n', '</br>', msg), dicoTerms)
+		#msg = bold(re.sub('\n', '</br>', msg), dicoTerms)
 		question = bold(re.sub('\n', '</br>', bestQuestion['questions']), dicoTerms)
 		reponse = bold(re.sub('\n', '</br>', bestQuestion['answers']), dicoTerms)
 
-		return jsonify({"messageU": msg, "juriClass": juriClass, "bestQuestion": question, "bestAnswer": reponse}), 201
+		#return jsonify({"messageU": msg, "juriClass": juriClass, "bestQuestion": question, "bestAnswer": reponse}), 201
+		return jsonify({"juriClass": juriClass, "bestQuestion": question, "bestAnswer": reponse}), 201
 
 	return render_template("chatlaw.html", convID=uuid.uuid4()), 200
 

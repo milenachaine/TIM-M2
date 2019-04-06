@@ -70,3 +70,12 @@ if len(sys.argv) > 1 and sys.argv[1] == '-i':
     print("Votre question est : ", question_utilisateur)
     classe_question = predict(path+"../categorisation/modelIrisLP.mdl", question_utilisateur)
     print("Classe:", classe_question)
+    bq = getBestQuestion(question_utilisateur, classe_question)
+    print(bq)
+
+
+
+
+
+
+
