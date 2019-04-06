@@ -39,6 +39,11 @@
 			$("#loader").hide();
 			/*On génère l'identifiant de session (et donc de la conversation)*/
             convID = "{{ convID }}";
+
+			$( "#logs" ).on( "click", ".more", function() {
+                $('.complete').toggle(); 
+            });
+			
 			/*La fonction contenant toutes les action à effectuer à chaque envoi de message*/
             function send_message() {
 				/*On récupère le contenu du message, on vide le champs de saisie*/
@@ -57,9 +62,18 @@
 					/*Pendant que le serveur traite la demande, j'affiche le GIF-typing*/
                     beforeSend: function(){$("#loader").show();},
 					success: function (data) {
-						/*J'affiche la classe produite et la question*/
+						/*J'affiche la classe produite*/
                         $('#logs').append('<p id="bot">' +"Class prédite : </br>"+ data['juriClass'] + "</p>");
-                        $('#logs').append('<p id="bot">'+"Votre problème me rappelle celui-ci : </br>"+ data['bestQuestion'] + "</p>");
+						/*Gestion de l'affichage de la question la plus similaire*/
+						var quest = data['bestQuestion'];
+						var debut = quest.substring(0, 100);
+						var fin = quest.substring(100);
+                        $('#logs').append('<p id="bot">'+"Votre problème me rappelle celui-ci : </br>"+
+						'<span class="teaser">'+debut+'</span>'+
+						'<span class="complete">'+fin+'</span>'+
+						'<span class="more">... Voir Plus</span></p>');
+						$(".complete").hide();
+						
                         /*Gestion de l'affichage de la réponse*/
 						var rep = data['bestAnswer'];
 						/*Si on a pas de réponse, je l'annonce*/
@@ -91,19 +105,20 @@
             }
 			/*Fin de la fonction à lancer à chaque envoi de message*/
 			
-			/*La detection de l'envoi d'un message par l'utilisateur
-			en cliquant sur envoyer*/
+			
+			/*La detection de l'envoi d'un message par l'utilisateur*/
+			/*en cliquant sur envoyer*/
             $('#send').click(function () {
                 send_message();
             });
-			/*La detection de l'envoi d'un message par l'utilisateur
-			en appuyant sur Enter (mais pas sur shift)*/
+			/*en appuyant sur Enter (mais pas sur shift)*/
             $('#message').on('keypress', function (e) {
                 if (e.which === 13 && !e.shiftKey) {
 					send_message();
 					return false;
                 }
             });
+
         });
     </script>
 </body>
