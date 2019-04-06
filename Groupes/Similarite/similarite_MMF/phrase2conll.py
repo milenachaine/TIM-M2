@@ -4,8 +4,7 @@ Code de Chuanming et Suhaib (Pretraitement/phrase2conll.py), déplacé pour pouv
 
 from treetaggerwrapper import TreeTagger, make_tags
 TAGGER = TreeTagger(TAGLANG='fr',TAGOPT="-token -lemma -sgml -no-unknown") 
-import sys
-import os
+
 def main(phrase):
     line=""
     tags = TAGGER.tag_text(phrase)

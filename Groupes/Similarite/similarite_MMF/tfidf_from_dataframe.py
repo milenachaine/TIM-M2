@@ -3,14 +3,15 @@ V.1 : utilisation du vectorizer TF-IDF de scikit-learn sur une dataframe pandas 
 comparaison de similarités
 la question est prétraitée avec treetagger, cf. phrase2conll.py
 """
+import warnings
+
+warnings.filterwarnings("ignore")
 
 import pandas as pd
 import phrase2conll
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn import metrics
-import warnings
 
-warnings.simplefilter("ignore")
 
 def faux_tokeniseur(qqch):
     """
@@ -50,7 +51,7 @@ simCosine = metrics.pairwise.cosine_distances(tfidf.transform(corpus.lemmes),tfi
 
 for sim in sorted(list(simCosine), reverse=False)[:nb_questions]:
     q_sim = ' '.join(corpus.mots[list(simCosine).index(sim)])
-    print("DISTANCE : {},\n QUESTION : {}".format(sim[0], q_sim))
+    print("DISTANCE : {},\nQUESTION : {}".format(sim[0], q_sim))
 
 print(transition, "EUCLIDEAN", transition)
 
@@ -58,7 +59,7 @@ simEuclidean = metrics.pairwise.euclidean_distances(tfidf.transform(corpus.lemme
 
 for sim in sorted(list(simEuclidean), reverse=False)[:nb_questions]:
     q_sim = ' '.join(corpus.mots[list(simEuclidean).index(sim)])
-    print("DISTANCE : {},\n QUESTION : {}".format(sim[0], q_sim))
+    print("DISTANCE : {},\nQUESTION : {}".format(sim[0], q_sim))
 
 print(transition, "MANHATTAN", transition)
 
@@ -66,4 +67,4 @@ simManhattan = metrics.pairwise.manhattan_distances(tfidf.transform(corpus.lemme
 
 for sim in sorted(list(simManhattan), reverse=False)[:nb_questions]:
     q_sim = ' '.join(corpus.mots[list(simManhattan).index(sim)])
-    print("DISTANCE : {},\n QUESTION : {}".format(sim[0], q_sim))
+    print("DISTANCE : {},\nQUESTION : {}".format(sim[0], q_sim))
