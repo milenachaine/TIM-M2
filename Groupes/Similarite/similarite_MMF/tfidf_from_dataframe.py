@@ -8,6 +8,9 @@ import pandas as pd
 import phrase2conll
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn import metrics
+import warnings
+
+warnings.simplefilter("ignore")
 
 def faux_tokeniseur(qqch):
     """
@@ -17,31 +20,37 @@ def faux_tokeniseur(qqch):
 
 transition = "*"*50
 
+# on récupère le corpus prétraité (cf. script de parcours)
 corpus = pd.read_pickle("./corpuspd.pkl")
 
-print("Format de la dataframe :\n{}".format(corpus))
+print("Format de la dataframe :\n{}".format(corpus.head()))
 
+# poids TF-IDF
 tfidf = TfidfVectorizer(analyzer='word',tokenizer=faux_tokeniseur,preprocessor=faux_tokeniseur,token_pattern=None)
 tfidf.fit(corpus.lemmes)
 # print(tfidf.vocabulary_)
 
 question = input("Posez une question : ")
+assert question, "Posez une question !!!!!"
+
+# appel phrase2conll pour gérer question
 q_lemmes = []
 for l in phrase2conll.main(question).rstrip().split(' '):
     q_lemmes.append(l.split("/")[2])
 
 print("Question lemmatisée : ", q_lemmes)
 
-nb_questions = int(input("Sélectionner combien de réponses ? (entre 1 et 10) "))
+nb_questions = int(input("Nombre de réponses à sélectionner (entre 1 et 10) : "))
 assert 0 < nb_questions < 11, "ENTRE 1 ET 10"
 
+# calcul et comparaison des similarités
 print(transition, "COSINE", transition)
 
 simCosine = metrics.pairwise.cosine_distances(tfidf.transform(corpus.lemmes),tfidf.transform([q_lemmes]))
 
 for sim in sorted(list(simCosine), reverse=False)[:nb_questions]:
     q_sim = ' '.join(corpus.mots[list(simCosine).index(sim)])
-    print("Distance : {}, Question : {}".format(sim[0], q_sim))
+    print("DISTANCE : {},\n QUESTION : {}".format(sim[0], q_sim))
 
 print(transition, "EUCLIDEAN", transition)
 
@@ -49,7 +58,7 @@ simEuclidean = metrics.pairwise.euclidean_distances(tfidf.transform(corpus.lemme
 
 for sim in sorted(list(simEuclidean), reverse=False)[:nb_questions]:
     q_sim = ' '.join(corpus.mots[list(simEuclidean).index(sim)])
-    print("Distance : {}, Question : {}".format(sim[0], q_sim))
+    print("DISTANCE : {},\n QUESTION : {}".format(sim[0], q_sim))
 
 print(transition, "MANHATTAN", transition)
 
@@ -57,4 +66,4 @@ simManhattan = metrics.pairwise.manhattan_distances(tfidf.transform(corpus.lemme
 
 for sim in sorted(list(simManhattan), reverse=False)[:nb_questions]:
     q_sim = ' '.join(corpus.mots[list(simManhattan).index(sim)])
-    print("Distance : {}, Question : {}".format(sim[0], q_sim))
+    print("DISTANCE : {},\n QUESTION : {}".format(sim[0], q_sim))

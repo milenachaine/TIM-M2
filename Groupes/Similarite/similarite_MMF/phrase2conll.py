@@ -11,7 +11,7 @@ def main(phrase):
     tags = TAGGER.tag_text(phrase)
     for tag in tags:
         line+=tag.replace("\t","/")+" "
-    print("tagged phrase : "+line)
+    # print("tagged phrase : "+line)
     return line
 if __name__ == "__main__":
     main()
