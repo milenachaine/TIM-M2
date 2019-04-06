@@ -40,8 +40,14 @@
 			/*On génère l'identifiant de session (et donc de la conversation)*/
             convID = "{{ convID }}";
 
+			/*La fonction Voir Plus/Voir Moins */
 			$( "#logs" ).on( "click", ".more", function() {
                 $('.complete').toggle(); 
+				if ( $(this).text() === ' Voir Plus' ){
+				$(this).replaceWith( '<span class="more"> Voir Moins</span></p>' );
+				}else{
+				$(this).replaceWith( '<span class="more"> Voir Plus</span></p>' );
+				}
             });
 			
 			/*La fonction contenant toutes les action à effectuer à chaque envoi de message*/
@@ -52,7 +58,7 @@
                 if (msg === '') {return} /*on vérifie qu'on a pas reçu une chaine vide*/
 				/*on affiche le message*/
 				$('#logs').append('<p id="user">' + msg + "</p>"); 
-				$('#logs').scrollTop( 1000000000 )
+				$('#logs').scrollTop( 1000000000 );
                 /*interraction avec le serveur*/
                 $.ajax({
 					/*Intendance : annonce de la méthode d'envoi et du contenu*/
@@ -66,13 +72,19 @@
                         $('#logs').append('<p id="bot">' +"Class prédite : </br>"+ data['juriClass'] + "</p>");
 						/*Gestion de l'affichage de la question la plus similaire*/
 						var quest = data['bestQuestion'];
-						var debut = quest.substring(0, 100);
-						var fin = quest.substring(100);
-                        $('#logs').append('<p id="bot">'+"Votre problème me rappelle celui-ci : </br>"+
-						'<span class="teaser">'+debut+'</span>'+
-						'<span class="complete">'+fin+'</span>'+
-						'<span class="more">... Voir Plus</span></p>');
-						$(".complete").hide();
+						if (quest.length > 100){
+							var debut = quest.substring(0, 100);
+							var fin = quest.substring(100);
+							$('#logs').append('<p id="bot">'+"Votre problème me rappelle celui-ci : </br>"+
+							'<span class="teaser">'+debut+'</span>'+
+							'<span class="complete">'+fin+'</span>'+
+							'<span class="more"> Voir Plus</span></p>');
+							$(".complete").hide();
+						}
+						else{
+							$('#logs').append('<p id="bot">'+"Votre problème me rappelle celui-ci : </br>"+quest+'</p>');
+						}
+						
 						
                         /*Gestion de l'affichage de la réponse*/
 						var rep = data['bestAnswer'];

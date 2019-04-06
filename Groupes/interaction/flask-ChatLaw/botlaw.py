@@ -16,6 +16,16 @@ id_de_conversation_2 : [(locuteur, replique),(locuteur, replique)],
 """
 discussions = {}
 dicoTerms = constructDico(path+'/interaction/flask-ChatLaw/list_terms.txt')
+decode_classe = {
+    "imm" : "immobilier",
+    "trv" : "travail",
+    "per" : "personne et famille",
+    "fin" : "finances, fiscalité et assurance",
+    "soc" : "rapports à la société",
+    "jus" : "monde de la justice",
+    "ent" : "entreprise",
+    "int" : "internet, téléphonie et prop. intellectuelle"
+}
 #dicoTerms = constructDico('list_terms.txt')
 
 @app.route("/", methods=['GET', 'POST'])
@@ -46,7 +56,7 @@ def index():
 		reponse = bold(re.sub('\n', '</br>', bestQuestion['answers']), dicoTerms)
 
 		#return jsonify({"messageU": msg, "juriClass": juriClass, "bestQuestion": question, "bestAnswer": reponse}), 201
-		return jsonify({"juriClass": juriClass, "bestQuestion": question, "bestAnswer": reponse}), 201
+		return jsonify({"juriClass": decode_classe[juriClass], "bestQuestion": question, "bestAnswer": reponse}), 201
 
 	return render_template("chatlaw.html", convID=uuid.uuid4()), 200
 
