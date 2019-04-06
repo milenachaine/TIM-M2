@@ -4,8 +4,6 @@ comparaison de similarités
 à ajouter : prétraitements de question, + d'infos dans la dataframe
 """
 
-import numpy as np
-import scipy
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn import metrics
@@ -16,32 +14,40 @@ def faux_tokeniseur(qqch):
     """
     return qqch
 
-test = [{'id': 'iris32', 'question': ['ceci', 'est', 'un', 'texte', 'déjà', 'tokénisé']}, {'id': 'iris20', 'question': ['plus', 'que', 'tokénisé', 'déjà', 'prétraité', 'et', 'lemmatisé']}, {'id': 'iris45', 'question': ['ceci', 'est', 'un', 'texte', 'prétraité']}, {'id':'iris978', 'question':['demain','dès','l','aube']}, {'id':'iris7680', 'question':['à','l','heure','où','blanchit','la','campagne']}]
-test_dataframe = pd.DataFrame(test)
-print("Format de la dataframe :\n{}".format(test_dataframe))
+transition = "*"*50
+
+corpus = pd.read_pickle("./corpuspd.pkl")
+
+print("Format de la dataframe :\n{}".format(corpus))
 
 tfidf = TfidfVectorizer(analyzer='word',tokenizer=faux_tokeniseur,preprocessor=faux_tokeniseur,token_pattern=None)
-tfidf.fit(test_dataframe.question)
+tfidf.fit(corpus.lemmes)
 # print(tfidf.vocabulary_)
 
-question = ['demain', 'est', 'un', 'texte', 'prétraité']
-nb_questions = 3
+question = ['tout', 'de', 'abord', 'merci', 'pour', 'votre', 'réponse', '.']
+nb_questions = 5
 # question = input("Posez une question : ")
-simCosine = metrics.pairwise.cosine_distances(tfidf.transform(test_dataframe.question),tfidf.transform([question]))
+
+print(transition, "COSINE", transition)
+
+simCosine = metrics.pairwise.cosine_distances(tfidf.transform(corpus.lemmes),tfidf.transform([question]))
 
 for sim in sorted(list(simCosine), reverse=False)[:nb_questions]:
-    print("Distance : {}, Question : {}".format(sim[0], test_dataframe.question[list(simCosine).index(sim)]))
+    q_sim = ' '.join(corpus.mots[list(simCosine).index(sim)])
+    print("Distance : {}, Question : {}".format(sim[0], q_sim))
 
-print("*"*70)
+print(transition, "EUCLIDEAN", transition)
 
-simEuclidean = metrics.pairwise.euclidean_distances(tfidf.transform(test_dataframe.question),tfidf.transform([question]))
+simEuclidean = metrics.pairwise.euclidean_distances(tfidf.transform(corpus.lemmes),tfidf.transform([question]))
 
 for sim in sorted(list(simEuclidean), reverse=False)[:nb_questions]:
-    print("Distance : {}, Question : {}".format(sim[0], test_dataframe.question[list(simEuclidean).index(sim)]))
+    q_sim = ' '.join(corpus.mots[list(simEuclidean).index(sim)])
+    print("Distance : {}, Question : {}".format(sim[0], q_sim))
 
-print("*"*70)
+print(transition, "MANHATTAN", transition)
 
-simManhattan = metrics.pairwise.manhattan_distances(tfidf.transform(test_dataframe.question),tfidf.transform([question]))
+simManhattan = metrics.pairwise.manhattan_distances(tfidf.transform(corpus.lemmes),tfidf.transform([question]))
 
 for sim in sorted(list(simManhattan), reverse=False)[:nb_questions]:
-    print("Distance : {}, Question : {}".format(sim[0], test_dataframe.question[list(simManhattan).index(sim)]))
+    q_sim = ' '.join(corpus.mots[list(simManhattan).index(sim)])
+    print("Distance : {}, Question : {}".format(sim[0], q_sim))
