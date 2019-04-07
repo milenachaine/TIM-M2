@@ -9,6 +9,7 @@ warnings.filterwarnings("ignore")
 
 import pandas as pd
 import phrase2conll
+from prettytable import PrettyTable
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn import metrics
 
@@ -19,7 +20,17 @@ def faux_tokeniseur(qqch):
     """
     return qqch
 
-transition = "*"*50
+def generer_visu(sim_matrix, sim):
+    """
+    contrôle visualisation des similarités
+    """
+    q = ' '.join(corpus.mots[list(sim_matrix).index(sim)])
+    tab = PrettyTable(["ID", "DISTANCE"])
+    tab.add_row([corpus.id[list(sim_matrix).index(sim)], sim[0]])
+    print(tab)
+    print("QUESTION : {}".format(q))
+
+transition = "*"*70
 
 # on récupère le corpus prétraité (cf. script de parcours)
 corpus = pd.read_pickle("./corpuspd.pkl")
@@ -32,7 +43,7 @@ tfidf.fit(corpus.lemmes)
 # print(tfidf.vocabulary_)
 
 question = input("Posez une question : ")
-assert question, "Posez une question !!!!!"
+assert question, "Question vide"
 
 # appel phrase2conll pour gérer question
 q_lemmes = []
@@ -50,21 +61,19 @@ print(transition, "COSINE", transition)
 simCosine = metrics.pairwise.cosine_distances(tfidf.transform(corpus.lemmes),tfidf.transform([q_lemmes]))
 
 for sim in sorted(list(simCosine), reverse=False)[:nb_questions]:
-    q_sim = ' '.join(corpus.mots[list(simCosine).index(sim)])
-    print("DISTANCE : {},\nQUESTION : {}".format(sim[0], q_sim))
+    generer_visu(simCosine, sim)
+
 
 print(transition, "EUCLIDEAN", transition)
 
 simEuclidean = metrics.pairwise.euclidean_distances(tfidf.transform(corpus.lemmes),tfidf.transform([q_lemmes]))
 
 for sim in sorted(list(simEuclidean), reverse=False)[:nb_questions]:
-    q_sim = ' '.join(corpus.mots[list(simEuclidean).index(sim)])
-    print("DISTANCE : {},\nQUESTION : {}".format(sim[0], q_sim))
+    generer_visu(simEuclidean, sim)
 
 print(transition, "MANHATTAN", transition)
 
 simManhattan = metrics.pairwise.manhattan_distances(tfidf.transform(corpus.lemmes),tfidf.transform([q_lemmes]))
 
 for sim in sorted(list(simManhattan), reverse=False)[:nb_questions]:
-    q_sim = ' '.join(corpus.mots[list(simManhattan).index(sim)])
-    print("DISTANCE : {},\nQUESTION : {}".format(sim[0], q_sim))
+    generer_visu(simManhattan, sim)
