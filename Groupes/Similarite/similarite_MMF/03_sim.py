@@ -15,6 +15,11 @@ from prettytable import PrettyTable
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn import metrics
 
+def faux_tokeniseur(qqch):
+    """
+    permet d'éviter les prétraitements de scikit
+    """
+    return qqch
 
 def generer_visu(sim_matrix, sim):
     """
@@ -26,13 +31,13 @@ def generer_visu(sim_matrix, sim):
     print(tab)
     print("QUESTION : {}".format(q))
 
-transition = "*"*70
+sep = "-"*70
 
 # on récupère le corpus prétraité (cf. script de parcours)
 corpus = pd.read_pickle("./corpuspd.pkl")
 
-# on récupère le corpus prétraité (cf. script de parcours)
-tfidf = pickle.load(open("./tfidf.pkl"))
+tfidf_fit = pickle.load(open("./tfidf_fit.pickle", "rb"))
+tfidf_transform = pickle.load(open("./tfidf_transform.pickle","rb"))
 
 question = input("Posez une question : ")
 assert question, "Question vide"
@@ -48,24 +53,30 @@ nb_questions = int(input("Nombre de réponses à sélectionner (entre 1 et 10) :
 assert 0 < nb_questions < 11, "ENTRE 1 ET 10"
 
 # calcul et comparaison des similarités
-print(transition, "COSINE", transition)
+print(sep)
+print("COSINUS")
+print(sep)
 
-simCosine = metrics.pairwise.cosine_distances(tfidf.transform(corpus.lemmes),tfidf.transform([q_lemmes]))
+simCosine = metrics.pairwise.cosine_distances(tfidf_transform,tfidf_fit.transform([q_lemmes]))
 
 for sim in sorted(list(simCosine), reverse=False)[:nb_questions]:
     generer_visu(simCosine, sim)
 
 
-print(transition, "EUCLIDEAN", transition)
+print(sep)
+print("EUCLIDEAN")
+print(sep)
 
-simEuclidean = metrics.pairwise.euclidean_distances(tfidf.transform(corpus.lemmes),tfidf.transform([q_lemmes]))
+simEuclidean = metrics.pairwise.euclidean_distances(tfidf_transform,tfidf_fit.transform([q_lemmes]))
 
 for sim in sorted(list(simEuclidean), reverse=False)[:nb_questions]:
     generer_visu(simEuclidean, sim)
 
-print(transition, "MANHATTAN", transition)
+print(sep)
+print("MANHATTAN")
+print(sep)
 
-simManhattan = metrics.pairwise.manhattan_distances(tfidf.transform(corpus.lemmes),tfidf.transform([q_lemmes]))
+simManhattan = metrics.pairwise.manhattan_distances(tfidf_transform,tfidf_fit.transform([q_lemmes]))
 
 for sim in sorted(list(simManhattan), reverse=False)[:nb_questions]:
     generer_visu(simManhattan, sim)

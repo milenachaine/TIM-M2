@@ -3,5 +3,6 @@ Travail pour effectuer les recherches de similarité directement sur le corpus p
 ## Scripts de parcours : parcourir le corpus prétraité et le transformer en une Dataframe Pandas (id + lemmes + POS + mots)
 ## Scripts de calcul de similarité : permet de comparer trois types de similarités sur les questions du corpus 
 
-Pour l'instant : utiliser parcours_v2_dataframe_pickle_pos.py et tfidf_from_dataframe.py
-Après : utiliser les scripts numérotés
+01_parcours.py attend le dossier de corpus et le transforme en dataframe
+02_tfidf.py effectue l'essentiel du tf-idf et l'enregistre dans des pickles
+03_sim.py permet de traiter une question et de renvoyer différentes similarités à partir de ces pickles

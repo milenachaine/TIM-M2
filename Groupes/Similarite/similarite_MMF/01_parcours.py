@@ -15,6 +15,25 @@ import pickle
 
 # le chemin vers tous les fichiers conll
 
+sep = "-"*70
+message = "Usage : python3 {} <dossier comportant le corpus>".format(sys.argv[0])
+if len(sys.argv) != 2:
+	print(sep)
+	print("Nombre d'arguments incorrect")
+	print(message)
+	print(sep)
+	exit()
+elif not glob.glob(sys.argv[1]):
+	print(sep)
+	print("{} est introuvable".format(sys.argv[1]))
+	print(message)
+	print(sep)
+	exit()
+else:
+	print(sep)
+	print("Création d'une dataframe contenant le corpus dans corpuspd.pkl")
+	print(sep)
+
 path = sys.argv[1] + "/*/*/*/*.conll"
 print("Chemin vers le corpus : {}".format(path))
 folder_path = glob.glob(path)
@@ -86,7 +105,8 @@ for p in folder_path:
 test_dataframe = pd.DataFrame(liste_q)
 test_dataframe.to_pickle("./corpuspd.pkl")
 #print(id_fi)
-print("Format de la dataframe :\n{}".format(test_dataframe))
+print(sep)
+print("Format de la dataframe :\n{}".format(test_dataframe.head()))
 
 				
 

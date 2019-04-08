@@ -1,5 +1,6 @@
 """
-V.1 : utilisation du vectorizer TF-IDF de scikit-learn sur une dataframe pandas issue des prétraitements (cf. script de parcours)
+V.2 : splitter tfidfdataframe.py en deux scripts, un qui calcule les poids tf-idf et un qui gère la recherche de similarités
+utilisation du vectorizer TF-IDF de scikit-learn sur une dataframe pandas issue des prétraitements (cf. script de parcours)
 comparaison de similarités
 la question est prétraitée avec treetagger, cf. phrase2conll.py
 """
@@ -30,7 +31,7 @@ def generer_visu(sim_matrix, sim):
     print(tab)
     print("QUESTION : {}".format(q))
 
-transition = "*"*70
+sep = "-"*70
 
 # on récupère le corpus prétraité (cf. script de parcours)
 corpus = pd.read_pickle("./corpuspd.pkl")
@@ -56,7 +57,9 @@ nb_questions = int(input("Nombre de réponses à sélectionner (entre 1 et 10) :
 assert 0 < nb_questions < 11, "ENTRE 1 ET 10"
 
 # calcul et comparaison des similarités
-print(transition, "COSINE", transition)
+print(sep)
+print("COSINE")
+print(sep)
 
 simCosine = metrics.pairwise.cosine_distances(tfidf.transform(corpus.lemmes),tfidf.transform([q_lemmes]))
 
@@ -64,14 +67,18 @@ for sim in sorted(list(simCosine), reverse=False)[:nb_questions]:
     generer_visu(simCosine, sim)
 
 
-print(transition, "EUCLIDEAN", transition)
+print(sep)
+print("\nEUCLIDEAN")
+print(sep)
 
 simEuclidean = metrics.pairwise.euclidean_distances(tfidf.transform(corpus.lemmes),tfidf.transform([q_lemmes]))
 
 for sim in sorted(list(simEuclidean), reverse=False)[:nb_questions]:
     generer_visu(simEuclidean, sim)
 
-print(transition, "MANHATTAN", transition)
+print(sep)
+print("MANHATTAN")
+print(sep)
 
 simManhattan = metrics.pairwise.manhattan_distances(tfidf.transform(corpus.lemmes),tfidf.transform([q_lemmes]))
 

@@ -17,14 +17,22 @@ def faux_tokeniseur(qqch):
     """
     return qqch
 
+sep = "-"*70
 
 # on récupère le corpus prétraité (cf. script de parcours)
 corpus = pd.read_pickle("./corpuspd.pkl")
 
+print(sep)
 print("Format de la dataframe :\n{}".format(corpus.head()))
 
 # poids TF-IDF
 tfidf = TfidfVectorizer(analyzer='word',tokenizer=faux_tokeniseur,preprocessor=faux_tokeniseur,token_pattern=None)
-pickle.dump(tfidf.fit(corpus.lemmes), open("tfidf.pkl", "wb"))
-print("Vocabulaire TF-IDF :\n{}".format(tfidf.vocabulary_))
+tfidf_fit = tfidf.fit(corpus.lemmes)
+tfidf_transform = tfidf.transform(corpus.lemmes)
+
+pickle.dump(tfidf_fit,open("tfidf_fit.pickle", "wb"))
+pickle.dump(tfidf_transform, open("tfidf_transform.pickle", "wb"))
+
+print(sep)
+print("Vocabulaire TF-IDF :\n{}".format(tfidf_fit.vocabulary_))
 
