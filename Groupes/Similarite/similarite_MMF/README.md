@@ -1,8 +1,16 @@
-Travail pour effectuer les recherches de similarité directement sur le corpus prétraité + tester différents types de similarité + tester la génération de textes
+# Travail de recherche sur la similarité
 
-## Scripts de parcours : parcourir le corpus prétraité et le transformer en une Dataframe Pandas (id + lemmes + POS + mots)
-## Scripts de calcul de similarité : permet de comparer trois types de similarités sur les questions du corpus 
-
-01_parcours.py attend le dossier de corpus et le transforme en dataframe
-02_tfidf.py effectue l'essentiel du tf-idf et l'enregistre dans des pickles
-03_sim.py permet de traiter une question et de renvoyer différentes similarités à partir de ces pickles
+## Scripts de parcours :
+ - parcourir le corpus prétraité (arborescence de fichiers CONLL) et le transformer en une dataframe Pandas (id + lemmes + POS + mots)
+ - utilisation : python3 01_parcours.py dossier-contenant-le-corpus
+ - /!\ c'est très long, mieux vaut récupérer la dataframe sur le serveur
+ - commande : scp -r -P 2251 teamlaw@helium.lab.parisdescartes.fr:git-TIM-M2/Groupes/Similarite/similarite_MMF/corpuspd.pkl mon-dossier
+## Scripts de calcul de similarité :
+ - à partir de cette dataframe, on utilise scikit-learn pour calculer les poids tf-idf du corpus
+ - puis on prétraite et on calcule les poids de la question de l'utilisateur, avant de renvoyer les réponses les plus proches d'après trois mesures de similarité : Cosinus, Euclidean, Manhattan
+ - l'objectif étant de confirmer que la similarité Cosinus était bien la meilleure à utiliser pour l'interface
+ - utilisation : python3 02_tfidf.py // python3 03_sim.py
+## Scripts de génération de texte :
+ - utilise des chaînes de Markov pour générer des réponses
+ - à partir des réponses à ces questions similaires, on génère une réponse automatique
+ - utilisation : python3 04_gen.py

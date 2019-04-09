@@ -5,6 +5,59 @@ comparaison de similarités
 la question est prétraitée avec treetagger, cf. phrase2conll.py
 """
 import warnings
+import markovify
+import numpy as np
+import spacy
+import re
+import glob
+
+def generation(id_question):
+    #id_answer = id_question.replace("q", "a")
+    id_ = id_question.replace(id_question[8:], "")
+    dossier = glob.glob("corpus-test/"+id_+"/*.conll")
+
+    with open("corpus_wiki.txt", "r") as f:
+        text_a = f.read()
+        model_a = markovify.NewlineText(text_a)
+
+        mot_pos = ""
+
+        for file in dossier:
+            if "a" in file:
+                with open(file, "r") as answer:
+
+                    text_b = answer.read()
+                    text_b = text_b.split("\n")
+
+                    for line in text_b:
+                        line = line.split("\t")
+                        if len(line) == 3:
+                            mot_pos = mot_pos + line[0] + " "
+
+                    mot_pos = mot_pos + "."
+
+                    mot_pos = mot_pos.replace(" .", ".")
+                    mot_pos = mot_pos.replace("' ", "'")
+
+                    with open("answer.txt", "w") as answer_text:
+                        answer_text.write(mot_pos)
+                            #answer_text.close()
+
+                    with open("answer.txt", "r") as f2:
+                        text_b = f2.read()
+                        text_b = text_b.replace("\"", "")
+                        #return text_b
+                        model_b = markovify.NewlineText(text_b)
+                        model_combo = markovify.combine([ model_a, model_b ], [1, 3])
+
+                        answer1 = model_b.make_sentence(tries=100)
+
+                        answer2 = model_combo.make_sentence()
+
+                        if answer1 is not None:
+                            return answer1
+                        else:
+                            return answer2
 
 warnings.filterwarnings("ignore")
 
@@ -31,8 +84,11 @@ def generer_visu(mini_corpus):
         q = ' '.join(mini_corpus.loc[i, 'mots'])
         tab = PrettyTable(["ID", "DISTANCE"])
         tab.add_row([id, sim])
+        #reponse_gen, reponse_sim = generation(id)
         print(tab)
         print("QUESTION : {}".format(q))
+        print()
+        print("RÉPONSE : {}".format(generation(id)))
 
 sep = "-"*70
 

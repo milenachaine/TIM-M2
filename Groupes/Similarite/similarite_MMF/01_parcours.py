@@ -13,7 +13,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn import metrics
 import pickle
 
-# le chemin vers tous les fichiers conll
+
 
 sep = "-"*70
 message = "Usage : python3 {} <dossier comportant le corpus>".format(sys.argv[0])
@@ -43,13 +43,8 @@ folder_path = glob.glob(path)
 
 
 id_fi = []
-lists = []
-liste_q = [] # dico des questions : clé : id_fichier, valeur : liste des lemmes
 
-dic_q_r = {}
-
-str_m1 = []
-str_m2 = []
+liste_q = [] # liste globale des dico des questions
 
 
 
@@ -75,16 +70,17 @@ for p in folder_path:
 		
 			for file in files:
 				cols = file.rstrip('\n').split('\t')
-				if len(cols) == 3:
+				if len(cols) == 3: # ici on ignore les liste vides provoquant des erreurs du type : index out of range.
 				# on ajoute la colonnes des lemmes dans une liste
 					listlem.append(cols[2])
 					listw.append(cols[0])
 					listpos.append(cols[1])
-			#print(listlem)
+
 		# on parcourt la liste des id des fichiers 
 				for filename in id_fi:
-			# on crée un dic avec comme clé : id_fic et comme valeur : liste de lemmes du fic en question
-					#dico_q[filename] = istlem
+			# on crée un dic avec plusieurs clés et leurs valeurs 
+
+					
 					dico_q['id'] = filename
 					dico_q['lemmes'] = listlem
 					dico_q['mots'] = listw
@@ -95,16 +91,13 @@ for p in folder_path:
 
 
 
-	# puis, on met toutes les listes des lemmes dans une liste globale
-		#lists.append(listlem)
+	# puis, on met tous les dic dans une liste globale
+		
 		liste_q.append(dico_q)
 
-#print(lists)
-#print('\n')
-#print(liste_q)
 test_dataframe = pd.DataFrame(liste_q)
 test_dataframe.to_pickle("./corpuspd.pkl")
-#print(id_fi)
+
 print(sep)
 print("Format de la dataframe :\n{}".format(test_dataframe.head()))
 
