@@ -2,8 +2,13 @@
 
 echo "Retrieve corpora"
 cd Crawling
-[[ -f CorpusJuritravailVersion1.xml ]] || scp -oUser=teamlaw -P 2251 helium.lab.parisdescartes.fr:~/Corpus/CorpusJuritravailVersion1.xml CorpusJuritravailVersion1.xml
-[[ -f corpusIrisVersion4.xml ]] || scp -oUser=teamlaw -P 2251 helium.lab.parisdescartes.fr:~/Corpus/corpusIrisVersion4.xml corpusIrisVersion4.xml
+[[ -f CorpusJuritravailVersion1.xml ]] || scp  -P 2251 teamlaw@helium.lab.parisdescartes.fr:~/Corpus/CorpusJuritravailVersion1.xml .
+[[ -f corpusIrisVersion4.xml ]] || scp -P 2251 teamlaw@helium.lab.parisdescartes.fr:~/Corpus/corpusIrisVersion4.xml .
+
+echo "Retrieve preprocessed files"
+cd ../Pretraitement/
+[[ -d juritravail ]] || scp -r -P 2251 teamlaw@helium.lab.parisdescartes.fr:/home/chuanming/pretraitement/juritravail .
+[[ -d net-iris ]] || scp -r -P 2251 teamlaw@helium.lab.parisdescartes.fr:/home/chuanming/pretraitement/net-iris .
 
 echo "Prepare data and learn classifier"
 cd ../categorisation/
