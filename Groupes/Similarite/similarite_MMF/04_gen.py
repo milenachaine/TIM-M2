@@ -45,6 +45,7 @@ def generation(id_question):
 
                     with open("answer.txt", "r") as f2:
                         text_b = f2.read()
+                        text_b = text_b.replace("\"", "")
                         #return text_b
                         model_b = markovify.NewlineText(text_b)
                         model_combo = markovify.combine([ model_a, model_b ], [1, 3])
@@ -87,7 +88,7 @@ def generer_visu(mini_corpus):
         print(tab)
         print("QUESTION : {}".format(q))
         print()
-        print("RÉPONSE SIMILAIRE: {}".format(generation(id)))
+        print("RÉPONSE : {}".format(generation(id)))
 
 sep = "-"*70
 
