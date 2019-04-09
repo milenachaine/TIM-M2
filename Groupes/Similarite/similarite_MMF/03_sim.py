@@ -21,20 +21,24 @@ def faux_tokeniseur(qqch):
     """
     return qqch
 
-def generer_visu(sim_matrix, sim):
+def generer_visu(mini_corpus):
     """
     contrôle visualisation des similarités
     """
-    q = ' '.join(corpus.mots[list(sim_matrix).index(sim)])
-    tab = PrettyTable(["ID", "DISTANCE"])
-    tab.add_row([corpus.id[list(sim_matrix).index(sim)], sim[0]])
-    print(tab)
-    print("QUESTION : {}".format(q))
+    for i in mini_corpus.index:
+        id = mini_corpus.loc[i, 'id']
+        sim = mini_corpus.loc[i, 'simCosine']
+        q = ' '.join(mini_corpus.loc[i, 'mots'])
+        tab = PrettyTable(["ID", "DISTANCE"])
+        tab.add_row([id, sim])
+        print(tab)
+        print("QUESTION : {}".format(q))
 
 sep = "-"*70
 
 # on récupère le corpus prétraité (cf. script de parcours)
 corpus = pd.read_pickle("./corpuspd.pkl")
+corpus = corpus.set_index(pd.Index(range(0,len(corpus))))
 
 tfidf_fit = pickle.load(open("./tfidf_fit.pickle", "rb"))
 tfidf_transform = pickle.load(open("./tfidf_transform.pickle","rb"))
@@ -58,25 +62,35 @@ print("COSINUS")
 print(sep)
 
 simCosine = metrics.pairwise.cosine_distances(tfidf_transform,tfidf_fit.transform([q_lemmes]))
-
-for sim in sorted(list(simCosine), reverse=False)[:nb_questions]:
-    generer_visu(simCosine, sim)
-
+corpus['simCosine'] = simCosine
+corpus = corpus.sort_values(by=['simCosine'])
+repCosine = corpus[:nb_questions]
+generer_visu(repCosine)
 
 print(sep)
 print("EUCLIDEAN")
 print(sep)
 
 simEuclidean = metrics.pairwise.euclidean_distances(tfidf_transform,tfidf_fit.transform([q_lemmes]))
+corpus['simEuclidean'] = simEuclidean
+corpus = corpus.sort_values(by=['simEuclidean'])
+repEuclidean = corpus[:nb_questions]
+generer_visu(repEuclidean)
 
-for sim in sorted(list(simEuclidean), reverse=False)[:nb_questions]:
-    generer_visu(simEuclidean, sim)
-
+# for sim in sorted(list(simEuclidean), reverse=False)[:nb_questions]:
+#     generer_visu(simEuclidean, sim)
+#
 print(sep)
 print("MANHATTAN")
 print(sep)
 
 simManhattan = metrics.pairwise.manhattan_distances(tfidf_transform,tfidf_fit.transform([q_lemmes]))
+corpus['simManhattan'] = simManhattan
+corpus = corpus.sort_values(by=['simManhattan'])
+repManhattan = corpus[:nb_questions]
+generer_visu(repManhattan)
 
-for sim in sorted(list(simManhattan), reverse=False)[:nb_questions]:
-    generer_visu(simManhattan, sim)
+# for sim in sorted(list(simManhattan), reverse=False)[:nb_questions]:
+#     generer_visu(simManhattan, sim)
+
+corpus.drop(columns=['simCosine', 'simEuclidean', 'simManhattan'])
