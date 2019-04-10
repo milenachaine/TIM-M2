@@ -1,7 +1,7 @@
 """
 à partir d'une dataframe pandas, on apprend le vocabulaire tf-idf (poids globaux)
 on transforme le corpus à partir de ces poids
-on transfert ces informations dans deux pickles
+on transfère ces informations dans deux pickles
 """
 import warnings
 
