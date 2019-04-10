@@ -93,7 +93,7 @@ def generer_visu(mini_corpus):
         print("RÉPONSE : {}".format(generation(id)))
 
 sep = "-"*70
-message = "Usage : python3 {} <dataframe du corpus>".format(sys.argv[0])
+message = "Usage : python3 {} <dataframe du corpus> <chemin vers le corpus conll>".format(sys.argv[0])
 if len(sys.argv) != 3:
 	print(sep)
 	print("Nombre d'arguments incorrect")
