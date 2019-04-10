@@ -11,7 +11,7 @@
 * Classes
     * Distribution
     
-         <img src="distribution_par_classe.png" alt="distribution par classe" width="720">
+         <img src="img/distribution_par_classe.png" alt="distribution par classe" width="720">
          
     * *Mapping of lables*, cf [settings.py](settings.py)
         
@@ -136,7 +136,7 @@
     |  Ngram     | ***0.19*** | 0.72 | 0.75 |0.76 | 0.69 | **0.79** |
 
 * Matrice de confusion pour `SVM` + `lemma+pos`
-     <img src="matrice_de_confusions_lemma_pos_svm.png" alt="matrice_de_confusions_lemma_pos_svm" width="720">
+     <img src="img/matrice_de_confusions_lemma_pos_svm.png" alt="matrice_de_confusions_lemma_pos_svm" width="720">
 
 ---
 
