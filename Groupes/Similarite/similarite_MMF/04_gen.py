@@ -5,16 +5,26 @@ comparaison de similarités
 la question est prétraitée avec treetagger, cf. phrase2conll.py
 """
 import warnings
+
+warnings.filterwarnings("ignore")
+
 import markovify
 import numpy as np
 import spacy
 import re
 import glob
+import sys
+import pandas as pd
+import pickle
+import phrase2conll
+from prettytable import PrettyTable
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn import metrics
 
 def generation(id_question):
     #id_answer = id_question.replace("q", "a")
     id_ = id_question.replace(id_question[8:], "")
-    dossier = glob.glob("corpus-test/"+id_+"/*.conll")
+    dossier = glob.glob(sys.argv[2]+"/*/*/"+id_+"/*.conll")
 
     with open("corpus_wiki.txt", "r") as f:
         text_a = f.read()
@@ -59,14 +69,6 @@ def generation(id_question):
                         else:
                             return answer2
 
-warnings.filterwarnings("ignore")
-
-import pandas as pd
-import pickle
-import phrase2conll
-from prettytable import PrettyTable
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn import metrics
 
 def faux_tokeniseur(qqch):
     """
@@ -91,9 +93,34 @@ def generer_visu(mini_corpus):
         print("RÉPONSE : {}".format(generation(id)))
 
 sep = "-"*70
+message = "Usage : python3 {} <dataframe du corpus>".format(sys.argv[0])
+if len(sys.argv) != 3:
+	print(sep)
+	print("Nombre d'arguments incorrect")
+	print(message)
+	print(sep)
+	exit()
+elif not glob.glob(sys.argv[1]):
+	print(sep)
+	print("{} est introuvable".format(sys.argv[1]))
+	print(message)
+	print(sep)
+	exit()
+elif not glob.glob(sys.argv[2]):
+	print(sep)
+	print("{} est introuvable".format(sys.argv[2]))
+	print(message)
+	print(sep)
+	exit()
+else:
+	print(sep)
+	print("Ouverture de {} en cours".format(sys.argv[1]))
+	print(sep)
+
+corpuspd = sys.argv[1]
 
 # on récupère le corpus prétraité (cf. script de parcours)
-corpus = pd.read_pickle("./corpuspd.pkl")
+corpus = pd.read_pickle(corpuspd)
 corpus = corpus.set_index(pd.Index(range(0,len(corpus))))
 
 tfidf_fit = pickle.load(open("./tfidf_fit.pickle", "rb"))
@@ -133,9 +160,7 @@ corpus = corpus.sort_values(by=['simEuclidean'])
 repEuclidean = corpus[:nb_questions]
 generer_visu(repEuclidean)
 
-# for sim in sorted(list(simEuclidean), reverse=False)[:nb_questions]:
-#     generer_visu(simEuclidean, sim)
-#
+
 print(sep)
 print("MANHATTAN")
 print(sep)
@@ -145,8 +170,5 @@ corpus['simManhattan'] = simManhattan
 corpus = corpus.sort_values(by=['simManhattan'])
 repManhattan = corpus[:nb_questions]
 generer_visu(repManhattan)
-
-# for sim in sorted(list(simManhattan), reverse=False)[:nb_questions]:
-#     generer_visu(simManhattan, sim)
 
 corpus.drop(columns=['simCosine', 'simEuclidean', 'simManhattan'])
