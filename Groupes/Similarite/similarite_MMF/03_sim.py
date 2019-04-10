@@ -12,6 +12,8 @@ import pandas as pd
 import pickle
 import phrase2conll
 from prettytable import PrettyTable
+import glob
+import sys
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn import metrics
 
@@ -35,11 +37,30 @@ def generer_visu(mini_corpus):
         print("QUESTION : {}".format(q))
 
 sep = "-"*70
+message = "Usage : python3 {} <dataframe du corpus>".format(sys.argv[0])
+if len(sys.argv) != 2:
+	print(sep)
+	print("Nombre d'arguments incorrect")
+	print(message)
+	print(sep)
+	exit()
+elif not glob.glob(sys.argv[1]):
+	print(sep)
+	print("{} est introuvable".format(sys.argv[1]))
+	print(message)
+	print(sep)
+	exit()
+else:
+	print(sep)
+	print("Ouverture de {} en cours".format(sys.argv[1]))
+	print(sep)
 
+corpuspd = sys.argv[1]
 # on récupère le corpus prétraité (cf. script de parcours)
-corpus = pd.read_pickle("./corpuspd.pkl")
+corpus = pd.read_pickle(corpuspd)
 corpus = corpus.set_index(pd.Index(range(0,len(corpus))))
 
+# cf. 02_tfidf.py
 tfidf_fit = pickle.load(open("./tfidf_fit.pickle", "rb"))
 tfidf_transform = pickle.load(open("./tfidf_transform.pickle","rb"))
 
