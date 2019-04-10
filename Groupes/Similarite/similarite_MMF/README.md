@@ -14,4 +14,4 @@
 ## Scripts de génération de texte :
  - utilise des chaînes de Markov pour générer des réponses
  - à partir des réponses à ces questions similaires, on génère une réponse automatique
- - utilisation : **python3 04_gen.py**
+ - utilisation : **python3 04_gen.py dataframe-du-corpus**
