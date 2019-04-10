@@ -46,9 +46,9 @@
 			$( "#logs" ).on( "click", ".more", function() {
                 $('.complete').toggle(); 
 				if ( $(this).text() === ' Voir Plus' ){
-				$(this).replaceWith( '<span class="more"> Voir Moins</span></p>' );
+				$(this).replaceWith( '<span class="more"> Voir Moins</span>' );
 				}else{
-				$(this).replaceWith( '<span class="more"> Voir Plus</span></p>' );
+				$(this).replaceWith( '<span class="more"> Voir Plus</span>' );
 				}
             });
 			
@@ -103,10 +103,11 @@
 								$('#logs').append('<p id="bot">'+"La réponse apportée à l'époque avait été : </br>" + rep + "</p>");
 								/*J'efface la question ou je désactive les réponses*/
 								$('.question').remove();
+								$('#logs').append('<p id="bot">'+"Puis-je vous aider avec autre chose ?" + "</p>");
 							});
 							/*Réponse négative, je demande des éclaircissements*/
 							$('#non').click(function(){
-								$('#logs').append('<p id="bot">'+"Ré-expliquez moi alors, s'il-vous-plaît"+"</p>");
+								$('#logs').append('<p id="bot">'+"Toutes mes excuses, ré-expliquez moi s'il-vous-plaît"+"</p>");
 								/*J'efface la question ou je désactive les réponses*/
 								$('.question').remove();
 							});
