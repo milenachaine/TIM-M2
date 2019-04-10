@@ -52,8 +52,8 @@ def index():
 		
 		"""fonction Boyu pour enrichir msg"""
 		#msg = bold(re.sub('\n', '</br>', msg), dicoTerms)
-		question = bold(re.sub('\n', '</br>', bestQuestion['questions']), dicoTerms)
-		reponse = bold(re.sub('\n', '</br>', bestQuestion['answers']), dicoTerms)
+		question = bold(cut(re.sub('\n', '</br>', bestQuestion['questions']), dicoTerms), dicoTerms)
+		reponse = bold(cut(re.sub('\n', '</br>', bestQuestion['answers']), dicoTerms), dicoTerms)
 
 		#return jsonify({"messageU": msg, "juriClass": juriClass, "bestQuestion": question, "bestAnswer": reponse}), 201
 		return jsonify({"juriClass": decode_classe[juriClass], "bestQuestion": question, "bestAnswer": reponse}), 201
