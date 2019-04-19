@@ -60,14 +60,17 @@ def generation(id_question):
                         model_b = markovify.NewlineText(text_b)
                         model_combo = markovify.combine([ model_a, model_b ], [1, 3])
 
-                        answer1 = model_b.make_sentence(tries=100)
+                        answer1 = model_b.make_sentence(tries=140)
 
                         answer2 = model_combo.make_sentence()
 
+
                         if answer1 is not None:
                             return answer1
-                        else:
+                        elif answer2 is not None:
                             return answer2
+                        else:
+                            return "Désolée, je n'ai pas de réponse"
 
 
 def faux_tokeniseur(qqch):
