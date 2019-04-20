@@ -1,5 +1,13 @@
 # Travail de recherche sur la similarité
 
+## Modules et imports python nécessaires :
+ - **sklearn**, **numpy** (général)
+ - **glob** (parcours de répertoires et de fichiers)
+ - **pandas** (structure de données)
+ - **pickle** (stockage d'objets)
+ - **prettytable** (visualisation)
+ - **phrase2conll** (le script `phrase2conll.py` doit être présent dans le même répertoire que les scripts)
+ - **markovify** (génération de texte)
 ## Scripts de parcours :
  - parcourir le corpus prétraité (arborescence de fichiers CONLL) et le transformer en une dataframe Pandas (id + lemmes + POS + mots)
  - utilisation : `python3 01_parcours.py dossier-contenant-le-corpus`
