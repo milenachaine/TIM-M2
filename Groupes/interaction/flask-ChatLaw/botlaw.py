@@ -1,8 +1,8 @@
 # -*- coding: UTF-8 -*-
-from flask import Flask, request, render_template, abort, jsonify
 import uuid
 import re
 import os
+from flask import Flask, request, render_template, abort, jsonify
 from bold import *
 from test_question import getBestQuestion, predict
 try:
@@ -11,18 +11,22 @@ except ImportError:
     import xml.etree.ElementTree as ET
 
 
+#On initialise l'application Flask
 app = Flask(__name__)
+#La variable qui adapte les chemins à l'architecture
 path = os.path.dirname(os.path.realpath(__file__))+"/../../"
 
 #Le dictionnaire pour enregistrer les logs (non-exploité)
 discussions = {}
-#le dictionnaire nécéssaire au repérage des mots-clefs
+#Le dictionnaire nécéssaire au repérage des mots-clefs
 dicoTerms = constructDico(path+'/interaction/flask-ChatLaw/list_terms.txt')
-#le dictionnaire qui associe l'identifiant d'une question à l'URL source
+#Le dictionnaire qui associe l'identifiant d'une question son l'URL source
 dictID_url = {}
+#On le remplie
 mydoc = ET.ElementTree(file= path + 'Crawling/corpusIrisVersion4.xml')
 for e in mydoc.findall('//doc'):
     dictID_url[e.get('id')] = e.get('url')
+
 #Le dictionnaire qui permet d'afficher proprement le nom des classes
 decode_classe = {
     "imm" : "immobilier",
@@ -45,14 +49,15 @@ def index():
 			#Si le message est mal formé, on plante
 			abort(400)
 
-		#Sinon on récupère l'id de conversation et le message
+		#Sinon on récupère l'id de conversation et le message utilisateur
 		convID = request.json['convID']
 		msg = request.json['message']
 		#On note la nouvelle réplique dans les logs du serveurs
 		discussions.setdefault(convID, [])
 		discussions[convID].append( ("user", msg) )
 
-		"""recherche de la classe la plus probable, et de la question la plus similaire"""
+		"""Recherche de la classe la plus probable, 
+		et de la question la plus similaire"""
 		juriClass = predict(path+'/categorisation/modelIrisLP.mdl', msg)
 		bestQuestion = getBestQuestion(msg, juriClass)
 		#On récupère la question, sa réponse et l'URL source
@@ -75,14 +80,16 @@ def index():
 		reponse = cacherTexte(reponse)
 
 		
-		"""fonction Boyu pour enrichir msg"""
+		"""Recherche des mots-clef"""
 		question = bold(cut(re.sub('\n', '</br>', question), dicoTerms), dicoTerms)
 		reponse = bold(cut(re.sub('\n', '</br>', reponse), dicoTerms), dicoTerms)
 		
-
+		# Envoi la réponse du serveur, en Json
+		# (classe, question et reponse les +similaires, url)
 		return jsonify({"juriClass": decode_classe[juriClass], "url": url, "bestQuestion": question, "bestAnswer": reponse}), 201
 
 	return render_template("chatlaw.html", convID=uuid.uuid4()), 200
 
 if __name__ == "__main__":
-	app.run(debug=True)
+	app.run(debug=False) 
+	#debug doit être false à la mise en prod.

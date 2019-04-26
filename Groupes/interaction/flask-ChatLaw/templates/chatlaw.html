@@ -1,132 +1,133 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<!--metadonnées du projet-->
+		<title>Chatlaw</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+		<meta name="author" content="M2 IM 2018-2019" />
+		<!-- css et responsive-ness -->
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='chatroom.css') }}">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- JQuery -->
+		<script src="http://code.jquery.com/jquery-3.3.1.min.js"
+			integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
+		</script>
+	</head>
 
-<head>
-	<!--metadonnées du projet-->
-    <title>Chatlaw</title>
-    <meta charset="UTF-8">
-	<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <meta name="author" content="M2 IM 2018-2019" />
-	<!-- css et responsive-ness -->
-	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='chatroom.css') }}">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- JQuery -->
-    <script src="http://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
-	</script>
-</head>
-
-<body>
-    <div>
-		<div id="logsSup">
-			<!-- l'historique des répliques-->
-			<div id="logs">
-				<p id="bot">Bonjour, je suis Chatlaw, le conseiller juridique en ligne.<br/>Dites-moi ce qui vous amène...</p>
+	<body>
+		<div>
+			<div id="logsSup">
+				<!-- l'historique des répliques-->
+				<div id="logs">
+					<p id="bot">Bonjour, je suis Chatlaw, le conseiller juridique en ligne.<br/>Dites-moi ce qui vous amène...</p>
+				</div>
+				<!-- le GIF montrant que le bot n'a pas planté-->
+				<div id="loader">
+					<img src='https://wpamelia.com/wp-content/uploads/2018/11/ezgif-2-6d0b072c3d3f.gif'/>
+				</div>
+			</div>	
+			<!-- la boite de saisie et le bouton "envoyer" -->
+			<div class="message-box">
+				<textarea id="message" type="text" placeholder="Message"></textarea>
+				<button id="send">Envoyer</button>
 			</div>
-			<!-- le GIF montrant que le bot n'a pas planté-->
-			<div id="loader">
-				<img src='https://wpamelia.com/wp-content/uploads/2018/11/ezgif-2-6d0b072c3d3f.gif'/>
-			</div>
-		</div>	
-		<!-- la boite de saisie et le bouton "envoyer" -->
-		<div class="message-box">
-			<textarea id="message" type="text" placeholder="Message"></textarea>
-			<button id="send">Envoyer</button>
 		</div>
-    </div>
 
-    <script>
-        $(document).ready(function () {
-			/*On commence par cacher le GIF*/
-			$("#loader").hide();
-			/*On génère l'identifiant de session (et donc de la conversation)*/
-            convID = "{{ convID }}";
-
-			/*La fonction Voir Plus/Voir Moins */
-			$( "#logs" ).on( "click", ".more", function() {
-                $('.complete').toggle(); 
-				if ( $(this).text() === ' Voir Plus' ){
-				$(this).replaceWith( '<span class="more"> Voir Moins</span>' );
-				}else{
-				$(this).replaceWith( '<span class="more"> Voir Plus</span>' );
-				}
-            });
-			
-			/*La fonction contenant toutes les action à effectuer à chaque envoi de message*/
-            function send_message() {
-				/*On récupère le contenu du message, on vide le champs de saisie*/
-                var msg = $('#message').val();
-				$('#message').val('');
-                if (msg === '') {return} /*on vérifie qu'on a pas reçu une chaine vide*/
-				/*on affiche le message*/
-				$('#logs').append('<p id="user">' + msg + "</p>"); 
-				$('#logs').scrollTop( 1000000000 );
-                /*interraction avec le serveur*/
-                $.ajax({
-					/*Intendance : annonce de la méthode d'envoi et du contenu*/
-                    contentType: 'application/json',
-                    type: 'POST',
-                    data: JSON.stringify({ message: msg, convID: convID }),
-					/*Pendant que le serveur traite la demande, j'affiche le GIF-typing*/
-                    beforeSend: function(){$("#loader").show();},
-					success: function (data) {
-						/*J'affiche la classe produite*/
-                        $('#logs').append('<p id="bot">' +"Classe prédite : "+ data['juriClass'] + "</p>");
-						/*Gestion de l'affichage de la question la plus similaire*/
-						var quest = data['bestQuestion'];
-						$('#logs').append('<p id="bot">'+"Votre problème me rappelle celui-ci : </br>"+
-						'<a target="_blank" rel="noopener noreferrer" href="' + data['url'] + 
-						'">Voir en ligne</a></br>'+ quest+'</p>');
-						$(".complete").hide();
-						
-                        /*Gestion de l'affichage de la réponse*/
-						var rep = data['bestAnswer'];
-						/*Si on a pas de réponse, je l'annonce*/
-						if (rep === ''){
-							$('#logs').append('<p id="bot">'+"Aucune réponse n'avait été apportée à l'époque</p>");
-						}
-						else{
+		<!-- Le Jquery et l'Ajax -->
+		<script>
+			$(document).ready(function () {
+				/*Au chargement, on commence par cacher le GIF*/
+				$("#loader").hide();
+				/*On récupère l'identifiant de session (et donc de la conversation)*/
+				convID = "{{ convID }}"; /*Seul élément de template conservé*/
+				
+				
+				/*La fonction contenant toutes les action à effectuer à chaque envoi de message*/
+				function send_message() {
+					/*On récupère le contenu du message*/
+					var msg = $('#message').val();
+					$('#message').val('');/*on vide le champs de saisie*/
+					if (msg === '') {return} /*on vérifie qu'on a pas reçu une chaine vide*/
+					/*on inscrit le message à l'écran*/
+					$('#logs').append('<p id="user">' + msg + "</p>"); 
+					$('#logs').scrollTop( 1000000000 ); /*On descend en bas de la page*/
+					/*interraction avec le serveur*/
+					$.ajax({
+						/*Intendance : annonce de la méthode d'envoi et du contenu*/
+						contentType: 'application/json',
+						type: 'POST',
+						data: JSON.stringify({ message: msg, convID: convID }),
+						/*Pendant que le serveur traite la demande, j'affiche le GIF-typing*/
+						beforeSend: function(){$("#loader").show();},
+						success: function (data) {
+							/*J'affiche la classe produite*/
+							$('#logs').append('<p id="bot">' +"Classe prédite : "+ data['juriClass'] + "</p>");
+							/*Affichage de la question la plus similaire*/
+							var quest = data['bestQuestion'];
+							$('#logs').append('<p id="bot">'+"Votre problème me rappelle celui-ci : </br>"+
+							'<a target="_blank" rel="noopener noreferrer" href="' + data['url'] + 
+							'">Voir en ligne</a></br>'+ quest+'</p>');
+							$(".complete").hide();
+							
+							/*Gestion de l'affichage de la réponse*/
+							var rep = data['bestAnswer'];
+							/*Si la réponse est vide, c'est qu'on a pas de réponse dans la DB, je l'annonce*/
+							if (rep === ''){
+								$('#logs').append('<p id="bot">'+"Aucune réponse n'avait été apportée à l'époque</p>");
+							}
 							/*Sinon je demande à l'utilisateur s'il j'ai bien compris sa question*/
-							$('#logs').append('<p id="bot" class="question">Cela pourrait-il convenir ? <button id="oui">oui</button><button id="non">non</button></p>');
+							else{
+								$('#logs').append('<p id="bot" class="question">Cela pourrait-il convenir ? <button id="oui">oui</button><button id="non">non</button></p>');
+								$('#logs').scrollTop( 1000000000 );
+								/*Réponse positive, j'affiche la réponse*/
+								$('#oui').click(function(){
+									$('#logs').append('<p id="bot">'+"La réponse apportée à l'époque avait été : </br>" + rep + "</p>");
+									/*J'efface la question*/
+									$('.question').remove();
+									$('#logs').append('<p id="bot">'+"Puis-je vous aider avec autre chose ?" + "</p>");
+								});
+								/*Réponse négative, je demande des éclaircissements*/
+								$('#non').click(function(){
+									$('#logs').append('<p id="bot">'+"Toutes mes excuses, ré-expliquez moi s'il-vous-plaît"+"</p>");
+									/*J'efface la question*/
+									$('.question').remove();
+								});
+							}
 							$('#logs').scrollTop( 1000000000 );
-							/*Réponse positive, j'affiche la réponse*/
-							$('#oui').click(function(){
-								$('#logs').append('<p id="bot">'+"La réponse apportée à l'époque avait été : </br>" + rep + "</p>");
-								/*J'efface la question ou je désactive les réponses*/
-								$('.question').remove();
-								$('#logs').append('<p id="bot">'+"Puis-je vous aider avec autre chose ?" + "</p>");
-							});
-							/*Réponse négative, je demande des éclaircissements*/
-							$('#non').click(function(){
-								$('#logs').append('<p id="bot">'+"Toutes mes excuses, ré-expliquez moi s'il-vous-plaît"+"</p>");
-								/*J'efface la question ou je désactive les réponses*/
-								$('.question').remove();
-							});
-						}
-						$('#logs').scrollTop( 1000000000 );
-                    }, 
-					/*Je re-cache le GIF de chargement*/
-					complete:function(data){$("#loader").hide();}
-                });
-            }
-			/*Fin de la fonction à lancer à chaque envoi de message*/
-			
-			
-			/*La detection de l'envoi d'un message par l'utilisateur*/
-			/*en cliquant sur envoyer*/
-            $('#send').click(function () {
-                send_message();
-            });
-			/*en appuyant sur Enter (mais pas sur shift)*/
-            $('#message').on('keypress', function (e) {
-                if (e.which === 13 && !e.shiftKey) {
+						}, 
+						/*Je re-cache le GIF de chargement*/
+						complete:function(data){$("#loader").hide();}
+					});
+				}
+				/*Fin de la fonction à lancer à chaque envoi de message*/
+				
+				
+				/*La detection de l'envoi d'un message par l'utilisateur*/
+				/*en cliquant sur envoyer*/
+				$('#send').click(function () {
 					send_message();
-					return false;
-                }
-            });
+				});
+				/*en appuyant sur Enter (mais pas sur shift)*/
+				$('#message').on('keypress', function (e) {
+					if (e.which === 13 && !e.shiftKey) {
+						send_message();
+						return false;
+					}
+				});
+				
+				/*La fonction Voir Plus/Voir Moins */
+				$( "#logs" ).on( "click", ".more", function() {
+					$('.complete').toggle(); 
+					if ( $(this).text() === ' Voir Plus' ){
+					$(this).replaceWith( '<span class="more"> Voir Moins</span>' );
+					}else{
+					$(this).replaceWith( '<span class="more"> Voir Plus</span>' );
+					}
+				});
 
-        });
-    </script>
-</body>
+			});
+		</script>
+	</body>
 
 </html>
