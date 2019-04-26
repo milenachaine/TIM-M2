@@ -21,7 +21,7 @@
 		<div id="logsSup">
 			<!-- l'historique des répliques-->
 			<div id="logs">
-				<p id="bot">Coucou, je suis chatlaw, le conseiller juridique en ligne.<br/>Dites-moi ce qui vous amène...</p>
+				<p id="bot">Bonjour, je suis Chatlaw, le conseiller juridique en ligne.<br/>Dites-moi ce qui vous amène...</p>
 			</div>
 			<!-- le GIF montrant que le bot n'a pas planté-->
 			<div id="loader">
@@ -71,22 +71,13 @@
                     beforeSend: function(){$("#loader").show();},
 					success: function (data) {
 						/*J'affiche la classe produite*/
-                        $('#logs').append('<p id="bot">' +"Class prédite : </br>"+ data['juriClass'] + "</p>");
+                        $('#logs').append('<p id="bot">' +"Classe prédite : "+ data['juriClass'] + "</p>");
 						/*Gestion de l'affichage de la question la plus similaire*/
 						var quest = data['bestQuestion'];
-						if (quest.length > 100){
-							var debut = quest.substring(0, 100);
-							var fin = quest.substring(100);
-							$('#logs').append('<p id="bot">'+"Votre problème me rappelle celui-ci : </br>"+
-							'<span class="teaser">'+debut+'</span>'+
-							'<span class="complete">'+fin+'</span>'+
-							'<span class="more"> Voir Plus</span></p>');
-							$(".complete").hide();
-						}
-						else{
-							$('#logs').append('<p id="bot">'+"Votre problème me rappelle celui-ci : </br>"+quest+'</p>');
-						}
-						
+						$('#logs').append('<p id="bot">'+"Votre problème me rappelle celui-ci : </br>"+
+						'<a target="_blank" rel="noopener noreferrer" href="' + data['url'] + 
+						'">Voir en ligne</a></br>'+ quest+'</p>');
+						$(".complete").hide();
 						
                         /*Gestion de l'affichage de la réponse*/
 						var rep = data['bestAnswer'];

@@ -37,21 +37,18 @@ def predict(model, phrase):
     predicted_class = make_prediction(model, phrase)
     return predicted_class
 
+
 def getBestQuestion(question_utilisateur, juriclass="imm"):
     TfIdfQuestions_utilisateur = vectorizer.transform([question_utilisateur], True)
-
-
-    # print("Question utilisateur = ",question_utilisateur)
+	
     bestQuestionScore = None
     bestQuestionIndex = None
     for questionIndex in range (len(liste_questions)):
-        #print("    Question: ",liste_questions[questionIndex])
         # Ici on vérifie que la classe du document est bien celle qu'on veut
         index_doc = "iris" + str(questionIndex + 1)
         if DOC_CLASS[documents_Corpus.get(index_doc)['class'].lower()] == juriclass:
 
             simScore = metrics.pairwise.cosine_similarity(TfIdfQuestions[questionIndex], TfIdfQuestions_utilisateur[0])
-            #print ("        simScore: ",simScore)
             if not bestQuestionScore or simScore > bestQuestionScore:
                 bestQuestionScore = simScore
                 bestQuestionIndex = questionIndex
