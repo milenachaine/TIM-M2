@@ -24,7 +24,7 @@ dicoTerms = constructDico(path+'/interaction/flask-ChatLaw/list_terms.txt')
 dictID_url = {}
 #On le remplie
 mydoc = ET.ElementTree(file= path + 'Crawling/corpusIrisVersion4.xml')
-for e in mydoc.findall('//doc'):
+for e in mydoc.findall('.//doc'):
     dictID_url[e.get('id')] = e.get('url')
 
 #Le dictionnaire qui permet d'afficher proprement le nom des classes
