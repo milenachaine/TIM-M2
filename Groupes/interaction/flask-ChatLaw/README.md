@@ -4,12 +4,19 @@ Utilisation en local :
 	Les logs d'erreur s'affichent en fenêtre de commande
 
 Utilisation sur le serveur :
+	http://helium.lab.parisdescartes.fr:2252/chatlaw
+
+Mettre à jour sur le serveur : 
+	- ssh -l teamlaw -p 2251 helium.lab.parisdescartes.fr
+	Se placer dans le repertoire adéquat
 	- git pull
 	On reboot le serveur pour que les changements entrent en effet 
-		- sudo service apache2 restart
-	On va sur http://helium.lab.parisdescartes.fr:2252/chatlaw
+		- sudo service apache2 restart 
 	Les logs d'erreur sont à 
 		- sudo less /var/log/apache2/error.log
+Envoi / réception de fichiers par SCP (via SSH)
+$ scp -P 2251 envoi.txt helium.lab.parisdescartes.fr:~/nomdistant.txt
+$ scp -P 2251 helium.lab.parisdescartes.fr:~/nomdistant.txt recu.txt
 
 
 ARBORESCENCE :
