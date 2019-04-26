@@ -4,6 +4,12 @@
 * Membres
     * Chunyang JIANG et Yizhou XU
 
+## Slides
+[slides](doc/slides_categorisation_10042019.pdf)
+
+## Rapport
+[rapport](doc/rapport_categorisation_26042019.pdf)
+
 ## Jeu de données 
 * Source
     * La sortie `xml` du groupe crawling (irisV4)
