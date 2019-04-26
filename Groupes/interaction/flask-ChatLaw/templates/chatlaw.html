@@ -83,6 +83,7 @@
 								/*Réponse positive, j'affiche la réponse*/
 								$('#oui').click(function(){
 									$('#logs').append('<p id="bot">'+"La réponse apportée à l'époque avait été : </br>" + rep + "</p>");
+									$('.complete').hide();
 									/*J'efface la question*/
 									$('.question').remove();
 									$('#logs').append('<p id="bot">'+"Puis-je vous aider avec autre chose ?" + "</p>");
@@ -118,11 +119,13 @@
 				
 				/*La fonction Voir Plus/Voir Moins */
 				$( "#logs" ).on( "click", ".more", function() {
-					$('.complete').toggle(); 
+					/*$('.complete').toggle();*/
 					if ( $(this).text() === ' Voir Plus' ){
-					$(this).replaceWith( '<span class="more"> Voir Moins</span>' );
+						$('.more').replaceWith( '<span class="more"> Voir Moins</span>' );
+						$('.complete').show();
 					}else{
-					$(this).replaceWith( '<span class="more"> Voir Plus</span>' );
+						$('.more').replaceWith( '<span class="more"> Voir Plus</span>' );
+						$('.complete').hide();
 					}
 				});
 
