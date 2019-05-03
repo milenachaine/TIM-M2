@@ -15,16 +15,23 @@ FEAT_HELP = """FEATURES:
     token(default),
     lemma,
     lemma+pos,
-    ngram
 """
 
 # CLASSIFIER CONFIG
-# SVM CONFIG
+# SVM CONFIG SVC()
 SVM_CONFIG = {
     # 'multi_class': 'ovr',
     # 'penalty': 'l2',
-    'decision_function_shape': 'ovr'
+    'decision_function_shape': 'ovr',
+    'kernel': 'linear'
 }
+
+# # SVM CONFIG LinearSVC()
+# SVM_CONFIG = {
+#     'multi_class': 'ovr',
+#     'penalty': 'l2',
+#     # 'decision_function_shape': 'ovr'
+# }
 
 # RANDOM FOREST CONFIG
 RF_CONFIG = {
@@ -43,32 +50,45 @@ NB_CONFIG = {
     "norm": False
 }
 
+# regression logistique
 LR_CONFIG = {
+    "penalty": "l2",
+    "class_weight": "balanced",
+    "C": 0.1,
+    "fit_intercept": True,
+    "solver": "newton-cg",
+    "multi_class": "multinomial",
+}   # 0.76
 
-
-}
-
-GBDT_CONGIF = {
-
-
-}
-
-MLP_CONFIG = {
-
-}
+# GBDT_CONGIF = {
+#
+#
+# }
+#
+# MLP_CONFIG = {
+#
+# }
 
 CLF_PARAM = {
     "rf": RF_CONFIG,
     "svm": SVM_CONFIG,
-    "nb": NB_CONFIG,
+    # "nb": NB_CONFIG,
     "lr": LR_CONFIG,
-    "gbdt": GBDT_CONGIF,
-    "mlp": MLP_CONFIG,
+    # "gbdt": GBDT_CONGIF,
+    # "mlp": MLP_CONFIG,
     "dummy": dict(),
 }
+# CLF_HELP = """CLASSIFIERS:
+#     lr = logistic regression,
+#     rf = random forest,
+#     svm = linearSVC, linear support vector classification,
+#     nb = navie bayes,
+#     dummy(default) =  baseline classifier
+# """
+
 CLF_HELP = """CLASSIFIERS:
+    lr = logistic regression,
     rf = random forest,
-    svm = linearSVC, linear support vector classification,
-    nb = navie bayes,
+    svm = SVC, support vector classification,
     dummy(default) =  baseline classifier
 """

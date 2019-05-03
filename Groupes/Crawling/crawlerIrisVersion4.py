@@ -1,6 +1,7 @@
 import urllib.request
 from urllib.error import URLError, HTTPError, ContentTooShortError
 from bs4 import BeautifulSoup
+import chardet
 import math
 import time
 import re

@@ -1,21 +1,33 @@
 # -*- coding: UTF-8 -*-
-from flask import Flask, request, render_template, abort, jsonify
 import uuid
 import re
-from bold import * 
-
-app = Flask(__name__)
-
 import os
+from flask import Flask, request, render_template, abort, jsonify
+from bold import *
+from test_question import getBestQuestion, predict
+try:
+    import xml.etree.cElementTree as ET
+except ImportError:
+    import xml.etree.ElementTree as ET
+
+
+#On initialise l'application Flask
+app = Flask(__name__)
+#La variable qui adapte les chemins à l'architecture
 path = os.path.dirname(os.path.realpath(__file__))+"/../../"
 
-""" Un dictionnaire 
-{id_de_conversation_1 : [(locuteur, replique),(locuteur, replique), (locuteur, replique)],
-id_de_conversation_2 : [(locuteur, replique),(locuteur, replique)], 
-...}
-"""
+#Le dictionnaire pour enregistrer les logs (non-exploité)
 discussions = {}
+#Le dictionnaire nécéssaire au repérage des mots-clefs
 dicoTerms = constructDico(path+'/interaction/flask-ChatLaw/list_terms.txt')
+#Le dictionnaire qui associe l'identifiant d'une question son l'URL source
+dictID_url = {}
+#On le remplie
+mydoc = ET.ElementTree(file= path + 'Crawling/corpusIrisVersion4.xml')
+for e in mydoc.findall('.//doc'):
+    dictID_url[e.get('id')] = e.get('url')
+
+#Le dictionnaire qui permet d'afficher proprement le nom des classes
 decode_classe = {
     "imm" : "immobilier",
     "trv" : "travail",
@@ -26,7 +38,7 @@ decode_classe = {
     "ent" : "entreprise",
     "int" : "internet, téléphonie et prop. intellectuelle"
 }
-#dicoTerms = constructDico('list_terms.txt')
+
 
 @app.route("/", methods=['GET', 'POST'])
 def index():
@@ -34,31 +46,50 @@ def index():
 	if request.method == "POST":
 		#Vérification de la bonne formation du message reçu
 		if not request.json or not 'message' in request.json or not request.json['message'] or not 'convID' in request.json:
-			#On plante si le message est mal formé
+			#Si le message est mal formé, on plante
 			abort(400)
 
-		#Sinon on récupère l'id de conversation et le message
+		#Sinon on récupère l'id de conversation et le message utilisateur
 		convID = request.json['convID']
 		msg = request.json['message']
 		#On note la nouvelle réplique dans les logs du serveurs
 		discussions.setdefault(convID, [])
 		discussions[convID].append( ("user", msg) )
 
-		"""recherche de correspondance"""
-		from test_question import getBestQuestion, predict
+		"""Recherche de la classe la plus probable, 
+		et de la question la plus similaire"""
 		juriClass = predict(path+'/categorisation/modelIrisLP.mdl', msg)
 		bestQuestion = getBestQuestion(msg, juriClass)
+		#On récupère la question, sa réponse et l'URL source
+		question = bestQuestion['questions']
+		reponse = bestQuestion['answers']
+		url = dictID_url[bestQuestion['id']]
+		
+		"""implémentation des balises nécéssaires 
+		à la dissimulation d'une partie du texte """
+		def cacherTexte(txt) : 
+			mots = txt.split(' ')
+			if len(mots)<30 :
+				return txt
+			else : 
+				result = '<span class="teaser">'+' '.join(mots[:30])+'</span> '
+				result = result + '<span class="complete">'+' '.join(mots[30:])+'</span>'
+				result = result + '<span class="more"> Voir Plus</span>'
+				return result
+		question = cacherTexte(question)
+		reponse = cacherTexte(reponse)
 
 		
-		"""fonction Boyu pour enrichir msg"""
-		#msg = bold(re.sub('\n', '</br>', msg), dicoTerms)
-		question = bold(cut(re.sub('\n', '</br>', bestQuestion['questions']), dicoTerms), dicoTerms)
-		reponse = bold(cut(re.sub('\n', '</br>', bestQuestion['answers']), dicoTerms), dicoTerms)
-
-		#return jsonify({"messageU": msg, "juriClass": juriClass, "bestQuestion": question, "bestAnswer": reponse}), 201
-		return jsonify({"juriClass": decode_classe[juriClass], "bestQuestion": question, "bestAnswer": reponse}), 201
+		"""Recherche des mots-clef"""
+		question = bold(cut(re.sub('\n', '</br>', question), dicoTerms), dicoTerms)
+		reponse = bold(cut(re.sub('\n', '</br>', reponse), dicoTerms), dicoTerms)
+		
+		# Envoi la réponse du serveur, en Json
+		# (classe, question et reponse les +similaires, url)
+		return jsonify({"juriClass": decode_classe[juriClass], "url": url, "bestQuestion": question, "bestAnswer": reponse}), 201
 
 	return render_template("chatlaw.html", convID=uuid.uuid4()), 200
 
 if __name__ == "__main__":
-	app.run(debug=True)
+	app.run(debug=False) 
+	#debug doit être false à la mise en prod.

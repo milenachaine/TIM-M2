@@ -1,17 +1,20 @@
 """Classifier of legal textual documents.
-
-
-
+sk-learn version=0.20.3
+Pour des raisons de compatibilité, certains algos sont commenté/modifié
+LinearSVC ==> SVC
+ComplementNB ==> commenté
 """
 import argparse
 from argparse import RawTextHelpFormatter
 from sklearn import metrics
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
-from sklearn.svm import LinearSVC, SVC
+# from sklearn.svm import LinearSVC, SVC
+from sklearn.svm import SVC
+
 # from sklearn.naive_bayes import ComplementNB
 from sklearn.dummy import DummyClassifier
 from sklearn.linear_model import LogisticRegression
-from sklearn.neural_network import MLPClassifier
+# from sklearn.neural_network import MLPClassifier
 
 from sklearn.externals import joblib
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -29,8 +32,8 @@ CLF = {
     "svm": SVC,
 #     "nb": ComplementNB,
     "lr": LogisticRegression,
-    "gbdt": GradientBoostingClassifier,
-    "mlp": MLPClassifier,
+    # "gbdt": GradientBoostingClassifier,
+    # "mlp": MLPClassifier,
     "dummy": DummyClassifier
 }
 
@@ -51,8 +54,9 @@ def main():
         # max_features=int(args.feature_size) if args.feature_size else
         # FEATURE_SIZE,
         strip_accents='ascii',
-        max_df=0.6,
+        max_df=0.7,
         min_df=5,
+        # ngram_range=(1,3)
     )
     pipeline = Pipeline([
         ('tfidf', vectorizer),
@@ -76,13 +80,15 @@ def get_args():
     parser.add_argument('corpus')
     parser.add_argument(
         '-c', "--classifier",
-        choices=['rf', 'svm', 'nb', 'gbdt', 'lr', 'mlp', 'dummy'],
+        # choices=['rf', 'svm', 'nb', 'gbdt', 'lr', 'mlp', 'dummy'],
+        choices=['rf', 'svm', 'lr', 'dummy'],
+
         default='dummy',
         help=CLF_HELP
     )
     parser.add_argument(
         '-f', "--features",
-        choices=["token","lemma","lemma+pos","ngram"],
+        choices=["token","lemma","lemma+pos"],
         default="token",
         help=FEAT_HELP
     )
@@ -115,7 +121,7 @@ FEAT = {
     "token": get_token,
     "lemma": get_lemma,
     "lemma+pos": get_lp,
-    "ngram": get_ngram,
+    # "ngram": get_ngram,
 }
 
 if __name__ == "__main__":
